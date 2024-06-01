@@ -1,0 +1,863 @@
+[
+    {
+        "uniqueName": "/Lotus/Types/Game/ModularWeaponCosmeticEnhancer",
+        "name": "/Lotus/Language/Items/GenericCosmeticEnhancerName",
+        "codexSecret": true,
+        "excludeFromCodex": true
+    },
+    {
+        "uniqueName": "/Lotus/Types/Game/OperatorAmpCosmeticEnhancer",
+        "name": "/Lotus/Language/Items/GenericCosmeticEnhancerName",
+        "codexSecret": true,
+        "excludeFromCodex": true
+    },
+    {
+        "uniqueName": "/Lotus/Types/Game/OperatorCosmeticEnhancer",
+        "name": "/Lotus/Language/Items/GenericCosmeticEnhancerName",
+        "codexSecret": true,
+        "excludeFromCodex": true
+    },
+    {
+        "uniqueName": "/Lotus/Types/Game/WarframeAbilitiesCosmeticEnhancer",
+        "name": "/Lotus/Language/Items/GenericCosmeticEnhancerName",
+        "codexSecret": true,
+        "excludeFromCodex": true
+    },
+    {
+        "uniqueName": "/Lotus/Types/Game/WarframeArmorCosmeticEnhancer",
+        "name": "/Lotus/Language/Items/GenericCosmeticEnhancerName",
+        "codexSecret": true,
+        "excludeFromCodex": true
+    },
+    {
+        "uniqueName": "/Lotus/Types/Game/WarframeCompanionCosmeticEnhancer",
+        "name": "/Lotus/Language/Items/GenericCosmeticEnhancerName",
+        "codexSecret": true,
+        "excludeFromCodex": true
+    },
+    {
+        "uniqueName": "/Lotus/Types/Game/WarframeCosmeticEnhancer",
+        "name": "/Lotus/Language/Items/GenericCosmeticEnhancerName",
+        "codexSecret": true,
+        "excludeFromCodex": true
+    },
+    {
+        "uniqueName": "/Lotus/Types/Game/WarframeEnergyCosmeticEnhancer",
+        "name": "/Lotus/Language/Items/GenericCosmeticEnhancerName",
+        "codexSecret": true,
+        "excludeFromCodex": true
+    },
+    {
+        "uniqueName": "/Lotus/Types/Game/WarframeHealthCosmeticEnhancer",
+        "name": "/Lotus/Language/Items/GenericCosmeticEnhancerName",
+        "codexSecret": true,
+        "excludeFromCodex": true
+    },
+    {
+        "uniqueName": "/Lotus/Types/Game/WarframeMovementCosmeticEnhancer",
+        "name": "/Lotus/Language/Items/GenericCosmeticEnhancerName",
+        "codexSecret": true,
+        "excludeFromCodex": true
+    },
+    {
+        "uniqueName": "/Lotus/Types/Game/WarframeResistanceCosmeticEnhancer",
+        "name": "/Lotus/Language/Items/GenericCosmeticEnhancerName",
+        "codexSecret": true,
+        "excludeFromCodex": true
+    },
+    {
+        "uniqueName": "/Lotus/Types/Game/WarframeShieldsCosmeticEnhancer",
+        "name": "/Lotus/Language/Items/GenericCosmeticEnhancerName",
+        "codexSecret": true,
+        "excludeFromCodex": true
+    },
+    {
+        "uniqueName": "/Lotus/Types/Game/WarframeSpecialCosmeticEnhancer",
+        "name": "/Lotus/Language/Items/GenericCosmeticEnhancerName",
+        "codexSecret": true,
+        "excludeFromCodex": true
+    },
+    {
+        "uniqueName": "/Lotus/Types/Game/WarframeWeapDmgCosmeticEnhancer",
+        "name": "/Lotus/Language/Items/GenericCosmeticEnhancerName",
+        "codexSecret": true,
+        "excludeFromCodex": true
+    },
+    {
+        "uniqueName": "/Lotus/Types/Game/WarframeWeapStatsCosmeticEnhancer",
+        "name": "/Lotus/Language/Items/GenericCosmeticEnhancerName",
+        "codexSecret": true,
+        "excludeFromCodex": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/ArmourOnDamage",
+        "name": "/Lotus/Language/Items/ArmourOnDamageName",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/CorrosiveProcResist",
+        "name": "/Lotus/Language/Items/CorrosiveProcResistName",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/CritChanceOnDamage",
+        "name": "/Lotus/Language/Items/CritChanceOnDamageName",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/DamageResistanceStacksOverTime",
+        "name": "/Lotus/Language/Upgrades/DamageResistanceStacksOverTime",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/ElectricityProcResist",
+        "name": "/Lotus/Language/Items/ElectricityProcResistName",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/FireProcResist",
+        "name": "/Lotus/Language/Items/FireProcResistName",
+        "codexSecret": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/FreezeProcResist",
+        "name": "/Lotus/Language/Items/FreezeProcResistName",
+        "codexSecret": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/GasProcResist",
+        "name": "/Lotus/Language/Items/GasProcResistName",
+        "codexSecret": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/GolemArcaneShieldRegenOnDamage",
+        "name": "/Lotus/Language/Items/ShieldRegenOnDamageName",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/HealthRegenOnDamage",
+        "name": "/Lotus/Language/Items/HealthRegenOnDamageName",
+        "codexSecret": true,
+        "rarity": "LEGENDARY"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/ImpactProcResist",
+        "name": "/Lotus/Language/Items/ImpactProcResistName",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/IncreaseMaxHealthOnHealthPickup",
+        "name": "/Lotus/Language/Arcanes/IncreaseMaxHealthOnHealthPickup",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/InstantShieldOnDamage",
+        "name": "/Lotus/Language/Items/InstantShieldOnDamageName",
+        "codexSecret": true,
+        "rarity": "LEGENDARY"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/MagneticProcResist",
+        "name": "/Lotus/Language/Items/MagneticProcResistName",
+        "codexSecret": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/PoisonProcResist",
+        "name": "/Lotus/Language/Items/PoisonProcResistName",
+        "codexSecret": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/PunctureProcResist",
+        "name": "/Lotus/Language/Items/PunctureProcResistName",
+        "codexSecret": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/RadiationProcResist",
+        "name": "/Lotus/Language/Items/RadiationProcResistName",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/SlashProcResist",
+        "name": "/Lotus/Language/Items/SlashProcResistName",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/SpeedOnDamage",
+        "name": "/Lotus/Language/Items/SpeedOnDamageName",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/SpeedOnParry",
+        "name": "/Lotus/Language/Items/SpeedOnParryName",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AbilityStrengthOnCast",
+        "name": "/Lotus/Language/Arcanes/AbilityStrengthOnCast",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AmmoEfficiencyOnPistolHeadshot",
+        "name": "/Lotus/Language/Items/PistolHeadshotKillAmmoEfficiency",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AmmoEfficiencyOnSliding",
+        "name": "/Lotus/Language/Arcanes/AmmoEfficiencyOnSlidingName",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ArmorOnHeavyGunEquipped",
+        "name": "/Lotus/Language/Items/ArmorOnHeavyGunEquipped",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ChannelKillEnergyRate",
+        "name": "/Lotus/Language/Arcanes/ChannelKillEnergyRate",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/CompanionDamageOnResidualContact",
+        "name": "/Lotus/Language/Arcanes/CompanionDamageOnResidualContact",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/CritChannelingDamage",
+        "name": "/Lotus/Language/Arcanes/CritChannelingDamage",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/EyeInTheSky",
+        "name": "/Lotus/Language/Arcanes/EyeInTheSky",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/FinisherLifesteal",
+        "name": "/Lotus/Language/Arcanes/FinisherLifesteal",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneArmorOnFinisher",
+        "name": "/Lotus/Language/Items/ArmourOnFinisherName",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneMeleeDamageOnCrit",
+        "name": "/Lotus/Language/Items/MeleeDamageOnCritName",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcanePistolDamageOnHeadshot",
+        "name": "/Lotus/Language/Items/PistolDamageOnHeadshotName",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcanePistolSpeedOnCrit",
+        "name": "/Lotus/Language/Items/PistolSpeedOnCritName",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneShotgunSpeedOnCrit",
+        "name": "/Lotus/Language/Items/ShotgunSpeedOnCritName",
+        "codexSecret": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneSniperSpeedOnCrit",
+        "name": "/Lotus/Language/Items/SniperSpeedOnCritName",
+        "codexSecret": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GroundSlamPull",
+        "name": "/Lotus/Language/Arcanes/GroundSlamPull",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/HealCompanionOnSixMeleeKills",
+        "name": "/Lotus/Language/Items/HealCompanionOnSixMeleeKills",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/HealthRegenOnHeadshot",
+        "name": "/Lotus/Language/Items/HealthRegenOnHeadshotName",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/InvisibilityOnFinisher",
+        "name": "/Lotus/Language/Items/InvisibilityOnFinisherName",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/LongGunDamageOnHeadshot",
+        "name": "/Lotus/Language/Items/LongGunDamageOnHeadshotName",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/LongGunSpeedOnCrit",
+        "name": "/Lotus/Language/Items/LongGunSpeedOnCritName",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/LongbowDamageOnHeadshot",
+        "name": "/Lotus/Language/Arcanes/LongbowDamageOnHeadshot",
+        "codexSecret": true,
+        "rarity": "LEGENDARY"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeArcaneProjectileOnJump",
+        "name": "/Lotus/Language/Arcanes/MeleeArcaneProjectileOnJump",
+        "codexSecret": true,
+        "rarity": "LEGENDARY"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeArcaneShockwaveOnJump",
+        "name": "/Lotus/Language/Arcanes/MeleeArcaneShockwaveOnJump",
+        "codexSecret": true,
+        "rarity": "LEGENDARY"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeDamageOnCrit",
+        "name": "/Lotus/Language/Items/MeleeDamageOnCritName",
+        "codexSecret": true,
+        "excludeFromCodex": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeDmgOnRifleKill",
+        "name": "/Lotus/Language/Items/MeleeDmgOnRifleKill",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeSpeedOnHit",
+        "name": "/Lotus/Language/Items/MeleeSpeedOnHitName",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MultishotForCombo",
+        "name": "/Lotus/Language/Arcanes/CriticalChanceForComboName",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OperatorHeavyMeleeDamageOnTransference",
+        "name": "/Lotus/Language/Arcanes/OperatorHeavyMeleeDamageOnTransference",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OrbsOnResidualContact",
+        "name": "/Lotus/Language/Arcanes/StatusProjectilesOnResidualContact",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PowerStrengthOnKill",
+        "name": "/Lotus/Language/Arcanes/PowerStrengthOnKill",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryCritDmgAndMultishotOnColdProc",
+        "name": "/Lotus/Language/Arcanes/PrimaryCritDmgAndMultishotOnColdProc",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryDamageOnKill",
+        "name": "/Lotus/Language/Arcanes/PrimaryDamageOnKill",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryDamageOnMeleeKill",
+        "name": "/Lotus/Language/Arcanes/PrimaryDamageOnMeleeKill",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryDamageOnNoMelee",
+        "name": "/Lotus/Language/Arcanes/PrimaryDamageOnPrecisionHeadshotKill",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryDamagePerAmmoOnReload",
+        "name": "/Lotus/Language/Upgrades/PrimaryDamagePerAmmoOnReload",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryDmgOnMeleeKill",
+        "name": "/Lotus/Language/Items/PrimaryDmgOnMeleeKill",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryEnergyRegenOnImpactProc",
+        "name": "/Lotus/Language/Arcanes/PrimaryEnergyRegenOnImpactProc",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryHeadshotCritMultOnHeadshot",
+        "name": "/Lotus/Language/Arcanes/PrimaryHeadshotCritMultOnHeadshot",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryJamEnemyWeaponsOnMagneticProc",
+        "name": "/Lotus/Language/Arcanes/PrimaryJamEnemyWeaponsOnMagneticProc",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryCritChancePerBuff",
+        "name": "/Lotus/Language/Arcanes/CritChancePerAllyBuffName",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryDamageOnHeatProc",
+        "name": "/Lotus/Language/Arcanes/SecondaryDamageOnHeatProc",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryDamageOnKill",
+        "name": "/Lotus/Language/Arcanes/SecondaryDamageOnKill",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryDamageOnMeleeKill",
+        "name": "/Lotus/Language/Arcanes/SecondaryDamageOnMeleeKill",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryDamageOnNoMelee",
+        "name": "/Lotus/Language/Arcanes/SecondaryDamageOnPrecisionHeadshotKill",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryExtraDamagePerFreezeStack",
+        "name": "/Lotus/Language/Arcanes/SecondaryExtraDamagePerFreezeStack",
+        "codexSecret": true,
+        "rarity": "LEGENDARY"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryReloadSpeedAndMultishotOnElectricProc",
+        "name": "/Lotus/Language/Arcanes/SecondaryReloadSpeedAndMultishotOnElectricProc",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SeekerProjOnHeadshotKill",
+        "name": "/Lotus/Language/Arcanes/SeekerProjOnHeadshotKillName",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ShotgunMultishotAndReloadSpeedOnCloseKill",
+        "name": "/Lotus/Language/Arcanes/ShotgunMultishotAndReloadSpeedOnCloseKill",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/StatusChannelingDamage",
+        "name": "/Lotus/Language/Arcanes/StatusChannelingDamage",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/StatusTriggerRadialDamage",
+        "name": "/Lotus/Language/Arcanes/StatusTriggerRadialDamage",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/WeaponDamageOnResidualContact",
+        "name": "/Lotus/Language/Arcanes/WeaponDamageOnResidualContact",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/AttackSpeedOnKill",
+        "name": "/Lotus/Language/Arcanes/AttackSpeedOnKill",
+        "codexSecret": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/CriticalChanceOnHeadshot",
+        "name": "/Lotus/Language/Arcanes/CriticalChanceOnHeadshot",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/IncreasedCriticalDamageOnCriticalStrike",
+        "name": "/Lotus/Language/Arcanes/IncreasedCriticalDamageOnCriticalStrike",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/IncreasedDamageOnStatusProc",
+        "name": "/Lotus/Language/Arcanes/IncreasedDamageOnStatusProc",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/OperatorAmmoRegenOnKill",
+        "name": "/Lotus/Language/Arcanes/OperatorAmmoRegenOnKill",
+        "codexSecret": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/StatusChanceOnHeadshot",
+        "name": "/Lotus/Language/Arcanes/StatusChanceOnHeadshot",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/VoidToElectricDamage",
+        "name": "/Lotus/Language/Arcanes/VoidToElectricDamage",
+        "codexSecret": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/VoidToHeatDamage",
+        "name": "/Lotus/Language/Arcanes/VoidToHeatDamage",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/VoidToPunctureDamage",
+        "name": "/Lotus/Language/Arcanes/VoidToPunctureDamage",
+        "codexSecret": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/VoidToViralDamage",
+        "name": "/Lotus/Language/Arcanes/VoidToViralDamage",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/ArmourOnOperatorMode",
+        "name": "/Lotus/Language/Arcanes/ArmourOnOperatorMode",
+        "codexSecret": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/DamageReductionOnVoidMode",
+        "name": "/Lotus/Language/Arcanes/DamageReductionOnVoidMode",
+        "codexSecret": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealOnTransferenceIn",
+        "name": "/Lotus/Language/Arcanes/HealOnTransferenceIn",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealOnTransferenceOut",
+        "name": "/Lotus/Language/Arcanes/HealOnTransferenceOut",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealOnVoidDash",
+        "name": "/Lotus/Language/Arcanes/HealOnVoidDash",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealOnVoidMode",
+        "name": "/Lotus/Language/Arcanes/HealOnVoidMode",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealthOnOperatorMode",
+        "name": "/Lotus/Language/Arcanes/HealthOnOperatorMode",
+        "codexSecret": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealthRegenAndArmorOnMeleeKill",
+        "name": "/Lotus/Language/Arcanes/HealthRegenAndArmorOnMeleeKill",
+        "codexSecret": true,
+        "rarity": "LEGENDARY"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HeatDamageOnDash",
+        "name": "/Lotus/Language/Arcanes/HeatDamageOnDash",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HeatResistOnBlast",
+        "name": "/Lotus/Language/Arcanes/HeatResistOnBlast",
+        "codexSecret": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HoverboardSpeedOnTransferenceIn",
+        "name": "/Lotus/Language/Arcanes/HoverboardSpeedOnTransferenceIn",
+        "codexSecret": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/ImmunityFallDamageOnVoidDash",
+        "name": "/Lotus/Language/Arcanes/ImmunityFallDamageOnVoidDash",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/NoPenaltyOnDeath",
+        "name": "/Lotus/Language/Arcanes/NoPenaltyOnDeath",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/ProcResistOnBlast",
+        "name": "/Lotus/Language/Arcanes/ProcResistOnBlast",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/PullOnTransferenceIn",
+        "name": "/Lotus/Language/Arcanes/PullOnTransferenceIn",
+        "codexSecret": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/ReverseOnDash",
+        "name": "/Lotus/Language/Arcanes/ReverseOnDash",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/RobotStunOnBlast",
+        "name": "/Lotus/Language/Arcanes/RobotStunOnBlast",
+        "codexSecret": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/SpeedOnVoidDash",
+        "name": "/Lotus/Language/Arcanes/SpeedOnVoidDash",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/TetherMineOnDash",
+        "name": "/Lotus/Language/Arcanes/TetherMineOnDash",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/BulletToBattery",
+        "name": "/Lotus/Language/Arcanes/BulletToBattery",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/BurningCystOnKill",
+        "name": "/Lotus/Language/Arcanes/BurningCystOnKill",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/DamageReductionDuringRevive",
+        "name": "/Lotus/Language/Items/DamageReductionDuringReviveName",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/EnergyEfficiencyOnHeadshot",
+        "name": "/Lotus/Language/Arcanes/EnergyEfficiency",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/ExtraProcOnProc",
+        "name": "/Lotus/Language/Upgrades/ExtraProcOnProc",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/GolemArcaneAimGlideOnHeadshot",
+        "name": "/Lotus/Language/Items/AimGlideOnHeadshotName",
+        "codexSecret": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/GolemArcaneBonusDamageOnWallLatch",
+        "name": "/Lotus/Language/Items/BonusDamageOnWallLatchName",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/GolemArcaneRadialEnergyOnEnergyPickup",
+        "name": "/Lotus/Language/Items/RadialEnergyOnEnergyPickupName",
+        "codexSecret": true,
+        "rarity": "LEGENDARY"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/HealAlliesOnEnergySpent",
+        "name": "/Lotus/Language/Arcanes/HealAlliesOnEnergySpent",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/HealthWhileUsingChanneledAbilities",
+        "name": "/Lotus/Language/Arcanes/HealthWhileUsingChanneledAbilities",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/IceMistOnKill",
+        "name": "/Lotus/Language/Arcanes/IceMistOnKill",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/LightningStrikeOnKill",
+        "name": "/Lotus/Language/Arcanes/LightningStrikeOnKill",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/LongGunDamageOnReload",
+        "name": "/Lotus/Language/Arcanes/LongGunDamageOnReload",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/NoCostCastChanceOnCast",
+        "name": "/Lotus/Language/Upgrades/NoCostCastChanceOnCast",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/PistolDamageOnReload",
+        "name": "/Lotus/Language/Items/PistolDamageOnReloadName",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/RadialHealOnHealthPickup",
+        "name": "/Lotus/Language/Items/RadialHealOnHealthPickupName",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/RadialKnockdownOnEnergyPickup",
+        "name": "/Lotus/Language/Items/RadialKnockdownOnEnergyPickupName",
+        "codexSecret": true,
+        "rarity": "UNCOMMON"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/SlowerBleedOutOnPredeath",
+        "name": "/Lotus/Language/Items/SlowerBleedOutOnPreDeathName",
+        "codexSecret": true
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/ToxicBloodOnKill",
+        "name": "/Lotus/Language/Arcanes/ToxicBloodOnKill",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/AmpOnEnergyDepletedCritChance",
+        "name": "/Lotus/Language/Arcanes/AmpOnEnergyDepletedCritChance",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/AmpOnVoidSlingAmpAmmoEfficiency",
+        "name": "/Lotus/Language/Arcanes/AmpOnVoidSlingAmpAmmoEfficiency",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/EnergyOnGhostDissipate",
+        "name": "/Lotus/Language/Arcanes/OperatorEnergyOnGhostDissipate",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/OperatorOnDeathInvulnerability",
+        "name": "/Lotus/Language/Arcanes/OperatorOnDeathInvulnerability",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/OperatorOnEnergyDepletedRegenEnergy",
+        "name": "/Lotus/Language/Arcanes/OperatorOnEnergyDepletedRegenEnergy",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/OperatorOnOperatorAbilityIncreaseDamage",
+        "name": "/Lotus/Language/Arcanes/OperatorOnOperatorCastIncreaseDamage",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/PrimaryOnAbilityReloadSpeed",
+        "name": "/Lotus/Language/Arcanes/PrimaryOnAbilityReloadSpeed",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/SecondaryOnOvershieldCritChance",
+        "name": "/Lotus/Language/Arcanes/SecondaryOnOvershieldCritChance",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/SecondaryOnRollCritChanceOnHeadshot",
+        "name": "/Lotus/Language/Arcanes/SecondaryOnRollCritChanceOnHeadshot",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/SecondaryOnStatusProcBonusDamage",
+        "name": "/Lotus/Language/Arcanes/SecondaryOnStatusProcBonusDamage",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/WarframeOnOperatorAbilityPowerStrength",
+        "name": "/Lotus/Language/Arcanes/WarframeOnOperatorAbilityPowerStrength",
+        "codexSecret": true,
+        "rarity": "RARE"
+    },
+    {
+        "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/WarframeOnShieldUptimePowerDuration",
+        "name": "/Lotus/Language/Arcanes/WarframeOnShieldUptimePowerDuration",
+        "codexSecret": true,
+        "rarity": "RARE"
+    }
+]
