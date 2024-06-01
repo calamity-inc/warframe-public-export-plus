@@ -1,0 +1,4147 @@
+[
+    {
+        "uniqueName": "/Lotus/Powersuits/Archwing/SupportJetPack/SupportJetPack",
+        "name": "/Lotus/Language/Items/SupportArchwingName",
+        "parentName": "/Lotus/Types/Game/FlightJetPackItems/PlayerFlightJetPackItem",
+        "description": "/Lotus/Language/Items/SupportArchwingDesc",
+        "health": 650,
+        "shield": 220,
+        "armor": 195,
+        "stamina": 150,
+        "power": 220,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.1,
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/SupportDronesAbility",
+                "abilityName": "/Lotus/Language/Items/SupportDronesAbilityName",
+                "description": "/Lotus/Language/Items/SupportDronesAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/SupportAnchorsAbility",
+                "abilityName": "/Lotus/Language/Items/SupportAnchorsAbilityName",
+                "description": "/Lotus/Language/Items/SupportAnchorsAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/SupportWardAbility",
+                "abilityName": "/Lotus/Language/Items/SupportWardAbilityName",
+                "description": "/Lotus/Language/Items/SupportWardAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/SupportEnergyAbility",
+                "abilityName": "/Lotus/Language/Items/SupportEnergyAbilityName",
+                "description": "/Lotus/Language/Items/SupportEnergyAbilityDesc"
+            }
+        ],
+        "productCategory": "SpaceSuits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Archwing/StealthJetPack/StealthJetPack",
+        "name": "/Lotus/Language/Items/StealthArchwingName",
+        "parentName": "/Lotus/Types/Game/FlightJetPackItems/PlayerFlightJetPackItem",
+        "description": "/Lotus/Language/Items/StealthArchwingDesc",
+        "health": 200,
+        "shield": 220,
+        "armor": 50,
+        "stamina": 500,
+        "power": 220,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.2,
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/GrappleHookAbility",
+                "abilityName": "/Lotus/Language/Items/StealthArchwingRiplineName",
+                "description": "/Lotus/Language/Items/StealthArchwingRiplineDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/CloakingAbility",
+                "abilityName": "/Lotus/Language/Items/StealthArchwingCloakingName",
+                "description": "/Lotus/Language/Items/StealthArchwingCloakingDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/GravitationalInstabilityAbility",
+                "abilityName": "/Lotus/Language/Items/StealthArchwingGravInstabilityName",
+                "description": "/Lotus/Language/Items/StealthArchwingGravInstabilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/DistractionDronesAbility",
+                "abilityName": "/Lotus/Language/Items/StealthArchwingDistractionDronesName",
+                "description": "/Lotus/Language/Items/StealthArchwingDistractionDronesDesc"
+            }
+        ],
+        "productCategory": "SpaceSuits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Archwing/StandardJetPack/StandardJetPack",
+        "name": "/Lotus/Language/Items/StandardArchwingName",
+        "parentName": "/Lotus/Types/Game/FlightJetPackItems/PlayerFlightJetPackItem",
+        "description": "/Lotus/Language/Items/StandardArchwingDesc",
+        "health": 425,
+        "shield": 430,
+        "armor": 100,
+        "stamina": 200,
+        "power": 85,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/FireShieldAbility",
+                "abilityName": "/Lotus/Language/Items/FireShieldAbility",
+                "description": "/Lotus/Language/Items/FireShieldAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/FlareCounterMeasureAbility",
+                "abilityName": "/Lotus/Language/Items/FlareCounterMeasureAbility",
+                "description": "/Lotus/Language/Items/FlareCounterMeasureAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/MissileVolleyAbility",
+                "abilityName": "/Lotus/Language/Items/MissileVolleyAbility",
+                "description": "/Lotus/Language/Items/MissileVolleyAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/EMPPushAbility",
+                "abilityName": "/Lotus/Language/Items/EMPPushAbility",
+                "description": "/Lotus/Language/Items/EMPPushAbilityDesc"
+            }
+        ],
+        "productCategory": "SpaceSuits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Archwing/PrimeJetPack/PrimeJetPack",
+        "name": "/Lotus/Language/Items/OdonataPrimeName",
+        "parentName": "/Lotus/Powersuits/Archwing/StandardJetPack/StandardJetPack",
+        "description": "/Lotus/Language/Items/OdonataPrimeDesc",
+        "health": 650,
+        "shield": 640,
+        "armor": 100,
+        "stamina": 200,
+        "power": 85,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.05,
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/FireShieldAbility",
+                "abilityName": "/Lotus/Language/Items/FireShieldAbility",
+                "description": "/Lotus/Language/Items/FireShieldAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/FlareCounterMeasureAbility",
+                "abilityName": "/Lotus/Language/Items/FlareCounterMeasureAbility",
+                "description": "/Lotus/Language/Items/FlareCounterMeasureAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/MissileVolleyAbility",
+                "abilityName": "/Lotus/Language/Items/MissileVolleyAbility",
+                "description": "/Lotus/Language/Items/MissileVolleyAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/EMPPushAbility",
+                "abilityName": "/Lotus/Language/Items/EMPPushAbility",
+                "description": "/Lotus/Language/Items/EMPPushAbilityDesc"
+            }
+        ],
+        "productCategory": "SpaceSuits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Archwing/DemolitionJetPack/DemolitionJetPack",
+        "name": "/Lotus/Language/Items/DemolitionArchwingName",
+        "parentName": "/Lotus/Types/Game/FlightJetPackItems/PlayerFlightJetPackItem",
+        "description": "/Lotus/Language/Items/DemolitionArchwingDesc",
+        "health": 765,
+        "shield": 745,
+        "armor": 145,
+        "stamina": 150,
+        "power": 120,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 0.9,
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/TnTAbility",
+                "abilityName": "/Lotus/Language/Items/TnTAbility",
+                "description": "/Lotus/Language/Items/TnTAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/ExhaustTrailAbility",
+                "abilityName": "/Lotus/Language/Items/ExhaustTrailAbility",
+                "description": "/Lotus/Language/Items/ExhaustTrailAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/ArtilleryBarrageAbility",
+                "abilityName": "/Lotus/Language/Items/ArtilleryBarrageAbility",
+                "description": "/Lotus/Language/Items/ArtilleryBarrageAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/BigBoyAbility",
+                "abilityName": "/Lotus/Language/Items/BigBoyAbility",
+                "description": "/Lotus/Language/Items/BigBoyAbilityDesc"
+            }
+        ],
+        "productCategory": "SpaceSuits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/YinYang/YinYang",
+        "name": "/Lotus/Language/Suits/EquinoxName",
+        "parentName": "/Lotus/Powersuits/YinYang/YinYangBaseSuit",
+        "description": "/Lotus/Language/Suits/EquinoxDesc",
+        "health": 270,
+        "shield": 270,
+        "armor": 135,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.15,
+        "passiveDescription": "/Lotus/Language/Suits/EquinoxPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YinYangSwitchAbility",
+                "abilityName": "/Lotus/Language/Suits/YinYangSwitchAbilityName",
+                "description": "/Lotus/Language/Suits/YinYangSwitchAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YinYangTargetAbility",
+                "abilityName": "/Lotus/Language/Suits/YinYangTargetAbilityName",
+                "description": "/Lotus/Language/Suits/YinYangTargetAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YinYangAuraAbility",
+                "abilityName": "/Lotus/Language/Suits/YinYangAuraAbilityName",
+                "description": "/Lotus/Language/Suits/YinYangAuraAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YinYangBurstAbility",
+                "abilityName": "/Lotus/Language/Suits/YinYangBurstAbilityName",
+                "description": "/Lotus/Language/Suits/YinYangBurstAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/YinYang/EquinoxPrime",
+        "name": "/Lotus/Language/Primes/EquinoxPrimeName",
+        "parentName": "/Lotus/Powersuits/YinYang/YinYangBaseSuit",
+        "description": "/Lotus/Language/Primes/EquinoxPrimeDesc",
+        "health": 365,
+        "shield": 270,
+        "armor": 160,
+        "stamina": 3,
+        "power": 200,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.15,
+        "passiveDescription": "/Lotus/Language/Suits/EquinoxPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YinYangSwitchAbility",
+                "abilityName": "/Lotus/Language/Suits/YinYangSwitchAbilityName",
+                "description": "/Lotus/Language/Suits/YinYangSwitchAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YinYangTargetAbility",
+                "abilityName": "/Lotus/Language/Suits/YinYangTargetAbilityName",
+                "description": "/Lotus/Language/Suits/YinYangTargetAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YinYangAuraAbility",
+                "abilityName": "/Lotus/Language/Suits/YinYangAuraAbilityName",
+                "description": "/Lotus/Language/Suits/YinYangAuraAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YinYangBurstAbility",
+                "abilityName": "/Lotus/Language/Suits/YinYangBurstAbilityName",
+                "description": "/Lotus/Language/Suits/YinYangBurstAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Yareli/Yareli",
+        "name": "/Lotus/Language/Suits/YareliFrameName",
+        "parentName": "/Lotus/Powersuits/Yareli/YareliBaseSuit",
+        "description": "/Lotus/Language/Suits/YareliFrameDesc",
+        "health": 270,
+        "shield": 455,
+        "armor": 105,
+        "stamina": 3,
+        "power": 200,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/YareliPassiveAbilityDesc",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliBubbleAbility",
+                "abilityName": "/Lotus/Language/Suits/YareliBubbleAbilityName",
+                "description": "/Lotus/Language/Suits/YareliBubbleAbilityDescription"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliBoardAbility",
+                "abilityName": "/Lotus/Language/Suits/YareliBoardAbilityName",
+                "description": "/Lotus/Language/Suits/YareliBoardAbilityDescription"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliDisksAbility",
+                "abilityName": "/Lotus/Language/Suits/YareliDisksAbilityName",
+                "description": "/Lotus/Language/Suits/YareliDisksAbilityDescription"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliSpoutAbility",
+                "abilityName": "/Lotus/Language/Suits/YareliSpoutAbilityName",
+                "description": "/Lotus/Language/Suits/YareliSpoutAbilityDescription"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Wraith/Wraith",
+        "name": "/Lotus/Language/Suits/WraithName",
+        "parentName": "/Lotus/Powersuits/Wraith/WraithBaseSuit",
+        "description": "/Lotus/Language/Suits/WraithDesc",
+        "health": 270,
+        "shield": 235,
+        "armor": 160,
+        "stamina": 3,
+        "power": 140,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 0.95,
+        "passiveDescription": "/Lotus/Language/Suits/WraithPassiveAbility",
+        "exalted": [
+            "/Lotus/Powersuits/Wraith/ReaperMeleeWeapon"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithReapAbility",
+                "abilityName": "/Lotus/Language/Suits/WraithReapAbilityName",
+                "description": "/Lotus/Language/Suits/WraithReapAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithSowAbility",
+                "abilityName": "/Lotus/Language/Suits/WraithSowAbilityName",
+                "description": "/Lotus/Language/Suits/WraithSowAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithGloomAbility",
+                "abilityName": "/Lotus/Language/Suits/WraithGloomAbilityName",
+                "description": "/Lotus/Language/Suits/WraithGloomAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithReaperAbility",
+                "abilityName": "/Lotus/Language/Suits/WraithReaperAbilityName",
+                "description": "/Lotus/Language/Suits/WraithReaperAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Wisp/WispPrime",
+        "name": "/Lotus/Language/Primes/WispPrimeName",
+        "parentName": "/Lotus/Powersuits/Wisp/WispBaseSuit",
+        "description": "/Lotus/Language/Primes/WispPrimeDesc",
+        "health": 270,
+        "shield": 270,
+        "armor": 210,
+        "stamina": 3,
+        "power": 200,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.25,
+        "passiveDescription": "/Lotus/Language/Suits/WispFramePassiveDesc",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WispReservoirAbility",
+                "abilityName": "/Lotus/Language/Suits/WispFrameReservoirAbilityName",
+                "description": "/Lotus/Language/Suits/WispFrameReservoirAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WispLightAbility",
+                "abilityName": "/Lotus/Language/Suits/WispFrameLightAbilityName",
+                "description": "/Lotus/Language/Suits/WispFrameLightAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WispHarnessAbility",
+                "abilityName": "/Lotus/Language/Suits/WispFrameHarnessAbilityName",
+                "description": "/Lotus/Language/Suits/WispFrameHarnessAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WispSunAbility",
+                "abilityName": "/Lotus/Language/Suits/WispFrameSunAbilityName",
+                "description": "/Lotus/Language/Suits/WispFrameSunAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Wisp/Wisp",
+        "name": "/Lotus/Language/Suits/WispFrameName",
+        "parentName": "/Lotus/Powersuits/Wisp/WispBaseSuit",
+        "description": "/Lotus/Language/Suits/WispFrameDesc",
+        "health": 270,
+        "shield": 180,
+        "armor": 185,
+        "stamina": 3,
+        "power": 200,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.2,
+        "passiveDescription": "/Lotus/Language/Suits/WispFramePassiveDesc",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WispReservoirAbility",
+                "abilityName": "/Lotus/Language/Suits/WispFrameReservoirAbilityName",
+                "description": "/Lotus/Language/Suits/WispFrameReservoirAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WispLightAbility",
+                "abilityName": "/Lotus/Language/Suits/WispFrameLightAbilityName",
+                "description": "/Lotus/Language/Suits/WispFrameLightAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WispHarnessAbility",
+                "abilityName": "/Lotus/Language/Suits/WispFrameHarnessAbilityName",
+                "description": "/Lotus/Language/Suits/WispFrameHarnessAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WispSunAbility",
+                "abilityName": "/Lotus/Language/Suits/WispFrameSunAbilityName",
+                "description": "/Lotus/Language/Suits/WispFrameSunAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Werewolf/Werewolf",
+        "name": "/Lotus/Language/Suits/WerewolfName",
+        "parentName": "/Lotus/Powersuits/Werewolf/WerewolfBaseSuit",
+        "description": "/Lotus/Language/Suits/WerewolfDesc",
+        "health": 455,
+        "shield": 270,
+        "armor": 200,
+        "stamina": 3,
+        "power": 100,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 0.95,
+        "passiveDescription": "/Lotus/Language/Suits/WerewolfPassiveAbilityDesc",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WerewolfShroudAbility",
+                "abilityName": "/Lotus/Language/Suits/WerewolfShroudAbilityName",
+                "description": "/Lotus/Language/Suits/WerewolfShroudAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WerewolfBiteAbility",
+                "abilityName": "/Lotus/Language/Suits/WerewolfBiteAbilityName",
+                "description": "/Lotus/Language/Suits/WerewolfBiteAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WerewolfLeapAbility",
+                "abilityName": "/Lotus/Language/Suits/WerewolfLeapAbilityName",
+                "description": "/Lotus/Language/Suits/WerewolfLeapAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WerewolfHowlAbility",
+                "abilityName": "/Lotus/Language/Suits/WerewolfHowlAbilityName",
+                "description": "/Lotus/Language/Suits/WerewolfHowlAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Volt/VoltPrime",
+        "name": "/Lotus/Language/Primes/VoltPrimeName",
+        "parentName": "/Lotus/Powersuits/Volt/VoltBaseSuit",
+        "description": "/Lotus/Language/Primes/VoltPrimeDesc",
+        "health": 270,
+        "shield": 455,
+        "armor": 135,
+        "stamina": 3,
+        "power": 200,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Primes/VoltPrimePassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShockAbility",
+                "abilityName": "/Lotus/Language/Suits/ShockAbilityName",
+                "description": "/Lotus/Language/Suits/ShockAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SpeedAbility",
+                "abilityName": "/Lotus/Language/Suits/SpeedAbilityName",
+                "description": "/Lotus/Language/Suits/SpeedAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldAbility",
+                "abilityName": "/Lotus/Language/Suits/ShieldAbilityName",
+                "description": "/Lotus/Language/Suits/ShieldAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OverLoadAbility",
+                "abilityName": "/Lotus/Language/Suits/OverLoadAbilityName",
+                "description": "/Lotus/Language/Suits/OverLoadAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Volt/Volt",
+        "name": "/Lotus/Language/Suits/VoltName",
+        "parentName": "/Lotus/Powersuits/Volt/VoltBaseSuit",
+        "description": "/Lotus/Language/Suits/VoltDesc",
+        "health": 270,
+        "shield": 455,
+        "armor": 105,
+        "stamina": 3,
+        "power": 100,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/VoltPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShockAbility",
+                "abilityName": "/Lotus/Language/Suits/ShockAbilityName",
+                "description": "/Lotus/Language/Suits/ShockAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SpeedAbility",
+                "abilityName": "/Lotus/Language/Suits/SpeedAbilityName",
+                "description": "/Lotus/Language/Suits/SpeedAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldAbility",
+                "abilityName": "/Lotus/Language/Suits/ShieldAbilityName",
+                "description": "/Lotus/Language/Suits/ShieldAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OverLoadAbility",
+                "abilityName": "/Lotus/Language/Suits/OverLoadAbilityName",
+                "description": "/Lotus/Language/Suits/OverLoadAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Trinity/TrinityPrime",
+        "name": "/Lotus/Language/Primes/TrinityPrimeName",
+        "parentName": "/Lotus/Powersuits/Trinity/TrinityBaseSuit",
+        "description": "/Lotus/Language/Primes/TrinityPrimeDesc",
+        "health": 270,
+        "shield": 455,
+        "armor": 135,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.1,
+        "passiveDescription": "/Lotus/Language/Primes/TrinityPrimePassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WellOfLifeAbility",
+                "abilityName": "/Lotus/Language/Suits/WellOfLifeAbilityName",
+                "description": "/Lotus/Language/Suits/WellOfLifeAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EnergyVampireAbility",
+                "abilityName": "/Lotus/Language/Suits/EnergyVampireAbilityName",
+                "description": "/Lotus/Language/Suits/EnergyVampireAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LinkAbility",
+                "abilityName": "/Lotus/Language/Suits/LinkAbilityName",
+                "description": "/Lotus/Language/Suits/LinkAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BlessingAbility",
+                "abilityName": "/Lotus/Language/Suits/BlessingAbilityName",
+                "description": "/Lotus/Language/Suits/BlessingAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Trinity/Trinity",
+        "name": "/Lotus/Language/Suits/TrinityName",
+        "parentName": "/Lotus/Powersuits/Trinity/TrinityBaseSuit",
+        "description": "/Lotus/Language/Suits/TrinityDesc",
+        "health": 270,
+        "shield": 270,
+        "armor": 105,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/TrinityPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WellOfLifeAbility",
+                "abilityName": "/Lotus/Language/Suits/WellOfLifeAbilityName",
+                "description": "/Lotus/Language/Suits/WellOfLifeAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EnergyVampireAbility",
+                "abilityName": "/Lotus/Language/Suits/EnergyVampireAbilityName",
+                "description": "/Lotus/Language/Suits/EnergyVampireAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LinkAbility",
+                "abilityName": "/Lotus/Language/Suits/LinkAbilityName",
+                "description": "/Lotus/Language/Suits/LinkAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BlessingAbility",
+                "abilityName": "/Lotus/Language/Suits/BlessingAbilityName",
+                "description": "/Lotus/Language/Suits/BlessingAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Trapper/TrapperPrime",
+        "name": "/Lotus/Language/Primes/VaubanPrimeName",
+        "parentName": "/Lotus/Powersuits/Trapper/TrapperBaseSuit",
+        "description": "/Lotus/Language/Primes/VaubanPrimeDesc",
+        "health": 270,
+        "shield": 270,
+        "armor": 210,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Primes/VaubanPrimePassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ZapTrapAbility",
+                "abilityName": "/Lotus/Language/Suits/ZapTrapAbilityName",
+                "description": "/Lotus/Language/Suits/ZapTrapAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TrapperMultinadeAbility",
+                "abilityName": "/Lotus/Language/Suits/TrapperMultinadeAbilityName",
+                "description": "/Lotus/Language/Suits/TrapperMultinadeAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TrapperStrikeAbility",
+                "abilityName": "/Lotus/Language/Suits/TrapperStrikeAbilityName",
+                "description": "/Lotus/Language/Suits/TrapperStrikeAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LevTrapAbility",
+                "abilityName": "/Lotus/Language/Suits/LevTrapAbilityName",
+                "description": "/Lotus/Language/Suits/LevTrapAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Trapper/Trapper",
+        "name": "/Lotus/Language/Suits/VaubanName",
+        "parentName": "/Lotus/Powersuits/Trapper/TrapperBaseSuit",
+        "description": "/Lotus/Language/Suits/VaubanDesc",
+        "health": 270,
+        "shield": 180,
+        "armor": 160,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/VaubanPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ZapTrapAbility",
+                "abilityName": "/Lotus/Language/Suits/ZapTrapAbilityName",
+                "description": "/Lotus/Language/Suits/ZapTrapAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TrapperMultinadeAbility",
+                "abilityName": "/Lotus/Language/Suits/TrapperMultinadeAbilityName",
+                "description": "/Lotus/Language/Suits/TrapperMultinadeAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TrapperStrikeAbility",
+                "abilityName": "/Lotus/Language/Suits/TrapperStrikeAbilityName",
+                "description": "/Lotus/Language/Suits/TrapperStrikeAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LevTrapAbility",
+                "abilityName": "/Lotus/Language/Suits/LevTrapAbilityName",
+                "description": "/Lotus/Language/Suits/LevTrapAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Tengu/ZephyrPrime",
+        "name": "/Lotus/Language/Primes/ZephyrPrimeName",
+        "parentName": "/Lotus/Powersuits/Tengu/TenguBaseSuit",
+        "description": "/Lotus/Language/Primes/ZephyrPrimeDesc",
+        "health": 455,
+        "shield": 455,
+        "armor": 135,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.15,
+        "passiveDescription": "/Lotus/Language/Suits/ZephyrPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TailWindAbility",
+                "abilityName": "/Lotus/Language/Suits/ZephyrTailWindAbilityName",
+                "description": "/Lotus/Language/Suits/ZephyrTailWindAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TenguBurstAbility",
+                "abilityName": "/Lotus/Language/Suits/ZephyrBurstAbilityName",
+                "description": "/Lotus/Language/Suits/ZephyrBurstAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TurbulenceAbility",
+                "abilityName": "/Lotus/Language/Suits/ZephyrTurbulenceAbilityName",
+                "description": "/Lotus/Language/Suits/ZephyrTurbulenceAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TornadoAbility",
+                "abilityName": "/Lotus/Language/Suits/ZephyrTornadoAbilityName",
+                "description": "/Lotus/Language/Suits/ZephyrTornadoAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Tengu/Tengu",
+        "name": "/Lotus/Language/Suits/ZephyrName",
+        "parentName": "/Lotus/Powersuits/Tengu/TenguBaseSuit",
+        "description": "/Lotus/Language/Suits/ZephyrDesc",
+        "health": 455,
+        "shield": 455,
+        "armor": 105,
+        "stamina": 3,
+        "power": 100,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.1,
+        "passiveDescription": "/Lotus/Language/Suits/ZephyrPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TailWindAbility",
+                "abilityName": "/Lotus/Language/Suits/ZephyrTailWindAbilityName",
+                "description": "/Lotus/Language/Suits/ZephyrTailWindAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TenguBurstAbility",
+                "abilityName": "/Lotus/Language/Suits/ZephyrBurstAbilityName",
+                "description": "/Lotus/Language/Suits/ZephyrBurstAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TurbulenceAbility",
+                "abilityName": "/Lotus/Language/Suits/ZephyrTurbulenceAbilityName",
+                "description": "/Lotus/Language/Suits/ZephyrTurbulenceAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TornadoAbility",
+                "abilityName": "/Lotus/Language/Suits/ZephyrTornadoAbilityName",
+                "description": "/Lotus/Language/Suits/ZephyrTornadoAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Sentient/Sentient",
+        "name": "/Lotus/Language/Suits/SentientFrameName",
+        "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
+        "description": "/Lotus/Language/Suits/SentientFrameDesc",
+        "health": 270,
+        "shield": 550,
+        "armor": 290,
+        "stamina": 3,
+        "power": 140,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.1,
+        "passiveDescription": "/Lotus/Language/Suits/SentientPassiveAbilityDesc",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientWhirlwindAbility",
+                "abilityName": "/Lotus/Language/Suits/SentientWhirlwindAbilityName",
+                "description": "/Lotus/Language/Suits/SentientWhirlwindAbilityDescription"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientStompAbility",
+                "abilityName": "/Lotus/Language/Suits/SentientStompAbilityName",
+                "description": "/Lotus/Language/Suits/SentientStompAbilityDescription"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientSummonAbility",
+                "abilityName": "/Lotus/Language/Suits/SentientSummonAbilityName",
+                "description": "/Lotus/Language/Suits/SentientSummonAbilityDescription"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientBlastAbility",
+                "abilityName": "/Lotus/Language/Suits/SentientBlastAbilityName",
+                "description": "/Lotus/Language/Suits/SentientBlastAbilityDescription"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Saryn/SarynPrime",
+        "name": "/Lotus/Language/Primes/SarynPrimeName",
+        "parentName": "/Lotus/Powersuits/Saryn/SarynBaseSuit",
+        "description": "/Lotus/Language/Primes/SarynPrimeDesc",
+        "health": 365,
+        "shield": 270,
+        "armor": 315,
+        "stamina": 3,
+        "power": 200,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Primes/SarynPrimePassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PoisonAbility",
+                "abilityName": "/Lotus/Language/Suits/PoisonAbilityName",
+                "description": "/Lotus/Language/Suits/PoisonAbilityReworkDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShedAbility",
+                "abilityName": "/Lotus/Language/Suits/ShedAbilityName",
+                "description": "/Lotus/Language/Suits/ShedAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WeaponPoisonAbility",
+                "abilityName": "/Lotus/Language/Suits/WeaponPoisonAbilityName",
+                "description": "/Lotus/Language/Suits/WeaponPoisonAbilityReworkDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ExplosiveDissolveAbility",
+                "abilityName": "/Lotus/Language/Suits/ExplosiveDissolveAbilityName",
+                "description": "/Lotus/Language/Suits/ExplosiveDissolveAbilityReworkDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Saryn/Saryn",
+        "name": "/Lotus/Language/Suits/SarynName",
+        "parentName": "/Lotus/Powersuits/Saryn/SarynBaseSuit",
+        "description": "/Lotus/Language/Suits/SarynDesc",
+        "health": 365,
+        "shield": 270,
+        "armor": 240,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 0.95,
+        "passiveDescription": "/Lotus/Language/Suits/SarynPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PoisonAbility",
+                "abilityName": "/Lotus/Language/Suits/PoisonAbilityName",
+                "description": "/Lotus/Language/Suits/PoisonAbilityReworkDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShedAbility",
+                "abilityName": "/Lotus/Language/Suits/ShedAbilityName",
+                "description": "/Lotus/Language/Suits/ShedAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WeaponPoisonAbility",
+                "abilityName": "/Lotus/Language/Suits/WeaponPoisonAbilityName",
+                "description": "/Lotus/Language/Suits/WeaponPoisonAbilityReworkDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ExplosiveDissolveAbility",
+                "abilityName": "/Lotus/Language/Suits/ExplosiveDissolveAbilityName",
+                "description": "/Lotus/Language/Suits/ExplosiveDissolveAbilityReworkDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Sandman/Sandman",
+        "name": "/Lotus/Language/Suits/InarosName",
+        "parentName": "/Lotus/Powersuits/Sandman/SandmanBaseSuit",
+        "description": "/Lotus/Language/Suits/InarosDesc",
+        "health": 2110,
+        "shield": 0,
+        "armor": 240,
+        "stamina": 3,
+        "power": 100,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/InarosPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanBlastAbility",
+                "abilityName": "/Lotus/Language/Suits/SandmanBlastAbilityName",
+                "description": "/Lotus/Language/Suits/SandmanBlastAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanStormAbility",
+                "abilityName": "/Lotus/Language/Suits/SandmanStormAbilityName",
+                "description": "/Lotus/Language/Suits/SandmanStormAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanArmorAbility",
+                "abilityName": "/Lotus/Language/Suits/SandmanArmorAbilityName",
+                "description": "/Lotus/Language/Suits/SandmanArmorAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanSwarmAbility",
+                "abilityName": "/Lotus/Language/Suits/SandmanSwarmAbilityName",
+                "description": "/Lotus/Language/Suits/SandmanSwarmAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Sandman/InarosPrime",
+        "name": "/Lotus/Language/Primes/InarosPrimeSuitName",
+        "parentName": "/Lotus/Powersuits/Sandman/SandmanBaseSuit",
+        "description": "/Lotus/Language/Primes/InarosPrimeSuitDesc",
+        "health": 2215,
+        "shield": 0,
+        "armor": 240,
+        "stamina": 3,
+        "power": 140,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.05,
+        "passiveDescription": "/Lotus/Language/Suits/InarosPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanBlastAbility",
+                "abilityName": "/Lotus/Language/Suits/SandmanBlastAbilityName",
+                "description": "/Lotus/Language/Suits/SandmanBlastAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanStormAbility",
+                "abilityName": "/Lotus/Language/Suits/SandmanStormAbilityName",
+                "description": "/Lotus/Language/Suits/SandmanStormAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanArmorAbility",
+                "abilityName": "/Lotus/Language/Suits/SandmanArmorAbilityName",
+                "description": "/Lotus/Language/Suits/SandmanArmorAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SandmanSwarmAbility",
+                "abilityName": "/Lotus/Language/Suits/SandmanSwarmAbilityName",
+                "description": "/Lotus/Language/Suits/SandmanSwarmAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Runner/Runner",
+        "name": "/Lotus/Language/Suits/RunnerName",
+        "parentName": "/Lotus/Powersuits/Runner/RunnerBaseSuit",
+        "description": "/Lotus/Language/Suits/RunnerDesc",
+        "health": 270,
+        "shield": 455,
+        "armor": 185,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.4,
+        "passiveDescription": "/Lotus/Language/Suits/RunnerPassiveAbilityDesc",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRushAbility",
+                "abilityName": "/Lotus/Language/Suits/RunnerRushAbilityName",
+                "description": "/Lotus/Language/Suits/RunnerRushAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerPlatingAbility",
+                "abilityName": "/Lotus/Language/Suits/RunnerPlatingAbilityName",
+                "description": "/Lotus/Language/Suits/RunnerPlatingAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerTransferAbility",
+                "abilityName": "/Lotus/Language/Suits/RunnerTransferAbilityName",
+                "description": "/Lotus/Language/Suits/RunnerTransferAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRedlineAbility",
+                "abilityName": "/Lotus/Language/Suits/RunnerRedlineAbilityName",
+                "description": "/Lotus/Language/Suits/RunnerRedlineAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Runner/GaussPrime",
+        "name": "/Lotus/Language/Primes/GaussPrimeName",
+        "parentName": "/Lotus/Powersuits/Runner/RunnerBaseSuit",
+        "description": "/Lotus/Language/Primes/GaussPrimeDesc",
+        "health": 270,
+        "shield": 550,
+        "armor": 185,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.5,
+        "passiveDescription": "/Lotus/Language/Suits/RunnerPassiveAbilityDesc",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRushAbility",
+                "abilityName": "/Lotus/Language/Suits/RunnerRushAbilityName",
+                "description": "/Lotus/Language/Suits/RunnerRushAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerPlatingAbility",
+                "abilityName": "/Lotus/Language/Suits/RunnerPlatingAbilityName",
+                "description": "/Lotus/Language/Suits/RunnerPlatingAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerTransferAbility",
+                "abilityName": "/Lotus/Language/Suits/RunnerTransferAbilityName",
+                "description": "/Lotus/Language/Suits/RunnerTransferAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRedlineAbility",
+                "abilityName": "/Lotus/Language/Suits/RunnerRedlineAbilityName",
+                "description": "/Lotus/Language/Suits/RunnerRedlineAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Rhino/RhinoPrime",
+        "name": "/Lotus/Language/Primes/RhinoPrimeName",
+        "parentName": "/Lotus/Powersuits/Rhino/RhinoBaseSuit",
+        "description": "/Lotus/Language/Primes/RhinoPrimeDesc",
+        "health": 270,
+        "shield": 455,
+        "armor": 290,
+        "stamina": 3,
+        "power": 100,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "longDescription": "/Lotus/Language/Codex/RhinoPrimeLongDesc",
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Primes/RhinoPrimePassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RhinoChargeAbility",
+                "abilityName": "/Lotus/Language/Suits/RhinoChargeAbilityName",
+                "description": "/Lotus/Language/Suits/RhinoChargeAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronSkinAbility",
+                "abilityName": "/Lotus/Language/Suits/IronSkinAbilityName",
+                "description": "/Lotus/Language/Suits/IronSkinAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RhinoRoarAbility",
+                "abilityName": "/Lotus/Language/Suits/RhinoRoarAbilityName",
+                "description": "/Lotus/Language/Suits/RhinoRoarAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RhinoStompAbility",
+                "abilityName": "/Lotus/Language/Suits/RhinoStompAbilityName",
+                "description": "/Lotus/Language/Suits/RhinoStompAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Rhino/Rhino",
+        "name": "/Lotus/Language/Suits/RhinoName",
+        "parentName": "/Lotus/Powersuits/Rhino/RhinoBaseSuit",
+        "description": "/Lotus/Language/Suits/RhinoDesc",
+        "health": 270,
+        "shield": 455,
+        "armor": 240,
+        "stamina": 3,
+        "power": 100,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 0.95,
+        "passiveDescription": "/Lotus/Language/Suits/RhinoPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RhinoChargeAbility",
+                "abilityName": "/Lotus/Language/Suits/RhinoChargeAbilityName",
+                "description": "/Lotus/Language/Suits/RhinoChargeAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronSkinAbility",
+                "abilityName": "/Lotus/Language/Suits/IronSkinAbilityName",
+                "description": "/Lotus/Language/Suits/IronSkinAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RhinoRoarAbility",
+                "abilityName": "/Lotus/Language/Suits/RhinoRoarAbilityName",
+                "description": "/Lotus/Language/Suits/RhinoRoarAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RhinoStompAbility",
+                "abilityName": "/Lotus/Language/Suits/RhinoStompAbilityName",
+                "description": "/Lotus/Language/Suits/RhinoStompAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Revenant/RevenantPrime",
+        "name": "/Lotus/Language/Primes/RevenantPrimeName",
+        "parentName": "/Lotus/Powersuits/Revenant/RevenantBaseSuit",
+        "description": "/Lotus/Language/Primes/RevenantPrimeDesc",
+        "health": 270,
+        "shield": 825,
+        "armor": 135,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.1,
+        "passiveDescription": "/Lotus/Language/Suits/RevenantPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RevenantMarkAbility",
+                "abilityName": "/Lotus/Language/Suits/RevenantMarkAbilityName",
+                "description": "/Lotus/Language/Suits/RevenantMarkAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RevenantSentientAbility",
+                "abilityName": "/Lotus/Language/Suits/RevenantSentientAbilityName",
+                "description": "/Lotus/Language/Suits/RevenantSentientAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RevenantAfflictionAbility",
+                "abilityName": "/Lotus/Language/Suits/RevenantAfflictionAbilityName",
+                "description": "/Lotus/Language/Suits/RevenantAfflictionAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RevenantRebornAbility",
+                "abilityName": "/Lotus/Language/Suits/RevenantRebornAbilityName",
+                "description": "/Lotus/Language/Suits/RevenantRebornAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Revenant/Revenant",
+        "name": "/Lotus/Language/Suits/RevenantName",
+        "parentName": "/Lotus/Powersuits/Revenant/RevenantBaseSuit",
+        "description": "/Lotus/Language/Suits/RevenantDesc",
+        "health": 270,
+        "shield": 635,
+        "armor": 135,
+        "stamina": 3,
+        "power": 140,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/RevenantPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RevenantMarkAbility",
+                "abilityName": "/Lotus/Language/Suits/RevenantMarkAbilityName",
+                "description": "/Lotus/Language/Suits/RevenantMarkAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RevenantSentientAbility",
+                "abilityName": "/Lotus/Language/Suits/RevenantSentientAbilityName",
+                "description": "/Lotus/Language/Suits/RevenantSentientAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RevenantAfflictionAbility",
+                "abilityName": "/Lotus/Language/Suits/RevenantAfflictionAbilityName",
+                "description": "/Lotus/Language/Suits/RevenantAfflictionAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RevenantRebornAbility",
+                "abilityName": "/Lotus/Language/Suits/RevenantRebornAbilityName",
+                "description": "/Lotus/Language/Suits/RevenantRebornAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Ranger/Ranger",
+        "name": "/Lotus/Language/Suits/IvaraName",
+        "parentName": "/Lotus/Powersuits/Ranger/RangerBaseSuit",
+        "description": "/Lotus/Language/Suits/IvaraDesc",
+        "health": 180,
+        "shield": 270,
+        "armor": 105,
+        "stamina": 3,
+        "power": 215,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.15,
+        "passiveDescription": "/Lotus/Language/Suits/IvaraPassiveAbility",
+        "exalted": [
+            "/Lotus/Powersuits/Ranger/ExaltedBow"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RangerQuiverAbility",
+                "abilityName": "/Lotus/Language/Suits/RangerQuiverAbilityName",
+                "description": "/Lotus/Language/Suits/RangerQuiverAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RangerControlAbility",
+                "abilityName": "/Lotus/Language/Suits/RangerControlAbilityName",
+                "description": "/Lotus/Language/Suits/RangerControlAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RangerStealAbility",
+                "abilityName": "/Lotus/Language/Suits/RangerStealAbilityName",
+                "description": "/Lotus/Language/Suits/RangerStealAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RangerBowAbility",
+                "abilityName": "/Lotus/Language/Suits/RangerBowAbilityName",
+                "description": "/Lotus/Language/Suits/RangerBowAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Ranger/IvaraPrime",
+        "name": "/Lotus/Language/Primes/IvaraPrimeName",
+        "parentName": "/Lotus/Powersuits/Ranger/RangerBaseSuit",
+        "description": "/Lotus/Language/Primes/IvaraPrimeDesc",
+        "health": 180,
+        "shield": 455,
+        "armor": 135,
+        "stamina": 3,
+        "power": 250,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.2,
+        "passiveDescription": "/Lotus/Language/Primes/IvaraPrimePassiveAbility",
+        "exalted": [
+            "/Lotus/Powersuits/Ranger/PrimeExaltedBow"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RangerQuiverAbility",
+                "abilityName": "/Lotus/Language/Suits/RangerQuiverAbilityName",
+                "description": "/Lotus/Language/Suits/RangerQuiverAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RangerControlAbility",
+                "abilityName": "/Lotus/Language/Suits/RangerControlAbilityName",
+                "description": "/Lotus/Language/Suits/RangerControlAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RangerStealAbility",
+                "abilityName": "/Lotus/Language/Suits/RangerStealAbilityName",
+                "description": "/Lotus/Language/Suits/RangerStealAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RangerBowAbility",
+                "abilityName": "/Lotus/Language/Suits/RangerBowAbilityName",
+                "description": "/Lotus/Language/Suits/RangerBowAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Priest/Priest",
+        "name": "/Lotus/Language/Suits/PriestName",
+        "parentName": "/Lotus/Powersuits/Priest/PriestBaseSuit",
+        "description": "/Lotus/Language/Suits/PriestDesc",
+        "health": 270,
+        "shield": 455,
+        "armor": 185,
+        "stamina": 3,
+        "power": 100,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/PriestPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PriestCondemnAbility",
+                "abilityName": "/Lotus/Language/Suits/PriestCondemnAbilityName",
+                "description": "/Lotus/Language/Suits/PriestCondemnAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PriestPenanceAbility",
+                "abilityName": "/Lotus/Language/Suits/PriestPenanceAbilityName",
+                "description": "/Lotus/Language/Suits/PriestPenanceAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PriestRavageAbility",
+                "abilityName": "/Lotus/Language/Suits/PriestThuribleAbilityName",
+                "description": "/Lotus/Language/Suits/PriestThuribleAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PriestPactAbility",
+                "abilityName": "/Lotus/Language/Suits/PriestWarPactAbilityName",
+                "description": "/Lotus/Language/Suits/PriestWarPactAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Priest/HarrowPrime",
+        "name": "/Lotus/Language/Primes/HarrowPrimeName",
+        "parentName": "/Lotus/Powersuits/Priest/PriestBaseSuit",
+        "description": "/Lotus/Language/Primes/HarrowPrimeDesc",
+        "health": 270,
+        "shield": 640,
+        "armor": 185,
+        "stamina": 3,
+        "power": 140,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/PriestPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PriestCondemnAbility",
+                "abilityName": "/Lotus/Language/Suits/PriestCondemnAbilityName",
+                "description": "/Lotus/Language/Suits/PriestCondemnAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PriestPenanceAbility",
+                "abilityName": "/Lotus/Language/Suits/PriestPenanceAbilityName",
+                "description": "/Lotus/Language/Suits/PriestPenanceAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PriestRavageAbility",
+                "abilityName": "/Lotus/Language/Suits/PriestThuribleAbilityName",
+                "description": "/Lotus/Language/Suits/PriestThuribleAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PriestPactAbility",
+                "abilityName": "/Lotus/Language/Suits/PriestWarPactAbilityName",
+                "description": "/Lotus/Language/Suits/PriestWarPactAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Pirate/Pirate",
+        "name": "/Lotus/Language/Suits/HydroidName",
+        "parentName": "/Lotus/Powersuits/Pirate/PirateBaseSuit",
+        "description": "/Lotus/Language/Suits/HydroidDesc",
+        "health": 270,
+        "shield": 365,
+        "armor": 240,
+        "stamina": 3,
+        "power": 140,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.05,
+        "passiveDescription": "/Lotus/Language/Suits/HydroidPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/CannonBarrageAbility",
+                "abilityName": "/Lotus/Language/Suits/CannonBarrageAbilityName",
+                "description": "/Lotus/Language/Suits/CannonBarrageAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TidalWaveAbility",
+                "abilityName": "/Lotus/Language/Suits/TidalWaveAbilityName",
+                "description": "/Lotus/Language/Suits/TidalWaveAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PirateArmourAbility",
+                "abilityName": "/Lotus/Language/Suits/PirateArmorAbilityName",
+                "description": "/Lotus/Language/Suits/PirateArmorAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KrakenAbility",
+                "abilityName": "/Lotus/Language/Suits/KrakenAbilityName",
+                "description": "/Lotus/Language/Suits/KrakenAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Pirate/HydroidPrime",
+        "name": "/Lotus/Language/Primes/HydroidPrimeName",
+        "parentName": "/Lotus/Powersuits/Pirate/PirateBaseSuit",
+        "description": "/Lotus/Language/Primes/HydroidPrimeDesc",
+        "health": 270,
+        "shield": 550,
+        "armor": 290,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.05,
+        "passiveDescription": "/Lotus/Language/Suits/HydroidPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/CannonBarrageAbility",
+                "abilityName": "/Lotus/Language/Suits/CannonBarrageAbilityName",
+                "description": "/Lotus/Language/Suits/CannonBarrageAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TidalWaveAbility",
+                "abilityName": "/Lotus/Language/Suits/TidalWaveAbilityName",
+                "description": "/Lotus/Language/Suits/TidalWaveAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PirateArmourAbility",
+                "abilityName": "/Lotus/Language/Suits/PirateArmorAbilityName",
+                "description": "/Lotus/Language/Suits/PirateArmorAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KrakenAbility",
+                "abilityName": "/Lotus/Language/Suits/KrakenAbilityName",
+                "description": "/Lotus/Language/Suits/KrakenAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/PaxDuviricus/PaxDuviricus",
+        "name": "/Lotus/Language/Suits/PaxDuviricusFrameName",
+        "parentName": "/Lotus/Powersuits/PaxDuviricus/PaxDuviricusBaseSuit",
+        "description": "/Lotus/Language/Suits/PaxDuviricusFrameDesc",
+        "health": 1005,
+        "shield": 0,
+        "armor": 550,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.1,
+        "passiveDescription": "/Lotus/Language/Suits/PaxDuviricusPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PaxTeleportAbility",
+                "abilityName": "/Lotus/Language/Suits/PaxDuviricusTeleportAbilityName",
+                "description": "/Lotus/Language/Suits/PaxDuviricusTeleportAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PaxBladesAbility",
+                "abilityName": "/Lotus/Language/Suits/PaxDuviricusBladesAbilityName",
+                "description": "/Lotus/Language/Suits/PaxDuviricusBladesAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PaxLinkAbility",
+                "abilityName": "/Lotus/Language/Suits/PaxDuviricusLinkAbilityName",
+                "description": "/Lotus/Language/Suits/PaxDuviricusLinkAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PaxFieldAbility",
+                "abilityName": "/Lotus/Language/Suits/PaxDuviricusFieldAbilityName",
+                "description": "/Lotus/Language/Suits/PaxDuviricusFieldAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Paladin/PaladinPrime",
+        "name": "/Lotus/Language/Primes/OberonPrimeName",
+        "parentName": "/Lotus/Powersuits/Paladin/PaladinBaseSuit",
+        "description": "/Lotus/Language/Primes/OberonPrimeDesc",
+        "health": 365,
+        "shield": 270,
+        "armor": 240,
+        "stamina": 3,
+        "power": 215,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/OberonPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SmiteAbility",
+                "abilityName": "/Lotus/Language/Suits/SmiteAbilityName",
+                "description": "/Lotus/Language/Suits/SmiteAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/StairwayToHeavenAbility",
+                "abilityName": "/Lotus/Language/Suits/StairwayToHeavenAbilityName",
+                "description": "/Lotus/Language/Suits/StairwayToHeavenAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RegenerationAbility",
+                "abilityName": "/Lotus/Language/Suits/RegenerationAbilityName",
+                "description": "/Lotus/Language/Suits/RegenerationAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReckoningAbility",
+                "abilityName": "/Lotus/Language/Suits/ReckoningAbilityName",
+                "description": "/Lotus/Language/Suits/ReckoningAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Paladin/Paladin",
+        "name": "/Lotus/Language/Suits/OberonName",
+        "parentName": "/Lotus/Powersuits/Paladin/PaladinBaseSuit",
+        "description": "/Lotus/Language/Suits/OberonDesc",
+        "health": 365,
+        "shield": 270,
+        "armor": 185,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/OberonPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SmiteAbility",
+                "abilityName": "/Lotus/Language/Suits/SmiteAbilityName",
+                "description": "/Lotus/Language/Suits/SmiteAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/StairwayToHeavenAbility",
+                "abilityName": "/Lotus/Language/Suits/StairwayToHeavenAbilityName",
+                "description": "/Lotus/Language/Suits/StairwayToHeavenAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RegenerationAbility",
+                "abilityName": "/Lotus/Language/Suits/RegenerationAbilityName",
+                "description": "/Lotus/Language/Suits/RegenerationAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReckoningAbility",
+                "abilityName": "/Lotus/Language/Suits/ReckoningAbilityName",
+                "description": "/Lotus/Language/Suits/ReckoningAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Pagemaster/Pagemaster",
+        "name": "/Lotus/Language/Suits/PagemasterName",
+        "parentName": "/Lotus/Powersuits/Pagemaster/PagemasterBaseSuit",
+        "description": "/Lotus/Language/Suits/PagemasterDesc",
+        "health": 300,
+        "shield": 150,
+        "armor": 145,
+        "stamina": 3,
+        "power": 200,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.15,
+        "passiveDescription": "/Lotus/Language/Suits/PagemasterPassiveDesc",
+        "exalted": [
+            "/Lotus/Powersuits/Pagemaster/ExaltedBook"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterBookAbility",
+                "abilityName": "/Lotus/Language/Suits/PagemasterBookAbilityName",
+                "description": "/Lotus/Language/Suits/PagemasterBookAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterLifeAbility",
+                "abilityName": "/Lotus/Language/Suits/PagemasterLifeAbilityName",
+                "description": "/Lotus/Language/Suits/PagemasterLifeAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterDeathAbility",
+                "abilityName": "/Lotus/Language/Suits/PagemasterDeathAbilityName",
+                "description": "/Lotus/Language/Suits/PagemasterDeathAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterFinalChapterAbility",
+                "abilityName": "/Lotus/Language/Suits/PagemasterFinalChapterAbilityName",
+                "description": "/Lotus/Language/Suits/PagemasterFinalChapterAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Pacifist/Pacifist",
+        "name": "/Lotus/Language/Suits/PacifistName",
+        "parentName": "/Lotus/Powersuits/Pacifist/PacifistBaseSuit",
+        "description": "/Lotus/Language/Suits/PacifistDesc",
+        "health": 180,
+        "shield": 270,
+        "armor": 185,
+        "stamina": 3,
+        "power": 200,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.2,
+        "passiveDescription": "/Lotus/Language/Suits/PacifistPassiveDesc",
+        "exalted": [
+            "/Lotus/Powersuits/Pacifist/PacifistFist"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PacifistDodgeAbility",
+                "abilityName": "/Lotus/Language/Suits/PacifistDodgeAbilityName",
+                "description": "/Lotus/Language/Suits/PacifistDodgeAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PacifistWaveAbility",
+                "abilityName": "/Lotus/Language/Suits/PacifistWaveAbilityName",
+                "description": "/Lotus/Language/Suits/PacifistWaveAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PacifistDisarmAbility",
+                "abilityName": "/Lotus/Language/Suits/PacifistDisarmAbilityName",
+                "description": "/Lotus/Language/Suits/PacifistDisarmAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PacifistFistAbility",
+                "abilityName": "/Lotus/Language/Suits/PacifistFistAbilityName",
+                "description": "/Lotus/Language/Suits/PacifistFistAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Pacifist/BaruukPrime",
+        "name": "/Lotus/Language/Primes/BaruukPrimeName",
+        "parentName": "/Lotus/Powersuits/Pacifist/PacifistBaseSuit",
+        "description": "/Lotus/Language/Primes/BaruukPrimeDesc",
+        "health": 180,
+        "shield": 365,
+        "armor": 240,
+        "stamina": 3,
+        "power": 200,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.2,
+        "passiveDescription": "/Lotus/Language/Suits/PacifistPassiveDesc",
+        "exalted": [
+            "/Lotus/Powersuits/Pacifist/PacifistFistPrime"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PacifistDodgeAbility",
+                "abilityName": "/Lotus/Language/Suits/PacifistDodgeAbilityName",
+                "description": "/Lotus/Language/Suits/PacifistDodgeAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PacifistWaveAbility",
+                "abilityName": "/Lotus/Language/Suits/PacifistWaveAbilityName",
+                "description": "/Lotus/Language/Suits/PacifistWaveAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PacifistDisarmAbility",
+                "abilityName": "/Lotus/Language/Suits/PacifistDisarmAbilityName",
+                "description": "/Lotus/Language/Suits/PacifistDisarmAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PacifistFistAbility",
+                "abilityName": "/Lotus/Language/Suits/PacifistFistAbilityName",
+                "description": "/Lotus/Language/Suits/PacifistFistAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Odalisk/ProteaPrime",
+        "name": "/Lotus/Language/Primes/ProteaPrimeName",
+        "parentName": "/Lotus/Powersuits/Odalisk/OdaliskBaseSuit",
+        "description": "/Lotus/Language/Primes/ProteaPrimeDesc",
+        "health": 270,
+        "shield": 455,
+        "armor": 185,
+        "stamina": 3,
+        "power": 200,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.2,
+        "passiveDescription": "/Lotus/Language/Suits/OdaliskPassiveAbilityDesc",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskFanAbility",
+                "abilityName": "/Lotus/Language/Suits/OdaliskFanAbilityName",
+                "description": "/Lotus/Language/Suits/OdaliskFanAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskBFGAbility",
+                "abilityName": "/Lotus/Language/Suits/OdaliskBFGAbilityName",
+                "description": "/Lotus/Language/Suits/OdaliskBFGAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskDispensaryAbility",
+                "abilityName": "/Lotus/Language/Suits/OdaliskDispensaryAbilityName",
+                "description": "/Lotus/Language/Suits/OdaliskDispensaryAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskAnchorAbility",
+                "abilityName": "/Lotus/Language/Suits/OdaliskAnchorAbilityName",
+                "description": "/Lotus/Language/Suits/OdaliskAnchorAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Odalisk/Odalisk",
+        "name": "/Lotus/Language/Suits/OdaliskName",
+        "parentName": "/Lotus/Powersuits/Odalisk/OdaliskBaseSuit",
+        "description": "/Lotus/Language/Suits/OdaliskDesc",
+        "health": 270,
+        "shield": 455,
+        "armor": 135,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.2,
+        "passiveDescription": "/Lotus/Language/Suits/OdaliskPassiveAbilityDesc",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskFanAbility",
+                "abilityName": "/Lotus/Language/Suits/OdaliskFanAbilityName",
+                "description": "/Lotus/Language/Suits/OdaliskFanAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskBFGAbility",
+                "abilityName": "/Lotus/Language/Suits/OdaliskBFGAbilityName",
+                "description": "/Lotus/Language/Suits/OdaliskBFGAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskDispensaryAbility",
+                "abilityName": "/Lotus/Language/Suits/OdaliskDispensaryAbilityName",
+                "description": "/Lotus/Language/Suits/OdaliskDispensaryAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskAnchorAbility",
+                "abilityName": "/Lotus/Language/Suits/OdaliskAnchorAbilityName",
+                "description": "/Lotus/Language/Suits/OdaliskAnchorAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Ninja/Ninja",
+        "name": "/Lotus/Language/Suits/AshName",
+        "parentName": "/Lotus/Powersuits/Ninja/NinjaBaseSuit",
+        "description": "/Lotus/Language/Suits/AshDesc",
+        "health": 455,
+        "shield": 270,
+        "armor": 105,
+        "stamina": 3,
+        "power": 100,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.15,
+        "passiveDescription": "/Lotus/Language/Suits/AshPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlaiveAbility",
+                "abilityName": "/Lotus/Language/Suits/GlaiveAbilityName",
+                "description": "/Lotus/Language/Suits/GlaiveAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SmokeScreenAbility",
+                "abilityName": "/Lotus/Language/Suits/SmokeScreenAbilityName",
+                "description": "/Lotus/Language/Suits/SmokeScreenAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TeleportToAbility",
+                "abilityName": "/Lotus/Language/Suits/TeleportToAbilityName",
+                "description": "/Lotus/Language/Suits/TeleportToAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NinjaStormAbility",
+                "abilityName": "/Lotus/Language/Suits/NinjaStormAbilityName",
+                "description": "/Lotus/Language/Suits/NinjaStormAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Ninja/AshPrime",
+        "name": "/Lotus/Language/Primes/AshPrimeName",
+        "parentName": "/Lotus/Powersuits/Ninja/NinjaBaseSuit",
+        "description": "/Lotus/Language/Primes/AshPrimeDesc",
+        "health": 455,
+        "shield": 365,
+        "armor": 185,
+        "stamina": 3,
+        "power": 100,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.2,
+        "passiveDescription": "/Lotus/Language/Primes/AshPrimePassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlaiveAbility",
+                "abilityName": "/Lotus/Language/Suits/GlaiveAbilityName",
+                "description": "/Lotus/Language/Suits/GlaiveAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SmokeScreenAbility",
+                "abilityName": "/Lotus/Language/Suits/SmokeScreenAbilityName",
+                "description": "/Lotus/Language/Suits/SmokeScreenAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TeleportToAbility",
+                "abilityName": "/Lotus/Language/Suits/TeleportToAbilityName",
+                "description": "/Lotus/Language/Suits/TeleportToAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NinjaStormAbility",
+                "abilityName": "/Lotus/Language/Suits/NinjaStormAbilityName",
+                "description": "/Lotus/Language/Suits/NinjaStormAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Nezha/NezhaPrime",
+        "name": "/Lotus/Language/Primes/NezhaPrimeName",
+        "parentName": "/Lotus/Powersuits/Nezha/NezhaBaseSuit",
+        "description": "/Lotus/Language/Primes/NezhaPrimeDesc",
+        "health": 365,
+        "shield": 135,
+        "armor": 265,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.2,
+        "passiveDescription": "/Lotus/Language/Suits/NezhaPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NezhaTrailAbility",
+                "abilityName": "/Lotus/Language/Suits/NezhaTrailAbilityName",
+                "description": "/Lotus/Language/Suits/NezhaTrailAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NezhaRingAbility",
+                "abilityName": "/Lotus/Language/Suits/NezhaRingAbilityName",
+                "description": "/Lotus/Language/Suits/NezhaRingAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NezhaSashAbility",
+                "abilityName": "/Lotus/Language/Suits/NezhaSashAbilityName",
+                "description": "/Lotus/Language/Suits/NezhaSashAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NezhaSpearAbility",
+                "abilityName": "/Lotus/Language/Suits/NezhaSpearAbilityName",
+                "description": "/Lotus/Language/Suits/NezhaSpearAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Nezha/Nezha",
+        "name": "/Lotus/Language/Suits/NezhaName",
+        "parentName": "/Lotus/Powersuits/Nezha/NezhaBaseSuit",
+        "description": "/Lotus/Language/Suits/NezhaDesc",
+        "health": 365,
+        "shield": 135,
+        "armor": 200,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.15,
+        "passiveDescription": "/Lotus/Language/Suits/NezhaPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NezhaTrailAbility",
+                "abilityName": "/Lotus/Language/Suits/NezhaTrailAbilityName",
+                "description": "/Lotus/Language/Suits/NezhaTrailAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NezhaRingAbility",
+                "abilityName": "/Lotus/Language/Suits/NezhaRingAbilityName",
+                "description": "/Lotus/Language/Suits/NezhaRingAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NezhaSashAbility",
+                "abilityName": "/Lotus/Language/Suits/NezhaSashAbilityName",
+                "description": "/Lotus/Language/Suits/NezhaSashAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NezhaSpearAbility",
+                "abilityName": "/Lotus/Language/Suits/NezhaSpearAbilityName",
+                "description": "/Lotus/Language/Suits/NezhaSpearAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Necro/NekrosPrime",
+        "name": "/Lotus/Language/Primes/NekrosPrimeName",
+        "parentName": "/Lotus/Powersuits/Necro/NecroBaseSuit",
+        "description": "/Lotus/Language/Primes/NekrosPrimeDesc",
+        "health": 270,
+        "shield": 455,
+        "armor": 135,
+        "stamina": 3,
+        "power": 140,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.1,
+        "passiveDescription": "/Lotus/Language/Primes/NekrosPrimePassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SoulPunchAbility",
+                "abilityName": "/Lotus/Language/Suits/SoulPunchAbilityName",
+                "description": "/Lotus/Language/Suits/SoulPunchAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TerrorTotemAbility",
+                "abilityName": "/Lotus/Language/Suits/TerrorTotemAbilityName",
+                "description": "/Lotus/Language/Suits/TerrorTotemAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SearchTheDeadAbility",
+                "abilityName": "/Lotus/Language/Suits/SearchTheDeadAbilityName",
+                "description": "/Lotus/Language/Suits/SearchTheDeadAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/CloneTheDeadAbility",
+                "abilityName": "/Lotus/Language/Suits/CloneTheDeadAbilityName",
+                "description": "/Lotus/Language/Suits/CloneTheDeadAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Necro/Necro",
+        "name": "/Lotus/Language/Suits/NekrosName",
+        "parentName": "/Lotus/Powersuits/Necro/NecroBaseSuit",
+        "description": "/Lotus/Language/Suits/NekrosDesc",
+        "health": 270,
+        "shield": 235,
+        "armor": 105,
+        "stamina": 3,
+        "power": 100,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.1,
+        "passiveDescription": "/Lotus/Language/Suits/NekrosPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SoulPunchAbility",
+                "abilityName": "/Lotus/Language/Suits/SoulPunchAbilityName",
+                "description": "/Lotus/Language/Suits/SoulPunchAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TerrorTotemAbility",
+                "abilityName": "/Lotus/Language/Suits/TerrorTotemAbilityName",
+                "description": "/Lotus/Language/Suits/TerrorTotemAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SearchTheDeadAbility",
+                "abilityName": "/Lotus/Language/Suits/SearchTheDeadAbilityName",
+                "description": "/Lotus/Language/Suits/SearchTheDeadAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/CloneTheDeadAbility",
+                "abilityName": "/Lotus/Language/Suits/CloneTheDeadAbilityName",
+                "description": "/Lotus/Language/Suits/CloneTheDeadAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/MonkeyKing/WukongPrime",
+        "name": "/Lotus/Language/Primes/WukongPrimeName",
+        "parentName": "/Lotus/Powersuits/MonkeyKing/MonkeyKingBaseSuit",
+        "description": "/Lotus/Language/Primes/WukongPrimeDesc",
+        "health": 455,
+        "shield": 345,
+        "armor": 290,
+        "stamina": 3,
+        "power": 145,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.05,
+        "passiveDescription": "/Lotus/Language/Suits/WukongPassiveAbility",
+        "exalted": [
+            "/Lotus/Powersuits/MonkeyKing/WukongPrimeStaff"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/MonkeyHairAbility",
+                "abilityName": "/Lotus/Language/Suits/MonkeyHairAbilityName",
+                "description": "/Lotus/Language/Suits/MonkeyHairAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/MonkeyCloudAbility",
+                "abilityName": "/Lotus/Language/Suits/MonkeyCloudAbilityName",
+                "description": "/Lotus/Language/Suits/MonkeyCloudReworkAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/MonkeyDeathNewAbility",
+                "abilityName": "/Lotus/Language/Suits/MonkeyDeathAbilityName",
+                "description": "/Lotus/Language/Suits/MonkeyDeathReworkAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/MonkeyStaffAbility",
+                "abilityName": "/Lotus/Language/Suits/MonkeyStaffAbilityName",
+                "description": "/Lotus/Language/Suits/MonkeyStaffAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/MonkeyKing/MonkeyKing",
+        "name": "/Lotus/Language/Suits/WukongName",
+        "parentName": "/Lotus/Powersuits/MonkeyKing/MonkeyKingBaseSuit",
+        "description": "/Lotus/Language/Suits/WukongDesc",
+        "health": 455,
+        "shield": 270,
+        "armor": 265,
+        "stamina": 3,
+        "power": 130,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/WukongPassiveAbility",
+        "exalted": [
+            "/Lotus/Powersuits/MonkeyKing/MonkeyKingStaff"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/MonkeyHairAbility",
+                "abilityName": "/Lotus/Language/Suits/MonkeyHairAbilityName",
+                "description": "/Lotus/Language/Suits/MonkeyHairAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/MonkeyCloudAbility",
+                "abilityName": "/Lotus/Language/Suits/MonkeyCloudAbilityName",
+                "description": "/Lotus/Language/Suits/MonkeyCloudReworkAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/MonkeyDeathNewAbility",
+                "abilityName": "/Lotus/Language/Suits/MonkeyDeathAbilityName",
+                "description": "/Lotus/Language/Suits/MonkeyDeathReworkAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/MonkeyStaffAbility",
+                "abilityName": "/Lotus/Language/Suits/MonkeyStaffAbilityName",
+                "description": "/Lotus/Language/Suits/MonkeyStaffAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Magician/Magician",
+        "name": "/Lotus/Language/Suits/LimboName",
+        "parentName": "/Lotus/Powersuits/Magician/MagicianBaseSuit",
+        "description": "/Lotus/Language/Suits/LimboDesc",
+        "health": 270,
+        "shield": 180,
+        "armor": 105,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.15,
+        "passiveDescription": "/Lotus/Language/Suits/LimboPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BanishAbility",
+                "abilityName": "/Lotus/Language/Suits/BanishAbilityName",
+                "description": "/Lotus/Language/Suits/BanishAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/MagicianStasisAbility",
+                "abilityName": "/Lotus/Language/Suits/StatisAbilityName",
+                "description": "/Lotus/Language/Suits/StatisAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/VolatileAbility",
+                "abilityName": "/Lotus/Language/Suits/VolatileAbilityName",
+                "description": "/Lotus/Language/Suits/VolatileAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TearInSpaceAbility",
+                "abilityName": "/Lotus/Language/Suits/TearInSpaceAbilityName",
+                "description": "/Lotus/Language/Suits/TearInSpaceAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Magician/LimboPrime",
+        "name": "/Lotus/Language/Primes/LimboPrimeName",
+        "parentName": "/Lotus/Powersuits/Magician/MagicianBaseSuit",
+        "description": "/Lotus/Language/Primes/LimboPrimeDesc",
+        "health": 270,
+        "shield": 270,
+        "armor": 135,
+        "stamina": 3,
+        "power": 215,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.15,
+        "passiveDescription": "/Lotus/Language/Suits/LimboPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BanishAbility",
+                "abilityName": "/Lotus/Language/Suits/BanishAbilityName",
+                "description": "/Lotus/Language/Suits/BanishAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/MagicianStasisAbility",
+                "abilityName": "/Lotus/Language/Suits/StatisAbilityName",
+                "description": "/Lotus/Language/Suits/StatisAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/VolatileAbility",
+                "abilityName": "/Lotus/Language/Suits/VolatileAbilityName",
+                "description": "/Lotus/Language/Suits/VolatileAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/TearInSpaceAbility",
+                "abilityName": "/Lotus/Language/Suits/TearInSpaceAbilityName",
+                "description": "/Lotus/Language/Suits/TearInSpaceAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Mag/MagPrime",
+        "name": "/Lotus/Language/Primes/MagPrimeName",
+        "parentName": "/Lotus/Powersuits/Mag/MagBaseSuit",
+        "description": "/Lotus/Language/Primes/MagPrimeDesc",
+        "health": 270,
+        "shield": 455,
+        "armor": 135,
+        "stamina": 3,
+        "power": 215,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "longDescription": "/Lotus/Language/Codex/MagPrimeLongDesc",
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Primes/MagPrimePassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PullAbility",
+                "abilityName": "/Lotus/Language/Suits/PullAbilityName",
+                "description": "/Lotus/Language/Suits/PullAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BulletAttractorAbility",
+                "abilityName": "/Lotus/Language/Suits/BulletAttractorAbilityName",
+                "description": "/Lotus/Language/Suits/BulletAttractorAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldRegenAbility",
+                "abilityName": "/Lotus/Language/Suits/ShieldRegenAbilityName",
+                "description": "/Lotus/Language/Suits/ShieldRegenAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/CrushAbility",
+                "abilityName": "/Lotus/Language/Suits/CrushAbilityName",
+                "description": "/Lotus/Language/Suits/CrushAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Mag/Mag",
+        "name": "/Lotus/Language/Suits/MagName",
+        "parentName": "/Lotus/Powersuits/Mag/MagBaseSuit",
+        "description": "/Lotus/Language/Suits/MagDesc",
+        "health": 180,
+        "shield": 455,
+        "armor": 105,
+        "stamina": 3,
+        "power": 140,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/MagPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PullAbility",
+                "abilityName": "/Lotus/Language/Suits/PullAbilityName",
+                "description": "/Lotus/Language/Suits/PullAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BulletAttractorAbility",
+                "abilityName": "/Lotus/Language/Suits/BulletAttractorAbilityName",
+                "description": "/Lotus/Language/Suits/BulletAttractorAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldRegenAbility",
+                "abilityName": "/Lotus/Language/Suits/ShieldRegenAbilityName",
+                "description": "/Lotus/Language/Suits/ShieldRegenAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/CrushAbility",
+                "abilityName": "/Lotus/Language/Suits/CrushAbilityName",
+                "description": "/Lotus/Language/Suits/CrushAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Loki/LokiPrime",
+        "name": "/Lotus/Language/Primes/LokiPrimeName",
+        "parentName": "/Lotus/Powersuits/Loki/LokiBaseSuit",
+        "description": "/Lotus/Language/Primes/LokiPrimeDesc",
+        "health": 180,
+        "shield": 180,
+        "armor": 135,
+        "stamina": 3,
+        "power": 215,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.25,
+        "passiveDescription": "/Lotus/Language/Primes/LokiPrimePassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DecoyAbility",
+                "abilityName": "/Lotus/Language/Suits/DecoyAbilityName",
+                "description": "/Lotus/Language/Suits/DecoyAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InvisibilityAbility",
+                "abilityName": "/Lotus/Language/Suits/InvisibilityAbilityName",
+                "description": "/Lotus/Language/Suits/InvisibilityAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SwitchTeleportAbility",
+                "abilityName": "/Lotus/Language/Suits/SwitchTeleportAbilityName",
+                "description": "/Lotus/Language/Suits/SwitchTeleportAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RadialDisarmAbility",
+                "abilityName": "/Lotus/Language/Suits/RadialDisarmAbilityName",
+                "description": "/Lotus/Language/Suits/RadialDisarmAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Loki/Loki",
+        "name": "/Lotus/Language/Suits/LokiName",
+        "parentName": "/Lotus/Powersuits/Loki/LokiBaseSuit",
+        "description": "/Lotus/Language/Suits/LokiDesc",
+        "health": 180,
+        "shield": 180,
+        "armor": 105,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.25,
+        "passiveDescription": "/Lotus/Language/Suits/LokiPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DecoyAbility",
+                "abilityName": "/Lotus/Language/Suits/DecoyAbilityName",
+                "description": "/Lotus/Language/Suits/DecoyAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InvisibilityAbility",
+                "abilityName": "/Lotus/Language/Suits/InvisibilityAbilityName",
+                "description": "/Lotus/Language/Suits/InvisibilityAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SwitchTeleportAbility",
+                "abilityName": "/Lotus/Language/Suits/SwitchTeleportAbilityName",
+                "description": "/Lotus/Language/Suits/SwitchTeleportAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RadialDisarmAbility",
+                "abilityName": "/Lotus/Language/Suits/RadialDisarmAbilityName",
+                "description": "/Lotus/Language/Suits/RadialDisarmAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Khora/KhoraPrime",
+        "name": "/Lotus/Language/Primes/KhoraPrimeName",
+        "parentName": "/Lotus/Powersuits/Khora/KhoraBaseSuit",
+        "description": "/Lotus/Language/Primes/KhoraPrimeDesc",
+        "health": 365,
+        "shield": 365,
+        "armor": 345,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.05,
+        "passiveDescription": "/Lotus/Language/Suits/KhoraPassiveAbilityDesc",
+        "exalted": [
+            "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCrackAbility",
+                "abilityName": "/Lotus/Language/Suits/KhoraCrackAbilityName",
+                "description": "/Lotus/Language/Suits/KhoraCrackAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraTwirlAbility",
+                "abilityName": "/Lotus/Language/Suits/KhoraTwirlAbilityName",
+                "description": "/Lotus/Language/Suits/KhoraTwirlAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraKavatAbility",
+                "abilityName": "/Lotus/Language/Suits/KhoraKavatAbilityName",
+                "description": "/Lotus/Language/Suits/KhoraKavatAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCageAbility",
+                "abilityName": "/Lotus/Language/Suits/KhoraCageAbilityName",
+                "description": "/Lotus/Language/Suits/KhoraCageAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Khora/Khora",
+        "name": "/Lotus/Language/Suits/KhoraName",
+        "parentName": "/Lotus/Powersuits/Khora/KhoraBaseSuit",
+        "description": "/Lotus/Language/Suits/KhoraDesc",
+        "health": 365,
+        "shield": 270,
+        "armor": 290,
+        "stamina": 3,
+        "power": 140,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.05,
+        "passiveDescription": "/Lotus/Language/Suits/KhoraPassiveAbilityDesc",
+        "exalted": [
+            "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCrackAbility",
+                "abilityName": "/Lotus/Language/Suits/KhoraCrackAbilityName",
+                "description": "/Lotus/Language/Suits/KhoraCrackAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraTwirlAbility",
+                "abilityName": "/Lotus/Language/Suits/KhoraTwirlAbilityName",
+                "description": "/Lotus/Language/Suits/KhoraTwirlAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraKavatAbility",
+                "abilityName": "/Lotus/Language/Suits/KhoraKavatAbilityName",
+                "description": "/Lotus/Language/Suits/KhoraKavatAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCageAbility",
+                "abilityName": "/Lotus/Language/Suits/KhoraCageAbilityName",
+                "description": "/Lotus/Language/Suits/KhoraCageAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Jade/NyxPrime",
+        "name": "/Lotus/Language/Primes/NyxPrimeName",
+        "parentName": "/Lotus/Powersuits/Jade/JadeBaseSuit",
+        "description": "/Lotus/Language/Primes/NyxPrimeDesc",
+        "health": 270,
+        "shield": 365,
+        "armor": 135,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.125,
+        "passiveDescription": "/Lotus/Language/Primes/NyxPrimePassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/MindControlAbility",
+                "abilityName": "/Lotus/Language/Suits/MindControlAbilityName",
+                "description": "/Lotus/Language/Suits/MindControlAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DaggerAbility",
+                "abilityName": "/Lotus/Language/Suits/PhysicDaggerAbilityName",
+                "description": "/Lotus/Language/Suits/PhysicDaggerAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ChaosAbility",
+                "abilityName": "/Lotus/Language/Suits/ChaosAbilityName",
+                "description": "/Lotus/Language/Suits/ChaosAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SelfBulletAttractorAbility",
+                "abilityName": "/Lotus/Language/Suits/AbsorbAbilityName",
+                "description": "/Lotus/Language/Suits/AbsorbAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Jade/Jade",
+        "name": "/Lotus/Language/Suits/NyxName",
+        "parentName": "/Lotus/Powersuits/Jade/JadeBaseSuit",
+        "description": "/Lotus/Language/Suits/NyxDesc",
+        "health": 270,
+        "shield": 270,
+        "armor": 105,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.1,
+        "passiveDescription": "/Lotus/Language/Suits/NyxPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/MindControlAbility",
+                "abilityName": "/Lotus/Language/Suits/MindControlAbilityName",
+                "description": "/Lotus/Language/Suits/MindControlAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DaggerAbility",
+                "abilityName": "/Lotus/Language/Suits/PhysicDaggerAbilityName",
+                "description": "/Lotus/Language/Suits/PhysicDaggerAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ChaosAbility",
+                "abilityName": "/Lotus/Language/Suits/ChaosAbilityName",
+                "description": "/Lotus/Language/Suits/ChaosAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SelfBulletAttractorAbility",
+                "abilityName": "/Lotus/Language/Suits/AbsorbAbilityName",
+                "description": "/Lotus/Language/Suits/AbsorbAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/IronFrame/IronFramePrime",
+        "name": "/Lotus/Language/Primes/HildrynPrimeName",
+        "parentName": "/Lotus/Powersuits/IronFrame/IronFrameBaseSuit",
+        "description": "/Lotus/Language/Primes/HildrynPrimeDesc",
+        "health": 270,
+        "shield": 1380,
+        "armor": 315,
+        "stamina": 3,
+        "power": 0,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.05,
+        "passiveDescription": "/Lotus/Language/Suits/IronFramePassiveAbilityDesc",
+        "exalted": [
+            "/Lotus/Powersuits/IronFrame/BlastWeaponPrime"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameBlastAbility",
+                "abilityName": "/Lotus/Language/Suits/IronFrameBlastAbilityName",
+                "description": "/Lotus/Language/Suits/IronFrameBlastAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameStripAbility",
+                "abilityName": "/Lotus/Language/Suits/IronFrameStripAbilityName",
+                "description": "/Lotus/Language/Suits/IronFrameStripAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameAuraAbility",
+                "abilityName": "/Lotus/Language/Suits/IronFrameAuraAbilityName",
+                "description": "/Lotus/Language/Suits/IronFrameAuraAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameEruptionAbility",
+                "abilityName": "/Lotus/Language/Suits/IronFrameEruptionAbilityName",
+                "description": "/Lotus/Language/Suits/IronFrameEruptionAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/IronFrame/IronFrame",
+        "name": "/Lotus/Language/Suits/IronFrameName",
+        "parentName": "/Lotus/Powersuits/IronFrame/IronFrameBaseSuit",
+        "description": "/Lotus/Language/Suits/IronFrameDesc",
+        "health": 180,
+        "shield": 1280,
+        "armor": 315,
+        "stamina": 3,
+        "power": 0,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/IronFramePassiveAbilityDesc",
+        "exalted": [
+            "/Lotus/Powersuits/IronFrame/BlastWeapon"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameBlastAbility",
+                "abilityName": "/Lotus/Language/Suits/IronFrameBlastAbilityName",
+                "description": "/Lotus/Language/Suits/IronFrameBlastAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameStripAbility",
+                "abilityName": "/Lotus/Language/Suits/IronFrameStripAbilityName",
+                "description": "/Lotus/Language/Suits/IronFrameStripAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameAuraAbility",
+                "abilityName": "/Lotus/Language/Suits/IronFrameAuraAbilityName",
+                "description": "/Lotus/Language/Suits/IronFrameAuraAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameEruptionAbility",
+                "abilityName": "/Lotus/Language/Suits/IronFrameEruptionAbilityName",
+                "description": "/Lotus/Language/Suits/IronFrameEruptionAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Infestation/InfestationPrime",
+        "name": "/Lotus/Language/Primes/InfestationPrimeName",
+        "parentName": "/Lotus/Powersuits/Infestation/InfestationBaseSuit",
+        "description": "/Lotus/Language/Primes/InfestationPrimeDesc",
+        "health": 550,
+        "shield": 0,
+        "armor": 425,
+        "stamina": 3,
+        "power": 140,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/InfestPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InfestRuptureAbility",
+                "abilityName": "/Lotus/Language/Suits/RuptureAbilityName",
+                "description": "/Lotus/Language/Suits/RuptureAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InfestTendrilsAbility",
+                "abilityName": "/Lotus/Language/Suits/TendrilsAbilityName",
+                "description": "/Lotus/Language/Suits/TendrilsAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InfestLinkAbility",
+                "abilityName": "/Lotus/Language/Suits/InfestLinkAbilityName",
+                "description": "/Lotus/Language/Suits/InfestLinkAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InfestPodsAbility",
+                "abilityName": "/Lotus/Language/Suits/InfestAbilityName",
+                "description": "/Lotus/Language/Suits/InfestAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Infestation/Infestation",
+        "name": "/Lotus/Language/Suits/InfestationName",
+        "parentName": "/Lotus/Powersuits/Infestation/InfestationBaseSuit",
+        "description": "/Lotus/Language/Suits/InfestationDesc",
+        "health": 455,
+        "shield": 0,
+        "armor": 350,
+        "stamina": 3,
+        "power": 100,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/InfestPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InfestRuptureAbility",
+                "abilityName": "/Lotus/Language/Suits/RuptureAbilityName",
+                "description": "/Lotus/Language/Suits/RuptureAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InfestTendrilsAbility",
+                "abilityName": "/Lotus/Language/Suits/TendrilsAbilityName",
+                "description": "/Lotus/Language/Suits/TendrilsAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InfestLinkAbility",
+                "abilityName": "/Lotus/Language/Suits/InfestLinkAbilityName",
+                "description": "/Lotus/Language/Suits/InfestLinkAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/InfestPodsAbility",
+                "abilityName": "/Lotus/Language/Suits/InfestAbilityName",
+                "description": "/Lotus/Language/Suits/InfestAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Hoplite/Hoplite",
+        "name": "/Lotus/Language/Suits/HopliteFrameName",
+        "parentName": "/Lotus/Powersuits/Hoplite/HopliteBaseSuit",
+        "description": "/Lotus/Language/Suits/HopliteFrameDesc",
+        "health": 270,
+        "shield": 825,
+        "armor": 265,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/HoplitePassiveAbilityDesc",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HopliteImpaleAbility",
+                "abilityName": "/Lotus/Language/Suits/HopliteImpaleAbilityName",
+                "description": "/Lotus/Language/Suits/HopliteImpaleAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HopliteBashAbility",
+                "abilityName": "/Lotus/Language/Suits/HopliteBashAbilityName",
+                "description": "/Lotus/Language/Suits/HopliteBashAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HopliteRallyAbility",
+                "abilityName": "/Lotus/Language/Suits/HopliteRallyAbilityName",
+                "description": "/Lotus/Language/Suits/HopliteRallyAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HopliteArmyAbility",
+                "abilityName": "/Lotus/Language/Suits/HopliteArmyAbilityName",
+                "description": "/Lotus/Language/Suits/HopliteArmyAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Harlequin/MiragePrime",
+        "name": "/Lotus/Language/Primes/MiragePrimeName",
+        "parentName": "/Lotus/Powersuits/Harlequin/HarlequinBaseSuit",
+        "description": "/Lotus/Language/Primes/MiragePrimeDesc",
+        "health": 200,
+        "shield": 310,
+        "armor": 185,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.2,
+        "passiveDescription": "/Lotus/Language/Primes/MiragePrimePassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IllusionAbility",
+                "abilityName": "/Lotus/Language/Suits/IllusionAbilityName",
+                "description": "/Lotus/Language/Suits/IllusionAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HarlequinObjectChangeAbility",
+                "abilityName": "/Lotus/Language/Suits/SleightOfHandAbilityName",
+                "description": "/Lotus/Language/Suits/SleightOfHandAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LightAbility",
+                "abilityName": "/Lotus/Language/Suits/EclipseAbilityName",
+                "description": "/Lotus/Language/Suits/EclipseAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/Prism",
+                "abilityName": "/Lotus/Language/Suits/GrandFinaleName",
+                "description": "/Lotus/Language/Suits/GrandFinaleDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Harlequin/Harlequin",
+        "name": "/Lotus/Language/Suits/MirageName",
+        "parentName": "/Lotus/Powersuits/Harlequin/HarlequinBaseSuit",
+        "description": "/Lotus/Language/Suits/MirageDesc",
+        "health": 200,
+        "shield": 200,
+        "armor": 105,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.2,
+        "passiveDescription": "/Lotus/Language/Suits/MiragePassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IllusionAbility",
+                "abilityName": "/Lotus/Language/Suits/IllusionAbilityName",
+                "description": "/Lotus/Language/Suits/IllusionAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/HarlequinObjectChangeAbility",
+                "abilityName": "/Lotus/Language/Suits/SleightOfHandAbilityName",
+                "description": "/Lotus/Language/Suits/SleightOfHandAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LightAbility",
+                "abilityName": "/Lotus/Language/Suits/EclipseAbilityName",
+                "description": "/Lotus/Language/Suits/EclipseAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/Prism",
+                "abilityName": "/Lotus/Language/Suits/GrandFinaleName",
+                "description": "/Lotus/Language/Suits/GrandFinaleDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Gyre/Gyre",
+        "name": "/Lotus/Language/Suits/GyreFrameName",
+        "parentName": "/Lotus/Powersuits/Gyre/GyreBaseSuit",
+        "description": "/Lotus/Language/Suits/GyreFrameDesc",
+        "health": 270,
+        "shield": 550,
+        "armor": 105,
+        "stamina": 3,
+        "power": 190,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/GyrePassiveDescription",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyrePulseAbility",
+                "abilityName": "/Lotus/Language/Suits/GyrePulseAbilityName",
+                "description": "/Lotus/Language/Suits/GyrePulseAbilityDescription"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreSphereAbility",
+                "abilityName": "/Lotus/Language/Suits/GyreSphereAbilityName",
+                "description": "/Lotus/Language/Suits/GyreSphereAbilityDescription"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreEnergizedAbility",
+                "abilityName": "/Lotus/Language/Suits/GyreEnergizedAbilityName",
+                "description": "/Lotus/Language/Suits/GyreEnergizedAbilityDescription"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreOverchargedAbility",
+                "abilityName": "/Lotus/Language/Suits/GyreOverchargedAbilityName",
+                "description": "/Lotus/Language/Suits/GyreOverchargedAbilityDescription"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Glass/Glass",
+        "name": "/Lotus/Language/Suits/GlassName",
+        "parentName": "/Lotus/Powersuits/Glass/GlassBaseSuit",
+        "description": "/Lotus/Language/Suits/GlassDesc",
+        "health": 270,
+        "shield": 270,
+        "armor": 160,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.15,
+        "passiveDescription": "/Lotus/Language/Suits/GlassPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
+                "abilityName": "/Lotus/Language/Suits/GlassShankAbilityName",
+                "description": "/Lotus/Language/Suits/GlassShankAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShatterAbility",
+                "abilityName": "/Lotus/Language/Suits/GlassShatterAbilityName",
+                "description": "/Lotus/Language/Suits/GlassShatterAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassFragmentAbility",
+                "abilityName": "/Lotus/Language/Suits/GlassFragmentAbilityName",
+                "description": "/Lotus/Language/Suits/GlassFragmentAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassRingAbility",
+                "abilityName": "/Lotus/Language/Suits/GlassRingAbilityName",
+                "description": "/Lotus/Language/Suits/GlassRingAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Glass/GaraPrime",
+        "name": "/Lotus/Language/Primes/GaraPrimeSuitName",
+        "parentName": "/Lotus/Powersuits/Glass/GlassBaseSuit",
+        "description": "/Lotus/Language/Primes/GaraPrimeSuitDesc",
+        "health": 345,
+        "shield": 270,
+        "armor": 200,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.15,
+        "passiveDescription": "/Lotus/Language/Suits/GlassPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
+                "abilityName": "/Lotus/Language/Suits/GlassShankAbilityName",
+                "description": "/Lotus/Language/Suits/GlassShankAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShatterAbility",
+                "abilityName": "/Lotus/Language/Suits/GlassShatterAbilityName",
+                "description": "/Lotus/Language/Suits/GlassShatterAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassFragmentAbility",
+                "abilityName": "/Lotus/Language/Suits/GlassFragmentAbilityName",
+                "description": "/Lotus/Language/Suits/GlassFragmentAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassRingAbility",
+                "abilityName": "/Lotus/Language/Suits/GlassRingAbilityName",
+                "description": "/Lotus/Language/Suits/GlassRingAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Geode/Geode",
+        "name": "/Lotus/Language/Suits/GeodeFrameName",
+        "parentName": "/Lotus/Powersuits/Geode/GeodeBaseSuit",
+        "description": "/Lotus/Language/Suits/GeodeFrameDesc",
+        "health": 400,
+        "shield": 270,
+        "armor": 265,
+        "stamina": 3,
+        "power": 130,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/GeodePassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GeodeShardsAbility",
+                "abilityName": "/Lotus/Language/Suits/GeodeShardsAbilityName",
+                "description": "/Lotus/Language/Suits/GeodeShardsAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GeodeShellAbility",
+                "abilityName": "/Lotus/Language/Suits/GeodeShellAbilityName",
+                "description": "/Lotus/Language/Suits/GeodeShellAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GeodeCrystalAbility",
+                "abilityName": "/Lotus/Language/Suits/GeodeCrystalAbilityName",
+                "description": "/Lotus/Language/Suits/GeodeCrystalAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GeodeGrowthsAbility",
+                "abilityName": "/Lotus/Language/Suits/GeodeGrowthsAbilityName",
+                "description": "/Lotus/Language/Suits/GeodeGrowthsAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Garuda/GarudaPrime",
+        "name": "/Lotus/Language/Primes/GarudaPrimeName",
+        "parentName": "/Lotus/Powersuits/Garuda/GarudaBaseSuit",
+        "description": "/Lotus/Language/Primes/GarudaPrimeDesc",
+        "health": 270,
+        "shield": 270,
+        "armor": 420,
+        "stamina": 3,
+        "power": 220,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/GarudaPassiveAbilityDesc",
+        "exalted": [
+            "/Lotus/Powersuits/Garuda/GarudaPrimeClaws"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GarudaShieldAbility",
+                "abilityName": "/Lotus/Language/Suits/GarudaShieldAbilityName",
+                "description": "/Lotus/Language/Suits/GarudaShieldAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GarudaSiphonAbility",
+                "abilityName": "/Lotus/Language/Suits/GarudaSiphonAbilityName",
+                "description": "/Lotus/Language/Suits/GarudaSiphonAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GarudaBloodAbility",
+                "abilityName": "/Lotus/Language/Suits/GarudaBloodAbilityName",
+                "description": "/Lotus/Language/Suits/GarudaBloodAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GarudaUnstoppableAbility",
+                "abilityName": "/Lotus/Language/Suits/GarudaUnstopplableAbilityName",
+                "description": "/Lotus/Language/Suits/GarudaUnstopplableAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Garuda/Garuda",
+        "name": "/Lotus/Language/Suits/GarudaName",
+        "parentName": "/Lotus/Powersuits/Garuda/GarudaBaseSuit",
+        "description": "/Lotus/Language/Suits/GarudaDesc",
+        "health": 270,
+        "shield": 270,
+        "armor": 315,
+        "stamina": 3,
+        "power": 140,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/GarudaPassiveAbilityDesc",
+        "exalted": [
+            "/Lotus/Powersuits/Garuda/GarudaClaws"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GarudaShieldAbility",
+                "abilityName": "/Lotus/Language/Suits/GarudaShieldAbilityName",
+                "description": "/Lotus/Language/Suits/GarudaShieldAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GarudaSiphonAbility",
+                "abilityName": "/Lotus/Language/Suits/GarudaSiphonAbilityName",
+                "description": "/Lotus/Language/Suits/GarudaSiphonAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GarudaBloodAbility",
+                "abilityName": "/Lotus/Language/Suits/GarudaBloodAbilityName",
+                "description": "/Lotus/Language/Suits/GarudaBloodAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GarudaUnstoppableAbility",
+                "abilityName": "/Lotus/Language/Suits/GarudaUnstopplableAbilityName",
+                "description": "/Lotus/Language/Suits/GarudaUnstopplableAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Frost/FrostPrime",
+        "name": "/Lotus/Language/Primes/FrostPrimeName",
+        "parentName": "/Lotus/Powersuits/Frost/FrostBaseSuit",
+        "description": "/Lotus/Language/Primes/FrostPrimeDesc",
+        "health": 270,
+        "shield": 550,
+        "armor": 315,
+        "stamina": 3,
+        "power": 100,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 0.95,
+        "passiveDescription": "/Lotus/Language/Primes/FrostPrimePassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IcicleAbility",
+                "abilityName": "/Lotus/Language/Suits/FreezeAbilityName",
+                "description": "/Lotus/Language/Suits/FreezeAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IceSpikeAbility",
+                "abilityName": "/Lotus/Language/Suits/IceWaveAbilityName",
+                "description": "/Lotus/Language/Suits/IceWaveAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IceShieldAbility",
+                "abilityName": "/Lotus/Language/Suits/SnowGlobeAbilityName",
+                "description": "/Lotus/Language/Suits/SnowGlobeAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AvalancheAbility",
+                "abilityName": "/Lotus/Language/Suits/AvalancheAbilityName",
+                "description": "/Lotus/Language/Suits/AvalancheAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Frost/Frost",
+        "name": "/Lotus/Language/Suits/FrostName",
+        "parentName": "/Lotus/Powersuits/Frost/FrostBaseSuit",
+        "description": "/Lotus/Language/Suits/FrostDesc",
+        "health": 270,
+        "shield": 455,
+        "armor": 315,
+        "stamina": 3,
+        "power": 100,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 0.95,
+        "passiveDescription": "/Lotus/Language/Suits/FrostPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IcicleAbility",
+                "abilityName": "/Lotus/Language/Suits/FreezeAbilityName",
+                "description": "/Lotus/Language/Suits/FreezeAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IceSpikeAbility",
+                "abilityName": "/Lotus/Language/Suits/IceWaveAbilityName",
+                "description": "/Lotus/Language/Suits/IceWaveAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/IceShieldAbility",
+                "abilityName": "/Lotus/Language/Suits/SnowGlobeAbilityName",
+                "description": "/Lotus/Language/Suits/SnowGlobeAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AvalancheAbility",
+                "abilityName": "/Lotus/Language/Suits/AvalancheAbilityName",
+                "description": "/Lotus/Language/Suits/AvalancheAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Fairy/TitaniaPrime",
+        "name": "/Lotus/Language/Primes/TitaniaPrimeName",
+        "parentName": "/Lotus/Powersuits/Fairy/FairyBaseSuit",
+        "description": "/Lotus/Language/Primes/TitaniaPrimeDesc",
+        "health": 365,
+        "shield": 270,
+        "armor": 135,
+        "stamina": 3,
+        "power": 215,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/TitaniaPassiveAbility",
+        "exalted": [
+            "/Lotus/Powersuits/Fairy/PrimeFlightPistols",
+            "/Lotus/Powersuits/Fairy/PrimeFlightSword"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyDustAbility",
+                "abilityName": "/Lotus/Language/Suits/FairyDustAbilityName",
+                "description": "/Lotus/Language/Suits/FairyDustAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairySoulAbility",
+                "abilityName": "/Lotus/Language/Suits/FairySoulAbilityName",
+                "description": "/Lotus/Language/Suits/FairySoulAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyLightAbility",
+                "abilityName": "/Lotus/Language/Suits/FairyLightAbilityName",
+                "description": "/Lotus/Language/Suits/FairyLightAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyFlightAbility",
+                "abilityName": "/Lotus/Language/Suits/FairyFlightAbilityName",
+                "description": "/Lotus/Language/Suits/FairyFlightAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Fairy/Fairy",
+        "name": "/Lotus/Language/Suits/TitaniaName",
+        "parentName": "/Lotus/Powersuits/Fairy/FairyBaseSuit",
+        "description": "/Lotus/Language/Suits/TitaniaDesc",
+        "health": 270,
+        "shield": 270,
+        "armor": 105,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/TitaniaPassiveAbility",
+        "exalted": [
+            "/Lotus/Powersuits/Fairy/FlightPistols",
+            "/Lotus/Powersuits/Fairy/FlightSword"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyDustAbility",
+                "abilityName": "/Lotus/Language/Suits/FairyDustAbilityName",
+                "description": "/Lotus/Language/Suits/FairyDustAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairySoulAbility",
+                "abilityName": "/Lotus/Language/Suits/FairySoulAbilityName",
+                "description": "/Lotus/Language/Suits/FairySoulAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyLightAbility",
+                "abilityName": "/Lotus/Language/Suits/FairyLightAbilityName",
+                "description": "/Lotus/Language/Suits/FairyLightAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FairyFlightAbility",
+                "abilityName": "/Lotus/Language/Suits/FairyFlightAbilityName",
+                "description": "/Lotus/Language/Suits/FairyFlightAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Excalibur/ExcaliburUmbra",
+        "name": "/Lotus/Language/Suits/ExcaliburUmbraName",
+        "parentName": "/Lotus/Powersuits/Excalibur/DarkExcalibur",
+        "description": "/Lotus/Language/Suits/DarkExcaliburDesc",
+        "health": 270,
+        "shield": 270,
+        "armor": 315,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": true,
+        "masteryReq": 0,
+        "longDescription": "/Lotus/Language/Codex/DarkExcaliburLongDesc",
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/ExcaliburUmbraPassiveDesc",
+        "exalted": [
+            "/Lotus/Powersuits/Excalibur/DoomSwordUmbra"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/UmbraSlashDashNewAbility",
+                "abilityName": "/Lotus/Language/Suits/SlashDashAbilityName",
+                "description": "/Lotus/Language/Suits/SlashDashAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/UmbraRadialRoarAbility",
+                "abilityName": "/Lotus/Language/Suits/RadialBlindAbilityUmbraName",
+                "description": "/Lotus/Language/Suits/RadialBlindAbilityUmbraDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/UmbraRadialJavelinAbility",
+                "abilityName": "/Lotus/Language/Suits/RadialJavelinAbilityName",
+                "description": "/Lotus/Language/Suits/RadialJavelinAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/UmbraSwordOfDoomAbility",
+                "abilityName": "/Lotus/Language/Suits/SwordOfDoomAbilityName",
+                "description": "/Lotus/Language/Suits/SwordOfDoomAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Excalibur/ExcaliburPrime",
+        "name": "/Lotus/Language/Primes/ExcaliburPrimeName",
+        "parentName": "/Lotus/Powersuits/Excalibur/ExcaliburBaseSuit",
+        "description": "/Lotus/Language/Primes/ExcaliburPrimeDesc",
+        "health": 270,
+        "shield": 270,
+        "armor": 315,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": true,
+        "masteryReq": 0,
+        "longDescription": "/Lotus/Language/Codex/ExcaliburLongDesc",
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Primes/ExcaliburPrimePassiveAbility",
+        "exalted": [
+            "/Lotus/Powersuits/Excalibur/DoomSwordPrime"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SlashDashNewAbility",
+                "abilityName": "/Lotus/Language/Suits/SlashDashAbilityName",
+                "description": "/Lotus/Language/Suits/SlashDashAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RadialBlindAbility",
+                "abilityName": "/Lotus/Language/Suits/RadialBlindAbilityName",
+                "description": "/Lotus/Language/Suits/RadialBlindAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RadialJavelinAbility",
+                "abilityName": "/Lotus/Language/Suits/RadialJavelinAbilityName",
+                "description": "/Lotus/Language/Suits/RadialJavelinAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SwordOfDoomAbility",
+                "abilityName": "/Lotus/Language/Suits/SwordOfDoomAbilityName",
+                "description": "/Lotus/Language/Suits/SwordOfDoomAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Excalibur/Excalibur",
+        "name": "/Lotus/Language/Suits/ExcaliburName",
+        "parentName": "/Lotus/Powersuits/Excalibur/ExcaliburBaseSuit",
+        "description": "/Lotus/Language/Suits/ExcaliburDesc",
+        "health": 270,
+        "shield": 270,
+        "armor": 240,
+        "stamina": 3,
+        "power": 100,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "longDescription": "/Lotus/Language/Codex/ExcaliburLongDesc",
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/ExcaliburPassiveAbility",
+        "exalted": [
+            "/Lotus/Powersuits/Excalibur/DoomSword"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SlashDashNewAbility",
+                "abilityName": "/Lotus/Language/Suits/SlashDashAbilityName",
+                "description": "/Lotus/Language/Suits/SlashDashAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RadialBlindAbility",
+                "abilityName": "/Lotus/Language/Suits/RadialBlindAbilityName",
+                "description": "/Lotus/Language/Suits/RadialBlindAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RadialJavelinAbility",
+                "abilityName": "/Lotus/Language/Suits/RadialJavelinAbilityName",
+                "description": "/Lotus/Language/Suits/RadialJavelinAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SwordOfDoomAbility",
+                "abilityName": "/Lotus/Language/Suits/SwordOfDoomAbilityName",
+                "description": "/Lotus/Language/Suits/SwordOfDoomAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Ember/EmberPrime",
+        "name": "/Lotus/Language/Primes/EmberPrimeName",
+        "parentName": "/Lotus/Powersuits/Ember/EmberBaseSuit",
+        "description": "/Lotus/Language/Primes/EmberPrimeDesc",
+        "health": 270,
+        "shield": 365,
+        "armor": 160,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "longDescription": "/Lotus/Language/Codex/EmberLongDesc",
+        "sprintSpeed": 1.1,
+        "passiveDescription": "/Lotus/Language/Primes/EmberPrimePassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FireBallAbility",
+                "abilityName": "/Lotus/Language/Suits/FireBallAbilityName",
+                "description": "/Lotus/Language/Suits/FireBallAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EmberImmolationAbility",
+                "abilityName": "/Lotus/Language/Suits/EmberImmolationAbilityName",
+                "description": "/Lotus/Language/Suits/EmberImmolationAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FireBlastAbility",
+                "abilityName": "/Lotus/Language/Suits/FireBlastAbilityName",
+                "description": "/Lotus/Language/Suits/FireBlastAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EmberInfernoAbility",
+                "abilityName": "/Lotus/Language/Suits/EmberInfernoAbilityName",
+                "description": "/Lotus/Language/Suits/EmberInfernoAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Ember/Ember",
+        "name": "/Lotus/Language/Suits/EmberName",
+        "parentName": "/Lotus/Powersuits/Ember/EmberBaseSuit",
+        "description": "/Lotus/Language/Suits/EmberDesc",
+        "health": 270,
+        "shield": 270,
+        "armor": 135,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "longDescription": "/Lotus/Language/Codex/EmberLongDesc",
+        "sprintSpeed": 1.1,
+        "passiveDescription": "/Lotus/Language/Suits/EmberPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FireBallAbility",
+                "abilityName": "/Lotus/Language/Suits/FireBallAbilityName",
+                "description": "/Lotus/Language/Suits/FireBallAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EmberImmolationAbility",
+                "abilityName": "/Lotus/Language/Suits/EmberImmolationAbilityName",
+                "description": "/Lotus/Language/Suits/EmberImmolationAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/FireBlastAbility",
+                "abilityName": "/Lotus/Language/Suits/FireBlastAbilityName",
+                "description": "/Lotus/Language/Suits/FireBlastAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EmberInfernoAbility",
+                "abilityName": "/Lotus/Language/Suits/EmberInfernoAbilityName",
+                "description": "/Lotus/Language/Suits/EmberInfernoAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Dragon/Dragon",
+        "name": "/Lotus/Language/Suits/ChromaName",
+        "parentName": "/Lotus/Powersuits/Dragon/DragonBaseSuit",
+        "description": "/Lotus/Language/Suits/ChromaDesc",
+        "health": 270,
+        "shield": 270,
+        "armor": 370,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/ChromaPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DragonBreathAbility",
+                "abilityName": "/Lotus/Language/Suits/ElementalAttackAbilityName",
+                "description": "/Lotus/Language/Suits/ElementalAttackAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DragonLuckAbility",
+                "abilityName": "/Lotus/Language/Suits/LuckyDragonAbilityName",
+                "description": "/Lotus/Language/Suits/LuckyDragonAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DragonScalesAbility",
+                "abilityName": "/Lotus/Language/Suits/DragonScalesAbilityName",
+                "description": "/Lotus/Language/Suits/DragonScalesAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DragonPeltAbility",
+                "abilityName": "/Lotus/Language/Suits/SentientAbilityName",
+                "description": "/Lotus/Language/Suits/SentientAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Dragon/ChromaPrime",
+        "name": "/Lotus/Language/Primes/ChromaPrimeName",
+        "parentName": "/Lotus/Powersuits/Dragon/DragonBaseSuit",
+        "description": "/Lotus/Language/Primes/ChromaPrimeDesc",
+        "health": 270,
+        "shield": 270,
+        "armor": 450,
+        "stamina": 3,
+        "power": 200,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/ChromaPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DragonBreathAbility",
+                "abilityName": "/Lotus/Language/Suits/ElementalAttackAbilityName",
+                "description": "/Lotus/Language/Suits/ElementalAttackAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DragonLuckAbility",
+                "abilityName": "/Lotus/Language/Suits/LuckyDragonAbilityName",
+                "description": "/Lotus/Language/Suits/LuckyDragonAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DragonScalesAbility",
+                "abilityName": "/Lotus/Language/Suits/DragonScalesAbilityName",
+                "description": "/Lotus/Language/Suits/DragonScalesAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DragonPeltAbility",
+                "abilityName": "/Lotus/Language/Suits/SentientAbilityName",
+                "description": "/Lotus/Language/Suits/SentientAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Devourer/GrendelPrime",
+        "name": "/Lotus/Language/Primes/GrendelPrimeName",
+        "parentName": "/Lotus/Powersuits/Devourer/DevourerBaseSuit",
+        "description": "/Lotus/Language/Primes/GrendelPrimeDesc",
+        "health": 1095,
+        "shield": 95,
+        "armor": 400,
+        "stamina": 3,
+        "power": 200,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 0.95,
+        "passiveDescription": "/Lotus/Language/Suits/DevourerPassiveAbilityDesc",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DevourerDevourAbility",
+                "abilityName": "/Lotus/Language/Suits/GrendelDevour2AbilityName",
+                "description": "/Lotus/Language/Suits/GrendelDevour2AbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DevourerConsumeAbility",
+                "abilityName": "/Lotus/Language/Suits/GrendelConsumeAbilityName",
+                "description": "/Lotus/Language/Suits/GrendelConsumeAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DevourerBowlAbility",
+                "abilityName": "/Lotus/Language/Suits/GrendelBowlAbilityName",
+                "description": "/Lotus/Language/Suits/GrendelBowlAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DevourerRegurgitateAbility",
+                "abilityName": "/Lotus/Language/Suits/GrendelRegurgitateAbilityName",
+                "description": "/Lotus/Language/Suits/GrendelRegurgitateAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Devourer/Devourer",
+        "name": "/Lotus/Language/Suits/DevourerName",
+        "parentName": "/Lotus/Powersuits/Devourer/DevourerBaseSuit",
+        "description": "/Lotus/Language/Suits/DevourerDesc",
+        "health": 1095,
+        "shield": 95,
+        "armor": 370,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 0.95,
+        "passiveDescription": "/Lotus/Language/Suits/DevourerPassiveAbilityDesc",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DevourerDevourAbility",
+                "abilityName": "/Lotus/Language/Suits/GrendelDevour2AbilityName",
+                "description": "/Lotus/Language/Suits/GrendelDevour2AbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DevourerConsumeAbility",
+                "abilityName": "/Lotus/Language/Suits/GrendelConsumeAbilityName",
+                "description": "/Lotus/Language/Suits/GrendelConsumeAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DevourerBowlAbility",
+                "abilityName": "/Lotus/Language/Suits/GrendelBowlAbilityName",
+                "description": "/Lotus/Language/Suits/GrendelBowlAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DevourerRegurgitateAbility",
+                "abilityName": "/Lotus/Language/Suits/GrendelRegurgitateAbilityName",
+                "description": "/Lotus/Language/Suits/GrendelRegurgitateAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Dagath/Dagath",
+        "name": "/Lotus/Language/Suits/DagathSuitName",
+        "parentName": "/Lotus/Powersuits/Dagath/DagathBaseSuit",
+        "description": "/Lotus/Language/Suits/DagathSuitDesc",
+        "health": 566,
+        "shield": 150,
+        "armor": 125,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.1,
+        "passiveDescription": "/Lotus/Language/Suits/DagathPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DagathVolleyAbility",
+                "abilityName": "/Lotus/Language/Suits/DagathVolleyAbilityName",
+                "description": "/Lotus/Language/Suits/DagathVolleyAbilityDescription"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DagathCurseAbility",
+                "abilityName": "/Lotus/Language/Suits/DagathCurseAbilityName",
+                "description": "/Lotus/Language/Suits/DagathCurseAbilityDescription"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DagathApparitionAbility",
+                "abilityName": "/Lotus/Language/Suits/DagathApparitionAbilityName",
+                "description": "/Lotus/Language/Suits/DagathApparitionAbilityDescription"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/DagathHorseAbility",
+                "abilityName": "/Lotus/Language/Suits/DagathHorseAbilityName",
+                "description": "/Lotus/Language/Suits/DagathHorseAbilityDescription"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Cowgirl/MesaPrime",
+        "name": "/Lotus/Language/Primes/MesaPrimeName",
+        "parentName": "/Lotus/Powersuits/Cowgirl/CowgirlBaseSuit",
+        "description": "/Lotus/Language/Primes/MesaPrimeDesc",
+        "health": 400,
+        "shield": 180,
+        "armor": 135,
+        "stamina": 3,
+        "power": 140,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.1,
+        "passiveDescription": "/Lotus/Language/Primes/MesaPrimePassiveAbility",
+        "exalted": [
+            "/Lotus/Powersuits/Cowgirl/PrimeSlingerPistols"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BallisticBatteryAbility",
+                "abilityName": "/Lotus/Language/Suits/BallisticBatteryAbilityName",
+                "description": "/Lotus/Language/Suits/BallisticBatteryAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RussianRouletteAbility",
+                "abilityName": "/Lotus/Language/Suits/RussianRouletteAbilityName",
+                "description": "/Lotus/Language/Suits/RussianRouletteAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RicochetArmorAbility",
+                "abilityName": "/Lotus/Language/Suits/RicochetArmorAbilityName",
+                "description": "/Lotus/Language/Suits/RicochetArmorAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GunFuAbility",
+                "abilityName": "/Lotus/Language/Suits/GunFuAbilityName",
+                "description": "/Lotus/Language/Suits/GunFuAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Cowgirl/Cowgirl",
+        "name": "/Lotus/Language/Suits/MesaName",
+        "parentName": "/Lotus/Powersuits/Cowgirl/CowgirlBaseSuit",
+        "description": "/Lotus/Language/Suits/MesaDesc",
+        "health": 365,
+        "shield": 180,
+        "armor": 105,
+        "stamina": 3,
+        "power": 100,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.1,
+        "passiveDescription": "/Lotus/Language/Suits/MesaPassiveAbility",
+        "exalted": [
+            "/Lotus/Powersuits/Cowgirl/SlingerPistols"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BallisticBatteryAbility",
+                "abilityName": "/Lotus/Language/Suits/BallisticBatteryAbilityName",
+                "description": "/Lotus/Language/Suits/BallisticBatteryAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RussianRouletteAbility",
+                "abilityName": "/Lotus/Language/Suits/RussianRouletteAbilityName",
+                "description": "/Lotus/Language/Suits/RussianRouletteAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/RicochetArmorAbility",
+                "abilityName": "/Lotus/Language/Suits/RicochetArmorAbilityName",
+                "description": "/Lotus/Language/Suits/RicochetArmorAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GunFuAbility",
+                "abilityName": "/Lotus/Language/Suits/GunFuAbilityName",
+                "description": "/Lotus/Language/Suits/GunFuAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/ConcreteFrame/ConcreteFrame",
+        "name": "/Lotus/Language/Suits/QorvexSuitName",
+        "parentName": "/Lotus/Powersuits/ConcreteFrame/ConcreteFrameBaseSuit",
+        "description": "/Lotus/Language/Suits/QorvexSuitDesc",
+        "health": 600,
+        "shield": 200,
+        "armor": 875,
+        "stamina": 3,
+        "power": 150,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 0.9,
+        "passiveDescription": "/Lotus/Language/Suits/QorvexPassiveDesc",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ConcretePillarAbility",
+                "abilityName": "/Lotus/Language/Suits/QorvexPillarAbilityName",
+                "description": "/Lotus/Language/Suits/QorvexPillarAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ConcreteWallAbility",
+                "abilityName": "/Lotus/Language/Suits/QorvexWallAbilityName",
+                "description": "/Lotus/Language/Suits/QorvexWallAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ConcreteAuraAbility",
+                "abilityName": "/Lotus/Language/Suits/QorvexAuraAbilityName",
+                "description": "/Lotus/Language/Suits/QorvexAuraAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ConcreteLaserAbility",
+                "abilityName": "/Lotus/Language/Suits/QorvexLaserAbilityName",
+                "description": "/Lotus/Language/Suits/QorvexLaserAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/BrokenFrame/BrokenFrame",
+        "name": "/Lotus/Language/Suits/BrokenFrameName",
+        "parentName": "/Lotus/Powersuits/BrokenFrame/BrokenFrameBaseSuit",
+        "description": "/Lotus/Language/Suits/BrokenFrameDesc",
+        "health": 269,
+        "shield": 239,
+        "armor": 146,
+        "stamina": 3,
+        "power": 160,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.02,
+        "passiveDescription": "/Lotus/Language/Suits/BrokenFramePassiveAbilityDesc",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrokenRotAbility",
+                "abilityName": "/Lotus/Language/Suits/BrokenRotAbilityName",
+                "description": "/Lotus/Language/Suits/BrokenRotAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrokenGraspAbility",
+                "abilityName": "/Lotus/Language/Suits/BrokenGraspAbilityName",
+                "description": "/Lotus/Language/Suits/BrokenGraspAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrokenEmbraceAbility",
+                "abilityName": "/Lotus/Language/Suits/BrokenEmbraceAbilityName",
+                "description": "/Lotus/Language/Suits/BrokenEmbraceAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrokenDestructAbility",
+                "abilityName": "/Lotus/Language/Suits/BrokenDestructAbilityName",
+                "description": "/Lotus/Language/Suits/BrokenDestructAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Brawler/Brawler",
+        "name": "/Lotus/Language/Suits/AtlasName",
+        "parentName": "/Lotus/Powersuits/Brawler/BrawlerBaseSuit",
+        "description": "/Lotus/Language/Suits/AtlasDesc",
+        "health": 270,
+        "shield": 270,
+        "armor": 475,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 0.9,
+        "passiveDescription": "/Lotus/Language/Suits/AtlasPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerPunchAbility",
+                "abilityName": "/Lotus/Language/Suits/BrawlerPunchAbilityName",
+                "description": "/Lotus/Language/Suits/BrawlerPunchAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerBarrierAbility",
+                "abilityName": "/Lotus/Language/Suits/BrawlerBarrierAbilityName",
+                "description": "/Lotus/Language/Suits/BrawlerBarrierAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerGazeAbility",
+                "abilityName": "/Lotus/Language/Suits/BrawlerGazeAbilityName",
+                "description": "/Lotus/Language/Suits/BrawlerGazeAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerSummonAbility",
+                "abilityName": "/Lotus/Language/Suits/BrawlerSummonAbilityName",
+                "description": "/Lotus/Language/Suits/BrawlerSummonAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Brawler/AtlasPrime",
+        "name": "/Lotus/Language/Primes/AtlasPrimeName",
+        "parentName": "/Lotus/Powersuits/Brawler/BrawlerBaseSuit",
+        "description": "/Lotus/Language/Primes/AtlasPrimeDesc",
+        "health": 550,
+        "shield": 455,
+        "armor": 500,
+        "stamina": 3,
+        "power": 215,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/AtlasPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerPunchAbility",
+                "abilityName": "/Lotus/Language/Suits/BrawlerPunchAbilityName",
+                "description": "/Lotus/Language/Suits/BrawlerPunchAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerBarrierAbility",
+                "abilityName": "/Lotus/Language/Suits/BrawlerBarrierAbilityName",
+                "description": "/Lotus/Language/Suits/BrawlerBarrierAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerGazeAbility",
+                "abilityName": "/Lotus/Language/Suits/BrawlerGazeAbilityName",
+                "description": "/Lotus/Language/Suits/BrawlerGazeAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerSummonAbility",
+                "abilityName": "/Lotus/Language/Suits/BrawlerSummonAbilityName",
+                "description": "/Lotus/Language/Suits/BrawlerSummonAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Berserker/ValkyrPrime",
+        "name": "/Lotus/Language/Primes/ValkyrPrimeName",
+        "parentName": "/Lotus/Powersuits/Berserker/BerserkerBaseSuit",
+        "description": "/Lotus/Language/Primes/ValkyrPrimeDesc",
+        "health": 270,
+        "shield": 135,
+        "armor": 735,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.1,
+        "passiveDescription": "/Lotus/Language/Primes/ValkyrPrimePassiveAbility",
+        "exalted": [
+            "/Lotus/Powersuits/Berserker/BerserkerMeleePrime"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GrappleHookAbility",
+                "abilityName": "/Lotus/Language/Suits/GrappleHookAbilityName",
+                "description": "/Lotus/Language/Suits/GrappleHookAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BerserkerScreamAbility",
+                "abilityName": "/Lotus/Language/Suits/BerserkerScreamAbilityName",
+                "description": "/Lotus/Language/Suits/BerserkerScreamAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldBashAbility",
+                "abilityName": "/Lotus/Language/Suits/ShieldBashAbilityName",
+                "description": "/Lotus/Language/Suits/ShieldBashAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LastStandAbility",
+                "abilityName": "/Lotus/Language/Suits/LastStandAbilityName",
+                "description": "/Lotus/Language/Suits/LastStandAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Berserker/Berserker",
+        "name": "/Lotus/Language/Suits/ValkyrName",
+        "parentName": "/Lotus/Powersuits/Berserker/BerserkerBaseSuit",
+        "description": "/Lotus/Language/Suits/ValkyrDesc",
+        "health": 270,
+        "shield": 135,
+        "armor": 630,
+        "stamina": 3,
+        "power": 100,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.1,
+        "passiveDescription": "/Lotus/Language/Suits/ValkyrPassiveAbility",
+        "exalted": [
+            "/Lotus/Powersuits/Berserker/BerserkerMelee"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/GrappleHookAbility",
+                "abilityName": "/Lotus/Language/Suits/GrappleHookAbilityName",
+                "description": "/Lotus/Language/Suits/GrappleHookAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BerserkerScreamAbility",
+                "abilityName": "/Lotus/Language/Suits/BerserkerScreamAbilityName",
+                "description": "/Lotus/Language/Suits/BerserkerScreamAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/ShieldBashAbility",
+                "abilityName": "/Lotus/Language/Suits/ShieldBashAbilityName",
+                "description": "/Lotus/Language/Suits/ShieldBashAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/LastStandAbility",
+                "abilityName": "/Lotus/Language/Suits/LastStandAbilityName",
+                "description": "/Lotus/Language/Suits/LastStandAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Bard/OctaviaPrime",
+        "name": "/Lotus/Language/Primes/OctaviaPrimeSuitName",
+        "parentName": "/Lotus/Powersuits/Bard/BardBaseSuit",
+        "description": "/Lotus/Language/Primes/OctaviaPrimeSuitDesc",
+        "health": 270,
+        "shield": 270,
+        "armor": 160,
+        "stamina": 3,
+        "power": 215,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.05,
+        "passiveDescription": "/Lotus/Language/Suits/PassiveAbilityBard",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BardMusicAbility",
+                "abilityName": "/Lotus/Language/Suits/BardMusicAbilityName",
+                "description": "/Lotus/Language/Suits/BardMusicAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BardCharmAbility",
+                "abilityName": "/Lotus/Language/Suits/BardCharmAbilityName",
+                "description": "/Lotus/Language/Suits/BardCharmAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BardJamAbility",
+                "abilityName": "/Lotus/Language/Suits/BardJamAbilityName",
+                "description": "/Lotus/Language/Suits/BardJamAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BardAmplifyAbility",
+                "abilityName": "/Lotus/Language/Suits/BardAmplifyAbilityName",
+                "description": "/Lotus/Language/Suits/BardAmplifyAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Bard/Bard",
+        "name": "/Lotus/Language/Suits/BardName",
+        "parentName": "/Lotus/Powersuits/Bard/BardBaseSuit",
+        "description": "/Lotus/Language/Suits/BardDesc",
+        "health": 270,
+        "shield": 180,
+        "armor": 160,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.05,
+        "passiveDescription": "/Lotus/Language/Suits/PassiveAbilityBard",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BardMusicAbility",
+                "abilityName": "/Lotus/Language/Suits/BardMusicAbilityName",
+                "description": "/Lotus/Language/Suits/BardMusicAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BardCharmAbility",
+                "abilityName": "/Lotus/Language/Suits/BardCharmAbilityName",
+                "description": "/Lotus/Language/Suits/BardCharmAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BardJamAbility",
+                "abilityName": "/Lotus/Language/Suits/BardJamAbilityName",
+                "description": "/Lotus/Language/Suits/BardJamAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/BardAmplifyAbility",
+                "abilityName": "/Lotus/Language/Suits/BardAmplifyAbilityName",
+                "description": "/Lotus/Language/Suits/BardAmplifyAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Banshee/BansheePrime",
+        "name": "/Lotus/Language/Primes/BansheePrimeName",
+        "parentName": "/Lotus/Powersuits/Banshee/BansheeBaseSuit",
+        "description": "/Lotus/Language/Primes/BansheePrimeDesc",
+        "health": 270,
+        "shield": 270,
+        "armor": 135,
+        "stamina": 3,
+        "power": 215,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.15,
+        "passiveDescription": "/Lotus/Language/Suits/BansheePassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PushAbility",
+                "abilityName": "/Lotus/Language/Suits/PushAbilityName",
+                "description": "/Lotus/Language/Suits/PushAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SonarAbility",
+                "abilityName": "/Lotus/Language/Suits/SonarAbilityName",
+                "description": "/Lotus/Language/Suits/SonarAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SilenceAbility",
+                "abilityName": "/Lotus/Language/Suits/SilenceAbilityName",
+                "description": "/Lotus/Language/Suits/SilenceAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SonicEarthQuakeAbility",
+                "abilityName": "/Lotus/Language/Suits/SoundquakeAbilityName",
+                "description": "/Lotus/Language/Suits/SoundquakeAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Banshee/Banshee",
+        "name": "/Lotus/Language/Suits/BansheeName",
+        "parentName": "/Lotus/Powersuits/Banshee/BansheeBaseSuit",
+        "description": "/Lotus/Language/Suits/BansheeDesc",
+        "health": 270,
+        "shield": 270,
+        "armor": 105,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.1,
+        "passiveDescription": "/Lotus/Language/Suits/BansheePassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/PushAbility",
+                "abilityName": "/Lotus/Language/Suits/PushAbilityName",
+                "description": "/Lotus/Language/Suits/PushAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SonarAbility",
+                "abilityName": "/Lotus/Language/Suits/SonarAbilityName",
+                "description": "/Lotus/Language/Suits/SonarAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SilenceAbility",
+                "abilityName": "/Lotus/Language/Suits/SilenceAbilityName",
+                "description": "/Lotus/Language/Suits/SilenceAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/SonicEarthQuakeAbility",
+                "abilityName": "/Lotus/Language/Suits/SoundquakeAbilityName",
+                "description": "/Lotus/Language/Suits/SoundquakeAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/AntiMatter/NovaPrime",
+        "name": "/Lotus/Language/Primes/NovaPrimeName",
+        "parentName": "/Lotus/Powersuits/AntiMatter/NovaBaseSuit",
+        "description": "/Lotus/Language/Primes/NovaPrimeDesc",
+        "health": 270,
+        "shield": 270,
+        "armor": 135,
+        "stamina": 3,
+        "power": 215,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.2,
+        "passiveDescription": "/Lotus/Language/Primes/NovaPrimePassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NullStarAbility",
+                "abilityName": "/Lotus/Language/Suits/NullstarAbilityName",
+                "description": "/Lotus/Language/Suits/NullstarAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AntiMatterDrop",
+                "abilityName": "/Lotus/Language/Suits/DropAbilityName",
+                "description": "/Lotus/Language/Suits/DropAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WormHoleAbility",
+                "abilityName": "/Lotus/Language/Suits/WormHoleAbilityName",
+                "description": "/Lotus/Language/Suits/WormHoleAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/MolecularPrimeAbility",
+                "abilityName": "/Lotus/Language/Suits/MolecularPrimeAbilityName",
+                "description": "/Lotus/Language/Suits/MolecularPrimeAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/AntiMatter/Anti",
+        "name": "/Lotus/Language/Suits/NovaName",
+        "parentName": "/Lotus/Powersuits/AntiMatter/NovaBaseSuit",
+        "description": "/Lotus/Language/Suits/NovaDesc",
+        "health": 270,
+        "shield": 180,
+        "armor": 105,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.2,
+        "passiveDescription": "/Lotus/Language/Suits/NovaPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/NullStarAbility",
+                "abilityName": "/Lotus/Language/Suits/NullstarAbilityName",
+                "description": "/Lotus/Language/Suits/NullstarAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AntiMatterDrop",
+                "abilityName": "/Lotus/Language/Suits/DropAbilityName",
+                "description": "/Lotus/Language/Suits/DropAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/WormHoleAbility",
+                "abilityName": "/Lotus/Language/Suits/WormHoleAbilityName",
+                "description": "/Lotus/Language/Suits/WormHoleAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/MolecularPrimeAbility",
+                "abilityName": "/Lotus/Language/Suits/MolecularPrimeAbilityName",
+                "description": "/Lotus/Language/Suits/MolecularPrimeAbilityDesc"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/Alchemist/Alchemist",
+        "name": "/Lotus/Language/Suits/AlchemistName",
+        "parentName": "/Lotus/Powersuits/Alchemist/AlchemistBaseSuit",
+        "description": "/Lotus/Language/Suits/AlchemistDesc",
+        "health": 540,
+        "shield": 270,
+        "armor": 575,
+        "stamina": 3,
+        "power": 0,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.15,
+        "passiveDescription": "/Lotus/Language/Suits/LavoPassiveAbility",
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistSerpentAbility",
+                "abilityName": "/Lotus/Language/Suits/AlchemistSerpent_AbilityName",
+                "description": "/Lotus/Language/Suits/AlchemistSerpent_AbilityDescription"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistVialAbility",
+                "abilityName": "/Lotus/Language/Suits/AlchemistVial_AbilityName",
+                "description": "/Lotus/Language/Suits/AlchemistVial_AbilityDescription"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistTransmuteAbility",
+                "abilityName": "/Lotus/Language/Suits/AlchemistTransmute_AbilityName",
+                "description": "/Lotus/Language/Suits/AlchemistTransmute_AbilityDescription"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistDistillAbility",
+                "abilityName": "/Lotus/Language/Suits/AlchemistDistill_AbilityName",
+                "description": "/Lotus/Language/Suits/AlchemistDistill_AbilityDescription"
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/EntratiMech/NechroTech",
+        "name": "/Lotus/Language/Necromech/MechNecroTechName",
+        "parentName": "/Lotus/Powersuits/EntratiMech/BaseMechSuit",
+        "description": "/Lotus/Language/Necromech/MechNecroTechDesc",
+        "health": 1400,
+        "shield": 850,
+        "armor": 385,
+        "stamina": 200,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "exalted": [
+            "/Lotus/Types/Enemies/Orokin/Entrati/EntratiTech/NechroTech/ExaltedArtilleryWeapon",
+            "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EntratiMechOilGrenadeAbility",
+                "abilityName": "/Lotus/Language/Necromech/EntratiMechOilGrenadeAbilityName",
+                "description": "/Lotus/Language/Necromech/EntratiMechOilGrenadeAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EntratiMechShockingIronAbility",
+                "abilityName": "/Lotus/Language/Necromech/EntratiMechShockingIronAbilityName",
+                "description": "/Lotus/Language/Necromech/EntratiMechShockingIronAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EntratiMechMinefieldAbility",
+                "abilityName": "/Lotus/Language/Necromech/EntratiMechMinefieldAbilityName",
+                "description": "/Lotus/Language/Necromech/EntratiMechMinefieldAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EntratiMechTurretModeAbility",
+                "abilityName": "/Lotus/Language/Necromech/EntratiMechTurretModeAbilityName",
+                "description": "/Lotus/Language/Necromech/EntratiMechTurretModeAbilityDesc"
+            }
+        ],
+        "productCategory": "MechSuits"
+    },
+    {
+        "uniqueName": "/Lotus/Powersuits/EntratiMech/ThanoTech",
+        "name": "/Lotus/Language/Necromech/ThanoTechMechName",
+        "parentName": "/Lotus/Powersuits/EntratiMech/BaseMechSuit",
+        "description": "/Lotus/Language/Necromech/ThanoTechMechDesc",
+        "health": 1880,
+        "shield": 430,
+        "armor": 480,
+        "stamina": 200,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.1,
+        "exalted": [
+            "/Lotus/Types/Enemies/Orokin/Entrati/EntratiTech/NechroTech/AbilitySword/NechroTechSwordWeapon",
+            "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun"
+        ],
+        "abilities": [
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EntratiMechGrabAbility",
+                "abilityName": "/Lotus/Language/Necromech/EntratiMechGrabAbilityName",
+                "description": "/Lotus/Language/Necromech/EntratiMechGrabAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EntratiMechRiotShieldAbility",
+                "abilityName": "/Lotus/Language/Necromech/EntratiMechRiotShieldAbilityName",
+                "description": "/Lotus/Language/Necromech/EntratiMechRiotShieldAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EntratiMechRepulseAbility",
+                "abilityName": "/Lotus/Language/Necromech/EntratiMechRepulseAbilityName",
+                "description": "/Lotus/Language/Necromech/EntratiMechRepulseAbilityDesc"
+            },
+            {
+                "abilityUniqueName": "/Lotus/Powersuits/PowersuitAbilities/EntratiMechSwordAbility",
+                "abilityName": "/Lotus/Language/Necromech/EntratiMechSwordAbilityName",
+                "description": "/Lotus/Language/Necromech/EntratiMechSwordAbilityDesc"
+            }
+        ],
+        "productCategory": "MechSuits"
+    }
+]
