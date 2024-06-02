@@ -1,6 +1,9 @@
 # warframe-public-export-plus
 
-[Warframe's Public Export](https://github.com/calamity-inc/warframe-public-export) with some extra love like language abstraction.
+[Warframe's Public Export](https://github.com/calamity-inc/warframe-public-export) with extra love:
+- Items missing in Public Export included.
+- Data and localizations split into separate files.
+- More fields provided for some exports.
 
 ## Notes
 
