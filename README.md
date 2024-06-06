@@ -10,6 +10,7 @@
 ### ExportWeapons
 
 - Non-weapon items such as modular parts are in here as well. These can be filtered by checking if `totalDamage` is 0.
+- The `damagePerShot` array is documented [here](https://warframe.fandom.com/wiki/Public_Export#Guns).
 
 ### ExportUpgrades
 
