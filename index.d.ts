@@ -29,6 +29,7 @@ export declare const ExportImages: Record<string, IImage>;
 export declare const ExportIntrinsics: Record<string, IIntrinsic>;
 export declare const ExportKeys: Record<string, IKey>;
 export declare const ExportModSet: Record<string, IModSet>;
+export declare const ExportNightwave: IExportNightwave;
 export declare const ExportOther: Record<string, IOther>;
 export declare const ExportRailjack: IExportRailjack;
 export declare const ExportRailjackWeapons: Record<string, IRailjackWeapon>;
@@ -182,6 +183,26 @@ export interface IModSet {
     numUpgradesInSet: number;
     levelStats:       object[];
     buffSet?:         boolean;
+}
+
+export interface IExportNightwave {
+    affiliationTag: string;
+    challenges:     Record<string, {
+        name:        string;
+        description: string;
+        standing:    number;
+        required:    number;
+        icon:        string;
+        tip?:         string;
+        tipIcon?:     string;
+    }>;
+    rewards:        {
+        uniqueName:  string;
+        name:        string;
+        description: string;
+        icon:        string;
+        itemCount?:  number;
+    }[];
 }
 
 export interface IOther {
