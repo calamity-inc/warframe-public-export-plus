@@ -31,6 +31,7 @@ PublicExportPlus.ExportIntrinsics = require("./ExportIntrinsics.json");
 PublicExportPlus.ExportKeys = require("./ExportKeys.json");
 PublicExportPlus.ExportModSet = require("./ExportModSet.json");
 PublicExportPlus.ExportOther = require("./ExportOther.json");
+PublicExportPlus.ExportRailjack = require("./ExportRailjack.json");
 PublicExportPlus.ExportRailjackWeapons = require("./ExportRailjackWeapons.json");
 PublicExportPlus.ExportRecipes = require("./ExportRecipes.json");
 PublicExportPlus.ExportRegions = require("./ExportRegions.json");

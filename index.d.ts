@@ -29,6 +29,7 @@ export declare const ExportIntrinsics: Record<string, IIntrinsic>;
 export declare const ExportKeys: Record<string, IKey>;
 export declare const ExportModSet: Record<string, IModSet>;
 export declare const ExportOther: Record<string, IOther>;
+export declare const ExportRailjack: IExportRailjack;
 export declare const ExportRailjackWeapons: Record<string, IRailjackWeapon>;
 export declare const ExportRecipes: Record<string, IRecipe>;
 export declare const ExportRegions: Record<string, IRegion>;
@@ -175,6 +176,14 @@ export interface IOther {
     description:       string;
     icon:              string;
     excludeFromCodex?: boolean;
+}
+
+export interface IExportRailjack {
+    nodes: Record<string, IRailjackNode>;
+}
+
+export interface IRailjackNode {
+    name: string;
 }
 
 export interface IRailjackWeapon {
