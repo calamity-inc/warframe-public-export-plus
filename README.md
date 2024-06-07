@@ -5,6 +5,13 @@
 - Data and localizations split into separate files.
 - New exports, and more fields on existing exports.
 
+## Obtaining images
+
+Instead of ExportManifest, this project adds an `icon` field to most exports, which contains a path, e.g. `/Lotus/Interface/Icons/Player/LotusSymbol.png`. There are a few ways to obtain an image from such a path:
+- [Puxtril's Warframe Exporter](https://github.com/Puxtril/Warframe-Exporter) can be used entirely offline to export textures from your game files.
+- browse.wf hosts all images and can be queried like this: <https://browse.wf/Lotus/Interface/Icons/Player/LotusSymbol.png>
+- ExportImages can be used to find out if an image is hosted on `content.warframe.com/PublicExport`, in which case it can be obtained using by adding an exclamation mark followed by the `contentHash`, like so: <https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/LotusSymbol.png!00_WC8orfy4NOtWelndlH7qmQ>
+
 ## Notes
 
 ### ExportWeapons
