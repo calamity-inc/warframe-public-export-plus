@@ -1,0 +1,43 @@
+const PublicExportPlus = {};
+
+PublicExportPlus.dict_en = require("./dict.en.json");
+PublicExportPlus.dict_de = require("./dict.de.json");
+PublicExportPlus.dict_es = require("./dict.es.json");
+PublicExportPlus.dict_fr = require("./dict.fr.json");
+PublicExportPlus.dict_it = require("./dict.it.json");
+PublicExportPlus.dict_ja = require("./dict.ja.json");
+PublicExportPlus.dict_ko = require("./dict.ko.json");
+PublicExportPlus.dict_pl = require("./dict.pl.json");
+PublicExportPlus.dict_pt = require("./dict.pt.json");
+PublicExportPlus.dict_ru = require("./dict.ru.json");
+PublicExportPlus.dict_tc = require("./dict.tc.json");
+PublicExportPlus.dict_th = require("./dict.th.json");
+PublicExportPlus.dict_tr = require("./dict.tr.json");
+PublicExportPlus.dict_uk = require("./dict.uk.json");
+PublicExportPlus.dict_zh = require("./dict.zh.json");
+
+PublicExportPlus.ExportAbilities = require("./ExportAbilities.json");
+PublicExportPlus.ExportArcanes = require("./ExportArcanes.json");
+PublicExportPlus.ExportCustoms = require("./ExportCustoms.json");
+PublicExportPlus.ExportDojoRecipes = require("./ExportDojoRecipes.json");
+PublicExportPlus.ExportDrones = require("./ExportDrones.json");
+PublicExportPlus.ExportFlavour = require("./ExportFlavour.json");
+PublicExportPlus.ExportFocusUpgrades = require("./ExportFocusUpgrades.json");
+PublicExportPlus.ExportFusionBundles = require("./ExportFusionBundles.json");
+PublicExportPlus.ExportGear = require("./ExportGear.json");
+PublicExportPlus.ExportImages = require("./ExportImages.json");
+PublicExportPlus.ExportIntrinsics = require("./ExportIntrinsics.json");
+PublicExportPlus.ExportKeys = require("./ExportKeys.json");
+PublicExportPlus.ExportOther = require("./ExportOther.json");
+PublicExportPlus.ExportRailjackWeapons = require("./ExportRailjackWeapons.json");
+PublicExportPlus.ExportRecipes = require("./ExportRecipes.json");
+PublicExportPlus.ExportRegions = require("./ExportRegions.json");
+PublicExportPlus.ExportRelics = require("./ExportRelics.json");
+PublicExportPlus.ExportResources = require("./ExportResources.json");
+PublicExportPlus.ExportSentinels = require("./ExportSentinels.json");
+PublicExportPlus.ExportSortieRewards = require("./ExportSortieRewards.json");
+PublicExportPlus.ExportUpgrades = require("./ExportUpgrades.json");
+PublicExportPlus.ExportWarframes = require("./ExportWarframes.json");
+PublicExportPlus.ExportWeapons = require("./ExportWeapons.json");
+
+module.exports = PublicExportPlus;
