@@ -236,6 +236,7 @@ export interface IResource {
     icon:               string;
     codexSecret:        boolean;
     parentName:         string;
+    productCategory:    "ShipDecorations" | "MiscItems" | "CrewShips" | "KubrowPetEggs" | "FusionTreasures" | "SupplyDrop" | "Ships";
     excludeFromCodex?:  boolean;
     showInInventory?:   boolean;
     longDescription?:   string;
