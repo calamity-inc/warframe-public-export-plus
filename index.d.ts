@@ -298,6 +298,7 @@ export interface IUpgrade {
     availableChallenges?: {
         fullName:      string;
         description:   string;
+        countRange:    number[];
         complications: {
             fullName:     string;
             description:  string;
