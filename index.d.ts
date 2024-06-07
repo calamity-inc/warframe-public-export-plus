@@ -26,6 +26,7 @@ export declare const ExportGear: Record<string, IGear>;
 export declare const ExportImages: Record<string, IImage>;
 export declare const ExportIntrinsics: Record<string, IIntrinsic>;
 export declare const ExportKeys: Record<string, IKey>;
+export declare const ExportModSet: Record<string, IModSet>;
 export declare const ExportOther: Record<string, IOther>;
 export declare const ExportRailjackWeapons: Record<string, IRailjackWeapon>;
 export declare const ExportRecipes: Record<string, IRecipe>;
@@ -148,6 +149,14 @@ export interface IKey {
     parentName:        string;
     codexSecret:       boolean;
     excludeFromCodex?: boolean;
+}
+
+export interface IModSet {
+    description:      string;
+    icon:             string;
+    numUpgradesInSet: number;
+    levelStats:       object[];
+    buffSet?:         boolean;
 }
 
 export interface IOther {

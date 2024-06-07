@@ -1,0 +1,385 @@
+{
+    "/Lotus/Upgrades/Mods/Sets/Vigilante/VigilanteSetMod": {
+        "description": "/Lotus/Language/Upgrades/WarframeVigilanteSetDesc",
+        "icon": "/Lotus/Interface/Cards/Images/Sets/Vigilante/VigilanteHeader.png",
+        "numUpgradesInSet": 6,
+        "levelStats": [
+            {
+                "STAT1": "5"
+            },
+            {
+                "STAT1": "10"
+            },
+            {
+                "STAT1": "15"
+            },
+            {
+                "STAT1": "20"
+            },
+            {
+                "STAT1": "25"
+            },
+            {
+                "STAT1": "30"
+            }
+        ]
+    },
+    "/Lotus/Upgrades/Mods/Sets/Umbra/UmbraSetMod": {
+        "description": "/Lotus/Language/Mods/WarframeUmbraModSetDesc",
+        "icon": "/Lotus/Interface/Cards/Images/Sets/Umbra/UmbraHeader.png",
+        "numUpgradesInSet": 3,
+        "buffSet": true,
+        "levelStats": [
+            {},
+            {},
+            {}
+        ]
+    },
+    "/Lotus/Upgrades/Mods/Sets/Tek/TekSetMod": {
+        "description": "/Lotus/Language/Upgrades/TekModSetBonus",
+        "icon": "/Lotus/Interface/Cards/Images/Sets/Tek/TekHeader.png",
+        "numUpgradesInSet": 4,
+        "levelStats": [
+            {
+                "RADIUS": "3",
+                "COOLDOWN": "60",
+                "DAMAGE": "50"
+            },
+            {
+                "RADIUS": "6",
+                "COOLDOWN": "45",
+                "DAMAGE": "100"
+            },
+            {
+                "RADIUS": "9",
+                "COOLDOWN": "30",
+                "DAMAGE": "150"
+            },
+            {
+                "RADIUS": "12",
+                "COOLDOWN": "15",
+                "DAMAGE": "200"
+            }
+        ]
+    },
+    "/Lotus/Upgrades/Mods/Sets/Synth/SynthSetMod": {
+        "description": "/Lotus/Language/Upgrades/SynthModSetBonus",
+        "icon": "/Lotus/Interface/Cards/Images/Sets/Synth/SynthHeader.png",
+        "numUpgradesInSet": 4,
+        "levelStats": [
+            {
+                "val": "5"
+            },
+            {
+                "val": "10"
+            },
+            {
+                "val": "15"
+            },
+            {
+                "val": "20"
+            }
+        ]
+    },
+    "/Lotus/Upgrades/Mods/Sets/Strain/StrainSetMod": {
+        "description": "/Lotus/Language/Upgrades/StrainModSetBonus",
+        "icon": "/Lotus/Interface/Cards/Images/Sets/Strain/StrainHeader.png",
+        "numUpgradesInSet": 4,
+        "levelStats": [
+            {
+                "COUNT": "2",
+                "COOLDOWN": "6",
+                "DELAY": "25"
+            },
+            {
+                "COUNT": "4",
+                "COOLDOWN": "12",
+                "DELAY": "25"
+            },
+            {
+                "COUNT": "6",
+                "COOLDOWN": "18",
+                "DELAY": "25"
+            },
+            {
+                "COUNT": "8",
+                "COOLDOWN": "24",
+                "DELAY": "25"
+            }
+        ]
+    },
+    "/Lotus/Upgrades/Mods/Sets/Spider/SpiderSetMod": {
+        "description": "/Lotus/Language/Mods/SpiderSetModPassiveDesc",
+        "icon": "/Lotus/Interface/Cards/Images/Sets/Spider/SpiderHeader.png",
+        "numUpgradesInSet": 3,
+        "levelStats": [
+            {
+                "val": "+17"
+            },
+            {
+                "val": "+33"
+            },
+            {
+                "val": "+50"
+            }
+        ]
+    },
+    "/Lotus/Upgrades/Mods/Sets/Sacrifice/SacrificeSetMod": {
+        "description": "/Lotus/Language/Mods/WarframeUmbraModSetDesc",
+        "icon": "/Lotus/Interface/Cards/Images/Sets/Umbra/UmbraHeader.png",
+        "numUpgradesInSet": 2,
+        "buffSet": true,
+        "levelStats": [
+            {},
+            {}
+        ]
+    },
+    "/Lotus/Upgrades/Mods/Sets/Raptor/RaptorSetMod": {
+        "description": "/Lotus/Language/Mods/RaptorSetModPassiveDesc",
+        "icon": "/Lotus/Interface/Cards/Images/Sets/Raptor/RaptorHeader.png",
+        "numUpgradesInSet": 3,
+        "levelStats": [
+            {
+                "val": "+33"
+            },
+            {
+                "val": "+67"
+            },
+            {
+                "val": "+100"
+            }
+        ]
+    },
+    "/Lotus/Upgrades/Mods/Sets/Nira/NiraSetMod": {
+        "description": "/Lotus/Language/Upgrades/NiraSetBonus",
+        "icon": "/Lotus/Interface/Cards/Images/Sets/Nira/NiraHeader.png",
+        "numUpgradesInSet": 3,
+        "levelStats": [
+            {
+                "val": "+100"
+            },
+            {
+                "val": "+200"
+            },
+            {
+                "val": "+300"
+            }
+        ]
+    },
+    "/Lotus/Upgrades/Mods/Sets/Mecha/MechaSetMod": {
+        "description": "/Lotus/Language/Upgrades/MechaModSetBonus",
+        "icon": "/Lotus/Interface/Cards/Images/Sets/Mecha/MechaHeader.png",
+        "numUpgradesInSet": 4,
+        "levelStats": [
+            {
+                "COOLDOWN": "60",
+                "DURATION": "3",
+                "RANGE": "7.5"
+            },
+            {
+                "COOLDOWN": "45",
+                "DURATION": "6",
+                "RANGE": "15"
+            },
+            {
+                "COOLDOWN": "30",
+                "DURATION": "9",
+                "RANGE": "22.5"
+            },
+            {
+                "COOLDOWN": "15",
+                "DURATION": "12",
+                "RANGE": "30"
+            }
+        ]
+    },
+    "/Lotus/Upgrades/Mods/Sets/Hunter/HunterSetMod": {
+        "description": "/Lotus/Language/Upgrades/WarframeHunterSetDesc",
+        "icon": "/Lotus/Interface/Cards/Images/Sets/Hunter/HunterHeader.png",
+        "numUpgradesInSet": 6,
+        "levelStats": [
+            {
+                "STAT1": "25"
+            },
+            {
+                "STAT1": "50"
+            },
+            {
+                "STAT1": "75"
+            },
+            {
+                "STAT1": "100"
+            },
+            {
+                "STAT1": "125"
+            },
+            {
+                "STAT1": "150"
+            }
+        ]
+    },
+    "/Lotus/Upgrades/Mods/Sets/Hawk/HawkSetMod": {
+        "description": "/Lotus/Language/Mods/HawkSetPassiveDesc",
+        "icon": "/Lotus/Interface/Cards/Images/Sets/Hawk/HawkHeader.png",
+        "numUpgradesInSet": 3,
+        "levelStats": [
+            {
+                "val": "3"
+            },
+            {
+                "val": "6"
+            },
+            {
+                "val": "9"
+            }
+        ]
+    },
+    "/Lotus/Upgrades/Mods/Sets/Gladiator/GladiatorSetMod": {
+        "description": "/Lotus/Language/Upgrades/WarframeGladiatorSetDesc",
+        "icon": "/Lotus/Interface/Cards/Images/Sets/Gladiator/GladiatorHeader.png",
+        "numUpgradesInSet": 6,
+        "levelStats": [
+            {
+                "STAT1": "10"
+            },
+            {
+                "STAT1": "20"
+            },
+            {
+                "STAT1": "30"
+            },
+            {
+                "STAT1": "40"
+            },
+            {
+                "STAT1": "50"
+            },
+            {
+                "STAT1": "60"
+            }
+        ]
+    },
+    "/Lotus/Upgrades/Mods/Sets/Femur/FemurSetMod": {
+        "description": "/Lotus/Language/Upgrades/LiftedEnemiesExplodeImpactDamageDesc",
+        "icon": "/Lotus/Interface/Cards/Images/Sets/Femur/FemurHeader.png",
+        "numUpgradesInSet": 3,
+        "levelStats": [
+            {
+                "STAT1": "10",
+                "STAT2": "4",
+                "DURATION": "6"
+            },
+            {
+                "STAT1": "20",
+                "STAT2": "8",
+                "DURATION": "6"
+            },
+            {
+                "STAT1": "30",
+                "STAT2": "12",
+                "DURATION": "6"
+            }
+        ]
+    },
+    "/Lotus/Upgrades/Mods/Sets/Boreal/BorealSetMod": {
+        "description": "/Lotus/Language/Upgrades/BorealSetBonus",
+        "icon": "/Lotus/Interface/Cards/Images/Sets/Boreal/BorealHeader.png",
+        "numUpgradesInSet": 3,
+        "levelStats": [
+            {
+                "val": "+20"
+            },
+            {
+                "val": "+40"
+            },
+            {
+                "val": "+60"
+            }
+        ]
+    },
+    "/Lotus/Upgrades/Mods/Sets/Boneblade/BonebladeSetMod": {
+        "description": "/Lotus/Language/Upgrades/BonebladeSetDesc",
+        "icon": "/Lotus/Interface/Cards/Images/Sets/Boneblade/BonebladeHeader.png",
+        "numUpgradesInSet": 3,
+        "levelStats": [
+            {
+                "STAT1": "3",
+                "STAT3": "1",
+                "STAT2": "25",
+                "STAT4": "12"
+            },
+            {
+                "STAT1": "6",
+                "STAT3": "2",
+                "STAT2": "50",
+                "STAT4": "9"
+            },
+            {
+                "STAT1": "10",
+                "STAT3": "3",
+                "STAT2": "75",
+                "STAT4": "6"
+            }
+        ]
+    },
+    "/Lotus/Upgrades/Mods/Sets/Augur/AugurSetMod": {
+        "description": "/Lotus/Language/Upgrades/WarframeAugurSetDesc",
+        "icon": "/Lotus/Interface/Cards/Images/Sets/Augur/AugurHeader.png",
+        "numUpgradesInSet": 6,
+        "levelStats": [
+            {
+                "STAT1": "40"
+            },
+            {
+                "STAT1": "80"
+            },
+            {
+                "STAT1": "120"
+            },
+            {
+                "STAT1": "160"
+            },
+            {
+                "STAT1": "200"
+            },
+            {
+                "STAT1": "240"
+            }
+        ]
+    },
+    "/Lotus/Upgrades/Mods/Sets/Ashen/AshenSetMod": {
+        "description": "/Lotus/Language/Upgrades/HeavyAttackMovementBonusDesc",
+        "icon": "/Lotus/Interface/Cards/Images/Sets/Ashen/AshenHeader.png",
+        "numUpgradesInSet": 3,
+        "levelStats": [
+            {
+                "STAT1": "10",
+                "STAT2": "2"
+            },
+            {
+                "STAT1": "20",
+                "STAT2": "4"
+            },
+            {
+                "STAT1": "30",
+                "STAT2": "6"
+            }
+        ]
+    },
+    "/Lotus/Upgrades/Mods/Sets/Amar/AmarSetMod": {
+        "description": "/Lotus/Language/Upgrades/AmarSetBonus",
+        "icon": "/Lotus/Interface/Cards/Images/Sets/Amar/AmarHeader.png",
+        "numUpgradesInSet": 3,
+        "levelStats": [
+            {
+                "RANGE": "10"
+            },
+            {
+                "RANGE": "20"
+            },
+            {
+                "RANGE": "30"
+            }
+        ]
+    }
+}
