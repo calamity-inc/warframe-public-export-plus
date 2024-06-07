@@ -1,0 +1,691 @@
+{
+    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttackAbilityCard": {
+        "name": "/Lotus/Language/Railjack/CrewShipAttackAbility",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 10
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttractorAbilityCard": {
+        "name": "/Lotus/Language/Railjack/CrewShipAttractorAbility",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipBlackHoleAbilityCard": {
+        "name": "/Lotus/Language/Railjack/CrewShipBlackHoleAbility",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 10
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipEMPAbilityCard": {
+        "name": "/Lotus/Language/Railjack/CrewShipEMPAbility",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 10
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipFlaresAbilityCard": {
+        "name": "/Lotus/Language/Railjack/CrewShipFlaresAbility",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 3
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipPhoenixAbilityCard": {
+        "name": "/Lotus/Language/Railjack/CrewShipPhoenixAbility",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 10
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard": {
+        "name": "/Lotus/Language/Railjack/CrewShipRamAbility",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 10
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipTetherAbilityCard": {
+        "name": "/Lotus/Language/Railjack/CrewShipTetherAbility",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard": {
+        "name": "/Lotus/Language/Railjack/CrewShipThumperAbility",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseChemReductionAura": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": -2,
+        "fusionLimit": 5,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseFrostReductionAura": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": -2,
+        "fusionLimit": 0,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseHealthBoost": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": -2,
+        "fusionLimit": 5,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseIncendiaryReductionAura": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": -2,
+        "fusionLimit": 5,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseIonicReductionAura": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": -2,
+        "fusionLimit": 5,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseMaxArmor": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": -2,
+        "fusionLimit": 5,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseMaxShield": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": -2,
+        "fusionLimit": 5,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseShieldRecharge": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": -2,
+        "fusionLimit": 5,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Engineering/BaseShieldRedirectionMod": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 0,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix": {
+        "name": "/Lotus/Language/Railjack/RJModEngineerMatrixTitle",
+        "polarity": "AP_TACTIC",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": -2,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanMaxShieldOnKill": {
+        "name": "/Lotus/Language/Railjack/RJModMaxShieldOnKillName",
+        "polarity": "AP_DEFENSE",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanShieldOnCrit": {
+        "name": "/Lotus/Language/Railjack/RJModShieldOnCritName",
+        "polarity": "AP_DEFENSE",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Engineering/VidarDefensiveMatrix": {
+        "name": "/Lotus/Language/Railjack/RJModDefensiveMatrixTitle",
+        "polarity": "AP_DEFENSE",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": -2,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseCorpusFactionDamage": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 5,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseDesperateMeasures": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 10,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseGrineerFactionDamage": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 5,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseGunnerWeaponCritChance": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 10,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseGunnerWeaponCritDamage": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 10,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseGunnerWeaponDamage": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 10,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseGunnerWeaponHeat": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 10,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseMaxOrdnanceMunitions": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 10,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseOrdnanceDamage": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 10,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseProtectiveShots": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 10,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseReduceArmorWeaponDamage": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 10,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseReducedOrdnanceReload": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 10,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseSuperWeaponDamage": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 10,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/BaseWeaponFluxBoost": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 5,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanBypassShieldOrdnance": {
+        "name": "/Lotus/Language/Railjack/RJModBypassShieldOrdnanceName",
+        "polarity": "AP_ATTACK",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 4,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanCritBypassShieldTurret": {
+        "name": "/Lotus/Language/Railjack/RJModCritBypassShieldTurretName",
+        "polarity": "AP_ATTACK",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 4,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanDamageOnKill": {
+        "name": "/Lotus/Language/Railjack/RJModDamageOnKillName",
+        "polarity": "AP_ATTACK",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 10,
+        "fusionLimit": 10
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFastOrdnanceLock": {
+        "name": "/Lotus/Language/Railjack/RJModFastOrdnanceLockTitle",
+        "polarity": "AP_TACTIC",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFreeOrdnanceAmmo": {
+        "name": "/Lotus/Language/Railjack/RJModFreeOrdnanceAmmoTitle",
+        "polarity": "AP_TACTIC",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanMaxOrdnanceMunitions": {
+        "name": "/Lotus/Language/Railjack/RJModOverloaderTitle",
+        "polarity": "AP_TACTIC",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 3
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceDamage": {
+        "name": "/Lotus/Language/Railjack/RJModOrdnanceDamageTitle",
+        "polarity": "AP_ATTACK",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 10
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceSpeed": {
+        "name": "/Lotus/Language/Railjack/RJModOrdnanceSpeedTitle",
+        "polarity": "AP_ATTACK",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 4,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanProtectiveShots": {
+        "name": "/Lotus/Language/Railjack/RJModProtectiveShots",
+        "polarity": "AP_ATTACK",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanReducedOrdnanceReload": {
+        "name": "/Lotus/Language/Railjack/RJModOrdnanceReloadSpeedTitle",
+        "polarity": "AP_TACTIC",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarCorpusKiller": {
+        "name": "/Lotus/Language/Railjack/RJModVidarCorpusKillerTitle",
+        "polarity": "AP_ATTACK",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 4,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGrineerKiller": {
+        "name": "/Lotus/Language/Railjack/RJModVidarGrineerKillerTitle",
+        "polarity": "AP_ATTACK",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 4,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritChance": {
+        "name": "/Lotus/Language/Railjack/RJModGunPlusCritChanceTitle",
+        "polarity": "AP_ATTACK",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritDamage": {
+        "name": "/Lotus/Language/Railjack/RJModGunPlusCritDamageTitle",
+        "polarity": "AP_ATTACK",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 10,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponDamage": {
+        "name": "/Lotus/Language/Railjack/RJModGunPlusDamageTitle",
+        "polarity": "AP_ATTACK",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 10,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarOffensiveMatrix": {
+        "name": "/Lotus/Language/Railjack/RJModOffensiveMatrixTitle",
+        "polarity": "AP_ATTACK",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": -2,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarSentientKiller": {
+        "name": "/Lotus/Language/Railjack/RJModVidarSentientKillerTitle",
+        "polarity": "AP_ATTACK",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed": {
+        "name": "/Lotus/Language/Railjack/RJModTurretRangeAndSpeedTitle",
+        "polarity": "AP_ATTACK",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 10
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo": {
+        "name": "/Lotus/Language/Railjack/RJModFreeSuperWeaponAmmoTitle",
+        "polarity": "AP_TACTIC",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiSuperWeaponDamage": {
+        "name": "/Lotus/Language/Railjack/RJModSuperWeaponDamageTitle",
+        "polarity": "AP_ATTACK",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 10
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseArchwingArmorAura": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": -2,
+        "fusionLimit": 10,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseArchwingDamageAura": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": -2,
+        "fusionLimit": 10,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseArchwingShieldAura": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": -2,
+        "fusionLimit": 10,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseArchwingSpeedAura": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": -2,
+        "fusionLimit": 10,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseBoostSpeed": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 10,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseCrewshipSpeedDamageAura": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 10,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseDodge": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 10,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseEmpPowerCap": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 5,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseShieldBoost": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 5,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Piloting/BaseSpeed": {
+        "name": "/Lotus/Language/Items/EmptyArtifact",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 10,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanHijackMatrixAura": {
+        "name": "/Lotus/Language/Railjack/RJModHijackMatrixTitle",
+        "polarity": "AP_ATTACK",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": -2,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanMultiToolPower": {
+        "name": "/Lotus/Language/Railjack/RJModLavanMultiToolPowerTitle",
+        "polarity": "AP_TACTIC",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiBoostSpeed": {
+        "name": "/Lotus/Language/Railjack/RJModBoostSpeedTitle",
+        "polarity": "AP_DEFENSE",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 4,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiNonCombatSpeed": {
+        "name": "/Lotus/Language/Railjack/RJModNonCombatSpeedTitle",
+        "polarity": "AP_TACTIC",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 4,
+        "fusionLimit": 10
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSiegeMatrixAura": {
+        "name": "/Lotus/Language/Railjack/RJModSiegeMatrixTitle",
+        "polarity": "AP_TACTIC",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": -2,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSpeed": {
+        "name": "/Lotus/Language/Railjack/RJModSpeedTitle",
+        "polarity": "AP_DEFENSE",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Tactical/BreachRepair": {
+        "name": "/Lotus/Language/Railjack/RJModBreachRepairTitle",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard": {
+        "name": "/Lotus/Language/Railjack/CrewShipAfterBurnersAbility",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 10
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipBattleCraftingAbilityCard": {
+        "name": "/Lotus/Language/Railjack/CrewShipBattleCraftingAbility",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipDeathBlossomAbilityCard": {
+        "name": "/Lotus/Language/Railjack/CrewShipDeathBlossomAbility",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipMassRecallAbilityCard": {
+        "name": "/Lotus/Language/Railjack/CrewShipMassRecallAbility",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipQuadDamageAbilityCard": {
+        "name": "/Lotus/Language/Railjack/CrewShipQuadDamageAbility",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipRenewAbilityCard": {
+        "name": "/Lotus/Language/Railjack/CrewShipRenewAbility",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipStasisAbilityCard": {
+        "name": "/Lotus/Language/Railjack/CrewShipStasisAbility",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Tactical/FireExtinguish": {
+        "name": "/Lotus/Language/Railjack/RJModFireExtinguishTitle",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5
+    },
+    "/Lotus/Upgrades/Mods/Railjack/Tactical/VoidCloak": {
+        "name": "/Lotus/Language/Railjack/RJModVoidCloakTitle",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5
+    }
+}

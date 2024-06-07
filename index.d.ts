@@ -16,6 +16,7 @@ export declare const dict_zh: Record<string, string>;
 
 export declare const ExportAbilities: Record<string, IAbility>;
 export declare const ExportArcanes: Record<string, IArcane>;
+export declare const ExportAvionics: Record<string, IArcane>;
 export declare const ExportCustoms: Record<string, ICustom>;
 export declare const ExportDojoRecipes: Record<string, IDojoRecipe>;
 export declare const ExportDrones: Record<string, IDrone>;
@@ -53,6 +54,16 @@ export interface IArcane {
     codexSecret:       boolean;
     excludeFromCodex?: boolean;
     rarity?:           "UNCOMMON" | "RARE" | "LEGENDARY";
+}
+
+export interface IAvionic {
+    name:              string;
+    polarity:          "AP_UNIVERSAL" | "AP_TACTIC" | "AP_DEFENSE" | "AP_ATTACK";
+    rarity:            "UNCOMMON" | "RARE" | "COMMON";
+    codexSecret:       boolean;
+    baseDrain:         number;
+    fusionLimit:       number;
+    excludeFromCodex?: boolean;
 }
 
 export interface ICustom {
