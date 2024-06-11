@@ -275,7 +275,9 @@ export interface IRegion {
     missionIndex:           number;
     missionName:            string;
     factionIndex:           number;
+    factionName:            string;
     secondaryFactionIndex?: number;
+    secondaryFactionName?:  string;
     minEnemyLevel:          number;
     maxEnemyLevel:          number;
     darkSectorData?:        {
