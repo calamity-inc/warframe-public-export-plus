@@ -277,6 +277,12 @@ export interface IRegion {
     factionIndex:  number;
     minEnemyLevel: number;
     maxEnemyLevel: number;
+    darkSectorData?: {
+        resourceBonus:    number;
+        xpBonus:          number;
+        weaponXpBonusFor: "Rifles" | "Melee" | "Shotguns" | "Pistols";
+        weaponXpBonusVal: number;
+    };
 }
 
 export interface IRelic {
