@@ -267,17 +267,18 @@ export interface IRecipe {
 }
 
 export interface IRegion {
-    name:          string;
-    systemIndex:   number;
-    systemName:    string;
-    nodeType:      number;
-    masteryReq:    number;
-    missionIndex:  number;
-    missionName:   string;
-    factionIndex:  number;
-    minEnemyLevel: number;
-    maxEnemyLevel: number;
-    darkSectorData?: {
+    name:                   string;
+    systemIndex:            number;
+    systemName:             string;
+    nodeType:               number;
+    masteryReq:             number;
+    missionIndex:           number;
+    missionName:            string;
+    factionIndex:           number;
+    secondaryFactionIndex?: number;
+    minEnemyLevel:          number;
+    maxEnemyLevel:          number;
+    darkSectorData?:        {
         resourceBonus:    number;
         xpBonus:          number;
         weaponXpBonusFor: "Rifles" | "Melee" | "Shotguns" | "Pistols";
