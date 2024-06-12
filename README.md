@@ -17,6 +17,7 @@ Instead of ExportManifest, this project adds an `icon` field to most exports, wh
 ### ExportWeapons
 
 - Non-weapon items such as modular parts are in here as well. These can be filtered by checking if `totalDamage` is 0.
+- Kitgun Chambers also have a `primeOmegaAttenuation` \[sic\] field, this is the Riven Disposition for when the Kitgun is a primary instead of secondary weapon.
 - The `damagePerShot` array is documented [here](https://warframe.fandom.com/wiki/Public_Export#Guns).
 
 ### ExportUpgrades
