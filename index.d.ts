@@ -280,6 +280,7 @@ export interface IRegion {
     secondaryFactionName?:  string;
     minEnemyLevel:          number;
     maxEnemyLevel:          number;
+    masteryExp?:            number;
     darkSectorData?:        {
         resourceBonus:    number;
         xpBonus:          number;
