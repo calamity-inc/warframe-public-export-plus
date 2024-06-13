@@ -117,6 +117,7 @@ export interface IFlavourItem {
     name:              string;
     description:       string;
     icon:              string;
+    base:              "/EE/Types/Engine/UIBackground" | "/EE/Types/Engine/UICursor" | "/EE/Types/Engine/UISounds" | "/Lotus/Types/Game/UIStyle" | "/Lotus/Types/Game/ActionFigureDiorama" | "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColor" | "/Lotus/Types/Game/NotePack" | "/Lotus/Types/Game/PoseSet" | "/Lotus/Types/Game/QuartersWallTattoo" | "/EE/Types/Engine/UIFlavourItem" | "/Lotus/Types/Items/Emotes/Emote" | "/Lotus/Types/Items/VideoWallBackdropItem" | "/Lotus/Types/Items/VideoWallSoundscapeItem" | "/Lotus/Types/Items/AvatarImageItem" | "/Lotus/Types/Items/ColorPickerItem" | "/Lotus/Types/Items/ShipExteriorSkinItem" | "/Lotus/Types/Items/ShipAttachmentItem";
     codexSecret:       boolean;
     excludeFromCodex?: boolean;
     hexColours?:       { value: string }[];
