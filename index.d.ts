@@ -359,6 +359,7 @@ export interface IUpgrade {
     subtype?:             string;
     excludeFromCodex?:    boolean;
     isStarter?:           boolean;
+    isFrivolous?:         boolean;
     upgradeEntries?:      {
         tag:           string;
         prefixTag:     string;

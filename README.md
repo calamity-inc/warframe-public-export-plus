@@ -22,7 +22,7 @@ Instead of ExportManifest, this project adds an `icon` field to most exports, wh
 
 ### ExportUpgrades
 
-- Several mods share the same name, e.g. there's 3 mods called Vitality. These can be avoided by checking that `codexSecret` and `isStarter` are false/absent.
+- Several mods share the same name, e.g. for "Viality" and "Pressure Point" there's 3 mods each. Some of these might be [flawed variants](https://warframe.fandom.com/wiki/Flawed_Mods), but others might simply be forgotten development artefacts. These can be avoided by checking that `isStarter` and `isFrivilous` are both absent.
 - Challenge complications are combined using `/Lotus/Language/Challenges/Challenge_Complication_Combiner`.
 
 ### ExportWarframes
