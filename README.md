@@ -14,31 +14,25 @@ Instead of ExportManifest, this project adds an `icon` field to most exports, wh
 
 ## Notes
 
-### ExportWeapons
-
-- Non-weapon items such as modular parts are in here as well. These can be filtered by checking if `totalDamage` is 0.
-- Kitgun Chambers also have a `primeOmegaAttenuation` \[sic\] field, this is the Riven Disposition for when the Kitgun is a primary instead of secondary weapon.
-- The `damagePerShot` array is documented [here](https://warframe.fandom.com/wiki/Public_Export#Guns).
-
-### ExportUpgrades
-
-- Several mods share the same name, e.g. for "Viality" and "Pressure Point" there's 3 mods each. Some of these might be [flawed variants](https://warframe.fandom.com/wiki/Flawed_Mods), but others might simply be forgotten development artefacts. These can be avoided by checking that `isStarter` and `isFrivilous` are both absent.
-- Challenge complications are combined using `/Lotus/Language/Challenges/Challenge_Complication_Combiner`.
-
-### ExportWarframes
-
-- The `health`, `shield`, `armor`, and `power` values represent the state at rank 0. [See here for an approach to level-scaling these stats.](https://github.com/Sainan/warframe-build-evaluator/blob/d05257f704e688ec387c697c6768b951cf3d5389/evaluator.pluto#L438-L500)
-
-### ExportRelics
-
-- There is no `name` field, instead the added `category` and `era` fields can be used in conjuction with `/Lotus/Language/Relics/VoidProjectionName` to construct the name.
-
 ### ExportDojoRecipes
-
 - This `price` (credits), `skipTimePrice` (platinum), and `ingredients` are for Moon clans. To convert these e.g. to Ghost clan values, simply multiply them by 0.01 (1 / 100) with a lower limit of 1.
 - This export is specific to this project, as there is no such data in the official Public Export.
 
 ### ExportRegions
-
 - Crossfire missions can be detected by the `secondaryFactionIndex` field being present. The `/Lotus/Language/Missions/MissionName_Crossfire` label may be used for their mission type.
 - Tyana Pass (`SolNode450`) is a bit special in that it uses the `/Lotus/Language/Missions/DualDefenseCompare` label for the faction.
+
+### ExportRelics
+- There is no `name` field, instead the added `category` and `era` fields can be used in conjuction with `/Lotus/Language/Relics/VoidProjectionName` to construct the name.
+
+### ExportUpgrades
+- Several mods share the same name, e.g. for "Viality" and "Pressure Point" there's 3 mods each. Some of these might be [flawed variants](https://warframe.fandom.com/wiki/Flawed_Mods), but others might simply be forgotten development artefacts. These can be avoided by checking that `isStarter` and `isFrivilous` are both absent.
+- Challenge complications are combined using `/Lotus/Language/Challenges/Challenge_Complication_Combiner`.
+
+### ExportWarframes
+- The `health`, `shield`, `armor`, and `power` values represent the state at rank 0. [See here for an approach to level-scaling these stats.](https://github.com/Sainan/warframe-build-evaluator/blob/d05257f704e688ec387c697c6768b951cf3d5389/evaluator.pluto#L438-L500)
+
+### ExportWeapons
+- Non-weapon items such as modular parts are in here as well. These can be filtered by checking if `totalDamage` is 0.
+- Kitgun Chambers also have a `primeOmegaAttenuation` \[sic\] field, this is the Riven Disposition for when the Kitgun is a primary instead of secondary weapon.
+- The `damagePerShot` array is documented [here](https://warframe.fandom.com/wiki/Public_Export#Guns).
