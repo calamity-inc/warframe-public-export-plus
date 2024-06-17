@@ -194,8 +194,8 @@ export interface IExportNightwave {
         standing:    number;
         required:    number;
         icon:        string;
-        tip?:         string;
-        tipIcon?:     string;
+        tip?:        string;
+        tipIcon?:    string;
     }>;
     rewards:        {
         uniqueName:  string;
