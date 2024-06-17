@@ -78,6 +78,7 @@ export interface IBundle {
     components:    {
         typeName:         string;
         purchaseQuantity: number;
+        durability:       TRarity;
         giveMaxRank?:     boolean;
     }[];
     premiumPrice?: number;
