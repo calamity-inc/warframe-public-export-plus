@@ -4,84 +4,1048 @@
         "description": "/Lotus/Language/Apostasy/ApostasyKeyChainDesc",
         "icon": "/Lotus/Interface/Quests/ApostasyPrologueStartQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "key": "/Lotus/Types/Keys/ApostasyQuest/ApostasyKey",
+                "itemsToGiveWhenTriggered": []
+            }
+        ],
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Keys/SacrificeQuest/SacrificeQuestKeyChain"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/ApostasyQuest/ApostasyKey": {
+        "name": "/Lotus/Language/Apostasy/ApostasyKeyName",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
     },
     "/Lotus/Types/Keys/ArchwingQuest/ArchwingQuestKeyChain": {
         "name": "/Lotus/Language/G1Quests/AWQName",
         "description": "/Lotus/Language/G1Quests/AWQDescription",
         "icon": "/Lotus/Interface/Quests/ArchwingQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": [
+                    "/Lotus/StoreItems/Types/Recipes/ArchwingRecipes/StandardArchwing/StandardArchwingBlueprint"
+                ]
+            },
+            {
+                "key": "/Lotus/Types/Keys/ArchwingQuest/MissionOne",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/ArchwingQuest/MissionTwo",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/ArchwingQuest/MissionThree",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/ArchwingQuest/MissionFour",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": [
+                    "/Lotus/StoreItems/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGun",
+                    "/Lotus/StoreItems/Weapons/Tenno/Archwing/Melee/Archsword/ArchSwordWeapon"
+                ]
+            },
+            {
+                "key": "/Lotus/Types/Keys/ArchwingQuest/MissionFive",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ],
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Game/CrewShip/RailJack/DefaultHarness"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/ArchwingQuest/MissionOne": {
+        "name": "/Lotus/Language/G1Quests/AWQMissionObjA",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/ArchwingQuest/MissionTwo": {
+        "name": "/Lotus/Language/G1Quests/AWQMissionObjB",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Recipes/ArchwingRecipes/StandardArchwing/StandardArchwingWingsBlueprint"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/ArchwingQuest/MissionThree": {
+        "name": "/Lotus/Language/G1Quests/AWQMissionObjB1",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Recipes/ArchwingRecipes/StandardArchwing/StandardArchwingChassisBlueprint"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/ArchwingQuest/MissionFour": {
+        "name": "/Lotus/Language/G1Quests/AWQMissionObjB2",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Recipes/ArchwingRecipes/StandardArchwing/StandardArchwingSystemsBlueprint"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/ArchwingQuest/MissionFive": {
+        "name": "/Lotus/Language/G1Quests/AWQMissionObjC",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
     },
     "/Lotus/Types/Keys/BardQuest/BardQuestKeyChain": {
         "name": "/Lotus/Language/BardQuest/BardQuestTitle",
         "description": "/Lotus/Language/BardQuest/BardQuestDesc",
         "icon": "/Lotus/Interface/Quests/BardQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": [
+                    "/Lotus/StoreItems/Types/Keys/BardQuest/BardQuestSequencerBlueprint"
+                ]
+            },
+            {
+                "key": "/Lotus/Types/Keys/BardQuest/BardQuestGatherPartsKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/BardQuest/BardQuestOceanKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/BardQuest/BardQuestOrokinMoonKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/BardQuest/BardQuestOrokinTowerKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ],
+        "rewards": [
+            {
+                "rewardType": "RT_RECIPE",
+                "itemType": "/Lotus/Types/Recipes/WarframeRecipes/OctaviaBlueprint"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/BardQuest/BardQuestGatherPartsKey": {
+        "name": "/Lotus/Language/BardQuest/BardQuestObjectiveA",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Keys/BardQuest/BardQuestSequencerPartA"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Keys/BardQuest/BardQuestSequencerPartB"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Keys/BardQuest/BardQuestSequencerPartC"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/BardQuest/BardQuestOceanKey": {
+        "name": "/Lotus/Language/BardQuest/BardQuestObjectiveC",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/BardQuest/BardQuestOrokinMoonKey": {
+        "name": "/Lotus/Language/BardQuest/BardQuestObjectiveD",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/BardQuest/BardQuestOrokinTowerKey": {
+        "name": "/Lotus/Language/BardQuest/BardQuestObjectiveE",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
     },
     "/Lotus/Types/Keys/ChimeraQuest/ChimeraKeyChain": {
         "name": "/Lotus/Language/Chimera/ChimeraKeyChainName",
         "description": "/Lotus/Language/Chimera/ChimeraKeyChainDesc",
         "icon": "/Lotus/Interface/Quests/ChimeraKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": true
+        "codexSecret": true,
+        "chainStages": [
+            {
+                "key": "/Lotus/Types/Keys/ChimeraQuest/ChimeraKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ],
+        "rewards": [
+            {
+                "rewardType": "RT_RECIPE",
+                "itemType": "/Lotus/Types/Recipes/Weapons/BallasSwordBlueprint"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/ChimeraQuest/ChimeraKey": {
+        "name": "/Lotus/Language/Chimera/ChimeraKeyChainName",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
     },
     "/Lotus/Types/Keys/DragonQuest/DragonQuestKeyChain": {
         "name": "/Lotus/Language/G1Quests/DragonQuestTitle",
         "description": "/Lotus/Language/G1Quests/DragonQuestDesc",
         "icon": "/Lotus/Interface/Quests/ChromaQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/DragonQuest/DragonQuestMissionOne",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": [
+                    "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ChromaBeaconABlueprint"
+                ]
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/DragonQuest/DragonQuestMissionTwo",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": [
+                    "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ChromaBeaconBBlueprint"
+                ]
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/DragonQuest/DragonQuestMissionThree",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": [
+                    "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ChromaBeaconCBlueprint"
+                ]
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/DragonQuest/DragonQuestMissionFour",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ],
+        "rewards": [
+            {
+                "rewardType": "RT_RECIPE",
+                "itemType": "/Lotus/Types/Recipes/WarframeRecipes/ChromaBlueprint"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/DragonQuest/DragonQuestMissionOne": {
+        "name": "/Lotus/Language/G1Quests/DragonQuestMission1Title",
+        "description": "/Lotus/Language/G1Quests/DragonQuestMission1Desc",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DragonQuest/DragonQuestMissionTwo": {
+        "name": "/Lotus/Language/G1Quests/DragonQuestMission2Title",
+        "description": "/Lotus/Language/G1Quests/DragonQuestMission2Desc",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DragonQuest/DragonQuestMissionThree": {
+        "name": "/Lotus/Language/G1Quests/DragonQuestMission3Title",
+        "description": "/Lotus/Language/G1Quests/DragonQuestMission3Desc",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DragonQuest/DragonQuestMissionFour": {
+        "name": "/Lotus/Language/G1Quests/DragonQuestMission4Title",
+        "description": "/Lotus/Language/G1Quests/DragonQuestMission4Desc",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
     },
     "/Lotus/Types/Keys/DuviriQuest/DuviriQuestKeyChain": {
         "name": "/Lotus/Language/Duviri/MapNodeQuest",
         "description": "/Lotus/Language/Duviri/MapNodeQuestDesc",
         "icon": "/Lotus/Interface/Quests/Duviri/DuviriParadoxMain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "key": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestTownEscapeKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestCaveIntroKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestUndercroftKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestDormizoneIntroKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestAngryKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestHappyKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestDormizoneFoodKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestEnvyKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestUndercroftLoopKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestSaveTeshinKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestOutroKey",
+                "itemsToGiveWhenTriggered": []
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/DuviriQuest/DuviriQuestTownEscapeKey": {
+        "name": "/Lotus/Language/Duviri/DuviriQuest/StageZeroName",
+        "parentName": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DuviriQuest/DuviriQuestCaveIntroKey": {
+        "name": "/Lotus/Language/Duviri/DuviriQuest/StageOneName",
+        "parentName": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DuviriQuest/DuviriQuestUndercroftKey": {
+        "name": "/Lotus/Language/Duviri/DuviriQuest/StageTwoName",
+        "parentName": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DuviriQuest/DuviriQuestDormizoneIntroKey": {
+        "name": "/Lotus/Language/Duviri/DuviriQuest/StageThreeName",
+        "parentName": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DuviriQuest/DuviriQuestAngryKey": {
+        "name": "/Lotus/Language/Duviri/DuviriQuest/StageFourName",
+        "parentName": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DuviriQuest/DuviriQuestHappyKey": {
+        "name": "/Lotus/Language/Duviri/DuviriQuest/StageFiveName",
+        "parentName": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DuviriQuest/DuviriQuestDormizoneFoodKey": {
+        "name": "/Lotus/Language/Duviri/DuviriQuest/StageSixName",
+        "parentName": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DuviriQuest/DuviriQuestEnvyKey": {
+        "name": "/Lotus/Language/Duviri/DuviriQuest/StageSevenName",
+        "parentName": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DuviriQuest/DuviriQuestUndercroftLoopKey": {
+        "name": "/Lotus/Language/Duviri/DuviriQuest/StageEightName",
+        "parentName": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DuviriQuest/DuviriQuestSaveTeshinKey": {
+        "name": "/Lotus/Language/Duviri/DuviriQuest/StageNineName",
+        "parentName": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DuviriQuest/DuviriQuestOutroKey": {
+        "name": "/Lotus/Language/Duviri/DuviriQuest/StageTenName",
+        "parentName": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
     },
     "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain": {
         "name": "/Lotus/Language/EntratiLab/EntratiQuest/EntratiQuestTitle",
         "description": "/Lotus/Language/EntratiLab/EntratiQuest/EntratiQuestDesc",
         "icon": "/Lotus/Interface/Quests/EntratiQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "key": "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage0NecraliskKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage1FindLoidKey",
+                "itemsToGiveWhenTriggered": [
+                    "/Lotus/StoreItems/Weapons/Tenno/Grimoire/TnGrimoire"
+                ]
+            },
+            {
+                "key": "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage2LasriaKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage3BackToFutureKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage4MirrorDefenseKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage5MeetTagfer",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage6VoidVaultsKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage7BlairWitch",
+                "itemsToGiveWhenTriggered": [
+                    "/Lotus/StoreItems/Types/Gameplay/EntratiLab/Quest/GargoyleRecipeItem"
+                ]
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage9FindVoice",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage10ExterminateKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage11DefendLabKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage12EndingKey",
+                "itemsToGiveWhenTriggered": []
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage0NecraliskKey": {
+        "name": "/Lotus/Language/EntratiLab/EntratiQuest/StageZeroName",
+        "parentName": "/Lotus/Types/Keys/EntratiLab/EntratiQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage1FindLoidKey": {
+        "name": "/Lotus/Language/EntratiLab/EntratiQuest/StageOneName",
+        "parentName": "/Lotus/Types/Keys/EntratiLab/EntratiQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage2LasriaKey": {
+        "name": "/Lotus/Language/EntratiLab/EntratiQuest/StageTwoTennoConName",
+        "parentName": "/Lotus/Types/Keys/EntratiLab/EntratiQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage3BackToFutureKey": {
+        "name": "/Lotus/Language/EntratiLab/EntratiQuest/StageThreeBackToFuture",
+        "parentName": "/Lotus/Types/Keys/EntratiLab/EntratiQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage4MirrorDefenseKey": {
+        "name": "/Lotus/Language/EntratiLab/EntratiQuest/StageFourMirrorDefense",
+        "parentName": "/Lotus/Types/Keys/EntratiLab/EntratiQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage5MeetTagfer": {
+        "name": "/Lotus/Language/EntratiLab/EntratiQuest/StageFiveExamineAnimals",
+        "parentName": "/Lotus/Types/Keys/EntratiLab/EntratiQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage6VoidVaultsKey": {
+        "name": "/Lotus/Language/EntratiLab/EntratiQuest/StageSixVoidVaults",
+        "parentName": "/Lotus/Types/Keys/EntratiLab/EntratiQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage7BlairWitch": {
+        "name": "/Lotus/Language/EntratiLab/EntratiQuest/StageSevenGargolye",
+        "parentName": "/Lotus/Types/Keys/EntratiLab/EntratiQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage9FindVoice": {
+        "name": "/Lotus/Language/EntratiLab/EntratiQuest/StageNineFindVoice",
+        "parentName": "/Lotus/Types/Keys/EntratiLab/EntratiQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage10ExterminateKey": {
+        "name": "/Lotus/Language/EntratiLab/EntratiQuest/StageTenExterminate",
+        "parentName": "/Lotus/Types/Keys/EntratiLab/EntratiQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage11DefendLabKey": {
+        "name": "/Lotus/Language/EntratiLab/EntratiQuest/StageElevenDefendLab",
+        "parentName": "/Lotus/Types/Keys/EntratiLab/EntratiQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage12EndingKey": {
+        "name": "/Lotus/Language/EntratiLab/EntratiQuest/StageTwelveFinale",
+        "parentName": "/Lotus/Types/Keys/EntratiLab/EntratiQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
     },
     "/Lotus/Types/Keys/FairyQuest/FairyQuestKeyChain": {
         "name": "/Lotus/Language/G1Quests/FairyQuestTitle",
         "description": "/Lotus/Language/G1Quests/FairyQuestDesc",
         "icon": "/Lotus/Interface/Quests/FairyQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/FairyQuest/FairyQuestKeyA",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/FairyQuest/FairyQuestKeyB",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/FairyQuest/FairyQuestKeyC",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/FairyQuest/FairyQuestKeyA": {
+        "name": "/Lotus/Language/G1Quests/FairyQuestMissionA",
+        "description": "/Lotus/Language/G1Quests/FairyQuestMissionA",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/StoreItems/Consumables/Restoratives/TitaniaQuest/SpecterSummonOrphidSarynBlueprint"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/FairySystemsBlueprint"
+            },
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/FairyQuest/FairyQuestKeyB": {
+        "name": "/Lotus/Language/G1Quests/FairyQuestMissionBC",
+        "description": "/Lotus/Language/G1Quests/FairyQuestMissionBC",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/StoreItems/Consumables/Restoratives/TitaniaQuest/SpecterSummonFeyarchOberonBlueprint"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/FairyChassisBlueprint"
+            },
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/FairyQuest/FairyQuestKeyC": {
+        "name": "/Lotus/Language/G1Quests/FairyQuestMissionBC",
+        "description": "/Lotus/Language/G1Quests/FairyQuestMissionBC",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/FairyHelmetBlueprint"
+            },
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
     },
     "/Lotus/Types/Keys/GetClemQuest/GetClemQuestKeyChain": {
         "name": "/Lotus/Language/G1Quests/GetClemName",
         "description": "/Lotus/Language/G1Quests/GetClemDesc",
         "icon": "/Lotus/Interface/Quests/GetClemQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "key": "/Lotus/Types/Keys/GetClemQuest/GetClemQuestKeyA",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/GetClemQuest/GetClemQuestKeyB",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/GetClemQuest/GetClemQuestKeyC",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/GetClemQuest/GetClemQuestKeyA": {
+        "name": "/Lotus/Language/G1Quests/GetClemObjectiveRescue",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/GetClemQuest/GetClemQuestKeyB": {
+        "name": "/Lotus/Language/G1Quests/GetClemObjectiveRetrieval",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/GetClemQuest/GetClemQuestKeyC": {
+        "name": "/Lotus/Language/G1Quests/GetClemObjectiveSurvival",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Recipes/Components/ClemBallBlueprint"
+            },
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 10000
+            }
+        ]
     },
     "/Lotus/Types/Keys/GlassQuest/GlassQuestKeyChain": {
         "name": "/Lotus/Language/GlassQuest/GlassQuestTitle",
         "description": "/Lotus/Language/GlassQuest/GlassQuestDesc",
         "icon": "/Lotus/Interface/Quests/SayasVigilQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "key": "/Lotus/Types/Keys/GlassQuest/GlassQuestM1Key",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/GlassQuest/GlassQuestM2Key",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/GlassQuest/GlassQuestGalleonKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/GlassQuest/GlassQuestM4Key",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/GlassQuest/GlassQuestM1Key": {
+        "name": "/Lotus/Language/GlassQuest/M1KeychainObjective",
+        "parentName": "/Lotus/Types/Keys/GlassQuest/GlassQuestPlainsKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/GlassQuest/GlassQuestM2Key": {
+        "name": "/Lotus/Language/GlassQuest/M2KeychainObjective",
+        "parentName": "/Lotus/Types/Keys/GlassQuest/GlassQuestPlainsKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/GlassQuest/GlassQuestGalleonKey": {
+        "name": "/Lotus/Language/GlassQuest/M3KeychainObjective",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/GlassQuest/GlassQuestM4Key": {
+        "name": "/Lotus/Language/GlassQuest/M4KeychainObjective",
+        "parentName": "/Lotus/Types/Keys/GlassQuest/GlassQuestPlainsKey",
+        "codexSecret": true,
+        "rewards": []
     },
     "/Lotus/Types/Keys/GolemQuest/GolemQuestKeyChainItem": {
         "name": "/Lotus/Language/G1Quests/GolemQuestTitle",
         "description": "/Lotus/Language/G1Quests/GolemQuestDesc",
         "icon": "/Lotus/Interface/Quests/Precept44Quest.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/GolemQuest/BaitTestingKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/TestKeyJ3GolemAssassinate",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ],
+        "rewards": [
+            {
+                "rewardType": "RT_RECIPE",
+                "itemType": "/Lotus/Types/Recipes/WarframeRecipes/BrawlerBlueprint"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/GolemQuest/BaitTestingKey": {
+        "name": "/Lotus/Language/G1Quests/GolemQuestObjTestPods",
+        "description": "/Lotus/Language/G1Quests/GolemQuestObjTestPods",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyJ3GolemAssassinate": {
+        "name": "/Lotus/Language/G1Quests/GolemQuestObjAssassinate",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
     },
     "/Lotus/Types/Keys/IndexQuest/IndexQuestKeyChain": {
         "name": "/Lotus/Language/G1Quests/IndexTitle",
         "description": "/Lotus/Language/G1Quests/IndexQuestDescription",
         "icon": "/Lotus/Interface/Quests/TheGlastGambitKeychain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/IndexQuest/IndexColonyDefenseQuestKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/IndexQuest/IndexMissionAQuestKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/IndexQuest/IndexMissionBQuestKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/IndexQuest/IndexMissionCQuestKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/IndexQuest/IndexMissionDQuestKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/IndexQuest/IndexMissionEQuestKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/IndexQuest/IndexCorpusSpyQuestKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/IndexQuest/IndexMissionFQuestKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ],
+        "rewards": [
+            {
+                "rewardType": "RT_RECIPE",
+                "itemType": "/Lotus/Types/Recipes/WarframeRecipes/NidusBlueprint"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/IndexQuest/IndexColonyDefenseQuestKey": {
+        "name": "/Lotus/Language/G1Quests/IndexQuestStage1",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/IndexQuest/IndexMissionAQuestKey": {
+        "name": "/Lotus/Language/G1Quests/IndexQuestStage2345",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/IndexQuest/IndexMissionBQuestKey": {
+        "name": "/Lotus/Language/G1Quests/IndexQuestStage2345",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/IndexQuest/IndexMissionCQuestKey": {
+        "name": "/Lotus/Language/G1Quests/IndexQuestStage2345",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/IndexQuest/IndexMissionDQuestKey": {
+        "name": "/Lotus/Language/G1Quests/IndexQuestStage2345",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/IndexQuest/IndexMissionEQuestKey": {
+        "name": "/Lotus/Language/G1Quests/IndexQuestStage68",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/IndexQuest/IndexCorpusSpyQuestKey": {
+        "name": "/Lotus/Language/G1Quests/IndexQuestStage7",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/IndexQuest/IndexMissionFQuestKey": {
+        "name": "/Lotus/Language/G1Quests/IndexQuestStage68",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": []
     },
     "/Lotus/Types/Keys/InfestedAladVQuest/AssassinateInfestedAladVKey": {
         "name": "/Lotus/Language/Items/InfestedAladAssassinateKey",
@@ -95,56 +1059,592 @@
         "description": "/Lotus/Language/G1Quests/IAVQDescription",
         "icon": "/Lotus/Interface/Quests/AssassinateInfestedAladVKey.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/InfestedAladVQuest/MissionOne",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/InfestedAladVQuest/MissionTwoA",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/InfestedAladVQuest/MissionTwoB",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/InfestedAladVQuest/MissionTwoC",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/InfestedAladVQuest/MissionThree",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/InfestedAladVQuest/MissionOne": {
+        "name": "/Lotus/Language/G1Quests/IAVQIntelObjective",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/InfestedAladVQuest/MissionTwoA": {
+        "name": "/Lotus/Language/G1Quests/IAVQHiveSabotageObjectiveBrugia",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/InfestedAladVQuest/MissionTwoB": {
+        "name": "/Lotus/Language/G1Quests/IAVQHiveSabotageObjectiveSaxis",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/InfestedAladVQuest/MissionTwoC": {
+        "name": "/Lotus/Language/G1Quests/IAVQHiveSabotageObjectiveKala",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/InfestedAladVQuest/MissionThree": {
+        "name": "/Lotus/Language/G1Quests/IAVQSabotageObjective",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
     },
     "/Lotus/Types/Keys/InfestedIntroQuest/InfestedIntroQuestKeyChain": {
         "name": "/Lotus/Language/G1Quests/IIQTitle",
         "description": "/Lotus/Language/G1Quests/IIQDescription",
         "icon": "/Lotus/Interface/Quests/InfestedIntroQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/InfestedIntroQuest/MissionOne",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/InfestedIntroQuest/MissionTwo",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/InfestedIntroQuest/MissionThree",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": [
+                    "/Lotus/StoreItems/Types/Recipes/Weapons/HeatSwordBlueprint"
+                ]
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/InfestedIntroQuest/MissionOne": {
+        "name": "/Lotus/Language/G1Quests/IIQMissionObjA",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/InfestedIntroQuest/MissionTwo": {
+        "name": "/Lotus/Language/G1Quests/IIQMissionObjB",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/InfestedIntroQuest/MissionThree": {
+        "name": "/Lotus/Language/G1Quests/IIQMissionObjC",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
     },
     "/Lotus/Types/Keys/InfestedMicroplanetQuest/InfestedMicroplanetQuestKeyChain": {
         "name": "/Lotus/Language/InfestedMicroplanetQuest/QuestName",
         "description": "/Lotus/Language/InfestedMicroplanetQuest/QuestDesc",
         "icon": "/Lotus/Interface/Quests/HeartOfDeimosKeychain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": [
+                    "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileDeimosHub",
+                    "/Lotus/StoreItems/Types/Keys/InfestedMicroplanetQuest/DoubleDefenseIntroEmailItem"
+                ]
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ],
+        "rewards": [
+            {
+                "rewardType": "RT_RECIPE",
+                "itemType": "/Lotus/Types/Recipes/WarframeRecipes/BrokenFrameBlueprint"
+            }
+        ]
     },
     "/Lotus/Types/Keys/KahlQuest/KahlQuestKeyChain": {
         "name": "/Lotus/Language/KahlQuest/QuestName",
         "description": "/Lotus/Language/KahlQuest/QuestDesc",
         "icon": "/Lotus/Interface/Quests/VeilbreakerQuestKeychain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "key": "/Lotus/Types/Keys/KahlQuest/TennoMurexStage",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/KahlQuest/KahlMurexStage",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/KahlQuest/TennoMurexStage": {
+        "name": "/Lotus/Language/Veilbreaker/TennoMurexStage",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/KahlQuest/KahlMurexStage": {
+        "name": "/Lotus/Language/Veilbreaker/KahlMurexStage",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
     },
     "/Lotus/Types/Keys/KubrowQuest/KubrowQuestKeyChain": {
         "name": "/Lotus/Language/G1Quests/KubrowQuestKeychain",
         "description": "/Lotus/Language/G1Quests/KubrowQuestCodexDesc",
         "icon": "/Lotus/Interface/Quests/HowlOfKubrowQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/KubrowQuest/MissionOne",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/KubrowQuest/MissionTwo",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/KubrowQuest/MissionThree",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/KubrowQuest/MissionOne": {
+        "name": "/Lotus/Language/G1Quests/KubrowQuest1",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Items/ShipFeatureItems/GeneticFoundryFeatureItem"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/KubrowQuest/MissionTwo": {
+        "name": "/Lotus/Language/G1Quests/KubrowQuest2",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/KubrowQuest/MissionThree": {
+        "name": "/Lotus/Language/G1Quests/KubrowQuest3",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Game/KubrowPet/KubrowPetCollarItem"
+            }
+        ]
     },
     "/Lotus/Types/Keys/LimboQuest/LimboQuestKeyChain": {
         "name": "/Lotus/Language/G1Quests/LimboQName",
         "description": "/Lotus/Language/G1Quests/LimboQDesc",
         "icon": "/Lotus/Interface/Quests/LimboQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/LimboQuest/LimboBeaconKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/LimboQuest/LimboHelmetKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": [
+                    "/Lotus/StoreItems/Types/Keys/LimboQuest/LimboSystemsKeyBlueprint"
+                ]
+            },
+            {
+                "key": "/Lotus/Types/Keys/LimboQuest/LimboBeaconKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/LimboQuest/LimboSystemsKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": [
+                    "/Lotus/StoreItems/Types/Keys/LimboQuest/LimboChassisKeyBlueprint"
+                ]
+            },
+            {
+                "key": "/Lotus/Types/Keys/LimboQuest/LimboBeaconKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/LimboQuest/LimboChassisKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/LimboQuest/LimboBeaconKey": {
+        "name": "/Lotus/Language/Items/LimboBeaconKey",
+        "description": "/Lotus/Language/Items/LimboBeaconDesc",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/LimboQuest/LimboHelmetKey": {
+        "name": "/Lotus/Language/Items/LimboHelmetKey",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/MagicianHelmetBlueprint"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/LimboQuest/LimboBeaconKey": {
+        "name": "/Lotus/Language/Items/LimboBeaconKey",
+        "description": "/Lotus/Language/Items/LimboBeaconDesc",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/LimboQuest/LimboSystemsKey": {
+        "name": "/Lotus/Language/Items/LimboSystemsKey",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/MagicianSystemsBlueprint"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/LimboQuest/LimboBeaconKey": {
+        "name": "/Lotus/Language/Items/LimboBeaconKey",
+        "description": "/Lotus/Language/Items/LimboBeaconDesc",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/LimboQuest/LimboChassisKey": {
+        "name": "/Lotus/Language/Items/LimboChassisKey",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/MagicianChassisBlueprint"
+            }
+        ]
     },
     "/Lotus/Types/Keys/MirageQuest/MirageQuestKeyChain": {
         "name": "/Lotus/Language/G1Quests/MirageQuest",
         "description": "/Lotus/Language/G1Quests/MirageQuestDesc",
         "icon": "/Lotus/Interface/Quests/HiddenMessagesQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": [
+                    "/Lotus/StoreItems/Types/Items/ShipFeatureItems/ArsenalFeatureItem"
+                ]
+            },
+            {
+                "key": "/Lotus/Types/Keys/MirageQuest/MissionOne",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/MirageQuest/MissionTwo",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/MirageQuest/MissionThree",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/MirageQuest/MissionOne": {
+        "name": "/Lotus/Language/G1Quests/MirageQuestHint1",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/HarlequinHelmetBlueprint"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/MirageQuest/MissionTwo": {
+        "name": "/Lotus/Language/G1Quests/MirageQuestHint1",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/HarlequinSystemsBlueprint"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/MirageQuest/MissionThree": {
+        "name": "/Lotus/Language/G1Quests/MirageQuestHint1",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/HarlequinChassisBlueprint"
+            }
+        ]
     },
     "/Lotus/Types/Keys/MummyQuest/MummyQuestKeyChain": {
         "name": "/Lotus/Language/G1Quests/MummyQuestName",
         "description": "/Lotus/Language/G1Quests/MummyQuestDesc",
         "icon": "/Lotus/Interface/Quests/MummyQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/MummyQuest/MummyInitialKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/MummyQuest/MummyChallenge01Key",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/MummyQuest/MummyChallenge02Key",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/MummyQuest/MummyChallenge03Key",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/MummyQuest/MummyInitialKey": {
+        "name": "/Lotus/Language/G1Quests/MummyQuestKeyName",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Keys/MummyQuest/MummyArtifact01GearItem"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/MummyBlueprint"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/MummyQuest/MummyChallenge01Key": {
+        "name": "/Lotus/Language/G1Quests/MummyQuestKeyName",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/MummyHelmetBlueprint"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Keys/MummyQuest/MummyArtifact01GearItem"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/MummyQuest/MummyChallenge02Key": {
+        "name": "/Lotus/Language/G1Quests/MummyQuestKeyName",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/MummyChassisBlueprint"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Keys/MummyQuest/MummyArtifact01GearItem"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/MummyQuest/MummyChallenge03Key": {
+        "name": "/Lotus/Language/G1Quests/MummyQuestKeyName",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/MummySystemsBlueprint"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Items/ShipDecos/MummyQuestVessel"
+            }
+        ]
     },
     "/Lotus/Types/Keys/NewPlayerQuest/NewPlayerQuestKeyChain": {
         "name": "/Lotus/Language/NewPlayerQuest/NewPlayerQuestKeyChainName",
@@ -159,112 +1659,1690 @@
         "description": "",
         "icon": "/Lotus/Interface/Quests/NewWarIntroQuestKeychain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": true
+        "codexSecret": true,
+        "chainStages": [
+            {
+                "key": "/Lotus/Types/Keys/NewWarIntroQuest/NewWarIntroKey",
+                "itemsToGiveWhenTriggered": [
+                    "/Lotus/StoreItems/Types/Keys/NewWarQuest/NewWarQuestKeyChain"
+                ]
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ],
+        "rewards": [
+            {
+                "rewardType": "RT_RECIPE",
+                "itemType": "/Lotus/Types/Recipes/Weapons/SheduHeavyWeaponBlueprint"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/NewWarIntroQuest/NewWarIntroKey": {
+        "name": "/Lotus/Language/NewWarIntro/NewWarIntroKeyChainName",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
     },
     "/Lotus/Types/Keys/NewWarQuest/NewWarQuestKeyChain": {
         "name": "/Lotus/Language/NewWar/NewWarQuestName",
         "description": "/Lotus/Language/NewWar/NewWarQuestDesc",
         "icon": "/Lotus/Interface/Quests/TheNewWarQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": true
+        "codexSecret": true,
+        "chainStages": [
+            {
+                "key": "/Lotus/Types/Keys/NewWarQuest/TNWActOneBrothers",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/NewWarQuest/TNWActOneBetrayer",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/NewWarQuest/TNWActOneStarWars",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/NewWarQuest/TNWActOneOldMen",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/NewWarQuest/TNWActTwoRiseOfNarmer",
+                "itemsToGiveWhenTriggered": [
+                    "/Lotus/StoreItems/Types/Items/ShipFeatureItems/AdvancedOrdisFeatureItem"
+                ]
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/NewWarQuest/TNWActTwoStolenPlates",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/NewWarQuest/TNWActTwoEnemyOfEnemies",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/NewWarQuest/TNWActTwoZarimanMusical",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/NewWarQuest/TNWActTwoLotusAttacks",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/NewWarQuest/TNWActThreeTableForTwo",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/NewWarQuest/TNWActThreeBeanstalks",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/NewWarQuest/TNWActThreeSunkiller",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/NewWarQuest/TNWActThreeHotMess",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/NewWarQuest/TNWActThreeToErraIsHuman",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/NewWarQuest/TNWActThreeAlmostSevenSamurai",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/NewWarQuest/TNWActThreeEpilogue",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/NewWarQuest/TNWActOneBrothers": {
+        "name": "/Lotus/Language/NewWar/NewWarP1M1",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/TNWActOneBetrayer": {
+        "name": "/Lotus/Language/NewWar/NewWarP1M2",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/TNWActOneStarWars": {
+        "name": "/Lotus/Language/NewWar/NewWarP1M3",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/TNWActOneOldMen": {
+        "name": "/Lotus/Language/NewWar/NewWarP1M4",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/TNWActTwoRiseOfNarmer": {
+        "name": "/Lotus/Language/NewWar/NewWarP2M1",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/TNWActTwoStolenPlates": {
+        "name": "/Lotus/Language/NewWar/NewWarP2M3",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/TNWActTwoEnemyOfEnemies": {
+        "name": "/Lotus/Language/NewWar/NewWarP2M5",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/TNWActTwoZarimanMusical": {
+        "name": "/Lotus/Language/NewWar/NewWarP2M6",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/TNWActTwoLotusAttacks": {
+        "name": "/Lotus/Language/NewWar/NewWarP2M11",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/TNWActThreeTableForTwo": {
+        "name": "/Lotus/Language/NewWar/NewWarP3M1",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/TNWActThreeBeanstalks": {
+        "name": "/Lotus/Language/NewWar/NewWarP3M2",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/TNWActThreeSunkiller": {
+        "name": "/Lotus/Language/NewWar/NewWarP3M3",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/TNWActThreeHotMess": {
+        "name": "/Lotus/Language/NewWar/NewWarP3M4",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/TNWActThreeToErraIsHuman": {
+        "name": "/Lotus/Language/NewWar/NewWarP3M5",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/TNWActThreeAlmostSevenSamurai": {
+        "name": "/Lotus/Language/NewWar/NewWarP3M6",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/TNWActThreeEpilogue": {
+        "name": "/Lotus/Language/NewWar/NewWarP3M6",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
     },
     "/Lotus/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyChain": {
         "name": "/Lotus/Language/G1Quests/SecondDreamKeychain",
         "description": "/Lotus/Language/G1Quests/SecondDreamDescription",
         "icon": "/Lotus/Interface/Quests/OrokinMoonQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "key": "/Lotus/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyA",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyB",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyC",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyD",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyE",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyF",
+                "itemsToGiveWhenTriggered": []
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyA": {
+        "name": "/Lotus/Language/G1Quests/SecondDreamMission1",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyB": {
+        "name": "/Lotus/Language/G1Quests/SecondDreamMission2",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyC": {
+        "name": "/Lotus/Language/G1Quests/SecondDreamMission3",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyD": {
+        "name": "/Lotus/Language/G1Quests/SecondDreamMission4",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyE": {
+        "name": "/Lotus/Language/G1Quests/SecondDreamMission5",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyF": {
+        "name": "/Lotus/Language/G1Quests/SecondDreamMission6",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
     },
     "/Lotus/Types/Keys/PriestFrameQuest/PriestQuestKeyChain": {
         "name": "/Lotus/Language/Quests/PriestQuestName",
         "description": "/Lotus/Language/Quests/PriestQuestDescription",
         "icon": "/Lotus/Interface/Quests/PriestQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/PriestFrameQuest/PriestPalladinoRescueMisson",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/PriestFrameQuest/PriestDondaMazeMisson",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/PriestFrameQuest/PriestSiphon01Mission",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/PriestFrameQuest/PriestSiphon02Mission",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/PriestFrameQuest/PriestSiphon03Mission",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/PriestFrameQuest/PriestTempleKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ],
+        "rewards": [
+            {
+                "rewardType": "RT_RECIPE",
+                "itemType": "/Lotus/Types/Recipes/WarframeRecipes/PriestBlueprint"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/PriestFrameQuest/PriestPalladinoRescueMisson": {
+        "name": "/Lotus/Language/Quests/PriestPalladinoRescueMissionHint",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/PriestFrameQuest/PriestDondaMazeMisson": {
+        "name": "/Lotus/Language/Quests/PriestDondaMazeMissionHint",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/PriestFrameQuest/PriestSiphon01Mission": {
+        "name": "/Lotus/Language/Quests/PriestSiphonMissionHint",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/PriestFrameQuest/PriestSiphon02Mission": {
+        "name": "/Lotus/Language/Quests/PriestSiphonMissionHint",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/PriestFrameQuest/PriestSiphon03Mission": {
+        "name": "/Lotus/Language/Quests/PriestSiphonMissionHint",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/PriestFrameQuest/PriestTempleKey": {
+        "name": "/Lotus/Language/Quests/PriestTempleEnterObjective",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
     },
     "/Lotus/Types/Keys/ProteaQuest/ProteaQuestKeyChain": {
         "name": "/Lotus/Language/DeadlockProtocol/ProteaQuestName",
         "description": "/Lotus/Language/DeadlockProtocol/ProteaQuestDesc",
         "icon": "/Lotus/Interface/Quests/DeadlockProtocolQuestKeychain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/ProteaQuest/ProteaQuestMissionOne",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/ProteaQuest/ProteaQuestMissionTwo",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/ProteaQuest/ProteaQuestMissionThree",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/ProteaQuest/ProteaQuestMissionFour",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/ProteaQuest/ProteaQuestMissionFive",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ],
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ProteaBlueprint"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/ProteaQuest/ProteaQuestMissionOne": {
+        "name": "/Lotus/Language/DeadlockProtocol/ProteaQuestMission1Title",
+        "description": "/Lotus/Language/DeadlockProtocol/ProteaQuestMission1Desc",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/ProteaQuest/ProteaQuestMissionTwo": {
+        "name": "/Lotus/Language/DeadlockProtocol/ProteaQuestMission2Title",
+        "description": "/Lotus/Language/DeadlockProtocol/ProteaQuestMission2Desc",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/ProteaQuest/ProteaQuestMissionThree": {
+        "name": "/Lotus/Language/DeadlockProtocol/ProteaQuestMission3Title",
+        "description": "/Lotus/Language/DeadlockProtocol/ProteaQuestMission3Desc",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/ProteaQuest/ProteaQuestMissionFour": {
+        "name": "/Lotus/Language/DeadlockProtocol/ProteaQuestMission4Title",
+        "description": "/Lotus/Language/DeadlockProtocol/ProteaQuestMission4Desc",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/ProteaQuest/ProteaQuestMissionFive": {
+        "name": "/Lotus/Language/DeadlockProtocol/ProteaQuestMission5Title",
+        "description": "/Lotus/Language/DeadlockProtocol/ProteaQuestMission5Desc",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
     },
     "/Lotus/Types/Keys/RailJackBuildQuest/RailjackBuildQuestKeyChain": {
         "name": "/Lotus/Language/G1Quests/RailjackBuildQuestName",
         "description": "/Lotus/Language/G1Quests/RailjackBuildQuestDesc",
         "icon": "/Lotus/Interface/Quests/RailjackBuildQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": [
+                    "/Lotus/StoreItems/Types/Recipes/Railjack/RailjackCephalonBlueprint"
+                ]
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/RailJackBuildQuest/RailjackComponentHuntKeyHull",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/RailJackBuildQuest/RailjackComponentHuntKeyHoodBrace",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/RailJackBuildQuest/RailjackComponentHuntKeyNacelleLeft",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/RailJackBuildQuest/RailjackComponentHuntKeyNacelleRight",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/RailJackBuildQuest/RailjackComponentHuntKeyTail",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/RailJackBuildQuest/RailjackComponentHuntKeyHood",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ],
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Game/CrewShip/Ships/RailJack"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/RailJackBuildQuest/RailjackComponentHuntKeyHull": {
+        "name": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage1Desc",
+        "description": "/Lotus/Language/Railjack/RailjackComponentHuntKeyADesc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/RailJackBuildQuest/RailjackComponentHuntKeyHoodBrace": {
+        "name": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage10Desc",
+        "description": "/Lotus/Language/Railjack/RailjackComponentHuntKeyCDesc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/RailJackBuildQuest/RailjackComponentHuntKeyNacelleLeft": {
+        "name": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage4Desc",
+        "description": "/Lotus/Language/Railjack/RailjackComponentHuntKeyDDesc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/RailJackBuildQuest/RailjackComponentHuntKeyNacelleRight": {
+        "name": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage7Desc",
+        "description": "/Lotus/Language/Railjack/RailjackComponentHuntKeyEDesc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/RailJackBuildQuest/RailjackComponentHuntKeyTail": {
+        "name": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage13Desc",
+        "description": "/Lotus/Language/Railjack/RailjackComponentHuntKeyFDesc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/RailJackBuildQuest/RailjackComponentHuntKeyHood": {
+        "name": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage16Desc",
+        "description": "/Lotus/Language/Railjack/RailjackComponentHuntKeyBDesc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
     },
     "/Lotus/Types/Keys/RevenantQuest/RevenantQuestKeyChain": {
         "name": "/Lotus/Language/RevenantQuest/RevenantQuestName",
         "description": "/Lotus/Language/RevenantQuest/RevenantQuestDesc",
         "icon": "/Lotus/Interface/Quests/RevenantQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ],
+        "rewards": [
+            {
+                "rewardType": "RT_RECIPE",
+                "itemType": "/Lotus/Types/Recipes/WarframeRecipes/RevenantBlueprint"
+            }
+        ]
     },
     "/Lotus/Types/Keys/SacrificeQuest/SacrificeQuestKeyChain": {
         "name": "/Lotus/Language/Sacrifice/SacrificeQuestTitle",
         "description": "/Lotus/Language/Sacrifice/SacrificeQuestDesc",
         "icon": "/Lotus/Interface/Quests/SacrificeQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/SacrificeQuest/SacrificeQuestKeyEarth",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": [
+                    "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ExcaliburUmbraBlueprint"
+                ]
+            },
+            {
+                "key": "/Lotus/Types/Keys/SacrificeQuest/SacrificeQuestKeyLua",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/SacrificeQuest/SacrificeQuestKeyTrackUmbraA",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/SacrificeQuest/SacrificeQuestKeyTrackUmbraB",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/SacrificeQuest/SacrificeQuestKeyTrackUmbraC",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/SacrificeQuest/SacrificeQuestKeyEarthFinale",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/SacrificeQuest/SacrificeQuestKeyEarth": {
+        "name": "/Lotus/Language/Sacrifice/MissionTitle1",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/SacrificeQuest/SacrificeQuestKeyLua": {
+        "name": "/Lotus/Language/Sacrifice/MissionTitle2",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/SacrificeQuest/SacrificeQuestKeyTrackUmbraA": {
+        "name": "/Lotus/Language/Sacrifice/MissionTitle3",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/SacrificeQuest/SacrificeQuestKeyTrackUmbraB": {
+        "name": "/Lotus/Language/Sacrifice/MissionTitle4",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/SacrificeQuest/SacrificeQuestKeyTrackUmbraC": {
+        "name": "/Lotus/Language/Sacrifice/MissionTitle5",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/SacrificeQuest/SacrificeQuestKeyEarthFinale": {
+        "name": "/Lotus/Language/Sacrifice/MissionTitle6",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
     },
     "/Lotus/Types/Keys/SentientQuest/SentientQuestKeyChain": {
         "name": "/Lotus/Language/G1Quests/SentientQuestName",
         "description": "/Lotus/Language/G1Quests/SentientQuestDesc",
         "icon": "/Lotus/Interface/Quests/SentientQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "key": "/Lotus/Types/Keys/SentientQuest/SentientQuestMissionOne",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/SentientQuest/SentientQuestMissionTwo",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/SentientQuest/SentientQuestMissionThree",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/SentientQuest/SentientQuestMissionFour",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/SentientQuest/SentientQuestMissionFive",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/SentientQuest/SentientQuestMissionOne": {
+        "name": "/Lotus/Language/G1Quests/SentientQuestObjective_Investigate",
+        "description": "/Lotus/Language/G1Quests/SentientQuestObjective_InvestigateDesc",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/SentientQuest/SentientQuestMissionTwo": {
+        "name": "/Lotus/Language/G1Quests/SentientQuestObjective_MobileDef",
+        "description": "/Lotus/Language/G1Quests/SentientQuestObjective_MobileDefDesc",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/SentientQuest/SentientQuestMissionThree": {
+        "name": "/Lotus/Language/G1Quests/SentientQuestObjective_FindSergeant",
+        "description": "/Lotus/Language/G1Quests/SentientQuestObjective_FindSergeantDesc",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/SentientQuest/SentientQuestMissionFour": {
+        "name": "/Lotus/Language/G1Quests/SentientQuestObjective_StopTyl",
+        "description": "/Lotus/Language/G1Quests/SentientQuestObjective_StopTylDesc",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/SentientQuest/SentientQuestMissionFive": {
+        "name": "/Lotus/Language/G1Quests/SentientQuestObjective_SealTomb",
+        "description": "/Lotus/Language/G1Quests/SentientQuestObjective_SealTombDesc",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
     },
     "/Lotus/Types/Keys/SolarisQuest/SolarisQuestKeyChain": {
         "name": "/Lotus/Language/SolarisQuest/VoxSolarisKeyChainName",
         "description": "/Lotus/Language/SolarisQuest/VoxSolarisKeyChainDesc",
         "icon": "/Lotus/Interface/Quests/SolarisQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ]
     },
     "/Lotus/Types/Keys/SpyQuestKeyChain/SpyQuestKeyChain": {
         "name": "/Lotus/Language/G1Quests/SpyQuestTitle",
         "description": "/Lotus/Language/G1Quests/SpyQuestOverview",
         "icon": "/Lotus/Interface/Quests/SpyQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/SpyQuestKeyChain/SpyQuestIntroKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/SpyQuestKeyChain/SpyQuestKeyA",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/SpyQuestKeyChain/SpyQuestKeyB",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/SpyQuestKeyChain/SpyQuestKeyC",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/SpyQuestKeyChain/SpyQuestFinalKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/SpyQuestKeyChain/SpyQuestIntroKey": {
+        "name": "/Lotus/Language/G1Quests/SpyQuestMission1Title",
+        "description": "/Lotus/Language/G1Quests/SpyQuestMission1Desc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/SpyQuestKeyChain/SpyQuestKeyA": {
+        "name": "/Lotus/Language/G1Quests/SpyQuestMission2Title",
+        "description": "/Lotus/Language/G1Quests/SpyQuestMission2Desc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/SpyQuestKeyChain/SpyQuestKeyB": {
+        "name": "/Lotus/Language/G1Quests/SpyQuestMission3Title",
+        "description": "/Lotus/Language/G1Quests/SpyQuestMission3Desc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/SpyQuestKeyChain/SpyQuestKeyC": {
+        "name": "/Lotus/Language/G1Quests/SpyQuestMission4Title",
+        "description": "/Lotus/Language/G1Quests/SpyQuestMission4Desc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/SpyQuestKeyChain/SpyQuestFinalKey": {
+        "name": "/Lotus/Language/G1Quests/SpyQuestMission5Title",
+        "description": "/Lotus/Language/G1Quests/SpyQuestMission5Desc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Recipes/Weapons/DualEtherDaggerBlueprint"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Recipes/Components/OrokinCatalystBlueprint"
+            }
+        ]
     },
     "/Lotus/Types/Keys/VorsPrize/VorsPrizeQuestKeyChain": {
         "name": "/Lotus/Language/G1Quests/VorsPrizeKeychain",
         "description": "/Lotus/Language/Archive/VorLore",
         "icon": "/Lotus/Interface/Quests/VorsPrizeQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "key": "/Lotus/Types/Keys/VorsPrize/MissionOne",
+                "itemsToGiveWhenTriggered": [
+                    "/Lotus/StoreItems/Types/Items/ShipFeatureItems/ArsenalFeatureItem"
+                ]
+            },
+            {
+                "key": "/Lotus/Types/Keys/VorsPrize/MissionTwo",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/VorsPrize/MissionThree",
+                "itemsToGiveWhenTriggered": [
+                    "/Lotus/StoreItems/Types/Recipes/Components/VorBoltRemoverBlueprint"
+                ]
+            },
+            {
+                "key": "/Lotus/Types/Keys/VorsPrize/MissionFour",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/VorsPrize/MissionFive",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/VorsPrize/MissionSix",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/VorsPrize/MissionOne": {
+        "name": "/Lotus/Language/G1Quests/VorsPrize1",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Items/ShipFeatureItems/SocialMenuFeatureItem"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Melee/WeaponMeleeDamageMod"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponDamageAmountMod"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Pistol/WeaponDamageAmountMod"
+            },
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 2500
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/VorsPrize/MissionTwo": {
+        "name": "/Lotus/Language/G1Quests/VorsPrize2",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Items/ShipFeatureItems/ModsFeatureItem"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarHealthMaxMod"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarShieldMaxMod"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarAbilityRangeMod"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarAbilityStrengthMod"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarAbilityDurationMod"
+            },
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 2500
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/VorsPrize/MissionThree": {
+        "name": "/Lotus/Language/G1Quests/VorsPrize3",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Items/ShipFeatureItems/FoundryFeatureItem"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Melee/WeaponFireRateMod"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponFactionDamageCorpus"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponFactionDamageGrineer"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Pistol/WeaponFireDamageMod"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Pistol/WeaponElectricityDamageMod"
+            },
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 2500
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/VorsPrize/MissionFour": {
+        "name": "/Lotus/Language/G1Quests/VorsPrize4",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarPickupBonusMod"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarPowerMaxMod"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarEnemyRadarMod"
+            },
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 2500
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/VorsPrize/MissionFive": {
+        "name": "/Lotus/Language/G1Quests/VorsPrize5",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Items/ShipFeatureItems/MercuryNavigationFeatureItem"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
+            },
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/VorsPrize/MissionSix": {
+        "name": "/Lotus/Language/G1Quests/VorsPrize6",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 10000
+            }
+        ]
     },
     "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyChain": {
         "name": "/Lotus/Language/G1Quests/WarWithinQuestName",
         "description": "/Lotus/Language/G1Quests/WarWithinQuestDesc",
         "icon": "/Lotus/Interface/Quests/TheWarWithinQuestKeychain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyTeshinCaptureA",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyTeshinCaptureB",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyArchwing",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyQueensFortress",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyLisetA",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyMountainPassA",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyMawPit",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyTheMirror",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyLisetB",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyQueensFight",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyLisetC",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyMountainPassB",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyTeshinCaptureA": {
+        "name": "/Lotus/Language/G1Quests/WarWithin2",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyTeshinCaptureB": {
+        "name": "/Lotus/Language/G1Quests/WarWithin4",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyArchwing": {
+        "name": "/Lotus/Language/G1Quests/WarWithin6",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyQueensFortress": {
+        "name": "/Lotus/Language/G1Quests/WarWithin7",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyLisetA": {
+        "name": "",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyMountainPassA": {
+        "name": "/Lotus/Language/G1Quests/WarWithin8",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyMawPit": {
+        "name": "/Lotus/Language/G1Quests/WarWithin10",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyTheMirror": {
+        "name": "/Lotus/Language/G1Quests/WarWithin11",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyLisetB": {
+        "name": "/Lotus/Language/G1Quests/WarWithin12",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyQueensFight": {
+        "name": "/Lotus/Language/G1Quests/WarWithin13",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyLisetC": {
+        "name": "/Lotus/Language/G1Quests/WarWithin14",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyMountainPassB": {
+        "name": "/Lotus/Language/G1Quests/WarWithin15",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": [
+            {
+                "rewardType": "RT_CREDITS",
+                "amount": 5000
+            }
+        ]
     },
     "/Lotus/Types/Keys/WraithQuest/WraithQuestKeyChain": {
         "name": "/Lotus/Language/WraithQuest/WraithQuestName",
         "description": "/Lotus/Language/WraithQuest/WraithQuestDesc",
         "icon": "/Lotus/Interface/Quests/TempestariiQuestKeychain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/WraithQuest/WraithQuestM1KeyCrewBattle",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/WraithQuest/WraithQuestM2KeyCrewBattle",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/WraithQuest/WraithQuestM3KeyCrewBattle",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ],
+        "rewards": [
+            {
+                "rewardType": "RT_RECIPE",
+                "itemType": "/Lotus/Types/Recipes/WarframeRecipes/WraithBlueprint"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/WraithQuest/WraithQuestM1KeyCrewBattle": {
+        "name": "/Lotus/Language/WraithQuest/WraithQuestKeychainM1",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WraithQuest/WraithQuestM2KeyCrewBattle": {
+        "name": "/Lotus/Language/WraithQuest/WraithQuestKeychainM2",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WraithQuest/WraithQuestM3KeyCrewBattle": {
+        "name": "/Lotus/Language/WraithQuest/WraithQuestKeychainM3",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
     },
     "/Lotus/Types/Keys/YareliQuest/YareliQuestKeyChain": {
         "name": "/Lotus/Language/YareliQuest/QuestName",
         "description": "/Lotus/Language/YareliQuest/QuestDesc",
         "icon": "/Lotus/Interface/Quests/YareliQuestKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ],
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Items/ShipDecos/YareliQuestComic"
+            }
+        ]
     },
     "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain": {
         "name": "/Lotus/Language/ZarimanQuest/ZQName",
         "description": "/Lotus/Language/ZarimanQuest/ZQIntroDioramaText",
         "icon": "/Lotus/Interface/Quests/AngelsOfTheZarimanQuestKeychain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
-        "codexSecret": false
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/ZarimanQuest/ZarimanMissionOne",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/ZarimanQuest/ZarimanMissionTwo",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/ZarimanQuest/ZarimanMissionThree",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/ZarimanQuest/ZarimanMissionFour",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            }
+        ],
+        "rewards": [
+            {
+                "rewardType": "RT_RESOURCE",
+                "itemType": "/Lotus/Types/Gameplay/Zariman/Resources/VoidAngelItem"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/ZarimanQuest/ZarimanMissionOne": {
+        "name": "/Lotus/Language/ZarimanQuest/ZQMissionOneObjFindSong",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/ZarimanQuest/ZarimanMissionTwo": {
+        "name": "/Lotus/Language/ZarimanQuest/ZQHubOneObjCascade",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/ZarimanQuest/ZarimanMissionThree": {
+        "name": "/Lotus/Language/ZarimanQuest/ZQHubTwoObjVoidFlood",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/ZarimanQuest/ZarimanMissionFour": {
+        "name": "/Lotus/Language/ZarimanQuest/ZQHubThreeObjProtectDrive",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
     },
     "/Lotus/Types/Keys/DojoKey": {
         "name": "/Lotus/Language/Items/DojoKeyName",

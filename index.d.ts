@@ -174,11 +174,22 @@ export interface IIntrinsicRank {
 
 export interface IKey {
     name:              string;
-    description:       string;
-    icon:              string;
+    description?:      string;
+    icon?:             string;
     parentName:        string;
     codexSecret:       boolean;
     excludeFromCodex?: boolean;
+    chainStages?:      {
+        key?:                     string;
+        itemsToGiveWhenTriggered: string[];
+    }[];
+    rewards?:          ({
+        rewardType: "RT_STORE_ITEM" | "RT_RECIPE" | "RT_RESOURCE";
+        itemType:   string;
+    } | {
+        rewardType: "RT_CREDITS";
+        amount:     number;
+    })[];
 }
 
 export interface IModSet {
