@@ -43,6 +43,8 @@ export declare const ExportUpgrades: Record<string, IUpgrade>;
 export declare const ExportWarframes: Record<string, IPowersuit>;
 export declare const ExportWeapons: Record<string, IWeapon>;
 
+export type TRarity = "COMMON" | "UNCOMMON" | "RARE" | "LEGENDARY";
+
 export interface IAbility {
     name:                       string;
     description:                string;
@@ -56,13 +58,13 @@ export interface IArcane {
     icon:              string;
     codexSecret:       boolean;
     excludeFromCodex?: boolean;
-    rarity?:           "UNCOMMON" | "RARE" | "LEGENDARY";
+    rarity?:           TRarity;
 }
 
 export interface IAvionic {
     name:              string;
     polarity:          "AP_UNIVERSAL" | "AP_TACTIC" | "AP_DEFENSE" | "AP_ATTACK";
-    rarity:            "UNCOMMON" | "RARE" | "COMMON";
+    rarity:            TRarity;
     codexSecret:       boolean;
     baseDrain:         number;
     fusionLimit:       number;
@@ -127,7 +129,7 @@ export interface IFocusUpgrade {
     name:               string;
     icon:               string;
     polarity:           "AP_ATTACK" | "AP_DEFENSE" | "AP_POWER" | "AP_TACTIC" | "AP_WARD";
-    rarity:             "UNCOMMON" | "RARE" | "COMMON";
+    rarity:             TRarity;
     codexSecret:        boolean;
     baseDrain:          number;
     fusionLimit:        number;
@@ -298,7 +300,7 @@ export interface IRelic {
     description:  "/Lotus/Language/Relics/ImmortalProjectionBaseDesc" | "/Lotus/Language/Items/ProjectionDescription";
     relicRewards: {
         rewardName: string;
-        rarity:     "RARE" | "UNCOMMON" | "COMMON";
+        rarity:     TRarity;
         tier:       number;
         itemCount:  number;
     }[];
@@ -346,7 +348,7 @@ export interface IUpgrade {
     name:                 string;
     icon:                 string;
     polarity:             "AP_POWER" | "AP_DEFENSE" | "AP_TACTIC" | "AP_ATTACK" | "AP_WARD" | "AP_UNIVERSAL" | "AP_UMBRA" | "AP_PRECEPT" | "AP_ANY";
-    rarity:               "RARE" | "UNCOMMON" | "COMMON" | "LEGENDARY";
+    rarity:               TRarity;
     codexSecret:          boolean;
     baseDrain:            number;
     fusionLimit:          number;
