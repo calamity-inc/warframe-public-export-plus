@@ -4297,13 +4297,13 @@
                 "ProductCategory": "MiscItems"
             },
             {
-                "ItemType": "/Lotus/Types/Items/Gems/Deimos/DeimosRareGemACutItem",
-                "ItemCount": 8,
+                "ItemType": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemACutItem",
+                "ItemCount": 30,
                 "ProductCategory": "MiscItems"
             },
             {
-                "ItemType": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosOrokinFishCPartItem",
-                "ItemCount": 5,
+                "ItemType": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/OrbStoneItem",
+                "ItemCount": 140,
                 "ProductCategory": "MiscItems"
             }
         ],
@@ -4329,13 +4329,13 @@
                 "ProductCategory": "MiscItems"
             },
             {
-                "ItemType": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosOrokinFishAPartItem",
-                "ItemCount": 1,
+                "ItemType": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosInfestedFishGPartItem",
+                "ItemCount": 4,
                 "ProductCategory": "MiscItems"
             },
             {
-                "ItemType": "/Lotus/Types/Items/Gems/Deimos/DeimosEidolonGemBCutItem",
-                "ItemCount": 6,
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 10,
                 "ProductCategory": "MiscItems"
             }
         ],
@@ -4356,13 +4356,13 @@
                 "ProductCategory": "MiscItems"
             },
             {
-                "ItemType": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/EntratiWispItem",
-                "ItemCount": 2,
+                "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                "ItemCount": 3,
                 "ProductCategory": "MiscItems"
             },
             {
                 "ItemType": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosOrokinFishBPartItem",
-                "ItemCount": 15,
+                "ItemCount": 12,
                 "ProductCategory": "MiscItems"
             },
             {
@@ -4393,13 +4393,13 @@
                 "ProductCategory": "MiscItems"
             },
             {
-                "ItemType": "/Lotus/Types/Items/Gems/Deimos/DeimosRareOreAAlloyItem",
+                "ItemType": "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonGemACutItem",
                 "ItemCount": 40,
                 "ProductCategory": "MiscItems"
             },
             {
-                "ItemType": "/Lotus/Types/Items/Gems/Deimos/DeimosEidolonGemACutItem",
-                "ItemCount": 6,
+                "ItemType": "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemBCutItem",
+                "ItemCount": 30,
                 "ProductCategory": "MiscItems"
             }
         ],
@@ -16787,6 +16787,134 @@
             {
                 "ItemType": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfMapricoFruitItem",
                 "ItemCount": 60,
+                "ProductCategory": "MiscItems"
+            }
+        ],
+        "secretIngredients": []
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/ChoirBlueprint": {
+        "resultType": "/Lotus/Powersuits/Choir/Choir",
+        "buildPrice": 25000,
+        "buildTime": 259200,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/ChoirHelmetComponent",
+                "ItemCount": 1,
+                "ProductCategory": "MiscItems"
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/ChoirChassisComponent",
+                "ItemCount": 1,
+                "ProductCategory": "MiscItems"
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/ChoirSystemsComponent",
+                "ItemCount": 1,
+                "ProductCategory": "MiscItems"
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 3,
+                "ProductCategory": "MiscItems"
+            }
+        ],
+        "secretIngredients": []
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/ChoirChassisBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/WarframeRecipes/ChoirChassisComponent",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                "ItemCount": 600,
+                "ProductCategory": "MiscItems"
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                "ItemCount": 4000,
+                "ProductCategory": "MiscItems"
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                "ItemCount": 1500,
+                "ProductCategory": "MiscItems"
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                "ItemCount": 6,
+                "ProductCategory": "MiscItems"
+            }
+        ],
+        "secretIngredients": []
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/ChoirHelmetBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/WarframeRecipes/ChoirHelmetComponent",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                "ItemCount": 1000,
+                "ProductCategory": "MiscItems"
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                "ItemCount": 750,
+                "ProductCategory": "MiscItems"
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                "ItemCount": 3,
+                "ProductCategory": "MiscItems"
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                "ItemCount": 4,
+                "ProductCategory": "MiscItems"
+            }
+        ],
+        "secretIngredients": []
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/ChoirSystemsBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/WarframeRecipes/ChoirSystemsComponent",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                "ItemCount": 600,
+                "ProductCategory": "MiscItems"
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                "ItemCount": 600,
+                "ProductCategory": "MiscItems"
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                "ItemCount": 1100,
+                "ProductCategory": "MiscItems"
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                "ItemCount": 10,
                 "ProductCategory": "MiscItems"
             }
         ],
@@ -41837,6 +41965,105 @@
             {
                 "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
                 "ItemCount": 8600,
+                "ProductCategory": "MiscItems"
+            }
+        ],
+        "secretIngredients": []
+    },
+    "/Lotus/Types/Recipes/Weapons/TnChoirBowBlueprint": {
+        "resultType": "/Lotus/Weapons/Tenno/Bows/TnChoirBow/TnChoirBow",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 45,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                "ItemCount": 700,
+                "ProductCategory": "MiscItems"
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                "ItemCount": 1100,
+                "ProductCategory": "MiscItems"
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                "ItemCount": 20,
+                "ProductCategory": "MiscItems"
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                "ItemCount": 10,
+                "ProductCategory": "MiscItems"
+            }
+        ],
+        "secretIngredients": []
+    },
+    "/Lotus/Types/Recipes/Weapons/TnChoirKunaiBlueprint": {
+        "resultType": "/Lotus/Weapons/Tenno/ThrowingWeapons/TnChoirframeKunai/TnChoirframeKunai",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 45,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                "ItemCount": 1600,
+                "ProductCategory": "MiscItems"
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                "ItemCount": 1400,
+                "ProductCategory": "MiscItems"
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                "ItemCount": 600,
+                "ProductCategory": "MiscItems"
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                "ItemCount": 4,
+                "ProductCategory": "MiscItems"
+            }
+        ],
+        "secretIngredients": []
+    },
+    "/Lotus/Types/Recipes/Weapons/TnChoirScytheBlueprint": {
+        "resultType": "/Lotus/Weapons/Tenno/Melee/Scythe/TnChoirScythe/TnChoirScythe",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 45,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                "ItemCount": 5000,
+                "ProductCategory": "MiscItems"
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                "ItemCount": 500,
+                "ProductCategory": "MiscItems"
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                "ItemCount": 20,
+                "ProductCategory": "MiscItems"
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                "ItemCount": 18,
                 "ProductCategory": "MiscItems"
             }
         ],

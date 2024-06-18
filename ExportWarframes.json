@@ -3570,7 +3570,7 @@
         "codexSecret": false,
         "masteryReq": 0,
         "sprintSpeed": 0.95,
-        "passiveDescription": "/Lotus/Language/Primes/FrostPrimePassiveAbility",
+        "passiveDescription": "/Lotus/Language/Suits/FrostPassiveAbility",
         "abilities": [
             {
                 "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/IcicleAbility",
@@ -3939,7 +3939,7 @@
                 "name": "/Lotus/Language/Suits/FireBlastAbilityName",
                 "description": "/Lotus/Language/Suits/FireBlastAbilityDesc",
                 "icon": "/Lotus/Interface/Icons/Abilities/EmberFireBlast.png",
-                "energyRequiredToActivate": 75
+                "energyRequiredToActivate": 25
             },
             {
                 "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/EmberInfernoAbility",
@@ -3986,7 +3986,7 @@
                 "name": "/Lotus/Language/Suits/FireBlastAbilityName",
                 "description": "/Lotus/Language/Suits/FireBlastAbilityDesc",
                 "icon": "/Lotus/Interface/Icons/Abilities/EmberFireBlast.png",
-                "energyRequiredToActivate": 75
+                "energyRequiredToActivate": 25
             },
             {
                 "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/EmberInfernoAbility",
@@ -4372,6 +4372,56 @@
                 "description": "/Lotus/Language/Suits/QorvexLaserAbilityDesc",
                 "icon": "/Lotus/Interface/Icons/Abilities/QorvexCrucibleBlast.png",
                 "energyRequiredToActivate": 100
+            }
+        ],
+        "productCategory": "Suits"
+    },
+    "/Lotus/Powersuits/Choir/Choir": {
+        "name": "/Lotus/Language/Suits/ChoirName",
+        "parentName": "/Lotus/Powersuits/Choir/ChoirBaseSuit",
+        "description": "/Lotus/Language/Suits/ChoirDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Jade.png",
+        "health": 365,
+        "shield": 450,
+        "armor": 135,
+        "stamina": 3,
+        "power": 150,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/ChoirPassiveAbilityDesc",
+        "exalted": [
+            "/Lotus/Powersuits/Choir/ChoirEruptWeapon"
+        ],
+        "abilities": [
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/ChoirPoolAbility",
+                "name": "/Lotus/Language/Suits/ChoirPoolAbilityName",
+                "description": "/Lotus/Language/Suits/ChoirPoolAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/ChoirAbsolution.png",
+                "energyRequiredToActivate": 25
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/ChoirChorusAbility",
+                "name": "/Lotus/Language/Suits/ChoirChorusAbilityName",
+                "description": "/Lotus/Language/Suits/ChoirChorusAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/ChoirChorus.png",
+                "energyRequiredToActivate": 0
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/ChoirEyesAbility",
+                "name": "/Lotus/Language/Suits/ChoirEyesAbilityName",
+                "description": "/Lotus/Language/Suits/ChoirEyesAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/ChoirEyesOfLight.png",
+                "energyRequiredToActivate": 50
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/ChoirEruptAbility",
+                "name": "/Lotus/Language/Suits/ChoirEruptAbilityName",
+                "description": "/Lotus/Language/Suits/ChoirEruptAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/ChoirEruption.png",
+                "energyRequiredToActivate": 25,
+                "energyConsumptionOverTime": 5
             }
         ],
         "productCategory": "Suits"

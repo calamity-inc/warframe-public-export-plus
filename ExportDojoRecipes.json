@@ -46517,6 +46517,126 @@
             }
         ]
     },
+    "/Lotus/Levels/ClanDojo/ComponentPropRecipes/JadeShadowsEventBaseTrophyRecipe": {
+        "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/AmbulasEventTrophyBronze.png",
+        "price": 1000000,
+        "time": 86400,
+        "skipTimePrice": 1500,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/MurmurItem",
+                "ItemCount": 500
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemA",
+                "ItemCount": 2500
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemB",
+                "ItemCount": 2500
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
+                "ItemCount": 100
+            }
+        ]
+    },
+    "/Lotus/Levels/ClanDojo/ComponentPropRecipes/JadeShadowsEventBronzeTrophyRecipe": {
+        "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/EventPlaceables/JadeShadowsTrophyBronze.png",
+        "price": 1000000,
+        "time": 86400,
+        "skipTimePrice": 1500,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/MurmurItem",
+                "ItemCount": 500
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemA",
+                "ItemCount": 2500
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemB",
+                "ItemCount": 2500
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
+                "ItemCount": 100
+            }
+        ]
+    },
+    "/Lotus/Levels/ClanDojo/ComponentPropRecipes/JadeShadowsEventGoldTrophyRecipe": {
+        "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/EventPlaceables/JadeShadowsTrophyGold.png",
+        "price": 1000000,
+        "time": 86400,
+        "skipTimePrice": 1500,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/MurmurItem",
+                "ItemCount": 500
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemA",
+                "ItemCount": 2500
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemB",
+                "ItemCount": 2500
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
+                "ItemCount": 100
+            }
+        ]
+    },
+    "/Lotus/Levels/ClanDojo/ComponentPropRecipes/JadeShadowsEventPewterTrophyRecipe": {
+        "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/EventPlaceables/JadeShadowsTrophyPewter.png",
+        "price": 1000000,
+        "time": 86400,
+        "skipTimePrice": 1500,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/MurmurItem",
+                "ItemCount": 500
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemA",
+                "ItemCount": 2500
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemB",
+                "ItemCount": 2500
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
+                "ItemCount": 100
+            }
+        ]
+    },
+    "/Lotus/Levels/ClanDojo/ComponentPropRecipes/JadeShadowsEventSilverTrophyRecipe": {
+        "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/EventPlaceables/JadeShadowsTrophySilver.png",
+        "price": 1000000,
+        "time": 86400,
+        "skipTimePrice": 1500,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/MurmurItem",
+                "ItemCount": 500
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemA",
+                "ItemCount": 2500
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemB",
+                "ItemCount": 2500
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
+                "ItemCount": 100
+            }
+        ]
+    },
     "/Lotus/Levels/ClanDojo/ComponentPropRecipes/JahuGargoyleStatueRecipe": {
         "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/JahuGargoyleStatue.png",
         "price": 1000000,
@@ -56939,6 +57059,44 @@
             }
         ],
         "techPrereq": "/Lotus/Types/Recipes/WarframeRecipes/BansheeBlueprint"
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/ChoirChassisBlueprint": {
+        "price": 0,
+        "time": 0,
+        "skipTimePrice": 0,
+        "replicatePrice": 15000,
+        "ingredients": []
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/ChoirHelmetBlueprint": {
+        "price": 0,
+        "time": 0,
+        "skipTimePrice": 0,
+        "replicatePrice": 15000,
+        "ingredients": []
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/ChoirSystemsBlueprint": {
+        "price": 0,
+        "time": 0,
+        "skipTimePrice": 0,
+        "replicatePrice": 15000,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/Research/EnergyComponent",
+                "ItemCount": 25
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                "ItemCount": 100
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                "ItemCount": 50000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                "ItemCount": 100000
+            }
+        ]
     },
     "/Lotus/Types/Recipes/WarframeRecipes/DagathBlueprint": {
         "price": 0,

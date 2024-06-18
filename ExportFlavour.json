@@ -6498,6 +6498,34 @@
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true
     },
+    "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageJadeAltBright": {
+        "name": "/Lotus/Language/Glyphs/AvatarJadeAltBrightName",
+        "description": "/Lotus/Language/Glyphs/AvatarJadeAltBrightDesc",
+        "icon": "/Lotus/Interface/Icons/Player/JadeAltAvatarBright.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageJadeAltDark": {
+        "name": "/Lotus/Language/Glyphs/AvatarJadeAltDarkName",
+        "description": "/Lotus/Language/Glyphs/AvatarJadeAltDarkDesc",
+        "icon": "/Lotus/Interface/Icons/Player/JadeAltAvatarDark.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageJadeBright": {
+        "name": "/Lotus/Language/Glyphs/AvatarJadeBrightName",
+        "description": "/Lotus/Language/Glyphs/AvatarJadeBrightDesc",
+        "icon": "/Lotus/Interface/Icons/Player/JadeAvatarBright.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageJadeDark": {
+        "name": "/Lotus/Language/Glyphs/AvatarJadeDarkName",
+        "description": "/Lotus/Language/Glyphs/AvatarJadeDarkDesc",
+        "icon": "/Lotus/Interface/Icons/Player/JadeAvatarDark.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageMesaDeluxeB": {
         "name": "/Lotus/Language/Glyphs/MesaDeluxeBGlyphName",
         "description": "/Lotus/Language/Glyphs/MesaDeluxeBGlyphDesc",
@@ -6756,6 +6784,14 @@
         "icon": "/Lotus/Interface/Icons/Player/YareliAvatarDark.png",
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageYareliDeluxe": {
+        "name": "/Lotus/Language/Glyphs/AvatarYareliDeluxeName",
+        "description": "/Lotus/Language/Glyphs/AvatarYareliDeluxeDesc",
+        "icon": "/Lotus/Interface/Icons/Player/YareliDeluxeAvatar.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "excludeFromCodex": true
     },
     "/Lotus/Types/StoreItems/AvatarImages/Warframes/VorunaActionGlyph": {
         "name": "/Lotus/Language/Glyphs/VorunaActionGlyphName",
@@ -7213,6 +7249,34 @@
         "name": "/Lotus/Language/Glyphs/GamingCommunityExpoTwentyFourGlyphName",
         "description": "/Lotus/Language/Glyphs/GamingCommunityExpoGlyphDesc",
         "icon": "/Lotus/Interface/Icons/Player/GamingCommunityExpo2024.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageGamingDogDaysGrendel": {
+        "name": "/Lotus/Language/Glyphs/DogDays2024GrendelGlyphName",
+        "description": "/Lotus/Language/Glyphs/DogDays2024GrendelGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/DogDays2024Grendel.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageGamingDogDaysLavos": {
+        "name": "/Lotus/Language/Glyphs/DogDays2024LavosGlyphName",
+        "description": "/Lotus/Language/Glyphs/DogDays2024LavosGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/DogDays2024Lavos.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageGamingDogDaysVoruna": {
+        "name": "/Lotus/Language/Glyphs/DogDays2024VorunaGlyphName",
+        "description": "/Lotus/Language/Glyphs/DogDays2024VorunaGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/DogDays2024Voruna.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageGamingDogDaysYareli": {
+        "name": "/Lotus/Language/Glyphs/DogDays2024YareliGlyphName",
+        "description": "/Lotus/Language/Glyphs/DogDays2024YareliGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/DogDays2024Yareli.png",
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true
     },
@@ -7880,6 +7944,13 @@
         "icon": "/Lotus/Interface/Icons/Player/VEDIvara.png",
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageJadeInActionGlyph": {
+        "name": "/Lotus/Language/Glyphs/JadeInActionGlyphName",
+        "description": "/Lotus/Language/Glyphs/GenericGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/VEDAngel.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": false
     },
     "/Lotus/Types/StoreItems/AvatarImages/AvatarImageKavatEnamel": {
         "name": "/Lotus/Language/Items/KavatEnamelGlyphName",
@@ -8792,6 +8863,13 @@
         "icon": "/Lotus/Interface/Icons/Player/Guardiancon.png",
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": false
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/HeirloomEmberGlyph": {
+        "name": "/Lotus/Language/Heirloom/HeirloomEmberGlyphName",
+        "description": "/Lotus/Language/Heirloom/HeirloomEmberGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/EmberHeirloomGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
     },
     "/Lotus/Types/StoreItems/AvatarImages/HeirloomGlyph": {
         "name": "/Lotus/Language/Heirloom/HeirloomGlyphName",
@@ -12207,6 +12285,46 @@
         "icon": "/Lotus/Interface/Icons/Player/TennconPinGlyph.png",
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": false
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/TennoCon2024BestInShowAwardGlyph": {
+        "name": "/Lotus/Language/Glyphs/TennoCon2024BestInShowGlyphName",
+        "description": "/Lotus/Language/Glyphs/TennoCon2024BestInShowGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/TennoConAwards/TennoCon2024CosplayBestInShow.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": false,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/TennoCon2024BestPetAwardGlyph": {
+        "name": "/Lotus/Language/Glyphs/TennoCon2024BestPetGlyphName",
+        "description": "/Lotus/Language/Glyphs/TennoCon2024BestPetGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/TennoConAwards/TennoCon2024CosplayBestPet.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": false,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/TennoCon2024BestWorkmanshipAwardGlyph": {
+        "name": "/Lotus/Language/Glyphs/TennoCon2024BestWorkmanshipGlyphName",
+        "description": "/Lotus/Language/Glyphs/TennoCon2024BestWorkmanshipGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/TennoConAwards/TennoCon2024CosplayBestWorkmanship.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": false,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/TennoCon2024CutenessAwardGlyph": {
+        "name": "/Lotus/Language/Glyphs/TennoCon2024CutenessGlyphName",
+        "description": "/Lotus/Language/Glyphs/TennoCon2024CutenessGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/TennoConAwards/TennoCon2024CosplayCuteness.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": false,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/TennoCon2024FunniestAwardGlyph": {
+        "name": "/Lotus/Language/Glyphs/TennoCon2024FunniestGlyphName",
+        "description": "/Lotus/Language/Glyphs/TennoCon2024FunniestGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/TennoConAwards/TennoCon2024CosplayFunniest.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": false,
+        "excludeFromCodex": true
     },
     "/Lotus/Types/StoreItems/AvatarImages/TennoCon2024Glyph": {
         "name": "/Lotus/Language/Glyphs/Tennocon2024GlyphName",
@@ -17911,6 +18029,286 @@
             }
         ]
     },
+    "/Lotus/Types/StoreItems/SuitCustomizations/ColourPickerEmberHeirloom": {
+        "name": "/Lotus/Language/Heirloom/ColourPickerEmberHeirloomName",
+        "description": "/Lotus/Language/Heirloom/ColourPickerEmberHeirloomDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Palettes/ColorPickerEmberHeirloom.png",
+        "base": "/Lotus/Types/Items/ColorPickerItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hexColours": [
+            {
+                "value": "0x00D99646"
+            },
+            {
+                "value": "0x00D9984A"
+            },
+            {
+                "value": "0x00D99A4E"
+            },
+            {
+                "value": "0x00D99C52"
+            },
+            {
+                "value": "0x00D99E57"
+            },
+            {
+                "value": "0x00D9A05B"
+            },
+            {
+                "value": "0x00D9A25F"
+            },
+            {
+                "value": "0x00D9A464"
+            },
+            {
+                "value": "0x00D9A668"
+            },
+            {
+                "value": "0x00D9A86C"
+            },
+            {
+                "value": "0x00D9AA71"
+            },
+            {
+                "value": "0x00D9AC75"
+            },
+            {
+                "value": "0x00D9AE79"
+            },
+            {
+                "value": "0x00D9B07E"
+            },
+            {
+                "value": "0x00D9B282"
+            },
+            {
+                "value": "0x00C24615"
+            },
+            {
+                "value": "0x00C24919"
+            },
+            {
+                "value": "0x00C24C1D"
+            },
+            {
+                "value": "0x00C24F21"
+            },
+            {
+                "value": "0x00C25125"
+            },
+            {
+                "value": "0x00C25429"
+            },
+            {
+                "value": "0x00C2572D"
+            },
+            {
+                "value": "0x00C25A30"
+            },
+            {
+                "value": "0x00C25C34"
+            },
+            {
+                "value": "0x00C25F38"
+            },
+            {
+                "value": "0x00C2623C"
+            },
+            {
+                "value": "0x00C26540"
+            },
+            {
+                "value": "0x00C26844"
+            },
+            {
+                "value": "0x00C26A48"
+            },
+            {
+                "value": "0x00C26D4C"
+            },
+            {
+                "value": "0x00FB7525"
+            },
+            {
+                "value": "0x00FA772A"
+            },
+            {
+                "value": "0x00FA7A2F"
+            },
+            {
+                "value": "0x00FA7D34"
+            },
+            {
+                "value": "0x00FA8039"
+            },
+            {
+                "value": "0x00FA833E"
+            },
+            {
+                "value": "0x00FA8643"
+            },
+            {
+                "value": "0x00FA8A48"
+            },
+            {
+                "value": "0x00FA8D4D"
+            },
+            {
+                "value": "0x00FA9052"
+            },
+            {
+                "value": "0x00F4B335"
+            },
+            {
+                "value": "0x00F5B73B"
+            },
+            {
+                "value": "0x00F5B840"
+            },
+            {
+                "value": "0x00F5BA45"
+            },
+            {
+                "value": "0x00F5BC49"
+            },
+            {
+                "value": "0x00F5BD4E"
+            },
+            {
+                "value": "0x00F5BF53"
+            },
+            {
+                "value": "0x00F5C158"
+            },
+            {
+                "value": "0x00F5C25D"
+            },
+            {
+                "value": "0x00F5C462"
+            },
+            {
+                "value": "0x00D68A6C"
+            },
+            {
+                "value": "0x00D68D6F"
+            },
+            {
+                "value": "0x00D69074"
+            },
+            {
+                "value": "0x00D69378"
+            },
+            {
+                "value": "0x00D6967C"
+            },
+            {
+                "value": "0x00D69981"
+            },
+            {
+                "value": "0x00D69C85"
+            },
+            {
+                "value": "0x00D69F89"
+            },
+            {
+                "value": "0x00D6A28D"
+            },
+            {
+                "value": "0x00D6A592"
+            },
+            {
+                "value": "0x008A7565"
+            },
+            {
+                "value": "0x008F7968"
+            },
+            {
+                "value": "0x00947D6C"
+            },
+            {
+                "value": "0x00998270"
+            },
+            {
+                "value": "0x009E8673"
+            },
+            {
+                "value": "0x00A38A77"
+            },
+            {
+                "value": "0x00A88F7B"
+            },
+            {
+                "value": "0x00AD937F"
+            },
+            {
+                "value": "0x00B39782"
+            },
+            {
+                "value": "0x00B89C86"
+            },
+            {
+                "value": "0x00443930"
+            },
+            {
+                "value": "0x004A3E35"
+            },
+            {
+                "value": "0x004F4238"
+            },
+            {
+                "value": "0x0054473C"
+            },
+            {
+                "value": "0x00594B3F"
+            },
+            {
+                "value": "0x005E4F43"
+            },
+            {
+                "value": "0x00635447"
+            },
+            {
+                "value": "0x0069584A"
+            },
+            {
+                "value": "0x006E5C4E"
+            },
+            {
+                "value": "0x00736051"
+            },
+            {
+                "value": "0x00171211"
+            },
+            {
+                "value": "0x001C1615"
+            },
+            {
+                "value": "0x00211A19"
+            },
+            {
+                "value": "0x00261E1C"
+            },
+            {
+                "value": "0x002B2220"
+            },
+            {
+                "value": "0x00302624"
+            },
+            {
+                "value": "0x00362A28"
+            },
+            {
+                "value": "0x003B2E2B"
+            },
+            {
+                "value": "0x0040322F"
+            },
+            {
+                "value": "0x00453633"
+            }
+        ]
+    },
     "/Lotus/Types/StoreItems/SuitCustomizations/ColourPickerEximus": {
         "name": "/Lotus/Language/Items/ColourPickerEximusName",
         "description": "/Lotus/Language/Items/ColourPickerEximusDesc",
@@ -21817,6 +22215,285 @@
             },
             {
                 "value": "0x00070808"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/SuitCustomizations/ColourPickerJadeStalker": {
+        "name": "/Lotus/Language/Cosmetics/ColourPickerJadeStalkerName",
+        "description": "/Lotus/Language/Cosmetics/ColourPickerJadeStalkerDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Palettes/ColorPickerStalkerJade.png",
+        "base": "/Lotus/Types/Items/ColorPickerItem",
+        "codexSecret": false,
+        "hexColours": [
+            {
+                "value": "0x003C3C3C"
+            },
+            {
+                "value": "0x00424242"
+            },
+            {
+                "value": "0x00474747"
+            },
+            {
+                "value": "0x004D4D4D"
+            },
+            {
+                "value": "0x00525252"
+            },
+            {
+                "value": "0x00575757"
+            },
+            {
+                "value": "0x005C5C5C"
+            },
+            {
+                "value": "0x00616161"
+            },
+            {
+                "value": "0x00666666"
+            },
+            {
+                "value": "0x006B6B6B"
+            },
+            {
+                "value": "0x003F1919"
+            },
+            {
+                "value": "0x00451C1C"
+            },
+            {
+                "value": "0x004A1E1E"
+            },
+            {
+                "value": "0x004F2020"
+            },
+            {
+                "value": "0x00542222"
+            },
+            {
+                "value": "0x00592424"
+            },
+            {
+                "value": "0x005E2626"
+            },
+            {
+                "value": "0x00632828"
+            },
+            {
+                "value": "0x00692A2A"
+            },
+            {
+                "value": "0x006E2C2C"
+            },
+            {
+                "value": "0x00111010"
+            },
+            {
+                "value": "0x00171616"
+            },
+            {
+                "value": "0x001C1A1A"
+            },
+            {
+                "value": "0x00211F1F"
+            },
+            {
+                "value": "0x00262424"
+            },
+            {
+                "value": "0x002B2828"
+            },
+            {
+                "value": "0x00302D2D"
+            },
+            {
+                "value": "0x00363232"
+            },
+            {
+                "value": "0x003B3737"
+            },
+            {
+                "value": "0x00403B3B"
+            },
+            {
+                "value": "0x009A1209"
+            },
+            {
+                "value": "0x0099170E"
+            },
+            {
+                "value": "0x00991B12"
+            },
+            {
+                "value": "0x00992017"
+            },
+            {
+                "value": "0x0099241C"
+            },
+            {
+                "value": "0x00992820"
+            },
+            {
+                "value": "0x00992C25"
+            },
+            {
+                "value": "0x00993129"
+            },
+            {
+                "value": "0x0099352E"
+            },
+            {
+                "value": "0x00993932"
+            },
+            {
+                "value": "0x00FF5401"
+            },
+            {
+                "value": "0x00FF661A"
+            },
+            {
+                "value": "0x00FF7733"
+            },
+            {
+                "value": "0x00FF884D"
+            },
+            {
+                "value": "0x00FF9966"
+            },
+            {
+                "value": "0x00DAA2A0"
+            },
+            {
+                "value": "0x00D9A4A3"
+            },
+            {
+                "value": "0x00D9A9A7"
+            },
+            {
+                "value": "0x00D9ADAB"
+            },
+            {
+                "value": "0x00D9B1B0"
+            },
+            {
+                "value": "0x00D9B5B4"
+            },
+            {
+                "value": "0x00D9B9B8"
+            },
+            {
+                "value": "0x00D9BEBD"
+            },
+            {
+                "value": "0x00D9C2C1"
+            },
+            {
+                "value": "0x00D9C6C5"
+            },
+            {
+                "value": "0x001F4A61"
+            },
+            {
+                "value": "0x00214E66"
+            },
+            {
+                "value": "0x0022526B"
+            },
+            {
+                "value": "0x00245570"
+            },
+            {
+                "value": "0x00265975"
+            },
+            {
+                "value": "0x00275D7A"
+            },
+            {
+                "value": "0x00296180"
+            },
+            {
+                "value": "0x002A6585"
+            },
+            {
+                "value": "0x002C698A"
+            },
+            {
+                "value": "0x002E6D8F"
+            },
+            {
+                "value": "0x00EEEAE0"
+            },
+            {
+                "value": "0x00E8E4DA"
+            },
+            {
+                "value": "0x00E3DFD5"
+            },
+            {
+                "value": "0x00DEDAD1"
+            },
+            {
+                "value": "0x00D9D5CC"
+            },
+            {
+                "value": "0x00D4D0C7"
+            },
+            {
+                "value": "0x00CFCBC2"
+            },
+            {
+                "value": "0x00C9C6BD"
+            },
+            {
+                "value": "0x00C4C1B9"
+            },
+            {
+                "value": "0x00BFBCB4"
+            },
+            {
+                "value": "0x004F231F"
+            },
+            {
+                "value": "0x00542521"
+            },
+            {
+                "value": "0x00592723"
+            },
+            {
+                "value": "0x005E2A25"
+            },
+            {
+                "value": "0x00632C27"
+            },
+            {
+                "value": "0x00692E29"
+            },
+            {
+                "value": "0x006E302B"
+            },
+            {
+                "value": "0x0073332D"
+            },
+            {
+                "value": "0x0078352F"
+            },
+            {
+                "value": "0x007D3731"
+            },
+            {
+                "value": "0x0002B743"
+            },
+            {
+                "value": "0x0012B84F"
+            },
+            {
+                "value": "0x0025B85B"
+            },
+            {
+                "value": "0x0037B866"
+            },
+            {
+                "value": "0x0049B872"
             }
         ]
     },
@@ -28687,6 +29364,22 @@
         "codexSecret": true,
         "excludeFromCodex": true
     },
+    "/Lotus/Upgrades/Skins/Choir/UnlockChoirAgile": {
+        "name": "/Lotus/Language/Cosmetics/ChoirAgileAnims",
+        "description": "/Lotus/Language/Cosmetics/UnlockChoirAgileAnimsDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/AnimationSets/JadeAgile.png",
+        "base": "/EE/Types/Engine/UIFlavourItem",
+        "codexSecret": true,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Upgrades/Skins/Choir/UnlockChoirNoble": {
+        "name": "/Lotus/Language/Cosmetics/ChoirNobleAnims",
+        "description": "/Lotus/Language/Cosmetics/UnlockChoirNobleAnimsDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/AnimationSets/JadeNoble.png",
+        "base": "/EE/Types/Engine/UIFlavourItem",
+        "codexSecret": true,
+        "excludeFromCodex": true
+    },
     "/Lotus/Upgrades/Skins/ConcreteFrame/UnlockConcreteAgile": {
         "name": "/Lotus/Language/Cosmetics/ConcreteAgileAnims",
         "description": "/Lotus/Language/Cosmetics/UnlockConcreteAgileAnimsDesc",
@@ -29496,6 +30189,13 @@
         "name": "/Lotus/Language/SteamWorkshop/SWVammatarLisetSkinName",
         "description": "/Lotus/Language/SteamWorkshop/SWVammatarLisetSkinDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Tennogen/LandingCraft/SWVammatarLisetSkin.png",
+        "base": "/Lotus/Types/Items/ShipExteriorSkinItem",
+        "codexSecret": false
+    },
+    "/Lotus/Upgrades/Skins/Liset/StalkerShipDeluxeSkin": {
+        "name": "/Lotus/Language/Cosmetics/StalkerShipDeluxeSkinName",
+        "description": "/Lotus/Language/Cosmetics/StalkerShipDeluxeSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Skins/StalkerShipDeluxeSkin.png",
         "base": "/Lotus/Types/Items/ShipExteriorSkinItem",
         "codexSecret": false
     },

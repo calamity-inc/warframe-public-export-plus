@@ -1232,6 +1232,95 @@
             }
         ]
     },
+    "/Lotus/Types/Keys/JadeShadows/JadeShadowQuestKeyChain": {
+        "name": "/Lotus/Language/JadeShadows/JadeShadowQuestName",
+        "description": "/Lotus/Language/JadeShadows/JadeShadowQuestDesc",
+        "icon": "/Lotus/Interface/Quests/JadeShadowsQuestKeychain.png",
+        "parentName": "/Lotus/Types/Game/KeyChainItem",
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "key": "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestStage1HelpHer",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestStage2GetPlasma",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestStage3ThePatient",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestStage4GetHelp",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestStage5Harvest",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestStage6TheBirth",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestStage7Escape",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestStage8Epilogue",
+                "itemsToGiveWhenTriggered": []
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestStage1HelpHer": {
+        "name": "/Lotus/Language/JadeShadows/StageOneName",
+        "parentName": "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestStage2GetPlasma": {
+        "name": "/Lotus/Language/JadeShadows/StageTwoName",
+        "parentName": "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestStage3ThePatient": {
+        "name": "/Lotus/Language/JadeShadows/StageThreeName",
+        "parentName": "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestStage4GetHelp": {
+        "name": "/Lotus/Language/JadeShadows/StageFourName",
+        "parentName": "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestStage5Harvest": {
+        "name": "/Lotus/Language/JadeShadows/StageFiveName",
+        "parentName": "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestStage6TheBirth": {
+        "name": "/Lotus/Language/JadeShadows/StageSixName",
+        "parentName": "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestStage7Escape": {
+        "name": "/Lotus/Language/JadeShadows/StageSevenName",
+        "parentName": "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestStage8Epilogue": {
+        "name": "/Lotus/Language/JadeShadows/StageEightName",
+        "parentName": "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
     "/Lotus/Types/Keys/KahlQuest/KahlQuestKeyChain": {
         "name": "/Lotus/Language/KahlQuest/QuestName",
         "description": "/Lotus/Language/KahlQuest/QuestDesc",
