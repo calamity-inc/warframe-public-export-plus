@@ -302,6 +302,7 @@ export interface IRegion {
         weaponXpBonusFor: "Rifles" | "Melee" | "Shotguns" | "Pistols";
         weaponXpBonusVal: number;
     };
+    questReq?:              string;
 }
 
 export interface IRelic {
