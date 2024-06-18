@@ -344,6 +344,7 @@ export interface ISentinel {
     excludeFromCodex?: boolean;
     description:       string;
     productCategory:   "SpecialItems" | "KubrowPets" | "Sentinels";
+    defaultWeapon?:    string;
 }
 
 export interface ISortieReward {
