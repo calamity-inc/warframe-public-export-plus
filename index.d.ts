@@ -307,18 +307,13 @@ export interface IRegion {
 }
 
 export interface IRelic {
-    category:     string;
-    era:          "Requiem" | "Axi" | "Neo" | "Meso" | "Lith";
-    icon:         string;
-    codexSecret:  boolean;
-    description:  "/Lotus/Language/Relics/ImmortalProjectionBaseDesc" | "/Lotus/Language/Items/ProjectionDescription";
-    quality:      "VPQ_BRONZE" | "VPQ_SILVER" | "VPQ_GOLD" | "VPQ_PLATINUM";
-    relicRewards: {
-        rewardName: string;
-        rarity:     TRarity;
-        tier:       number;
-        itemCount:  number;
-    }[];
+    category:       string;
+    era:            "Requiem" | "Axi" | "Neo" | "Meso" | "Lith";
+    icon:           string;
+    codexSecret:    boolean;
+    description:    "/Lotus/Language/Relics/ImmortalProjectionBaseDesc" | "/Lotus/Language/Items/ProjectionDescription";
+    quality:        "VPQ_BRONZE" | "VPQ_SILVER" | "VPQ_GOLD" | "VPQ_PLATINUM";
+    rewardManifest: string;
 }
 
 export interface IResource {
@@ -337,9 +332,10 @@ export interface IResource {
 export type TMissionDeck = TRewardTier[];
 export type TRewardTier = IReward[];
 export interface IReward {
-    type:        string;
-    itemCount:   number;
-    probability: number;
+    type:         string;
+    itemCount:    number;
+    probability?: number;
+    rarity?:      TRarity;
 }
 
 export interface ISentinel {
