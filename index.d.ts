@@ -260,25 +260,26 @@ export interface IRailjackWeapon {
 }
 
 export interface IRecipe {
-    resultType:         string;
-    buildPrice:         number;
-    buildTime:          number;
-    skipBuildTimePrice: number;
-    consumeOnUse:       boolean;
-    num:                number;
-    codexSecret:        boolean;
-    ingredients:        {
+    resultType:              string;
+    buildPrice:              number;
+    buildTime:               number;
+    skipBuildTimePrice:      number;
+    consumeOnUse:            boolean;
+    num:                     number;
+    codexSecret:             boolean;
+    ingredients:             {
         ItemType:        string;
         ItemCount:       number;
         ProductCategory: "Consumables" | "MiscItems" | "WeaponSkins" | "Pistols" | "Melee" | "LongGuns";
     }[];
-    secretIngredients?: {
+    secretIngredientAction?: string;
+    secretIngredients?:      {
         ItemType:  "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit" | "/Lotus/Weapons/Tenno/Pistol/LotusPistol" | "/Lotus/Weapons/Tenno/LotusLongGun" | "/Lotus/Types/Game/LotusMeleeWeapon";
         ItemCount: number;
     }[];
-    excludeFromCodex?:  boolean;
-    primeSellingPrice?: number;
-    alwaysAvailable?:   boolean;
+    excludeFromCodex?:       boolean;
+    primeSellingPrice?:      number;
+    alwaysAvailable?:        boolean;
 }
 
 export interface IRegion {
