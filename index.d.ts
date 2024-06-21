@@ -312,6 +312,7 @@ export interface IRelic {
     icon:         string;
     codexSecret:  boolean;
     description:  "/Lotus/Language/Relics/ImmortalProjectionBaseDesc" | "/Lotus/Language/Items/ProjectionDescription";
+    quality:      "VPQ_BRONZE" | "VPQ_SILVER" | "VPQ_GOLD" | "VPQ_PLATINUM";
     relicRewards: {
         rewardName: string;
         rarity:     TRarity;
