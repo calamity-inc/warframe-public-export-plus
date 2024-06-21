@@ -270,7 +270,6 @@ export interface IRecipe {
     ingredients:             {
         ItemType:        string;
         ItemCount:       number;
-        ProductCategory: "Consumables" | "MiscItems" | "WeaponSkins" | "Pistols" | "Melee" | "LongGuns";
     }[];
     secretIngredientAction?: string;
     secretIngredients?:      {
