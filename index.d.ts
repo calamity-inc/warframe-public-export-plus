@@ -37,8 +37,8 @@ export declare const ExportRecipes: Record<string, IRecipe>;
 export declare const ExportRegions: Record<string, IRegion>;
 export declare const ExportRelics: Record<string, IRelic>;
 export declare const ExportResources: Record<string, IResource>;
+export declare const ExportRewards: Record<string, TMissionDeck>;
 export declare const ExportSentinels: Record<string, ISentinel>;
-export declare const ExportSortieRewards: Record<string, ISortieReward>;
 export declare const ExportUpgrades: Record<string, IUpgrade>;
 export declare const ExportWarframes: Record<string, IPowersuit>;
 export declare const ExportWeapons: Record<string, IWeapon>;
@@ -333,6 +333,14 @@ export interface IResource {
     primeSellingPrice?: number;
 }
 
+export type TMissionDeck = TRewardTier[];
+export type TRewardTier = IReward[];
+export interface IReward {
+    type:        string;
+    itemCount:   number;
+    probability: number;
+}
+
 export interface ISentinel {
     name:              string;
     icon:              string;
@@ -346,17 +354,6 @@ export interface ISentinel {
     description:       string;
     productCategory:   "SpecialItems" | "KubrowPets" | "Sentinels";
     defaultWeapon?:    string;
-}
-
-export interface ISortieReward {
-    rewardName:   string;
-    typeName:     string;
-    name:         string;
-    icon:         string;
-    tier:         number;
-    itemCount:    number;
-    probability:  number;
-    description?: string;
 }
 
 export interface IUpgrade {
