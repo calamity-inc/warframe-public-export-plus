@@ -267,18 +267,19 @@ export interface IRecipe {
     consumeOnUse:            boolean;
     num:                     number;
     codexSecret:             boolean;
+    excludeFromCodex?:       boolean;
+    alwaysAvailable?:        boolean;
+    hidden?:                 boolean;
+    primeSellingPrice?:      number;
     ingredients:             {
         ItemType:        string;
         ItemCount:       number;
     }[];
-    secretIngredientAction?: string;
+    secretIngredientAction?: "SIA_UNBRAND" | "SIA_SPECTRE_LOADOUT_COPY" | "SIA_WARFRAME_ABILITY";
     secretIngredients?:      {
         ItemType:  "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit" | "/Lotus/Weapons/Tenno/Pistol/LotusPistol" | "/Lotus/Weapons/Tenno/LotusLongGun" | "/Lotus/Types/Game/LotusMeleeWeapon";
         ItemCount: number;
     }[];
-    excludeFromCodex?:       boolean;
-    primeSellingPrice?:      number;
-    alwaysAvailable?:        boolean;
 }
 
 export interface IRegion {
