@@ -272,7 +272,7 @@ export interface IRecipe {
         ItemCount:       number;
         ProductCategory: "Consumables" | "MiscItems" | "WeaponSkins" | "Pistols" | "Melee" | "LongGuns";
     }[];
-    secretIngredients:  {
+    secretIngredients?: {
         ItemType:  "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit" | "/Lotus/Weapons/Tenno/Pistol/LotusPistol" | "/Lotus/Weapons/Tenno/LotusLongGun" | "/Lotus/Types/Game/LotusMeleeWeapon";
         ItemCount: number;
     }[];
