@@ -14,12 +14,8 @@ Instead of ExportManifest, this project adds an `icon` field to most exports, wh
 
 ## Notes
 
-### ExportBundles
-- This export is specific to this project, as there is no such data in the official Public Export.
-
 ### ExportDojoRecipes
 - This `price` (credits), `skipTimePrice` (platinum), and `ingredients` are for Moon clans. To convert these e.g. to Ghost clan values, simply multiply them by 0.01 (1 / 100) with a lower limit of 1.
-- This export is specific to this project, as there is no such data in the official Public Export.
 
 ### ExportRegions
 - Crossfire missions can be detected by the `secondaryFactionIndex` field being present. The `/Lotus/Language/Missions/MissionName_Crossfire` label may be used for their mission type.
