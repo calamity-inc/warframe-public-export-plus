@@ -1,0 +1,38 @@
+local chances = {
+	VPQ_BRONZE = {
+		COMMON = 0.76,
+		UNCOMMON = 0.22,
+		RARE = 0.02,
+	},
+	VPQ_SILVER = {
+		COMMON = 0.70,
+		UNCOMMON = 0.26,
+		RARE = 0.04,
+	},
+	VPQ_GOLD = {
+		COMMON = 0.60,
+		UNCOMMON = 0.34,
+		RARE = 0.06,
+	},
+	VPQ_PLATINUM = {
+		COMMON = 0.50,
+		UNCOMMON = 0.40,
+		RARE = 0.10,
+	},
+}
+
+local qualityNames = {
+	VPQ_BRONZE = "Intact",
+	VPQ_SILVER = "Exceptional",
+	VPQ_GOLD = "Flawless",
+	VPQ_PLATINUM = "Radiant",
+}
+
+for { "VPQ_BRONZE", "VPQ_SILVER", "VPQ_GOLD", "VPQ_PLATINUM" } as quality do
+	print(qualityNames[quality].." ("..quality..")")
+	print("- Any common reward: %0.2f%%":format(chances[quality]["COMMON"] * 100))
+	print("  - Specific common reward: %0.2f%%":format(chances[quality]["COMMON"] * (1/3) * 100))
+	print("- Any uncommon reward: %0.2f%%":format(chances[quality]["UNCOMMON"] * 100))
+	print("  - Specific uncommon reward: %0.2f%%":format(chances[quality]["UNCOMMON"] * 0.5 * 100))
+	print("- Rare reward: %0.2f%%":format(chances[quality]["RARE"] * 100))
+end
