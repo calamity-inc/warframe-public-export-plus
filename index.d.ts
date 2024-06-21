@@ -296,6 +296,7 @@ export interface IRegion {
     minEnemyLevel:          number;
     maxEnemyLevel:          number;
     masteryExp:             number;
+    rewardManifests:        string[];
     darkSectorData?:        {
         resourceBonus:    number;
         xpBonus:          number;
