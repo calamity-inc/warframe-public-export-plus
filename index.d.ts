@@ -298,6 +298,7 @@ export interface IRegion {
     maxEnemyLevel:          number;
     masteryExp:             number;
     rewardManifests:        string[];
+    cacheRewardManifest?:   string;
     darkSectorData?:        {
         resourceBonus:    number;
         xpBonus:          number;
