@@ -60,6 +60,7 @@ export interface IArcane {
     codexSecret:       boolean;
     excludeFromCodex?: boolean;
     rarity?:           TRarity;
+    distillPointValue?: number;
 }
 
 export interface IAvionic {
