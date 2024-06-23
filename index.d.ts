@@ -286,6 +286,7 @@ export interface IRailjackWeapon {
     reloadTime:         number;
     multishot:          number;
     compatibilityTags?: string[];
+    behaviors?:         IWeaponBehavior[];
 }
 
 export interface IRecipe {
@@ -467,6 +468,7 @@ export interface IWeapon {
     reloadTime?:            number;
     multishot?:             number;
     compatibilityTags?:     string[];
+    behaviors?:             IWeaponBehavior[];
     blockingAngle?:         number;
     comboDuration?:         number;
     followThrough?:         number;
@@ -484,4 +486,34 @@ export interface IWeapon {
     sentinel?:              boolean;
     excludeFromCodex?:      boolean;
     primeOmegaAttenuation?: number;
+}
+
+export interface IWeaponBehavior {
+    stateName?: string;
+    projectile?: IProjectile;
+    chargedProjectile?: IProjectile;
+}
+
+export interface IProjectile {
+    attack?: IDamageTable;
+    embedDeathAttack?: IDamageTable;
+}
+
+export interface IDamageTable {
+    DT_IMPACT?: number;
+    DT_PUNCTURE?: number;
+    DT_SLASH?: number;
+    DT_FIRE?: number;
+    DT_FREEZE?: number;
+    DT_ELECTRICITY?: number;
+    DT_POISON?: number;
+    DT_EXPLOSION?: number;
+    DT_RADIATION?: number;
+    DT_GAS?: number;
+    DT_MAGNETIC?: number;
+    DT_VIRAL?: number;
+    DT_CORROSIVE?: number;
+    DT_RADIANT?: number;
+    DT_SENTIENT?: number;
+    DT_FINISHER?: number;
 }

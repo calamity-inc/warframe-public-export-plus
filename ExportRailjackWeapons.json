@@ -41,7 +41,12 @@
         "trigger": "BURST",
         "magazineSize": 5,
         "reloadTime": 1,
-        "multishot": 1
+        "multishot": 1,
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+            }
+        ]
     },
     "/Lotus/Weapons/CrewShip/Countermeasures/SmokeCountermeasure": {
         "name": "/Lotus/Language/CrewShip/Countermeasure_Smoke",
@@ -85,7 +90,12 @@
         "trigger": "SEMI",
         "magazineSize": 3,
         "reloadTime": 3,
-        "multishot": 1
+        "multishot": 1,
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto"
+            }
+        ]
     },
     "/Lotus/Weapons/CrewShip/ElectricTether/ElectricTetherCannonTierA": {
         "name": "/Lotus/Language/CrewShip/Wpn_ElectricTetherTierA",
@@ -132,6 +142,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_ELECTRICITY": 450
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ElectricTether/ElectricTetherCannonTierB": {
@@ -179,6 +199,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_ELECTRICITY": 765
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ElectricTether/ElectricTetherCannonTierC": {
@@ -226,6 +256,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_ELECTRICITY": 1224
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ElectricTether/LavanElectricTetherCannonTierA": {
@@ -273,6 +313,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_ELECTRICITY": 482
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ElectricTether/LavanElectricTetherCannonTierB": {
@@ -320,6 +370,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_ELECTRICITY": 819
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ElectricTether/LavanElectricTetherCannonTierC": {
@@ -367,6 +427,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_ELECTRICITY": 1310
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ElectricTether/VidarElectricTetherCannonTierA": {
@@ -414,6 +484,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_ELECTRICITY": 450
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ElectricTether/VidarElectricTetherCannonTierB": {
@@ -461,6 +541,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_ELECTRICITY": 765
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ElectricTether/VidarElectricTetherCannonTierC": {
@@ -508,6 +598,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_ELECTRICITY": 1224
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ElectricTether/ZektiElectricTetherCannonTierA": {
@@ -555,6 +655,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_ELECTRICITY": 585
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ElectricTether/ZektiElectricTetherCannonTierB": {
@@ -602,6 +712,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_ELECTRICITY": 995
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ElectricTether/ZektiElectricTetherCannonTierC": {
@@ -649,6 +769,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_ELECTRICITY": 1592
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/IceSniper/IceSniperCannonTierA": {
@@ -696,6 +826,18 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 210,
+                        "DT_PUNCTURE": 210,
+                        "DT_FREEZE": 354
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/IceSniper/IceSniperCannonTierB": {
@@ -743,6 +885,18 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 308,
+                        "DT_PUNCTURE": 308,
+                        "DT_FREEZE": 700
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/IceSniper/IceSniperCannonTierC": {
@@ -790,6 +944,18 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 503,
+                        "DT_PUNCTURE": 503,
+                        "DT_FREEZE": 1100
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/IceSniper/LavanIceSniperCannonTierA": {
@@ -837,6 +1003,18 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 240,
+                        "DT_PUNCTURE": 240,
+                        "DT_FREEZE": 372
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/IceSniper/LavanIceSniperCannonTierB": {
@@ -884,6 +1062,18 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 350,
+                        "DT_PUNCTURE": 350,
+                        "DT_FREEZE": 748
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/IceSniper/LavanIceSniperCannonTierC": {
@@ -931,6 +1121,18 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 540,
+                        "DT_PUNCTURE": 540,
+                        "DT_FREEZE": 1237
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/IceSniper/VidarIceSniperCannonTierA": {
@@ -978,6 +1180,18 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 210,
+                        "DT_PUNCTURE": 210,
+                        "DT_FREEZE": 354
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/IceSniper/VidarIceSniperCannonTierB": {
@@ -1025,6 +1239,18 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 308,
+                        "DT_PUNCTURE": 308,
+                        "DT_FREEZE": 700
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/IceSniper/VidarIceSniperCannonTierC": {
@@ -1072,6 +1298,18 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 503,
+                        "DT_PUNCTURE": 503,
+                        "DT_FREEZE": 1100
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/IceSniper/ZektiIceSniperCannonTierA": {
@@ -1119,6 +1357,18 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 200,
+                        "DT_PUNCTURE": 200,
+                        "DT_FREEZE": 607
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/IceSniper/ZektiIceSniperCannonTierB": {
@@ -1166,6 +1416,18 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 400,
+                        "DT_PUNCTURE": 400,
+                        "DT_FREEZE": 911
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/IceSniper/ZektiIceSniperCannonTierC": {
@@ -1213,6 +1475,18 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 600,
+                        "DT_PUNCTURE": 600,
+                        "DT_FREEZE": 1538
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Beam/LavanRailJackBeamWeaponTierA": {
@@ -1260,6 +1534,11 @@
         "multishot": 2,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Beam/LavanRailJackBeamWeaponTierB": {
@@ -1307,6 +1586,11 @@
         "multishot": 2,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Beam/LavanRailJackBeamWeaponTierC": {
@@ -1354,6 +1638,11 @@
         "multishot": 2,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Beam/RailJackBeamWeapon": {
@@ -1401,6 +1690,11 @@
         "multishot": 2,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Beam/RailJackBeamWeaponTierA": {
@@ -1448,6 +1742,11 @@
         "multishot": 2,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Beam/RailJackBeamWeaponTierB": {
@@ -1495,6 +1794,11 @@
         "multishot": 2,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Beam/RailJackBeamWeaponTierC": {
@@ -1542,6 +1846,11 @@
         "multishot": 2,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Beam/VidarRailJackBeamWeaponTierA": {
@@ -1589,6 +1898,11 @@
         "multishot": 2,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Beam/VidarRailJackBeamWeaponTierB": {
@@ -1636,6 +1950,11 @@
         "multishot": 2,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Beam/VidarRailJackBeamWeaponTierC": {
@@ -1683,6 +2002,11 @@
         "multishot": 2,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Beam/ZektiRailJackBeamWeaponTierA": {
@@ -1730,6 +2054,11 @@
         "multishot": 2,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Beam/ZektiRailJackBeamWeaponTierB": {
@@ -1777,6 +2106,11 @@
         "multishot": 2,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Beam/ZektiRailJackBeamWeaponTierC": {
@@ -1824,6 +2158,11 @@
         "multishot": 2,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/Blaster": {
@@ -1871,6 +2210,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 35,
+                        "DT_POISON": 45
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/BlasterShotgun": {
@@ -1918,6 +2268,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_FREEZE": 972
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/BlasterShotgunTierA": {
@@ -1965,6 +2325,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_FREEZE": 1750
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/BlasterShotgunTierB": {
@@ -2012,6 +2382,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_FREEZE": 2975
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/BlasterShotgunTierC": {
@@ -2059,6 +2439,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_FREEZE": 4760
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/BlasterTierA": {
@@ -2106,6 +2496,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 57,
+                        "DT_POISON": 87
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/BlasterTierB": {
@@ -2153,6 +2554,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 102,
+                        "DT_POISON": 143
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/BlasterTierC": {
@@ -2200,6 +2612,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 130,
+                        "DT_POISON": 262
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/LavanBlasterShotgunTierA": {
@@ -2247,6 +2670,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_FREEZE": 1873
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/LavanBlasterShotgunTierB": {
@@ -2294,6 +2727,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_FREEZE": 3184
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/LavanBlasterShotgunTierC": {
@@ -2341,6 +2784,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_FREEZE": 5094
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/LavanBlasterTierA": {
@@ -2388,6 +2841,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 57,
+                        "DT_POISON": 98
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/LavanBlasterTierB": {
@@ -2435,6 +2899,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 94,
+                        "DT_POISON": 169
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/LavanBlasterTierC": {
@@ -2482,6 +2957,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 163,
+                        "DT_POISON": 257
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/VidarBlasterShotgunTierA": {
@@ -2529,6 +3015,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_FREEZE": 1750
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/VidarBlasterShotgunTierB": {
@@ -2576,6 +3072,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_FREEZE": 2975
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/VidarBlasterShotgunTierC": {
@@ -2623,6 +3129,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_FREEZE": 4760
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/VidarBlasterTierA": {
@@ -2670,6 +3186,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 57,
+                        "DT_POISON": 87
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/VidarBlasterTierB": {
@@ -2717,6 +3244,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 102,
+                        "DT_POISON": 143
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/VidarBlasterTierC": {
@@ -2764,6 +3302,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 130,
+                        "DT_POISON": 262
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/ZektiBlasterShotgunTierA": {
@@ -2811,6 +3360,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_FREEZE": 2275
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/ZektiBlasterShotgunTierB": {
@@ -2858,6 +3417,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_FREEZE": 3868
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/ZektiBlasterShotgunTierC": {
@@ -2905,6 +3474,16 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_FREEZE": 6188
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/ZektiBlasterTierA": {
@@ -2952,6 +3531,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 80,
+                        "DT_POISON": 107
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/ZektiBlasterTierB": {
@@ -2999,6 +3589,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 110,
+                        "DT_POISON": 209
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/ZektiBlasterTierC": {
@@ -3046,6 +3647,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 217,
+                        "DT_POISON": 293
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/GatlingLaserTierA": {
@@ -3093,6 +3705,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/GatlingLaserTierB": {
@@ -3140,6 +3757,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/GatlingLaserTierC": {
@@ -3187,6 +3809,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/LavanGatlingLaserTierA": {
@@ -3234,6 +3861,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/LavanGatlingLaserTierB": {
@@ -3281,6 +3913,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/LavanGatlingLaserTierC": {
@@ -3328,6 +3965,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/VidarGatlingLaserTierA": {
@@ -3375,6 +4017,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/VidarGatlingLaserTierB": {
@@ -3422,6 +4069,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/VidarGatlingLaserTierC": {
@@ -3469,6 +4121,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/ZektiGatlingLaserTierA": {
@@ -3516,6 +4173,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/ZektiGatlingLaserTierB": {
@@ -3563,6 +4225,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/ZektiGatlingLaserTierC": {
@@ -3610,6 +4277,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/PulseLaser/LavanPulseLaserTierA": {
@@ -3657,6 +4329,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/PulseLaser/LavanPulseLaserTierB": {
@@ -3704,6 +4381,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/PulseLaser/LavanPulseLaserTierC": {
@@ -3751,6 +4433,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/PulseLaser/PulseLaser": {
@@ -3798,6 +4485,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/PulseLaser/PulseLaserTierA": {
@@ -3845,6 +4537,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/PulseLaser/PulseLaserTierB": {
@@ -3892,6 +4589,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/PulseLaser/PulseLaserTierC": {
@@ -3939,6 +4641,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/PulseLaser/VidarPulseLaserTierA": {
@@ -3986,6 +4693,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/PulseLaser/VidarPulseLaserTierB": {
@@ -4033,6 +4745,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/PulseLaser/VidarPulseLaserTierC": {
@@ -4080,6 +4797,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/PulseLaser/ZektiPulseLaserTierA": {
@@ -4127,6 +4849,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/PulseLaser/ZektiPulseLaserTierB": {
@@ -4174,6 +4901,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/Laser/PulseLaser/ZektiPulseLaserTierC": {
@@ -4221,6 +4953,11 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/AutoCannon": {
@@ -4268,6 +5005,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 88.2,
+                        "DT_SLASH": 37.8
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/AutoCannonTierA": {
@@ -4315,6 +5063,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 158.9,
+                        "DT_SLASH": 68.1
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/AutoCannonTierB": {
@@ -4362,6 +5121,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 270.2,
+                        "DT_SLASH": 115.8
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/AutoCannonTierC": {
@@ -4409,6 +5179,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 432.6,
+                        "DT_SLASH": 185.4
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/LavanAutoCannonTierA": {
@@ -4456,6 +5237,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 170.1,
+                        "DT_SLASH": 72.9
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/LavanAutoCannonTierB": {
@@ -4503,6 +5295,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 289.8,
+                        "DT_SLASH": 124.2
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/LavanAutoCannonTierC": {
@@ -4550,6 +5353,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 463.4,
+                        "DT_SLASH": 198.6
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/VidarAutoCannonTierA": {
@@ -4597,6 +5411,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 158.9,
+                        "DT_SLASH": 68.1
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/VidarAutoCannonTierB": {
@@ -4644,6 +5469,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 270.2,
+                        "DT_SLASH": 115.8
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/VidarAutoCannonTierC": {
@@ -4691,6 +5527,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 432.6,
+                        "DT_SLASH": 185.4
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/ZektiAutoCannonTierA": {
@@ -4738,6 +5585,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 192.5,
+                        "DT_SLASH": 82.5
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/ZektiAutoCannonTierB": {
@@ -4785,6 +5643,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 327.6,
+                        "DT_SLASH": 140.4
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/ZektiAutoCannonTierC": {
@@ -4832,6 +5701,17 @@
         "multishot": 1,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 523.6,
+                        "DT_SLASH": 224.4
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ShrapnelShotgun/LavanShrapnelShotgunTierA": {
@@ -4879,6 +5759,18 @@
         "multishot": 8,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 28.6,
+                        "DT_PUNCTURE": 57.2,
+                        "DT_SLASH": 57.2
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ShrapnelShotgun/LavanShrapnelShotgunTierB": {
@@ -4926,6 +5818,18 @@
         "multishot": 8,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 48.8,
+                        "DT_PUNCTURE": 97.6,
+                        "DT_SLASH": 97.6
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ShrapnelShotgun/LavanShrapnelShotgunTierC": {
@@ -4973,6 +5877,18 @@
         "multishot": 8,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 78.0,
+                        "DT_PUNCTURE": 156.0,
+                        "DT_SLASH": 156.0
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ShrapnelShotgun": {
@@ -5020,6 +5936,18 @@
         "multishot": 8,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 14.4,
+                        "DT_PUNCTURE": 28.8,
+                        "DT_SLASH": 28.8
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ShrapnelShotgunTierA": {
@@ -5067,6 +5995,18 @@
         "multishot": 8,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 26.0,
+                        "DT_PUNCTURE": 52.0,
+                        "DT_SLASH": 52.0
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ShrapnelShotgunTierB": {
@@ -5114,6 +6054,18 @@
         "multishot": 8,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 44.2,
+                        "DT_PUNCTURE": 88.4,
+                        "DT_SLASH": 88.4
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ShrapnelShotgunTierC": {
@@ -5161,6 +6113,18 @@
         "multishot": 8,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 70.8,
+                        "DT_PUNCTURE": 141.6,
+                        "DT_SLASH": 141.6
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ShrapnelShotgun/VidarShrapnelShotgunTierA": {
@@ -5208,6 +6172,18 @@
         "multishot": 8,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 26.0,
+                        "DT_PUNCTURE": 52.0,
+                        "DT_SLASH": 52.0
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ShrapnelShotgun/VidarShrapnelShotgunTierB": {
@@ -5255,6 +6231,18 @@
         "multishot": 8,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 44.2,
+                        "DT_PUNCTURE": 88.4,
+                        "DT_SLASH": 88.4
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ShrapnelShotgun/VidarShrapnelShotgunTierC": {
@@ -5302,6 +6290,18 @@
         "multishot": 8,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 70.8,
+                        "DT_PUNCTURE": 141.6,
+                        "DT_SLASH": 141.6
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ZektiShrapnelShotgunTierA": {
@@ -5349,6 +6349,18 @@
         "multishot": 8,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 33.8,
+                        "DT_PUNCTURE": 67.6,
+                        "DT_SLASH": 67.6
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ZektiShrapnelShotgunTierB": {
@@ -5396,6 +6408,18 @@
         "multishot": 8,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 57.4,
+                        "DT_PUNCTURE": 114.8,
+                        "DT_SLASH": 114.8
+                    }
+                }
+            }
         ]
     },
     "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ZektiShrapnelShotgunTierC": {
@@ -5443,6 +6467,18 @@
         "multishot": 8,
         "compatibilityTags": [
             "BATTERY"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 92.0,
+                        "DT_PUNCTURE": 184.0,
+                        "DT_SLASH": 184.0
+                    }
+                }
+            }
         ]
     }
 }
