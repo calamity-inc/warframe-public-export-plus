@@ -285,6 +285,7 @@ export interface IRailjackWeapon {
     magazineSize:       number;
     reloadTime:         number;
     multishot:          number;
+    compatibilityTags?: string[];
 }
 
 export interface IRecipe {
@@ -465,6 +466,7 @@ export interface IWeapon {
     magazineSize?:          number;
     reloadTime?:            number;
     multishot?:             number;
+    compatibilityTags?:     string[];
     blockingAngle?:         number;
     comboDuration?:         number;
     followThrough?:         number;
