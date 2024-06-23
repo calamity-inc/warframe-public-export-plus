@@ -21,6 +21,7 @@ export declare const ExportBundles: Record<string, IBundle>;
 export declare const ExportCustoms: Record<string, ICustom>;
 export declare const ExportDojoRecipes: Record<string, IDojoRecipe>;
 export declare const ExportDrones: Record<string, IDrone>;
+export declare const ExportEnemies: IExportEnemies;
 export declare const ExportFlavour: Record<string, IFlavourItem>;
 export declare const ExportFocusUpgrades: Record<string, IFocusUpgrade>;
 export declare const ExportFusionBundles: Record<string, IFusionBundle>;
@@ -114,6 +115,33 @@ export interface IDrone {
     repairRate:         number;
     codexSecret:        boolean;
     capacityMultiplier: number[];
+}
+
+export interface IExportEnemies {
+    avatars:    Record<string, IEnemyAvatar>;
+    droptables: Record<string, TDroptable>;
+}
+
+export interface IEnemyAvatar {
+    name:         string;
+    icon?:        string;
+    type:         "STANDARD" | "EXIMUS" | "RARE";
+    faction:      "Stalker" | "None" | "Corpus" | "Grineer" | "Dummy" | "TENNO" | "Neutral" | "Narmer" | "Infestation" | "Orokin" | "Duviri" | "ENEMY" | "MITW" | "Prey" | "Sentient" | "NarmerVeil" | "Tenno" | "Red Veil";
+    baseLevel:    number;
+    health:       number;
+    armor:        number;
+    shield:       number;
+    droptable?:   string;
+    isFrivolous?: boolean;
+}
+
+export type TDroptable = IRewardPool[];
+export interface IRewardPool {
+    chance: number;
+    items:  {
+        type:        string;
+        probability: number;
+    }[];
 }
 
 export interface IFlavourItem {
