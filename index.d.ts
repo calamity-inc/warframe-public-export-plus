@@ -125,7 +125,6 @@ export interface IExportEnemies {
 export interface IEnemyAvatar {
     name:         string;
     icon?:        string;
-    type:         "STANDARD" | "EXIMUS" | "RARE";
     faction:      "Stalker" | "None" | "Corpus" | "Grineer" | "Dummy" | "TENNO" | "Neutral" | "Narmer" | "Infestation" | "Orokin" | "Duviri" | "ENEMY" | "MITW" | "Prey" | "Sentient" | "NarmerVeil" | "Tenno" | "Red Veil";
     baseLevel:    number;
     health:       number;
