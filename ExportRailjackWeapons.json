@@ -44,7 +44,12 @@
         "multishot": 1,
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "impact": {
+                    "DT_IMPACT": 3.33333,
+                    "DT_PUNCTURE": 3.33333,
+                    "DT_SLASH": 3.33334
+                }
             }
         ]
     },
@@ -93,7 +98,12 @@
         "multishot": 1,
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                "impact": {
+                    "DT_IMPACT": 3.33333,
+                    "DT_PUNCTURE": 3.33333,
+                    "DT_SLASH": 3.33334
+                }
             }
         ]
     },
@@ -150,6 +160,9 @@
                     "attack": {
                         "DT_ELECTRICITY": 450
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -207,6 +220,9 @@
                     "attack": {
                         "DT_ELECTRICITY": 765
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -264,6 +280,9 @@
                     "attack": {
                         "DT_ELECTRICITY": 1224
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -321,6 +340,9 @@
                     "attack": {
                         "DT_ELECTRICITY": 482
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -378,6 +400,9 @@
                     "attack": {
                         "DT_ELECTRICITY": 819
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -435,6 +460,9 @@
                     "attack": {
                         "DT_ELECTRICITY": 1310
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -492,6 +520,9 @@
                     "attack": {
                         "DT_ELECTRICITY": 450
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -549,6 +580,9 @@
                     "attack": {
                         "DT_ELECTRICITY": 765
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -606,6 +640,9 @@
                     "attack": {
                         "DT_ELECTRICITY": 1224
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -663,6 +700,9 @@
                     "attack": {
                         "DT_ELECTRICITY": 585
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -720,6 +760,9 @@
                     "attack": {
                         "DT_ELECTRICITY": 995
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -777,6 +820,9 @@
                     "attack": {
                         "DT_ELECTRICITY": 1592
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -836,6 +882,9 @@
                         "DT_PUNCTURE": 210,
                         "DT_FREEZE": 354
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -895,6 +944,9 @@
                         "DT_PUNCTURE": 308,
                         "DT_FREEZE": 700
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -954,6 +1006,9 @@
                         "DT_PUNCTURE": 503,
                         "DT_FREEZE": 1100
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -1013,6 +1068,9 @@
                         "DT_PUNCTURE": 240,
                         "DT_FREEZE": 372
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -1072,6 +1130,9 @@
                         "DT_PUNCTURE": 350,
                         "DT_FREEZE": 748
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -1131,6 +1192,9 @@
                         "DT_PUNCTURE": 540,
                         "DT_FREEZE": 1237
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -1190,6 +1254,9 @@
                         "DT_PUNCTURE": 210,
                         "DT_FREEZE": 354
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -1249,6 +1316,9 @@
                         "DT_PUNCTURE": 308,
                         "DT_FREEZE": 700
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -1308,6 +1378,9 @@
                         "DT_PUNCTURE": 503,
                         "DT_FREEZE": 1100
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -1367,6 +1440,9 @@
                         "DT_PUNCTURE": 200,
                         "DT_FREEZE": 607
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -1426,6 +1502,9 @@
                         "DT_PUNCTURE": 400,
                         "DT_FREEZE": 911
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -1485,6 +1564,9 @@
                         "DT_PUNCTURE": 600,
                         "DT_FREEZE": 1538
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -1537,7 +1619,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
+                "impact": {
+                    "DT_PUNCTURE": 21,
+                    "DT_FIRE": 32
+                }
             }
         ]
     },
@@ -1589,7 +1675,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
+                "impact": {
+                    "DT_PUNCTURE": 27,
+                    "DT_FIRE": 63
+                }
             }
         ]
     },
@@ -1641,7 +1731,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
+                "impact": {
+                    "DT_PUNCTURE": 35,
+                    "DT_FIRE": 110
+                }
             }
         ]
     },
@@ -1693,7 +1787,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
+                "impact": {
+                    "DT_PUNCTURE": 8,
+                    "DT_FIRE": 19
+                }
             }
         ]
     },
@@ -1745,7 +1843,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
+                "impact": {
+                    "DT_PUNCTURE": 15,
+                    "DT_FIRE": 34
+                }
             }
         ]
     },
@@ -1797,7 +1899,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
+                "impact": {
+                    "DT_PUNCTURE": 21,
+                    "DT_FIRE": 63
+                }
             }
         ]
     },
@@ -1849,7 +1955,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
+                "impact": {
+                    "DT_PUNCTURE": 28,
+                    "DT_FIRE": 107
+                }
             }
         ]
     },
@@ -1901,7 +2011,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
+                "impact": {
+                    "DT_PUNCTURE": 15,
+                    "DT_FIRE": 34
+                }
             }
         ]
     },
@@ -1953,7 +2067,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
+                "impact": {
+                    "DT_PUNCTURE": 21,
+                    "DT_FIRE": 63
+                }
             }
         ]
     },
@@ -2005,7 +2123,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
+                "impact": {
+                    "DT_PUNCTURE": 28,
+                    "DT_FIRE": 107
+                }
             }
         ]
     },
@@ -2057,7 +2179,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
+                "impact": {
+                    "DT_PUNCTURE": 19,
+                    "DT_FIRE": 40
+                }
             }
         ]
     },
@@ -2109,7 +2235,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
+                "impact": {
+                    "DT_PUNCTURE": 21,
+                    "DT_FIRE": 80
+                }
             }
         ]
     },
@@ -2161,7 +2291,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
+                "impact": {
+                    "DT_PUNCTURE": 52,
+                    "DT_FIRE": 110
+                }
             }
         ]
     },
@@ -2219,6 +2353,11 @@
                         "DT_PUNCTURE": 35,
                         "DT_POISON": 45
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -2276,6 +2415,11 @@
                     "attack": {
                         "DT_FREEZE": 972
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -2333,6 +2477,11 @@
                     "attack": {
                         "DT_FREEZE": 1750
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -2390,6 +2539,11 @@
                     "attack": {
                         "DT_FREEZE": 2975
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -2447,6 +2601,11 @@
                     "attack": {
                         "DT_FREEZE": 4760
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -2505,6 +2664,11 @@
                         "DT_PUNCTURE": 57,
                         "DT_POISON": 87
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -2563,6 +2727,11 @@
                         "DT_PUNCTURE": 102,
                         "DT_POISON": 143
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -2621,6 +2790,11 @@
                         "DT_PUNCTURE": 130,
                         "DT_POISON": 262
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -2678,6 +2852,11 @@
                     "attack": {
                         "DT_FREEZE": 1873
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -2735,6 +2914,11 @@
                     "attack": {
                         "DT_FREEZE": 3184
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -2792,6 +2976,11 @@
                     "attack": {
                         "DT_FREEZE": 5094
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -2850,6 +3039,11 @@
                         "DT_PUNCTURE": 57,
                         "DT_POISON": 98
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -2908,6 +3102,11 @@
                         "DT_PUNCTURE": 94,
                         "DT_POISON": 169
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -2966,6 +3165,11 @@
                         "DT_PUNCTURE": 163,
                         "DT_POISON": 257
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -3023,6 +3227,11 @@
                     "attack": {
                         "DT_FREEZE": 1750
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -3080,6 +3289,11 @@
                     "attack": {
                         "DT_FREEZE": 2975
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -3137,6 +3351,11 @@
                     "attack": {
                         "DT_FREEZE": 4760
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -3195,6 +3414,11 @@
                         "DT_PUNCTURE": 57,
                         "DT_POISON": 87
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -3253,6 +3477,11 @@
                         "DT_PUNCTURE": 102,
                         "DT_POISON": 143
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -3311,6 +3540,11 @@
                         "DT_PUNCTURE": 130,
                         "DT_POISON": 262
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -3368,6 +3602,11 @@
                     "attack": {
                         "DT_FREEZE": 2275
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -3425,6 +3664,11 @@
                     "attack": {
                         "DT_FREEZE": 3868
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -3482,6 +3726,11 @@
                     "attack": {
                         "DT_FREEZE": 6188
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -3540,6 +3789,11 @@
                         "DT_PUNCTURE": 80,
                         "DT_POISON": 107
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -3598,6 +3852,11 @@
                         "DT_PUNCTURE": 110,
                         "DT_POISON": 209
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -3656,6 +3915,11 @@
                         "DT_PUNCTURE": 217,
                         "DT_POISON": 293
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -3708,7 +3972,8 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "impact": {}
             }
         ]
     },
@@ -3760,7 +4025,8 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "impact": {}
             }
         ]
     },
@@ -3812,7 +4078,8 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "impact": {}
             }
         ]
     },
@@ -3864,7 +4131,8 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "impact": {}
             }
         ]
     },
@@ -3916,7 +4184,8 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "impact": {}
             }
         ]
     },
@@ -3968,7 +4237,8 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "impact": {}
             }
         ]
     },
@@ -4020,7 +4290,8 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "impact": {}
             }
         ]
     },
@@ -4072,7 +4343,8 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "impact": {}
             }
         ]
     },
@@ -4124,7 +4396,8 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "impact": {}
             }
         ]
     },
@@ -4176,7 +4449,8 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "impact": {}
             }
         ]
     },
@@ -4228,7 +4502,8 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "impact": {}
             }
         ]
     },
@@ -4280,7 +4555,8 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "impact": {}
             }
         ]
     },
@@ -4332,7 +4608,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "impact": {
+                    "DT_PUNCTURE": 86,
+                    "DT_ELECTRICITY": 146
+                }
             }
         ]
     },
@@ -4384,7 +4664,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "impact": {
+                    "DT_PUNCTURE": 166,
+                    "DT_ELECTRICITY": 228
+                }
             }
         ]
     },
@@ -4436,7 +4720,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "impact": {
+                    "DT_PUNCTURE": 288,
+                    "DT_ELECTRICITY": 343
+                }
             }
         ]
     },
@@ -4488,7 +4776,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "impact": {
+                    "DT_PUNCTURE": 50,
+                    "DT_ELECTRICITY": 70
+                }
             }
         ]
     },
@@ -4540,7 +4832,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "impact": {
+                    "DT_PUNCTURE": 84,
+                    "DT_ELECTRICITY": 132
+                }
             }
         ]
     },
@@ -4592,7 +4888,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "impact": {
+                    "DT_PUNCTURE": 162,
+                    "DT_ELECTRICITY": 206
+                }
             }
         ]
     },
@@ -4644,7 +4944,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "impact": {
+                    "DT_PUNCTURE": 267,
+                    "DT_ELECTRICITY": 322
+                }
             }
         ]
     },
@@ -4696,7 +5000,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "impact": {
+                    "DT_PUNCTURE": 84,
+                    "DT_ELECTRICITY": 132
+                }
             }
         ]
     },
@@ -4748,7 +5056,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "impact": {
+                    "DT_PUNCTURE": 162,
+                    "DT_ELECTRICITY": 206
+                }
             }
         ]
     },
@@ -4800,7 +5112,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "impact": {
+                    "DT_PUNCTURE": 267,
+                    "DT_ELECTRICITY": 322
+                }
             }
         ]
     },
@@ -4852,7 +5168,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "impact": {
+                    "DT_PUNCTURE": 120,
+                    "DT_ELECTRICITY": 161
+                }
             }
         ]
     },
@@ -4904,7 +5224,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "impact": {
+                    "DT_PUNCTURE": 199,
+                    "DT_ELECTRICITY": 279
+                }
             }
         ]
     },
@@ -4956,7 +5280,11 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst"
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "impact": {
+                    "DT_PUNCTURE": 323,
+                    "DT_ELECTRICITY": 443
+                }
             }
         ]
     },
@@ -5014,6 +5342,9 @@
                         "DT_PUNCTURE": 88.2,
                         "DT_SLASH": 37.8
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -5072,6 +5403,9 @@
                         "DT_PUNCTURE": 158.9,
                         "DT_SLASH": 68.1
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -5130,6 +5464,9 @@
                         "DT_PUNCTURE": 270.2,
                         "DT_SLASH": 115.8
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -5188,6 +5525,9 @@
                         "DT_PUNCTURE": 432.6,
                         "DT_SLASH": 185.4
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -5246,6 +5586,9 @@
                         "DT_PUNCTURE": 170.1,
                         "DT_SLASH": 72.9
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -5304,6 +5647,9 @@
                         "DT_PUNCTURE": 289.8,
                         "DT_SLASH": 124.2
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -5362,6 +5708,9 @@
                         "DT_PUNCTURE": 463.4,
                         "DT_SLASH": 198.6
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -5420,6 +5769,9 @@
                         "DT_PUNCTURE": 158.9,
                         "DT_SLASH": 68.1
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -5478,6 +5830,9 @@
                         "DT_PUNCTURE": 270.2,
                         "DT_SLASH": 115.8
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -5536,6 +5891,9 @@
                         "DT_PUNCTURE": 432.6,
                         "DT_SLASH": 185.4
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -5594,6 +5952,9 @@
                         "DT_PUNCTURE": 192.5,
                         "DT_SLASH": 82.5
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -5652,6 +6013,9 @@
                         "DT_PUNCTURE": 327.6,
                         "DT_SLASH": 140.4
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -5710,6 +6074,9 @@
                         "DT_PUNCTURE": 523.6,
                         "DT_SLASH": 224.4
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 300
                 }
             }
         ]
@@ -5769,6 +6136,11 @@
                         "DT_PUNCTURE": 57.2,
                         "DT_SLASH": 57.2
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -5828,6 +6200,11 @@
                         "DT_PUNCTURE": 97.6,
                         "DT_SLASH": 97.6
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -5887,6 +6264,11 @@
                         "DT_PUNCTURE": 156.0,
                         "DT_SLASH": 156.0
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -5946,6 +6328,11 @@
                         "DT_PUNCTURE": 28.8,
                         "DT_SLASH": 28.8
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -6005,6 +6392,11 @@
                         "DT_PUNCTURE": 52.0,
                         "DT_SLASH": 52.0
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -6064,6 +6456,11 @@
                         "DT_PUNCTURE": 88.4,
                         "DT_SLASH": 88.4
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -6123,6 +6520,11 @@
                         "DT_PUNCTURE": 141.6,
                         "DT_SLASH": 141.6
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -6182,6 +6584,11 @@
                         "DT_PUNCTURE": 52.0,
                         "DT_SLASH": 52.0
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -6241,6 +6648,11 @@
                         "DT_PUNCTURE": 88.4,
                         "DT_SLASH": 88.4
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -6300,6 +6712,11 @@
                         "DT_PUNCTURE": 141.6,
                         "DT_SLASH": 141.6
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -6359,6 +6776,11 @@
                         "DT_PUNCTURE": 67.6,
                         "DT_SLASH": 67.6
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -6418,6 +6840,11 @@
                         "DT_PUNCTURE": 114.8,
                         "DT_SLASH": 114.8
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]
@@ -6477,6 +6904,11 @@
                         "DT_PUNCTURE": 184.0,
                         "DT_SLASH": 184.0
                     }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336
                 }
             }
         ]

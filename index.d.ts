@@ -505,6 +505,7 @@ export interface IWeaponBehavior {
     stateName?: string;
     projectile?: IProjectile;
     chargedProjectile?: IProjectile;
+    impact: IDamageTable;
 }
 
 export interface IProjectile {
