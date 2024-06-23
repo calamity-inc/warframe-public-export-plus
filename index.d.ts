@@ -40,6 +40,7 @@ export declare const ExportRelics: Record<string, IRelic>;
 export declare const ExportResources: Record<string, IResource>;
 export declare const ExportRewards: Record<string, TMissionDeck>;
 export declare const ExportSentinels: Record<string, ISentinel>;
+export declare const ExportTextIcons: Record<string, ITextIcon>;
 export declare const ExportUpgrades: Record<string, IUpgrade>;
 export declare const ExportWarframes: Record<string, IPowersuit>;
 export declare const ExportWeapons: Record<string, IWeapon>;
@@ -383,6 +384,18 @@ export interface ISentinel {
     description:       string;
     productCategory:   "SpecialItems" | "KubrowPets" | "Sentinels";
     defaultWeapon?:    string;
+}
+
+export interface ITextIcon {
+    DIT_PS4?:      string;
+    DIT_XBONE?:    string;
+    DIT_STEAM?:    string;
+    DIT_AGNOSTIC?: string;
+    DIT_SWITCH?:   string;
+    DIT_PC?:       string;
+    DIT_PS5?:      string;
+    DIT_IOS?:      string;
+    DIT_AUTO?:     string;
 }
 
 export interface IUpgrade {

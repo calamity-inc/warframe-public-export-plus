@@ -1,0 +1,2000 @@
+{
+    "GAMEPAD_LTHUMB": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_L3_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneJoystickLClick_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/StickClick.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchLStickPress_d.png"
+    },
+    "GAMEPAD_LTHUMB_PUSH": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4AnalogStickLPush_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XBoxOneAnalogStickLPush_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/StickPush_d.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchLStickPress_d.png"
+    },
+    "GAMEPAD_RTHUMB": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_R3_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneJoystickRClick_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadRightClick.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchRStickPress_d.png"
+    },
+    "GAMEPAD_RTHUMB_PUSH": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4AnalogStickRPush_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XBoxOneAnalogStickRPush_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadRightPush_d.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchRStickPress_d.png"
+    },
+    "GAMEPAD_X": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/XboxOneA_d.png",
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_Cross_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneA_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/ButtonA.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchB_d.png"
+    },
+    "GAMEPAD_X_TAP": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_Cross_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneA_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/ButtonA.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchB_d.png"
+    },
+    "GAMEPAD_CIRCLE": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/XboxOneB_d.png",
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_Circle_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneB_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/ButtonB.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchA_d.png"
+    },
+    "GAMEPAD_CIRCLE_TAP": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_Circle_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneB_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/ButtonB.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchA_d.png"
+    },
+    "GAMEPAD_SQUARE": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/XboxOneX_d.png",
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_Square_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneX_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/ButtonX.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchY_d.png"
+    },
+    "GAMEPAD_SQUARE_TAP": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_Square_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneX_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/ButtonX.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchY_d.png"
+    },
+    "GAMEPAD_TRIANGLE": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/XboxOneY_d.png",
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_Triangle_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneY_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/ButtonY.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchX_d.png"
+    },
+    "GAMEPAD_TRIANGLE_TAP": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_Triangle_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneY_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/ButtonY.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png"
+    },
+    "GAMEPAD_L2": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_L1_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneLB_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/ShoulderLeft.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchL_d.png"
+    },
+    "GAMEPAD_R2": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_R1_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneRB_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/ShoulderRight.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchR_d.png"
+    },
+    "GAMEPAD_L1": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_L2_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneLT_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/TriggerLeftClick.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchZL_d.png"
+    },
+    "GAMEPAD_R1": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_R2_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneRT_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/TriggerRightClick.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchZR_d.png"
+    },
+    "GAMEPAD_RX": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4RightAnalog_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneJoystickR_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadRight.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchRStick_d.png"
+    },
+    "GAMEPAD_RY_TILT_DOWN": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4RTiltDown_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneJoystickRDown_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadRightDown_d.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchRStickDown_d.png"
+    },
+    "GAMEPAD_RY_TILT_UD": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4RUpDown_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneJoystickRUpDown_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadRightTildUD_d.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchRStickUp_d.png"
+    },
+    "GAMEPAD_RY_TILT_FOUR": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4RTiltFour_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XBoxOneAnalogStickRTiltFour_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadRightTiltFour_d.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchRStickPress_d.png"
+    },
+    "GAMEPAD_LY": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4LeftAnalog_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneJoystickL_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/Stick.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchLStick_d.png"
+    },
+    "GAMEPAD_RY": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4RightAnalog_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneJoystickR_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadRight.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchRStick_d.png"
+    },
+    "GAMEPAD_LX": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4LeftAnalog_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneJoystickL_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/Stick.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchLStick_d.png"
+    },
+    "GAMEPAD_LY_TILT_UD": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4LUpDown_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneJoystickLUpDown_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadRightTildUD_d.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png"
+    },
+    "GAMEPAD_START": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_Options01_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneMenu_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/ButtonStart.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchPlus_d.png",
+        "DIT_PS5": "/EE/Interface/Graphics/PlatformKeys/PS5_Options01_d.png"
+    },
+    "GAMEPAD_SELECT": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_share01_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneView_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/ButtonSelect.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchMinus_d.png",
+        "DIT_PS5": "/EE/Interface/Graphics/PlatformKeys/PS5_Create01_d.png"
+    },
+    "GAMEPAD_UP": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_D-PadUp_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneDPadUp_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftDpadNorth.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchCircleDPadUp_d.png"
+    },
+    "GAMEPAD_DOWN": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_D-PadDown_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneDPadDown_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftDpadSouth.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchCircleDPadDown_d.png",
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSEmotes_d.png"
+    },
+    "GAMEPAD_LEFT": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_D-PadLeft_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneDPadLeft_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftDpadWest.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchCircleDPadLeft_d.png"
+    },
+    "GAMEPAD_RIGHT": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_D-PadRight_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneDPadRight_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftDpadEast.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchCircleDPadRight_d.png"
+    },
+    "GAMEPAD_LR": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4DPadLR_d.png",
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/PCDoubleArrow_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxDPadLR_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftLR_d.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchDPadLeft_d.png"
+    },
+    "GAMEPAD_UD": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4DPadUD_d.png",
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/PCKeyUD_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxDPadUD_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftUD_d.png",
+        "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchDPadUp_d.png"
+    },
+    "GAMEPAD_CAPTURE": {
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchCaptureGame_d.png"
+    },
+    "SPACE": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Space_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Space_d.png"
+    },
+    "ESCAPE": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Esc_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Esc_d.png"
+    },
+    "PRIOR": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/PageUp_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/PageUp_d.png"
+    },
+    "NEXT": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/PageDown_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/PageDown_d.png"
+    },
+    "RETURN": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/KeyboardEnter_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/KeyboardEnter_d.png"
+    },
+    "BACK": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Backspace_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Backspace_d.png"
+    },
+    "NUMLOCK": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/NumLock_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/NumLock_d.png"
+    },
+    "KEY": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/KeyboardPiece_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/KeyboardPiece_d.png"
+    },
+    "KEYWIDE": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/KeyboardPieceWide_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/KeyboardPieceWide_d.png"
+    },
+    "MOUSE_B0": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/MouseButton00_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/MouseButton00_d.png",
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSTap1_d.png"
+    },
+    "MOUSE_B1": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/MouseButton01_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/MouseButton01_d.png"
+    },
+    "MOUSE_B2": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/MouseWheelButton_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/MouseWheelButton_d.png"
+    },
+    "MOUSE_B3": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/MouseButton4_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/MouseButton4_d.png"
+    },
+    "MOUSE_B4": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/MouseButton5_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/MouseButton5_d.png"
+    },
+    "UP": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/UpArrow_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/UpArrow_d.png"
+    },
+    "DOWN": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/DownArrow_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/DownArrow_d.png"
+    },
+    "LEFT": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/LeftArrow_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/LeftArrow_d.png"
+    },
+    "RIGHT": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/RightArrow_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/RightArrow_d.png",
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/RightArrow_d.png"
+    },
+    "TAB": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Tab_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Tab_d.png"
+    },
+    "DELETE": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Del_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Del_d.png"
+    },
+    "LSHIFT": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/LShift_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/LShift_d.png"
+    },
+    "RBRACKET": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/RBracket_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/RBracket_d.png"
+    },
+    "LBRACKET": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/LBracket_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/LBracket_d.png"
+    },
+    "MOUSE_X": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/MouseSideToSide_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/MouseSideToSide_d.png"
+    },
+    "MOUSE_Y": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/MouseFwdBkwd_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/MouseFwdBkwd_d.png"
+    },
+    "MOUSE_WHEELUP": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/MouseWheelScrollA_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/MouseWheelScrollA_d.png"
+    },
+    "MOUSE_WHEELDOWN": {
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/MouseWheelScrollC_d.png",
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/MouseWheelScrollC_d.png"
+    },
+    "ARROW_RIGHT": {
+        "DIT_AUTO": "/EE/Interface/Graphics/Chevron_d.png"
+    },
+    "REGISTERED_TRADEMARK": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/RegisteredTrademark_d.png"
+    },
+    "REGISTERED_TM_SMALL": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/RegisteredTrademarkSmall_d.png"
+    },
+    "TM_SMALL": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/TrademarkSmall_d.png"
+    },
+    "SM_SMALL": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/ServicemarkSmall_d.png"
+    },
+    "F1": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/F1_d.png"
+    },
+    "F2": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/F2_d.png"
+    },
+    "F3": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/F3_d.png"
+    },
+    "F4": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/F4_d.png"
+    },
+    "F5": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/F5_d.png"
+    },
+    "F6": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/F6_d.png"
+    },
+    "F7": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/F7_d.png"
+    },
+    "F8": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/F8_d.png"
+    },
+    "F9": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/F9_d.png"
+    },
+    "F10": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/F10_d.png"
+    },
+    "F11": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/F11_d.png"
+    },
+    "F12": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/F12_d.png"
+    },
+    "GRAVE": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Grave_d.png"
+    },
+    "MINUS": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Minus_d.png"
+    },
+    "EQUALS": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Equals_d.png"
+    },
+    "BACKSLASH": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/BackwardSlash_d.png"
+    },
+    "CAPITAL": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/CapsLock_d.png"
+    },
+    "RSHIFT": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/RShift_d.png"
+    },
+    "COMMA": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Comma_d.png"
+    },
+    "PERIOD": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Period_d.png"
+    },
+    "SLASH": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/ForwardSlash_d.png"
+    },
+    "LCONTROL": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/LCtrl_d.png"
+    },
+    "LALT": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/LAlt_d.png"
+    },
+    "RALT": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/RAlt_d.png"
+    },
+    "APPS": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Apps_d.png"
+    },
+    "RCONTROL": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/RCtrl_d.png"
+    },
+    "SCROLL": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Scroll_d.png"
+    },
+    "PAUSE": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Pause_d.png"
+    },
+    "END": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/End_d.png"
+    },
+    "DIVIDE": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Divide_d.png"
+    },
+    "MULTIPLY": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Multiply_d.png"
+    },
+    "SUBTRACT": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Subtract_d.png"
+    },
+    "ADD": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Add_d.png"
+    },
+    "DECIMAL": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Decimal_d.png"
+    },
+    "NUMPADENTER": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/NumPadEnter_d.png"
+    },
+    "NUMPAD0": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Num0_d.png"
+    },
+    "NUMPAD1": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Num1_d.png"
+    },
+    "NUMPAD2": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Num2_d.png"
+    },
+    "NUMPAD3": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Num3_d.png"
+    },
+    "NUMPAD4": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Num4_d.png"
+    },
+    "NUMPAD5": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Num5_d.png"
+    },
+    "NUMPAD6": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Num6_d.png"
+    },
+    "NUMPAD7": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Num7_d.png"
+    },
+    "NUMPAD8": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Num8_d.png"
+    },
+    "NUMPAD9": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Num9_d.png"
+    },
+    "INSERT": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Ins_d.png"
+    },
+    "HOME": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Home_d.png"
+    },
+    "APOSTROPHE": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Apostrophe_d.png"
+    },
+    "SEMICOLON": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Semicolon_d.png"
+    },
+    "PLATINUM_CREDITS": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/PlatinumCredits.png"
+    },
+    "PRIME_BUCKS": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/PrimeBucks.png"
+    },
+    "FUSION_POINTS": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/EndoIconRenderSmall.png"
+    },
+    "CREDITS": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Credits.png"
+    },
+    "KAHL_CREDS": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/Currency/KahlCurrency.png"
+    },
+    "COUPON": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Coupon.png"
+    },
+    "STEEL_ESSENCE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/Currency/SteelEssence.png"
+    },
+    "SESSION_INDICATOR": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/SessionIndicator.png"
+    },
+    "WARNING": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/HandholdHelpIcon.png"
+    },
+    "PROBLEM": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/ProblemIcon64.png"
+    },
+    "BIG_PROBLEM": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/ProblemIcon64.png"
+    },
+    "CONCLAVE": {},
+    "UNIVERSAL": {},
+    "MOD_SELECTOR": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/Mods/SelectedSlotIcon_d.png"
+    },
+    "MOD_DUPLICATES": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/Mods/IconDuplicate_d.png"
+    },
+    "MINI_ARROW": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/RightArrow.png"
+    },
+    "PAGINATION_LAST": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/PaginationLast_d.png"
+    },
+    "PAGINATION_FIRST": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/PaginationFirst_d.png"
+    },
+    "PAGINATION_NEXT": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/PaginationNext_d.png"
+    },
+    "PAGINATION_PREVIOUS": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/PaginationPrevious_d.png"
+    },
+    "GAMEPAD_SWIPE_UP": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4SwipeUp_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftDpadNorth.png"
+    },
+    "GAMEPAD_SWIPE_DOWN": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4SwipeDown_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftDpadSouth.png"
+    },
+    "GAMEPAD_SWIPE_LEFT": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4SwipeLeft_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftDpadWest.png"
+    },
+    "GAMEPAD_SWIPE_RIGHT": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4SwipeRight_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftDpadEast.png"
+    },
+    "GAMEPAD_MOTION_PRESS": {
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4motion_press_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftClick.png"
+    },
+    "UPARROW": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/IncreaseArrow.png"
+    },
+    "DOWNARROW": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/DecreaseArrow.png"
+    },
+    "CONTROL": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Ctrl_d.png"
+    },
+    "TOUCHPAD_SWIPE_UP": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PS4SwipeUp_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftDpadNorth.png"
+    },
+    "TOUCHPAD_SWIPE_DOWN": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PS4SwipeDown_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftDpadSouth.png"
+    },
+    "TOUCHPAD_SWIPE_LEFT": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PS4SwipeLeft_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftDpadWest.png"
+    },
+    "TOUCHPAD_SWIPE_RIGHT": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PS4SwipeRight_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftDpadEast.png"
+    },
+    "TOUCHPAD_MOTION_PRESS": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PS4motion_press_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftClick.png"
+    },
+    "DT_IMPACT": {},
+    "DT_IMPACT_COLOR": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/ImpactSymbol.png"
+    },
+    "DT_SLASH": {},
+    "DT_SLASH_COLOR": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/SlashSymbol.png"
+    },
+    "DT_PUNCTURE": {},
+    "DT_PUNCTURE_COLOR": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/PunctureSymbol.png"
+    },
+    "DT_FIRE": {},
+    "DT_FIRE_COLOR": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/HeatSymbol.png"
+    },
+    "DT_FREEZE": {},
+    "DT_FREEZE_COLOR": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/ColdSymbol.png"
+    },
+    "DT_ELECTRICITY": {},
+    "DT_ELECTRICITY_COLOR": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/ElectricitySymbol.png"
+    },
+    "DT_POISON": {},
+    "DT_POISON_COLOR": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/ToxinSymbol.png"
+    },
+    "DT_EXPLOSION": {},
+    "DT_EXPLOSION_COLOR": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/BlastSymbol.png"
+    },
+    "DT_RADIATION": {},
+    "DT_RADIATION_COLOR": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/RadiationSymbol.png"
+    },
+    "DT_GAS": {},
+    "DT_GAS_COLOR": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/GasSymbol.png"
+    },
+    "DT_MAGNETIC": {},
+    "DT_MAGNETIC_COLOR": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/MagneticSymbol.png"
+    },
+    "DT_VIRAL": {},
+    "DT_VIRAL_COLOR": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/ViralSymbol.png"
+    },
+    "DT_CORROSIVE": {},
+    "DT_CORROSIVE_COLOR": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/CorrosiveSymbol.png"
+    },
+    "DT_SENTIENT": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/SentientFactionIcon.png"
+    },
+    "DT_FINISHER": {},
+    "STAT_CORROSIVE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/CorrosiveSymbol.png"
+    },
+    "STAT_CORROSIVE_NO_ADV": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/CorrosiveSymbol.png"
+    },
+    "STAT_ELECTRICITY": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/ElectricitySymbol.png"
+    },
+    "STAT_ELECTRICITY_NO_ADV": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/ElectricitySymbol.png"
+    },
+    "STAT_EXPLOSION": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/BlastSymbol.png"
+    },
+    "STAT_EXPLOSION_NO_ADV": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/BlastSymbol.png"
+    },
+    "STAT_FIRE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/HeatSymbol.png"
+    },
+    "STAT_FIRE_NO_ADV": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/HeatSymbol.png"
+    },
+    "STAT_FREEZE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/ColdSymbol.png"
+    },
+    "STAT_FREEZE_NO_ADV": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/ColdSymbol.png"
+    },
+    "STAT_GAS": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/GasSymbol.png"
+    },
+    "STAT_GAS_NO_ADV": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/GasSymbol.png"
+    },
+    "STAT_IMPACT": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/ImpactSymbol.png"
+    },
+    "STAT_IMPACT_NO_ADV": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/ImpactSymbol.png"
+    },
+    "STAT_MAGNETIC": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/MagneticSymbol.png"
+    },
+    "STAT_MAGNETIC_NO_ADV": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/MagneticSymbol.png"
+    },
+    "STAT_POISON": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/ToxinSymbol.png"
+    },
+    "STAT_POISON_NO_ADV": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/ToxinSymbol.png"
+    },
+    "STAT_PUNCTURE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/PunctureSymbol.png"
+    },
+    "STAT_PUNCTURE_NO_ADV": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/PunctureSymbol.png"
+    },
+    "STAT_RADIATION": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/RadiationSymbol.png"
+    },
+    "STAT_RADIATION_NO_ADV": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/RadiationSymbol.png"
+    },
+    "STAT_RADIANT": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/VoidSymbol.png"
+    },
+    "STAT_RADIANT_NO_ADV": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/VoidSymbol.png"
+    },
+    "STAT_SLASH": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/SlashSymbol.png"
+    },
+    "STAT_SLASH_NO_ADV": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/SlashSymbol.png"
+    },
+    "STAT_VIRAL": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/ViralSymbol.png"
+    },
+    "STAT_VIRAL_NO_ADV": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/ViralSymbol.png"
+    },
+    "STAT_NEGATIVE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/NegativeSymbol.png"
+    },
+    "STAT_POSITIVE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/PositiveSymbol.png"
+    },
+    "STAT_RESIST": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/ResistSymbol.png"
+    },
+    "AMMO_MUTATION": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/AmmoMutation_d.png"
+    },
+    "POLARITY_ATTACK": {
+        "DIT_AUTO": "/Lotus/Interface/PolarityTriangle.png"
+    },
+    "POLARITY_DEFENSE": {
+        "DIT_AUTO": "/Lotus/Interface/PolarityPoint.png"
+    },
+    "POLARITY_TACTIC": {
+        "DIT_AUTO": "/Lotus/Interface/PolarityCircle.png"
+    },
+    "POLARITY_POWER": {
+        "DIT_AUTO": "/Lotus/Interface/PolarityMark.png"
+    },
+    "POLARITY_PRECEPT": {
+        "DIT_AUTO": "/Lotus/Interface/PolarityPrecept.png"
+    },
+    "POLARITY_FUSION": {
+        "DIT_AUTO": "/Lotus/Interface/PolarityAura.png"
+    },
+    "POLARITY_WARD": {
+        "DIT_AUTO": "/Lotus/Interface/PolarityWard.png"
+    },
+    "POLARITY_UMBRA": {
+        "DIT_AUTO": "/Lotus/Interface/PolarityUmbra.png"
+    },
+    "POLARITY_ANY": {
+        "DIT_AUTO": "/Lotus/Interface/PolarityUniversal.png"
+    },
+    "CHECKMARK": {},
+    "CHECKMARK_OUTLINE": {},
+    "CHECKMARK_FAIL": {},
+    "CHECKMARK_NO_BORDER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Checkmark.png"
+    },
+    "CHECKMARK_FAIL_NO_BORDER": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/X.png"
+    },
+    "VENUS_ALERT_MID": {},
+    "VENUS_ALERT_FULL": {},
+    "MISSION_MARKER_GENERIC": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/MiniMapObjective.png"
+    },
+    "MISSION_MARKER_EXTRACTION": {},
+    "MISSION_MARKER_LOOT": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/Loot.png"
+    },
+    "MISSION_MARKER_ATTACK": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/Attack.png"
+    },
+    "MISSION_MARKER_A": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/MiniMapTerritoryA.png"
+    },
+    "MISSION_MARKER_B": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/MiniMapTerritoryB.png"
+    },
+    "MISSION_MARKER_C": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/MiniMapTerritoryC.png"
+    },
+    "MISSION_MARKER_D": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/MiniMapTerritoryD.png"
+    },
+    "MISSION_MARKER_E": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/MiniMapTerritoryE.png"
+    },
+    "MISSION_MARKER_F": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/MiniMapTerritoryF.png"
+    },
+    "ARTIFACT_MARKER_CIRCLE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/IconSentientCircle.png"
+    },
+    "ARTIFACT_MARKER_DIAMOND": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/IconSentientDiamond.png"
+    },
+    "ARTIFACT_MARKER_SQUARE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/IconSentientSquare.png"
+    },
+    "ARTIFACT_MARKER_TRIANGLE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/IconSentientTriangle.png"
+    },
+    "ARTIFACT_MARKER_XATA": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/DisruptionRuneTruthMinimap.png"
+    },
+    "ARTIFACT_MARKER_VOME": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/DisruptionRuneOrderMinimap.png"
+    },
+    "ARTIFACT_MARKER_KHRA": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/DisruptionRuneTimeMinimap.png"
+    },
+    "ARTIFACT_MARKER_LOHK": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/DisruptionRuneVoidMinimap.png"
+    },
+    "NPC_EXIT_MARKER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/ExtractionIconWhite.png"
+    },
+    "HIVE_MARKER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GameModes/HiveIcon.png"
+    },
+    "SURVIVAL_PILLAR_MARKER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/O2PostHudStatusLarge.png"
+    },
+    "SURVIVAL_PILLAR_OUTLINE_MARKER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/O2PostHudStatusLargeOutline.png"
+    },
+    "FISURE_CANISTER_MARKER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/CanisterIconFull.png"
+    },
+    "FISURE_CANISTER_MARKER_OUTLINE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/CanisterIconEmpty.png"
+    },
+    "KUBROW_ADVENTURER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GeneticLab/TemperamentAdventurer.png"
+    },
+    "KUBROW_GUARD": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GeneticLab/TemperamentGuard.png"
+    },
+    "KUBROW_HUNTER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GeneticLab/TemperamentHunter.png"
+    },
+    "KUBROW_STEALTH": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GeneticLab/TemperamentStealth.png"
+    },
+    "KUBROW_INFESTED": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GeneticLab/TemperamentCharger.png"
+    },
+    "REPUTATION": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Syndicates/ReputationLarge128.png"
+    },
+    "REPUTATION_SMALL": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Syndicates/ReputationSmall.png"
+    },
+    "UGC": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Store/UGCicon.png"
+    },
+    "STEALTH_COMBO": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/ModBuffIndicators/StealthCombo.png"
+    },
+    "MOON_TEAM": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/MiniMapPvpMoon.png"
+    },
+    "SUN_TEAM": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/MiniMapPvpSun.png"
+    },
+    "MOON_TEAM_DROPPED": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/MiniMapPvpMoonDropped.png"
+    },
+    "SUN_TEAM_DROPPED": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/MiniMapPvpSunDropped.png"
+    },
+    "TIMER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/TradingTimerIcon.png"
+    },
+    "TRADE_REQUEST_SENT_ICON": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/HubTrading/HubTradingRequestSent.png"
+    },
+    "SEEKING_TRADE_ICON": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/HubTrading/HubTradingSeekingTrade.png"
+    },
+    "IN_TRADE_ICON": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/HubTrading/HubTradingTradeInProgress.png"
+    },
+    "INFINITE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/ScannerAbilities/InfiniteWhite.png"
+    },
+    "INFINITE_SMALL": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/ScannerAbilities/InfiniteWhite.png"
+    },
+    "QUEST": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Notifications/Quest.png"
+    },
+    "RAID": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GameModes/RaidIconColour.png"
+    },
+    "NIGHTMARE_RAID": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GameModes/NightmareRaidIconColour.png"
+    },
+    "ENHANCER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GenericCosmeticEnhancerIcon.png"
+    },
+    "ENHANCER_SMALL": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GenericCosmeticEnhancerIcon.png"
+    },
+    "KUBROW_RETRIEVER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GeneticLab/TemperamentRetriever.png"
+    },
+    "KAVAT_CHESHIRE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GeneticLab/TemperamentCheshire.png"
+    },
+    "KAVAT_MIRROR": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GeneticLab/TemperamentMirror.png"
+    },
+    "KAVAT_INFESTED_ARMORED": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GeneticLab/TemperamentPanzerVulpaphyla.png"
+    },
+    "KAVAT_INFESTED_HORNED": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GeneticLab/TemperamentCrescentVulpaphyla.png"
+    },
+    "KAVAT_INFESTED_VULPINE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GeneticLab/TemperamentSlyVulpaphyla.png"
+    },
+    "KUBROW_INFESTED_VIZIER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GeneticLab/TemperamentVizierPredasite.png"
+    },
+    "KUBROW_INFESTED_MEDJAY": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GeneticLab/TemperamentMedjayPredasite.png"
+    },
+    "KUBROW_INFESTED_PHARAOH": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GeneticLab/TemperamentPharaohPredasite.png"
+    },
+    "ARCHWING": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Categories/IconArchwing_256.png"
+    },
+    "SIMARIS": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/CephalonSimaris.png"
+    },
+    "SIMARIS_TEXTURED": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Syndicates/FactionSimarisTextured.png"
+    },
+    "STEAM": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/SteamIcon.png"
+    },
+    "DISCORD": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/DiscordIcon.png"
+    },
+    "EPIC": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/EpicIcon.png"
+    },
+    "ACCOLADE_RANK_1": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GeneticLab/TemperamentHunter.png"
+    },
+    "ACCOLADE_RANK_2": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GeneticLab/TemperamentStealth.png"
+    },
+    "ACCOLADE_RANK_3": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GeneticLab/TemperamentStealth.png"
+    },
+    "CHECKER_REALLY_SMALL": {},
+    "": {},
+    "CHECKER_SMALL": {},
+    "CHECKER_MEDIUM": {},
+    "CHECKER_BIG": {},
+    "CHECKER_REALLY_BIG": {},
+    "GAMEPAD_GRIP_LEFT": {
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/GripLeft.png"
+    },
+    "GAMEPAD_GRIP_RIGHT": {
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/GripRight.png"
+    },
+    "MADURAI_BASE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealMaduraiCloudBase.png"
+    },
+    "MADURAI": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealMaduraiCloud.png"
+    },
+    "MADURAI_GREATER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealMaduraiCloudGreater.png"
+    },
+    "MADURAI_EIDOLON": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealMaduraiCloudEidolon.png"
+    },
+    "MADURAI_LUA": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealMaduraiCloudLua.png"
+    },
+    "NARAMON_BASE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealNaramonTreeBase.png"
+    },
+    "NARAMON": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealNaramonTree.png"
+    },
+    "NARAMON_GREATER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealNaramonTreeGreater.png"
+    },
+    "NARAMON_EIDOLON": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealNaramonTreeEidolon.png"
+    },
+    "NARAMON_LUA": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealNaramonTreeLua.png"
+    },
+    "UNAIRU_BASE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealUnairuMountainBase.png"
+    },
+    "UNAIRU": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealUnairuMountain.png"
+    },
+    "UNAIRU_GREATER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealUnairuMountainGreater.png"
+    },
+    "UNAIRU_EIDOLON": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealUnairuMountainEidolon.png"
+    },
+    "UNAIRU_LUA": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealUnairuMountainLua.png"
+    },
+    "VAZARIN_BASE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealVazarinWaveBase.png"
+    },
+    "VAZARIN": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealVazarinWave.png"
+    },
+    "VAZARIN_GREATER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealVazarinWaveGreater.png"
+    },
+    "VAZARIN_EIDOLON": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealVazarinWaveEidolon.png"
+    },
+    "VAZARIN_LUA": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealVazarinWaveLua.png"
+    },
+    "ZENURIK_BASE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealZenurikCrystalBase.png"
+    },
+    "ZENURIK": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealZenurikCrystal.png"
+    },
+    "ZENURIK_GREATER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealZenurikCrystalGreater.png"
+    },
+    "ZENURIK_EIDOLON": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealZenurikCrystalEidolon.png"
+    },
+    "ZENURIK_LUA": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/SealZenurikCrystalLua.png"
+    },
+    "FOCUS": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sortinghat/Focus.png"
+    },
+    "SORTIE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Notifications/Sortie.png"
+    },
+    "OMEGA": {},
+    "LUMINOUS": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/Projections/LuminousIconSmall.png"
+    },
+    "PROJECTION_T1": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/OroEpoch/OroEpochA.png"
+    },
+    "PROJECTION_T2": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/OroEpoch/OroEpochB.png"
+    },
+    "PROJECTION_T3": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/OroEpoch/OroEpochC.png"
+    },
+    "PROJECTION_T4": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/OroEpoch/OroEpochD.png"
+    },
+    "PROJECTION_IMMORTAL": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/OroEpoch/OroEpocImmortal.png"
+    },
+    "LOCKED": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/LockIcon.png"
+    },
+    "TREASURE_GEM": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/OrnamentIcon.png"
+    },
+    "TREASURE_GEM_OUTLINE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/OrnamentIconOutline.png"
+    },
+    "ARCANE_RANK": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/LoginRewards/DailyTributeFullDiamond.png"
+    },
+    "ARCANE_RANK_OUTLINE": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/LoginRewards/DailyTributeOuterDiamondFaded.png"
+    },
+    "AYATAN_SCULPTURE": {
+        "DIT_AUTO": "/Lotus/Interface/ModdingIcons/TreasuresIcon.png"
+    },
+    "KUVA": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Miscellaneous/Kuva.png"
+    },
+    "RESET": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Reset.png"
+    },
+    "INFESTED_ADAPTATION": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Abilities/InfestedRupture.png"
+    },
+    "FULL_SERUM": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Objects/GolemRaid/SyringeExtendedFull_d.png"
+    },
+    "EMPTY_SERUM": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/MiniMapTerritoryE.png"
+    },
+    "MASTERED": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/CodexObjectsLaurelWhite.png"
+    },
+    "MASTERY_RANK": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRankIcon.png"
+    },
+    "MASTERY_RANK_SMALL": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRankIconSmall.png"
+    },
+    "MASTERY_RANK_LOCKED": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/LockIconMarket.png"
+    },
+    "NPC_COLONIST_MARKER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/UserIcon.png"
+    },
+    "CLAN_XP": {},
+    "RANK_0": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank00Unranked.png"
+    },
+    "RANK_1": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank01Initiate.png"
+    },
+    "RANK_2": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank02SilverInitiate.png"
+    },
+    "RANK_3": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank03GoldInitiate.png"
+    },
+    "RANK_4": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank04Novice.png"
+    },
+    "RANK_5": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank05SilverNovice.png"
+    },
+    "RANK_6": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank06GoldNovice.png"
+    },
+    "RANK_7": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank07Disciple.png"
+    },
+    "RANK_8": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank08SilverDisciple.png"
+    },
+    "RANK_9": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank09GoldDisciple.png"
+    },
+    "RANK_10": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank10Seeker.png"
+    },
+    "RANK_11": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank11SilverSeeker.png"
+    },
+    "RANK_12": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank12GoldSeeker.png"
+    },
+    "RANK_13": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank13Hunter.png"
+    },
+    "RANK_14": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank14SilverHunter.png"
+    },
+    "RANK_15": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank15GoldHunter.png"
+    },
+    "RANK_16": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank16Eagle.png"
+    },
+    "RANK_17": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank17SilverEagle.png"
+    },
+    "RANK_18": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank18GoldEagle.png"
+    },
+    "RANK_19": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank19Tiger.png"
+    },
+    "RANK_20": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank20SilverTiger.png"
+    },
+    "RANK_21": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank21GoldTiger.png"
+    },
+    "RANK_22": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank22Dragon.png"
+    },
+    "RANK_23": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank23SilverDragon.png"
+    },
+    "RANK_24": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank24GoldDragon.png"
+    },
+    "RANK_25": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank25Sage.png"
+    },
+    "RANK_26": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank26SilverSage.png"
+    },
+    "RANK_27": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank27GoldSage.png"
+    },
+    "RANK_28": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank28Master.png"
+    },
+    "RANK_29": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank29MiddleMaster.png"
+    },
+    "RANK_30": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank30GrandMaster.png"
+    },
+    "RANK_31": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank31.png"
+    },
+    "RANK_32": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank32.png"
+    },
+    "RANK_33": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank33.png"
+    },
+    "RANK_34": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank34.png"
+    },
+    "RANK_35": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank35.png"
+    },
+    "RANK_36": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank36.png"
+    },
+    "RANK_37": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank37.png"
+    },
+    "RANK_38": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank38.png"
+    },
+    "RANK_39": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank39.png"
+    },
+    "RANK_40": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank40.png"
+    },
+    "RANK_41": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank41.png"
+    },
+    "RANK_42": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank42.png"
+    },
+    "RANK_43": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank43.png"
+    },
+    "RANK_44": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank44.png"
+    },
+    "RANK_45": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank45.png"
+    },
+    "RANK_46": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank46.png"
+    },
+    "RANK_47": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank47.png"
+    },
+    "RANK_48": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank48.png"
+    },
+    "RANK_49": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank49.png"
+    },
+    "RANK_50": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank50.png"
+    },
+    "RANK_51": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank51.png"
+    },
+    "RADIAL_BUTTON_ON": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/RadialButtonOn.png"
+    },
+    "RADIAL_BUTTON_OFF": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/RadialButtonOff.png"
+    },
+    "GAMEPAD_HOME": {
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneXboxGuide_d.png",
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_Home_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/ButtonSteamOff.png"
+    },
+    "AMBULAS_DATA": {},
+    "MOD_SET_FILLED_NOTCH": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/Mods/FilledNotch.png"
+    },
+    "MOD_SET_EMPTY_NOTCH": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/Mods/EmptyNotch.png"
+    },
+    "PERRIN": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Syndicates/FactionSigilBusiness.png"
+    },
+    "LOKA": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Syndicates/FactionSigilChurch.png"
+    },
+    "REDVEIL": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Syndicates/FactionSigilAssassins.png"
+    },
+    "MERIDIAN": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Syndicates/FactionSigilRebels.png"
+    },
+    "HEXIS": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Syndicates/FactionSigilJudge.png"
+    },
+    "SUDA": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Syndicates/FactionSigilOracle.png"
+    },
+    "VENTKIDS": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Syndicates/FactionVentKidz.png"
+    },
+    "SOLARIS": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Syndicates/FactionSigilSolarisUnited.png"
+    },
+    "LEGION": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Sigils/RadioLegionSigil.png"
+    },
+    "OSTRON_PRICE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/OstronBarterIconSmall.png"
+    },
+    "ELITIUM": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/Resources/Elitium.png"
+    },
+    "MISSION_MARKER_DEFEND": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/MiniMapDefenseObjectiveMarker.png"
+    },
+    "DT_RADIANT": {},
+    "INFINITY": {},
+    "OWNED": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/OwnedIcon.png"
+    },
+    "MISSION_MARKER_ALERT": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/MiniMapPanicButton.png"
+    },
+    "PREVIEW": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/PreviewIcon.png"
+    },
+    "PREVIEW_LARGE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/PreviewIcon.png"
+    },
+    "COMMON": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/RarityIconCommon.png"
+    },
+    "UNCOMMON": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/RarityIconUncommon.png"
+    },
+    "RARE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/RarityIconRare.png"
+    },
+    "PLAYER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Categories/IconOperator256.png"
+    },
+    "VAULT": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/VaultIcon.png"
+    },
+    "WEEKLY": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/WeeklyChallengeIcon.png"
+    },
+    "NIGHTWAVE_PRESTIGE": {},
+    "ENERGY": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/Abilities/AbilityIcon/Energy_d.png"
+    },
+    "HEALTH": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/Abilities/HealthIcon/Health_d.png"
+    },
+    "SHIELD": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/Abilities/HildrynEnergyShield.png"
+    },
+    "INC_ARROW": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/Syndicates/IncreaseArrow.png"
+    },
+    "DEC_ARROW": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/Syndicates/DecreaseArrow.png"
+    },
+    "NEUTRAL_SYNDICATE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Syndicates/NeutralSyndicateIcon.png"
+    },
+    "ALLY_DOWN": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/MiniMapFriendPreDeath.png"
+    },
+    "ARBITRATION_DRONE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/ModBuffIndicators/ArbitrationDrone.png"
+    },
+    "LINE_SEPARATOR": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/WhiteLine_d.png"
+    },
+    "INFESTED": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/InfestedLogo.png"
+    },
+    "INTRINSIC": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/Currency/Intrinsics.png"
+    },
+    "INTRINSIC_DRIFTER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/Currency/IntrinsicsDrifter.png"
+    },
+    "KUVA_LICH": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/KuvaLichIconSimple.png"
+    },
+    "CORPUS_LICH": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/CorpusLichIconSimple.png"
+    },
+    "IOS_ABILITIES": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSAbilities_d.png"
+    },
+    "IOS_ADS": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSADS_d.png"
+    },
+    "IOS_CHAT": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSChat_d.png"
+    },
+    "IOS_CROUCH": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSCrouch_d.png"
+    },
+    "IOS_BULLET_JUMPING": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSBulletJumping_d.png"
+    },
+    "IOS_SHOOT": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSShoot_d.png"
+    },
+    "IOS_KAITHE_JUMP": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSKaitheJump_d.png"
+    },
+    "IOS_KAITHE_GALLOP": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSKaitheGallop_d.png"
+    },
+    "IOS_KAITHE_DESCEND": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSKaitheDescend_d.png"
+    },
+    "IOS_KAITHE_DASH": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSKaitheDash_d.png"
+    },
+    "IOS_KAITHE_ASCEND": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSKaitheAscend_d.png"
+    },
+    "IOS_DRAGHORIZ": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSDragHoriz_d.png"
+    },
+    "IOS_DRAGVERT": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSDragVert_d.png"
+    },
+    "IOS_GEAR": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSEmotes_d.png"
+    },
+    "IOS_ESCMENU": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSESC_d.png"
+    },
+    "IOS_EXPANDMAP": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSExpandMap_d.png"
+    },
+    "IOS_MOVE": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSJoycon_d.png"
+    },
+    "IOS_JUMP": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSJump_d.png"
+    },
+    "IOS_MARKER": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSMarker_d.png"
+    },
+    "IOS_MELEE": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSMelee_d.png"
+    },
+    "IOS_HEAVY_ATTACK": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSHeavyAttack_d.png"
+    },
+    "IOS_BLOCK": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSBlock_d.png"
+    },
+    "IOS_PRIMARYFIRE": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSShoot_d.png"
+    },
+    "IOS_RELOAD": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSReload_d.png"
+    },
+    "IOS_SECONDARYFIRE": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSSecondaryFire_d.png"
+    },
+    "IOS_SLIDE": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSSlide_d.png"
+    },
+    "IOS_TAP": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSTap2_d.png"
+    },
+    "IOS_HOLD": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSTap1_d.png"
+    },
+    "IOS_USE": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSUse_d.png"
+    },
+    "IOS_WAYPOINT": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSWaypoint_d.png"
+    },
+    "IOS_DECO_ADVANCED_MODE_TOGGLE": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/DecorationHudIcons/DecoAdvancedModeToggle.png"
+    },
+    "IOS_DECO_CAMERA_DOWN": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/DecorationHudIcons/DecoCameraDown.png"
+    },
+    "IOS_DECO_CAMERA_UP": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/DecorationHudIcons/DecoCameraUp.png"
+    },
+    "IOS_ABILITY_0": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/XboxOneDPadDown_d.png"
+    },
+    "IOS_ABILITY_1": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/XboxOneDPadLeft_d.png"
+    },
+    "IOS_ABILITY_2": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/XboxOneDPadRight_d.png"
+    },
+    "IOS_ABILITY_3": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/XboxOneDPadUp_d.png"
+    },
+    "IOS_EXCALIBUR_ABILITY_1": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/Power04_d.png"
+    },
+    "IOS_EXCALIBUR_ABILITY_2": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/Power01_d.png"
+    },
+    "IOS_EXCALIBUR_ABILITY_3": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/Power03_d.png"
+    },
+    "IOS_EXCALIBUR_ABILITY_4": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/ExcaliburSwordOfDoom_d.png"
+    },
+    "IOS_MAG_ABILITY_1": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/MagPull_d.png"
+    },
+    "IOS_MAG_ABILITY_2": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/MagMagnetize_d.png"
+    },
+    "IOS_MAG_ABILITY_3": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/MagShieldRenew_d.png"
+    },
+    "IOS_MAG_ABILITY_4": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/MagCrush_d.png"
+    },
+    "IOS_VOLT_ABILITY_1": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/VoltShock_d.png"
+    },
+    "IOS_VOLT_ABILITY_2": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/VoltSuperSpeed_d.png"
+    },
+    "IOS_VOLT_ABILITY_3": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/VoltShield_d.png"
+    },
+    "IOS_VOLT_ABILITY_4": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/VoltOverLoad_d.png"
+    },
+    "IOS_DUVIRI_ABILITY_1": {},
+    "IOS_DUVIRI_ABILITY_2": {},
+    "IOS_DUVIRI_ABILITY_3": {},
+    "IOS_DUVIRI_ABILITY_4": {},
+    "IOS_ARCHWING_UP": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSArchwingUp_d.png"
+    },
+    "IOS_ARCHWING_DOWN": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSArchwingDown_d.png"
+    },
+    "CARGO": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/RailjackResourceCompactorIcon.png"
+    },
+    "AVIONICS_CAPACITY": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Miscellaneous/ModEnergyIcon.png"
+    },
+    "SALVAGE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Railjack/RailjackSalvageIcon.png"
+    },
+    "RAW_SALVAGE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Railjack/RailjackRawSalvageIcon.png"
+    },
+    "CREW_SHIP_FUSION_POINTS": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/Currency/AvionicEndo.png"
+    },
+    "RAILJACK": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/RailjackShipMarker.png"
+    },
+    "DT_IMPACT_SPACE": {},
+    "DT_PUNCTURE_SPACE": {},
+    "DT_SLASH_SPACE": {},
+    "DT_FIRE_SPACE": {},
+    "DT_FREEZE_SPACE": {},
+    "DT_ELECTRICITY_SPACE": {},
+    "DT_POISON_SPACE": {},
+    "MANUFACTURER_LAVAN": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Categories/IconManufacturerLavan.png"
+    },
+    "MANUFACTURER_VIDAR": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Categories/IconManufacturerVidar.png"
+    },
+    "MANUFACTURER_ZEKTI": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Categories/IconManufacturerZekti.png"
+    },
+    "ARCANE_CAN_REPROC": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/RefreshTimerIcon.png"
+    },
+    "OPLINK": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GameModes/OplinkIcon.png"
+    },
+    "GREED_BLACK": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/Currency/GreedTokenBlack.png"
+    },
+    "GREED_BLUE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/Currency/GreedTokenBlue.png"
+    },
+    "GREED_GOLD": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/Currency/GreedTokenGold.png"
+    },
+    "MOD_BOOSTER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/Boosters/ModDropChanceBoosterSmall.png"
+    },
+    "RESOURCE_BOOSTER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/Boosters/ResourceBoosterBlueSmall.png"
+    },
+    "HELMINTH": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/HelminthChrysalis.png"
+    },
+    "SON_TOKEN": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/Currency/Deimos/Tasks/EntratiTasksSonASmall.png"
+    },
+    "DAUGHTER_TOKEN": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/Currency/Deimos/Tasks/EntratiTasksDaughterASmall.png"
+    },
+    "MOTHER_TOKEN": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/Currency/Deimos/Tasks/EntratiTasksMotherASmall.png"
+    },
+    "FATHER_TOKEN": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/Currency/Deimos/Tasks/EntratiTasksFatherASmall.png"
+    },
+    "GRANDMOTHER_TOKEN": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/Currency/Deimos/Tasks/EntratiTasksGrandmotherASmall.png"
+    },
+    "OTAK_TOKEN": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/Currency/Deimos/Tasks/EntratiTasksOtakASmall.png"
+    },
+    "NECRALOID_STANDING": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/Resources/Deimos/NecraloidStandingCommon.png"
+    },
+    "UPGRADE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/MarketBundleUpgradeIcon.png"
+    },
+    "ORPHIX_ICON": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/MiniMapOrphix.png"
+    },
+    "MECH_EVENT_CURRENCY": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/Currency/MechModeEventCurrency.png"
+    },
+    "SPECTATE": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/RailjackTacticalMap/SpectateIcon.png"
+    },
+    "TELEPORT": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Categories/TeleportIcon.png"
+    },
+    "LEGENDARY": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/RarityIconLegendary.png"
+    },
+    "ELITE_CREW_MEMBER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Railjack/EliteCrewMemberIcon.png"
+    },
+    "OPTIONAL_OBJECTIVE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/OptionalObjective.png"
+    },
+    "RIVEN_CIPHER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/Gear/RivenCipher.png"
+    },
+    "LEGENDARY_RANK": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/LegendaryIcon.png"
+    },
+    "MOVE_Z_UP": {
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneJoystickLUp_d.png",
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/AnalogStickLTiltUp_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftDpadNorth.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchLStickUp_d.png",
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSStickUp_d.png"
+    },
+    "MOVE_Z_DOWN": {
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneJoystickLDown_d.png",
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/AnalogStickLTiltDown_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftDpadSouth.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchLStickDown_d.png",
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSStickDown_d.png"
+    },
+    "MOVE_X_LEFT": {
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneJoystickLLeft_d.png",
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/AnalogStickLTiltLeft_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftDpadWest.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchLStickLeft_d.png",
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSStickLeft_d.png"
+    },
+    "MOVE_X_RIGHT": {
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneJoystickLRight_d.png",
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/AnalogStickLTiltRight_d.png",
+        "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftDpadEast.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchLStickRight_d.png",
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSStickRight_d.png"
+    },
+    "MISSION_MARKER_GRN": {
+        "DIT_AUTO": "/Lotus/Interface/HudGraphics/GrineerHud/ObjectiveMarker.png"
+    },
+    "MISSION_MARKER_CRP": {
+        "DIT_AUTO": "/Lotus/Interface/HudGraphics/CorpusHud/ObjectiveMarker.png"
+    },
+    "MISSION_MARKER_TSH": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/TeshinObjectiveMarker.png"
+    },
+    "MISSION_MARKER_DRFT": {
+        "DIT_AUTO": "/Lotus/Interface/HudGraphics/DrifterHUD/ObjectiveMarker.png"
+    },
+    "BOOKEND_LEFT": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/Themes/HeadingDecoration.png"
+    },
+    "BOOKEND_RIGHT": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/Themes/HeadingDecorationRight.png"
+    },
+    "PRIME_TOKEN": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/Currency/PrimeToken.png"
+    },
+    "IN_PROGRESS": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/Dojo/DojoResearchProgress/ResearchInProgress_d.png"
+    },
+    "GILD": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/GildedIcon.png"
+    },
+    "MMF_WINDOWS": {
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/Windows_d.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png"
+    },
+    "MMF_XBOX": {
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneXboxGuide_d.png",
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png"
+    },
+    "MMF_PLAYSTATION": {
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PlaystationIcon_d.png",
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png"
+    },
+    "MMF_SWITCH": {
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/NintendoSwitch_d.png",
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png"
+    },
+    "MMF_MOBILE": {
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/AppleLogo_d.png"
+    },
+    "CROSS_PLAY": {
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png"
+    },
+    "SHARD_RED_SIMPLE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/ArchonAmarIcon.png"
+    },
+    "SHARD_BLUE_SIMPLE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/ArchonBorealIcon.png"
+    },
+    "SHARD_YELLOW_SIMPLE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/ArchonNiraIcon.png"
+    },
+    "SHARD_GREEN_SIMPLE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Miscellaneous/ArchonCrystalGreenIcon.png"
+    },
+    "SHARD_ORANGE_SIMPLE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Miscellaneous/ArchonCrystalOrangeIcon.png"
+    },
+    "SHARD_VIOLET_SIMPLE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Miscellaneous/ArchonCrystalPurpleIcon.png"
+    },
+    "ARMOR_SOLID": {
+        "DIT_AUTO": "/Lotus/Interface/HudGraphics/Armor/ShieldSolid.png"
+    },
+    "ARMOR_BROKEN": {
+        "DIT_AUTO": "/Lotus/Interface/HudGraphics/Armor/ShieldBroken.png"
+    },
+    "ARMOR_DISABLED": {
+        "DIT_AUTO": "/Lotus/Interface/HudGraphics/Armor/ShieldDisabled.png"
+    },
+    "ABANDON_X": {
+        "DIT_AUTO": "/Lotus/Interface/HudGraphics/Duviri/AbandonMsg/AbandonXStroke.png"
+    },
+    "ABANDON_X_BACKER": {
+        "DIT_AUTO": "/Lotus/Interface/HudGraphics/Duviri/AbandonMsg/AbandonXBacker.png"
+    },
+    "PLUS": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/AddSlotIcon.png"
+    },
+    "AFFINITY_SHARE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/ModBuffIndicators/Affinity.png"
+    },
+    "PASSIVE_ABILITY": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Abilities/PassiveAbilityIcon.png"
+    },
+    "SOMACHORD": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/MiniMapJukeboxFragment.png"
+    },
+    "DUVIRI_UNBLOCKABLE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Melee/UnblockableAttack.png"
+    },
+    "DUVIRI_INTERRUPTABLE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Melee/VulnToPistolShot.png"
+    },
+    "DUVIRI_HIDDEN_CHEST": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/Duviri/DuviriHiddenChestIcon.png"
+    },
+    "DT_IMPACT_OUTLINE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Hud/Impact_d.png"
+    },
+    "DT_SLASH_OUTLINE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Hud/Slash_d.png"
+    },
+    "DT_PUNCTURE_OUTLINE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Hud/Puncture_d.png"
+    },
+    "DT_FIRE_OUTLINE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Hud/Heat_d.png"
+    },
+    "DT_FREEZE_OUTLINE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Hud/Cold_d.png"
+    },
+    "DT_ELECTRICITY_OUTLINE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Hud/Electricity_d.png"
+    },
+    "DT_POISON_OUTLINE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Hud/Poison_d.png"
+    },
+    "DT_EXPLOSION_OUTLINE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Hud/Blast_d.png"
+    },
+    "DT_RADIATION_OUTLINE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Hud/Radiation_d.png"
+    },
+    "DT_GAS_OUTLINE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Hud/Gas_d.png"
+    },
+    "DT_MAGNETIC_OUTLINE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Hud/Magnetic_d.png"
+    },
+    "DT_VIRAL_OUTLINE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Hud/Viral_d.png"
+    },
+    "DT_CORROSIVE_OUTLINE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Hud/Corrosive_d.png"
+    },
+    "SHIELD_GAIN": {
+        "DIT_AUTO": "/Lotus/Interface/HudGraphics/Heal/Shield.png"
+    },
+    "OVERGUARD_GAIN": {
+        "DIT_AUTO": "/Lotus/Interface/HudGraphics/Heal/Overguard.png"
+    },
+    "CRITICAL_AMP": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Hud/Exclaim_d.png"
+    },
+    "LOTUS": {
+        "DIT_AUTO": "/Lotus/Interface/Backgrounds/SpringFestival/LotusLogo.png"
+    },
+    "RECOVERY_ARROW": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/RecoveryArrowDeux_d.png"
+    },
+    "DISTILL_POINTS": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/MiscItems/DistillPoints.png"
+    },
+    "CATEGORY_WARFRAME": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Categories/IconWarframe_256.png"
+    },
+    "CATEGORY_RIFLE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Categories/IconPrimaryWeaponRifle.png"
+    },
+    "CATEGORY_SHOTGUN": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Categories/IconPrimaryWeaponShotgun.png"
+    },
+    "CATEGORY_BOW": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Categories/IconPrimaryWeaponBow.png"
+    },
+    "CATEGORY_MODULAR": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Categories/IconModularItem256.png"
+    },
+    "CATEGORY_AMP": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Categories/IconAmp_256.png"
+    },
+    "CATEGORY_MELEE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Categories/IconMelee_256.png"
+    },
+    "CATEGORY_PISTOL": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Categories/IconPistol_256.png"
+    },
+    "CATEGORY_OPERATOR": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Categories/IconOperatorHead256.png"
+    },
+    "IOS_TOUCH_LEFT_SIDE": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSTouchLeftLow.png"
+    },
+    "IOS_TOUCH_RIGHT_SIDE": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSTouchRightLow.png"
+    },
+    "GRENADE_ICON": {
+        "DIT_IOS": "/Lotus/Interface/HudGraphics/GrineerHud/GrenadeIcon.png"
+    },
+    "COVER_ICON": {
+        "DIT_IOS": "/Lotus/Interface/Graphics/GrineerHUD/GrineerHUDCoverIcon.png"
+    },
+    "MOA_BREACHER": {
+        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/CorpusDeployMoa.png"
+    },
+    "MOA_DRONE": {
+        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/CorpusDeployMoaDrone.png"
+    },
+    "MOA_GUN": {
+        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/CorpusDeployMoaGun.png"
+    },
+    "IOS_SWITCH_WEAPON": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSWeaponSwitch.png"
+    },
+    "TESHIN_COLD": {
+        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/TeshinAbilitiesCold.png"
+    },
+    "TESHIN_ELECTRICITY": {
+        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/TeshinAbilitiesElectricity.png"
+    },
+    "TESHIN_HEAT": {
+        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/TeshinAbilitiesHeat.png"
+    },
+    "Eximus_Burden": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/EntratiBurdens/Hud/BurdenHudIcon01.png"
+    },
+    "Void_Implosion_Burden": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/EntratiBurdens/Hud/BurdenHudIcon02.png"
+    },
+    "Movement_Damage_Burden": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/EntratiBurdens/Hud/BurdenHudIcon03.png"
+    },
+    "Bleed_Burden": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/EntratiBurdens/Hud/BurdenHudIcon04.png"
+    },
+    "Electric_Hazard_Burden": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/EntratiBurdens/Hud/BurdenHudIcon05.png"
+    },
+    "Damage_On_Skill_Burden": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/EntratiBurdens/Hud/BurdenHudIcon06.png"
+    },
+    "Energy_Drain_Burden": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/EntratiBurdens/Hud/BurdenHudIcon07.png"
+    },
+    "Vampiric_Hunger_Burden": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/EntratiBurdens/Hud/BurdenHudIcon09.png"
+    },
+    "MINI_DIAMOND": {}
+}
