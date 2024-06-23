@@ -538,8 +538,12 @@
     "BIG_PROBLEM": {
         "DIT_AUTO": "/Lotus/Interface/Icons/ProblemIcon64.png"
     },
-    "CONCLAVE": {},
-    "UNIVERSAL": {},
+    "CONCLAVE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Conclave_d.png"
+    },
+    "UNIVERSAL": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/UniversalIcon_d.png"
+    },
     "MOD_SELECTOR": {
         "DIT_AUTO": "/Lotus/Interface/Graphics/Mods/SelectedSlotIcon_d.png"
     },
@@ -610,62 +614,90 @@
         "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/PS4motion_press_d.png",
         "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftClick.png"
     },
-    "DT_IMPACT": {},
+    "DT_IMPACT": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Impact_d.png"
+    },
     "DT_IMPACT_COLOR": {
         "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/ImpactSymbol.png"
     },
-    "DT_SLASH": {},
+    "DT_SLASH": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Slash_d.png"
+    },
     "DT_SLASH_COLOR": {
         "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/SlashSymbol.png"
     },
-    "DT_PUNCTURE": {},
+    "DT_PUNCTURE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Puncture_d.png"
+    },
     "DT_PUNCTURE_COLOR": {
         "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/PunctureSymbol.png"
     },
-    "DT_FIRE": {},
+    "DT_FIRE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Heat_d.png"
+    },
     "DT_FIRE_COLOR": {
         "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/HeatSymbol.png"
     },
-    "DT_FREEZE": {},
+    "DT_FREEZE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Cold_d.png"
+    },
     "DT_FREEZE_COLOR": {
         "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/ColdSymbol.png"
     },
-    "DT_ELECTRICITY": {},
+    "DT_ELECTRICITY": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Electricity_d.png"
+    },
     "DT_ELECTRICITY_COLOR": {
         "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/ElectricitySymbol.png"
     },
-    "DT_POISON": {},
+    "DT_POISON": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Poison_d.png"
+    },
     "DT_POISON_COLOR": {
         "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/ToxinSymbol.png"
     },
-    "DT_EXPLOSION": {},
+    "DT_EXPLOSION": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Blast_d.png"
+    },
     "DT_EXPLOSION_COLOR": {
         "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/BlastSymbol.png"
     },
-    "DT_RADIATION": {},
+    "DT_RADIATION": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Radiation_d.png"
+    },
     "DT_RADIATION_COLOR": {
         "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/RadiationSymbol.png"
     },
-    "DT_GAS": {},
+    "DT_GAS": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Gas_d.png"
+    },
     "DT_GAS_COLOR": {
         "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/GasSymbol.png"
     },
-    "DT_MAGNETIC": {},
+    "DT_MAGNETIC": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Magnetic_d.png"
+    },
     "DT_MAGNETIC_COLOR": {
         "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/MagneticSymbol.png"
     },
-    "DT_VIRAL": {},
+    "DT_VIRAL": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Viral_d.png"
+    },
     "DT_VIRAL_COLOR": {
         "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/ViralSymbol.png"
     },
-    "DT_CORROSIVE": {},
+    "DT_CORROSIVE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Corrosive_d.png"
+    },
     "DT_CORROSIVE_COLOR": {
         "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/CorrosiveSymbol.png"
     },
     "DT_SENTIENT": {
         "DIT_AUTO": "/Lotus/Interface/Icons/SentientFactionIcon.png"
     },
-    "DT_FINISHER": {},
+    "DT_FINISHER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Finisher_d.png"
+    },
     "STAT_CORROSIVE": {
         "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/CorrosiveSymbol.png"
     },
@@ -789,9 +821,15 @@
     "POLARITY_ANY": {
         "DIT_AUTO": "/Lotus/Interface/PolarityUniversal.png"
     },
-    "CHECKMARK": {},
-    "CHECKMARK_OUTLINE": {},
-    "CHECKMARK_FAIL": {},
+    "CHECKMARK": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Check_d.png"
+    },
+    "CHECKMARK_OUTLINE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/CheckOutline_d.png"
+    },
+    "CHECKMARK_FAIL": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/CheckFailWhite_d.png"
+    },
     "CHECKMARK_NO_BORDER": {
         "DIT_AUTO": "/Lotus/Interface/Icons/Checkmark.png"
     },
@@ -803,7 +841,9 @@
     "MISSION_MARKER_GENERIC": {
         "DIT_AUTO": "/Lotus/Interface/Icons/Markers/MiniMapObjective.png"
     },
-    "MISSION_MARKER_EXTRACTION": {},
+    "MISSION_MARKER_EXTRACTION": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/Greyscale/MiniMapExtraction.png"
+    },
     "MISSION_MARKER_LOOT": {
         "DIT_AUTO": "/Lotus/Interface/Icons/Markers/Loot.png"
     },
@@ -996,12 +1036,22 @@
     "ACCOLADE_RANK_3": {
         "DIT_AUTO": "/Lotus/Interface/Icons/GeneticLab/TemperamentStealth.png"
     },
-    "CHECKER_REALLY_SMALL": {},
+    "CHECKER_REALLY_SMALL": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/CheckerBoard_d.png"
+    },
     "": {},
-    "CHECKER_SMALL": {},
-    "CHECKER_MEDIUM": {},
-    "CHECKER_BIG": {},
-    "CHECKER_REALLY_BIG": {},
+    "CHECKER_SMALL": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/CheckerBoard_d.png"
+    },
+    "CHECKER_MEDIUM": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/CheckerBoard_d.png"
+    },
+    "CHECKER_BIG": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/CheckerBoard_d.png"
+    },
+    "CHECKER_REALLY_BIG": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/CheckerBoard_d.png"
+    },
     "GAMEPAD_GRIP_LEFT": {
         "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/GripLeft.png"
     },
@@ -1156,7 +1206,9 @@
     "NPC_COLONIST_MARKER": {
         "DIT_AUTO": "/Lotus/Interface/Icons/Markers/UserIcon.png"
     },
-    "CLAN_XP": {},
+    "CLAN_XP": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/ClanXpIcon_d.png"
+    },
     "RANK_0": {
         "DIT_AUTO": "/Lotus/Interface/Icons/MasteryRanks/Rank00Unranked.png"
     },
@@ -1324,7 +1376,9 @@
         "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_Home_d.png",
         "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/ButtonSteamOff.png"
     },
-    "AMBULAS_DATA": {},
+    "AMBULAS_DATA": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/AmbulasDataFragments_d.png"
+    },
     "MOD_SET_FILLED_NOTCH": {
         "DIT_AUTO": "/Lotus/Interface/Graphics/Mods/FilledNotch.png"
     },
@@ -1367,8 +1421,12 @@
     "MISSION_MARKER_DEFEND": {
         "DIT_AUTO": "/Lotus/Interface/Icons/Markers/MiniMapDefenseObjectiveMarker.png"
     },
-    "DT_RADIANT": {},
-    "INFINITY": {},
+    "DT_RADIANT": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Void_d.png"
+    },
+    "INFINITY": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Infinity_d.png"
+    },
     "OWNED": {
         "DIT_AUTO": "/Lotus/Interface/Icons/OwnedIcon.png"
     },
@@ -1399,7 +1457,9 @@
     "WEEKLY": {
         "DIT_AUTO": "/Lotus/Interface/Icons/WeeklyChallengeIcon.png"
     },
-    "NIGHTWAVE_PRESTIGE": {},
+    "NIGHTWAVE_PRESTIGE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Syndicates/RadioLegionPrestige_d.png"
+    },
     "ENERGY": {
         "DIT_AUTO": "/Lotus/Interface/Graphics/Abilities/AbilityIcon/Energy_d.png"
     },
@@ -1589,10 +1649,18 @@
     "IOS_VOLT_ABILITY_4": {
         "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/VoltOverLoad_d.png"
     },
-    "IOS_DUVIRI_ABILITY_1": {},
-    "IOS_DUVIRI_ABILITY_2": {},
-    "IOS_DUVIRI_ABILITY_3": {},
-    "IOS_DUVIRI_ABILITY_4": {},
+    "IOS_DUVIRI_ABILITY_1": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/DrifterAbilityIconHorseSummon_d.png"
+    },
+    "IOS_DUVIRI_ABILITY_2": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/DrifterAbilityIconRadar_d.png"
+    },
+    "IOS_DUVIRI_ABILITY_3": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/DrifterAbilityIconHealth_d.png"
+    },
+    "IOS_DUVIRI_ABILITY_4": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/DrifterAbilityIconSmokescreen_d.png"
+    },
     "IOS_ARCHWING_UP": {
         "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSArchwingUp_d.png"
     },
@@ -1617,13 +1685,27 @@
     "RAILJACK": {
         "DIT_AUTO": "/Lotus/Interface/Icons/Markers/RailjackShipMarker.png"
     },
-    "DT_IMPACT_SPACE": {},
-    "DT_PUNCTURE_SPACE": {},
-    "DT_SLASH_SPACE": {},
-    "DT_FIRE_SPACE": {},
-    "DT_FREEZE_SPACE": {},
-    "DT_ELECTRICITY_SPACE": {},
-    "DT_POISON_SPACE": {},
+    "DT_IMPACT_SPACE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Railjack/Ballistic_d.png"
+    },
+    "DT_PUNCTURE_SPACE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Railjack/Plasma_d.png"
+    },
+    "DT_SLASH_SPACE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Railjack/Energy_d.png"
+    },
+    "DT_FIRE_SPACE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Railjack/Incendiary_d.png"
+    },
+    "DT_FREEZE_SPACE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Cold_d.png"
+    },
+    "DT_ELECTRICITY_SPACE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Railjack/Ionic_d.png"
+    },
+    "DT_POISON_SPACE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Railjack/Chem_d.png"
+    },
     "MANUFACTURER_LAVAN": {
         "DIT_AUTO": "/Lotus/Interface/Icons/Categories/IconManufacturerLavan.png"
     },
@@ -1996,5 +2078,7 @@
     "Vampiric_Hunger_Burden": {
         "DIT_AUTO": "/Lotus/Interface/Icons/EntratiBurdens/Hud/BurdenHudIcon09.png"
     },
-    "MINI_DIAMOND": {}
+    "MINI_DIAMOND": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/PipDiamond_d.png"
+    }
 }
