@@ -2,9 +2,9 @@
 
 The most complete data source for all your Warframe needs and interests. Contains everything missing in Public Export and more.
 
-## Localizations
+## Localisations
 
-Data and localizations are entirely split here (into Export\*.json and dict.\*.json, respectively). This should make it trivial to handle localizations in your projects without tons of duplicated data. Unfortunately, this may make it difficult to manually browse the data; however, you can type whatever you're looking for into [omni.wf](https://omni.wf/), which is uses this data and [is open-source](https://github.com/calamity-inc/omni.wf).
+Data and localisations are entirely split here (into Export\*.json and dict.\*.json, respectively). This should make it trivial to handle localizations in your projects without tons of duplicated data. Unfortunately, this may make it difficult to manually browse the data; however, you can type whatever you're looking for into [omni.wf](https://omni.wf/), which is uses this data and [is open-source](https://github.com/calamity-inc/omni.wf).
 
 ## Images
 
@@ -29,7 +29,7 @@ Most exports here have an `icon` field, which contains a path, e.g. `/Lotus/Inte
 - There are some special tables where rewards have a `rarity` instead of a `probability`. These cases are void relics and archon hunt shard rewards. In the former case, the probabilities depend on the [relic refinement](samples/relic-chances.pluto).
 
 ### ExportUpgrades
-- Several mods share the same name, e.g. for "Vitality" and "Pressure Point" there's 3 mods each. Some of these might be [flawed variants](https://warframe.fandom.com/wiki/Flawed_Mods), but others might simply be forgotten development artifacts. These can be avoided by checking that `isStarter` and `isFrivilous` are both absent.
+- Several mods share the same name, e.g. for "Vitality" and "Pressure Point" there's 3 mods each. Some of these might be [flawed variants](https://warframe.fandom.com/wiki/Flawed_Mods), but others might simply be forgotten development artefacts. These can be avoided by checking that `isStarter` and `isFrivilous` are both absent.
 - Challenge complications are combined using `/Lotus/Language/Challenges/Challenge_Complication_Combiner`.
 
 ### ExportWarframes
