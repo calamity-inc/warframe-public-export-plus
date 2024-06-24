@@ -508,7 +508,8 @@
         "description": "/Lotus/Language/Items/AncientHealerBallDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Gear/Spawners/BallSpawnerAncientHealer.png",
         "codexSecret": false,
-        "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        "parentName": "/Lotus/Types/Game/SummonNpcItem",
+        "purchaseQuantity": 5
     },
     "/Lotus/Types/Restoratives/Consumable/AssassinBait": {
         "name": "/Lotus/Language/Items/AssassinBaitName",
@@ -543,7 +544,8 @@
         "description": "/Lotus/Language/Equipment/BaroFireworksCrateDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Consumables/BaroFireworks.png",
         "codexSecret": false,
-        "parentName": "/Lotus/Types/Game/Restorative"
+        "parentName": "/Lotus/Types/Game/Restorative",
+        "purchaseQuantity": 10
     },
     "/Lotus/Types/Restoratives/Consumable/BaseSpearFishingSpear": {
         "name": "/Lotus/Language/Fish/BaseSpearFishingSpear",
@@ -578,35 +580,40 @@
         "description": "/Lotus/Language/Items/ChargerBallDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Gear/Spawners/BallSpawnerCharger.png",
         "codexSecret": false,
-        "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        "parentName": "/Lotus/Types/Game/SummonNpcItem",
+        "purchaseQuantity": 5
     },
     "/Lotus/Types/Restoratives/Consumable/ClemBall": {
         "name": "/Lotus/Language/Items/ClemBall",
         "description": "/Lotus/Language/Items/ClemBallDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Gear/Spawners/BallSpawnerClem.png",
         "codexSecret": false,
-        "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        "parentName": "/Lotus/Types/Game/SummonNpcItem",
+        "purchaseQuantity": 5
     },
     "/Lotus/Types/Restoratives/Consumable/CorruptedBombardBall": {
         "name": "/Lotus/Language/Equipment/CorruptedBombardBallName",
         "description": "/Lotus/Language/Equipment/CorruptedBombardBallDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Gear/Spawners/BallSpawnerCorruptedBombard.png",
         "codexSecret": false,
-        "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        "parentName": "/Lotus/Types/Game/SummonNpcItem",
+        "purchaseQuantity": 5
     },
     "/Lotus/Types/Restoratives/Consumable/CorruptedHeavyGunnerBall": {
         "name": "/Lotus/Language/Equipment/CorruptedHeavyGunnerBallName",
         "description": "/Lotus/Language/Equipment/CorruptedHeavyGunnerBallDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Gear/Spawners/BallSpawnerCorruptedHeavyGunner.png",
         "codexSecret": false,
-        "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        "parentName": "/Lotus/Types/Game/SummonNpcItem",
+        "purchaseQuantity": 5
     },
     "/Lotus/Types/Restoratives/Consumable/CorruptedLancerBall": {
         "name": "/Lotus/Language/Items/CorruptedLancerBall",
         "description": "/Lotus/Language/Items/CorruptedLancerBallDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Gear/Spawners/BallSpawnerCorruptedLancer.png",
         "codexSecret": false,
-        "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        "parentName": "/Lotus/Types/Game/SummonNpcItem",
+        "purchaseQuantity": 5
     },
     "/Lotus/Types/Restoratives/Consumable/CreditChipLarge": {
         "name": "/Lotus/Language/Items/CreditChipLargeName",
@@ -662,7 +669,8 @@
         "description": "/Lotus/Language/Items/GlyphDesc",
         "icon": "/Lotus/Interface/Icons/Player/LotusSymbol.png",
         "codexSecret": false,
-        "parentName": "/Lotus/Types/Game/Restorative"
+        "parentName": "/Lotus/Types/Game/Restorative",
+        "purchaseQuantity": 100
     },
     "/Lotus/Types/Restoratives/Consumable/GlyphConsumableNoCharges": {
         "name": "/Lotus/Language/Items/GlyphName",
@@ -683,14 +691,16 @@
         "description": "/Lotus/Language/Items/HunterToolDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Gear/HunterTrap.png",
         "codexSecret": false,
-        "parentName": "/Lotus/Types/Game/Restorative"
+        "parentName": "/Lotus/Types/Game/Restorative",
+        "purchaseQuantity": 10
     },
     "/Lotus/Types/Restoratives/Consumable/InfestedBaitBall": {
         "name": "/Lotus/Language/Items/InfestedBaitBall",
         "description": "/Lotus/Language/Items/InfestedBaitBallDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Gear/Spawners/BallSpawnerInfestedBait.png",
         "codexSecret": false,
-        "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        "parentName": "/Lotus/Types/Game/SummonNpcItem",
+        "purchaseQuantity": 50
     },
     "/Lotus/Types/Restoratives/Consumable/InfestedFishingSpearA": {
         "name": "/Lotus/Language/Fish/InfSpearFishingSpear",
@@ -711,7 +721,8 @@
         "description": "/Lotus/Language/Items/InfestedIrradiatedBaitBallDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Gear/Spawners/BallSpawnerInfestedBait.png",
         "codexSecret": false,
-        "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        "parentName": "/Lotus/Types/Game/SummonNpcItem",
+        "purchaseQuantity": 50
     },
     "/Lotus/Types/Restoratives/Consumable/InfestedSyringe": {
         "name": "/Lotus/Language/Game/InfestedSyringeName",
@@ -725,7 +736,8 @@
         "description": "/Lotus/Language/Items/LibraryScannerDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Gear/LibraryScanner.png",
         "codexSecret": false,
-        "parentName": "/Lotus/Types/Game/Restorative"
+        "parentName": "/Lotus/Types/Game/Restorative",
+        "purchaseQuantity": 25
     },
     "/Lotus/Types/Restoratives/Consumable/MacheteWomanBall": {
         "name": "/Lotus/Language/Items/MacheteWomanBall",
@@ -774,7 +786,8 @@
         "description": "/Lotus/Language/Items/MoaBallDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Gear/Spawners/BallSpawnerMoa.png",
         "codexSecret": false,
-        "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        "parentName": "/Lotus/Types/Game/SummonNpcItem",
+        "purchaseQuantity": 5
     },
     "/Lotus/Types/Restoratives/Consumable/NemesisBait": {
         "name": "/Lotus/Language/Kingpins/NemesisBaitName",
@@ -830,21 +843,24 @@
         "description": "/Lotus/Language/Items/RollerBallDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Gear/Spawners/BallSpawnerRoller.png",
         "codexSecret": false,
-        "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        "parentName": "/Lotus/Types/Game/SummonNpcItem",
+        "purchaseQuantity": 5
     },
     "/Lotus/Types/Restoratives/Consumable/Scanner": {
         "name": "/Lotus/Language/Items/ScannerName",
         "description": "/Lotus/Language/Items/ScannerDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Gear/CodexScanner.png",
         "codexSecret": false,
-        "parentName": "/Lotus/Types/Game/Restorative"
+        "parentName": "/Lotus/Types/Game/Restorative",
+        "purchaseQuantity": 25
     },
     "/Lotus/Types/Restoratives/Consumable/ShieldDroneBall": {
         "name": "/Lotus/Language/Items/ShieldDroneBall",
         "description": "/Lotus/Language/Items/ShieldDroneBallDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Gear/Spawners/BallSpawnerShieldDrone.png",
         "codexSecret": false,
-        "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        "parentName": "/Lotus/Types/Game/SummonNpcItem",
+        "purchaseQuantity": 5
     },
     "/Lotus/Types/Restoratives/Consumable/SilverSpectre": {
         "name": "/Lotus/Language/Items/SilverSpectre",
@@ -858,7 +874,8 @@
         "description": "/Lotus/Language/Consumables/SkateBallDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Gear/BallSpawnerSkate.png",
         "codexSecret": false,
-        "parentName": "/Lotus/Types/Game/SummonNpcItem"
+        "parentName": "/Lotus/Types/Game/SummonNpcItem",
+        "purchaseQuantity": 5
     },
     "/Lotus/Types/Restoratives/Consumable/SpearFishingSpear": {
         "name": "/Lotus/Language/Fish/SpearFishingSpear",

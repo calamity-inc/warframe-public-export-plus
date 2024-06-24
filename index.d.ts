@@ -178,11 +178,12 @@ export interface IFusionBundle {
 }
 
 export interface IGear {
-    name:        string;
-    description: string;
-    icon:        string;
-    codexSecret: boolean;
-    parentName:  string;
+    name:              string;
+    description:       string;
+    icon:              string;
+    codexSecret:       boolean;
+    parentName:        string;
+    purchaseQuantity?: number;
 }
 
 export interface IImage {
