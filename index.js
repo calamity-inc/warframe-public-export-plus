@@ -45,6 +45,7 @@ PublicExportPlus.ExportSentinels = require("./ExportSentinels.json");
 PublicExportPlus.ExportSyndicates = require("./ExportSyndicates.json");
 PublicExportPlus.ExportTextIcons = require("./ExportTextIcons.json");
 PublicExportPlus.ExportUpgrades = require("./ExportUpgrades.json");
+PublicExportPlus.ExportVendors = require("./ExportVendors.json");
 PublicExportPlus.ExportWarframes = require("./ExportWarframes.json");
 PublicExportPlus.ExportWeapons = require("./ExportWeapons.json");
 
