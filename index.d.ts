@@ -40,6 +40,7 @@ export declare const ExportRelics: Record<string, IRelic>;
 export declare const ExportResources: Record<string, IResource>;
 export declare const ExportRewards: Record<string, TMissionDeck>;
 export declare const ExportSentinels: Record<string, ISentinel>;
+export declare const ExportSyndicates: Record<string, ISyndicate>;
 export declare const ExportTextIcons: Record<string, ITextIcon>;
 export declare const ExportUpgrades: Record<string, IUpgrade>;
 export declare const ExportWarframes: Record<string, IPowersuit>;
@@ -152,7 +153,11 @@ export interface IFlavourItem {
     base:              "/EE/Types/Engine/UIBackground" | "/EE/Types/Engine/UICursor" | "/EE/Types/Engine/UISounds" | "/Lotus/Types/Game/UIStyle" | "/Lotus/Types/Game/ActionFigureDiorama" | "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColor" | "/Lotus/Types/Game/NotePack" | "/Lotus/Types/Game/PoseSet" | "/Lotus/Types/Game/QuartersWallTattoo" | "/EE/Types/Engine/UIFlavourItem" | "/Lotus/Types/Items/Emotes/Emote" | "/Lotus/Types/Items/VideoWallBackdropItem" | "/Lotus/Types/Items/VideoWallSoundscapeItem" | "/Lotus/Types/Items/AvatarImageItem" | "/Lotus/Types/Items/ColorPickerItem" | "/Lotus/Types/Items/ShipExteriorSkinItem" | "/Lotus/Types/Items/ShipAttachmentItem";
     codexSecret:       boolean;
     excludeFromCodex?: boolean;
-    hexColours?:       { value: string }[];
+    hexColours?:       IColour[];
+}
+
+export interface IColour {
+    value: string;
 }
 
 export interface IFocusUpgrade {
@@ -385,6 +390,24 @@ export interface ISentinel {
     description:       string;
     productCategory:   "SpecialItems" | "KubrowPets" | "Sentinels";
     defaultWeapon?:    string;
+}
+
+export interface ISyndicate {
+    name: string;
+    icon: string;
+    description?: string;
+    colour: IColour;
+    titles?: {
+        level: number;
+        name: string;
+        icon?: string;
+        description?: string;
+    }[];
+    medallions?: {
+        itemType: string;
+        standing: number;
+    }[];
+    medallionsCappedByDailyLimit?: boolean;
 }
 
 export interface ITextIcon {
