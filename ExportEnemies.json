@@ -12213,6 +12213,15 @@
             "armor": 500,
             "shield": 0
         },
+        "/Lotus/Types/Enemies/Orokin/Entrati/EntratiTech/Thanotech/ThanoTechAvatar": {
+            "name": "/Lotus/Language/InfestedMicroplanet/DeimosBoneWidow",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Mech/ThanoMech.png",
+            "faction": "MITW",
+            "baseLevel": 1,
+            "health": 3800,
+            "armor": 500,
+            "shield": 0
+        },
         "/Lotus/Types/Enemies/Orokin/Entrati/EntratiTech/Thanotech/ThanoTechDormantAvatar": {
             "name": "/Lotus/Language/Necromech/FallenThanoTechName",
             "faction": "MITW",
@@ -14195,14 +14204,13 @@
             "droptable": "/Lotus/Types/DropTables/SpaceDropTables/SentientRamsledEarthDropTable"
         },
         "/Lotus/Types/Enemies/Stalker/JadeStalkerAvatar": {
-            "name": "/Lotus/Language/Game/Stalker",
-            "icon": "/Lotus/Interface/Icons/Npcs/Stalker_d.png",
+            "name": "/Lotus/Language/JadeShadows/StalkerThree",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGear.png",
             "faction": "Stalker",
             "baseLevel": 1,
             "health": 450,
             "armor": 300,
-            "shield": 100,
-            "droptable": "/Lotus/Types/DropTables/StalkerAgentDropTable"
+            "shield": 100
         },
         "/Lotus/Types/Enemies/Stalker/LisetStalkerAvatar": {
             "name": "/Lotus/Language/Game/StalkerTwo",
