@@ -43218,6 +43218,292 @@
             }
         ]
     },
+    "/Lotus/Types/Friendly/Pets/CreaturePets/LotusGildCreaturePetBlueprint": {
+        "resultType": "/Lotus/Types/Friendly/Pets/CreaturePets/VizierPredatorKubrowPetPowerSuit",
+        "buildPrice": 0,
+        "buildTime": 82800,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/Deimos/EntratiFragmentCommonB",
+                "ItemCount": 10
+            }
+        ],
+        "secretIngredientAction": "SIA_GILD_WEAPON",
+        "secretIngredients": []
+    },
+    "/Lotus/Types/Friendly/Pets/MoaPets/LotusGildMoaPetBlueprint": {
+        "resultType": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetPowerSuit",
+        "buildPrice": 0,
+        "buildTime": 82800,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/Solaris/DebtTokenA",
+                "ItemCount": 10
+            }
+        ],
+        "secretIngredientAction": "SIA_GILD_WEAPON",
+        "secretIngredients": []
+    },
+    "/Lotus/Types/Game/CatbrowPet/CatbrowPetRecipe": {
+        "resultType": "/Lotus/Types/Game/CatbrowPet/MirrorCatbrowPetPowerSuit",
+        "buildPrice": 0,
+        "buildTime": 82800,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Game/KubrowPet/EggHatcher",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "CatbrowGeneticSignature",
+                "ItemCount": 10
+            }
+        ],
+        "secretIngredientAction": "SIA_CREATE_KUBROW",
+        "secretIngredients": [
+            {
+                "ItemType": "MirrorCatbrowPetPowerSuit",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "CheshireCatbrowPetPowerSuit",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "VampireCatbrowPetPowerSuit",
+                "ItemCount": 1
+            }
+        ]
+    },
+    "/Lotus/Types/Game/CatbrowPet/CatbrowPetUpgradedRecipe": {
+        "resultType": "/Lotus/Types/Game/CatbrowPet/MirrorCatbrowPetPowerSuit",
+        "buildPrice": 0,
+        "buildTime": 82800,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Game/KubrowPet/EggHatcher",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "CatbrowGeneticSignature",
+                "ItemCount": 10
+            }
+        ],
+        "secretIngredientAction": "SIA_CREATE_KUBROW",
+        "secretIngredients": [
+            {
+                "ItemType": "MirrorCatbrowPetPowerSuit",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "CheshireCatbrowPetPowerSuit",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "VampireCatbrowPetPowerSuit",
+                "ItemCount": 1
+            }
+        ]
+    },
+    "/Lotus/Types/Game/KubrowPet/KubrowPetRecipe": {
+        "resultType": "/Lotus/Types/Game/KubrowPet/AdventurerKubrowPetPowerSuit",
+        "buildPrice": 0,
+        "buildTime": 82800,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "Eggs/KubrowPetEggItem",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "EggHatcher",
+                "ItemCount": 1
+            }
+        ],
+        "secretIngredientAction": "SIA_CREATE_KUBROW",
+        "secretIngredients": [
+            {
+                "ItemType": "AdventurerKubrowPetPowerSuit",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "FurtiveKubrowPetPowerSuit",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "GuardKubrowPetPowerSuit",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "HunterKubrowPetPowerSuit",
+                "ItemCount": 1
+            }
+        ]
+    },
+    "/Lotus/Types/Game/KubrowPet/KubrowPetUpgradedRecipe": {
+        "resultType": "/Lotus/Types/Game/KubrowPet/AdventurerKubrowPetPowerSuit",
+        "buildPrice": 0,
+        "buildTime": 82800,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "Eggs/KubrowPetEggItem",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "EggHatcher",
+                "ItemCount": 1
+            }
+        ],
+        "secretIngredientAction": "SIA_CREATE_KUBROW",
+        "secretIngredients": [
+            {
+                "ItemType": "AdventurerKubrowPetPowerSuit",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "FurtiveKubrowPetPowerSuit",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "GuardKubrowPetPowerSuit",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "HunterKubrowPetPowerSuit",
+                "ItemCount": 1
+            }
+        ]
+    },
+    "/Lotus/Types/Vehicles/Hoverboard/LotusGildHoverboardBlueprint": {
+        "resultType": "/Lotus/Types/Vehicles/Hoverboard/HoverboardSuit",
+        "buildPrice": 0,
+        "buildTime": 82800,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "secretIngredientAction": "SIA_GILD_WEAPON",
+        "secretIngredients": []
+    },
+    "/Lotus/Weapons/Ostron/Melee/LotusGildWeaponBlueprint": {
+        "resultType": "/Lotus/Weapons/Ostron/Melee/LotusModularWeapon",
+        "buildPrice": 0,
+        "buildTime": 82800,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Eidolon/Resources/CetusWispItem",
+                "ItemCount": 2
+            }
+        ],
+        "secretIngredientAction": "SIA_GILD_WEAPON",
+        "secretIngredients": []
+    },
+    "/Lotus/Weapons/Sentients/OperatorAmplifiers/OperatorGildAmpBlueprint": {
+        "resultType": "/Lotus/Weapons/Sentients/OperatorAmplifiers/OperatorAmpWeapon",
+        "buildPrice": 0,
+        "buildTime": 82800,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "secretIngredientAction": "SIA_GILD_WEAPON",
+        "secretIngredients": []
+    },
+    "/Lotus/Weapons/Sentients/OperatorAmplifiers/OperatorGildAmpFortunaBlueprint": {
+        "resultType": "/Lotus/Weapons/Sentients/OperatorAmplifiers/OperatorAmpWeapon",
+        "buildPrice": 0,
+        "buildTime": 82800,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "secretIngredientAction": "SIA_GILD_WEAPON",
+        "secretIngredients": []
+    },
+    "/Lotus/Weapons/SolarisUnited/LotusGildInfestedKitgunBlueprint": {
+        "resultType": "/Lotus/Weapons/Ostron/Melee/LotusModularWeapon",
+        "buildPrice": 0,
+        "buildTime": 82800,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/Deimos/EntratiFragmentUncommonA",
+                "ItemCount": 25
+            }
+        ],
+        "secretIngredientAction": "SIA_GILD_WEAPON",
+        "secretIngredients": []
+    },
+    "/Lotus/Weapons/SolarisUnited/LotusGildKitgunBlueprint": {
+        "resultType": "/Lotus/Weapons/Ostron/Melee/LotusModularWeapon",
+        "buildPrice": 0,
+        "buildTime": 82800,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/Solaris/DebtTokenB",
+                "ItemCount": 10
+            }
+        ],
+        "secretIngredientAction": "SIA_GILD_WEAPON",
+        "secretIngredients": []
+    },
     "/Lotus/Types/Recipes/AbilityOverrides/AlchemistVialBlueprint": {
         "resultType": "/Lotus/Powersuits/PowersuitAbilities/AlchemistVialAbility",
         "buildPrice": 0,
