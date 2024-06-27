@@ -254,6 +254,7 @@ export interface IKey {
 
 export interface IExportMisc {
     uniqueLevelCaps: Record<string, number>;
+    boosterDurations: Record<TRarity, number>;
 }
 
 export interface IModSet {
