@@ -15,6 +15,7 @@ export declare const dict_uk: Record<string, string>;
 export declare const dict_zh: Record<string, string>;
 
 export declare const ExportAbilities: Record<string, IAbility>;
+export declare const ExportAchievements: Record<string, IAchievement>;
 export declare const ExportArcanes: Record<string, IArcane>;
 export declare const ExportAvionics: Record<string, IAvionic>;
 export declare const ExportBoosterPacks: Record<string, IBoosterPack>;
@@ -56,6 +57,16 @@ export interface IAbility {
     icon:                       string;
     energyRequiredToActivate:   number;
     energyConsumptionOverTime?: number;
+}
+
+export interface IAchievement {
+    uniqueName:             string;
+    name?:                  string;
+    description?:           string;
+    icon?:                  string;
+    requiredCount?:         number;
+    progressIndicatorFreq?: number;
+    children?:              string[];
 }
 
 export interface IArcane {

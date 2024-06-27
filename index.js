@@ -17,6 +17,7 @@ PublicExportPlus.dict_uk = require("./dict.uk.json");
 PublicExportPlus.dict_zh = require("./dict.zh.json");
 
 PublicExportPlus.ExportAbilities = require("./ExportAbilities.json");
+PublicExportPlus.ExportAchievements = require("./ExportAchievements.json");
 PublicExportPlus.ExportArcanes = require("./ExportArcanes.json");
 PublicExportPlus.ExportAvionics = require("./ExportAvionics.json");
 PublicExportPlus.ExportBoosterPacks = require("./ExportBoosterPacks.json");

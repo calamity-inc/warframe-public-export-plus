@@ -1,0 +1,1849 @@
+{
+    "Own1Sentinel": {
+        "uniqueName": "/Lotus/Types/Challenges/Own1Sentinel",
+        "name": "/Lotus/Language/Challenges/Challenge_Own1Sentinel_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Own1Sentinel_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/EvenATennoNeedsASidekick.png"
+    },
+    "WarframeRank2": {
+        "uniqueName": "/Lotus/Types/Challenges/WarframeRank2",
+        "name": "/Lotus/Language/Challenges/Challenge_WarframeRank2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_WarframeRank2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/NoLongerARookie.png"
+    },
+    "Own2Warframes": {
+        "uniqueName": "/Lotus/Types/Challenges/Own2Warframes",
+        "name": "/Lotus/Language/Challenges/Challenge_Own2Warframes_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Own2Warframes_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/TwoIsBetterThanOne.png"
+    },
+    "Own5Warframes": {
+        "uniqueName": "/Lotus/Types/Challenges/Own5Warframes",
+        "name": "/Lotus/Language/Challenges/Challenge_Own5Warframes_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Own5Warframes_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/MoreIsAlwaysBetter.png"
+    },
+    "Own10Warframes": {
+        "uniqueName": "/Lotus/Types/Challenges/Own10Warframes",
+        "name": "/Lotus/Language/Challenges/Challenge_Own10Warframes_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Own10Warframes_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/VarietyIsTheSpiceOfLife.png"
+    },
+    "CustomizeWarframeColor": {
+        "uniqueName": "/Lotus/Types/Challenges/CustomizeWarframeColor",
+        "name": "/Lotus/Language/Challenges/Challenge_CustomizeWarframeColor_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_CustomizeWarframeColor_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/TailorMade.png"
+    },
+    "WeaponRank2": {
+        "uniqueName": "/Lotus/Types/Challenges/WeaponRank2",
+        "name": "/Lotus/Language/Challenges/Challenge_WeaponRank2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_WeaponRank2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ILikeGuns.png"
+    },
+    "FindModsHidden": {
+        "uniqueName": "/Lotus/Types/Challenges/FindModsHidden",
+        "hidden": true,
+        "requiredCount": -1
+    },
+    "Find1Mod": {
+        "uniqueName": "/Lotus/Types/Challenges/Find1Mod",
+        "name": "/Lotus/Language/Challenges/Challenge_Find1Mod_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Find1Mod_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/OneMansJunk.png"
+    },
+    "Find20Mods": {
+        "uniqueName": "/Lotus/Types/Challenges/Find20Mods",
+        "name": "/Lotus/Language/Challenges/Challenge_Find20Mods_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Find20Mods_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ItsModificationTime.png",
+        "requiredCount": 20,
+        "progressIndicatorFreq": 5
+    },
+    "Find100Mods": {
+        "uniqueName": "/Lotus/Types/Challenges/Find100Mods",
+        "name": "/Lotus/Language/Challenges/Challenge_Find100Mods_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Find100Mods_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SeriousScavanging.png",
+        "requiredCount": 100,
+        "progressIndicatorFreq": 25
+    },
+    "Find1000Mods": {
+        "uniqueName": "/Lotus/Types/Challenges/Find1000Mods",
+        "name": "/Lotus/Language/Challenges/Challenge_Find1000Mods_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Find1000Mods_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ItsLikeTheyGrowOnTrees.png",
+        "requiredCount": 1000,
+        "progressIndicatorFreq": 200
+    },
+    "FuseMods": {
+        "uniqueName": "/Lotus/Types/Challenges/FuseMods",
+        "name": "/Lotus/Language/Challenges/Challenge_FuseMods_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_FuseMods_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Unity.png"
+    },
+    "ApplyMod": {
+        "uniqueName": "/Lotus/Types/Challenges/ApplyMod",
+        "name": "/Lotus/Language/Challenges/Challenge_ApplyMod_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_ApplyMod_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/AllGearedUp.png"
+    },
+    "Apply4Mods": {
+        "uniqueName": "/Lotus/Types/Challenges/Apply4Mods",
+        "name": "/Lotus/Language/Challenges/Challenge_Apply4Mods_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Apply4Mods_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/TheModBoss.png"
+    },
+    "EarnCreditsHidden": {
+        "uniqueName": "/Lotus/Types/Challenges/EarnCreditsHidden",
+        "hidden": true,
+        "requiredCount": -1
+    },
+    "Earn1000Credits": {
+        "uniqueName": "/Lotus/Types/Challenges/Earn1000Credits",
+        "name": "/Lotus/Language/Challenges/Challenge_Earn1000Credits_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Earn1000Credits_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ChumpChange.png",
+        "requiredCount": 1000,
+        "progressIndicatorFreq": 500
+    },
+    "Earn10000Credits": {
+        "uniqueName": "/Lotus/Types/Challenges/Earn10000Credits",
+        "name": "/Lotus/Language/Challenges/Challenge_Earn10000Credits_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Earn10000Credits_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/CreditMonger.png",
+        "requiredCount": 10000,
+        "progressIndicatorFreq": 5000
+    },
+    "Earn100000Credits": {
+        "uniqueName": "/Lotus/Types/Challenges/Earn100000Credits",
+        "name": "/Lotus/Language/Challenges/Challenge_Earn100000Credits_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Earn100000Credits_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SeriousCredit.png",
+        "requiredCount": 100000,
+        "progressIndicatorFreq": 50000
+    },
+    "Earn1000000Credits": {
+        "uniqueName": "/Lotus/Types/Challenges/Earn1000000Credits",
+        "name": "/Lotus/Language/Challenges/Challenge_Earn1000000Credits_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Earn1000000Credits_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/MillionairesClub.png",
+        "requiredCount": 1000000,
+        "progressIndicatorFreq": 50000
+    },
+    "CraftItemsHidden": {
+        "uniqueName": "/Lotus/Types/Challenges/CraftItemsHidden",
+        "hidden": true,
+        "requiredCount": -1
+    },
+    "Craft1Item": {
+        "uniqueName": "/Lotus/Types/Challenges/Craft1Item",
+        "name": "/Lotus/Language/Challenges/Challenge_Craft1Item_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Craft1Item_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Hobbyist.png"
+    },
+    "Craft10Items": {
+        "uniqueName": "/Lotus/Types/Challenges/Craft10Items",
+        "name": "/Lotus/Language/Challenges/Challenge_Craft10Items_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Craft10Items_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Inventor.png",
+        "requiredCount": 10,
+        "progressIndicatorFreq": 5
+    },
+    "Craft20Items": {
+        "uniqueName": "/Lotus/Types/Challenges/Craft20Items",
+        "name": "/Lotus/Language/Challenges/Challenge_Craft20Items_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Craft20Items_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/MasterInventor.png",
+        "requiredCount": 20,
+        "progressIndicatorFreq": 15
+    },
+    "CommandRank10": {
+        "uniqueName": "/Lotus/Types/Challenges/CommandRank10",
+        "name": "/Lotus/Language/Challenges/Challenge_CommandRank10_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_CommandRank10_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SquadGoals.png",
+        "requiredCount": 10
+    },
+    "CompleteAllCorpusProxima": {
+        "uniqueName": "/Lotus/Types/Challenges/CompleteAllCorpusProxima",
+        "name": "/Lotus/Language/Challenges/Challenge_CompleteAllCorpusProxima_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_CompleteAllCorpusProxima_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/StrategicDevelopment.png",
+        "requiredCount": 25
+    },
+    "CraftAnySoPWeapon": {
+        "uniqueName": "/Lotus/Types/Challenges/CraftAnySoPWeapon",
+        "name": "/Lotus/Language/Challenges/Challenge_CraftAnySoPWeapon_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_CraftAnySoPWeapon_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/MeetingAdjourned.png"
+    },
+    "SellItem": {
+        "uniqueName": "/Lotus/Types/Challenges/SellItem",
+        "name": "/Lotus/Language/Challenges/Challenge_SellItem_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SellItem_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Entrepreneur.png"
+    },
+    "SellItemsHidden": {
+        "uniqueName": "/Lotus/Types/Challenges/SellItemsHidden",
+        "hidden": true,
+        "requiredCount": -1
+    },
+    "Sell10000Credits": {
+        "uniqueName": "/Lotus/Types/Challenges/Sell10000Credits",
+        "name": "/Lotus/Language/Challenges/Challenge_Sell10000Credits_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Sell10000Credits_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/DayTrader.png",
+        "requiredCount": 10000,
+        "progressIndicatorFreq": 5000
+    },
+    "ReviveAlliesHidden": {
+        "uniqueName": "/Lotus/Types/Challenges/ReviveAlliesHidden",
+        "hidden": true,
+        "requiredCount": -1
+    },
+    "Revive1Ally": {
+        "uniqueName": "/Lotus/Types/Challenges/Revive1Ally",
+        "name": "/Lotus/Language/Challenges/Challenge_Revive1Ally_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Revive1Ally_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/AFriendInNeed.png"
+    },
+    "Revive10Allies": {
+        "uniqueName": "/Lotus/Types/Challenges/Revive10Allies",
+        "name": "/Lotus/Language/Challenges/Challenge_Revive10Allies_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Revive10Allies_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/MyDepedable.png",
+        "requiredCount": 10,
+        "progressIndicatorFreq": 5
+    },
+    "Revive100Allies": {
+        "uniqueName": "/Lotus/Types/Challenges/Revive100Allies",
+        "name": "/Lotus/Language/Challenges/Challenge_Revive100Allies_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Revive100Allies_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/FieldMedic.png",
+        "requiredCount": 100,
+        "progressIndicatorFreq": 25
+    },
+    "Revive1000Allies": {
+        "uniqueName": "/Lotus/Types/Challenges/Revive1000Allies",
+        "name": "/Lotus/Language/Challenges/Challenge_Revive1000Allies_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Revive1000Allies_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/CheaterOfDeath.png",
+        "requiredCount": 1000,
+        "progressIndicatorFreq": 200
+    },
+    "SolveCiphersHidden": {
+        "uniqueName": "/Lotus/Types/Challenges/SolveCiphersHidden",
+        "hidden": true,
+        "requiredCount": -1
+    },
+    "Solve1Cipher": {
+        "uniqueName": "/Lotus/Types/Challenges/Solve1Cipher",
+        "name": "/Lotus/Language/Challenges/Challenge_Solve1Cipher_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Solve1Cipher_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/TennoAgent.png"
+    },
+    "Solve10Ciphers": {
+        "uniqueName": "/Lotus/Types/Challenges/Solve10Ciphers",
+        "name": "/Lotus/Language/Challenges/Challenge_Solve10Ciphers_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Solve10Ciphers_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/TennoSpecialAgent.png",
+        "requiredCount": 10,
+        "progressIndicatorFreq": 5
+    },
+    "Solve100Ciphers": {
+        "uniqueName": "/Lotus/Types/Challenges/Solve100Ciphers",
+        "name": "/Lotus/Language/Challenges/Challenge_Solve100Ciphers_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Solve100Ciphers_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/TennoOperative.png",
+        "requiredCount": 100,
+        "progressIndicatorFreq": 50
+    },
+    "Solve1000Ciphers": {
+        "uniqueName": "/Lotus/Types/Challenges/Solve1000Ciphers",
+        "name": "/Lotus/Language/Challenges/Challenge_Solve1000Ciphers_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Solve1000Ciphers_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/TennoSpymaster.png",
+        "requiredCount": 1000,
+        "progressIndicatorFreq": 200
+    },
+    "SolveCipherUnder5Seconds": {
+        "uniqueName": "/Lotus/Types/Challenges/SolveCipherUnder5Seconds",
+        "name": "/Lotus/Language/Challenges/Challenge_SolveCipherUnder5Seconds_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SolveCipherUnder5Seconds_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/CounterIntelligence.png"
+    },
+    "PlayerRank1": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank1",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Initiate.png"
+    },
+    "PlayerRank2": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank2",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SilverInitiate.png"
+    },
+    "PlayerRank3": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank3",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/GoldInitiate.png"
+    },
+    "PlayerRank4": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank4",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank4_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank4_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Novice.png"
+    },
+    "PlayerRank5": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank5",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank5_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank5_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SilverNovice.png"
+    },
+    "PlayerRank6": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank6",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank6_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank6_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/GoldNovice.png"
+    },
+    "PlayerRank7": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank7",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank7_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank7_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Disciple.png"
+    },
+    "PlayerRank8": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank8",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank8_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank8_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SilverDisciple.png"
+    },
+    "PlayerRank9": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank9",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank9_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank9_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/GoldDisciple.png"
+    },
+    "PlayerRank10": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank10",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank10_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank10_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Seeker.png"
+    },
+    "PlayerRank11": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank11",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank11_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank11_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SilverSeeker.png"
+    },
+    "PlayerRank12": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank12",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank12_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank12_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/GoldSeeker.png"
+    },
+    "PlayerRank13": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank13",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank13_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank13_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Hunter.png"
+    },
+    "PlayerRank14": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank14",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank14_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank14_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SilverHunter.png"
+    },
+    "PlayerRank15": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank15",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank15_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank15_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/GoldHunter.png"
+    },
+    "PlayerRank16": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank16",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank16_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank16_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Eagle.png"
+    },
+    "PlayerRank17": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank17",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank17_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank17_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SilverEagle.png"
+    },
+    "PlayerRank18": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank18",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank18_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank18_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/GoldEagle.png"
+    },
+    "PlayerRank19": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank19",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank19_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank19_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Tiger.png"
+    },
+    "PlayerRank20": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank20",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank20_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank20_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SilverTiger.png"
+    },
+    "PlayerRank21": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank21",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank21_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank21_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/GoldTiger.png"
+    },
+    "PlayerRank22": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank22",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank22_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank22_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Dragon.png"
+    },
+    "PlayerRank23": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank23",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank23_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank23_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SilverDragon.png"
+    },
+    "PlayerRank24": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank24",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank24_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank24_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/GoldDragon.png"
+    },
+    "PlayerRank25": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank25",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank25_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank25_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Sage.png"
+    },
+    "PlayerRank26": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank26",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank26_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank26_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SilverSage.png"
+    },
+    "PlayerRank27": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank27",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank27_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank27_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/GoldSage.png"
+    },
+    "PlayerRank28": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank28",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank28_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank28_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Master.png"
+    },
+    "PlayerRank29": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank29",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank29_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank29_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SilverMaster.png"
+    },
+    "PlayerRank30": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayerRank30",
+        "name": "/Lotus/Language/Challenges/Challenge_PlayerRank30_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlayerRank30_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/GoldMaster.png"
+    },
+    "PlayHoursHidden": {
+        "uniqueName": "/Lotus/Types/Challenges/PlayHoursHidden",
+        "hidden": true,
+        "requiredCount": -1
+    },
+    "Play2Hours": {
+        "uniqueName": "/Lotus/Types/Challenges/Play2Hours",
+        "name": "/Lotus/Language/Challenges/Challenge_Play2Hours_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Play2Hours_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Hooked.png",
+        "requiredCount": 7200,
+        "progressIndicatorFreq": 1800
+    },
+    "Play10Hours": {
+        "uniqueName": "/Lotus/Types/Challenges/Play10Hours",
+        "name": "/Lotus/Language/Challenges/Challenge_Play10Hours_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Play10Hours_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ItKeepsGettingBetter.png",
+        "requiredCount": 36000,
+        "progressIndicatorFreq": 18000
+    },
+    "Play100Hours": {
+        "uniqueName": "/Lotus/Types/Challenges/Play100Hours",
+        "name": "/Lotus/Language/Challenges/Challenge_Play100Hours_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Play100Hours_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/IJustCantGetEnough.png",
+        "requiredCount": 360000,
+        "progressIndicatorFreq": 72000
+    },
+    "Kill100InMission": {
+        "uniqueName": "/Lotus/Types/Challenges/Kill100InMission",
+        "name": "/Lotus/Language/Challenges/Challenge_Kill100InMission_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Kill100InMission_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/TennoAssassin.png"
+    },
+    "BladeMastery1": {
+        "uniqueName": "/Lotus/Types/Challenges/BladeMastery1",
+        "name": "/Lotus/Language/Challenges/Challenge_BladeMastery1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_BladeMastery1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/BladeMastery1.png",
+        "requiredCount": 5
+    },
+    "BladeMastery2": {
+        "uniqueName": "/Lotus/Types/Challenges/BladeMastery2",
+        "name": "/Lotus/Language/Challenges/Challenge_BladeMastery2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_BladeMastery2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/BladeMastery2.png",
+        "requiredCount": 5
+    },
+    "BladeMastery3": {
+        "uniqueName": "/Lotus/Types/Challenges/BladeMastery3",
+        "name": "/Lotus/Language/Challenges/Challenge_BladeMastery3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_BladeMastery3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/BladeMastery3.png",
+        "requiredCount": 5
+    },
+    "BladeProficiency1": {
+        "uniqueName": "/Lotus/Types/Challenges/BladeProficiency1",
+        "name": "/Lotus/Language/Challenges/Challenge_BladeProficiency1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_BladeProficiency1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/BladeProficiency1.png"
+    },
+    "BladeProficiency2": {
+        "uniqueName": "/Lotus/Types/Challenges/BladeProficiency2",
+        "name": "/Lotus/Language/Challenges/Challenge_BladeProficiency2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_BladeProficiency2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/BladeProficiency2.png"
+    },
+    "BladeProficiency3": {
+        "uniqueName": "/Lotus/Types/Challenges/BladeProficiency3",
+        "name": "/Lotus/Language/Challenges/Challenge_BladeProficiency3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_BladeProficiency3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/BladeProficiency3.png"
+    },
+    "BowMastery1": {
+        "uniqueName": "/Lotus/Types/Challenges/BowMastery1",
+        "name": "/Lotus/Language/Challenges/Challenge_BowMastery1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_BowMastery1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/BowMastery1.png",
+        "requiredCount": 2
+    },
+    "BowMastery2": {
+        "uniqueName": "/Lotus/Types/Challenges/BowMastery2",
+        "name": "/Lotus/Language/Challenges/Challenge_BowMastery2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_BowMastery2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/BowMastery2.png",
+        "requiredCount": 2
+    },
+    "BowMastery3": {
+        "uniqueName": "/Lotus/Types/Challenges/BowMastery3",
+        "name": "/Lotus/Language/Challenges/Challenge_BowMastery3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_BowMastery3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/BowMastery3.png",
+        "requiredCount": 2
+    },
+    "BowProficiency1": {
+        "uniqueName": "/Lotus/Types/Challenges/BowProficiency1",
+        "name": "/Lotus/Language/Challenges/Challenge_BowProficiency1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_BowProficiency1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/BowProficiency1.png"
+    },
+    "BowProficiency2": {
+        "uniqueName": "/Lotus/Types/Challenges/BowProficiency2",
+        "name": "/Lotus/Language/Challenges/Challenge_BowProficiency2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_BowProficiency2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/BowProficiency2.png"
+    },
+    "BowProficiency3": {
+        "uniqueName": "/Lotus/Types/Challenges/BowProficiency3",
+        "name": "/Lotus/Language/Challenges/Challenge_BowProficiency3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_BowProficiency3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/BowProficiency3.png"
+    },
+    "BrawlerMastery1": {
+        "uniqueName": "/Lotus/Types/Challenges/BrawlerMastery1",
+        "name": "/Lotus/Language/Challenges/Challenge_BrawlerMastery1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_BrawlerMastery1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/BrawlerMastery1.png",
+        "requiredCount": 3
+    },
+    "BrawlerMastery2": {
+        "uniqueName": "/Lotus/Types/Challenges/BrawlerMastery2",
+        "name": "/Lotus/Language/Challenges/Challenge_BrawlerMastery2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_BrawlerMastery2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/BrawlerMastery2.png",
+        "requiredCount": 3
+    },
+    "BrawlerMastery3": {
+        "uniqueName": "/Lotus/Types/Challenges/BrawlerMastery3",
+        "name": "/Lotus/Language/Challenges/Challenge_BrawlerMastery3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_BrawlerMastery3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/BrawlerMastery3.png",
+        "requiredCount": 3
+    },
+    "BrawlerProficiency1": {
+        "uniqueName": "/Lotus/Types/Challenges/BrawlerProficiency1",
+        "name": "/Lotus/Language/Challenges/Challenge_BrawlerProficiency1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_BrawlerProficiency1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/BrawlerProficiency1.png"
+    },
+    "BrawlerProficiency2": {
+        "uniqueName": "/Lotus/Types/Challenges/BrawlerProficiency2",
+        "name": "/Lotus/Language/Challenges/Challenge_BrawlerProficiency2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_BrawlerProficiency2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/BrawlerProficiency2.png"
+    },
+    "BrawlerProficiency3": {
+        "uniqueName": "/Lotus/Types/Challenges/BrawlerProficiency3",
+        "name": "/Lotus/Language/Challenges/Challenge_BrawlerProficiency3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_BrawlerProficiency3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/BrawlerProficiency3.png"
+    },
+    "DaggerMastery1": {
+        "uniqueName": "/Lotus/Types/Challenges/DaggerMastery1",
+        "name": "/Lotus/Language/Challenges/Challenge_DaggerMastery1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_DaggerMastery1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/DaggerMastery1.png",
+        "requiredCount": 3
+    },
+    "DaggerMastery2": {
+        "uniqueName": "/Lotus/Types/Challenges/DaggerMastery2",
+        "name": "/Lotus/Language/Challenges/Challenge_DaggerMastery2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_DaggerMastery2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/DaggerMastery2.png",
+        "requiredCount": 3
+    },
+    "DaggerMastery3": {
+        "uniqueName": "/Lotus/Types/Challenges/DaggerMastery3",
+        "name": "/Lotus/Language/Challenges/Challenge_DaggerMastery3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_DaggerMastery3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/DaggerMastery3.png",
+        "requiredCount": 3
+    },
+    "DaggerProficiency1": {
+        "uniqueName": "/Lotus/Types/Challenges/DaggerProficiency1",
+        "name": "/Lotus/Language/Challenges/Challenge_DaggerProficiency1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_DaggerProficiency1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/DaggerProficiency1.png"
+    },
+    "DaggerProficiency2": {
+        "uniqueName": "/Lotus/Types/Challenges/DaggerProficiency2",
+        "name": "/Lotus/Language/Challenges/Challenge_DaggerProficiency2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_DaggerProficiency2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/DaggerProficiency2.png"
+    },
+    "DaggerProficiency3": {
+        "uniqueName": "/Lotus/Types/Challenges/DaggerProficiency3",
+        "name": "/Lotus/Language/Challenges/Challenge_DaggerProficiency3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_DaggerProficiency3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/DaggerProficiency3.png"
+    },
+    "HeavyWeaponMastery1": {
+        "uniqueName": "/Lotus/Types/Challenges/HeavyWeaponMastery1",
+        "name": "/Lotus/Language/Challenges/Challenge_HeavyWeaponMastery1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_HeavyWeaponMastery1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/HeavyWeaponMastery1.png",
+        "requiredCount": 2
+    },
+    "HeavyWeaponMastery2": {
+        "uniqueName": "/Lotus/Types/Challenges/HeavyWeaponMastery2",
+        "name": "/Lotus/Language/Challenges/Challenge_HeavyWeaponMastery2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_HeavyWeaponMastery2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/HeavyWeaponMastery2.png",
+        "requiredCount": 2
+    },
+    "HeavyWeaponMastery3": {
+        "uniqueName": "/Lotus/Types/Challenges/HeavyWeaponMastery3",
+        "name": "/Lotus/Language/Challenges/Challenge_HeavyWeaponMastery3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_HeavyWeaponMastery3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/HeavyWeaponMastery3.png",
+        "requiredCount": 2
+    },
+    "HeavyWeaponProficiency1": {
+        "uniqueName": "/Lotus/Types/Challenges/HeavyWeaponProficiency1",
+        "name": "/Lotus/Language/Challenges/Challenge_HeavyWeaponProficiency1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_HeavyWeaponProficiency1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/HeavyWeaponProficiency1.png"
+    },
+    "HeavyWeaponProficiency2": {
+        "uniqueName": "/Lotus/Types/Challenges/HeavyWeaponProficiency2",
+        "name": "/Lotus/Language/Challenges/Challenge_HeavyWeaponProficiency2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_HeavyWeaponProficiency2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/HeavyWeaponProficiency2.png"
+    },
+    "HeavyWeaponProficiency3": {
+        "uniqueName": "/Lotus/Types/Challenges/HeavyWeaponProficiency3",
+        "name": "/Lotus/Language/Challenges/Challenge_HeavyWeaponProficiency3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_HeavyWeaponProficiency3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/HeavyWeaponProficiency3.png"
+    },
+    "PistolMastery1": {
+        "uniqueName": "/Lotus/Types/Challenges/PistolMastery1",
+        "name": "/Lotus/Language/Challenges/Challenge_PistolMastery1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PistolMastery1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/PistolMastery1.png",
+        "requiredCount": 5
+    },
+    "PistolMastery2": {
+        "uniqueName": "/Lotus/Types/Challenges/PistolMastery2",
+        "name": "/Lotus/Language/Challenges/Challenge_PistolMastery2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PistolMastery2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/PistolMastery2.png",
+        "requiredCount": 5
+    },
+    "PistolMastery3": {
+        "uniqueName": "/Lotus/Types/Challenges/PistolMastery3",
+        "name": "/Lotus/Language/Challenges/Challenge_PistolMastery3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PistolMastery3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/PistolMastery3.png",
+        "requiredCount": 5
+    },
+    "PistolProficiency1": {
+        "uniqueName": "/Lotus/Types/Challenges/PistolProficiency1",
+        "name": "/Lotus/Language/Challenges/Challenge_PistolProficiency1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PistolProficiency1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/PistolProficiency1.png"
+    },
+    "PistolProficiency2": {
+        "uniqueName": "/Lotus/Types/Challenges/PistolProficiency2",
+        "name": "/Lotus/Language/Challenges/Challenge_PistolProficiency2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PistolProficiency2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/PistolProficiency2.png"
+    },
+    "PistolProficiency3": {
+        "uniqueName": "/Lotus/Types/Challenges/PistolProficiency3",
+        "name": "/Lotus/Language/Challenges/Challenge_PistolProficiency3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PistolProficiency3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/PistolProficiency3.png"
+    },
+    "PoleWeaponMastery1": {
+        "uniqueName": "/Lotus/Types/Challenges/PoleWeaponMastery1",
+        "name": "/Lotus/Language/Challenges/Challenge_PoleWeaponMastery1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PoleWeaponMastery1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/PoleWeaponMastery1.png",
+        "requiredCount": 3
+    },
+    "PoleWeaponMastery2": {
+        "uniqueName": "/Lotus/Types/Challenges/PoleWeaponMastery2",
+        "name": "/Lotus/Language/Challenges/Challenge_PoleWeaponMastery2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PoleWeaponMastery2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/PoleWeaponMastery2.png",
+        "requiredCount": 3
+    },
+    "PoleWeaponMastery3": {
+        "uniqueName": "/Lotus/Types/Challenges/PoleWeaponMastery3",
+        "name": "/Lotus/Language/Challenges/Challenge_PoleWeaponMastery3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PoleWeaponMastery3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/PoleWeaponMastery3.png",
+        "requiredCount": 3
+    },
+    "PoleWeaponProficiency1": {
+        "uniqueName": "/Lotus/Types/Challenges/PoleWeaponProficiency1",
+        "name": "/Lotus/Language/Challenges/Challenge_PoleWeaponProficiency1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PoleWeaponProficiency1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/PoleWeaponProficiency1.png"
+    },
+    "PoleWeaponProficiency2": {
+        "uniqueName": "/Lotus/Types/Challenges/PoleWeaponProficiency2",
+        "name": "/Lotus/Language/Challenges/Challenge_PoleWeaponProficiency2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PoleWeaponProficiency2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/PoleWeaponProficiency2.png"
+    },
+    "PoleWeaponProficiency3": {
+        "uniqueName": "/Lotus/Types/Challenges/PoleWeaponProficiency3",
+        "name": "/Lotus/Language/Challenges/Challenge_PoleWeaponProficiency3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PoleWeaponProficiency3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/PoleWeaponProficiency3.png"
+    },
+    "RifleMastery1": {
+        "uniqueName": "/Lotus/Types/Challenges/RifleMastery1",
+        "name": "/Lotus/Language/Challenges/Challenge_RifleMastery1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_RifleMastery1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/RifleMastery1.png",
+        "requiredCount": 5
+    },
+    "RifleMastery2": {
+        "uniqueName": "/Lotus/Types/Challenges/RifleMastery2",
+        "name": "/Lotus/Language/Challenges/Challenge_RifleMastery2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_RifleMastery2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/RifleMastery2.png",
+        "requiredCount": 5
+    },
+    "RifleMastery3": {
+        "uniqueName": "/Lotus/Types/Challenges/RifleMastery3",
+        "name": "/Lotus/Language/Challenges/Challenge_RifleMastery3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_RifleMastery3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/RifleMastery3.png",
+        "requiredCount": 5
+    },
+    "RifleProficiency1": {
+        "uniqueName": "/Lotus/Types/Challenges/RifleProficiency1",
+        "name": "/Lotus/Language/Challenges/Challenge_RifleProficiency1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_RifleProficiency1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/RifleProficiency1.png"
+    },
+    "RifleProficiency2": {
+        "uniqueName": "/Lotus/Types/Challenges/RifleProficiency2",
+        "name": "/Lotus/Language/Challenges/Challenge_RifleProficiency2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_RifleProficiency2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/RifleProficiency2.png"
+    },
+    "RifleProficiency3": {
+        "uniqueName": "/Lotus/Types/Challenges/RifleProficiency3",
+        "name": "/Lotus/Language/Challenges/Challenge_RifleProficiency3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_RifleProficiency3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/RifleProficiency3.png"
+    },
+    "SentinelMastery1": {
+        "uniqueName": "/Lotus/Types/Challenges/SentinelMastery1",
+        "name": "/Lotus/Language/Challenges/Challenge_SentinelMastery1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SentinelMastery1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SentinelMastery1.png",
+        "requiredCount": 3
+    },
+    "SentinelMastery2": {
+        "uniqueName": "/Lotus/Types/Challenges/SentinelMastery2",
+        "name": "/Lotus/Language/Challenges/Challenge_SentinelMastery2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SentinelMastery2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SentinelMastery2.png",
+        "requiredCount": 3
+    },
+    "SentinelMastery3": {
+        "uniqueName": "/Lotus/Types/Challenges/SentinelMastery3",
+        "name": "/Lotus/Language/Challenges/Challenge_SentinelMastery3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SentinelMastery3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SentinelMastery3.png",
+        "requiredCount": 3
+    },
+    "SentinelProficiency1": {
+        "uniqueName": "/Lotus/Types/Challenges/SentinelProficiency1",
+        "name": "/Lotus/Language/Challenges/Challenge_SentinelProficiency1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SentinelProficiency1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SentinelProficiency1.png"
+    },
+    "SentinelProficiency2": {
+        "uniqueName": "/Lotus/Types/Challenges/SentinelProficiency2",
+        "name": "/Lotus/Language/Challenges/Challenge_SentinelProficiency2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SentinelProficiency2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SentinelProficiency2.png"
+    },
+    "SentinelProficiency3": {
+        "uniqueName": "/Lotus/Types/Challenges/SentinelProficiency3",
+        "name": "/Lotus/Language/Challenges/Challenge_SentinelProficiency3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SentinelProficiency3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SentinelProficiency3.png"
+    },
+    "ShotgunMastery1": {
+        "uniqueName": "/Lotus/Types/Challenges/ShotgunMastery1",
+        "name": "/Lotus/Language/Challenges/Challenge_ShotgunMastery1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_ShotgunMastery1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ShotgunMastery1.png",
+        "requiredCount": 2
+    },
+    "ShotgunMastery2": {
+        "uniqueName": "/Lotus/Types/Challenges/ShotgunMastery2",
+        "name": "/Lotus/Language/Challenges/Challenge_ShotgunMastery2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_ShotgunMastery2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ShotgunMastery2.png",
+        "requiredCount": 2
+    },
+    "ShotgunMastery3": {
+        "uniqueName": "/Lotus/Types/Challenges/ShotgunMastery3",
+        "name": "/Lotus/Language/Challenges/Challenge_ShotgunMastery3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_ShotgunMastery3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ShotgunMastery3.png",
+        "requiredCount": 2
+    },
+    "ShotgunProficiency1": {
+        "uniqueName": "/Lotus/Types/Challenges/ShotgunProficiency1",
+        "name": "/Lotus/Language/Challenges/Challenge_ShotgunProficiency1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_ShotgunProficiency1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ShotgunProficiency1.png"
+    },
+    "ShotgunProficiency2": {
+        "uniqueName": "/Lotus/Types/Challenges/ShotgunProficiency2",
+        "name": "/Lotus/Language/Challenges/Challenge_ShotgunProficiency2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_ShotgunProficiency2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ShotgunProficiency2.png"
+    },
+    "ShotgunProficiency3": {
+        "uniqueName": "/Lotus/Types/Challenges/ShotgunProficiency3",
+        "name": "/Lotus/Language/Challenges/Challenge_ShotgunProficiency3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_ShotgunProficiency3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ShotgunProficiency3.png"
+    },
+    "ShurikenMastery1": {
+        "uniqueName": "/Lotus/Types/Challenges/ShurikenMastery1",
+        "name": "/Lotus/Language/Challenges/Challenge_ShurikenMastery1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_ShurikenMastery1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ShurikenMastery1.png",
+        "requiredCount": 3
+    },
+    "ShurikenMastery2": {
+        "uniqueName": "/Lotus/Types/Challenges/ShurikenMastery2",
+        "name": "/Lotus/Language/Challenges/Challenge_ShurikenMastery2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_ShurikenMastery2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ShurikenMastery2.png",
+        "requiredCount": 3
+    },
+    "ShurikenMastery3": {
+        "uniqueName": "/Lotus/Types/Challenges/ShurikenMastery3",
+        "name": "/Lotus/Language/Challenges/Challenge_ShurikenMastery3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_ShurikenMastery3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ShurikenMastery3.png",
+        "requiredCount": 3
+    },
+    "ShurikenProficiency1": {
+        "uniqueName": "/Lotus/Types/Challenges/ShurikenProficiency1",
+        "name": "/Lotus/Language/Challenges/Challenge_ShurikenProficiency1_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_ShurikenProficiency1_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ShurikenProficiency1.png"
+    },
+    "ShurikenProficiency2": {
+        "uniqueName": "/Lotus/Types/Challenges/ShurikenProficiency2",
+        "name": "/Lotus/Language/Challenges/Challenge_ShurikenProficiency2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_ShurikenProficiency2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ShurikenProficiency2.png"
+    },
+    "ShurikenProficiency3": {
+        "uniqueName": "/Lotus/Types/Challenges/ShurikenProficiency3",
+        "name": "/Lotus/Language/Challenges/Challenge_ShurikenProficiency3_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_ShurikenProficiency3_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ShurikenProficiency3.png"
+    },
+    "KillPhorid": {
+        "uniqueName": "/Lotus/Types/Challenges/KillPhorid",
+        "name": "/Lotus/Language/Challenges/Challenge_KillPhorid_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_KillPhorid_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SaviourOfEris.png"
+    },
+    "SaviourOfMercury": {
+        "uniqueName": "/Lotus/Types/Challenges/SaviourOfMercury",
+        "name": "/Lotus/Language/Challenges/Challenge_SaviourOfMercury_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SaviourOfMercury_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SaviourOfMercury.png"
+    },
+    "SaviourOfVenus": {
+        "uniqueName": "/Lotus/Types/Challenges/SaviourOfVenus",
+        "name": "/Lotus/Language/Challenges/Challenge_SaviourOfVenus_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SaviourOfVenus_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SaviourOfVenus.png"
+    },
+    "SaviourOfEarth": {
+        "uniqueName": "/Lotus/Types/Challenges/SaviourOfEarth",
+        "name": "/Lotus/Language/Challenges/Challenge_SaviourOfEarth_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SaviourOfEarth_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SaviourOfEarth.png"
+    },
+    "SaviourOfMars": {
+        "uniqueName": "/Lotus/Types/Challenges/SaviourOfMars",
+        "name": "/Lotus/Language/Challenges/Challenge_SaviourOfMars_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SaviourOfMars_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SaviourOfMars.png"
+    },
+    "SaviourOfJupiter": {
+        "uniqueName": "/Lotus/Types/Challenges/SaviourOfJupiter",
+        "name": "/Lotus/Language/Challenges/Challenge_SaviourOfJupiter_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SaviourOfJupiter_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SaviourOfJupiter.png"
+    },
+    "SaviourOfSaturn": {
+        "uniqueName": "/Lotus/Types/Challenges/SaviourOfSaturn",
+        "name": "/Lotus/Language/Challenges/Challenge_SaviourOfSaturn_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SaviourOfSaturn_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SaviourOfSaturn.png"
+    },
+    "SaviourOfUranus": {
+        "uniqueName": "/Lotus/Types/Challenges/SaviourOfUranus",
+        "name": "/Lotus/Language/Challenges/Challenge_SaviourOfUranus_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SaviourOfUranus_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SaviourOfUranus.png"
+    },
+    "SaviourOfNeptune": {
+        "uniqueName": "/Lotus/Types/Challenges/SaviourOfNeptune",
+        "name": "/Lotus/Language/Challenges/Challenge_SaviourOfNeptune_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SaviourOfNeptune_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SaviourOfNeptune.png"
+    },
+    "SaviourOfPluto": {
+        "uniqueName": "/Lotus/Types/Challenges/SaviourOfPluto",
+        "name": "/Lotus/Language/Challenges/Challenge_SaviourOfPluto_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SaviourOfPluto_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SaviourOfPluto.png"
+    },
+    "SaviourOfCeres": {
+        "uniqueName": "/Lotus/Types/Challenges/SaviourOfCeres",
+        "name": "/Lotus/Language/Challenges/Challenge_SaviourOfCeres_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SaviourOfCeres_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SaviourOfCeres.png"
+    },
+    "SaviourOfSedna": {
+        "uniqueName": "/Lotus/Types/Challenges/SaviourOfSedna",
+        "name": "/Lotus/Language/Challenges/Challenge_SaviourOfSedna_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SaviourOfSedna_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SaviourOfSedna.png"
+    },
+    "SaviourOfEuropa": {
+        "uniqueName": "/Lotus/Types/Challenges/SaviourOfEuropa",
+        "name": "/Lotus/Language/Challenges/Challenge_SaviourOfEuropa_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SaviourOfEuropa_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SaviourOfEuropa.png"
+    },
+    "SaviourOfPhobos": {
+        "uniqueName": "/Lotus/Types/Challenges/SaviourOfPhobos",
+        "name": "/Lotus/Language/Challenges/Challenge_SaviourOfPhobos_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SaviourOfPhobos_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SaviourOfPhobos.png"
+    },
+    "Parry1000Shots": {
+        "uniqueName": "/Lotus/Types/Challenges/Parry1000Shots",
+        "name": "/Lotus/Language/Challenges/Challenge_Parry1000Shots_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Parry1000Shots_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ShieldSaver.png",
+        "requiredCount": 1000,
+        "progressIndicatorFreq": 0
+    },
+    "TheSwordAlone": {
+        "uniqueName": "/Lotus/Types/Challenges/TheSwordAlone",
+        "name": "/Lotus/Language/Challenges/Challenge_TheSwordAlone_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_TheSwordAlone_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/TheSwordAlone.png",
+        "requiredCount": 10
+    },
+    "Mercenary": {
+        "uniqueName": "/Lotus/Types/Challenges/Mercenary",
+        "name": "/Lotus/Language/Challenges/Challenge_Mercenary_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Mercenary_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Mercenary.png",
+        "requiredCount": 100000,
+        "progressIndicatorFreq": 0
+    },
+    "Mercenary2": {
+        "uniqueName": "/Lotus/Types/Challenges/Mercenary2",
+        "name": "/Lotus/Language/Challenges/Challenge_Mercenary2_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Mercenary2_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Mercenary.png",
+        "requiredCount": 5
+    },
+    "DarkSectors": {
+        "uniqueName": "/Lotus/Types/Challenges/DarkSectors",
+        "name": "/Lotus/Language/Challenges/Challenge_DarkSectors_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_DarkSectors_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/DarkSector.png",
+        "requiredCount": 5,
+        "progressIndicatorFreq": 0
+    },
+    "WithoutAHitch": {
+        "uniqueName": "/Lotus/Types/Challenges/WithoutAHitch",
+        "name": "/Lotus/Language/Challenges/Challenge_WithoutAHitch_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_WithoutAHitch_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/WithoutAHitch.png"
+    },
+    "ControlFreak": {
+        "uniqueName": "/Lotus/Types/Challenges/ControlFreak",
+        "name": "/Lotus/Language/Challenges/Challenge_ControlFreak_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_ControlFreak_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ControlFreak.png"
+    },
+    "Alchemist": {
+        "uniqueName": "/Lotus/Types/Challenges/Alchemist",
+        "name": "/Lotus/Language/Challenges/Challenge_Alchemist_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Alchemist_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Alchemist.png",
+        "requiredCount": 10
+    },
+    "NoWitnesses": {
+        "uniqueName": "/Lotus/Types/Challenges/NoWitnesses",
+        "name": "/Lotus/Language/Challenges/Challenge_NoWitnesses_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_NoWitnesses_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/NoWitnesses.png",
+        "requiredCount": 100,
+        "progressIndicatorFreq": 10
+    },
+    "HatsOffToYou": {
+        "uniqueName": "/Lotus/Types/Challenges/HatsOffToYou",
+        "name": "/Lotus/Language/Challenges/Challenge_HatsOffToYou_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_HatsOffToYou_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/HatsOff.png",
+        "requiredCount": 200,
+        "progressIndicatorFreq": 20
+    },
+    "TennoOfAllTrades": {
+        "uniqueName": "/Lotus/Types/Challenges/TennoOfAllTrades",
+        "name": "/Lotus/Language/Challenges/Challenge_TennoOfAllTrades_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_TennoOfAllTrades_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/TennoOfAllTrades.png"
+    },
+    "PolarizeThis": {
+        "uniqueName": "/Lotus/Types/Challenges/PolarizeThis",
+        "name": "/Lotus/Language/Challenges/Challenge_PolarizeThis_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PolarizeThis_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/PolarizeThis.png"
+    },
+    "PolarizeThat": {
+        "uniqueName": "/Lotus/Types/Challenges/PolarizeThat",
+        "name": "/Lotus/Language/Challenges/Challenge_PolarizeThat_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PolarizeThat_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/PolarizeThat.png"
+    },
+    "TheCameraAdds100Pounds": {
+        "uniqueName": "/Lotus/Types/Challenges/TheCameraAdds100Pounds",
+        "name": "/Lotus/Language/Challenges/Challenge_TheCameraAdds100Pounds_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_TheCameraAdds100Pounds_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/TheCameraAdds10Pounds.png",
+        "requiredCount": 150,
+        "progressIndicatorFreq": 30
+    },
+    "RideTheWave": {
+        "uniqueName": "/Lotus/Types/Challenges/RideTheWave",
+        "name": "/Lotus/Language/Challenges/Challenge_RideTheWave_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_RideTheWave_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/RideTheWave.png",
+        "progressIndicatorFreq": 0
+    },
+    "IntoTheVoid": {
+        "uniqueName": "/Lotus/Types/Challenges/IntoTheVoid",
+        "name": "/Lotus/Language/Challenges/Challenge_IntoTheVoid_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_IntoTheVoid_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/IntoTheVoid.png",
+        "requiredCount": 10,
+        "progressIndicatorFreq": 5
+    },
+    "WhatANightmare": {
+        "uniqueName": "/Lotus/Types/Challenges/WhatANightmare",
+        "name": "/Lotus/Language/Challenges/Challenge_WhatANightmare_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_WhatANightmare_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/WhatANightmare.png",
+        "requiredCount": 10,
+        "progressIndicatorFreq": 5
+    },
+    "HiveFive": {
+        "uniqueName": "/Lotus/Types/Challenges/HiveFive",
+        "name": "/Lotus/Language/Challenges/Challenge_HiveFive_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_HiveFive_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/HiveFive.png",
+        "requiredCount": 5
+    },
+    "TennoAndHooch": {
+        "uniqueName": "/Lotus/Types/Challenges/TennoAndHooch",
+        "name": "/Lotus/Language/Challenges/Challenge_TennoAndHooch_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_TennoAndHooch_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/TennoAndHooch.png",
+        "requiredCount": 10,
+        "progressIndicatorFreq": 5
+    },
+    "EggTimer": {
+        "uniqueName": "/Lotus/Types/Challenges/EggTimer",
+        "name": "/Lotus/Language/Challenges/Challenge_EggTimer_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_EggTimer_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/EggTimer.png"
+    },
+    "Kaboom": {
+        "uniqueName": "/Lotus/Types/Challenges/Kaboom",
+        "name": "/Lotus/Language/Challenges/Challenge_Kaboom_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Kaboom_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Kaboom.png",
+        "requiredCount": 10,
+        "progressIndicatorFreq": 0
+    },
+    "DedicationToTheCause": {
+        "uniqueName": "/Lotus/Types/Challenges/DedicationToTheCause",
+        "name": "/Lotus/Language/Challenges/Challenge_DedicationToTheCause_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_DedicationToTheCause_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/DedicationToTheCause.png"
+    },
+    "The8FoldPath": {
+        "uniqueName": "/Lotus/Types/Challenges/The8FoldPath",
+        "name": "/Lotus/Language/Challenges/Challenge_The8FoldPath_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_The8FoldPath_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/The8FoldPath.png"
+    },
+    "NoBrainer": {
+        "uniqueName": "/Lotus/Types/Challenges/NoBrainer",
+        "name": "/Lotus/Language/Challenges/Challenge_NoBrainer_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_NoBrainer_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/NoBrainer.png"
+    },
+    "SevenPrinciples": {
+        "uniqueName": "/Lotus/Types/Challenges/SevenPrinciples",
+        "name": "/Lotus/Language/Challenges/Challenge_SevenPrinciples_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SevenPrinciples_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SevenPrinciples.png",
+        "requiredCount": 7,
+        "children": [
+            "SevenPrinciplesAgility",
+            "SevenPrinciplesCollaboration",
+            "SevenPrinciplesCunning",
+            "SevenPrinciplesEndurance",
+            "SevenPrinciplesPower",
+            "SevenPrinciplesSpeed",
+            "SevenPrinciplesStealth"
+        ]
+    },
+    "SevenPrinciplesAgility": {
+        "uniqueName": "/Lotus/Types/Challenges/SevenPrinciplesAgility",
+        "hidden": true
+    },
+    "SevenPrinciplesCollaboration": {
+        "uniqueName": "/Lotus/Types/Challenges/SevenPrinciplesCollaboration",
+        "hidden": true
+    },
+    "SevenPrinciplesCunning": {
+        "uniqueName": "/Lotus/Types/Challenges/SevenPrinciplesCunning",
+        "hidden": true
+    },
+    "SevenPrinciplesEndurance": {
+        "uniqueName": "/Lotus/Types/Challenges/SevenPrinciplesEndurance",
+        "hidden": true
+    },
+    "SevenPrinciplesPower": {
+        "uniqueName": "/Lotus/Types/Challenges/SevenPrinciplesPower",
+        "hidden": true
+    },
+    "SevenPrinciplesSpeed": {
+        "uniqueName": "/Lotus/Types/Challenges/SevenPrinciplesSpeed",
+        "hidden": true
+    },
+    "SevenPrinciplesStealth": {
+        "uniqueName": "/Lotus/Types/Challenges/SevenPrinciplesStealth",
+        "hidden": true
+    },
+    "StealthyHacking": {
+        "uniqueName": "/Lotus/Types/Challenges/StealthyHacking",
+        "name": "/Lotus/Language/Challenges/Challenge_StealthyHacking_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_StealthyHacking_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/StealthyHacking.png"
+    },
+    "ThisIsWhatYouAre": {
+        "uniqueName": "/Lotus/Types/Challenges/ThisIsWhatYouAre",
+        "name": "/Lotus/Language/Challenges/Challenge_ThisIsWhatYouAre_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_ThisIsWhatYouAre_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ThisIsWhatYouAre.png"
+    },
+    "Liberator": {
+        "uniqueName": "/Lotus/Types/Challenges/Liberator",
+        "name": "/Lotus/Language/Challenges/Challenge_Liberator_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Liberator_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Liberator.png",
+        "requiredCount": 10
+    },
+    "DeathFromAbove": {
+        "uniqueName": "/Lotus/Types/Challenges/DeathFromAbove",
+        "name": "/Lotus/Language/Challenges/Challenge_DeathFromAbove_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_DeathFromAbove_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/DeathFromAbove.png",
+        "requiredCount": 30
+    },
+    "GunningForPromotion": {
+        "uniqueName": "/Lotus/Types/Challenges/GunningForPromotion",
+        "name": "/Lotus/Language/Challenges/Challenge_GunningForPromotion_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_GunningForPromotion_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/GunningForPromotion.png",
+        "requiredCount": 10
+    },
+    "CombatSpecialist": {
+        "uniqueName": "/Lotus/Types/Challenges/CombatSpecialist",
+        "name": "/Lotus/Language/Challenges/Challenge_CombatSpecialist_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_CombatSpecialist_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/CombatSpecialist.png",
+        "requiredCount": 3
+    },
+    "TheWarWithin": {
+        "uniqueName": "/Lotus/Types/Challenges/TheWarWithin",
+        "name": "/Lotus/Language/Challenges/Challenge_TheWarWithin_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_TheWarWithin_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/WarWithin.png"
+    },
+    "IndexQuestA": {
+        "uniqueName": "/Lotus/Types/Challenges/IndexQuestA"
+    },
+    "IndexQuestB": {
+        "uniqueName": "/Lotus/Types/Challenges/IndexQuestB"
+    },
+    "IndexQuestC": {
+        "uniqueName": "/Lotus/Types/Challenges/IndexQuestC"
+    },
+    "OctaviasAnthem": {
+        "uniqueName": "/Lotus/Types/Challenges/OctaviasAnthem",
+        "name": "/Lotus/Language/Challenges/Challenge_OctaviasAnthem_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_OctaviasAnthem_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/OctaviasAnthem.png"
+    },
+    "ChainsOfHarrow": {
+        "uniqueName": "/Lotus/Types/Challenges/ChainsOfHarrow",
+        "name": "/Lotus/Language/Challenges/Challenge_ChainsOfHarrow_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_ChainsOfHarrow_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ChainsOfHarrow.png"
+    },
+    "FromOnHigh": {
+        "uniqueName": "/Lotus/Types/Challenges/FromOnHigh",
+        "name": "/Lotus/Language/Challenges/Challenge_FromOnHigh_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_FromOnHigh_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/FromOnHigh.png",
+        "requiredCount": 100
+    },
+    "ByDawnsEarlyLight": {
+        "uniqueName": "/Lotus/Types/Challenges/ByDawnsEarlyLight",
+        "name": "/Lotus/Language/Challenges/Challenge_ByDawnsEarlyLight_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_ByDawnsEarlyLight_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/DawnsEarlyLight.png"
+    },
+    "ForgedInFire": {
+        "uniqueName": "/Lotus/Types/Challenges/ForgedInFire",
+        "name": "/Lotus/Language/Challenges/Challenge_ForgedInFire_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_ForgedInFire_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ForgedInFire.png"
+    },
+    "Marathoner": {
+        "uniqueName": "/Lotus/Types/Challenges/Marathoner",
+        "name": "/Lotus/Language/Challenges/Challenge_Marathoner_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Marathoner_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Marathoner.png",
+        "requiredCount": 100000,
+        "progressIndicatorFreq": 10000
+    },
+    "SledsOfSunshine": {
+        "uniqueName": "/Lotus/Types/Challenges/SledsOfSunshine",
+        "name": "/Lotus/Language/Challenges/Challenge_SledsOfSunshine_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SledsOfSunshine_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/SledsOfSunshine.png"
+    },
+    "ChampionOfThePeople": {
+        "uniqueName": "/Lotus/Types/Challenges/ChampionOfThePeople",
+        "name": "/Lotus/Language/Challenges/Challenge_ChampionOfThePeople_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_ChampionOfThePeople_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ChampionOfThePeople.png",
+        "requiredCount": 10
+    },
+    "MasterAngler": {
+        "uniqueName": "/Lotus/Types/Challenges/MasterAngler",
+        "name": "/Lotus/Language/Challenges/Challenge_MasterAngler_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_MasterAngler_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/MasterAngler.png",
+        "requiredCount": 10
+    },
+    "SharpShooter": {
+        "uniqueName": "/Lotus/Types/Challenges/SharpShooter",
+        "name": "/Lotus/Language/Challenges/Challenge_SharpShooter_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SharpShooter_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Sharpshooter.png"
+    },
+    "PestControl": {
+        "uniqueName": "/Lotus/Types/Challenges/PestControl",
+        "name": "/Lotus/Language/Challenges/Challenge_PestControl_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PestControl_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/PestControl.png",
+        "requiredCount": 100
+    },
+    "PlainsProspector": {
+        "uniqueName": "/Lotus/Types/Challenges/PlainsProspector",
+        "name": "/Lotus/Language/Challenges/Challenge_PlainsProspector_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_PlainsProspector_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/PlainsProspector.png",
+        "requiredCount": 100
+    },
+    "TombLooter": {
+        "uniqueName": "/Lotus/Types/Challenges/TombLooter",
+        "name": "/Lotus/Language/Challenges/Challenge_TombLooter_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_TombLooter_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/TombLooter.png",
+        "requiredCount": 12,
+        "children": [
+            "TombLooter1",
+            "TombLooter2",
+            "TombLooter3",
+            "TombLooter4",
+            "TombLooter5",
+            "TombLooter6",
+            "TombLooter7",
+            "TombLooter8",
+            "TombLooter9",
+            "TombLooter10",
+            "TombLooter11",
+            "TombLooter12"
+        ]
+    },
+    "TombLooter1": {
+        "uniqueName": "/Lotus/Types/Challenges/TombLooter1",
+        "hidden": true
+    },
+    "TombLooter2": {
+        "uniqueName": "/Lotus/Types/Challenges/TombLooter2",
+        "hidden": true
+    },
+    "TombLooter3": {
+        "uniqueName": "/Lotus/Types/Challenges/TombLooter3",
+        "hidden": true
+    },
+    "TombLooter4": {
+        "uniqueName": "/Lotus/Types/Challenges/TombLooter4",
+        "hidden": true
+    },
+    "TombLooter5": {
+        "uniqueName": "/Lotus/Types/Challenges/TombLooter5",
+        "hidden": true
+    },
+    "TombLooter6": {
+        "uniqueName": "/Lotus/Types/Challenges/TombLooter6",
+        "hidden": true
+    },
+    "TombLooter7": {
+        "uniqueName": "/Lotus/Types/Challenges/TombLooter7",
+        "hidden": true
+    },
+    "TombLooter8": {
+        "uniqueName": "/Lotus/Types/Challenges/TombLooter8",
+        "hidden": true
+    },
+    "TombLooter9": {
+        "uniqueName": "/Lotus/Types/Challenges/TombLooter9",
+        "hidden": true
+    },
+    "TombLooter10": {
+        "uniqueName": "/Lotus/Types/Challenges/TombLooter10",
+        "hidden": true
+    },
+    "TombLooter11": {
+        "uniqueName": "/Lotus/Types/Challenges/TombLooter11",
+        "hidden": true
+    },
+    "TombLooter12": {
+        "uniqueName": "/Lotus/Types/Challenges/TombLooter12",
+        "hidden": true
+    },
+    "TheGreatEidolonHunt": {
+        "uniqueName": "/Lotus/Types/Challenges/TheGreatEidolonHunt",
+        "name": "/Lotus/Language/Challenges/Challenge_TheGreatEidolonHunt_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_TheGreatEidolonHunt_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/TheGreatEidolonHunt.png"
+    },
+    "SayasVigil": {
+        "uniqueName": "/Lotus/Types/Challenges/SayasVigil",
+        "name": "/Lotus/Language/Challenges/Challenge_SayasVigil_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SayasVigil_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ViragosReflection.png"
+    },
+    "TheSacrifice": {
+        "uniqueName": "/Lotus/Types/Challenges/TheSacrifice",
+        "name": "/Lotus/Language/Challenges/Challenge_TheSacrifice_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_TheSacrifice_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/TheSacrifice.png"
+    },
+    "GrandTheftDargyn": {
+        "uniqueName": "/Lotus/Types/Challenges/GrandTheftDargyn",
+        "name": "/Lotus/Language/Challenges/Challenge_GrandTheftDargyn_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_GrandTheftDargyn_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/GrandTheftDargyn.png",
+        "requiredCount": 10000,
+        "progressIndicatorFreq": 1000
+    },
+    "BountyHunter": {
+        "uniqueName": "/Lotus/Types/Challenges/BountyHunter",
+        "name": "/Lotus/Language/Challenges/Challenge_BountyHunter_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_BountyHunter_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/BountyHunter.png",
+        "requiredCount": 6
+    },
+    "FriendlyNeighborhoodTenno": {
+        "uniqueName": "/Lotus/Types/Challenges/FriendlyNeighborhoodTenno",
+        "name": "/Lotus/Language/Challenges/Challenge_FriendlyNeighborhoodTenno_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_FriendlyNeighborhoodTenno_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/FriendlyNeighbourhoodTenno.png",
+        "requiredCount": 10
+    },
+    "RideOrDie": {
+        "uniqueName": "/Lotus/Types/Challenges/RideOrDie",
+        "name": "/Lotus/Language/Challenges/Challenge_RideOrDie_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_RideOrDie_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/RideOrDie.png"
+    },
+    "MoneyCantBuyHappiness": {
+        "uniqueName": "/Lotus/Types/Challenges/MoneyCantBuyHappiness",
+        "name": "/Lotus/Language/Challenges/Challenge_MoneyCantBuyHappiness_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_MoneyCantBuyHappiness_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/MoneyCantBuyHappiness.png"
+    },
+    "MoaMoneyMoaProblems": {
+        "uniqueName": "/Lotus/Types/Challenges/MoaMoneyMoaProblems",
+        "name": "/Lotus/Language/Challenges/Challenge_MoaMoneyMoaProblems_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_MoaMoneyMoaProblems_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/MoaMoneyMoaProblems.png"
+    },
+    "KDriven": {
+        "uniqueName": "/Lotus/Types/Challenges/KDriven",
+        "name": "/Lotus/Language/Challenges/Challenge_KDriven_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_KDriven_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/KDriven.png",
+        "requiredCount": 1000000,
+        "progressIndicatorFreq": 50000
+    },
+    "Hang10": {
+        "uniqueName": "/Lotus/Types/Challenges/Hang10",
+        "name": "/Lotus/Language/Challenges/Challenge_Hang10_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_Hang10_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/HangTenno.png"
+    },
+    "StayFrosty": {
+        "uniqueName": "/Lotus/Types/Challenges/StayFrosty",
+        "name": "/Lotus/Language/Challenges/Challenge_StayFrosty_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_StayFrosty_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/StayFrosty.png"
+    },
+    "OrbVallisExplorer": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer",
+        "name": "/Lotus/Language/Challenges/Challenge_OrbVallisExplorer_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_OrbVallisExplorer_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/Spelunker.png",
+        "requiredCount": 30,
+        "children": [
+            "OrbVallisExplorer0",
+            "OrbVallisExplorer1",
+            "OrbVallisExplorer2",
+            "OrbVallisExplorer3",
+            "OrbVallisExplorer4",
+            "OrbVallisExplorer5",
+            "OrbVallisExplorer6",
+            "OrbVallisExplorer7",
+            "OrbVallisExplorer8",
+            "OrbVallisExplorer9",
+            "OrbVallisExplorer10",
+            "OrbVallisExplorer11",
+            "OrbVallisExplorer12",
+            "OrbVallisExplorer13",
+            "OrbVallisExplorer14",
+            "OrbVallisExplorer15",
+            "OrbVallisExplorer16",
+            "OrbVallisExplorer17",
+            "OrbVallisExplorer18",
+            "OrbVallisExplorer19",
+            "OrbVallisExplorer20",
+            "OrbVallisExplorer21",
+            "OrbVallisExplorer22",
+            "OrbVallisExplorer23",
+            "OrbVallisExplorer24",
+            "OrbVallisExplorer25",
+            "OrbVallisExplorer26",
+            "OrbVallisExplorer27",
+            "OrbVallisExplorer28",
+            "OrbVallisExplorer29"
+        ]
+    },
+    "OrbVallisExplorer0": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer0",
+        "hidden": true
+    },
+    "OrbVallisExplorer1": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer1",
+        "hidden": true
+    },
+    "OrbVallisExplorer2": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer2",
+        "hidden": true
+    },
+    "OrbVallisExplorer3": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer3",
+        "hidden": true
+    },
+    "OrbVallisExplorer4": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer4",
+        "hidden": true
+    },
+    "OrbVallisExplorer5": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer5",
+        "hidden": true
+    },
+    "OrbVallisExplorer6": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer6",
+        "hidden": true
+    },
+    "OrbVallisExplorer7": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer7",
+        "hidden": true
+    },
+    "OrbVallisExplorer8": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer8",
+        "hidden": true
+    },
+    "OrbVallisExplorer9": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer9",
+        "hidden": true
+    },
+    "OrbVallisExplorer10": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer10",
+        "hidden": true
+    },
+    "OrbVallisExplorer11": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer11",
+        "hidden": true
+    },
+    "OrbVallisExplorer12": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer12",
+        "hidden": true
+    },
+    "OrbVallisExplorer13": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer13",
+        "hidden": true
+    },
+    "OrbVallisExplorer14": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer14",
+        "hidden": true
+    },
+    "OrbVallisExplorer15": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer15",
+        "hidden": true
+    },
+    "OrbVallisExplorer16": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer16",
+        "hidden": true
+    },
+    "OrbVallisExplorer17": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer17",
+        "hidden": true
+    },
+    "OrbVallisExplorer18": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer18",
+        "hidden": true
+    },
+    "OrbVallisExplorer19": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer19",
+        "hidden": true
+    },
+    "OrbVallisExplorer20": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer20",
+        "hidden": true
+    },
+    "OrbVallisExplorer21": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer21",
+        "hidden": true
+    },
+    "OrbVallisExplorer22": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer22",
+        "hidden": true
+    },
+    "OrbVallisExplorer23": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer23",
+        "hidden": true
+    },
+    "OrbVallisExplorer24": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer24",
+        "hidden": true
+    },
+    "OrbVallisExplorer25": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer25",
+        "hidden": true
+    },
+    "OrbVallisExplorer26": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer26",
+        "hidden": true
+    },
+    "OrbVallisExplorer27": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer27",
+        "hidden": true
+    },
+    "OrbVallisExplorer28": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer28",
+        "hidden": true
+    },
+    "OrbVallisExplorer29": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisExplorer29",
+        "hidden": true
+    },
+    "OrbVallisRacer": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer",
+        "name": "/Lotus/Language/Challenges/Challenge_OrbVallisRacer_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_OrbVallisRacer_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/RaceAce.png",
+        "requiredCount": 22,
+        "children": [
+            "OrbVallisRacer1",
+            "OrbVallisRacer2",
+            "OrbVallisRacer3",
+            "OrbVallisRacer4",
+            "OrbVallisRacer5",
+            "OrbVallisRacer6",
+            "OrbVallisRacer7",
+            "OrbVallisRacer8",
+            "OrbVallisRacer9",
+            "OrbVallisRacer10",
+            "OrbVallisRacer11",
+            "OrbVallisRacer12",
+            "OrbVallisRacer13",
+            "OrbVallisRacer14",
+            "OrbVallisRacer15",
+            "OrbVallisRacer16",
+            "OrbVallisRacer17",
+            "OrbVallisRacer18",
+            "OrbVallisRacer19",
+            "OrbVallisRacer20",
+            "OrbVallisRacer21",
+            "OrbVallisRacer22"
+        ]
+    },
+    "OrbVallisRacer1": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer1",
+        "hidden": true
+    },
+    "OrbVallisRacer2": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer2",
+        "hidden": true
+    },
+    "OrbVallisRacer3": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer3",
+        "hidden": true
+    },
+    "OrbVallisRacer4": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer4",
+        "hidden": true
+    },
+    "OrbVallisRacer5": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer5",
+        "hidden": true
+    },
+    "OrbVallisRacer6": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer6",
+        "hidden": true
+    },
+    "OrbVallisRacer7": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer7",
+        "hidden": true
+    },
+    "OrbVallisRacer8": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer8",
+        "hidden": true
+    },
+    "OrbVallisRacer9": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer9",
+        "hidden": true
+    },
+    "OrbVallisRacer10": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer10",
+        "hidden": true
+    },
+    "OrbVallisRacer11": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer11",
+        "hidden": true
+    },
+    "OrbVallisRacer12": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer12",
+        "hidden": true
+    },
+    "OrbVallisRacer13": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer13",
+        "hidden": true
+    },
+    "OrbVallisRacer14": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer14",
+        "hidden": true
+    },
+    "OrbVallisRacer15": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer15",
+        "hidden": true
+    },
+    "OrbVallisRacer16": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer16",
+        "hidden": true
+    },
+    "OrbVallisRacer17": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer17",
+        "hidden": true
+    },
+    "OrbVallisRacer18": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer18",
+        "hidden": true
+    },
+    "OrbVallisRacer19": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer19",
+        "hidden": true
+    },
+    "OrbVallisRacer20": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer20",
+        "hidden": true
+    },
+    "OrbVallisRacer21": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer21",
+        "hidden": true
+    },
+    "OrbVallisRacer22": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisRacer22",
+        "hidden": true
+    },
+    "OrbVallisHunter": {
+        "uniqueName": "/Lotus/Types/Challenges/OrbVallisHunter",
+        "name": "/Lotus/Language/Challenges/Challenge_OrbVallisHunter_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_OrbVallisHunter_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/AnimalLover.png",
+        "requiredCount": 10
+    },
+    "TheAbyssGazesIntoYou": {
+        "uniqueName": "/Lotus/Types/Challenges/TheAbyssGazesIntoYou",
+        "name": "/Lotus/Language/Challenges/Challenge_TheAbyssGazesIntoYou_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_TheAbyssGazesIntoYou_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/TheAbyssGazesBackIntoYou.png"
+    },
+    "ThatWhichKillsUsMakesUsStronger": {
+        "uniqueName": "/Lotus/Types/Challenges/ThatWhichKillsUsMakesUsStronger",
+        "name": "/Lotus/Language/Challenges/Challenge_ThatWhichKillsUsMakesUsStronger_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_ThatWhichKillsUsMakesUsStronger_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/WhatIsDeadMayNeverDie.png"
+    },
+    "WereGonnaNeedaBiggerBoat": {
+        "uniqueName": "/Lotus/Types/Challenges/WereGonnaNeedaBiggerBoat",
+        "name": "/Lotus/Language/Challenges/Challenge_WereGonnaNeedaBiggerBoat_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_WereGonnaNeedaBiggerBoat_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/WereGonnaNeedABiggerBoat.png"
+    },
+    "SomeAssemblyRequired": {
+        "uniqueName": "/Lotus/Types/Challenges/SomeAssemblyRequired",
+        "name": "/Lotus/Language/Challenges/Challenge_SomeAssemblyRequired_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_SomeAssemblyRequired_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/RailjackAssembly.png"
+    },
+    "IUsedToBullseyeKuakas": {
+        "uniqueName": "/Lotus/Types/Challenges/IUsedToBullseyeKuakas",
+        "name": "/Lotus/Language/Challenges/Challenge_IUsedToBullseyeKuakas_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_IUsedToBullseyeKuakas_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/IUsedToBullseyeWompRats.png",
+        "requiredCount": 100,
+        "progressIndicatorFreq": 10
+    },
+    "ImTheCaptainNow": {
+        "uniqueName": "/Lotus/Types/Challenges/ImTheCaptainNow",
+        "name": "/Lotus/Language/Challenges/Challenge_ImTheCaptainNow_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_ImTheCaptainNow_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ImTheCaptainNow.png"
+    },
+    "MapricoFruitCollect": {
+        "uniqueName": "/Lotus/Types/Challenges/MapricoFruitCollect",
+        "name": "/Lotus/Language/Challenges/Challenge_MapricoFruitCollect_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_MapricoFruitCollect_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/ForbiddenFruit.png",
+        "requiredCount": 50
+    },
+    "KillJuggernautDeimos": {
+        "uniqueName": "/Lotus/Types/Challenges/KillJuggernautDeimos",
+        "name": "/Lotus/Language/Challenges/Challenge_KillJuggernautDeimos_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_KillJuggernautDeimos_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/JuggerNot.png",
+        "requiredCount": 5
+    },
+    "BurnInfestedPod": {
+        "uniqueName": "/Lotus/Types/Challenges/BurnInfestedPod",
+        "name": "/Lotus/Language/Challenges/Challenge_BurnInfestedPod_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_BurnInfestedPod_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/KillItWithFire.png",
+        "requiredCount": 100
+    },
+    "RideInfestedHoverboard": {
+        "uniqueName": "/Lotus/Types/Challenges/RideInfestedHoverboard",
+        "name": "/Lotus/Language/Challenges/Challenge_RideInfestedHoverboard_Name",
+        "description": "/Lotus/Language/Challenges/Challenge_RideInfestedHoverboard_Description",
+        "icon": "/Lotus/Interface/Icons/Achievements/BugOutRide.png",
+        "requiredCount": 20
+    }
+}
