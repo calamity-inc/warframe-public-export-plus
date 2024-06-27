@@ -77,16 +77,17 @@ export interface IAvionic {
 }
 
 export interface IBundle {
-    name?:         string;
-    description?:  string;
-    icon?:         string;
-    components:    {
+    name?:             string;
+    description?:      string;
+    icon?:             string;
+    excludeFromCodex?: boolean;
+    components:        {
         typeName:         string;
         purchaseQuantity: number;
         durability:       TRarity;
         giveMaxRank?:     boolean;
     }[];
-    premiumPrice?: number;
+    premiumPrice?:     number;
 }
 
 export interface ICustom {
