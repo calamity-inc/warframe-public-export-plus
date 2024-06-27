@@ -29,6 +29,7 @@ export declare const ExportGear: Record<string, IGear>;
 export declare const ExportImages: Record<string, IImage>;
 export declare const ExportIntrinsics: Record<string, IIntrinsic>;
 export declare const ExportKeys: Record<string, IKey>;
+export declare const ExportMisc: IExportMisc;
 export declare const ExportModSet: Record<string, IModSet>;
 export declare const ExportNightwave: IExportNightwave;
 export declare const ExportOther: Record<string, IOther>;
@@ -227,6 +228,10 @@ export interface IKey {
         rewardType: "RT_CREDITS";
         amount:     number;
     })[];
+}
+
+export interface IExportMisc {
+    uniqueLevelCaps: Record<string, number>;
 }
 
 export interface IModSet {
