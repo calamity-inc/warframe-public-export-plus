@@ -407,8 +407,9 @@ export interface ISyndicate {
     uniqueName: string;
     name: string;
     icon: string;
-    description?: string;
     colour: IColour;
+    description?: string;
+    alignments?: Record<string, number>;
     titles?: {
         level: number;
         name: string;
