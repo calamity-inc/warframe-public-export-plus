@@ -419,6 +419,7 @@ export interface ISyndicate {
     name: string;
     icon: string;
     colour: IColour;
+    backgroundColour: IColour;
     description?: string;
     alignments?: Record<string, number>;
     titles?: {
