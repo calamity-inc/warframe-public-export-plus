@@ -1,0 +1,51 @@
+<body style="background:#000">
+	<script>
+		function peColourToHex(colour)
+		{
+			return "#" + colour.value.substr(4);
+		}
+
+		function peColourToRgb(colour)
+		{
+			return [
+				parseInt(colour.value.substr(4, 2), 16),
+				parseInt(colour.value.substr(6, 2), 16),
+				parseInt(colour.value.substr(8, 2), 16)
+			];
+		}
+
+		function makeColourFilter(colour)
+		{
+			const [red, green, blue] = peColourToRgb(colour);
+			const svg = `<svg xmlns="http://www.w3.org/2000/svg"><filter id="a"><feColorMatrix color-interpolation-filters="sRGB" in="SourceGraphic" type="matrix" values="${red / 255} 0 0 0 0 0 ${green / 255} 0 0 0 0 0 ${blue / 255} 0 0 0 0 0 1 0" /></filter></svg>`;
+			return "url('data:image/svg+xml," + svg + "#a')";
+		}
+
+		function makeSyndicateLogoElement(syndicate)
+		{
+			const div = document.createElement("div");
+			div.style.height = "512px";
+			div.style.width = "512px";
+			div.style.backgroundColor /* [sic] */ = peColourToHex(syndicate.backgroundColour);
+			{
+				const img = document.createElement("img");
+				img.src = "https://browse.wf" + syndicate.icon;
+				img.style.filter = makeColourFilter(syndicate.colour);
+				div.appendChild(img);
+			}
+			return div;
+		}
+
+		document.body.appendChild(makeSyndicateLogoElement({
+			// ...
+			"icon": "/Lotus/Interface/Icons/Syndicates/FactionSigilAssassins.png",
+			"colour": {
+				"value": "0x00FC8988"
+			},
+			"backgroundColour": {
+				"value": "0x0029101D"
+			}
+			// ...
+		}));
+	</script>
+</body>
