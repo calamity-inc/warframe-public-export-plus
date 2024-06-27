@@ -404,6 +404,7 @@ export interface ISentinel {
 }
 
 export interface ISyndicate {
+    uniqueName: string;
     name: string;
     icon: string;
     description?: string;
