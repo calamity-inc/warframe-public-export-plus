@@ -1,0 +1,33 @@
+local { json } = require "*"
+
+local dict_en = io.contents("../dict.en.json") |> json.decode
+local ExportArcanes = io.contents("../ExportArcanes.json") |> json.decode
+local ExportBoosterPacks = io.contents("../ExportBoosterPacks.json") |> json.decode
+
+local function get_name(type)
+	if arcane := ExportArcanes[type] then
+		return dict_en[arcane.name] or arcane.name
+	end
+	return type
+end
+
+local pack = ExportBoosterPacks["/Lotus/Types/BoosterPacks/EntratiLabsArcanePackAlbrechtsLaboratories"]
+local rarityCounts = {
+	COMMON = 0,
+	UNCOMMON = 0,
+	RARE = 0,
+	LEGENDARY = 0,
+}
+for pack.components as component do
+	rarityCounts[component.Rarity] += 1
+end
+local rarityWeights = pack.rarityWeightsPerRoll[1] -- Assuming all rolls have the same rarity weights; holds true for arcane packs.
+print("Weights:")
+print("- COMMON: %.0f%%":format(rarityWeights.COMMON * 100))
+print("- UNCOMMON: %.0f%%":format(rarityWeights.UNCOMMON * 100))
+print("- RARE: %.0f%%":format(rarityWeights.RARE * 100))
+print("- LEGENDARY: %.0f%%":format(rarityWeights.LEGENDARY * 100))
+print("Components:")
+for pack.components as component do
+	print("- "..get_name(component.Item)..", "..component.Rarity..", "..string.format("%.02f%%", ((rarityWeights[component.Rarity] / rarityCounts[component.Rarity]) * 100)))
+end
