@@ -17,6 +17,7 @@ export declare const dict_zh: Record<string, string>;
 export declare const ExportAbilities: Record<string, IAbility>;
 export declare const ExportArcanes: Record<string, IArcane>;
 export declare const ExportAvionics: Record<string, IAvionic>;
+export declare const ExportBoosterPacks: Record<string, IBoosterPack>;
 export declare const ExportBundles: Record<string, IBundle>;
 export declare const ExportCustoms: Record<string, ICustom>;
 export declare const ExportDojoRecipes: Record<string, IDojoRecipe>;
@@ -74,6 +75,17 @@ export interface IAvionic {
     baseDrain:         number;
     fusionLimit:       number;
     excludeFromCodex?: boolean;
+}
+
+export interface IBoosterPack {
+    name:                 string;
+    description:          string;
+    icon?:                string;
+    components:           {
+        Item:   string;
+        Rarity: TRarity;
+    }[];
+    rarityWeightsPerRoll: Record<TRarity, number>[];
 }
 
 export interface IBundle {

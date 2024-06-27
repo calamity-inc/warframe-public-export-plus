@@ -1,0 +1,2266 @@
+{
+    "/Lotus/Types/BoosterPacks/EntratiLabsArcanePackAlbrechtsLaboratories": {
+        "name": "/Lotus/Language/Entrati/EntratiLabsArcanePackAlbrechtsLabs",
+        "description": "/Lotus/Language/Entrati/EntratiLabsArcanePackContentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Arcanes/ArcaneDistillationPacks/EntratiPackIcon.png",
+        "components": [
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/HeavyCritOnRegularMelee",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PermaComboOnFinisher",
+                "Rarity": "LEGENDARY"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ReplayLightCritHits",
+                "Rarity": "LEGENDARY"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/CorrosiveMeleePerAbilityCast",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ArmorOnMeleeKill",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeProcsSpread",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeDamageForActiveShields",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PullEnemiesOnMeleeKill",
+                "Rarity": "RARE"
+            }
+        ],
+        "rarityWeightsPerRoll": [
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0.45,
+                "RARE": 0.5,
+                "LEGENDARY": 0.05
+            },
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0.45,
+                "RARE": 0.5,
+                "LEGENDARY": 0.05
+            },
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0.45,
+                "RARE": 0.5,
+                "LEGENDARY": 0.05
+            }
+        ]
+    },
+    "/Lotus/Types/BoosterPacks/EntratiLabsArcanePackCetus": {
+        "name": "/Lotus/Language/Entrati/EntratiLabsArcanePackCetus",
+        "description": "/Lotus/Language/Entrati/EntratiLabsArcanePackContentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Arcanes/ArcaneDistillationPacks/CetusPackIcon.png",
+        "components": [
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ChannelKillEnergyRate",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/StatusTriggerRadialDamage",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GroundSlamPull",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/FinisherLifesteal",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/StatusChannelingDamage",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/CritChannelingDamage",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/SpeedOnVoidDash",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/ImmunityFallDamageOnVoidDash",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealOnTransferenceIn",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/ArmourOnOperatorMode",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealOnTransferenceOut",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealOnVoidDash",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealthOnOperatorMode",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/IncreasedDamageOnStatusProc",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/StatusChanceOnHeadshot",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/OperatorAmmoRegenOnKill",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/CriticalChanceOnHeadshot",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/IncreasedCriticalDamageOnCriticalStrike",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/AttackSpeedOnKill",
+                "Rarity": "COMMON"
+            }
+        ],
+        "rarityWeightsPerRoll": [
+            {
+                "COMMON": 0.1,
+                "UNCOMMON": 0.3,
+                "RARE": 0.6,
+                "LEGENDARY": 0
+            },
+            {
+                "COMMON": 0.1,
+                "UNCOMMON": 0.3,
+                "RARE": 0.6,
+                "LEGENDARY": 0
+            },
+            {
+                "COMMON": 0.1,
+                "UNCOMMON": 0.3,
+                "RARE": 0.6,
+                "LEGENDARY": 0
+            }
+        ]
+    },
+    "/Lotus/Types/BoosterPacks/EntratiLabsArcanePackDuviri": {
+        "name": "/Lotus/Language/Entrati/EntratiLabsArcanePackDuviri",
+        "description": "/Lotus/Language/Entrati/EntratiLabsArcanePackContentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Arcanes/ArcaneDistillationPacks/DuviriPackIcon.png",
+        "components": [
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AmmoEfficiencyOnSliding",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/HealthWhileUsingChanneledAbilities",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AbilityStrengthOnCast",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealthRegenAndArmorOnMeleeKill",
+                "Rarity": "LEGENDARY"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/LongbowDamageOnHeadshot",
+                "Rarity": "LEGENDARY"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ShotgunMultishotAndReloadSpeedOnCloseKill",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryHeadshotCritMultOnHeadshot",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryEnergyRegenOnImpactProc",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryJamEnemyWeaponsOnMagneticProc",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MultishotForCombo",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryExtraDamagePerFreezeStack",
+                "Rarity": "LEGENDARY"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OperatorHeavyMeleeDamageOnTransference",
+                "Rarity": "UNCOMMON"
+            }
+        ],
+        "rarityWeightsPerRoll": [
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0.45,
+                "RARE": 0.5,
+                "LEGENDARY": 0.05
+            },
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0.45,
+                "RARE": 0.5,
+                "LEGENDARY": 0.05
+            },
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0.45,
+                "RARE": 0.5,
+                "LEGENDARY": 0.05
+            }
+        ]
+    },
+    "/Lotus/Types/BoosterPacks/EntratiLabsArcanePackFortuna": {
+        "name": "/Lotus/Language/Entrati/EntratiLabsArcanePackFortuna",
+        "description": "/Lotus/Language/Entrati/EntratiLabsArcanePackContentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Arcanes/ArcaneDistillationPacks/FortunaPackIcon.png",
+        "components": [
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/EnergyEfficiencyOnHeadshot",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/BulletToBattery",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SeekerProjOnHeadshotKill",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/EyeInTheSky",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HeatResistOnBlast",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/PullOnTransferenceIn",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/ProcResistOnBlast",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HoverboardSpeedOnTransferenceIn",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/DamageReductionOnVoidMode",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/NoPenaltyOnDeath",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/TetherMineOnDash",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HeatDamageOnDash",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/RobotStunOnBlast",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealOnVoidMode",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/ReverseOnDash",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/VoidToHeatDamage",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/VoidToPunctureDamage",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/VoidToElectricDamage",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/VoidToViralDamage",
+                "Rarity": "UNCOMMON"
+            }
+        ],
+        "rarityWeightsPerRoll": [
+            {
+                "COMMON": 0.15,
+                "UNCOMMON": 0.15,
+                "RARE": 0.7,
+                "LEGENDARY": 0
+            },
+            {
+                "COMMON": 0.15,
+                "UNCOMMON": 0.15,
+                "RARE": 0.7,
+                "LEGENDARY": 0
+            },
+            {
+                "COMMON": 0.15,
+                "UNCOMMON": 0.15,
+                "RARE": 0.7,
+                "LEGENDARY": 0
+            }
+        ]
+    },
+    "/Lotus/Types/BoosterPacks/EntratiLabsArcanePackMarsAndDeimos": {
+        "name": "/Lotus/Language/Entrati/EntratiLabsArcanePackMarsAndDeimos",
+        "description": "/Lotus/Language/Entrati/EntratiLabsArcanePackContentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Arcanes/ArcaneDistillationPacks/DeimosPackIcon.png",
+        "components": [
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/DamageResistanceStacksOverTime",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/NoCostCastChanceOnCast",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryDamagePerAmmoOnReload",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/ExtraProcOnProc",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryCritChancePerBuff",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/BurningCystOnKill",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/IceMistOnKill",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/LightningStrikeOnKill",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/ToxicBloodOnKill",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OrbsOnResidualContact",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/WeaponDamageOnResidualContact",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/CompanionDamageOnResidualContact",
+                "Rarity": "RARE"
+            }
+        ],
+        "rarityWeightsPerRoll": [
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0,
+                "RARE": 1,
+                "LEGENDARY": 0
+            },
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0,
+                "RARE": 1,
+                "LEGENDARY": 0
+            },
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0,
+                "RARE": 1,
+                "LEGENDARY": 0
+            }
+        ]
+    },
+    "/Lotus/Types/BoosterPacks/EntratiLabsArcanePackPlainsOfEidolon": {
+        "name": "/Lotus/Language/Entrati/EntratiLabsArcanePackPlainsOfEidolon",
+        "description": "/Lotus/Language/Entrati/EntratiLabsArcanePackContentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Arcanes/ArcaneDistillationPacks/HunterPackIcon.png",
+        "components": [
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/LongGunSpeedOnCrit",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/GolemArcaneShieldRegenOnDamage",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/SpeedOnDamage",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/GolemArcaneBonusDamageOnWallLatch",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/CritChanceOnDamage",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/PistolDamageOnReload",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/InstantShieldOnDamage",
+                "Rarity": "LEGENDARY"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/GolemArcaneAimGlideOnHeadshot",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/SlashProcResist",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/GolemArcaneRadialEnergyOnEnergyPickup",
+                "Rarity": "LEGENDARY"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/RadialKnockdownOnEnergyPickup",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneMeleeDamageOnCrit",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/HealthRegenOnDamage",
+                "Rarity": "LEGENDARY"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/ArmourOnDamage",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/RadiationProcResist",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/FireProcResist",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneSniperSpeedOnCrit",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/MagneticProcResist",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/SpeedOnParry",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcanePistolDamageOnHeadshot",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/RadialHealOnHealthPickup",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/LongGunDamageOnHeadshot",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/ElectricityProcResist",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeSpeedOnHit",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneShotgunSpeedOnCrit",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/InvisibilityOnFinisher",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneArmorOnFinisher",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcanePistolSpeedOnCrit",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/HealthRegenOnHeadshot",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/FreezeProcResist",
+                "Rarity": "COMMON"
+            }
+        ],
+        "rarityWeightsPerRoll": [
+            {
+                "COMMON": 0.4,
+                "UNCOMMON": 0.35,
+                "RARE": 0.2,
+                "LEGENDARY": 0.05
+            },
+            {
+                "COMMON": 0.4,
+                "UNCOMMON": 0.35,
+                "RARE": 0.2,
+                "LEGENDARY": 0.05
+            },
+            {
+                "COMMON": 0.4,
+                "UNCOMMON": 0.35,
+                "RARE": 0.2,
+                "LEGENDARY": 0.05
+            }
+        ]
+    },
+    "/Lotus/Types/BoosterPacks/EntratiLabsArcanePackSteelPathAndArbitrations": {
+        "name": "/Lotus/Language/Entrati/EntratiLabsArcanePackSteelPathAndArbitrations",
+        "description": "/Lotus/Language/Entrati/EntratiLabsArcanePackContentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Arcanes/ArcaneDistillationPacks/ChallengerPackIcon.png",
+        "components": [
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryDamageOnMeleeKill",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryDamageOnNoMelee",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryDamageOnKill",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryDamageOnMeleeKill",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryDamageOnNoMelee",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryDamageOnKill",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeDmgOnRifleKill",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/HealCompanionOnSixMeleeKills",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AmmoEfficiencyOnPistolHeadshot",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryDmgOnMeleeKill",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ArmorOnHeavyGunEquipped",
+                "Rarity": "RARE"
+            }
+        ],
+        "rarityWeightsPerRoll": [
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0,
+                "RARE": 1,
+                "LEGENDARY": 0
+            },
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0,
+                "RARE": 1,
+                "LEGENDARY": 0
+            },
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0,
+                "RARE": 1,
+                "LEGENDARY": 0
+            }
+        ]
+    },
+    "/Lotus/Types/BoosterPacks/EntratiLabsArcanePackZarimanAndLua": {
+        "name": "/Lotus/Language/Entrati/EntratiLabsArcanePackZarimanAndLua",
+        "description": "/Lotus/Language/Entrati/EntratiLabsArcanePackContentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Arcanes/ArcaneDistillationPacks/ZarimanPackIcon.png",
+        "components": [
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/SecondaryOnRollCritChanceOnHeadshot",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/SecondaryOnStatusProcBonusDamage",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryDamageOnHeatProc",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/SecondaryOnOvershieldCritChance",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryReloadSpeedAndMultishotOnElectricProc",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/EnergyOnGhostDissipate",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/OperatorOnEnergyDepletedRegenEnergy",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/OperatorOnDeathInvulnerability",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/OperatorOnOperatorAbilityIncreaseDamage",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/AmpOnVoidSlingAmpAmmoEfficiency",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/AmpOnEnergyDepletedCritChance",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/PrimaryOnAbilityReloadSpeed",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryCritDmgAndMultishotOnColdProc",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PowerStrengthOnKill",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/WarframeOnShieldUptimePowerDuration",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/HealAlliesOnEnergySpent",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/WarframeOnOperatorAbilityPowerStrength",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/IncreaseMaxHealthOnHealthPickup",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/LongGunDamageOnReload",
+                "Rarity": "RARE"
+            }
+        ],
+        "rarityWeightsPerRoll": [
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0,
+                "RARE": 1,
+                "LEGENDARY": 0
+            },
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0,
+                "RARE": 1,
+                "LEGENDARY": 0
+            },
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0,
+                "RARE": 1,
+                "LEGENDARY": 0
+            }
+        ]
+    },
+    "/Lotus/Types/BoosterPacks/LoginRewardRandomProjection": {
+        "name": "/Lotus/Language/Alerts/AlertRewardCategoryRelic",
+        "description": "/Lotus/Language/Items/LoginRewardRandomProjectionDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Pickups/VoidProjectionRandom.png",
+        "components": [
+            {
+                "Item": "/Lotus/Types/Game/Projections/T1VoidProjectionGaussPrimeEBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T1VoidProjectionGaussPrimeFBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T1VoidProjectionGaussPrimeCBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T1VoidProjectionGaussPrimeABronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T1VoidProjectionProteaPrimeBBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T1VoidProjectionGaussPrimeBBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T1VoidProjectionProteaPrimeABronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Items/MiscItems/SchismKey",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T2VoidProjectionProteaPrimeDBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T2VoidProjectionProteaPrimeABronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T2VoidProjectionGaussPrimeDBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T2VoidProjectionGaussPrimeABronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T2VoidProjectionProteaPrimeBBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T2VoidProjectionGaussPrimeEBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T2VoidProjectionProteaPrimeCBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T3VoidProjectionProteaPrimeDBronze",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T3VoidProjectionGrendelPrimeABronze",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T3VoidProjectionGrendelPrimeBBronze",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T3VoidProjectionProteaPrimeBBronze",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T3VoidProjectionProteaPrimeCBronze",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T3VoidProjectionProteaPrimeABronze",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T3VoidProjectionGaussPrimeCBronze",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Items/MiscItems/SchismKey",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T4VoidProjectionGaussPrimeDBronze",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T4VoidProjectionGrendelPrimeABronze",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T4VoidProjectionProteaPrimeCBronze",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T4VoidProjectionProteaPrimeABronze",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T4VoidProjectionProteaPrimeBBronze",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T4VoidProjectionGrendelPrimeCBronze",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T4VoidProjectionGrendelPrimeDBronze",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Items/MiscItems/SchismKey",
+                "Rarity": "RARE"
+            }
+        ],
+        "rarityWeightsPerRoll": [
+            {
+                "COMMON": 1,
+                "UNCOMMON": 0.25,
+                "RARE": 0.05,
+                "LEGENDARY": 0
+            }
+        ]
+    },
+    "/Lotus/Types/BoosterPacks/ModFuserResult": {
+        "name": "/Lotus/Language/Items/ModFuser",
+        "description": "/Lotus/Language/Items/ModFuserDesc",
+        "components": [
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponArmorPiercingDamageMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponCritChanceMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponCritDamageMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponElectricityDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponFireDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponFireRateMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponFreezeDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeChargeRateMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeDamageMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeHeavyDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponStunChanceMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponAmmoMaxMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponArmorPiercingDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponClipMaxMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponCritChanceMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponCritDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponDamageAmountMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponElectricityDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponFireDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponFireIterationsMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponFireRateMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponFreezeDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponPunctureDepthMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponReloadSpeedMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponStunChanceMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponAmmoMaxMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponArmorPiercingDamageMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponClipMaxMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponCritChanceMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponCritDamageMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponDamageAmountMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponElectricityDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponFireDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponFireIterationsMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponFireRateMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponFreezeDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponPunctureDepthMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponReloadSpeedMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponStunChanceMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponAmmoMaxMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponArmorPiercingDamageMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponClipMaxMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponCritChanceMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponCritDamageMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponDamageAmountMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponElectricityDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponFireDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponFireIterationsMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponFireRateMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponFreezeDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponPunctureDepthMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponReloadSpeedMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponStunChanceMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarAbilityDurationMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarAbilityEfficiencyMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarAbilityRangeMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarAbilityStrengthMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarArmourMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarEnemyRadarMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarHealthMaxMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarLootRadarMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarPowerMaxMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarShieldMaxMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarShieldRechargeRateMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarSprintSpeedMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarRevengeDamageMelee",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarKnockdownRecoveryMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/BowExplosionChanceMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeFactionDamageCorpus",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeFactionDamageGrineer",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeFactionDamageInfested",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponPistolFactionDamageCorpus",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponPistolFactionDamageGrineer",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponPistolFactionDamageInfested",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponFactionDamageCorpus",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponFactionDamageGrineer",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponFactionDamageInfested",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponShotgunFactionDamageCorpus",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponShotgunFactionDamageGrineer",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponShotgunFactionDamageInfested",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarChanceToLoot",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarDamageResistanceKnockdown",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarDamageResistanceLaser",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarDamageResistancePoison",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarDamageToEnergyMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarFallingImpactMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarKnockdownResistanceMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeRangeIncMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponPowerDamageMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponPistolZoomFovMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/SniperReloadDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponZoomFovMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarMissionSpecificResistanceIce",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarDamageResistanceElectricity",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarDamageResistanceFire",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarDamageResistanceIce",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Sentinel/SentinelArmourMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Sentinel/SentinelHealthMaxMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Sentinel/SentinelShieldMaxMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Sentinel/SentinelShieldRechargeRateMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarGroundFireDmgMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponCritFireRateBonusMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeFinisherDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponNoiseReductionMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponRecoilReductionMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponNoiseReductionMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponRecoilReductionMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarAutoParryMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarParryMeleeMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarParryReflectMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarPowerToHealthOnDeathMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Sentinel/SentinelDropChanceMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Sentinel/SentinelOverheatDamageMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponGlaivePowerthrowMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponGlaiveReflectionDecreaseMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponGlaiveReflectionIncreaseMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponGlaiveSpeedMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarTimeLimitIncreaseMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponIncreaseRadialExplosionMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarBleedoutDelayMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Sentinel/SentinelExplosionMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarSlideBoostMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponImpactDamageMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponSlashDamageMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponImpactDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponSlashDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponImpactDamageMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponSlashDamageMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponImpactDamageMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponSlashDamageMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponToxinDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponToxinDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponToxinDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponToxinDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarCastingSpeedMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/AxeCmbOneMeleeTree",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/AxeCmbTwoMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/CrimsonDervishMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/DaggerCmbOneMeleeTree",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/DaggerCmbTwoMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/DualDaggerCmbOneMeleeTree",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/DualDaggerCmbTwoMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/DualSwordCmbOneMeleeTree",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/DualSwordCmbTwoMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/FistCmbOneMeleeTree",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/FistCmbTwoMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/GlaiveCmbOneMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/HammerCmbOneMeleeTree",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/HammerCmbTwoMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/IronPhoenixMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/KatanaCmbOneMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/MacheteCmbOneMeleeTree",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/PolearmCmbOneMeleeTree",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/PolearmCmbTwoMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/PunchKickCmbOneMeleeTree",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/PunchKickCmbTwoMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/ScytheCmbOneMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/ScytheCmbTwoMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/StaffCmbOneMeleeTree",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/StaffCmbTwoMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/WhipCmbOneMeleeTree",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/WhipCmbTwoMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/Channel/ChannelCritsMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/Channel/ChannelFireRateMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/Channel/ChannelStatusMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/Channel/ChannelVampireMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/KatanaCmbTwoMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/SwordShieldCmbOneMeleeTree",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponPistolConvertAmmoMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponBowConvertAmmoMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponRifleConvertAmmoMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponSnipersConvertAmmoMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponShotgunConvertAmmoMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarPickupBonusMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/ClawCmbOneMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/KubrowFinisherMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/KubrowLinkArmourMaxMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/KubrowLinkHealthMaxMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/KubrowLinkShieldMaxMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/KubrowMasterBleedoutMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/KubrowShieldRechargeRateMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/KubrowClonedFinisherMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/KubrowPackLeaderMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/KubrowMeleeDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/KubrowCritMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/KatanaCmbThreeMeleeTree",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Melee/ArchwingWeaponElectricityDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Melee/ArchwingWeaponFireDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Melee/ArchwingWeaponFreezeDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Melee/ArchwingWeaponToxinDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingWeaponElectricityDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingWeaponFireDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingWeaponFreezeDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingWeaponToxinDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponProcTimeMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponProcTimeMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponBeamDistanceMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponProjectileSpeedMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponProcTimeMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponBeamDistanceMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponProjectileSpeedMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponProcTimeMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponProjectileSpeedMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/AvatarProcTimeMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Melee/ArchwingMeleeFireRateMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Melee/ArchwingMeleeCritChanceMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Melee/ArchwingMeleeCritDamageMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Melee/ArchwingMeleeDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Melee/ArchwingMeleeRangeIncMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Melee/ArchwingMeleeStatusChanceMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingRifleClipMaxMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingRifleCritChanceMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingRifleCritDamageMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingRifleDamageAmountMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingRifleFireIterationsMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingRifleFireRateMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingRifleStatusChanceMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Suit/ArchwingSuitShieldRechargeRateMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Suit/ArchwingSuitAbilityDurationMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Suit/ArchwingSuitAbilityEfficiencyMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Suit/ArchwingSuitAbilityRangeMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Suit/ArchwingSuitAbilityStrengthMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Suit/ArchwingSuitArmourMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Suit/ArchwingSuitHealthMaxMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Suit/ArchwingSuitPowerMaxMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Suit/ArchwingSuitShieldMaxMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Suit/ArchwingSuitSprintSpeedMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/GunbladeCmbOneMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/ClawCmbThreeMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/ThrowingExplosionChanceMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeArmorShatterMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/ParkourTwoMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/ElectricalParkourTwoMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/FireParkourTwoMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/IceParkourTwoMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/ImpactParkourTwoMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/PunctureParkourTwoMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/SlashParkourTwoMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/ToxinParkourTwoMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Warframe/SuperGlideParkourTwoMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeSlamDamageMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeStealthLethalMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponBeamExplodeOnDeath",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponGrenadeStickyMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/FistCmbThreeMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/RapierCmbOneMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/DualDaggerCmbThreeMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/GunbladeCmbTwoMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/MoveSpeedOnChannelKillMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponBlockingTauntMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponDamageIfVictimProcActive",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponHealOnHitEnemyWithProc",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeComboChanceFromDot",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/MacheteCmbTwoMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeFactionDamageCorrupted",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Pistol/WeaponPistolFactionDamageCorrupted",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Rifle/WeaponFactionDamageCorrupted",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Shotgun/WeaponShotgunFactionDamageCorrupted",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/DualSwordCmbThreeMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/PolearmCmbThreeMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/SwordCmbTwoMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/DaggerCmbThreeMeleeTree",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Sentinels/SentinelPrecepts/BeastUniversalVacuum",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingCCImmunityIfAimingMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingDamageAfterReloadMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingHeadshotKillAmmoEfficiencyMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingRiflePunchthroughMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingRifleCritChanceDamageAimingMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingRifleStatusChanceAimingMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/LongKatanaCmbOneMeleeTree",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/DataSpike/Cipher/AutoHackMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/DataSpike/Cipher/ElectrifyOnHackMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/DataSpike/Cipher/OnFailHackResetMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/DataSpike/Cipher/OnHackInvisMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/DataSpike/Cipher/OnHackLockersMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/DataSpike/Cipher/OnHackSprintSpeedMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/DataSpike/Assassin/OnExecutionParkourSpeedMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/DataSpike/Assassin/OnExecutionHealthDropMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/DataSpike/Assassin/OnExecutionEnergyDropMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/DataSpike/Assassin/OnExecutionAmmoMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/DataSpike/Assassin/OnExecutionBlindMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponGlaiveExplodingReflectionDecreaseMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Melee/WeaponGlaiveExplodingReflectionIncreaseMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Necromech/NecromechPowerMaxMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Necromech/NecromechAvatarDamageToEnergyMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Necromech/NecromechAvatarEnemyRadarMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Necromech/NecromechAvatarShieldRechargeRateMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/DataSpike/Assassin/OnExecutionTerrifyMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/DataSpike/Assassin/OnExecutionDrainPowerMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/DataSpike/Assassin/OnExecutionReviveCompanionMod",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/DataSpike/Assassin/SwiftExecuteMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/DataSpike/Cipher/DamageReductionOnHackMod",
+                "Rarity": "UNCOMMON"
+            }
+        ],
+        "rarityWeightsPerRoll": [
+            {
+                "COMMON": 0.755,
+                "UNCOMMON": 0.22,
+                "RARE": 0.02,
+                "LEGENDARY": 0
+            }
+        ]
+    },
+    "/Lotus/Types/BoosterPacks/RandomSyndicateProjectionPack": {
+        "name": "/Lotus/Language/Items/SyndicateRandomProjection",
+        "description": "/Lotus/Language/Items/SyndicateRandomProjectionDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Pickups/VoidProjectionRandom.png",
+        "components": [
+            {
+                "Item": "/Lotus/Types/Game/Projections/T1VoidProjectionGaussPrimeEBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T1VoidProjectionGaussPrimeFBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T1VoidProjectionGaussPrimeCBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T1VoidProjectionGaussPrimeABronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T1VoidProjectionProteaPrimeBBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T1VoidProjectionGaussPrimeBBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T1VoidProjectionProteaPrimeABronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Items/MiscItems/SchismKey",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T2VoidProjectionProteaPrimeDBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T2VoidProjectionProteaPrimeABronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T2VoidProjectionGaussPrimeDBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T2VoidProjectionGaussPrimeABronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T2VoidProjectionProteaPrimeBBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T2VoidProjectionGaussPrimeEBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T2VoidProjectionProteaPrimeCBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T3VoidProjectionProteaPrimeDBronze",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T3VoidProjectionGrendelPrimeABronze",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T3VoidProjectionGrendelPrimeBBronze",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T3VoidProjectionProteaPrimeBBronze",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T3VoidProjectionProteaPrimeCBronze",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T3VoidProjectionProteaPrimeABronze",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T3VoidProjectionGaussPrimeCBronze",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Items/MiscItems/SchismKey",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T4VoidProjectionGaussPrimeDBronze",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T4VoidProjectionGrendelPrimeABronze",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T4VoidProjectionProteaPrimeCBronze",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T4VoidProjectionProteaPrimeABronze",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T4VoidProjectionProteaPrimeBBronze",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T4VoidProjectionGrendelPrimeCBronze",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T4VoidProjectionGrendelPrimeDBronze",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Items/MiscItems/SchismKey",
+                "Rarity": "RARE"
+            }
+        ],
+        "rarityWeightsPerRoll": [
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0.5,
+                "RARE": 0.5,
+                "LEGENDARY": 0
+            },
+            {
+                "COMMON": 1,
+                "UNCOMMON": 0,
+                "RARE": 0,
+                "LEGENDARY": 0
+            },
+            {
+                "COMMON": 1,
+                "UNCOMMON": 0,
+                "RARE": 0,
+                "LEGENDARY": 0
+            }
+        ]
+    },
+    "/Lotus/Types/BoosterPacks/RivenModPack": {
+        "name": "/Lotus/Language/Consumables/RivenModPackName",
+        "description": "/Lotus/Language/Consumables/RivenModPackDesc",
+        "components": [
+            {
+                "Item": "/Lotus/Upgrades/Mods/Randomized/RawMeleeRandomMod",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Randomized/RawPistolRandomMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Randomized/RawRifleRandomMod",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Randomized/RawModularMeleeRandomMod",
+                "Rarity": "LEGENDARY"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Randomized/RawModularPistolRandomMod",
+                "Rarity": "LEGENDARY"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Randomized/RawShotgunRandomMod",
+                "Rarity": "RARE"
+            }
+        ],
+        "rarityWeightsPerRoll": [
+            {
+                "COMMON": 0.35,
+                "UNCOMMON": 0.5,
+                "RARE": 0.08,
+                "LEGENDARY": 0.07
+            }
+        ]
+    },
+    "/Lotus/Types/BoosterPacks/SingleSentinelRandomArtifact": {
+        "name": "/Lotus/Language/Omega/OmegaSentinelWeaponMod",
+        "description": "/Lotus/Language/Omega/OmegaSentinelWeaponModDesc",
+        "components": [
+            {
+                "Item": "/Lotus/Upgrades/Mods/Randomized/RawSentinelWeaponRandomMod",
+                "Rarity": "RARE"
+            }
+        ],
+        "rarityWeightsPerRoll": [
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0,
+                "RARE": 1,
+                "LEGENDARY": 0
+            }
+        ]
+    }
+}
