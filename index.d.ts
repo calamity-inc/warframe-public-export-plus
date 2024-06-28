@@ -73,7 +73,7 @@ export interface IArcane {
     icon:              string;
     codexSecret:       boolean;
     excludeFromCodex?: boolean;
-    rarity?:           TRarity;
+    rarity:            TRarity;
     distillPointValue?: number;
 }
 
