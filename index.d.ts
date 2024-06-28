@@ -344,14 +344,14 @@ export interface IRecipe {
 
 export interface IRegion {
     name:                   string;
-    systemIndex:            number;
+    systemIndex?:           number;
     systemName:             string;
     nodeType:               number;
     masteryReq:             number;
-    missionIndex:           number;
-    missionName:            string;
-    factionIndex:           number;
-    factionName:            string;
+    missionIndex?:          number;
+    missionName?:           string;
+    factionIndex?:          number;
+    factionName?:           string;
     secondaryFactionIndex?: number;
     secondaryFactionName?:  string;
     minEnemyLevel:          number;
@@ -366,6 +366,7 @@ export interface IRegion {
         weaponXpBonusVal: number;
     };
     questReq?:              string;
+    hidden?:                boolean;
 }
 
 export interface IRelic {
