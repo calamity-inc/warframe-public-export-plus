@@ -34,7 +34,6 @@ export declare const ExportKeys: Record<string, IKey>;
 export declare const ExportMisc: IExportMisc;
 export declare const ExportModSet: Record<string, IModSet>;
 export declare const ExportNightwave: IExportNightwave;
-export declare const ExportRailjack: IExportRailjack;
 export declare const ExportRailjackWeapons: Record<string, IRailjackWeapon>;
 export declare const ExportRecipes: Record<string, IRecipe>;
 export declare const ExportRegions: Record<string, IRegion>;
@@ -283,14 +282,6 @@ export interface IExportNightwave {
         icon:        string;
         itemCount?:  number;
     }[];
-}
-
-export interface IExportRailjack {
-    nodes: Record<string, IRailjackNode>;
-}
-
-export interface IRailjackNode {
-    name: string;
 }
 
 export interface IRailjackWeapon {
