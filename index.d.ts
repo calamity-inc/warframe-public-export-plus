@@ -178,6 +178,7 @@ export interface IFlavourItem {
     codexSecret:       boolean;
     excludeFromCodex?: boolean;
     hexColours?:       IColour[];
+    legacyColours?:    IColour[];
 }
 
 export interface IColour {
