@@ -36,7 +36,21 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Items/WyrmPowerSuitStoreItemDesc",
         "productCategory": "Sentinels",
-        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/LaserRifle"
+        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/LaserRifle",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/SentinelAttack",
+                "Slot": 9
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/CrowdDispersion",
+                "Slot": -1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
+                "Slot": -1
+            }
+        ]
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/TnSentinelCrossPowerSuit": {
         "name": "/Lotus/Language/Items/TnSentinelCrossName",
@@ -49,7 +63,21 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Items/TnSentinelCrossDesc",
         "productCategory": "Sentinels",
-        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/Gremlin"
+        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/Gremlin",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/SentinelAttack",
+                "Slot": 4
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/ShieldVampire",
+                "Slot": 9
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
+                "Slot": -1
+            }
+        ]
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/ShadePowerSuit": {
         "name": "/Lotus/Language/Items/ShadePowerSuitStoreItemName",
@@ -62,7 +90,21 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Items/ShadePowerSuitStoreItemDesc",
         "productCategory": "Sentinels",
-        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/BurstLaserPistol"
+        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/BurstLaserPistol",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/Revenge",
+                "Slot": 9
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/Ghost",
+                "Slot": -1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
+                "Slot": -1
+            }
+        ]
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/RadarPowerSuit": {
         "name": "/Lotus/Language/SolarisVenus/RadarSentinelName",
@@ -75,7 +117,25 @@
         "codexSecret": false,
         "description": "/Lotus/Language/SolarisVenus/RadarSentinelDesc",
         "productCategory": "Sentinels",
-        "defaultWeapon": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/HextraWeapon"
+        "defaultWeapon": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/HextraWeapon",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/SentinelAttack",
+                "Slot": 9
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/LocateCreatures",
+                "Slot": -1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/LocateResources",
+                "Slot": -1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
+                "Slot": -1
+            }
+        ]
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/PrismaShadePowerSuit": {
         "name": "/Lotus/Language/Items/PrismaSentinelName",
@@ -88,7 +148,21 @@
         "codexSecret": true,
         "description": "/Lotus/Language/Items/PrismaSentinelDesc",
         "productCategory": "Sentinels",
-        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/PrismaBurstLaserPistol"
+        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/PrismaBurstLaserPistol",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/Revenge",
+                "Slot": 9
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/Ghost",
+                "Slot": -1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
+                "Slot": -1
+            }
+        ]
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeWyrmPowerSuit": {
         "name": "/Lotus/Language/Items/WyrmPrimeName",
@@ -101,7 +175,21 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Items/WyrmPrimeDesc",
         "productCategory": "Sentinels",
-        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeLaserRifle"
+        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeLaserRifle",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/SentinelAttack",
+                "Slot": 9
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/CrowdDispersion",
+                "Slot": -1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
+                "Slot": -1
+            }
+        ]
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeShadePowerSuit": {
         "name": "/Lotus/Language/Primes/PrimeShadeName",
@@ -114,7 +202,21 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Primes/PrimeShadeDesc",
         "productCategory": "Sentinels",
-        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeBurstLaserPistol"
+        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeBurstLaserPistol",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/Revenge",
+                "Slot": -1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/Ghost",
+                "Slot": -1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
+                "Slot": -1
+            }
+        ]
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeHeliosPowerSuit": {
         "name": "/Lotus/Language/Primes/PrimeHeliosName",
@@ -127,7 +229,21 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Primes/PrimeHeliosDesc",
         "productCategory": "Sentinels",
-        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/DeconstructorPrime/PrimeHeliosGlaiveWeapon"
+        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/DeconstructorPrime/PrimeHeliosGlaiveWeapon",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/ThrowGlaivePrecept",
+                "Slot": 9
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/CodexScannerPrecept",
+                "Slot": -1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
+                "Slot": -1
+            }
+        ]
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeDethCubePowerSuit": {
         "name": "/Lotus/Language/Primes/DethcubePrimeName",
@@ -140,7 +256,21 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Primes/DethcubePrimeDesc",
         "productCategory": "Sentinels",
-        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeDethMachineRifle"
+        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeDethMachineRifle",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/SentinelAttack",
+                "Slot": 9
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/Vaporize",
+                "Slot": -1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
+                "Slot": -1
+            }
+        ]
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeCarrierPowerSuit": {
         "name": "/Lotus/Language/Items/PrimeCarrierSentinelName",
@@ -153,7 +283,21 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Items/PrimeCarrierSentinelDesc",
         "productCategory": "Sentinels",
-        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeSentShotgun"
+        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeSentShotgun",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/SentinelAttack",
+                "Slot": 9
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/ItemVacum",
+                "Slot": -1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
+                "Slot": -1
+            }
+        ]
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/MeleePetPowerSuit": {
         "name": "/Lotus/Language/Items/MeleePetName",
@@ -166,7 +310,21 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Items/MeleePetDesc",
         "productCategory": "Sentinels",
-        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/SentGlaiveWeapon"
+        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/SentGlaiveWeapon",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/ThrowGlaivePrecept",
+                "Slot": 9
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/CodexScannerPrecept",
+                "Slot": -1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
+                "Slot": -1
+            }
+        ]
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/GubberPowerSuit": {
         "name": "/Lotus/Language/Items/DjinnSentinelName",
@@ -179,7 +337,21 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Items/DjinnSentinelDesc",
         "productCategory": "Sentinels",
-        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/SentBioWeapon"
+        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/SentBioWeapon",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/Bait",
+                "Slot": -1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/Thumper",
+                "Slot": 9
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
+                "Slot": -1
+            }
+        ]
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/EmpyreanSentinelPowerSuit": {
         "name": "/Lotus/Language/Pets/EmpyreanSentinelName",
@@ -192,7 +364,25 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Pets/EmpyreanSentinelDesc",
         "productCategory": "Sentinels",
-        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/SentinelFreezeRayRifle"
+        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/SentinelFreezeRayRifle",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/SentinelAttack",
+                "Slot": 9
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/RepairShip",
+                "Slot": -1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/GatherEnemies",
+                "Slot": -1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
+                "Slot": -1
+            }
+        ]
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/DethCubePowerSuit": {
         "name": "/Lotus/Language/Items/DethCubePowerSuitStoreItemName",
@@ -205,7 +395,21 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Items/DethCubePowerSuitStoreItemDesc",
         "productCategory": "Sentinels",
-        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/DethMachineRifle"
+        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/DethMachineRifle",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/SentinelAttack",
+                "Slot": 9
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/Vaporize",
+                "Slot": -1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
+                "Slot": -1
+            }
+        ]
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/CarrierPowerSuit": {
         "name": "/Lotus/Language/Items/CarrierSentinelName",
@@ -218,7 +422,21 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Items/CarrierSentinelDesc",
         "productCategory": "Sentinels",
-        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/SentShotgun"
+        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/SentShotgun",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/SentinelAttack",
+                "Slot": 9
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/ItemVacum",
+                "Slot": -1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
+                "Slot": -1
+            }
+        ]
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/ArcDronePowerSuit": {
         "name": "/Lotus/Language/Items/ArcDroneName",
@@ -231,7 +449,25 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Items/ArcDroneDesc",
         "productCategory": "Sentinels",
-        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/SentElecRailgun"
+        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/SentElecRailgun",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/ArcTrap",
+                "Slot": -1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/TaserStun",
+                "Slot": -1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/HeadShot",
+                "Slot": 9
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
+                "Slot": -1
+            }
+        ]
     },
     "/Lotus/Types/Game/KubrowPet/RetrieverKubrowPetPowerSuit": {
         "name": "/Lotus/Language/Items/RetrieverKubrowName",
@@ -243,7 +479,17 @@
         "power": 100,
         "codexSecret": false,
         "description": "/Lotus/Language/Items/RetrieverKubrowDesc",
-        "productCategory": "KubrowPets"
+        "productCategory": "KubrowPets",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/KubrowPetPrecepts/KubrowLootPrecept",
+                "Slot": 3
+            },
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/KubrowPetPrecepts/KubrowDisarmPrecept",
+                "Slot": 4
+            }
+        ]
     },
     "/Lotus/Types/Game/KubrowPet/HunterKubrowPetPowerSuit": {
         "name": "/Lotus/Language/Items/HunterKubrowName",
@@ -255,7 +501,17 @@
         "power": 100,
         "codexSecret": false,
         "description": "/Lotus/Language/Items/HunterKubrowDesc",
-        "productCategory": "KubrowPets"
+        "productCategory": "KubrowPets",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/KubrowPetPrecepts/KubrowVipChasePrecept",
+                "Slot": 3
+            },
+            {
+                "ItemType": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/KubrowClonedFinisherMod",
+                "Slot": 4
+            }
+        ]
     },
     "/Lotus/Types/Game/KubrowPet/GuardKubrowPetPowerSuit": {
         "name": "/Lotus/Language/Items/GuardKubrowName",
@@ -267,7 +523,17 @@
         "power": 100,
         "codexSecret": false,
         "description": "/Lotus/Language/Items/GuardKubrowDesc",
-        "productCategory": "KubrowPets"
+        "productCategory": "KubrowPets",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/KubrowPetPrecepts/KubrowShieldPrecept",
+                "Slot": 3
+            },
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/KubrowPetPrecepts/KubrowFearPrecept",
+                "Slot": 2
+            }
+        ]
     },
     "/Lotus/Types/Game/KubrowPet/FurtiveKubrowPetPowerSuit": {
         "name": "/Lotus/Language/Items/FurtiveKubrowName",
@@ -279,7 +545,17 @@
         "power": 100,
         "codexSecret": false,
         "description": "/Lotus/Language/Items/FurtiveKubrowDesc",
-        "productCategory": "KubrowPets"
+        "productCategory": "KubrowPets",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/KubrowPetPrecepts/KubrowCloakPrecept",
+                "Slot": 3
+            },
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/KubrowPetPrecepts/KubrowChargePrecept",
+                "Slot": 2
+            }
+        ]
     },
     "/Lotus/Types/Game/KubrowPet/ChargerKubrowPetPowerSuit": {
         "name": "/Lotus/Language/Items/InfestedKubrowName",
@@ -291,7 +567,17 @@
         "power": 100,
         "codexSecret": false,
         "description": "/Lotus/Language/Items/InfestedKubrowDesc",
-        "productCategory": "KubrowPets"
+        "productCategory": "KubrowPets",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/KubrowPetPrecepts/ChargerChargePrecept",
+                "Slot": 3
+            },
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/KubrowPetPrecepts/KubrowGrabPrecept",
+                "Slot": 4
+            }
+        ]
     },
     "/Lotus/Types/Game/KubrowPet/AdventurerKubrowPetPowerSuit": {
         "name": "/Lotus/Language/Items/AdventurerKubrowName",
@@ -303,7 +589,17 @@
         "power": 100,
         "codexSecret": false,
         "description": "/Lotus/Language/Items/AdventurerKubrowDesc",
-        "productCategory": "KubrowPets"
+        "productCategory": "KubrowPets",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/KubrowPetPrecepts/KubrowDigPrecept",
+                "Slot": 3
+            },
+            {
+                "ItemType": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/KubrowFinisherMod",
+                "Slot": 4
+            }
+        ]
     },
     "/Lotus/Types/Game/CatbrowPet/VampireCatbrowPetPowerSuit": {
         "name": "/Lotus/Language/Pets/VampireKavatName",
@@ -315,7 +611,17 @@
         "power": 100,
         "codexSecret": false,
         "description": "/Lotus/Language/Pets/VampireKavatDesc",
-        "productCategory": "KubrowPets"
+        "productCategory": "KubrowPets",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/CatbrowPetPrecepts/CatbrowVampireBitePrecept",
+                "Slot": 3
+            },
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/CatbrowPetPrecepts/CatbrowTransfusionPrecept",
+                "Slot": 4
+            }
+        ]
     },
     "/Lotus/Types/Game/CatbrowPet/MirrorCatbrowPetPowerSuit": {
         "name": "/Lotus/Language/Items/MirrorCatbrowName",
@@ -327,7 +633,17 @@
         "power": 100,
         "codexSecret": false,
         "description": "/Lotus/Language/Items/MirrorCatbrowDesc",
-        "productCategory": "KubrowPets"
+        "productCategory": "KubrowPets",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/CatbrowPetPrecepts/CatbrowCatsEyePrecept",
+                "Slot": 3
+            },
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/CatbrowPetPrecepts/CatbrowReflectPrecept",
+                "Slot": 4
+            }
+        ]
     },
     "/Lotus/Types/Game/CatbrowPet/CheshireCatbrowPetPowerSuit": {
         "name": "/Lotus/Language/Items/CheshireCatbrowName",
@@ -339,7 +655,17 @@
         "power": 100,
         "codexSecret": false,
         "description": "/Lotus/Language/Items/CheshireCatbrowDesc",
-        "productCategory": "KubrowPets"
+        "productCategory": "KubrowPets",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/CatbrowPetPrecepts/CatbrowDistractPrecept",
+                "Slot": 3
+            },
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/CatbrowPetPrecepts/CatbrowLuckPrecept",
+                "Slot": 4
+            }
+        ]
     },
     "/Lotus/Types/Friendly/Pets/CreaturePets/VulpineInfestedCatbrowPetPowerSuit": {
         "name": "/Lotus/Language/InfestedMicroplanet/InfestedCritterCommonName",
@@ -351,7 +677,17 @@
         "power": 100,
         "codexSecret": false,
         "description": "/Lotus/Language/InfestedMicroplanet/InfestedCatbrowDomesticatedDesc",
-        "productCategory": "KubrowPets"
+        "productCategory": "KubrowPets",
+        "defaultUpgrades": [
+            {
+                "ItemType": "CreaturePrecepts/InfestedCatbrowEvasionBuffPrecept",
+                "Slot": 3
+            },
+            {
+                "ItemType": "CreaturePrecepts/VulpineInfestedCatbrowRespawn",
+                "Slot": 2
+            }
+        ]
     },
     "/Lotus/Types/Friendly/Pets/CreaturePets/VizierPredatorKubrowPetPowerSuit": {
         "name": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorCommonName",
@@ -363,7 +699,17 @@
         "power": 100,
         "codexSecret": false,
         "description": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorDomesticatedDesc",
-        "productCategory": "KubrowPets"
+        "productCategory": "KubrowPets",
+        "defaultUpgrades": [
+            {
+                "ItemType": "CreaturePrecepts/InfestedPredatorHealingSporesPrecept",
+                "Slot": 3
+            },
+            {
+                "ItemType": "CreaturePrecepts/InfestedPredatorSpitAcidPrecept",
+                "Slot": 2
+            }
+        ]
     },
     "/Lotus/Types/Friendly/Pets/CreaturePets/PharaohPredatorKubrowPetPowerSuit": {
         "name": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorUncommonName",
@@ -375,7 +721,17 @@
         "power": 100,
         "codexSecret": false,
         "description": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorDomesticatedDesc",
-        "productCategory": "KubrowPets"
+        "productCategory": "KubrowPets",
+        "defaultUpgrades": [
+            {
+                "ItemType": "CreaturePrecepts/InfestedPredatorBuffSporesPrecept",
+                "Slot": 3
+            },
+            {
+                "ItemType": "CreaturePrecepts/InfestedPredatorSpitParasitePrecept",
+                "Slot": 2
+            }
+        ]
     },
     "/Lotus/Types/Friendly/Pets/CreaturePets/MedjayPredatorKubrowPetPowerSuit": {
         "name": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorRareName",
@@ -387,7 +743,17 @@
         "power": 100,
         "codexSecret": false,
         "description": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorDomesticatedDesc",
-        "productCategory": "KubrowPets"
+        "productCategory": "KubrowPets",
+        "defaultUpgrades": [
+            {
+                "ItemType": "CreaturePrecepts/InfestedPredatorInfectiousBitePrecept",
+                "Slot": 3
+            },
+            {
+                "ItemType": "CreaturePrecepts/InfestedPredatorFinisherSporesPrecept",
+                "Slot": 2
+            }
+        ]
     },
     "/Lotus/Types/Friendly/Pets/CreaturePets/HornedInfestedCatbrowPetPowerSuit": {
         "name": "/Lotus/Language/InfestedMicroplanet/InfestedCritterUncommonName",
@@ -399,7 +765,17 @@
         "power": 100,
         "codexSecret": false,
         "description": "/Lotus/Language/InfestedMicroplanet/InfestedCatbrowDomesticatedDesc",
-        "productCategory": "KubrowPets"
+        "productCategory": "KubrowPets",
+        "defaultUpgrades": [
+            {
+                "ItemType": "CreaturePrecepts/InfestedCatbrowGoreTossPrecept",
+                "Slot": 3
+            },
+            {
+                "ItemType": "CreaturePrecepts/HornedInfestedCatbrowRespawn",
+                "Slot": 2
+            }
+        ]
     },
     "/Lotus/Types/Friendly/Pets/CreaturePets/ArmoredInfestedCatbrowPetPowerSuit": {
         "name": "/Lotus/Language/InfestedMicroplanet/InfestedCritterRareName",
@@ -411,6 +787,16 @@
         "power": 100,
         "codexSecret": false,
         "description": "/Lotus/Language/InfestedMicroplanet/InfestedCatbrowDomesticatedDesc",
-        "productCategory": "KubrowPets"
+        "productCategory": "KubrowPets",
+        "defaultUpgrades": [
+            {
+                "ItemType": "CreaturePrecepts/InfestedKavatViralQuillsPrecept",
+                "Slot": 3
+            },
+            {
+                "ItemType": "CreaturePrecepts/ArmoredInfestedCatbrowRespawn",
+                "Slot": 2
+            }
+        ]
     }
 }
