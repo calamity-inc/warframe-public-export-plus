@@ -69,12 +69,13 @@ export interface IAchievement {
 }
 
 export interface IArcane {
-    name:              string;
-    icon:              string;
-    codexSecret:       boolean;
-    excludeFromCodex?: boolean;
-    rarity:            TRarity;
+    name:               string;
+    icon:               string;
+    codexSecret:        boolean;
+    excludeFromCodex?:  boolean;
+    rarity:             TRarity;
     distillPointValue?: number;
+    isFrivolous?:       boolean;
 }
 
 export interface IAvionic {
