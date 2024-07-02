@@ -74,6 +74,7 @@ export interface IArcane {
     codexSecret:        boolean;
     excludeFromCodex?:  boolean;
     rarity:             TRarity;
+    fusionLimit:        number;
     distillPointValue?: number;
     isFrivolous?:       boolean;
 }
