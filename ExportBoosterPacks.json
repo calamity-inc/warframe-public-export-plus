@@ -2056,6 +2056,169 @@
             }
         ]
     },
+    "/Lotus/Types/BoosterPacks/RandomProjection": {
+        "name": "/Lotus/Language/Items/ProjectionRandomKey",
+        "description": "/Lotus/Language/Items/RandomProjectionDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Pickups/VoidProjectionRandom.png",
+        "components": [
+            {
+                "Item": "/Lotus/Types/Game/Projections/T1VoidProjectionGaussPrimeEBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T1VoidProjectionGaussPrimeFBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T1VoidProjectionGaussPrimeCBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T1VoidProjectionGaussPrimeABronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T1VoidProjectionProteaPrimeBBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T1VoidProjectionGaussPrimeBBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T1VoidProjectionProteaPrimeABronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Items/MiscItems/SchismKey",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T2VoidProjectionProteaPrimeDBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T2VoidProjectionProteaPrimeABronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T2VoidProjectionGaussPrimeDBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T2VoidProjectionGaussPrimeABronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T2VoidProjectionProteaPrimeBBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T2VoidProjectionGaussPrimeEBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T2VoidProjectionProteaPrimeCBronze",
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T3VoidProjectionProteaPrimeDBronze",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T3VoidProjectionGrendelPrimeABronze",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T3VoidProjectionGrendelPrimeBBronze",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T3VoidProjectionProteaPrimeBBronze",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T3VoidProjectionProteaPrimeCBronze",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T3VoidProjectionProteaPrimeABronze",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T3VoidProjectionGaussPrimeCBronze",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Items/MiscItems/SchismKey",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T4VoidProjectionGaussPrimeDBronze",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T4VoidProjectionGrendelPrimeABronze",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T4VoidProjectionProteaPrimeCBronze",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T4VoidProjectionProteaPrimeABronze",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T4VoidProjectionProteaPrimeBBronze",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T4VoidProjectionGrendelPrimeCBronze",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Game/Projections/T4VoidProjectionGrendelPrimeDBronze",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Items/MiscItems/SchismKey",
+                "Rarity": "RARE"
+            }
+        ],
+        "rarityWeightsPerRoll": [
+            {
+                "COMMON": 1,
+                "UNCOMMON": 0.05,
+                "RARE": 0.01,
+                "LEGENDARY": 0
+            },
+            {
+                "COMMON": 1,
+                "UNCOMMON": 0.25,
+                "RARE": 0.05,
+                "LEGENDARY": 0
+            },
+            {
+                "COMMON": 1,
+                "UNCOMMON": 0.25,
+                "RARE": 0.05,
+                "LEGENDARY": 0
+            },
+            {
+                "COMMON": 1,
+                "UNCOMMON": 0.25,
+                "RARE": 0.05,
+                "LEGENDARY": 0
+            },
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0,
+                "RARE": 1,
+                "LEGENDARY": 0
+            }
+        ]
+    },
     "/Lotus/Types/BoosterPacks/RandomSyndicateProjectionPack": {
         "name": "/Lotus/Language/Items/SyndicateRandomProjection",
         "description": "/Lotus/Language/Items/SyndicateRandomProjectionDesc",
