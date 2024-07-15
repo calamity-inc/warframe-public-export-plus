@@ -151,6 +151,7 @@ export interface IExportEnemies {
     avatars: Record<string, IEnemyAvatar>;
     damageControllers: Record<string, IDamageController>;
     droptables: Record<string, TDroptable>;
+    hitProxies: Record<string, IHitProxy>;
 }
 
 export interface IEnemyAgent {
@@ -179,6 +180,16 @@ export interface IDamageController {
     armor:              number;
     shield:             number;
     unhandledProcTypes: TProcType[];
+    hitProxies?: {
+        bone: string;
+        type: string;
+    }[];
+}
+
+export interface IHitProxy {
+    damageAtten?:        number;
+    criticalChance?:     number;
+    criticalMultiplier?: number;
 }
 
 export type TDroptable = IRewardPool[];
