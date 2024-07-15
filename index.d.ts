@@ -165,15 +165,16 @@ export interface IEnemyAgent {
 }
 
 export interface IEnemyAvatar {
-    name:         string;
-    icon?:        string;
-    faction:      "Stalker" | "None" | "Corpus" | "Grineer" | "Dummy" | "TENNO" | "Neutral" | "Narmer" | "Infestation" | "Orokin" | "Duviri" | "ENEMY" | "MITW" | "Prey" | "Sentient" | "NarmerVeil" | "Tenno" | "Red Veil";
-    health:       number;
-    armor:        number;
-    shield:       number;
-    killXPReward: number;
-    droptable?:   string;
-    isFrivolous?: boolean;
+    name:               string;
+    icon?:              string;
+    faction:            "Stalker" | "None" | "Corpus" | "Grineer" | "Dummy" | "TENNO" | "Neutral" | "Narmer" | "Infestation" | "Orokin" | "Duviri" | "ENEMY" | "MITW" | "Prey" | "Sentient" | "NarmerVeil" | "Tenno" | "Red Veil";
+    health:             number;
+    armor:              number;
+    shield:             number;
+    unhandledProcTypes: TProcType[];
+    killXPReward:       number;
+    droptable?:         string;
+    isFrivolous?:       boolean;
 }
 
 export type TDroptable = IRewardPool[];
@@ -612,3 +613,25 @@ export interface IDamageTable {
     DT_SENTIENT?: number;
     DT_FINISHER?: number;
 }
+
+export type TProcType =
+    "PT_KNOCKBACK" // DT_IMPACT
+    | "PT_FRAILTY" // DT_PUNCTURE
+    | "PT_BLEEDING" // DT_SLASH
+    | "PT_IMMOLATION" // DT_FIRE
+    | "PT_CHILLED" // DT_FREEZE
+    | "PT_ELECTROCUTION" // DT_ELECTRICITY
+    | "PT_POISONED" // DT_POISON
+    | "PT_FLASHBANG" // DT_EXPLOSION
+    | "PT_RAD_TOX" // DT_RADIATION
+    | "PT_ASPHYXIATION" // DT_GAS
+    | "PT_MAGNETIZED" // DT_MAGNETIC
+    | "PT_INFECTED" // DT_VIRAL
+    | "PT_CAUSTIC_BURN" // DT_CORROSIVE
+    | "PT_RADIANT" // DT_RADIANT
+    | "PT_STAGGERED"
+    | "PT_BIG_STAGGER"
+    | "PT_STUNNED"
+    | "PT_KNOCKED_DOWN"
+    | "PT_RAGDOLL"
+    ;
