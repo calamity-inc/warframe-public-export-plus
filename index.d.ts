@@ -159,6 +159,9 @@ export interface IEnemyAgent {
         EXIMUS?:   string;
         RARE?:     string;
     };
+    items?: {
+        type: string;
+    }[];
 }
 
 export interface IEnemyAvatar {
