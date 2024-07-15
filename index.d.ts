@@ -258,6 +258,7 @@ export interface IKey {
 export interface IExportMisc {
     uniqueLevelCaps: Record<string, number>;
     boosterDurations: Record<TRarity, number>;
+    npcKillRewardMultiplier: number;
 }
 
 export interface IModSet {
