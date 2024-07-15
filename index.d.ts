@@ -577,6 +577,7 @@ export interface IWeaponBehavior {
 
 export interface IProjectile {
     attack?: IDamageTable;
+    explosiveAttack?: IDamageTable;
     embedDeathAttack?: IDamageTable;
 }
 
