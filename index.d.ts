@@ -159,6 +159,7 @@ export interface IEnemyAvatar {
     health:       number;
     armor:        number;
     shield:       number;
+    killXPReward: number;
     droptable?:   string;
     isFrivolous?: boolean;
 }
