@@ -395,10 +395,6 @@
                     "attack": {
                         "DT_PUNCTURE": 220
                     }
-                },
-                "impact": {
-                    "DT_IMPACT": 0.0,
-                    "DT_PUNCTURE": 0.0
                 }
             },
             {
@@ -1163,9 +1159,6 @@
             {
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerActivated",
                 "projectile": {
-                    "attack": {
-                        "DT_IMPACT": 0
-                    },
                     "embedDeathAttack": {
                         "DT_EXPLOSION": 250
                     }
@@ -1298,9 +1291,6 @@
             {
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerActivated",
                 "projectile": {
-                    "attack": {
-                        "DT_IMPACT": 0
-                    },
                     "embedDeathAttack": {
                         "DT_ELECTRICITY": 160
                     }
@@ -2602,11 +2592,6 @@
                     "embedDeathAttack": {
                         "DT_FIRE": 725
                     }
-                },
-                "impact": {
-                    "DT_IMPACT": 0.0,
-                    "DT_PUNCTURE": 0.0,
-                    "DT_SLASH": 0.0
                 }
             }
         ]
@@ -3416,11 +3401,6 @@
             },
             {
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
-                "projectile": {
-                    "attack": {
-                        "DT_IMPACT": 0
-                    }
-                },
                 "impact": {}
             }
         ]
@@ -6432,11 +6412,6 @@
                         "DT_IMPACT": 40.0,
                         "DT_SLASH": 160.0
                     }
-                },
-                "impact": {
-                    "DT_IMPACT": 0.0,
-                    "DT_PUNCTURE": 0.0,
-                    "DT_SLASH": 0.0
                 }
             }
         ]
@@ -18368,9 +18343,6 @@
                         "DT_SLASH": 10,
                         "DT_RADIATION": 40
                     }
-                },
-                "impact": {
-                    "DT_SLASH": 0
                 }
             },
             {
@@ -21173,9 +21145,6 @@
             {
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerActivated",
                 "projectile": {
-                    "attack": {
-                        "DT_IMPACT": 0
-                    },
                     "embedDeathAttack": {
                         "DT_ELECTRICITY": 300
                     }
@@ -21562,17 +21531,9 @@
             {
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerActivated",
                 "projectile": {
-                    "attack": {
-                        "DT_IMPACT": 0
-                    },
                     "embedDeathAttack": {
                         "DT_MAGNETIC": 100
                     }
-                },
-                "impact": {
-                    "DT_IMPACT": 0.0,
-                    "DT_PUNCTURE": 0.0,
-                    "DT_SLASH": 0.0
                 }
             }
         ]
@@ -24154,9 +24115,6 @@
             {
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
                 "projectile": {
-                    "attack": {
-                        "DT_IMPACT": 0
-                    },
                     "embedDeathAttack": {
                         "DT_ELECTRICITY": 100
                     }
@@ -25136,9 +25094,6 @@
             {
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
                 "projectile": {
-                    "attack": {
-                        "DT_CORROSIVE": 0
-                    },
                     "embedDeathAttack": {
                         "DT_CORROSIVE": 75
                     }
@@ -25152,9 +25107,6 @@
             {
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
                 "projectile": {
-                    "attack": {
-                        "DT_CORROSIVE": 0
-                    },
                     "embedDeathAttack": {
                         "DT_CORROSIVE": 75
                     }
@@ -27400,8 +27352,7 @@
                     "attack": {
                         "DT_PUNCTURE": 3
                     }
-                },
-                "impact": {}
+                }
             }
         ]
     },
@@ -27520,11 +27471,6 @@
                     "embedDeathAttack": {
                         "DT_FIRE": 50
                     }
-                },
-                "impact": {
-                    "DT_IMPACT": 0.0,
-                    "DT_PUNCTURE": 0.0,
-                    "DT_SLASH": 0.0
                 }
             },
             {
@@ -27624,11 +27570,6 @@
                         "DT_PUNCTURE": 40.0,
                         "DT_SLASH": 16.0
                     }
-                },
-                "impact": {
-                    "DT_IMPACT": 0.0,
-                    "DT_PUNCTURE": 0.0,
-                    "DT_SLASH": 0.0
                 }
             }
         ]
@@ -28703,11 +28644,6 @@
                         "DT_PUNCTURE": 25.0,
                         "DT_SLASH": 10.0
                     }
-                },
-                "impact": {
-                    "DT_IMPACT": 0.0,
-                    "DT_PUNCTURE": 0.0,
-                    "DT_SLASH": 0.0
                 }
             }
         ]
@@ -29956,11 +29892,6 @@
                     "embedDeathAttack": {
                         "DT_GAS": 100
                     }
-                },
-                "impact": {
-                    "DT_IMPACT": 0.0,
-                    "DT_PUNCTURE": 0.0,
-                    "DT_SLASH": 0.0
                 }
             },
             {
@@ -30441,9 +30372,6 @@
             {
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
                 "projectile": {
-                    "attack": {
-                        "DT_IMPACT": 0
-                    },
                     "embedDeathAttack": {
                         "DT_IMPACT": 100
                     }
@@ -32431,9 +32359,6 @@
                         "DT_PUNCTURE": 40.74,
                         "DT_SLASH": 46.56
                     }
-                },
-                "impact": {
-                    "DT_SLASH": 0
                 }
             }
         ]
@@ -32495,11 +32420,6 @@
                         "DT_PUNCTURE": 16.64,
                         "DT_SLASH": 28.08
                     }
-                },
-                "impact": {
-                    "DT_IMPACT": 0.0,
-                    "DT_PUNCTURE": 0.0,
-                    "DT_SLASH": 0.0
                 }
             },
             {
@@ -32513,11 +32433,6 @@
                     "embedDeathAttack": {
                         "DT_RADIATION": 1200
                     }
-                },
-                "impact": {
-                    "DT_IMPACT": 0.0,
-                    "DT_PUNCTURE": 0.0,
-                    "DT_SLASH": 0.0
                 }
             }
         ]
@@ -34598,17 +34513,7 @@
         ],
         "behaviors": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerActivated",
-                "projectile": {
-                    "attack": {
-                        "DT_IMPACT": 0
-                    }
-                },
-                "impact": {
-                    "DT_IMPACT": 0.0,
-                    "DT_PUNCTURE": 0.0,
-                    "DT_SLASH": 0.0
-                }
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerActivated"
             }
         ]
     },
@@ -36672,16 +36577,6 @@
         "behaviors": [
             {
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
-                "projectile": {
-                    "attack": {
-                        "DT_ELECTRICITY": 0
-                    }
-                },
-                "chargedProjectile": {
-                    "attack": {
-                        "DT_ELECTRICITY": 0
-                    }
-                },
                 "impact": {}
             }
         ]
@@ -36734,16 +36629,6 @@
         "behaviors": [
             {
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
-                "projectile": {
-                    "attack": {
-                        "DT_ELECTRICITY": 0
-                    }
-                },
-                "chargedProjectile": {
-                    "attack": {
-                        "DT_ELECTRICITY": 0
-                    }
-                },
                 "impact": {}
             }
         ]
@@ -37482,11 +37367,6 @@
         "behaviors": [
             {
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
-                "projectile": {
-                    "attack": {
-                        "DT_FIRE": 0
-                    }
-                },
                 "impact": {
                     "DT_IMPACT": 3.33333,
                     "DT_PUNCTURE": 3.33333,
@@ -44495,11 +44375,6 @@
                     "attack": {
                         "DT_ELECTRICITY": 100
                     }
-                },
-                "impact": {
-                    "DT_IMPACT": 0.0,
-                    "DT_PUNCTURE": 0.0,
-                    "DT_SLASH": 0.0
                 }
             },
             {
@@ -44508,11 +44383,6 @@
                     "attack": {
                         "DT_ELECTRICITY": 350
                     }
-                },
-                "impact": {
-                    "DT_IMPACT": 0.0,
-                    "DT_PUNCTURE": 0.0,
-                    "DT_SLASH": 0.0
                 }
             }
         ]
