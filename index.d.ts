@@ -147,15 +147,24 @@ export interface IDrone {
 }
 
 export interface IExportEnemies {
+    agents:     Record<string, IEnemyAgent>;
     avatars:    Record<string, IEnemyAvatar>;
     droptables: Record<string, TDroptable>;
+}
+
+export interface IEnemyAgent {
+    baseLevel:    number;
+    avatarTypes: {
+        STANDARD?: string;
+        EXIMUS?:   string;
+        RARE?:     string;
+    };
 }
 
 export interface IEnemyAvatar {
     name:         string;
     icon?:        string;
     faction:      "Stalker" | "None" | "Corpus" | "Grineer" | "Dummy" | "TENNO" | "Neutral" | "Narmer" | "Infestation" | "Orokin" | "Duviri" | "ENEMY" | "MITW" | "Prey" | "Sentient" | "NarmerVeil" | "Tenno" | "Red Veil";
-    baseLevel:    number;
     health:       number;
     armor:        number;
     shield:       number;
