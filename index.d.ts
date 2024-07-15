@@ -147,8 +147,9 @@ export interface IDrone {
 }
 
 export interface IExportEnemies {
-    agents:     Record<string, IEnemyAgent>;
-    avatars:    Record<string, IEnemyAvatar>;
+    agents: Record<string, IEnemyAgent>;
+    avatars: Record<string, IEnemyAvatar>;
+    damageControllers: Record<string, IDamageController>;
     droptables: Record<string, TDroptable>;
 }
 
@@ -165,16 +166,19 @@ export interface IEnemyAgent {
 }
 
 export interface IEnemyAvatar {
-    name:               string;
-    icon?:              string;
-    faction:            "Stalker" | "None" | "Corpus" | "Grineer" | "Dummy" | "TENNO" | "Neutral" | "Narmer" | "Infestation" | "Orokin" | "Duviri" | "ENEMY" | "MITW" | "Prey" | "Sentient" | "NarmerVeil" | "Tenno" | "Red Veil";
-    health:             number;
+    name:         string;
+    icon?:        string;
+    faction:      "Stalker" | "None" | "Corpus" | "Grineer" | "Dummy" | "TENNO" | "Neutral" | "Narmer" | "Infestation" | "Orokin" | "Duviri" | "ENEMY" | "MITW" | "Prey" | "Sentient" | "NarmerVeil" | "Tenno" | "Red Veil";
+    health:       number;
+    killXPReward: number;
+    droptable?:   string;
+    isFrivolous?: boolean;
+}
+
+export interface IDamageController {
     armor:              number;
     shield:             number;
     unhandledProcTypes: TProcType[];
-    killXPReward:       number;
-    droptable?:         string;
-    isFrivolous?:       boolean;
 }
 
 export type TDroptable = IRewardPool[];
