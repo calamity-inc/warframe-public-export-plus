@@ -167,13 +167,14 @@ export interface IEnemyAgent {
 }
 
 export interface IEnemyAvatar {
-    name:         string;
-    icon?:        string;
-    faction:      "Stalker" | "None" | "Corpus" | "Grineer" | "Dummy" | "TENNO" | "Neutral" | "Narmer" | "Infestation" | "Orokin" | "Duviri" | "ENEMY" | "MITW" | "Prey" | "Sentient" | "NarmerVeil" | "Tenno" | "Red Veil";
-    health:       number;
-    killXPReward: number;
-    droptable?:   string;
-    isFrivolous?: boolean;
+    name:                      string;
+    icon?:                     string;
+    faction:                   "Stalker" | "None" | "Corpus" | "Grineer" | "Dummy" | "TENNO" | "Neutral" | "Narmer" | "Infestation" | "Orokin" | "Duviri" | "ENEMY" | "MITW" | "Prey" | "Sentient" | "NarmerVeil" | "Tenno" | "Red Veil";
+    health:                    number;
+    killXPReward:              number;
+    factionResistanceKeyword?: "RK_INFESTED_FACTION" | "RK_CORPUS_FACTION" | "RK_GRINEER_FACTION" | "RK_CORPUS_AMALGAM_FACTION" | "RK_NARMER_FACTION" | "RK_GRINEER_KUVA_FACTION" | "RK_NEUTRAL" | "RK_OROKIN_FACTION" | "RK_ZARIMAN_FACTION" | "RK_MITW_FACTION" | "RK_INFESTED_DEIMOS_FACTION" | "RK_DISABLE_FACTION" | "RK_SENTIENT_FACTION";
+    droptable?:                string;
+    isFrivolous?:              boolean;
 }
 
 export interface IDamageController {
