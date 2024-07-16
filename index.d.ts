@@ -169,6 +169,7 @@ export interface IEnemyAgent {
 export interface IEnemyAvatar {
     name:                      string;
     icon?:                     string;
+    description?:              string;
     faction:                   "Stalker" | "None" | "Corpus" | "Grineer" | "Dummy" | "TENNO" | "Neutral" | "Narmer" | "Infestation" | "Orokin" | "Duviri" | "ENEMY" | "MITW" | "Prey" | "Sentient" | "NarmerVeil" | "Tenno" | "Red Veil";
     health:                    number;
     killXPReward:              number;
