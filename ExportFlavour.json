@@ -2623,6 +2623,14 @@
         "base": "/Lotus/Types/Items/Emotes/Emote",
         "codexSecret": true
     },
+    "/Lotus/Types/Items/Emotes/Tennocon2024EmoteAlt": {
+        "name": "/Lotus/Language/Emotes/Tennocon2024AltEmoteName",
+        "description": "/Lotus/Language/Emotes/Tennocon2024AltEmoteDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Emotes/Tennocon2024AltEmote.png",
+        "base": "/Lotus/Types/Items/Emotes/Emote",
+        "codexSecret": true,
+        "excludeFromCodex": true
+    },
     "/Lotus/Types/Items/Emotes/ThousandDaysEmote": {
         "name": "/Lotus/Language/Emotes/ThousandDaysEmoteName",
         "description": "/Lotus/Language/Emotes/ThousandDaysEmoteDesc",
@@ -6181,6 +6189,41 @@
         "icon": "/Lotus/Interface/Icons/Player/Halloween2023OwlMaskGlyph.png",
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": false
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Seasonal/AvatarImageDogDays2024Glyph": {
+        "name": "/Lotus/Language/Glyphs/DogDays2024GlyphName",
+        "description": "/Lotus/Language/Glyphs/DogDays2024GlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/DogDays2024Glyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Seasonal/AvatarImageDogDays2024GrendelGlyph": {
+        "name": "/Lotus/Language/Glyphs/DogDays2024GrendelGlyphName",
+        "description": "/Lotus/Language/Glyphs/DogDays2024GrendelGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/DogDays2024Grendel.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Seasonal/AvatarImageDogDays2024LavosGlyph": {
+        "name": "/Lotus/Language/Glyphs/DogDays2024LavosGlyphName",
+        "description": "/Lotus/Language/Glyphs/DogDays2024LavosGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/DogDays2024Lavos.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Seasonal/AvatarImageDogDays2024VorunaGlyph": {
+        "name": "/Lotus/Language/Glyphs/DogDays2024VorunaGlyphName",
+        "description": "/Lotus/Language/Glyphs/DogDays2024VorunaGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/DogDays2024Voruna.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Seasonal/AvatarImageDogDays2024YareliGlyph": {
+        "name": "/Lotus/Language/Glyphs/DogDays2024YareliGlyphName",
+        "description": "/Lotus/Language/Glyphs/DogDays2024YareliGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/DogDays2024Yareli.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
     },
     "/Lotus/Types/StoreItems/AvatarImages/Seasonal/AvatarImageGlyphCookieExcalibur": {
         "name": "/Lotus/Language/Glyphs/GlyphCookieExcaliburName",
@@ -12332,6 +12375,14 @@
         "icon": "/Lotus/Interface/Icons/Player/TennoCon2024Glyph.png",
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/TennoCon2024GlyphAlt": {
+        "name": "/Lotus/Language/Glyphs/Tennocon2024GlyphAltName",
+        "description": "/Lotus/Language/Glyphs/GenericGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/TennoCon2024AltGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "excludeFromCodex": true
     },
     "/Lotus/Types/StoreItems/AvatarImages/TwinSnakesGlyph": {
         "name": "/Lotus/Language/Glyphs/TwinSnakesGlyphName",
@@ -19123,7 +19174,6 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Palettes/ColorPickerEmberHeirloom.png",
         "base": "/Lotus/Types/Items/ColorPickerItem",
         "codexSecret": false,
-        "excludeFromCodex": true,
         "hexColours": [
             {
                 "value": "0x00D99646"

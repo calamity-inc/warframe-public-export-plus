@@ -4338,7 +4338,7 @@
     },
     "/Lotus/Types/StoreItems/Packages/MegaPrimeVault/MPVHarrowNekrosPrimeDualPack": {
         "name": "/Lotus/Language/PrimePacks/MPVHarrowNekrosDualPackName",
-        "description": "/Lotus/Language/PrimeStore/MPVPrimeVaultOberonNekrosDesc",
+        "description": "/Lotus/Language/PrimePacks/MPVHarrowNekrosDualPackDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/MegaPrimeVault/HarrowNekrosDuoPack.png",
         "components": [
             {
@@ -15261,6 +15261,45 @@
             }
         ],
         "premiumPrice": 275
+    },
+    "/Lotus/Types/StoreItems/Packages/HeirloomPackEmber": {
+        "name": "/Lotus/Language/Heirloom/HeirloomPackEmberName",
+        "description": "/Lotus/Language/Heirloom/HeirloomPackEmberDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/CosmeticBundles/Skins/HeirloomPackEmber.png",
+        "excludeFromCodex": true,
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Ember/EmberHeirloomSkin",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Crowns/HeirloomEmberCrown",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/SuitCustomizations/ColourPickerEmberHeirloom",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/HeirloomEmberGlyph",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Sigils/HeirloomEmberSigil",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCardEmberHeirloom",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ],
+        "premiumPrice": 400
     },
     "/Lotus/Types/StoreItems/Packages/HelminthBundle": {
         "name": "/Lotus/Language/Bundles/HelminthBundleName",

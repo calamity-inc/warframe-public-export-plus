@@ -22714,6 +22714,59 @@
             }
         ]
     },
+    "/Lotus/Weapons/Lasria/AK47/TC2024AK47Weapon": {
+        "name": "/Lotus/Language/Weapons/AK47WeaponName",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/AK47Weapon.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 40,
+        "description": "/Lotus/Language/Weapons/AK47WeaponDesc",
+        "criticalChance": 0.26,
+        "criticalMultiplier": 2.4,
+        "procChance": 0.18,
+        "fireRate": 10.000001,
+        "masteryReq": 12,
+        "productCategory": "LongGuns",
+        "holsterCategory": "RIFLE",
+        "slot": 1,
+        "accuracy": 133.33333,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 40,
+        "reloadTime": 2,
+        "multishot": 1,
+        "compatibilityTags": [
+            "ASSAULT_AMMO"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "impact": {}
+            }
+        ]
+    },
     "/Lotus/Weapons/Infested/Pistols/InfestedPistol": {
         "name": "/Lotus/Language/Items/InfestedPistolName",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Weapons/Embolist.png",
@@ -41204,7 +41257,11 @@
         "masteryReq": 0,
         "productCategory": "Pistols",
         "omegaAttenuation": 0.55,
-        "primeOmegaAttenuation": 1.1
+        "primeOmegaAttenuation": 1.1,
+        "compatibilityTags": [
+            "MODULAR_GUN",
+            "SEMI_AUTO"
+        ]
     },
     "/Lotus/Weapons/Infested/Pistols/InfKitGun/Clips/InfClipBig/InfModularClipBigCritStatPart": {
         "name": "/Lotus/Language/Weapons/InfModularClipBigCritStat",
@@ -43771,7 +43828,11 @@
         "masteryReq": 0,
         "productCategory": "Pistols",
         "omegaAttenuation": 0.6,
-        "primeOmegaAttenuation": 1.1
+        "primeOmegaAttenuation": 1.1,
+        "compatibilityTags": [
+            "MODULAR_GUN",
+            "SEMI_AUTO"
+        ]
     },
     "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelBPart": {
         "name": "/Lotus/Language/SolarisVenus/SUModularSecondaryBarrelB",
@@ -43811,7 +43872,9 @@
         "primeOmegaAttenuation": 1,
         "compatibilityTags": [
             "PROJECTILE",
-            "AOE"
+            "AOE",
+            "MODULAR_GUN",
+            "SEMI_AUTO"
         ]
     },
     "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelCPart": {

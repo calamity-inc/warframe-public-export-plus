@@ -27259,6 +27259,31 @@
             }
         ]
     },
+    "/Lotus/Types/Recipes/Weapons/AkmagnusPrimeBlueprint": {
+        "resultType": "/Lotus/Weapons/Tenno/Akimbo/DualMagnusPrime",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "primeSellingPrice": 15,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimeMagnus/PrimeMagnusWeapon",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Weapons/Tenno/Pistols/PrimeMagnus/PrimeMagnusWeapon",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/AkmagnusPrimeLink",
+                "ItemCount": 1
+            }
+        ]
+    },
     "/Lotus/Types/Recipes/Weapons/AksomatiBlueprint": {
         "resultType": "/Lotus/Weapons/Tenno/Pistols/SomaSidearm/AkimboSomaPistols",
         "buildPrice": 20000,

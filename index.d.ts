@@ -76,7 +76,7 @@ export interface IArcane {
     rarity:             TRarity;
     fusionLimit:        number;
     distillPointValue?: number;
-    isFrivolous?:       boolean;
+    isFrivolous?:       boolean; // deprecated: there's no longer any arcane that has this field
 }
 
 export interface IAvionic {
