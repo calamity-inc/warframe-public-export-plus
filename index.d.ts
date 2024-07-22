@@ -152,6 +152,7 @@ export interface IExportEnemies {
     damageControllers: Record<string, IDamageController>;
     droptables: Record<string, TDroptable>;
     hitProxies: Record<string, IHitProxy>;
+    aiWeapons: Record<string, IAiWeapon>;
 }
 
 export interface IEnemyAgent {
@@ -192,6 +193,13 @@ export interface IHitProxy {
     damageAtten?:        number;
     criticalChance?:     number;
     criticalMultiplier?: number;
+}
+
+export interface IAiWeapon {
+    name?:        string;
+    description?: string;
+    icon?:        string;
+    behaviors?:   IWeaponBehaviour[];
 }
 
 export type TDroptable = IRewardPool[];
