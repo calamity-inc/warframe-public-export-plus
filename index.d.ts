@@ -342,7 +342,7 @@ export interface IRailjackWeapon {
     reloadTime:         number;
     multishot:          number;
     compatibilityTags?: string[];
-    behaviors?:         IWeaponBehavior[];
+    behaviours?:        IWeaponBehaviour[];
 }
 
 export interface IRecipe {
@@ -579,7 +579,7 @@ export interface IWeapon {
     reloadTime?:            number;
     multishot?:             number;
     compatibilityTags?:     string[];
-    behaviors?:             IWeaponBehavior[];
+    behaviours?:            IWeaponBehaviour[];
     blockingAngle?:         number;
     comboDuration?:         number;
     followThrough?:         number;
@@ -599,7 +599,7 @@ export interface IWeapon {
     primeOmegaAttenuation?: number;
 }
 
-export interface IWeaponBehavior {
+export interface IWeaponBehaviour {
     stateName?: string;
     projectile?: IProjectile;
     impact?: IDamageTable;
