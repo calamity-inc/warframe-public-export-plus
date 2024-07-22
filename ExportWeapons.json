@@ -20181,6 +20181,63 @@
             }
         ]
     },
+    "/Lotus/Weapons/Tenno/Akimbo/DualMagnusPrime": {
+        "name": "/Lotus/Language/Primes/AkmagnusPrimeName",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Weapons/AkmagnusPrime.png",
+        "codexSecret": true,
+        "damagePerShot": [
+            44.099998,
+            26.950001,
+            26.949997,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 98,
+        "description": "/Lotus/Language/Primes/AkmagnusPrimeDesc",
+        "criticalChance": 0.28,
+        "criticalMultiplier": 2.8,
+        "procChance": 0.28,
+        "fireRate": 5.666667,
+        "masteryReq": 15,
+        "productCategory": "Pistols",
+        "holsterCategory": "SMG",
+        "slot": 0,
+        "accuracy": 11.111111,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "SEMI",
+        "magazineSize": 16,
+        "reloadTime": 2.8,
+        "multishot": 1,
+        "compatibilityTags": [
+            "SEMI_AUTO"
+        ],
+        "behaviors": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                "impact": {
+                    "DT_IMPACT": 44.1,
+                    "DT_PUNCTURE": 26.95,
+                    "DT_SLASH": 26.95
+                }
+            }
+        ]
+    },
     "/Lotus/Weapons/Tenno/Akimbo/DualMagnus": {
         "name": "/Lotus/Language/Items/AkmagnusName",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Weapons/Akmagnus.png",
