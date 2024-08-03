@@ -4,13 +4,13 @@ The most complete data source for all your Warframe needs and interests. Contain
 
 ## Localisations
 
-Data and localisations are entirely split here (into Export\*.json and dict.\*.json, respectively). This should make it trivial to handle localizations in your projects without tons of duplicated data. Unfortunately, this may make it difficult to manually browse the data; however, you can type whatever you're looking for into [omni.wf](https://omni.wf/), which is uses this data and [is open-source](https://github.com/calamity-inc/omni.wf).
+Data and localisations are entirely split here (into Export\*.json and dict.\*.json, respectively). This should make it trivial to handle localizations in your projects without tons of duplicated data. Unfortunately, this may make it difficult to manually browse the data; however, you can type whatever you're looking for into [wfdata.io](https://wfdata.io/), which is uses this data and [is open-source](https://github.com/calamity-inc/wfdata.io).
 
 ## Images
 
 Most exports here have an `icon` field, which contains a path, e.g. `/Lotus/Interface/Icons/Player/LotusSymbol.png`. There are a few ways to obtain an image from such a path:
 - [Puxtril's Warframe Exporter](https://github.com/Puxtril/Warframe-Exporter) can be used entirely offline to export textures from your game files.
-- browse.wf hosts all images and can be queried like this: <https://browse.wf/Lotus/Interface/Icons/Player/LotusSymbol.png>
+- raw.wfdata.io hosts all images and can be queried like this: <https://raw.wfdata.io/Lotus/Interface/Icons/Player/LotusSymbol.png>
 - ExportImages can be used to find out if an image is hosted on `content.warframe.com/PublicExport`, in which case it can be obtained using by adding an exclamation mark followed by the `contentHash`, like so: <https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/LotusSymbol.png!00_WC8orfy4NOtWelndlH7qmQ>
 
 ## Notes
