@@ -17646,17 +17646,17 @@
     "/Lotus/Weapons/Tenno/Grimoire/TnGrimoire": {
         "name": "/Lotus/Language/Weapons/GrimoireName",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Weapons/Grimoire.png",
-        "codexSecret": false,
+        "codexSecret": true,
         "damagePerShot": [
             0,
             0,
             0,
             0,
             0,
+            150,
             0,
             0,
             0,
-            100,
             0,
             0,
             0,
@@ -17669,7 +17669,7 @@
             0,
             0
         ],
-        "totalDamage": 100,
+        "totalDamage": 150,
         "description": "/Lotus/Language/Weapons/GrimoireDesc",
         "criticalChance": 0.2,
         "criticalMultiplier": 2,
@@ -17683,8 +17683,7 @@
         "omegaAttenuation": 0.6,
         "noise": "ALARMING",
         "trigger": "AUTO",
-        "magazineSize": 0,
-        "reloadTime": 0,
+        "reloadTime": 0.01,
         "multishot": 1,
         "compatibilityTags": [
             "PROJECTILE",
@@ -45123,77 +45122,5 @@
         "masteryReq": 0,
         "productCategory": "Pistols",
         "omegaAttenuation": 1
-    },
-    "/Lotus/Weapons/Tenno/Grimoire/TnGrimoire": {
-        "name": "/Lotus/Language/Weapons/GrimoireName",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Weapons/Grimoire.png",
-        "codexSecret": false,
-        "damagePerShot": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-        ],
-        "totalDamage": 100,
-        "description": "/Lotus/Language/Weapons/GrimoireDesc",
-        "criticalChance": 0.2,
-        "criticalMultiplier": 2,
-        "procChance": 0.26,
-        "fireRate": 1.5,
-        "masteryReq": 10,
-        "productCategory": "Pistols",
-        "holsterCategory": "SMG",
-        "slot": 0,
-        "accuracy": 100,
-        "omegaAttenuation": 0.6,
-        "noise": "ALARMING",
-        "trigger": "AUTO",
-        "magazineSize": 0,
-        "reloadTime": 0,
-        "multishot": 1,
-        "compatibilityTags": [
-            "PROJECTILE",
-            "THROWN"
-        ],
-        "behaviours": [
-            {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
-                "projectile": {
-                    "attack": {
-                        "DT_ELECTRICITY": 100
-                    },
-                    "explosiveAttack": {
-                        "DT_ELECTRICITY": 50
-                    }
-                }
-            },
-            {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
-                "projectile": {
-                    "attack": {
-                        "DT_ELECTRICITY": 350
-                    },
-                    "explosiveAttack": {
-                        "DT_ELECTRICITY": 250
-                    }
-                }
-            }
-        ]
     }
 }
