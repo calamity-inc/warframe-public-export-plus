@@ -6076,6 +6076,20 @@
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": false
     },
+    "/Lotus/Types/StoreItems/AvatarImages/Primes/ImageSevagothPrimeBright": {
+        "name": "/Lotus/Language/Primes/AvatarSevagothPrimeBrightName",
+        "description": "/Lotus/Language/Primes/AvatarSevagothPrimeBrightDesc",
+        "icon": "/Lotus/Interface/Icons/Player/SevagothPrimeAvatarBright.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Primes/ImageSevagothPrimeDark": {
+        "name": "/Lotus/Language/Primes/AvatarSevagothPrimeDarkName",
+        "description": "/Lotus/Language/Primes/AvatarSevagothPrimeDarkDesc",
+        "icon": "/Lotus/Interface/Icons/Player/SevagothPrimeAvatarDark.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/Primes/ImageWispPrimeBright": {
         "name": "/Lotus/Language/Primes/AvatarWispPrimeBrightName",
         "description": "/Lotus/Language/Primes/AvatarWispPrimeBrightDesc",
@@ -8348,6 +8362,14 @@
         "icon": "/Lotus/Interface/Icons/Player/VEDWraith.png",
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": false,
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageStalkerAction": {
+        "name": "/Lotus/Language/Glyphs/StalkerInActionGlyphName",
+        "description": "/Lotus/Language/Glyphs/GenericGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/StalkerActionGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
         "excludeFromCodex": true
     },
     "/Lotus/Types/StoreItems/AvatarImages/AvatarImageStarDaysCervulitePat": {
@@ -34593,6 +34615,14 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Tennogen/LandingCraft/SWVammatarLisetSkin.png",
         "base": "/Lotus/Types/Items/ShipExteriorSkinItem",
         "codexSecret": false
+    },
+    "/Lotus/Upgrades/Skins/Liset/StalkerHoodOrnament": {
+        "name": "/Lotus/Language/ShipDecorations/HoodOrnament_StalkerName",
+        "description": "/Lotus/Language/ShipDecorations/HoodOrnament_StalkerDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/HoodOrnament/StalkerHoodOrnament.png",
+        "base": "/Lotus/Types/Items/ShipAttachmentItem",
+        "codexSecret": true,
+        "excludeFromCodex": true
     },
     "/Lotus/Upgrades/Skins/Liset/StalkerShipDeluxeSkin": {
         "name": "/Lotus/Language/Cosmetics/StalkerShipDeluxeSkinName",

@@ -387,7 +387,7 @@
         "holsterCategory": "ARM_MOUNTED",
         "slot": 0,
         "accuracy": 40,
-        "omegaAttenuation": 0.55,
+        "omegaAttenuation": 0.6,
         "noise": "ALARMING",
         "trigger": "AUTO",
         "magazineSize": 20,
@@ -450,7 +450,7 @@
         "productCategory": "Melee",
         "holsterCategory": "STAFF",
         "slot": 5,
-        "omegaAttenuation": 0.85,
+        "omegaAttenuation": 0.95,
         "blockingAngle": 50,
         "comboDuration": 5,
         "followThrough": 0.4,
@@ -509,7 +509,7 @@
         "productCategory": "Melee",
         "holsterCategory": "FIST",
         "slot": 5,
-        "omegaAttenuation": 0.55,
+        "omegaAttenuation": 0.65,
         "blockingAngle": 50,
         "comboDuration": 5,
         "followThrough": 0.9,
@@ -1224,7 +1224,7 @@
         "holsterCategory": "SMG",
         "slot": 0,
         "accuracy": 100,
-        "omegaAttenuation": 0.5,
+        "omegaAttenuation": 0.65,
         "noise": "SILENT",
         "trigger": "AUTO",
         "magazineSize": 6,
@@ -3594,7 +3594,7 @@
         "holsterCategory": "SMG",
         "slot": 0,
         "accuracy": 26.666666,
-        "omegaAttenuation": 1,
+        "omegaAttenuation": 1.05,
         "noise": "ALARMING",
         "trigger": "BURST",
         "magazineSize": 10,
@@ -3761,7 +3761,7 @@
         "productCategory": "Pistols",
         "slot": 0,
         "accuracy": 23.529411,
-        "omegaAttenuation": 0.75,
+        "omegaAttenuation": 0.8,
         "noise": "ALARMING",
         "trigger": "DUPLEX",
         "magazineSize": 12,
@@ -3889,7 +3889,7 @@
         "holsterCategory": "SMG",
         "slot": 0,
         "accuracy": 25,
-        "omegaAttenuation": 0.5,
+        "omegaAttenuation": 0.65,
         "noise": "ALARMING",
         "trigger": "AUTO",
         "magazineSize": 70,
@@ -4494,6 +4494,79 @@
             }
         ]
     },
+    "/Lotus/Weapons/Tenno/Pistols/PrimeEpitaph/PrimeEpitaphSidearmWeapon": {
+        "name": "/Lotus/Language/Primes/EpitaphPrimeName",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Weapons/EpitaphPrime.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            126,
+            47.25,
+            141.75,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 315,
+        "description": "/Lotus/Language/Primes/EpitaphPrimeDesc",
+        "criticalChance": 0.04,
+        "criticalMultiplier": 1.8,
+        "procChance": 0.14,
+        "fireRate": 1.75,
+        "masteryReq": 14,
+        "productCategory": "Pistols",
+        "holsterCategory": "ARM_MOUNTED",
+        "slot": 0,
+        "accuracy": 80,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "CHARGE",
+        "magazineSize": 1,
+        "reloadTime": 0.6,
+        "multishot": 1,
+        "compatibilityTags": [
+            "PROJECTILE",
+            "SINGLESHOT",
+            "AOE"
+        ],
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 40.0,
+                        "DT_PUNCTURE": 30.0,
+                        "DT_SLASH": 30.0
+                    },
+                    "explosiveAttack": {},
+                    "embedDeathAttack": {
+                        "DT_RADIATION": 200
+                    }
+                },
+                "chargedProjectile": {
+                    "attack": {
+                        "DT_IMPACT": 126.0,
+                        "DT_PUNCTURE": 47.25,
+                        "DT_SLASH": 141.75
+                    }
+                },
+                "impact": {}
+            }
+        ]
+    },
     "/Lotus/Weapons/Tenno/Pistols/PrimeBallistica/PrimeBallistica": {
         "name": "/Lotus/Language/Primes/PrimeBallisticaName",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Weapons/BallisticaPrime.png",
@@ -4832,7 +4905,7 @@
         "holsterCategory": "SMG",
         "slot": 0,
         "accuracy": 26.666666,
-        "omegaAttenuation": 0.6,
+        "omegaAttenuation": 0.65,
         "noise": "ALARMING",
         "trigger": "BURST",
         "magazineSize": 8,
@@ -6167,7 +6240,7 @@
         "productCategory": "Melee",
         "holsterCategory": "DUAL_SHORT_MELEE",
         "slot": 5,
-        "omegaAttenuation": 0.75,
+        "omegaAttenuation": 0.8,
         "blockingAngle": 55,
         "comboDuration": 5,
         "followThrough": 0.7,
@@ -6419,7 +6492,7 @@
         "productCategory": "Melee",
         "holsterCategory": "LEFT_FOREARM_MOUNTED",
         "slot": 5,
-        "omegaAttenuation": 0.9,
+        "omegaAttenuation": 0.95,
         "blockingAngle": 70,
         "comboDuration": 5,
         "followThrough": 0.6,
@@ -7029,7 +7102,7 @@
         "productCategory": "Melee",
         "holsterCategory": "SHORT_MELEE",
         "slot": 5,
-        "omegaAttenuation": 0.75,
+        "omegaAttenuation": 0.85,
         "blockingAngle": 60,
         "comboDuration": 5,
         "followThrough": 0.5,
@@ -7593,7 +7666,7 @@
         "productCategory": "Melee",
         "holsterCategory": "MELEE",
         "slot": 5,
-        "omegaAttenuation": 0.7,
+        "omegaAttenuation": 0.75,
         "blockingAngle": 55,
         "comboDuration": 5,
         "followThrough": 0.7,
@@ -7720,7 +7793,7 @@
         "productCategory": "Melee",
         "holsterCategory": "DUAL_SHORT_MELEE",
         "slot": 5,
-        "omegaAttenuation": 0.5,
+        "omegaAttenuation": 0.7,
         "blockingAngle": 50,
         "comboDuration": 5,
         "followThrough": 0.8,
@@ -7846,7 +7919,7 @@
         "productCategory": "Melee",
         "holsterCategory": "MELEE",
         "slot": 5,
-        "omegaAttenuation": 0.85,
+        "omegaAttenuation": 0.9,
         "blockingAngle": 55,
         "comboDuration": 5,
         "followThrough": 0.6,
@@ -8161,7 +8234,7 @@
         "productCategory": "Melee",
         "holsterCategory": "DUAL_MELEE",
         "slot": 5,
-        "omegaAttenuation": 0.65,
+        "omegaAttenuation": 0.7,
         "blockingAngle": 60,
         "comboDuration": 5,
         "followThrough": 0.5,
@@ -8667,7 +8740,7 @@
         "productCategory": "Melee",
         "holsterCategory": "HIP_MELEE",
         "slot": 5,
-        "omegaAttenuation": 0.65,
+        "omegaAttenuation": 0.7,
         "blockingAngle": 55,
         "comboDuration": 5,
         "followThrough": 0.7,
@@ -10105,7 +10178,7 @@
         "productCategory": "Melee",
         "holsterCategory": "MELEE",
         "slot": 5,
-        "omegaAttenuation": 0.5,
+        "omegaAttenuation": 0.55,
         "blockingAngle": 60,
         "comboDuration": 5,
         "followThrough": 0.6,
@@ -11109,7 +11182,7 @@
         "productCategory": "Melee",
         "holsterCategory": "STAFF",
         "slot": 5,
-        "omegaAttenuation": 0.9,
+        "omegaAttenuation": 0.95,
         "blockingAngle": 55,
         "comboDuration": 5,
         "followThrough": 0.6,
@@ -12149,7 +12222,7 @@
         "productCategory": "Melee",
         "holsterCategory": "MELEE",
         "slot": 5,
-        "omegaAttenuation": 1.15,
+        "omegaAttenuation": 1.2,
         "blockingAngle": 45,
         "comboDuration": 5,
         "followThrough": 0.5,
@@ -13856,7 +13929,7 @@
         "productCategory": "Melee",
         "holsterCategory": "MELEE",
         "slot": 5,
-        "omegaAttenuation": 0.95,
+        "omegaAttenuation": 1,
         "blockingAngle": 55,
         "comboDuration": 5,
         "followThrough": 0.6,
@@ -14313,7 +14386,7 @@
         "holsterCategory": "RIFLE",
         "slot": 1,
         "accuracy": 100,
-        "omegaAttenuation": 1.1,
+        "omegaAttenuation": 1.15,
         "noise": "ALARMING",
         "trigger": "SEMI",
         "magazineSize": 12,
@@ -15686,7 +15759,7 @@
         "holsterCategory": "SNIPER",
         "slot": 1,
         "accuracy": 13.333333,
-        "omegaAttenuation": 0.85,
+        "omegaAttenuation": 0.9,
         "noise": "ALARMING",
         "trigger": "SEMI",
         "magazineSize": 2,
@@ -17210,7 +17283,7 @@
         "holsterCategory": "RIFLE",
         "slot": 1,
         "accuracy": 18.181818,
-        "omegaAttenuation": 1.1,
+        "omegaAttenuation": 1.15,
         "noise": "ALARMING",
         "trigger": "AUTO",
         "magazineSize": 28,
@@ -17570,6 +17643,140 @@
             }
         ]
     },
+    "/Lotus/Weapons/Tenno/Grimoire/TnGrimoire": {
+        "name": "/Lotus/Language/Weapons/GrimoireName",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Weapons/Grimoire.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 100,
+        "description": "/Lotus/Language/Weapons/GrimoireDesc",
+        "criticalChance": 0.2,
+        "criticalMultiplier": 2,
+        "procChance": 0.26,
+        "fireRate": 1.5,
+        "masteryReq": 10,
+        "productCategory": "Pistols",
+        "holsterCategory": "SMG",
+        "slot": 0,
+        "accuracy": 100,
+        "omegaAttenuation": 0.6,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 0,
+        "reloadTime": 0,
+        "multishot": 1,
+        "compatibilityTags": [
+            "PROJECTILE",
+            "THROWN"
+        ],
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_ELECTRICITY": 100
+                    },
+                    "explosiveAttack": {
+                        "DT_ELECTRICITY": 50
+                    }
+                }
+            },
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_ELECTRICITY": 350
+                    },
+                    "explosiveAttack": {
+                        "DT_ELECTRICITY": 250
+                    }
+                }
+            }
+        ]
+    },
+    "/Lotus/Weapons/Tenno/Grimoire/TnDoppelgangerGrimoire": {
+        "name": "/Lotus/Language/Weapons/GrimoireName",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Weapons/Grimoire.png",
+        "codexSecret": true,
+        "damagePerShot": [
+            17.5,
+            7.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 25,
+        "description": "/Lotus/Language/Weapons/GrimoireDesc",
+        "criticalChance": 0.08,
+        "criticalMultiplier": 1.6,
+        "procChance": 0.1,
+        "fireRate": 1.5,
+        "masteryReq": 10,
+        "productCategory": "Pistols",
+        "holsterCategory": "SMG",
+        "slot": 5,
+        "accuracy": 100,
+        "omegaAttenuation": 0.6,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "reloadTime": 2,
+        "multishot": 1,
+        "compatibilityTags": [
+            "PROJECTILE",
+            "THROWN"
+        ],
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 17.5,
+                        "DT_PUNCTURE": 7.5
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 8.4,
+                    "DT_PUNCTURE": 3.6
+                }
+            }
+        ]
+    },
     "/Lotus/Weapons/Tenno/Bows/StalkerBow": {
         "name": "/Lotus/Language/Items/StalkerBowName",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/Dread.png",
@@ -17863,7 +18070,7 @@
         "holsterCategory": "BOW",
         "slot": 1,
         "accuracy": 16.666666,
-        "omegaAttenuation": 0.5,
+        "omegaAttenuation": 0.65,
         "noise": "SILENT",
         "trigger": "CHARGE",
         "magazineSize": 1,
@@ -18167,7 +18374,7 @@
         "holsterCategory": "BOW",
         "slot": 1,
         "accuracy": 16.666666,
-        "omegaAttenuation": 1.05,
+        "omegaAttenuation": 1.1,
         "noise": "SILENT",
         "trigger": "CHARGE",
         "magazineSize": 1,
@@ -18372,7 +18579,7 @@
         "holsterCategory": "RIFLE",
         "slot": 1,
         "accuracy": 8.333333,
-        "omegaAttenuation": 1,
+        "omegaAttenuation": 1.05,
         "noise": "ALARMING",
         "trigger": "HELD",
         "magazineSize": 100,
@@ -18447,7 +18654,7 @@
         "holsterCategory": "RIFLE",
         "slot": 1,
         "accuracy": 1.428572,
-        "omegaAttenuation": 0.75,
+        "omegaAttenuation": 0.9,
         "noise": "ALARMING",
         "trigger": "CHARGE",
         "magazineSize": 30,
@@ -18932,7 +19139,7 @@
         "holsterCategory": "RIFLE",
         "slot": 1,
         "accuracy": 8.333333,
-        "omegaAttenuation": 0.65,
+        "omegaAttenuation": 0.75,
         "noise": "ALARMING",
         "trigger": "HELD",
         "magazineSize": 100,
@@ -19661,7 +19868,7 @@
         "productCategory": "Melee",
         "holsterCategory": "MELEE",
         "slot": 5,
-        "omegaAttenuation": 0.8,
+        "omegaAttenuation": 0.85,
         "blockingAngle": 65,
         "comboDuration": 5,
         "followThrough": 0.4,
@@ -20218,7 +20425,7 @@
         "holsterCategory": "SMG",
         "slot": 0,
         "accuracy": 11.111111,
-        "omegaAttenuation": 0.5,
+        "omegaAttenuation": 0.7,
         "noise": "ALARMING",
         "trigger": "SEMI",
         "magazineSize": 16,
@@ -22808,7 +23015,7 @@
         "holsterCategory": "RIFLE",
         "slot": 1,
         "accuracy": 133.33333,
-        "omegaAttenuation": 0.5,
+        "omegaAttenuation": 0.6,
         "noise": "ALARMING",
         "trigger": "AUTO",
         "magazineSize": 40,
@@ -24595,7 +24802,7 @@
         "holsterCategory": "SMG",
         "slot": 0,
         "accuracy": 100,
-        "omegaAttenuation": 0.75,
+        "omegaAttenuation": 0.8,
         "noise": "SILENT",
         "trigger": "ACTIVE",
         "magazineSize": 2,
@@ -27349,7 +27556,7 @@
         "holsterCategory": "RIFLE",
         "slot": 1,
         "accuracy": 100,
-        "omegaAttenuation": 0.65,
+        "omegaAttenuation": 0.7,
         "noise": "ALARMING",
         "trigger": "AUTO",
         "magazineSize": 84,
@@ -28921,7 +29128,7 @@
         "holsterCategory": "RIFLE",
         "slot": 1,
         "accuracy": 100,
-        "omegaAttenuation": 0.6,
+        "omegaAttenuation": 0.65,
         "maxLevelCap": 40,
         "noise": "ALARMING",
         "trigger": "SEMI",
@@ -29070,7 +29277,7 @@
         "holsterCategory": "SHOTGUN",
         "slot": 1,
         "accuracy": 9.090909,
-        "omegaAttenuation": 0.5,
+        "omegaAttenuation": 0.7,
         "maxLevelCap": 40,
         "noise": "ALARMING",
         "trigger": "AUTO",
@@ -31138,7 +31345,7 @@
         "productCategory": "Melee",
         "holsterCategory": "LEFT_FOREARM_MOUNTED",
         "slot": 5,
-        "omegaAttenuation": 0.8,
+        "omegaAttenuation": 0.85,
         "maxLevelCap": 40,
         "blockingAngle": 90,
         "comboDuration": 5,
@@ -31956,7 +32163,7 @@
         "productCategory": "Melee",
         "holsterCategory": "MELEE",
         "slot": 5,
-        "omegaAttenuation": 0.8,
+        "omegaAttenuation": 0.85,
         "maxLevelCap": 40,
         "blockingAngle": 55,
         "comboDuration": 5,
@@ -33136,7 +33343,7 @@
         "holsterCategory": "RIFLE",
         "slot": 1,
         "accuracy": 111.11111,
-        "omegaAttenuation": 1.1,
+        "omegaAttenuation": 1.15,
         "noise": "ALARMING",
         "trigger": "AUTO",
         "magazineSize": 96,
@@ -33461,7 +33668,7 @@
         "holsterCategory": "BOW",
         "slot": 1,
         "accuracy": 16.666666,
-        "omegaAttenuation": 0.85,
+        "omegaAttenuation": 0.9,
         "noise": "ALARMING",
         "trigger": "CHARGE",
         "magazineSize": 1,
@@ -33827,7 +34034,7 @@
         "holsterCategory": "RIFLE",
         "slot": 1,
         "accuracy": 100,
-        "omegaAttenuation": 0.5,
+        "omegaAttenuation": 0.6,
         "maxLevelCap": 40,
         "noise": "ALARMING",
         "trigger": "HELD",
@@ -35005,7 +35212,7 @@
         "productCategory": "Melee",
         "holsterCategory": "MELEE",
         "slot": 5,
-        "omegaAttenuation": 1.05,
+        "omegaAttenuation": 1.1,
         "blockingAngle": 45,
         "comboDuration": 5,
         "followThrough": 0.5,
@@ -35146,7 +35353,7 @@
         "productCategory": "Melee",
         "holsterCategory": "DUAL_SHORT_MELEE",
         "slot": 5,
-        "omegaAttenuation": 0.9,
+        "omegaAttenuation": 0.95,
         "blockingAngle": 50,
         "comboDuration": 5,
         "followThrough": 0.8,
@@ -35291,6 +35498,62 @@
         "trigger": "HELD",
         "magazineSize": 80,
         "reloadTime": 2.2,
+        "sentinel": true,
+        "multishot": 1,
+        "compatibilityTags": [
+            "BEAM",
+            "ASSAULT_AMMO",
+            "SENTINEL_WEAPON"
+        ],
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
+                "impact": {}
+            }
+        ]
+    },
+    "/Lotus/Types/Sentinels/SentinelWeapons/SentinelFreezeRayPrimeRifle": {
+        "name": "/Lotus/Language/Primes/FreezeRayPrimeName",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SentinelWeapons/VerglasPrime.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            0,
+            0,
+            0,
+            32,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 32,
+        "description": "/Lotus/Language/Primes/FreezeRayPrimeDesc",
+        "criticalChance": 0.14,
+        "criticalMultiplier": 2.2,
+        "procChance": 0.36,
+        "fireRate": 12.000001,
+        "masteryReq": 0,
+        "productCategory": "SentinelWeapons",
+        "holsterCategory": "RIFLE",
+        "slot": 1,
+        "accuracy": 100,
+        "omegaAttenuation": 1.3,
+        "noise": "ALARMING",
+        "trigger": "HELD",
+        "magazineSize": 80,
+        "reloadTime": 1.6,
         "sentinel": true,
         "multishot": 1,
         "compatibilityTags": [
@@ -36541,6 +36804,70 @@
             }
         ]
     },
+    "/Lotus/Powersuits/Wraith/SevagothShadowPrimeClawsWeapon": {
+        "name": "/Lotus/Language/Primes/SevagothShadowPrimeClawsName",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/ExaltedWeapons/SevagothShadowPrimeClaws.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            72,
+            48,
+            120,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 240,
+        "description": "/Lotus/Language/Primes/SevagothShadowPrimeClawsDesc",
+        "criticalChance": 0.38,
+        "criticalMultiplier": 2.6,
+        "procChance": 0.24,
+        "fireRate": 1,
+        "masteryReq": 0,
+        "productCategory": "SpecialItems",
+        "holsterCategory": "MELEE",
+        "excludeFromCodex": true,
+        "slot": 7,
+        "omegaAttenuation": 0.5,
+        "blockingAngle": 60,
+        "comboDuration": 5,
+        "followThrough": 1,
+        "range": 1.5,
+        "slamAttack": 720,
+        "slamRadialDamage": 480,
+        "slamRadius": 8,
+        "slideAttack": 480,
+        "heavyAttackDamage": 960,
+        "heavySlamAttack": 960,
+        "heavySlamRadialDamage": 720,
+        "heavySlamRadius": 9,
+        "windUp": 0.9,
+        "compatibilityTags": [
+            "POWER_WEAPON"
+        ],
+        "behaviours": [
+            {
+                "impact": {
+                    "DT_IMPACT": 72.0,
+                    "DT_PUNCTURE": 48.0,
+                    "DT_SLASH": 120.0
+                }
+            }
+        ]
+    },
     "/Lotus/Powersuits/Ranger/ExaltedBow": {
         "name": "/Lotus/Language/Suits/RangerBowAbilityName",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/ExaltedWeapons/ExaltedBow.png",
@@ -36667,6 +36994,72 @@
                     "DT_IMPACT": 2.666664,
                     "DT_PUNCTURE": 2.666664,
                     "DT_SLASH": 2.666672
+                }
+            }
+        ]
+    },
+    "/Lotus/Powersuits/Pagemaster/ExaltedBook": {
+        "name": "/Lotus/Language/Weapons/TnNoctuaName",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/ExaltedWeapons/ExaltedTome.png",
+        "codexSecret": true,
+        "damagePerShot": [
+            0,
+            0,
+            200,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 200,
+        "description": "/Lotus/Language/Weapons/TnNoctuaDesc",
+        "criticalChance": 0.3,
+        "criticalMultiplier": 2,
+        "procChance": 0.25,
+        "fireRate": 1.5,
+        "masteryReq": 10,
+        "productCategory": "SpecialItems",
+        "holsterCategory": "SMG",
+        "excludeFromCodex": true,
+        "slot": 7,
+        "accuracy": 100,
+        "omegaAttenuation": 0.6,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "reloadTime": 0.01,
+        "multishot": 1,
+        "compatibilityTags": [
+            "POWER_WEAPON"
+        ],
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_SLASH": 200
+                    }
+                }
+            },
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 1000,
+                        "DT_RADIATION": 1500
+                    }
                 }
             }
         ]

@@ -139,42 +139,6 @@
         "productCategory": "MiscItems",
         "excludeFromCodex": true
     },
-    "/Lotus/Types/Game/Projections/T4VoidProjectionBaroAkmagnusPrimeBronze": {
-        "name": "Axi M5 Relic",
-        "description": "/Lotus/Language/Items/ProjectionDescription",
-        "icon": "/Lotus/Interface/Icons/Relics/RelicAxiD.png",
-        "codexSecret": true,
-        "parentName": "/Lotus/Types/Game/Projections/T4VoidProjection",
-        "productCategory": "MiscItems",
-        "excludeFromCodex": true
-    },
-    "/Lotus/Types/Game/Projections/T4VoidProjectionBaroAkmagnusPrimeGold": {
-        "name": "Axi M5 Relic",
-        "description": "/Lotus/Language/Items/ProjectionDescription",
-        "icon": "/Lotus/Interface/Icons/Relics/RelicAxiB.png",
-        "codexSecret": true,
-        "parentName": "/Lotus/Types/Game/Projections/T4VoidProjectionBaroAkmagnusPrimeBronze",
-        "productCategory": "MiscItems",
-        "excludeFromCodex": true
-    },
-    "/Lotus/Types/Game/Projections/T4VoidProjectionBaroAkmagnusPrimePlatinum": {
-        "name": "Axi M5 Relic",
-        "description": "/Lotus/Language/Items/ProjectionDescription",
-        "icon": "/Lotus/Interface/Icons/Relics/RelicAxiC.png",
-        "codexSecret": true,
-        "parentName": "/Lotus/Types/Game/Projections/T4VoidProjectionBaroAkmagnusPrimeBronze",
-        "productCategory": "MiscItems",
-        "excludeFromCodex": true
-    },
-    "/Lotus/Types/Game/Projections/T4VoidProjectionBaroAkmagnusPrimeSilver": {
-        "name": "Axi M5 Relic",
-        "description": "/Lotus/Language/Items/ProjectionDescription",
-        "icon": "/Lotus/Interface/Icons/Relics/RelicAxiA.png",
-        "codexSecret": true,
-        "parentName": "/Lotus/Types/Game/Projections/T4VoidProjectionBaroAkmagnusPrimeBronze",
-        "productCategory": "MiscItems",
-        "excludeFromCodex": true
-    },
     "/Lotus/Types/Game/Projections/T5VoidProjectionImmortal": {
         "name": "/Lotus/Language/Relics/ImmortalProjectionBaseName",
         "description": "/Lotus/Language/Relics/ImmortalProjectionBaseDesc",
@@ -4560,6 +4524,15 @@
         "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionEightCreds",
         "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon8.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds": {
+        "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+        "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
         "productCategory": "MiscItems",
@@ -10630,6 +10603,14 @@
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations"
     },
+    "/Lotus/Types/Items/ShipDecos/ArthurPagerShipDeco": {
+        "name": "/Lotus/Language/ShipDecorations/ArthurPagerShipDecoName",
+        "description": "/Lotus/Language/ShipDecorations/ArthurPagerShipDecoDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/ArthurPager.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
     "/Lotus/Types/Items/ShipDecos/AshBobbleHead": {
         "name": "/Lotus/Language/ShipDecorations/BobbleheadAshName",
         "description": "/Lotus/Language/ShipDecorations/BobbleheadAshDesc",
@@ -13613,6 +13594,15 @@
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations"
     },
+    "/Lotus/Types/Items/ShipDecos/RathuumEventPoster": {
+        "name": "/Lotus/Language/ShipDecorations/RathuumEventPosterName",
+        "description": "/Lotus/Language/ShipDecorations/RathuumEventPosterDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Posters/EventRathuumPoster.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "excludeFromCodex": true
+    },
     "/Lotus/Types/Items/ShipDecos/RedVeilSyndicateOrnament": {
         "name": "/Lotus/Language/ShipDecorations/OrnamentRedVeilName",
         "description": "/Lotus/Language/ShipDecorations/OrnamentRedVeilDesc",
@@ -13911,6 +13901,15 @@
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/SummerGameFestPoster": {
+        "name": "/Lotus/Language/ShipDecorations/SummerGameFestPosterName",
+        "description": "/Lotus/Language/ShipDecorations/SummerGameFestPosterDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Posters/SummberGameFestPosterIcon.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "excludeFromCodex": true
     },
     "/Lotus/Types/Items/ShipDecos/TNWKahlBobbleHead": {
         "name": "/Lotus/Language/ShipDecorations/TNWKahlName",
@@ -18656,6 +18655,33 @@
         "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
         "productCategory": "MiscItems"
     },
+    "/Lotus/Types/Recipes/WarframeRecipes/SevagothPrimeChassisComponent": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_SevagothPrimeChassisName",
+        "description": "/Lotus/Language/Primes/CraftingComponent_SevagothPrimeChassisDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframePrimeChassis.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 100
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/SevagothPrimeHelmetComponent": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_SevagothPrimeHelmetName",
+        "description": "/Lotus/Language/Primes/CraftingComponent_SevagothPrimeHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframePrimeHelmet.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 15
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/SevagothPrimeSystemsComponent": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_SevagothPrimeSystemsName",
+        "description": "/Lotus/Language/Primes/CraftingComponent_SevagothPrimeSystemsDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframePrimeSystem.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 15
+    },
     "/Lotus/Types/Recipes/WarframeRecipes/StyanaxChassisComponent": {
         "name": "/Lotus/Language/Suits/StyanaxChassisComponentName",
         "description": "/Lotus/Language/Suits/StyanaxChassisComponentDesc",
@@ -20220,6 +20246,24 @@
         "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
         "productCategory": "MiscItems"
     },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/EpitaphPrimeBarrel": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_EpitaphPrimeBarrel",
+        "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunPrimeBarrel.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 45
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/EpitaphPrimeReceiver": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_EpitaphPrimeReceiver",
+        "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunPrimeReceiver.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 100
+    },
     "/Lotus/Types/Recipes/Weapons/WeaponParts/FragorPrimeHandle": {
         "name": "/Lotus/Language/Menu/CraftingComponent_FragorPrimeHandle",
         "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
@@ -20880,6 +20924,33 @@
         "name": "/Lotus/Language/Primes/CraftingComponent_NagantakaPrimeStock",
         "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunPrimeStock.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 45
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/NautilusPrimeCarapace": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_NautilusPrimeCarapace",
+        "description": "/Lotus/Language/CraftingComponents/PrimeSentinelCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframePrimeChassis.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 15
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/NautilusPrimeCerebrum": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_NautilusPrimeCerebrum",
+        "description": "/Lotus/Language/CraftingComponents/PrimeSentinelCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframePrimeHelmet.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 100
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/NautilusPrimeSystems": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_NautilusPrimeSystems",
+        "description": "/Lotus/Language/CraftingComponents/PrimeSentinelCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframePrimeSystem.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
         "productCategory": "MiscItems",

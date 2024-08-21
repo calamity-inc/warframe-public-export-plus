@@ -299,6 +299,37 @@
             }
         ]
     },
+    "/Lotus/Types/Sentinels/SentinelPowersuits/NautilusPrimeSentinelPowerSuit": {
+        "name": "/Lotus/Language/Primes/NautilusPrimeSentinelName",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Companions/Sentinels/Types/NautilusPrime.png",
+        "health": 560,
+        "shield": 350,
+        "armor": 175,
+        "stamina": 8,
+        "power": 100,
+        "codexSecret": false,
+        "description": "/Lotus/Language/Primes/NautilusPrimeSentinelDesc",
+        "productCategory": "Sentinels",
+        "defaultWeapon": "/Lotus/Types/Sentinels/SentinelWeapons/SentinelFreezeRayPrimeRifle",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/SentinelAttack",
+                "Slot": 9
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/RepairShip",
+                "Slot": -1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/GatherEnemies",
+                "Slot": -1
+            },
+            {
+                "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
+                "Slot": -1
+            }
+        ]
+    },
     "/Lotus/Types/Sentinels/SentinelPowersuits/MeleePetPowerSuit": {
         "name": "/Lotus/Language/Items/MeleePetName",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Companions/Sentinels/Types/Helios.png",

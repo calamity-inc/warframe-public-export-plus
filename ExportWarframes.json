@@ -415,6 +415,100 @@
         ],
         "productCategory": "Suits"
     },
+    "/Lotus/Powersuits/Wraith/SevagothShadowPrime": {
+        "name": "/Lotus/Language/Primes/SevagothShadowPrimeName",
+        "parentName": "/Lotus/Powersuits/Wraith/ReaperBaseSuit",
+        "description": "/Lotus/Language/Primes/SevagothShadowPrimeDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/ExaltedWeapons/SevagothShadowPrime.png",
+        "health": 270,
+        "shield": 135,
+        "armor": 475,
+        "stamina": 3,
+        "power": 100,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.1,
+        "abilities": [
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperGraspAbility",
+                "name": "/Lotus/Language/Suits/ReaperGraspAbilityName",
+                "description": "/Lotus/Language/Suits/ReaperGraspAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/WraithDeathsGrasp.png",
+                "energyRequiredToActivate": 25
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperHarvestAbility",
+                "name": "/Lotus/Language/Suits/ReaperHarvestAbilityName",
+                "description": "/Lotus/Language/Suits/ReaperHarvestAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/WraithSoulHarvest.png",
+                "energyRequiredToActivate": 25
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperWailAbility",
+                "name": "/Lotus/Language/Suits/ReaperWailAbilityName",
+                "description": "/Lotus/Language/Suits/ReaperWailAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/WraithDeadlyWall.png",
+                "energyRequiredToActivate": 75
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReaperWraithAbility",
+                "name": "/Lotus/Language/Suits/ReaperWraithAbilityName",
+                "description": "/Lotus/Language/Suits/ReaperWraithAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/Wraith.png",
+                "energyRequiredToActivate": 0
+            }
+        ],
+        "productCategory": "SpecialItems"
+    },
+    "/Lotus/Powersuits/Wraith/SevagothPrime": {
+        "name": "/Lotus/Language/Primes/SevagothPrimeName",
+        "parentName": "/Lotus/Powersuits/Wraith/WraithBaseSuit",
+        "description": "/Lotus/Language/Primes/SevagothPrimeDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/SevagothPrime.png",
+        "health": 270,
+        "shield": 270,
+        "armor": 185,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 0.95,
+        "passiveDescription": "/Lotus/Language/Suits/WraithPassiveAbility",
+        "exalted": [
+            "/Lotus/Powersuits/Wraith/SevagothShadowPrimeClawsWeapon"
+        ],
+        "abilities": [
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithReapAbility",
+                "name": "/Lotus/Language/Suits/WraithReapAbilityName",
+                "description": "/Lotus/Language/Suits/WraithReapAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/WraithReap.png",
+                "energyRequiredToActivate": 25
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithSowAbility",
+                "name": "/Lotus/Language/Suits/WraithSowAbilityName",
+                "description": "/Lotus/Language/Suits/WraithSowAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/WraithSow.png",
+                "energyRequiredToActivate": 50
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithGloomAbility",
+                "name": "/Lotus/Language/Suits/WraithGloomAbilityName",
+                "description": "/Lotus/Language/Suits/WraithGloomAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/WraithGloom.png",
+                "energyRequiredToActivate": 50
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/WraithReaperAbility",
+                "name": "/Lotus/Language/Suits/WraithReaperAbilityName",
+                "description": "/Lotus/Language/Suits/WraithReaperAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/WraithDontFearTheReaper.png",
+                "energyRequiredToActivate": 0
+            }
+        ],
+        "productCategory": "Suits"
+    },
     "/Lotus/Powersuits/Wisp/WispPrime": {
         "name": "/Lotus/Language/Primes/WispPrimeName",
         "parentName": "/Lotus/Powersuits/Wisp/WispBaseSuit",

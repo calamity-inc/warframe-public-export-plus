@@ -3505,6 +3505,30 @@
             }
         ]
     },
+    "/Lotus/Types/Recipes/Components/StalkerBallBlueprint": {
+        "resultType": "/Lotus/Types/Restoratives/Consumable/StalkerBall",
+        "buildPrice": 7500,
+        "buildTime": 28800,
+        "skipBuildTimePrice": 10,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                "ItemCount": 2500
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                "ItemCount": 2500
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                "ItemCount": 2500
+            }
+        ]
+    },
     "/Lotus/Types/Recipes/Components/UmbraEchoesBlueprint": {
         "resultType": "/Lotus/Types/Items/MiscItems/UmbraEchoes",
         "buildPrice": 35000,
@@ -6534,6 +6558,33 @@
             },
             {
                 "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                "ItemCount": 2
+            }
+        ]
+    },
+    "/Lotus/Types/Recipes/Helmets/JadeAltHelmetBlueprint": {
+        "resultType": "/Lotus/Upgrades/Skins/Choir/ChoirAltHelmet",
+        "buildPrice": 20000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                "ItemCount": 1500
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                "ItemCount": 1200
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                "ItemCount": 600
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ArgonCrystal",
                 "ItemCount": 2
             }
         ]
@@ -12395,6 +12446,34 @@
             {
                 "ItemType": "/Lotus/Types/Items/RailjackMiscItems/NullstonesRailjackItem",
                 "ItemCount": 5
+            }
+        ]
+    },
+    "/Lotus/Types/Recipes/SentinelRecipes/NautilusPrimeSentinelBlueprint": {
+        "resultType": "/Lotus/Types/Sentinels/SentinelPowersuits/NautilusPrimeSentinelPowerSuit",
+        "buildPrice": 15000,
+        "buildTime": 86400,
+        "skipBuildTimePrice": 30,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "primeSellingPrice": 100,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/NautilusPrimeCerebrum",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/NautilusPrimeCarapace",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/NautilusPrimeSystems",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 6
             }
         ]
     },
@@ -22106,6 +22185,118 @@
             }
         ]
     },
+    "/Lotus/Types/Recipes/WarframeRecipes/SevagothPrimeBlueprint": {
+        "resultType": "/Lotus/Powersuits/Wraith/SevagothPrime",
+        "buildPrice": 25000,
+        "buildTime": 259200,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "primeSellingPrice": 45,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/SevagothPrimeHelmetComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/SevagothPrimeChassisComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/SevagothPrimeSystemsComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 1
+            }
+        ]
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/SevagothPrimeChassisBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/WarframeRecipes/SevagothPrimeChassisComponent",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "primeSellingPrice": 100,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                "ItemCount": 8
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Alertium",
+                "ItemCount": 2
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                "ItemCount": 1100
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                "ItemCount": 3750
+            }
+        ]
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/SevagothPrimeHelmetBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/WarframeRecipes/SevagothPrimeHelmetComponent",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "primeSellingPrice": 15,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                "ItemCount": 4
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Tellurium",
+                "ItemCount": 2
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                "ItemCount": 5250
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                "ItemCount": 1675
+            }
+        ]
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/SevagothPrimeSystemsBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/WarframeRecipes/SevagothPrimeSystemsComponent",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "primeSellingPrice": 15,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                "ItemCount": 2
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                "ItemCount": 10
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                "ItemCount": 4250
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                "ItemCount": 1200
+            }
+        ]
+    },
     "/Lotus/Types/Recipes/WarframeRecipes/StyanaxBlueprint": {
         "resultType": "/Lotus/Powersuits/Hoplite/Hoplite",
         "buildPrice": 25000,
@@ -30108,6 +30299,30 @@
             {
                 "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
                 "ItemCount": 6
+            }
+        ]
+    },
+    "/Lotus/Types/Recipes/Weapons/EpitaphPrimeBlueprint": {
+        "resultType": "/Lotus/Weapons/Tenno/Pistols/PrimeEpitaph/PrimeEpitaphSidearmWeapon",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "primeSellingPrice": 15,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/EpitaphPrimeBarrel",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/EpitaphPrimeReceiver",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 10
             }
         ]
     },
@@ -38404,6 +38619,34 @@
             {
                 "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
                 "ItemCount": 1
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Consumables/LisetAirSupportHundredBlueprint": {
+        "resultType": "/Lotus/Types/Restoratives/LisetAirSupport",
+        "buildPrice": 40000,
+        "buildTime": 60,
+        "skipBuildTimePrice": 1,
+        "consumeOnUse": false,
+        "num": 100,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                "ItemCount": 12000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                "ItemCount": 20000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                "ItemCount": 7000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                "ItemCount": 10
             }
         ]
     },

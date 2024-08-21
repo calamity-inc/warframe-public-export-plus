@@ -1,4 +1,23 @@
 {
+    "/Lotus/Types/Keys/1999PrologueQuest/1999PrologueQuestKeyChain": {
+        "name": "/Lotus/Language/LotusEaters/QuestTitle",
+        "description": "/Lotus/Language/LotusEaters/QuestDesc",
+        "icon": "/Lotus/Interface/Quests/1999PrologueQuestKeyChain.png",
+        "parentName": "/Lotus/Types/Game/KeyChainItem",
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "key": "/Lotus/Types/Keys/1999PrologueQuest/1999PrologueMissionKey",
+                "itemsToGiveWhenTriggered": []
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/1999PrologueQuest/1999PrologueMissionKey": {
+        "name": "/Lotus/Language/LotusEaters/Stage0Name",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
     "/Lotus/Types/Keys/ApostasyQuest/ApostasyKeyChain": {
         "name": "/Lotus/Language/Apostasy/ApostasyKeyChainName",
         "description": "/Lotus/Language/Apostasy/ApostasyKeyChainDesc",
@@ -782,7 +801,7 @@
         "codexSecret": false,
         "chainStages": [
             {
-                "key": "/Lotus/Types/Keys/GlassQuest/GlassQuestM1Key",
+                "key": "/Lotus/Types/Keys/GlassQuest/GlassQuestP1Key",
                 "itemsToGiveWhenTriggered": []
             },
             {
@@ -817,8 +836,8 @@
             }
         ]
     },
-    "/Lotus/Types/Keys/GlassQuest/GlassQuestM1Key": {
-        "name": "/Lotus/Language/GlassQuest/M1KeychainObjective",
+    "/Lotus/Types/Keys/GlassQuest/GlassQuestP1Key": {
+        "name": "/Lotus/Language/GlassQuest/P1KeychainObjective",
         "parentName": "/Lotus/Types/Keys/GlassQuest/GlassQuestPlainsKey",
         "codexSecret": true,
         "rewards": []
