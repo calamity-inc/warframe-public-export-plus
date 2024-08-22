@@ -283,6 +283,11 @@ export interface IKey {
     chainStages?:      {
         key?:                     string;
         itemsToGiveWhenTriggered: string[];
+        messageToSendWhenTriggered?: {
+            sender: string;
+            title:  string;
+            body:   string;
+        };
     }[];
     rewards?:          ({
         rewardType: "RT_STORE_ITEM" | "RT_RECIPE" | "RT_RESOURCE";

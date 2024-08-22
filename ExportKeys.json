@@ -8,7 +8,12 @@
         "chainStages": [
             {
                 "key": "/Lotus/Types/Keys/1999PrologueQuest/1999PrologueMissionKey",
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/EntratiLab/EntratiGeneral/HumanLoid",
+                    "title": "/Lotus/Language/LotusEaters/PostQuestInboxTitle",
+                    "body": "/Lotus/Language/LotusEaters/PostQuestInboxBody"
+                }
             }
         ]
     },
@@ -53,7 +58,12 @@
             {
                 "itemsToGiveWhenTriggered": [
                     "/Lotus/StoreItems/Types/Recipes/ArchwingRecipes/StandardArchwing/StandardArchwingBlueprint"
-                ]
+                ],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Menu/Mailbox_WarframeSender",
+                    "title": "/Lotus/Language/G1Quests/AWQIntroMessageTitle",
+                    "body": "/Lotus/Language/G1Quests/AWQIntroMessageBody"
+                }
             },
             {
                 "key": "/Lotus/Types/Keys/ArchwingQuest/MissionOne",
@@ -179,10 +189,20 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/Ordis",
+                    "title": "/Lotus/Language/BardQuest/BardQuestOrdisMailTitle",
+                    "body": "/Lotus/Language/Subtitles/BardQuest/DBQOrokinTowerLiset00700Ordis"
+                }
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Syndicates/CephalonSudaName",
+                    "title": "/Lotus/Language/BardQuest/BardQuestRivenRewardTitle",
+                    "body": "/Lotus/Language/BardQuest/BardQuestRivenRewardBody"
+                }
             }
         ],
         "rewards": [
@@ -407,7 +427,12 @@
             },
             {
                 "key": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestOutroKey",
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Duviri/Acrithis",
+                    "title": "/Lotus/Language/Duviri/QuestCompleteRewardInboxTitle",
+                    "body": "/Lotus/Language/Duviri/QuestCompleteRewardInboxMsg"
+                }
             }
         ]
     },
@@ -537,7 +562,12 @@
             },
             {
                 "key": "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage12EndingKey",
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/EntratiLab/EntratiGeneral/HumanLoid",
+                    "title": "/Lotus/Language/EntratiLab/EntratiQuest/PostQuestInboxTitle",
+                    "body": "/Lotus/Language/EntratiLab/EntratiQuest/PostQuestInboxBody"
+                }
             }
         ]
     },
@@ -621,7 +651,12 @@
         "codexSecret": false,
         "chainStages": [
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/G1Quests/FairyQuestAmarynName",
+                    "title": "/Lotus/Language/G1Quests/FairyQuestInboxStartTitle",
+                    "body": "/Lotus/Language/G1Quests/FairyQuestInboxStartBody"
+                }
             },
             {
                 "itemsToGiveWhenTriggered": []
@@ -669,7 +704,12 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/G1Quests/FairyQuestAmarynName",
+                    "title": "/Lotus/Language/G1Quests/FairyQuestInboxEndTitle",
+                    "body": "/Lotus/Language/G1Quests/FairyQuestInboxEndBody"
+                }
             }
         ]
     },
@@ -749,7 +789,12 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Game/DarvoName",
+                    "title": "/Lotus/Language/G1Quests/GetClemCompleteInboxTitle",
+                    "body": "/Lotus/Language/G1Quests/GetClemCompleteInboxBody"
+                }
             }
         ]
     },
@@ -805,7 +850,12 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/Lotus",
+                    "title": "/Lotus/Language/GlassQuest/ScannersMessageTitle",
+                    "body": "/Lotus/Language/GlassQuest/ScannersMessageBody"
+                }
             },
             {
                 "itemsToGiveWhenTriggered": []
@@ -822,17 +872,37 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Npcs/TheBusiness",
+                    "title": "/Lotus/Language/SolarisQuest/SayasVigilFortunaTitle",
+                    "body": "/Lotus/Language/SolarisQuest/SayasVigilFortunaDesc"
+                }
             },
             {
                 "key": "/Lotus/Types/Keys/GlassQuest/GlassQuestM4Key",
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Npcs/Unknown",
+                    "title": "/Lotus/Language/GlassQuest/QuillsVisitInboxSubject",
+                    "body": "/Lotus/Language/GlassQuest/QuillsVisitInboxBody"
+                }
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/Lotus",
+                    "title": "/Lotus/Language/GlassQuest/GaraInboxTitle",
+                    "body": "/Lotus/Language/GlassQuest/GaraInboxBody"
+                }
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/Lotus",
+                    "title": "/Lotus/Language/GlassQuest/RivenInboxTitle",
+                    "body": "/Lotus/Language/GlassQuest/RivenInboxBody"
+                }
             }
         ]
     },
@@ -887,7 +957,12 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/G1Quests/GolemQuestJordasName",
+                    "title": "/Lotus/Language/G1Quests/GolemQuestPotencyTitle",
+                    "body": "/Lotus/Language/G1Quests/GolemQuestPotencyBody"
+                }
             },
             {
                 "key": "/Lotus/Types/Keys/TestKeyJ3GolemAssassinate",
@@ -925,7 +1000,12 @@
         "codexSecret": false,
         "chainStages": [
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/G1Quests/ErgoGlastName",
+                    "title": "/Lotus/Language/G1Quests/IndexQuestNeewaDrawing1Title",
+                    "body": "/Lotus/Language/G1Quests/IndexQuestNeewaDrawing1Body"
+                }
             },
             {
                 "key": "/Lotus/Types/Keys/IndexQuest/IndexColonyDefenseQuestKey",
@@ -946,7 +1026,12 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/G1Quests/ErgoGlastName",
+                    "title": "/Lotus/Language/G1Quests/IndexQuestNeewaDrawing2Title",
+                    "body": "/Lotus/Language/G1Quests/IndexQuestNeewaDrawing2Body"
+                }
             },
             {
                 "key": "/Lotus/Types/Keys/IndexQuest/IndexMissionCQuestKey",
@@ -960,7 +1045,12 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/G1Quests/ErgoGlastName",
+                    "title": "/Lotus/Language/G1Quests/IndexQuestNeewaDrawing3Title",
+                    "body": "/Lotus/Language/G1Quests/IndexQuestNeewaDrawing3Body"
+                }
             },
             {
                 "key": "/Lotus/Types/Keys/IndexQuest/IndexMissionEQuestKey",
@@ -971,7 +1061,12 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/G1Quests/ErgoGlastName",
+                    "title": "/Lotus/Language/G1Quests/IndexQuestNeewaDrawing4Title",
+                    "body": "/Lotus/Language/G1Quests/IndexQuestNeewaDrawing4Body"
+                }
             },
             {
                 "key": "/Lotus/Types/Keys/IndexQuest/IndexMissionFQuestKey",
@@ -984,13 +1079,28 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Menu/Mailbox_WarframeSender",
+                    "title": "/Lotus/Language/G1Quests/IndexQuestCureHerTitle",
+                    "body": "/Lotus/Language/G1Quests/IndexQuestCureHerBody"
+                }
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/G1Quests/ErgoGlastName",
+                    "title": "/Lotus/Language/G1Quests/IndexQuestSendHerHomeTitle",
+                    "body": "/Lotus/Language/G1Quests/IndexQuestSendHerHomeBody"
+                }
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/G1Quests/ErgoGlastName",
+                    "title": "/Lotus/Language/G1Quests/IndexQuestLetHerChooseTitle",
+                    "body": "/Lotus/Language/G1Quests/IndexQuestLetHerChooseBody"
+                }
             }
         ],
         "rewards": [
@@ -1113,7 +1223,12 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Menu/Mailbox_WarframeSender",
+                    "title": "/Lotus/Language/G1Quests/IAVQConclusionTitle",
+                    "body": "/Lotus/Language/G1Quests/IAVQConclusionBody"
+                }
             }
         ]
     },
@@ -1155,7 +1270,12 @@
         "codexSecret": false,
         "chainStages": [
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Menu/Mailbox_WarframeSender",
+                    "title": "/Lotus/Language/G1Quests/IIQIntroMessageTitle",
+                    "body": "/Lotus/Language/G1Quests/IIQIntroMessageBody"
+                }
             },
             {
                 "key": "/Lotus/Types/Keys/InfestedIntroQuest/MissionOne",
@@ -1166,19 +1286,34 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Menu/Mailbox_WarframeSender",
+                    "title": "/Lotus/Language/G1Quests/IIQFireModMessageTitle",
+                    "body": "/Lotus/Language/G1Quests/IIQFireModMessageBody"
+                }
             },
             {
                 "key": "/Lotus/Types/Keys/InfestedIntroQuest/MissionThree",
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Menu/Mailbox_WarframeSender",
+                    "title": "/Lotus/Language/G1Quests/IIQCompleteMessageTitle",
+                    "body": "/Lotus/Language/G1Quests/IIQCompleteMessageBody"
+                }
             },
             {
                 "itemsToGiveWhenTriggered": [
                     "/Lotus/StoreItems/Types/Recipes/Weapons/HeatSwordBlueprint"
-                ]
+                ],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Menu/Mailbox_WarframeSender",
+                    "title": "/Lotus/Language/G1Quests/IIQCompleteRewardsMessageTitle",
+                    "body": "/Lotus/Language/G1Quests/IIQCompleteRewardsMessageBody"
+                }
             }
         ]
     },
@@ -1238,10 +1373,20 @@
                 "itemsToGiveWhenTriggered": [
                     "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileDeimosHub",
                     "/Lotus/StoreItems/Types/Keys/InfestedMicroplanetQuest/DoubleDefenseIntroEmailItem"
-                ]
+                ],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/DeimosFather",
+                    "title": "/Lotus/Language/InfestedMicroplanetQuest/QuestEndCraftInboxTitle",
+                    "body": "/Lotus/Language/InfestedMicroplanetQuest/QuestEndCraftInboxBody"
+                }
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/DeimosGrandmother",
+                    "title": "/Lotus/Language/InfestedMicroplanetQuest/ExtraRewardMailTitle",
+                    "body": "/Lotus/Language/InfestedMicroplanetQuest/ExtraRewardMailBody"
+                }
             }
         ],
         "rewards": [
@@ -1288,7 +1433,12 @@
             },
             {
                 "key": "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestStage8Epilogue",
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/Hunhow",
+                    "title": "/Lotus/Language/JadeShadows/PostQuestInboxTitle",
+                    "body": "/Lotus/Language/Subtitles/JadeShadowsQuest/DMissionSix0610Hunhow"
+                }
             }
         ]
     },
@@ -1349,7 +1499,12 @@
         "chainStages": [
             {
                 "key": "/Lotus/Types/Keys/KahlQuest/TennoMurexStage",
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/DeimosDaughter",
+                    "title": "/Lotus/Language/KahlQuest/IntroInboxSubject",
+                    "body": "/Lotus/Language/KahlQuest/IntroInboxBody"
+                }
             },
             {
                 "key": "/Lotus/Types/Keys/KahlQuest/KahlMurexStage",
@@ -1359,7 +1514,12 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/DeimosDaughter",
+                    "title": "/Lotus/Language/KahlQuest/KahlQuestRewardInboxSubject",
+                    "body": "/Lotus/Language/KahlQuest/KahlQuestRewardInboxBody"
+                }
             }
         ]
     },
@@ -1451,7 +1611,12 @@
         "codexSecret": false,
         "chainStages": [
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Menu/ShipSystemsMessageSender",
+                    "title": "/Lotus/Language/G1Quests/LimboQIntroMessageTitle",
+                    "body": "/Lotus/Language/G1Quests/LimboQIntroMessageBody"
+                }
             },
             {
                 "key": "/Lotus/Types/Keys/LimboQuest/LimboBeaconKey",
@@ -1649,7 +1814,12 @@
         "codexSecret": false,
         "chainStages": [
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/G1Quests/VoidTraderName",
+                    "title": "/Lotus/Language/G1Quests/MummyQuestStartingInboxMsgSub",
+                    "body": "/Lotus/Language/G1Quests/MummyQuestStartingInboxMsg"
+                }
             },
             {
                 "key": "/Lotus/Types/Keys/MummyQuest/MummyInitialKey",
@@ -1686,7 +1856,12 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/G1Quests/VoidTraderName",
+                    "title": "/Lotus/Language/G1Quests/MummyQuestCompleteInboxMsgSub",
+                    "body": "/Lotus/Language/G1Quests/MummyQuestCompleteInboxMsg"
+                }
             }
         ]
     },
@@ -1884,7 +2059,12 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Menu/Mailbox_WarframeSender_PostWar",
+                    "title": "/Lotus/Language/NewWar/RewardsMessageSubject",
+                    "body": "/Lotus/Language/NewWar/RewardsMessageBody"
+                }
             }
         ]
     },
@@ -2135,10 +2315,20 @@
             },
             {
                 "key": "/Lotus/Types/Keys/PriestFrameQuest/PriestTempleKey",
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/PalladinoName",
+                    "title": "/Lotus/Language/Messages/PriestQuestHarrowRewardTitle",
+                    "body": "/Lotus/Language/Subtitles/PriestQuest/DVeilTemple01420Palladino"
+                }
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/PalladinoName",
+                    "title": "/Lotus/Language/Messages/PriestQuestRivenRewardTitle",
+                    "body": "/Lotus/Language/Messages/PriestQuestRivenRewardBody"
+                }
             }
         ],
         "rewards": [
@@ -2243,7 +2433,12 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/NefAnyoName",
+                    "title": "/Lotus/Language/DeadlockProtocol/ProteaQuestGlaiveBlueprintSubject",
+                    "body": "/Lotus/Language/Subtitles/ProteaQuest/DM3Orbiter0240NefAnyo"
+                }
             },
             {
                 "key": "/Lotus/Types/Keys/ProteaQuest/ProteaQuestMissionFour",
@@ -2260,10 +2455,20 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Npcs/ParvosGranum",
+                    "title": "/Lotus/Language/DeadlockProtocol/ProteaQuestRewardSubject",
+                    "body": "/Lotus/Language/Subtitles/ProteaQuest/DQuestDoneInbox1240Parvos"
+                }
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Npcs/TheBusiness",
+                    "title": "/Lotus/Language/DeadlockProtocol/ProteaQuestExtraRewardSubject",
+                    "body": "/Lotus/Language/DeadlockProtocol/ProteaQuestExtraRewardBody"
+                }
             }
         ],
         "rewards": [
@@ -2323,7 +2528,12 @@
             {
                 "itemsToGiveWhenTriggered": [
                     "/Lotus/StoreItems/Types/Recipes/Railjack/RailjackCephalonBlueprint"
-                ]
+                ],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/Ordis",
+                    "title": "/Lotus/Language/Railjack/RailjackBuildQuestOrdisDockTitle",
+                    "body": "/Lotus/Language/Railjack/RailjackBuildQuestOrdisDockBody"
+                }
             },
             {
                 "itemsToGiveWhenTriggered": []
@@ -2333,7 +2543,12 @@
             },
             {
                 "key": "/Lotus/Types/Keys/RailJackBuildQuest/RailjackComponentHuntKeyHull",
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/CephalonCy",
+                    "title": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage1MailTitle",
+                    "body": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage1MailDesc"
+                }
             },
             {
                 "itemsToGiveWhenTriggered": []
@@ -2343,7 +2558,12 @@
             },
             {
                 "key": "/Lotus/Types/Keys/RailJackBuildQuest/RailjackComponentHuntKeyHoodBrace",
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/CephalonCy",
+                    "title": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage4MailTitle",
+                    "body": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage4MailDesc"
+                }
             },
             {
                 "itemsToGiveWhenTriggered": []
@@ -2353,7 +2573,12 @@
             },
             {
                 "key": "/Lotus/Types/Keys/RailJackBuildQuest/RailjackComponentHuntKeyNacelleLeft",
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/CephalonCy",
+                    "title": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage13MailTitle",
+                    "body": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage13MailDesc"
+                }
             },
             {
                 "itemsToGiveWhenTriggered": []
@@ -2363,7 +2588,12 @@
             },
             {
                 "key": "/Lotus/Types/Keys/RailJackBuildQuest/RailjackComponentHuntKeyNacelleRight",
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/CephalonCy",
+                    "title": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage7MailTitle",
+                    "body": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage7MailDesc"
+                }
             },
             {
                 "itemsToGiveWhenTriggered": []
@@ -2373,7 +2603,12 @@
             },
             {
                 "key": "/Lotus/Types/Keys/RailJackBuildQuest/RailjackComponentHuntKeyTail",
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/CephalonCy",
+                    "title": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage10MailTitle",
+                    "body": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage10MailDesc"
+                }
             },
             {
                 "itemsToGiveWhenTriggered": []
@@ -2383,7 +2618,12 @@
             },
             {
                 "key": "/Lotus/Types/Keys/RailJackBuildQuest/RailjackComponentHuntKeyHood",
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/CephalonCy",
+                    "title": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage16MailTitle",
+                    "body": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage16MailDesc"
+                }
             },
             {
                 "itemsToGiveWhenTriggered": []
@@ -2392,10 +2632,20 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/CephalonCy",
+                    "title": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage19MailTitle",
+                    "body": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage19MailDesc"
+                }
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/CephalonCy",
+                    "title": "/Lotus/Language/WraithQuest/RisingTideCompleteInboxTitle",
+                    "body": "/Lotus/Language/WraithQuest/RisingTideCompleteInboxBody"
+                }
             }
         ],
         "rewards": [
@@ -2565,7 +2815,12 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/Ordis",
+                    "title": "/Lotus/Language/Sacrifice/SacrificeRewardsInboxTitle",
+                    "body": "/Lotus/Language/Sacrifice/SacrificeRewardsInboxBody"
+                }
             }
         ]
     },
@@ -2653,7 +2908,12 @@
             },
             {
                 "key": "/Lotus/Types/Keys/SentientQuest/SentientQuestMissionThree",
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/Ordis",
+                    "title": "/Lotus/Language/G1Quests/SentientQuestIntercept_Title",
+                    "body": "/Lotus/Language/G1Quests/SentientQuestIntercept_Desc"
+                }
             },
             {
                 "key": "/Lotus/Types/Keys/SentientQuest/SentientQuestMissionFour",
@@ -2667,10 +2927,20 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Menu/Mailbox_WarframeSender",
+                    "title": "/Lotus/Language/G1Quests/SentientQuestComplete_Title",
+                    "body": "/Lotus/Language/G1Quests/SentientQuestComplete_Desc"
+                }
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/BossTylRegor",
+                    "title": "/Lotus/Language/G1Quests/SentientQuestTylThreat_Title",
+                    "body": ""
+                }
             }
         ]
     },
@@ -2738,10 +3008,20 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Npcs/Eudico",
+                    "title": "/Lotus/Language/SolarisQuest/RewardMailTitle",
+                    "body": "/Lotus/Language/SolarisQuest/RewardMailBody"
+                }
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Npcs/Roky",
+                    "title": "/Lotus/Language/SolarisQuest/YareliMessageTitle",
+                    "body": "/Lotus/Language/SolarisQuest/YareliMessage"
+                }
             }
         ]
     },
@@ -2753,14 +3033,24 @@
         "codexSecret": false,
         "chainStages": [
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Menu/Mailbox_WarframeSender",
+                    "title": "/Lotus/Language/G1Quests/SpyQuestOpeningMessageTitle",
+                    "body": "/Lotus/Language/G1Quests/SpyQuestOpeningMessageBody"
+                }
             },
             {
                 "key": "/Lotus/Types/Keys/SpyQuestKeyChain/SpyQuestIntroKey",
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Menu/Mailbox_WarframeSender",
+                    "title": "/Lotus/Language/G1Quests/SpyQuestMarooDebriefTitle",
+                    "body": "/Lotus/Language/G1Quests/SpyQuestMarooDebriefBody"
+                }
             },
             {
                 "key": "/Lotus/Types/Keys/SpyQuestKeyChain/SpyQuestKeyA",
@@ -2872,10 +3162,20 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/Darvo",
+                    "title": "/Lotus/Language/Inbox/DarvoWeaponCraftingMessageBTitle",
+                    "body": "/Lotus/Language/Inbox/DarvoWeaponCraftingMessageBDesc"
+                }
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Menu/Mailbox_WarframeSender",
+                    "title": "/Lotus/Language/G1Quests/Beginner_Growth_Inbox_Title",
+                    "body": "/Lotus/Language/G1Quests/Beginner_Growth_Inbox_Desc"
+                }
             }
         ]
     },
@@ -3131,14 +3431,29 @@
             },
             {
                 "key": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyLisetC",
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Npcs/Unknown",
+                    "title": "/Lotus/Language/GlassQuest/QuillsVisitInboxSubject",
+                    "body": "/Lotus/Language/GlassQuest/QuillsVisitInboxBody"
+                }
             },
             {
                 "key": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyMountainPassB",
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/Ordis",
+                    "title": "/Lotus/Language/PersonalQuarters/BlueprintMailTitle",
+                    "body": "/Lotus/Language/PersonalQuarters/BlueprintMailBody"
+                }
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/Teshin",
+                    "title": "/Lotus/Language/G1Quests/WarWithinFinalInboxSubject",
+                    "body": "/Lotus/Language/G1Quests/WarWithinFinalInboxBody"
+                }
             }
         ]
     },
@@ -3294,7 +3609,12 @@
         "codexSecret": false,
         "chainStages": [
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/CephalonCy",
+                    "title": "/Lotus/Language/WraithQuest/WraithQuestInboxSubject",
+                    "body": "/Lotus/Language/WraithQuest/WraithQuestInboxBody"
+                }
             },
             {
                 "key": "/Lotus/Types/Keys/WraithQuest/WraithQuestM1KeyCrewBattle",
@@ -3306,10 +3626,20 @@
             },
             {
                 "key": "/Lotus/Types/Keys/WraithQuest/WraithQuestM3KeyCrewBattle",
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/CephalonCy",
+                    "title": "/Lotus/Language/WraithQuest/WraithQuestExtraRewardInboxTitle",
+                    "body": "/Lotus/Language/WraithQuest/WraithQuestExtraRewardInboxBody"
+                }
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/CephalonCy",
+                    "title": "/Lotus/Language/WraithQuest/WraithQuestExtraRewardInboxTitle",
+                    "body": "/Lotus/Language/WraithQuest/WraithQuestExtraRewardInboxBody"
+                }
             }
         ],
         "rewards": [
@@ -3345,7 +3675,20 @@
         "codexSecret": false,
         "chainStages": [
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Npcs/Roky",
+                    "title": "/Lotus/Language/YareliQuest/RokyInboxTitle",
+                    "body": "/Lotus/Language/YareliQuest/RokyInboxBody"
+                }
+            },
+            {
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Npcs/Roky",
+                    "title": "/Lotus/Language/YareliQuest/RokyInboxTitle",
+                    "body": "/Lotus/Language/YareliQuest/RokyInboxBody"
+                }
             },
             {
                 "itemsToGiveWhenTriggered": []
@@ -3366,13 +3709,20 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/DeimosGrandmother",
+                    "title": "/Lotus/Language/YareliQuest/GrandmotherInboxTitle",
+                    "body": "/Lotus/Language/YareliQuest/GrandmotherInboxBody"
+                }
             },
             {
-                "itemsToGiveWhenTriggered": []
-            },
-            {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/DeimosGrandmother",
+                    "title": "/Lotus/Language/YareliQuest/ExtraRewardsSubject",
+                    "body": "/Lotus/Language/YareliQuest/ExtraRewardsBody"
+                }
             }
         ],
         "rewards": [
@@ -3418,7 +3768,12 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Zariman/Hombask",
+                    "title": "/Lotus/Language/ZarimanQuest/ZQEndInboxTitle",
+                    "body": "/Lotus/Language/ZarimanQuest/ZQEndInboxBody"
+                }
             }
         ],
         "rewards": [
