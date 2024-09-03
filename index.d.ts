@@ -507,6 +507,7 @@ export interface IUpgrade {
     codexSecret:          boolean;
     baseDrain:            number;
     fusionLimit:          number;
+    compat?:              string;
     compatName?:          string;
     type?:                "STANCE" | "WARFRAME" | "PARAZON" | "MELEE" | "---" | "PRIMARY" | "SECONDARY" | "KAVAT" | "SENTINEL" | "KUBROW" | "AURA" | "ARCH-GUN" | "ARCHWING" | "ARCH-MELEE" | "HELMINTH CHARGER";
     description?:         string;
