@@ -4754,6 +4754,28 @@
             }
         ]
     },
+    "/Lotus/Types/StoreItems/Packages/MegaPrimeVault/MPVIridosArmorSet": {
+        "name": "/Lotus/Language/PrimeStore/MPVIridosArmorSetName",
+        "description": "/Lotus/Language/Cosmetics/CrpModularArmourDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/PrimeVault/IridosArmorBundle.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/CrpModular/CrpModularAArmorTwitch",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/CrpModular/CrpModularCArmorTwitch",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/CrpModular/CrpModularLArmorTwitch",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ]
+    },
     "/Lotus/Types/StoreItems/Packages/MegaPrimeVault/MPVIvaraOberonPrimeDualPack": {
         "name": "/Lotus/Language/PrimePacks/MPVIvaraOberonDualPackName",
         "description": "/Lotus/Language/PrimePacks/MPVIvaraOberonDualPackDesc",
