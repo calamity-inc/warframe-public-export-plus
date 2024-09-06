@@ -324,11 +324,11 @@ export interface IExportNightwave {
         tipIcon?:    string;
     }>;
     rewards:        {
-        uniqueName:  string;
-        name:        string;
-        description: string;
-        icon:        string;
-        itemCount?:  number;
+        uniqueName:   string;
+        name?:        string;
+        description?: string;
+        icon?:        string;
+        itemCount?:   number;
     }[];
 }
 
