@@ -21,7 +21,6 @@ export declare const ExportAvionics: Record<string, IAvionic>;
 export declare const ExportBoosterPacks: Record<string, IBoosterPack>;
 export declare const ExportBundles: Record<string, IBundle>;
 export declare const ExportCustoms: Record<string, ICustom>;
-export declare const ExportDojoRecipes: Record<string, IDojoRecipe>;
 export declare const ExportDrones: Record<string, IDrone>;
 export declare const ExportEnemies: IExportEnemies;
 export declare const ExportFlavour: Record<string, IFlavourItem>;
@@ -44,7 +43,6 @@ export declare const ExportSentinels: Record<string, ISentinel>;
 export declare const ExportSyndicates: Record<string, ISyndicate>;
 export declare const ExportTextIcons: Record<string, ITextIcon>;
 export declare const ExportUpgrades: Record<string, IUpgrade>;
-export declare const ExportVendors: Record<string, IVendor>;
 export declare const ExportWarframes: Record<string, IPowersuit>;
 export declare const ExportWeapons: Record<string, IWeapon>;
 
@@ -120,17 +118,6 @@ export interface ICustom {
     description?:      string;
     icon?:             string;
     excludeFromCodex?: boolean;
-}
-
-export interface IDojoRecipe {
-    icon?:           string;
-    price:           number;
-    time:            number;
-    skipTimePrice:   number;
-    ingredients?:    { ItemType: string; ItemCount: number; }[];
-    replicatePrice?: number;
-    guildXpValue?:   number;
-    techPrereq?:     string;
 }
 
 export interface IDrone {
@@ -478,13 +465,6 @@ export interface ISyndicate {
         standing: number;
     }[];
     medallionsCappedByDailyLimit?: boolean;
-    favours: {
-        storeItem:     string;
-        standingCost:  number;
-        creditsCost:   number;
-        requiredLevel: number;
-        rankUpReward:  boolean;
-    }[];
 }
 
 export interface ITextIcon {
@@ -536,16 +516,6 @@ export interface IUpgrade {
             fullName:     string;
             description:  string;
             overrideTag?: string;
-        }[];
-    }[];
-}
-
-export interface IVendor {
-    items: {
-        storeItem: string;
-        itemPrices: {
-            ItemCount: number;
-            ItemType:  string;
         }[];
     }[];
 }

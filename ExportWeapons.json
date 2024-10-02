@@ -4086,7 +4086,12 @@
                 }
             },
             {
-                "impact": {}
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "impact": {
+                    "DT_IMPACT": 24.0,
+                    "DT_PUNCTURE": 18.0,
+                    "DT_SLASH": 18.0
+                }
             }
         ]
     },
@@ -5875,7 +5880,12 @@
                 }
             },
             {
-                "impact": {}
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "impact": {
+                    "DT_IMPACT": 28.0,
+                    "DT_PUNCTURE": 6.0,
+                    "DT_SLASH": 6.0
+                }
             }
         ]
     },
@@ -11083,6 +11093,68 @@
             }
         ]
     },
+    "/Lotus/Weapons/Tenno/Melee/Polearms/Naginata/ShrineMaidenNaginataWeapon": {
+        "name": "/Lotus/Language/Weapons/NaginataWeaponName",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/NaginataWeapon.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            37.800003,
+            88.199997,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 126,
+        "description": "/Lotus/Language/Weapons/NaginataWeaponDesc",
+        "criticalChance": 0.24,
+        "criticalMultiplier": 2,
+        "procChance": 0.24,
+        "fireRate": 1,
+        "masteryReq": 2,
+        "productCategory": "Melee",
+        "holsterCategory": "STAFF",
+        "slot": 5,
+        "omegaAttenuation": 0.5,
+        "blockingAngle": 55,
+        "comboDuration": 5,
+        "followThrough": 0.6,
+        "range": 3,
+        "slamAttack": 378,
+        "slamRadialDamage": 252,
+        "slamRadius": 7,
+        "slideAttack": 252,
+        "heavyAttackDamage": 756,
+        "heavySlamAttack": 630,
+        "heavySlamRadialDamage": 378,
+        "heavySlamRadius": 8,
+        "windUp": 0.9,
+        "compatibilityTags": [
+            "POLEARMS_STANCE"
+        ],
+        "behaviours": [
+            {
+                "impact": {
+                    "DT_PUNCTURE": 37.8,
+                    "DT_SLASH": 88.2
+                }
+            }
+        ]
+    },
     "/Lotus/Weapons/Tenno/Melee/Polearms/FlowerPowerPolearm/FlowerPowerPolearmWep": {
         "name": "/Lotus/Language/Items/FlowerPowerPolearmName",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/Tonbo.png",
@@ -14470,7 +14542,12 @@
                 }
             },
             {
-                "impact": {}
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "impact": {
+                    "DT_IMPACT": 29.7,
+                    "DT_PUNCTURE": 29.7,
+                    "DT_SLASH": 30.6
+                }
             }
         ]
     },
@@ -16032,7 +16109,12 @@
                 }
             },
             {
-                "impact": {}
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "impact": {
+                    "DT_IMPACT": 36.3,
+                    "DT_PUNCTURE": 36.3,
+                    "DT_SLASH": 37.4
+                }
             }
         ]
     },
@@ -17331,6 +17413,74 @@
             }
         ]
     },
+    "/Lotus/Weapons/Tenno/LongGuns/Gunbrella/ShrineMaidenGunbrellaWeapon": {
+        "name": "/Lotus/Language/Weapons/GunbrellaWeaponName",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/GunbrellaWeapon.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            15.6,
+            10.4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 26,
+        "description": "/Lotus/Language/Weapons/GunbrellaWeaponDesc",
+        "criticalChance": 0.24,
+        "criticalMultiplier": 2,
+        "procChance": 0.18,
+        "fireRate": 5.555556,
+        "masteryReq": 2,
+        "productCategory": "LongGuns",
+        "holsterCategory": "RIFLE",
+        "slot": 1,
+        "accuracy": 100,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "BURST",
+        "magazineSize": 90,
+        "reloadTime": 2.5,
+        "multishot": 1,
+        "compatibilityTags": [
+            "PROJECTILE",
+            "ASSAULT_AMMO"
+        ],
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 15.6,
+                        "DT_SLASH": 10.4
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 8.3325,
+                    "DT_PUNCTURE": 8.3325,
+                    "DT_SLASH": 8.335
+                }
+            },
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
+                "impact": {}
+            }
+        ]
+    },
     "/Lotus/Weapons/Tenno/LongGuns/GarudaCrossbow/GarudaCrossbow": {
         "name": "/Lotus/Language/Weapons/GarudaCrossbowName",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/GarudaCrossbow.png",
@@ -17639,7 +17789,13 @@
                 }
             },
             {
-                "impact": {}
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "impact": {
+                    "DT_IMPACT": 18,
+                    "DT_PUNCTURE": 18,
+                    "DT_SLASH": 18,
+                    "DT_EXPLOSION": 42
+                }
             }
         ]
     },
@@ -31114,6 +31270,20 @@
                     "DT_PUNCTURE": 3.33333,
                     "DT_SLASH": 3.33334
                 }
+            },
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 10.0,
+                        "DT_PUNCTURE": 40.0
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 3.33333,
+                    "DT_PUNCTURE": 3.33333,
+                    "DT_SLASH": 3.33334
+                }
             }
         ]
     },
@@ -34437,6 +34607,15 @@
                     "DT_PUNCTURE": 2.666664,
                     "DT_SLASH": 2.666672
                 }
+            },
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "impact": {
+                    "DT_IMPACT": 40,
+                    "DT_PUNCTURE": 130,
+                    "DT_SLASH": 80,
+                    "DT_MAGNETIC": 80
+                }
             }
         ]
     },
@@ -34563,6 +34742,15 @@
                     "DT_IMPACT": 2.666664,
                     "DT_PUNCTURE": 2.666664,
                     "DT_SLASH": 2.666672
+                }
+            },
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "impact": {
+                    "DT_IMPACT": 50,
+                    "DT_PUNCTURE": 140,
+                    "DT_SLASH": 90,
+                    "DT_MAGNETIC": 90
                 }
             }
         ]
@@ -35572,9 +35760,9 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SentinelWeapons/Sweeper.png",
         "codexSecret": false,
         "damagePerShot": [
-            5.95,
-            0.35,
-            0.7,
+            29.75,
+            1.75,
+            3.499999,
             0,
             0,
             0,
@@ -35593,11 +35781,11 @@
             0,
             0
         ],
-        "totalDamage": 7,
+        "totalDamage": 35,
         "description": "/Lotus/Language/Items/SentinelShotgunDesc",
-        "criticalChance": 0.05,
-        "criticalMultiplier": 1.5,
-        "procChance": 0.023333,
+        "criticalChance": 0.1,
+        "criticalMultiplier": 1.75,
+        "procChance": 0.045,
         "fireRate": 1,
         "masteryReq": 0,
         "productCategory": "SentinelWeapons",
@@ -35618,9 +35806,9 @@
             {
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
                 "impact": {
-                    "DT_IMPACT": 5.95,
-                    "DT_PUNCTURE": 0.35,
-                    "DT_SLASH": 0.7
+                    "DT_IMPACT": 29.75,
+                    "DT_PUNCTURE": 1.75,
+                    "DT_SLASH": 3.5
                 }
             }
         ]
@@ -35630,7 +35818,7 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SentinelWeapons/Deconstructor.png",
         "codexSecret": false,
         "damagePerShot": [
-            50,
+            130,
             0,
             0,
             0,
@@ -35651,7 +35839,7 @@
             0,
             0
         ],
-        "totalDamage": 50,
+        "totalDamage": 130,
         "description": "/Lotus/Language/Items/HeliosGlaiveWeaponDesc",
         "criticalChance": 0,
         "criticalMultiplier": 1,
@@ -35687,7 +35875,7 @@
             0,
             0,
             0,
-            85,
+            175,
             0,
             0,
             0,
@@ -35703,7 +35891,7 @@
             0,
             0
         ],
-        "totalDamage": 85,
+        "totalDamage": 175,
         "description": "/Lotus/Language/Items/SentElecRailgunRifleDesc",
         "criticalChance": 0.35,
         "criticalMultiplier": 2.5,
@@ -35730,12 +35918,12 @@
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
                 "projectile": {
                     "attack": {
-                        "DT_ELECTRICITY": 85
+                        "DT_ELECTRICITY": 175
                     }
                 },
                 "chargedProjectile": {
                     "attack": {
-                        "DT_ELECTRICITY": 85
+                        "DT_ELECTRICITY": 175
                     }
                 },
                 "impact": {}
@@ -35753,7 +35941,7 @@
             0,
             0,
             0,
-            15,
+            30,
             0,
             0,
             0,
@@ -35768,11 +35956,11 @@
             0,
             0
         ],
-        "totalDamage": 15,
+        "totalDamage": 30,
         "description": "/Lotus/Language/Items/SentinelBioWeaponDesc",
         "criticalChance": 0.025,
         "criticalMultiplier": 1.5,
-        "procChance": 0.05,
+        "procChance": 0.2,
         "fireRate": 3.333334,
         "masteryReq": 0,
         "productCategory": "SentinelWeapons",
@@ -35804,9 +35992,6 @@
                     "DT_PUNCTURE": 3.999996,
                     "DT_SLASH": 4.000008
                 }
-            },
-            {
-                "impact": {}
             }
         ]
     },
@@ -35815,9 +36000,9 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SentinelWeapons/PrismaBurstLaser.png",
         "codexSecret": true,
         "damagePerShot": [
-            1,
-            8.5,
-            0.5,
+            2.2,
+            18.700001,
+            1.099999,
             0,
             0,
             0,
@@ -35836,12 +36021,12 @@
             0,
             0
         ],
-        "totalDamage": 10,
+        "totalDamage": 22,
         "description": "/Lotus/Language/Items/PrismaBurstLaserPistolStoreItemDesc",
-        "criticalChance": 0.05,
-        "criticalMultiplier": 2,
+        "criticalChance": 0.18,
+        "criticalMultiplier": 2.15,
         "procChance": 0.1,
-        "fireRate": 1.607143,
+        "fireRate": 2.142857,
         "masteryReq": 0,
         "productCategory": "SentinelWeapons",
         "slot": 1,
@@ -35861,19 +36046,16 @@
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
                 "projectile": {
                     "attack": {
-                        "DT_IMPACT": 1.0,
-                        "DT_PUNCTURE": 8.5,
-                        "DT_SLASH": 0.5
+                        "DT_IMPACT": 2.2,
+                        "DT_PUNCTURE": 18.7,
+                        "DT_SLASH": 1.1
                     }
                 },
                 "impact": {
-                    "DT_IMPACT": 0.3,
-                    "DT_PUNCTURE": 2.55,
-                    "DT_SLASH": 0.15
+                    "DT_IMPACT": 2.2,
+                    "DT_PUNCTURE": 18.7,
+                    "DT_SLASH": 1.1
                 }
-            },
-            {
-                "impact": {}
             }
         ]
     },
@@ -35882,9 +36064,9 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SentinelWeapons/SweeperPrime.png",
         "codexSecret": false,
         "damagePerShot": [
-            8.5,
-            0.5,
-            1.0,
+            38.25,
+            2.25,
+            4.499999,
             0,
             0,
             0,
@@ -35903,11 +36085,11 @@
             0,
             0
         ],
-        "totalDamage": 10,
+        "totalDamage": 45,
         "description": "/Lotus/Language/Items/PrimeSentinelShotgunDesc",
-        "criticalChance": 0.05,
-        "criticalMultiplier": 2,
-        "procChance": 0.025,
+        "criticalChance": 0.1,
+        "criticalMultiplier": 2.25,
+        "procChance": 0.05,
         "fireRate": 1,
         "masteryReq": 0,
         "productCategory": "SentinelWeapons",
@@ -35928,9 +36110,9 @@
             {
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
                 "impact": {
-                    "DT_IMPACT": 8.5,
-                    "DT_PUNCTURE": 0.5,
-                    "DT_SLASH": 1.0
+                    "DT_IMPACT": 38.25,
+                    "DT_PUNCTURE": 2.25,
+                    "DT_SLASH": 4.5
                 }
             }
         ]
@@ -35940,9 +36122,9 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SentinelWeapons/PrimeLaserRifle.png",
         "codexSecret": false,
         "damagePerShot": [
-            1.2,
-            8.4,
-            2.4,
+            5.5,
+            38.5,
+            10.999999,
             0,
             0,
             0,
@@ -35961,12 +36143,12 @@
             0,
             0
         ],
-        "totalDamage": 11.999999,
+        "totalDamage": 55,
         "description": "/Lotus/Language/Items/PrimeLaserRifleStoreItemDesc",
-        "criticalChance": 0.15,
-        "criticalMultiplier": 1.5,
-        "procChance": 0.05,
-        "fireRate": 10.000001,
+        "criticalChance": 0.2,
+        "criticalMultiplier": 2,
+        "procChance": 0.1,
+        "fireRate": 5.0,
         "masteryReq": 0,
         "productCategory": "SentinelWeapons",
         "holsterCategory": "RIFLE",
@@ -35975,8 +36157,8 @@
         "omegaAttenuation": 1.21,
         "noise": "ALARMING",
         "trigger": "AUTO",
-        "magazineSize": 5,
-        "reloadTime": 1.2,
+        "magazineSize": 20,
+        "reloadTime": 1,
         "sentinel": true,
         "multishot": 1,
         "compatibilityTags": [
@@ -35989,9 +36171,9 @@
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
                 "projectile": {
                     "attack": {
-                        "DT_IMPACT": 1.2,
-                        "DT_PUNCTURE": 8.4,
-                        "DT_SLASH": 2.4
+                        "DT_IMPACT": 5.5,
+                        "DT_PUNCTURE": 38.5,
+                        "DT_SLASH": 11.0
                     }
                 },
                 "impact": {
@@ -36007,9 +36189,9 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SentinelWeapons/DethMachineRiflePrime.png",
         "codexSecret": false,
         "damagePerShot": [
-            0.7,
-            0.35,
-            5.95,
+            2,
+            1,
+            17,
             0,
             0,
             0,
@@ -36028,7 +36210,7 @@
             0,
             0
         ],
-        "totalDamage": 7,
+        "totalDamage": 20,
         "description": "/Lotus/Language/Primes/PrimeDethMachineRifleDesc",
         "criticalChance": 0.1,
         "criticalMultiplier": 2,
@@ -36054,9 +36236,9 @@
             {
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
                 "impact": {
-                    "DT_IMPACT": 0.7,
-                    "DT_PUNCTURE": 0.35,
-                    "DT_SLASH": 5.95
+                    "DT_IMPACT": 2.0,
+                    "DT_PUNCTURE": 1.0,
+                    "DT_SLASH": 17.0
                 }
             }
         ]
@@ -36066,9 +36248,9 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SentinelWeapons/PrimeLaserRifle.png",
         "codexSecret": false,
         "damagePerShot": [
-            1.2,
-            10.200001,
-            0.599999,
+            2.5,
+            21.25,
+            1.249999,
             0,
             0,
             0,
@@ -36087,12 +36269,12 @@
             0,
             0
         ],
-        "totalDamage": 12,
+        "totalDamage": 24.999998,
         "description": "/Lotus/Language/Items/PrimeBurstLaserPistolStoreItemDesc",
-        "criticalChance": 0.0625,
-        "criticalMultiplier": 2.35,
-        "procChance": 0.14,
-        "fireRate": 1.875,
+        "criticalChance": 0.2,
+        "criticalMultiplier": 2.3,
+        "procChance": 0.15,
+        "fireRate": 3,
         "masteryReq": 0,
         "productCategory": "SentinelWeapons",
         "slot": 1,
@@ -36112,19 +36294,16 @@
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
                 "projectile": {
                     "attack": {
-                        "DT_IMPACT": 1.2,
-                        "DT_PUNCTURE": 10.2,
-                        "DT_SLASH": 0.6
+                        "DT_IMPACT": 2.5,
+                        "DT_PUNCTURE": 21.25,
+                        "DT_SLASH": 1.25
                     }
                 },
                 "impact": {
-                    "DT_IMPACT": 0.3,
-                    "DT_PUNCTURE": 2.55,
-                    "DT_SLASH": 0.15
+                    "DT_IMPACT": 2.5,
+                    "DT_PUNCTURE": 21.25,
+                    "DT_SLASH": 1.25
                 }
-            },
-            {
-                "impact": {}
             }
         ]
     },
@@ -36133,9 +36312,9 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SentinelWeapons/LaserRifle.png",
         "codexSecret": false,
         "damagePerShot": [
-            0.8,
-            6.4,
-            0.8,
+            4.5,
+            36,
+            4.499999,
             0,
             0,
             0,
@@ -36154,12 +36333,12 @@
             0,
             0
         ],
-        "totalDamage": 8,
+        "totalDamage": 45,
         "description": "/Lotus/Language/Items/LaserRifleStoreItemDesc",
-        "criticalChance": 0.025,
-        "criticalMultiplier": 1.25,
-        "procChance": 0.02,
-        "fireRate": 1.666667,
+        "criticalChance": 0.17,
+        "criticalMultiplier": 1.75,
+        "procChance": 0.075,
+        "fireRate": 5.0,
         "masteryReq": 0,
         "productCategory": "SentinelWeapons",
         "holsterCategory": "RIFLE",
@@ -36168,8 +36347,8 @@
         "omegaAttenuation": 1.21,
         "noise": "ALARMING",
         "trigger": "AUTO",
-        "magazineSize": 5,
-        "reloadTime": 1.2,
+        "magazineSize": 20,
+        "reloadTime": 1,
         "sentinel": true,
         "multishot": 1,
         "compatibilityTags": [
@@ -36182,9 +36361,9 @@
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
                 "projectile": {
                     "attack": {
-                        "DT_IMPACT": 0.8,
-                        "DT_PUNCTURE": 6.4,
-                        "DT_SLASH": 0.8
+                        "DT_IMPACT": 4.5,
+                        "DT_PUNCTURE": 36.0,
+                        "DT_SLASH": 4.5
                     }
                 },
                 "impact": {
@@ -36225,13 +36404,13 @@
         "description": "/Lotus/Language/Weapons/SentinelGremlinDesc",
         "criticalChance": 0.02,
         "criticalMultiplier": 1.5,
-        "procChance": 0.03,
-        "fireRate": 1,
+        "procChance": 0.35,
+        "fireRate": 16.666668,
         "masteryReq": 0,
         "productCategory": "SentinelWeapons",
         "holsterCategory": "RIFLE",
         "slot": 1,
-        "accuracy": 12.5,
+        "accuracy": 100,
         "omegaAttenuation": 1,
         "noise": "ALARMING",
         "trigger": "HELD",
@@ -36256,9 +36435,9 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SentinelWeapons/DethMachineRifle.png",
         "codexSecret": false,
         "damagePerShot": [
-            0.5,
-            0.25,
-            4.25,
+            1.5,
+            0.75,
+            12.75,
             0,
             0,
             0,
@@ -36277,7 +36456,7 @@
             0,
             0
         ],
-        "totalDamage": 5,
+        "totalDamage": 15,
         "description": "/Lotus/Language/Items/DethMachineRifleDesc",
         "criticalChance": 0.05,
         "criticalMultiplier": 2,
@@ -36303,9 +36482,9 @@
             {
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
                 "impact": {
-                    "DT_IMPACT": 0.5,
-                    "DT_PUNCTURE": 0.25,
-                    "DT_SLASH": 4.25
+                    "DT_IMPACT": 1.5,
+                    "DT_PUNCTURE": 0.75,
+                    "DT_SLASH": 12.75
                 }
             }
         ]
@@ -36315,9 +36494,9 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SentinelWeapons/BurstLaser.png",
         "codexSecret": false,
         "damagePerShot": [
-            0.7,
-            5.95,
-            0.35,
+            2,
+            17,
+            0.999999,
             0,
             0,
             0,
@@ -36336,11 +36515,11 @@
             0,
             0
         ],
-        "totalDamage": 7,
+        "totalDamage": 20,
         "description": "/Lotus/Language/Items/BurstLaserPistolStoreItemDesc",
-        "criticalChance": 0.025,
-        "criticalMultiplier": 1.25,
-        "procChance": 0.02,
+        "criticalChance": 0.15,
+        "criticalMultiplier": 2,
+        "procChance": 0.1,
         "fireRate": 1.607143,
         "masteryReq": 0,
         "productCategory": "SentinelWeapons",
@@ -36361,19 +36540,16 @@
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
                 "projectile": {
                     "attack": {
-                        "DT_IMPACT": 0.7,
-                        "DT_PUNCTURE": 5.95,
-                        "DT_SLASH": 0.35
+                        "DT_IMPACT": 2.0,
+                        "DT_PUNCTURE": 17.0,
+                        "DT_SLASH": 1.0
                     }
                 },
                 "impact": {
-                    "DT_IMPACT": 0.3,
-                    "DT_PUNCTURE": 2.55,
-                    "DT_SLASH": 0.15
+                    "DT_IMPACT": 2.0,
+                    "DT_PUNCTURE": 17.0,
+                    "DT_SLASH": 1.0
                 }
-            },
-            {
-                "impact": {}
             }
         ]
     },
@@ -36382,7 +36558,7 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SentinelWeapons/DeconstructorPrime.png",
         "codexSecret": false,
         "damagePerShot": [
-            75,
+            160,
             0,
             0,
             0,
@@ -36403,7 +36579,7 @@
             0,
             0
         ],
-        "totalDamage": 75,
+        "totalDamage": 160,
         "description": "/Lotus/Language/Primes/PrimeHeliosGlaiveWeaponDesc",
         "criticalChance": 0,
         "criticalMultiplier": 1,
@@ -36437,7 +36613,7 @@
             0,
             0,
             0,
-            35,
+            500,
             0,
             0,
             0,
@@ -36455,7 +36631,7 @@
             0,
             0
         ],
-        "totalDamage": 35,
+        "totalDamage": 500,
         "description": "/Lotus/Language/SolarisVenus/ThermocorWeaponDesc",
         "criticalChance": 0.2,
         "criticalMultiplier": 2.5,
@@ -36470,7 +36646,7 @@
         "noise": "ALARMING",
         "trigger": "CHARGE",
         "magazineSize": 1,
-        "reloadTime": 6,
+        "reloadTime": 3,
         "sentinel": true,
         "multishot": 1,
         "compatibilityTags": [
@@ -36496,7 +36672,7 @@
             0,
             0,
             0,
-            6,
+            5,
             0,
             0,
             0,
@@ -36512,37 +36688,32 @@
             0,
             0
         ],
-        "totalDamage": 6,
+        "totalDamage": 5,
         "description": "/Lotus/Language/SolarisVenus/TazronWeaponDesc",
-        "criticalChance": 0.02,
+        "criticalChance": 0.05,
         "criticalMultiplier": 1.5,
-        "procChance": 0.15,
-        "fireRate": 8.333334,
+        "procChance": 0.25,
+        "fireRate": 12.000001,
         "masteryReq": 3,
         "productCategory": "SentinelWeapons",
         "holsterCategory": "RIFLE",
         "slot": 1,
-        "accuracy": 25,
+        "accuracy": 100,
         "omegaAttenuation": 1,
         "noise": "ALARMING",
-        "trigger": "AUTO",
-        "magazineSize": 4,
-        "reloadTime": 2.5,
+        "trigger": "HELD",
+        "magazineSize": 40,
+        "reloadTime": 2,
         "sentinel": true,
         "multishot": 1,
         "compatibilityTags": [
-            "PROJECTILE",
+            "BEAM",
             "ASSAULT_AMMO",
             "SENTINEL_WEAPON"
         ],
         "behaviours": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
-                "projectile": {
-                    "attack": {
-                        "DT_ELECTRICITY": 6
-                    }
-                },
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
                 "impact": {}
             }
         ]
@@ -36552,10 +36723,10 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SentinelWeapons/Helstrum.png",
         "codexSecret": false,
         "damagePerShot": [
-            7.033333,
+            10.95,
             4.05,
             0,
-            2.916666,
+            24,
             0,
             0,
             0,
@@ -36573,7 +36744,7 @@
             0,
             0
         ],
-        "totalDamage": 13.999998,
+        "totalDamage": 39,
         "description": "/Lotus/Language/SolarisVenus/SwarmerWeaponDesc",
         "criticalChance": 0.05,
         "criticalMultiplier": 1.5,
@@ -36605,8 +36776,8 @@
                         "DT_PUNCTURE": 4.5
                     },
                     "explosiveAttack": {
-                        "DT_IMPACT": 2.5,
-                        "DT_FIRE": 3.5
+                        "DT_IMPACT": 6,
+                        "DT_FIRE": 24
                     }
                 },
                 "impact": {
@@ -36622,77 +36793,11 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SentinelWeapons/Multron.png",
         "codexSecret": false,
         "damagePerShot": [
-            1.25,
-            3.75,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-        ],
-        "totalDamage": 5,
-        "description": "/Lotus/Language/SolarisVenus/HextraWeaponDesc",
-        "criticalChance": 0.125,
-        "criticalMultiplier": 1.75,
-        "procChance": 0.05,
-        "fireRate": 3.333334,
-        "masteryReq": 3,
-        "productCategory": "SentinelWeapons",
-        "holsterCategory": "RIFLE",
-        "slot": 1,
-        "accuracy": 18.181818,
-        "omegaAttenuation": 1,
-        "noise": "ALARMING",
-        "trigger": "AUTO",
-        "magazineSize": 6,
-        "reloadTime": 3,
-        "sentinel": true,
-        "multishot": 1,
-        "compatibilityTags": [
-            "PROJECTILE",
-            "ASSAULT_AMMO",
-            "SENTINEL_WEAPON"
-        ],
-        "behaviours": [
-            {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
-                "projectile": {
-                    "attack": {
-                        "DT_IMPACT": 1.25,
-                        "DT_PUNCTURE": 3.75
-                    }
-                },
-                "impact": {
-                    "DT_IMPACT": 3.33333,
-                    "DT_PUNCTURE": 3.33333,
-                    "DT_SLASH": 3.33334
-                }
-            }
-        ]
-    },
-    "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/CryoxionWeapon": {
-        "name": "/Lotus/Language/SolarisVenus/CryoxionWeapon",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SentinelWeapons/Cryotra.png",
-        "codexSecret": false,
-        "damagePerShot": [
-            0,
-            0,
-            0,
             0,
             10,
+            0,
+            0,
+            0,
             0,
             0,
             0,
@@ -36710,31 +36815,97 @@
             0
         ],
         "totalDamage": 10,
-        "description": "/Lotus/Language/SolarisVenus/CryoxionWeaponDesc",
-        "criticalChance": 0.05,
+        "description": "/Lotus/Language/SolarisVenus/HextraWeaponDesc",
+        "criticalChance": 0.15,
         "criticalMultiplier": 2,
-        "procChance": 0.35,
-        "fireRate": 1,
-        "masteryReq": 0,
+        "procChance": 0.22,
+        "fireRate": 2,
+        "masteryReq": 3,
         "productCategory": "SentinelWeapons",
         "holsterCategory": "RIFLE",
         "slot": 1,
-        "accuracy": 12.5,
+        "accuracy": 18.181818,
         "omegaAttenuation": 1,
         "noise": "ALARMING",
-        "trigger": "HELD",
-        "magazineSize": 80,
-        "reloadTime": 4,
+        "trigger": "BURST",
+        "magazineSize": 3,
+        "reloadTime": 3,
         "sentinel": true,
         "multishot": 1,
         "compatibilityTags": [
-            "BEAM",
+            "PROJECTILE",
             "ASSAULT_AMMO",
             "SENTINEL_WEAPON"
         ],
         "behaviours": [
             {
-                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 10
+                    },
+                    "embedDeathAttack": {}
+                },
+                "impact": {
+                    "DT_IMPACT": 3.33333,
+                    "DT_PUNCTURE": 3.33333,
+                    "DT_SLASH": 3.33334
+                }
+            }
+        ]
+    },
+    "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/CryoxionWeapon": {
+        "name": "/Lotus/Language/SolarisVenus/CryoxionWeapon",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SentinelWeapons/Cryotra.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            10,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 30,
+        "description": "/Lotus/Language/SolarisVenus/CryoxionWeaponDesc",
+        "criticalChance": 0.1,
+        "criticalMultiplier": 1.75,
+        "procChance": 0.1,
+        "fireRate": 0.666667,
+        "masteryReq": 0,
+        "productCategory": "SentinelWeapons",
+        "holsterCategory": "RIFLE",
+        "slot": 1,
+        "accuracy": 2.5,
+        "omegaAttenuation": 1,
+        "noise": "ALARMING",
+        "trigger": "SEMI",
+        "magazineSize": 3,
+        "reloadTime": 5,
+        "sentinel": true,
+        "multishot": 1,
+        "compatibilityTags": [
+            "PROJECTILE",
+            "AOE",
+            "SENTINEL_WEAPON"
+        ],
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
                 "impact": {}
             }
         ]
@@ -37366,6 +37537,14 @@
             {
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
                 "impact": {}
+            },
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "impact": {
+                    "DT_IMPACT": 3.33333,
+                    "DT_PUNCTURE": 3.33333,
+                    "DT_SLASH": 3.33334
+                }
             }
         ]
     },
@@ -37418,6 +37597,14 @@
             {
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
                 "impact": {}
+            },
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "impact": {
+                    "DT_IMPACT": 3.33333,
+                    "DT_PUNCTURE": 3.33333,
+                    "DT_SLASH": 3.33334
+                }
             }
         ]
     },
@@ -40214,8 +40401,8 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Companions/Zanukas/ZanukaPetMeleeWeaponIP.png",
         "codexSecret": false,
         "damagePerShot": [
-            76,
-            76,
+            150,
+            150,
             0,
             0,
             0,
@@ -40235,7 +40422,7 @@
             0,
             0
         ],
-        "totalDamage": 152,
+        "totalDamage": 300,
         "description": "/Lotus/Language/Pets/ZanukaPetMeleeWeaponIPDesc",
         "criticalChance": 0.1,
         "criticalMultiplier": 3,
@@ -40255,8 +40442,8 @@
         "behaviours": [
             {
                 "impact": {
-                    "DT_IMPACT": 76.0,
-                    "DT_PUNCTURE": 76.0
+                    "DT_IMPACT": 150.0,
+                    "DT_PUNCTURE": 150.0
                 }
             }
         ]
@@ -40266,9 +40453,9 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Companions/Zanukas/ZanukaPetMeleeWeaponIS.png",
         "codexSecret": false,
         "damagePerShot": [
-            76,
+            150,
             0,
-            76,
+            150,
             0,
             0,
             0,
@@ -40287,7 +40474,7 @@
             0,
             0
         ],
-        "totalDamage": 152,
+        "totalDamage": 300,
         "description": "/Lotus/Language/Pets/ZanukaPetMeleeWeaponISDesc",
         "criticalChance": 0.1,
         "criticalMultiplier": 3,
@@ -40307,8 +40494,8 @@
         "behaviours": [
             {
                 "impact": {
-                    "DT_IMPACT": 76.0,
-                    "DT_SLASH": 76.0
+                    "DT_IMPACT": 150.0,
+                    "DT_SLASH": 150.0
                 }
             }
         ]
@@ -40319,8 +40506,8 @@
         "codexSecret": false,
         "damagePerShot": [
             0,
-            76,
-            76,
+            150,
+            150,
             0,
             0,
             0,
@@ -40339,7 +40526,7 @@
             0,
             0
         ],
-        "totalDamage": 152,
+        "totalDamage": 300,
         "description": "/Lotus/Language/Pets/ZanukaPetMeleeWeaponPSDesc",
         "criticalChance": 0.1,
         "criticalMultiplier": 3,
@@ -40359,8 +40546,8 @@
         "behaviours": [
             {
                 "impact": {
-                    "DT_PUNCTURE": 76.0,
-                    "DT_SLASH": 76.0
+                    "DT_PUNCTURE": 150.0,
+                    "DT_SLASH": 150.0
                 }
             }
         ]

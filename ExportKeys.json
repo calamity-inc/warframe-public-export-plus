@@ -869,7 +869,12 @@
             },
             {
                 "key": "/Lotus/Types/Keys/GlassQuest/GlassQuestGalleonKey",
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/Saya",
+                    "title": "/Lotus/Language/FiveFates/FiveFatesUnlockedInboxTitle",
+                    "body": "/Lotus/Language/FiveFates/FiveFatesUnlockedInboxBody"
+                }
             },
             {
                 "itemsToGiveWhenTriggered": [],
@@ -1301,19 +1306,12 @@
                 "itemsToGiveWhenTriggered": [],
                 "messageToSendWhenTriggered": {
                     "sender": "/Lotus/Language/Menu/Mailbox_WarframeSender",
-                    "title": "/Lotus/Language/G1Quests/IIQCompleteMessageTitle",
-                    "body": "/Lotus/Language/G1Quests/IIQCompleteMessageBody"
-                }
-            },
-            {
-                "itemsToGiveWhenTriggered": [
-                    "/Lotus/StoreItems/Types/Recipes/Weapons/HeatSwordBlueprint"
-                ],
-                "messageToSendWhenTriggered": {
-                    "sender": "/Lotus/Language/Menu/Mailbox_WarframeSender",
                     "title": "/Lotus/Language/G1Quests/IIQCompleteRewardsMessageTitle",
                     "body": "/Lotus/Language/G1Quests/IIQCompleteRewardsMessageBody"
                 }
+            },
+            {
+                "itemsToGiveWhenTriggered": []
             }
         ]
     },
@@ -1600,6 +1598,10 @@
             {
                 "rewardType": "RT_STORE_ITEM",
                 "itemType": "/Lotus/StoreItems/Types/Game/KubrowPet/KubrowPetCollarItem"
+            },
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Friendly/Pets/BeastWeapons/Stances/BeastNeutralStance"
             }
         ]
     },

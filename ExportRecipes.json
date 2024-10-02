@@ -18069,6 +18069,114 @@
             }
         ]
     },
+    "/Lotus/Types/Recipes/WarframeRecipes/KoumeiBlueprint": {
+        "resultType": "/Lotus/Powersuits/Koumei/Koumei",
+        "buildPrice": 25000,
+        "buildTime": 86400,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/KoumeiHelmetComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/KoumeiChassisComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/KoumeiSystemsComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ShrineFragment",
+                "ItemCount": 30
+            }
+        ]
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/KoumeiChassisBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/WarframeRecipes/KoumeiChassisComponent",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ShrineFragment",
+                "ItemCount": 24
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                "ItemCount": 300
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Eidolon/Resources/GrokdrulItem",
+                "ItemCount": 30
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/Gems/Eidolon/CommonGemBCutAItem",
+                "ItemCount": 10
+            }
+        ]
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/KoumeiHelmetBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/WarframeRecipes/KoumeiHelmetComponent",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ShrineFragment",
+                "ItemCount": 24
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                "ItemCount": 100
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Eidolon/Resources/IraditeItem",
+                "ItemCount": 50
+            }
+        ]
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/KoumeiSystemsBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/WarframeRecipes/KoumeiSystemsComponent",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ShrineFragment",
+                "ItemCount": 24
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                "ItemCount": 150
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/Gems/Eidolon/CommonGemACutAItem",
+                "ItemCount": 10
+            }
+        ]
+    },
     "/Lotus/Types/Recipes/WarframeRecipes/LOKIBlueprint": {
         "resultType": "/Lotus/Powersuits/Loki/Loki",
         "buildPrice": 25000,
@@ -26936,6 +27044,87 @@
             }
         ]
     },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/GunbrellaBarrelBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/GunbrellaBarrel",
+        "buildPrice": 20000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ShrineFragment",
+                "ItemCount": 14
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                "ItemCount": 100
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/Fish/Eidolon/FishParts/BothCommonFishBPartItem",
+                "ItemCount": 10
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/Gems/Eidolon/CommonGemBCutAItem",
+                "ItemCount": 10
+            }
+        ]
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/GunbrellaReceiverBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/GunbrellaReceiver",
+        "buildPrice": 20000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ShrineFragment",
+                "ItemCount": 14
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                "ItemCount": 100
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Eidolon/Resources/GrokdrulItem",
+                "ItemCount": 40
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/Gems/Eidolon/CommonOreBAlloyBItem",
+                "ItemCount": 20
+            }
+        ]
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/GunbrellaStockBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/GunbrellaStock",
+        "buildPrice": 20000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ShrineFragment",
+                "ItemCount": 14
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                "ItemCount": 100
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Cryotic",
+                "ItemCount": 100
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Eidolon/Resources/IraditeItem",
+                "ItemCount": 25
+            }
+        ]
+    },
     "/Lotus/Types/Recipes/Weapons/WeaponParts/InfTransformClawsWeaponBladeBlueprint": {
         "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/InfTransformClawsWeaponBlade",
         "buildPrice": 20000,
@@ -27041,6 +27230,60 @@
             {
                 "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
                 "ItemCount": 5
+            }
+        ]
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/NaginataBladeBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/NaginataBlade",
+        "buildPrice": 20000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ShrineFragment",
+                "ItemCount": 14
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Eidolon/Resources/CetusWispItem",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/Fish/Eidolon/FishParts/BothUncommonFishAPartItem",
+                "ItemCount": 3
+            }
+        ]
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/NaginataHandleBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/NaginataHandle",
+        "buildPrice": 20000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ShrineFragment",
+                "ItemCount": 14
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                "ItemCount": 150
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                "ItemCount": 100
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/Gems/Eidolon/CommonGemACutAItem",
+                "ItemCount": 10
             }
         ]
     },
@@ -31918,6 +32161,33 @@
             }
         ]
     },
+    "/Lotus/Types/Recipes/Weapons/GunbrellaBlueprint": {
+        "resultType": "/Lotus/Weapons/Tenno/LongGuns/Gunbrella/ShrineMaidenGunbrellaWeapon",
+        "buildPrice": 25000,
+        "buildTime": 86400,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/GunbrellaBarrel",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/GunbrellaReceiver",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/GunbrellaStock",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ShrineFragment",
+                "ItemCount": 5
+            }
+        ]
+    },
     "/Lotus/Types/Recipes/Weapons/GunsenPrimeBlueprint": {
         "resultType": "/Lotus/Weapons/Tenno/Melee/Warfan/PrimeGunsen/PrimeGunsenWeapon",
         "buildPrice": 15000,
@@ -33169,6 +33439,29 @@
             {
                 "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
                 "ItemCount": 10
+            }
+        ]
+    },
+    "/Lotus/Types/Recipes/Weapons/NaginataBlueprint": {
+        "resultType": "/Lotus/Weapons/Tenno/Melee/Polearms/Naginata/ShrineMaidenNaginataWeapon",
+        "buildPrice": 30000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 35,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/NaginataBlade",
+                "ItemCount": 2
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/NaginataHandle",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ShrineFragment",
+                "ItemCount": 5
             }
         ]
     },
@@ -45411,6 +45704,50 @@
             }
         ]
     },
+    "/Lotus/Types/Recipes/AbilityOverrides/KoumeiBlockBlueprint": {
+        "resultType": "/Lotus/Powersuits/PowersuitAbilities/KoumeiBlockAbility",
+        "buildPrice": 0,
+        "buildTime": 82800,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+                "ItemCount": 190
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+                "ItemCount": 190
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+                "ItemCount": 600
+            }
+        ],
+        "secretIngredientAction": "SIA_WARFRAME_ABILITY",
+        "secretIngredients": [
+            {
+                "ItemType": "/Lotus/Powersuits/Koumei/Koumei",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+                "ItemCount": 650
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+                "ItemCount": 825
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+                "ItemCount": 550
+            }
+        ]
+    },
     "/Lotus/Types/Recipes/AbilityOverrides/LimboBanishBlueprint": {
         "resultType": "/Lotus/Powersuits/PowersuitAbilities/BanishAbility",
         "buildPrice": 0,
@@ -46775,8 +47112,8 @@
             }
         ]
     },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/BratonIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/BratonIncarnonUnlocker",
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/AckAndBruntIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/AckAndBruntIncarnonUnlocker",
         "buildPrice": 0,
         "buildTime": 0,
         "skipBuildTimePrice": 0,
@@ -46787,7 +47124,123 @@
         "hidden": true,
         "ingredients": [
             {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/BratonIncarnonUnlocker",
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/AckAndBruntIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemF",
+                "ItemCount": 70
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartBItem",
+                "ItemCount": 300
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/AngstrumIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/AngstrumIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/AngstrumIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemG",
+                "ItemCount": 70
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriEnemyDropItem",
+                "ItemCount": 80
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/AnkuIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/AnkuIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/AnkuIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemG",
+                "ItemCount": 70
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartBItem",
+                "ItemCount": 300
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/AtomosIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/AtomosIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/AtomosIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
+                "ItemCount": 70
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriEnemyDropItem",
+                "ItemCount": 80
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/BoarIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/BoarIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/BoarIncarnonUnlocker",
                 "ItemCount": 1
             },
             {
@@ -46801,122 +47254,6 @@
             {
                 "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriMushroomItem",
                 "ItemCount": 60
-            }
-        ]
-    },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/LatoIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/LatoIncarnonUnlocker",
-        "buildPrice": 0,
-        "buildTime": 0,
-        "skipBuildTimePrice": 0,
-        "consumeOnUse": false,
-        "num": 1,
-        "codexSecret": false,
-        "excludeFromCodex": true,
-        "hidden": true,
-        "ingredients": [
-            {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/LatoIncarnonUnlocker",
-                "ItemCount": 1
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
-                "ItemCount": 20
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
-                "ItemCount": 70
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartAItem",
-                "ItemCount": 100
-            }
-        ]
-    },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/SkanaIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/SkanaIncarnonUnlocker",
-        "buildPrice": 0,
-        "buildTime": 0,
-        "skipBuildTimePrice": 0,
-        "consumeOnUse": false,
-        "num": 1,
-        "codexSecret": false,
-        "excludeFromCodex": true,
-        "hidden": true,
-        "ingredients": [
-            {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/SkanaIncarnonUnlocker",
-                "ItemCount": 1
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
-                "ItemCount": 20
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemF",
-                "ItemCount": 70
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemC",
-                "ItemCount": 80
-            }
-        ]
-    },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/ParisIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/ParisIncarnonUnlocker",
-        "buildPrice": 0,
-        "buildTime": 0,
-        "skipBuildTimePrice": 0,
-        "consumeOnUse": false,
-        "num": 1,
-        "codexSecret": false,
-        "excludeFromCodex": true,
-        "hidden": true,
-        "ingredients": [
-            {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/ParisIncarnonUnlocker",
-                "ItemCount": 1
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
-                "ItemCount": 20
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
-                "ItemCount": 60
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemE",
-                "ItemCount": 60
-            }
-        ]
-    },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/KunaiIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/KunaiIncarnonUnlocker",
-        "buildPrice": 0,
-        "buildTime": 0,
-        "skipBuildTimePrice": 0,
-        "consumeOnUse": false,
-        "num": 1,
-        "codexSecret": false,
-        "excludeFromCodex": true,
-        "hidden": true,
-        "ingredients": [
-            {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/KunaiIncarnonUnlocker",
-                "ItemCount": 1
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
-                "ItemCount": 20
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
-                "ItemCount": 70
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemB",
-                "ItemCount": 80
             }
         ]
     },
@@ -46949,8 +47286,8 @@
             }
         ]
     },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/LatronIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/LatronIncarnonUnlocker",
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/BoltorIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/BoltorIncarnonUnlocker",
         "buildPrice": 0,
         "buildTime": 0,
         "skipBuildTimePrice": 0,
@@ -46961,7 +47298,94 @@
         "hidden": true,
         "ingredients": [
             {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/LatronIncarnonUnlocker",
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/BoltorIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
+                "ItemCount": 60
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemE",
+                "ItemCount": 60
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/BratonIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/BratonIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/BratonIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
+                "ItemCount": 60
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriMushroomItem",
+                "ItemCount": 60
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/BroncoIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/BroncoIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/BroncoIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
+                "ItemCount": 70
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartAItem",
+                "ItemCount": 100
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/BurstonIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/BurstonIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/BurstonIncarnonUnlocker",
                 "ItemCount": 1
             },
             {
@@ -46978,8 +47402,8 @@
             }
         ]
     },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/FurisIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/FurisIncarnonUnlocker",
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/CeramicDaggerIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/CeramicDaggerIncarnonUnlocker",
         "buildPrice": 0,
         "buildTime": 0,
         "skipBuildTimePrice": 0,
@@ -46990,7 +47414,94 @@
         "hidden": true,
         "ingredients": [
             {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/FurisIncarnonUnlocker",
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/CeramicDaggerIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemF",
+                "ItemCount": 70
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemC",
+                "ItemCount": 80
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/CestraIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/CestraIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/CestraIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemA",
+                "ItemCount": 80
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriProcessedItem",
+                "ItemCount": 150
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/DeraIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/DeraIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/DeraIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemB",
+                "ItemCount": 80
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemG",
+                "ItemCount": 70
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/DespairIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/DespairIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/DespairIncarnonUnlocker",
                 "ItemCount": 1
             },
             {
@@ -47002,7 +47513,94 @@
                 "ItemCount": 70
             },
             {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriEnemyDropItem",
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemE",
+                "ItemCount": 60
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/DreadIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/DreadIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/DreadIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
+                "ItemCount": 60
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriMushroomItem",
+                "ItemCount": 60
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/DualIchorIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/DualIchorIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/DualIchorIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
+                "ItemCount": 60
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemA",
+                "ItemCount": 80
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/DualToxocystIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/DualToxocystIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/DualToxocystIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
+                "ItemCount": 70
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemB",
                 "ItemCount": 80
             }
         ]
@@ -47036,8 +47634,8 @@
             }
         ]
     },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/StrunIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/StrunIncarnonUnlocker",
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/FurisIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/FurisIncarnonUnlocker",
         "buildPrice": 0,
         "buildTime": 0,
         "skipBuildTimePrice": 0,
@@ -47048,7 +47646,65 @@
         "hidden": true,
         "ingredients": [
             {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/StrunIncarnonUnlocker",
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/FurisIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
+                "ItemCount": 70
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriEnemyDropItem",
+                "ItemCount": 80
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/GammacorIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/GammacorIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/GammacorIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemG",
+                "ItemCount": 70
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriEnemyDropItem",
+                "ItemCount": 80
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/GorgonIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/GorgonIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/GorgonIncarnonUnlocker",
                 "ItemCount": 1
             },
             {
@@ -47062,6 +47718,122 @@
             {
                 "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriMushroomItem",
                 "ItemCount": 60
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/HateIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/HateIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/HateIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemF",
+                "ItemCount": 70
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartCItem",
+                "ItemCount": 20
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/KunaiIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/KunaiIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/KunaiIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
+                "ItemCount": 70
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemB",
+                "ItemCount": 80
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/LatoIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/LatoIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/LatoIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
+                "ItemCount": 70
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartAItem",
+                "ItemCount": 100
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/LatronIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/LatronIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/LatronIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
+                "ItemCount": 60
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartCItem",
+                "ItemCount": 20
             }
         ]
     },
@@ -47123,180 +47895,6 @@
             }
         ]
     },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/BoltorIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/BoltorIncarnonUnlocker",
-        "buildPrice": 0,
-        "buildTime": 0,
-        "skipBuildTimePrice": 0,
-        "consumeOnUse": false,
-        "num": 1,
-        "codexSecret": false,
-        "excludeFromCodex": true,
-        "hidden": true,
-        "ingredients": [
-            {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/BoltorIncarnonUnlocker",
-                "ItemCount": 1
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
-                "ItemCount": 20
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
-                "ItemCount": 60
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemE",
-                "ItemCount": 60
-            }
-        ]
-    },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/BroncoIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/BroncoIncarnonUnlocker",
-        "buildPrice": 0,
-        "buildTime": 0,
-        "skipBuildTimePrice": 0,
-        "consumeOnUse": false,
-        "num": 1,
-        "codexSecret": false,
-        "excludeFromCodex": true,
-        "hidden": true,
-        "ingredients": [
-            {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/BroncoIncarnonUnlocker",
-                "ItemCount": 1
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
-                "ItemCount": 20
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
-                "ItemCount": 70
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartAItem",
-                "ItemCount": 100
-            }
-        ]
-    },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/CeramicDaggerIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/CeramicDaggerIncarnonUnlocker",
-        "buildPrice": 0,
-        "buildTime": 0,
-        "skipBuildTimePrice": 0,
-        "consumeOnUse": false,
-        "num": 1,
-        "codexSecret": false,
-        "excludeFromCodex": true,
-        "hidden": true,
-        "ingredients": [
-            {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/CeramicDaggerIncarnonUnlocker",
-                "ItemCount": 1
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
-                "ItemCount": 20
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemF",
-                "ItemCount": 70
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemC",
-                "ItemCount": 80
-            }
-        ]
-    },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/ToridIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/ToridIncarnonUnlocker",
-        "buildPrice": 0,
-        "buildTime": 0,
-        "skipBuildTimePrice": 0,
-        "consumeOnUse": false,
-        "num": 1,
-        "codexSecret": false,
-        "excludeFromCodex": true,
-        "hidden": true,
-        "ingredients": [
-            {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/ToridIncarnonUnlocker",
-                "ItemCount": 1
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
-                "ItemCount": 20
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
-                "ItemCount": 60
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartCItem",
-                "ItemCount": 20
-            }
-        ]
-    },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/DualToxocystIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/DualToxocystIncarnonUnlocker",
-        "buildPrice": 0,
-        "buildTime": 0,
-        "skipBuildTimePrice": 0,
-        "consumeOnUse": false,
-        "num": 1,
-        "codexSecret": false,
-        "excludeFromCodex": true,
-        "hidden": true,
-        "ingredients": [
-            {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/DualToxocystIncarnonUnlocker",
-                "ItemCount": 1
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
-                "ItemCount": 20
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
-                "ItemCount": 70
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemB",
-                "ItemCount": 80
-            }
-        ]
-    },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/DualIchorIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/DualIchorIncarnonUnlocker",
-        "buildPrice": 0,
-        "buildTime": 0,
-        "skipBuildTimePrice": 0,
-        "consumeOnUse": false,
-        "num": 1,
-        "codexSecret": false,
-        "excludeFromCodex": true,
-        "hidden": true,
-        "ingredients": [
-            {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/DualIchorIncarnonUnlocker",
-                "ItemCount": 1
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
-                "ItemCount": 20
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
-                "ItemCount": 60
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemA",
-                "ItemCount": 80
-            }
-        ]
-    },
     "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/MiterIncarnonBlueprint": {
         "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/MiterIncarnonUnlocker",
         "buildPrice": 0,
@@ -47323,122 +47921,6 @@
             {
                 "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriMushroomItem",
                 "ItemCount": 60
-            }
-        ]
-    },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/AtomosIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/AtomosIncarnonUnlocker",
-        "buildPrice": 0,
-        "buildTime": 0,
-        "skipBuildTimePrice": 0,
-        "consumeOnUse": false,
-        "num": 1,
-        "codexSecret": false,
-        "excludeFromCodex": true,
-        "hidden": true,
-        "ingredients": [
-            {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/AtomosIncarnonUnlocker",
-                "ItemCount": 1
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
-                "ItemCount": 20
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
-                "ItemCount": 70
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriEnemyDropItem",
-                "ItemCount": 80
-            }
-        ]
-    },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/AckAndBruntIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/AckAndBruntIncarnonUnlocker",
-        "buildPrice": 0,
-        "buildTime": 0,
-        "skipBuildTimePrice": 0,
-        "consumeOnUse": false,
-        "num": 1,
-        "codexSecret": false,
-        "excludeFromCodex": true,
-        "hidden": true,
-        "ingredients": [
-            {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/AckAndBruntIncarnonUnlocker",
-                "ItemCount": 1
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
-                "ItemCount": 20
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemF",
-                "ItemCount": 70
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartBItem",
-                "ItemCount": 300
-            }
-        ]
-    },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/SomaIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/SomaIncarnonUnlocker",
-        "buildPrice": 0,
-        "buildTime": 0,
-        "skipBuildTimePrice": 0,
-        "consumeOnUse": false,
-        "num": 1,
-        "codexSecret": false,
-        "excludeFromCodex": true,
-        "hidden": true,
-        "ingredients": [
-            {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/SomaIncarnonUnlocker",
-                "ItemCount": 1
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
-                "ItemCount": 20
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
-                "ItemCount": 60
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemE",
-                "ItemCount": 60
-            }
-        ]
-    },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/VastoIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/VastoIncarnonUnlocker",
-        "buildPrice": 0,
-        "buildTime": 0,
-        "skipBuildTimePrice": 0,
-        "consumeOnUse": false,
-        "num": 1,
-        "codexSecret": false,
-        "excludeFromCodex": true,
-        "hidden": true,
-        "ingredients": [
-            {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/VastoIncarnonUnlocker",
-                "ItemCount": 1
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
-                "ItemCount": 20
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
-                "ItemCount": 70
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriProcessedItem",
-                "ItemCount": 150
             }
         ]
     },
@@ -47471,8 +47953,8 @@
             }
         ]
     },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/BurstonIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/BurstonIncarnonUnlocker",
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/OkinaIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/OkinaIncarnonUnlocker",
         "buildPrice": 0,
         "buildTime": 0,
         "skipBuildTimePrice": 0,
@@ -47483,7 +47965,36 @@
         "hidden": true,
         "ingredients": [
             {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/BurstonIncarnonUnlocker",
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/OkinaIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartCItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriEnemyDropItem",
+                "ItemCount": 80
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/ParisIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/ParisIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/ParisIncarnonUnlocker",
                 "ItemCount": 1
             },
             {
@@ -47495,37 +48006,8 @@
                 "ItemCount": 60
             },
             {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartCItem",
-                "ItemCount": 20
-            }
-        ]
-    },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/ZylokIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/ZylokIncarnonUnlocker",
-        "buildPrice": 0,
-        "buildTime": 0,
-        "skipBuildTimePrice": 0,
-        "consumeOnUse": false,
-        "num": 1,
-        "codexSecret": false,
-        "excludeFromCodex": true,
-        "hidden": true,
-        "ingredients": [
-            {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/ZylokIncarnonUnlocker",
-                "ItemCount": 1
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
-                "ItemCount": 20
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
-                "ItemCount": 70
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartAItem",
-                "ItemCount": 100
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemE",
+                "ItemCount": 60
             }
         ]
     },
@@ -47558,8 +48040,8 @@
             }
         ]
     },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/DreadIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/DreadIncarnonUnlocker",
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/SicarusIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/SicarusIncarnonUnlocker",
         "buildPrice": 0,
         "buildTime": 0,
         "skipBuildTimePrice": 0,
@@ -47570,7 +48052,7 @@
         "hidden": true,
         "ingredients": [
             {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/DreadIncarnonUnlocker",
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/SicarusIncarnonUnlocker",
                 "ItemCount": 1
             },
             {
@@ -47578,17 +48060,17 @@
                 "ItemCount": 20
             },
             {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
-                "ItemCount": 60
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartAItem",
+                "ItemCount": 100
             },
             {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriMushroomItem",
-                "ItemCount": 60
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriRockItem",
+                "ItemCount": 150
             }
         ]
     },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/DespairIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/DespairIncarnonUnlocker",
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/SkanaIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/SkanaIncarnonUnlocker",
         "buildPrice": 0,
         "buildTime": 0,
         "skipBuildTimePrice": 0,
@@ -47599,36 +48081,7 @@
         "hidden": true,
         "ingredients": [
             {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/DespairIncarnonUnlocker",
-                "ItemCount": 1
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
-                "ItemCount": 20
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
-                "ItemCount": 70
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemE",
-                "ItemCount": 60
-            }
-        ]
-    },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/HateIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/HateIncarnonUnlocker",
-        "buildPrice": 0,
-        "buildTime": 0,
-        "skipBuildTimePrice": 0,
-        "consumeOnUse": false,
-        "num": 1,
-        "codexSecret": false,
-        "excludeFromCodex": true,
-        "hidden": true,
-        "ingredients": [
-            {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/HateIncarnonUnlocker",
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/SkanaIncarnonUnlocker",
                 "ItemCount": 1
             },
             {
@@ -47640,13 +48093,129 @@
                 "ItemCount": 70
             },
             {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemC",
+                "ItemCount": 80
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/SomaIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/SomaIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/SomaIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
+                "ItemCount": 60
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemE",
+                "ItemCount": 60
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/StrunIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/StrunIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/StrunIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
+                "ItemCount": 60
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriMushroomItem",
+                "ItemCount": 60
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/SybarisIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/SybarisIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/SybarisIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemG",
+                "ItemCount": 70
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriProcessedItem",
+                "ItemCount": 150
+            }
+        ]
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/ToridIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/ToridIncarnonUnlocker",
+        "buildPrice": 0,
+        "buildTime": 0,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/ToridIncarnonUnlocker",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "ItemCount": 20
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
+                "ItemCount": 60
+            },
+            {
                 "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartCItem",
                 "ItemCount": 20
             }
         ]
     },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/BoarIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/BoarIncarnonUnlocker",
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/VastoIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/VastoIncarnonUnlocker",
         "buildPrice": 0,
         "buildTime": 0,
         "skipBuildTimePrice": 0,
@@ -47657,7 +48226,7 @@
         "hidden": true,
         "ingredients": [
             {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/BoarIncarnonUnlocker",
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/VastoIncarnonUnlocker",
                 "ItemCount": 1
             },
             {
@@ -47665,46 +48234,17 @@
                 "ItemCount": 20
             },
             {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
-                "ItemCount": 60
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriMushroomItem",
-                "ItemCount": 60
-            }
-        ]
-    },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/GammacorIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/GammacorIncarnonUnlocker",
-        "buildPrice": 0,
-        "buildTime": 0,
-        "skipBuildTimePrice": 0,
-        "consumeOnUse": false,
-        "num": 1,
-        "codexSecret": false,
-        "excludeFromCodex": true,
-        "hidden": true,
-        "ingredients": [
-            {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/GammacorIncarnonUnlocker",
-                "ItemCount": 1
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
-                "ItemCount": 20
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemG",
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
                 "ItemCount": 70
             },
             {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriEnemyDropItem",
-                "ItemCount": 80
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriProcessedItem",
+                "ItemCount": 150
             }
         ]
     },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/AnkuIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/AnkuIncarnonUnlocker",
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/ZylokIncarnonBlueprint": {
+        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/ZylokIncarnonUnlocker",
         "buildPrice": 0,
         "buildTime": 0,
         "skipBuildTimePrice": 0,
@@ -47715,7 +48255,7 @@
         "hidden": true,
         "ingredients": [
             {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/AnkuIncarnonUnlocker",
+                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/ZylokIncarnonUnlocker",
                 "ItemCount": 1
             },
             {
@@ -47723,70 +48263,12 @@
                 "ItemCount": 20
             },
             {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemG",
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
                 "ItemCount": 70
             },
             {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartBItem",
-                "ItemCount": 300
-            }
-        ]
-    },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/GorgonIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/GorgonIncarnonUnlocker",
-        "buildPrice": 0,
-        "buildTime": 0,
-        "skipBuildTimePrice": 0,
-        "consumeOnUse": false,
-        "num": 1,
-        "codexSecret": false,
-        "excludeFromCodex": true,
-        "hidden": true,
-        "ingredients": [
-            {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/GorgonIncarnonUnlocker",
-                "ItemCount": 1
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
-                "ItemCount": 20
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
-                "ItemCount": 60
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriMushroomItem",
-                "ItemCount": 60
-            }
-        ]
-    },
-    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/UnlockerBlueprints/AngstrumIncarnonBlueprint": {
-        "resultType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/AngstrumIncarnonUnlocker",
-        "buildPrice": 0,
-        "buildTime": 0,
-        "skipBuildTimePrice": 0,
-        "consumeOnUse": false,
-        "num": 1,
-        "codexSecret": false,
-        "excludeFromCodex": true,
-        "hidden": true,
-        "ingredients": [
-            {
-                "ItemType": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/AngstrumIncarnonUnlocker",
-                "ItemCount": 1
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
-                "ItemCount": 20
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemG",
-                "ItemCount": 70
-            },
-            {
-                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriEnemyDropItem",
-                "ItemCount": 80
+                "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartAItem",
+                "ItemCount": 100
             }
         ]
     }

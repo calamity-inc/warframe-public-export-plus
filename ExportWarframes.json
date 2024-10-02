@@ -992,8 +992,7 @@
                 "name": "/Lotus/Language/Suits/SentientWhirlwindAbilityName",
                 "description": "/Lotus/Language/Suits/SentientWhirlwindAbilityDescription",
                 "icon": "/Lotus/Interface/Icons/Abilities/CalibanWhirlwind.png",
-                "energyRequiredToActivate": 25,
-                "energyConsumptionOverTime": 4
+                "energyRequiredToActivate": 25
             },
             {
                 "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientStompAbility",
@@ -1007,7 +1006,7 @@
                 "name": "/Lotus/Language/Suits/SentientSummonAbilityName",
                 "description": "/Lotus/Language/Suits/SentientSummonAbilityDescription",
                 "icon": "/Lotus/Interface/Icons/Abilities/CalibanSummonSentients.png",
-                "energyRequiredToActivate": 50
+                "energyRequiredToActivate": 0
             },
             {
                 "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientBlastAbility",
@@ -2802,6 +2801,52 @@
         ],
         "productCategory": "Suits"
     },
+    "/Lotus/Powersuits/Koumei/Koumei": {
+        "name": "/Lotus/Language/Suits/KoumeiName",
+        "parentName": "/Lotus/Powersuits/Koumei/KoumeiBaseSuit",
+        "description": "/Lotus/Language/Suits/KoumeiDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Koumei.png",
+        "health": 344,
+        "shield": 122,
+        "armor": 444,
+        "stamina": 3,
+        "power": 122,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/KoumeiPassiveAbilityDesc",
+        "abilities": [
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/KoumeiStringsAbility",
+                "name": "/Lotus/Language/Suits/KoumeiStringsAbilityName",
+                "description": "/Lotus/Language/Suits/KoumeiStringsAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/KoumeiKumihimo.png",
+                "energyRequiredToActivate": 25
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/KoumeiFortuneAbility",
+                "name": "/Lotus/Language/Suits/KoumeiFortuneAbilityName",
+                "description": "/Lotus/Language/Suits/KoumeiFortuneAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/KoumeiOmikuji.png",
+                "energyRequiredToActivate": 50
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/KoumeiBlockAbility",
+                "name": "/Lotus/Language/Suits/KoumeiBlockAbilityName",
+                "description": "/Lotus/Language/Suits/KoumeiBlockAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/KoumeiOmamori.png",
+                "energyRequiredToActivate": 75
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/KoumeiPuppetAbility",
+                "name": "/Lotus/Language/Suits/KoumeiPuppetsAbilityName",
+                "description": "/Lotus/Language/Suits/KoumeiPuppetsAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/KoumeiBunraku.png",
+                "energyRequiredToActivate": 100
+            }
+        ],
+        "productCategory": "Suits"
+    },
     "/Lotus/Powersuits/Khora/KhoraPrime": {
         "name": "/Lotus/Language/Primes/KhoraPrimeName",
         "parentName": "/Lotus/Powersuits/Khora/KhoraBaseSuit",
@@ -3351,7 +3396,7 @@
                 "name": "/Lotus/Language/Suits/GyreSphereAbilityName",
                 "description": "/Lotus/Language/Suits/GyreSphereAbilityDescription",
                 "icon": "/Lotus/Interface/Icons/Abilities/GyreSphere.png",
-                "energyRequiredToActivate": 50
+                "energyRequiredToActivate": 0
             },
             {
                 "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreEnergizedAbility",
@@ -4910,7 +4955,7 @@
         "codexSecret": false,
         "masteryReq": 0,
         "sprintSpeed": 1.2,
-        "passiveDescription": "/Lotus/Language/Primes/NovaPrimePassiveAbility",
+        "passiveDescription": "/Lotus/Language/Suits/NovaPassiveAbility",
         "abilities": [
             {
                 "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/NullStarAbility",

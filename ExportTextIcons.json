@@ -892,6 +892,24 @@
     "ARTIFACT_MARKER_LOHK": {
         "DIT_AUTO": "/Lotus/Interface/Icons/Markers/DisruptionRuneVoidMinimap.png"
     },
+    "KOUMEI_DICE_1": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/HudTrackers/Dice/Die1.png"
+    },
+    "KOUMEI_DICE_2": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/HudTrackers/Dice/Die2.png"
+    },
+    "KOUMEI_DICE_3": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/HudTrackers/Dice/Die3.png"
+    },
+    "KOUMEI_DICE_4": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/HudTrackers/Dice/Die4.png"
+    },
+    "KOUMEI_DICE_5": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/HudTrackers/Dice/Die5.png"
+    },
+    "KOUMEI_DICE_6": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/HudTrackers/Dice/Die6.png"
+    },
     "NPC_EXIT_MARKER": {
         "DIT_AUTO": "/Lotus/Interface/Icons/Markers/ExtractionIconWhite.png"
     },
@@ -1424,11 +1442,17 @@
     "DT_RADIANT": {
         "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Void_d.png"
     },
+    "DT_RADIANT_COLOR": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/VoidSymbol.png"
+    },
     "INFINITY": {
         "DIT_AUTO": "/Lotus/Interface/Icons/Infinity_d.png"
     },
     "OWNED": {
         "DIT_AUTO": "/Lotus/Interface/Icons/OwnedIcon.png"
+    },
+    "CRAFTED": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Notifications/BuildComplete.png"
     },
     "MISSION_MARKER_ALERT": {
         "DIT_AUTO": "/Lotus/Interface/Icons/Markers/MiniMapPanicButton.png"
@@ -1580,6 +1604,9 @@
     "IOS_SECONDARYFIRE": {
         "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSSecondaryFire_d.png"
     },
+    "IOS_THROW": {
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSThrow_d.png"
+    },
     "IOS_SLIDE": {
         "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSSlide_d.png"
     },
@@ -1669,6 +1696,12 @@
     },
     "IOS_ARCHWING_DOWN": {
         "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSArchwingDown_d.png"
+    },
+    "IOS_MOTORCYCLE_ABILITY_1": {
+        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/MotorcycleSpeedBoost.png"
+    },
+    "IOS_MOTORCYCLE_ABILITY_2": {
+        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/MotorcycleDismountExplosion.png"
     },
     "CARGO": {
         "DIT_AUTO": "/Lotus/Interface/Icons/RailjackResourceCompactorIcon.png"
@@ -1979,6 +2012,12 @@
     "DT_CORROSIVE_OUTLINE": {
         "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Hud/Corrosive_d.png"
     },
+    "DT_RADIANT_OUTLINE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Hud/Void_d.png"
+    },
+    "DT_SENTIENT_OUTLINE": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Damage/Hud/Sentient_d.png"
+    },
     "SHIELD_GAIN": {
         "DIT_AUTO": "/Lotus/Interface/HudGraphics/Heal/Shield.png"
     },
@@ -2060,6 +2099,15 @@
     "TESHIN_HEAT": {
         "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/TeshinAbilitiesHeat.png"
     },
+    "TESHIN_GLAIVE": {
+        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/TeshinAbilitiesGlaive.png"
+    },
+    "UNAIRU_ABILITY_2": {
+        "DIT_IOS": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon40.png"
+    },
+    "VAZARIN_ABILITY_2": {
+        "DIT_IOS": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon43.png"
+    },
     "Eximus_Burden": {
         "DIT_AUTO": "/Lotus/Interface/Icons/EntratiBurdens/Hud/BurdenHudIcon01.png"
     },
@@ -2086,5 +2134,15 @@
     },
     "MINI_DIAMOND": {
         "DIT_AUTO": "/Lotus/Interface/Icons/PipDiamond_d.png"
+    },
+    "CURSOR_BLINK": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/Retro/Texts/CursorBlinkFlip_d.png"
+    },
+    "CURSOR_STATIC": {},
+    "LOWER_IS_BETTER": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/StatArrowUp_d.png"
+    },
+    "DT_SENTIENT_COLOR": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StatSymbols/SentientSymbol.png"
     }
 }

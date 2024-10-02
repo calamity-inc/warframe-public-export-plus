@@ -23,7 +23,6 @@ PublicExportPlus.ExportAvionics = require("./ExportAvionics.json");
 PublicExportPlus.ExportBoosterPacks = require("./ExportBoosterPacks.json");
 PublicExportPlus.ExportBundles = require("./ExportBundles.json");
 PublicExportPlus.ExportCustoms = require("./ExportCustoms.json");
-PublicExportPlus.ExportDojoRecipes = require("./ExportDojoRecipes.json");
 PublicExportPlus.ExportDrones = require("./ExportDrones.json");
 PublicExportPlus.ExportEnemies = require("./ExportEnemies.json");
 PublicExportPlus.ExportFlavour = require("./ExportFlavour.json");
@@ -46,7 +45,6 @@ PublicExportPlus.ExportSentinels = require("./ExportSentinels.json");
 PublicExportPlus.ExportSyndicates = require("./ExportSyndicates.json");
 PublicExportPlus.ExportTextIcons = require("./ExportTextIcons.json");
 PublicExportPlus.ExportUpgrades = require("./ExportUpgrades.json");
-PublicExportPlus.ExportVendors = require("./ExportVendors.json");
 PublicExportPlus.ExportWarframes = require("./ExportWarframes.json");
 PublicExportPlus.ExportWeapons = require("./ExportWeapons.json");
 
