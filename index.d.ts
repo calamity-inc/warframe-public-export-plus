@@ -416,6 +416,7 @@ export interface IResource {
     showInInventory?:   boolean;
     longDescription?:   string;
     primeSellingPrice?: number;
+    sockets?:           string[]; // for FusionTreasures
 }
 
 export type TMissionDeck = TRewardTier[];
