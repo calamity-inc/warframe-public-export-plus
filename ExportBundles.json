@@ -12905,6 +12905,24 @@
         ],
         "premiumPrice": 100
     },
+    "/Lotus/Types/StoreItems/Packages/LycanCompleteBundle": {
+        "name": "/Lotus/Language/Bundles/LycanCompleteBundleName",
+        "description": "/Lotus/Language/Bundles/LycanCompleteBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/CosmeticBundles/Misc/LycanCompleteBundle.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/InfGrnWolfShoulderArmorMorphed/InfGrnWolfShoulderArmorA",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Scarves/InfGrnWolfCape",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ],
+        "premiumPrice": 125
+    },
     "/Lotus/Types/StoreItems/Packages/MagDeluxeSkinBundle": {
         "name": "/Lotus/Language/Bundles/MagDeluxeSkinBundleName",
         "description": "/Lotus/Language/Bundles/MagDeluxeSkinBundleDesc",
@@ -14516,7 +14534,6 @@
         "name": "/Lotus/Language/PrimePacks/MPVGarudaKhoraDualPackName",
         "description": "/Lotus/Language/PrimePacks/MPVGarudaKhoraDualPackDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/MegaPrimeVault/GarudaKhoraDuoPack.png",
-        "excludeFromCodex": true,
         "components": [
             {
                 "typeName": "/Lotus/StoreItems/Powersuits/Garuda/GarudaPrime",
@@ -14614,7 +14631,6 @@
         "name": "/Lotus/Language/PrimePacks/MPVGarudaSinglePackName",
         "description": "/Lotus/Language/PrimePacks/MPVGarudaSinglePackDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/MegaPrimeVault/Garuda.png",
-        "excludeFromCodex": true,
         "components": [
             {
                 "typeName": "/Lotus/StoreItems/Powersuits/Garuda/GarudaPrime",
@@ -15348,7 +15364,6 @@
         "name": "/Lotus/Language/PrimePacks/MPVKhoraSinglePackName",
         "description": "/Lotus/Language/PrimePacks/MPVKhoraSinglePackDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/MegaPrimeVault/Khora.png",
-        "excludeFromCodex": true,
         "components": [
             {
                 "typeName": "/Lotus/StoreItems/Powersuits/Khora/KhoraPrime",
@@ -15401,7 +15416,6 @@
         "name": "/Lotus/Language/PrimePacks/MPVKukriArmorSet",
         "description": "/Lotus/Language/Primes/GarudaPrimeArmourDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/PrimeVault/KukriPrimeArmorSet.png",
-        "excludeFromCodex": true,
         "components": [
             {
                 "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/PrimeGarudaArmor/PrimeGarudaAArmor",
