@@ -417,6 +417,10 @@ export interface IResource {
     longDescription?:   string;
     primeSellingPrice?: number;
     sockets?:           string[]; // for FusionTreasures
+    dissectionParts?:   { // for fish
+        ItemType: string;
+        ItemCount: number;
+    }[];
 }
 
 export type TMissionDeck = TRewardTier[];
