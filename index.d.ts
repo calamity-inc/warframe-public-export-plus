@@ -624,7 +624,7 @@ export interface IUpgrade {
             reverseValueSymbol?: boolean;
         }[];
     }[];
-    availableChallenges?: {
+    availableChallenges?: { // for rivens
         fullName:      string;
         description:   string;
         singleDescription?: string;
@@ -638,6 +638,7 @@ export interface IUpgrade {
             weight: number;
         }[];
     }[];
+    compatibleItems?: string[]; // for rivens
 }
 
 export interface IVendor {
