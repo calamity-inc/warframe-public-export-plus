@@ -330,6 +330,7 @@ export interface IKey {
             sender: string;
             title:  string;
             body:   string;
+            attachments: string[];
         };
     }[];
     rewards?:          ({
