@@ -334,8 +334,12 @@ export interface IKey {
         };
     }[];
     rewards?:          ({
-        rewardType: "RT_STORE_ITEM" | "RT_RECIPE" | "RT_RESOURCE";
+        rewardType: "RT_STORE_ITEM" | "RT_RECIPE";
         itemType:   string;
+    } | {
+        rewardType: "RT_RESOURCE";
+        itemType:   string;
+        amount:     number;
     } | {
         rewardType: "RT_CREDITS";
         amount:     number;
