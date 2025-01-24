@@ -15,7 +15,9 @@
                     "body": "/Lotus/Language/LotusEaters/PostQuestInboxBody",
                     "attachments": [
                         "/Lotus/Types/Items/ShipDecos/ArthurPagerShipDeco"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/EntratiLab/Loid.png",
+                    "transmission": "/Lotus/Sounds/Dialog/LotusEaters/DOpenCin0170Loid"
                 }
             }
         ]
@@ -43,7 +45,8 @@
                     "body": "/Lotus/Language/1999Quest/QuestCompGoodEndInboxBody",
                     "attachments": [
                         "/Lotus/Types/StoreItems/Packages/HexNoggleBundle"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Hex/Arthur.png"
                 }
             }
         ]
@@ -125,7 +128,9 @@
                         "/Lotus/Types/Recipes/WarframeRecipes/Cyte09Blueprint",
                         "/Lotus/Upgrades/Mods/Pistol/DualStat/MagneticCritDamagePistolMod",
                         "/Lotus/Types/Items/MiscItems/Forma"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/EntratiLab/Loid.png",
+                    "highPriority": true
                 }
             }
         ]
@@ -244,7 +249,9 @@
                     "body": "/Lotus/Language/G1Quests/AWQIntroMessageBody",
                     "attachments": [
                         "/Lotus/Types/Recipes/ArchwingRecipes/StandardArchwing/StandardArchwingBlueprint"
-                    ]
+                    ],
+                    "transmission": "/Lotus/Sounds/Dialog/ArchwingIntroQuest/DAWQInbox010Lotus",
+                    "highPriority": true
                 }
             },
             {
@@ -376,7 +383,10 @@
                     "sender": "/Lotus/Language/Bosses/Ordis",
                     "title": "/Lotus/Language/BardQuest/BardQuestOrdisMailTitle",
                     "body": "/Lotus/Language/Subtitles/BardQuest/DBQOrokinTowerLiset00700Ordis",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Ordis.png",
+                    "transmission": "/Lotus/Sounds/Dialog/BardQuest/DBQOrokinTowerLiset00700Ordis",
+                    "highPriority": true
                 }
             },
             {
@@ -387,7 +397,9 @@
                     "body": "/Lotus/Language/BardQuest/BardQuestRivenRewardBody",
                     "attachments": [
                         "/Lotus/Upgrades/Mods/Randomized/RawPistolRandomMod"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/CephalonSuda.png",
+                    "highPriority": true
                 }
             }
         ],
@@ -625,7 +637,9 @@
                         "/Lotus/Types/Recipes/Weapons/DuviriDualSwordsBlueprint",
                         "/Lotus/Weapons/Tenno/Melee/MeleeTrees/DualKatanaCmbOneMeleeTree",
                         "/Lotus/Types/Items/ShipDecos/DuviriBookQuestReward"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Acrithis.png",
+                    "highPriority": true
                 }
             }
         ]
@@ -763,7 +777,9 @@
                     "body": "/Lotus/Language/EntratiLab/EntratiQuest/PostQuestInboxBody",
                     "attachments": [
                         "/Lotus/Types/Recipes/WarframeRecipes/ConcreteFrameBlueprint"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/EntratiLab/Loid.png",
+                    "transmission": "/Lotus/Sounds/Dialog/EntratiLabQuest/FullQuest/DQuestComp1270HumanLoid"
                 }
             }
         ]
@@ -860,7 +876,10 @@
                     "body": "/Lotus/Language/G1Quests/FairyQuestInboxStartBody",
                     "attachments": [
                         "/Lotus/Types/StoreItems/Consumables/Restoratives/TitaniaQuest/SpecterSummonKnaveLokiBlueprint"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/LokaAmaryn.png",
+                    "transmission": "/Lotus/Sounds/Dialog/TheSilverGrove/Introduction/DIntro00030Amaryn",
+                    "highPriority": true
                 }
             },
             {
@@ -916,7 +935,10 @@
                     "body": "/Lotus/Language/G1Quests/FairyQuestInboxEndBody",
                     "attachments": [
                         "/Lotus/Types/Recipes/WarframeRecipes/FairyBlueprint"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/LokaAmaryn.png",
+                    "transmission": "/Lotus/Sounds/Dialog/TheSilverGrove/OnShipC/DShipC00060Amaryn",
+                    "highPriority": true
                 }
             }
         ]
@@ -1002,7 +1024,9 @@
                     "sender": "/Lotus/Language/Game/DarvoName",
                     "title": "/Lotus/Language/G1Quests/GetClemCompleteInboxTitle",
                     "body": "/Lotus/Language/G1Quests/GetClemCompleteInboxBody",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Darvo.png",
+                    "highPriority": true
                 }
             }
         ]
@@ -1066,7 +1090,9 @@
                     "body": "/Lotus/Language/GlassQuest/ScannersMessageBody",
                     "attachments": [
                         "/Lotus/Types/Restoratives/Consumable/Scanner"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Lotus_d.png",
+                    "highPriority": true
                 }
             },
             {
@@ -1086,7 +1112,10 @@
                     "sender": "/Lotus/Language/Bosses/Saya",
                     "title": "/Lotus/Language/FiveFates/FiveFatesUnlockedInboxTitle",
                     "body": "/Lotus/Language/FiveFates/FiveFatesUnlockedInboxBody",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Ostron/Saya.png",
+                    "transmission": "/Lotus/Sounds/Dialog/KoumeiFatesVendor/DInboxTransmission0880Saya",
+                    "highPriority": true
                 }
             },
             {
@@ -1095,7 +1124,9 @@
                     "sender": "/Lotus/Language/Npcs/TheBusiness",
                     "title": "/Lotus/Language/SolarisQuest/SayasVigilFortunaTitle",
                     "body": "/Lotus/Language/SolarisQuest/SayasVigilFortunaDesc",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Solaris/TheBusiness.png",
+                    "transmission": "/Lotus/Sounds/Dialog/FortunaIntroQuest/Business/DPreQuest0001TheBusiness"
                 }
             },
             {
@@ -1105,7 +1136,9 @@
                     "sender": "/Lotus/Language/Npcs/Unknown",
                     "title": "/Lotus/Language/GlassQuest/QuillsVisitInboxSubject",
                     "body": "/Lotus/Language/GlassQuest/QuillsVisitInboxBody",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/MysteryPortraitA_d.png",
+                    "transmission": "/Lotus/Sounds/Dialog/GlassQuest/DGQFinishIdle0960Lotus"
                 }
             },
             {
@@ -1116,7 +1149,10 @@
                     "body": "/Lotus/Language/GlassQuest/GaraInboxBody",
                     "attachments": [
                         "/Lotus/Types/Recipes/WarframeRecipes/GlassBlueprint"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Lotus_d.png",
+                    "transmission": "/Lotus/Sounds/Dialog/GlassQuest/DGQFinishIdle0960Lotus",
+                    "highPriority": true
                 }
             },
             {
@@ -1127,7 +1163,9 @@
                     "body": "/Lotus/Language/GlassQuest/RivenInboxBody",
                     "attachments": [
                         "/Lotus/Upgrades/Mods/Randomized/RawShotgunRandomMod"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Lotus_d.png",
+                    "highPriority": true
                 }
             }
         ]
@@ -1190,7 +1228,8 @@
                     "body": "/Lotus/Language/G1Quests/GolemQuestPotencyBody",
                     "attachments": [
                         "/Lotus/Types/Recipes/Components/InfestedIrradiatedBaitBallBlueprint"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/JordasPortrait.png"
                 }
             },
             {
@@ -1242,7 +1281,9 @@
                     "body": "/Lotus/Language/G1Quests/IndexQuestNeewaDrawing1Body",
                     "attachments": [
                         "/Lotus/Types/Items/ShipDecos/ChildDrawingA"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/PerrinErgoGlast.png",
+                    "highPriority": true
                 }
             },
             {
@@ -1271,7 +1312,10 @@
                     "body": "/Lotus/Language/G1Quests/IndexQuestNeewaDrawing2Body",
                     "attachments": [
                         "/Lotus/Types/Items/ShipDecos/ChildDrawingB"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/PerrinErgoGlast.png",
+                    "transmission": "/Lotus/Sounds/Dialog/TheIndexQuest/ShipPostMatchTwo/DShipPostMatchTwo0400Neewa",
+                    "highPriority": true
                 }
             },
             {
@@ -1293,7 +1337,10 @@
                     "body": "/Lotus/Language/G1Quests/IndexQuestNeewaDrawing3Body",
                     "attachments": [
                         "/Lotus/Types/Items/ShipDecos/ChildDrawingC"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/PerrinErgoGlast.png",
+                    "transmission": "/Lotus/Sounds/Dialog/TheIndexQuest/ShipPostFour/DShipPostFour0640Neewa",
+                    "highPriority": true
                 }
             },
             {
@@ -1312,7 +1359,10 @@
                     "body": "/Lotus/Language/G1Quests/IndexQuestNeewaDrawing4Body",
                     "attachments": [
                         "/Lotus/Types/Items/ShipDecos/ChildDrawingD"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/PerrinErgoGlast.png",
+                    "transmission": "/Lotus/Sounds/Dialog/TheIndexQuest/ShipPostSpyMission/DShipPostSpyMission0830Neewa",
+                    "highPriority": true
                 }
             },
             {
@@ -1333,7 +1383,9 @@
                     "body": "/Lotus/Language/G1Quests/IndexQuestCureHerBody",
                     "attachments": [
                         "/Lotus/Types/Items/ShipDecos/ChildDrawingE"
-                    ]
+                    ],
+                    "transmission": "/Lotus/Sounds/Dialog/TheIndexQuest/ShipPostSix/DShipPostSix1150Neewa",
+                    "highPriority": true
                 }
             },
             {
@@ -1344,7 +1396,10 @@
                     "body": "/Lotus/Language/G1Quests/IndexQuestSendHerHomeBody",
                     "attachments": [
                         "/Lotus/Types/Items/ShipDecos/ChildDrawingF"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/PerrinErgoGlast.png",
+                    "transmission": "/Lotus/Sounds/Dialog/TheIndexQuest/ShipPostSix/DShipPostSix1160Neewa",
+                    "highPriority": true
                 }
             },
             {
@@ -1355,7 +1410,10 @@
                     "body": "/Lotus/Language/G1Quests/IndexQuestLetHerChooseBody",
                     "attachments": [
                         "/Lotus/Types/Items/ShipDecos/ChildDrawingG"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/PerrinErgoGlast.png",
+                    "transmission": "/Lotus/Sounds/Dialog/TheIndexQuest/ShipPostSix/DShipPostSix1170Neewa",
+                    "highPriority": true
                 }
             }
         ],
@@ -1487,7 +1545,8 @@
                     "body": "/Lotus/Language/G1Quests/IAVQConclusionBody",
                     "attachments": [
                         "InfestedAladKeyBlueprint"
-                    ]
+                    ],
+                    "highPriority": true
                 }
             }
         ]
@@ -1535,7 +1594,9 @@
                     "sender": "/Lotus/Language/Menu/Mailbox_WarframeSender",
                     "title": "/Lotus/Language/G1Quests/IIQIntroMessageTitle",
                     "body": "/Lotus/Language/G1Quests/IIQIntroMessageBody",
-                    "attachments": []
+                    "attachments": [],
+                    "transmission": "/Lotus/Sounds/Dialog/InfestedIntroQuest/DIIQIntroInbox001Lotus",
+                    "highPriority": true
                 }
             },
             {
@@ -1554,7 +1615,8 @@
                     "body": "/Lotus/Language/G1Quests/IIQFireModMessageBody",
                     "attachments": [
                         "/Lotus/Upgrades/Mods/Melee/WeaponFireDamageMod"
-                    ]
+                    ],
+                    "highPriority": true
                 }
             },
             {
@@ -1569,7 +1631,9 @@
                     "body": "/Lotus/Language/G1Quests/IIQCompleteRewardsMessageBody",
                     "attachments": [
                         "/Lotus/Types/Recipes/Weapons/HeatSwordBlueprint"
-                    ]
+                    ],
+                    "transmission": "/Lotus/Sounds/Dialog/InfestedIntroQuest/DIIQCompInbox280Lotus",
+                    "highPriority": true
                 }
             },
             {
@@ -1644,7 +1708,8 @@
                         "/Lotus/Types/Recipes/DeimosRecipes/Mechs/NecromechPartEngineBlueprint",
                         "/Lotus/Types/Recipes/DeimosRecipes/Mechs/NecromechPartSystemsBlueprint",
                         "/Lotus/Types/Recipes/DeimosRecipes/Mechs/NecromechPartWeaponPodBlueprint"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Entrati/Father.png"
                 }
             },
             {
@@ -1655,7 +1720,8 @@
                     "body": "/Lotus/Language/InfestedMicroplanetQuest/ExtraRewardMailBody",
                     "attachments": [
                         "/Lotus/Upgrades/Mods/Randomized/RawShotgunRandomMod"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Entrati/Grandmother.png"
                 }
             }
         ],
@@ -1715,7 +1781,10 @@
                         "/Lotus/Types/Items/ShipDecos/JadeShadowsAlonePoster",
                         "/Lotus/Types/Items/ShipDecos/JadeShadowsEmbracePoster",
                         "/Lotus/Types/Items/ShipDecos/JadeShadowsFamilyPoster"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Sentients/Hunhow.png",
+                    "transmission": "/Lotus/Sounds/Dialog/JadeShadowsQuest/DMissionSix0610Hunhow",
+                    "highPriority": true
                 }
             }
         ]
@@ -1782,7 +1851,10 @@
                     "sender": "/Lotus/Language/Bosses/DeimosDaughter",
                     "title": "/Lotus/Language/KahlQuest/IntroInboxSubject",
                     "body": "/Lotus/Language/KahlQuest/IntroInboxBody",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Entrati/Daughter.png",
+                    "transmission": "/Lotus/Sounds/Dialog/Veilbreaker/Quest/DVeilQInbox0020Daughter",
+                    "highPriority": true
                 }
             },
             {
@@ -1800,7 +1872,9 @@
                     "body": "/Lotus/Language/KahlQuest/KahlQuestRewardInboxBody",
                     "attachments": [
                         "/Lotus/Types/Items/ShipFeatureItems/InfestedFoundryArchonShardBlueprint"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Entrati/Daughter.png",
+                    "highPriority": true
                 }
             }
         ]
@@ -1904,7 +1978,10 @@
                     "body": "/Lotus/Language/G1Quests/LimboQIntroMessageBody",
                     "attachments": [
                         "LimboHelmetKeyBlueprint"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Ordis.png",
+                    "transmission": "/Lotus/Sounds/Dialog/LimboQuest/LQHelmetTheorem/DLQHelmet010Ordis",
+                    "highPriority": true
                 }
             },
             {
@@ -2094,7 +2171,10 @@
                     "sender": "/Lotus/Language/G1Quests/VoidTraderName",
                     "title": "/Lotus/Language/G1Quests/MummyQuestStartingInboxMsgSub",
                     "body": "/Lotus/Language/G1Quests/MummyQuestStartingInboxMsg",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/BaroKiTeerPortrait.png",
+                    "transmission": "/Lotus/Sounds/Dialog/MummyQuest/Introduction/DIntro00010Baro",
+                    "highPriority": true
                 }
             },
             {
@@ -2137,7 +2217,10 @@
                     "sender": "/Lotus/Language/G1Quests/VoidTraderName",
                     "title": "/Lotus/Language/G1Quests/MummyQuestCompleteInboxMsgSub",
                     "body": "/Lotus/Language/G1Quests/MummyQuestCompleteInboxMsg",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/BaroKiTeerPortrait.png",
+                    "transmission": "/Lotus/Sounds/Dialog/MummyQuest/Conclusion/DConclusion00030Baro",
+                    "highPriority": true
                 }
             }
         ]
@@ -2355,7 +2438,9 @@
                         "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain",
                         "/Lotus/Types/Keys/KahlQuest/KahlQuestKeyChain",
                         "/Lotus/Types/Keys/JadeShadows/JadeShadowQuestKeyChain"
-                    ]
+                    ],
+                    "transmission": "/Lotus/Sounds/Dialog/NewWar/PartThree/DTNWPt3Epilogue5610Lotus",
+                    "highPriority": true
                 }
             }
         ]
@@ -2612,7 +2697,10 @@
                     "sender": "/Lotus/Language/Bosses/PalladinoName",
                     "title": "/Lotus/Language/Messages/PriestQuestHarrowRewardTitle",
                     "body": "/Lotus/Language/Subtitles/PriestQuest/DVeilTemple01420Palladino",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Syndicates/RVPalladinoCodex.png",
+                    "transmission": "/Lotus/Sounds/Dialog/PriestQuest/VeilTemple/DVeilTemple01420Palladino",
+                    "highPriority": true
                 }
             },
             {
@@ -2623,7 +2711,8 @@
                     "body": "/Lotus/Language/Messages/PriestQuestRivenRewardBody",
                     "attachments": [
                         "/Lotus/Upgrades/Mods/Randomized/RawMeleeRandomMod"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Syndicates/RVPalladinoCodex.png"
                 }
             }
         ],
@@ -2737,7 +2826,10 @@
                     "body": "/Lotus/Language/Subtitles/ProteaQuest/DM3Orbiter0240NefAnyo",
                     "attachments": [
                         "/Lotus/Types/Recipes/Weapons/CrpGhostCatcherGlaiveBlueprint"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Corpus/NefAnyo.png",
+                    "transmission": "/Lotus/Sounds/Dialog/ProteaQuest/NefAnyo/DM3Orbiter0240NefAnyo",
+                    "highPriority": true
                 }
             },
             {
@@ -2762,7 +2854,9 @@
                     "body": "/Lotus/Language/Subtitles/ProteaQuest/DQuestDoneInbox1240Parvos",
                     "attachments": [
                         "/Lotus/Types/Items/MiscItems/PhotoboothTilePurgatory"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Corpus/Parvos.png",
+                    "transmission": "/Lotus/Sounds/Dialog/ProteaQuest/Parvos/DQuestDoneInbox1240Parvos"
                 }
             },
             {
@@ -2773,7 +2867,8 @@
                     "body": "/Lotus/Language/DeadlockProtocol/ProteaQuestExtraRewardBody",
                     "attachments": [
                         "/Lotus/Upgrades/Mods/Randomized/RawRifleRandomMod"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Solaris/TheBusiness.png"
                 }
             }
         ],
@@ -2841,7 +2936,10 @@
                     "body": "/Lotus/Language/Railjack/RailjackBuildQuestOrdisDockBody",
                     "attachments": [
                         "/Lotus/Types/Recipes/Railjack/RailjackCephalonBlueprint"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Ordis.png",
+                    "transmission": "/Lotus/Sounds/Dialog/CyQuest/CephalonCy/DConstructCy0010RJCephalon",
+                    "highPriority": true
                 }
             },
             {
@@ -2857,7 +2955,10 @@
                     "sender": "/Lotus/Language/Bosses/CephalonCy",
                     "title": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage1MailTitle",
                     "body": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage1MailDesc",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/StoreIcons/RailjackCephalon.png",
+                    "transmission": "/Lotus/Sounds/Dialog/CyQuest/CephalonCy/DPartAInbox0050RJCephalon",
+                    "highPriority": true
                 }
             },
             {
@@ -2873,7 +2974,10 @@
                     "sender": "/Lotus/Language/Bosses/CephalonCy",
                     "title": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage4MailTitle",
                     "body": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage4MailDesc",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/StoreIcons/RailjackCephalon.png",
+                    "transmission": "/Lotus/Sounds/Dialog/CyQuest/CephalonCy/DPartBInbox0100RJCephalon",
+                    "highPriority": true
                 }
             },
             {
@@ -2889,7 +2993,10 @@
                     "sender": "/Lotus/Language/Bosses/CephalonCy",
                     "title": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage13MailTitle",
                     "body": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage13MailDesc",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/StoreIcons/RailjackCephalon.png",
+                    "transmission": "/Lotus/Sounds/Dialog/CyQuest/CephalonCy/DPartCInbox0160RJCephalon",
+                    "highPriority": true
                 }
             },
             {
@@ -2905,7 +3012,10 @@
                     "sender": "/Lotus/Language/Bosses/CephalonCy",
                     "title": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage7MailTitle",
                     "body": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage7MailDesc",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/StoreIcons/RailjackCephalon.png",
+                    "transmission": "/Lotus/Sounds/Dialog/CyQuest/CephalonCy/DPartDInbox0210RJCephalon",
+                    "highPriority": true
                 }
             },
             {
@@ -2921,7 +3031,10 @@
                     "sender": "/Lotus/Language/Bosses/CephalonCy",
                     "title": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage10MailTitle",
                     "body": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage10MailDesc",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/StoreIcons/RailjackCephalon.png",
+                    "transmission": "/Lotus/Sounds/Dialog/CyQuest/CephalonCy/DPartEInbox0260RJCephalon",
+                    "highPriority": true
                 }
             },
             {
@@ -2937,7 +3050,10 @@
                     "sender": "/Lotus/Language/Bosses/CephalonCy",
                     "title": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage16MailTitle",
                     "body": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage16MailDesc",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/StoreIcons/RailjackCephalon.png",
+                    "transmission": "/Lotus/Sounds/Dialog/CyQuest/CephalonCy/DPartFInbox0320RJCephalon",
+                    "highPriority": true
                 }
             },
             {
@@ -2952,7 +3068,10 @@
                     "sender": "/Lotus/Language/Bosses/CephalonCy",
                     "title": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage19MailTitle",
                     "body": "/Lotus/Language/G1Quests/RailjackBuildQuest_Stage19MailDesc",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/StoreIcons/RailjackCephalon.png",
+                    "transmission": "/Lotus/Sounds/Dialog/CyQuest/CephalonCy/DRJCompInbox0370RJCephalon",
+                    "highPriority": true
                 }
             },
             {
@@ -2963,7 +3082,8 @@
                     "body": "/Lotus/Language/WraithQuest/RisingTideCompleteInboxBody",
                     "attachments": [
                         "/Lotus/Types/Keys/WraithQuest/WraithQuestKeyChain"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/StoreIcons/RailjackCephalon.png"
                 }
             }
         ],
@@ -3169,7 +3289,9 @@
                         "/Lotus/Types/Items/MiscItems/PhotoboothTileSacrificeCourtyard",
                         "/Lotus/Upgrades/Skins/Excalibur/UnlockExcaliburUmbraAgile",
                         "/Lotus/Upgrades/Skins/Excalibur/UnlockExcaliburUmbraNoble"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Ordis.png",
+                    "highPriority": true
                 }
             }
         ]
@@ -3269,7 +3391,9 @@
                     "sender": "/Lotus/Language/Bosses/Ordis",
                     "title": "/Lotus/Language/G1Quests/SentientQuestIntercept_Title",
                     "body": "/Lotus/Language/G1Quests/SentientQuestIntercept_Desc",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Ordis.png",
+                    "highPriority": true
                 }
             },
             {
@@ -3291,7 +3415,8 @@
                     "body": "/Lotus/Language/G1Quests/SentientQuestComplete_Desc",
                     "attachments": [
                         "/Lotus/Types/Items/MiscItems/UtilityUnlocker"
-                    ]
+                    ],
+                    "highPriority": true
                 }
             },
             {
@@ -3300,7 +3425,10 @@
                     "sender": "/Lotus/Language/Bosses/BossTylRegor",
                     "title": "/Lotus/Language/G1Quests/SentientQuestTylThreat_Title",
                     "body": "",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Grineer/TylRegor.png",
+                    "transmission": "/Lotus/Sounds/Dialog/SentientQuest/SQPostQuest/DSQPostQuest1010Tyl",
+                    "highPriority": true
                 }
             }
         ]
@@ -3376,7 +3504,8 @@
                     "body": "/Lotus/Language/SolarisQuest/RewardMailBody",
                     "attachments": [
                         "/Lotus/Types/Recipes/WarframeRecipes/GarudaBlueprint"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Eudico.png"
                 }
             },
             {
@@ -3387,7 +3516,8 @@
                     "body": "/Lotus/Language/SolarisQuest/YareliMessage",
                     "attachments": [
                         "/Lotus/Types/Keys/YareliQuest/YareliQuestKeyChain"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Solaris/Roky.png"
                 }
             }
         ]
@@ -3405,7 +3535,8 @@
                     "sender": "/Lotus/Language/Menu/Mailbox_WarframeSender",
                     "title": "/Lotus/Language/G1Quests/SpyQuestOpeningMessageTitle",
                     "body": "/Lotus/Language/G1Quests/SpyQuestOpeningMessageBody",
-                    "attachments": []
+                    "attachments": [],
+                    "highPriority": true
                 }
             },
             {
@@ -3418,7 +3549,9 @@
                     "sender": "/Lotus/Language/Menu/Mailbox_WarframeSender",
                     "title": "/Lotus/Language/G1Quests/SpyQuestMarooDebriefTitle",
                     "body": "/Lotus/Language/G1Quests/SpyQuestMarooDebriefBody",
-                    "attachments": []
+                    "attachments": [],
+                    "transmission": "/Lotus/Sounds/Dialog/SpyQuest/DSQInboxVideo0130Maroo",
+                    "highPriority": true
                 }
             },
             {
@@ -3536,7 +3669,8 @@
                     "sender": "/Lotus/Language/Bosses/Darvo",
                     "title": "/Lotus/Language/Inbox/DarvoWeaponCraftingMessageBTitle",
                     "body": "/Lotus/Language/Inbox/DarvoWeaponCraftingMessageBDesc",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Darvo.png"
                 }
             },
             {
@@ -3545,7 +3679,10 @@
                     "sender": "/Lotus/Language/Menu/Mailbox_WarframeSender",
                     "title": "/Lotus/Language/G1Quests/Beginner_Growth_Inbox_Title",
                     "body": "/Lotus/Language/G1Quests/Beginner_Growth_Inbox_Desc",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Lotus_d.png",
+                    "transmission": "/Lotus/Sounds/Dialog/VorsPrize/DLisetPostAssassinate110Lotus",
+                    "highPriority": true
                 }
             }
         ]
@@ -3822,7 +3959,8 @@
                     "sender": "/Lotus/Language/Npcs/Unknown",
                     "title": "/Lotus/Language/GlassQuest/QuillsVisitInboxSubject",
                     "body": "/Lotus/Language/GlassQuest/QuillsVisitInboxBody",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/MysteryPortraitA_d.png"
                 }
             },
             {
@@ -3834,7 +3972,9 @@
                     "body": "/Lotus/Language/PersonalQuarters/BlueprintMailBody",
                     "attachments": [
                         "/Lotus/Types/Items/ShipFeatureItems/PersonalQuartersFeatureBlueprint"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Ordis.png",
+                    "transmission": "/Lotus/Sounds/Dialog/PersonalQuarters/DPQuarterAnnounce0010Ordis"
                 }
             },
             {
@@ -3849,7 +3989,9 @@
                         "/Lotus/Upgrades/Mods/Randomized/RawRifleRandomMod",
                         "/Lotus/Types/StoreItems/AvatarImages/AvatarImageGrineerQueensVed",
                         "/Lotus/Types/Items/MiscItems/PhotoboothTileTWWTeshinEnding"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Teshin.png",
+                    "highPriority": true
                 }
             }
         ]
@@ -4011,7 +4153,10 @@
                     "sender": "/Lotus/Language/Bosses/CephalonCy",
                     "title": "/Lotus/Language/WraithQuest/WraithQuestInboxSubject",
                     "body": "/Lotus/Language/WraithQuest/WraithQuestInboxBody",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/StoreIcons/RailjackCephalon.png",
+                    "transmission": "/Lotus/Sounds/Dialog/WraithQuest/Inbox/DWraithQInbox0010RJCephalon",
+                    "highPriority": true
                 }
             },
             {
@@ -4034,7 +4179,10 @@
                         "/Lotus/Types/Items/ShipDecos/TarotCardSevagoth",
                         "/Lotus/Types/Items/ShipDecos/WraithQuestRewardDeco",
                         "/Lotus/Types/Items/MiscItems/PhotoboothTileWraithQuestArena"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/StoreIcons/RailjackCephalon.png",
+                    "transmission": "/Lotus/Sounds/Dialog/WraithQuest/Inbox/DWraithQInboxQComplete0650RJCephalon",
+                    "highPriority": true
                 }
             },
             {
@@ -4049,7 +4197,10 @@
                         "/Lotus/Types/Items/ShipDecos/TarotCardSevagoth",
                         "/Lotus/Types/Items/ShipDecos/WraithQuestRewardDeco",
                         "/Lotus/Types/Items/MiscItems/PhotoboothTileWraithQuestArena"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/StoreIcons/RailjackCephalon.png",
+                    "transmission": "/Lotus/Sounds/Dialog/WraithQuest/Inbox/DWraithQInboxQComplete0650RJCephalon",
+                    "highPriority": true
                 }
             }
         ],
@@ -4092,7 +4243,10 @@
                     "sender": "/Lotus/Language/Npcs/Roky",
                     "title": "/Lotus/Language/YareliQuest/RokyInboxTitle",
                     "body": "/Lotus/Language/YareliQuest/RokyInboxBody",
-                    "attachments": []
+                    "attachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Solaris/Roky.png",
+                    "transmission": "/Lotus/Sounds/Dialog/YareliQuest/DYareliQInboxIntro0010Roky",
+                    "highPriority": true
                 }
             },
             {
@@ -4101,7 +4255,8 @@
                     "sender": "/Lotus/Language/Npcs/Roky",
                     "title": "/Lotus/Language/YareliQuest/RokyInboxTitle",
                     "body": "/Lotus/Language/YareliQuest/RokyInboxBody",
-                    "attachments": []
+                    "attachments": [],
+                    "transmission": "/Lotus/Sounds/Dialog/YareliQuest/DYareliQInboxIntro0010Roky"
                 }
             },
             {
@@ -4133,7 +4288,10 @@
                         "/Lotus/Types/Items/ShipDecos/YareliBobbleHead",
                         "/Lotus/Types/Items/ShipDecos/Venus/VentKidBooster",
                         "/Lotus/Types/Items/ShipDecos/TarotCardYareli"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Entrati/Grandmother.png",
+                    "transmission": "/Lotus/Sounds/Dialog/YareliQuest/DYareliQInboxOutro0300Grandmother",
+                    "highPriority": true
                 }
             },
             {
@@ -4144,7 +4302,9 @@
                     "body": "/Lotus/Language/YareliQuest/ExtraRewardsBody",
                     "attachments": [
                         "/Lotus/Upgrades/Mods/Randomized/RawPistolRandomMod"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Entrati/Grandmother.png",
+                    "highPriority": true
                 }
             }
         ],
@@ -4205,7 +4365,9 @@
                         "/Lotus/Upgrades/Skins/Operator/Hoods/HoodChameleon",
                         "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsChameleon",
                         "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesChameleon"
-                    ]
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Zariman/Hombask.png",
+                    "transmission": "/Lotus/Sounds/Dialog/ZarimanQuest/DZarQInbox0770Hombask"
                 }
             }
         ],

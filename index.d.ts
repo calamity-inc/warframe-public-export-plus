@@ -331,6 +331,9 @@ export interface IKey {
             title:  string;
             body:   string;
             attachments: string[];
+            icon?: string;
+            transmission?: string;
+            highPriority?: boolean;
         };
     }[];
     rewards?:          ({
