@@ -19,6 +19,7 @@ export declare const ExportAchievements: Record<string, IAchievement>;
 export declare const ExportArcanes: Record<string, IArcane>;
 export declare const ExportAvionics: Record<string, IAvionic>;
 export declare const ExportBoosterPacks: Record<string, IBoosterPack>;
+export declare const ExportBounties: Record<string, IBounty>;
 export declare const ExportBundles: Record<string, IBundle>;
 export declare const ExportChallenges: Record<string, IChallenge>;
 export declare const ExportCustoms: Record<string, ICustom>;
@@ -100,6 +101,13 @@ export interface IBoosterPack {
         Rarity: TRarity;
     }[];
     rarityWeightsPerRoll: Record<TRarity, number>[];
+}
+
+export interface IBounty {
+    name: string;
+    description: string;
+    icon: string;
+    stages: string[][];
 }
 
 export interface IBundle {

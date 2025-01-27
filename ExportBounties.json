@@ -1,0 +1,1515 @@
+{
+    "/Lotus/Types/Gameplay/Eidolon/Jobs/AssassinateBountyAss": {
+        "name": "/Lotus/Language/OstronJobs/AssassinateBountyAssTitle",
+        "description": "/Lotus/Language/OstronJobs/AssassinateBountyAssDesc",
+        "icon": "/Lotus/Interface/Quests/EidolonNew/AssassinateGeneralJob.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicSabotage",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicSabotage",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicSabotage",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicSabotage",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Eidolon/Jobs/AssassinateBountyCap": {
+        "name": "/Lotus/Language/OstronJobs/AssassinateBountyCapTitle",
+        "description": "/Lotus/Language/OstronJobs/AssassinateBountyCapDesc",
+        "icon": "/Lotus/Interface/Quests/EidolonNew/GenericGrineerCombatD.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicSabotage",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicSabotage",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicSabotage",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicSabotage",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicCapture"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Eidolon/Jobs/AttritionBountyCap": {
+        "name": "/Lotus/Language/OstronJobs/AttritionBountyCapTitle",
+        "description": "/Lotus/Language/OstronJobs/AttritionBountyCapDesc",
+        "icon": "/Lotus/Interface/Quests/EidolonNew/GenericGrineerCombatC.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/CaveEncounters/HiddenResourceCachesCave",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/CaveEncounters/DynamicCaveExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicCapture"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Eidolon/Jobs/AttritionBountyExt": {
+        "name": "/Lotus/Language/OstronJobs/AttritionBountyExtTitle",
+        "description": "/Lotus/Language/OstronJobs/AttritionBountyExtDesc",
+        "icon": "/Lotus/Interface/Quests/EidolonNew/GenericGrineerCombatF.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/CaveEncounters/HiddenResourceCachesCave"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/CaveEncounters/DynamicCaveExterminate"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Eidolon/Jobs/AttritionBountyLib": {
+        "name": "/Lotus/Language/OstronJobs/AttritionBountyLibTitle",
+        "description": "/Lotus/Language/OstronJobs/AttritionBountyLibDesc",
+        "icon": "/Lotus/Interface/Quests/EidolonNew/GenericGrineerCombatB.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/CaveEncounters/HiddenResourceCachesCave",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/CaveEncounters/DynamicCaveExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Eidolon/Jobs/AttritionBountySab": {
+        "name": "/Lotus/Language/OstronJobs/AttritionBountySabTitle",
+        "description": "/Lotus/Language/OstronJobs/AttritionBountySabDesc",
+        "icon": "/Lotus/Interface/Quests/EidolonNew/GenericGrineerCombatE.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/CaveEncounters/HiddenResourceCachesCave",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/CaveEncounters/DynamicCaveExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicSabotage"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Eidolon/Jobs/CaptureBountyCapOne": {
+        "name": "/Lotus/Language/OstronJobs/CaptureBountyCapOneTitle",
+        "description": "/Lotus/Language/OstronJobs/CaptureBountyCapOneDesc",
+        "icon": "/Lotus/Interface/Quests/EidolonNew/EyeSpyJob.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicSabotage",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicSabotage",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicSabotage",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicSabotage",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicCapture"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Eidolon/Jobs/CaptureBountyCapTwo": {
+        "name": "/Lotus/Language/OstronJobs/CaptureBountyCapTwoTitle",
+        "description": "/Lotus/Language/OstronJobs/CaptureBountyCapTwoDesc",
+        "icon": "/Lotus/Interface/Quests/EidolonNew/EyeSpyJob.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicRescue"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicRescue"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicRescue"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicRescue"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicCapture"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Eidolon/Jobs/ReclamationBountyCache": {
+        "name": "/Lotus/Language/OstronJobs/ReclamationBountyCacheTitle",
+        "description": "/Lotus/Language/OstronJobs/ReclamationBountyCacheDesc",
+        "icon": "/Lotus/Interface/Quests/EidolonNew/TwoFistedArchJob.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicCapture",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicRescue"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicCapture",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicRescue"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicCapture",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicRescue"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicCapture",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicRescue"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/CaveEncounters/HiddenResourceCachesCave"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Eidolon/Jobs/ReclamationBountyCap": {
+        "name": "/Lotus/Language/OstronJobs/ReclamationBountyCapTitle",
+        "description": "/Lotus/Language/OstronJobs/ReclamationBountyCapDesc",
+        "icon": "/Lotus/Interface/Quests/EidolonNew/TwoFistedArchJob.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicRescue"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicRescue"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/CaveEncounters/HiddenResourceCachesCave",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicRescue"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicRescue"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicCapture"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Eidolon/Jobs/ReclamationBountyTheft": {
+        "name": "/Lotus/Language/OstronJobs/ReclamationBountyTheftTitle",
+        "description": "/Lotus/Language/OstronJobs/ReclamationBountyTheftDesc",
+        "icon": "/Lotus/Interface/Quests/EidolonNew/GenericGrineerCombatE.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicCapture",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicRescue"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicCapture",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicRescue"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/CaveEncounters/HiddenResourceCachesCave",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicCapture",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicRescue"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/HiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicCapture",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicRescue"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Eidolon/Jobs/RescueBountyResc": {
+        "name": "/Lotus/Language/OstronJobs/RescueBountyRescTitle",
+        "description": "/Lotus/Language/OstronJobs/RescueBountyRescDesc",
+        "icon": "/Lotus/Interface/Quests/EidolonNew/GenericGrineerCombatG.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicCapture"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicCapture"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicCapture"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicCapture"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicRescue"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Eidolon/Jobs/SabotageBountySab": {
+        "name": "/Lotus/Language/OstronJobs/SabotageBountySabTitle",
+        "description": "/Lotus/Language/OstronJobs/SabotageBountySabDesc",
+        "icon": "/Lotus/Interface/Quests/EidolonNew/SabotageTechJob.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicCapture",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicCapture",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicCapture",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicCapture",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/CaveEncounters/DynamicCaveExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/DynamicSabotage"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/InfestedMicroplanet/Jobs/DeimosAreaDefenseBounty": {
+        "name": "/Lotus/Language/InfestedMicroplanet/DeimosBountyAreaDefName",
+        "description": "/Lotus/Language/InfestedMicroplanet/DeimosBountyAreaDefDesc",
+        "icon": "/Lotus/Interface/Quests/Deimos/DeimosBountyD.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExterminate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicCorpusSurvivors"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicKeyPieces",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicCorpusSurvivors"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExterminate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicKeyPieces",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicCorpusSurvivors"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExterminate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicKeyPieces",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicCorpusSurvivors"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAreaDefense"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/InfestedMicroplanet/Jobs/DeimosAssassinateBounty": {
+        "name": "/Lotus/Language/InfestedMicroplanet/DeimosBountyAssassName",
+        "description": "/Lotus/Language/InfestedMicroplanet/DeimosBountyAssassDesc",
+        "icon": "/Lotus/Interface/Quests/Deimos/DeimosBountyH.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAreaDefense",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicGrineerSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExterminate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExcavation"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAreaDefense",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicGrineerSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExterminate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExcavation"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAreaDefense",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicGrineerSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExterminate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExcavation"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAreaDefense",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicGrineerSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExterminate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExcavation"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAssassinate"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/InfestedMicroplanet/Jobs/DeimosCrpSurvivorBounty": {
+        "name": "/Lotus/Language/InfestedMicroplanet/DeimosBountyCrpSurvName",
+        "description": "/Lotus/Language/InfestedMicroplanet/DeimosBountyCrpSurvDesc",
+        "icon": "/Lotus/Interface/Quests/Deimos/DeimosBountyF.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAreaDefense",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicPurify",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExterminate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAssassinate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAreaDefense",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicPurify",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExterminate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAssassinate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAreaDefense",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicPurify",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExterminate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAssassinate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAreaDefense",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicPurify",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExterminate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAssassinate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicCorpusSurvivors"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/InfestedMicroplanet/Jobs/DeimosEndlessAreaDefenseBounty": {
+        "name": "/Lotus/Language/InfestedMicroplanet/DeimosBountyEndlessAreaDefName",
+        "description": "/Lotus/Language/InfestedMicroplanet/DeimosBountyEndlessAreaDefDesc",
+        "icon": "/Lotus/Interface/Quests/Deimos/DeimosBountyG.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAreaDefense",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExterminate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicGrineerSurvivors"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAreaDefense",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExterminate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicGrineerSurvivors"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAreaDefense",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExterminate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicGrineerSurvivors"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/InfestedMicroplanet/Jobs/DeimosEndlessExcavateBounty": {
+        "name": "/Lotus/Language/InfestedMicroplanet/DeimosBountyEndlessExcavName",
+        "description": "/Lotus/Language/InfestedMicroplanet/DeimosBountyEndlessExcavDesc",
+        "icon": "/Lotus/Interface/Quests/Deimos/DeimosBountyK.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExcavationEndless"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExcavationEndless"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExcavationEndless"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/InfestedMicroplanet/Jobs/DeimosEndlessPurifyBounty": {
+        "name": "/Lotus/Language/InfestedMicroplanet/DeimosBountyEndlessPurifyName",
+        "description": "/Lotus/Language/InfestedMicroplanet/DeimosBountyEndlessPurifyDesc",
+        "icon": "/Lotus/Interface/Quests/Deimos/DeimosBountyJ.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicPurify",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicCorpusSurvivors"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicPurify",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicKeyPieces"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicPurify",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicCorpusSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicKeyPieces"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/InfestedMicroplanet/Jobs/DeimosExcavateBounty": {
+        "name": "/Lotus/Language/InfestedMicroplanet/DeimosBountyExcavName",
+        "description": "/Lotus/Language/InfestedMicroplanet/DeimosBountyExcavDesc",
+        "icon": "/Lotus/Interface/Quests/Deimos/DeimosBountyC.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicCorpusSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicGrineerSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicCorpusSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicGrineerSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicCorpusSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicGrineerSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicCorpusSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicGrineerSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExcavation"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/InfestedMicroplanet/Jobs/DeimosGrnSurvivorBounty": {
+        "name": "/Lotus/Language/InfestedMicroplanet/DeimosBountyGrnSurvName",
+        "description": "/Lotus/Language/InfestedMicroplanet/DeimosBountyGrnSurvDesc",
+        "icon": "/Lotus/Interface/Quests/Deimos/DeimosBountyB.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicPurify",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExterminate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAssassinate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicKeyPieces",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicPurify",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAssassinate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicKeyPieces",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicPurify",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExterminate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAssassinate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicKeyPieces",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicPurify",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExterminate",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAssassinate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicGrineerSurvivors"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/InfestedMicroplanet/Jobs/DeimosKeyPiecesBounty": {
+        "name": "/Lotus/Language/InfestedMicroplanet/DeimosBountyKeysName",
+        "description": "/Lotus/Language/InfestedMicroplanet/DeimosBountyKeysDesc",
+        "icon": "/Lotus/Interface/Quests/Deimos/DeimosBountyI.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicGrineerSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicCorpusSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAreaDefense",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicPurify"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicGrineerSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicCorpusSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAreaDefense",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicPurify"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicGrineerSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicCorpusSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAreaDefense",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicPurify"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicGrineerSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicCorpusSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicAreaDefense",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicPurify"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicKeyPieces"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/InfestedMicroplanet/Jobs/DeimosPurifyBounty": {
+        "name": "/Lotus/Language/InfestedMicroplanet/DeimosBountyPurifyName",
+        "description": "/Lotus/Language/InfestedMicroplanet/DeimosBountyPurifyDesc",
+        "icon": "/Lotus/Interface/Quests/Deimos/DeimosBountyE.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicCorpusSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicGrineerSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExcavation"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicCorpusSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicGrineerSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicKeyPieces"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicCorpusSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicGrineerSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExcavation",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicKeyPieces"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicCorpusSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicGrineerSurvivors",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicExcavation",
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicKeyPieces"
+            ],
+            [
+                "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicPurify"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusArtifactJobAmbush": {
+        "name": "/Lotus/Language/SolarisJobs/ArtifactJobAmbushTitle",
+        "description": "/Lotus/Language/SolarisJobs/ArtifactJobAmbushDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyA.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExcavation"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExcavation",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCaches",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCachesAirDrop"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExcavation"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusArtifactJobExcavation": {
+        "name": "/Lotus/Language/SolarisJobs/ArtifactJobExcavationTitle",
+        "description": "/Lotus/Language/SolarisJobs/ArtifactJobExcavationDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyB.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExcavation"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusArtifactJobRecovery": {
+        "name": "/Lotus/Language/SolarisJobs/ArtifactJobRecoveryTitle",
+        "description": "/Lotus/Language/SolarisJobs/ArtifactJobRecoveryDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyC.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCachesAirDrop",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCaches"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExcavation"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExcavation"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExcavation"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusChaosJobAssassinate": {
+        "name": "/Lotus/Language/SolarisJobs/ChaosJobAssassinateTitle",
+        "description": "/Lotus/Language/SolarisJobs/ChaosJobAssassinateDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyD.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminateMoas",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminateDrones",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExcavation",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminateDrones",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminateMoas"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExcavation",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusChaosJobExcavation": {
+        "name": "/Lotus/Language/SolarisJobs/ChaosJobExcavationTitle",
+        "description": "/Lotus/Language/SolarisJobs/ChaosJobExcavationDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyE.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCachesAirDrop",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCachesAirDrop"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExcavation"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusCullJobAssassinate": {
+        "name": "/Lotus/Language/SolarisJobs/CullJobAssassinateTitle",
+        "description": "/Lotus/Language/SolarisJobs/CullJobAssassinateDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyF.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminateDrones",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminateMoas"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminateDrones",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminateMoas",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusCullJobExterminate": {
+        "name": "/Lotus/Language/SolarisJobs/CullJobExterminateTitle",
+        "description": "/Lotus/Language/SolarisJobs/CullJobExterminateDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyG.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminateDrones",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminateMoas",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminateDrones",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminateMoas"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminateMoas",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminateDrones",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusCullJobResource": {
+        "name": "/Lotus/Language/SolarisJobs/CullJobResourceTitle",
+        "description": "/Lotus/Language/SolarisJobs/CullJobResourceDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyH.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminateDrones",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminateMoas",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExcavation",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminateDrones",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminateMoas",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExcavation",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusHelpingJobCaches": {
+        "name": "/Lotus/Language/SolarisJobs/HelpingJobCacheTitle",
+        "description": "/Lotus/Language/SolarisJobs/HelpingJobCacheDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyI.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCaches"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusHelpingJobResource": {
+        "name": "/Lotus/Language/SolarisJobs/HelpingJobResourceTitle",
+        "description": "/Lotus/Language/SolarisJobs/HelpingJobResourceDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyJ.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCaches"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusHelpingJobSpy": {
+        "name": "/Lotus/Language/SolarisJobs/HelpingJobSpyTitle",
+        "description": "/Lotus/Language/SolarisJobs/HelpingJobSpyDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyK.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCaches"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusIntelJobRecovery": {
+        "name": "/Lotus/Language/SolarisJobs/IntelJobRecoveryTitle",
+        "description": "/Lotus/Language/SolarisJobs/IntelJobRecoveryDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyL.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCachesAirDrop",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCaches"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCachesAirDrop",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCaches"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusIntelJobResource": {
+        "name": "/Lotus/Language/SolarisJobs/IntelJobResourceTitle",
+        "description": "/Lotus/Language/SolarisJobs/IntelJobResourceDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyM.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCachesAirDrop",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCaches"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCachesAirDrop",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCaches"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusIntelJobSpy": {
+        "name": "/Lotus/Language/SolarisJobs/IntelJobSpyTitle",
+        "description": "/Lotus/Language/SolarisJobs/IntelJobSpyDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyN.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCachesAirDrop"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCachesAirDrop"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusPreservationJobDefense": {
+        "name": "/Lotus/Language/SolarisJobs/PreservationJobDefenseTitle",
+        "description": "/Lotus/Language/SolarisJobs/PreservationJobDefenseDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyO.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusPreservationJobRecovery": {
+        "name": "/Lotus/Language/SolarisJobs/PreservationJobRecoveryTitle",
+        "description": "/Lotus/Language/SolarisJobs/PreservationJobRecoveryDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyP.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusPreservationJobResource": {
+        "name": "/Lotus/Language/SolarisJobs/PreservationJobResourceTitle",
+        "description": "/Lotus/Language/SolarisJobs/PreservationJobResourceDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyQ.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusSpyJobSpy": {
+        "name": "/Lotus/Language/SolarisJobs/SpyJobSpyTitle",
+        "description": "/Lotus/Language/SolarisJobs/SpyJobSpyDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyR.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminateMoas",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCachesAirDrop"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminateMoas",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminateMoas",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminateMoas",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusTheftJobAmbush": {
+        "name": "/Lotus/Language/SolarisJobs/TheftJobAmbushTitle",
+        "description": "/Lotus/Language/SolarisJobs/TheftJobAmbushDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyS.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCachesAirDrop",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExcavation",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCachesAirDrop",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCaches",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExcavation",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExcavation"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusTheftJobExcavation": {
+        "name": "/Lotus/Language/SolarisJobs/TheftJobExcavationTitle",
+        "description": "/Lotus/Language/SolarisJobs/TheftJobExcavationDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyT.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCachesAirDrop",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicCaches",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExcavation"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusTheftJobResource": {
+        "name": "/Lotus/Language/SolarisJobs/TheftJobResourceTitle",
+        "description": "/Lotus/Language/SolarisJobs/TheftJobResourceDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyU.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExcavation"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExcavation",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExcavation"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExcavation",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicRecovery",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusWetworkJobAssassinate": {
+        "name": "/Lotus/Language/SolarisJobs/WetworkJobAssassinateTitle",
+        "description": "/Lotus/Language/SolarisJobs/WetworkJobAssassinateDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyV.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/VenusWetworkJobSpy": {
+        "name": "/Lotus/Language/SolarisJobs/WetworkJobSpyTitle",
+        "description": "/Lotus/Language/SolarisJobs/WetworkJobSpyDesc",
+        "icon": "/Lotus/Interface/Quests/Venus/VenusBountyW.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicResourceCapture"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/DynamicBaseSpy"
+            ]
+        ]
+    }
+}
