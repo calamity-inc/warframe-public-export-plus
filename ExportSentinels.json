@@ -10,7 +10,10 @@
         "codexSecret": false,
         "excludeFromCodex": true,
         "description": "/Lotus/Language/Primes/VenariPrimeDesc",
-        "productCategory": "SpecialItems"
+        "productCategory": "SpecialItems",
+        "exalted": [
+            "/Lotus/Types/Friendly/Pets/BeastWeapons/VenariPrimePetWeapon"
+        ]
     },
     "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit": {
         "name": "/Lotus/Language/Suits/KhoraKavatName",
@@ -23,7 +26,10 @@
         "codexSecret": false,
         "excludeFromCodex": true,
         "description": "/Lotus/Language/Suits/KhoraKavatDesc",
-        "productCategory": "SpecialItems"
+        "productCategory": "SpecialItems",
+        "exalted": [
+            "/Lotus/Types/Friendly/Pets/BeastWeapons/VenariPetWeapon"
+        ]
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/WyrmPowerSuit": {
         "name": "/Lotus/Language/Items/WyrmPowerSuitStoreItemName",
@@ -511,6 +517,9 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Items/RetrieverKubrowDesc",
         "productCategory": "KubrowPets",
+        "exalted": [
+            "/Lotus/Types/Friendly/Pets/BeastWeapons/ChesaPetWeapon"
+        ],
         "defaultUpgrades": [
             {
                 "ItemType": "/Lotus/Types/Friendly/Pets/KubrowPetPrecepts/KubrowLootPrecept",
@@ -533,6 +542,9 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Items/HunterKubrowDesc",
         "productCategory": "KubrowPets",
+        "exalted": [
+            "/Lotus/Types/Friendly/Pets/BeastWeapons/SunikaPetWeapon"
+        ],
         "defaultUpgrades": [
             {
                 "ItemType": "/Lotus/Types/Friendly/Pets/KubrowPetPrecepts/KubrowVipChasePrecept",
@@ -555,6 +567,9 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Items/GuardKubrowDesc",
         "productCategory": "KubrowPets",
+        "exalted": [
+            "/Lotus/Types/Friendly/Pets/BeastWeapons/RaksaPetWeapon"
+        ],
         "defaultUpgrades": [
             {
                 "ItemType": "/Lotus/Types/Friendly/Pets/KubrowPetPrecepts/KubrowShieldPrecept",
@@ -577,6 +592,9 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Items/FurtiveKubrowDesc",
         "productCategory": "KubrowPets",
+        "exalted": [
+            "/Lotus/Types/Friendly/Pets/BeastWeapons/HurasPetWeapon"
+        ],
         "defaultUpgrades": [
             {
                 "ItemType": "/Lotus/Types/Friendly/Pets/KubrowPetPrecepts/KubrowCloakPrecept",
@@ -599,6 +617,9 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Items/InfestedKubrowDesc",
         "productCategory": "KubrowPets",
+        "exalted": [
+            "/Lotus/Types/Friendly/Pets/BeastWeapons/HelminthPetWeapon"
+        ],
         "defaultUpgrades": [
             {
                 "ItemType": "/Lotus/Types/Friendly/Pets/KubrowPetPrecepts/ChargerChargePrecept",
@@ -621,6 +642,9 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Items/AdventurerKubrowDesc",
         "productCategory": "KubrowPets",
+        "exalted": [
+            "/Lotus/Types/Friendly/Pets/BeastWeapons/SahasaPetWeapon"
+        ],
         "defaultUpgrades": [
             {
                 "ItemType": "/Lotus/Types/Friendly/Pets/KubrowPetPrecepts/KubrowDigPrecept",
@@ -643,6 +667,9 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Pets/VampireKavatDesc",
         "productCategory": "KubrowPets",
+        "exalted": [
+            "/Lotus/Types/Friendly/Pets/BeastWeapons/VascaPetWeapon"
+        ],
         "defaultUpgrades": [
             {
                 "ItemType": "/Lotus/Types/Friendly/Pets/CatbrowPetPrecepts/CatbrowVampireBitePrecept",
@@ -665,6 +692,9 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Items/MirrorCatbrowDesc",
         "productCategory": "KubrowPets",
+        "exalted": [
+            "/Lotus/Types/Friendly/Pets/BeastWeapons/AdarzaPetWeapon"
+        ],
         "defaultUpgrades": [
             {
                 "ItemType": "/Lotus/Types/Friendly/Pets/CatbrowPetPrecepts/CatbrowCatsEyePrecept",
@@ -687,6 +717,9 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Items/CheshireCatbrowDesc",
         "productCategory": "KubrowPets",
+        "exalted": [
+            "/Lotus/Types/Friendly/Pets/BeastWeapons/SmeetaPetWeapon"
+        ],
         "defaultUpgrades": [
             {
                 "ItemType": "/Lotus/Types/Friendly/Pets/CatbrowPetPrecepts/CatbrowDistractPrecept",
@@ -709,6 +742,9 @@
         "codexSecret": false,
         "description": "/Lotus/Language/InfestedMicroplanet/InfestedCatbrowDomesticatedDesc",
         "productCategory": "KubrowPets",
+        "exalted": [
+            "/Lotus/Types/Friendly/Pets/BeastWeapons/SlyVulpaphylaPetWeapon"
+        ],
         "defaultUpgrades": [
             {
                 "ItemType": "CreaturePrecepts/InfestedCatbrowEvasionBuffPrecept",
@@ -731,6 +767,9 @@
         "codexSecret": false,
         "description": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorDomesticatedDesc",
         "productCategory": "KubrowPets",
+        "exalted": [
+            "/Lotus/Types/Friendly/Pets/BeastWeapons/VizierPredasitePetWeapon"
+        ],
         "defaultUpgrades": [
             {
                 "ItemType": "CreaturePrecepts/InfestedPredatorHealingSporesPrecept",
@@ -753,6 +792,9 @@
         "codexSecret": false,
         "description": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorDomesticatedDesc",
         "productCategory": "KubrowPets",
+        "exalted": [
+            "/Lotus/Types/Friendly/Pets/BeastWeapons/PharaohPredasitePetWeapon"
+        ],
         "defaultUpgrades": [
             {
                 "ItemType": "CreaturePrecepts/InfestedPredatorBuffSporesPrecept",
@@ -775,6 +817,9 @@
         "codexSecret": false,
         "description": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorDomesticatedDesc",
         "productCategory": "KubrowPets",
+        "exalted": [
+            "/Lotus/Types/Friendly/Pets/BeastWeapons/MedjayPredasitePetWeapon"
+        ],
         "defaultUpgrades": [
             {
                 "ItemType": "CreaturePrecepts/InfestedPredatorInfectiousBitePrecept",
@@ -797,6 +842,9 @@
         "codexSecret": false,
         "description": "/Lotus/Language/InfestedMicroplanet/InfestedCatbrowDomesticatedDesc",
         "productCategory": "KubrowPets",
+        "exalted": [
+            "/Lotus/Types/Friendly/Pets/BeastWeapons/CrescentVulpaphylaPetWeapon"
+        ],
         "defaultUpgrades": [
             {
                 "ItemType": "CreaturePrecepts/InfestedCatbrowGoreTossPrecept",
@@ -819,6 +867,9 @@
         "codexSecret": false,
         "description": "/Lotus/Language/InfestedMicroplanet/InfestedCatbrowDomesticatedDesc",
         "productCategory": "KubrowPets",
+        "exalted": [
+            "/Lotus/Types/Friendly/Pets/BeastWeapons/PanzerVulpaphylaPetWeapon"
+        ],
         "defaultUpgrades": [
             {
                 "ItemType": "CreaturePrecepts/InfestedKavatViralQuillsPrecept",

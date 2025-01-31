@@ -531,6 +531,7 @@ export interface ISentinel {
     description:       string;
     productCategory:   "SpecialItems" | "KubrowPets" | "Sentinels";
     defaultWeapon?:    string;
+    exalted?:          string[];
     defaultUpgrades?:  {
         ItemType: string;
         Slot:     number;
