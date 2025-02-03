@@ -423,6 +423,7 @@ export interface IRailjackWeapon {
     reloadTime:         number;
     multishot:          number;
     compatibilityTags?: string[];
+    variantType:        "VT_NORMAL";
     behaviours?:        IWeaponBehaviour[];
 }
 
@@ -694,6 +695,7 @@ export interface IPowersuit {
     productCategory:     "Suits" | "SpaceSuits" | "MechSuits";
     exalted?:            string[];
     longDescription?:    string;
+    variantType:         "VT_NORMAL" | "VT_PRIME" | "VT_VARIANT";
 }
 
 export interface IWeapon {
@@ -738,6 +740,7 @@ export interface IWeapon {
     sentinel?:              boolean;
     excludeFromCodex?:      boolean;
     primeOmegaAttenuation?: number;
+    variantType:            "VT_NORMAL" | "VT_STARTER" | "VT_VARIANT" | "VT_SYNDICATE" | "VT_PRIME" | "VT_KUVA";
 }
 
 export interface IWeaponBehaviour {
