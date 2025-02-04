@@ -33,10 +33,14 @@ However, images shipped with the game are heavily compressed, so you should chec
 
 ### ExportRewards
 - There are some special tables where rewards have a `rarity` instead of a `probability`. These cases are void relics and archon hunt shard rewards. In the former case, the probabilities depend on the [relic refinement](supplementals/relic-chances.pluto).
+- Rewards are given as StoreItems. If they start with `/Lotus/StoreItems/`, you can simply replace this with `/Lotus/` to get the normal counterpart. Otherwise, it may be a credit or endo bundle, which can be cross-referenced with ExportMisc's creditBundles and ExportFusionBundles.
 
 ### ExportUpgrades
 - Several mods share the same name, e.g. for "Vitality" and "Pressure Point" there's 3 mods each. Some of these might be [flawed variants](https://warframe.fandom.com/wiki/Flawed_Mods), but others might simply be forgotten development artefacts. These can be avoided by checking that `isStarter` and `isFrivilous` are both absent.
 - Challenge complications are combined using `/Lotus/Language/Challenges/Challenge_Complication_Combiner`.
+
+### ExportVendors
+- Vendors can only sell StoreItems. If they start with `/Lotus/StoreItems/`, you can simply replace this with `/Lotus/` to get the normal counterpart. Otherwise, it may be a bundle and you can cross-reference this with ExportBundles.
 
 ### ExportWarframes
 - The `health`, `shield`, `armor`, and `power` values represent the state at rank 0. [See here for an approach to level-scaling these stats.](https://github.com/Sainan/warframe-build-evaluator/blob/d05257f704e688ec387c697c6768b951cf3d5389/evaluator.pluto#L438-L500)
