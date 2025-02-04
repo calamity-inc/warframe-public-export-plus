@@ -266,7 +266,7 @@ export interface IFlavourItem {
     description:       string;
     icon:              string;
     base:              string;
-    codexSecret:       boolean;
+    codexSecret?:      boolean;
     excludeFromCodex?: boolean;
     hexColours?:       IColour[];
     legacyColours?:    IColour[];

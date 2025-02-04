@@ -36488,5 +36488,41 @@
         "base": "/EE/Types/Engine/UIFlavourItem",
         "codexSecret": true,
         "excludeFromCodex": true
+    },
+    "/Lotus/Types/Game/ShipScenes/ChineseNewYearScene": {
+        "name": "/Lotus/Language/Items/ShipLayerCNYName",
+        "description": "/Lotus/Language/Items/ShipLayerCNYDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Scenes/SpringFestivalInteriorDecorations.png",
+        "base": "/Lotus/Types/Game/ShipScene"
+    },
+    "/Lotus/Types/Game/ShipScenes/ChristmasScene": {
+        "name": "/Lotus/Language/Items/ShipChristmasifierName",
+        "description": "/Lotus/Language/Items/ShipChristmasifierDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Scenes/FestiveInteriorDecorations.png",
+        "base": "/Lotus/Types/Game/ShipScene"
+    },
+    "/Lotus/Types/Game/ShipScenes/CorpusShipScene": {
+        "name": "/Lotus/Language/ShipDecorations/CorpusShipSceneName",
+        "description": "/Lotus/Language/ShipDecorations/CorpusShipSceneDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Scenes/CorpusShipScene.png",
+        "base": "/Lotus/Types/Game/ShipScene"
+    },
+    "/Lotus/Types/Game/ShipScenes/HalloweenScene": {
+        "name": "/Lotus/Language/Items/HalloweenShipSceneName",
+        "description": "/Lotus/Language/Items/HalloweeShipSceneDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Scenes/HalloweenDecorations.png",
+        "base": "/Lotus/Types/Game/ShipScene"
+    },
+    "/Lotus/Types/Game/ShipScenes/NidusPrimeScene": {
+        "name": "/Lotus/Language/Primes/NidusPrimeShipSceneName",
+        "description": "/Lotus/Language/Primes/NidusPrimeShipSceneDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Decorations/Scenes/NidusPrimeScene.png",
+        "base": "/Lotus/Types/Game/ShipScene"
+    },
+    "/Lotus/Types/Game/ShipScenes/PrimeLisetFiligreeScene": {
+        "name": "/Lotus/Language/Primes/PrimeLisetFiligreeName",
+        "description": "/Lotus/Language/Primes/PrimeLisetFiligreeDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Scenes/FiligreePrimeDecorations.png",
+        "base": "/Lotus/Types/Game/ShipScene"
     }
 }
