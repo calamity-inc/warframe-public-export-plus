@@ -9585,6 +9585,45 @@
         ],
         "premiumPrice": 400
     },
+    "/Lotus/Types/StoreItems/Packages/HeirloomPackRhino": {
+        "name": "/Lotus/Language/Heirloom/HeirloomPackRhinoName",
+        "description": "/Lotus/Language/Heirloom/HeirloomPackRhinoDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/CosmeticBundles/Skins/HeirloomPackRhino.png",
+        "excludeFromCodex": true,
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Rhino/RhinoHeirloomSkin",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Crowns/HeirloomRhinoCrown",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/SuitCustomizations/ColourPickerRhinoHeirloom",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/HeirloomRhinoGlyph",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Sigils/HeirloomRhinoSigil",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCardRhinoHeirloom",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ],
+        "premiumPrice": 400
+    },
     "/Lotus/Types/StoreItems/Packages/HelminthBundle": {
         "name": "/Lotus/Language/Bundles/HelminthBundleName",
         "description": "/Lotus/Language/Bundles/HelminthBundleDesc",
@@ -10552,6 +10591,29 @@
             }
         ]
     },
+    "/Lotus/Types/StoreItems/Packages/Inf1999ArmorBundle": {
+        "name": "/Lotus/Language/Bundles/Inf1999ArmourBundleName",
+        "description": "/Lotus/Language/Bundles/Inf1999ArmourBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/CosmeticBundles/Armour/Inf1999ArmourBundle.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/Inf1999Armor/Inf1999ArmorA",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/Inf1999Armor/Inf1999ArmorC",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/Inf1999Armor/Inf1999ArmorL",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ],
+        "premiumPrice": 100
+    },
     "/Lotus/Types/StoreItems/Packages/InfEmbolistArmourBundle": {
         "name": "/Lotus/Language/Items/InfEmbolistArmourBundleName",
         "description": "/Lotus/Language/Items/InfEmbolistArmourBundleDesc",
@@ -10991,6 +11053,39 @@
             },
             {
                 "typeName": "/Lotus/StoreItems/Types/Game/CatbrowPet/Colors/CatbrowPetColorAccentsDaybreak",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ],
+        "premiumPrice": 40
+    },
+    "/Lotus/Types/StoreItems/Packages/KavatColorPackDuviri": {
+        "name": "/Lotus/Language/Bundles/KavatColourPackDuviriName",
+        "description": "/Lotus/Language/Bundles/KavatColourPackDuviriDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/CosmeticBundles/Pets/KavatColourPackDuviri.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Game/CatbrowPet/Patterns/DuviriCatbrowPattern",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Game/CatbrowPet/Colors/CatbrowPetColorBaseDuviri",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Game/CatbrowPet/Colors/CatbrowPetColorSecondaryDuviri",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Game/CatbrowPet/Colors/CatbrowPetColorTertiaryDuviri",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Game/CatbrowPet/Colors/CatbrowPetColorAccentsDuviri",
                 "purchaseQuantity": 1,
                 "durability": "COMMON"
             }
@@ -13256,6 +13351,16 @@
             },
             {
                 "typeName": "/Lotus/StoreItems/Upgrades/Mods/Randomized/RawPistolRandomMod",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Mods/Randomized/RawModularMeleeRandomMod",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Mods/Randomized/RawModularPistolRandomMod",
                 "purchaseQuantity": 1,
                 "durability": "COMMON"
             },
@@ -17453,6 +17558,147 @@
             },
             {
                 "typeName": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/MPVSinglePackFusionBundle",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/MegaPrimeVault/MPVNidusPrimeSinglePack": {
+        "name": "/Lotus/Language/PrimePacks/MPVNidusSinglePackName",
+        "description": "/Lotus/Language/PrimePacks/MPVNidusSinglePackDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Gear/Icon.png",
+        "excludeFromCodex": true,
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Powersuits/Infestation/InfestationPrime",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Primes/ImageNidusPrimeBright",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Primes/ImageNidusPrimeDark",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/LongGuns/PrimeStrun/PrimeStrunWeapon",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/Pistols/PrimeMagnus/PrimeMagnusWeapon",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Game/ShipScenes/NidusPrimeScene",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Scarves/NidusPrimeSyandana",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Necramech/InfestedNecraMechSkin",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/MPVSinglePackFusionBundle",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/MegaPrimeVault/MPVNidusSarynPrimeDualPack": {
+        "name": "/Lotus/Language/PrimePacks/MPVNidusSarynDualPackName",
+        "description": "/Lotus/Language/PrimePacks/MPVNidusSarynDualPackDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Icon.png",
+        "excludeFromCodex": true,
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Powersuits/Infestation/InfestationPrime",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Primes/ImageNidusPrimeBright",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Primes/ImageNidusPrimeDark",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/LongGuns/PrimeStrun/PrimeStrunWeapon",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/Pistols/PrimeMagnus/PrimeMagnusWeapon",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Game/ShipScenes/NidusPrimeScene",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Scarves/NidusPrimeSyandana",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Necramech/InfestedNecraMechSkin",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Powersuits/Saryn/SarynPrime",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/ImageSarynPrimeBright",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/ImageSarynPrimeDark",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/Melee/Swords/PrimeKatana/PrimeNikana",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/ThrowingWeapons/PrimeLiDagger/PrimeLiDagger",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Sigils/PrimeAccessSigilSaryn",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Characters/Tenno/Accessory/Scarves/PrimeScarfD/Cloth/PrimeScarfDItem",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/MPVDualPackFusionBundle",
                 "purchaseQuantity": 1,
                 "durability": "COMMON"
             }

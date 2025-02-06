@@ -7189,6 +7189,15 @@
         "productCategory": "MiscItems",
         "excludeFromCodex": true
     },
+    "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds": {
+        "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
+        "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
     "/Lotus/Types/Items/MiscItems/NoraIntermissionTwoCreds": {
         "name": "/Lotus/Language/Items/NoraIntermissionTwoCreds",
         "description": "/Lotus/Language/Items/NoraIntermissionTwoCredsDesc",
@@ -11168,6 +11177,14 @@
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations"
     },
+    "/Lotus/Types/Items/ShipDecos/Plushies/PlushyJillian": {
+        "name": "/Lotus/Language/ShipDecorations/PlushyJillianName",
+        "description": "/Lotus/Language/ShipDecorations/PlushyJillianDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/PlushyJillian.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
     "/Lotus/Types/Items/ShipDecos/Plushies/PlushyKoala": {
         "name": "/Lotus/Language/ShipDecorations/PlushyKoalaName",
         "description": "/Lotus/Language/ShipDecorations/PlushyKoalaDesc",
@@ -11261,6 +11278,14 @@
         "name": "/Lotus/Language/ShipDecorations/PlushyLettieName",
         "description": "/Lotus/Language/ShipDecorations/PlushyLettieDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/PlushyLettie.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Plushies/PlushyLillian": {
+        "name": "/Lotus/Language/ShipDecorations/PlushyLillianName",
+        "description": "/Lotus/Language/ShipDecorations/PlushyLillianDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/PlushyLillian.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations"
@@ -17104,6 +17129,14 @@
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations"
     },
+    "/Lotus/Types/Items/ShipDecos/TarotCardRhinoHeirloom": {
+        "name": "/Lotus/Language/Heirloom/TarotCardRhinoHeirloomName",
+        "description": "/Lotus/Language/Heirloom/TarotCardRhinoHeirloomDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Tarot/TarotCardRhinoHeirloom.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
     "/Lotus/Types/Items/ShipDecos/TarotCardSevagoth": {
         "name": "/Lotus/Language/Tarot/TarotCardSevagothName",
         "description": "/Lotus/Language/Tarot/TarotCardSevagothDesc",
@@ -18898,7 +18931,7 @@
     "/Lotus/Types/Items/SongItems/DanteUnboundLoginSongItem": {
         "name": "/Lotus/Language/Fragments/DanteUnboundLoginSongName",
         "description": "/Lotus/Language/Fragments/DanteUnboundLoginSongDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/ExcaliburLoginSongItemStoreIcon.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/DanteUnboundSongItemStoreIcon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Game/SongItem",
         "productCategory": "MiscItems",
@@ -18918,7 +18951,7 @@
     "/Lotus/Types/Items/SongItems/DeimosLoginSongItem": {
         "name": "/Lotus/Language/Fragments/DeimosLoginSongName",
         "description": "/Lotus/Language/Fragments/DeimosLoginSongDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/ExcaliburLoginSongItemStoreIcon.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/HeartofDeimosSongItemStoreIcon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Game/SongItem",
         "productCategory": "MiscItems",
@@ -19169,6 +19202,15 @@
         "name": "/Lotus/Language/Fragments/TheGreatDespairSongName",
         "description": "/Lotus/Language/Fragments/OnlyneSongDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/OnlyneSongItemStoreIcon.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/SongItem",
+        "productCategory": "MiscItems",
+        "showInInventory": false
+    },
+    "/Lotus/Types/Items/SongItems/OnlyneTheGreatKIMSongItem": {
+        "name": "/Lotus/Language/Fragments/TheGreatKIMSongName",
+        "description": "/Lotus/Language/1999/MiscSongDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/HollvaniaSongItemStoreIcon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Game/SongItem",
         "productCategory": "MiscItems",

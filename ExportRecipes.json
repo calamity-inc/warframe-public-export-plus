@@ -6372,6 +6372,33 @@
             }
         ]
     },
+    "/Lotus/Types/Recipes/Helmets/FrumentariusAltHelmetBlueprint": {
+        "resultType": "/Lotus/Upgrades/Skins/Frumentarius/FrumentariusAltHelmet",
+        "buildPrice": 20000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                "ItemCount": 5000
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                "ItemCount": 3500
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                "ItemCount": 2
+            }
+        ]
+    },
     "/Lotus/Types/Recipes/Helmets/GarudaAltHelmetBlueprint": {
         "resultType": "/Lotus/Upgrades/Skins/Garuda/GarudaAltHelmet",
         "buildPrice": 20000,
@@ -6609,6 +6636,33 @@
             {
                 "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
                 "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Alertium",
+                "ItemCount": 2
+            }
+        ]
+    },
+    "/Lotus/Types/Recipes/Helmets/KoumeiAltHelmetBlueprint": {
+        "resultType": "/Lotus/Upgrades/Skins/Koumei/KoumeiAltHelmet",
+        "buildPrice": 20000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                "ItemCount": 1500
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                "ItemCount": 1200
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                "ItemCount": 600
             },
             {
                 "ItemType": "/Lotus/Types/Items/MiscItems/Alertium",

@@ -2365,7 +2365,7 @@
     },
     "/Lotus/Weapons/Tenno/Rifle/SniperRifle": {
         "name": "/Lotus/Language/Items/SniperRifleName",
-        "parentName": "/Lotus/Weapons/Tenno/Rifle/LotusSniperRifle",
+        "parentName": "/Lotus/Weapons/Tenno/Rifle/LotusLongGunSniperRifle",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/Snipetron.png",
         "codexSecret": true,
         "damagePerShot": [
@@ -15442,7 +15442,7 @@
     },
     "/Lotus/Weapons/Tenno/LongGuns/TnQuadSniper/TnQuadSniper": {
         "name": "/Lotus/Language/Weapons/TnQuadRifle",
-        "parentName": "/Lotus/Weapons/Tenno/Rifle/LotusSniperRifle",
+        "parentName": "/Lotus/Weapons/Tenno/Rifle/LotusLongGunSniperRifle",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/TnQuadSniperRifle.png",
         "codexSecret": false,
         "damagePerShot": [
@@ -18308,7 +18308,7 @@
     },
     "/Lotus/Weapons/Tenno/LongGuns/FiveShotSniper/FiveShotSniper": {
         "name": "/Lotus/Language/Items/FiveShotSniperRifleName",
-        "parentName": "/Lotus/Weapons/Tenno/Rifle/LotusSniperRifle",
+        "parentName": "/Lotus/Weapons/Tenno/Rifle/LotusLongGunSniperRifle",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/Rubico.png",
         "codexSecret": false,
         "damagePerShot": [
@@ -25634,7 +25634,7 @@
     },
     "/Lotus/Weapons/Infested/LongGuns/InfSniperRifle/InfSniperRifle": {
         "name": "/Lotus/Language/Weapons/InfSniperRifleName",
-        "parentName": "/Lotus/Weapons/Tenno/Rifle/LotusSniperRifle",
+        "parentName": "/Lotus/Weapons/Tenno/Rifle/LotusLongGunSniperRifle",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/InfSniperRifle.png",
         "codexSecret": false,
         "damagePerShot": [
@@ -29432,7 +29432,7 @@
     },
     "/Lotus/Weapons/Grineer/LongGuns/GrineerSniperRifle/GrnSniperRifle": {
         "name": "/Lotus/Language/Items/GrineerSniperRifleName",
-        "parentName": "/Lotus/Weapons/Tenno/Rifle/LotusSniperRifle",
+        "parentName": "/Lotus/Weapons/Tenno/Rifle/LotusLongGunSniperRifle",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/Vulkar.png",
         "codexSecret": false,
         "damagePerShot": [
@@ -34321,7 +34321,7 @@
     },
     "/Lotus/Weapons/Corpus/LongGuns/CrpSentAmlgSniper/CrpSentAmlgSniper": {
         "name": "/Lotus/Language/Weapons/CrpSentAmlgSniperName",
-        "parentName": "/Lotus/Weapons/Tenno/Rifle/LotusSniperRifle",
+        "parentName": "/Lotus/Weapons/Tenno/Rifle/LotusLongGunSniperRifle",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/CrpSentAmalgSniper.png",
         "codexSecret": false,
         "damagePerShot": [
@@ -35802,7 +35802,7 @@
     },
     "/Lotus/Weapons/ClanTech/Energy/Railgun": {
         "name": "/Lotus/Language/ClanTech/Railgun",
-        "parentName": "/Lotus/Weapons/Tenno/Rifle/LotusSniperRifle",
+        "parentName": "/Lotus/Weapons/Tenno/Rifle/LotusLongGunSniperRifle",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/Lanka.png",
         "codexSecret": false,
         "damagePerShot": [
@@ -37230,7 +37230,7 @@
     },
     "/Lotus/Types/Sentinels/SentinelWeapons/SentElecRailgun": {
         "name": "/Lotus/Language/Items/SentElecRailgunName",
-        "parentName": "/Lotus/Weapons/Tenno/Rifle/LotusSniperRifle",
+        "parentName": "/Lotus/Weapons/Tenno/Rifle/LotusLongGunSniperRifle",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SentinelWeapons/Vulklok.png",
         "codexSecret": false,
         "damagePerShot": [
@@ -39344,13 +39344,6 @@
                     "DT_PUNCTURE": 262.5,
                     "DT_SLASH": 35.0
                 }
-            },
-            {
-                "impact": {
-                    "DT_IMPACT": 3.33333,
-                    "DT_PUNCTURE": 3.33333,
-                    "DT_SLASH": 3.33334
-                }
             }
         ]
     },
@@ -39473,13 +39466,6 @@
                     "DT_IMPACT": 52.5,
                     "DT_PUNCTURE": 262.5,
                     "DT_SLASH": 35.0
-                }
-            },
-            {
-                "impact": {
-                    "DT_IMPACT": 3.33333,
-                    "DT_PUNCTURE": 3.33333,
-                    "DT_SLASH": 3.33334
                 }
             }
         ]
