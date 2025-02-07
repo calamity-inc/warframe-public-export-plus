@@ -1,5 +1,5 @@
 {
-    "affiliationTag": "RadioLegionIntermission11Syndicate",
+    "affiliationTag": "RadioLegionIntermission12Syndicate",
     "challenges": {
         "/Lotus/Types/Challenges/Seasons/Daily/SeasonDailyAimGlide": {
             "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonDailyAimGlide",
@@ -398,34 +398,6 @@
             "standing": 1000,
             "required": 1,
             "icon": "/Lotus/Interface/Icons/Episodes/Daily/VisitFeaturedDojo.png"
-        },
-        "/Lotus/Types/Challenges/Seasons/Daily/SeasonDailyFeedMeMore": {
-            "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonDailyFeedMeMore",
-            "description": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonDailyFeedMeMore_Description",
-            "standing": 1000,
-            "required": 1,
-            "icon": "/Lotus/Interface/Icons/Episodes/Daily/FeedMeMore.png"
-        },
-        "/Lotus/Types/Challenges/Seasons/Daily/SeasonDailyHelpingHand": {
-            "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonDailyHelpingHand",
-            "description": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonDailyHelpingHand_Description",
-            "standing": 1000,
-            "required": 1,
-            "icon": "/Lotus/Interface/Icons/Episodes/Daily/HelpingHand.png"
-        },
-        "/Lotus/Types/Challenges/Seasons/Daily/SeasonDailySalutations": {
-            "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonDailySalutations",
-            "description": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonDailySalutations_Description",
-            "standing": 1000,
-            "required": 1,
-            "icon": "/Lotus/Interface/Icons/Episodes/Daily/Salutations.png"
-        },
-        "/Lotus/Types/Challenges/Seasons/Daily/SeasonDailyYourMove": {
-            "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonDailyYourMove",
-            "description": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonDailyYourMove_Description",
-            "standing": 1000,
-            "required": 1,
-            "icon": "/Lotus/Interface/Icons/Episodes/Daily/YourMove.png"
         },
         "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyCatchRarePlainsFish": {
             "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyCatchRarePlainsFish",
@@ -1828,68 +1800,72 @@
     },
     "rewards": [
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 150
         },
         {
-            "uniqueName": "/Lotus/StoreItems/Upgrades/Skins/Sigils/NWStalkerSigil",
-            "name": "/Lotus/Language/Sigils/NWStalkerSigilName",
-            "description": "/Lotus/Language/Sigils/NWStalkerSigilDesc",
-            "icon": "/Lotus/Interface/Icons/Sigils/StalkerSigil.png"
+            "uniqueName": "/Lotus/StoreItems/Upgrades/Skins/Sigils/NightwavePizzaSigil",
+            "name": "/Lotus/Language/Sigils/NightwavePizzaSigilName",
+            "description": "/Lotus/Language/Sigils/NightwavePizzaSigilDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Sigils/1999Pizza.png"
         },
         {
-            "uniqueName": "/Lotus/Types/StoreItems/SlotItems/TwoWeaponSlotItem",
+            "uniqueName": "/Lotus/Types/Items/Ships/NoraShip",
+            "name": "/Lotus/Language/Items/NoraShipName",
+            "description": "/Lotus/Language/Items/NoraShipDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Ships/Nightwave.png"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/WeaponUtilityUnlocker",
+            "name": "/Lotus/Language/Items/WeaponUtilityUnlocker",
+            "description": "/Lotus/Language/Items/WeaponUtilityUnlockerDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/UtilityWeaponModule.png"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Skins/Motorcycle/MotorcycleNightwaveSkin",
+            "name": "/Lotus/Language/Skins/MotorcycleNightwaveSkinName",
+            "description": "/Lotus/Language/Skins/MotorcycleNightwaveSkinDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/MotorcycleSkins/MotorcycleNightwaveSkin.png"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
+            "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
+            "itemCount": 50
+        },
+        {
+            "uniqueName": "/Lotus/StoreItems/Upgrades/Skins/Nightwave/CephPolearmSkin",
+            "name": "/Lotus/Language/Skins/CephPolearmSkinName",
+            "description": "/Lotus/Language/Skins/CephPolearmSkinDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Skins/CephPolearmSkin.png"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyLillian",
+            "name": "/Lotus/Language/ShipDecorations/PlushyLillianName",
+            "description": "/Lotus/Language/ShipDecorations/PlushyLillianDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/PlushyLillian.png"
+        },
+        {
+            "uniqueName": "/Lotus/StoreItems/Types/StoreItems/SlotItems/TwoWeaponSlotItem",
             "name": "/Lotus/Language/Menu/ItemInventory_SlotsWeapon",
             "description": "/Lotus/Language/Menu/ItemInventory_SlotsWeaponDescription",
             "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/Slots/SlotRenderWeapons.png"
         },
         {
-            "uniqueName": "/Lotus/StoreItems/Upgrades/Skins/Operator/Accessories/StalkerAccessoriesMask",
-            "name": "/Lotus/Language/Items/StalkerAccessoriesMaskName",
-            "description": "/Lotus/Language/Items/StalkerAccessoriesMaskDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Face/StalkerMask.png"
+            "uniqueName": "/Lotus/Types/Items/ShipDecos/Plushies/PlushyJillian",
+            "name": "/Lotus/Language/ShipDecorations/PlushyJillianName",
+            "description": "/Lotus/Language/ShipDecorations/PlushyJillianDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/PlushyJillian.png"
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
-            "itemCount": 50
-        },
-        {
-            "uniqueName": "/Lotus/Types/Recipes/Components/StalkerBallBlueprint"
-        },
-        {
-            "uniqueName": "/Lotus/StoreItems/Upgrades/Skins/Nightwave/InfTwoHandedKatanaSkin",
-            "name": "/Lotus/Language/Skins/InfTwoHandedKatanaSkinName",
-            "description": "/Lotus/Language/Skins/InfTwoHandedKatanaSkinDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Skins/InfTwoHandedKatanaSkin.png"
-        },
-        {
-            "uniqueName": "/Lotus/StoreItems/Types/Items/Emotes/LegionSaluteEmote",
-            "name": "/Lotus/Language/Emotes/LegionSaluteName",
-            "description": "/Lotus/Language/Emotes/LegionSaluteDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Emotes/LegionSaluteEmote.png"
-        },
-        {
-            "uniqueName": "/Lotus/StoreItems/Upgrades/Mods/Randomized/RawMeleeRandomMod",
-            "name": "/Lotus/Language/Omega/OmegaMeleeMod",
-            "icon": "/Lotus/Interface/Cards/Images/OmegaModIndistinctUnveiled.png"
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Skins/Liset/StalkerHoodOrnament",
-            "name": "/Lotus/Language/ShipDecorations/HoodOrnament_StalkerName",
-            "description": "/Lotus/Language/ShipDecorations/HoodOrnament_StalkerDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/HoodOrnament/StalkerHoodOrnament.png"
-        },
-        {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
-            "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 50
         },
         {
@@ -1899,104 +1875,104 @@
             "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/FormaPack.png"
         },
         {
-            "uniqueName": "/Lotus/StoreItems/Upgrades/Skins/Scarves/TennoWolfBackpack",
-            "name": "/Lotus/Language/Cosmetics/WolfBackpackName",
-            "description": "/Lotus/Language/Cosmetics/WolfBackpackDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/SaturnSix.png"
+            "uniqueName": "/Lotus/Upgrades/Mods/Nightwave/NightwaveLasSilencedPistolAugmentMod",
+            "name": "/Lotus/Language/Mods/NightwaveLasSilencedPistolAugmentModName",
+            "description": "",
+            "icon": "/Lotus/Interface/Cards/Images/Nightwave/NightwaveLasSilencedPistolAugmentMod.png"
         },
         {
-            "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcanePistolDamageOnHeadshot",
-            "name": "/Lotus/Language/Items/PistolDamageOnHeadshotName",
+            "uniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/LongGunDamageOnHeadshot",
+            "name": "/Lotus/Language/Items/LongGunDamageOnHeadshotName",
             "description": "",
-            "icon": "/Lotus/Interface/Icons/CosmeticEnhancers/Arcanes/Projections/ArcaneProjectionBD.png",
+            "icon": "/Lotus/Interface/Icons/CosmeticEnhancers/Arcanes/Projections/ArcaneProjectionAL.png",
             "itemCount": 3
         },
         {
-            "uniqueName": "/Lotus/Upgrades/Mods/Melee/Event/Nightwave/NightwaveStalkerScytheAugmentMod",
-            "name": "/Lotus/Language/Mods/NightwaveStalkerScytheAugmentModName",
-            "description": "",
-            "icon": "/Lotus/Interface/Cards/Images/Nightwave/NightwaveStalkerScytheAugmentMod.png"
+            "uniqueName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooNightwaveCommando",
+            "name": "/Lotus/Language/Operator/DrifterTattooNightwaveCommandoName",
+            "description": "/Lotus/Language/Operator/DrifterTattooNightwaveCommandoDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Tattoo/TattooNightwaveCommando.png"
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 50
         },
         {
-            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageStalkerAction",
-            "name": "/Lotus/Language/Glyphs/StalkerInActionGlyphName",
-            "description": "/Lotus/Language/Glyphs/GenericGlyphDesc",
-            "icon": "/Lotus/Interface/Icons/Player/StalkerActionGlyph.png"
+            "uniqueName": "/Lotus/Upgrades/Skins/Kubrows/Armor/TnBoltorKubrowArmor",
+            "name": "/Lotus/Language/Cosmetics/TnBoltorKubrowArmourName",
+            "description": "/Lotus/Language/Cosmetics/TnBoltorKubrowArmourDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Companions/Pets/Kubrow/Armor/TnBoltorKubrowArmour.png"
         },
         {
-            "uniqueName": "/Lotus/Types/StoreItems/SlotItems/SuitSlotItem",
+            "uniqueName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageNightwaveAoi",
+            "name": "/Lotus/Language/Glyphs/AvatarImageNightwaveAoiName",
+            "description": "/Lotus/Language/Glyphs/AvatarImageNightwaveAoiDesc",
+            "icon": "/Lotus/Interface/Icons/Player/1999Aoi.png"
+        },
+        {
+            "uniqueName": "/Lotus/StoreItems/Types/StoreItems/SlotItems/SuitSlotItem",
             "name": "/Lotus/Language/Menu/ItemInventory_SlotsSuit",
             "description": "/Lotus/Language/Menu/ItemInventory_SlotsSuitDescription",
             "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/Slots/SlotRenderWarframe.png"
         },
         {
-            "uniqueName": "/Lotus/StoreItems/Upgrades/Skins/Effects/NightwaveIntermissionEphemera",
-            "name": "/Lotus/Language/Cosmetics/NightwaveIntermissionEphemeraName",
-            "description": "/Lotus/Language/Cosmetics/NightwaveIntermissionEphemeraDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/NightwaveIntermissionEphemera.png"
+            "uniqueName": "/Lotus/StoreItems/Types/Items/MiscItems/RivenIdentifier",
+            "name": "/Lotus/Language/Resources/RivenIdentifier",
+            "description": "/Lotus/Language/Resources/RivenIdentifierDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Gear/RivenCipher.png"
         },
         {
-            "uniqueName": "/Lotus/StoreItems/Types/Items/MiscItems/FormaStance",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
+            "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
+            "itemCount": 50
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Skins/MeleeDangles/Sugotchi1999MeleeDangle",
+            "name": "/Lotus/Language/Cosmetics/Sugotchi1999MeleeDangleName",
+            "description": "/Lotus/Language/Cosmetics/Sugotchi1999MeleeDangleDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Sugatras/Sugotchi1999MeleeDangle.png"
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Skins/Necramech/VoidrigDSChromaSkin",
+            "name": "/Lotus/Language/Skins/VoidrigDSChromaSkinName",
+            "description": "/Lotus/Language/Skins/VoidrigDSChromaSkinDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Mech/Cosmetics/VoidrigDSChromaSkin.png"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
+            "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
+            "itemCount": 50
+        },
+        {
+            "uniqueName": "/Lotus/Upgrades/Mods/Nightwave/NightwaveTC2024AK47AugmentMod",
+            "name": "/Lotus/Language/Mods/NightwaveTC2024AK47AugmentModName",
+            "description": "",
+            "icon": "/Lotus/Interface/Cards/Images/Nightwave/NightwaveTC2024AK47AugmentMod.png"
+        },
+        {
+            "uniqueName": "/Lotus/Types/Items/MiscItems/FormaStance",
             "name": "/Lotus/Language/Consumables/FormaStanceName",
             "description": "/Lotus/Language/Consumables/FormaStanceDesc",
             "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/StanceForma.png"
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
-            "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
-            "itemCount": 50
+            "uniqueName": "/Lotus/Upgrades/Skins/Scarves/IceSpikeCape",
+            "name": "/Lotus/Language/Cosmetics/IceSpikeCapeName",
+            "description": "/Lotus/Language/Cosmetics/IceSpikeCapeDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/IceSpikeSyandana.png"
         },
         {
-            "uniqueName": "/Lotus/StoreItems/Upgrades/Skins/Operator/Accessories/StalkerAccessoriesNose",
-            "name": "/Lotus/Language/Items/StalkerAccessoriesNoseName",
-            "description": "/Lotus/Language/Items/StalkerAccessoriesNoseDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Eyepieces/StalkerEyepiece.png"
-        },
-        {
-            "uniqueName": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropNoraNightShip",
-            "name": "/Lotus/Language/ShipDecorations/LisetPropNoraNightShipName",
-            "description": "/Lotus/Language/ShipDecorations/LisetPropNoraNightShipDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/NoraNightShip.png"
-        },
-        {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
-            "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
-            "itemCount": 50
-        },
-        {
-            "uniqueName": "/Lotus/Upgrades/Mods/Bows/Event/Nightwave/NightwaveStalkerBowAugmentMod",
-            "name": "/Lotus/Language/Mods/NightwaveStalkerBowAugmentModName",
-            "description": "",
-            "icon": "/Lotus/Interface/Cards/Images/Nightwave/NightwaveStalkerBowAugmentMod.png"
-        },
-        {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/FormaAura",
-            "name": "/Lotus/Language/Items/FormaAuraName",
-            "description": "/Lotus/Language/Items/FormaAuraDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/OmegaForma.png"
-        },
-        {
-            "uniqueName": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropCleaningDroneTenno",
-            "name": "/Lotus/Language/ShipDecorations/LisetPropCleaningDroneTennoName",
-            "description": "/Lotus/Language/ShipDecorations/LisetPropCleaningDroneTennoDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Drones/LisetPropCleaningDroneTenno.png"
-        },
-        {
-            "uniqueName": "/Lotus/StoreItems/Upgrades/Skins/Operator/Accessories/StalkerAccessoriesEarpiece",
-            "name": "/Lotus/Language/Items/StalkerAccessoriesEarpieceName",
-            "description": "/Lotus/Language/Items/StalkerAccessoriesEarpieceDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Earpieces/StalkerEarpiece.png"
+            "uniqueName": "/Lotus/Upgrades/Skins/Effects/NightwaveDigitalEphemera",
+            "name": "/Lotus/Language/Ephemera/NightwaveDigitalEphemeraName",
+            "description": "/Lotus/Language/Ephemera/NightwaveDigitalEphemeraDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/NightwaveDigitalEphemera.png"
         },
         {
             "uniqueName": "/Lotus/Types/Items/MiscItems/FormaUmbra",
@@ -2005,1059 +1981,1059 @@
             "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/FormaUmbra.png"
         },
         {
-            "uniqueName": "/Lotus/Upgrades/Skins/Armor/StalkerShoulderArmor/StalkerShoulderArmorA",
-            "name": "/Lotus/Language/Cosmetics/StalkerShoulderArmorAName",
-            "description": "/Lotus/Language/Cosmetics/StalkerShoulderArmorADesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Armour/StalkerShoulderArmourA.png"
+            "uniqueName": "/Lotus/Types/StoreItems/Packages/Inf1999ArmorBundle",
+            "name": "/Lotus/Language/Bundles/Inf1999ArmourBundleName",
+            "description": "/Lotus/Language/Bundles/Inf1999ArmourBundleDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/CosmeticBundles/Armour/Inf1999ArmourBundle.png"
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         },
         {
-            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionElevenCreds",
-            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionElevenCreds",
+            "uniqueName": "/Lotus/Types/Items/MiscItems/NoraIntermissionTwelveCreds",
+            "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionTwelveCreds",
             "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon11.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon12.png",
             "itemCount": 15
         }
     ]
