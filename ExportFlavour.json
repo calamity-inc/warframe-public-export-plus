@@ -6325,6 +6325,20 @@
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": false
     },
+    "/Lotus/Types/StoreItems/AvatarImages/Primes/ImageLavosPrimeBright": {
+        "name": "/Lotus/Language/Primes/AvatarLavosPrimeBrightName",
+        "description": "/Lotus/Language/Primes/AvatarLavosPrimeBrightDesc",
+        "icon": "/Lotus/Interface/Icons/Player/LavosPrimeAvatarBright.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": false
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Primes/ImageLavosPrimeDark": {
+        "name": "/Lotus/Language/Primes/AvatarLavosPrimeDarkName",
+        "description": "/Lotus/Language/Primes/AvatarLavosPrimeDarkDesc",
+        "icon": "/Lotus/Interface/Icons/Player/LavosPrimeAvatarDark.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": false
+    },
     "/Lotus/Types/StoreItems/AvatarImages/Primes/ImageNidusPrimeBright": {
         "name": "/Lotus/Language/Primes/AvatarNidusPrimeBrightName",
         "description": "/Lotus/Language/Primes/AvatarNidusPrimeBrightDesc",
@@ -12521,6 +12535,14 @@
         "icon": "/Lotus/Interface/Icons/Player/TrinityPrimeAvatarDark.png",
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/ImageTwelveYearAnniversary": {
+        "name": "/Lotus/Language/Glyphs/AvatarTwelveYearAnniversaryName",
+        "description": "/Lotus/Language/Glyphs/AvatarTwelveYearAnniversaryDesc",
+        "icon": "/Lotus/Interface/Icons/Player/GlyphLotus12Anniversary.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "excludeFromCodex": true
     },
     "/Lotus/Types/StoreItems/AvatarImages/ImageValaCommunity": {
         "name": "/Lotus/Language/Glyphs/AvatarValaCommunityName",

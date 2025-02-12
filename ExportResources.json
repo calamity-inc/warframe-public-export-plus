@@ -15335,6 +15335,14 @@
         "productCategory": "ShipDecorations",
         "excludeFromCodex": true
     },
+    "/Lotus/Types/Items/ShipDecos/LavosPrimeDeviceDeco": {
+        "name": "/Lotus/Language/Primes/LavosPrimeDeviceShipDecoName",
+        "description": "/Lotus/Language/Primes/LavosPrimeDeviceShipDecoDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/LavosPrimeDeviceDeco.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
     "/Lotus/Types/Items/ShipDecos/LimboBobbleHead": {
         "name": "/Lotus/Language/ShipDecorations/BobbleheadLimboName",
         "description": "/Lotus/Language/ShipDecorations/BobbleheadLimboDesc",
@@ -21190,6 +21198,33 @@
         "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
         "productCategory": "MiscItems"
     },
+    "/Lotus/Types/Recipes/WarframeRecipes/LavosPrimeChassisComponent": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_LavosPrimeChassisName",
+        "description": "/Lotus/Language/Primes/CraftingComponent_LavosPrimeChassisDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframePrimeChassis.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 15
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/LavosPrimeHelmetComponent": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_LavosPrimeHelmetName",
+        "description": "/Lotus/Language/Primes/CraftingComponent_LavosPrimeHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframePrimeHelmet.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 45
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/LavosPrimeSystemsComponent": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_LavosPrimeSystemsName",
+        "description": "/Lotus/Language/Primes/CraftingComponent_LavosPrimeSystemsDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframePrimeSystem.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 100
+    },
     "/Lotus/Types/Recipes/WarframeRecipes/LavosSystemsComponent": {
         "name": "/Lotus/Language/Suits/LavosSystemsComponentName",
         "description": "/Lotus/Language/Suits/LavosSystemsComponentDesc",
@@ -23355,6 +23390,33 @@
         "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
         "productCategory": "MiscItems"
     },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/CedoPrimeBarrel": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_CedoPrimeBarrel",
+        "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunPrimeBarrel.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 45
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/CedoPrimeReceiver": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_CedoPrimeReceiver",
+        "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunPrimeReceiver.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 45
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/CedoPrimeStock": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_CedoPrimeStock",
+        "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunPrimeStock.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 15
+    },
     "/Lotus/Types/Recipes/Weapons/WeaponParts/CobraCranePrimeBlade": {
         "name": "/Lotus/Language/Primes/CraftingComponent_CobraCranePrimeBlade",
         "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
@@ -23647,6 +23709,24 @@
         "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
         "productCategory": "MiscItems",
         "primeSellingPrice": 45
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/DualZorenPrimeBlade": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_DualZorenPrimeBlade",
+        "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWeaponPrimeBlade.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 100
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/DualZorenPrimeHandle": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_DualZorenPrimeHandle",
+        "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWeaponPrimeHilt.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 15
     },
     "/Lotus/Types/Recipes/Weapons/WeaponParts/DuviriHeavyScytheBlade": {
         "name": "/Lotus/Language/CraftingComponents/DuvrirHeavyScytheBlade",

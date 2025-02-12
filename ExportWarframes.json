@@ -5236,6 +5236,53 @@
         "productCategory": "Suits",
         "variantType": "VT_NORMAL"
     },
+    "/Lotus/Powersuits/Alchemist/LavosPrime": {
+        "name": "/Lotus/Language/Primes/LavosPrimeSuitName",
+        "parentName": "/Lotus/Powersuits/Alchemist/AlchemistBaseSuit",
+        "description": "/Lotus/Language/Primes/LavosPrimeSuitDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/LavosPrime.png",
+        "health": 600,
+        "shield": 310,
+        "armor": 575,
+        "stamina": 3,
+        "power": 0,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.15,
+        "passiveDescription": "/Lotus/Language/Suits/LavoPassiveAbility",
+        "abilities": [
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistSerpentAbility",
+                "name": "/Lotus/Language/Suits/AlchemistSerpent_AbilityName",
+                "description": "/Lotus/Language/Suits/AlchemistSerpent_AbilityDescription",
+                "icon": "/Lotus/Interface/Icons/Abilities/AlchemistSerpent.png",
+                "energyRequiredToActivate": 0
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistVialAbility",
+                "name": "/Lotus/Language/Suits/AlchemistVial_AbilityName",
+                "description": "/Lotus/Language/Suits/AlchemistVial_AbilityDescription",
+                "icon": "/Lotus/Interface/Icons/Abilities/AlchemistRush.png",
+                "energyRequiredToActivate": 0
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistTransmuteAbility",
+                "name": "/Lotus/Language/Suits/AlchemistTransmute_AbilityName",
+                "description": "/Lotus/Language/Suits/AlchemistTransmute_AbilityDescription",
+                "icon": "/Lotus/Interface/Icons/Abilities/AlchemistTransmuter.png",
+                "energyRequiredToActivate": 0
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistDistillAbility",
+                "name": "/Lotus/Language/Suits/AlchemistDistill_AbilityName",
+                "description": "/Lotus/Language/Suits/AlchemistDistill_AbilityDescription",
+                "icon": "/Lotus/Interface/Icons/Abilities/AlchemistDistill.png",
+                "energyRequiredToActivate": 0
+            }
+        ],
+        "productCategory": "Suits",
+        "variantType": "VT_NORMAL"
+    },
     "/Lotus/Powersuits/Alchemist/Alchemist": {
         "name": "/Lotus/Language/Suits/AlchemistName",
         "parentName": "/Lotus/Powersuits/Alchemist/AlchemistBaseSuit",
