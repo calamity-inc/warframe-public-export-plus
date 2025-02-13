@@ -339,6 +339,10 @@ export interface IKey {
             title:  string;
             body:   string;
             attachments: string[];
+            countedAttachments: {
+                ItemType: string;
+                ItemCount: number;
+            }[];
             icon?: string;
             transmission?: string;
             highPriority?: boolean;
