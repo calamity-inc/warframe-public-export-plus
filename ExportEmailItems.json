@@ -1,0 +1,294 @@
+{
+    "/Lotus/Types/Items/EmailItems/1999QuestEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/NewWar/P3M1ChooseMara",
+            "title": "/Lotus/Language/1999Quest/1999QuestInboxSubject",
+            "body": "/Lotus/Language/1999Quest/1999QuestInboxBody",
+            "attachments": [
+                "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
+            ],
+            "icon": "/Lotus/Interface/Icons/Npcs/Operator.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/AmirKissEmailItem": {
+        "sendOnlyOnce": false,
+        "message": {
+            "sender": "/Lotus/Language/1999/MessengerJabirName",
+            "title": "/Lotus/Language/1999/AmirKissTitle",
+            "body": "/Lotus/Language/1999/AmirKissMessage",
+            "icon": "/Lotus/Interface/Icons/Player/AmirAccoladeGlyph.png",
+            "highPriority": true,
+            "customData": "Amir"
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/AoiKissEmailItem": {
+        "sendOnlyOnce": false,
+        "message": {
+            "sender": "/Lotus/Language/1999/MessengerAoiName",
+            "title": "/Lotus/Language/1999/AoiKissTitle",
+            "body": "/Lotus/Language/1999/AoiKissMessage",
+            "icon": "/Lotus/Interface/Icons/Player/AoiAccoladeGlyph.png",
+            "highPriority": true,
+            "customData": "Aoi"
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/ArchonShardUpgradeFeatureItemEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/EntratiLab/EntratiGeneral/HumanLoid",
+            "title": "/Lotus/Language/Entrati/ArchonShardInboxInboxTitle",
+            "body": "/Lotus/Language/Entrati/ArchonShardSegmentInboxDesc",
+            "icon": "/Lotus/Interface/Icons/Npcs/EntratiLab/Loid.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/ArthurKissEmailItem": {
+        "sendOnlyOnce": false,
+        "message": {
+            "sender": "/Lotus/Language/1999/MessengerArthurName",
+            "title": "/Lotus/Language/1999/ArthurKissTitle",
+            "body": "/Lotus/Language/1999/ArthurKissMessage",
+            "icon": "/Lotus/Interface/Icons/Player/ArthurAccoladeGlyph.png",
+            "highPriority": true,
+            "customData": "Arthur"
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/BeatCaliberChicksEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/Bosses/Jabir",
+            "title": "/Lotus/Language/Inbox/BeatCaliberChicksInboxSubject",
+            "body": "/Lotus/Language/Inbox/BeatCaliberChicksInboxBody",
+            "attachments": [
+                "/Lotus/Types/StoreItems/AvatarImages/Minigames/MinigameGlyphPixelPortraitJillian",
+                "/Lotus/Types/StoreItems/AvatarImages/Minigames/MinigameGlyphPixelPortraitLillian"
+            ],
+            "icon": "/Lotus/Interface/Icons/Npcs/AmirPortrait.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/ClearedFiveLoopsEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/Bosses/Jabir",
+            "title": "/Lotus/Language/Inbox/BeatFiveLoopsInboxSubject",
+            "body": "/Lotus/Language/Inbox/BeatFiveLoopsInboxBody",
+            "attachments": [
+                "/Lotus/Upgrades/Skins/Clan/CaliberChicksCorgiEmblemItem"
+            ],
+            "icon": "/Lotus/Interface/Icons/Npcs/AmirPortrait.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/ConcreteBPEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/EntratiLab/EntratiGeneral/HumanLoid",
+            "title": "/Lotus/Language/EntratiLab/EntratiQuest/PostQuestInboxTitle",
+            "body": "/Lotus/Language/EntratiLab/EntratiQuest/PostQuestInboxBody",
+            "attachments": [
+                "/Lotus/Types/Recipes/WarframeRecipes/ConcreteFrameBlueprint"
+            ],
+            "icon": "/Lotus/Interface/Icons/Npcs/EntratiLab/Loid.png",
+            "transmission": "/Lotus/Sounds/Dialog/EntratiLabQuest/FullQuest/DQuestComp1270HumanLoid",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/DagathBeaconEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/Menu/Mailbox_WarframeSender",
+            "title": "/Lotus/Language/DagathUpdate/DefixioHuntMissionInboxTitle",
+            "body": "/Lotus/Language/DagathUpdate/DefixioHuntMissionInboxBody",
+            "transmission": "/Lotus/Sounds/Dialog/SyndicateDefixioMission/DInboxTrans0010Lotus",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/DanteUnboundEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/Bosses/DrususName",
+            "title": "/Lotus/Language/DanteUnbound/DanteUnboundInboxTitle",
+            "body": "/Lotus/Language/DanteUnbound/DanteUnboundInboxBody",
+            "icon": "/Lotus/Interface/Icons/Npcs/Drusus.png",
+            "transmission": "/Lotus/Sounds/Dialog/EntratiDisruption/DInboxMessage0890DruLev",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/EleanorKissEmailItem": {
+        "sendOnlyOnce": false,
+        "message": {
+            "sender": "/Lotus/Language/1999/MessengerEleanorName",
+            "title": "/Lotus/Language/1999/EleanorKissTitle",
+            "body": "/Lotus/Language/1999/EleanorKissMessage",
+            "icon": "/Lotus/Interface/Icons/Player/EleanorAccoladeGlyph.png",
+            "highPriority": true,
+            "customData": "Eleanor"
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/FiveFatesEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/Bosses/Saya",
+            "title": "/Lotus/Language/FiveFates/FiveFatesUnlockedInboxTitle",
+            "body": "/Lotus/Language/FiveFates/FiveFatesUnlockedInboxBody",
+            "icon": "/Lotus/Interface/Icons/Npcs/Ostron/Saya.png",
+            "transmission": "/Lotus/Sounds/Dialog/KoumeiFatesVendor/DInboxTransmission0880Saya",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/IncarnonUnlockerEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/Zariman/Cavalero",
+            "title": "/Lotus/Language/Inbox/IncarnonGenesisTitle",
+            "body": "/Lotus/Language/Inbox/IncarnonGenesisBody",
+            "icon": "/Lotus/Interface/Icons/Npcs/Zariman/Cavalero.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/KalymosKissEmailItem": {
+        "sendOnlyOnce": false,
+        "message": {
+            "sender": "/Lotus/Language/1999/KalymosMessageName",
+            "title": "/Lotus/Language/1999/KalymosInboxTitle",
+            "body": "/Lotus/Language/1999/KalymosInboxMessage",
+            "icon": "/Lotus/Interface/Icons/Player/KalymosGrimoireGlyph.png",
+            "highPriority": true,
+            "customData": "Kalymos"
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/KuvaLichRevealEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/Bosses/WormQueen",
+            "title": "/Lotus/Language/Inbox/OldBloodCinInboxSubject",
+            "body": "/Lotus/Language/Inbox/OldBloodCinInboxBody",
+            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/Fortress/WormQueen.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/LettieKissEmailItem": {
+        "sendOnlyOnce": false,
+        "message": {
+            "sender": "/Lotus/Language/1999/MessengerLettieName",
+            "title": "/Lotus/Language/1999/LettieKissTitle",
+            "body": "/Lotus/Language/1999/LettieKissMessage",
+            "icon": "/Lotus/Interface/Icons/Player/LettieAccoladeGlyph.png",
+            "highPriority": true,
+            "customData": "Lettie"
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/MaxScoreConquestEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/Bosses/Necraloid",
+            "title": "/Lotus/Language/EntratiLab/EntratiGeneral/ConquestHoodOrnamentMessageTitle",
+            "body": "/Lotus/Language/EntratiLab/EntratiGeneral/ConquestHoodOrnamentMessageBody",
+            "attachments": [
+                "/Lotus/Upgrades/Skins/Liset/ConquestHoodOrnament"
+            ],
+            "icon": "/Lotus/Interface/Icons/Npcs/Entrati/Loid.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/PlayableDemo1999EmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/Bosses/Ordis",
+            "title": "/Lotus/Language/1999Demo/1999DemoRewardInboxTitle",
+            "body": "/Lotus/Language/1999Demo/1999DemoRewardInboxBody",
+            "attachments": [
+                "/Lotus/Upgrades/Skins/Weapons/Swords/LasriaSkanaSwordSkin"
+            ]
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/QuincyKissEmailItem": {
+        "sendOnlyOnce": false,
+        "message": {
+            "sender": "/Lotus/Language/1999/MessengerQuincyName",
+            "title": "/Lotus/Language/1999/QuincyKissTitle",
+            "body": "/Lotus/Language/1999/QuincyKissMessage",
+            "icon": "/Lotus/Interface/Icons/Player/QuincyAccoladeGlyph.png",
+            "highPriority": true,
+            "customData": "Quincy"
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/SentientQuestEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/Menu/Mailbox_WarframeSender",
+            "title": "/Lotus/Language/G1Quests/SentientQuestIntroInbox_Title",
+            "body": "/Lotus/Language/G1Quests/SentientQuestIntroInbox_Body",
+            "attachments": [
+                "/Lotus/Types/Keys/SentientQuest/SentientQuestKeyChain"
+            ],
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/SistersOfParvosEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/Bosses/Ordis",
+            "title": "/Lotus/Language/Inbox/SistersofParvosCinInboxSubject",
+            "body": "/Lotus/Language/Inbox/SistersofParvosCinInboxBody",
+            "icon": "/Lotus/Interface/Icons/Npcs/Ordis.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/TennokaiEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/EntratiLab/EntratiGeneral/Fibonacci",
+            "title": "/Lotus/Language/EntratiLab/EntratiQuest/TennokaiInboxTitle",
+            "body": "/Lotus/Language/EntratiLab/EntratiQuest/TennokaiInboxBody",
+            "attachments": [
+                "/Lotus/Types/Items/ShipFeatureItems/ArsenalMeleeFeatureItem",
+                "/Lotus/Upgrades/EmpoweredHeavyMelee/TennokaiBaseMod",
+                "/Lotus/Types/Items/MiscItems/WeaponMeleeArcaneUnlocker"
+            ],
+            "icon": "/Lotus/Interface/Icons/Npcs/EntratiLab/Fibonacci.png",
+            "transmission": "/Lotus/Sounds/Dialog/EntratiLabQuest/FullQuest/DQuestComp1280Fib",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/WITWEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/Bosses/Loid",
+            "title": "/Lotus/Language/EntratiLab/EntratiQuest/WiTWQuestRecievedInboxTitle",
+            "body": "/Lotus/Language/EntratiLab/EntratiQuest/WiTWQuestRecievedInboxBody",
+            "attachments": [
+                "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain"
+            ],
+            "icon": "/Lotus/Interface/Icons/Npcs/Entrati/Loid.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Keys/InfestedMicroplanetQuest/DoubleDefenseIntroEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/Bosses/Otak",
+            "title": "/Lotus/Language/CitrinesLastWish/CitrinesLWInbox_Subject",
+            "body": "/Lotus/Language/CitrinesLastWish/CitrinesLWInbox_Body",
+            "icon": "/Lotus/Interface/Icons/Npcs/Entrati/Loid.png",
+            "transmission": "/Lotus/Sounds/Dialog/CitrineLWVendor/DInbox0280Otak"
+        }
+    },
+    "/Lotus/Types/Keys/RailJackBuildQuest/RailjackBuildQuestEmailItem": {
+        "sendOnlyOnce": false,
+        "message": {
+            "sender": "/Lotus/Language/Bosses/CephalonCy",
+            "title": "/Lotus/Language/Railjack/RailjackBuildQuestCyDockTitle",
+            "body": "/Lotus/Language/Railjack/RailjackBuildQuestCyDockBody",
+            "attachments": [
+                "RailjackBuildQuestKeyChain"
+            ],
+            "icon": "/Lotus/Interface/Icons/StoreIcons/RailjackCephalon.png",
+            "transmission": "/Lotus/Sounds/Dialog/CyQuest/CephalonCy/DConstructCy0010RJCephalon",
+            "highPriority": true
+        }
+    }
+}

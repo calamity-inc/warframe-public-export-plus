@@ -25,6 +25,7 @@ export declare const ExportChallenges: Record<string, IChallenge>;
 export declare const ExportCustoms: Record<string, ICustom>;
 export declare const ExportDojoRecipes: IExportDojoRecipes;
 export declare const ExportDrones: Record<string, IDrone>;
+export declare const ExportEmailItems: Record<string, IEmailItem>;
 export declare const ExportEnemies: IExportEnemies;
 export declare const ExportFlavour: Record<string, IFlavourItem>;
 export declare const ExportFocusUpgrades: Record<string, IFocusUpgrade>;
@@ -196,6 +197,11 @@ export interface IDrone {
     capacityMultiplier: number[];
 }
 
+export interface IEmailItem {
+    sendOnlyOnce: boolean;
+    message: IInboxMessage;
+}
+
 export interface IExportEnemies {
     agents: Record<string, IEnemyAgent>;
     avatars: Record<string, IEnemyAvatar>;
@@ -336,6 +342,7 @@ export interface IInboxMessage {
     icon?: string;
     transmission?: string;
     highPriority?: boolean;
+    customData?: string;
 }
 
 export interface IKey {

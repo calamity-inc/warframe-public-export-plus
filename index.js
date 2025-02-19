@@ -27,6 +27,7 @@ PublicExportPlus.ExportChallenges = require("./ExportChallenges.json");
 PublicExportPlus.ExportCustoms = require("./ExportCustoms.json");
 PublicExportPlus.ExportDojoRecipes = require("./ExportDojoRecipes.json");
 PublicExportPlus.ExportDrones = require("./ExportDrones.json");
+PublicExportPlus.ExportEmailItems = require("./ExportEmailItems.json");
 PublicExportPlus.ExportEnemies = require("./ExportEnemies.json");
 PublicExportPlus.ExportFlavour = require("./ExportFlavour.json");
 PublicExportPlus.ExportFocusUpgrades = require("./ExportFocusUpgrades.json");
