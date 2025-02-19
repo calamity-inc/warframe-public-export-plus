@@ -324,6 +324,20 @@ export interface IIntrinsicRank {
     description: string;
 }
 
+export interface IInboxMessage {
+    sender: string;
+    title:  string;
+    body:   string;
+    attachments: string[];
+    countedAttachments: {
+        ItemType: string;
+        ItemCount: number;
+    }[];
+    icon?: string;
+    transmission?: string;
+    highPriority?: boolean;
+}
+
 export interface IKey {
     name:              string;
     description?:      string;
@@ -334,19 +348,7 @@ export interface IKey {
     chainStages?:      {
         key?:                     string;
         itemsToGiveWhenTriggered: string[];
-        messageToSendWhenTriggered?: {
-            sender: string;
-            title:  string;
-            body:   string;
-            attachments: string[];
-            countedAttachments: {
-                ItemType: string;
-                ItemCount: number;
-            }[];
-            icon?: string;
-            transmission?: string;
-            highPriority?: boolean;
-        };
+        messageToSendWhenTriggered?: IInboxMessage;
     }[];
     rewards?:          ({
         rewardType: "RT_STORE_ITEM" | "RT_RECIPE";
