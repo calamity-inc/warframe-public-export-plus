@@ -83,6 +83,46 @@
     "/Lotus/Types/Game/Projections/T0VoidProjection": {
         "parentName": "/Lotus/Types/Game/VoidProjectionItem"
     },
+    "/Lotus/Types/Game/Projections/T1VoidProjection": {
+        "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
+        "name": "/Lotus/Language/Items/TierOneProjection"
+    },
+    "/Lotus/Types/Game/Projections/T1VoidProjectionNidusSarynVaultABronze": {
+        "parentName": "/Lotus/Types/Game/Projections/T1VoidProjection",
+        "name": "/Lotus/Language/Relics/VoidProjectionName"
+    },
+    "/Lotus/Types/Game/Projections/T2VoidProjection": {
+        "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
+        "name": "/Lotus/Language/Items/TierTwoProjection"
+    },
+    "/Lotus/Types/Game/Projections/T2VoidProjectionNidusSarynVaultABronze": {
+        "parentName": "/Lotus/Types/Game/Projections/T2VoidProjection",
+        "name": "/Lotus/Language/Relics/VoidProjectionName"
+    },
+    "/Lotus/Types/Game/Projections/T2VoidProjectionNidusSarynVaultBBronze": {
+        "parentName": "/Lotus/Types/Game/Projections/T2VoidProjection",
+        "name": "/Lotus/Language/Relics/VoidProjectionName"
+    },
+    "/Lotus/Types/Game/Projections/T3VoidProjection": {
+        "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
+        "name": "/Lotus/Language/Items/TierThreeProjection"
+    },
+    "/Lotus/Types/Game/Projections/T3VoidProjectionNidusSarynVaultABronze": {
+        "parentName": "/Lotus/Types/Game/Projections/T3VoidProjection",
+        "name": "/Lotus/Language/Relics/VoidProjectionName"
+    },
+    "/Lotus/Types/Game/Projections/T3VoidProjectionNidusSarynVaultBBronze": {
+        "parentName": "/Lotus/Types/Game/Projections/T3VoidProjection",
+        "name": "/Lotus/Language/Relics/VoidProjectionName"
+    },
+    "/Lotus/Types/Game/Projections/T4VoidProjection": {
+        "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
+        "name": "/Lotus/Language/Items/TierFourProjection"
+    },
+    "/Lotus/Types/Game/Projections/T4VoidProjectionNidusSarynVaultABronze": {
+        "parentName": "/Lotus/Types/Game/Projections/T4VoidProjection",
+        "name": "/Lotus/Language/Relics/VoidProjectionName"
+    },
     "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem": {
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
     },
