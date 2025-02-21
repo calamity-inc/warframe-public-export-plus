@@ -47310,5 +47310,138 @@
         "productCategory": "Pistols",
         "omegaAttenuation": 1,
         "variantType": "VT_NORMAL"
+    },
+    "/Lotus/Types/Friendly/PlayerControllable/Weapons/DuviriDualSwords": {
+        "parentName": "/Lotus/Weapons/Tenno/Melee/LotusDualSword",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/TeshinDualSwords.png",
+        "name": "/Lotus/Language/Weapons/TeshinDualSwordsName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Weapons/TeshinDualSwordsDrifterDesc",
+        "productCategory": "DrifterMelee",
+        "holsterCategory": "DUAL_MELEE",
+        "compatibilityTags": [
+            "DUAL_SWORDS_STANCE"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "impact": {
+                    "DT_SLASH": 125
+                }
+            }
+        ]
+    },
+    "/Lotus/Weapons/Tenno/Melee/Hammer/DaxDuviriHammer/DaxDuviriHammerPlayerWeapon": {
+        "parentName": "/Lotus/Weapons/Tenno/Melee/LotusHeavyHammer",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/DaxDuviriHammer.png",
+        "name": "/Lotus/Language/Weapons/DaxHammerName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Weapons/DaxHammerDrifterDesc",
+        "productCategory": "DrifterMelee",
+        "holsterCategory": "MELEE",
+        "compatibilityTags": [
+            "HAMMERS_STANCE"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "impact": {
+                    "DT_IMPACT": 140.0,
+                    "DT_PUNCTURE": 30.0,
+                    "DT_SLASH": 30.0
+                }
+            }
+        ]
+    },
+    "/Lotus/Weapons/Tenno/Melee/Polearms/DaxDuviriPolearm/DaxDuviriPolearmSpearPlayerWeapon": {
+        "parentName": "/Lotus/Weapons/Tenno/Melee/Polearms/DaxDuviriPolearm/DaxDuviriPolearmSpearWeapon",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/DaxDuviriPolearm.png",
+        "name": "/Lotus/Language/Weapons/DaxDrifterSpear",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Weapons/DaxDrifterSpearDesc",
+        "masteryReq": 0,
+        "productCategory": "DrifterMelee",
+        "holsterCategory": "MELEE",
+        "omegaAttenuation": 0.5,
+        "compatibilityTags": [
+            "POLEARMS_STANCE"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "impact": {
+                    "DT_IMPACT": 32.5,
+                    "DT_PUNCTURE": 6.5,
+                    "DT_SLASH": 91.0
+                }
+            }
+        ]
+    },
+    "/Lotus/Weapons/Tenno/Melee/Swords/DaxDuviriKatana/DaxDuviriKatanaPlayerWeapon": {
+        "parentName": "/Lotus/Weapons/Tenno/Melee/LotusKatanaSword",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/DaxDuviriKatana.png",
+        "name": "/Lotus/Language/Weapons/DaxSingleKatanaName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Weapons/DaxSingleKatanaDrifterDesc",
+        "productCategory": "DrifterMelee",
+        "holsterCategory": "HIP_MELEE",
+        "compatibilityTags": [
+            "NIKANAS_STANCE"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "impact": {
+                    "DT_IMPACT": 8.25,
+                    "DT_PUNCTURE": 16.5,
+                    "DT_SLASH": 140.25
+                }
+            }
+        ]
+    },
+    "/Lotus/Weapons/Tenno/Melee/Swords/DaxDuviriTwoHandedKatana/DaxDuviriTwoHandedKatanaPlayerWeapon": {
+        "parentName": "/Lotus/Weapons/Tenno/Melee/Swords/DaxDuviriTwoHandedKatana/DaxDuviriTwoHandedKatanaWeapon",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/DaxDuviriTwoHandedKatana.png",
+        "name": "/Lotus/Language/Weapons/DaxTwoHandKatanaName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Weapons/DaxTwoHandKatanaDrifterDesc",
+        "productCategory": "DrifterMelee",
+        "holsterCategory": "MELEE",
+        "omegaAttenuation": 0.9,
+        "compatibilityTags": [
+            "LONG_KATANA_STANCE"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "impact": {
+                    "DT_IMPACT": 60.0,
+                    "DT_PUNCTURE": 40.0,
+                    "DT_SLASH": 100.0
+                }
+            }
+        ]
+    },
+    "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/DaxDuviriMaceShieldPlayerWeapon": {
+        "parentName": "/Lotus/Weapons/Tenno/Melee/LotusSwordShield",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/DaxDuviriMaceShieldWeapon.png",
+        "name": "/Lotus/Language/Weapons/DaxMaceShieldName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Weapons/DaxMaceShieldDrifterDesc",
+        "productCategory": "DrifterMelee",
+        "holsterCategory": "LEFT_FOREARM_MOUNTED",
+        "compatibilityTags": [
+            "SWORDS_AND_SHIELD_STANCE"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "impact": {
+                    "DT_IMPACT": 7.5,
+                    "DT_PUNCTURE": 15.0,
+                    "DT_SLASH": 127.5
+                }
+            }
+        ]
     }
 }
