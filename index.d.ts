@@ -54,6 +54,11 @@ export declare const ExportWeapons: Record<string, IWeapon>;
 
 export type TRarity = "COMMON" | "UNCOMMON" | "RARE" | "LEGENDARY";
 
+export interface ICountedItem {
+    ItemType: string;
+    ItemCount: number;
+}
+
 export interface IAbility {
     name:                       string;
     description:                string;
@@ -152,10 +157,7 @@ export interface IDojoResearch {
     time:           number;
     skipTimePrice:  number;
     replicatePrice: number;
-    ingredients:    {
-        ItemType:  string;
-        ItemCount: number;
-    }[];
+    ingredients:    ICountedItem[];
     guildXpValue?:  number;
     techPrereq?:    string;
 }
@@ -166,10 +168,7 @@ export interface IDojoRecipe {
     price:         number;
     time:          number;
     skipTimePrice: number;
-    ingredients:   {
-        ItemType:  string;
-        ItemCount: number;
-    }[];
+    ingredients:   ICountedItem[];
 }
 
 export interface IDojoRoom extends IDojoRecipe {
@@ -335,10 +334,7 @@ export interface IInboxMessage {
     title:  string;
     body:   string;
     attachments: string[];
-    countedAttachments: {
-        ItemType: string;
-        ItemCount: number;
-    }[];
+    countedAttachments: ICountedItem[];
     icon?: string;
     transmission?: string;
     highPriority?: boolean;
@@ -452,10 +448,7 @@ export interface IRecipe {
     alwaysAvailable?:        boolean;
     hidden?:                 boolean;
     primeSellingPrice?:      number;
-    ingredients:             {
-        ItemType:        string;
-        ItemCount:       number;
-    }[];
+    ingredients:             ICountedItem[];
     secretIngredientAction?: "SIA_UNBRAND" | "SIA_SPECTRE_LOADOUT_COPY" | "SIA_GILD_WEAPON" | "SIA_CREATE_KUBROW" | "SIA_WARFRAME_ABILITY";
     secretIngredients?:      {
         ItemType:  "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit" | "/Lotus/Weapons/Tenno/Pistol/LotusPistol" | "/Lotus/Weapons/Tenno/LotusLongGun" | "/Lotus/Types/Game/LotusMeleeWeapon";
@@ -516,10 +509,7 @@ export interface IResource {
     sockets?:           string[]; // for FusionTreasures
     syndicateTag?:      string; // for fish
     standingBonus?:     number; // for fish
-    dissectionParts?:   { // for fish
-        ItemType: string;
-        ItemCount: number;
-    }[];
+    dissectionParts?:   ICountedItem[]; // for fish
     purchaseQuantity?:  number;
 }
 
@@ -604,10 +594,7 @@ export interface ISyndicate {
 }
 
 export interface ISyndicateSacrifice {
-    items: {
-        ItemCount: number;
-        ItemType: string;
-    }[];
+    items: ICountedItem[];
     credits: number;
 }
 
@@ -678,10 +665,7 @@ export interface IVendor {
         storeItem: string;
         credits?: number;
         platinum?: number;
-        itemPrices?: {
-            ItemCount: number;
-            ItemType:  string;
-        }[];
+        itemPrices?: ICountedItem[];
     }[];
 }
 
