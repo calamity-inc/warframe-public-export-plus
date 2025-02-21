@@ -59,6 +59,11 @@ export interface ICountedItem {
     ItemCount: number;
 }
 
+export interface ICountedStoreItem {
+    StoreItem: string;
+    ItemCount: number;
+}
+
 export interface IAbility {
     name:                       string;
     description:                string;
@@ -341,6 +346,13 @@ export interface IInboxMessage {
     customData?: string;
 }
 
+export interface IMissionReward {
+    credits?: number;
+    items?: string[];
+    countedItems?: ICountedItem[];
+    countedStoreItems?: ICountedStoreItem[];
+}
+
 export interface IKey {
     name:              string;
     description?:      string;
@@ -353,6 +365,7 @@ export interface IKey {
         itemsToGiveWhenTriggered: string[];
         messageToSendWhenTriggered?: IInboxMessage;
     }[];
+    missionReward?: IMissionReward;
     rewards?:          ({
         rewardType: "RT_STORE_ITEM" | "RT_RECIPE";
         itemType:   string;

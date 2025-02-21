@@ -832,12 +832,15 @@
         "name": "/Lotus/Language/EntratiLab/EntratiQuest/StageSixVoidVaults",
         "parentName": "/Lotus/Types/Keys/EntratiLab/EntratiQuestBaseKey",
         "codexSecret": true,
-        "rewards": [
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Types/Gameplay/EntratiLab/Resources/EntratiLabDogTagCommon"
-            }
-        ]
+        "missionReward": {
+            "countedStoreItems": [
+                {
+                    "StoreItem": "/Lotus/StoreItems/Types/Gameplay/EntratiLab/Resources/EntratiLabDogTagCommon",
+                    "ItemCount": 1
+                }
+            ]
+        },
+        "rewards": []
     },
     "/Lotus/Types/Keys/EntratiLab/EntratiQuestStage7BlairWitch": {
         "name": "/Lotus/Language/EntratiLab/EntratiQuest/StageSevenGargolye",
@@ -1277,12 +1280,12 @@
         "name": "/Lotus/Language/G1Quests/GolemQuestObjAssassinate",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
-        "rewards": [
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Types/Keys/TestKeyErisBoss"
-            }
-        ]
+        "missionReward": {
+            "items": [
+                "/Lotus/StoreItems/Types/Keys/TestKeyErisBoss"
+            ]
+        },
+        "rewards": []
     },
     "/Lotus/Types/Keys/IndexQuest/IndexQuestKeyChain": {
         "name": "/Lotus/Language/G1Quests/IndexTitle",
@@ -2769,6 +2772,9 @@
         "description": "",
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "credits": 5000
+        },
         "rewards": [
             {
                 "rewardType": "RT_CREDITS",
@@ -2781,6 +2787,9 @@
         "description": "",
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "credits": 2500
+        },
         "rewards": [
             {
                 "rewardType": "RT_CREDITS",
@@ -2793,6 +2802,9 @@
         "description": "",
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "credits": 2500
+        },
         "rewards": [
             {
                 "rewardType": "RT_CREDITS",
@@ -2805,6 +2817,9 @@
         "description": "",
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "credits": 2500
+        },
         "rewards": [
             {
                 "rewardType": "RT_CREDITS",
@@ -2817,6 +2832,9 @@
         "description": "",
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "credits": 2500
+        },
         "rewards": [
             {
                 "rewardType": "RT_CREDITS",
@@ -2828,6 +2846,9 @@
         "name": "/Lotus/Language/Quests/PriestTempleEnterObjective",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "credits": 10000
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/ProteaQuest/ProteaQuestKeyChain": {
@@ -3151,11 +3172,13 @@
         "description": "/Lotus/Language/Railjack/RailjackComponentHuntKeyADesc",
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "credits": 2500,
+            "items": [
+                "/Lotus/StoreItems/Types/Items/ShipFeatureItems/Railjack/RailjackHullFeatureItem"
+            ]
+        },
         "rewards": [
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Types/Items/ShipFeatureItems/Railjack/RailjackHullFeatureItem"
-            },
             {
                 "rewardType": "RT_CREDITS",
                 "amount": 5000
@@ -3167,11 +3190,13 @@
         "description": "/Lotus/Language/Railjack/RailjackComponentHuntKeyCDesc",
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "credits": 2500,
+            "items": [
+                "/Lotus/StoreItems/Types/Items/ShipFeatureItems/Railjack/RailjackHoodBraceFeatureItem"
+            ]
+        },
         "rewards": [
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Types/Items/ShipFeatureItems/Railjack/RailjackHoodBraceFeatureItem"
-            },
             {
                 "rewardType": "RT_CREDITS",
                 "amount": 5000
@@ -3183,11 +3208,13 @@
         "description": "/Lotus/Language/Railjack/RailjackComponentHuntKeyDDesc",
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "credits": 2500,
+            "items": [
+                "/Lotus/StoreItems/Types/Items/ShipFeatureItems/Railjack/RailjackNacelleLeftFeatureItem"
+            ]
+        },
         "rewards": [
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Types/Items/ShipFeatureItems/Railjack/RailjackNacelleLeftFeatureItem"
-            },
             {
                 "rewardType": "RT_CREDITS",
                 "amount": 5000
@@ -3199,11 +3226,13 @@
         "description": "/Lotus/Language/Railjack/RailjackComponentHuntKeyEDesc",
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "credits": 2500,
+            "items": [
+                "/Lotus/StoreItems/Types/Items/ShipFeatureItems/Railjack/RailjackNacelleRightFeatureItem"
+            ]
+        },
         "rewards": [
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Types/Items/ShipFeatureItems/Railjack/RailjackNacelleRightFeatureItem"
-            },
             {
                 "rewardType": "RT_CREDITS",
                 "amount": 5000
@@ -3215,11 +3244,13 @@
         "description": "/Lotus/Language/Railjack/RailjackComponentHuntKeyFDesc",
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "credits": 2500,
+            "items": [
+                "/Lotus/StoreItems/Types/Items/ShipFeatureItems/Railjack/RailjackTailFeatureItem"
+            ]
+        },
         "rewards": [
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Types/Items/ShipFeatureItems/Railjack/RailjackTailFeatureItem"
-            },
             {
                 "rewardType": "RT_CREDITS",
                 "amount": 5000
@@ -3231,11 +3262,13 @@
         "description": "/Lotus/Language/Railjack/RailjackComponentHuntKeyBDesc",
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "credits": 2500,
+            "items": [
+                "/Lotus/StoreItems/Types/Items/ShipFeatureItems/Railjack/RailjackHoodFeatureItem"
+            ]
+        },
         "rewards": [
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Types/Items/ShipFeatureItems/Railjack/RailjackHoodFeatureItem"
-            },
             {
                 "rewardType": "RT_CREDITS",
                 "amount": 5000
@@ -3366,13 +3399,15 @@
         "description": "",
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
-        "rewards": [
-            {
-                "rewardType": "RT_RESOURCE",
-                "itemType": "/Lotus/Types/Items/MiscItems/Kuva",
-                "amount": 60
-            }
-        ]
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemCount": 60,
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Kuva"
+                }
+            ]
+        },
+        "rewards": []
     },
     "/Lotus/Types/Keys/SacrificeQuest/SacrificeQuestKeyTrackUmbraA": {
         "name": "/Lotus/Language/Sacrifice/MissionTitle3",
@@ -3656,6 +3691,9 @@
         "description": "/Lotus/Language/G1Quests/SpyQuestMission2Desc",
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "credits": 5000
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/SpyQuestKeyChain/SpyQuestKeyB": {
@@ -3663,6 +3701,9 @@
         "description": "/Lotus/Language/G1Quests/SpyQuestMission3Desc",
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "credits": 5000
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/SpyQuestKeyChain/SpyQuestKeyC": {
@@ -3670,6 +3711,9 @@
         "description": "/Lotus/Language/G1Quests/SpyQuestMission4Desc",
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "credits": 5000
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/SpyQuestKeyChain/SpyQuestFinalKey": {
@@ -3867,22 +3911,24 @@
         "name": "/Lotus/Language/G1Quests/VorsPrize4",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "credits": 500,
+            "countedItems": [
+                {
+                    "ItemCount": 2,
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic"
+                },
+                {
+                    "ItemCount": 1000,
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage"
+                },
+                {
+                    "ItemCount": 500,
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle"
+                }
+            ]
+        },
         "rewards": [
-            {
-                "rewardType": "RT_RESOURCE",
-                "itemType": "/Lotus/Types/Items/MiscItems/Morphic",
-                "amount": 2
-            },
-            {
-                "rewardType": "RT_RESOURCE",
-                "itemType": "/Lotus/Types/Items/MiscItems/Salvage",
-                "amount": 1000
-            },
-            {
-                "rewardType": "RT_RESOURCE",
-                "itemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
-                "amount": 500
-            },
             {
                 "rewardType": "RT_STORE_ITEM",
                 "itemType": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarPickupBonusMod"
