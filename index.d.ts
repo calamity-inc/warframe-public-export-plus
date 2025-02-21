@@ -484,6 +484,7 @@ export interface IRegion {
     minEnemyLevel:          number;
     maxEnemyLevel:          number;
     masteryExp:             number;
+    missionReward?:         IMissionReward;
     rewardManifests:        string[];
     cacheRewardManifest?:   string;
     darkSectorData?:        {
