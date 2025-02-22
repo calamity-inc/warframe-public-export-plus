@@ -1,0 +1,669 @@
+[
+    {
+        "name": "/Lotus/Language/Locations/Mercury",
+        "droneDamage": {
+            "minValue": 20.0,
+            "maxValue": 50.0
+        },
+        "damageChance": 0.2,
+        "resources": [
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Morphic",
+                "ItemType": "/Lotus/Types/Items/MiscItems/MorphicPickup",
+                "Rarity": "RARE"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Ferrite",
+                "ItemType": "/Lotus/Types/Items/MiscItems/FerritePickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/PolymerBundle",
+                "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundlePickup",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/Research/ChemFragment",
+                "ItemType": "/Lotus/Types/Items/Research/ChemFragmentPickup",
+                "Rarity": "UNCOMMON"
+            }
+        ]
+    },
+    {
+        "name": "/Lotus/Language/Locations/Venus",
+        "droneDamage": {
+            "minValue": 20.0,
+            "maxValue": 40.0
+        },
+        "damageChance": 0.2,
+        "resources": [
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/AlloyPlate",
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlatePickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/PolymerBundle",
+                "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundlePickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Circuits",
+                "ItemType": "/Lotus/Types/Items/MiscItems/CircuitsPickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/Research/EnergyFragment",
+                "ItemType": "/Lotus/Types/Items/Research/EnergyFragmentPickup",
+                "Rarity": "UNCOMMON"
+            }
+        ]
+    },
+    {
+        "name": "/Lotus/Language/Locations/Earth",
+        "droneDamage": {
+            "minValue": 10.0,
+            "maxValue": 50.0
+        },
+        "damageChance": 0.3,
+        "resources": [
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Ferrite",
+                "ItemType": "/Lotus/Types/Items/MiscItems/FerritePickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Rubedo",
+                "ItemType": "/Lotus/Types/Items/MiscItems/RubedoPickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Neurode",
+                "ItemType": "/Lotus/Types/Items/MiscItems/NeurodePickup",
+                "Rarity": "RARE"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/Research/ChemFragment",
+                "ItemType": "/Lotus/Types/Items/Research/ChemFragmentPickup",
+                "Rarity": "UNCOMMON"
+            }
+        ]
+    },
+    {
+        "name": "/Lotus/Language/Locations/Mars",
+        "droneDamage": {
+            "minValue": 20.0,
+            "maxValue": 50.0
+        },
+        "damageChance": 0.3,
+        "resources": [
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Morphic",
+                "ItemType": "/Lotus/Types/Items/MiscItems/MorphicPickup",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Salvage",
+                "ItemType": "/Lotus/Types/Items/MiscItems/SalvagePickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Gallium",
+                "ItemType": "/Lotus/Types/Items/MiscItems/GalliumPickup",
+                "Rarity": "RARE"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/Research/EnergyFragment",
+                "ItemType": "/Lotus/Types/Items/Research/EnergyFragmentPickup",
+                "Rarity": "UNCOMMON"
+            }
+        ]
+    },
+    {
+        "name": "/Lotus/Language/Locations/Jupiter",
+        "droneDamage": {
+            "minValue": 20.0,
+            "maxValue": 60.0
+        },
+        "damageChance": 0.4,
+        "resources": [
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Salvage",
+                "ItemType": "/Lotus/Types/Items/MiscItems/SalvagePickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/ConcentratedGas",
+                "ItemType": "/Lotus/Types/Items/MiscItems/ConcentratedGasPickup",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/NeuralSensor",
+                "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensorPickup",
+                "Rarity": "RARE"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/AlloyPlate",
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlatePickup",
+                "Rarity": "UNCOMMON"
+            }
+        ]
+    },
+    {
+        "name": "/Lotus/Language/Locations/Saturn",
+        "droneDamage": {
+            "minValue": 30.0,
+            "maxValue": 60.0
+        },
+        "damageChance": 0.5,
+        "resources": [
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Nanospores",
+                "ItemType": "/Lotus/Types/Items/MiscItems/NanosporesPickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Plastids",
+                "ItemType": "/Lotus/Types/Items/MiscItems/PlastidsPickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/OrokinCell",
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCellPickup",
+                "Rarity": "RARE"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/Research/ChemFragment",
+                "ItemType": "/Lotus/Types/Items/Research/ChemFragmentPickup",
+                "Rarity": "UNCOMMON"
+            }
+        ]
+    },
+    {
+        "name": "/Lotus/Language/Locations/Uranus",
+        "droneDamage": {
+            "minValue": 30.0,
+            "maxValue": 70.0
+        },
+        "damageChance": 0.4,
+        "resources": [
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/PolymerBundle",
+                "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundlePickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Plastids",
+                "ItemType": "/Lotus/Types/Items/MiscItems/PlastidsPickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Gallium",
+                "ItemType": "/Lotus/Types/Items/MiscItems/GalliumPickup",
+                "Rarity": "RARE"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/Research/ChemFragment",
+                "ItemType": "/Lotus/Types/Items/Research/ChemFragmentPickup",
+                "Rarity": "UNCOMMON"
+            }
+        ]
+    },
+    {
+        "name": "/Lotus/Language/Locations/Neptune",
+        "droneDamage": {
+            "minValue": 30.0,
+            "maxValue": 70.0
+        },
+        "damageChance": 0.5,
+        "resources": [
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Nanospores",
+                "ItemType": "/Lotus/Types/Items/MiscItems/NanosporesPickup",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Ferrite",
+                "ItemType": "/Lotus/Types/Items/MiscItems/FerritePickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/ControlModule",
+                "ItemType": "/Lotus/Types/Items/MiscItems/ControlModulePickup",
+                "Rarity": "RARE"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/Research/EnergyFragment",
+                "ItemType": "/Lotus/Types/Items/Research/EnergyFragmentPickup",
+                "Rarity": "COMMON"
+            }
+        ]
+    },
+    {
+        "name": "/Lotus/Language/Locations/Pluto",
+        "droneDamage": {
+            "minValue": 30.0,
+            "maxValue": 75.0
+        },
+        "damageChance": 0.5,
+        "resources": [
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Rubedo",
+                "ItemType": "/Lotus/Types/Items/MiscItems/RubedoPickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Morphic",
+                "ItemType": "/Lotus/Types/Items/MiscItems/MorphicPickup",
+                "Rarity": "RARE"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Plastids",
+                "ItemType": "/Lotus/Types/Items/MiscItems/PlastidsPickup",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/AlloyPlate",
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlatePickup",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/Research/EnergyFragment",
+                "ItemType": "/Lotus/Types/Items/Research/EnergyFragmentPickup",
+                "Rarity": "COMMON"
+            }
+        ]
+    },
+    {
+        "name": "/Lotus/Language/Locations/Ceres",
+        "droneDamage": {
+            "minValue": 30.0,
+            "maxValue": 70.0
+        },
+        "damageChance": 0.5,
+        "resources": [
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/AlloyPlate",
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlatePickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Circuits",
+                "ItemType": "/Lotus/Types/Items/MiscItems/CircuitsPickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/OrokinCell",
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCellPickup",
+                "Rarity": "RARE"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/Research/ChemFragment",
+                "ItemType": "/Lotus/Types/Items/Research/ChemFragmentPickup",
+                "Rarity": "UNCOMMON"
+            }
+        ]
+    },
+    {
+        "name": "/Lotus/Language/Locations/Eris",
+        "droneDamage": {
+            "minValue": 30.0,
+            "maxValue": 70.0
+        },
+        "damageChance": 0.4,
+        "resources": [
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Nanospores",
+                "ItemType": "/Lotus/Types/Items/MiscItems/NanosporesPickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Plastids",
+                "ItemType": "/Lotus/Types/Items/MiscItems/PlastidsPickup",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Neurode",
+                "ItemType": "/Lotus/Types/Items/MiscItems/NeurodePickup",
+                "Rarity": "RARE"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/Research/BioFragment",
+                "ItemType": "/Lotus/Types/Items/Research/BioFragmentPickup",
+                "Rarity": "RARE"
+            }
+        ]
+    },
+    {
+        "name": "/Lotus/Language/Locations/Sedna",
+        "droneDamage": {
+            "minValue": 30.0,
+            "maxValue": 80.0
+        },
+        "damageChance": 0.5,
+        "resources": [
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Rubedo",
+                "ItemType": "/Lotus/Types/Items/MiscItems/RubedoPickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/AlloyPlate",
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlatePickup",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Salvage",
+                "ItemType": "/Lotus/Types/Items/MiscItems/SalvagePickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/Research/ChemFragment",
+                "ItemType": "/Lotus/Types/Items/Research/ChemFragmentPickup",
+                "Rarity": "UNCOMMON"
+            }
+        ]
+    },
+    {
+        "name": "/Lotus/Language/Locations/Europa",
+        "droneDamage": {
+            "minValue": 10.0,
+            "maxValue": 75.0
+        },
+        "damageChance": 0.4,
+        "resources": [
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Morphic",
+                "ItemType": "/Lotus/Types/Items/MiscItems/MorphicPickup",
+                "Rarity": "RARE"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Rubedo",
+                "ItemType": "/Lotus/Types/Items/MiscItems/RubedoPickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/Research/EnergyFragment",
+                "ItemType": "/Lotus/Types/Items/Research/EnergyFragmentPickup",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/ControlModule",
+                "ItemType": "/Lotus/Types/Items/MiscItems/ControlModulePickup",
+                "Rarity": "RARE"
+            }
+        ]
+    },
+    {
+        "name": "/Lotus/Language/Locations/Dojo",
+        "droneDamage": {
+            "minValue": 0.0,
+            "maxValue": 0.0
+        },
+        "damageChance": 0.0,
+        "resources": []
+    },
+    {
+        "name": "/Lotus/Language/Locations/Void",
+        "droneDamage": {
+            "minValue": 0.0,
+            "maxValue": 0.0
+        },
+        "damageChance": 0.0,
+        "resources": [
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Ferrite",
+                "ItemType": "/Lotus/Types/Items/MiscItems/FerritePickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Rubedo",
+                "ItemType": "/Lotus/Types/Items/MiscItems/RubedoPickup",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/ArgonCrystal",
+                "ItemType": "/Lotus/Types/Items/MiscItems/ArgonCrystalPickup",
+                "Rarity": "RARE"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/ControlModule",
+                "ItemType": "/Lotus/Types/Items/MiscItems/ControlModulePickup",
+                "Rarity": "UNCOMMON"
+            }
+        ]
+    },
+    {
+        "name": "/Lotus/Language/Locations/Phobos",
+        "droneDamage": {
+            "minValue": 20.0,
+            "maxValue": 50.0
+        },
+        "damageChance": 0.3,
+        "resources": [
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Rubedo",
+                "ItemType": "/Lotus/Types/Items/MiscItems/RubedoPickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Morphic",
+                "ItemType": "/Lotus/Types/Items/MiscItems/MorphicPickup",
+                "Rarity": "RARE"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Plastids",
+                "ItemType": "/Lotus/Types/Items/MiscItems/PlastidsPickup",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/AlloyPlate",
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlatePickup",
+                "Rarity": "UNCOMMON"
+            }
+        ]
+    },
+    {
+        "name": "/Lotus/Language/InfestedMicroplanet/SolarMapDeimosName",
+        "droneDamage": {
+            "minValue": 0.0,
+            "maxValue": 0.0
+        },
+        "damageChance": 0.0,
+        "resources": [
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Nanospores",
+                "ItemType": "/Lotus/Types/Items/MiscItems/NanosporesPickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/Research/BioFragment",
+                "ItemType": "/Lotus/Types/Items/Research/BioFragmentPickup",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/OrokinCell",
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCellPickup",
+                "Rarity": "RARE"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Neurode",
+                "ItemType": "/Lotus/Types/Items/MiscItems/NeurodePickup",
+                "Rarity": "RARE"
+            }
+        ]
+    },
+    {
+        "name": "/Lotus/Language/Locations/Moon",
+        "droneDamage": {
+            "minValue": 10.0,
+            "maxValue": 50.0
+        },
+        "damageChance": 0.3,
+        "resources": [
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Ferrite",
+                "ItemType": "/Lotus/Types/Items/MiscItems/FerritePickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Rubedo",
+                "ItemType": "/Lotus/Types/Items/MiscItems/RubedoPickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Neurode",
+                "ItemType": "/Lotus/Types/Items/MiscItems/NeurodePickup",
+                "Rarity": "RARE"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/Research/ChemFragment",
+                "ItemType": "/Lotus/Types/Items/Research/ChemFragmentPickup",
+                "Rarity": "UNCOMMON"
+            }
+        ]
+    },
+    {
+        "name": "/Lotus/Language/Locations/Fortress",
+        "droneDamage": {
+            "minValue": 0.0,
+            "maxValue": 1.0
+        },
+        "damageChance": 0.0,
+        "resources": [
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Salvage",
+                "ItemType": "/Lotus/Types/Items/MiscItems/SalvagePickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Circuits",
+                "ItemType": "/Lotus/Types/Items/MiscItems/CircuitsPickup",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/NeuralSensor",
+                "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensorPickup",
+                "Rarity": "RARE"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/Research/ChemFragment",
+                "ItemType": "/Lotus/Types/Items/Research/ChemFragmentPickup",
+                "Rarity": "UNCOMMON"
+            }
+        ]
+    },
+    {
+        "name": "/Lotus/Language/Locations/RelayStationSanctuary",
+        "droneDamage": {
+            "minValue": 0.0,
+            "maxValue": 0.0
+        },
+        "damageChance": 0.0,
+        "resources": []
+    },
+    {
+        "name": "/Lotus/Language/Locations/DeepSpace",
+        "droneDamage": {
+            "minValue": 0.0,
+            "maxValue": 0.0
+        },
+        "damageChance": 0.0,
+        "resources": []
+    },
+    {
+        "name": "/Lotus/Language/Zariman/ZarimanRegionName",
+        "droneDamage": {
+            "minValue": 0.0,
+            "maxValue": 1.0
+        },
+        "damageChance": 0.0,
+        "resources": [
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Ferrite",
+                "ItemType": "/Lotus/Types/Items/MiscItems/FerritePickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/AlloyPlate",
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlatePickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Gameplay/Zariman/Resources/ZarimanMiscItemA",
+                "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemAPickup",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
+                "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemBPickup",
+                "Rarity": "RARE"
+            }
+        ]
+    },
+    {
+        "name": "/Lotus/Language/Locations/Duviri",
+        "droneDamage": {
+            "minValue": 0.0,
+            "maxValue": 1.0
+        },
+        "damageChance": 0.0,
+        "resources": [
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Ferrite",
+                "ItemType": "/Lotus/Types/Items/MiscItems/FerritePickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/AlloyPlate",
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlatePickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Gameplay/Zariman/Resources/ZarimanMiscItemA",
+                "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemAPickup",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
+                "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemBPickup",
+                "Rarity": "RARE"
+            }
+        ]
+    },
+    {
+        "name": "/Lotus/Language/1999/1999MapName",
+        "droneDamage": {
+            "minValue": 0.0,
+            "maxValue": 1.0
+        },
+        "damageChance": 0.0,
+        "resources": [
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Gameplay/1999Wf/Resources/1999ResourceCommonA",
+                "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceCommonAPickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Gameplay/1999Wf/Resources/1999ResourceCommonB",
+                "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceCommonBPickup",
+                "Rarity": "COMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Gameplay/1999Wf/Resources/1999ResourceUncommonA",
+                "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceUncommonAPickup",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Gameplay/1999Wf/Resources/1999ResourceUncommonB",
+                "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceUncommonBPickup",
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Gameplay/1999Wf/Resources/1999ResourceRareA",
+                "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceRareAPickup",
+                "Rarity": "RARE"
+            }
+        ]
+    }
+]
