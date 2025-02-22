@@ -4553,5 +4553,2929 @@
         "parentName": "/Lotus/Types/Keys/InfestedAladVQuest/AssassinateInfestedAladVKey",
         "codexSecret": true,
         "excludeFromCodex": true
+    },
+    "/Lotus/Types/Keys/1999PlayableDemo/1999PlayableDemoMallKey": {
+        "name": "/Lotus/Language/1999Demo/1999DemoTitle",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/1999PlayableDemo/1999PlayableDemoStreetsKey": {
+        "name": "/Lotus/Language/1999Demo/1999DemoTitle",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "items": [
+                "/Lotus/StoreItems/Types/Items/EmailItems/PlayableDemo1999EmailItem"
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/1999Quest/1999QuestBaseKey": {
+        "name": "[",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/1999Quest/1999QuestHubKey": {
+        "name": "[HC] Hollvania Mall",
+        "parentName": "/Lotus/Types/Keys/1999Quest/1999QuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/AssassinateVayHekKey": {
+        "name": "/Lotus/Language/Items/InfestedAladAssassinateKey",
+        "description": "/Lotus/Language/Items/InfestedAladAssassinateDesc",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/BardQuest/BardQuestBossFightKey": {
+        "name": "/Lotus/Language/BardQuest/BardQuestObjectiveE",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/BardQuest/BardQuestBossFightScoreAttackKey": {
+        "name": "/Lotus/Language/BardQuest/BardQuestObjectiveE",
+        "parentName": "/Lotus/Types/Keys/BardQuest/BardQuestBossFightKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/CiceroCrisisQuest/MissionOne": {
+        "name": "",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/CiceroCrisisQuest/MissionThree": {
+        "name": "",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/CiceroCrisisQuest/MissionTwo": {
+        "name": "",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/ColonistRescueBonusKey": {
+        "name": "/Lotus/Language/G1Quests/ColonistRescueEventMissionTitleHard",
+        "description": "/Lotus/Language/G1Quests/ColonistRescueEventMissionDescHard",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/ColonistRescueEasyKey": {
+        "name": "/Lotus/Language/G1Quests/ColonistRescueEventMissionTitleEasy",
+        "description": "/Lotus/Language/G1Quests/ColonistRescueEventMissionDescEasy",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/ColonistRescueHardKey": {
+        "name": "/Lotus/Language/G1Quests/ColonistRescueEventMissionTitleHard",
+        "description": "/Lotus/Language/G1Quests/ColonistRescueEventMissionDescHard",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/ColonistRescueMediumKey": {
+        "name": "/Lotus/Language/G1Quests/ColonistRescueEventMissionTitleMedium",
+        "description": "/Lotus/Language/G1Quests/ColonistRescueEventMissionDescMedium",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "items": [
+                "/Lotus/StoreItems/Upgrades/Skins/Armor/GrineerTurbines/WraithTurbinesArmArmor"
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/CorpusCaptureKey": {
+        "name": "/Lotus/Language/Items/CorpusVoidKeyName",
+        "description": "/Lotus/Language/Items/CorpusVoidKeyDesc",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DisruptionFortressTestKey": {
+        "name": "DISRUPTION FORTRESS TEST KEY",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DisruptionGalleonInfestedTestKey": {
+        "name": "DISRUPTION GALLEON INFESTED TEST KEY",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DisruptionGalleonTestKey": {
+        "name": "DISRUPTION GALLEON TEST KEY",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DisruptionMoonTestKey": {
+        "name": "DISRUPTION MOON TEST KEY",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DisruptionSettlementTestKey": {
+        "name": "DISRUPTION SETTLEMENT TEST KEY",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DisruptionSortieTestKey": {
+        "name": "DISRUPTION SORTIE TEST KEY",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DisruptionSyndicateTestKey": {
+        "name": "DISRUPTION SYNDICATE TEST KEY",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DisruptionVoidTearTestKey": {
+        "name": "DISRUPTION FISSURE TEST KEY",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DojoCustomObstacleCourseKey": {
+        "name": "/Lotus/Language/Items/DojoKeyName",
+        "description": "/Lotus/Language/Items/DojoKeyDescription",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DojoDuelKey": {
+        "name": "/Lotus/Language/Items/DojoKeyName",
+        "description": "/Lotus/Language/Items/DojoKeyDescription",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DuviriLandscapeFull": {
+        "name": "DUVIRI LANDSCAPE NO QUEST",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DuviriLandscapeStoryOnly": {
+        "name": "DUVIRI LANDSCAPE NO QUEST",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DuviriQuest/DuviriKullervoEventKey": {
+        "name": "/Lotus/Language/Duviri/ThePrison",
+        "parentName": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DuviriQuest/DuviriKullervoEventKeyHard": {
+        "name": "/Lotus/Language/Duviri/ThePrison",
+        "parentName": "/Lotus/Types/Keys/DuviriQuest/DuviriKullervoEventKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DuviriQuest/DuviriQuestBaseKey": {
+        "name": "[",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DuviriWF": {
+        "name": "DUVIRI LANDSCAPE WARFRAME MODE",
+        "parentName": "/Lotus/Types/Keys/DuviriLandscapeFull",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EntratiLab/EntratiCornerDevTestKey": {
+        "name": "Exterminate Test Key",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EntratiLab/EntratiExterminateTestKey": {
+        "name": "Exterminate Test Key",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EntratiLab/EntratiQuestBaseKey": {
+        "name": "[",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EntratiLab/EntratiQuestHubKey": {
+        "name": "[",
+        "parentName": "/Lotus/Types/Keys/EntratiLab/EntratiQuestBaseKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EntratiLab/EntratiSurvivalTestKey": {
+        "name": "Survival Test Key",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EntratiLab/EntratiSwarmOctopedeATestKey": {
+        "name": "Exterminate Test Key",
+        "parentName": "/Lotus/Types/Keys/EntratiLab/EntratiSwarmTestKey",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EntratiLab/EntratiSwarmOctopedeBTestKey": {
+        "name": "Exterminate Test Key",
+        "parentName": "/Lotus/Types/Keys/EntratiLab/EntratiSwarmTestKey",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EntratiLab/EntratiSwarmOctopedeCTestKey": {
+        "name": "Exterminate Test Key",
+        "parentName": "/Lotus/Types/Keys/EntratiLab/EntratiSwarmTestKey",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EntratiLab/EntratiSwarmTestKey": {
+        "name": "Exterminate Test Key",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EventKeyOrokinDerelictSabotageForest": {
+        "name": "Test Derelict Sabotage Forest",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EventKeyOrokinDerelictSabotageSettlement": {
+        "name": "Test Derelict Sabotage Settlement",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EventKeyOrokinDerelictSabotageSettlementChallenge": {
+        "name": "Test Derelict Sabotage Settlement",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/EventKeyOrokinDerelictSabotageShipyards": {
+        "name": "Test Derelict Sabotage Shipyards",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/ForestHaloweenCacheExterminate": {
+        "name": "Forest Exterminate",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/FrameFighterKey": {
+        "name": "Frame Fighter",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/FrameFighterSoloKey": {
+        "name": "Frame Fighter Solo",
+        "parentName": "/Lotus/Types/Keys/FrameFighterKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/GetClemQuest/GetClemWeeklyMissionKeyA": {
+        "name": "/Lotus/Language/G1Quests/GetClemWeeklyObjective",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 10000
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/GetClemQuest/GetClemWeeklyMissionKeyB": {
+        "name": "/Lotus/Language/G1Quests/GetClemWeeklyObjective",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 10000
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/GetClemQuest/GetClemWeeklyMissionKeyC": {
+        "name": "/Lotus/Language/G1Quests/GetClemWeeklyObjective",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 10000
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/GetClemQuest/GetClemWeeklyMissionKeyD": {
+        "name": "/Lotus/Language/G1Quests/GetClemWeeklyObjective",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/GetClemQuest/GetClemWeeklyMissionKeyE": {
+        "name": "/Lotus/Language/G1Quests/GetClemWeeklyObjective",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/GlassQuest/GlassQuestPlainsKey": {
+        "name": "/Lotus/Language/GlassQuest/M2KeychainObjective",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/GrendelKeyA": {
+        "name": "/Lotus/Language/Items/GrendelChassisKeyName",
+        "description": "/Lotus/Language/Items/GrendelKeyDesc",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": false,
+        "missionReward": {
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/GrendelChassisBlueprint"
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/GrendelKeyB": {
+        "name": "/Lotus/Language/Items/GrendelHelmetKeyName",
+        "description": "/Lotus/Language/Items/GrendelKeyDesc",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": false,
+        "missionReward": {
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/GrendelHelmetBlueprint"
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/GrendelKeyC": {
+        "name": "/Lotus/Language/Items/GrendelSystemKeyName",
+        "description": "/Lotus/Language/Items/GrendelKeyDesc",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": false,
+        "missionReward": {
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/GrendelSystemsBlueprint"
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/IndexQuest/IndexDefenseQuestKey": {
+        "name": "/Lotus/Language/G1Quests/IndexTitle",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/InfestedCorpusHiveEventKey": {
+        "name": "/Lotus/Language/G1Quests/InfestedCorpusHiveEventName",
+        "parentName": "/Lotus/Types/Keys/TestKeyInfestedCorpusHive",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestBaseKey": {
+        "name": "[HC]JS Base",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/JadeShadowsEventMission": {
+        "name": "ProjectMutalistBonus",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/KahlMissions/KahlCrewshipEarthKey": {
+        "name": "DEFENSE TEST KEY",
+        "description": "/Lotus/Language/KahlQuest/Mission_Earth_Name",
+        "parentName": "/Lotus/Types/Keys/KahlMissions/KahlMissionKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/KahlMissions/KahlGrineerForestThumperKey": {
+        "name": "/Lotus/Language/KahlQuest/Mission_Forest_Name",
+        "description": "/Lotus/Language/KahlQuest/Mission_Forest_Desc",
+        "parentName": "/Lotus/Types/Keys/KahlMissions/KahlMissionKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/KahlMissions/KahlMissionKeyBase": {
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/KahlMissions/KahlNarmerVenusKey": {
+        "name": "/Lotus/Language/KahlQuest/Mission_Venus_Name",
+        "description": "/Lotus/Language/KahlQuest/Mission_Venus_Desc",
+        "parentName": "/Lotus/Types/Keys/KahlMissions/KahlMissionKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/KahlMissions/KahlSentientDevourerKey": {
+        "name": "/Lotus/Language/KahlQuest/Mission_Devourer_Name",
+        "description": "/Lotus/Language/KahlQuest/Mission_Devourer_Desc",
+        "parentName": "/Lotus/Types/Keys/KahlMissions/KahlMissionKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/KelaEventBonusKey": {
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 1
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/KelaKeys/GalleonArena": {
+        "name": "KelaTestKey - Galleon",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/KelaKeys/OceanArena": {
+        "name": "KelaTestKey - Ocean",
+        "parentName": "/Lotus/Types/Keys/KelaKeys/GalleonArena",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/KelaKeys/OceanArenaPVEDM": {
+        "name": "KelaTestKey - Ocean(PVEDM)",
+        "parentName": "/Lotus/Types/Keys/KelaKeys/OceanArena",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/KelaKeys/ShipyardsArena": {
+        "name": "KelaTestKey - Shipyards",
+        "parentName": "/Lotus/Types/Keys/KelaKeys/GalleonArena",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/LanternEndlessEventKeyA": {
+        "name": "/Lotus/Language/Events/TacAlertHalloweenLantern",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/LanternEndlessEventKeyB": {
+        "name": "/Lotus/Language/Events/TacAlertHalloweenLantern",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/LanternEndlessEventKeyC": {
+        "name": "/Lotus/Language/Events/TacAlertHalloweenLantern",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/LanternEndlessEventKeyD": {
+        "name": "/Lotus/Language/Events/TacAlertHalloweenLanternEndless",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/LastWishDefenseKey": {
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/Mastery24TestKey": {
+        "name": "MR 24 TEST KEY",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/MechSurvivalCorpusShip": {
+        "name": "/Lotus/Language/Events/MechSurvivalName",
+        "description": "/Lotus/Language/Events/MechSurvivalDesc",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/MechSurvivalCorpusShipEndurance": {
+        "name": "/Lotus/Language/Events/MechSurvivalName",
+        "description": "/Lotus/Language/Events/MechSurvivalDesc",
+        "parentName": "/Lotus/Types/Keys/MechSurvivalCorpusShip",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/MechSurvivalGasCity": {
+        "name": "/Lotus/Language/Events/MechSurvivalName",
+        "description": "/Lotus/Language/Events/MechSurvivalDesc",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/MechSurvivalGrineerGalleon": {
+        "name": "/Lotus/Language/Events/MechSurvivalName",
+        "description": "/Lotus/Language/Events/MechSurvivalDesc",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/MechSurvivalGrineerGalleonEndurance": {
+        "name": "/Lotus/Language/Events/MechSurvivalName",
+        "description": "/Lotus/Language/Events/MechSurvivalDesc",
+        "parentName": "/Lotus/Types/Keys/MechSurvivalGrineerGalleon",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/MechSurvivalMissionTest": {
+        "name": "/Lotus/Language/Events/MechSurvivalName",
+        "description": "/Lotus/Language/Events/MechSurvivalDesc",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieKeyAmarAssassinate": {
+        "name": "[HC] Amar Assassinate",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieTestKeyAmarBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieKeyAmarCapture": {
+        "name": "[HC] Amar Capture",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieTestKeyAmarBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieKeyAmarDefense": {
+        "name": "[HC] Amar Defense",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieTestKeyAmarBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieKeyAmarDisruption": {
+        "name": "[HC] Amar Disruption",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieTestKeyAmarBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieKeyAmarExcavation": {
+        "name": "[HC] Amar Excavation",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieTestKeyAmarBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieKeyAmarExterminate": {
+        "name": "[HC] Amar Exterminate",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieTestKeyAmarBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieKeyAmarInterception": {
+        "name": "[HC] Amar Interception",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieTestKeyAmarBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieKeyAmarMobileDefense": {
+        "name": "[HC] Amar Mobile Defense",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieTestKeyAmarBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieKeyAmarRescue": {
+        "name": "[HC] Amar Rescue",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieTestKeyAmarBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieKeyAmarSabotage": {
+        "name": "[HC] Amar Sabotage",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieTestKeyAmarBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieKeyAmarSpy": {
+        "name": "[HC] Amar Spy",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieTestKeyAmarBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieTestKeyAmarBase": {
+        "name": "[HC] Narmer Sortie Test Key Base",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/NarmerSortieTestKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Boreal/NarmerSortieKeyBorealAssassinate": {
+        "name": "[HC] Boreal Assassinate",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Boreal/NarmerSortieTestKeyBorealBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Boreal/NarmerSortieKeyBorealCapture": {
+        "name": "[HC] Boreal Capture",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Boreal/NarmerSortieTestKeyBorealBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Boreal/NarmerSortieKeyBorealDefense": {
+        "name": "[HC] Boreal Defense",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Boreal/NarmerSortieTestKeyBorealBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Boreal/NarmerSortieKeyBorealExcavation": {
+        "name": "[HC] Narmer Sortie Test Key Base",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Boreal/NarmerSortieTestKeyBorealBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Boreal/NarmerSortieKeyBorealExterminate": {
+        "name": "[HC] Boreal Exterminate",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Boreal/NarmerSortieTestKeyBorealBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Boreal/NarmerSortieKeyBorealInterception": {
+        "name": "[HC] Boreal Interception",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Boreal/NarmerSortieTestKeyBorealBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Boreal/NarmerSortieKeyBorealMobileDefense": {
+        "name": "[HC] Boreal Mobile Defense",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Boreal/NarmerSortieTestKeyBorealBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Boreal/NarmerSortieKeyBorealSabotage": {
+        "name": "[HC] Boreal Sabotage",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Boreal/NarmerSortieTestKeyBorealBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Boreal/NarmerSortieKeyBorealSpy": {
+        "name": "[HC] Boreal Spy",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Boreal/NarmerSortieTestKeyBorealBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Boreal/NarmerSortieTestKeyBorealBase": {
+        "name": "[HC] Narmer Sortie Test Key Base",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/NarmerSortieTestKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/NarmerSortieTestKeyBase": {
+        "name": "[HC] Narmer Sortie Test Key Base",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieKeyNiraAssassinate": {
+        "name": "[HC] Nira Assassinate",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieTestKeyNiraBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieKeyNiraCapture": {
+        "name": "[HC] Nira Capture",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieTestKeyNiraBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieKeyNiraDefense": {
+        "name": "[HC] Nira Defense",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieTestKeyNiraBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieKeyNiraDisruption": {
+        "name": "[HC] Nira Disruption",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieTestKeyNiraBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieKeyNiraExterminate": {
+        "name": "[HC] Nira Exterminate",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieTestKeyNiraBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieKeyNiraInterception": {
+        "name": "[HC] Nira Interception",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieTestKeyNiraBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieKeyNiraMobileDefense": {
+        "name": "[HC] Nira Mobile Defense",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieTestKeyNiraBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieKeyNiraRescue": {
+        "name": "[HC] Nira Rescue",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieTestKeyNiraBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieKeyNiraSabotage": {
+        "name": "[HC] Nira Sabotage",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieTestKeyNiraBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieKeyNiraSpy": {
+        "name": "[HC] Nira Spy",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieTestKeyNiraBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieKeyNiraSurvival": {
+        "name": "[HC] Nira Survival",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieTestKeyNiraBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieTestKeyNiraBase": {
+        "name": "[HC] Narmer Sortie Test Key Base",
+        "parentName": "/Lotus/Types/Keys/NarmerSorties/NarmerSortieTestKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewPlayerExperienceTest": {
+        "name": "New Player Experience Test",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/PostWarCetus": {
+        "name": "PostWarPOETest",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/PostWarPOETest": {
+        "name": "PostWarPOETest",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/PostWarVenusTest": {
+        "name": "PostWarVenusTest",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/TNWActTwoArchonAmar": {
+        "name": "/Lotus/Language/NewWar/NewWarP2ArchonAmar",
+        "description": "/Lotus/Language/NewWar/NewWarP2ArchonDesc",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/TNWActTwoArchonBoreal": {
+        "name": "/Lotus/Language/NewWar/NewWarP2ArchonBoreal",
+        "description": "/Lotus/Language/NewWar/NewWarP2ArchonDesc",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/TNWActTwoArchonNira": {
+        "name": "/Lotus/Language/NewWar/NewWarP2ArchonNira",
+        "description": "/Lotus/Language/NewWar/NewWarP2ArchonDesc",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/TNWActTwoZarimanLockdown": {
+        "name": "/Lotus/Language/NewWar/NewWarP2M9",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NewWarQuest/TNWTeshinTennoCon": {
+        "name": "/Lotus/Language/NewWar/NewWarP1M4",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NightmareKeyShipyardsRetrieval": {
+        "name": "/Lotus/Language/Items/NightmareTestKeyShipyardsRetrieval",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/Nightwave/GlassmakerBossFightKey": {
+        "name": "/Lotus/Language/Locations/GlassmakerBossFight",
+        "description": "/Lotus/Language/Locations/GlassmakerBossFightDesc",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinCaptureKeyA": {
+        "name": "/Lotus/Language/Items/OrokinCaptureKeyAName",
+        "description": "/Lotus/Language/Items/OrokinCaptureKeyADesc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 7500
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinCaptureKeyB": {
+        "name": "/Lotus/Language/Items/OrokinCaptureKeyBName",
+        "description": "/Lotus/Language/Items/OrokinCaptureKeyBDesc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 11000
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinCaptureKeyC": {
+        "name": "/Lotus/Language/Items/OrokinCaptureKeyCName",
+        "description": "/Lotus/Language/Items/OrokinCaptureKeyCDesc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 17500
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinDefenseKeyA": {
+        "name": "/Lotus/Language/Items/OrokinKeyFName",
+        "description": "/Lotus/Language/Items/OrokinKeyFDescription",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 7500
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinDefenseKeyB": {
+        "name": "/Lotus/Language/Items/OrokinKeyGName",
+        "description": "/Lotus/Language/Items/OrokinKeyGDescription",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 15000
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinDefenseKeyC": {
+        "name": "/Lotus/Language/Items/OrokinKeyHName",
+        "description": "/Lotus/Language/Items/OrokinKeyHDescription",
+        "parentName": "/Lotus/Types/Keys/OrokinDefenseKeyB",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 17500
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinKeyA": {
+        "name": "/Lotus/Language/Items/OrokinKeyAName",
+        "description": "/Lotus/Language/Items/OrokinKeyADescription",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 7500
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinKeyB": {
+        "name": "/Lotus/Language/Items/OrokinSurvivalKey1",
+        "description": "/Lotus/Language/Items/OrokinSurvivalKey1Desc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 7500
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinKeyC": {
+        "name": "/Lotus/Language/Items/OrokinKeyCName",
+        "description": "/Lotus/Language/Items/OrokinKeyCDescription",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 11000
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinKeyD": {
+        "name": "/Lotus/Language/Items/OrokinSurvivalKey2",
+        "description": "/Lotus/Language/Items/OrokinSurvivalKey2Desc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 11000
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinKeyE": {
+        "name": "/Lotus/Language/Items/OrokinKeyEName",
+        "description": "/Lotus/Language/Items/OrokinKeyEDescription",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 17500
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinMobileDefenseKeyA": {
+        "name": "/Lotus/Language/Items/OrokinMobileDefenseKeyAName",
+        "description": "/Lotus/Language/Items/OrokinMobileDefenseKeyADesc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 7500
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinMobileDefenseKeyB": {
+        "name": "/Lotus/Language/Items/OrokinMobileDefenseKeyBName",
+        "description": "/Lotus/Language/Items/OrokinMobileDefenseKeyBDesc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 11000
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinMobileDefenseKeyC": {
+        "name": "/Lotus/Language/Items/OrokinMobileDefenseKeyCName",
+        "description": "/Lotus/Language/Items/OrokinMobileDefenseKeyCDesc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 17500
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinTowerKeys/OrokinTowerCaptureTier4Key": {
+        "name": "/Lotus/Language/Items/OrokinCaptureT4Name",
+        "description": "/Lotus/Language/Items/OrokinCaptureT4Desc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 17500
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinTowerKeys/OrokinTowerDefenseTier4Key": {
+        "name": "/Lotus/Language/Items/OrokinDefenseT4Name",
+        "description": "/Lotus/Language/Items/OrokinDefenseT4Desc",
+        "parentName": "/Lotus/Types/Keys/OrokinDefenseKeyB",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 17500
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinTowerKeys/OrokinTowerExterminateTier4Key": {
+        "name": "/Lotus/Language/Items/OrokinExterminateT4Name",
+        "description": "/Lotus/Language/Items/OrokinExterminateT4Desc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 17500
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinTowerKeys/OrokinTowerInterceptionTier4Key": {
+        "name": "/Lotus/Language/Items/OrokinInterceptionT4Name",
+        "description": "/Lotus/Language/Items/OrokinInterceptionT4Desc",
+        "parentName": "/Lotus/Types/Keys/OrokinDefenseKeyB",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 17500
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinTowerKeys/OrokinTowerMobileDefenseTier4Key": {
+        "name": "/Lotus/Language/Items/OrokinMobileDefenseT4Name",
+        "description": "/Lotus/Language/Items/OrokinMobileDefenseT4Desc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 17500
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinTowerKeys/OrokinTowerSabotageTier1Key": {
+        "name": "/Lotus/Language/Items/OrokinSabotageT1Name",
+        "description": "/Lotus/Language/Items/OrokinSabotageT1Desc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 7500
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinTowerKeys/OrokinTowerSabotageTier2Key": {
+        "name": "/Lotus/Language/Items/OrokinSabotageT2Name",
+        "description": "/Lotus/Language/Items/OrokinSabotageT2Desc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 11000
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinTowerKeys/OrokinTowerSabotageTier3Key": {
+        "name": "/Lotus/Language/Items/OrokinSabotageT3Name",
+        "description": "/Lotus/Language/Items/OrokinSabotageT3Desc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 17500
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinTowerKeys/OrokinTowerSabotageTier4Key": {
+        "name": "/Lotus/Language/Items/OrokinSabotageT4Name",
+        "description": "/Lotus/Language/Items/OrokinSabotageT4Desc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 17500
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinTowerKeys/OrokinTowerSurvivalTier4Key": {
+        "name": "/Lotus/Language/Items/OrokinSurvivalT4Name",
+        "description": "/Lotus/Language/Items/OrokinSurvivalT4Desc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 17500
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/OrokinTowerSurvivalT3Key": {
+        "name": "/Lotus/Language/Items/OrokinSurvivalKey3",
+        "description": "/Lotus/Language/Items/OrokinSurvivalKey3Desc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 17500
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/ProjectSinisterBonusKey": {
+        "name": "/Lotus/Language/Items/ProjectSinisterBonusKey",
+        "parentName": "/Lotus/Types/Keys/ProjectSinisterFinalKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/ProjectSinisterFinalKey": {
+        "name": "/Lotus/Language/Items/ProjectSinisterFinalKey",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/ProjectSinisterIntroKeyA": {
+        "name": "/Lotus/Language/Items/ProjectSinisterIntroKeyA",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/ProjectSinisterIntroKeyB": {
+        "name": "/Lotus/Language/Items/ProjectSinisterIntroKeyB",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/ProjectSinisterIntroKeyC": {
+        "name": "/Lotus/Language/Items/ProjectSinisterIntroKeyA",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/ProjectSinisterIntroKeyD": {
+        "name": "/Lotus/Language/Items/ProjectSinisterIntroKeyD",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/QuestKeyA": {
+        "name": "Template Quest Mission 1",
+        "description": "Template mission description",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 7500
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/QuestKeyB": {
+        "name": "Template Quest Mission 2",
+        "description": "Template mission description",
+        "parentName": "/Lotus/Types/Keys/QuestKeyA",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 7500
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/QuestKeyC": {
+        "name": "Template Quest Mission 3",
+        "description": "Template mission description",
+        "parentName": "/Lotus/Types/Keys/QuestKeyA",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 11000
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/RaidKeys/BaseRaidKey": {
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/RaidKeys/Raid01Stage01KeyItem": {
+        "name": "/Lotus/Language/Items/GrineerTrialsName",
+        "description": "/Lotus/Language/Items/GrineerTrialsDesc",
+        "parentName": "/Lotus/Types/Keys/RaidKeys/BaseRaidKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/RaidKeys/Raid01Stage02KeyItem": {
+        "name": "/Lotus/Language/Items/GrineerTrialsName",
+        "description": "/Lotus/Language/Items/GrineerTrialsDesc",
+        "parentName": "/Lotus/Types/Keys/RaidKeys/BaseRaidKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/RaidKeys/Raid01Stage03KeyItem": {
+        "name": "/Lotus/Language/Items/GrineerTrialsName",
+        "description": "/Lotus/Language/Items/GrineerTrialsDesc",
+        "parentName": "/Lotus/Types/Keys/RaidKeys/BaseRaidKey",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 200000
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/RaidKeys/Raid01Stage03NightmareKeyItem": {
+        "name": "/Lotus/Language/Items/GrineerNightmareTrialsName",
+        "description": "/Lotus/Language/Items/GrineerTrialsDesc",
+        "parentName": "/Lotus/Types/Keys/RaidKeys/Raid01Stage03KeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 250000
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/RailjackKeyHuntMission": {
+        "name": "/Lotus/Language/Quests/ReliquaryKeyHunt",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "items": [
+                "/Lotus/StoreItems/Types/Items/ShipFeatureItems/RailjackKeyShipFeatureItem"
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/RelayEvent1KeyA1": {
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemCount": 1,
+                    "ItemType": "/Lotus/Types/Items/RelayRebuild/PhaseOneWaterElement"
+                }
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/RelayEvent1KeyA2": {
+        "parentName": "/Lotus/Types/Keys/RelayEvent1KeyA1",
+        "codexSecret": true,
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemCount": 1,
+                    "ItemType": "/Lotus/Types/Items/RelayRebuild/PhaseOneWaterElement"
+                }
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/RelayEvent1KeyA3": {
+        "parentName": "/Lotus/Types/Keys/RelayEvent1KeyA1",
+        "codexSecret": true,
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemCount": 1,
+                    "ItemType": "/Lotus/Types/Items/RelayRebuild/PhaseOneWaterElement"
+                }
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/RelayEvent1KeyB1": {
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemCount": 1,
+                    "ItemType": "/Lotus/Types/Items/RelayRebuild/PhaseOneFireElement"
+                }
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/RelayEvent1KeyB2": {
+        "parentName": "/Lotus/Types/Keys/RelayEvent1KeyB1",
+        "codexSecret": true,
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemCount": 1,
+                    "ItemType": "/Lotus/Types/Items/RelayRebuild/PhaseOneFireElement"
+                }
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/RelayEvent1KeyB3": {
+        "parentName": "/Lotus/Types/Keys/RelayEvent1KeyB1",
+        "codexSecret": true,
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemCount": 1,
+                    "ItemType": "/Lotus/Types/Items/RelayRebuild/PhaseOneFireElement"
+                }
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/RelayReconstructionKeys/EmberRelayKey": {
+        "name": "Relay Attack",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/SettlementTestKey": {
+        "name": "/Lotus/Language/Items/OrokinKeyAName",
+        "description": "/Lotus/Language/Items/OrokinKeyADescription",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/SimulacrumTestKey": {
+        "name": "DEFENSE TEST KEY",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/SortieBossKeyLephantis": {
+        "name": "/Lotus/Language/Items/OrokinDerelictBossKey",
+        "description": "/Lotus/Language/Items/OrokinDerelictBossKeyDesc",
+        "parentName": "/Lotus/Types/Game/KeyItems/DerelictKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 7500
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/SortieBossKeyPhorid": {
+        "name": "/Lotus/Language/Items/PhoridBossKey",
+        "description": "/Lotus/Language/Items/PhoridBossKey",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/StalkerHideoutKey": {
+        "name": "Stalker Hideout",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/SyndicateCacheHuntBaseKeyItem": {
+        "name": "/Lotus/Language/GameModes/CacheHuntKeyItemName",
+        "description": "/Lotus/Language/GameModes/CacheHuntKeyItemDesc",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": false,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyAnniversary2017A": {
+        "name": "ProjectMutalistBonus",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyAnniversary2017B": {
+        "name": "ProjectMutalistBonus",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyAnniversary2017C": {
+        "name": "ProjectMutalistBonus",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyAnniversary2018D": {
+        "name": "ProjectMutalistBonus",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyAnniversary2019E": {
+        "name": "ProjectMutalistBonus",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyAnniversary2020F": {
+        "name": "Anniversary2020A",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyAnniversary2020G": {
+        "name": "Anniversary2020B",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyAnniversary2020H": {
+        "name": "Anniversary2020C",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyAnniversary2021I": {
+        "name": "Anniversary2021A",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyAnniversary2022J": {
+        "name": "Anniversary2022A",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyAnniversary2023k": {
+        "name": "Anniversary2023A",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyAnniversary2024ChallengeModeA": {
+        "name": "Anniversary2024A",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyAnniversary2024ChallengeModeB": {
+        "name": "Anniversary2024A",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyAnniversary2024L": {
+        "name": "Anniversary2024A",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyBlackoutBonus": {
+        "name": "Blackout",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyBlackoutEasy",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyBlackoutEasy": {
+        "name": "Blackout",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyBlackoutHard": {
+        "name": "Blackout",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyBlackoutEasy",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyHalloween": {
+        "name": "/Lotus/Language/G1Quests/TacAlertHalloweenTitle",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyHalloweenBonus": {
+        "name": "/Lotus/Language/G1Quests/TacAlertHalloweenTitle",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyHalloween",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyHalloweenTimeAttack": {
+        "name": "/Lotus/Language/G1Quests/TacAlertHalloweenTitle",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyHalloweenBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyIcePlanetCaptureBonus": {
+        "name": "Ice Planet Tac Alert Easy",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyIcePlanetCaptureEasy",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyIcePlanetCaptureEasy": {
+        "name": "Ice Planet Tac Alert Easy",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyIcePlanetCaptureHard": {
+        "name": "Ice Planet Tac Alert Easy",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyIcePlanetCaptureEasy",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyIcePlanetCaptureMed": {
+        "name": "Ice Planet Tac Alert Easy",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyIcePlanetCaptureEasy",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyMacheteMayhemBonus": {
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyMacheteMayhemTwo",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyMacheteMayhemOne": {
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyMacheteMayhemThree": {
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyMacheteMayhemTwo",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyMacheteMayhemTwo": {
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyMacheteMayhemOne",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyMutalistExecution": {
+        "name": "MutalistExecution",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyMutalistExecutionBonus": {
+        "name": "MutalistExecutionBonus",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyMutalistExecutionHard": {
+        "name": "MutalistExecution",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProjectFriendlyFire": {
+        "name": "ProjectMutalistBonus",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProjectFriendlyFireBonus": {
+        "name": "ProjectMutalistBonus",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectFriendlyFire",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProjectMutalistBonus": {
+        "name": "ProjectMutalistBonus",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProjectMutalistEasy": {
+        "name": "ProjectMutalistEasy",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProjectMutalistHard": {
+        "name": "ProjectMutalistHard",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProjectMutalistMedium": {
+        "name": "ProjectMutalistMedium",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProjectNightwatch": {
+        "name": "ProjectMutalistBonus",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProjectNightwatchB": {
+        "name": "ProjectMutalistBonus",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProjectNightwatchBBonus": {
+        "name": "ProjectMutalistBonus",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProjectNightwatchBEasy": {
+        "name": "ProjectMutalistBonus",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProjectNightwatchBHard": {
+        "name": "ProjectMutalistBonus",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProjectNightwatchBonus": {
+        "name": "ProjectMutalistBonus",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProjectNightwatchEasy": {
+        "name": "ProjectMutalistBonus",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProjectNightwatchHard": {
+        "name": "ProjectMutalistBonus",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProjectPanacea": {
+        "name": "ProjectMutalistBonus",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus": {
+        "name": "ProjectMutalistBonus",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProjectUndermine": {
+        "name": "UndermineTacAlert",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProjectUndermineBonus": {
+        "name": "UndermineTacAlertBonus",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectUndermine",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProjectUndermineHard": {
+        "name": "UndermineTacAlert",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectUndermine",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProxyRebellionFour": {
+        "name": "/Lotus/Language/Alerts/TacAlertProxyRebellion",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProxyRebellionOne",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProxyRebellionOne": {
+        "name": "/Lotus/Language/Alerts/TacAlertProxyRebellion",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProxyRebellionThree": {
+        "name": "/Lotus/Language/Alerts/TacAlertProxyRebellion",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProxyRebellionOne",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyProxyRebellionTwo": {
+        "name": "/Lotus/Language/Alerts/TacAlertProxyRebellion",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProxyRebellionOne",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyWaterFightA": {
+        "name": "/Lotus/Language/Alerts/TacAlertWaterFight",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemCount": 10,
+                    "ItemType": "/Lotus/Types/Items/MiscItems/WaterFightBucks"
+                }
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyWaterFightB": {
+        "name": "/Lotus/Language/Alerts/TacAlertWaterFight",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyWaterFightA",
+        "codexSecret": true,
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemCount": 20,
+                    "ItemType": "/Lotus/Types/Items/MiscItems/WaterFightBucks"
+                }
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyWaterFightC": {
+        "name": "/Lotus/Language/Alerts/TacAlertWaterFight",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyWaterFightA",
+        "codexSecret": true,
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemCount": 30,
+                    "ItemType": "/Lotus/Types/Items/MiscItems/WaterFightBucks"
+                }
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyWaterFightD": {
+        "name": "/Lotus/Language/Alerts/TacAlertWaterFight",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyWaterFightA",
+        "codexSecret": true,
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemCount": 30,
+                    "ItemType": "/Lotus/Types/Items/MiscItems/WaterFightBucks"
+                }
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertRelayReconRewardPhaseB": {
+        "name": "ProjectMutalistBonus",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "items": [
+                "/Lotus/StoreItems/Types/Items/Events/RelayReconstructionItemB"
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertRelayReconRewardPhaseC": {
+        "name": "ProjectMutalistBonus",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TenYearAnniversary/TacAlertKeyTenYearAnniversaryBonus": {
+        "name": "TenYearBonus",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TenYearAnniversary/TacAlertKeyTenYearAnniversaryM1A": {
+        "name": "TenYearM1A",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TenYearAnniversary/TacAlertKeyTenYearAnniversaryM1B": {
+        "name": "TenYearM1B",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TenYearAnniversary/TacAlertKeyTenYearAnniversaryM1C": {
+        "name": "TenYearM1C",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TenYearAnniversary/TacAlertKeyTenYearAnniversaryM2A": {
+        "name": "TenYearM2A",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TenYearAnniversary/TacAlertKeyTenYearAnniversaryM2B": {
+        "name": "TenYearM2B",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TenYearAnniversary/TacAlertKeyTenYearAnniversaryM2C": {
+        "name": "TenYearM2C",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TenYearAnniversary/TacAlertKeyTenYearAnniversaryM3A": {
+        "name": "TenYearM3A",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TenYearAnniversary/TacAlertKeyTenYearAnniversaryM3B": {
+        "name": "TenYearM3B",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TenYearAnniversary/TacAlertKeyTenYearAnniversaryM3C": {
+        "name": "TenYearM3C",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TenYearAnniversary/TacAlertKeyTenYearAnniversaryM4A": {
+        "name": "TenYearM4A",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TenYearAnniversary/TacAlertKeyTenYearAnniversaryM4B": {
+        "name": "TenYearM4B",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TenYearAnniversary/TacAlertKeyTenYearAnniversaryM4C": {
+        "name": "TenYearM4C",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TenYearAnniversary/TacAlertKeyTenYearAnniversaryM5A": {
+        "name": "TenYearM5A",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TenYearAnniversary/TacAlertKeyTenYearAnniversaryM5B": {
+        "name": "TenYearM5B",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TenYearAnniversary/TacAlertKeyTenYearAnniversaryM5C": {
+        "name": "TenYearM5C",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyA": {
+        "name": "DEFENSE TEST KEY",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyAmbulas": {
+        "name": "Ambulas Test Key",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyB": {
+        "name": "SURVIVAL TEST KEY",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyC": {
+        "name": "DERELICT EXTERMINATE TEST KEY",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyClemRescue": {
+        "name": "GET CLEM RESCUE",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyClemSabotage": {
+        "name": "GET CLEM SABOTAGE",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyClemSurvival": {
+        "name": "GET CLEM SURVIVAL",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyCorpusArena": {
+        "name": "Corpus Arena",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyCorpusArenaEndless": {
+        "name": "Corpus Arena Endless Mode",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyCorpusExcavation": {
+        "name": "ICE EXCAVATION",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyCorpusOutpostRescueMed": {
+        "name": "Corpus Outpost Rescue (Medium)",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyCorpusToGrineerTeleport": {
+        "name": "FOR THE CORPUS!!",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyCrewBattleSentientSquadLink": {
+        "name": "/Lotus/Language/SquadLink/SpaceMissionTitle",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyCTFCephalonSpire": {
+        "name": "TestCTFOutpost",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyCTFCorpusGas": {
+        "name": "TestCTFOutpost",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyCTFDerelict": {
+        "name": "TestCTFOutpost",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyCTFOrokin": {
+        "name": "TestCTFOutpost",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyCTFOutpost": {
+        "name": "TestCTFOutpost",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyDuviriLandscape": {
+        "name": "DUVIRI LANDSCAPE NO QUEST",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyDuviriLandscapeAngry": {
+        "name": "DUVIRI LANDSCAPE ANGRY",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyDuviriLandscapeHappy": {
+        "name": "DUVIRI LANDSCAPE HAPPY",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyDuviriLandscapeHeroic": {
+        "name": "DUVIRI LANDSCAPE HEROIC",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyDuviriLandscapeJealous": {
+        "name": "DUVIRI LANDSCAPE JEALOUS",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyDuviriLandscapeNoStory": {
+        "name": "DUVIRI LANDSCAPE NO QUEST",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyDuviriLandscapeSad": {
+        "name": "DUVIRI LANDSCAPE SAD",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyDuviriLandscapeScared": {
+        "name": "DUVIRI LANDSCAPE SCARED",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyDuviriPressDemo": {
+        "name": "DUVIRI LANDSCAPE HAPPY",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyEidolon": {
+        "name": "/Lotus/Language/Locations/EidolonPlains",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyErisBoss": {
+        "name": "/Lotus/Language/Items/GolemAssassinateKey",
+        "description": "/Lotus/Language/ItemDescription/GolemAssassinateKeyDesc",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyFomorianAssault": {
+        "name": "FOMORIAN ASSAULT",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyForestBoss": {
+        "name": "Vay Hek Assassinate",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "missionReward": {
+            "items": [
+                ""
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyForestCapture": {
+        "name": "Forest Capture",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyForestEndlessDefense": {
+        "name": "Forest Defense",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyForestEvent": {
+        "name": "/Lotus/Language/G1Quests/ForestEventNodeName",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyForestExcavationRemastered": {
+        "name": "Forest Excavation Remastered Test",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyForestExtermination": {
+        "name": "Forest Exterminate",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyForestMobileDefense": {
+        "name": "Forest MobileDefense",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyForestOpLinkFragment": {
+        "name": "/Lotus/Language/SquadLink/GroundMissionTitle",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyForestSurvival": {
+        "name": "Forest Survival",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyForestTerritories": {
+        "name": "Forest Territories",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyGasCapture": {
+        "name": "GAS CAPTURE TEST",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyGasCounterIntel": {
+        "name": "GAS COUNTER INTEL TEST",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyGasDefense": {
+        "name": "GAS ENDLESS DEFENSE TEST",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyGasExterminate": {
+        "name": "GAS EXTERMINATE TEST",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyGasIntel": {
+        "name": "GAS INTEL TEST",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyGasMobileDefense": {
+        "name": "GAS MOBILE DEFENSE TEST",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyGasRescue": {
+        "name": "GAS RESCUE TEST",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyGasSabotage": {
+        "name": "GAS SABOTAGE TEST",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyGasSurvival": {
+        "name": "GAS CAPTURE TEST",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyGrineerCoreSabotage": {
+        "name": "GET CLEM SURVIVAL",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyGrineerGalleonBoss": {
+        "name": "Grineer Galleon Boss TEST",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyGrineerSpaceExtermination": {
+        "name": "SPACE GRN EXTERMINATE",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyGrineerSpaceInterception": {
+        "name": "SPACE GRN INTERCEPTION",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyGrineerSpacePursuit": {
+        "name": "SPACE GRN PURSUIT",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyGrineerSpaceSabotage": {
+        "name": "SPACE GRN SABOTAGE",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyGrineerToCorpusInvasionIntel": {
+        "name": "INTEL V2 TEST KEY",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyGrineerToCorpusTorpedo": {
+        "name": "RUK RUK RUK!",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyGrnForestExcavation": {
+        "name": "FOREST EXCAVATION",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyGrnSettlementExcavation": {
+        "name": "SETTLEMENT EXCAVATION",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyHyenaPack": {
+        "name": "Hyena Pack Assassinate",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyIceDefense": {
+        "name": "GAS ENDLESS DEFENSE TEST",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyIceHijack": {
+        "name": "GAS ENDLESS DEFENSE TEST",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyInfestedCorpusHive": {
+        "name": "/Lotus/Language/G1Quests/InfestedCorpusHiveEventName",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyInfestedForestExcavation": {
+        "name": "FOREST EXCAVATION INFESTED",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyIntel": {
+        "name": "INTEL V2 TEST KEY",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyIntelOutpost": {
+        "name": "INTEL V2 TEST KEY",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyInvasionGalleonToShipRescue": {
+        "name": "Corpus Ship Rescue (Easy)",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyInvasionShipToGalleonRescue": {
+        "name": "Corpus Ship Rescue (Easy)",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyKelaAssassinate": {
+        "name": "Kela Test Key",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "items": [
+                "/Lotus/StoreItems/Types/Keys/TestKeyErisBoss"
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyKubrow": {
+        "name": "Kubrow Test",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyKubrowDefense": {
+        "name": "Forest Defense",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyLotusCtf": {
+        "name": "TestSectorWars",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyMoonExterminate": {
+        "name": "MOON EXTERMINATE",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyMoonMobDef": {
+        "name": "MOON MOBILE DEFENSE",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyMoonSurvival": {
+        "name": "MOON SURVIVAL",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyOrokinDerelictSabotageForest": {
+        "name": "Test Derelict Sabotage Forest",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyOrokinDerelictSabotageIcePlanet": {
+        "name": "Test Derelict Sabotage Ice Planet",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyOrokinDerelictSabotageOutpost": {
+        "name": "Test Derelict Sabotage Outpost",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyOrokinDerelictSabotageSettlement": {
+        "name": "Test Derelict Sabotage Settlement",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyOrokinDerelictSabotageShipyards": {
+        "name": "Test Derelict Sabotage Shipyards",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyOrokinSabotageForest": {
+        "name": "Test Orokin Sabotage Forest",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyOrokinSabotageIcePlanet": {
+        "name": "Test Orokin Sabotage Ice Planet",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyOrokinSabotageOutpost": {
+        "name": "Test Orokin Sabotage Outpost",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyOrokinSabotageSettlement": {
+        "name": "Test Orokin Sabotage Settlement",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyOutpostHijack": {
+        "name": "/Lotus/Language/Items/TestKeyShipyardsRetrieval",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyRailJackPlutoCharonDevStreamDec": {
+        "name": "Sentient Devourer Railjack Exterminate Mode",
+        "parentName": "/Lotus/Types/Keys/TestKeyRailjackSentientExterminate",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyRailjackSentientExterminate": {
+        "name": "Sentient Devourer Railjack Exterminate Mode",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyRailjackSentientExterminateDevourerSegment2PoiProc": {
+        "name": "Sentient Devourer Railjack Exterminate Mode",
+        "parentName": "/Lotus/Types/Keys/TestKeyRailjackSentientExterminate",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyRailjackSentientExterminatePoi1GalleonProc": {
+        "name": "Sentient Devourer Railjack Exterminate Mode",
+        "parentName": "/Lotus/Types/Keys/TestKeyRailjackSentientExterminate",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyRailjackSentientExterminatePoi1Hangar": {
+        "name": "Sentient Devourer Railjack Exterminate Mode",
+        "parentName": "/Lotus/Types/Keys/TestKeyRailjackSentientExterminate",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyRailjackSentientExterminatePoi1Missile": {
+        "name": "Sentient Devourer Railjack Exterminate Mode",
+        "parentName": "/Lotus/Types/Keys/TestKeyRailjackSentientExterminate",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyRailjackSentientExterminatePoi1Oro": {
+        "name": "Sentient Devourer Railjack Exterminate Mode",
+        "parentName": "/Lotus/Types/Keys/TestKeyRailjackSentientExterminate",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyRailjackSentientExterminatePoi1Radar": {
+        "name": "Sentient Devourer Railjack Exterminate Mode",
+        "parentName": "/Lotus/Types/Keys/TestKeyRailjackSentientExterminate",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyRailjackSentientExterminatePoi1SuperWep": {
+        "name": "Sentient Devourer Railjack Exterminate Mode",
+        "parentName": "/Lotus/Types/Keys/TestKeyRailjackSentientExterminate",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyRaptor": {
+        "name": "Raptor Test Key",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "items": [
+                "/Lotus/StoreItems/Types/Keys/TestKeyErisBoss"
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeys/CaliberChicksTestKey": {
+        "name": "Caliber Chicks TEST KEY",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "countedStoreItems": [
+                {
+                    "StoreItem": "",
+                    "ItemCount": 0
+                }
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeys/PodRaceTestKey": {
+        "name": "Pod Race TEST KEY",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeys/SurvivalAsteroidGrn": {
+        "name": "SurvivalAsteroidGrn",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeys/SurvivalAsteroidInf": {
+        "name": "SurvivalAsteroidInf",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeys/SurvivalGalleonGrn": {
+        "name": "SurvivalGalleonGrn",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeys/SurvivalGalleonInf": {
+        "name": "SurvivalGalleonInf",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeys/SurvivalOutpostCrp": {
+        "name": "SurvivalOutpostCrp",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeys/SurvivalOutpostInf": {
+        "name": "SurvivalOutpostInf",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeys/SurvivalShipCrp": {
+        "name": "SurvivalShipCrp",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeys/SurvivalShipInf": {
+        "name": "SurvivalShipInf",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeys/SurvivalVoidOro": {
+        "name": "SurvivalVoidOro",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeys/TestKeyCetusEvent": {
+        "name": "[HC] Cetus Event",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeys/TestKeyDuviriEndless": {
+        "name": "[HC] Duviri Endless Test",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeySentientDevourerKahlTennoStart": {
+        "name": "Seintient Devourer",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeySettlementToDerelictExterminate": {
+        "name": "Portal Exterminate Test",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeySettlementToDerelictRaid": {
+        "name": "Portal Raid Test",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyShipyardsDefense": {
+        "name": "Shipyards Defense Test",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyShipyardsHekEvent": {
+        "name": "Shipyards Hek Event",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyShipyardsInterception": {
+        "name": "/Lotus/Language/G1Quests/ForestInterceptionEventNodeName",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "missionReward": {
+            "items": [
+                "/Lotus/StoreItems/Types/Items/MiscItems/DataFragment",
+                "/Lotus/StoreItems/Types/Items/MiscItems/DataFragment"
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyShipyardsMobileDefense": {
+        "name": "Shipyards Mobile Defense Test",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyShipyardsRescueMed": {
+        "name": "Shipyards Rescue (Medium)",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyShipyardsRetrieval": {
+        "name": "/Lotus/Language/Items/TestKeyShipyardsRetrieval",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyShipyardsSabotage": {
+        "name": "Shipyards Sabotage Test",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyTDMCephalon": {
+        "name": "TestTDMCephalon",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyTDMCorpusShip": {
+        "name": "TestCTFOutpost",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyTDMGrnGalleon": {
+        "name": "TestCTFOutpost",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyTDMGrnOcean": {
+        "name": "TestTDMGrnOcean",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyTDMGrnShipyards": {
+        "name": "TestTDMShipyards",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyTDMSettlement": {
+        "name": "TestTDMSettlement",
+        "parentName": "/Lotus/Types/Keys/TestKeyA",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyTownHub": {
+        "name": "Test Town Hub",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyTransitional": {
+        "name": "ASTEROID TRANSITION TEST",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyTransitionalB": {
+        "name": "CORPUS TRANSITION TEST",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeyTransitionalC": {
+        "name": "ITS THE GRINEER! TRANSITION TEST",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TRDefenseTestKey": {
+        "name": "ARCHWING DEFENSE TEST",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TRExterminateTestKey": {
+        "name": "ARCHWING EXTERMINATE TEST",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TRRaceTestKey": {
+        "name": "ARCHWING RACE TEST",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TRSabotageTestKey": {
+        "name": "ARCHWING SABOTAGE TEST",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/VeyHekKey": {
+        "name": "/Lotus/Language/Items/HekNavCodeKeyName",
+        "description": "/Lotus/Language/Items/HekKeyDesc",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "items": [
+                ""
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WareframeKey": {
+        "name": "Space Ninja Warrior",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyTeshinCaptureC": {
+        "name": "/Lotus/Language/G1Quests/WarWithin5",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WeeklyMissions/BaroWeeklyMission": {
+        "name": "/Lotus/Language/Alerts/BaroWeeklyObjective",
+        "description": "/Lotus/Language/Alerts/BaroWeeklyObjectiveDesc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 10000,
+            "items": [
+                "/Lotus/StoreItems/Types/Restoratives/Consumable/SkateBall"
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionDerelict": {
+        "name": "/Lotus/Language/G1Quests/TreasureHuntWeeklyObjective",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 10000
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionDerelictA": {
+        "name": "/Lotus/Language/G1Quests/TreasureHuntWeeklyObjective",
+        "description": "",
+        "parentName": "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionDerelict",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 10000,
+            "items": [
+                "/Lotus/StoreItems/Types/Items/FusionTreasures/OroFusexA"
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionDerelictB": {
+        "name": "/Lotus/Language/G1Quests/TreasureHuntWeeklyObjective",
+        "description": "",
+        "parentName": "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionDerelict",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 10000,
+            "items": [
+                "/Lotus/StoreItems/Types/Items/FusionTreasures/OroFusexB"
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionDerelictC": {
+        "name": "/Lotus/Language/G1Quests/TreasureHuntWeeklyObjective",
+        "description": "",
+        "parentName": "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionDerelict",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 10000,
+            "items": [
+                "/Lotus/StoreItems/Types/Items/FusionTreasures/OroFusexC"
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionDerelictD": {
+        "name": "/Lotus/Language/G1Quests/TreasureHuntWeeklyObjective",
+        "description": "",
+        "parentName": "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionDerelict",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 10000,
+            "items": [
+                "/Lotus/StoreItems/Types/Items/FusionTreasures/OroFusexD"
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionDerelictE": {
+        "name": "/Lotus/Language/G1Quests/TreasureHuntWeeklyObjective",
+        "description": "",
+        "parentName": "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionDerelict",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 10000,
+            "items": [
+                "/Lotus/StoreItems/Types/Items/FusionTreasures/OroFusexE"
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionMoon": {
+        "name": "/Lotus/Language/G1Quests/TreasureHuntWeeklyObjective",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 10000
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionOrokin": {
+        "name": "/Lotus/Language/G1Quests/TreasureHuntWeeklyObjective",
+        "description": "",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 10000
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionOrokinA": {
+        "name": "/Lotus/Language/G1Quests/TreasureHuntWeeklyObjective",
+        "description": "",
+        "parentName": "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionOrokin",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 10000,
+            "items": [
+                "/Lotus/StoreItems/Types/Items/FusionTreasures/OroFusexA"
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionOrokinB": {
+        "name": "/Lotus/Language/G1Quests/TreasureHuntWeeklyObjective",
+        "description": "",
+        "parentName": "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionOrokin",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 10000,
+            "items": [
+                "/Lotus/StoreItems/Types/Items/FusionTreasures/OroFusexB"
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionOrokinC": {
+        "name": "/Lotus/Language/G1Quests/TreasureHuntWeeklyObjective",
+        "description": "",
+        "parentName": "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionOrokin",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 10000,
+            "items": [
+                "/Lotus/StoreItems/Types/Items/FusionTreasures/OroFusexC"
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionOrokinD": {
+        "name": "/Lotus/Language/G1Quests/TreasureHuntWeeklyObjective",
+        "description": "",
+        "parentName": "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionOrokin",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 10000,
+            "items": [
+                "/Lotus/StoreItems/Types/Items/FusionTreasures/OroFusexD"
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionOrokinE": {
+        "name": "/Lotus/Language/G1Quests/TreasureHuntWeeklyObjective",
+        "description": "",
+        "parentName": "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionOrokin",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 10000,
+            "items": [
+                "/Lotus/StoreItems/Types/Items/FusionTreasures/OroFusexE"
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionOrokinG": {
+        "name": "/Lotus/Language/G1Quests/TreasureHuntWeeklyObjective",
+        "description": "",
+        "parentName": "/Lotus/Types/Keys/WeeklyMissions/TreasureHuntMissionOrokin",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 10000,
+            "items": [
+                "/Lotus/StoreItems/Types/Items/FusionTreasures/OroFusexG"
+            ]
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WolfTacAlertA": {
+        "name": "/Lotus/Language/Alerts/WolfAlert",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WolfTacAlertB": {
+        "name": "/Lotus/Language/Alerts/WolfAlertB",
+        "parentName": "/Lotus/Types/Keys/WolfTacAlertA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WraithQuest/WraithQuestM3EarthKeyCrewBattle": {
+        "name": "/Lotus/Language/WraithQuest/WraithQuestKeychainM3",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WraithQuest/WraithQuestM3VoidKeyCrewBattle": {
+        "name": "/Lotus/Language/WraithQuest/WraithQuestKeychainM3",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
     }
 }
