@@ -7172,6 +7172,16 @@
                     "DT_SLASH": 136.5
                 }
             }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Upgrades/Mods/Sets/Sacrifice/MeleeSacrificeModA",
+                "Slot": 6
+            },
+            {
+                "ItemType": "/Lotus/Upgrades/Mods/Sets/Sacrifice/MeleeSacrificeModB",
+                "Slot": 7
+            }
         ]
     },
     "/Lotus/Weapons/Tenno/Melee/Swords/TnoRapier/TnoRapier": {
@@ -9822,6 +9832,12 @@
                     "DT_IMPACT": 102.6,
                     "DT_SLASH": 87.4
                 }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
+                "Slot": -1
             }
         ]
     },
@@ -32911,6 +32927,12 @@
                 },
                 "impact": {}
             }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
+                "Slot": -1
+            }
         ]
     },
     "/Lotus/Weapons/Corpus/Melee/Polearm/CorpusPolearm01/CorpusPolearmWeapon": {
@@ -33680,6 +33702,12 @@
                     "DT_SLASH": 3.33334
                 }
             }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
+                "Slot": -1
+            }
         ]
     },
     "/Lotus/Weapons/Corpus/Melee/CrpBriefcase2HKatana/CrpBriefcase2HKatana": {
@@ -33745,6 +33773,12 @@
                     "DT_PUNCTURE": 9.9,
                     "DT_SLASH": 178.2
                 }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
+                "Slot": -1
             }
         ]
     },
@@ -35805,6 +35839,12 @@
                     "DT_PUNCTURE": 3.33333,
                     "DT_SLASH": 3.33334
                 }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
+                "Slot": -1
             }
         ]
     },
@@ -39667,6 +39707,16 @@
                     "DT_SLASH": 24.5
                 }
             }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Upgrades/Mods/Sets/Sacrifice/MeleeSacrificeModA",
+                "Slot": 6
+            },
+            {
+                "ItemType": "/Lotus/Upgrades/Mods/Sets/Sacrifice/MeleeSacrificeModB",
+                "Slot": 7
+            }
         ]
     },
     "/Lotus/Powersuits/Excalibur/DoomSwordPrime": {
@@ -41101,7 +41151,17 @@
         "masteryReq": 0,
         "productCategory": "Pistols",
         "omegaAttenuation": 1,
-        "variantType": "VT_NORMAL"
+        "variantType": "VT_NORMAL",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetPrecept/MoaStasisFieldPrecept",
+                "Slot": 8
+            },
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetPrecept/MoaShockwavePrecept",
+                "Slot": 9
+            }
+        ]
     },
     "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetParts/MoaPetHeadMelee": {
         "name": "/Lotus/Language/SolarisVenus/MoaPetHeadMelee",
@@ -41139,7 +41199,17 @@
         "masteryReq": 0,
         "productCategory": "Pistols",
         "omegaAttenuation": 1,
-        "variantType": "VT_NORMAL"
+        "variantType": "VT_NORMAL",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Upgrades/Mods/Sentinel/Moa/MoaMeleeMod",
+                "Slot": 8
+            },
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetPrecept/MoaChargePrecept",
+                "Slot": 9
+            }
+        ]
     },
     "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetParts/MoaPetHeadOloro": {
         "name": "/Lotus/Language/SolarisVenus/MoaPetHeadOloro",
@@ -41177,7 +41247,17 @@
         "masteryReq": 0,
         "productCategory": "Pistols",
         "omegaAttenuation": 1,
-        "variantType": "VT_NORMAL"
+        "variantType": "VT_NORMAL",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetPrecept/MoaTractorBeamPrecept",
+                "Slot": 8
+            },
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetPrecept/MoaHackerPrecept",
+                "Slot": 9
+            }
+        ]
     },
     "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetParts/MoaPetHeadPara": {
         "name": "/Lotus/Language/SolarisVenus/MoaPetHeadParaMoa",
@@ -41215,7 +41295,17 @@
         "masteryReq": 0,
         "productCategory": "Pistols",
         "omegaAttenuation": 1,
-        "variantType": "VT_NORMAL"
+        "variantType": "VT_NORMAL",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetPrecept/MoaLiftBombPrecept",
+                "Slot": 9
+            },
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetPrecept/MoaTetherVaccumMinePrecept",
+                "Slot": 8
+            }
+        ]
     },
     "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetParts/MoaPetLegA": {
         "name": "/Lotus/Language/SolarisVenus/MoaPetLegA",
@@ -41823,7 +41913,13 @@
         "masteryReq": 0,
         "productCategory": "Pistols",
         "omegaAttenuation": 1,
-        "variantType": "VT_NORMAL"
+        "variantType": "VT_NORMAL",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetPrecepts/ZanukaPetDisarmPulsePrecept",
+                "Slot": 9
+            }
+        ]
     },
     "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetParts/ZanukaPetPartHeadB": {
         "name": "/Lotus/Language/Pets/ZanukaPetHeadB",
@@ -41861,7 +41957,13 @@
         "masteryReq": 0,
         "productCategory": "Pistols",
         "omegaAttenuation": 1,
-        "variantType": "VT_NORMAL"
+        "variantType": "VT_NORMAL",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetPrecepts/ZanukaPetStealEximusPrecept",
+                "Slot": 9
+            }
+        ]
     },
     "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetParts/ZanukaPetPartHeadC": {
         "name": "/Lotus/Language/Pets/ZanukaPetHeadC",
@@ -41899,7 +42001,13 @@
         "masteryReq": 0,
         "productCategory": "Pistols",
         "omegaAttenuation": 1,
-        "variantType": "VT_NORMAL"
+        "variantType": "VT_NORMAL",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetPrecepts/ZanukaPetAntiMeleePrecept",
+                "Slot": 9
+            }
+        ]
     },
     "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetParts/ZanukaPetPartLegsA": {
         "name": "/Lotus/Language/Pets/ZanukaPetLegsA",
@@ -41937,7 +42045,13 @@
         "masteryReq": 0,
         "productCategory": "Pistols",
         "omegaAttenuation": 1,
-        "variantType": "VT_NORMAL"
+        "variantType": "VT_NORMAL",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetPrecepts/ZanukaPetMagneticRepulsePrecept",
+                "Slot": 8
+            }
+        ]
     },
     "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetParts/ZanukaPetPartLegsB": {
         "name": "/Lotus/Language/Pets/ZanukaPetLegsB",
@@ -41975,7 +42089,13 @@
         "masteryReq": 0,
         "productCategory": "Pistols",
         "omegaAttenuation": 1,
-        "variantType": "VT_NORMAL"
+        "variantType": "VT_NORMAL",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetPrecepts/ZanukaPetClonePrecept",
+                "Slot": 8
+            }
+        ]
     },
     "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetParts/ZanukaPetPartLegsC": {
         "name": "/Lotus/Language/Pets/ZanukaPetLegsC",
@@ -42013,7 +42133,13 @@
         "masteryReq": 0,
         "productCategory": "Pistols",
         "omegaAttenuation": 1,
-        "variantType": "VT_NORMAL"
+        "variantType": "VT_NORMAL",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetPrecepts/ZanukaPetEvasionPrecept",
+                "Slot": 8
+            }
+        ]
     },
     "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetParts/ZanukaPetPartTailA": {
         "name": "/Lotus/Language/Pets/ZanukaPetTailA",
@@ -42051,7 +42177,13 @@
         "masteryReq": 0,
         "productCategory": "Pistols",
         "omegaAttenuation": 1,
-        "variantType": "VT_NORMAL"
+        "variantType": "VT_NORMAL",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetPrecepts/ZanukaPetPhotonStrikePrecept",
+                "Slot": 7
+            }
+        ]
     },
     "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetParts/ZanukaPetPartTailB": {
         "name": "/Lotus/Language/Pets/ZanukaPetTailB",
@@ -42089,7 +42221,13 @@
         "masteryReq": 0,
         "productCategory": "Pistols",
         "omegaAttenuation": 1,
-        "variantType": "VT_NORMAL"
+        "variantType": "VT_NORMAL",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetPrecepts/ZanukaPetTeslaShotPrecept",
+                "Slot": 7
+            }
+        ]
     },
     "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetParts/ZanukaPetPartTailC": {
         "name": "/Lotus/Language/Pets/ZanukaPetTailC",
@@ -42127,7 +42265,13 @@
         "masteryReq": 0,
         "productCategory": "Pistols",
         "omegaAttenuation": 1,
-        "variantType": "VT_NORMAL"
+        "variantType": "VT_NORMAL",
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetPrecepts/ZanukaPetMegaLaserPrecept",
+                "Slot": 7
+            }
+        ]
     },
     "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetMeleeWeaponIP": {
         "name": "/Lotus/Language/Pets/ZanukaPetMeleeWeaponIPName",
