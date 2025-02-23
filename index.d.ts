@@ -559,10 +559,12 @@ export interface ISentinel {
     productCategory:   "SpecialItems" | "KubrowPets" | "Sentinels";
     defaultWeapon?:    string;
     exalted?:          string[];
-    defaultUpgrades?:  {
-        ItemType: string;
-        Slot:     number;
-    }[];
+    defaultUpgrades?:  IDefaultUpgrade[];
+}
+
+export interface IDefaultUpgrade {
+    ItemType: string;
+    Slot:     number;    
 }
 
 export type TStandingLimitBin =
