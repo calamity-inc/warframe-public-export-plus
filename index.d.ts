@@ -45,6 +45,7 @@ export declare const ExportResources: Record<string, IResource>;
 export declare const ExportRewards: Record<string, TMissionDeck>;
 export declare const ExportSentinels: Record<string, ISentinel>;
 export declare const ExportSyndicates: Record<string, ISyndicate>;
+export declare const ExportSystems: ISystem[];
 export declare const ExportTextIcons: Record<string, ITextIcon>;
 export declare const ExportUpgrades: Record<string, IUpgrade>;
 export declare const ExportVendors: Record<string, IVendor>;
@@ -610,6 +611,24 @@ export interface ISyndicate {
 export interface ISyndicateSacrifice {
     items: ICountedItem[];
     credits: number;
+}
+
+export interface ISystem {
+    name: string;
+    droneDamage: IRange;
+    damageChance: number;
+    resources: IPickUpTypeRarity[];
+}
+
+export interface IRange {
+    minValue: number;
+    maxValue: number;
+}
+
+export interface IPickUpTypeRarity {
+    StoreItem: string;
+    ItemType: string;
+    Rarity: TRarity;
 }
 
 export interface ITextIcon {
