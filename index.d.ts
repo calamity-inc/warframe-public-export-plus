@@ -208,6 +208,7 @@ export interface IDrone {
     repairRate:         number;
     codexSecret:        boolean;
     capacityMultiplier: number[];
+    probabilities:      Record<TRarity, number>;
 }
 
 export interface IEmailItem {
