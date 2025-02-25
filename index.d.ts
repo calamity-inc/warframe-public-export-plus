@@ -269,7 +269,7 @@ export interface IAiWeapon {
     name?:        string;
     description?: string;
     icon?:        string;
-    behaviors?:   IWeaponBehaviour[];
+    behaviours?:  IWeaponBehaviour[];
 }
 
 export type TDroptable = IRewardPool[];
