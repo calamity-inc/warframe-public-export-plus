@@ -1,0 +1,31 @@
+-- Prerequisites: npm i && npm i -g ts-to-zod ts-node
+
+local types = io.contents("index.d.ts").."\nexport interface IPublicExportPlus {";
+for line in io.lines("index.d.ts") do
+	if line:sub(1, 20) == "export declare const" then
+		types = types .. "\n" .. line:sub(22)
+	end
+end
+
+print("🕐 Generating schemas...")
+io.contents("tmp-types.ts", types)
+os.execute("ts-to-zod tmp-types.ts tmp-schemas.ts --skipValidation")
+
+print("🕐 Validating schemas...")
+io.contents("tmp-test.ts", [[
+	import { z } from "zod";
+	import { iPublicExportPlusSchema } from "./tmp-schemas";
+	import publicExportPlus from "./index";
+	try {
+		iPublicExportPlusSchema.parse(publicExportPlus);
+		console.log("✅ Schemas validated successfully.");
+	}
+	catch (e) {
+		console.log((e as Error).message);
+	}
+]])
+os.execute([[ts-node -O {\"module\":\"commonjs\"} tmp-test.ts]])
+
+os.remove("tmp-schemas.ts")
+os.remove("tmp-types.ts")
+os.remove("tmp-test.ts")

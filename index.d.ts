@@ -474,7 +474,7 @@ export interface IRecipe {
     ingredients:             ICountedItem[];
     secretIngredientAction?: "SIA_UNBRAND" | "SIA_SPECTRE_LOADOUT_COPY" | "SIA_GILD_WEAPON" | "SIA_CREATE_KUBROW" | "SIA_WARFRAME_ABILITY";
     secretIngredients?:      {
-        ItemType:  "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit" | "/Lotus/Weapons/Tenno/Pistol/LotusPistol" | "/Lotus/Weapons/Tenno/LotusLongGun" | "/Lotus/Types/Game/LotusMeleeWeapon";
+        ItemType:  string;
         ItemCount: number;
     }[];
 }
