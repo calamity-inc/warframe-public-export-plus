@@ -364,7 +364,7 @@ export interface IMissionReward {
 }
 
 export interface IKey {
-    name:              string;
+    name?:             string;
     description?:      string;
     icon?:             string;
     parentName:        string;
