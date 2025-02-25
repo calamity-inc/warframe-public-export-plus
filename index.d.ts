@@ -377,10 +377,10 @@ export interface IKey {
     }[];
     missionReward?: IMissionReward;
     rewards?:          ({
-        rewardType: "RT_STORE_ITEM" | "RT_RECIPE";
+        rewardType: "RT_STORE_ITEM";
         itemType:   string;
     } | {
-        rewardType: "RT_RESOURCE";
+        rewardType: "RT_RESOURCE" | "RT_RECIPE";
         itemType:   string;
         amount:     number;
     } | {
