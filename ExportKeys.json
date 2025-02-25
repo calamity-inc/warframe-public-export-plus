@@ -2328,7 +2328,6 @@
     },
     "/Lotus/Types/Keys/NewWarIntroQuest/NewWarIntroKeyChain": {
         "name": "/Lotus/Language/NewWarIntro/NewWarIntroKeyChainName",
-        "description": "",
         "icon": "/Lotus/Interface/Quests/NewWarIntroQuestKeychain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
         "codexSecret": true,
@@ -6535,11 +6534,6 @@
         "name": "Vay Hek Assassinate",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
-        "missionReward": {
-            "items": [
-                ""
-            ]
-        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyForestCapture": {
@@ -6952,14 +6946,6 @@
         "name": "Caliber Chicks TEST KEY",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
-        "missionReward": {
-            "countedStoreItems": [
-                {
-                    "StoreItem": "",
-                    "ItemCount": 0
-                }
-            ]
-        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeys/PodRaceTestKey": {
@@ -7197,11 +7183,6 @@
         "description": "/Lotus/Language/Items/HekKeyDesc",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
-        "missionReward": {
-            "items": [
-                ""
-            ]
-        },
         "rewards": []
     },
     "/Lotus/Types/Keys/WareframeKey": {
