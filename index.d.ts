@@ -783,6 +783,7 @@ export interface IWeapon {
     primeOmegaAttenuation?: number;
     variantType:            "VT_NORMAL" | "VT_STARTER" | "VT_VARIANT" | "VT_SYNDICATE" | "VT_PRIME" | "VT_KUVA";
     defaultUpgrades?:       IDefaultUpgrade[];
+    additionalItems?:       string[];
 }
 
 export interface IWeaponBehaviour {
