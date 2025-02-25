@@ -79,6 +79,7 @@ export interface IAchievement {
     name?:                  string;
     description?:           string;
     icon?:                  string;
+    hidden?:                boolean;
     requiredCount?:         number;
     progressIndicatorFreq?: number;
     children?:              string[];
@@ -243,6 +244,7 @@ export interface IEnemyAvatar {
     description?:              string;
     faction:                   string;
     health:                    number;
+    damageController:          string;
     killXPReward:              number;
     factionResistanceKeyword?: string;
     droptable?:                string;
@@ -816,6 +818,7 @@ export interface IDamageTable {
     DT_RADIANT?: number;
     DT_SENTIENT?: number;
     DT_FINISHER?: number;
+    DT_SHIELD_DRAIN?: number;
 }
 
 export type TProcType =

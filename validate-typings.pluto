@@ -11,6 +11,11 @@ print("🕐 Generating schemas...")
 io.contents("tmp-types.ts", types)
 os.execute("ts-to-zod tmp-types.ts tmp-schemas.ts --skipValidation")
 
+io.contents("tmp-schemas.ts", io.contents("tmp-schemas.ts")
+	:replace("z.object", "z.strictObject")
+	:replace("iAbilitySchema = z.strictObject({", "iAbilitySchema = z.object({")
+)
+
 print("🕐 Validating schemas...")
 io.contents("tmp-test.ts", [[
 	import { z } from "zod";
