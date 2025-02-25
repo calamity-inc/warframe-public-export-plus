@@ -159,6 +159,7 @@ export interface ICustom {
     description?:      string;
     icon?:             string;
     excludeFromCodex?: boolean;
+    productCategory:   "WeaponSkins" | "CrewShipWeaponSkins";
 }
 
 export interface IExportDojoRecipes {
