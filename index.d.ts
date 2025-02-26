@@ -366,6 +366,18 @@ export interface IMissionReward {
     countedStoreItems?: ICountedStoreItem[];
 }
 
+export type TReward = {
+    rewardType: "RT_STORE_ITEM";
+    itemType:   string;
+} | {
+    rewardType: "RT_RESOURCE" | "RT_RECIPE";
+    itemType:   string;
+    amount:     number;
+} | {
+    rewardType: "RT_CREDITS";
+    amount:     number;
+};
+
 export interface IKey {
     name?:             string;
     description?:      string;
@@ -379,17 +391,7 @@ export interface IKey {
         messageToSendWhenTriggered?: IInboxMessage;
     }[];
     missionReward?: IMissionReward;
-    rewards?:          ({
-        rewardType: "RT_STORE_ITEM";
-        itemType:   string;
-    } | {
-        rewardType: "RT_RESOURCE" | "RT_RECIPE";
-        itemType:   string;
-        amount:     number;
-    } | {
-        rewardType: "RT_CREDITS";
-        amount:     number;
-    })[];
+    rewards?:       TReward[];
 }
 
 export interface IHelminthSnack {
