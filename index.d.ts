@@ -540,6 +540,7 @@ export interface IResource {
     standingBonus?:     number; // for fish
     dissectionParts?:   ICountedItem[]; // for fish
     purchaseQuantity?:  number;
+    pickupQuantity?:    IRange;
 }
 
 export type TMissionDeck = TRewardTier[];
