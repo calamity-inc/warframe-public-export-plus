@@ -200,17 +200,18 @@ export interface IDojoDeco extends IDojoRecipe {
 }
 
 export interface IDrone {
-    name:               string;
-    description:        string;
-    icon:               string;
-    binCount:           number;
-    binCapacity:        number;
-    fillRate:           number;
-    durability:         number;
-    repairRate:         number;
-    codexSecret:        boolean;
-    capacityMultiplier: number[];
-    probabilities:      Record<TRarity, number>;
+    name:                 string;
+    description:          string;
+    icon:                 string;
+    binCount:             number;
+    binCapacity:          number;
+    fillRate:             number;
+    durability:           number;
+    repairRate:           number;
+    codexSecret:          boolean;
+    capacityMultiplier:   number[]; // deprecated
+    capacityMultipliers:  Record<TRarity, number>;
+    probabilities:        Record<TRarity, number>;
 }
 
 export interface IEmailItem {
