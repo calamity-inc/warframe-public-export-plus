@@ -76,5 +76,383 @@
         "description": "/Lotus/Language/Suits/HelminthTreasureDescription",
         "icon": "/Lotus/Interface/Icons/Abilities/Helminth/HelminthAbilitiesTreasureSeeker.png",
         "energyRequiredToActivate": 50
+    },
+    "/Lotus/Types/Friendly/PlayerControllable/Abilities/ControllableGrineerCoverPlaceAbility": {
+        "icon": "/Lotus/Interface/Graphics/GrineerHUD/GrineerHUDCoverIcon.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Types/Friendly/PlayerControllable/Abilities/ControllableGrineerGrenadeAbility": {
+        "icon": "/Lotus/Interface/HudGraphics/GrineerHud/GrenadeIcon.png",
+        "energyRequiredToActivate": 25
+    },
+    "/Lotus/Types/Friendly/PlayerControllable/Abilities/ControllableGrineerVeilStunnerGrenadeAbility": {
+        "icon": "/Lotus/Interface/HudGraphics/GrineerHud/KahlVeilbreakAbility.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Types/Friendly/PlayerControllable/Abilities/DrifterGrappleAbility": {
+        "name": "/Lotus/Language/Suits/TeshinGrappleGlaiveName",
+        "icon": "/Lotus/Interface/Icons/Abilities/Misc/TeshinAbilitiesGlaive.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Types/Friendly/PlayerControllable/Abilities/DrifterHealAbility": {
+        "name": "/Lotus/Language/NewWar/DrifterHeal",
+        "description": "/Lotus/Language/NewWar/DrifterHeal",
+        "icon": "/Lotus/Interface/HudGraphics/DrifterHUD/DrifterAbilityIconHealth.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Types/Friendly/PlayerControllable/Abilities/DrifterHorseAbility": {
+        "name": "/Lotus/Language/Horse/ErsatzSummonName",
+        "icon": "/Lotus/Interface/HudGraphics/Duviri/DrifterAbilityIconHorseSummon.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Types/Friendly/PlayerControllable/Abilities/DrifterRadarAbility": {
+        "name": "/Lotus/Language/NewWar/DrifterRadar",
+        "description": "/Lotus/Language/NewWar/DrifterRadar",
+        "icon": "/Lotus/Interface/HudGraphics/DrifterHUD/DrifterAbilityIconRadar.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Types/Friendly/PlayerControllable/Abilities/DrifterTossAbility": {
+        "name": "/Lotus/Language/NewWar/DrifterSmoke",
+        "description": "/Lotus/Language/NewWar/DrifterSmoke",
+        "icon": "/Lotus/Interface/HudGraphics/DrifterHUD/DrifterAbilityIconSmokescreen.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Types/Friendly/PlayerControllable/Abilities/DuviriDrifterHealAbility": {
+        "name": "/Lotus/Language/NewWar/DrifterHeal",
+        "description": "/Lotus/Language/NewWar/DrifterHeal",
+        "icon": "/Lotus/Interface/HudGraphics/DrifterHUD/DrifterAbilityIconHealth.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Types/Friendly/PlayerControllable/Abilities/DuviriDrifterRadarAbility": {
+        "name": "/Lotus/Language/Duviri/LotusHandCompassName",
+        "description": "/Lotus/Language/Duviri/LotusHandCompassName",
+        "icon": "/Lotus/Interface/HudGraphics/DrifterHUD/DrifterAbilityIconRadar.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Types/Friendly/PlayerControllable/Abilities/DuviriDrifterTossAbility": {
+        "name": "/Lotus/Language/NewWar/DrifterSmoke",
+        "description": "/Lotus/Language/NewWar/DrifterSmoke",
+        "icon": "/Lotus/Interface/HudGraphics/DrifterHUD/DrifterAbilityIconSmokescreen.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Types/Friendly/PlayerControllable/Abilities/TeshinGrappleGlaiveAbility": {
+        "name": "/Lotus/Language/Suits/TeshinGrappleGlaiveName",
+        "icon": "/Lotus/Interface/Icons/Abilities/Misc/TeshinAbilitiesGlaive.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Types/Friendly/PlayerControllable/Abilities/TeshinStanceAbility": {
+        "name": "/Lotus/Language/Suits/TeshinStanceOneAbilityName",
+        "icon": "/Lotus/Interface/Icons/Abilities/Misc/TeshinAbilitiesHeat.png",
+        "energyRequiredToActivate": 0,
+        "energyConsumptionOverTime": 10
+    },
+    "/Lotus/Types/Friendly/PlayerControllable/Abilities/TeshinStanceThreeAbility": {
+        "name": "/Lotus/Language/Suits/TeshinStanceThreeAbilityName",
+        "icon": "/Lotus/Interface/Icons/Abilities/Misc/TeshinAbilitiesElectricity.png",
+        "energyRequiredToActivate": 0,
+        "energyConsumptionOverTime": 2
+    },
+    "/Lotus/Types/Friendly/PlayerControllable/Abilities/TeshinStanceTwoAbility": {
+        "name": "/Lotus/Language/Suits/TeshinStanceTwoAbilityName",
+        "icon": "/Lotus/Interface/Icons/Abilities/Misc/TeshinAbilitiesCold.png",
+        "energyRequiredToActivate": 0,
+        "energyConsumptionOverTime": 2
+    },
+    "/Lotus/Types/Friendly/PlayerControllable/Abilities/VesoCommandDecoyOneAbility": {
+        "icon": "/Lotus/Interface/Icons/Abilities/Misc/CorpusDeployMoa.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Types/Friendly/PlayerControllable/Abilities/VesoCommandDecoyThreeAbility": {
+        "icon": "/Lotus/Interface/Icons/Abilities/Misc/CorpusDeployMoaGun.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Types/Friendly/PlayerControllable/Abilities/VesoCommandDecoyTwoAbility": {
+        "icon": "/Lotus/Interface/Icons/Abilities/Misc/CorpusDeployMoaDrone.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Types/Friendly/PlayerControllable/Abilities/WarframeHorseAbility": {
+        "name": "/Lotus/Language/Horse/ErsatzSummonName",
+        "icon": "/Lotus/Interface/HudGraphics/Duviri/DrifterAbilityIconHorseSummon.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/AttackChargeAbility": {
+        "name": "/Lotus/Language/Focus/FocusAttackCloakAttackChargeName",
+        "description": "/Lotus/Language/Focus/FocusAttackCloakAttackChargeDesc",
+        "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon04.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/BaseBlessingAbility": {
+        "name": "/Lotus/Language/Suits/BlessingAbilityName",
+        "description": "/Lotus/Language/Suits/BlessingAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/TrinityBlessing.png",
+        "energyRequiredToActivate": 100
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/BaseEnergyVampireAbility": {
+        "name": "/Lotus/Language/Suits/EnergyVampireAbilityName",
+        "description": "/Lotus/Language/Suits/EnergyVampireAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/TrinityEnergyVampire.png",
+        "energyRequiredToActivate": 50
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/BaseLinkAbility": {
+        "name": "/Lotus/Language/Suits/LinkAbilityName",
+        "description": "/Lotus/Language/Suits/LinkAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/TrinityLink.png",
+        "energyRequiredToActivate": 75
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/BaseShieldRegenAbility": {
+        "name": "/Lotus/Language/Suits/ShieldRegenAbilityName",
+        "description": "/Lotus/Language/Suits/ShieldRegenAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/MagShieldRenew.png",
+        "energyRequiredToActivate": 75
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/BlackHoleTrapAbility": {
+        "name": "/Lotus/Language/Suits/MagHoleAbilityName",
+        "description": "/Lotus/Language/Suits/MagHoleAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/VaubanVortex.png",
+        "energyRequiredToActivate": 100
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/BlastSlowAbility": {
+        "name": "/Lotus/Language/Focus/FocusPowerBlastSlowName",
+        "description": "/Lotus/Language/Focus/FocusPowerBlastSlowDesc",
+        "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon35.png",
+        "energyRequiredToActivate": 50
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/DiveBombAbility": {
+        "name": "/Lotus/Language/Suits/ZephyrDiveBombAbilityName",
+        "description": "/Lotus/Language/Suits/ZephyrDiveBombAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/TenguDiveBomb.png",
+        "energyRequiredToActivate": 25
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/DrenchTwoAbility": {
+        "name": "/Lotus/Language/Suits/OverheatAbilityName",
+        "description": "/Lotus/Language/Suits/OverheatAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/EmberOverHeat.png",
+        "energyRequiredToActivate": 50
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/EnergyFieldAbility": {
+        "name": "/Lotus/Language/Focus/FocusPowerDashBubbleName",
+        "description": "/Lotus/Language/Focus/FocusPowerDashBubbleDesc",
+        "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon37.png",
+        "energyRequiredToActivate": 50
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/EntratiMechShieldBashAbility": {
+        "name": "/Lotus/Language/Necromech/EntratiMechShieldBashAbilityName",
+        "icon": "/Lotus/Interface/Icons/Abilities/Power01.png",
+        "energyRequiredToActivate": 15
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/KingpinElementalProjectileAbility": {
+        "name": "/Lotus/Language/Suits/FireBallAbilityName",
+        "description": "/Lotus/Language/Suits/FireBallAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/EmberFireBall.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/LiquifyAbility": {
+        "name": "/Lotus/Language/Suits/LiquefyAbilityName",
+        "description": "/Lotus/Language/Suits/LiquefyAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/PirateLiquefy.png",
+        "energyRequiredToActivate": 15
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/MagneticFieldAbility": {
+        "name": "/Lotus/Language/Focus/FocusWardActiveMagneticFieldName",
+        "description": "/Lotus/Language/Focus/FocusWardActiveMagneticFieldDesc",
+        "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon111.png",
+        "energyRequiredToActivate": 50
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/MonkeyDeathAbility": {
+        "name": "/Lotus/Language/Suits/MonkeyDeathAbilityName",
+        "description": "/Lotus/Language/Suits/MonkeyDeathAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/MonkeyDeath.png",
+        "energyRequiredToActivate": 50,
+        "energyConsumptionOverTime": 5
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/MonkeyPokeAbility": {
+        "name": "/Lotus/Language/Suits/MonkeyPokeAbilityName",
+        "description": "/Lotus/Language/Suits/MonkeyPokeAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/MonkeyPoke.png",
+        "energyRequiredToActivate": 25
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/OperatorDefenseShieldAbility": {
+        "name": "/Lotus/Language/Focus/FocusDefenseActiveDefenseShieldName",
+        "description": "/Lotus/Language/Focus/FocusDefenseActiveDefenseShieldDesc",
+        "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon133.png",
+        "energyRequiredToActivate": 50
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/OperatorFocusAbility": {
+        "name": "/Lotus/Language/Items/OperatorAttackAbilityName",
+        "icon": "/Lotus/Interface/Icons/Abilities/Power02.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/OperatorFocusAttackAbility": {
+        "name": "/Lotus/Language/Items/OperatorAttackAbilityName",
+        "icon": "/Lotus/Interface/Icons/Abilities/Power02.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/OperatorFocusDefenseAbility": {
+        "name": "/Lotus/Language/Items/OperatorDefenseAbilityName",
+        "icon": "/Lotus/Interface/Icons/Abilities/Power02.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/OperatorFocusPowerAbility": {
+        "name": "/Lotus/Language/Items/OperatorPowerAbilityName",
+        "icon": "/Lotus/Interface/Icons/Abilities/Power02.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/OperatorFocusTacticAbility": {
+        "name": "/Lotus/Language/Items/OperatorTacticAbilityName",
+        "icon": "/Lotus/Interface/Icons/Abilities/Power02.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/OperatorFocusWardAbility": {
+        "name": "/Lotus/Language/Items/OperatorWardAbilityName",
+        "icon": "/Lotus/Interface/Icons/Abilities/Power02.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/OperatorGhostWaveAbility": {
+        "name": "/Lotus/Language/Focus/GhostWaveName",
+        "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon116.png",
+        "energyRequiredToActivate": 50
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/OperatorLiftWaveAbility": {
+        "name": "/Lotus/Language/Focus/LiftHitWaveName",
+        "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon48.png",
+        "energyRequiredToActivate": 50
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/OperatorPowerSuitAbility": {
+        "icon": "/Lotus/Interface/Icons/Abilities/Power01.png",
+        "energyRequiredToActivate": 25
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/OperatorProjectionExecution": {
+        "name": "/Lotus/Language/Focus/ProjectionExecutionName",
+        "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon28.png",
+        "energyRequiredToActivate": 25
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/OperatorSonicVortexAbility": {
+        "name": "/Lotus/Language/Focus/SonicDissipationName",
+        "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon43.png",
+        "energyRequiredToActivate": 25
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/OperatorSunderingAbility": {
+        "name": "/Lotus/Language/Focus/SunderingDissipationName",
+        "description": "/Lotus/Language/Focus/SunderingDissipationDesc",
+        "icon": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon40.png",
+        "energyRequiredToActivate": 50
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/OperatorTransferenceAbility": {
+        "name": "/Lotus/Language/Game/OperatorAbilityTransference",
+        "icon": "/Lotus/Interface/Icons/Abilities/Power02.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/PlayerPowerSuitAbility": {
+        "icon": "/Lotus/Interface/Icons/Abilities/Power01.png",
+        "energyRequiredToActivate": 25
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/RadialBlastAbility": {
+        "name": "/Lotus/Language/Items/RadialBlastAbility",
+        "description": "/Lotus/Language/Items/RadialBlastAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/RhinoRadialBlast.png",
+        "energyRequiredToActivate": 75
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/ReaperGraspAbility": {
+        "name": "/Lotus/Language/Suits/ReaperGraspAbilityName",
+        "description": "/Lotus/Language/Suits/ReaperGraspAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/WraithDeathsGrasp.png",
+        "energyRequiredToActivate": 25
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/ReaperHarvestAbility": {
+        "name": "/Lotus/Language/Suits/ReaperHarvestAbilityName",
+        "description": "/Lotus/Language/Suits/ReaperHarvestAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/WraithSoulHarvest.png",
+        "energyRequiredToActivate": 25
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/ReaperWailAbility": {
+        "name": "/Lotus/Language/Suits/ReaperWailAbilityName",
+        "description": "/Lotus/Language/Suits/ReaperWailAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/WraithDeadlyWall.png",
+        "energyRequiredToActivate": 75
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/ReaperWraithAbility": {
+        "name": "/Lotus/Language/Suits/ReaperWraithAbilityName",
+        "description": "/Lotus/Language/Suits/ReaperWraithAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/Wraith.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/SandmanDevourAbility": {
+        "name": "/Lotus/Language/Suits/SandmanDevourAbilityName",
+        "description": "/Lotus/Language/Suits/SandmanDevourAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/SandmanDevour.png",
+        "energyRequiredToActivate": 50
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/SlashDashAbility": {
+        "name": "/Lotus/Language/Suits/SlashDashAbilityName",
+        "description": "/Lotus/Language/Suits/SlashDashAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/Power04.png",
+        "energyRequiredToActivate": 25
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/StalkerAbsorbAbility": {
+        "name": "/Lotus/Language/Suits/StalkerAbsorbAbilityName",
+        "description": "/Lotus/Language/Suits/StalkerAbsorbAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/StalkerAbsorbProjectile.png",
+        "energyRequiredToActivate": 100
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/StalkerSmokeScreenAbility": {
+        "name": "/Lotus/Language/Suits/StalkerSmokeScreenName",
+        "description": "/Lotus/Language/Suits/StalkerSmokeScreenDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/StalkerSmokeScreen.png",
+        "energyRequiredToActivate": 75
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/StalkerStunAbility": {
+        "name": "/Lotus/Language/Suits/StalkerStunName",
+        "description": "/Lotus/Language/Suits/StalkerStunDescription",
+        "icon": "/Lotus/Interface/Icons/Abilities/StalkerMarkedVengeance.png",
+        "energyRequiredToActivate": 50
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/StalkerTeleportToAbility": {
+        "name": "/Lotus/Language/Suits/StalkerTeleportName",
+        "description": "/Lotus/Language/Suits/StalkerTeleportDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/StalkerTeleport.png",
+        "energyRequiredToActivate": 25
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/SuperJumpAbility": {
+        "name": "/Lotus/Language/Items/SuperJumpAbility",
+        "description": "/Lotus/Language/Items/SuperJumpAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/Power02.png",
+        "energyRequiredToActivate": 10
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/TeamInvisibilityAbility": {
+        "name": "/Lotus/Language/Suits/InvisibilityAbilityName",
+        "description": "/Lotus/Language/Suits/InvisibilityAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/LokiInvisibility.png",
+        "energyRequiredToActivate": 50
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/WorldOnFireAbility": {
+        "name": "/Lotus/Language/Suits/WorldOnFireAbilityName",
+        "description": "/Lotus/Language/Suits/WorldOnFireAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/EmberWorldOnFire.png",
+        "energyRequiredToActivate": 50,
+        "energyConsumptionOverTime": 3
+    },
+    "/Lotus/Types/Vehicles/Motorcycle/MotorcycleLaunchDismountAbility": {
+        "name": "/Lotus/Language/1999Demo/MotorcycleBombAbility",
+        "description": "/Lotus/Language/1999Demo/MotorcycleBombAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/Misc/MotorcycleDismountExplosion.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Types/Vehicles/Motorcycle/MotorcycleMarkAbility": {
+        "name": "/Lotus/Language/1999Demo/MotorcycleTargetAbility",
+        "description": "/Lotus/Language/1999Demo/MotorcycleTargetAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/Misc/MotorcycleMarkAbility.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Types/Vehicles/Motorcycle/MotorcycleNitroAbility": {
+        "name": "/Lotus/Language/1999Demo/MotorcycleNitroAbility",
+        "description": "/Lotus/Language/1999Demo/MotorcycleNitroAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/Misc/MotorcycleSpeedBoost.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Types/Vehicles/Motorcycle/MotorcycleStealthDismountAbility": {
+        "name": "/Lotus/Language/1999Demo/MotorcycleStealthAbility",
+        "description": "/Lotus/Language/1999Demo/MotorcycleStealthAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/Misc/MotorcycleStealthDismount.png",
+        "energyRequiredToActivate": 0
     }
 }

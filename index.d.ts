@@ -67,8 +67,8 @@ export interface ICountedStoreItem {
 }
 
 export interface IAbility {
-    name:                       string;
-    description:                string;
+    name?:                      string;
+    description?:               string;
     icon:                       string;
     energyRequiredToActivate:   number;
     energyConsumptionOverTime?: number;
