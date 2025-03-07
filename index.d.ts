@@ -168,26 +168,25 @@ export interface IExportDojoRecipes {
     decos: Record<string, IDojoDeco>;
 }
 
-export interface IDojoResearch {
-    price:          number;
-    time:           number;
-    skipTimePrice:  number;
-    replicatePrice: number;
-    ingredients:    ICountedItem[];
-    guildXpValue?:  number;
-    techPrereq?:    string;
-}
-
 export interface IDojoRecipe {
-    resultType:    string;
-    icon:          string;
     price:         number;
     time:          number;
     skipTimePrice: number;
     ingredients:   ICountedItem[];
+    guildXpValue?: number;
 }
 
-export interface IDojoRoom extends IDojoRecipe {
+export interface IDojoResearch extends IDojoRecipe {
+    replicatePrice: number;
+    techPrereq?:    string;
+}
+
+export interface IDojoBuild extends IDojoRecipe {
+    resultType:    string;
+    icon:          string;
+}
+
+export interface IDojoRoom extends IDojoBuild {
     destructionTime: number;
     capacity:        number;
     energy:          number;
@@ -195,7 +194,7 @@ export interface IDojoRoom extends IDojoRecipe {
     hidden?:         boolean;
 }
 
-export interface IDojoDeco extends IDojoRecipe {
+export interface IDojoDeco extends IDojoBuild {
     capacityCost?: number;
 }
 
