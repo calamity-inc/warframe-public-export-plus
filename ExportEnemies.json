@@ -78725,6 +78725,57 @@
                 ]
             }
         ],
+        "/Lotus/Types/DropTables/EidolonDropTables/TeralystBigCapturedDropTable": [
+            {
+                "chance": 1.0,
+                "items": [
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeSpeedOnHit",
+                        "probability": 0.1463
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Utility/PistolDamageOnReload",
+                        "probability": 0.1463
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/ArmourOnDamage",
+                        "probability": 0.1192
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/SpeedOnDamage",
+                        "probability": 0.0925
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/SpeedOnParry",
+                        "probability": 0.0925
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/LongGunSpeedOnCrit",
+                        "probability": 0.0925
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Utility/RadialKnockdownOnEnergyPickup",
+                        "probability": 0.0925
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcanePistolDamageOnHeadshot",
+                        "probability": 0.0592
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/GolemArcaneShieldRegenOnDamage",
+                        "probability": 0.0529
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneArmorOnFinisher",
+                        "probability": 0.0529
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Utility/RadialHealOnHealthPickup",
+                        "probability": 0.0529
+                    }
+                ]
+            }
+        ],
         "/Lotus/Types/DropTables/EidolonDropTables/TeralystBigDefaultDropTable": [
             {
                 "chance": 1.0,
@@ -78765,6 +78816,92 @@
                     {
                         "type": "/Lotus/Upgrades/Skins/Sigils/BossSigilTeralystBig",
                         "probability": 1.0
+                    }
+                ]
+            }
+        ],
+        "/Lotus/Types/DropTables/EidolonDropTables/TeralystBigKilledDropTable": [
+            {
+                "chance": 1.0,
+                "items": [
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeSpeedOnHit",
+                        "probability": 0.1825
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Utility/PistolDamageOnReload",
+                        "probability": 0.1825
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/ArmourOnDamage",
+                        "probability": 0.1568
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/SpeedOnDamage",
+                        "probability": 0.102
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/SpeedOnParry",
+                        "probability": 0.102
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/LongGunSpeedOnCrit",
+                        "probability": 0.102
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Utility/RadialKnockdownOnEnergyPickup",
+                        "probability": 0.102
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcanePistolDamageOnHeadshot",
+                        "probability": 0.0702
+                    }
+                ]
+            }
+        ],
+        "/Lotus/Types/DropTables/EidolonDropTables/TeralystCapturedDropTable": [
+            {
+                "chance": 1.0,
+                "items": [
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneShotgunSpeedOnCrit",
+                        "probability": 0.1568
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/FireProcResist",
+                        "probability": 0.1205
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/FreezeProcResist",
+                        "probability": 0.1205
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/MagneticProcResist",
+                        "probability": 0.1205
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneSniperSpeedOnCrit",
+                        "probability": 0.1205
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Utility/GolemArcaneAimGlideOnHeadshot",
+                        "probability": 0.1205
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/ElectricityProcResist",
+                        "probability": 0.0602
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/RadiationProcResist",
+                        "probability": 0.0602
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/SlashProcResist",
+                        "probability": 0.0602
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/HealthRegenOnHeadshot",
+                        "probability": 0.0602
                     }
                 ]
             }
@@ -78813,6 +78950,84 @@
                 ]
             }
         ],
+        "/Lotus/Types/DropTables/EidolonDropTables/TeralystKilledDropTable": [
+            {
+                "chance": 1.0,
+                "items": [
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneShotgunSpeedOnCrit",
+                        "probability": 0.185
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/FireProcResist",
+                        "probability": 0.1495
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/FreezeProcResist",
+                        "probability": 0.1495
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/MagneticProcResist",
+                        "probability": 0.1495
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneSniperSpeedOnCrit",
+                        "probability": 0.1495
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Utility/GolemArcaneAimGlideOnHeadshot",
+                        "probability": 0.1495
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/ElectricityProcResist",
+                        "probability": 0.0678
+                    }
+                ]
+            }
+        ],
+        "/Lotus/Types/DropTables/EidolonDropTables/TeralystRainCapturedDropTable": [
+            {
+                "chance": 1.0,
+                "items": [
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/InvisibilityOnFinisher",
+                        "probability": 0.2024
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcanePistolSpeedOnCrit",
+                        "probability": 0.1679
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/LongGunDamageOnHeadshot",
+                        "probability": 0.1274
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Utility/GolemArcaneBonusDamageOnWallLatch",
+                        "probability": 0.1274
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/CritChanceOnDamage",
+                        "probability": 0.1124
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeDamageOnCrit",
+                        "probability": 0.1124
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/HealthRegenOnDamage",
+                        "probability": 0.05
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/InstantShieldOnDamage",
+                        "probability": 0.05
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Utility/GolemArcaneRadialEnergyOnEnergyPickup",
+                        "probability": 0.05
+                    }
+                ]
+            }
+        ],
         "/Lotus/Types/DropTables/EidolonDropTables/TeralystRainDefaultDropTable": [
             {
                 "chance": 1.0,
@@ -78853,6 +79068,37 @@
                     {
                         "type": "/Lotus/Upgrades/Skins/Sigils/BossSigilTeralystRain",
                         "probability": 1.0
+                    }
+                ]
+            }
+        ],
+        "/Lotus/Types/DropTables/EidolonDropTables/TeralystRainKilledDropTable": [
+            {
+                "chance": 1.0,
+                "items": [
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/InvisibilityOnFinisher",
+                        "probability": 0.2478
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcanePistolSpeedOnCrit",
+                        "probability": 0.2223
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeDamageOnCrit",
+                        "probability": 0.1376
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/LongGunDamageOnHeadshot",
+                        "probability": 0.1376
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Utility/GolemArcaneBonusDamageOnWallLatch",
+                        "probability": 0.1376
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/CritChanceOnDamage",
+                        "probability": 0.117
                     }
                 ]
             }
