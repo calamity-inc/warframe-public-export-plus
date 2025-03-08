@@ -482,6 +482,10 @@ export interface IRecipe {
         ItemType:  string;
         ItemCount: number;
     }[];
+    syndicateStandingChange?: {
+        tag: string;
+        value: number;
+    };
 }
 
 export interface IRegion {
