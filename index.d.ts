@@ -164,6 +164,11 @@ export interface ICustom {
 
 export interface IExportDojoRecipes {
     research: Record<string, IDojoResearch>;
+    fabrications: Record<string, {
+        resultType: string;
+        price: number;
+        ingredients: ICountedItem[];
+    }>;
     rooms: Record<string, IDojoRoom>;
     decos: Record<string, IDojoDeco>;
 }

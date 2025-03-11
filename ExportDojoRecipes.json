@@ -9718,6 +9718,962 @@
             "techPrereq": "/Lotus/Weapons/ClanTech/Energy/EnergyRifleBlueprint"
         }
     },
+    "fabrications": {
+        "/Lotus/Types/Recipes/Railjack/HullMaterials/RailjackHullMaterialsABlueprint": {
+            "resultType": "/Lotus/Upgrades/Skins/RailJack/HullMaterialsClanA",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem",
+                    "ItemCount": 25
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/ScrapRailjackItem",
+                    "ItemCount": 500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 250
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/HullMaterials/RailjackHullMaterialsBBlueprint": {
+            "resultType": "/Lotus/Upgrades/Skins/RailJack/HullMaterialsClanB",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem",
+                    "ItemCount": 50
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/ScrapRailjackItem",
+                    "ItemCount": 1000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 500
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/HullMaterials/RailjackHullMaterialsCBlueprint": {
+            "resultType": "/Lotus/Upgrades/Skins/RailJack/HullMaterialsClanC",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem",
+                    "ItemCount": 75
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/ScrapRailjackItem",
+                    "ItemCount": 1500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 750
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Reactors/RailjackReactorABlueprint": {
+            "resultType": "/Lotus/Upgrades/Skins/RailJack/ReactorClanA",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/AsteriteRailjackItem",
+                    "ItemCount": 25
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                    "ItemCount": 500
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Reactors/RailjackReactorBBlueprint": {
+            "resultType": "/Lotus/Upgrades/Skins/RailJack/ReactorClanB",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/AsteriteRailjackItem",
+                    "ItemCount": 50
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 1000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                    "ItemCount": 1000
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Reactors/RailjackReactorCBlueprint": {
+            "resultType": "/Lotus/Upgrades/Skins/RailJack/ReactorClanC",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/AsteriteRailjackItem",
+                    "ItemCount": 75
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 1500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                    "ItemCount": 1500
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/AutoCannonBBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/AutoCannonTierB",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 30
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 1500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 450
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/AutoCannonCBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/AutoCannonTierC",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 40
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 2000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 600
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/AutocannonABlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/AutoCannonTierA",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 20
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 1000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 300
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/BlasterABlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Laser/Blaster/BlasterTierA",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem",
+                    "ItemCount": 20
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 1000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                    "ItemCount": 300
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/BlasterBBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Laser/Blaster/BlasterTierB",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem",
+                    "ItemCount": 30
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 1500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                    "ItemCount": 450
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/BlasterBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Laser/Blaster/Blaster",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem",
+                    "ItemCount": 10
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                    "ItemCount": 150
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/BlasterCBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Laser/Blaster/BlasterTierC",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem",
+                    "ItemCount": 40
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 2000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                    "ItemCount": 600
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/BlasterShotgunABlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Laser/Blaster/BlasterShotgunTierA",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 20
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 1000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 300
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/BlasterShotgunBBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Laser/Blaster/BlasterShotgunTierB",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 30
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 1500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 450
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/BlasterShotgunBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Laser/Blaster/BlasterShotgun",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 10
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 150
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/BlasterShotgunCBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Laser/Blaster/BlasterShotgunTierC",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 40
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 2000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 600
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/ElectricTetherABlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/ElectricTether/ElectricTetherCannonTierA",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 20
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 1000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 300
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/ElectricTetherBBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/ElectricTether/ElectricTetherCannonTierB",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 30
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 1500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 450
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/ElectricTetherCBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/ElectricTether/ElectricTetherCannonTierC",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 40
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 2000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 600
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/GatlingLaserABlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/GatlingLaserTierA",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 20
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 1000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 300
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/GatlingLaserBBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/GatlingLaserTierB",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 30
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 1500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 450
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/GatlingLaserCBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/GatlingLaserTierC",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 40
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 2000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 600
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/IceSniperABlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/IceSniper/IceSniperCannonTierA",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 20
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 1000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 300
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/IceSniperBBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/IceSniper/IceSniperCannonTierB",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 30
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 1500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 450
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/IceSniperCBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/IceSniper/IceSniperCannonTierC",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 40
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 2000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 600
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/MissileLauncherEMPBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherEMPWeapon",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem",
+                    "ItemCount": 10
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 150
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/MissileLauncherEMPTierABlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherEMPWeaponTierA",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem",
+                    "ItemCount": 20
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 1000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 300
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/MissileLauncherEMPTierBBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherEMPWeaponTierB",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem",
+                    "ItemCount": 30
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 1500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 450
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/MissileLauncherEMPTierCBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherEMPWeaponTierC",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem",
+                    "ItemCount": 40
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 2000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 600
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/MissileLauncherTierABlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherWeaponTierA",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/AsteriteRailjackItem",
+                    "ItemCount": 20
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 1000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                    "ItemCount": 300
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/MissileLauncherTierBBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherWeaponTierB",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/AsteriteRailjackItem",
+                    "ItemCount": 30
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 1500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                    "ItemCount": 450
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/MissileLauncherTierCBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherWeaponTierC",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/AsteriteRailjackItem",
+                    "ItemCount": 40
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 2000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                    "ItemCount": 600
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/MultiMissileLauncherBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Missiles/MultiMissileLauncherWeapon",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/AsteriteRailjackItem",
+                    "ItemCount": 10
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                    "ItemCount": 500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 150
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/MultiMissileLauncherTierABlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Missiles/MultiMissileLauncherWeaponTierA",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/AsteriteRailjackItem",
+                    "ItemCount": 20
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                    "ItemCount": 1000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 300
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/MultiMissileLauncherTierBBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Missiles/MultiMissileLauncherWeaponTierB",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/AsteriteRailjackItem",
+                    "ItemCount": 30
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                    "ItemCount": 1500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 450
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/MultiMissileLauncherTierCBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Missiles/MultiMissileLauncherWeaponTierC",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/AsteriteRailjackItem",
+                    "ItemCount": 40
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                    "ItemCount": 2000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 600
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/PulseLaserABlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Laser/PulseLaser/PulseLaserTierA",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 20
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 1000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 300
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/PulseLaserBBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Laser/PulseLaser/PulseLaserTierB",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 30
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 1500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 450
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/PulseLaserCBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Laser/PulseLaser/PulseLaserTierC",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 40
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 2000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 600
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/RailjackBeamWeaponABlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Laser/Beam/RailJackBeamWeaponTierA",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/AsteriteRailjackItem",
+                    "ItemCount": 20
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 1000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                    "ItemCount": 300
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/RailjackBeamWeaponBBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Laser/Beam/RailJackBeamWeaponTierB",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/AsteriteRailjackItem",
+                    "ItemCount": 30
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 1500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                    "ItemCount": 450
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/RailjackBeamWeaponBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Laser/Beam/RailJackBeamWeapon",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/AsteriteRailjackItem",
+                    "ItemCount": 10
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                    "ItemCount": 150
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/RailjackBeamWeaponCBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/Laser/Beam/RailJackBeamWeaponTierC",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/AsteriteRailjackItem",
+                    "ItemCount": 40
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 2000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                    "ItemCount": 600
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/ShrapnelShotgunABlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ShrapnelShotgunTierA",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 20
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 1000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 300
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/ShrapnelShotgunBBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ShrapnelShotgunTierB",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 30
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 1500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 450
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/Weapons/ShrapnelShotgunCBlueprint": {
+            "resultType": "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ShrapnelShotgunTierC",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 40
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 2000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 600
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/RailjackEngineABlueprint": {
+            "resultType": "/Lotus/Upgrades/Skins/RailJack/NimbleEngines",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem",
+                    "ItemCount": 25
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 250
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/RailjackEngineBBlueprint": {
+            "resultType": "/Lotus/Upgrades/Skins/RailJack/ThrustEngines",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem",
+                    "ItemCount": 50
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 1000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 500
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/RailjackEngineCBlueprint": {
+            "resultType": "/Lotus/Upgrades/Skins/RailJack/EnginesClanC",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem",
+                    "ItemCount": 75
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 1500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                    "ItemCount": 750
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/RailjackShieldsABlueprint": {
+            "resultType": "/Lotus/Upgrades/Skins/RailJack/ShieldArrayA",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 25
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                    "ItemCount": 250
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/RailjackShieldsBBlueprint": {
+            "resultType": "/Lotus/Upgrades/Skins/RailJack/ShieldArrayB",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 50
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 1000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                    "ItemCount": 500
+                }
+            ]
+        },
+        "/Lotus/Types/Recipes/Railjack/RailjackShieldsCBlueprint": {
+            "resultType": "/Lotus/Upgrades/Skins/RailJack/ShieldArrayC",
+            "price": 10000,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                    "ItemCount": 75
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+                    "ItemCount": 1500
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                    "ItemCount": 1000
+                }
+            ]
+        }
+    },
     "rooms": {
         "/Lotus/Levels/ClanDojo/ComponentRecipes/BlankSlateRecipe": {
             "resultType": "/Lotus/Levels/ClanDojo/DojoBlankSlate.level",
