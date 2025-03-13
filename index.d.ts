@@ -798,6 +798,7 @@ export interface IWeapon {
     excludeFromCodex?:      boolean;
     primeOmegaAttenuation?: number;
     variantType:            "VT_NORMAL" | "VT_STARTER" | "VT_VARIANT" | "VT_SYNDICATE" | "VT_PRIME" | "VT_KUVA";
+    donationStandingBonus?: number;
     defaultUpgrades?:       IDefaultUpgrade[];
     additionalItems?:       string[];
 }
