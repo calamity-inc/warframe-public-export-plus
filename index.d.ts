@@ -797,7 +797,9 @@ export interface IWeapon {
     sentinel?:              boolean;
     excludeFromCodex?:      boolean;
     primeOmegaAttenuation?: number;
+    premiumPrice?:          number;
     variantType:            "VT_NORMAL" | "VT_STARTER" | "VT_VARIANT" | "VT_SYNDICATE" | "VT_PRIME" | "VT_KUVA";
+    partType?:              string;
     donationStandingBonus?: number;
     defaultUpgrades?:       IDefaultUpgrade[];
     additionalItems?:       string[];
