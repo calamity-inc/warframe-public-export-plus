@@ -800,6 +800,7 @@ export interface IWeapon {
     premiumPrice?:          number;
     variantType:            "VT_NORMAL" | "VT_STARTER" | "VT_VARIANT" | "VT_SYNDICATE" | "VT_PRIME" | "VT_KUVA";
     partType?:              string;
+    gunType?:               "GT_RIFLE" | "GT_SHOTGUN" | "GT_BEAM";
     donationStandingBonus?: number;
     defaultUpgrades?:       IDefaultUpgrade[];
     additionalItems?:       string[];
