@@ -1038,10 +1038,6 @@
             "guildXpValue": 2000,
             "ingredients": [
                 {
-                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
-                    "ItemCount": 5
-                },
-                {
                     "ItemType": "/Lotus/Types/Items/MiscItems/Cryotic",
                     "ItemCount": 250
                 },
@@ -1062,10 +1058,6 @@
             "replicatePrice": 0,
             "guildXpValue": 2000,
             "ingredients": [
-                {
-                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
-                    "ItemCount": 5
-                },
                 {
                     "ItemType": "/Lotus/Types/Items/Research/ChemFragment",
                     "ItemCount": 10
@@ -1088,10 +1080,6 @@
             "guildXpValue": 2000,
             "ingredients": [
                 {
-                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
-                    "ItemCount": 5
-                },
-                {
                     "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
                     "ItemCount": 250
                 },
@@ -1113,10 +1101,6 @@
             "guildXpValue": 2000,
             "ingredients": [
                 {
-                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
-                    "ItemCount": 5
-                },
-                {
                     "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
                     "ItemCount": 400
                 },
@@ -1126,7 +1110,7 @@
                 },
                 {
                     "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
-                    "ItemCount": 10
+                    "ItemCount": 5
                 }
             ]
         },
@@ -1138,10 +1122,6 @@
             "guildXpValue": 2000,
             "ingredients": [
                 {
-                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
-                    "ItemCount": 5
-                },
-                {
                     "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
                     "ItemCount": 400
                 },
@@ -1151,7 +1131,7 @@
                 },
                 {
                     "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
-                    "ItemCount": 10
+                    "ItemCount": 5
                 }
             ]
         },
@@ -1163,10 +1143,6 @@
             "guildXpValue": 2000,
             "ingredients": [
                 {
-                    "ItemType": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
-                    "ItemCount": 5
-                },
-                {
                     "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
                     "ItemCount": 750
                 },
@@ -1175,33 +1151,8 @@
                     "ItemCount": 300
                 },
                 {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/ArgonCrystal",
-                    "ItemCount": 1
-                }
-            ]
-        },
-        "/Lotus/Types/Items/ShipFeatureItems/EidolonArchwingFoundryUpgradeFeatureBlueprint": {
-            "price": 2000000,
-            "time": 259200,
-            "skipTimePrice": 750,
-            "replicatePrice": 15000,
-            "guildXpValue": 6000,
-            "ingredients": [
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Tellurium",
-                    "ItemCount": 200
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
-                    "ItemCount": 500000
-                },
-                {
                     "ItemType": "/Lotus/Types/Items/MiscItems/Cryotic",
-                    "ItemCount": 80000
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/OxiumAlloy",
-                    "ItemCount": 60000
+                    "ItemCount": 250
                 }
             ]
         },
@@ -61997,6 +61948,3854 @@
                 },
                 {
                     "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxBarBoothA2mA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxBarBoothA2mA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxBarBoothA2mA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxBarCounterA1mA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxBarCounterA1mA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxBarCounterA1mA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxBarCounterA2mA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxBarCounterA2mA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxBarCounterA2mA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxBarCounterACrnOutD": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxBarCounterACrnOutD",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxBarCounterACrnOutD.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxBarStoolA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxBarStoolA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxBarStoolA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxBarTableA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxBarTableA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxBarTableA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxBillboardColumnA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxBillboardColumnA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxBillboardColumnA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxBusStopA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxBusStopA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxBusStopA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxCafeTableA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxCafeTableA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxCafeTableA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxCafeTableB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxCafeTableB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxCafeTableB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxCafeTableMetalARound": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxCafeTableMetalARound",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxCafeTableMetalARound.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxCafeTableMetalASquare": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxCafeTableMetalASquare",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxCafeTableMetalASquare.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxComputerCaseB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxComputerCaseB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxComputerCaseB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxComputerOldB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxComputerOldB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxComputerOldB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxComputerSetC": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxComputerSetC",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxComputerSetC.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxConChainlinkFence2mA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxConChainlinkFence2mA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxConChainlinkFence2mA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxConChainlinkFence6mA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxConChainlinkFence6mA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxConChainlinkFence6mA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxConChainlinkFencePostACrnA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxConChainlinkFencePostACrnA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxConChainlinkFencePostACrnA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxConConcreteBarrierLrgA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxConConcreteBarrierLrgA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxConConcreteBarrierLrgA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxConConcreteBarrierLrgB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxConConcreteBarrierLrgB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxConConcreteBarrierLrgB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxConCrateWoodA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxConCrateWoodA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxConCrateWoodA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxConFuelTankLrgA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxConFuelTankLrgA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxConFuelTankLrgA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxConLadderAOpen": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxConLadderAOpen",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxConLadderAOpen.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxConOilDrumB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxConOilDrumB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxConOilDrumB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxConPortaPottyA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxConPortaPottyA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxConPortaPottyA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxConPortableWaterTankA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxConPortableWaterTankA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxConPortableWaterTankA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxConPylonLrgA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxConPylonLrgA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxConPylonLrgA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxDebrisBigBytesPizzaBoxA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxDebrisBigBytesPizzaBoxA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxDebrisBigBytesPizzaBoxA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxDebrisBigBytesPizzaBoxAOpenB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxDebrisBigBytesPizzaBoxAOpenB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxDebrisBigBytesPizzaBoxAOpenB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxDebrisCardboardBoxB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxDebrisCardboardBoxB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxDebrisCardboardBoxB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxDebrisCardboardBoxPileB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxDebrisCardboardBoxPileB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxDebrisCardboardBoxPileB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxDebrisDumpsterA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxDebrisDumpsterA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxDebrisDumpsterA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxDebrisDumpsterALid": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxDebrisDumpsterALid",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxDebrisDumpsterALid.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxDebrisFastFoodContainerE": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxDebrisFastFoodContainerE",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxDebrisFastFoodContainerE.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxDebrisGarbageA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxDebrisGarbageA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxDebrisGarbageA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxDebrisGarbageBagsA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxDebrisGarbageBagsA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxDebrisGarbageBagsA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxDebrisRecyclingBinALid": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxDebrisRecyclingBinALid",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxDebrisRecyclingBinALid.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxDebrisRecyclingBinAOpen": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxDebrisRecyclingBinAOpen",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxDebrisRecyclingBinAOpen.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxFaxMachineA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxFaxMachineA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxFaxMachineA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxFireExtinguisherA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxFireExtinguisherA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxFireExtinguisherA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxFireExtinguisherCabinetA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxFireExtinguisherCabinetA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxFireExtinguisherCabinetA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxHangingFrameA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxHangingFrameA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxHangingFrameA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxHangingFrameB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxHangingFrameB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxHangingFrameB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxHiFiSpeakerA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxHiFiSpeakerA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxHiFiSpeakerA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxIndustrialAirConditionerA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxIndustrialAirConditionerA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxIndustrialAirConditionerA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxIndustrialElectricalBoxA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxIndustrialElectricalBoxA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxIndustrialElectricalBoxA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxIndustrialElectricalBoxWallLrgA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxIndustrialElectricalBoxWallLrgA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxIndustrialElectricalBoxWallLrgA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxIndustrialUtilityBoxB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxIndustrialUtilityBoxB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxIndustrialUtilityBoxB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxLightCeilingHangingMallB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxLightCeilingHangingMallB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxLightCeilingHangingMallB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxLightCeilingTrackMallA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxLightCeilingTrackMallA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxLightCeilingTrackMallA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxLightMallStageA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxLightMallStageA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxLightMallStageA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxLightWallIndustrialA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxLightWallIndustrialA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxLightWallIndustrialA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxLightWallIndustrialB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxLightWallIndustrialB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxLightWallIndustrialB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxLightWallLampA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxLightWallLampA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxLightWallLampA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxLockerSingleAOpenA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxLockerSingleAOpenA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxLockerSingleAOpenA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMachineNewspaperVendingA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMachineNewspaperVendingA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMachineNewspaperVendingA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMachineNewspaperVendingC": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMachineNewspaperVendingC",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMachineNewspaperVendingC.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMachineSubwayTicketA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMachineSubwayTicketA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMachineSubwayTicketA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMallBenchC3mA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMallBenchC3mA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMallBenchC3mA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMallDrinkingFountainA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMallDrinkingFountainA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMallDrinkingFountainA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMallFoodCourtChairA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMallFoodCourtChairA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMallFoodCourtChairA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMallFoodCourtCondimentDispenserA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMallFoodCourtCondimentDispenserA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMallFoodCourtCondimentDispenserA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMallFoodCourtCondimentDispenserB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMallFoodCourtCondimentDispenserB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMallFoodCourtCondimentDispenserB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMallFoodCourtDrinkFridgeMedA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMallFoodCourtDrinkFridgeMedA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMallFoodCourtDrinkFridgeMedA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMallFoodCourtKitchenFryerSmA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMallFoodCourtKitchenFryerSmA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMallFoodCourtKitchenFryerSmA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMallFoodCourtKitchenSinkSmA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMallFoodCourtKitchenSinkSmA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMallFoodCourtKitchenSinkSmA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMallFoodCourtKitchenStoveSmA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMallFoodCourtKitchenStoveSmA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMallFoodCourtKitchenStoveSmA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMallFoodCourtKitchenVentHoodSmA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMallFoodCourtKitchenVentHoodSmA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMallFoodCourtKitchenVentHoodSmA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMallFoodCourtKitchenWorkTableLrgA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMallFoodCourtKitchenWorkTableLrgA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMallFoodCourtKitchenWorkTableLrgA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMallFoodCourtKitchenWorkTableSmAClosedA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMallFoodCourtKitchenWorkTableSmAClosedA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMallFoodCourtKitchenWorkTableSmAClosedA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMallFoodCourtKitchenWorkTableSmAClosedB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMallFoodCourtKitchenWorkTableSmAClosedB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMallFoodCourtKitchenWorkTableSmAClosedB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMallFoodCourtSodaFountainSmA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMallFoodCourtSodaFountainSmA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMallFoodCourtSodaFountainSmA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMallFoodCourtTableA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMallFoodCourtTableA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMallFoodCourtTableA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMallFoodCourtTableSetB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMallFoodCourtTableSetB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMallFoodCourtTableSetB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMallFoodCourtTableSetBHalf": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMallFoodCourtTableSetBHalf",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMallFoodCourtTableSetBHalf.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMallFoodCourtTrashUnitA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMallFoodCourtTrashUnitA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMallFoodCourtTrashUnitA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMallPlanterA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMallPlanterA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMallPlanterA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMallShoppingCartA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMallShoppingCartA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMallShoppingCartA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMallStoreCashRegisterA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMallStoreCashRegisterA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMallStoreCashRegisterA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMedKitA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMedKitA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMedKitA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMicrophoneStandingA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMicrophoneStandingA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMicrophoneStandingA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMilitaryCommandConsoleA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMilitaryCommandConsoleA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMilitaryCommandConsoleA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMilitaryCommandConsoleB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMilitaryCommandConsoleB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMilitaryCommandConsoleB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxMilitaryCommandConsoleCm": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxMilitaryCommandConsoleCm",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxMilitaryCommandConsoleCm.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxNeonBrandSignArgonBurgerA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxNeonBrandSignArgonBurgerA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxNeonBrandSignArgonBurgerA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 3
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxNeonBrandSignAtomicycleA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxNeonBrandSignAtomicycleA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxNeonBrandSignAtomicycleA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 3
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxNeonBrandSignAtomicycleB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxNeonBrandSignAtomicycleB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxNeonBrandSignAtomicycleB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 3
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxNeonBrandSignBigBytesB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxNeonBrandSignBigBytesB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxNeonBrandSignBigBytesB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 3
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxNeonBrandSignCoffeeShopA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxNeonBrandSignCoffeeShopA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxNeonBrandSignCoffeeShopA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 3
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxNeonBrandSignDataDesrickA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxNeonBrandSignDataDesrickA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxNeonBrandSignDataDesrickA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 3
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxNeonBrandSignDomestikHombaA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxNeonBrandSignDomestikHombaA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxNeonBrandSignDomestikHombaA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 3
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxNeonBrandSignGameRoomA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxNeonBrandSignGameRoomA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxNeonBrandSignGameRoomA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 3
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxNeonBrandSignPlentyTunesA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxNeonBrandSignPlentyTunesA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxNeonBrandSignPlentyTunesA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 3
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxNeonBrandSignTechTitanA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxNeonBrandSignTechTitanA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxNeonBrandSignTechTitanA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 3
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxOfficePhone": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxOfficePhone",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxOfficePhone.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxParasolClosedA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxParasolClosedA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxParasolClosedA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxParasolOpenA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxParasolOpenA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxParasolOpenA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxPartyBalloonA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxPartyBalloonA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxPartyBalloonA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxPartyBalloonB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxPartyBalloonB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxPartyBalloonB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxPartyBalloonC": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxPartyBalloonC",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxPartyBalloonC.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxPartyBalloonD": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxPartyBalloonD",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxPartyBalloonD.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxPartyBannerE": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxPartyBannerE",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxPartyBannerE.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxPayPhoneBoothSingleA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxPayPhoneBoothSingleA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxPayPhoneBoothSingleA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxPayPhoneExteriorC": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxPayPhoneExteriorC",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxPayPhoneExteriorC.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxPlanterBox1mA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxPlanterBox1mA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxPlanterBox1mA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxPlanterBox2mA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxPlanterBox2mA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxPlanterBox2mA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxPlanterCircle2mA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxPlanterCircle2mA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxPlanterCircle2mA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxPlanterCircle4mA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxPlanterCircle4mA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxPlanterCircle4mA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxPlanterRoundA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxPlanterRoundA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxPlanterRoundA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxPlanterRoundFenceA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxPlanterRoundFenceA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxPlanterRoundFenceA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxProtoCashBundlePile": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxProtoCashBundlePile",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxProtoCashBundlePile.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 3
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxProtoCashBundleSingle": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxProtoCashBundleSingle",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxProtoCashBundleSingle.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSafeDepositStrongboxMesh": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSafeDepositStrongboxMesh",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSafeDepositStrongboxMesh.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSafetyBarrierA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSafetyBarrierA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSafetyBarrierA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSecurityHoodCameraA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSecurityHoodCameraA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSecurityHoodCameraA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSignArcadeNeonB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSignArcadeNeonB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSignArcadeNeonB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 3
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSignArcadeNeonC": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSignArcadeNeonC",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSignArcadeNeonC.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 3
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSignArcadeNeonF": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSignArcadeNeonF",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSignArcadeNeonF.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 3
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSignArcadeNeonH": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSignArcadeNeonH",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSignArcadeNeonH.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 3
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSignArcadeNeonI": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSignArcadeNeonI",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSignArcadeNeonI.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 3
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSignCircuitBarNeonC": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSignCircuitBarNeonC",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSignCircuitBarNeonC.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 3
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSignMallFoodCourtBigBytesA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSignMallFoodCourtBigBytesA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSignMallFoodCourtBigBytesA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 3
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSignPharmacyNeonA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSignPharmacyNeonA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSignPharmacyNeonA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 3
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSignPosterTileA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSignPosterTileA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSignPosterTileA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxStageSpeakerA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxStageSpeakerA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxStageSpeakerA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxStreetBicycleRackB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxStreetBicycleRackB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxStreetBicycleRackB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxStreetBollardPostA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxStreetBollardPostA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxStreetBollardPostA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxStreetBollardPostB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxStreetBollardPostB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxStreetBollardPostB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxStreetLampPostA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxStreetLampPostA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxStreetLampPostA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxStreetsClockA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxStreetsClockA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxStreetsClockA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxStreetsClockHead": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxStreetsClockHead",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxStreetsClockHead.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSubwaySeatingA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSubwaySeatingA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSubwaySeatingA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSubwaySeatingB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSubwaySeatingB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSubwaySeatingB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSubwayTransitLogoWall": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSubwayTransitLogoWall",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSubwayTransitLogoWall.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 3
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSubwayTurnStileSwingGateB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSubwayTurnStileSwingGateB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSubwayTurnStileSwingGateB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSubwayTurnStileSwingGateC": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSubwayTurnStileSwingGateC",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSubwayTurnStileSwingGateC.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSubwayWallDisplayA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSubwayWallDisplayA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSubwayWallDisplayA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSubwayWallDisplayAb": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSubwayWallDisplayAb",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSubwayWallDisplayAb.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSubwayWallDisplayAc": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSubwayWallDisplayAc",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSubwayWallDisplayAc.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSubwayWallDisplayAd": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSubwayWallDisplayAd",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSubwayWallDisplayAd.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSubwayWallDisplayAe": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSubwayWallDisplayAe",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSubwayWallDisplayAe.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxSubwayWallDisplayAf": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxSubwayWallDisplayAf",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxSubwayWallDisplayAf.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxTelevisionHangingA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxTelevisionHangingA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxTelevisionHangingA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/ControlModule",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxTheater4SeatRowA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxTheater4SeatRowA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxTheater4SeatRowA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxTrashCanA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxTrashCanA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxTrashCanA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxTrashCanB": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxTrashCanB",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxTrashCanB.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxVCRHangingA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxVCRHangingA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxVCRHangingA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                    "ItemCount": 7
+                }
+            ],
+            "capacityCost": 1
+        },
+        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/WF1999Placeables/LASxVendingMachineA": {
+            "resultType": "/Lotus/Objects/Tenno/Props/1999Placeables/LASxVendingMachineA",
+            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/WF1999Placeables/LASxVendingMachineA.png",
+            "price": 50000,
+            "time": 86400,
+            "skipTimePrice": 750,
+            "ingredients": [
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                    "ItemCount": 30000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                    "ItemCount": 20000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                    "ItemCount": 10000
+                },
+                {
+                    "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
                     "ItemCount": 7
                 }
             ],

@@ -208,7 +208,7 @@
         "missionName": "/Lotus/Language/Missions/MissionName_Survival",
         "factionIndex": 1,
         "factionName": "/Lotus/Language/Game/Faction_CorpusUC",
-        "minEnemyLevel": 3,
+        "minEnemyLevel": 6,
         "maxEnemyLevel": 8,
         "masteryExp": 18,
         "rewardManifests": [
@@ -241,7 +241,7 @@
         "missionName": "/Lotus/Language/Missions/MissionName_MobileDefense",
         "factionIndex": 1,
         "factionName": "/Lotus/Language/Game/Faction_CorpusUC",
-        "minEnemyLevel": 6,
+        "minEnemyLevel": 5,
         "maxEnemyLevel": 8,
         "masteryExp": 18,
         "rewardManifests": []
@@ -256,7 +256,7 @@
         "missionName": "/Lotus/Language/Missions/MissionName_Territory",
         "factionIndex": 1,
         "factionName": "/Lotus/Language/Game/Faction_CorpusUC",
-        "minEnemyLevel": 3,
+        "minEnemyLevel": 6,
         "maxEnemyLevel": 8,
         "masteryExp": 18,
         "rewardManifests": [
@@ -383,7 +383,7 @@
         "factionIndex": 1,
         "factionName": "/Lotus/Language/Game/Faction_CorpusUC",
         "minEnemyLevel": 3,
-        "maxEnemyLevel": 8,
+        "maxEnemyLevel": 7,
         "masteryExp": 18,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsEasy"
@@ -400,7 +400,7 @@
         "factionIndex": 1,
         "factionName": "/Lotus/Language/Game/Faction_CorpusUC",
         "minEnemyLevel": 3,
-        "maxEnemyLevel": 8,
+        "maxEnemyLevel": 7,
         "masteryExp": 18,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionLowLevelRewards"
@@ -491,8 +491,8 @@
         "missionName": "/Lotus/Language/Missions/MissionName_Spy",
         "factionIndex": 0,
         "factionName": "/Lotus/Language/Game/Faction_GrineerUC",
-        "minEnemyLevel": 2,
-        "maxEnemyLevel": 4,
+        "minEnemyLevel": 3,
+        "maxEnemyLevel": 6,
         "masteryExp": 24,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyLowMissionRewards"
@@ -542,8 +542,8 @@
         "missionName": "/Lotus/Language/Missions/MissionName_Defense",
         "factionIndex": 0,
         "factionName": "/Lotus/Language/Game/Faction_GrineerUC",
-        "minEnemyLevel": 1,
-        "maxEnemyLevel": 6,
+        "minEnemyLevel": 2,
+        "maxEnemyLevel": 5,
         "masteryExp": 24,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsEasy"
@@ -592,7 +592,7 @@
         "factionIndex": 0,
         "factionName": "/Lotus/Language/Game/Faction_GrineerUC",
         "minEnemyLevel": 3,
-        "maxEnemyLevel": 5,
+        "maxEnemyLevel": 6,
         "masteryExp": 24,
         "rewardManifests": []
     },
@@ -758,8 +758,8 @@
         "missionName": "/Lotus/Language/Missions/MissionName_Sabotage",
         "factionIndex": 0,
         "factionName": "/Lotus/Language/Game/Faction_GrineerUC",
-        "minEnemyLevel": 9,
-        "maxEnemyLevel": 11,
+        "minEnemyLevel": 8,
+        "maxEnemyLevel": 10,
         "masteryExp": 51,
         "rewardManifests": []
     },
@@ -774,7 +774,7 @@
         "factionIndex": 0,
         "factionName": "/Lotus/Language/Game/Faction_GrineerUC",
         "minEnemyLevel": 8,
-        "maxEnemyLevel": 13,
+        "maxEnemyLevel": 12,
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsEasy"
@@ -806,7 +806,7 @@
         "factionIndex": 0,
         "factionName": "/Lotus/Language/Game/Faction_GrineerUC",
         "minEnemyLevel": 8,
-        "maxEnemyLevel": 10,
+        "maxEnemyLevel": 12,
         "masteryExp": 51,
         "rewardManifests": []
     },
@@ -872,7 +872,7 @@
         "factionIndex": 0,
         "factionName": "/Lotus/Language/Game/Faction_GrineerUC",
         "minEnemyLevel": 9,
-        "maxEnemyLevel": 14,
+        "maxEnemyLevel": 11,
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionLowLevelRewards"
@@ -966,7 +966,7 @@
         "factionIndex": 1,
         "factionName": "/Lotus/Language/Game/Faction_CorpusUC",
         "minEnemyLevel": 9,
-        "maxEnemyLevel": 11,
+        "maxEnemyLevel": 12,
         "masteryExp": 45,
         "rewardManifests": [],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsEasy"
@@ -1007,8 +1007,8 @@
         "missionName": "/Lotus/Language/Missions/MissionName_MobileDefense",
         "factionIndex": 0,
         "factionName": "/Lotus/Language/Game/Faction_GrineerUC",
-        "minEnemyLevel": 8,
-        "maxEnemyLevel": 10,
+        "minEnemyLevel": 9,
+        "maxEnemyLevel": 11,
         "masteryExp": 51,
         "rewardManifests": []
     },
@@ -4570,6 +4570,24 @@
         ],
         "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
     },
+    "SolNode856": {
+        "name": "/Lotus/Language/1999/1999NodeG",
+        "systemIndex": 23,
+        "systemName": "/Lotus/Language/1999/1999MapName",
+        "nodeType": 0,
+        "masteryReq": 0,
+        "missionIndex": 0,
+        "missionName": "/Lotus/Language/Missions/MissionName_Assassination",
+        "factionIndex": 8,
+        "factionName": "/Lotus/Language/1999/Faction_Scaldra",
+        "minEnemyLevel": 65,
+        "maxEnemyLevel": 70,
+        "masteryExp": 0,
+        "rewardManifests": [
+            "/Lotus/Types/Game/MissionDecks/1999MissionRewards/TankAssassinateRewards"
+        ],
+        "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
+    },
     "SolNode857": {
         "name": "/Lotus/Language/1999/1999NodeH",
         "systemIndex": 23,
@@ -4588,23 +4606,35 @@
         ],
         "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
     },
-    "SolNode856": {
-        "name": "/Lotus/Language/1999/1999NodeG",
+    "SolNode858": {
+        "name": "/Lotus/Language/1999Echoes/1999NodeI",
         "systemIndex": 23,
         "systemName": "/Lotus/Language/1999/1999MapName",
         "nodeType": 0,
         "masteryReq": 0,
-        "missionIndex": 0,
-        "missionName": "/Lotus/Language/Missions/MissionName_Assassination",
+        "missionIndex": 8,
+        "missionName": "/Lotus/Language/Missions/MissionName_Defense",
         "factionIndex": 8,
         "factionName": "/Lotus/Language/1999/Faction_Scaldra",
         "minEnemyLevel": 65,
         "maxEnemyLevel": 70,
         "masteryExp": 0,
-        "rewardManifests": [
-            "/Lotus/Types/Game/MissionDecks/1999MissionRewards/TankAssassinateRewards"
-        ],
-        "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
+        "rewardManifests": []
+    },
+    "SolNode859": {
+        "name": "/Lotus/Language/1999Echoes/1999NodeJ",
+        "systemIndex": 23,
+        "systemName": "/Lotus/Language/1999/1999MapName",
+        "nodeType": 0,
+        "masteryReq": 0,
+        "missionIndex": 1,
+        "missionName": "/Lotus/Language/Missions/MissionName_Exterminate",
+        "factionIndex": 8,
+        "factionName": "/Lotus/Language/1999/Faction_Scaldra",
+        "minEnemyLevel": 65,
+        "maxEnemyLevel": 70,
+        "masteryExp": 0,
+        "rewardManifests": []
     },
     "SolNode801": {
         "name": "/Lotus/Language/Onslaught/SanctuaryOnslaught",

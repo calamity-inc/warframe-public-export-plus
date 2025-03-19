@@ -4698,19 +4698,6 @@
         "type": "MELEE",
         "canBeTransmutation": false
     },
-    "/Lotus/Upgrades/Mods/Sentinel/Kubrow/DualStat/KubrowMagneticEventMeleeMod": {
-        "name": "/Lotus/Language/Pets/KubrowMagneticEventMeleeModName",
-        "icon": "/Lotus/Interface/Cards/Images/Kubrow/KubrowMagneticEventMeleeMod.png",
-        "polarity": "AP_ATTACK",
-        "rarity": "RARE",
-        "codexSecret": false,
-        "baseDrain": 4,
-        "fusionLimit": 3,
-        "compat": "/Lotus/Types/Friendly/Pets/BeastPetMeleeWeaponBase",
-        "compatName": "Claws",
-        "type": "MELEE",
-        "canBeTransmutation": false
-    },
     "/Lotus/Upgrades/Mods/Sentinel/Kubrow/DualStat/KubrowIceEventMeleeMod": {
         "name": "/Lotus/Language/Items/KubrowDualIceMod",
         "icon": "/Lotus/Interface/Cards/Images/Kubrow/KubrowDualIce.png",
@@ -10758,19 +10745,6 @@
         "type": "MELEE",
         "canBeTransmutation": false
     },
-    "/Lotus/Upgrades/Mods/Melee/DualStat/MagneticAttackSpeedMeleeMod": {
-        "name": "/Lotus/Language/Upgrades/MagneticAttackSpeedMeleeMod",
-        "icon": "/Lotus/Interface/Cards/Images/Melee/MagneticAttackSpeedMeleeMod.png",
-        "polarity": "AP_ATTACK",
-        "rarity": "RARE",
-        "codexSecret": false,
-        "baseDrain": 4,
-        "fusionLimit": 3,
-        "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
-        "compatName": "Melee",
-        "type": "MELEE",
-        "canBeTransmutation": false
-    },
     "/Lotus/Upgrades/Mods/Melee/DualStat/IceEventMeleeMod": {
         "name": "/Lotus/Language/Items/IceEventMeleeMod",
         "icon": "/Lotus/Interface/Cards/Images/Melee/IceEventMeleeMod.png",
@@ -11065,6 +11039,118 @@
         "compatName": "Parazon",
         "type": "PARAZON",
         "description": "/Lotus/Language/Mods/ImmortalEightModDesc",
+        "canBeTransmutation": false
+    },
+    "/Lotus/Upgrades/Mods/Immortal/AntivirusTwoMod": {
+        "name": "/Lotus/Language/1999Coda/AntivirusTwoModName",
+        "icon": "/Lotus/Interface/Icons/Antivirus/WormBeGone.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Weapons/Tenno/HackingDevices/TnHackingDevice/TnHackingDeviceWeapon",
+        "compatName": "Parazon",
+        "type": "PARAZON",
+        "description": "/Lotus/Language/1999Coda/AntivirusTwoModDesc",
+        "canBeTransmutation": false
+    },
+    "/Lotus/Upgrades/Mods/Immortal/AntivirusThreeMod": {
+        "name": "/Lotus/Language/1999Coda/AntivirusThreeModName",
+        "icon": "/Lotus/Interface/Icons/Antivirus/TrojanSnatcher.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Weapons/Tenno/HackingDevices/TnHackingDevice/TnHackingDeviceWeapon",
+        "compatName": "Parazon",
+        "type": "PARAZON",
+        "description": "/Lotus/Language/1999Coda/AntivirusThreeModDesc",
+        "canBeTransmutation": false
+    },
+    "/Lotus/Upgrades/Mods/Immortal/AntivirusSixMod": {
+        "name": "/Lotus/Language/1999Coda/AntivirusSixModName",
+        "icon": "/Lotus/Interface/Icons/Antivirus/CompuPal.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Weapons/Tenno/HackingDevices/TnHackingDevice/TnHackingDeviceWeapon",
+        "compatName": "Parazon",
+        "type": "PARAZON",
+        "description": "/Lotus/Language/1999Coda/AntivirusSixModDesc",
+        "canBeTransmutation": false
+    },
+    "/Lotus/Upgrades/Mods/Immortal/AntivirusSevenMod": {
+        "name": "/Lotus/Language/1999Coda/AntivirusSevenModName",
+        "icon": "/Lotus/Interface/Icons/Antivirus/AntiV.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Weapons/Tenno/HackingDevices/TnHackingDevice/TnHackingDeviceWeapon",
+        "compatName": "Parazon",
+        "type": "PARAZON",
+        "description": "/Lotus/Language/1999Coda/AntivirusSevenModDesc",
+        "canBeTransmutation": false
+    },
+    "/Lotus/Upgrades/Mods/Immortal/AntivirusOneMod": {
+        "name": "/Lotus/Language/1999Coda/AntivirusOneModName",
+        "icon": "/Lotus/Interface/Icons/Antivirus/McVirus.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Weapons/Tenno/HackingDevices/TnHackingDevice/TnHackingDeviceWeapon",
+        "compatName": "Parazon",
+        "type": "PARAZON",
+        "description": "/Lotus/Language/1999Coda/AntivirusOneModDesc",
+        "canBeTransmutation": false
+    },
+    "/Lotus/Upgrades/Mods/Immortal/AntivirusFourMod": {
+        "name": "/Lotus/Language/1999Coda/AntivirusFourModName",
+        "icon": "/Lotus/Interface/Icons/Antivirus/KeepClean.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Weapons/Tenno/HackingDevices/TnHackingDevice/TnHackingDeviceWeapon",
+        "compatName": "Parazon",
+        "type": "PARAZON",
+        "description": "/Lotus/Language/1999Coda/AntivirusFourModDesc",
+        "canBeTransmutation": false
+    },
+    "/Lotus/Upgrades/Mods/Immortal/AntivirusFiveMod": {
+        "name": "/Lotus/Language/1999Coda/AntivirusFiveModName",
+        "icon": "/Lotus/Interface/Icons/Antivirus/DriveDuster.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Weapons/Tenno/HackingDevices/TnHackingDevice/TnHackingDeviceWeapon",
+        "compatName": "Parazon",
+        "type": "PARAZON",
+        "description": "/Lotus/Language/1999Coda/AntivirusFiveModDesc",
+        "canBeTransmutation": false
+    },
+    "/Lotus/Upgrades/Mods/Immortal/AntivirusEightMod": {
+        "name": "/Lotus/Language/1999Coda/AntivirusEightModName",
+        "icon": "/Lotus/Interface/Icons/Antivirus/VirusPolice.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Weapons/Tenno/HackingDevices/TnHackingDevice/TnHackingDeviceWeapon",
+        "compatName": "Parazon",
+        "type": "PARAZON",
+        "description": "/Lotus/Language/1999Coda/AntivirusEightModDesc",
         "canBeTransmutation": false
     },
     "/Lotus/Upgrades/Mods/Hoverboard/HBTrickExplosionMod": {
@@ -11469,6 +11555,71 @@
         "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
         "compatName": "Melee",
         "type": "MELEE",
+        "canBeTransmutation": false
+    },
+    "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusSmallOnSingleUseMod": {
+        "name": "/Lotus/Language/1999Coda/GainAntivirusSmallOnSingleUseModName",
+        "icon": "/Lotus/Interface/Cards/Images/Antivirus/PotencyModDrillBit.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Weapons/Tenno/HackingDevices/TnHackingDevice/TnHackingDeviceWeapon",
+        "compatName": "Parazon",
+        "type": "PARAZON",
+        "canBeTransmutation": false
+    },
+    "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusOnUseMod": {
+        "name": "/Lotus/Language/1999Coda/GainAntivirusOnUseModName",
+        "icon": "/Lotus/Interface/Cards/Images/Antivirus/PotencyModHarddrive.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Weapons/Tenno/HackingDevices/TnHackingDevice/TnHackingDeviceWeapon",
+        "compatName": "Parazon",
+        "type": "PARAZON",
+        "canBeTransmutation": false
+    },
+    "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusLargeOnSingleUseMod": {
+        "name": "/Lotus/Language/1999Coda/GainAntivirusLargeOnSingleUseModName",
+        "icon": "/Lotus/Interface/Cards/Images/Antivirus/PotencyModDJRom.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Weapons/Tenno/HackingDevices/TnHackingDevice/TnHackingDeviceWeapon",
+        "compatName": "Parazon",
+        "type": "PARAZON",
+        "canBeTransmutation": false
+    },
+    "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusAndWeaponDamageOnUseMod": {
+        "name": "/Lotus/Language/1999Coda/GainAntivirusAndWeaponDamageOnUseModName",
+        "icon": "/Lotus/Interface/Cards/Images/Antivirus/PotencyModZeke.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Weapons/Tenno/HackingDevices/TnHackingDevice/TnHackingDeviceWeapon",
+        "compatName": "Parazon",
+        "type": "PARAZON",
+        "canBeTransmutation": false
+    },
+    "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusAndSpeedOnUseMod": {
+        "name": "/Lotus/Language/1999Coda/GainAntivirusAndSpeedOnUseModName",
+        "icon": "/Lotus/Interface/Cards/Images/Antivirus/PotencyModPacket.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Weapons/Tenno/HackingDevices/TnHackingDevice/TnHackingDeviceWeapon",
+        "compatName": "Parazon",
+        "type": "PARAZON",
         "canBeTransmutation": false
     },
     "/Lotus/Upgrades/Mods/DataSpike/Cipher/OnHackSprintSpeedMod": {
@@ -14815,6 +14966,20 @@
         "subtype": "/Lotus/Powersuits/Wraith/WraithBaseSuit",
         "canBeTransmutation": false
     },
+    "/Lotus/Powersuits/Wisp/WispSunAugmentCard": {
+        "name": "/Lotus/Language/Suits/WispSunAbilityAugment1Name",
+        "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/WispSunAugmentCard.png",
+        "polarity": "AP_POWER",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Powersuits/Wisp/WispBaseSuit",
+        "compatName": "Wisp",
+        "type": "WARFRAME",
+        "subtype": "/Lotus/Powersuits/Wisp/WispBaseSuit",
+        "canBeTransmutation": false
+    },
     "/Lotus/Powersuits/Wisp/WispReservoirAugmentCard": {
         "name": "/Lotus/Language/Suits/WispFrameReservoirAbilityAugment1Name",
         "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/WispReservoirAugmentCard.png",
@@ -16165,6 +16330,20 @@
         "subtype": "/Lotus/Powersuits/Loki/LokiBaseSuit",
         "canBeTransmutation": false
     },
+    "/Lotus/Powersuits/Koumei/KoumeiFortuneAugmentCard": {
+        "name": "/Lotus/Language/Suits/KoumeiFortuneAbilityAugment1Name",
+        "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/KoumeiFortuneAugmentCard.png",
+        "polarity": "AP_POWER",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Powersuits/Koumei/KoumeiBaseSuit",
+        "compatName": "Koumei",
+        "type": "WARFRAME",
+        "subtype": "/Lotus/Powersuits/Koumei/KoumeiBaseSuit",
+        "canBeTransmutation": false
+    },
     "/Lotus/Powersuits/Khora/KhoraKavatAugmentCard": {
         "name": "/Lotus/Language/Suits/KhoraKavatAbilityAugment1Name",
         "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/KhoraVenariAugment.png",
@@ -16476,6 +16655,20 @@
     "/Lotus/Powersuits/Gyre/GyreSphereAugmentCard": {
         "name": "/Lotus/Language/Suits/GyreSphereAbilityAugment1Name",
         "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/GyreSphereAugment.png",
+        "polarity": "AP_POWER",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Powersuits/Gyre/GyreBaseSuit",
+        "compatName": "Gyre",
+        "type": "WARFRAME",
+        "subtype": "/Lotus/Powersuits/Gyre/GyreBaseSuit",
+        "canBeTransmutation": false
+    },
+    "/Lotus/Powersuits/Gyre/GyrePulseAugmentCard": {
+        "name": "/Lotus/Language/Suits/GyrePulseAbilityAugment1Name",
+        "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/GyrePulseAugmentCard.png",
         "polarity": "AP_POWER",
         "rarity": "RARE",
         "codexSecret": false,
@@ -16839,20 +17032,6 @@
         "subtype": "/Lotus/Powersuits/Ember/EmberBaseSuit",
         "canBeTransmutation": false
     },
-    "/Lotus/Powersuits/Ember/FireSkinAugmentCard": {
-        "name": "/Lotus/Language/Suits/EmberImmolationAbilityAugment1Name",
-        "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/EmberImmolationAugment.png",
-        "polarity": "AP_POWER",
-        "rarity": "RARE",
-        "codexSecret": false,
-        "baseDrain": 6,
-        "fusionLimit": 3,
-        "compat": "/Lotus/Powersuits/Ember/EmberBaseSuit",
-        "compatName": "Ember",
-        "type": "WARFRAME",
-        "subtype": "/Lotus/Powersuits/Ember/EmberBaseSuit",
-        "canBeTransmutation": false
-    },
     "/Lotus/Powersuits/Ember/FireBlastPvPAugmentCard": {
         "name": "/Lotus/Language/Suits/FireBlastAbilityAugment1PvPName",
         "icon": "/Lotus/Interface/Cards/Images/PvP/Augments/EmberFireBlastPvPAugment.png",
@@ -17096,6 +17275,20 @@
     "/Lotus/Powersuits/ConcreteFrame/ConcreteWallAugmentCard": {
         "name": "/Lotus/Language/Suits/ConcreteWallAbilityAugment1Name",
         "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/QorvexConcreteWallAugment.png",
+        "polarity": "AP_POWER",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Powersuits/ConcreteFrame/ConcreteFrameBaseSuit",
+        "compatName": "Qorvex",
+        "type": "WARFRAME",
+        "subtype": "/Lotus/Powersuits/ConcreteFrame/ConcreteFrameBaseSuit",
+        "canBeTransmutation": false
+    },
+    "/Lotus/Powersuits/ConcreteFrame/ConcreteLaserAugmentCard": {
+        "name": "/Lotus/Language/Suits/ConcreteLaserAbilityAugment1Name",
+        "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/ConcreteLaserAugmentCard.png",
         "polarity": "AP_POWER",
         "rarity": "RARE",
         "codexSecret": false,
@@ -24080,12 +24273,14 @@
             "/Lotus/Weapons/Grineer/Pistols/GrnUzi/GrnUziWeapon",
             "/Lotus/Weapons/Grineer/Pistols/HeatGun/GrnHeatGun",
             "/Lotus/Weapons/Grineer/ThrowingWeapons/GrnVorStickyBomb/GrnVorStickyBomb",
+            "/Lotus/Weapons/Infested/InfestedLich/Pistols/1999InfSporePistol/1999InfSporePistolWeapon",
             "/Lotus/Weapons/Infested/Pistols/InfBeamPistol/InfBeamPistol",
             "/Lotus/Weapons/Infested/Pistols/InfProximityStars/InfProximityStars",
             "/Lotus/Weapons/Infested/Pistols/InfUzi/InfUziWeapon",
             "/Lotus/Weapons/Infested/Pistols/InfVomitGun/InfVomitGunWep",
             "/Lotus/Weapons/Infested/Pistols/InfestedDartPistol/InfestedDartPistol",
             "/Lotus/Weapons/Infested/Pistols/InfestedPistol",
+            "/Lotus/Weapons/Lasria/LasGooPistol/LasGooPistolPlayerWeapon",
             "/Lotus/Weapons/Lasria/LasSilencedPistol/LasSilencedPistolWeapon",
             "/Lotus/Weapons/Syndicates/CephalonSuda/Pistols/CSDroidArray",
             "/Lotus/Weapons/Tenno/Akimbo/AkLexPistols",
@@ -24104,6 +24299,7 @@
             "/Lotus/Weapons/Tenno/Pistol/HeavyPistol",
             "/Lotus/Weapons/Tenno/Pistol/Pistol",
             "/Lotus/Weapons/Tenno/Pistol/RevolverPistol",
+            "/Lotus/Weapons/Tenno/Pistols/1999EntHybridPistolWeapon/1999EntHybridPistolWeapon",
             "/Lotus/Weapons/Tenno/Pistols/AllNew1hSG/AllNew1hSG",
             "/Lotus/Weapons/Tenno/Pistols/AutomaticHandCrossbow/AutoCrossBow",
             "/Lotus/Weapons/Tenno/Pistols/ConclaveLeverPistol/ConclaveLeverPistol",
@@ -25778,6 +25974,8 @@
             "/Lotus/Weapons/Infested/LongGuns/QuantaFullyInfested/InfQuantaRifle",
             "/Lotus/Weapons/Infested/LongGuns/InfestedRifle",
             "/Lotus/Weapons/Lasria/AK47/TC2024AK47Weapon",
+            "/Lotus/Weapons/Lasria/LasGooAK/LasGooAKPlayerWeapon",
+            "/Lotus/Weapons/Lasria/LasGrenadeLauncher/LasrianNoxPlayerWeapon",
             "/Lotus/Weapons/Sentients/SentRifleNewWar/SentRifleNewWarGun",
             "/Lotus/Weapons/Sentients/Shedu/SheduHeavyWeapon",
             "/Lotus/Weapons/Tenno/Bows/AntlerBow/AntlerBow",
@@ -27386,6 +27584,7 @@
             "/Lotus/Weapons/Corpus/LongGuns/CrpSplitLaser/CrpSplitLaser",
             "/Lotus/Weapons/Grineer/LongGuns/GrineerFlakCannon/FlakCannon",
             "/Lotus/Weapons/Grineer/LongGuns/GrnSpark/GrnSparkRifle",
+            "/Lotus/Weapons/Infested/InfestedLich/LongGuns/1999InfShotgun/1999InfShotgunWeapon",
             "/Lotus/Weapons/Infested/LongGuns/InfArmCannon/InfArmCannon",
             "/Lotus/Weapons/Infested/LongGuns/Tentacluster/InfestedShotgun",
             "/Lotus/Weapons/Tenno/LongGuns/DoubleBarrelShotgun/TennoDoubleBarrelShotgun",
@@ -27436,6 +27635,9 @@
                     {
                         "value": 0.0133,
                         "locTag": "/Lotus/Language/Upgrades/WeaponPunctureDamage"
+                    },
+                    {
+                        "value": 0.0665
                     }
                 ]
             },
@@ -27449,6 +27651,9 @@
                     {
                         "value": 0.0133,
                         "locTag": "/Lotus/Language/Upgrades/WeaponImpactDamage"
+                    },
+                    {
+                        "value": 0.0665
                     }
                 ]
             },
@@ -27462,6 +27667,9 @@
                     {
                         "value": 0.0133,
                         "locTag": "/Lotus/Language/Upgrades/WeaponSlashDamage"
+                    },
+                    {
+                        "value": 0.0665
                     }
                 ]
             },
@@ -29043,6 +29251,7 @@
             "/Lotus/Weapons/Grineer/Melee/GrnSparring/GrnSpiderSparring/GrnSpiderSparring",
             "/Lotus/Weapons/Grineer/Melee/GrnTrident/GrnTridentWeapon",
             "/Lotus/Weapons/Grineer/Melee/GunBlade/GrnGunBlade/GrnGunblade",
+            "/Lotus/Weapons/Infested/InfestedLich/Melee/InfestedHammer/InfLichHammerWeapon",
             "/Lotus/Weapons/Infested/Melee/Glaives/PunctureGlaive/PunctureGlaiveWeapon",
             "/Lotus/Weapons/Infested/Melee/InfBoomerang/InfBoomerangWeapon",
             "/Lotus/Weapons/Infested/Melee/InfEmbolistScythe/InfestedScythe",
@@ -29055,6 +29264,7 @@
             "/Lotus/Weapons/Infested/Melee/Swords/Mire/MireSword",
             "/Lotus/Weapons/Infested/Melee/TipedoStaff/InfTipedoStaff",
             "/Lotus/Weapons/Infested/Melee/Whip/InfestedWhip/InfestedWhipWeapon",
+            "/Lotus/Weapons/Lasria/LasGooSickle/LasGooSicklePlayerWeapon",
             "/Lotus/Weapons/Operator/Melee/DrifterTazer/DrifterTazerPlayerWep",
             "/Lotus/Weapons/Orokin/BallasSword/BallasSwordWeapon",
             "/Lotus/Weapons/Sentients/SentJointedScythe/SentJointedScytheWeapon",
@@ -31653,6 +31863,46 @@
         "excludeFromCodex": true,
         "compatName": "Oxylus",
         "type": "SENTINEL",
+        "canBeTransmutation": false
+    },
+    "/Lotus/Upgrades/Mods/Sentinel/Kubrow/DualStat/KubrowMagneticEventMeleeMod": {
+        "name": "/Lotus/Language/Pets/KubrowMagneticEventMeleeModName",
+        "icon": "/Lotus/Interface/Cards/Images/Kubrow/KubrowMagneticEventMeleeMod.png",
+        "polarity": "AP_ATTACK",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 4,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Types/Friendly/Pets/BeastPetMeleeWeaponBase",
+        "compatName": "Claws",
+        "type": "MELEE",
+        "canBeTransmutation": false
+    },
+    "/Lotus/Upgrades/Mods/Melee/DualStat/MagneticAttackSpeedMeleeMod": {
+        "name": "/Lotus/Language/Upgrades/MagneticAttackSpeedMeleeMod",
+        "icon": "/Lotus/Interface/Cards/Images/Melee/MagneticAttackSpeedMeleeMod.png",
+        "polarity": "AP_ATTACK",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 4,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
+        "compatName": "Melee",
+        "type": "MELEE",
+        "canBeTransmutation": false
+    },
+    "/Lotus/Powersuits/Ember/FireSkinAugmentCard": {
+        "name": "/Lotus/Language/Suits/EmberImmolationAbilityAugment1Name",
+        "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/EmberImmolationAugment.png",
+        "polarity": "AP_POWER",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Powersuits/Ember/EmberBaseSuit",
+        "compatName": "Ember",
+        "type": "WARFRAME",
+        "subtype": "/Lotus/Powersuits/Ember/EmberBaseSuit",
         "canBeTransmutation": false
     }
 }

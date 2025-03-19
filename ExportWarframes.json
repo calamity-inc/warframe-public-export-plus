@@ -993,6 +993,56 @@
         "productCategory": "Suits",
         "variantType": "VT_NORMAL"
     },
+    "/Lotus/Powersuits/Temple/Temple": {
+        "name": "/Lotus/Language/Suits/TempleSuitName",
+        "parentName": "/Lotus/Powersuits/Temple/TempleBaseSuit",
+        "description": "/Lotus/Language/Suits/TempleSuitDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Temple.png",
+        "health": 405,
+        "shield": 225,
+        "armor": 325,
+        "stamina": 3,
+        "power": 165,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/TemplePassiveDesc",
+        "exalted": [
+            "/Lotus/Powersuits/Temple/ExaltedGuitar"
+        ],
+        "abilities": [
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleShredAbility",
+                "name": "/Lotus/Language/Suits/TempleShredAbilityName",
+                "description": "/Lotus/Language/Suits/TempleShredAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/TempleShred.png",
+                "energyRequiredToActivate": 25
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleSpeakersAbility",
+                "name": "/Lotus/Language/Suits/TempleSpeakersAbilityName",
+                "description": "/Lotus/Language/Suits/TempleSpeakersAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/TempleSpeakers.png",
+                "energyRequiredToActivate": 25
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleSoloAbility",
+                "name": "/Lotus/Language/Suits/TempleSoloAbilityName",
+                "description": "/Lotus/Language/Suits/TempleSoloAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/TempleSolo.png",
+                "energyRequiredToActivate": 50
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/TempleGuitarAbility",
+                "name": "/Lotus/Language/Suits/TempleExaltedGuitarAbilityName",
+                "description": "/Lotus/Language/Suits/TempleExaltedGuitarAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/TempleGuitar.png",
+                "energyRequiredToActivate": 75
+            }
+        ],
+        "productCategory": "Suits",
+        "variantType": "VT_NORMAL"
+    },
     "/Lotus/Powersuits/Sentient/Sentient": {
         "name": "/Lotus/Language/Suits/SentientFrameName",
         "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
@@ -2208,6 +2258,9 @@
         "masteryReq": 0,
         "sprintSpeed": 1.15,
         "passiveDescription": "/Lotus/Language/Suits/AshPassiveAbility",
+        "exalted": [
+            "/Lotus/Powersuits/Ninja/NinjaStormWeapon"
+        ],
         "abilities": [
             {
                 "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlaiveAbility",
@@ -2255,6 +2308,9 @@
         "masteryReq": 0,
         "sprintSpeed": 1.2,
         "passiveDescription": "/Lotus/Language/Primes/AshPrimePassiveAbility",
+        "exalted": [
+            "/Lotus/Powersuits/Ninja/NinjaStormWeaponPrime"
+        ],
         "abilities": [
             {
                 "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlaiveAbility",
@@ -2923,7 +2979,8 @@
         "sprintSpeed": 1.05,
         "passiveDescription": "/Lotus/Language/Suits/KhoraPassiveAbilityDesc",
         "exalted": [
-            "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit"
+            "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit",
+            "/Lotus/Powersuits/Khora/KhoraWhipclawWeaponPrime"
         ],
         "abilities": [
             {
@@ -2973,7 +3030,8 @@
         "sprintSpeed": 1.05,
         "passiveDescription": "/Lotus/Language/Suits/KhoraPassiveAbilityDesc",
         "exalted": [
-            "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit"
+            "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit",
+            "/Lotus/Powersuits/Khora/KhoraWhipclawWeapon"
         ],
         "abilities": [
             {
@@ -3500,6 +3558,9 @@
         "masteryReq": 0,
         "sprintSpeed": 1.15,
         "passiveDescription": "/Lotus/Language/Suits/GlassPassiveAbility",
+        "exalted": [
+            "/Lotus/Powersuits/Glass/GaraShankWeapon"
+        ],
         "abilities": [
             {
                 "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
@@ -3547,6 +3608,9 @@
         "masteryReq": 0,
         "sprintSpeed": 1.15,
         "passiveDescription": "/Lotus/Language/Suits/GlassPassiveAbility",
+        "exalted": [
+            "/Lotus/Powersuits/Glass/GaraShankWeaponPrime"
+        ],
         "abilities": [
             {
                 "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
@@ -4772,6 +4836,9 @@
         "masteryReq": 0,
         "sprintSpeed": 0.9,
         "passiveDescription": "/Lotus/Language/Suits/AtlasPassiveAbility",
+        "exalted": [
+            "/Lotus/Powersuits/Brawler/AtlasPunchWeapon"
+        ],
         "abilities": [
             {
                 "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerPunchAbility",
@@ -4819,6 +4886,9 @@
         "masteryReq": 0,
         "sprintSpeed": 1,
         "passiveDescription": "/Lotus/Language/Suits/AtlasPassiveAbility",
+        "exalted": [
+            "/Lotus/Powersuits/Brawler/AtlasPunchWeaponPrime"
+        ],
         "abilities": [
             {
                 "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerPunchAbility",

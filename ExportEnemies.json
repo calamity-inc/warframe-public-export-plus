@@ -12733,6 +12733,12 @@
                 }
             ]
         },
+        "/Lotus/Types/Enemies/InfestedLich/Packet/LichHairAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/InfestedLich/Packet/PacketHairAvatar"
+            }
+        },
         "/Lotus/Types/Enemies/Kingpins/CorpusLawyerLichAgent": {
             "baseLevel": 1,
             "avatarTypes": {
@@ -16405,6 +16411,17 @@
                 }
             ]
         },
+        "/Lotus/Types/Enemies/SpaceBattles/Infested/InfestedRamSledAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/SpaceBattles/Infested/InfestedRamSledAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Powersuits/NpcPowersuits/InfestedRamSledSuit"
+                }
+            ]
+        },
         "/Lotus/Types/Enemies/SpaceBattles/Infested/LightningCarrierDrone": {
             "baseLevel": 1,
             "avatarTypes": {
@@ -16991,7 +17008,7 @@
                     "type": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TrinityReplicantHuntingBow"
                 },
                 {
-                    "type": "/Lotus/Powersuits/Trinity/TrinityNpc"
+                    "type": "/Lotus/Powersuits/Trinity/TrinityJunctionNpc"
                 },
                 {
                     "type": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TrinityReplicantSingleStaff"
@@ -17491,6 +17508,17 @@
                 }
             ]
         },
+        "/Lotus/Types/Enemies/WF1999Infested/InfestedBabau/DeviationInfestedBabau1999Agent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/WF1999Infested/InfestedBabau/DeviationInfestedBabau1999Avatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Powersuits/NpcPowersuits/Infested1999BabauSuit"
+                }
+            ]
+        },
         "/Lotus/Types/Enemies/WF1999Infested/InfestedBabau/InfestedBabau1999Agent": {
             "baseLevel": 1,
             "avatarTypes": {
@@ -17593,6 +17621,21 @@
                 }
             ]
         },
+        "/Lotus/Types/Enemies/WF1999Infested/InfestedRunner/VaniaDefenseInfestedRunner1999Agent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/WF1999Infested/InfestedRunner/VaniaDefenseInfestedRunner1999Avatar",
+                "EXIMUS": "/Lotus/Types/Enemies/WF1999Infested/InfestedRunner/VaniaDefenseInfestedRunner1999AvatarLeader"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Weapons/Infested/1999Infested/InfestedRunner1999MeleeWeapon"
+                },
+                {
+                    "type": "/Lotus/Weapons/Infested/1999Infested/Infested1999VomitGun"
+                }
+            ]
+        },
         "/Lotus/Types/Enemies/WF1999Infested/InfestedUndazoa/InfestedUndazoa1999Agent": {
             "baseLevel": 1,
             "avatarTypes": {
@@ -17612,6 +17655,23 @@
             "baseLevel": 1,
             "avatarTypes": {
                 "STANDARD": "/Lotus/Types/Enemies/WF1999Infested/InfestedVolatileRunner/InfestedVolatileRunner1999Avatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Weapons/Infested/1999Infested/InfestedRunner1999MeleeWeapon"
+                },
+                {
+                    "type": "/Lotus/Weapons/Infested/1999Infested/Infested1999VomitGun"
+                },
+                {
+                    "type": "/Lotus/Powersuits/NpcPowersuits/Infested1999VolatileRunnerPowersuit"
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/WF1999Infested/InfestedVolatileRunner/VaniaDefenseInfestedVolatileRunner1999Agent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/WF1999Infested/InfestedVolatileRunner/VaniaDefenseInfestedVolatileRunner1999Avatar"
             },
             "items": [
                 {
@@ -17667,6 +17727,12 @@
                     "type": "/Lotus/Types/Enemies/Infested/AiWeek/WeaveMutalist/WeaveMutalistMeleeWeapon"
                 }
             ]
+        },
+        "/Lotus/Types/Enemies/WF1999Lasrian/Disruption/1999DisruptionNox/1999DisruptionNoxAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/WF1999Lasrian/Disruption/1999DisruptionNox/1999DisruptionNoxAvatar"
+            }
         },
         "/Lotus/Types/Enemies/WF1999Lasrian/LasrianButcher/LasrianButcher1999Agent": {
             "baseLevel": 1,
@@ -29961,6 +30027,14 @@
             "killXPReward": 1500,
             "droptable": "/Lotus/Types/DropTables/InfestationZombieLeaderAgentDropTable"
         },
+        "/Lotus/Types/Enemies/InfestedLich/Packet/PacketHairAvatar": {
+            "name": "/Lotus/Language/InfestedBand/PacketCloneName",
+            "icon": "/Lotus/Interface/Icons/Npcs/TennoReplicant.png",
+            "faction": "Techrot",
+            "health": 200,
+            "damageController": "/Lotus/Types/Enemies/InfestedLich/Packet/LichHairDamageController",
+            "killXPReward": 200
+        },
         "/Lotus/Types/Enemies/Kingpins/Henchmen/CorpusHenchmenAAvatar": {
             "name": "/Lotus/Language/Kingpins/CorpusHenchmanAName",
             "icon": "/Lotus/Interface/Icons/Npcs/Grineer/Clem.png",
@@ -32971,6 +33045,16 @@
             "killXPReward": 100,
             "droptable": "/Lotus/Types/DropTables/SpaceDropTables/GrineerSpaceDroneDropTable"
         },
+        "/Lotus/Types/Enemies/SpaceBattles/Infested/InfestedRamSledAvatar": {
+            "name": "/Lotus/Language/Railjack/SentientRamSledName",
+            "icon": "/Lotus/Interface/Icons/Npcs/Railjack/Grineer/Ramsled.png",
+            "description": "/Lotus/Language/Railjack/SentientRamSledDesc",
+            "faction": "Infestation",
+            "health": 250,
+            "damageController": "/Lotus/Types/Enemies/SpaceBattles/Sentient/SentientRamsledDamageController",
+            "killXPReward": 400,
+            "droptable": "/Lotus/Types/DropTables/SpaceDropTables/SentientRamsledEarthDropTable"
+        },
         "/Lotus/Types/Enemies/SpaceBattles/Sentient/Fighters/SpaceFighterSntAssaultAvatar": {
             "name": "/Lotus/Language/Railjack/SentientFighterAssaultName",
             "icon": "/Lotus/Interface/Icons/Npcs/Railjack/Sentients/SentientAssaultFighter.png",
@@ -33193,7 +33277,7 @@
             "name": "/Lotus/Language/Enemies/ReplicantLoki",
             "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Loki.png",
             "faction": "Orokin",
-            "health": 180,
+            "health": 360,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantJunctionBossDamageController",
             "killXPReward": 1500
         },
@@ -33265,7 +33349,7 @@
             "name": "/Lotus/Language/Enemies/ReplicantRhino",
             "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Rhino.png",
             "faction": "Orokin",
-            "health": 550,
+            "health": 500,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantRhinoDamageController",
             "killXPReward": 1500
         },
@@ -33626,6 +33710,17 @@
             "factionResistanceKeyword": "RK_INFESTED_FACTION",
             "killXPReward": 500
         },
+        "/Lotus/Types/Enemies/WF1999Infested/InfestedBabau/DeviationInfestedBabau1999Avatar": {
+            "name": "/Lotus/Language/1999/ProtoInfestedBabauName",
+            "icon": "/Lotus/Interface/Icons/Npcs/Infested/1999/InfestedBabau.png",
+            "description": "/Lotus/Language/1999/ProtoInfestedBabauDesc",
+            "faction": "Techrot",
+            "health": 1000,
+            "damageController": "/Lotus/Types/Enemies/WF1999Infested/InfestedBabau/InfestedBabau1999ScaledDamageController",
+            "factionResistanceKeyword": "RK_PROTOINFESTED_FACTION",
+            "killXPReward": 500,
+            "droptable": "/Lotus/Types/DropTables/WF1999DropTables/TechrotBabauDropTable"
+        },
         "/Lotus/Types/Enemies/WF1999Infested/InfestedBabau/InfestedBabau1999Avatar": {
             "name": "/Lotus/Language/1999/ProtoInfestedBabauName",
             "icon": "/Lotus/Interface/Icons/Npcs/Infested/1999/InfestedBabau.png",
@@ -33755,6 +33850,27 @@
             "factionResistanceKeyword": "RK_INFESTED_FACTION",
             "killXPReward": 35
         },
+        "/Lotus/Types/Enemies/WF1999Infested/InfestedRunner/VaniaDefenseInfestedRunner1999Avatar": {
+            "name": "/Lotus/Language/1999/ProtoInfestedRunnerName",
+            "icon": "/Lotus/Interface/Icons/Npcs/Infested/1999/InfestedRunner.png",
+            "description": "/Lotus/Language/1999/ProtoInfestedRunnerDesc",
+            "faction": "Techrot",
+            "health": 100,
+            "damageController": "/Lotus/Types/Enemies/WF1999Infested/InfestedRunner/InfestedRunner1999DamageController",
+            "factionResistanceKeyword": "RK_PROTOINFESTED_FACTION",
+            "killXPReward": 25
+        },
+        "/Lotus/Types/Enemies/WF1999Infested/InfestedRunner/VaniaDefenseInfestedRunner1999AvatarLeader": {
+            "name": "/Lotus/Language/1999/ProtoInfestedRunnerName",
+            "icon": "/Lotus/Interface/Icons/Npcs/Infested/1999/InfestedRunner.png",
+            "description": "/Lotus/Language/1999/ProtoInfestedRunnerDesc",
+            "faction": "Techrot",
+            "health": 100,
+            "damageController": "/Lotus/Types/Enemies/WF1999Infested/InfestedRunner/InfestedRunner1999DamageController",
+            "factionResistanceKeyword": "RK_PROTOINFESTED_FACTION",
+            "killXPReward": 250,
+            "droptable": "/Lotus/Types/DropTables/WF1999DropTables/VaniaDefenseTechrotRunnerDropTable"
+        },
         "/Lotus/Types/Enemies/WF1999Infested/InfestedUndazoa/InfestedUndazoa1999Avatar": {
             "name": "/Lotus/Language/1999/ProtoInfestedZongroName",
             "icon": "/Lotus/Interface/Icons/Npcs/Infested/1999/InfestedUnadoza.png",
@@ -33788,6 +33904,16 @@
             "killXPReward": 25,
             "droptable": "/Lotus/Types/DropTables/WF1999DropTables/TechrotVolatileRunnerDropTable"
         },
+        "/Lotus/Types/Enemies/WF1999Infested/InfestedVolatileRunner/VaniaDefenseInfestedVolatileRunner1999Avatar": {
+            "name": "/Lotus/Language/1999/ProtoInfestedVolatileRunnerName",
+            "icon": "/Lotus/Interface/Icons/Npcs/Infested/1999/InfestedVolatileRunner.png",
+            "description": "/Lotus/Language/1999/ProtoInfestedVolatileRunnerDesc",
+            "faction": "Techrot",
+            "health": 80,
+            "damageController": "/Lotus/Types/Enemies/WF1999Infested/InfestedVolatileRunner/InfestedVolatileRunner1999DamageController",
+            "factionResistanceKeyword": "RK_PROTOINFESTED_FACTION",
+            "killXPReward": 25
+        },
         "/Lotus/Types/Enemies/WF1999Infested/InfestedWarframeCapture/InfestedCaptureMutalistAvatar": {
             "name": "/Lotus/Language/1999/LegacyteName",
             "icon": "/Lotus/Interface/Icons/Npcs/Infested/1999/InfestedPrelate.png",
@@ -33819,6 +33945,17 @@
             "damageController": "/Lotus/Types/Enemies/WF1999Infested/InfestedWarframeCapture/CaptureInfestedTargetQuestScaledDamageController",
             "factionResistanceKeyword": "RK_INFESTED_FACTION",
             "killXPReward": 1500
+        },
+        "/Lotus/Types/Enemies/WF1999Lasrian/Disruption/1999DisruptionNox/1999DisruptionNoxAvatar": {
+            "name": "/Lotus/Language/1999/LasrianChemStrikeNoxDisruptionName",
+            "icon": "/Lotus/Interface/Icons/Npcs/Lasrian/LasrianNoxDemolisher.png",
+            "description": "/Lotus/Language/1999/LasrianChemStrikeNoxDisruptionDesc",
+            "faction": "Scaldra",
+            "health": 2150,
+            "damageController": "/Lotus/Types/Enemies/WF1999Lasrian/Disruption/1999DisruptionNox/1999DisruptionNoxScaledDamageController",
+            "factionResistanceKeyword": "RK_LASRIA_FACTION",
+            "killXPReward": 250,
+            "droptable": "/Lotus/Types/DropTables/WF1999DropTables/LasrianDisruptionNoxDropTable"
         },
         "/Lotus/Types/Enemies/WF1999Lasrian/LasrianButcher/LasrianButcher1999Avatar": {
             "name": "/Lotus/Language/1999Demo/LasrianButcherName",
@@ -63328,6 +63465,73 @@
                 "PT_RAGDOLL"
             ]
         },
+        "/Lotus/Types/Enemies/InfestedLich/Packet/LichHairDamageController": {
+            "armor": 0,
+            "shield": 200,
+            "hitProxies": [
+                {
+                    "bone": "GAME_C1_NECK1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/HeadNoCrit"
+                },
+                {
+                    "bone": "GAME_C1_SPINE2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/Torso"
+                },
+                {
+                    "bone": "GAME_R1_ARM1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightUpperArm"
+                },
+                {
+                    "bone": "GAME_R1_ARM2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightLowerArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftUpperArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftLowerArm"
+                },
+                {
+                    "bone": "GAME_R1_LEG1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightUpperLeg"
+                },
+                {
+                    "bone": "GAME_R1_LEG2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightLowerLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftUpperLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftLowerLeg"
+                }
+            ],
+            "unhandledProcTypes": [
+                "PT_KNOCKBACK",
+                "PT_FRAILTY",
+                "PT_BLEEDING",
+                "PT_IMMOLATION",
+                "PT_CHILLED",
+                "PT_ELECTROCUTION",
+                "PT_POISONED",
+                "PT_FLASHBANG",
+                "PT_RAD_TOX",
+                "PT_ASPHYXIATION",
+                "PT_MAGNETIZED",
+                "PT_INFECTED",
+                "PT_CAUSTIC_BURN",
+                "PT_RADIANT",
+                "PT_STAGGERED",
+                "PT_BIG_STAGGER",
+                "PT_STUNNED",
+                "PT_KNOCKED_DOWN",
+                "PT_RAGDOLL"
+            ]
+        },
         "/Lotus/Types/Enemies/Kingpins/AscensionCorpusKingpinDamageController": {
             "armor": 0,
             "shield": 100,
@@ -73452,7 +73656,7 @@
             ]
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantRhinoDamageController": {
-            "armor": 200,
+            "armor": 500,
             "shield": 1000,
             "hitProxies": [
                 {
@@ -74759,6 +74963,80 @@
             "unhandledProcTypes": [
                 "PT_RADIANT",
                 "PT_BIG_STAGGER"
+            ]
+        },
+        "/Lotus/Types/Enemies/WF1999Lasrian/Disruption/1999DisruptionNox/1999DisruptionNoxScaledDamageController": {
+            "armor": 250,
+            "shield": 0,
+            "hitProxies": [
+                {
+                    "bone": "GAME_C1_HEAD1",
+                    "type": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianChemStrikeNox/Hitproxy/LasrianChemStrikeNoxHead"
+                },
+                {
+                    "bone": "GAME_C1_SPINE2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerTorso"
+                },
+                {
+                    "bone": "GAME_R1_ARM1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightUpperArm"
+                },
+                {
+                    "bone": "GAME_R1_ARM2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightLowerArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftUpperArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftLowerArm"
+                },
+                {
+                    "bone": "GAME_R1_LEG1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightUpperLeg"
+                },
+                {
+                    "bone": "GAME_R1_LEG2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightLowerLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftUpperLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftLowerLeg"
+                },
+                {
+                    "bone": "GAME_R1_ARM1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightShoulder"
+                },
+                {
+                    "bone": "GAME_L1_ARM1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftShoulder"
+                },
+                {
+                    "bone": "GAME_C1_SPINE3",
+                    "type": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianChemStrikeNox/Hitproxy/LasrianChemStrikeNoxBackpack"
+                },
+                {
+                    "bone": "GAME_C1_SPINE1",
+                    "type": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianChemStrikeNox/Hitproxy/LasrianChemStrikeNoxBellyWeakPoint"
+                },
+                {
+                    "bone": "GAME_L1_ARM2",
+                    "type": "/Lotus/Types/Enemies/WF1999Lasrian/Disruption/1999DisruptionNox/HitProxy/LasrianChemStrikeNoxDisruptionCanistersWeakPoint"
+                },
+                {
+                    "bone": "GAME_R1_ARM2",
+                    "type": "/Lotus/Types/Enemies/WF1999Lasrian/Disruption/1999DisruptionNox/HitProxy/LasrianChemStrikeNoxDisruptionCanistersWeakPoint"
+                }
+            ],
+            "unhandledProcTypes": [
+                "PT_RAD_TOX",
+                "PT_RADIANT"
             ]
         },
         "/Lotus/Types/Enemies/WF1999Lasrian/LasrianButcher/LasrianButcherDamageController": {
@@ -88726,6 +89004,45 @@
                 ]
             }
         ],
+        "/Lotus/Types/DropTables/WF1999DropTables/LasrianDisruptionNoxDropTable": [
+            {
+                "chance": 1.0,
+                "items": [
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/RadialViralAttackOnOverguardGain",
+                        "probability": 0.125
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AbilityStrengthForMaxHealth",
+                        "probability": 0.125
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AbilityStrengthOnSummonAttack",
+                        "probability": 0.125
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/CritDamageForPunctureStatus",
+                        "probability": 0.125
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryCritOnHit",
+                        "probability": 0.125
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/StatusAndAmmoEfficiencyOnWeakpointHit",
+                        "probability": 0.125
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Utility/AbilityStatusProcsGiveAbilityStrengthAndEfficiency",
+                        "probability": 0.125
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Utility/AbilityStrengthAndCritDamageWhenInvisible",
+                        "probability": 0.125
+                    }
+                ]
+            }
+        ],
         "/Lotus/Types/DropTables/WF1999DropTables/LasrianGoonadierDropTable": [
             {
                 "chance": 0.02,
@@ -88888,6 +89205,15 @@
                         "probability": 1.0
                     }
                 ]
+            },
+            {
+                "chance": 1.0,
+                "items": [
+                    {
+                        "type": "/Lotus/Types/PickUps/InYestedLichChipItem",
+                        "probability": 1.0
+                    }
+                ]
             }
         ],
         "/Lotus/Types/DropTables/WF1999DropTables/TechrotAncientDropTable": [
@@ -88896,19 +89222,36 @@
                 "items": [
                     {
                         "type": "/Lotus/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
-                        "probability": 0.8571
+                        "probability": 0.8
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingEventMagneticFireRateRifleMod",
-                        "probability": 0.0476
+                        "probability": 0.0667
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/Rifle/DualStat/MagneticClipRifleMod",
-                        "probability": 0.0476
+                        "probability": 0.0667
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/Shotgun/WeaponMagneticOnImpactShotgunMod",
-                        "probability": 0.0476
+                        "probability": 0.0667
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusAndSpeedOnUseMod",
+                        "probability": 0
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusAndWeaponDamageOnUseMod",
+                        "probability": 0
+                    }
+                ]
+            },
+            {
+                "chance": 0.07,
+                "items": [
+                    {
+                        "type": "/Lotus/Types/PickUps/InYestedLichChipItem",
+                        "probability": 1.0
                     }
                 ]
             }
@@ -88918,24 +89261,53 @@
                 "chance": 0.03,
                 "items": [
                     {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusLargeOnSingleUseMod",
+                        "probability": 0.425
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusOnUseMod",
+                        "probability": 0.425
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusAndWeaponDamageOnUseMod",
+                        "probability": 0.0675
+                    },
+                    {
                         "type": "/Lotus/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
-                        "probability": 0.8571
+                        "probability": 0.0675
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/Archwing/Melee/ArchwingEventMagneticCritDamageMeleeMod",
-                        "probability": 0.0357
+                        "probability": 0.0038
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingEventMagneticFireRateRifleMod",
-                        "probability": 0.0357
+                        "probability": 0.0038
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/Shotgun/DualStat/MagneticFireRateShotgunMod",
-                        "probability": 0.0357
+                        "probability": 0.0038
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/FusionBundles/RareFusionBundle",
-                        "probability": 0.0357
+                        "probability": 0.0038
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusAndSpeedOnUseMod",
+                        "probability": 0
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusSmallOnSingleUseMod",
+                        "probability": 0
+                    }
+                ]
+            },
+            {
+                "chance": 0.15,
+                "items": [
+                    {
+                        "type": "/Lotus/Types/PickUps/InYestedLichChipItem",
+                        "probability": 1.0
                     }
                 ]
             }
@@ -88946,23 +89318,40 @@
                 "items": [
                     {
                         "type": "/Lotus/Upgrades/Mods/FusionBundles/CommonFusionBundle",
-                        "probability": 0.7778
+                        "probability": 0.4468
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
-                        "probability": 0.0741
+                        "probability": 0.1277
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusLargeOnSingleUseMod",
+                        "probability": 0.0851
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusOnUseMod",
+                        "probability": 0.0851
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/Pistol/WeaponWeakpointCriticalChanceMod",
-                        "probability": 0.0494
+                        "probability": 0.0851
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/Shotgun/WeaponMagneticOnImpactShotgunMod",
-                        "probability": 0.0494
+                        "probability": 0.0851
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/FusionBundles/RareFusionBundle",
-                        "probability": 0.0494
+                        "probability": 0.0851
+                    }
+                ]
+            },
+            {
+                "chance": 0.07,
+                "items": [
+                    {
+                        "type": "/Lotus/Types/PickUps/InYestedLichChipItem",
+                        "probability": 1.0
                     }
                 ]
             }
@@ -88973,23 +89362,40 @@
                 "items": [
                     {
                         "type": "/Lotus/Upgrades/Mods/FusionBundles/CommonFusionBundle",
-                        "probability": 0.7778
+                        "probability": 0.5676
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusOnUseMod",
+                        "probability": 0.1622
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
-                        "probability": 0.0741
+                        "probability": 0.1081
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/Melee/DualStat/MagneticAttackSpeedMeleeMod",
-                        "probability": 0.0494
+                        "probability": 0.0541
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/Rifle/DualStat/MagneticClipRifleMod",
-                        "probability": 0.0494
+                        "probability": 0.0541
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/DualStat/KubrowMagneticEventMeleeMod",
-                        "probability": 0.0494
+                        "type": "/Lotus/Upgrades/Mods/Melee/DualStat/KubrowMagneticEventMeleeMod",
+                        "probability": 0.0541
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusSmallOnSingleUseMod",
+                        "probability": 0
+                    }
+                ]
+            },
+            {
+                "chance": 0.02,
+                "items": [
+                    {
+                        "type": "/Lotus/Types/PickUps/InYestedLichChipItem",
+                        "probability": 1.0
                     }
                 ]
             }
@@ -89000,23 +89406,52 @@
                 "items": [
                     {
                         "type": "/Lotus/Upgrades/Mods/FusionBundles/CommonFusionBundle",
-                        "probability": 0.7975
+                        "probability": 0.6034
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
-                        "probability": 0.0759
+                        "probability": 0.0862
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/Archwing/Melee/ArchwingEventMagneticCritDamageMeleeMod",
-                        "probability": 0.0506
+                        "probability": 0.069
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusLargeOnSingleUseMod",
+                        "probability": 0.069
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusOnUseMod",
+                        "probability": 0.069
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/Shotgun/DualStat/MagneticFireRateShotgunMod",
-                        "probability": 0.0506
+                        "probability": 0.069
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/FusionBundles/RareFusionBundle",
-                        "probability": 0.0253
+                        "probability": 0.0345
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusAndSpeedOnUseMod",
+                        "probability": 0
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusAndWeaponDamageOnUseMod",
+                        "probability": 0
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusSmallOnSingleUseMod",
+                        "probability": 0
+                    }
+                ]
+            },
+            {
+                "chance": 0.07,
+                "items": [
+                    {
+                        "type": "/Lotus/Types/PickUps/InYestedLichChipItem",
+                        "probability": 1.0
                     }
                 ]
             }
@@ -89026,20 +89461,81 @@
                 "chance": 0.02,
                 "items": [
                     {
-                        "type": "/Lotus/Upgrades/Mods/FusionBundles/CommonFusionBundle",
-                        "probability": 0.5122
+                        "type": "/Lotus/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
+                        "probability": 0.4364
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
-                        "probability": 0.3902
+                        "type": "/Lotus/Upgrades/Mods/FusionBundles/CommonFusionBundle",
+                        "probability": 0.2864
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusOnUseMod",
+                        "probability": 0.2045
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/Melee/DualStat/MagneticAttackSpeedMeleeMod",
-                        "probability": 0.0488
+                        "probability": 0.0364
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/DualStat/KubrowMagneticEventMeleeMod",
-                        "probability": 0.0488
+                        "type": "/Lotus/Upgrades/Mods/Melee/DualStat/KubrowMagneticEventMeleeMod",
+                        "probability": 0.0364
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusSmallOnSingleUseMod",
+                        "probability": 0
+                    }
+                ]
+            },
+            {
+                "chance": 0.07,
+                "items": [
+                    {
+                        "type": "/Lotus/Types/PickUps/InYestedLichChipItem",
+                        "probability": 1.0
+                    }
+                ]
+            }
+        ],
+        "/Lotus/Types/DropTables/WF1999DropTables/VaniaDefenseTechrotRunnerDropTable": [
+            {
+                "chance": 0.02,
+                "items": [
+                    {
+                        "type": "/Lotus/Upgrades/Mods/FusionBundles/CommonFusionBundle",
+                        "probability": 0.5676
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusOnUseMod",
+                        "probability": 0.1622
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
+                        "probability": 0.1081
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/DualStat/MagneticAttackSpeedMeleeMod",
+                        "probability": 0.0541
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Rifle/DualStat/MagneticClipRifleMod",
+                        "probability": 0.0541
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/DualStat/KubrowMagneticEventMeleeMod",
+                        "probability": 0.0541
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusSmallOnSingleUseMod",
+                        "probability": 0
+                    }
+                ]
+            },
+            {
+                "chance": 0.02,
+                "items": [
+                    {
+                        "type": "/Lotus/Types/PickUps/InYestedLichChipItem",
+                        "probability": 1.0
                     }
                 ]
             }
@@ -89688,6 +90184,31 @@
                     {
                         "type": "/Lotus/Upgrades/Mods/Shotgun/DualStat/MagneticFireRateShotgunMod",
                         "probability": 0.0067
+                    }
+                ]
+            },
+            {
+                "chance": 0.03,
+                "items": [
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusLargeOnSingleUseMod",
+                        "probability": 0.3794
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusOnUseMod",
+                        "probability": 0.3794
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusAndWeaponDamageOnUseMod",
+                        "probability": 0.2211
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusAndSpeedOnUseMod",
+                        "probability": 0.0101
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusSmallOnSingleUseMod",
+                        "probability": 0.0101
                     }
                 ]
             }
@@ -91399,6 +91920,10 @@
             "criticalChance": 1,
             "criticalMultiplier": 2
         },
+        "/Lotus/Types/Enemies/WF1999Lasrian/Disruption/1999DisruptionNox/HitProxy/LasrianChemStrikeNoxDisruptionCanistersWeakPoint": {
+            "criticalChance": 1,
+            "criticalMultiplier": 2
+        },
         "/Lotus/Types/Enemies/WF1999Lasrian/LasrianChemStrikeNox/Hitproxy/LasrianChemStrikeNoxBackpack": {
             "criticalChance": 1,
             "criticalMultiplier": 2
@@ -91989,6 +92514,13 @@
                         "DT_PUNCTURE": 3.33333,
                         "DT_SLASH": 3.33334
                     }
+                },
+                {
+                    "impact": {
+                        "DT_IMPACT": 3.33333,
+                        "DT_PUNCTURE": 3.33333,
+                        "DT_SLASH": 3.33334
+                    }
                 }
             ]
         },
@@ -92025,6 +92557,13 @@
                     "impact": {
                         "DT_IMPACT": 6,
                         "DT_ELECTRICITY": 6
+                    }
+                },
+                {
+                    "impact": {
+                        "DT_IMPACT": 3.33333,
+                        "DT_PUNCTURE": 3.33333,
+                        "DT_SLASH": 3.33334
                     }
                 }
             ]
@@ -92509,6 +93048,13 @@
                         "DT_PUNCTURE": 2.333331,
                         "DT_SLASH": 2.333338
                     }
+                },
+                {
+                    "impact": {
+                        "DT_IMPACT": 3.33333,
+                        "DT_PUNCTURE": 3.33333,
+                        "DT_SLASH": 3.33334
+                    }
                 }
             ]
         },
@@ -92673,6 +93219,13 @@
                         "DT_IMPACT": 1.999998,
                         "DT_PUNCTURE": 1.999998,
                         "DT_SLASH": 2.000004
+                    }
+                },
+                {
+                    "impact": {
+                        "DT_IMPACT": 3.33333,
+                        "DT_PUNCTURE": 3.33333,
+                        "DT_SLASH": 3.33334
                     }
                 }
             ]
@@ -93018,6 +93571,13 @@
                             "DT_IMPACT": 1.0,
                             "DT_PUNCTURE": 4.0
                         }
+                    }
+                },
+                {
+                    "impact": {
+                        "DT_IMPACT": 3.33333,
+                        "DT_PUNCTURE": 3.33333,
+                        "DT_SLASH": 3.33334
                     }
                 }
             ]
@@ -96758,9 +97318,9 @@
                 {
                     "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
                     "impact": {
-                        "DT_IMPACT": 60.0,
-                        "DT_PUNCTURE": 11.25,
-                        "DT_SLASH": 3.75
+                        "DT_IMPACT": 80.0,
+                        "DT_PUNCTURE": 15.0,
+                        "DT_SLASH": 5.0
                     }
                 }
             ]
@@ -98927,9 +99487,9 @@
                 {
                     "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
                     "impact": {
-                        "DT_IMPACT": 0.2,
-                        "DT_PUNCTURE": 0.8,
-                        "DT_SLASH": 1.0
+                        "DT_IMPACT": 0.5,
+                        "DT_PUNCTURE": 2.0,
+                        "DT_SLASH": 2.5
                     }
                 },
                 {
@@ -98944,9 +99504,9 @@
             "behaviours": [
                 {
                     "impact": {
-                        "DT_IMPACT": 1.0,
-                        "DT_PUNCTURE": 3.0,
-                        "DT_SLASH": 6.0
+                        "DT_IMPACT": 1.5,
+                        "DT_PUNCTURE": 4.5,
+                        "DT_SLASH": 9.0
                     }
                 }
             ]
@@ -99855,6 +100415,13 @@
                         "DT_PUNCTURE": 1.999998,
                         "DT_SLASH": 2.000004
                     }
+                },
+                {
+                    "impact": {
+                        "DT_IMPACT": 3.33333,
+                        "DT_PUNCTURE": 3.33333,
+                        "DT_SLASH": 3.33334
+                    }
                 }
             ]
         },
@@ -100577,9 +101144,6 @@
                         "DT_PUNCTURE": 3.75,
                         "DT_SLASH": 3.75
                     }
-                },
-                {
-                    "impact": {}
                 }
             ]
         },
@@ -101241,9 +101805,9 @@
                 {
                     "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
                     "impact": {
-                        "DT_IMPACT": 60.0,
-                        "DT_PUNCTURE": 11.25,
-                        "DT_SLASH": 3.75
+                        "DT_IMPACT": 80.0,
+                        "DT_PUNCTURE": 15.0,
+                        "DT_SLASH": 5.0
                     }
                 }
             ]
@@ -101256,9 +101820,9 @@
                 {
                     "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
                     "impact": {
-                        "DT_IMPACT": 60.0,
-                        "DT_PUNCTURE": 11.25,
-                        "DT_SLASH": 3.75
+                        "DT_IMPACT": 80.0,
+                        "DT_PUNCTURE": 15.0,
+                        "DT_SLASH": 5.0
                     }
                 }
             ]

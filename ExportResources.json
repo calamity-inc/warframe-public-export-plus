@@ -104,6 +104,60 @@
         "productCategory": "MiscItems",
         "excludeFromCodex": true
     },
+    "/Lotus/Types/Game/Nemesis/KuvaLich/CapturedInfestedDJRomToken": {
+        "name": "/Lotus/Language/Kingpins/CapturedInfestedLichTokenName",
+        "description": "/Lotus/Language/Kingpins/CapturedInfestedLichTokenDesc",
+        "icon": "/Lotus/Interface/Graphics/1999InfestedLichBoyband/InfestedDJRom.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Nemesis/KuvaLich/CapturedLichToken",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Game/Nemesis/KuvaLich/CapturedInfestedDrillBitToken": {
+        "name": "/Lotus/Language/Kingpins/CapturedInfestedLichTokenName",
+        "description": "/Lotus/Language/Kingpins/CapturedInfestedLichTokenDesc",
+        "icon": "/Lotus/Interface/Graphics/1999InfestedLichBoyband/InfestedDrillBit.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Nemesis/KuvaLich/CapturedLichToken",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Game/Nemesis/KuvaLich/CapturedInfestedHardDriveToken": {
+        "name": "/Lotus/Language/Kingpins/CapturedInfestedLichTokenName",
+        "description": "/Lotus/Language/Kingpins/CapturedInfestedLichTokenDesc",
+        "icon": "/Lotus/Interface/Graphics/1999InfestedLichBoyband/InfestedHardDrive.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Nemesis/KuvaLich/CapturedLichToken",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Game/Nemesis/KuvaLich/CapturedInfestedLichToken": {
+        "name": "/Lotus/Language/Kingpins/CapturedInfestedLichTokenName",
+        "description": "/Lotus/Language/Kingpins/CapturedInfestedLichTokenDesc",
+        "icon": "/Lotus/Interface/Graphics/PH.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Nemesis/KuvaLich/CapturedLichToken",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Game/Nemesis/KuvaLich/CapturedInfestedPacketToken": {
+        "name": "/Lotus/Language/Kingpins/CapturedInfestedLichTokenName",
+        "description": "/Lotus/Language/Kingpins/CapturedInfestedLichTokenDesc",
+        "icon": "/Lotus/Interface/Graphics/1999InfestedLichBoyband/InfestedPacket.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Nemesis/KuvaLich/CapturedLichToken",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Game/Nemesis/KuvaLich/CapturedInfestedZekeToken": {
+        "name": "/Lotus/Language/Kingpins/CapturedInfestedLichTokenName",
+        "description": "/Lotus/Language/Kingpins/CapturedInfestedLichTokenDesc",
+        "icon": "/Lotus/Interface/Graphics/1999InfestedLichBoyband/InfestedZeke.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Nemesis/KuvaLich/CapturedLichToken",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
     "/Lotus/Types/Game/Projections/T0VoidProjection": {
         "name": "/Lotus/Language/Items/VoidProjectionGeneric",
         "description": "/Lotus/Language/Items/ProjectionDescription",
@@ -123,7 +177,7 @@
         "excludeFromCodex": true
     },
     "/Lotus/Types/Game/Projections/T1VoidProjectionNidusSarynVaultABronze": {
-        "name": "Lith S16 Relic",
+        "name": "Lith S17 Relic",
         "description": "/Lotus/Language/Items/ProjectionDescription",
         "icon": "/Lotus/Interface/Icons/Relics/RelicLithD.png",
         "codexSecret": false,
@@ -132,7 +186,7 @@
         "excludeFromCodex": true
     },
     "/Lotus/Types/Game/Projections/T1VoidProjectionNidusSarynVaultAGold": {
-        "name": "Lith S16 Relic",
+        "name": "Lith S17 Relic",
         "description": "/Lotus/Language/Items/ProjectionDescription",
         "icon": "/Lotus/Interface/Icons/Relics/RelicLithB.png",
         "codexSecret": false,
@@ -141,7 +195,7 @@
         "excludeFromCodex": true
     },
     "/Lotus/Types/Game/Projections/T1VoidProjectionNidusSarynVaultAPlatinum": {
-        "name": "Lith S16 Relic",
+        "name": "Lith S17 Relic",
         "description": "/Lotus/Language/Items/ProjectionDescription",
         "icon": "/Lotus/Interface/Icons/Relics/RelicLithC.png",
         "codexSecret": false,
@@ -150,7 +204,7 @@
         "excludeFromCodex": true
     },
     "/Lotus/Types/Game/Projections/T1VoidProjectionNidusSarynVaultASilver": {
-        "name": "Lith S16 Relic",
+        "name": "Lith S17 Relic",
         "description": "/Lotus/Language/Items/ProjectionDescription",
         "icon": "/Lotus/Interface/Icons/Relics/RelicLithA.png",
         "codexSecret": false,
@@ -868,6 +922,14 @@
         "name": "/Lotus/Language/1999/1999ResourceCommonB",
         "description": "/Lotus/Language/1999/1999ResourceCommonBDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/1999Wf/1999ResourceCommonB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceDefense": {
+        "name": "/Lotus/Language/1999/1999ResourceDefenseName",
+        "description": "/Lotus/Language/1999/1999ResourceDefenseDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/1999Wf/1999ResourceDefense.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
         "productCategory": "MiscItems"
@@ -6912,6 +6974,23 @@
             "maxValue": 25
         }
     },
+    "/Lotus/Types/Items/MiscItems/1999ConquestBucks": {
+        "name": "/Lotus/Language/1999Echoes/1999ConquestBucksName",
+        "description": "/Lotus/Language/1999Echoes/1999ConquestBucksDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/1999Wf/PixChip.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Items/MiscItems/1999FreeStickersPack": {
+        "name": "/Lotus/Language/1999Echoes/1999FreeStickersPackName",
+        "description": "/Lotus/Language/1999Echoes/1999FreeStickersPackDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/1999Wf/StickerPack.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
     "/Lotus/Types/Items/MiscItems/Alertium": {
         "name": "/Lotus/Language/Items/Alertium",
         "description": "/Lotus/Language/Items/AlertiumDesc",
@@ -7006,6 +7085,14 @@
             "minValue": 35,
             "maxValue": 50
         }
+    },
+    "/Lotus/Types/Items/MiscItems/CodaWeaponBucks": {
+        "name": "/Lotus/Language/1999Coda/CodaWeaponBucksName",
+        "description": "/Lotus/Language/1999Coda/CodaWeaponBucksDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/1999Wf/LiveHeartcell.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems"
     },
     "/Lotus/Types/Items/MiscItems/ConcentratedGas": {
         "name": "/Lotus/Language/CorpusGasCity/ConcentratedGas",
@@ -7169,8 +7256,8 @@
         "productCategory": "MiscItems"
     },
     "/Lotus/Types/Items/MiscItems/FormaAura": {
-        "name": "/Lotus/Language/Items/FormaAuraName",
-        "description": "/Lotus/Language/Items/FormaAuraDesc",
+        "name": "/Lotus/Language/Items/FormaOmniName",
+        "description": "/Lotus/Language/Items/FormaOmniDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/OmegaForma.png",
         "codexSecret": true,
         "parentName": "/Lotus/Types/Items/MiscItems/Forma",
@@ -8853,6 +8940,14 @@
         "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
         "productCategory": "MiscItems"
     },
+    "/Lotus/Types/Items/MiscItems/ValenceAdapter": {
+        "name": "/Lotus/Language/Kingpins/ValenceAdapterName",
+        "description": "/Lotus/Language/Kingpins/ValenceAdapterDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/ValenceAdapterClosed.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems"
+    },
     "/Lotus/Types/Items/MiscItems/VayHekCoordinateFragmentA": {
         "name": "/Lotus/Language/Items/HekNavCodeAName",
         "description": "/Lotus/Language/Items/HekNavCodeADesc",
@@ -9034,6 +9129,15 @@
         "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati",
         "productCategory": "MiscItems"
     },
+    "/Lotus/Types/Items/PhotoBooth/Vania/PhotoboothTileVaniaConMallEftwel": {
+        "name": "/Lotus/Language/CapturaScenes/PhotoboothVaniaConMallEftwelName",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/1999/VaniaConMallJunctionEftwel.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
     "/Lotus/Types/Items/PhotoBooth/Vania/PhotoboothTileVaniaConMallGrano": {
         "name": "/Lotus/Language/CapturaScenes/PhotoboothVaniaConMallGranoName",
         "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
@@ -9089,6 +9193,33 @@
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati",
         "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Items/PhotoBooth/Vania/PhotoboothTileVaniaIntMallReptilia": {
+        "name": "/Lotus/Language/CapturaScenes/PhotoboothVaniaIntMallReptiliaName",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/1999/VaniaIntMallReptilia.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/PhotoBooth/Vania/PhotoboothTileVaniaIntTracksCatwalks": {
+        "name": "/Lotus/Language/CapturaScenes/PhotoboothVaniaIntTracksCatwalksName",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/1999/VaniaIntTracksCatwalks.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/PhotoBooth/Vania/PhotoboothTileVaniaObjTempleDefense": {
+        "name": "/Lotus/Language/CapturaScenes/PhotoboothVaniaObjTempleDefenseName",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/1999/VaniaObjTempleDefense.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
     },
     "/Lotus/Types/Items/PhotoBooth/Vania/PhotoboothTileVaniaTailorShop": {
         "name": "/Lotus/Language/CapturaScenes/PhotoboothVaniaTailorShopName",
@@ -9233,6 +9364,14 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/LuasPrey.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseOrokin",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Items/PhotoBooth/PhotoboothTileRJLasXStadiumBossArena": {
+        "name": "/Lotus/Language/CapturaScenes/PhotoboothRJLasXStadiumBossArenaName",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/1999/RJLasXStadiumBossArena.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuest",
         "productCategory": "MiscItems"
     },
     "/Lotus/Types/Items/PhotoBooth/PhotoboothTileSentientConTallJunctionOne": {
@@ -9757,6 +9896,102 @@
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations",
         "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/ShipDecos/BoybandPosters/BoybandBillboardPosterA": {
+        "name": "/Lotus/Language/ShipDecorations/BoybandBillboardPosterAName",
+        "description": "/Lotus/Language/ShipDecorations/BoybandBillboardPosterADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Displays/BoybandBillboardPosterA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/BoybandPosters/BoybandBillboardPosterB": {
+        "name": "/Lotus/Language/ShipDecorations/BoybandBillboardPosterBName",
+        "description": "/Lotus/Language/ShipDecorations/BoybandBillboardPosterBDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Displays/BoybandBillboardPosterB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/BoybandPosters/BoybandDespairPoster": {
+        "name": "/Lotus/Language/ShipDecorations/BoybandDespairPosterName",
+        "description": "/Lotus/Language/ShipDecorations/BoybandDespairPosterDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Displays/BoybandDespairPoster.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/BoybandPosters/BoybandGridPoster": {
+        "name": "/Lotus/Language/ShipDecorations/BoybandGridPosterName",
+        "description": "/Lotus/Language/ShipDecorations/BoybandGridPosterDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Displays/BoybandGridPoster.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/BoybandPosters/BoybandHuddlePoster": {
+        "name": "/Lotus/Language/ShipDecorations/BoybandHuddlePosterName",
+        "description": "/Lotus/Language/ShipDecorations/BoybandHuddlePosterDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Displays/BoybandHuddlePoster.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/BoybandPosters/BoybandJumpPoster": {
+        "name": "/Lotus/Language/ShipDecorations/BoybandJumpPosterName",
+        "description": "/Lotus/Language/ShipDecorations/BoybandJumpPosterDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Displays/BoybandJumpPoster.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/BoybandPosters/BoybandLimoPoster": {
+        "name": "/Lotus/Language/ShipDecorations/BoybandLimoPosterName",
+        "description": "/Lotus/Language/ShipDecorations/BoybandLimoPosterDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Displays/BoybandLimoPoster.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/BoybandPosters/BoybandLookingDownPosterDay": {
+        "name": "/Lotus/Language/ShipDecorations/BoybandLookingDownPosterDayName",
+        "description": "/Lotus/Language/ShipDecorations/BoybandLookingDownPosterDayDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Displays/BoybandLookingDownPosterDay.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/BoybandPosters/BoybandLookingDownPosterNight": {
+        "name": "/Lotus/Language/ShipDecorations/BoybandLookingDownPosterNightName",
+        "description": "/Lotus/Language/ShipDecorations/BoybandLookingDownPosterNightDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Displays/BoybandLookingDownPosterNight.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/BoybandPosters/BoybandSillyPoster": {
+        "name": "/Lotus/Language/ShipDecorations/BoybandSillyPosterName",
+        "description": "/Lotus/Language/ShipDecorations/BoybandSillyPosterDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Displays/BoybandSillyPoster.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/BoybandPosters/BoybandWhiteBluePoster": {
+        "name": "/Lotus/Language/ShipDecorations/BoybandWhiteBluePosterName",
+        "description": "/Lotus/Language/ShipDecorations/BoybandWhiteBluePosterDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Displays/BoybandWhiteBluePoster.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/BoybandPosters/BoybandWhitePinkPoster": {
+        "name": "/Lotus/Language/ShipDecorations/BoybandWhitePinkPosterName",
+        "description": "/Lotus/Language/ShipDecorations/BoybandWhitePinkPosterDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Displays/BoybandWhitePinkPoster.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
     },
     "/Lotus/Types/Items/ShipDecos/CorpusShip/LisetPropGreedCoinBlack": {
         "name": "/Lotus/Language/ShipDecorations/LisetPropGreedCoinBlackName",
@@ -10595,6 +10830,246 @@
         "name": "/Lotus/Language/ShipDecorations/ZenurikPosterDecoName",
         "description": "/Lotus/Language/ShipDecorations/ZenurikPosterDecoDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Decorations/Posters/FocusSchoolZenurik.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxArcadeAirHockeyA": {
+        "name": "/Lotus/Language/1999/LASxArcadeAirHockeyA",
+        "description": "/Lotus/Language/1999/LASxArcadeAirHockeyADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxArcadeAirHockeyA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxArcadeChangeMachineA": {
+        "name": "/Lotus/Language/1999/LASxArcadeChangeMachineA",
+        "description": "/Lotus/Language/1999/LASxArcadeChangeMachineADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxArcadeChangeMachineA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxArcadeFoosballA": {
+        "name": "/Lotus/Language/1999/LASxArcadeFoosballA",
+        "description": "/Lotus/Language/1999/LASxArcadeFoosballADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxArcadeFoosballA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxArcadeMachineD": {
+        "name": "/Lotus/Language/1999/LASxArcadeMachineD",
+        "description": "/Lotus/Language/1999/LASxArcadeMachineDDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxArcadeMachineD.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxArcadePinballMachineA": {
+        "name": "/Lotus/Language/1999/LASxArcadePinballMachineA",
+        "description": "/Lotus/Language/1999/LASxArcadePinballMachineADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxArcadePinballMachineA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxArcadeRacingA": {
+        "name": "/Lotus/Language/1999/LASxArcadeRacingA",
+        "description": "/Lotus/Language/1999/LASxArcadeRacingADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxArcadeRacingA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxCoffeeTableA": {
+        "name": "/Lotus/Language/1999/LASxCoffeeTableA",
+        "description": "/Lotus/Language/1999/LASxCoffeeTableADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxCoffeeTableA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxConPylonSmA": {
+        "name": "/Lotus/Language/1999/LASxConPylonSmA",
+        "description": "/Lotus/Language/1999/LASxConPylonSmADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxConPylonSmA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxCouchLrgA": {
+        "name": "/Lotus/Language/1999/LASxCouchLrgA",
+        "description": "/Lotus/Language/1999/LASxCouchLrgADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxCouchLrgA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxCouchMedA": {
+        "name": "/Lotus/Language/1999/LASxCouchMedA",
+        "description": "/Lotus/Language/1999/LASxCouchMedADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxCouchMedA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxCouchSmA": {
+        "name": "/Lotus/Language/1999/LASxCouchSmA",
+        "description": "/Lotus/Language/1999/LASxCouchSmADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxCouchSmA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxCredenzaA": {
+        "name": "/Lotus/Language/1999/LASxCredenzaA",
+        "description": "/Lotus/Language/1999/LASxCredenzaADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxCredenzaA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxDiningTableA": {
+        "name": "/Lotus/Language/1999/LASxDiningTableA",
+        "description": "/Lotus/Language/1999/LASxDiningTableADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxDiningTableA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxFloorLampA": {
+        "name": "/Lotus/Language/1999/LASxFloorLampA",
+        "description": "/Lotus/Language/1999/LASxFloorLampADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxFloorLampA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxLockerSingleA": {
+        "name": "/Lotus/Language/1999/LASxLockerSingleA",
+        "description": "/Lotus/Language/1999/LASxLockerSingleADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxLockerSingleA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxMetalFoldingChairA": {
+        "name": "/Lotus/Language/1999/LASxMetalFoldingChairA",
+        "description": "/Lotus/Language/1999/LASxMetalFoldingChairADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxMetalFoldingChairA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxNightStandA": {
+        "name": "/Lotus/Language/1999/LASxNightStandA",
+        "description": "/Lotus/Language/1999/LASxNightStandADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxNightStandA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxOnlyneCardboardCutout": {
+        "name": "/Lotus/Language/1999/LASxOnlyneCardboardCutout",
+        "description": "/Lotus/Language/1999/LASxOnlyneCardboardCutoutDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxOnlyneCardboardCutout.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxOnlyneCutoutZekePizzaA": {
+        "name": "/Lotus/Language/1999/LASxOnlyneCutoutZekePizzaA",
+        "description": "/Lotus/Language/1999/LASxOnlyneCutoutZekePizzaADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxOnlyneCutoutZekePizzaA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxStadiumDrumCoreKitA": {
+        "name": "/Lotus/Language/1999/LASxStadiumDrumCoreKitA",
+        "description": "/Lotus/Language/1999/LASxStadiumDrumCoreKitADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxStadiumDrumCoreKitADeco.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxStadiumDrumCymbalA": {
+        "name": "/Lotus/Language/1999/LASxStadiumDrumCymbalA",
+        "description": "/Lotus/Language/1999/LASxStadiumDrumCymbalADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxStadiumDrumCymbalADeco.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxStadiumDrumFloorTomA": {
+        "name": "/Lotus/Language/1999/LASxStadiumDrumFloorTomA",
+        "description": "/Lotus/Language/1999/LASxStadiumDrumFloorTomADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxStadiumDrumFloorTomADeco.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxStadiumDrumSnareA": {
+        "name": "/Lotus/Language/1999/LASxStadiumDrumSnareA",
+        "description": "/Lotus/Language/1999/LASxStadiumDrumSnareADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxStadiumDrumSnareADeco.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxStadiumEquipmentCaseA": {
+        "name": "/Lotus/Language/1999/LASxStadiumEquipmentCaseA",
+        "description": "/Lotus/Language/1999/LASxStadiumEquipmentCaseADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxStadiumEquipmentCaseADeco.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxStadiumEquipmentCaseB": {
+        "name": "/Lotus/Language/1999/LASxStadiumEquipmentCaseB",
+        "description": "/Lotus/Language/1999/LASxStadiumEquipmentCaseBDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxStadiumEquipmentCaseBDeco.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxStadiumEquipmentCaseC": {
+        "name": "/Lotus/Language/1999/LASxStadiumEquipmentCaseC",
+        "description": "/Lotus/Language/1999/LASxStadiumEquipmentCaseCDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxStadiumEquipmentCaseCDeco.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxStadiumEquipmentCaseD": {
+        "name": "/Lotus/Language/1999/LASxStadiumEquipmentCaseD",
+        "description": "/Lotus/Language/1999/LASxStadiumEquipmentCaseDDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxStadiumEquipmentCaseDDeco.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxStadiumEquipmentCaseE": {
+        "name": "/Lotus/Language/1999/LASxStadiumEquipmentCaseE",
+        "description": "/Lotus/Language/1999/LASxStadiumEquipmentCaseEDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxStadiumEquipmentCaseEDeco.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxStadiumEquipmentCaseF": {
+        "name": "/Lotus/Language/1999/LASxStadiumEquipmentCaseF",
+        "description": "/Lotus/Language/1999/LASxStadiumEquipmentCaseFDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxStadiumEquipmentCaseFDeco.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Hollvania/LASxStadiumSynthKeyboardA": {
+        "name": "/Lotus/Language/1999/LASxStadiumSynthKeyboardA",
+        "description": "/Lotus/Language/1999/LASxStadiumSynthKeyboardADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/LASxStadiumSynthKeyboardADeco.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations"
@@ -11625,6 +12100,22 @@
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations"
     },
+    "/Lotus/Types/Items/ShipDecos/Plushies/PlushyDJRomHuman": {
+        "name": "/Lotus/Language/ShipDecorations/PlushyDJRomHumanName",
+        "description": "/Lotus/Language/ShipDecorations/PlushyDJRomHumanDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/PlushyDJRomHuman.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Plushies/PlushyDJRomInfested": {
+        "name": "/Lotus/Language/ShipDecorations/PlushyDJRomInfestedName",
+        "description": "/Lotus/Language/ShipDecorations/PlushyDJRomInfestedDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/PlushyDJRomInfested.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
     "/Lotus/Types/Items/ShipDecos/Plushies/PlushyDesertSkate": {
         "name": "/Lotus/Language/ShipDecorations/PlushyDesertSkateName",
         "description": "/Lotus/Language/ShipDecorations/PlushyDesertSkateDesc",
@@ -11633,10 +12124,42 @@
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations"
     },
+    "/Lotus/Types/Items/ShipDecos/Plushies/PlushyDrillbitHuman": {
+        "name": "/Lotus/Language/ShipDecorations/PlushyDrillbitHumanName",
+        "description": "/Lotus/Language/ShipDecorations/PlushyDrillbitHumanDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/PlushyDrillbitHuman.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Plushies/PlushyDrillbitInfested": {
+        "name": "/Lotus/Language/ShipDecorations/PlushyDrillbitInfestedName",
+        "description": "/Lotus/Language/ShipDecorations/PlushyDrillbitInfestedDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/PlushyDrillbitInfested.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
     "/Lotus/Types/Items/ShipDecos/Plushies/PlushyEleanor": {
         "name": "/Lotus/Language/ShipDecorations/PlushyEleanorName",
         "description": "/Lotus/Language/ShipDecorations/PlushyEleanorDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/PlushyEleanor.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Plushies/PlushyHarddriveHuman": {
+        "name": "/Lotus/Language/ShipDecorations/PlushyHarddriveHumanName",
+        "description": "/Lotus/Language/ShipDecorations/PlushyHarddriveHumanDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/PlushyHarddriveHuman.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Plushies/PlushyHarddriveInfested": {
+        "name": "/Lotus/Language/ShipDecorations/PlushyHarddriveInfestedName",
+        "description": "/Lotus/Language/ShipDecorations/PlushyHarddriveInfestedDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/PlushyHarddriveInfested.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations"
@@ -11818,10 +12341,34 @@
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations"
     },
+    "/Lotus/Types/Items/ShipDecos/Plushies/PlushyOllie": {
+        "name": "/Lotus/Language/ShipDecorations/PlushyOllieName",
+        "description": "/Lotus/Language/ShipDecorations/PlushyOllieDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/PlushyOllie.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
     "/Lotus/Types/Items/ShipDecos/Plushies/PlushyOrdis": {
         "name": "/Lotus/Language/ShipDecorations/PlushyOrdisName",
         "description": "/Lotus/Language/ShipDecorations/PlushyOrdisDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/PlushyOrdis.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Plushies/PlushyPacketHuman": {
+        "name": "/Lotus/Language/ShipDecorations/PlushyPacketHumanName",
+        "description": "/Lotus/Language/ShipDecorations/PlushyPacketHumanDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/PlushyPacketHuman.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Plushies/PlushyPacketInfested": {
+        "name": "/Lotus/Language/ShipDecorations/PlushyPacketInfestedName",
+        "description": "/Lotus/Language/ShipDecorations/PlushyPacketInfestedDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/PlushyPacketInfested.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations"
@@ -12031,6 +12578,22 @@
         "name": "/Lotus/Language/SolarisVenus/PlushyVirminkUncommonName",
         "description": "/Lotus/Language/SolarisVenus/GenericPlushyDesc",
         "icon": "/Lotus/Interface/Icons/Store/Plushies/Theme/PlushyVirminkUncommon.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Plushies/PlushyZekeHuman": {
+        "name": "/Lotus/Language/ShipDecorations/PlushyZekeHumanName",
+        "description": "/Lotus/Language/ShipDecorations/PlushyZekeHumanDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/PlushyZekeHuman.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Plushies/PlushyZekeInfested": {
+        "name": "/Lotus/Language/ShipDecorations/PlushyZekeInfestedName",
+        "description": "/Lotus/Language/ShipDecorations/PlushyZekeInfestedDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/PlushyZekeInfested.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations"
@@ -15805,6 +16368,14 @@
         "productCategory": "ShipDecorations",
         "excludeFromCodex": true
     },
+    "/Lotus/Types/Items/ShipDecos/KullervoBobbleHead": {
+        "name": "/Lotus/Language/ShipDecorations/BobbleheadKullervoName",
+        "description": "/Lotus/Language/ShipDecorations/BobbleheadKullervoDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Bobbleheads/BobbleKullervo.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
     "/Lotus/Types/Items/ShipDecos/KuvaMetaBallOrnament": {
         "name": "/Lotus/Language/ShipDecorations/KuvaMetaBallOrnamentName",
         "description": "/Lotus/Language/ShipDecorations/KuvaMetaBallOrnamentDesc",
@@ -15843,6 +16414,14 @@
         "name": "/Lotus/Language/ShipDecorations/BobbleheadLimboPrimeName",
         "description": "/Lotus/Language/ShipDecorations/BobbleheadLimboPrimeDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Bobbleheads/BobbleheadLimboPrime.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/LisetProp1999TankDrone": {
+        "name": "/Lotus/Language/ShipDecorations/LisetProp1999TankDroneName",
+        "description": "/Lotus/Language/ShipDecorations/LisetProp1999TankDroneDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Drones/LisetProp1999TankDrone.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations"
@@ -16503,6 +17082,14 @@
         "parentName": "/Lotus/Types/Items/ShipDecos/LotusShawzinPlayableBase",
         "productCategory": "ShipDecorations"
     },
+    "/Lotus/Types/Items/ShipDecos/LisetPropShawzinTempleGuitar": {
+        "name": "/Lotus/Language/ShipDecorations/LisetPropShawzinTempleGuitarName",
+        "description": "/Lotus/Language/ShipDecorations/LisetPropShawzinTempleGuitarDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/ExaltedWeapons/TempleExaltedGuitar.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/LotusShawzinPlayableBase",
+        "productCategory": "ShipDecorations"
+    },
     "/Lotus/Types/Items/ShipDecos/LisetPropShawzinTwitch": {
         "name": "/Lotus/Language/ShipDecorations/LisetPropShawzinTwitchName",
         "description": "/Lotus/Language/ShipDecorations/LisetPropShawzinTwitchDesc",
@@ -16919,6 +17506,23 @@
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/OfficeChairItem": {
+        "name": "/Lotus/Language/1999/ChairShipDecoName",
+        "description": "/Lotus/Language/1999/ChairShipDecoDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Hollvania/OfficeChairItem.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/OlliesCrashCoursePoster": {
+        "name": "/Lotus/Language/ShipDecorations/OlliesCrashCoursePosterName",
+        "description": "/Lotus/Language/ShipDecorations/OlliesCrashCoursePosterDesc",
+        "icon": "/Lotus/Objects/OlliesCrashCourse/Textures/OlliesCrashCoursePosterSquare.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "excludeFromCodex": true
     },
     "/Lotus/Types/Items/ShipDecos/OrbiterPictureFrame": {
         "name": "/Lotus/Language/ShipDecorations/OrbiterPictureFrame",
@@ -17406,6 +18010,33 @@
         "productCategory": "ShipDecorations",
         "excludeFromCodex": true
     },
+    "/Lotus/Types/Items/ShipDecos/StickerPictureFrame": {
+        "name": "/Lotus/Language/ShipDecorations/StickerPictureFrame",
+        "description": "/Lotus/Language/ShipDecorations/StickerPictureFrameDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Displays/StickerPictureFrameA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/ShipDecos/StickerPictureFrameChromatic": {
+        "name": "/Lotus/Language/ShipDecorations/StickerPictureFrameChromatic",
+        "description": "/Lotus/Language/ShipDecorations/StickerPictureFrameChromaticDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Displays/StickerPictureFrameC.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/ShipDecos/StickerPictureFrameSparkly": {
+        "name": "/Lotus/Language/ShipDecorations/StickerPictureFrameSparkly",
+        "description": "/Lotus/Language/ShipDecorations/StickerPictureFrameSparklyDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Displays/StickerPictureFrameB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "excludeFromCodex": true
+    },
     "/Lotus/Types/Items/ShipDecos/StyanaxDeluxeSpearDeco": {
         "name": "/Lotus/Language/ShipDecorations/LisetPropStyanaxDeluxeSpearShieldName",
         "description": "/Lotus/Language/ShipDecorations/LisetPropStyanaxDeluxeSpearShieldDesc",
@@ -17665,6 +18296,14 @@
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations"
     },
+    "/Lotus/Types/Items/ShipDecos/TarotCardTemple": {
+        "name": "/Lotus/Language/Tarot/TarotCardTempleName",
+        "description": "/Lotus/Language/Tarot/TarotCardTempleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Tarot/TarotCardTemple.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
     "/Lotus/Types/Items/ShipDecos/TarotCardTennoConA": {
         "name": "/Lotus/Language/Tarot/TarotCardTennoConAName",
         "description": "/Lotus/Language/Tarot/TarotCardTennoConADesc",
@@ -17789,6 +18428,14 @@
         "name": "/Lotus/Language/ShipDecorations/TeaSetName",
         "description": "/Lotus/Language/ShipDecorations/TeaSetDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/TeaSet.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/TempleGuitarSpeakerShipDeco": {
+        "name": "/Lotus/Language/ShipDecorations/TempleGuitarSpeakerShipDecoName",
+        "description": "/Lotus/Language/ShipDecorations/TempleGuitarSpeakerShipDecoDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/TempleGuitarSpeakerShipDeco.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations"
@@ -18086,6 +18733,15 @@
         "productCategory": "ShipDecorations",
         "excludeFromCodex": true
     },
+    "/Lotus/Types/Items/ShipDecos/TennoVIP2025Deco": {
+        "name": "/Lotus/Language/ShipDecorations/TennoVIP2025DecoName",
+        "description": "/Lotus/Language/ShipDecorations/TennoVIP2025DecoDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/TennoVIP2025Deco.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "excludeFromCodex": true
+    },
     "/Lotus/Types/Items/ShipDecos/Tennocon2017Display": {
         "name": "/Lotus/Language/ShipDecorations/Tennoncon2017DisplayName",
         "description": "/Lotus/Language/ShipDecorations/Tennoncon2017DisplayDesc",
@@ -18182,6 +18838,14 @@
         "name": "/Lotus/Language/ShipDecorations/Tennoncon2024DisplayName",
         "description": "/Lotus/Language/ShipDecorations/Tennoncon2024DisplayDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Posters/Tennocon2024Display.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/Tennocon2025Display": {
+        "name": "/Lotus/Language/ShipDecorations/Tennoncon2025DisplayName",
+        "description": "/Lotus/Language/ShipDecorations/Tennoncon2025DisplayDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Posters/Tennocon2025Display.png",
         "codexSecret": true,
         "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase",
         "productCategory": "ShipDecorations"
@@ -19356,6 +20020,26 @@
         "excludeFromCodex": true,
         "showInInventory": false
     },
+    "/Lotus/Types/Items/SongItems/AliveAgainSongItem": {
+        "name": "/Lotus/Language/Fragments/AliveAgainSongName",
+        "description": "/Lotus/Language/1999/MiscSongDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/HollvaniaSongItemStoreIcon.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/SongItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "showInInventory": false
+    },
+    "/Lotus/Types/Items/SongItems/BelowZeroSongItem": {
+        "name": "/Lotus/Language/Fragments/BelowZeroSongName",
+        "description": "/Lotus/Language/1999/MiscSongDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/HollvaniaSongItemStoreIcon.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/SongItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "showInInventory": false
+    },
     "/Lotus/Types/Items/SongItems/CC16BitGirlsSongItem": {
         "name": "/Lotus/Language/Fragments/16BitGirlsSongName",
         "description": "/Lotus/Language/Fragments/CaliberChicksSongDesc",
@@ -19431,7 +20115,7 @@
     "/Lotus/Types/Items/SongItems/CorpusLichLoginSongItem": {
         "name": "/Lotus/Language/Fragments/CorpusLichLoginSongName",
         "description": "/Lotus/Language/Fragments/CorpusLichLoginSongDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/ExcaliburLoginSongItemStoreIcon.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/SistersOfParvosLoginSongItemStoreIcon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Game/SongItem",
         "productCategory": "MiscItems",
@@ -19442,6 +20126,16 @@
         "name": "/Lotus/Language/Fragments/CorpusRailjackLoginSongName",
         "description": "/Lotus/Language/Fragments/CorpusRailjackLoginSongDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/EmpyreanLoginSongItemStoreIcon.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/SongItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "showInInventory": false
+    },
+    "/Lotus/Types/Items/SongItems/CrashCourseSongItem": {
+        "name": "/Lotus/Language/Fragments/CrashCourseSongName",
+        "description": "/Lotus/Language/1999/MiscSongDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/HollvaniaSongItemStoreIcon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Game/SongItem",
         "productCategory": "MiscItems",
@@ -19461,7 +20155,7 @@
     "/Lotus/Types/Items/SongItems/DeadlockLoginSongItem": {
         "name": "/Lotus/Language/Fragments/DeadlockLoginSongName",
         "description": "/Lotus/Language/Fragments/DeadlockLoginSongDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/ExcaliburLoginSongItemStoreIcon.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/DeadlockProtocolLoginSongItemStoreIcon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Game/SongItem",
         "productCategory": "MiscItems",
@@ -19471,7 +20165,7 @@
     "/Lotus/Types/Items/SongItems/DeimosLoginSongItem": {
         "name": "/Lotus/Language/Fragments/DeimosLoginSongName",
         "description": "/Lotus/Language/Fragments/DeimosLoginSongDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/HeartofDeimosSongItemStoreIcon.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/HeartofDeimosLoginSongItemStoreIcon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Game/SongItem",
         "productCategory": "MiscItems",
@@ -19481,7 +20175,7 @@
     "/Lotus/Types/Items/SongItems/DuviriKullervoLoginSongItem": {
         "name": "/Lotus/Language/Fragments/DuviriKullervoLoginSongName",
         "description": "/Lotus/Language/Fragments/DuviriKullervoLoginSongDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/ExcaliburLoginSongItemStoreIcon.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/KullervoLoginSongItemStoreIcon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Game/SongItem",
         "productCategory": "MiscItems",
@@ -19502,6 +20196,16 @@
         "name": "/Lotus/Language/Fragments/EmpyreanLoginSongName",
         "description": "/Lotus/Language/Fragments/EmpyreanLoginSongDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/EmpyreanLoginSongItemStoreIcon.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/SongItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "showInInventory": false
+    },
+    "/Lotus/Types/Items/SongItems/FromTheStarsSongItem": {
+        "name": "/Lotus/Language/Fragments/FromTheStarsSongName",
+        "description": "/Lotus/Language/1999/MiscSongDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/HollvaniaSongItemStoreIcon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Game/SongItem",
         "productCategory": "MiscItems",
@@ -19556,7 +20260,7 @@
     "/Lotus/Types/Items/SongItems/JadeShadowsLoginSongItem": {
         "name": "/Lotus/Language/Fragments/JadeShadowsLoginSongName",
         "description": "/Lotus/Language/Fragments/JadeShadowsLoginSongDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/ExcaliburLoginSongItemStoreIcon.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/JadeShadowsLoginSongItemStoreIcon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Game/SongItem",
         "productCategory": "MiscItems",
@@ -19575,7 +20279,7 @@
     "/Lotus/Types/Items/SongItems/KuvaLichLoginSongItem": {
         "name": "/Lotus/Language/Fragments/KuvaLichLoginSongName",
         "description": "/Lotus/Language/Fragments/KuvaLichLoginSongDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/ExcaliburLoginSongItemStoreIcon.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/TheOldBloodLoginSongItemStoreIcon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Game/SongItem",
         "productCategory": "MiscItems",
@@ -19763,10 +20467,20 @@
         "productCategory": "MiscItems",
         "showInInventory": false
     },
+    "/Lotus/Types/Items/SongItems/TenthAnniversaryLoginSongItem": {
+        "name": "/Lotus/Language/Fragments/TenthAnniversaryLoginSongName",
+        "description": "/Lotus/Language/Fragments/TenthAnniversaryLoginSongDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/10YearAnniversaryLoginSongItemStoreIcon.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/SongItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "showInInventory": false
+    },
     "/Lotus/Types/Items/SongItems/TheNewWarLoginSongItem": {
         "name": "/Lotus/Language/Fragments/TheNewWarLoginSongName",
         "description": "/Lotus/Language/Fragments/TheNewWarLoginSongDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/ExcaliburLoginSongItemStoreIcon.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/TNWLoginSongItemStoreIcon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Game/SongItem",
         "productCategory": "MiscItems",
@@ -19776,7 +20490,7 @@
     "/Lotus/Types/Items/SongItems/TheSacrificeLoginSongItem": {
         "name": "/Lotus/Language/Fragments/TheSacrificeLoginSongName",
         "description": "/Lotus/Language/Fragments/TheSacrificeLoginSongDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/ExcaliburLoginSongItemStoreIcon.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/TheSacrificeLoginSongItemStoreIcon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Game/SongItem",
         "productCategory": "MiscItems",
@@ -19795,7 +20509,7 @@
     "/Lotus/Types/Items/SongItems/VeilbreakerLoginSongItem": {
         "name": "/Lotus/Language/Fragments/VeilbreakerLoginSongName",
         "description": "/Lotus/Language/Fragments/VeilbreakerLoginSongDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/ExcaliburLoginSongItemStoreIcon.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/VeilbreakerLoginSongItemStoreIcon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Game/SongItem",
         "productCategory": "MiscItems",
@@ -19805,7 +20519,7 @@
     "/Lotus/Types/Items/SongItems/VenusOrbVallisLoginSongItem": {
         "name": "/Lotus/Language/Fragments/VenusOrbVallisLoginSongName",
         "description": "/Lotus/Language/Fragments/VenusOrbVallisLoginSongDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/ExcaliburLoginSongItemStoreIcon.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/FortunaLoginSongItemStoreIcon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Game/SongItem",
         "productCategory": "MiscItems",
@@ -19815,7 +20529,7 @@
     "/Lotus/Types/Items/SongItems/VoidEclipseLoginSongItem": {
         "name": "/Lotus/Language/Fragments/VoidEclipseLoginSongName",
         "description": "/Lotus/Language/Fragments/VoidEclipseLoginSongDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/ExcaliburLoginSongItemStoreIcon.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/LuasPreyLoginSongItemStoreIcon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Game/SongItem",
         "productCategory": "MiscItems",
@@ -21180,7 +21894,7 @@
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
         "productCategory": "MiscItems",
-        "primeSellingPrice": 100
+        "primeSellingPrice": 65
     },
     "/Lotus/Types/Recipes/WarframeRecipes/GarudaSystemsComponent": {
         "name": "/Lotus/Language/Menu/CraftingComponent_GarudaSystemsName",
@@ -22708,6 +23422,30 @@
         "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
         "productCategory": "MiscItems"
     },
+    "/Lotus/Types/Recipes/WarframeRecipes/TempleChassisComponent": {
+        "name": "/Lotus/Language/WarframeCrafting/CraftingComponent_TempleChassisName",
+        "description": "/Lotus/Language/WarframeCrafting/CraftingComponent_TempleChassisDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframeChassis.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/TempleHelmetComponent": {
+        "name": "/Lotus/Language/WarframeCrafting/CraftingComponent_TempleHelmetName",
+        "description": "/Lotus/Language/WarframeCrafting/CraftingComponent_TempleHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframeHelmet.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/TempleSystemsComponent": {
+        "name": "/Lotus/Language/WarframeCrafting/CraftingComponent_TempleSystemsName",
+        "description": "/Lotus/Language/WarframeCrafting/CraftingComponent_TempleSystemsDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframeSystem.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems"
+    },
     "/Lotus/Types/Recipes/WarframeRecipes/TenguChassisComponent": {
         "name": "/Lotus/Language/Menu/CraftingComponent_TenguChassisName",
         "description": "/Lotus/Language/Menu/CraftingComponent_TenguChassisDesc",
@@ -23166,6 +23904,31 @@
         "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
         "productCategory": "MiscItems",
         "primeSellingPrice": 100
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/1999EntHybridPistolBarrel": {
+        "name": "/Lotus/Language/Weapons/CraftingComponent_1999EntHybridPistolBarrel",
+        "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunBarrel.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/1999EntHybridPistolReceiver": {
+        "name": "/Lotus/Language/Weapons/CraftingComponent_1999EntHybridPistolReceiver",
+        "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunReceiver.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/1999EntHybridPistolStock": {
+        "name": "/Lotus/Language/Weapons/CraftingComponent_1999EntHybridPistolStock",
+        "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunStock.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
     },
     "/Lotus/Types/Recipes/Weapons/WeaponParts/AcceltraPrimeBarrel": {
         "name": "/Lotus/Language/Primes/CraftingComponent_AcceltraPrimeBarrel",
@@ -24847,6 +25610,70 @@
         "productCategory": "MiscItems",
         "primeSellingPrice": 45
     },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooAKPlayerWeaponBarrel": {
+        "name": "/Lotus/Language/Weapons/CraftingComponent_LasGooAKPlayerWeaponBarrel",
+        "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunBarrel.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooAKPlayerWeaponReceiver": {
+        "name": "/Lotus/Language/Weapons/CraftingComponent_LasGooAKPlayerWeaponReceiver",
+        "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunReceiver.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooAKPlayerWeaponStock": {
+        "name": "/Lotus/Language/Weapons/CraftingComponent_LasGooAKPlayerWeaponStock",
+        "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunStock.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooPistolPlayerWeaponBarrel": {
+        "name": "/Lotus/Language/Weapons/CraftingComponent_LasGooPistolPlayerWeaponBarrel",
+        "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunBarrel.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooPistolPlayerWeaponReceiver": {
+        "name": "/Lotus/Language/Weapons/CraftingComponent_LasGooPistolPlayerWeaponReceiver",
+        "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunReceiver.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooPistolPlayerWeaponStock": {
+        "name": "/Lotus/Language/Weapons/CraftingComponent_LasGooPistolPlayerWeaponStock",
+        "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunStock.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooSicklesPlayerWeaponBlade": {
+        "name": "/Lotus/Language/Weapons/CraftingComponent_LasGooSicklesPlayerWeaponBlade",
+        "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWeaponBlade.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/LasGooSicklesPlayerWeaponHilt": {
+        "name": "/Lotus/Language/Weapons/CraftingComponent_LasGooSicklesPlayerWeaponHilt",
+        "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWeaponHilt.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems"
+    },
     "/Lotus/Types/Recipes/Weapons/WeaponParts/LasSilencedPistolBarrel": {
         "name": "/Lotus/Language/CraftingComponents/LasSilencedPistolBarrel",
         "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
@@ -24873,6 +25700,30 @@
         "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
         "productCategory": "MiscItems",
         "excludeFromCodex": true
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/LasrianNoxPlayerWeaponBarrel": {
+        "name": "/Lotus/Language/Weapons/CraftingComponent_LasrianNoxPlayerWeaponBarrel",
+        "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunBarrel.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/LasrianNoxPlayerWeaponReceiver": {
+        "name": "/Lotus/Language/Weapons/CraftingComponent_LasrianNoxPlayerWeaponReceiver",
+        "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunReceiver.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/LasrianNoxPlayerWeaponStock": {
+        "name": "/Lotus/Language/Weapons/CraftingComponent_LasrianNoxPlayerWeaponStock",
+        "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunStock.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems"
     },
     "/Lotus/Types/Recipes/Weapons/WeaponParts/LatoVandalBarrel": {
         "name": "/Lotus/Language/Menu/CraftingComponent_LatoVandalBarrel",

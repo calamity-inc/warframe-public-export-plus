@@ -64,6 +64,19 @@
             "customData": "Arthur"
         }
     },
+    "/Lotus/Types/Items/EmailItems/ArthurNewAreaEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/1999/MessengerArthurName",
+            "title": "/Lotus/Language/1999Echoes/1999RankFourInboxArthurTitle",
+            "body": "/Lotus/Language/1999Echoes/1999RankFourInboxArthurMsg",
+            "attachments": [],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Player/ArthurAccoladeGlyph.png",
+            "transmission": "/Lotus/Sounds/Dialog/1999/Mall/Arthur/DRankFourInbox0010Arthur",
+            "highPriority": true
+        }
+    },
     "/Lotus/Types/Items/EmailItems/BeatCaliberChicksEmailItem": {
         "sendOnlyOnce": true,
         "message": {
@@ -73,6 +86,20 @@
             "attachments": [
                 "/Lotus/Types/StoreItems/AvatarImages/Minigames/MinigameGlyphPixelPortraitJillian",
                 "/Lotus/Types/StoreItems/AvatarImages/Minigames/MinigameGlyphPixelPortraitLillian"
+            ],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/AmirPortrait.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/BeatOlliesCrashCourseInNinetySecEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/Bosses/Jabir",
+            "title": "/Lotus/Language/Inbox/BeatOlliesCrashCourseInNinetySecInboxSubject",
+            "body": "/Lotus/Language/Inbox/BeatOlliesCrashCourseInNinetySecInboxBody",
+            "attachments": [
+                "/Lotus/Upgrades/Skins/Motorcycle/MotorcycleOllieSkin"
             ],
             "countedAttachments": [],
             "icon": "/Lotus/Interface/Icons/Npcs/AmirPortrait.png",
@@ -209,6 +236,21 @@
             "customData": "Lettie"
         }
     },
+    "/Lotus/Types/Items/EmailItems/LizzieShawzinSkinEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/1999/MessengerFlareName",
+            "title": "/Lotus/Language/Inbox/LizzieShawzinSkinInboxSubject",
+            "body": "/Lotus/Language/Inbox/LizzieShawzinSkinInboxBody",
+            "attachments": [
+                "/Lotus/Types/Items/ShipDecos/LisetPropShawzinTempleGuitar",
+                "/Lotus/Types/Items/Emotes/ShawzinEmote"
+            ],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/FlarePortrait.png",
+            "highPriority": true
+        }
+    },
     "/Lotus/Types/Items/EmailItems/MaxScoreConquestEmailItem": {
         "sendOnlyOnce": true,
         "message": {
@@ -223,6 +265,21 @@
             "highPriority": true
         }
     },
+    "/Lotus/Types/Items/EmailItems/NightwaveS3BossFightEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/Bosses/NoraNight",
+            "title": "/Lotus/Language/NightwaveSeasonThree/BossFightRewardMailTitle",
+            "body": "/Lotus/Language/Subtitles/NWGlassmaker/DGlassNihilFightNoraEmail1210NoraNight",
+            "attachments": [
+                "/Lotus/Types/Recipes/Weapons/NWOrokinSwordBlueprint"
+            ],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/Seasonal/NoraNight.png",
+            "transmission": "/Lotus/Sounds/Dialog/Nightwave/SeasonThreeGlassmaker/NihilFight/Nora/DGlassNihilFightNoraEmail1210NoraNight",
+            "highPriority": true
+        }
+    },
     "/Lotus/Types/Items/EmailItems/PlayableDemo1999EmailItem": {
         "sendOnlyOnce": true,
         "message": {
@@ -233,6 +290,21 @@
                 "/Lotus/Upgrades/Skins/Weapons/Swords/LasriaSkanaSwordSkin"
             ],
             "countedAttachments": []
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/PlayedOlliesCrashCourseEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/Bosses/Jabir",
+            "title": "/Lotus/Language/Inbox/PlayedOlliesCrashCourseInboxSubject",
+            "body": "/Lotus/Language/Inbox/PlayedOlliesCrashCourseInboxBody",
+            "attachments": [
+                "/Lotus/Types/Items/ShipDecos/Plushies/PlushyOllie",
+                "/Lotus/Types/Items/ShipDecos/OlliesCrashCoursePoster"
+            ],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/AmirPortrait.png",
+            "highPriority": true
         }
     },
     "/Lotus/Types/Items/EmailItems/QuincyKissEmailItem": {

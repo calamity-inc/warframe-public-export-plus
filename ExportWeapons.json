@@ -128,7 +128,8 @@
                     "DT_SLASH": 119.0
                 }
             }
-        ]
+        ],
+        "defaultUpgrades": []
     },
     "/Lotus/Weapons/VoidTrader/PrismaGrakata": {
         "name": "/Lotus/Language/Items/PrismaGrakataName",
@@ -5610,6 +5611,71 @@
             }
         ]
     },
+    "/Lotus/Weapons/Tenno/Pistols/1999EntHybridPistolWeapon/1999EntHybridPistolWeapon": {
+        "name": "/Lotus/Language/Weapons/1999EntHybridPistolName",
+        "parentName": "/Lotus/Weapons/Tenno/Pistol/LotusSinglePistolGun",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Weapons/1999EntHybridPistol.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            48,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 60,
+        "description": "/Lotus/Language/Weapons/1999EntHybridPistolDesc",
+        "criticalChance": 0.26,
+        "criticalMultiplier": 2.2,
+        "procChance": 0.26,
+        "fireRate": 8,
+        "masteryReq": 14,
+        "productCategory": "Pistols",
+        "slot": 0,
+        "accuracy": 23.529411,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 16,
+        "reloadTime": 1.24,
+        "multishot": 1,
+        "premiumPrice": 190,
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 12
+                    },
+                    "explosiveAttack": {},
+                    "embedDeathAttack": {
+                        "DT_EXPLOSION": 48
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 10.0,
+                    "DT_PUNCTURE": 10.0,
+                    "DT_SLASH": 20.0
+                }
+            }
+        ]
+    },
     "/Lotus/Weapons/Tenno/Pistol/RevolverPistol": {
         "name": "/Lotus/Language/Items/TennoRevolverName",
         "parentName": "/Lotus/Weapons/Tenno/Pistol/LotusSinglePistolGun",
@@ -10105,6 +10171,12 @@
                     "DT_PUNCTURE": 14.0
                 }
             }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/StaffCmbTwoMeleeTree",
+                "Slot": 8
+            }
         ]
     },
     "/Lotus/Weapons/Tenno/Melee/Staff/SingleStaff": {
@@ -10374,7 +10446,8 @@
                     "DT_PUNCTURE": 17.6
                 }
             }
-        ]
+        ],
+        "defaultUpgrades": []
     },
     "/Lotus/Weapons/Tenno/Melee/Staff/MonkSpade/TnoMonkStaff": {
         "name": "/Lotus/Language/Items/TnoMonkSpadeName",
@@ -12228,7 +12301,8 @@
                     "DT_SLASH": 147.0
                 }
             }
-        ]
+        ],
+        "defaultUpgrades": []
     },
     "/Lotus/Weapons/Tenno/Melee/LongSword/LongSword": {
         "name": "/Lotus/Language/Items/LongSwordName",
@@ -12293,6 +12367,12 @@
                     "DT_PUNCTURE": 18.0,
                     "DT_SLASH": 84.0
                 }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/SwordCmbTwoMeleeTree",
+                "Slot": 8
             }
         ]
     },
@@ -15233,9 +15313,6 @@
                     "DT_PUNCTURE": 38.5,
                     "DT_SLASH": 8.25
                 }
-            },
-            {
-                "impact": {}
             }
         ]
     },
@@ -24521,6 +24598,12 @@
                     "DT_PUNCTURE": 9.0
                 }
             }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/StaffCmbTwoMeleeTree",
+                "Slot": 8
+            }
         ]
     },
     "/Lotus/Weapons/Lasria/LasSilencedPistol/LasSilencedPistolWeapon": {
@@ -24577,6 +24660,276 @@
                 "impact": {
                     "DT_IMPACT": 72.0,
                     "DT_PUNCTURE": 108.0
+                }
+            }
+        ]
+    },
+    "/Lotus/Weapons/Lasria/LasGrenadeLauncher/LasrianNoxPlayerWeapon": {
+        "name": "/Lotus/Language/Weapons/LasrianNoxPlayerWeaponName",
+        "parentName": "/Lotus/Weapons/ClanTech/LotusSpecialRifle",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/LasrianNox.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            351.44998,
+            429.55002,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 781,
+        "description": "/Lotus/Language/Weapons/LasrianNoxPlayerWeaponDesc",
+        "criticalChance": 0.31,
+        "criticalMultiplier": 2.3,
+        "procChance": 0.19,
+        "fireRate": 1.5,
+        "masteryReq": 14,
+        "productCategory": "LongGuns",
+        "holsterCategory": "RIFLE",
+        "slot": 1,
+        "accuracy": 100,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "SEMI",
+        "magazineSize": 9,
+        "reloadTime": 2.7,
+        "multishot": 1,
+        "premiumPrice": 225,
+        "compatibilityTags": [
+            "PROJECTILE",
+            "SNIPER_AMMO",
+            "AOE",
+            "SEMI_AUTO",
+            "IMPACTEXPLODE"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 351.45,
+                        "DT_PUNCTURE": 429.55
+                    }
+                },
+                "impact": {}
+            }
+        ]
+    },
+    "/Lotus/Weapons/Lasria/LasGooSickle/LasGooSicklePlayerWeapon": {
+        "name": "/Lotus/Language/Weapons/LasGooSicklesName",
+        "parentName": "/Lotus/Weapons/Lasria/LasGooSickle/LasGooSickleWeapon",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/LasGooSickle.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            51,
+            51,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            153,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 255,
+        "description": "/Lotus/Language/Weapons/LasGooSicklesDesc",
+        "criticalChance": 0.23,
+        "criticalMultiplier": 2.1,
+        "procChance": 0.29,
+        "fireRate": 1,
+        "masteryReq": 14,
+        "productCategory": "Melee",
+        "holsterCategory": "DUAL_MELEE",
+        "slot": 5,
+        "omegaAttenuation": 0.5,
+        "blockingAngle": 60,
+        "comboDuration": 5,
+        "followThrough": 0.5,
+        "range": 2.4,
+        "slamAttack": 510,
+        "slamRadialDamage": 510,
+        "slamRadius": 8,
+        "slideAttack": 510,
+        "heavyAttackDamage": 1020,
+        "heavySlamAttack": 1020,
+        "heavySlamRadialDamage": 765,
+        "heavySlamRadius": 9,
+        "windUp": 0.7,
+        "premiumPrice": 190,
+        "compatibilityTags": [
+            "DUAL_SWORDS_STANCE"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "impact": {
+                    "DT_PUNCTURE": 51,
+                    "DT_SLASH": 51,
+                    "DT_GAS": 153
+                }
+            }
+        ]
+    },
+    "/Lotus/Weapons/Lasria/LasGooPistol/LasGooPistolPlayerWeapon": {
+        "name": "/Lotus/Language/Weapons/LasGooPistolWeaponName",
+        "parentName": "/Lotus/Weapons/Tenno/Pistol/LotusSinglePistol",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Weapons/LasGooPistolWeapon.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            20.000002,
+            55,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 75,
+        "description": "/Lotus/Language/Weapons/LasGooPistolWeaponDesc",
+        "criticalChance": 0.27,
+        "criticalMultiplier": 2.1,
+        "procChance": 0.17,
+        "fireRate": 6.5,
+        "masteryReq": 14,
+        "productCategory": "Pistols",
+        "slot": 0,
+        "accuracy": 10,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "SEMI",
+        "magazineSize": 15,
+        "reloadTime": 1.667,
+        "multishot": 1,
+        "premiumPrice": 200,
+        "compatibilityTags": [
+            "SEMI_AUTO"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                "impact": {
+                    "DT_IMPACT": 20,
+                    "DT_PUNCTURE": 55
+                }
+            },
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
+                "chargedProjectile": {
+                    "attack": {
+                        "DT_CORROSIVE": 35
+                    },
+                    "explosiveAttack": {
+                        "DT_CORROSIVE": 313
+                    }
+                },
+                "impact": {}
+            }
+        ]
+    },
+    "/Lotus/Weapons/Lasria/LasGooAK/LasGooAKPlayerWeapon": {
+        "name": "/Lotus/Language/Weapons/LasGooAKName",
+        "parentName": "/Lotus/Weapons/Lasria/LasGooAK/LasGooAKWeapon",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/LasGooAK.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            31,
+            23,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 61,
+        "description": "/Lotus/Language/Weapons/LasGooAKDesc",
+        "criticalChance": 0.21,
+        "criticalMultiplier": 2.3,
+        "procChance": 0.25,
+        "fireRate": 7.833334,
+        "masteryReq": 14,
+        "productCategory": "LongGuns",
+        "holsterCategory": "RIFLE",
+        "slot": 1,
+        "accuracy": 133.33333,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 65,
+        "reloadTime": 2.5,
+        "multishot": 1,
+        "premiumPrice": 220,
+        "compatibilityTags": [
+            "ASSAULT_AMMO"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "impact": {
+                    "DT_PUNCTURE": 31,
+                    "DT_SLASH": 23,
+                    "DT_CORROSIVE": 7
+                }
+            },
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
+                "impact": {
+                    "DT_PUNCTURE": 57,
+                    "DT_SLASH": 35,
+                    "DT_CORROSIVE": 35
                 }
             }
         ]
@@ -24680,6 +25033,7 @@
         "magazineSize": 33,
         "reloadTime": 1.3,
         "multishot": 1,
+        "premiumPrice": 175,
         "compatibilityTags": [
             "BEAM",
             "AOE"
@@ -26122,9 +26476,6 @@
                     "DT_PUNCTURE": 7.5,
                     "DT_SLASH": 15.0
                 }
-            },
-            {
-                "impact": {}
             }
         ]
     },
@@ -26367,6 +26718,945 @@
                     "DT_PUNCTURE": 3.33333,
                     "DT_SLASH": 3.33334
                 }
+            }
+        ]
+    },
+    "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaTysis": {
+        "name": "/Lotus/Language/1999Echoes/CodaTysisName",
+        "parentName": "/Lotus/Weapons/Infested/Pistols/InfestedDartPistol/InfestedDartPistol",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Weapons/CodaTysis.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            18,
+            32,
+            26,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 135,
+        "description": "/Lotus/Language/1999Echoes/CodaTysisDesc",
+        "criticalChance": 0.13,
+        "criticalMultiplier": 2,
+        "procChance": 0.5,
+        "fireRate": 2.5,
+        "masteryReq": 17,
+        "productCategory": "Pistols",
+        "slot": 0,
+        "accuracy": 100,
+        "omegaAttenuation": 0.5,
+        "maxLevelCap": 40,
+        "noise": "ALARMING",
+        "trigger": "SEMI",
+        "magazineSize": 18,
+        "reloadTime": 1.2,
+        "multishot": 1,
+        "premiumPrice": 120,
+        "compatibilityTags": [
+            "PROJECTILE",
+            "SEMI_AUTO"
+        ],
+        "variantType": "VT_KUVA",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 18,
+                        "DT_PUNCTURE": 32,
+                        "DT_SLASH": 26
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 3.999996,
+                    "DT_PUNCTURE": 3.999996,
+                    "DT_SLASH": 4.000008
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaPox": {
+        "name": "/Lotus/Language/1999Echoes/CodaPoxName",
+        "parentName": "/Lotus/Weapons/Infested/Pistols/InfProximityStars/InfProximityStars",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Weapons/CodaPox.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            90,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 90,
+        "description": "/Lotus/Language/1999Echoes/CodaPoxDesc",
+        "criticalChance": 0.1,
+        "criticalMultiplier": 2.2,
+        "procChance": 0.45,
+        "fireRate": 2.083334,
+        "masteryReq": 17,
+        "productCategory": "Pistols",
+        "holsterCategory": "SMG",
+        "slot": 0,
+        "accuracy": 100,
+        "omegaAttenuation": 0.5,
+        "maxLevelCap": 40,
+        "noise": "SILENT",
+        "trigger": "AUTO",
+        "magazineSize": 8,
+        "reloadTime": 1,
+        "multishot": 1,
+        "premiumPrice": 175,
+        "compatibilityTags": [
+            "PROJECTILE",
+            "AOE",
+            "SINGLESHOT"
+        ],
+        "variantType": "VT_KUVA",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_POISON": 55
+                    }
+                },
+                "impact": {}
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaCatabolyst": {
+        "name": "/Lotus/Language/1999Echoes/CodaCatabolystName",
+        "parentName": "/Lotus/Weapons/Infested/Pistols/InfBeamPistol/InfBeamPistol",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Weapons/CodaCatabolyst.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            56,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 56,
+        "description": "/Lotus/Language/1999Echoes/CodaCatabolystDesc",
+        "criticalChance": 0.11,
+        "criticalMultiplier": 2.9,
+        "procChance": 0.5,
+        "fireRate": 12.000001,
+        "masteryReq": 17,
+        "productCategory": "Pistols",
+        "slot": 0,
+        "accuracy": 6.25,
+        "omegaAttenuation": 0.5,
+        "maxLevelCap": 40,
+        "noise": "ALARMING",
+        "trigger": "HELD",
+        "magazineSize": 37,
+        "reloadTime": 1.7,
+        "multishot": 1,
+        "premiumPrice": 190,
+        "compatibilityTags": [
+            "PROJECTILE",
+            "BEAM"
+        ],
+        "variantType": "VT_KUVA",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
+                "impact": {}
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/Infested/InfestedLich/Pistols/1999InfSporePistol/1999InfSporePistolWeapon": {
+        "name": "/Lotus/Language/1999Echoes/1999InfSporePistolWeaponName",
+        "parentName": "/Lotus/Weapons/Tenno/Akimbo/LotusAkimbo",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Weapons/1999InfSporePistolWeapon.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            17.5,
+            32.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 50,
+        "description": "/Lotus/Language/1999Echoes/1999InfSporePistolWeaponDesc",
+        "criticalChance": 0.25,
+        "criticalMultiplier": 2.4,
+        "procChance": 0.28,
+        "fireRate": 6.0,
+        "masteryReq": 17,
+        "productCategory": "Pistols",
+        "holsterCategory": "SMG",
+        "slot": 0,
+        "accuracy": 30.76923,
+        "omegaAttenuation": 0.5,
+        "maxLevelCap": 40,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 160,
+        "reloadTime": 2.33,
+        "multishot": 1,
+        "premiumPrice": 120,
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "impact": {
+                    "DT_PUNCTURE": 17.5,
+                    "DT_SLASH": 32.5
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/Infested/InfestedLich/Melee/CodaMire": {
+        "name": "/Lotus/Language/1999Echoes/CodaMireName",
+        "parentName": "/Lotus/Weapons/Infested/Melee/Swords/Mire/MireSword",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/CodaMire.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            45,
+            45,
+            66,
+            0,
+            0,
+            0,
+            79,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 235,
+        "description": "/Lotus/Language/1999Echoes/CodaMireDesc",
+        "criticalChance": 0.18,
+        "criticalMultiplier": 2.4,
+        "procChance": 0.4,
+        "fireRate": 1.083333,
+        "masteryReq": 17,
+        "productCategory": "Melee",
+        "holsterCategory": "MELEE",
+        "slot": 5,
+        "omegaAttenuation": 0.5,
+        "maxLevelCap": 40,
+        "blockingAngle": 55,
+        "comboDuration": 5,
+        "followThrough": 0.6,
+        "range": 2.7,
+        "slamAttack": 705,
+        "slamRadialDamage": 470,
+        "slamRadius": 7,
+        "slideAttack": 235,
+        "heavyAttackDamage": 1175,
+        "heavySlamAttack": 940,
+        "heavySlamRadialDamage": 705,
+        "heavySlamRadius": 8,
+        "windUp": 0.6,
+        "premiumPrice": 150,
+        "compatibilityTags": [
+            "SWORDS_STANCE"
+        ],
+        "variantType": "VT_KUVA",
+        "behaviours": [
+            {
+                "impact": {
+                    "DT_IMPACT": 45,
+                    "DT_PUNCTURE": 45,
+                    "DT_SLASH": 66,
+                    "DT_POISON": 79
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/Infested/InfestedLich/Melee/CodaHirudo": {
+        "name": "/Lotus/Language/1999Echoes/CodaHirudoName",
+        "parentName": "/Lotus/Weapons/Infested/Melee/InfWFAccompanyingSparring/InfestedKogake",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/CodaHirudo.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            26.250002,
+            140,
+            8.749991,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 174.99998,
+        "description": "/Lotus/Language/1999Echoes/CodaHirudoDesc",
+        "criticalChance": 0.34,
+        "criticalMultiplier": 3.1,
+        "procChance": 0.18,
+        "fireRate": 1,
+        "masteryReq": 17,
+        "productCategory": "Melee",
+        "holsterCategory": "PUNCH_SLASH_KICK",
+        "slot": 5,
+        "omegaAttenuation": 0.5,
+        "maxLevelCap": 40,
+        "blockingAngle": 50,
+        "comboDuration": 5,
+        "followThrough": 0.9,
+        "range": 1.25,
+        "slamAttack": 525,
+        "slamRadialDamage": 350,
+        "slamRadius": 7,
+        "slideAttack": 350,
+        "heavyAttackDamage": 1138,
+        "heavySlamAttack": 700,
+        "heavySlamRadialDamage": 525,
+        "heavySlamRadius": 8,
+        "windUp": 0.5,
+        "premiumPrice": 150,
+        "compatibilityTags": [
+            "SPARRING_STANCE"
+        ],
+        "variantType": "VT_KUVA",
+        "behaviours": [
+            {
+                "impact": {
+                    "DT_IMPACT": 26.25,
+                    "DT_PUNCTURE": 140.0,
+                    "DT_SLASH": 8.75
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/Infested/InfestedLich/Melee/InfestedHammer/InfLichHammerWeapon": {
+        "name": "/Lotus/Language/1999Echoes/InfLichHammerWeaponName",
+        "parentName": "/Lotus/Weapons/Tenno/Melee/LotusHeavyHammer",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/InfLichHammerWeapon.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            83.324997,
+            83.324997,
+            83.350006,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 250,
+        "description": "/Lotus/Language/1999Echoes/InfLichHammerWeaponDesc",
+        "criticalChance": 0.25,
+        "criticalMultiplier": 2.3,
+        "procChance": 0.3,
+        "fireRate": 1,
+        "masteryReq": 17,
+        "productCategory": "Melee",
+        "holsterCategory": "MELEE",
+        "slot": 5,
+        "omegaAttenuation": 0.5,
+        "maxLevelCap": 40,
+        "blockingAngle": 50,
+        "comboDuration": 5,
+        "followThrough": 0.4,
+        "range": 2.5,
+        "slamAttack": 750,
+        "slamRadialDamage": 500,
+        "slamRadius": 9,
+        "slideAttack": 500,
+        "heavyAttackDamage": 1500,
+        "heavySlamAttack": 1250,
+        "heavySlamRadialDamage": 750,
+        "heavySlamRadius": 10,
+        "windUp": 1.2,
+        "premiumPrice": 150,
+        "compatibilityTags": [
+            "HAMMERS_STANCE"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "impact": {
+                    "DT_IMPACT": 83.325,
+                    "DT_PUNCTURE": 83.325,
+                    "DT_SLASH": 83.35
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/Infested/InfestedLich/Melee/CodaPathocyst/CodaPathocyst": {
+        "name": "/Lotus/Language/1999Echoes/CodaPathocystName",
+        "parentName": "/Lotus/Weapons/Infested/Melee/InfBoomerang/InfBoomerangWeapon",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/CodaPathocyst.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            58,
+            55,
+            65,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            92,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 270,
+        "description": "/Lotus/Language/1999Echoes/CodaPathocystDesc",
+        "criticalChance": 0.2,
+        "criticalMultiplier": 2.3,
+        "procChance": 0.35,
+        "fireRate": 0.666667,
+        "masteryReq": 17,
+        "productCategory": "Melee",
+        "holsterCategory": "ARM_MOUNTED",
+        "slot": 5,
+        "omegaAttenuation": 0.5,
+        "maxLevelCap": 40,
+        "blockingAngle": 55,
+        "comboDuration": 5,
+        "followThrough": 0.7,
+        "range": 1.3,
+        "slamAttack": 810,
+        "slamRadialDamage": 540,
+        "slamRadius": 5,
+        "slideAttack": 540,
+        "heavyAttackDamage": 270,
+        "heavySlamAttack": 1080,
+        "heavySlamRadialDamage": 810,
+        "heavySlamRadius": 6,
+        "windUp": 1.2,
+        "premiumPrice": 150,
+        "compatibilityTags": [
+            "GLAIVES_STANCE"
+        ],
+        "variantType": "VT_KUVA",
+        "behaviours": [
+            {
+                "impact": {
+                    "DT_IMPACT": 58,
+                    "DT_PUNCTURE": 55,
+                    "DT_SLASH": 65,
+                    "DT_VIRAL": 92
+                }
+            },
+            {
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 49,
+                        "DT_PUNCTURE": 45,
+                        "DT_SLASH": 80,
+                        "DT_VIRAL": 123
+                    },
+                    "explosiveAttack": {
+                        "DT_VIRAL": 405
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 3.33333,
+                    "DT_PUNCTURE": 3.33333,
+                    "DT_SLASH": 3.33334
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/Infested/InfestedLich/Melee/CodaCaustacyst/CodaCaustacyst": {
+        "name": "/Lotus/Language/1999Echoes/CodaCaustacystName",
+        "parentName": "/Lotus/Weapons/Infested/Melee/InfEmbolistScythe/InfestedScythe",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/CodaCaustacyst.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            20,
+            75,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            120,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 285,
+        "description": "/Lotus/Language/1999Echoes/CodaCaustacystDesc",
+        "criticalChance": 0.19,
+        "criticalMultiplier": 2.3,
+        "procChance": 0.41,
+        "fireRate": 1,
+        "masteryReq": 17,
+        "productCategory": "Melee",
+        "holsterCategory": "MELEE",
+        "slot": 5,
+        "omegaAttenuation": 0.5,
+        "maxLevelCap": 40,
+        "blockingAngle": 60,
+        "comboDuration": 5,
+        "followThrough": 0.6,
+        "range": 2.9,
+        "slamAttack": 855,
+        "slamRadialDamage": 570,
+        "slamRadius": 8,
+        "slideAttack": 570,
+        "heavyAttackDamage": 1710,
+        "heavySlamAttack": 1425,
+        "heavySlamRadialDamage": 855,
+        "heavySlamRadius": 9,
+        "windUp": 1,
+        "premiumPrice": 230,
+        "compatibilityTags": [
+            "SCYTHES_STANCE"
+        ],
+        "variantType": "VT_KUVA",
+        "behaviours": [
+            {
+                "impact": {
+                    "DT_IMPACT": 20,
+                    "DT_PUNCTURE": 75,
+                    "DT_SLASH": 70,
+                    "DT_CORROSIVE": 120
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/Infested/InfestedLich/LongGuns/CodaSynapse": {
+        "name": "/Lotus/Language/1999Echoes/CodaSynapseName",
+        "parentName": "/Lotus/Weapons/Infested/LongGuns/InfestedRifle",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/CodaSynapse.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            26,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 26,
+        "description": "/Lotus/Language/1999Echoes/CodaSynapseDesc",
+        "criticalChance": 0.4,
+        "criticalMultiplier": 2.7,
+        "procChance": 0.15,
+        "fireRate": 12.000001,
+        "masteryReq": 17,
+        "productCategory": "LongGuns",
+        "holsterCategory": "RIFLE",
+        "slot": 1,
+        "accuracy": 100,
+        "omegaAttenuation": 0.5,
+        "maxLevelCap": 40,
+        "noise": "ALARMING",
+        "trigger": "HELD",
+        "magazineSize": 76,
+        "reloadTime": 1.5,
+        "multishot": 1,
+        "compatibilityTags": [
+            "BEAM",
+            "ASSAULT_AMMO"
+        ],
+        "variantType": "VT_KUVA",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
+                "impact": {}
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/Infested/InfestedLich/LongGuns/CodaSporothrix": {
+        "name": "/Lotus/Language/1999Echoes/CodaSporothrixName",
+        "parentName": "/Lotus/Weapons/Infested/LongGuns/InfSniperRifle/InfSniperRifle",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/CodaSporothrix.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            101.52,
+            116.56,
+            157.91998,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 376,
+        "description": "/Lotus/Language/1999Echoes/CodaSporothrixDesc",
+        "criticalChance": 0.05,
+        "criticalMultiplier": 3,
+        "procChance": 0.55,
+        "fireRate": 1.833333,
+        "masteryReq": 17,
+        "productCategory": "LongGuns",
+        "holsterCategory": "SNIPER",
+        "slot": 1,
+        "accuracy": 100,
+        "omegaAttenuation": 0.5,
+        "maxLevelCap": 40,
+        "noise": "ALARMING",
+        "trigger": "SEMI",
+        "magazineSize": 9,
+        "reloadTime": 2.5,
+        "multishot": 1,
+        "compatibilityTags": [
+            "SNIPER_AMMO",
+            "PROJECTILE",
+            "SEMI_AUTO"
+        ],
+        "variantType": "VT_KUVA",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 101.52,
+                        "DT_PUNCTURE": 116.56,
+                        "DT_SLASH": 157.92
+                    },
+                    "embedDeathAttack": {
+                        "DT_SLASH": 25,
+                        "DT_VIRAL": 23
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 3.33333,
+                    "DT_PUNCTURE": 3.33333,
+                    "DT_SLASH": 3.33334
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/Infested/InfestedLich/LongGuns/CodaHema": {
+        "name": "/Lotus/Language/1999Echoes/CodaHemaName",
+        "parentName": "/Lotus/Weapons/Infested/LongGuns/InfWFAccompanyingPri/InfestedBurstRifle",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/CodaHema.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            52,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 52,
+        "description": "/Lotus/Language/1999Echoes/CodaHemaDesc",
+        "criticalChance": 0.2,
+        "criticalMultiplier": 2.3,
+        "procChance": 0.3,
+        "fireRate": 6.153846,
+        "masteryReq": 17,
+        "productCategory": "LongGuns",
+        "holsterCategory": "RIFLE",
+        "slot": 1,
+        "accuracy": 20,
+        "omegaAttenuation": 0.5,
+        "maxLevelCap": 40,
+        "noise": "ALARMING",
+        "trigger": "BURST",
+        "magazineSize": 72,
+        "reloadTime": 2,
+        "multishot": 1,
+        "premiumPrice": 225,
+        "compatibilityTags": [
+            "ASSAULT_AMMO",
+            "PROJECTILE"
+        ],
+        "variantType": "VT_KUVA",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "projectile": {
+                    "attack": {
+                        "DT_VIRAL": 52
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 7.5,
+                    "DT_PUNCTURE": 7.5,
+                    "DT_SLASH": 15.0
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/Infested/InfestedLich/LongGuns/1999InfShotgun/1999InfShotgunWeapon": {
+        "name": "/Lotus/Language/1999Echoes/1999InfShotgunWeaponName",
+        "parentName": "/Lotus/Weapons/Tenno/Shotgun/LotusStandardShotgun",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/1999InfShotgunWeapon.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            789,
+            19,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 808,
+        "description": "/Lotus/Language/1999Echoes/1999InfShotgunWeaponDesc",
+        "criticalChance": 0.18,
+        "criticalMultiplier": 2.2,
+        "procChance": 0.4,
+        "fireRate": 1.166667,
+        "masteryReq": 17,
+        "productCategory": "LongGuns",
+        "holsterCategory": "SHOTGUN",
+        "slot": 1,
+        "accuracy": 100,
+        "omegaAttenuation": 0.5,
+        "maxLevelCap": 40,
+        "noise": "ALARMING",
+        "trigger": "SEMI",
+        "magazineSize": 24,
+        "reloadTime": 2.5,
+        "multishot": 1,
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_EXPLOSION": 789,
+                        "DT_RADIATION": 19
+                    }
+                },
+                "impact": {}
+            },
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto"
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
+                "Slot": -1
             }
         ]
     },
@@ -27183,9 +28473,6 @@
                     "DT_PUNCTURE": 16.0,
                     "DT_SLASH": 64.0
                 }
-            },
-            {
-                "impact": {}
             }
         ]
     },
@@ -30189,9 +31476,6 @@
                     "DT_PUNCTURE": 9.3,
                     "DT_SLASH": 7.75
                 }
-            },
-            {
-                "impact": {}
             }
         ]
     },
@@ -30252,9 +31536,6 @@
                     "DT_PUNCTURE": 8.7,
                     "DT_SLASH": 7.25
                 }
-            },
-            {
-                "impact": {}
             }
         ]
     },
@@ -30377,9 +31658,6 @@
                     "DT_PUNCTURE": 18.7,
                     "DT_SLASH": 74.8
                 }
-            },
-            {
-                "impact": {}
             }
         ]
     },
@@ -39344,7 +40622,7 @@
         ],
         "totalDamage": 249.99998,
         "description": "/Lotus/Language/Suits/PacifistFistDesc",
-        "criticalChance": 0.5,
+        "criticalChance": 0.35,
         "criticalMultiplier": 2,
         "procChance": 0,
         "fireRate": 1,
@@ -39410,7 +40688,7 @@
         ],
         "totalDamage": 249.99998,
         "description": "/Lotus/Language/Suits/PacifistFistPrimeDesc",
-        "criticalChance": 0.5,
+        "criticalChance": 0.35,
         "criticalMultiplier": 2,
         "procChance": 0,
         "fireRate": 1,
@@ -39443,6 +40721,132 @@
                     "DT_IMPACT": 83.325,
                     "DT_PUNCTURE": 83.33325,
                     "DT_SLASH": 83.34175
+                }
+            }
+        ]
+    },
+    "/Lotus/Powersuits/Ninja/NinjaStormWeapon": {
+        "name": "/Lotus/Language/Suits/NinjaStormWeaponName",
+        "parentName": "/Lotus/Weapons/Tenno/Melee/LotusDagger",
+        "icon": "/Lotus/Interface/Icons/Abilities/NinjaStorm.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            3.33,
+            3.33,
+            3.34,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 10,
+        "description": "/Lotus/Language/Suits/NinjaStormWeaponDesc",
+        "criticalChance": 0.25,
+        "criticalMultiplier": 2,
+        "procChance": 0.25,
+        "fireRate": 1,
+        "masteryReq": 0,
+        "productCategory": "SpecialItems",
+        "holsterCategory": "MELEE",
+        "excludeFromCodex": true,
+        "slot": 7,
+        "omegaAttenuation": 1,
+        "blockingAngle": 90,
+        "comboDuration": 5,
+        "followThrough": 0.5,
+        "slamAttack": 30,
+        "slideAttack": 20,
+        "heavyAttackDamage": 45,
+        "heavySlamAttack": 30,
+        "windUp": 0.4,
+        "compatibilityTags": [
+            "POWER_WEAPON",
+            "POWER_WEAPON_LITE",
+            "NO_SLIDE"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "impact": {
+                    "DT_IMPACT": 3.33,
+                    "DT_PUNCTURE": 3.33,
+                    "DT_SLASH": 3.34
+                }
+            }
+        ]
+    },
+    "/Lotus/Powersuits/Ninja/NinjaStormWeaponPrime": {
+        "name": "/Lotus/Language/Suits/NinjaStormWeaponPrimeName",
+        "parentName": "/Lotus/Powersuits/Ninja/NinjaStormWeapon",
+        "icon": "/Lotus/Interface/Icons/Abilities/NinjaStorm.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            3.33,
+            3.33,
+            3.34,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 10,
+        "description": "/Lotus/Language/Suits/NinjaStormWeaponPrimeDesc",
+        "criticalChance": 0.25,
+        "criticalMultiplier": 2,
+        "procChance": 0.25,
+        "fireRate": 1,
+        "masteryReq": 0,
+        "productCategory": "SpecialItems",
+        "holsterCategory": "MELEE",
+        "excludeFromCodex": true,
+        "slot": 7,
+        "omegaAttenuation": 1,
+        "blockingAngle": 90,
+        "comboDuration": 5,
+        "followThrough": 0.5,
+        "slamAttack": 30,
+        "slideAttack": 20,
+        "heavyAttackDamage": 45,
+        "heavySlamAttack": 30,
+        "windUp": 0.4,
+        "compatibilityTags": [
+            "POWER_WEAPON",
+            "POWER_WEAPON_LITE",
+            "NO_SLIDE"
+        ],
+        "variantType": "VT_PRIME",
+        "behaviours": [
+            {
+                "impact": {
+                    "DT_IMPACT": 3.33,
+                    "DT_PUNCTURE": 3.33,
+                    "DT_SLASH": 3.34
                 }
             }
         ]
@@ -39577,6 +40981,136 @@
             }
         ]
     },
+    "/Lotus/Powersuits/Khora/KhoraWhipclawWeaponPrime": {
+        "name": "/Lotus/Language/Suits/KhoraWhipclawWeaponPrimeName",
+        "parentName": "/Lotus/Powersuits/Khora/KhoraWhipclawWeapon",
+        "icon": "/Lotus/Interface/Icons/Abilities/KhoraCrack.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            3.33,
+            3.33,
+            3.34,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 10,
+        "description": "/Lotus/Language/Suits/KhoraWhipclawWeaponPrimeDesc",
+        "criticalChance": 0.25,
+        "criticalMultiplier": 2,
+        "procChance": 0.25,
+        "fireRate": 1,
+        "masteryReq": 0,
+        "productCategory": "SpecialItems",
+        "holsterCategory": "MELEE",
+        "excludeFromCodex": true,
+        "slot": 7,
+        "omegaAttenuation": 1,
+        "blockingAngle": 90,
+        "comboDuration": 5,
+        "followThrough": 0.5,
+        "slamAttack": 30,
+        "slideAttack": 20,
+        "heavyAttackDamage": 45,
+        "heavySlamAttack": 30,
+        "windUp": 0.4,
+        "compatibilityTags": [
+            "POWER_WEAPON",
+            "POWER_WEAPON_LITE",
+            "NO_FINISHER",
+            "NO_SLIDE",
+            "NO_ATTACK_SPEED"
+        ],
+        "variantType": "VT_PRIME",
+        "behaviours": [
+            {
+                "impact": {
+                    "DT_IMPACT": 3.33,
+                    "DT_PUNCTURE": 3.33,
+                    "DT_SLASH": 3.34
+                }
+            }
+        ]
+    },
+    "/Lotus/Powersuits/Khora/KhoraWhipclawWeapon": {
+        "name": "/Lotus/Language/Suits/KhoraWhipclawWeaponName",
+        "parentName": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
+        "icon": "/Lotus/Interface/Icons/Abilities/KhoraCrack.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            3.33,
+            3.33,
+            3.34,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 10,
+        "description": "/Lotus/Language/Suits/KhoraWhipclawWeaponDesc",
+        "criticalChance": 0.25,
+        "criticalMultiplier": 2,
+        "procChance": 0.25,
+        "fireRate": 1,
+        "masteryReq": 0,
+        "productCategory": "SpecialItems",
+        "holsterCategory": "MELEE",
+        "excludeFromCodex": true,
+        "slot": 7,
+        "omegaAttenuation": 1,
+        "blockingAngle": 90,
+        "comboDuration": 5,
+        "followThrough": 0.5,
+        "slamAttack": 30,
+        "slideAttack": 20,
+        "heavyAttackDamage": 45,
+        "heavySlamAttack": 30,
+        "windUp": 0.4,
+        "compatibilityTags": [
+            "POWER_WEAPON",
+            "POWER_WEAPON_LITE",
+            "NO_FINISHER",
+            "NO_SLIDE",
+            "NO_ATTACK_SPEED"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "impact": {
+                    "DT_IMPACT": 3.33,
+                    "DT_PUNCTURE": 3.33,
+                    "DT_SLASH": 3.34
+                }
+            }
+        ]
+    },
     "/Lotus/Powersuits/IronFrame/BlastWeaponPrime": {
         "name": "/Lotus/Language/Primes/BlastWeaponPrimeName",
         "parentName": "/Lotus/Powersuits/IronFrame/BlastWeaponBase",
@@ -39699,6 +41233,116 @@
                     "DT_SLASH": 3.33334
                 }
             }
+        ]
+    },
+    "/Lotus/Powersuits/Glass/GaraShankWeapon": {
+        "name": "/Lotus/Language/Suits/GaraShankWeaponName",
+        "parentName": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
+        "icon": "/Lotus/Interface/Icons/Abilities/GlassShank.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 0,
+        "description": "/Lotus/Language/Suits/GaraShankWeaponDesc",
+        "criticalChance": 0,
+        "criticalMultiplier": 2,
+        "procChance": 0,
+        "fireRate": 1,
+        "masteryReq": 0,
+        "productCategory": "SpecialItems",
+        "holsterCategory": "MELEE",
+        "excludeFromCodex": true,
+        "slot": 7,
+        "omegaAttenuation": 1,
+        "blockingAngle": 90,
+        "comboDuration": 5,
+        "followThrough": 0.5,
+        "windUp": 0.4,
+        "compatibilityTags": [
+            "POWER_WEAPON",
+            "POWER_WEAPON_LITE",
+            "NO_FINISHER",
+            "NO_SLIDE",
+            "NO_ATTACK_SPEED"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {}
+        ]
+    },
+    "/Lotus/Powersuits/Glass/GaraShankWeaponPrime": {
+        "name": "/Lotus/Language/Suits/GaraShankWeaponPrimeName",
+        "parentName": "/Lotus/Powersuits/Glass/GaraShankWeapon",
+        "icon": "/Lotus/Interface/Icons/Abilities/GlassShank.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 0,
+        "description": "/Lotus/Language/Suits/GaraShankWeaponPrimeDesc",
+        "criticalChance": 0,
+        "criticalMultiplier": 2,
+        "procChance": 0,
+        "fireRate": 1,
+        "masteryReq": 0,
+        "productCategory": "SpecialItems",
+        "holsterCategory": "MELEE",
+        "excludeFromCodex": true,
+        "slot": 7,
+        "omegaAttenuation": 1,
+        "blockingAngle": 90,
+        "comboDuration": 5,
+        "followThrough": 0.5,
+        "windUp": 0.4,
+        "compatibilityTags": [
+            "POWER_WEAPON",
+            "POWER_WEAPON_LITE",
+            "NO_FINISHER",
+            "NO_SLIDE",
+            "NO_ATTACK_SPEED"
+        ],
+        "variantType": "VT_PRIME",
+        "behaviours": [
+            {}
         ]
     },
     "/Lotus/Powersuits/Garuda/GarudaPrimeClaws": {
@@ -39999,7 +41643,7 @@
         "omegaAttenuation": 1,
         "blockingAngle": 90,
         "comboDuration": 5,
-        "followThrough": 0.7,
+        "followThrough": 1,
         "range": 4,
         "slamAttack": 50,
         "slamRadialDamage": 100,
@@ -40008,7 +41652,10 @@
         "heavyAttackDamage": 50,
         "heavySlamAttack": 50,
         "compatibilityTags": [
-            "POWER_WEAPON"
+            "POWER_WEAPON",
+            "NO_SLIDE",
+            "POWER_WEAPON_LITE",
+            "NO_FINISHER"
         ],
         "variantType": "VT_PRIME",
         "behaviours": [
@@ -40122,7 +41769,7 @@
         "omegaAttenuation": 1,
         "blockingAngle": 90,
         "comboDuration": 5,
-        "followThrough": 0.7,
+        "followThrough": 1,
         "range": 4,
         "slamAttack": 50,
         "slamRadialDamage": 100,
@@ -40131,7 +41778,10 @@
         "heavyAttackDamage": 50,
         "heavySlamAttack": 50,
         "compatibilityTags": [
-            "POWER_WEAPON"
+            "POWER_WEAPON",
+            "NO_SLIDE",
+            "POWER_WEAPON_LITE",
+            "NO_FINISHER"
         ],
         "variantType": "VT_NORMAL",
         "behaviours": [
@@ -40397,7 +42047,8 @@
         "reloadTime": 1.75,
         "multishot": 1,
         "compatibilityTags": [
-            "POWER_WEAPON"
+            "POWER_WEAPON",
+            "NO_AIM"
         ],
         "variantType": "VT_PRIME",
         "behaviours": [
@@ -40456,7 +42107,8 @@
         "reloadTime": 1.75,
         "multishot": 1,
         "compatibilityTags": [
-            "POWER_WEAPON"
+            "POWER_WEAPON",
+            "NO_AIM"
         ],
         "variantType": "VT_NORMAL",
         "behaviours": [
@@ -40514,7 +42166,8 @@
         "reloadTime": 2,
         "multishot": 1,
         "compatibilityTags": [
-            "POWER_WEAPON"
+            "POWER_WEAPON",
+            "NO_AIM"
         ],
         "variantType": "VT_NORMAL",
         "behaviours": [
@@ -40526,6 +42179,116 @@
                     "DT_SLASH": 3.33334
                 }
             }
+        ]
+    },
+    "/Lotus/Powersuits/Brawler/AtlasPunchWeapon": {
+        "name": "/Lotus/Language/Suits/AtlasPunchWeaponName",
+        "parentName": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
+        "icon": "/Lotus/Interface/Icons/Abilities/AtlasRockPunch.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 0,
+        "description": "/Lotus/Language/Suits/AtlasPunchWeaponDesc",
+        "criticalChance": 0,
+        "criticalMultiplier": 2,
+        "procChance": 0,
+        "fireRate": 1,
+        "masteryReq": 0,
+        "productCategory": "SpecialItems",
+        "holsterCategory": "MELEE",
+        "excludeFromCodex": true,
+        "slot": 7,
+        "omegaAttenuation": 1,
+        "blockingAngle": 90,
+        "comboDuration": 5,
+        "followThrough": 0.5,
+        "windUp": 0.4,
+        "compatibilityTags": [
+            "POWER_WEAPON",
+            "POWER_WEAPON_LITE",
+            "NO_FINISHER",
+            "NO_SLIDE",
+            "NO_ATTACK_SPEED"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {}
+        ]
+    },
+    "/Lotus/Powersuits/Brawler/AtlasPunchWeaponPrime": {
+        "name": "/Lotus/Language/Suits/AtlasPunchWeaponPrimeName",
+        "parentName": "/Lotus/Powersuits/Brawler/AtlasPunchWeapon",
+        "icon": "/Lotus/Interface/Icons/Abilities/AtlasRockPunch.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 0,
+        "description": "/Lotus/Language/Suits/AtlasPunchWeaponPrimeDesc",
+        "criticalChance": 0,
+        "criticalMultiplier": 2,
+        "procChance": 0,
+        "fireRate": 1,
+        "masteryReq": 0,
+        "productCategory": "SpecialItems",
+        "holsterCategory": "MELEE",
+        "excludeFromCodex": true,
+        "slot": 7,
+        "omegaAttenuation": 1,
+        "blockingAngle": 90,
+        "comboDuration": 5,
+        "followThrough": 0.5,
+        "windUp": 0.4,
+        "compatibilityTags": [
+            "POWER_WEAPON",
+            "POWER_WEAPON_LITE",
+            "NO_FINISHER",
+            "NO_SLIDE",
+            "NO_ATTACK_SPEED"
+        ],
+        "variantType": "VT_PRIME",
+        "behaviours": [
+            {}
         ]
     },
     "/Lotus/Powersuits/Berserker/BerserkerMeleePrime": {

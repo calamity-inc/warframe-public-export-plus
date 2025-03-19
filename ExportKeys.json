@@ -288,7 +288,18 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/Ordis",
+                    "title": "/Lotus/Language/Quests/ArchwingQuestSegmentInboxTitle",
+                    "body": "/Lotus/Language/Quests/ArchwingQuestSegmentInboxBody",
+                    "attachments": [
+                        "/Lotus/Types/Items/ShipFeatureItems/EidolonArchwingFoundryUpgradeFeatureItem"
+                    ],
+                    "countedAttachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Ordis.png",
+                    "highPriority": true
+                }
             }
         ],
         "rewards": [
@@ -1926,7 +1937,15 @@
         "codexSecret": false,
         "chainStages": [
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/FrohdBek",
+                    "title": "/Lotus/Language/G1Quests/KubrowQuestInboxM1Title",
+                    "body": "/Lotus/Language/G1Quests/KubrowQuestInboxM1Desc",
+                    "attachments": [],
+                    "countedAttachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/FrohdBekPortrait_d.png"
+                }
             },
             {
                 "key": "/Lotus/Types/Keys/KubrowQuest/MissionOne",
@@ -5931,6 +5950,42 @@
         "codexSecret": true,
         "rewards": []
     },
+    "/Lotus/Types/Keys/TacAlertKeyAnniversary2025A": {
+        "name": "Anniversary2025A",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyAnniversary2025B": {
+        "name": "Anniversary2025A",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyAnniversary2025C": {
+        "name": "Anniversary2025A",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyAnniversary2025ChallengeModeA": {
+        "name": "Anniversary2025A",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyAnniversary2025ChallengeModeB": {
+        "name": "Anniversary2025A",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TacAlertKeyAnniversary2025D": {
+        "name": "Anniversary2025A",
+        "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
+        "codexSecret": true,
+        "rewards": []
+    },
     "/Lotus/Types/Keys/TacAlertKeyBlackoutBonus": {
         "name": "Blackout",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyBlackoutEasy",
@@ -6948,8 +7003,7 @@
         "codexSecret": true,
         "rewards": []
     },
-    "/Lotus/Types/Keys/TestKeys/PodRaceTestKey": {
-        "name": "Pod Race TEST KEY",
+    "/Lotus/Types/Keys/TestKeys/OlliesCrashCourseTestKey": {
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
         "rewards": []
@@ -7378,6 +7432,30 @@
     "/Lotus/Types/Keys/WolfTacAlertB": {
         "name": "/Lotus/Language/Alerts/WolfAlertB",
         "parentName": "/Lotus/Types/Keys/WolfTacAlertA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WolfTacAlertReduxA": {
+        "name": "/Lotus/Language/Alerts/WolfAlert",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WolfTacAlertReduxB": {
+        "name": "/Lotus/Language/Alerts/WolfAlert",
+        "parentName": "/Lotus/Types/Keys/WolfTacAlertReduxA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WolfTacAlertReduxC": {
+        "name": "/Lotus/Language/Alerts/WolfAlert",
+        "parentName": "/Lotus/Types/Keys/WolfTacAlertReduxA",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/WolfTacAlertReduxD": {
+        "name": "/Lotus/Language/Alerts/WolfAlert",
+        "parentName": "/Lotus/Types/Keys/WolfTacAlertReduxA",
         "codexSecret": true,
         "rewards": []
     },
