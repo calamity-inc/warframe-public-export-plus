@@ -6982,6 +6982,15 @@
         "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
         "productCategory": "MiscItems"
     },
+    "/Lotus/Types/Items/MiscItems/1999FixedStickersPack": {
+        "name": "/Lotus/Language/1999Echoes/1999FreeStickersPackName",
+        "description": "/Lotus/Language/1999Echoes/1999FreeStickersPackDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/1999Wf/StickerPack.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
     "/Lotus/Types/Items/MiscItems/1999FreeStickersPack": {
         "name": "/Lotus/Language/1999Echoes/1999FreeStickersPackName",
         "description": "/Lotus/Language/1999Echoes/1999FreeStickersPackDesc",
@@ -11416,6 +11425,14 @@
         "name": "/Lotus/Language/ShipDecorations/Rank34TrophyName",
         "description": "/Lotus/Language/ShipDecorations/Rank34TrophyDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/MasteryTrophy/Rank34Trophy.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations"
+    },
+    "/Lotus/Types/Items/ShipDecos/MasteryTrophies/Rank35Trophy": {
+        "name": "/Lotus/Language/ShipDecorations/Rank35TrophyName",
+        "description": "/Lotus/Language/ShipDecorations/Rank35TrophyDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/MasteryTrophy/Rank35Trophy.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations"
