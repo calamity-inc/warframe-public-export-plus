@@ -115,6 +115,7 @@ export interface IBoosterPack {
         Rarity: TRarity;
     }[];
     rarityWeightsPerRoll: Record<TRarity, number>[];
+    canGiveDuplicates:    boolean;
 }
 
 export interface IBooster {
