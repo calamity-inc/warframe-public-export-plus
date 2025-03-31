@@ -372,7 +372,10 @@
             }
         ],
         "productCategory": "Suits",
-        "variantType": "VT_NORMAL"
+        "variantType": "VT_NORMAL",
+        "exalted": [
+            "/Lotus/Powersuits/Yareli/BoardSuit"
+        ]
     },
     "/Lotus/Powersuits/Wraith/Wraith": {
         "name": "/Lotus/Language/Suits/WraithName",
@@ -389,6 +392,7 @@
         "sprintSpeed": 0.95,
         "passiveDescription": "/Lotus/Language/Suits/WraithPassiveAbility",
         "exalted": [
+            "/Lotus/Powersuits/Wraith/Reaper",
             "/Lotus/Powersuits/Wraith/ReaperMeleeWeapon"
         ],
         "abilities": [
@@ -439,6 +443,7 @@
         "sprintSpeed": 0.95,
         "passiveDescription": "/Lotus/Language/Suits/WraithPassiveAbility",
         "exalted": [
+            "/Lotus/Powersuits/Wraith/SevagothShadowPrime",
             "/Lotus/Powersuits/Wraith/SevagothShadowPrimeClawsWeapon"
         ],
         "abilities": [
@@ -2980,6 +2985,7 @@
         "passiveDescription": "/Lotus/Language/Suits/KhoraPassiveAbilityDesc",
         "exalted": [
             "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit",
+            "/Lotus/Types/Friendly/Pets/BeastWeapons/VenariPrimePetWeapon",
             "/Lotus/Powersuits/Khora/KhoraWhipclawWeaponPrime"
         ],
         "abilities": [
@@ -3031,6 +3037,7 @@
         "passiveDescription": "/Lotus/Language/Suits/KhoraPassiveAbilityDesc",
         "exalted": [
             "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit",
+            "/Lotus/Types/Friendly/Pets/BeastWeapons/VenariPetWeapon",
             "/Lotus/Powersuits/Khora/KhoraWhipclawWeapon"
         ],
         "abilities": [
@@ -5414,8 +5421,7 @@
         "masteryReq": 0,
         "sprintSpeed": 1,
         "exalted": [
-            "/Lotus/Types/Enemies/Orokin/Entrati/EntratiTech/NechroTech/ExaltedArtilleryWeapon",
-            "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun"
+            "/Lotus/Types/Enemies/Orokin/Entrati/EntratiTech/NechroTech/ExaltedArtilleryWeapon"
         ],
         "abilities": [
             {
@@ -5464,8 +5470,7 @@
         "masteryReq": 0,
         "sprintSpeed": 1.1,
         "exalted": [
-            "/Lotus/Types/Enemies/Orokin/Entrati/EntratiTech/NechroTech/AbilitySword/NechroTechSwordWeapon",
-            "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun"
+            "/Lotus/Types/Enemies/Orokin/Entrati/EntratiTech/NechroTech/AbilitySword/NechroTechSwordWeapon"
         ],
         "abilities": [
             {
