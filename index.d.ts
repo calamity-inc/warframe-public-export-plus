@@ -755,6 +755,7 @@ export interface IPowersuit {
     exalted?:            string[];
     longDescription?:    string;
     variantType:         "VT_NORMAL" | "VT_PRIME" | "VT_VARIANT";
+    additionalItems?:    string[];
 }
 
 export interface IWeapon {
