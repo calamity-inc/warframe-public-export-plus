@@ -723,8 +723,10 @@ export interface IUpgrade {
 
 export interface IVendor {
     isDynamic: boolean;
+    isOneBinPerCycle: boolean;
     items: {
         storeItem: string;
+        bin: number;
         credits?: number;
         platinum?: number;
         itemPrices?: ICountedItem[];
