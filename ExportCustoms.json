@@ -1028,6 +1028,14 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/NovaTachyonHelmet.png",
         "productCategory": "WeaponSkins"
     },
+    "/Lotus/Upgrades/Skins/AntiMatter/WF1999NovaAuxHat": {
+        "name": "/Lotus/Language/Skins/WF1999NovaHatName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Skins/WF1999NovaHatDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Misc/WF1999NovaChest.png",
+        "productCategory": "WeaponSkins"
+    },
     "/Lotus/Upgrades/Skins/AntiMatter/WF1999NovaSkin": {
         "name": "/Lotus/Language/Skins/WF1999NovaSkinName",
         "codexSecret": false,
@@ -7801,7 +7809,6 @@
     "/Lotus/Upgrades/Skins/Effects/DexEphemera": {
         "name": "/Lotus/Language/Ephemera/DexEphemeraName",
         "codexSecret": false,
-        "excludeFromCodex": true,
         "description": "/Lotus/Language/Ephemera/DexEphemeraDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/DexEphemera.png",
         "productCategory": "WeaponSkins"
@@ -24671,12 +24678,23 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/Vaykor.png",
         "productCategory": "WeaponSkins"
     },
+    "/Lotus/Upgrades/Skins/Scarves/TC2025EvolvedScarf": {
+        "name": "/Lotus/Language/Cosmetics/TC2025ScarfEvolvedName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Cosmetics/TC2025ScarfEvolvedDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/TC2025ScarfEvolved.png",
+        "productCategory": "WeaponSkins"
+    },
     "/Lotus/Upgrades/Skins/Scarves/TC2025Scarf": {
         "name": "/Lotus/Language/Cosmetics/TC2025ScarfName",
         "codexSecret": true,
         "description": "/Lotus/Language/Cosmetics/TC2025ScarfDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/TC2025Scarf.png",
-        "productCategory": "WeaponSkins"
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/Scarves/TC2025EvolvedScarf"
+        ]
     },
     "/Lotus/Upgrades/Skins/Scarves/TennoAngleCapeScarf": {
         "name": "/Lotus/Language/Items/TennoAngleCapeScarfName",
@@ -28046,6 +28064,14 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/Sigils/TennoVIP2024SigilDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Sigils/TennoVIP2024.png",
+        "productCategory": "WeaponSkins"
+    },
+    "/Lotus/Upgrades/Skins/Sigils/TennoVIP2025Sigil": {
+        "name": "/Lotus/Language/Sigils/TennoVIP2025SigilName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Sigils/TennoVIP2025SigilDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Sigils/TennoVIP2025.png",
         "productCategory": "WeaponSkins"
     },
     "/Lotus/Upgrades/Skins/Sigils/TeralystSigil": {

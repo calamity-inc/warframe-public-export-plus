@@ -2847,13 +2847,6 @@
         "base": "/Lotus/Types/Items/Emotes/Emote",
         "codexSecret": true
     },
-    "/Lotus/Types/Items/Emotes/ThousandDaysEmote": {
-        "name": "/Lotus/Language/Emotes/ThousandDaysEmoteName",
-        "description": "/Lotus/Language/Emotes/ThousandDaysEmoteDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/Emotes/ThousandDaysEmote.png",
-        "base": "/Lotus/Types/Items/Emotes/Emote",
-        "codexSecret": false
-    },
     "/Lotus/Types/Items/Emotes/WolfRageEmote": {
         "name": "/Lotus/Language/Emotes/WolfRageName",
         "description": "/Lotus/Language/Emotes/WolfRageDesc",
@@ -3084,6 +3077,83 @@
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": false,
         "excludeFromCodex": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Factions/GlyphFactionAmalgam": {
+        "name": "/Lotus/Language/Glyphs/GlyphFactionAmalgamName",
+        "description": "/Lotus/Language/Glyphs/GlyphFactionAmalgamDesc",
+        "icon": "/Lotus/Interface/Icons/Player/FactionAmalgam.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Factions/GlyphFactionCorpus": {
+        "name": "/Lotus/Language/Glyphs/GlyphFactionCorpusName",
+        "description": "/Lotus/Language/Glyphs/GlyphFactionCorpusDesc",
+        "icon": "/Lotus/Interface/Icons/Player/FactionCorpus.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Factions/GlyphFactionDeimos": {
+        "name": "/Lotus/Language/Glyphs/GlyphFactionDeimosName",
+        "description": "/Lotus/Language/Glyphs/GlyphFactionDeimosDesc",
+        "icon": "/Lotus/Interface/Icons/Player/FactionDeimos.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Factions/GlyphFactionEntrati": {
+        "name": "/Lotus/Language/Glyphs/GlyphFactionEntratiName",
+        "description": "/Lotus/Language/Glyphs/GlyphFactionEntratiDesc",
+        "icon": "/Lotus/Interface/Icons/Player/EntratiEye.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Factions/GlyphFactionGrineer": {
+        "name": "/Lotus/Language/Glyphs/GlyphFactionGrineerName",
+        "description": "/Lotus/Language/Glyphs/GlyphFactionGrineerDesc",
+        "icon": "/Lotus/Interface/Icons/Player/FactionGrineer.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Factions/GlyphFactionInfested": {
+        "name": "/Lotus/Language/Glyphs/GlyphFactionInfestedName",
+        "description": "/Lotus/Language/Glyphs/GlyphFactionInfestedDesc",
+        "icon": "/Lotus/Interface/Icons/Player/FactionInfested.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Factions/GlyphFactionKuva": {
+        "name": "/Lotus/Language/Glyphs/GlyphFactionKuvaName",
+        "description": "/Lotus/Language/Glyphs/GlyphFactionKuvaDesc",
+        "icon": "/Lotus/Interface/Icons/Player/FactionKuva.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Factions/GlyphFactionMurmur": {
+        "name": "/Lotus/Language/Glyphs/GlyphFactionMurmurName",
+        "description": "/Lotus/Language/Glyphs/GlyphFactionMurmurDesc",
+        "icon": "/Lotus/Interface/Icons/Player/FactionMurmur.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Factions/GlyphFactionOrokin": {
+        "name": "/Lotus/Language/Glyphs/GlyphFactionOrokinName",
+        "description": "/Lotus/Language/Glyphs/GlyphFactionOrokinDesc",
+        "icon": "/Lotus/Interface/Icons/Player/FactionOrokin.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Factions/GlyphFactionScaldra": {
+        "name": "/Lotus/Language/Glyphs/GlyphFactionScaldraName",
+        "description": "/Lotus/Language/Glyphs/GlyphFactionScaldraDesc",
+        "icon": "/Lotus/Interface/Icons/Player/FactionScaldra.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Factions/GlyphFactionTechrot": {
+        "name": "/Lotus/Language/Glyphs/GlyphFactionTechrotName",
+        "description": "/Lotus/Language/Glyphs/GlyphFactionTechrotDesc",
+        "icon": "/Lotus/Interface/Icons/Player/FactionTechrot.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
     },
     "/Lotus/Types/StoreItems/AvatarImages/FanChannel/AvatarImage13angTV": {
         "name": "/Lotus/Language/Glyphs/13angTVGlyphName",
@@ -9430,6 +9500,13 @@
         "name": "/Lotus/Language/Glyphs/TennoVIPGlyphName",
         "description": "/Lotus/Language/Glyphs/TennoVIPGlyphDesc",
         "icon": "/Lotus/Interface/Icons/Player/TennoVIP2024.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageTennoVIP2Glyph": {
+        "name": "/Lotus/Language/Glyphs/TennoVIPGlyph2Name",
+        "description": "/Lotus/Language/Glyphs/TennoVIPGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/TennoVIP2025.png",
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true
     },

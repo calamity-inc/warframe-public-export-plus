@@ -18840,10 +18840,10 @@
         "isFrivolous": true
     },
     "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponRecoilReductionModExpert": {
-        "name": "/Lotus/Language/Items/PistolModRecoilReduction",
+        "name": "/Lotus/Language/Items/PrimedPistolModRecoilReduction",
         "icon": "/Lotus/Interface/Cards/Images/Pistol/PistolRecoilReductionMod.png",
         "polarity": "AP_TACTIC",
-        "rarity": "RARE",
+        "rarity": "LEGENDARY",
         "codexSecret": true,
         "baseDrain": 6,
         "fusionLimit": 10,
@@ -29881,11 +29881,11 @@
         "isFrivolous": true
     },
     "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponRecoilReductionModExpert": {
-        "name": "/Lotus/Language/Items/RifleModRecoilReduction",
+        "name": "/Lotus/Language/Items/PrimedRifleModRecoilReduction",
         "icon": "/Lotus/Interface/Cards/Images/Rifle/RifleRecoilReductionMod.png",
         "polarity": "AP_TACTIC",
-        "rarity": "RARE",
-        "codexSecret": false,
+        "rarity": "LEGENDARY",
+        "codexSecret": true,
         "baseDrain": 6,
         "fusionLimit": 10,
         "isUtility": true,
@@ -30499,6 +30499,20 @@
         "type": "PRIMARY",
         "canBeTransmutation": false,
         "isFrivolous": true
+    },
+    "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponRecoilReductionModExpert": {
+        "name": "/Lotus/Language/Mods/PrimedWeaponRecoilShotgunMod",
+        "icon": "/Lotus/Interface/Cards/Images/Shotgun/WeaponRecoilShotgunMod.png",
+        "polarity": "AP_TACTIC",
+        "rarity": "LEGENDARY",
+        "codexSecret": true,
+        "baseDrain": 6,
+        "fusionLimit": 10,
+        "isUtility": true,
+        "compat": "/Lotus/Weapons/Tenno/Shotgun/LotusShotgun",
+        "compatName": "Shotgun",
+        "type": "PRIMARY",
+        "canBeTransmutation": false
     },
     "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponSlashDamageModExpert": {
         "name": "/Lotus/Language/Items/SlashDamageShotgunMod",
