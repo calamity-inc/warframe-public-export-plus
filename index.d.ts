@@ -511,6 +511,7 @@ export interface IRegion {
     maxEnemyLevel:          number;
     masteryExp:             number;
     missionReward?:         IMissionReward;
+    miscItemFee?:           ICountedItem;
     rewardManifests:        string[];
     cacheRewardManifest?:   string;
     darkSectorData?:        {
