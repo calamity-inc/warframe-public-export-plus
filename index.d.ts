@@ -546,6 +546,7 @@ export interface IResource {
     showInInventory?:   boolean;
     longDescription?:   string;
     primeSellingPrice?: number;
+    deco?:              string; // for ShipDecorations & FusionTreasures
     sockets?:           string[]; // for FusionTreasures
     syndicateTag?:      string; // for fish
     standingBonus?:     number; // for fish
