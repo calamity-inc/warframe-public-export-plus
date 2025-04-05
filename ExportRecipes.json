@@ -45115,6 +45115,31 @@
             }
         ]
     },
+    "/Lotus/Types/Recipes/Railjack/RailjackCephalonBlueprint": {
+        "resultType": "/Lotus/Types/Items/ShipFeatureItems/RailjackCephalonShipFeatureItem",
+        "buildPrice": 0,
+        "buildTime": 10,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": false,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/Research/BioFragment",
+                "ItemCount": 15
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/Research/ChemFragment",
+                "ItemCount": 15
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/Research/EnergyFragment",
+                "ItemCount": 15
+            }
+        ]
+    },
     "/Lotus/Types/Friendly/Pets/CreaturePets/LotusGildCreaturePetBlueprint": {
         "resultType": "/Lotus/Types/Friendly/Pets/CreaturePets/VizierPredatorKubrowPetPowerSuit",
         "buildPrice": 4000,
