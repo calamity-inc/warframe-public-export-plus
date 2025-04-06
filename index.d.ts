@@ -371,6 +371,7 @@ export interface IMissionReward {
     items?: string[];
     countedItems?: ICountedItem[];
     countedStoreItems?: ICountedStoreItem[];
+    droptable?: string;
 }
 
 export type TReward = {

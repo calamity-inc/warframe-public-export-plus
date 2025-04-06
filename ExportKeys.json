@@ -313,6 +313,9 @@
         "name": "/Lotus/Language/G1Quests/AWQMissionObjA",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/ArchwingQuest/MissionTwo": {
@@ -1980,6 +1983,9 @@
         "name": "/Lotus/Language/G1Quests/KubrowQuest1",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalGeneticFoundryRewards"
+        },
         "rewards": [
             {
                 "rewardType": "RT_STORE_ITEM",
@@ -2546,6 +2552,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/NewWarQuest/TNWActThreeTableForTwo": {
@@ -2553,6 +2562,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/NewWarQuest/TNWActThreeBeanstalks": {
@@ -2567,6 +2579,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/NewWarQuest/TNWActThreeHotMess": {
@@ -2574,6 +2589,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/NewWarQuest/TNWActThreeToErraIsHuman": {
@@ -2581,6 +2599,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/NewWarQuest/TNWActThreeAlmostSevenSamurai": {
@@ -2588,6 +2609,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/NewWarQuest/TNWActThreeEpilogue": {
@@ -2595,6 +2619,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyChain": {
@@ -2969,6 +2996,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/ProteaSpyMissionRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/ProteaQuest/ProteaQuestMissionFive": {
@@ -4520,6 +4550,9 @@
         "name": "/Lotus/Language/ZarimanQuest/ZQHubThreeObjProtectDrive",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalLowLevelRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/DojoKey": {
@@ -4572,6 +4605,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/BossMissionRewards/HydroidRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/BardQuest/BardQuestBossFightKey": {
@@ -4645,48 +4681,72 @@
         "name": "DISRUPTION FORTRESS TEST KEY",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/DisruptionGalleonInfestedTestKey": {
         "name": "DISRUPTION GALLEON INFESTED TEST KEY",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/DisruptionGalleonTestKey": {
         "name": "DISRUPTION GALLEON TEST KEY",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/DisruptionMoonTestKey": {
         "name": "DISRUPTION MOON TEST KEY",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/DisruptionSettlementTestKey": {
         "name": "DISRUPTION SETTLEMENT TEST KEY",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/DisruptionSortieTestKey": {
         "name": "DISRUPTION SORTIE TEST KEY",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/DisruptionSyndicateTestKey": {
         "name": "DISRUPTION SYNDICATE TEST KEY",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/DisruptionVoidTearTestKey": {
         "name": "DISRUPTION FISSURE TEST KEY",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/DojoCustomObstacleCourseKey": {
@@ -4719,12 +4779,18 @@
         "name": "/Lotus/Language/Duviri/ThePrison",
         "parentName": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestBaseKey",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/EventMissionRewards/KullervoEventRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/DuviriQuest/DuviriKullervoEventKeyHard": {
         "name": "/Lotus/Language/Duviri/ThePrison",
         "parentName": "/Lotus/Types/Keys/DuviriQuest/DuviriKullervoEventKey",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/DuviriEncounterRewards/DuviriKullervoSteelPathRNGRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/DuviriQuest/DuviriQuestBaseKey": {
@@ -4744,12 +4810,18 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/EntratiLab/EntratiExterminateTestKey": {
         "name": "Exterminate Test Key",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/EntratiExterminateRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/EntratiLab/EntratiQuestBaseKey": {
@@ -4769,6 +4841,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/EntratiSurvivalRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/EntratiLab/EntratiSwarmOctopedeATestKey": {
@@ -4776,6 +4851,9 @@
         "parentName": "/Lotus/Types/Keys/EntratiLab/EntratiSwarmTestKey",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/SwarmAssassinationRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/EntratiLab/EntratiSwarmOctopedeBTestKey": {
@@ -4783,6 +4861,9 @@
         "parentName": "/Lotus/Types/Keys/EntratiLab/EntratiSwarmTestKey",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/SwarmAssassinationRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/EntratiLab/EntratiSwarmOctopedeCTestKey": {
@@ -4790,6 +4871,9 @@
         "parentName": "/Lotus/Types/Keys/EntratiLab/EntratiSwarmTestKey",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/SwarmAssassinationRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/EntratiLab/EntratiSwarmTestKey": {
@@ -4797,30 +4881,45 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/SwarmAssassinationRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/EventKeyOrokinDerelictSabotageForest": {
         "name": "Test Derelict Sabotage Forest",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/OrokinSabotageEventRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/EventKeyOrokinDerelictSabotageSettlement": {
         "name": "Test Derelict Sabotage Settlement",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/OrokinSabotageEventRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/EventKeyOrokinDerelictSabotageSettlementChallenge": {
         "name": "Test Derelict Sabotage Settlement",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/OrokinSabotageEventRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/EventKeyOrokinDerelictSabotageShipyards": {
         "name": "Test Derelict Sabotage Shipyards",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/OrokinSabotageEventRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/ForestHaloweenCacheExterminate": {
@@ -4846,7 +4945,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 10000
+            "credits": 10000,
+            "droptable": "/Lotus/Types/Game/MissionDecks/ClemCloneRewards"
         },
         "rewards": []
     },
@@ -4855,7 +4955,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 10000
+            "credits": 10000,
+            "droptable": "/Lotus/Types/Game/MissionDecks/ClemCloneRewards"
         },
         "rewards": []
     },
@@ -4864,7 +4965,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 10000
+            "credits": 10000,
+            "droptable": "/Lotus/Types/Game/MissionDecks/ClemCloneRewards"
         },
         "rewards": []
     },
@@ -4872,12 +4974,18 @@
         "name": "/Lotus/Language/G1Quests/GetClemWeeklyObjective",
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ClemCloneRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/GetClemQuest/GetClemWeeklyMissionKeyE": {
         "name": "/Lotus/Language/G1Quests/GetClemWeeklyObjective",
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ClemCloneRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/GlassQuest/GlassQuestPlainsKey": {
@@ -4944,6 +5052,9 @@
         "name": "ProjectMutalistBonus",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/AscensionMissionRewards/AscensionRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/KahlMissions/KahlCrewshipEarthKey": {
@@ -4951,6 +5062,9 @@
         "description": "/Lotus/Language/KahlQuest/Mission_Earth_Name",
         "parentName": "/Lotus/Types/Keys/KahlMissions/KahlMissionKeyBase",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/KahlMissions/KahlGrineerForestThumperKey": {
@@ -5045,6 +5159,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/MechSurvivalCorpusShip": {
@@ -5053,6 +5170,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/EventMissionRewards/MechSurvivalRewardsTierA"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/MechSurvivalCorpusShipEndurance": {
@@ -5061,6 +5181,9 @@
         "parentName": "/Lotus/Types/Keys/MechSurvivalCorpusShip",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/EventMissionRewards/MechSurvivalRewardsTierC"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/MechSurvivalGasCity": {
@@ -5069,6 +5192,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/EventMissionRewards/MechSurvivalRewardsTierC"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/MechSurvivalGrineerGalleon": {
@@ -5077,6 +5203,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/EventMissionRewards/MechSurvivalRewardsTierB"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/MechSurvivalGrineerGalleonEndurance": {
@@ -5085,6 +5214,9 @@
         "parentName": "/Lotus/Types/Keys/MechSurvivalGrineerGalleon",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/EventMissionRewards/MechSurvivalRewardsTierC"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/MechSurvivalMissionTest": {
@@ -5093,12 +5225,18 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/EventMissionRewards/MechSurvivalRewardsTierA"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieKeyAmarAssassinate": {
         "name": "[HC] Amar Assassinate",
         "parentName": "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieTestKeyAmarBase",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/NarmerSortieAmarCrystalRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/NarmerSorties/Amar/NarmerSortieKeyAmarCapture": {
@@ -5171,6 +5309,9 @@
         "name": "[HC] Boreal Assassinate",
         "parentName": "/Lotus/Types/Keys/NarmerSorties/Boreal/NarmerSortieTestKeyBorealBase",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/NarmerSortieBorealCrystalRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/NarmerSorties/Boreal/NarmerSortieKeyBorealCapture": {
@@ -5237,6 +5378,9 @@
         "name": "[HC] Nira Assassinate",
         "parentName": "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieTestKeyNiraBase",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/NarmerSortieNiraCrystalRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/NarmerSorties/Nira/NarmerSortieKeyNiraCapture": {
@@ -5309,6 +5453,9 @@
         "name": "New Player Experience Test",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/NewWarQuest/PostWarCetus": {
@@ -5337,6 +5484,9 @@
         "description": "/Lotus/Language/NewWar/NewWarP2ArchonDesc",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/TheNewWar/ArchonRewardsAmar"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/NewWarQuest/TNWActTwoArchonBoreal": {
@@ -5344,6 +5494,9 @@
         "description": "/Lotus/Language/NewWar/NewWarP2ArchonDesc",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/TheNewWar/ArchonRewardsBoreal"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/NewWarQuest/TNWActTwoArchonNira": {
@@ -5351,6 +5504,9 @@
         "description": "/Lotus/Language/NewWar/NewWarP2ArchonDesc",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/TheNewWar/ArchonRewardsNira"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/NewWarQuest/TNWActTwoZarimanLockdown": {
@@ -5358,6 +5514,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/NewWarQuest/TNWTeshinTennoCon": {
@@ -5377,6 +5536,9 @@
         "description": "/Lotus/Language/Locations/GlassmakerBossFightDesc",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/GlassMakerBossFight"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/OrokinCaptureKeyA": {
@@ -5385,7 +5547,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 7500
+            "credits": 7500,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinCaptureRewardsA"
         },
         "rewards": []
     },
@@ -5395,7 +5558,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 11000
+            "credits": 11000,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinCaptureRewardsB"
         },
         "rewards": []
     },
@@ -5405,7 +5569,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 17500
+            "credits": 17500,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinCaptureRewardsC"
         },
         "rewards": []
     },
@@ -5415,7 +5580,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 7500
+            "credits": 7500,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinDefenseRewardsA"
         },
         "rewards": []
     },
@@ -5425,7 +5591,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 15000
+            "credits": 15000,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinDefenseRewardsB"
         },
         "rewards": []
     },
@@ -5435,7 +5602,8 @@
         "parentName": "/Lotus/Types/Keys/OrokinDefenseKeyB",
         "codexSecret": true,
         "missionReward": {
-            "credits": 17500
+            "credits": 17500,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinDefenseRewardsC"
         },
         "rewards": []
     },
@@ -5445,7 +5613,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 7500
+            "credits": 7500,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinExterminateRewardsA"
         },
         "rewards": []
     },
@@ -5455,7 +5624,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 7500
+            "credits": 7500,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinSurvivalRewardsA"
         },
         "rewards": []
     },
@@ -5465,7 +5635,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 11000
+            "credits": 11000,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinExterminateRewardsB"
         },
         "rewards": []
     },
@@ -5475,7 +5646,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 11000
+            "credits": 11000,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinSurvivalRewardsB"
         },
         "rewards": []
     },
@@ -5485,7 +5657,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 17500
+            "credits": 17500,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinExterminateRewardsC"
         },
         "rewards": []
     },
@@ -5495,7 +5668,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 7500
+            "credits": 7500,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinMobileDefenseRewardsA"
         },
         "rewards": []
     },
@@ -5505,7 +5679,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 11000
+            "credits": 11000,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinMobileDefenseRewardsB"
         },
         "rewards": []
     },
@@ -5515,7 +5690,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 17500
+            "credits": 17500,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinMobileDefenseRewardsC"
         },
         "rewards": []
     },
@@ -5525,7 +5701,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 17500
+            "credits": 17500,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinCaptureRewardsD"
         },
         "rewards": []
     },
@@ -5535,7 +5712,8 @@
         "parentName": "/Lotus/Types/Keys/OrokinDefenseKeyB",
         "codexSecret": true,
         "missionReward": {
-            "credits": 17500
+            "credits": 17500,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinDefenseRewardsD"
         },
         "rewards": []
     },
@@ -5545,7 +5723,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 17500
+            "credits": 17500,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinExterminateRewardsD"
         },
         "rewards": []
     },
@@ -5555,7 +5734,8 @@
         "parentName": "/Lotus/Types/Keys/OrokinDefenseKeyB",
         "codexSecret": true,
         "missionReward": {
-            "credits": 17500
+            "credits": 17500,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinCaptureRewardsA"
         },
         "rewards": []
     },
@@ -5565,7 +5745,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 17500
+            "credits": 17500,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinMobileDefenseRewardsD"
         },
         "rewards": []
     },
@@ -5575,7 +5756,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 7500
+            "credits": 7500,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinSabotageRewardsA"
         },
         "rewards": []
     },
@@ -5585,7 +5767,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 11000
+            "credits": 11000,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinSabotageRewardsB"
         },
         "rewards": []
     },
@@ -5595,7 +5778,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 17500
+            "credits": 17500,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinSabotageRewardsC"
         },
         "rewards": []
     },
@@ -5605,7 +5789,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 17500
+            "credits": 17500,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinSabotageRewardsD"
         },
         "rewards": []
     },
@@ -5615,7 +5800,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 17500
+            "credits": 17500,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinSurvivalRewardsD"
         },
         "rewards": []
     },
@@ -5625,7 +5811,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 17500
+            "credits": 17500,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinSurvivalRewardsC"
         },
         "rewards": []
     },
@@ -5633,36 +5820,54 @@
         "name": "/Lotus/Language/Items/ProjectSinisterBonusKey",
         "parentName": "/Lotus/Types/Keys/ProjectSinisterFinalKey",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ProjectSinisterRewardsBonus"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/ProjectSinisterFinalKey": {
         "name": "/Lotus/Language/Items/ProjectSinisterFinalKey",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ProjectSinisterRewardsFinal"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/ProjectSinisterIntroKeyA": {
         "name": "/Lotus/Language/Items/ProjectSinisterIntroKeyA",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ProjectSinisterRewardsBasic"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/ProjectSinisterIntroKeyB": {
         "name": "/Lotus/Language/Items/ProjectSinisterIntroKeyB",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ProjectSinisterRewardsBasic"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/ProjectSinisterIntroKeyC": {
         "name": "/Lotus/Language/Items/ProjectSinisterIntroKeyA",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ProjectSinisterRewardsBasic"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/ProjectSinisterIntroKeyD": {
         "name": "/Lotus/Language/Items/ProjectSinisterIntroKeyD",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ProjectSinisterRewardsBasic"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/QuestKeyA": {
@@ -5671,7 +5876,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 7500
+            "credits": 7500,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinExterminateRewardsA"
         },
         "rewards": []
     },
@@ -5681,7 +5887,8 @@
         "parentName": "/Lotus/Types/Keys/QuestKeyA",
         "codexSecret": true,
         "missionReward": {
-            "credits": 7500
+            "credits": 7500,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinSurvivalRewardsA"
         },
         "rewards": []
     },
@@ -5691,7 +5898,8 @@
         "parentName": "/Lotus/Types/Keys/QuestKeyA",
         "codexSecret": true,
         "missionReward": {
-            "credits": 11000
+            "credits": 11000,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinExterminateRewardsB"
         },
         "rewards": []
     },
@@ -5720,7 +5928,8 @@
         "parentName": "/Lotus/Types/Keys/RaidKeys/BaseRaidKey",
         "codexSecret": true,
         "missionReward": {
-            "credits": 200000
+            "credits": 200000,
+            "droptable": "/Lotus/Types/Game/MissionDecks/RaidRewards/HekRaid"
         },
         "rewards": []
     },
@@ -5730,7 +5939,8 @@
         "parentName": "/Lotus/Types/Keys/RaidKeys/Raid01Stage03KeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 250000
+            "credits": 250000,
+            "droptable": "/Lotus/Types/Game/MissionDecks/RaidRewards/NightmareHekRaid"
         },
         "rewards": []
     },
@@ -5840,6 +6050,9 @@
         "name": "DEFENSE TEST KEY",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/SortieBossKeyLephantis": {
@@ -5848,7 +6061,8 @@
         "parentName": "/Lotus/Types/Game/KeyItems/DerelictKeyItem",
         "codexSecret": true,
         "missionReward": {
-            "credits": 7500
+            "credits": 7500,
+            "droptable": "/Lotus/Types/Game/MissionDecks/GolemMissionRewards"
         },
         "rewards": []
     },
@@ -5870,6 +6084,9 @@
         "description": "/Lotus/Language/GameModes/CacheHuntKeyItemDesc",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": false,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/DagathMissionRewards/DagathNormalRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyAnniversary2017A": {
@@ -5900,6 +6117,9 @@
         "name": "ProjectMutalistBonus",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsMedium"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyAnniversary2020F": {
@@ -5936,18 +6156,27 @@
         "name": "Anniversary2023A",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ProjectPanaceaBonusRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyAnniversary2024ChallengeModeA": {
         "name": "Anniversary2024A",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ProjectPanaceaBonusRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyAnniversary2024ChallengeModeB": {
         "name": "Anniversary2024A",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ProjectPanaceaBonusRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyAnniversary2024L": {
@@ -5978,12 +6207,18 @@
         "name": "Anniversary2025A",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ProjectPanaceaBonusRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyAnniversary2025ChallengeModeB": {
         "name": "Anniversary2025A",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ProjectPanaceaBonusRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyAnniversary2025D": {
@@ -5996,6 +6231,9 @@
         "name": "Blackout",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyBlackoutEasy",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/FusionCoreRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyBlackoutEasy": {
@@ -6020,41 +6258,62 @@
         "name": "/Lotus/Language/G1Quests/TacAlertHalloweenTitle",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyHalloween",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/HalloweenExtermEventRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyHalloweenTimeAttack": {
         "name": "/Lotus/Language/G1Quests/TacAlertHalloweenTitle",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyHalloweenBonus",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/HalloweenExtermEventRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyIcePlanetCaptureBonus": {
         "name": "Ice Planet Tac Alert Easy",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyIcePlanetCaptureEasy",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyIcePlanetCaptureEasy": {
         "name": "Ice Planet Tac Alert Easy",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyIcePlanetCaptureHard": {
         "name": "Ice Planet Tac Alert Easy",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyIcePlanetCaptureEasy",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyIcePlanetCaptureMed": {
         "name": "Ice Planet Tac Alert Easy",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyIcePlanetCaptureEasy",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyMacheteMayhemBonus": {
         "parentName": "/Lotus/Types/Keys/TacAlertKeyMacheteMayhemTwo",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MacheteMayhemBonusRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyMacheteMayhemOne": {
@@ -6077,6 +6336,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyMutalistExecutionBonus": {
@@ -6084,6 +6346,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyMutalistExecutionHard": {
@@ -6091,18 +6356,27 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyProjectFriendlyFire": {
         "name": "ProjectMutalistBonus",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ProjectFriendlyFireRewardsBasic"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyProjectFriendlyFireBonus": {
         "name": "ProjectMutalistBonus",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectFriendlyFire",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ProjectFriendlyFireRewardsBonus"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyProjectMutalistBonus": {
@@ -6110,6 +6384,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/NightmareModeRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyProjectMutalistEasy": {
@@ -6117,6 +6394,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsCorpus"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyProjectMutalistHard": {
@@ -6124,6 +6404,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsCorpus"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyProjectMutalistMedium": {
@@ -6131,6 +6414,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsCorpus"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyProjectNightwatch": {
@@ -6149,6 +6435,9 @@
         "name": "ProjectMutalistBonus",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ProjectNightwatchBonusRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyProjectNightwatchBEasy": {
@@ -6167,6 +6456,9 @@
         "name": "ProjectMutalistBonus",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ProjectNightwatchBonusRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyProjectNightwatchEasy": {
@@ -6185,30 +6477,45 @@
         "name": "ProjectMutalistBonus",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsMedium"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus": {
         "name": "ProjectMutalistBonus",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ProjectPanaceaBonusRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyProjectUndermine": {
         "name": "UndermineTacAlert",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ProjectUndermineRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyProjectUndermineBonus": {
         "name": "UndermineTacAlertBonus",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectUndermine",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ProjectUndermineBonusRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyProjectUndermineHard": {
         "name": "UndermineTacAlert",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectUndermine",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ProjectUndermineRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TacAlertKeyProxyRebellionFour": {
@@ -6312,6 +6619,9 @@
         "name": "TenYearBonus",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ProjectPanaceaBonusRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TenYearAnniversary/TacAlertKeyTenYearAnniversaryM1A": {
@@ -6330,6 +6640,9 @@
         "name": "TenYearM1C",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/TenYearAnniversaryA"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TenYearAnniversary/TacAlertKeyTenYearAnniversaryM2A": {
@@ -6348,6 +6661,9 @@
         "name": "TenYearM2C",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/TenYearAnniversaryB"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TenYearAnniversary/TacAlertKeyTenYearAnniversaryM3A": {
@@ -6366,6 +6682,9 @@
         "name": "TenYearM3C",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/TenYearAnniversaryE"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TenYearAnniversary/TacAlertKeyTenYearAnniversaryM4A": {
@@ -6384,6 +6703,9 @@
         "name": "TenYearM4C",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/TenYearAnniversaryC"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TenYearAnniversary/TacAlertKeyTenYearAnniversaryM5A": {
@@ -6402,12 +6724,18 @@
         "name": "TenYearM5C",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/TenYearAnniversaryD"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyA": {
         "name": "DEFENSE TEST KEY",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyAmbulas": {
@@ -6432,24 +6760,36 @@
         "name": "GET CLEM RESCUE",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyClemSabotage": {
         "name": "GET CLEM SABOTAGE",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyClemSurvival": {
         "name": "GET CLEM SURVIVAL",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyCorpusArena": {
         "name": "Corpus Arena",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyCorpusArenaEndless": {
@@ -6462,6 +6802,9 @@
         "name": "ICE EXCAVATION",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionLowLevelRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyCorpusOutpostRescueMed": {
@@ -6481,6 +6824,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/EventMissionRewards/ScarletSpearRailjackRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyCTFCephalonSpire": {
@@ -6583,18 +6929,27 @@
         "description": "/Lotus/Language/ItemDescription/GolemAssassinateKeyDesc",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/BossMissionRewards/AtlasRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyFomorianAssault": {
         "name": "FOMORIAN ASSAULT",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionLowLevelRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyForestBoss": {
         "name": "Vay Hek Assassinate",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/BossMissionRewards/HydroidRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyForestCapture": {
@@ -6607,6 +6962,9 @@
         "name": "Forest Defense",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsGrineer"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyForestEvent": {
@@ -6639,18 +6997,27 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/EventMissionRewards/ScarletSpearCondrixRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyForestSurvival": {
         "name": "Forest Survival",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalMidLevelRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyForestTerritories": {
         "name": "Forest Territories",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsEasy"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyGasCapture": {
@@ -6669,6 +7036,9 @@
         "name": "GAS ENDLESS DEFENSE TEST",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsCorpus"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyGasExterminate": {
@@ -6705,48 +7075,72 @@
         "name": "GAS CAPTURE TEST",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalMidLevelRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyGrineerCoreSabotage": {
         "name": "GET CLEM SURVIVAL",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyGrineerGalleonBoss": {
         "name": "Grineer Galleon Boss TEST",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/BossMissionRewards/EmberRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyGrineerSpaceExtermination": {
         "name": "SPACE GRN EXTERMINATE",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionLowLevelRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyGrineerSpaceInterception": {
         "name": "SPACE GRN INTERCEPTION",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionLowLevelRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyGrineerSpacePursuit": {
         "name": "SPACE GRN PURSUIT",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionLowLevelRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyGrineerSpaceSabotage": {
         "name": "SPACE GRN SABOTAGE",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionLowLevelRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyGrineerToCorpusInvasionIntel": {
         "name": "INTEL V2 TEST KEY",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyGrineerToCorpusTorpedo": {
@@ -6759,12 +7153,18 @@
         "name": "FOREST EXCAVATION",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionLowLevelRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyGrnSettlementExcavation": {
         "name": "SETTLEMENT EXCAVATION",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionLowLevelRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyHyenaPack": {
@@ -6777,12 +7177,18 @@
         "name": "GAS ENDLESS DEFENSE TEST",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsCorpus"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyIceHijack": {
         "name": "GAS ENDLESS DEFENSE TEST",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsCorpus"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyInfestedCorpusHive": {
@@ -6795,18 +7201,27 @@
         "name": "FOREST EXCAVATION INFESTED",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionLowLevelRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyIntel": {
         "name": "INTEL V2 TEST KEY",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyIntelOutpost": {
         "name": "INTEL V2 TEST KEY",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyInvasionGalleonToShipRescue": {
@@ -6843,6 +7258,9 @@
         "name": "Forest Defense",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsGrineer"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyLotusCtf": {
@@ -6867,60 +7285,90 @@
         "name": "MOON SURVIVAL",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalMidLevelRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyOrokinDerelictSabotageForest": {
         "name": "Test Derelict Sabotage Forest",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinSurvivalRewardsA"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyOrokinDerelictSabotageIcePlanet": {
         "name": "Test Derelict Sabotage Ice Planet",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinSurvivalRewardsA"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyOrokinDerelictSabotageOutpost": {
         "name": "Test Derelict Sabotage Outpost",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinSurvivalRewardsA"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyOrokinDerelictSabotageSettlement": {
         "name": "Test Derelict Sabotage Settlement",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinSurvivalRewardsA"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyOrokinDerelictSabotageShipyards": {
         "name": "Test Derelict Sabotage Shipyards",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinSurvivalRewardsA"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyOrokinSabotageForest": {
         "name": "Test Orokin Sabotage Forest",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinSurvivalRewardsA"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyOrokinSabotageIcePlanet": {
         "name": "Test Orokin Sabotage Ice Planet",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinSurvivalRewardsA"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyOrokinSabotageOutpost": {
         "name": "Test Orokin Sabotage Outpost",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinSurvivalRewardsA"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyOrokinSabotageSettlement": {
         "name": "Test Orokin Sabotage Settlement",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinSurvivalRewardsA"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyOutpostHijack": {
@@ -6934,6 +7382,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyRailjackSentientExterminate",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/DeepSpaceSentientRailjackRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyRailjackSentientExterminate": {
@@ -6941,6 +7392,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/DeepSpaceSentientRailjackRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyRailjackSentientExterminateDevourerSegment2PoiProc": {
@@ -6948,6 +7402,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyRailjackSentientExterminate",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/DeepSpaceSentientRailjackRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyRailjackSentientExterminatePoi1GalleonProc": {
@@ -6955,6 +7412,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyRailjackSentientExterminate",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/DeepSpaceSentientRailjackRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyRailjackSentientExterminatePoi1Hangar": {
@@ -6962,6 +7422,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyRailjackSentientExterminate",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/DeepSpaceSentientRailjackRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyRailjackSentientExterminatePoi1Missile": {
@@ -6969,6 +7432,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyRailjackSentientExterminate",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/DeepSpaceSentientRailjackRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyRailjackSentientExterminatePoi1Oro": {
@@ -6976,6 +7442,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyRailjackSentientExterminate",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/DeepSpaceSentientRailjackRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyRailjackSentientExterminatePoi1Radar": {
@@ -6983,6 +7452,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyRailjackSentientExterminate",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/DeepSpaceSentientRailjackRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyRailjackSentientExterminatePoi1SuperWep": {
@@ -6990,6 +7462,9 @@
         "parentName": "/Lotus/Types/Keys/TestKeyRailjackSentientExterminate",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/DeepSpaceSentientRailjackRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyRaptor": {
@@ -7073,12 +7548,18 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeys/TestKeyDuviriEndless": {
         "name": "[HC] Duviri Endless Test",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalLowLevelRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeySentientDevourerKahlTennoStart": {
@@ -7092,12 +7573,18 @@
         "name": "Portal Exterminate Test",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeySettlementToDerelictRaid": {
         "name": "Portal Raid Test",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyShipyardsDefense": {
@@ -7120,7 +7607,8 @@
             "items": [
                 "/Lotus/StoreItems/Types/Items/MiscItems/DataFragment",
                 "/Lotus/StoreItems/Types/Items/MiscItems/DataFragment"
-            ]
+            ],
+            "droptable": "/Lotus/Types/Game/MissionDecks/InterceptRewardsGrineer"
         },
         "rewards": []
     },
@@ -7218,24 +7706,36 @@
         "name": "ARCHWING DEFENSE TEST",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TRExterminateTestKey": {
         "name": "ARCHWING EXTERMINATE TEST",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TRRaceTestKey": {
         "name": "ARCHWING RACE TEST",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/TRSabotageTestKey": {
         "name": "ARCHWING SABOTAGE TEST",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/VeyHekKey": {
@@ -7243,6 +7743,9 @@
         "description": "/Lotus/Language/Items/HekKeyDesc",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/BossMissionRewards/HydroidRewards"
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/WareframeKey": {
@@ -7266,7 +7769,8 @@
             "credits": 10000,
             "items": [
                 "/Lotus/StoreItems/Types/Restoratives/Consumable/SkateBall"
-            ]
+            ],
+            "droptable": "/Lotus/Types/Game/MissionDecks/BaroWeeklyMissionRewards"
         },
         "rewards": []
     },
