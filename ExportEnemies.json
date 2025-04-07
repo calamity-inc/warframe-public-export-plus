@@ -28211,7 +28211,7 @@
             "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/WolfGangsterAlertDamageController",
             "factionResistanceKeyword": "RK_GRINEER_FACTION",
             "killXPReward": 300,
-            "droptable": "/Lotus/Types/DropTables/WolfGangsterDropTable"
+            "droptable": "/Lotus/Types/DropTables/WolfGangsterAlertDropTable"
         },
         "/Lotus/Types/Enemies/Grineer/SpecialEvents/WolfGangsterAvatar": {
             "name": "/Lotus/Language/Enemies/WolfGangsterName",
@@ -89600,6 +89600,33 @@
                     {
                         "type": "/Lotus/Types/Recipes/Weapons/InfBoomerangBlueprint",
                         "probability": 0.3333
+                    }
+                ]
+            }
+        ],
+        "/Lotus/Types/DropTables/WolfGangsterAlertDropTable": [
+            {
+                "chance": 0.2,
+                "items": [
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Pistol/WeaponElectricityDamageMod",
+                        "probability": 0.2292
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Pistol/WeaponFireDamageMod",
+                        "probability": 0.2292
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Pistol/WeaponFreezeDamageMod",
+                        "probability": 0.2292
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Pistol/WeaponToxinDamageMod",
+                        "probability": 0.2292
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Rifle/SniperHeadshotMultiplierMod",
+                        "probability": 0.0833
                     }
                 ]
             }
