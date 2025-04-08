@@ -284,6 +284,7 @@ export interface IAiWeapon {
 
 export type TDroptable = IRewardPool[];
 export interface IRewardPool {
+    type: "mod" | "blueprint" | "sigil" | "additionalItem" | "relic";
     chance: number;
     items:  {
         type:        string;
