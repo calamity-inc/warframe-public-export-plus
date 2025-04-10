@@ -56,4 +56,7 @@ PublicExportPlus.ExportVirtuals = require("./ExportVirtuals.json");
 PublicExportPlus.ExportWarframes = require("./ExportWarframes.json");
 PublicExportPlus.ExportWeapons = require("./ExportWeapons.json");
 
+PublicExportPlus.eFaction = require("./supplementals/eFaction.json");
+PublicExportPlus.eMissionType = require("./supplementals/eMissionType.json");
+
 module.exports = PublicExportPlus;

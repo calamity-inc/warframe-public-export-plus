@@ -54,6 +54,9 @@ export declare const ExportVirtuals: Record<string, IVirtual>;
 export declare const ExportWarframes: Record<string, IPowersuit>;
 export declare const ExportWeapons: Record<string, IWeapon>;
 
+export declare const eFaction: IEnumerator[];
+export declare const eMissionType: IEnumerator[];
+
 export type TRarity = "COMMON" | "UNCOMMON" | "RARE" | "LEGENDARY";
 
 export interface ICountedItem {
@@ -869,3 +872,9 @@ export type TProcType =
     | "PT_KNOCKED_DOWN"
     | "PT_RAGDOLL"
     ;
+
+export interface IEnumerator {
+    id: number;
+    tag: string;
+    name?: string;
+}
