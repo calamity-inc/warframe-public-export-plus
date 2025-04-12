@@ -1680,6 +1680,35 @@
             }
         ]
     ],
+    "/Lotus/Types/Game/MissionDecks/BaroWeeklyMissionRewards": [
+        [
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Skins/Armor/TnLatronArmor/TnLatronArmArmorElixis",
+                "itemCount": 1,
+                "probability": 0.2
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Skins/Armor/TnLatronArmor/TnLatronLegArmorElixis",
+                "itemCount": 1,
+                "probability": 0.2
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Skins/Armor/TnLatronArmor/TnLatronChestArmorElixis",
+                "itemCount": 1,
+                "probability": 0.2
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Items/ShipDecos/InarosSarcophagusBobbleHead",
+                "itemCount": 1,
+                "probability": 0.2
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Skins/Sandman/MummyAlt03Helmet",
+                "itemCount": 1,
+                "probability": 0.2
+            }
+        ]
+    ],
     "/Lotus/Types/Game/MissionDecks/BossMissionRewards/AtlasRewards": [
         [
             {
@@ -1721,12 +1750,12 @@
     "/Lotus/Types/Game/MissionDecks/BossMissionRewards/CowgirlRewards": [
         [
             {
-                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/GunslingerChassisBlueprint",
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/GunslingerHelmetBlueprint",
                 "itemCount": 1,
                 "probability": 0.3872
             },
             {
-                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/GunslingerHelmetBlueprint",
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/GunslingerChassisBlueprint",
                 "itemCount": 1,
                 "probability": 0.3872
             },
@@ -3000,6 +3029,29 @@
             }
         ]
     ],
+    "/Lotus/Types/Game/MissionDecks/ClemCloneRewards": [
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Components/ClemBallBlueprint",
+                "itemCount": 1,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Components/ClemBallBlueprint",
+                "itemCount": 1,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Components/ClemBallBlueprint",
+                "itemCount": 1,
+                "probability": 1.0
+            }
+        ]
+    ],
     "/Lotus/Types/Game/MissionDecks/CorpusArenaWagerRewardsHard": [
         [
             {
@@ -3128,6 +3180,25 @@
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponIncreaseRadialExplosionMod",
                 "itemCount": 1,
                 "probability": 0.0451
+            }
+        ]
+    ],
+    "/Lotus/Types/Game/MissionDecks/DagathMissionRewards/DagathNormalRewards": [
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/Items/MiscItems/DagathAbyssItem",
+                "itemCount": 6,
+                "probability": 0.333
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Items/MiscItems/DagathAbyssItem",
+                "itemCount": 7,
+                "probability": 0.334
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Items/MiscItems/DagathAbyssItem",
+                "itemCount": 8,
+                "probability": 0.333
             }
         ]
     ],
@@ -6618,6 +6689,25 @@
                 "type": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriProcessedItem",
                 "itemCount": 5,
                 "probability": 0.3775
+            }
+        ]
+    ],
+    "/Lotus/Types/Game/MissionDecks/DuviriEncounterRewards/DuviriKullervoSteelPathRNGRewards": [
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriKullervoDropItem",
+                "itemCount": 4,
+                "probability": 0.3
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriKullervoDropItem",
+                "itemCount": 5,
+                "probability": 0.4
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriKullervoDropItem",
+                "itemCount": 6,
+                "probability": 0.3
             }
         ]
     ],
@@ -12515,6 +12605,155 @@
             }
         ]
     ],
+    "/Lotus/Types/Game/MissionDecks/EventMissionRewards/MechSurvivalRewardsTierA": [
+        [
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Necromech/NecromechAvatarDamageReductionInAir",
+                "itemCount": 1,
+                "probability": 0.0455
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Necromech/NecromechAvatarDamageToEnergyMod",
+                "itemCount": 1,
+                "probability": 0.0455
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Necromech/NecromechAvatarEnemyRadarMod",
+                "itemCount": 1,
+                "probability": 0.0455
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Necromech/NecromechAvatarShieldRechargeRateMod",
+                "itemCount": 1,
+                "probability": 0.0455
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Necromech/NecromechReflectOnShieldBreakMod",
+                "itemCount": 1,
+                "probability": 0.0455
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Necromech/NecromechRegenOnLowHealthMod",
+                "itemCount": 1,
+                "probability": 0.0455
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Necromech/NecromechEnergyToOvershieldsMod",
+                "itemCount": 1,
+                "probability": 0.0455
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
+                "itemCount": 10,
+                "probability": 0.6818
+            }
+        ],
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/TnAlchemistShotgunBlueprint",
+                "itemCount": 1,
+                "probability": 0.0556
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/TnAlchemistShotgunBarrel",
+                "itemCount": 1,
+                "probability": 0.0556
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/TnAlchemistShotgunReceiver",
+                "itemCount": 1,
+                "probability": 0.0556
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/TnAlchemistShotgunStock",
+                "itemCount": 1,
+                "probability": 0.0556
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
+                "itemCount": 15,
+                "probability": 0.7778
+            }
+        ],
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/LavosBlueprint",
+                "itemCount": 1,
+                "probability": 0.0556
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/LavosChassisBlueprint",
+                "itemCount": 1,
+                "probability": 0.0556
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/LavosHelmetBlueprint",
+                "itemCount": 1,
+                "probability": 0.0556
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/LavosSystemsBlueprint",
+                "itemCount": 1,
+                "probability": 0.0556
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Helmets/AlchemistAltHelmetBlueprint",
+                "itemCount": 1,
+                "probability": 0.0556
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
+                "itemCount": 20,
+                "probability": 0.7222
+            }
+        ]
+    ],
+    "/Lotus/Types/Game/MissionDecks/EventMissionRewards/ScarletSpearCondrixRewards": [
+        [
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
+                "itemCount": 10,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
+                "itemCount": 10,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
+                "itemCount": 10,
+                "probability": 1.0
+            }
+        ]
+    ],
+    "/Lotus/Types/Game/MissionDecks/EventMissionRewards/ScarletSpearRailjackRewards": [
+        [
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/RareFusionBundle",
+                "itemCount": 1,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/RareFusionBundle",
+                "itemCount": 1,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/RareFusionBundle",
+                "itemCount": 1,
+                "probability": 1.0
+            }
+        ]
+    ],
     "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionHighLevelRewards": [
         [
             {
@@ -14503,6 +14742,329 @@
                 "type": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Utility/NoCostCastChanceOnCast",
                 "itemCount": 1,
                 "probability": 0.057
+            }
+        ]
+    ],
+    "/Lotus/Types/Game/MissionDecks/MissionRewardsInfested": [
+        [
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarHealthMaxMod",
+                "itemCount": 1,
+                "probability": 0.1518
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarShieldRechargeRateMod",
+                "itemCount": 1,
+                "probability": 0.1518
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarShieldRechargeRateMod",
+                "itemCount": 1,
+                "probability": 0.1518
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarSprintSpeedMod",
+                "itemCount": 1,
+                "probability": 0.0221
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponClipMaxMod",
+                "itemCount": 1,
+                "probability": 0.1518
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Pistol/WeaponAmmoMaxMod",
+                "itemCount": 1,
+                "probability": 0.1518
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Melee/WeaponMeleeDamageMod",
+                "itemCount": 1,
+                "probability": 0.0201
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponAmmoMaxMod",
+                "itemCount": 1,
+                "probability": 0.0221
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponReloadSpeedMod",
+                "itemCount": 1,
+                "probability": 0.0221
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionLavosPrimeCBronze",
+                "itemCount": 1,
+                "probability": 0.0221
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionXakuPrimeCBronze",
+                "itemCount": 1,
+                "probability": 0.0221
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionLavosPrimeDBronze",
+                "itemCount": 1,
+                "probability": 0.0221
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionLavosPrimeBBronze",
+                "itemCount": 1,
+                "probability": 0.0221
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionXakuPrimeBBronze",
+                "itemCount": 1,
+                "probability": 0.0221
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionLavosPrimeABronze",
+                "itemCount": 1,
+                "probability": 0.0221
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionSevagothPrimeBBronze",
+                "itemCount": 1,
+                "probability": 0.0221
+            }
+        ],
+        [
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponFireRateMod",
+                "itemCount": 1,
+                "probability": 0.0843
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponReloadSpeedMod",
+                "itemCount": 1,
+                "probability": 0.0147
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponCritChanceMod",
+                "itemCount": 1,
+                "probability": 0.0843
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponCritDamageMod",
+                "itemCount": 1,
+                "probability": 0.0843
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponArmorPiercingDamageMod",
+                "itemCount": 1,
+                "probability": 0.0147
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponPunctureDepthMod",
+                "itemCount": 1,
+                "probability": 0.0147
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Pistol/WeaponCritChanceMod",
+                "itemCount": 1,
+                "probability": 0.0843
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Pistol/WeaponCritDamageMod",
+                "itemCount": 1,
+                "probability": 0.0843
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Pistol/WeaponArmorPiercingDamageMod",
+                "itemCount": 1,
+                "probability": 0.0843
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Shotgun/WeaponCritDamageMod",
+                "itemCount": 1,
+                "probability": 0.0843
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Shotgun/WeaponCritChanceMod",
+                "itemCount": 1,
+                "probability": 0.0843
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Shotgun/WeaponDamageAmountMod",
+                "itemCount": 1,
+                "probability": 0.0147
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponDamageAmountMod",
+                "itemCount": 1,
+                "probability": 0.0147
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Pistol/WeaponDamageAmountMod",
+                "itemCount": 1,
+                "probability": 0.0147
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Melee/WeaponFireRateMod",
+                "itemCount": 1,
+                "probability": 0.0201
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Melee/WeaponMeleeChargeRateMod",
+                "itemCount": 1,
+                "probability": 0.0147
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Melee/WeaponMeleeDamageMod",
+                "itemCount": 1,
+                "probability": 0.0843
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionLavosPrimeABronze",
+                "itemCount": 1,
+                "probability": 0.0147
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionLavosPrimeBBronze",
+                "itemCount": 1,
+                "probability": 0.0147
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionXakuPrimeCBronze",
+                "itemCount": 1,
+                "probability": 0.0147
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionXakuPrimeBBronze",
+                "itemCount": 1,
+                "probability": 0.0147
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionSevagothPrimeABronze",
+                "itemCount": 1,
+                "probability": 0.0147
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionSevagothPrimeCBronze",
+                "itemCount": 1,
+                "probability": 0.0147
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionXakuPrimeDBronze",
+                "itemCount": 1,
+                "probability": 0.0147
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionXakuPrimeABronze",
+                "itemCount": 1,
+                "probability": 0.0147
+            }
+        ],
+        [
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Pistol/WeaponElectricityDamageMod",
+                "itemCount": 1,
+                "probability": 0.0759
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Melee/WeaponElectricityDamageMod",
+                "itemCount": 1,
+                "probability": 0.0759
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponElectricityDamageMod",
+                "itemCount": 1,
+                "probability": 0.0201
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponFireIterationsMod",
+                "itemCount": 1,
+                "probability": 0.0201
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarAbilityRangeMod",
+                "itemCount": 1,
+                "probability": 0.0201
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarAbilityDurationMod",
+                "itemCount": 1,
+                "probability": 0.0201
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarChanceToLoot",
+                "itemCount": 1,
+                "probability": 0.0201
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionLavosPrimeABronze",
+                "itemCount": 1,
+                "probability": 0.0759
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionLavosPrimeBBronze",
+                "itemCount": 1,
+                "probability": 0.0759
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionXakuPrimeCBronze",
+                "itemCount": 1,
+                "probability": 0.0759
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionXakuPrimeBBronze",
+                "itemCount": 1,
+                "probability": 0.0759
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionSevagothPrimeABronze",
+                "itemCount": 1,
+                "probability": 0.0759
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionSevagothPrimeCBronze",
+                "itemCount": 1,
+                "probability": 0.0759
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionXakuPrimeDBronze",
+                "itemCount": 1,
+                "probability": 0.0759
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionXakuPrimeABronze",
+                "itemCount": 1,
+                "probability": 0.0759
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionXakuPrimeDBronze",
+                "itemCount": 1,
+                "probability": 0.0201
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionXakuPrimeCBronze",
+                "itemCount": 1,
+                "probability": 0.0201
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionLavosPrimeDBronze",
+                "itemCount": 1,
+                "probability": 0.0201
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionLavosPrimeABronze",
+                "itemCount": 1,
+                "probability": 0.0201
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionLavosPrimeCBronze",
+                "itemCount": 1,
+                "probability": 0.0201
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionSevagothPrimeBBronze",
+                "itemCount": 1,
+                "probability": 0.0201
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionLavosPrimeBBronze",
+                "itemCount": 1,
+                "probability": 0.0201
             }
         ]
     ],
@@ -18417,6 +18979,29 @@
             }
         ]
     ],
+    "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/ProteaSpyMissionRewards": [
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/CrpGhostCatcherGlaivePartHandle",
+                "itemCount": 1,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/CrpGhostCatcherGlaivePartCore",
+                "itemCount": 1,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/CrpGhostCatcherGlaivePartBlade",
+                "itemCount": 1,
+                "probability": 1.0
+            }
+        ]
+    ],
     "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/QueensSpyHighMissionRewards": [
         [
             {
@@ -19987,6 +20572,43 @@
             }
         ]
     ],
+    "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalGeneticFoundryRewards": [
+        [],
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/PickUps/Credits/5000Credits",
+                "itemCount": 1,
+                "probability": 0.3333
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/PickUps/Credits/5000Credits",
+                "itemCount": 1,
+                "probability": 0.3333
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
+                "itemCount": 2,
+                "probability": 0.3333
+            }
+        ],
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/PickUps/Credits/5000Credits",
+                "itemCount": 1,
+                "probability": 0.3333
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/PickUps/Credits/5000Credits",
+                "itemCount": 1,
+                "probability": 0.3333
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
+                "itemCount": 2,
+                "probability": 0.3333
+            }
+        ]
+    ],
     "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalHighLevelRewards": [
         [
             {
@@ -20448,6 +21070,33 @@
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionLavosPrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.1106
+            }
+        ]
+    ],
+    "/Lotus/Types/Game/MissionDecks/TheNewWar/ArchonRewardsAmar": [
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/Items/MiscItems/TNWArchonItemAmar",
+                "itemCount": 1,
+                "probability": 1.0
+            }
+        ]
+    ],
+    "/Lotus/Types/Game/MissionDecks/TheNewWar/ArchonRewardsBoreal": [
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/Items/MiscItems/TNWArchonItemBoreal",
+                "itemCount": 1,
+                "probability": 1.0
+            }
+        ]
+    ],
+    "/Lotus/Types/Game/MissionDecks/TheNewWar/ArchonRewardsNira": [
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/Items/MiscItems/TNWArchonItemNira",
+                "itemCount": 1,
+                "probability": 1.0
             }
         ]
     ],
