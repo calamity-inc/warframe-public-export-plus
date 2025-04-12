@@ -1527,7 +1527,10 @@
         "description": "/Lotus/Language/Items/InfestedAladAssassinateDesc",
         "icon": "/Lotus/Interface/Quests/AssassinateInfestedAladVKey.png",
         "parentName": "/Lotus/Types/Keys/TestKeyA",
-        "codexSecret": true
+        "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/BossMissionRewards/CowgirlRewards"
+        }
     },
     "/Lotus/Types/Keys/InfestedAladVQuest/InfestedAladVQuestKeyChain": {
         "name": "/Lotus/Language/G1Quests/IAVQName",
@@ -4568,7 +4571,10 @@
         "icon": "/Lotus/Interface/Quests/AssassinateInfestedAladVKey.png",
         "parentName": "/Lotus/Types/Keys/InfestedAladVQuest/AssassinateInfestedAladVKey",
         "codexSecret": true,
-        "excludeFromCodex": true
+        "excludeFromCodex": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/BossMissionRewards/CowgirlRewards"
+        }
     },
     "/Lotus/Types/Keys/1999PlayableDemo/1999PlayableDemoMallKey": {
         "name": "/Lotus/Language/1999Demo/1999DemoTitle",
