@@ -734,6 +734,7 @@ export interface IVendor {
     items: {
         storeItem: string;
         bin: number;
+        duplicates: number;
         credits?: number;
         platinum?: number;
         itemPrices?: ICountedItem[];
