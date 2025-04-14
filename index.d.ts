@@ -738,7 +738,7 @@ export interface IVendor {
         credits?: number;
         platinum?: number;
         itemPrices?: ICountedItem[];
-        durationHours?: number;
+        durationHours: number | number[];
     }[];
 }
 
