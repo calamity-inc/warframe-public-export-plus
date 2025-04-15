@@ -21658,7 +21658,16 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/EnginesLavanA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Engines/RailjackEngineNimble.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "EngineSpeed",
+                "range": [
+                    0.1,
+                    0.10322
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/EnginesLavanB": {
         "name": "/Lotus/Language/CrewShip/EnginesLavanB_Name",
@@ -21666,7 +21675,23 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/EnginesLavanA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Engines/RailjackEngineNimble.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "EngineSpeed",
+                "range": [
+                    0.1,
+                    0.10967
+                ]
+            },
+            {
+                "tag": "BoostSpeed",
+                "range": [
+                    0.1,
+                    0.1137
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/EnginesLavanC": {
         "name": "/Lotus/Language/CrewShip/EnginesLavanC_Name",
@@ -21674,7 +21699,27 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/EnginesLavanA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Engines/RailjackEngineNimble.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "subroutines": [
+            "/Lotus/Upgrades/Mods/Railjack/Subroutines/EngineTopSpeedIncreaseOnShieldDepletion",
+            "/Lotus/Upgrades/Mods/Railjack/Subroutines/ShieldArrayOvershieldOnSlingshotLaunch"
+        ],
+        "randomisedUpgrades": [
+            {
+                "tag": "EngineSpeed",
+                "range": [
+                    0.1,
+                    0.1125
+                ]
+            },
+            {
+                "tag": "BoostSpeed",
+                "range": [
+                    0.1,
+                    0.11935
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/EnginesVidarA": {
         "name": "/Lotus/Language/CrewShip/EnginesVidarA_Name",
@@ -21682,7 +21727,16 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/EnginesVidarA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Engines/RailjackEngineThrust.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "EngineSpeed",
+                "range": [
+                    0.1,
+                    0.1125
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/EnginesVidarB": {
         "name": "/Lotus/Language/CrewShip/EnginesVidarB_Name",
@@ -21690,7 +21744,23 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/EnginesVidarA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Engines/RailjackEngineThrust.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "EngineSpeed",
+                "range": [
+                    0.1,
+                    0.11176
+                ]
+            },
+            {
+                "tag": "BoostSpeed",
+                "range": [
+                    0.1,
+                    0.1038
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/EnginesVidarC": {
         "name": "/Lotus/Language/CrewShip/EnginesVidarC_Name",
@@ -21698,7 +21768,27 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/EnginesVidarA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Engines/RailjackEngineThrust.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "subroutines": [
+            "/Lotus/Upgrades/Mods/Railjack/Subroutines/EngineBoostSpeedIncreaseOnShieldDepletion",
+            "/Lotus/Upgrades/Mods/Railjack/Subroutines/ReactorBoardingPartyArmorStrip"
+        ],
+        "randomisedUpgrades": [
+            {
+                "tag": "EngineSpeed",
+                "range": [
+                    0.1,
+                    0.11666
+                ]
+            },
+            {
+                "tag": "BoostSpeed",
+                "range": [
+                    0.1,
+                    0.1115
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/EnginesZektiA": {
         "name": "/Lotus/Language/CrewShip/EnginesZektiA_Name",
@@ -21706,7 +21796,16 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/EnginesZektiA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Engines/RailjackEngineDefault.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "EngineSpeed",
+                "range": [
+                    0.1,
+                    0.10625
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/EnginesZektiB": {
         "name": "/Lotus/Language/CrewShip/EnginesZektiB_Name",
@@ -21714,7 +21813,23 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/EnginesZektiA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Engines/RailjackEngineDefault.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "EngineSpeed",
+                "range": [
+                    0.1,
+                    0.1125
+                ]
+            },
+            {
+                "tag": "BoostSpeed",
+                "range": [
+                    0.1,
+                    0.1074
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/EnginesZektiC": {
         "name": "/Lotus/Language/CrewShip/EnginesZektiC_Name",
@@ -21722,7 +21837,27 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/EnginesZektiA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Engines/RailjackEngineDefault.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "subroutines": [
+            "/Lotus/Upgrades/Mods/Railjack/Subroutines/ShieldArrayDamageToOnboardAllies",
+            "/Lotus/Upgrades/Mods/Railjack/Subroutines/EngineShieldRegenOnStationary"
+        ],
+        "randomisedUpgrades": [
+            {
+                "tag": "EngineSpeed",
+                "range": [
+                    0.1,
+                    0.11176
+                ]
+            },
+            {
+                "tag": "BoostSpeed",
+                "range": [
+                    0.1,
+                    0.11481
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/HullMaterialsClanA": {
         "name": "/Lotus/Language/CrewShip/HullMaterialsA_Name",
@@ -21762,7 +21897,23 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/HullMaterialsLavan_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Hull/RailjackHullLavan.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "Hull",
+                "range": [
+                    0.1,
+                    0.2
+                ]
+            },
+            {
+                "tag": "Armour",
+                "range": [
+                    0.1,
+                    0.15
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/HullMaterialsLavanB": {
         "name": "/Lotus/Language/CrewShip/HullMaterialsLavanB_Name",
@@ -21770,7 +21921,23 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/HullMaterialsLavan_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Hull/RailjackHullLavan.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "Hull",
+                "range": [
+                    0.1,
+                    0.15
+                ]
+            },
+            {
+                "tag": "Armour",
+                "range": [
+                    0.1,
+                    0.13333
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/HullMaterialsLavanC": {
         "name": "/Lotus/Language/CrewShip/HullMaterialsLavanC_Name",
@@ -21778,7 +21945,23 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/HullMaterialsLavan_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Hull/RailjackHullLavan.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "Hull",
+                "range": [
+                    0.1,
+                    0.13333
+                ]
+            },
+            {
+                "tag": "Armour",
+                "range": [
+                    0.1,
+                    0.125
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/HullMaterialsVidarA": {
         "name": "/Lotus/Language/CrewShip/HullMaterialsVidarA_Name",
@@ -21786,7 +21969,23 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/HullMaterialsVidar_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Hull/RailjackHullVidar.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "Hull",
+                "range": [
+                    0.1,
+                    0.2
+                ]
+            },
+            {
+                "tag": "Armour",
+                "range": [
+                    0.1,
+                    0.15
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/HullMaterialsVidarB": {
         "name": "/Lotus/Language/CrewShip/HullMaterialsVidarB_Name",
@@ -21794,7 +21993,23 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/HullMaterialsVidar_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Hull/RailjackHullVidar.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "Hull",
+                "range": [
+                    0.1,
+                    0.15
+                ]
+            },
+            {
+                "tag": "Armour",
+                "range": [
+                    0.1,
+                    0.13333
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/HullMaterialsVidarC": {
         "name": "/Lotus/Language/CrewShip/HullMaterialsVidarC_Name",
@@ -21802,7 +22017,23 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/HullMaterialsVidar_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Hull/RailjackHullVidar.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "Hull",
+                "range": [
+                    0.1,
+                    0.13333
+                ]
+            },
+            {
+                "tag": "Armour",
+                "range": [
+                    0.1,
+                    0.125
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/HullMaterialsZektiA": {
         "name": "/Lotus/Language/CrewShip/HullMaterialsZektiA_Name",
@@ -21810,7 +22041,23 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/HullMaterialsZekti_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Hull/RailjackHullZetki.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "Hull",
+                "range": [
+                    0.1,
+                    0.2
+                ]
+            },
+            {
+                "tag": "Armour",
+                "range": [
+                    0.1,
+                    0.15
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/HullMaterialsZektiB": {
         "name": "/Lotus/Language/CrewShip/HullMaterialsZektiB_Name",
@@ -21818,7 +22065,23 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/HullMaterialsZekti_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Hull/RailjackHullZetki.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "Hull",
+                "range": [
+                    0.1,
+                    0.15
+                ]
+            },
+            {
+                "tag": "Armour",
+                "range": [
+                    0.1,
+                    0.13333
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/HullMaterialsZektiC": {
         "name": "/Lotus/Language/CrewShip/HullMaterialsZektiC_Name",
@@ -21826,7 +22089,23 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/HullMaterialsZekti_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Hull/RailjackHullZetki.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "Hull",
+                "range": [
+                    0.1,
+                    0.13333
+                ]
+            },
+            {
+                "tag": "Armour",
+                "range": [
+                    0.1,
+                    0.125
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/NimbleEngines": {
         "name": "/Lotus/Language/CrewShip/EnginesClanA_Name",
@@ -21896,7 +22175,16 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/ReactorLavanA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Reactor/ReactorGreen.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "PowerDuration",
+                "range": [
+                    0.2,
+                    0.4
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/ReactorLavanB": {
         "name": "/Lotus/Language/CrewShip/ReactorLavanB_Name",
@@ -21904,7 +22192,16 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/ReactorLavanA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Reactor/ReactorGreen.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "PowerDuration",
+                "range": [
+                    0.5,
+                    0.8
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/ReactorLavanC": {
         "name": "/Lotus/Language/CrewShip/ReactorLavanC_Name",
@@ -21912,7 +22209,27 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/ReactorLavanA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Reactor/ReactorGreen.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "subroutines": [
+            "/Lotus/Upgrades/Mods/Railjack/Subroutines/ReactorWeaponDamageOnSlingshotLaunch",
+            "/Lotus/Upgrades/Mods/Railjack/Subroutines/MaxShieldOnMakerHull"
+        ],
+        "randomisedUpgrades": [
+            {
+                "tag": "PowerDuration",
+                "range": [
+                    0.4,
+                    0.6
+                ]
+            },
+            {
+                "tag": "PowerStr",
+                "range": [
+                    0.2,
+                    0.4
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/ReactorVidarA": {
         "name": "/Lotus/Language/CrewShip/ReactorVidarA_Name",
@@ -21920,7 +22237,16 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/ReactorVidarA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Reactor/ReactorRed.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "PowerRange",
+                "range": [
+                    0.2,
+                    0.4
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/ReactorVidarB": {
         "name": "/Lotus/Language/CrewShip/ReactorVidarB_Name",
@@ -21928,7 +22254,16 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/ReactorVidarA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Reactor/ReactorRed.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "PowerRange",
+                "range": [
+                    0.5,
+                    0.8
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/ReactorVidarC": {
         "name": "/Lotus/Language/CrewShip/ReactorVidarC_Name",
@@ -21936,7 +22271,27 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/ReactorVidarA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Reactor/ReactorRed.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "subroutines": [
+            "/Lotus/Upgrades/Mods/Railjack/Subroutines/ReactorArchwingSpeedOnDeparture",
+            "/Lotus/Upgrades/Mods/Railjack/Subroutines/ReactorDamageImmunityOnBreachClose"
+        ],
+        "randomisedUpgrades": [
+            {
+                "tag": "PowerRange",
+                "range": [
+                    0.4,
+                    0.6
+                ]
+            },
+            {
+                "tag": "PowerDuration",
+                "range": [
+                    0.2,
+                    0.4
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/ReactorZektiA": {
         "name": "/Lotus/Language/CrewShip/ReactorZektiA_Name",
@@ -21944,7 +22299,16 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/ReactorZektiA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Reactor/ReactorPurple.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "PowerStr",
+                "range": [
+                    0.2,
+                    0.4
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/ReactorZektiB": {
         "name": "/Lotus/Language/CrewShip/ReactorZektiB_Name",
@@ -21952,7 +22316,16 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/ReactorZektiA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Reactor/ReactorPurple.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "PowerStr",
+                "range": [
+                    0.5,
+                    0.8
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/ReactorZektiC": {
         "name": "/Lotus/Language/CrewShip/ReactorZektiC_Name",
@@ -21960,7 +22333,28 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/ReactorZektiA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Reactor/ReactorPurple.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "subroutines": [
+            "/Lotus/Upgrades/Mods/Railjack/Subroutines/ReactorAutomaticFireBreachRepair",
+            "/Lotus/Upgrades/Mods/Railjack/Subroutines/ReactorAutomaticIceBreachRepair",
+            "/Lotus/Upgrades/Mods/Railjack/Subroutines/ReactorAutomaticElectricBreachRepair"
+        ],
+        "randomisedUpgrades": [
+            {
+                "tag": "PowerStr",
+                "range": [
+                    0.4,
+                    0.6
+                ]
+            },
+            {
+                "tag": "PowerRange",
+                "range": [
+                    0.2,
+                    0.4
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/ShieldArrayA": {
         "name": "/Lotus/Language/CrewShip/ShieldArrayA_Name",
@@ -22000,7 +22394,16 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/ShieldArrayLavanA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/ShieldArray/RailjackShieldArrayB.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "ShieldMax",
+                "range": [
+                    0.1,
+                    0.1273
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/ShieldArrayLavanB": {
         "name": "/Lotus/Language/CrewShip/ShieldArrayLavanB_Name",
@@ -22008,7 +22411,23 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/ShieldArrayLavanA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/ShieldArray/RailjackShieldArrayB.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "ShieldMax",
+                "range": [
+                    0.1,
+                    0.1417
+                ]
+            },
+            {
+                "tag": "ShieldRegenDelay",
+                "range": [
+                    0.1,
+                    0.5
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/ShieldArrayLavanC": {
         "name": "/Lotus/Language/CrewShip/ShieldArrayLavanC_Name",
@@ -22016,7 +22435,34 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/ShieldArrayLavanA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/ShieldArray/RailjackShieldArrayB.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "subroutines": [
+            "/Lotus/Upgrades/Mods/Railjack/Subroutines/ShieldArrayRegenOnCloak",
+            "/Lotus/Upgrades/Mods/Railjack/Subroutines/ShieldArrayEnergyConversion"
+        ],
+        "randomisedUpgrades": [
+            {
+                "tag": "ShieldMax",
+                "range": [
+                    0.1,
+                    0.14285
+                ]
+            },
+            {
+                "tag": "ShieldRegenDelay",
+                "range": [
+                    0.1,
+                    1
+                ]
+            },
+            {
+                "tag": "ShieldRegenRate",
+                "range": [
+                    0.1,
+                    0.2
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/ShieldArrayVidarA": {
         "name": "/Lotus/Language/CrewShip/ShieldArrayVidarA_Name",
@@ -22024,7 +22470,16 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/ShieldArrayVidarA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/ShieldArray/RailjackShieldArrayC.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "ShieldMax",
+                "range": [
+                    0.1,
+                    0.1182
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/ShieldArrayVidarB": {
         "name": "/Lotus/Language/CrewShip/ShieldArrayVidarB_Name",
@@ -22032,7 +22487,23 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/ShieldArrayVidarA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/ShieldArray/RailjackShieldArrayC.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "ShieldMax",
+                "range": [
+                    0.1,
+                    0.1364
+                ]
+            },
+            {
+                "tag": "ShieldRegenDelay",
+                "range": [
+                    0.5,
+                    1
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/ShieldArrayVidarC": {
         "name": "/Lotus/Language/CrewShip/ShieldArrayVidarC_Name",
@@ -22040,7 +22511,35 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/ShieldArrayVidarA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/ShieldArray/RailjackShieldArrayC.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "subroutines": [
+            "/Lotus/Upgrades/Mods/Railjack/Subroutines/ShieldArrayElectrify",
+            "/Lotus/Upgrades/Mods/Railjack/Subroutines/ShieldArrayShieldBoostOnKill",
+            "/Lotus/Upgrades/Mods/Railjack/Subroutines/ShieldArrayShieldDamageToSideGuns"
+        ],
+        "randomisedUpgrades": [
+            {
+                "tag": "ShieldMax",
+                "range": [
+                    0.1,
+                    0.1458
+                ]
+            },
+            {
+                "tag": "ShieldRegenDelay",
+                "range": [
+                    0.5,
+                    2
+                ]
+            },
+            {
+                "tag": "ShieldRegenRate",
+                "range": [
+                    0.1,
+                    0.2
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/ShieldArrayZektiA": {
         "name": "/Lotus/Language/CrewShip/ShieldArrayZektiA_Name",
@@ -22048,7 +22547,16 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/ShieldArrayZektiA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/ShieldArray/RailjackShieldArrayD.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "ShieldMax",
+                "range": [
+                    0.1,
+                    0.1143
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/ShieldArrayZektiB": {
         "name": "/Lotus/Language/CrewShip/ShieldArrayZektiB_Name",
@@ -22056,7 +22564,23 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/ShieldArrayZektiA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/ShieldArray/RailjackShieldArrayD.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "randomisedUpgrades": [
+            {
+                "tag": "ShieldMax",
+                "range": [
+                    0.1,
+                    0.1286
+                ]
+            },
+            {
+                "tag": "ShieldRegenDelay",
+                "range": [
+                    0.5,
+                    2
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/ShieldArrayZektiC": {
         "name": "/Lotus/Language/CrewShip/ShieldArrayZektiC_Name",
@@ -22064,7 +22588,34 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/CrewShip/ShieldArrayZektiA_Desc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/ShieldArray/RailjackShieldArrayD.png",
-        "productCategory": "CrewShipWeaponSkins"
+        "productCategory": "CrewShipWeaponSkins",
+        "subroutines": [
+            "/Lotus/Upgrades/Mods/Railjack/Subroutines/ShieldArrayShieldToOnboardAliies",
+            "/Lotus/Upgrades/Mods/Railjack/Subroutines/ShieldArrayLowShieldDamage"
+        ],
+        "randomisedUpgrades": [
+            {
+                "tag": "ShieldMax",
+                "range": [
+                    0.1,
+                    0.1429
+                ]
+            },
+            {
+                "tag": "ShieldRegenDelay",
+                "range": [
+                    1,
+                    4
+                ]
+            },
+            {
+                "tag": "ShieldRegenRate",
+                "range": [
+                    0.1,
+                    0.12
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Skins/RailJack/ThrustEngines": {
         "name": "/Lotus/Language/CrewShip/EnginesClanB_Name",

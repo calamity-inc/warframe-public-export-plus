@@ -165,6 +165,11 @@ export interface ICustom {
     excludeFromCodex?: boolean;
     productCategory:   "WeaponSkins" | "CrewShipWeaponSkins";
     additionalItems?:  string[];
+    subroutines?:      string[];
+    randomisedUpgrades?: {
+        tag: string;
+        range: number[];
+    }[];
 }
 
 export interface IExportDojoRecipes {
