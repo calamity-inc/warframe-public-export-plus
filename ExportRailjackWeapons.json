@@ -7144,5 +7144,225 @@
                 }
             }
         ]
+    },
+    "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherEMPWeapon": {
+        "name": "/Lotus/Language/CrewShip/Wpn_EMPMissileLauncher",
+        "parentName": "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherWeapon",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Ordnance/RailjackPayloadEnergyWeapon.png",
+        "codexSecret": false,
+        "description": "/Lotus/Language/CrewShip/Wpn_EMPMissileLauncherDesc",
+        "productCategory": "CrewShipWeapons",
+        "omegaAttenuation": 0.5,
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "impact": {}
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherEMPWeaponTierA": {
+        "name": "/Lotus/Language/CrewShip/Wpn_EMPMissileLauncherTierA",
+        "parentName": "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherEMPWeapon",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Ordnance/RailjackPayloadEnergyWeapon.png",
+        "codexSecret": false,
+        "description": "/Lotus/Language/CrewShip/Wpn_EMPMissileLauncherDesc",
+        "productCategory": "CrewShipWeapons",
+        "omegaAttenuation": 0.5,
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "impact": {}
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherEMPWeaponTierB": {
+        "name": "/Lotus/Language/CrewShip/Wpn_EMPMissileLauncherTierB",
+        "parentName": "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherEMPWeaponTierA",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Ordnance/RailjackPayloadEnergyWeapon.png",
+        "codexSecret": false,
+        "description": "/Lotus/Language/CrewShip/Wpn_EMPMissileLauncherDesc",
+        "productCategory": "CrewShipWeapons",
+        "omegaAttenuation": 0.5,
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "impact": {}
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherEMPWeaponTierC": {
+        "name": "/Lotus/Language/CrewShip/Wpn_EMPMissileLauncherTierC",
+        "parentName": "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherEMPWeaponTierB",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Ordnance/RailjackPayloadEnergyWeapon.png",
+        "codexSecret": false,
+        "description": "/Lotus/Language/CrewShip/Wpn_EMPMissileLauncherDesc",
+        "productCategory": "CrewShipWeapons",
+        "omegaAttenuation": 0.5,
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "impact": {}
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherWeapon": {
+        "name": "/Lotus/Language/CrewShip/Wpn_HomingMissileLauncher",
+        "parentName": "/Lotus/Weapons/CrewShip/RailjackOrdnanceWeapon",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Ordnance/RailjackPayloadTorpedo.png",
+        "codexSecret": false,
+        "description": "/Lotus/Language/CrewShip/Wpn_HomingMissileLauncherDesc",
+        "productCategory": "CrewShipWeapons",
+        "omegaAttenuation": 0.5,
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                "impact": {
+                    "DT_IMPACT": 0.999999,
+                    "DT_PUNCTURE": 0.999999,
+                    "DT_SLASH": 1.000002
+                }
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherWeaponTierA": {
+        "name": "/Lotus/Language/CrewShip/Wpn_HomingMissileLauncherTierA",
+        "parentName": "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherWeapon",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Ordnance/RailjackPayloadTorpedo.png",
+        "codexSecret": false,
+        "description": "/Lotus/Language/CrewShip/Wpn_HomingMissileLauncherDesc",
+        "productCategory": "CrewShipWeapons",
+        "omegaAttenuation": 0.5,
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                "impact": {
+                    "DT_IMPACT": 0.999999,
+                    "DT_PUNCTURE": 0.999999,
+                    "DT_SLASH": 1.000002
+                }
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherWeaponTierB": {
+        "name": "/Lotus/Language/CrewShip/Wpn_HomingMissileLauncherTierB",
+        "parentName": "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherWeaponTierA",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Ordnance/RailjackPayloadTorpedo.png",
+        "codexSecret": false,
+        "description": "/Lotus/Language/CrewShip/Wpn_HomingMissileLauncherDesc",
+        "productCategory": "CrewShipWeapons",
+        "omegaAttenuation": 0.5,
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                "impact": {
+                    "DT_IMPACT": 0.999999,
+                    "DT_PUNCTURE": 0.999999,
+                    "DT_SLASH": 1.000002
+                }
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherWeaponTierC": {
+        "name": "/Lotus/Language/CrewShip/Wpn_HomingMissileLauncherTierC",
+        "parentName": "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherWeaponTierB",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Ordnance/RailjackPayloadTorpedo.png",
+        "codexSecret": false,
+        "description": "/Lotus/Language/CrewShip/Wpn_HomingMissileLauncherDesc",
+        "productCategory": "CrewShipWeapons",
+        "omegaAttenuation": 0.5,
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                "impact": {
+                    "DT_IMPACT": 0.999999,
+                    "DT_PUNCTURE": 0.999999,
+                    "DT_SLASH": 1.000002
+                }
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/Missiles/MultiMissileLauncherWeapon": {
+        "name": "/Lotus/Language/CrewShip/Wpn_MultiMissileLauncher",
+        "parentName": "/Lotus/Weapons/CrewShip/RailjackOrdnanceWeapon",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Ordnance/RailjackPayloadMultiHead.png",
+        "codexSecret": false,
+        "description": "/Lotus/Language/CrewShip/Wpn_MultiMissileLauncherDesc",
+        "productCategory": "CrewShipWeapons",
+        "omegaAttenuation": 0.5,
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                "impact": {
+                    "DT_IMPACT": 0.999999,
+                    "DT_PUNCTURE": 0.999999,
+                    "DT_SLASH": 1.000002
+                }
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/Missiles/MultiMissileLauncherWeaponTierA": {
+        "name": "/Lotus/Language/CrewShip/Wpn_MultiMissileLauncherTierA",
+        "parentName": "/Lotus/Weapons/CrewShip/Missiles/MultiMissileLauncherWeapon",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Ordnance/RailjackPayloadMultiHead.png",
+        "codexSecret": false,
+        "description": "/Lotus/Language/CrewShip/Wpn_MultiMissileLauncherDesc",
+        "productCategory": "CrewShipWeapons",
+        "omegaAttenuation": 0.5,
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                "impact": {
+                    "DT_IMPACT": 0.999999,
+                    "DT_PUNCTURE": 0.999999,
+                    "DT_SLASH": 1.000002
+                }
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/Missiles/MultiMissileLauncherWeaponTierB": {
+        "name": "/Lotus/Language/CrewShip/Wpn_MultiMissileLauncherTierB",
+        "parentName": "/Lotus/Weapons/CrewShip/Missiles/MultiMissileLauncherWeaponTierA",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Ordnance/RailjackPayloadMultiHead.png",
+        "codexSecret": false,
+        "description": "/Lotus/Language/CrewShip/Wpn_MultiMissileLauncherDesc",
+        "productCategory": "CrewShipWeapons",
+        "omegaAttenuation": 0.5,
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                "impact": {
+                    "DT_IMPACT": 0.999999,
+                    "DT_PUNCTURE": 0.999999,
+                    "DT_SLASH": 1.000002
+                }
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/Missiles/MultiMissileLauncherWeaponTierC": {
+        "name": "/Lotus/Language/CrewShip/Wpn_MultiMissileLauncherTierC",
+        "parentName": "/Lotus/Weapons/CrewShip/Missiles/MultiMissileLauncherWeaponTierB",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Ordnance/RailjackPayloadMultiHead.png",
+        "codexSecret": false,
+        "description": "/Lotus/Language/CrewShip/Wpn_MultiMissileLauncherDesc",
+        "productCategory": "CrewShipWeapons",
+        "omegaAttenuation": 0.5,
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                "impact": {
+                    "DT_IMPACT": 0.999999,
+                    "DT_PUNCTURE": 0.999999,
+                    "DT_SLASH": 1.000002
+                }
+            }
+        ]
     }
 }

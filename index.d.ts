@@ -449,31 +449,31 @@ export interface IExportNightwave {
 }
 
 export interface IRailjackWeapon {
-    name:               string;
-    parentName:         string;
-    icon:               string;
-    codexSecret:        boolean;
-    damagePerShot:      number[];
-    totalDamage:        number;
-    description:        string;
-    criticalChance:     number;
-    criticalMultiplier: number;
-    procChance:         number;
-    fireRate:           number;
-    masteryReq:         number;
-    productCategory:    "CrewShipWeapons";
-    excludeFromCodex:   boolean;
-    slot:               number;
-    accuracy:           number;
-    omegaAttenuation:   number;
-    noise:              "ALARMING";
-    trigger:            "BURST" | "SEMI" | "AUTO" | "HELD";
-    magazineSize:       number;
-    reloadTime:         number;
-    multishot:          number;
-    compatibilityTags?: string[];
-    variantType:        "VT_NORMAL";
-    behaviours?:        IWeaponBehaviour[];
+    name:                string;
+    parentName:          string;
+    icon:                string;
+    codexSecret:         boolean;
+    damagePerShot?:      number[];
+    totalDamage?:        number;
+    description:         string;
+    criticalChance?:     number;
+    criticalMultiplier?: number;
+    procChance?:         number;
+    fireRate?:           number;
+    masteryReq?:         number;
+    productCategory:     "CrewShipWeapons";
+    excludeFromCodex?:   boolean;
+    slot?:               number;
+    accuracy?:           number;
+    omegaAttenuation:    number;
+    noise?:              "ALARMING";
+    trigger?:            "BURST" | "SEMI" | "AUTO" | "HELD";
+    magazineSize?:       number;
+    reloadTime?:         number;
+    multishot?:          number;
+    compatibilityTags?:  string[];
+    variantType:         "VT_NORMAL";
+    behaviours:          IWeaponBehaviour[];
 }
 
 export interface IRecipe {
