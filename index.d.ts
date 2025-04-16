@@ -480,6 +480,7 @@ export interface IRailjackWeapon {
     compatibilityTags?:  string[];
     variantType:         "VT_NORMAL";
     behaviours:          IWeaponBehaviour[];
+    defaultUpgrades?:    IDefaultUpgrade[];
 }
 
 export interface IRecipe {
