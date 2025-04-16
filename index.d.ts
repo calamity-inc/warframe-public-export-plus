@@ -192,6 +192,7 @@ export interface IDojoRecipe {
 }
 
 export interface IDojoResearch extends IDojoRecipe {
+    resultType?:    string;
     replicatePrice: number;
     techPrereq?:    string;
 }
