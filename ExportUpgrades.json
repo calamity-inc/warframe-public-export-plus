@@ -5679,6 +5679,20 @@
         "type": "PRIMARY",
         "canBeTransmutation": false
     },
+    "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponRecoilReductionModExpert": {
+        "name": "/Lotus/Language/Items/PrimedRifleModRecoilReduction",
+        "icon": "/Lotus/Interface/Cards/Images/Rifle/RifleRecoilReductionMod.png",
+        "polarity": "AP_TACTIC",
+        "rarity": "LEGENDARY",
+        "codexSecret": true,
+        "baseDrain": 2,
+        "fusionLimit": 10,
+        "isUtility": true,
+        "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
+        "compatName": "Rifle",
+        "type": "PRIMARY",
+        "canBeTransmutation": false
+    },
     "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponIncreaseRadialExplosionModExpert": {
         "name": "/Lotus/Language/Upgrades/UniqueWeaponModExplosionRadiusExpertName",
         "icon": "/Lotus/Interface/Cards/Images/Unique/FirestormMod.png",
@@ -17021,6 +17035,20 @@
     "/Lotus/Powersuits/Ember/WorldOnFireAugmentCard": {
         "name": "/Lotus/Language/Suits/EmberInfernoAbilityAugment1Name",
         "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/EmberInfernoAugment.png",
+        "polarity": "AP_POWER",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Powersuits/Ember/EmberBaseSuit",
+        "compatName": "Ember",
+        "type": "WARFRAME",
+        "subtype": "/Lotus/Powersuits/Ember/EmberBaseSuit",
+        "canBeTransmutation": false
+    },
+    "/Lotus/Powersuits/Ember/FireSkinAugmentCard": {
+        "name": "/Lotus/Language/Suits/EmberImmolationAbilityAugment1Name",
+        "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/EmberImmolationAugment.png",
         "polarity": "AP_POWER",
         "rarity": "RARE",
         "codexSecret": false,
@@ -29879,20 +29907,6 @@
         "canBeTransmutation": false,
         "isFrivolous": true
     },
-    "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponRecoilReductionModExpert": {
-        "name": "/Lotus/Language/Items/PrimedRifleModRecoilReduction",
-        "icon": "/Lotus/Interface/Cards/Images/Rifle/RifleRecoilReductionMod.png",
-        "polarity": "AP_TACTIC",
-        "rarity": "LEGENDARY",
-        "codexSecret": true,
-        "baseDrain": 2,
-        "fusionLimit": 10,
-        "isUtility": true,
-        "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
-        "compatName": "Rifle",
-        "type": "PRIMARY",
-        "canBeTransmutation": false
-    },
     "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponSlashDamageModExpert": {
         "name": "/Lotus/Language/Items/SlashDamageRifleMod",
         "icon": "/Lotus/Interface/Cards/Images/Rifle/BleedDamageRifleMod.png",
@@ -31901,20 +31915,6 @@
         "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
         "compatName": "Melee",
         "type": "MELEE",
-        "canBeTransmutation": false
-    },
-    "/Lotus/Powersuits/Ember/FireSkinAugmentCard": {
-        "name": "/Lotus/Language/Suits/EmberImmolationAbilityAugment1Name",
-        "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/EmberImmolationAugment.png",
-        "polarity": "AP_POWER",
-        "rarity": "RARE",
-        "codexSecret": false,
-        "baseDrain": 6,
-        "fusionLimit": 3,
-        "compat": "/Lotus/Powersuits/Ember/EmberBaseSuit",
-        "compatName": "Ember",
-        "type": "WARFRAME",
-        "subtype": "/Lotus/Powersuits/Ember/EmberBaseSuit",
         "canBeTransmutation": false
     }
 }

@@ -7736,6 +7736,23 @@
         ],
         "premiumPrice": 75
     },
+    "/Lotus/Types/StoreItems/Packages/EventCatalystReactorBundle": {
+        "name": "/Lotus/Language/Events/EventCatalystReactorBundleName",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/GearAndResources/EventCatalystReactorBundle.png",
+        "excludeFromCodex": true,
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/OrokinReactor",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/OrokinCatalyst",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ]
+    },
     "/Lotus/Types/StoreItems/Packages/EvergreenBoosters": {
         "name": "/Lotus/Language/Bundles/EvergreenBoosterPackName",
         "description": "/Lotus/Language/Bundles/EvergreenBoosterPackDesc",

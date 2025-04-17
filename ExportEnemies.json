@@ -359,6 +359,17 @@
                 }
             ]
         },
+        "/Lotus/Types/Enemies/CaptureTargets/CaptureTargetGrineerGhoulShipAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/CaptureTargets/CaptureTargetGrineerGhoulShip"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Weapons/Grineer/GhoulWeapons/DevourerMeleeWeapon"
+                }
+            ]
+        },
         "/Lotus/Types/Enemies/CaptureTargets/CaptureTargetGrineerMercuryAgent": {
             "baseLevel": 1,
             "avatarTypes": {
@@ -9030,6 +9041,20 @@
             "avatarTypes": {
                 "STANDARD": "/Lotus/Types/Enemies/Grineer/GhostTower/VoidNegationTower/VoidNegationTowerAvatar"
             }
+        },
+        "/Lotus/Types/Enemies/Grineer/Ghouls/GhoulCaptureDrone": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/Grineer/Ghouls/GhoulCaptureDroneAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Types/Enemies/Grineer/RailJack/Weapons/CarabusPoisonSwarmMissileLauncher"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Grineer/Ghouls/GhoulCaptureDroneSuit"
+                }
+            ]
         },
         "/Lotus/Types/Enemies/Grineer/Ghouls/GhoulDevourerAgent": {
             "baseLevel": 1,
@@ -18241,6 +18266,15 @@
             "factionResistanceKeyword": "RK_GRINEER_FACTION",
             "killXPReward": 0
         },
+        "/Lotus/Types/Enemies/CaptureTargets/CaptureTargetGrineerGhoulShip": {
+            "name": "/Lotus/Language/Events/GalleonRobberyCaptureTargetName",
+            "icon": "/Lotus/Interface/Icons/Npcs/GrineerCaptureTarget.png",
+            "faction": "Grineer",
+            "health": 3000,
+            "damageController": "/Lotus/Types/Enemies/CaptureTargets/CaptureTargetDamageControllerGrineer",
+            "factionResistanceKeyword": "RK_GRINEER_FACTION",
+            "killXPReward": 0
+        },
         "/Lotus/Types/Enemies/CaptureTargets/CaptureTargetGrineerMercuryAvatar": {
             "name": "/Lotus/Language/Game/CaptureTargetGrineer",
             "icon": "/Lotus/Interface/Icons/Npcs/GrineerCaptureTarget.png",
@@ -26643,6 +26677,15 @@
             "health": 1000,
             "damageController": "/Lotus/Types/Enemies/Grineer/GhostTower/VoidNegationTower/VoidNegationTowerDamageController",
             "killXPReward": 0
+        },
+        "/Lotus/Types/Enemies/Grineer/Ghouls/GhoulCaptureDroneAvatar": {
+            "name": "/Lotus/Language/Game/ArcDrone",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Companions/Sentinels/Types/Diriga.png",
+            "faction": "Grineer",
+            "health": 50,
+            "damageController": "/Lotus/Types/Enemies/Grineer/Ghouls/GhoulCaptureDroneDamageController",
+            "factionResistanceKeyword": "RK_GRINEER_FACTION",
+            "killXPReward": 150
         },
         "/Lotus/Types/Enemies/Grineer/Ghouls/GhoulDevourerAvatar": {
             "name": "/Lotus/Language/Game/GhoulDevourer",
@@ -53974,6 +54017,24 @@
                 "PT_BIG_STAGGER",
                 "PT_STUNNED",
                 "PT_KNOCKED_DOWN"
+            ]
+        },
+        "/Lotus/Types/Enemies/Grineer/Ghouls/GhoulCaptureDroneDamageController": {
+            "armor": 0,
+            "shield": 0,
+            "hitProxies": [
+                {
+                    "bone": "GAME_C1_COG",
+                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneArtificerBodyHitProxy"
+                }
+            ],
+            "unhandledProcTypes": [
+                "PT_KNOCKBACK",
+                "PT_STAGGERED",
+                "PT_BIG_STAGGER",
+                "PT_STUNNED",
+                "PT_KNOCKED_DOWN",
+                "PT_RAGDOLL"
             ]
         },
         "/Lotus/Types/Enemies/Grineer/Ghouls/GhoulDamageController": {

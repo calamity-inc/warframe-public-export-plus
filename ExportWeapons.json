@@ -7205,6 +7205,71 @@
             }
         ]
     },
+    "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/MortiforShieldAndSword/MortiforShieldAndSword": {
+        "name": "/Lotus/Language/Weapons/MortiforShieldAndSwordName",
+        "parentName": "/Lotus/Weapons/Tenno/Melee/LotusSwordShield",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/MortiforShieldAndSword.png",
+        "codexSecret": true,
+        "damagePerShot": [
+            39.400002,
+            0,
+            157.60001,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 197,
+        "description": "/Lotus/Language/Weapons/MortiforShieldAndSwordDesc",
+        "criticalChance": 0.21,
+        "criticalMultiplier": 1.9,
+        "procChance": 0.31,
+        "fireRate": 1,
+        "masteryReq": 9,
+        "productCategory": "Melee",
+        "holsterCategory": "LEFT_FOREARM_MOUNTED",
+        "slot": 5,
+        "omegaAttenuation": 0.5,
+        "blockingAngle": 70,
+        "comboDuration": 5,
+        "followThrough": 0.6,
+        "range": 2.5,
+        "slamAttack": 591,
+        "slamRadialDamage": 394,
+        "slamRadius": 7,
+        "slideAttack": 197,
+        "heavyAttackDamage": 2364,
+        "heavySlamAttack": 788,
+        "heavySlamRadialDamage": 591,
+        "heavySlamRadius": 8,
+        "windUp": 0.7,
+        "premiumPrice": 150,
+        "compatibilityTags": [
+            "SWORDS_AND_SHIELD_STANCE"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "impact": {
+                    "DT_IMPACT": 39.4,
+                    "DT_SLASH": 157.6
+                }
+            }
+        ]
+    },
     "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/MeleeContestWinnerOne/TennoSwordShield": {
         "name": "/Lotus/Language/Items/TennoSwordShieldName",
         "parentName": "/Lotus/Weapons/Tenno/Melee/LotusSwordShield",
@@ -28682,6 +28747,71 @@
                     "DT_IMPACT": 2.4,
                     "DT_PUNCTURE": 16.8,
                     "DT_SLASH": 4.8
+                }
+            }
+        ]
+    },
+    "/Lotus/Weapons/Grineer/Melee/Tonfa/GrnChainSawTonfa/GrnChainSawTonfaWeapon": {
+        "name": "/Lotus/Language/Weapons/GrnChainSawTonfaName",
+        "parentName": "/Lotus/Weapons/Tenno/Melee/LotusTonfa",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/GrnChainSawTonfa.png",
+        "codexSecret": true,
+        "damagePerShot": [
+            0,
+            33,
+            132,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 165,
+        "description": "/Lotus/Language/Weapons/GrnChainSawTonfaDesc",
+        "criticalChance": 0.23,
+        "criticalMultiplier": 2.1,
+        "procChance": 0.21,
+        "fireRate": 1.083333,
+        "masteryReq": 9,
+        "productCategory": "Melee",
+        "holsterCategory": "TONFA",
+        "slot": 5,
+        "omegaAttenuation": 0.5,
+        "blockingAngle": 60,
+        "comboDuration": 5,
+        "followThrough": 0.6,
+        "range": 2.5,
+        "slamAttack": 330,
+        "slamRadialDamage": 330,
+        "slamRadius": 8,
+        "slideAttack": 330,
+        "heavyAttackDamage": 660,
+        "heavySlamAttack": 660,
+        "heavySlamRadialDamage": 495,
+        "heavySlamRadius": 9,
+        "windUp": 0.7,
+        "premiumPrice": 200,
+        "compatibilityTags": [
+            "TONFA_STANCE"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "impact": {
+                    "DT_PUNCTURE": 33.0,
+                    "DT_SLASH": 132.0
                 }
             }
         ]
