@@ -749,9 +749,14 @@ export interface IVendor {
         credits?: number;
         platinum?: number;
         itemPrices?: ICountedItem[];
+        numRandomItemPrices?: number;
         durationHours: number | IRange;
     }[];
     numItems?: IRange;
+    randomItemPricesPerBin?: {
+        type: string;
+        count: IRange;
+    }[][];
 }
 
 export interface IVirtual {
