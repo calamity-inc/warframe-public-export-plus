@@ -743,6 +743,7 @@ export interface IVendor {
     isOneBinPerCycle: boolean;
     items: {
         storeItem: string;
+        alwaysOffered: boolean;
         bin: number;
         duplicates: number;
         credits?: number;
@@ -750,6 +751,7 @@ export interface IVendor {
         itemPrices?: ICountedItem[];
         durationHours: number | number[];
     }[];
+    numItems?: IRange;
 }
 
 export interface IVirtual {
