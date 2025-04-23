@@ -1,4 +1,4 @@
--- Prerequisites: npm i && npm i -g ts-to-zod ts-node
+-- Use "npm i" to install dev dependencies before running this script
 
 local types = io.contents("index.d.ts").."\nexport interface IPublicExportPlus {";
 for line in io.lines("index.d.ts") do
@@ -9,7 +9,7 @@ end
 
 print("🕐 Generating schemas...")
 io.contents("tmp-types.ts", types)
-os.execute("ts-to-zod tmp-types.ts tmp-schemas.ts --skipValidation")
+os.execute("npm exec -- ts-to-zod tmp-types.ts tmp-schemas.ts --skipValidation")
 
 io.contents("tmp-schemas.ts", io.contents("tmp-schemas.ts")
 	:replace("z.object", "z.strictObject")
@@ -29,7 +29,7 @@ io.contents("tmp-test.ts", [[
 		console.log((e as Error).message);
 	}
 ]])
-os.execute([[ts-node -O {\"module\":\"commonjs\"} tmp-test.ts]])
+os.execute([[npm exec -- ts-node -O {\"module\":\"commonjs\"} tmp-test.ts]])
 
 os.remove("tmp-schemas.ts")
 os.remove("tmp-types.ts")

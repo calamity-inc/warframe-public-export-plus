@@ -12,6 +12,6 @@ jobs:
       - run: sudo apt update
       - run: sudo apt install pluto
       # Install prerequisites for validate-typings.pluto
-      - run: npm i && npm i -g ts-to-zod ts-node
+      - run: npm i
       # Run validate-typings.pluto
       - run: pluto validate-typings.pluto
