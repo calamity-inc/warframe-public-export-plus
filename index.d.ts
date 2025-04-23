@@ -746,7 +746,11 @@ export interface IVendor {
         alwaysOffered: boolean;
         bin: number;
         duplicates: number;
-        credits?: number;
+        credits?: number | {
+            minValue: number;
+            maxValue: number;
+            step: number;
+        };
         platinum?: number;
         itemPrices?: ICountedItem[];
         numRandomItemPrices?: number;
