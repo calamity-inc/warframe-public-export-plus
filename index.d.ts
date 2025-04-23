@@ -749,7 +749,7 @@ export interface IVendor {
         credits?: number;
         platinum?: number;
         itemPrices?: ICountedItem[];
-        durationHours: number | number[];
+        durationHours: number | IRange;
     }[];
     numItems?: IRange;
 }
