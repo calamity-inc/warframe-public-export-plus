@@ -266,6 +266,7 @@ export interface IEnemyAvatar {
     factionResistanceKeyword?: string;
     droptable?:                string;
     codexSecret?:              boolean;
+    codexScansRequired:        number;
     excludeFromSimulacrum?:    boolean;
     isFrivolous?:              boolean;
 }
