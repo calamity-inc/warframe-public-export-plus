@@ -265,6 +265,8 @@ export interface IEnemyAvatar {
     killXPReward:              number;
     factionResistanceKeyword?: string;
     droptable?:                string;
+    codexSecret?:              boolean;
+    excludeFromSimulacrum?:    boolean;
     isFrivolous?:              boolean;
 }
 
