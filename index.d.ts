@@ -583,15 +583,15 @@ export interface IReward {
 export interface ISentinel {
     name:              string;
     icon:              string;
-    health:            number;
-    shield:            number;
-    armor:             number;
-    stamina:           number;
-    power:             number;
+    health?:           number;
+    shield?:           number;
+    armor?:            number;
+    stamina?:          number;
+    power?:            number;
     codexSecret:       boolean;
     excludeFromCodex?: boolean;
     description:       string;
-    productCategory:   "SpecialItems" | "KubrowPets" | "Sentinels";
+    productCategory:   "SpecialItems" | "KubrowPets" | "Sentinels" | "MoaPets";
     defaultWeapon?:    string;
     exalted?:          string[];
     defaultUpgrades?:  IDefaultUpgrade[];

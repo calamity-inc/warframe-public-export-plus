@@ -940,5 +940,36 @@
                 "Slot": 0
             }
         ]
+    },
+    "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetPowerSuit": {
+        "name": "/Lotus/Language/SolarisVenus/MoaPetItem",
+        "icon": "/Lotus/Interface/Icons/Store/Pets/NewUI/MoaHeadA.png",
+        "codexSecret": false,
+        "description": "/Lotus/Language/SolarisVenus/MoaPetItemDesc",
+        "productCategory": "MoaPets"
+    },
+    "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetAPowerSuit": {
+        "name": "/Lotus/Language/Pets/ZanukaPetItemName",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Companions/Zanukas/ZanukaPetHeadA.png",
+        "codexSecret": false,
+        "description": "/Lotus/Language/SolarisVenus/HoundPetItemDesc",
+        "productCategory": "MoaPets",
+        "defaultWeapon": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetMeleeWeaponIP"
+    },
+    "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetBPowerSuit": {
+        "name": "/Lotus/Language/Pets/ZanukaPetItemName",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Companions/Zanukas/ZanukaPetHeadB.png",
+        "codexSecret": false,
+        "description": "/Lotus/Language/SolarisVenus/HoundPetItemDesc",
+        "productCategory": "MoaPets",
+        "defaultWeapon": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetMeleeWeaponIS"
+    },
+    "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetCPowerSuit": {
+        "name": "/Lotus/Language/Pets/ZanukaPetItemName",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Companions/Zanukas/ZanukaPetHeadC.png",
+        "codexSecret": false,
+        "description": "/Lotus/Language/SolarisVenus/HoundPetItemDesc",
+        "productCategory": "MoaPets",
+        "defaultWeapon": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetMeleeWeaponPS"
     }
 }
