@@ -741,26 +741,28 @@ export interface IUpgrade {
 export interface IVendor {
     isDynamic: boolean;
     isOneBinPerCycle: boolean;
-    items: {
-        storeItem: string;
-        alwaysOffered: boolean;
-        bin: number;
-        duplicates: number;
-        credits?: number | {
-            minValue: number;
-            maxValue: number;
-            step: number;
-        };
-        platinum?: number;
-        itemPrices?: ICountedItem[];
-        numRandomItemPrices?: number;
-        durationHours: number | IRange;
-    }[];
+    items: IVendorOffer[];
     numItems?: IRange;
     randomItemPricesPerBin?: {
         type: string;
         count: IRange;
     }[][];
+}
+
+export interface IVendorOffer {
+    storeItem: string;
+    alwaysOffered: boolean;
+    bin: number;
+    duplicates: number;
+    credits?: number | {
+        minValue: number;
+        maxValue: number;
+        step: number;
+    };
+    platinum?: number;
+    itemPrices?: ICountedItem[];
+    numRandomItemPrices?: number;
+    durationHours: number | IRange;
 }
 
 export interface IVirtual {
