@@ -742,11 +742,12 @@ export interface IVendor {
     isDynamic: boolean;
     isOneBinPerCycle: boolean;
     items: IVendorOffer[];
-    numItems?: IRange;
     randomItemPricesPerBin?: {
         type: string;
         count: IRange;
     }[][];
+    numItems?: IRange;
+    numItemsPerBin?: number[];
 }
 
 export interface IVendorOffer {
