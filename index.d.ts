@@ -760,7 +760,7 @@ export interface IVendorOffer {
         maxValue: number;
         step: number;
     };
-    platinum?: number;
+    platinum?: number | IRange;
     itemPrices?: ICountedItem[];
     numRandomItemPrices?: number;
     durationHours: number | IRange;
