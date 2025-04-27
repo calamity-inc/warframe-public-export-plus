@@ -508,6 +508,7 @@ export interface IRecipe {
         tag: string;
         value: number;
     };
+    excludeFromMarket?: boolean;
 }
 
 export interface IRegion {
