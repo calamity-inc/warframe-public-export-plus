@@ -792,6 +792,7 @@ export interface IPowersuit {
     longDescription?:    string;
     variantType:         "VT_NORMAL" | "VT_PRIME" | "VT_VARIANT";
     additionalItems?:    string[];
+    nemesisUpgradeTag?:  "InnateElectricityDamage" | "InnateHeatDamage" | "InnateFreezeDamage" | "InnateToxinDamage" | "InnateMagDamage" | "InnateRadDamage" | "InnateImpactDamage";
 }
 
 export interface IWeapon {
