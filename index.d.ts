@@ -749,6 +749,7 @@ export interface IVendor {
     }[][];
     numItems?: IRange;
     numItemsPerBin?: number[];
+    randomSeedType?: "VRST_FLAVOUR_TEXT" | "VRST_WEAPON";
 }
 
 export interface IVendorOffer {
