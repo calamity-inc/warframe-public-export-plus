@@ -755,6 +755,7 @@ export interface IVendorOffer {
     storeItem: string;
     alwaysOffered: boolean;
     bin: number;
+    probability: number;
     duplicates: number;
     credits?: number | {
         minValue: number;
