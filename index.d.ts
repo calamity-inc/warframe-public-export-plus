@@ -146,6 +146,7 @@ export interface IBundle {
         durability:       TRarity;
         giveMaxRank?:     boolean;
     }[];
+    giftingBonus?:     string;
     premiumPrice?:     number;
 }
 
