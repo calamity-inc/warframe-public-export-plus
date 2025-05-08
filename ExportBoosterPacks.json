@@ -2937,5 +2937,51 @@
             }
         ],
         "canGiveDuplicates": true
+    },
+    "/Lotus/Types/BoosterPacks/TransmutePack": {
+        "name": "/Lotus/Language/Items/TransmutePack",
+        "description": "/Lotus/Language/Items/TransmutePackDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/GearAndResources/TransmutationCorePack.png",
+        "components": [
+            {
+                "Item": "/Lotus/Upgrades/Mods/TransmuteCores/AttackTransmuteCore",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/TransmuteCores/DefenseTransmuteCore",
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/TransmuteCores/TacticTransmuteCore",
+                "Rarity": "RARE"
+            }
+        ],
+        "rarityWeightsPerRoll": [
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0,
+                "RARE": 1,
+                "LEGENDARY": 0
+            },
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0,
+                "RARE": 1,
+                "LEGENDARY": 0
+            },
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0,
+                "RARE": 1,
+                "LEGENDARY": 0
+            },
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0,
+                "RARE": 1,
+                "LEGENDARY": 0
+            }
+        ],
+        "canGiveDuplicates": true
     }
 }
