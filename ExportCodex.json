@@ -1,0 +1,1038 @@
+{
+    "objects": {
+        "/Lotus/Objects/Tenno/Props/TitaniaCodexEntryADeco": {
+            "name": "/Lotus/Language/G1Quests/FairyQuestCodexEntryATitle",
+            "description": "/Lotus/Language/G1Quests/FairyQuestCodexEntryABody",
+            "icon": "/Lotus/Interface/Icons/Objects/TitaniaCodexEntry.png",
+            "reqScans": 1,
+            "secret": false
+        },
+        "/Lotus/Objects/Tenno/Props/TitaniaCodexEntryBDeco": {
+            "name": "/Lotus/Language/G1Quests/FairyQuestCodexEntryBTitle",
+            "description": "/Lotus/Language/G1Quests/FairyQuestCodexEntryBBody",
+            "icon": "/Lotus/Interface/Icons/Objects/TitaniaCodexEntry.png",
+            "reqScans": 1,
+            "secret": false
+        },
+        "/Lotus/Objects/Tenno/Props/TitaniaCodexEntryCDeco": {
+            "name": "/Lotus/Language/G1Quests/FairyQuestCodexEntryCTitle",
+            "description": "/Lotus/Language/G1Quests/FairyQuestCodexEntryCBody",
+            "icon": "/Lotus/Interface/Icons/Objects/TitaniaCodexEntry.png",
+            "reqScans": 1,
+            "secret": false
+        },
+        "/Lotus/Types/Friendly/Agents/ExcavatorAvatar": {
+            "name": "/Lotus/Language/Game/ExcavatorObject",
+            "icon": "/Lotus/Interface/Icons/Objects/TennoExcavator.png",
+            "reqScans": 20,
+            "secret": false
+        },
+        "/Lotus/Types/Friendly/Agents/DefenseCorePipeAvatar": {
+            "name": "/Lotus/Language/Objectives/CoreSabotageCorePipe",
+            "icon": "/Lotus/Interface/Icons/Objects/CorePipe.png",
+            "reqScans": 20,
+            "secret": false
+        },
+        "/Lotus/Types/Friendly/Agents/DefenseComputerCorpusAvatar": {
+            "name": "/Lotus/Language/Game/HackCorpusComputer",
+            "icon": "/Lotus/Interface/Icons/Objects/CorpusSystems.png",
+            "reqScans": 20,
+            "secret": false
+        },
+        "/Lotus/Types/Gameplay/Race/CrpSpaceMine": {
+            "name": "/Lotus/Language/Game/CorpusStasisMine",
+            "icon": "/Lotus/Interface/Icons/Objects/CorpusStasisMine.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/Friendly/Agents/DefenseCorePipeAvatarGrineer": {
+            "name": "/Lotus/Language/Objectives/CoreSabotageCorePipe",
+            "icon": "/Lotus/Interface/Icons/Objects/CorePipeGrineer.png",
+            "reqScans": 20,
+            "secret": false
+        },
+        "/Lotus/Types/LevelObjects/GrineerBreakableFan": {
+            "name": "/Lotus/Language/Game/DestructibleObject_Fan",
+            "icon": "/Lotus/Interface/Icons/Objects/Fan.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/Gameplay/Grineer/GrineerShrapnelMine": {
+            "name": "/Lotus/Language/Game/ShrapnelMine",
+            "icon": "/Lotus/Interface/Icons/Objects/ShrapnelMine.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Weapons/Grineer/Emplacements/GrnEmplcmntStndng/GrineerFortressEmplacementStanding": {
+            "name": "/Lotus/Language/Game/GrnFortressStandingGunName",
+            "description": "/Lotus/Language/Game/GrineerStandingGunDesc",
+            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/Fortress/FortressEmplacement.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/PickUps/MediumLootCrateGrnFortA": {
+            "name": "/Lotus/Language/Scans/FortressLootCrateCommon",
+            "icon": "/Lotus/Interface/Icons/Objects/FortressLootCrateA.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/PickUps/MediumLootCrateGrnFortB": {
+            "name": "/Lotus/Language/Scans/FortressLootCrateUncommon",
+            "icon": "/Lotus/Interface/Icons/Objects/FortressLootCrateB.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/LevelObjects/CorpusBreakableVent": {
+            "name": "/Lotus/Language/Game/DestructibleObject_Grate",
+            "icon": "/Lotus/Interface/Icons/Objects/CorpusGrate.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/LevelObjects/GrineerBreakableVent": {
+            "name": "/Lotus/Language/Game/DestructibleObject_Grate",
+            "icon": "/Lotus/Interface/Icons/Objects/GrineerGrate.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/Friendly/Agents/DefenseComputerAvatar": {
+            "name": "/Lotus/Language/Game/HackComputer",
+            "icon": "/Lotus/Interface/Icons/Objects/GrineerSystems.png",
+            "reqScans": 20,
+            "secret": false
+        },
+        "/Lotus/Types/Friendly/Agents/OrokinMobileDefenseAvatar": {
+            "name": "/Lotus/Language/Game/OrokinMobileDefenseComputerName",
+            "icon": "/Lotus/Interface/Icons/Objects/OrokinSystems.png",
+            "reqScans": 20,
+            "secret": false
+        },
+        "/Lotus/Types/Gameplay/Grineer/DoorSensorDeco": {
+            "name": "/Lotus/Language/Game/DestructibleObject_SensorBar",
+            "icon": "/Lotus/Interface/Icons/Objects/SensorBar.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/Gameplay/Race/SupplyShip": {
+            "name": "/Lotus/Language/Game/RaceSupplyShipName",
+            "icon": "/Lotus/Interface/Icons/Objects/CorpusSupplyShip.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/Friendly/Agents/DefenseAvatar": {
+            "name": "/Lotus/Language/Game/DefenseArtifact",
+            "icon": "/Lotus/Interface/Icons/Objects/Cryopod.png",
+            "reqScans": 20,
+            "secret": false
+        },
+        "/Lotus/Types/PickUps/LootContainers/EntratiLootCrateCommon": {
+            "name": "/Lotus/Language/Entrati/EntratiLabLootCrateCommon",
+            "icon": "/Lotus/Interface/Objects/EntratiLab/EntratiLootCrateCommon.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/PickUps/LootContainers/EntratiLootCrateUncommon": {
+            "name": "/Lotus/Language/Entrati/EntratiLabLootCrateUncommon",
+            "icon": "/Lotus/Interface/Objects/EntratiLab/EntratiLootCrateUncommon.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/PickUps/LootContainers/EntratiLootCrateRare": {
+            "name": "/Lotus/Language/Entrati/EntratiLabLootCrateRare",
+            "icon": "/Lotus/Interface/Objects/EntratiLab/EntratiLootCrateRare.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/PickUps/LootContainers/EntratiLootCrateUltraRare": {
+            "name": "/Lotus/Language/Entrati/EntratiLabLootCrateUltraRare",
+            "icon": "/Lotus/Interface/Icons/Objects/Deimos/OrokinRareCrateContainer.png",
+            "reqScans": 5,
+            "secret": false
+        },
+        "/Lotus/Types/PickUps/LootContainers/MITWLootCrate": {
+            "name": "/Lotus/Language/Entrati/MITWLootCrateName",
+            "icon": "/Lotus/Interface/Objects/EntratiLab/MITWLootCrate.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/DomestikDrone/GrineerOceanDomestikDroneMover": {
+            "name": "/Lotus/Language/Objects/GrineerOceanDomestikDrone",
+            "icon": "/Lotus/Interface/Icons/Objects/GrineerOceanDomestikDrone.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/GrnSuperMegaExplodingBarrel": {
+            "name": "/Lotus/Language/Game/GrnMegaExplodingBarrel",
+            "description": "/Lotus/Language/Game/ExplosiveBarrelDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/GrineerMegaExplodingBarrel.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/ExplodingBarrelFrozen": {
+            "name": "/Lotus/Language/Game/ExplosiveBarrelFrozen",
+            "description": "/Lotus/Language/Game/ExplosiveBarrelFrozenDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/CryoBarrel.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/CrpMegaExplodingBarrel": {
+            "name": "/Lotus/Language/Game/CrpMegaExplodingBarrel",
+            "description": "/Lotus/Language/Game/ExplosiveBarrelDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/CrpMegaExplodingBarrel.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/GrnExplodingBarrel": {
+            "name": "/Lotus/Language/Game/GrnExplodingBarrel",
+            "description": "/Lotus/Language/Game/ExplosiveBarrelDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/GrnExplodingBarrel.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/ExplodingBarrel": {
+            "name": "/Lotus/Language/Game/ExplosiveBarrel",
+            "description": "/Lotus/Language/Game/ExplosiveBarrelDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/ExplosiveBarrel.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/OrokinExplodingBarrel": {
+            "name": "/Lotus/Language/Game/OrokinExplodingBarrel",
+            "icon": "/Lotus/Interface/Icons/Objects/OrokinExplodingBarrel.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Guild/GasCityRemaster/Props/CrpExplodingBarrelGas": {
+            "name": "/Lotus/Language/CorpusGasCity/DestructableBarrelGasName",
+            "description": "/Lotus/Language/CorpusGasCity/DestructableBarrelGasDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/CrpExplodingBarrelGas.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Guild/GasCityRemaster/Props/CrpBarrelADynamicDeco": {
+            "name": "/Lotus/Language/CorpusGasCity/PhysicsBarrelName",
+            "description": "/Lotus/Language/CorpusGasCity/PhysicsBarrelDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/CrpBarrelADynamic.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Guild/GasCityRemaster/Props/CrpAnchorPointDeco": {
+            "name": "/Lotus/Language/CorpusGasCity/ParkourZiplineName",
+            "icon": "/Lotus/Interface/Icons/Objects/CrpAnchorPoint.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Guild/GasCityRemaster/Props/GasHazardDetonator": {
+            "name": "/Lotus/Language/CorpusGasCity/DestructablePipeName",
+            "icon": "/Lotus/Interface/Icons/Objects/GazHazardDetonator.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Weapons/Corpus/Emplacement/CrpDeployableCover/CrpDeployableCover": {
+            "name": "/Lotus/Language/Equipment/CorpusDeployableCoverName",
+            "description": "/Lotus/Language/Game/DeployableCoverDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/CorpusDeployableCover.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Weapons/Grineer/Emplacements/GrnDeployableCover/GrineerDeployableCover": {
+            "name": "/Lotus/Language/Game/DeployableCoverName",
+            "description": "/Lotus/Language/Game/DeployableCoverDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/GrineerDeployableCover.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Weapons/Grineer/Emplacements/GrnDeployableCover/AridGrnDeployableCover": {
+            "name": "/Lotus/Language/Game/AridDeployableCover",
+            "description": "/Lotus/Language/Game/DeployableCoverDesc",
+            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/AridBlunt.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Weapons/Grineer/Emplacements/GrnDeployableCover/SeaLabGrnDeployableCover": {
+            "name": "/Lotus/Language/Game/SeaLabDeployableCover",
+            "description": "/Lotus/Language/Game/DeployableCoverDesc",
+            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/SeaLabBlunt.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Weapons/Grineer/Emplacements/GrnEmplcmntStndng/GrineerEmplacementStanding": {
+            "name": "/Lotus/Language/Game/GrineerStandingGunName",
+            "description": "/Lotus/Language/Game/GrineerStandingGunDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/GrineerEmplacement.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Orokin/Props/OroCoverPropSphereACapADeco": {
+            "name": "/Lotus/Language/Game/OrokinOrbBase",
+            "icon": "/Lotus/Interface/Icons/Objects/OrokinLaserTrap.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/Enemies/Corpus/Turrets/TurretAvatars/SecurityCameraAvatar": {
+            "name": "/Lotus/Language/Game/SecurityCamera",
+            "icon": "/Lotus/Interface/Icons/Objects/SecurityCamera.png",
+            "reqScans": 20,
+            "secret": false
+        },
+        "/Lotus/Types/Enemies/Corpus/Turrets/TurretAvatars/AutoTurretAvatar": {
+            "name": "/Lotus/Language/Game/AutoTurret",
+            "icon": "/Lotus/Interface/Icons/Objects/SecurityTurret.png",
+            "reqScans": 20,
+            "secret": false
+        },
+        "/Lotus/Types/Friendly/Agents/EventForestDefenseAvatar": {
+            "name": "/Lotus/Language/Items/ToxinInjectorDeviceName",
+            "icon": "/Lotus/Interface/Icons/Objects/CiceroInjector.png",
+            "reqScans": 3,
+            "secret": false
+        },
+        "/Lotus/Objects/Guild/Structural/CurvedGlassDeco": {
+            "name": "/Lotus/Language/Game/SpaceGlass",
+            "icon": "/Lotus/Interface/Icons/Objects/CurvedGlassDeco.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Guild/GasCityRemaster/Props/CrpCleanbotMover": {
+            "name": "/Lotus/Language/CorpusGasCity/RobotCleaningDroneName",
+            "icon": "/Lotus/Interface/Icons/Store/PlayerShip/Decorations/Theme/LisetPropCleaningDrone.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Guild/GasCityRemaster/Props/CrpWelderBotMover": {
+            "name": "/Lotus/Language/CorpusGasCity/RobotRepairDroneSmallName",
+            "icon": "/Lotus/Interface/Icons/Objects/CrpWelderBot.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Guild/GasCityRemaster/Props/GasRepairBotMover": {
+            "name": "/Lotus/Language/CorpusGasCity/RobotRepairDroneName",
+            "icon": "/Lotus/Interface/Icons/Objects/GasRepairBot.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/PickUps/MediumLootCrateGrnA": {
+            "name": "/Lotus/Language/Game/GrineerLootCrateCommon",
+            "icon": "/Lotus/Interface/Icons/Objects/MediumLootCrateGrnA.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/PickUps/MediumLootCrateGrnB": {
+            "name": "/Lotus/Language/Game/GrineerLootCrateUncommon",
+            "icon": "/Lotus/Interface/Icons/Objects/MediumLootCrateGrnB.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/PickUps/OrokinLootCrate": {
+            "name": "/Lotus/Language/Game/OrokinLootCrate",
+            "icon": "/Lotus/Interface/Icons/Objects/OrokinLootCrate.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/PickUps/DerelictOrokinLootCrate": {
+            "name": "/Lotus/Language/Game/DerelictOrokinLootCrate",
+            "icon": "/Lotus/Interface/Icons/Objects/DerelictOrokinLootCrate.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Grineer/Props/Computers/GrnPanelADeco": {
+            "name": "/Lotus/Language/Game/HackPanel",
+            "icon": "/Lotus/Interface/Icons/Objects/GrnPanelADeco.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/Friendly/Agents/CoreDefenseAvatar": {
+            "name": "/Lotus/Language/Game/CoreDefenseArtifact",
+            "icon": "/Lotus/Interface/Icons/Objects/CoreDefenseAvatar.png",
+            "reqScans": 20,
+            "secret": false
+        },
+        "/Lotus/Types/Friendly/Agents/PedestalMachineDefenseAvatar": {
+            "name": "/Lotus/Language/Game/ArcaneMachine",
+            "icon": "/Lotus/Interface/Icons/Objects/ArcaneMachine.png",
+            "reqScans": 1,
+            "secret": false
+        },
+        "/Lotus/Types/Friendly/Agents/CoreDefenseBombAvatar": {
+            "name": "/Lotus/Language/G1Quests/IIQBombName",
+            "icon": "/Lotus/Interface/Icons/Objects/CoreDefenseAvatar.png",
+            "reqScans": 1,
+            "secret": false
+        },
+        "/Lotus/Objects/Guild/Props/Computers/PanelADeco": {
+            "name": "/Lotus/Language/Game/HackPanel",
+            "icon": "/Lotus/Interface/Icons/Objects/PanelADeco.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/Game/Decorations/MiningMachineObjective": {
+            "name": "/Lotus/Language/Game/MiningMachineObjective",
+            "icon": "/Lotus/Interface/Icons/Objects/MiningMachineObjective.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/NeutralCreatures/Kubrow/KubrowDen": {
+            "name": "/Lotus/Language/Game/KubrowDen",
+            "description": "/Lotus/Language/Game/KubrowDenLongDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/KubrowDen.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Gameplay/InfestedHiveMode/InfestedTumorObjectiveDeco": {
+            "name": "/Lotus/Language/Objectives/InfestedTumour",
+            "icon": "/Lotus/Interface/Icons/Npcs/InfestedHiveTumorNode.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/PickUps/RareCorpusLootCrate": {
+            "name": "/Lotus/Language/Game/RareCorpusLootCrate",
+            "icon": "/Lotus/Interface/Icons/Objects/CorpusRareLootCrate.png",
+            "reqScans": 5,
+            "secret": false
+        },
+        "/Lotus/Types/PickUps/RareGrineerForestLootCrate": {
+            "name": "/Lotus/Language/Game/RareGrineerForestLootCrate",
+            "icon": "/Lotus/Interface/Icons/Objects/GrineerRareForestLootCrate.png",
+            "reqScans": 5,
+            "secret": false
+        },
+        "/Lotus/Types/PickUps/RareGrineerLootCrate": {
+            "name": "/Lotus/Language/Game/RareGrineerLootCrate",
+            "icon": "/Lotus/Interface/Icons/Objects/GrineerRareLootCrate.png",
+            "reqScans": 5,
+            "secret": false
+        },
+        "/Lotus/Types/PickUps/RareOrokinLootCrate": {
+            "name": "/Lotus/Language/Game/RareOrokinLootCrate",
+            "icon": "/Lotus/Interface/Icons/Objects/OrokinRareLootCrate.png",
+            "reqScans": 5,
+            "secret": false
+        },
+        "/Lotus/Types/PickUps/UltraRareCorpusLootCrate": {
+            "name": "/Lotus/Language/Game/UltraRareCorpusLootCrate",
+            "icon": "/Lotus/Interface/Icons/Objects/CorpusRareUltraLootCrate.png",
+            "reqScans": 3,
+            "secret": false
+        },
+        "/Lotus/Types/PickUps/UltraRareGrineerLootCrate": {
+            "name": "/Lotus/Language/Game/UltraRareGrineerLootCrate",
+            "icon": "/Lotus/Interface/Icons/Objects/GrineerRareUltraLootCrate.png",
+            "reqScans": 3,
+            "secret": false
+        },
+        "/Lotus/Types/PickUps/UltraRareOrokinLootCrate": {
+            "name": "/Lotus/Language/Game/UltraRareOrokinLootCrate",
+            "icon": "/Lotus/Interface/Icons/Objects/OrokinRareUltraLootCrate.png",
+            "reqScans": 3,
+            "secret": false
+        },
+        "/Lotus/Types/PickUps/LootContainers/CorpusLootCrateCommon": {
+            "name": "/Lotus/Language/Game/CorpusLootCrateCommon",
+            "icon": "/Lotus/Interface/Icons/Objects/MediumLootCrate.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/PickUps/LootContainers/CorpusLootCrateUncommon": {
+            "name": "/Lotus/Language/Game/CorpusLootCrateUncommon",
+            "icon": "/Lotus/Interface/Icons/Objects/MediumLootCrate.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/Gameplay/Grineer/BrokenLight": {
+            "name": "/Lotus/Language/Game/DestructibleObject_ElecTrap",
+            "icon": "/Lotus/Interface/Icons/Objects/ArcTrap.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/EnvDangers/GrineerOcean/SharkMover": {
+            "name": "/Lotus/Language/Game/OceanSharkName",
+            "description": "/Lotus/Language/Game/OceanSharkDesc",
+            "icon": "/Lotus/Interface/Icons/Npcs/Shark.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/PickUps/ResourceContainers/AlloyPlateContainer": {
+            "name": "/Lotus/Language/Game/AlloyPlateContainer",
+            "description": "/Lotus/Language/Game/AlloyPlateContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/AlloyPlateContainer.png",
+            "reqScans": 5,
+            "secret": true
+        },
+        "/Lotus/Types/PickUps/ResourceContainers/ArgonCrystalContainer": {
+            "name": "/Lotus/Language/Game/ArgonCrystalContainer",
+            "description": "/Lotus/Language/Game/ArgonCrystalContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/ArgonCrystalContainer.png",
+            "reqScans": 5,
+            "secret": true
+        },
+        "/Lotus/Types/PickUps/ResourceContainers/CircuitsContainer": {
+            "name": "/Lotus/Language/Game/CircuitsContainer",
+            "description": "/Lotus/Language/Game/CircuitsContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/CircuitsContainer.png",
+            "reqScans": 5,
+            "secret": true
+        },
+        "/Lotus/Types/PickUps/ResourceContainers/ControlModuleContainer": {
+            "name": "/Lotus/Language/Game/ControlModuleContainer",
+            "description": "/Lotus/Language/Game/ControlModuleContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/ControlModuleContainer.png",
+            "reqScans": 5,
+            "secret": true
+        },
+        "/Lotus/Types/PickUps/ResourceContainers/FerriteContainer": {
+            "name": "/Lotus/Language/Game/FerriteContainer",
+            "description": "/Lotus/Language/Game/FerriteContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/FerriteContainer.png",
+            "reqScans": 5,
+            "secret": true
+        },
+        "/Lotus/Types/PickUps/ResourceContainers/GalliumContainer": {
+            "name": "/Lotus/Language/Game/GalliumContainer",
+            "description": "/Lotus/Language/Game/GalliumContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/GalliumContainer.png",
+            "reqScans": 5,
+            "secret": true
+        },
+        "/Lotus/Types/PickUps/ResourceContainers/MorphicsContainer": {
+            "name": "/Lotus/Language/Game/MorphicsContainer",
+            "description": "/Lotus/Language/Game/MorphicsContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/MorphicsContainer.png",
+            "reqScans": 5,
+            "secret": true
+        },
+        "/Lotus/Types/PickUps/ResourceContainers/NanoSporesContainer": {
+            "name": "/Lotus/Language/Game/NanoSporesContainer",
+            "description": "/Lotus/Language/Game/NanoSporesContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/NanoSporesContainer.png",
+            "reqScans": 5,
+            "secret": true
+        },
+        "/Lotus/Types/PickUps/ResourceContainers/NeuralSensorContainer": {
+            "name": "/Lotus/Language/Game/NeuralSensorContainer",
+            "description": "/Lotus/Language/Game/NeuralSensorContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/NeuralSensorContainer.png",
+            "reqScans": 5,
+            "secret": true
+        },
+        "/Lotus/Types/PickUps/ResourceContainers/NeurodesContainer": {
+            "name": "/Lotus/Language/Game/NeurodesContainer",
+            "description": "/Lotus/Language/Game/NeurodesContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/NeurodesContainer.png",
+            "reqScans": 5,
+            "secret": true
+        },
+        "/Lotus/Types/PickUps/ResourceContainers/OrokinCellContainer": {
+            "name": "/Lotus/Language/Game/OrokinCellContainer",
+            "description": "/Lotus/Language/Game/OrokinCellContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/OrokinCellContainer.png",
+            "reqScans": 5,
+            "secret": true
+        },
+        "/Lotus/Types/PickUps/ResourceContainers/PlastidsContainer": {
+            "name": "/Lotus/Language/Game/PlastidsContainer",
+            "description": "/Lotus/Language/Game/PlastidsContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/PlastidsContainer.png",
+            "reqScans": 5,
+            "secret": true
+        },
+        "/Lotus/Types/PickUps/ResourceContainers/PolymerBundleContainer": {
+            "name": "/Lotus/Language/Game/PolymerBundleContainer",
+            "description": "/Lotus/Language/Game/PolymerBundleContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/PolymerBundleContainer.png",
+            "reqScans": 5,
+            "secret": true
+        },
+        "/Lotus/Types/PickUps/ResourceContainers/RubedoContainer": {
+            "name": "/Lotus/Language/Game/RubedoContainer",
+            "description": "/Lotus/Language/Game/RubedoContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/RubedoContainer.png",
+            "reqScans": 5,
+            "secret": true
+        },
+        "/Lotus/Types/PickUps/ResourceContainers/SalvageContainer": {
+            "name": "/Lotus/Language/Game/SalvageContainer",
+            "description": "/Lotus/Language/Game/SalvageContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/SalvageContainer.png",
+            "reqScans": 5,
+            "secret": true
+        },
+        "/Lotus/Types/Gameplay/Eidolon/Resources/FruitTree": {
+            "name": "/Lotus/Language/EidolonPlains/FruitTree",
+            "description": "/Lotus/Language/EidolonPlains/FruitTreeDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/Eidolon/FruitTree.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Types/Gameplay/Eidolon/Resources/GrokdrulContainer": {
+            "name": "/Lotus/Language/EidolonPlains/GrokdrulContainer",
+            "description": "/Lotus/Language/EidolonPlains/GrokdrulContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/Eidolon/GrokdrulContainer.png",
+            "reqScans": 5,
+            "secret": true
+        },
+        "/Lotus/Types/Gameplay/Eidolon/Resources/IraditeContainer": {
+            "name": "/Lotus/Language/EidolonPlains/IraditeContainer",
+            "description": "/Lotus/Language/EidolonPlains/IraditeContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/Eidolon/IraditeContainer.png",
+            "reqScans": 5,
+            "secret": true
+        },
+        "/Lotus/Types/Gameplay/Eidolon/Resources/Nistlebrush": {
+            "name": "/Lotus/Language/EidolonPlains/NistlepodContainer",
+            "description": "/Lotus/Language/EidolonPlains/NistlepodContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/Eidolon/NistlepodContainer.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Types/Gameplay/Venus/Resources/VenusTreeContainer": {
+            "name": "/Lotus/Language/SolarisVenus/VenusTreeContainer",
+            "description": "/Lotus/Language/SolarisVenus/VenusTreeContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/Venus/VenusTreeContainer.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Types/Gameplay/Venus/Resources/CoolantContainer": {
+            "name": "/Lotus/Language/SolarisVenus/CoolantContainer",
+            "description": "/Lotus/Language/SolarisVenus/CoolantContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/Venus/CoolantContainer.png",
+            "reqScans": 5,
+            "secret": true
+        },
+        "/Lotus/Types/Gameplay/Venus/Resources/SVFoliageFungusLargeContainer": {
+            "name": "/Lotus/Language/SolarisVenus/FungusHeartContainer",
+            "description": "/Lotus/Language/SolarisVenus/FungusHeartContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/Venus/FungusHeartContainerLarge.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Types/Gameplay/Venus/Resources/SVFoliageFungusSmallContainer": {
+            "name": "/Lotus/Language/SolarisVenus/FungusHeartContainer",
+            "description": "/Lotus/Language/SolarisVenus/FungusHeartContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/Venus/FungusHeartContainerSmall.png",
+            "reqScans": 5,
+            "secret": true
+        },
+        "/Lotus/Objects/SolarisVenus/Natural/Foliage/SvMushroomFruitSheathedDeco": {
+            "name": "/Lotus/Language/SolarisVenus/VenusCoconutContainer",
+            "icon": "/Lotus/Interface/Icons/Objects/Venus/VenusCoconutSac.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Objects/Gameplay/InfestedHiveMode/InfestedTumorObjectiveSpawnedDeco": {
+            "name": "/Lotus/Language/Objectives/InfestedTumour",
+            "icon": "/Lotus/Interface/Icons/Npcs/InfestedHiveTumorNode.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Types/Items/FusionTreasures/OroFusexA": {
+            "name": "/Lotus/Language/Items/FusionTreasureAName",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexA.png",
+            "reqScans": 1,
+            "secret": false
+        },
+        "/Lotus/Types/Items/FusionTreasures/OroFusexB": {
+            "name": "/Lotus/Language/Items/FusionTreasureBName",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexB.png",
+            "reqScans": 1,
+            "secret": false
+        },
+        "/Lotus/Types/Items/FusionTreasures/OroFusexC": {
+            "name": "/Lotus/Language/Items/FusionTreasureCName",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexC.png",
+            "reqScans": 1,
+            "secret": false
+        },
+        "/Lotus/Types/Items/FusionTreasures/OroFusexD": {
+            "name": "/Lotus/Language/Items/FusionTreasureDName",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexD.png",
+            "reqScans": 1,
+            "secret": false
+        },
+        "/Lotus/Types/Items/FusionTreasures/OroFusexE": {
+            "name": "/Lotus/Language/Items/FusionTreasureEName",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexE.png",
+            "reqScans": 1,
+            "secret": false
+        },
+        "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA": {
+            "name": "/Lotus/Language/Items/FusionTreasureOrmanetAName",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexOrnamentA.png",
+            "reqScans": 5,
+            "secret": false
+        },
+        "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentB": {
+            "name": "/Lotus/Language/Items/FusionTreasureOrmanetBName",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexOrnamentB.png",
+            "reqScans": 5,
+            "secret": false
+        },
+        "/Lotus/Types/Items/FusionTreasures/OroFusexF": {
+            "name": "/Lotus/Language/Items/FusionTreasureFName",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexF.png",
+            "reqScans": 1,
+            "secret": true
+        },
+        "/Lotus/Types/LevelObjects/GamemodeLockers/EidolonStorageLockerCache": {
+            "name": "/Lotus/Language/EidolonPlains/EidolonCacheName",
+            "description": "/Lotus/Language/EidolonPlains/EidolonCacheDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/GrnAirDropLocker.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Ostron/Wildlife/EelFish": {
+            "name": "/Lotus/Language/Fish/DayCommonFishA",
+            "description": "/Lotus/Language/Fish/DayCommonFishADesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/FishItemDayCommonA.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Objects/Ostron/Wildlife/FatHeadFish": {
+            "name": "/Lotus/Language/Fish/NightRareFishA",
+            "description": "/Lotus/Language/Fish/NightRareFishADesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/FishItemNightRareA.png",
+            "reqScans": 3,
+            "secret": true
+        },
+        "/Lotus/Objects/Ostron/Wildlife/MaskedFish": {
+            "name": "/Lotus/Language/Fish/DayUncommonFishB",
+            "description": "/Lotus/Language/Fish/DayUncommonFishBDesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/FishItemDayUncommonB.png",
+            "reqScans": 6,
+            "secret": true
+        },
+        "/Lotus/Objects/Ostron/Wildlife/OstronFishA": {
+            "name": "/Lotus/Language/Fish/DayUncommonFishA",
+            "description": "/Lotus/Language/Fish/DayUncommonFishADesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/FishItemDayUncommonA.png",
+            "reqScans": 6,
+            "secret": true
+        },
+        "/Lotus/Objects/Ostron/Wildlife/OstronFishB": {
+            "name": "/Lotus/Language/Fish/DayCommonFishB",
+            "description": "/Lotus/Language/Fish/DayCommonFishBDesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/FishItemDayCommonB.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Objects/Ostron/Wildlife/OstronFishC": {
+            "name": "/Lotus/Language/Fish/BothRareFishA",
+            "description": "/Lotus/Language/Fish/BothRareFishADesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/FishItemBothRareA.png",
+            "reqScans": 3,
+            "secret": true
+        },
+        "/Lotus/Objects/Ostron/Wildlife/OstronFishD": {
+            "name": "/Lotus/Language/Fish/BothCommonFishA",
+            "description": "/Lotus/Language/Fish/BothCommonFishADesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/FishItemBothCommonA.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Objects/Ostron/Wildlife/OstronFishE": {
+            "name": "/Lotus/Language/Fish/NightLegendaryFishA",
+            "description": "/Lotus/Language/Fish/NightLegendaryFishADesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/FishItemNightLegendaryFishA.png",
+            "reqScans": 1,
+            "secret": true
+        },
+        "/Lotus/Objects/Ostron/Wildlife/OstronFishF": {
+            "name": "/Lotus/Language/Fish/BothUncommonFishA",
+            "description": "/Lotus/Language/Fish/BothUncommonFishADesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/FishItemBothUncommonA.png",
+            "reqScans": 6,
+            "secret": true
+        },
+        "/Lotus/Objects/Ostron/Wildlife/OstronFishG": {
+            "name": "/Lotus/Language/Fish/DayCommonFishC",
+            "description": "/Lotus/Language/Fish/DayCommonFishCDesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/FishItemDayCommonC.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Objects/Ostron/Wildlife/OstronFishH": {
+            "name": "/Lotus/Language/Fish/BothUncommonFishB",
+            "description": "/Lotus/Language/Fish/BothUncommonFishBDesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/FishItemBothUncommonB.png",
+            "reqScans": 6,
+            "secret": true
+        },
+        "/Lotus/Objects/Ostron/Wildlife/OstronFishI": {
+            "name": "/Lotus/Language/Fish/BothCommonFishB",
+            "description": "/Lotus/Language/Fish/BothCommonFishBDesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/FishItemBothCommonB.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Objects/Ostron/Wildlife/OstronFishJ": {
+            "name": "/Lotus/Language/Fish/NightRareFishB",
+            "description": "/Lotus/Language/Fish/NightRareFishBDesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/FishItemNightRareB.png",
+            "reqScans": 3,
+            "secret": true
+        },
+        "/Lotus/Objects/SolarisVenus/Wildlife/OroRoboFishADeco": {
+            "name": "/Lotus/Language/SolarisVenus/OrokinBothRareFishA",
+            "description": "/Lotus/Language/SolarisVenus/OrokinBothRareFishADesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/Venus/CodexOrokinBothRareFishA.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Objects/SolarisVenus/Wildlife/OroRoboFishBDeco": {
+            "name": "/Lotus/Language/SolarisVenus/OrokinBothLegendaryFishA",
+            "description": "/Lotus/Language/SolarisVenus/OrokinBothLegendaryFishADesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/Venus/CodexOrokinBothLegendaryFishA.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Objects/SolarisVenus/Wildlife/OroRoboFishCDeco": {
+            "name": "/Lotus/Language/SolarisVenus/OrokinCoolRareFishA",
+            "description": "/Lotus/Language/SolarisVenus/OrokinCoolRareFishADesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/Venus/CodexOrokinCoolRareFishA.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Objects/SolarisVenus/Wildlife/RobofishCorpusADeco": {
+            "name": "/Lotus/Language/SolarisVenus/CorpusCoolCommonFishA",
+            "description": "/Lotus/Language/SolarisVenus/CorpusCoolCommonFishADesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/Venus/NewUI/CorpusCoolCommonFishALarge.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Objects/SolarisVenus/Wildlife/RobofishCorpusCDeco": {
+            "name": "/Lotus/Language/SolarisVenus/CorpusCoolUncommonFishA",
+            "description": "/Lotus/Language/SolarisVenus/CorpusCoolUncommonFishADesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/Venus/NewUI/CorpusCoolUncommonFishALarge.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Objects/SolarisVenus/Wildlife/RobofishCorpusEV1Deco": {
+            "name": "/Lotus/Language/SolarisVenus/CorpusWarmCommonFishB",
+            "description": "/Lotus/Language/SolarisVenus/CorpusWarmCommonFishBDesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/Venus/NewUI/CorpusClearUncommonFishALarge.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Objects/SolarisVenus/Wildlife/RobofishCorpusFDeco": {
+            "name": "/Lotus/Language/SolarisVenus/CorpusWarmUncommonFishA",
+            "description": "/Lotus/Language/SolarisVenus/CorpusWarmUncommonFishADesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/Venus/NewUI/CorpusStormUncommonFishALarge.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Objects/SolarisVenus/Wildlife/RobofishCorpusGDeco": {
+            "name": "/Lotus/Language/SolarisVenus/CorpusBothUncommonFishA",
+            "description": "/Lotus/Language/SolarisVenus/CorpusBothUncommonFishADesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/Venus/NewUI/CorpusBothUncommonFishALarge.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Objects/SolarisVenus/Wildlife/RobofishCorpusStyleADeco": {
+            "name": "/Lotus/Language/SolarisVenus/CorpusWarmCommonFishA",
+            "description": "/Lotus/Language/SolarisVenus/CorpusWarmCommonFishADesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/Venus/NewUI/CorpusWarmCommonFishALarge.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Objects/SolarisVenus/Wildlife/RobofishSolarisADeco": {
+            "name": "/Lotus/Language/SolarisVenus/SolarisWarmRareFishA",
+            "description": "/Lotus/Language/SolarisVenus/SolarisWarmRareFishADesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/Venus/NewUI/TrophySolarisWarmRareFishA.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Objects/SolarisVenus/Wildlife/RobofishSolarisBDeco": {
+            "name": "/Lotus/Language/SolarisVenus/SolarisCoolUncommonFishA",
+            "description": "/Lotus/Language/SolarisVenus/SolarisCoolUncommonFishADesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/Venus/SolarisClearRareFishALarge.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Objects/SolarisVenus/Wildlife/RobofishSolarisCDeco": {
+            "name": "/Lotus/Language/SolarisVenus/SolarisCoolCommonFishA",
+            "description": "/Lotus/Language/SolarisVenus/SolarisCoolCommonFishADesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/Venus/SolarisStormUncommonFishALarge.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Objects/SolarisVenus/Wildlife/RobofishSolarisDDeco": {
+            "name": "/Lotus/Language/SolarisVenus/SolarisBothCommonFishA",
+            "description": "/Lotus/Language/SolarisVenus/SolarisBothCommonFishADesc",
+            "icon": "/Lotus/Interface/Icons/Store/Fish/Venus/NewUI/CorpusStormCommonFishALarge.png",
+            "reqScans": 12,
+            "secret": true
+        },
+        "/Lotus/Types/Gameplay/InfestedMicroplanet/LootContainers/InfestedCommonCrateContainer": {
+            "name": "/Lotus/Language/InfestedMicroplanet/InfestedCrateCommon",
+            "icon": "/Lotus/Interface/Icons/Objects/Deimos/InfestedCommonCrateContainer.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/Gameplay/InfestedMicroplanet/LootContainers/InfestedRareCrateContainer": {
+            "name": "/Lotus/Language/InfestedMicroplanet/InfestedCrateRare",
+            "icon": "/Lotus/Interface/Icons/Objects/Deimos/InfestedRareCrateContainer.png",
+            "reqScans": 5,
+            "secret": false
+        },
+        "/Lotus/Types/Gameplay/InfestedMicroplanet/LootContainers/OrokinCommonCrateContainer": {
+            "name": "/Lotus/Language/InfestedMicroplanet/OrokinCrateCommon",
+            "icon": "/Lotus/Interface/Icons/Objects/Deimos/OrokinCommonCrateContainer.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/Gameplay/InfestedMicroplanet/LootContainers/OrokinRareCrateContainer": {
+            "name": "/Lotus/Language/InfestedMicroplanet/OrokinCrateRare",
+            "icon": "/Lotus/Interface/Icons/Objects/Deimos/OrokinRareCrateContainer.png",
+            "reqScans": 5,
+            "secret": false
+        },
+        "/Lotus/Types/Gameplay/InfestedMicroplanet/LootContainers/OrokinVaultCrateContainer": {
+            "name": "/Lotus/Language/InfestedMicroplanet/OrokinCrateVault",
+            "icon": "/Lotus/Interface/Icons/Objects/Deimos/OrokinVaultCrateContainer.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Infestation/InfestedMicroplanet/Wildlife/HybridRareADeco": {
+            "name": "/Lotus/Language/InfestedMicroplanet/FishHybridRareA",
+            "description": "/Lotus/Language/InfestedMicroplanet/FishHybridRareADesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Fishing/Deimos/HybridRareA.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Infestation/InfestedMicroplanet/Wildlife/HybridUncommonADeco": {
+            "name": "/Lotus/Language/InfestedMicroplanet/FishHybridUncommonA",
+            "description": "/Lotus/Language/InfestedMicroplanet/FishHybridUncommonADesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Fishing/Deimos/HybridUncommonA.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Infestation/InfestedMicroplanet/Wildlife/HybridUncommonBDeco": {
+            "name": "/Lotus/Language/InfestedMicroplanet/FishHybridUncommonB",
+            "description": "/Lotus/Language/InfestedMicroplanet/FishHybridUncommonBDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Fishing/Deimos/HybridUncommonB.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Infestation/InfestedMicroplanet/Wildlife/InfestedCommonADeco": {
+            "name": "/Lotus/Language/InfestedMicroplanet/FishInfestedCommonA",
+            "description": "/Lotus/Language/InfestedMicroplanet/FishInfestedCommonADesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Fishing/Deimos/InfestedCommonA.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Infestation/InfestedMicroplanet/Wildlife/InfestedCommonBDeco": {
+            "name": "/Lotus/Language/InfestedMicroplanet/FishInfestedCommonB",
+            "description": "/Lotus/Language/InfestedMicroplanet/FishInfestedCommonBDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Fishing/Deimos/InfestedCommonB.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Infestation/InfestedMicroplanet/Wildlife/InfestedCommonCDeco": {
+            "name": "/Lotus/Language/InfestedMicroplanet/FishInfestedCommonC",
+            "description": "/Lotus/Language/InfestedMicroplanet/FishInfestedCommonCDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Fishing/Deimos/InfestedCommonC.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Infestation/InfestedMicroplanet/Wildlife/InfestedCommonDDeco": {
+            "name": "/Lotus/Language/InfestedMicroplanet/FishInfestedCommonD",
+            "description": "/Lotus/Language/InfestedMicroplanet/FishInfestedCommonDDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Fishing/Deimos/InfestedCommonD.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Infestation/InfestedMicroplanet/Wildlife/InfestedUncommonADeco": {
+            "name": "/Lotus/Language/InfestedMicroplanet/FishInfestedUncommonA",
+            "description": "/Lotus/Language/InfestedMicroplanet/FishInfestedUncommonADesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Fishing/Deimos/InfestedUncommonA.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Infestation/InfestedMicroplanet/Wildlife/OrokinLegendaryADeco": {
+            "name": "/Lotus/Language/InfestedMicroplanet/FishOrokinLegendaryA",
+            "description": "/Lotus/Language/InfestedMicroplanet/FishOrokinLegendaryADesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Fishing/Deimos/OrokinLegendaryA.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Infestation/InfestedMicroplanet/Wildlife/OrokinRareADeco": {
+            "name": "/Lotus/Language/InfestedMicroplanet/FishOrokinRareA",
+            "description": "/Lotus/Language/InfestedMicroplanet/FishOrokinRareADesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Fishing/Deimos/OrokinRareA.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Infestation/InfestedMicroplanet/Wildlife/OrokinUncommonADeco": {
+            "name": "/Lotus/Language/InfestedMicroplanet/FishOrokinUncommonA",
+            "description": "/Lotus/Language/InfestedMicroplanet/FishOrokinUncommonADesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Fishing/Deimos/OrokinUncommonA.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Objects/Infestation/InfestedMicroplanet/Foliage/InfGorgaricusSacDeco": {
+            "name": "/Lotus/Language/InfestedMicroplanet/ResourceInfGorgaricusSeedContainer",
+            "description": "/Lotus/Language/InfestedMicroplanet/ResourceInfGorgaricusSeedContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/Deimos/InfGorgaricusSacDeco.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfMapricoTree/InfMapricoTreeDeco": {
+            "name": "/Lotus/Language/InfestedMicroplanet/ResourceInfMapricoFruitContainer",
+            "description": "/Lotus/Language/InfestedMicroplanet/ResourceInfMapricoFruitContainerDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/Deimos/InfMapricoTreeDeco.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterObjects/DoorKeyDevice": {
+            "name": "/Lotus/Language/InfestedMicroplanet/DoorKeyDeviceName",
+            "icon": "/Lotus/Interface/Icons/Objects/Deimos/DoorKeyDevice.png",
+            "reqScans": 5,
+            "secret": false
+        },
+        "/Lotus/Types/LevelObjects/Zariman/ZarLootCrateCommonA": {
+            "name": "/Lotus/Language/Zariman/ZarimanCommonLootCrateA",
+            "description": "/Lotus/Language/Zariman/ZarimanCommonLootCrateADesc",
+            "icon": "/Lotus/Interface/Icons/Objects/Zariman/ZarLootCrateCommon.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/LevelObjects/Zariman/ZarLootCrateCommonB": {
+            "name": "/Lotus/Language/Zariman/ZarimanCommonLootCrateB",
+            "description": "/Lotus/Language/Zariman/ZarimanCommonLootCrateBDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/Zariman/ZarLootCrateCommonB.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/LevelObjects/Zariman/ZarLootCrateUncommon": {
+            "name": "/Lotus/Language/Zariman/ZarimanUncommonLootCrate",
+            "description": "/Lotus/Language/Zariman/ZarimanUncommonLootCrateDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/Zariman/ZarLootCrateUncommon.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/LevelObjects/Zariman/ZarLootCrateRare": {
+            "name": "/Lotus/Language/Zariman/ZarimanRareLootCrate",
+            "description": "/Lotus/Language/Zariman/ZarimanRareLootCrateDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/Zariman/ZarLootCrateRare.png",
+            "reqScans": 3,
+            "secret": false
+        },
+        "/Lotus/Types/LevelObjects/Zariman/ZarLootCrateUltraRare": {
+            "name": "/Lotus/Language/Zariman/ZarimanUltraRareLootCrate",
+            "description": "/Lotus/Language/Zariman/ZarimanUltraRareLootCrateDesc",
+            "icon": "/Lotus/Interface/Icons/Objects/Zariman/ZarLootCrateUltraRare.png",
+            "reqScans": 3,
+            "secret": false
+        },
+        "/Lotus/Types/LevelObjects/ZarimanBreakableHatchDoorA": {
+            "name": "/Lotus/Language/Zariman/HatchCover",
+            "icon": "/Lotus/Interface/Icons/Objects/Zariman/ZarimanBreakableHatchDoorA.png",
+            "reqScans": 12,
+            "secret": false
+        },
+        "/Lotus/Types/Gameplay/1999Wf/Extermination/SupplyCrate": {
+            "name": "/Lotus/Language/1999/SupplyCrate",
+            "icon": "/Lotus/Interface/Icons/Objects/1999Wf/SupplyCrate.png",
+            "reqScans": 12,
+            "secret": false
+        }
+    }
+}

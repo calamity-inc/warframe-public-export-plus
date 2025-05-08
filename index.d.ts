@@ -23,6 +23,7 @@ export declare const ExportBoosters: Record<string, IBooster>;
 export declare const ExportBounties: Record<string, IBounty>;
 export declare const ExportBundles: Record<string, IBundle>;
 export declare const ExportChallenges: Record<string, IChallenge>;
+export declare const ExportCodex: IExportCodex;
 export declare const ExportCustoms: Record<string, ICustom>;
 export declare const ExportDojoRecipes: IExportDojoRecipes;
 export declare const ExportDrones: Record<string, IDrone>;
@@ -156,6 +157,18 @@ export interface IChallenge {
     flavour:       string;
     icon:          string;
     requiredCount: number;
+}
+
+export interface IExportCodex {
+    objects: Record<string, ICodexEntry>;
+}
+
+export interface ICodexEntry {
+    name: string;
+    description?: string;
+    icon: string;
+    reqScans: number;
+    secret: boolean;
 }
 
 export interface ICustom {

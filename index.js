@@ -25,6 +25,7 @@ PublicExportPlus.ExportBoosters = require("./ExportBoosters.json");
 PublicExportPlus.ExportBounties = require("./ExportBounties.json");
 PublicExportPlus.ExportBundles = require("./ExportBundles.json");
 PublicExportPlus.ExportChallenges = require("./ExportChallenges.json");
+PublicExportPlus.ExportCodex = require("./ExportCodex.json");
 PublicExportPlus.ExportCustoms = require("./ExportCustoms.json");
 PublicExportPlus.ExportDojoRecipes = require("./ExportDojoRecipes.json");
 PublicExportPlus.ExportDrones = require("./ExportDrones.json");
