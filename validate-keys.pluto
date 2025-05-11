@@ -1,0 +1,23 @@
+local json = require "json"
+
+local function recursively_find_duplicate_keys(data, path)
+	if data.__order then
+		for k, v in data.__order:countvalues() do
+			if v > 1 then
+				print("Duplicate key: "..path.."."..k)
+			end
+		end
+	end
+
+	for k, v in data do
+		if type(v) == "table" then
+			recursively_find_duplicate_keys(v, path.."."..k)
+		end
+	end
+end
+
+for io.listdir(".") as file do
+	if file:sub(-5) == ".json" and "Export" in file then
+		recursively_find_duplicate_keys(json.decode(io.contents(file), json.withorder), file:sub(3, -6))
+	end
+end
