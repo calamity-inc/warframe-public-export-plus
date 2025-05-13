@@ -8873,7 +8873,7 @@
             }
         ]
     ],
-    "/Lotus/Types/Game/MissionDecks/DuviriEncounterRewards/DuviriKullervoSteelPathRNGRewards": [
+    "/Lotus/Types/Game/MissionDecks/DuviriEncounterRewards/DuviriKullervoNormalRNGRewards": [
         [
             {
                 "type": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriKullervoDropItem",
@@ -8888,6 +8888,25 @@
             {
                 "type": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriKullervoDropItem",
                 "itemCount": 6,
+                "probability": 0.3
+            }
+        ]
+    ],
+    "/Lotus/Types/Game/MissionDecks/DuviriEncounterRewards/DuviriKullervoSteelPathRNGRewards": [
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriKullervoDropItem",
+                "itemCount": 6,
+                "probability": 0.3
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriKullervoDropItem",
+                "itemCount": 7,
+                "probability": 0.4
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriKullervoDropItem",
+                "itemCount": 8,
                 "probability": 0.3
             }
         ]
