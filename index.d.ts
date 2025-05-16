@@ -781,6 +781,12 @@ export interface IVendorOffer {
     itemPrices?: ICountedItem[];
     numRandomItemPrices?: number;
     durationHours: number | IRange;
+    syndicate?: {
+        tag: string;
+        minRank: number;
+        reductionPerPositiveRank: number;
+        increasePerNegativeRank: number;
+    }
 }
 
 export interface IVirtual {
