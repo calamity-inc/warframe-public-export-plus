@@ -265,6 +265,19 @@
             "highPriority": true
         }
     },
+    "/Lotus/Types/Items/EmailItems/NatahEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/Bosses/BossTylRegor",
+            "title": "/Lotus/Language/Inbox/NatahReworkJunctionSubject",
+            "body": "/Lotus/Language/Inbox/NatahReworkJunctionBody",
+            "attachments": [],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/TylRegor.png",
+            "transmission": "/Lotus/Sounds/Dialog/SentientQuest/SQPreQuest/DSQPreQuest0010Tyl",
+            "highPriority": true
+        }
+    },
     "/Lotus/Types/Items/EmailItems/NightwaveS3BossFightEmailItem": {
         "sendOnlyOnce": true,
         "message": {

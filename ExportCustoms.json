@@ -1043,6 +1043,7 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/HumanSkins/WF1999NovaSkin.png",
         "productCategory": "WeaponSkins",
         "additionalItems": [
+            "/Lotus/Types/Items/Emotes/GeminiEmote",
             "/Lotus/Types/Items/Emotes/LegendaryKayaEmote"
         ]
     },
@@ -4036,6 +4037,14 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/HydroidPrime.png",
         "productCategory": "WeaponSkins"
     },
+    "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/KullervoDeluxeArmArmor": {
+        "name": "/Lotus/Language/Skins/KullervoDeluxeDefaultArmArmourName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Skins/KullervoDeluxeDefaultArmArmourDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/KullervoDeluxeSkin.png",
+        "productCategory": "WeaponSkins"
+    },
     "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/LavosArmArmor": {
         "name": "/Lotus/Language/Cosmetics/WarframeDefaultArmourLavosName",
         "codexSecret": false,
@@ -5013,6 +5022,31 @@
         "description": "/Lotus/Language/ItemDescription/XakuBrokenNeverDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Armour/WarframeSpecific/XakuBrokenNever.png",
         "productCategory": "WeaponSkins"
+    },
+    "/Lotus/Upgrades/Skins/BrokenFrame/XakuCosmosAltHelmet": {
+        "name": "/Lotus/Language/Skins/XakuCosmosHelmetAltName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Skins/XakuCosmosHelmetAltDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/XakuCosmosAltHelmet.png",
+        "productCategory": "WeaponSkins"
+    },
+    "/Lotus/Upgrades/Skins/BrokenFrame/XakuCosmosHelmet": {
+        "name": "/Lotus/Language/Skins/XakuCosmosHelmetName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Skins/XakuCosmosHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/XakuCosmosHelmet.png",
+        "productCategory": "WeaponSkins"
+    },
+    "/Lotus/Upgrades/Skins/BrokenFrame/XakuCosmosSkin": {
+        "name": "/Lotus/Language/Skins/XakuCosmosSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Skins/XakuCosmosSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/XakuCosmosSkin.png",
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/BrokenFrame/XakuCosmosHelmet",
+            "/Lotus/Upgrades/Skins/BrokenFrame/XakuCosmosAltHelmet"
+        ]
     },
     "/Lotus/Upgrades/Skins/BrokenFrame/XakuDeluxeHelmet": {
         "name": "/Lotus/Language/Skins/XakuDeluxeHelmetName",
@@ -8151,6 +8185,13 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/TennoCon2021Ephemera.png",
         "productCategory": "WeaponSkins"
     },
+    "/Lotus/Upgrades/Skins/Effects/Twitch2023Ephemera": {
+        "name": "/Lotus/Language/Ephemera/Twitch2023EphemeraName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Ephemera/Twitch2023EphemeraDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/Twitch2023Ephemera.png",
+        "productCategory": "WeaponSkins"
+    },
     "/Lotus/Upgrades/Skins/Effects/TwitchEphemera": {
         "name": "/Lotus/Language/Cosmetics/TwitchEphemeraName",
         "codexSecret": false,
@@ -8199,6 +8240,13 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Cosmetics/XakuDeluxeEphemeraDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/XakuDeluxeEphemera.png",
+        "productCategory": "WeaponSkins"
+    },
+    "/Lotus/Upgrades/Skins/Effects/YareliPrimeEphemera": {
+        "name": "/Lotus/Language/Primes/YareliPrimeEphemeraName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Primes/YareliPrimeEphemeraDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/YareliPrimeEphemera.png",
         "productCategory": "WeaponSkins"
     },
     "/Lotus/Upgrades/Skins/EliteAlerts/EliteAlertAmprex": {
@@ -8677,7 +8725,8 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/HumanSkins/WF1999ExcaliburSkin.png",
         "productCategory": "WeaponSkins",
         "additionalItems": [
-            "/Lotus/Types/Items/Emotes/LegendaryArthurEmote"
+            "/Lotus/Types/Items/Emotes/LegendaryArthurEmote",
+            "/Lotus/Types/Items/Emotes/GeminiEmote"
         ]
     },
     "/Lotus/Upgrades/Skins/Excalibur/ExcaliburNobleAnims": {
@@ -9590,6 +9639,7 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/HumanSkins/WF1999FrostSkin.png",
         "productCategory": "WeaponSkins",
         "additionalItems": [
+            "/Lotus/Types/Items/Emotes/GeminiEmote",
             "/Lotus/Types/Items/Emotes/LegendaryVelimirEmote"
         ]
     },
@@ -9646,6 +9696,7 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/HumanSkins/WF1999FrumentariusSkin.png",
         "productCategory": "WeaponSkins",
         "additionalItems": [
+            "/Lotus/Types/Items/Emotes/GeminiEmote",
             "/Lotus/Types/Items/Emotes/LegendaryQuincyEmote"
         ]
     },
@@ -12414,6 +12465,7 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/HumanSkins/WF1999NyxSkin.png",
         "productCategory": "WeaponSkins",
         "additionalItems": [
+            "/Lotus/Types/Items/Emotes/GeminiEmote",
             "/Lotus/Types/Items/Emotes/LegendaryEleanorEmote"
         ]
     },
@@ -13934,6 +13986,7 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/HumanSkins/WF1999MagSkin.png",
         "productCategory": "WeaponSkins",
         "additionalItems": [
+            "/Lotus/Types/Items/Emotes/GeminiEmote",
             "/Lotus/Types/Items/Emotes/LegendaryAoiEmote"
         ]
     },
@@ -14189,6 +14242,13 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Items/PyraSugatraDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Sugatras/PyraSugatra.png",
+        "productCategory": "WeaponSkins"
+    },
+    "/Lotus/Upgrades/Skins/MeleeDangles/FireMeleeDangleRefresh": {
+        "name": "/Lotus/Language/Cosmetics/OpulaPyraSugatraName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Cosmetics/OpulaPyraSugatraDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Sugatras/FireMeleeDangleRefresh.png",
         "productCategory": "WeaponSkins"
     },
     "/Lotus/Upgrades/Skins/MeleeDangles/GrnMeleeDangle": {
@@ -15415,6 +15475,27 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Skins/CephPolearmSkinDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Skins/CephPolearmSkin.png",
+        "productCategory": "WeaponSkins"
+    },
+    "/Lotus/Upgrades/Skins/Nightwave/CosmosArcaTitronSkin": {
+        "name": "/Lotus/Language/Skins/CosmosArcaTitronSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Skins/CosmosArcaTitronSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Skins/CosmosArcaTitronSkin.png",
+        "productCategory": "WeaponSkins"
+    },
+    "/Lotus/Upgrades/Skins/Nightwave/CosmosBurstonSkin": {
+        "name": "/Lotus/Language/Skins/CosmosBurstonSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Skins/CosmosBurstonSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Skins/BurstonCosmosSkin.png",
+        "productCategory": "WeaponSkins"
+    },
+    "/Lotus/Upgrades/Skins/Nightwave/CosmosEpitaphSkin": {
+        "name": "/Lotus/Language/Skins/CosmosEpitaphSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Skins/CosmosEpitaphSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Skins/EpitaphCosmosSkin.png",
         "productCategory": "WeaponSkins"
     },
     "/Lotus/Upgrades/Skins/Nightwave/DayBreakGlaiveSkin": {
@@ -20615,6 +20696,39 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/TnRailjackDataKnife.png",
         "productCategory": "WeaponSkins"
     },
+    "/Lotus/Upgrades/Skins/PaxDuviricus/KulervoDeluxeHelmet": {
+        "name": "/Lotus/Language/Skins/KullervoDeluxeHelmetName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Skins/KullervoDeluxeHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/KullervoDeluxeHelmet.png",
+        "productCategory": "WeaponSkins"
+    },
+    "/Lotus/Upgrades/Skins/PaxDuviricus/KulervoDeluxeSkin": {
+        "name": "/Lotus/Language/Skins/KullervoDeluxeSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Skins/KullervoDeluxeSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/KullervoDeluxeSkin.png",
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/PaxDuviricus/KulervoDeluxeHelmet",
+            "/Lotus/Upgrades/Skins/PaxDuviricus/KullervoDeluxeBodyBlades",
+            "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/KullervoDeluxeArmArmor"
+        ]
+    },
+    "/Lotus/Upgrades/Skins/PaxDuviricus/KullervoDeluxeBodyBlades": {
+        "name": "/Lotus/Language/Skins/KullervoDeluxeBladesName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Skins/KullervoDeluxeBladesDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/KullervoDeluxeSkin.png",
+        "productCategory": "WeaponSkins"
+    },
+    "/Lotus/Upgrades/Skins/PaxDuviricus/KullervoDeluxeSparringSkin": {
+        "name": "/Lotus/Language/Skins/KullervoDeluxeSparringSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Skins/KullervoDeluxeSparringSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Skins/KullervoDeluxeSparringSkin.png",
+        "productCategory": "WeaponSkins"
+    },
     "/Lotus/Upgrades/Skins/PaxDuviricus/KullervoTwoHandedSwordSkin": {
         "name": "/Lotus/Language/Skins/KullervoTwoHandedSwordSkinName",
         "codexSecret": false,
@@ -23720,6 +23834,22 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Misc/WF1999SarynAux.png",
         "productCategory": "WeaponSkins"
     },
+    "/Lotus/Upgrades/Skins/Saryn/WF1999SarynAuxHatClosed": {
+        "name": "/Lotus/Language/Skins/WF1999SarynHatClosedName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Skins/WF1999SarynHatDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Misc/WF1999SarynAuxClosed.png",
+        "productCategory": "WeaponSkins"
+    },
+    "/Lotus/Upgrades/Skins/Saryn/WF1999SarynHelmet": {
+        "name": "/Lotus/Language/Primes/SarynPrimeHelmetName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Primes/SarynPrimeHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/SarynPrimeHelmet.png",
+        "productCategory": "WeaponSkins"
+    },
     "/Lotus/Upgrades/Skins/Saryn/WF1999SarynSkin": {
         "name": "/Lotus/Language/Skins/WF1999SarynSkinName",
         "codexSecret": false,
@@ -23727,6 +23857,7 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/HumanSkins/WF1999SarynSkin.png",
         "productCategory": "WeaponSkins",
         "additionalItems": [
+            "/Lotus/Types/Items/Emotes/GeminiEmote",
             "/Lotus/Types/Items/Emotes/LegendaryMinervaEmote"
         ]
     },
@@ -23925,6 +24056,13 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Items/FlameScarfDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/Pyra.png",
+        "productCategory": "WeaponSkins"
+    },
+    "/Lotus/Upgrades/Skins/Scarves/FlameScarfRefresh": {
+        "name": "/Lotus/Language/Cosmetics/OpulaFlameScarfName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Cosmetics/OpulaFlameScarfDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/FlameScarfRefresh.png",
         "productCategory": "WeaponSkins"
     },
     "/Lotus/Upgrades/Skins/Scarves/GarudaCape": {
@@ -24197,6 +24335,13 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/KhoraPrimeSyandana.png",
         "productCategory": "WeaponSkins"
     },
+    "/Lotus/Upgrades/Skins/Scarves/KulervoDeluxeSyandana": {
+        "name": "/Lotus/Language/Cosmetics/KullervoDeluxeSyandanaName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Cosmetics/KullervoDeluxeSyandanaDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/KullervoDeluxeSyandana.png",
+        "productCategory": "WeaponSkins"
+    },
     "/Lotus/Upgrades/Skins/Scarves/LimboDeluxeCape": {
         "name": "/Lotus/Language/Cosmetics/LimboDeluxeCapeName",
         "codexSecret": false,
@@ -24463,6 +24608,13 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Primes/LimboPrimeCapeDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/ObliviaPrime.png",
+        "productCategory": "WeaponSkins"
+    },
+    "/Lotus/Upgrades/Skins/Scarves/PrimeMerulinaSyandana": {
+        "name": "/Lotus/Language/Primes/PrimeMerulinaSyandanaName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Primes/PrimeMerulinaSyandanaDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/MerulinaPrime.png",
         "productCategory": "WeaponSkins"
     },
     "/Lotus/Upgrades/Skins/Scarves/PrimeNaveScarf": {
@@ -25473,6 +25625,13 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Cosmetics/PyraV2SyandanaDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/PyraTwo.png",
+        "productCategory": "WeaponSkins"
+    },
+    "/Lotus/Upgrades/Skins/Scarves/TnRailjackCosmosSyandana": {
+        "name": "/Lotus/Language/Cosmetics/TnRailjackCosmosSyandanaName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Cosmetics/TnRailjackCosmosSyandanaDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/SigmaCosmosSyandana.png",
         "productCategory": "WeaponSkins"
     },
     "/Lotus/Upgrades/Skins/Scarves/TnRailjackSyandana": {
@@ -27215,6 +27374,13 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Sigils/CorpusLichSigilDesc",
         "icon": "/Lotus/Interface/Icons/Sigils/CorpusLichSigil.png",
+        "productCategory": "WeaponSkins"
+    },
+    "/Lotus/Upgrades/Skins/Sigils/CosmosSigil": {
+        "name": "/Lotus/Language/Sigils/CosmosSigilName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Sigils/CosmosSigilDesc",
+        "icon": "/Lotus/Interface/Icons/Sigils/CosmosRiftSigil.png",
         "productCategory": "WeaponSkins"
     },
     "/Lotus/Upgrades/Skins/Sigils/Cyte09Sigil": {
@@ -29698,6 +29864,7 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/HumanSkins/WF1999TempleSkin.png",
         "productCategory": "WeaponSkins",
         "additionalItems": [
+            "/Lotus/Types/Items/Emotes/GeminiEmote",
             "/Lotus/Types/Items/Emotes/LegendaryFlareEmote"
         ]
     },
@@ -30690,6 +30857,7 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/HumanSkins/WF1999TrinitySkin.png",
         "productCategory": "WeaponSkins",
         "additionalItems": [
+            "/Lotus/Types/Items/Emotes/GeminiEmote",
             "/Lotus/Types/Items/Emotes/LegendaryLettieEmote"
         ]
     },
@@ -31231,6 +31399,7 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/HumanSkins/WF1999VoltSkin.png",
         "productCategory": "WeaponSkins",
         "additionalItems": [
+            "/Lotus/Types/Items/Emotes/GeminiEmote",
             "/Lotus/Types/Items/Emotes/LegendaryAmirEmote"
         ]
     },
@@ -32117,11 +32286,25 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Skins/KompressaDeluxeSkin.png",
         "productCategory": "WeaponSkins"
     },
+    "/Lotus/Upgrades/Skins/Yareli/MerulinaBoard": {
+        "name": "/Lotus/Language/Suits/YareliBoardAbilityName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/ExaltedWeapons/YareliBoard.png",
+        "productCategory": "WeaponSkins"
+    },
     "/Lotus/Upgrades/Skins/Yareli/MerulinaDeluxe": {
         "name": "/Lotus/Language/Suits/MerulinaDeluxeName",
         "codexSecret": false,
         "description": "/Lotus/Language/Suits/MerulinaDeluxeDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/ExaltedWeapons/MerulinaDeluxeSkin.png",
+        "productCategory": "WeaponSkins"
+    },
+    "/Lotus/Upgrades/Skins/Yareli/PrimeMerulinaBoard": {
+        "name": "/Lotus/Language/Primes/YareliPrimeBoardAbilityName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/ExaltedWeapons/MerulinaPrime.png",
         "productCategory": "WeaponSkins"
     },
     "/Lotus/Upgrades/Skins/Yareli/SWBatomorphaHelmet": {
@@ -32177,6 +32360,21 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/Cosmetics/YareliNobleAnimsDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/AnimationSets/YareliNoble.png",
+        "productCategory": "WeaponSkins"
+    },
+    "/Lotus/Upgrades/Skins/Yareli/YareliPrimeHelmet": {
+        "name": "/Lotus/Language/Primes/YareliPrimeHelmetName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Primes/YareliPrimeHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/YareliPrimeHelmet.png",
+        "productCategory": "WeaponSkins"
+    },
+    "/Lotus/Upgrades/Skins/Yareli/YareliPrimeSkin": {
+        "name": "/Lotus/Language/Primes/YareliPrimeDefaultSkinName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Primes/YareliPrimeDefaultSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/YareliPrime.png",
         "productCategory": "WeaponSkins"
     },
     "/Lotus/Upgrades/Skins/Yareli/YareliSkin": {

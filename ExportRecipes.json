@@ -8768,6 +8768,34 @@
         ],
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Recipes/Helmets/TempleAltHelmetBlueprint": {
+        "resultType": "/Lotus/Upgrades/Skins/Temple/TempleAltHelmet",
+        "buildPrice": 20000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                "ItemCount": 1500
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                "ItemCount": 1200
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
+                "ItemCount": 500
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Alertium",
+                "ItemCount": 2
+            }
+        ],
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Recipes/Helmets/TrinityAltHelmetBlueprint": {
         "resultType": "/Lotus/Upgrades/Skins/Trinity/TrinityHelmetAlt",
         "buildPrice": 20000,
@@ -25569,6 +25597,122 @@
         ],
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Recipes/WarframeRecipes/YareliPrimeBlueprint": {
+        "resultType": "/Lotus/Powersuits/Yareli/YareliPrime",
+        "buildPrice": 25000,
+        "buildTime": 259200,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "primeSellingPrice": 45,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/YareliPrimeHelmetComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/YareliPrimeChassisComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/YareliPrimeSystemsComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 5
+            }
+        ],
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/YareliPrimeChassisBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/WarframeRecipes/YareliPrimeChassisComponent",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "primeSellingPrice": 15,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Alertium",
+                "ItemCount": 2
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Tellurium",
+                "ItemCount": 2
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                "ItemCount": 3600
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+                "ItemCount": 300
+            }
+        ],
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/YareliPrimeHelmetBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/WarframeRecipes/YareliPrimeHelmetComponent",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "primeSellingPrice": 100,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                "ItemCount": 3
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+                "ItemCount": 250
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                "ItemCount": 350
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                "ItemCount": 4250
+            }
+        ],
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/YareliPrimeSystemsBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/WarframeRecipes/YareliPrimeSystemsComponent",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "primeSellingPrice": 100,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                "ItemCount": 2
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                "ItemCount": 3
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Cryotic",
+                "ItemCount": 550
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                "ItemCount": 3175
+            }
+        ],
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Recipes/WarframeRecipes/YareliSystemsBlueprint": {
         "resultType": "/Lotus/Types/Recipes/WarframeRecipes/YareliSystemsComponent",
         "buildPrice": 15000,
@@ -35129,6 +35273,31 @@
         ],
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Recipes/Weapons/KompressaPrimeBlueprint": {
+        "resultType": "/Lotus/Weapons/Tenno/Pistols/PrimeKompressa/PrimeKompressa",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "primeSellingPrice": 15,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/KompressaPrimeBarrel",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/KompressaPrimeReceiver",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 10
+            }
+        ],
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Recipes/Weapons/KronenPrimeBlueprint": {
         "resultType": "/Lotus/Weapons/Tenno/Melee/Tonfa/TonfaContestWinnerPrime/TonfaContestWinnerPrimeWeapon",
         "buildPrice": 15000,
@@ -36346,6 +36515,35 @@
             {
                 "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
                 "ItemCount": 15
+            }
+        ],
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/Weapons/PrimeDaikyuBlueprint": {
+        "resultType": "/Lotus/Weapons/Tenno/Bows/PrimeDaikyu/PrimeDaikyuBow",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "primeSellingPrice": 15,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeDaikyuLowerLimb",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeDaikyuUpperLimb",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeDaikyuGrip",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeDaikyuString",
+                "ItemCount": 1
             }
         ],
         "excludeFromMarket": true
@@ -47886,7 +48084,8 @@
                 "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
                 "ItemCount": 570
             }
-        ]
+        ],
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/GrendelNourishBlueprint": {
         "resultType": "/Lotus/Powersuits/PowersuitAbilities/DevourerConsumeAbility",

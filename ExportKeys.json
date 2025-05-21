@@ -560,7 +560,16 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Syndicates/LibraryTitle",
+                    "title": "/Lotus/Language/G1Quests/DailySimarisTaskIntroSubject",
+                    "body": "/Lotus/Language/G1Quests/DailySimarisTaskIntroBody",
+                    "attachments": [],
+                    "countedAttachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Special/Simaris.png",
+                    "transmission": "/Lotus/Sounds/Dialog/Sanctuary/SanctuaryDailies/DSancInboxSmrs"
+                }
             }
         ],
         "rewards": [
@@ -2146,7 +2155,16 @@
             {
                 "itemsToGiveWhenTriggered": [
                     "/Lotus/StoreItems/Types/Items/ShipFeatureItems/ArsenalFeatureItem"
-                ]
+                ],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/Ordis",
+                    "title": "/Lotus/Language/G1Quests/MirageQuestInboxATitle",
+                    "body": "/Lotus/Language/G1Quests/MirageQuestInboxAMessage",
+                    "attachments": [],
+                    "countedAttachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Ordis.png",
+                    "highPriority": true
+                }
             },
             {
                 "key": "/Lotus/Types/Keys/MirageQuest/MissionOne",
@@ -2156,7 +2174,16 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/Ordis",
+                    "title": "/Lotus/Language/G1Quests/MirageQuestInboxBTitle",
+                    "body": "/Lotus/Language/G1Quests/MirageQuestInboxBMessage",
+                    "attachments": [],
+                    "countedAttachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Ordis.png",
+                    "highPriority": true
+                }
             },
             {
                 "key": "/Lotus/Types/Keys/MirageQuest/MissionTwo",
@@ -2166,7 +2193,16 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/Ordis",
+                    "title": "/Lotus/Language/G1Quests/MirageQuestInboxCTitle",
+                    "body": "/Lotus/Language/G1Quests/MirageQuestInboxCMessage",
+                    "attachments": [],
+                    "countedAttachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Ordis.png",
+                    "highPriority": true
+                }
             },
             {
                 "key": "/Lotus/Types/Keys/MirageQuest/MissionThree",
@@ -2176,7 +2212,16 @@
                 "itemsToGiveWhenTriggered": []
             },
             {
-                "itemsToGiveWhenTriggered": []
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/Ordis",
+                    "title": "/Lotus/Language/G1Quests/MirageQuestInboxDTitle",
+                    "body": "/Lotus/Language/G1Quests/MirageQuestInboxDMessage",
+                    "attachments": [],
+                    "countedAttachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Ordis.png",
+                    "highPriority": true
+                }
             }
         ]
     },
@@ -4576,6 +4621,30 @@
             "droptable": "/Lotus/Types/Game/MissionDecks/BossMissionRewards/CowgirlRewards"
         }
     },
+    "/Lotus/Types/Keys/1999Missions/VaniaCaptureFallTestKey": {
+        "name": "VANIA SURVIVAL TEST KEY",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/1999Missions/VaniaCaptureSpringTestKey": {
+        "name": "VANIA SURVIVAL TEST KEY",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/1999Missions/VaniaCaptureSummerTestKey": {
+        "name": "VANIA SURVIVAL TEST KEY",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/1999Missions/VaniaCaptureWinterTestKey": {
+        "name": "VANIA SURVIVAL TEST KEY",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
     "/Lotus/Types/Keys/1999PlayableDemo/1999PlayableDemoMallKey": {
         "name": "/Lotus/Language/1999Demo/1999DemoTitle",
         "parentName": "/Lotus/Types/Game/KeyItem",
@@ -4712,6 +4781,15 @@
     },
     "/Lotus/Types/Keys/DisruptionMoonTestKey": {
         "name": "DISRUPTION MOON TEST KEY",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionRewards"
+        },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DisruptionOutpostTestKey": {
+        "name": "DISRUPTION OUTPOST TEST KEY",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
         "missionReward": {
@@ -5249,17 +5327,6 @@
         "excludeFromCodex": true,
         "missionReward": {
             "droptable": "/Lotus/Types/Game/MissionDecks/EventMissionRewards/MechSurvivalRewardsTierC"
-        },
-        "rewards": []
-    },
-    "/Lotus/Types/Keys/MechSurvivalMissionTest": {
-        "name": "/Lotus/Language/Events/MechSurvivalName",
-        "description": "/Lotus/Language/Events/MechSurvivalDesc",
-        "parentName": "/Lotus/Types/Keys/TestKeyA",
-        "codexSecret": true,
-        "excludeFromCodex": true,
-        "missionReward": {
-            "droptable": "/Lotus/Types/Game/MissionDecks/EventMissionRewards/MechSurvivalRewardsTierA"
         },
         "rewards": []
     },
@@ -5938,13 +6005,6 @@
     },
     "/Lotus/Types/Keys/RaidKeys/BaseRaidKey": {
         "parentName": "/Lotus/Types/Game/KeyItem",
-        "codexSecret": true,
-        "rewards": []
-    },
-    "/Lotus/Types/Keys/RaidKeys/Raid01Stage01KeyItem": {
-        "name": "/Lotus/Language/Items/GrineerTrialsName",
-        "description": "/Lotus/Language/Items/GrineerTrialsDesc",
-        "parentName": "/Lotus/Types/Keys/RaidKeys/BaseRaidKey",
         "codexSecret": true,
         "rewards": []
     },
@@ -6951,12 +7011,6 @@
         "codexSecret": true,
         "rewards": []
     },
-    "/Lotus/Types/Keys/TestKeyEidolon": {
-        "name": "/Lotus/Language/Locations/EidolonPlains",
-        "parentName": "/Lotus/Types/Game/KeyItem",
-        "codexSecret": true,
-        "rewards": []
-    },
     "/Lotus/Types/Keys/TestKeyErisBoss": {
         "name": "/Lotus/Language/Items/GolemAssassinateKey",
         "description": "/Lotus/Language/ItemDescription/GolemAssassinateKeyDesc",
@@ -7779,12 +7833,6 @@
         "missionReward": {
             "droptable": "/Lotus/Types/Game/MissionDecks/BossMissionRewards/HydroidRewards"
         },
-        "rewards": []
-    },
-    "/Lotus/Types/Keys/WareframeKey": {
-        "name": "Space Ninja Warrior",
-        "parentName": "/Lotus/Types/Game/KeyItem",
-        "codexSecret": true,
         "rewards": []
     },
     "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyTeshinCaptureC": {

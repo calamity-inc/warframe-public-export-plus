@@ -128,13 +128,6 @@
             ],
             "techPrereq": "/Lotus/Types/Game/SpectreArmies/BronzeSpectreArmyBlueprint"
         },
-        "/Lotus/Types/Game/DojoColorRecipeItem": {
-            "price": 1000000,
-            "time": 259200,
-            "skipTimePrice": 750,
-            "replicatePrice": 15000,
-            "ingredients": []
-        },
         "/Lotus/Types/Items/Research/DojoColors/DojoColorDuviriA": {
             "price": 1000000,
             "time": 129600,
@@ -12245,36 +12238,6 @@
             "energy": -5,
             "decoCapacity": 1600
         },
-        "/Lotus/Levels/ClanDojo/ComponentRecipes/DojoGrineerSettlementRecipe": {
-            "resultType": "/Lotus/Levels/ClanDojo/ClanDojoGrineerSettlement.level",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Dojo/Rooms/InfestedChamber.png",
-            "price": 100000,
-            "time": 86400,
-            "skipTimePrice": 1500,
-            "ingredients": [
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
-                    "ItemCount": 80000
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
-                    "ItemCount": 20000
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
-                    "ItemCount": 50000
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Forma",
-                    "ItemCount": 5
-                }
-            ],
-            "destructionTime": 7200,
-            "capacity": 200,
-            "energy": -5,
-            "decoCapacity": 1600,
-            "hidden": true
-        },
         "/Lotus/Levels/ClanDojo/ComponentRecipes/DojoHallRecipe": {
             "resultType": "/Lotus/Levels/ClanDojo/DojoHall.level",
             "icon": "/Lotus/Interface/Graphics/Dojo/DojoHall.png",
@@ -12390,36 +12353,6 @@
             "capacity": -2,
             "energy": -4,
             "decoCapacity": 400
-        },
-        "/Lotus/Levels/ClanDojo/ComponentRecipes/DojoOrokinMoonRecipe": {
-            "resultType": "/Lotus/Levels/ClanDojo/ClanDojoOrokinMoon.level",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Dojo/Rooms/InfestedChamber.png",
-            "price": 100000,
-            "time": 86400,
-            "skipTimePrice": 1500,
-            "ingredients": [
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
-                    "ItemCount": 80000
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
-                    "ItemCount": 20000
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
-                    "ItemCount": 50000
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Forma",
-                    "ItemCount": 5
-                }
-            ],
-            "destructionTime": 7200,
-            "capacity": 200,
-            "energy": -5,
-            "decoCapacity": 1600,
-            "hidden": true
         },
         "/Lotus/Levels/ClanDojo/ComponentRecipes/DojoOrokinTowerRecipe": {
             "resultType": "/Lotus/Levels/ClanDojo/ClanDojoOrokinTower.level",
@@ -12566,36 +12499,6 @@
             "capacity": -2,
             "energy": -5,
             "decoCapacity": 300
-        },
-        "/Lotus/Levels/ClanDojo/ComponentRecipes/DojoVenusRecipe": {
-            "resultType": "/Lotus/Levels/ClanDojo/ClanDojoVenus.level",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Dojo/Rooms/InfestedChamber.png",
-            "price": 100000,
-            "time": 86400,
-            "skipTimePrice": 1500,
-            "ingredients": [
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
-                    "ItemCount": 80000
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
-                    "ItemCount": 20000
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
-                    "ItemCount": 50000
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Forma",
-                    "ItemCount": 5
-                }
-            ],
-            "destructionTime": 7200,
-            "capacity": 200,
-            "energy": -5,
-            "decoCapacity": 1600,
-            "hidden": true
         },
         "/Lotus/Levels/ClanDojo/ComponentRecipes/EntratiOrokinRecipe": {
             "resultType": "/Lotus/Levels/ClanDojo/ClanDojoEntratiOrokin.level",
@@ -13160,24 +13063,6 @@
             "capacity": -2,
             "energy": -5,
             "decoCapacity": 800
-        },
-        "/Lotus/Levels/ClanDojo/ComponentRecipes/WarRoomRecipe": {
-            "resultType": "/Lotus/Levels/ClanDojo/WarRoomB.level",
-            "icon": "/Lotus/Interface/Graphics/Dojo/ClanConnectorElbowA.png",
-            "price": 10,
-            "time": 10,
-            "skipTimePrice": 10,
-            "ingredients": [
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
-                    "ItemCount": 1
-                }
-            ],
-            "destructionTime": 10,
-            "capacity": -1,
-            "energy": -1,
-            "decoCapacity": 300,
-            "hidden": true
         },
         "/Lotus/Levels/Hub/ComponentRecipes/TennoHubRentalLargeRecipe": {
             "resultType": "/Lotus/Levels/Hub/TennoHubRentalLarge.level",
@@ -18651,32 +18536,6 @@
                 },
                 {
                     "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
-                    "ItemCount": 7
-                }
-            ],
-            "capacityCost": 1
-        },
-        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/DuviriPlaceables/DuviriPlaceables2ndRelease/DUVxChairC": {
-            "resultType": "/Lotus/Objects/Tenno/Props/DuviriPlaceables/DuviriPlaceables2ndRelease/DUVxChairC",
-            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/DuviriPlaceables/DuviriPlaceables2ndRelease/DUVxChairCBrown.png",
-            "price": 50000,
-            "time": 86400,
-            "skipTimePrice": 750,
-            "ingredients": [
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
-                    "ItemCount": 30000
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
-                    "ItemCount": 20000
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
-                    "ItemCount": 10000
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
                     "ItemCount": 7
                 }
             ],
@@ -38277,32 +38136,6 @@
                 },
                 {
                     "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
-                    "ItemCount": 10000
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
-                    "ItemCount": 7
-                }
-            ],
-            "capacityCost": 1
-        },
-        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/NaturalPlaceables/CoralChunkARecipe": {
-            "resultType": "/Lotus/Objects/Tenno/Props/NaturalPlaceables/CoralChunkA",
-            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/NaturalPlaceables/CoralChunkA.png",
-            "price": 50000,
-            "time": 86400,
-            "skipTimePrice": 750,
-            "ingredients": [
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
-                    "ItemCount": 30000
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
-                    "ItemCount": 20000
-                },
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Rubedo",
                     "ItemCount": 10000
                 },
                 {
@@ -66630,32 +66463,6 @@
             ],
             "capacityCost": 3
         },
-        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/EntratiEventBaseTrophyRecipe": {
-            "resultType": "/Lotus/Objects/Events/Entrati/EntratiEventTrophyBase",
-            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/AmbulasEventTrophyBronze.png",
-            "price": 1000000,
-            "time": 86400,
-            "skipTimePrice": 1500,
-            "ingredients": [
-                {
-                    "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/MurmurItem",
-                    "ItemCount": 500
-                },
-                {
-                    "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemA",
-                    "ItemCount": 2500
-                },
-                {
-                    "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemB",
-                    "ItemCount": 2500
-                },
-                {
-                    "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
-                    "ItemCount": 100
-                }
-            ],
-            "capacityCost": 3
-        },
         "/Lotus/Levels/ClanDojo/ComponentPropRecipes/EntratiEventBronzeTrophyRecipe": {
             "resultType": "/Lotus/Objects/Events/Entrati/EntratiEventTrophyBronze",
             "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/EventPlaceables/EntratiEventTrophyBronze.png",
@@ -67536,32 +67343,6 @@
                 {
                     "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
                     "ItemCount": 16
-                }
-            ],
-            "capacityCost": 3
-        },
-        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/JadeShadowsEventBaseTrophyRecipe": {
-            "resultType": "/Lotus/Objects/Events/JadeShadows/JadeShadowsEventTrophyBase",
-            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/AmbulasEventTrophyBronze.png",
-            "price": 1000000,
-            "time": 86400,
-            "skipTimePrice": 1500,
-            "ingredients": [
-                {
-                    "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/MurmurItem",
-                    "ItemCount": 500
-                },
-                {
-                    "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemA",
-                    "ItemCount": 2500
-                },
-                {
-                    "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemB",
-                    "ItemCount": 2500
-                },
-                {
-                    "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
-                    "ItemCount": 100
                 }
             ],
             "capacityCost": 3
@@ -69599,62 +69380,6 @@
                 {
                     "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
                     "ItemCount": 7
-                }
-            ],
-            "capacityCost": 3
-        },
-        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/ThumperTrophyBronzeRecipe": {
-            "resultType": "/Lotus/Objects/Festivities/ThumperTrophyBronze",
-            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/ShipyardsEventTrophyBronze.png",
-            "price": 1000000,
-            "time": 86400,
-            "skipTimePrice": 1500,
-            "ingredients": [
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/ThumperEventCrystal",
-                    "ItemCount": 25
-                }
-            ],
-            "capacityCost": 3
-        },
-        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/ThumperTrophyCrystalRecipe": {
-            "resultType": "/Lotus/Objects/Festivities/ThumperTrophyCrystal",
-            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/ShipyardsEventTrophyBronze.png",
-            "price": 1000000,
-            "time": 86400,
-            "skipTimePrice": 1500,
-            "ingredients": [
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/ThumperEventCrystal",
-                    "ItemCount": 10
-                }
-            ],
-            "capacityCost": 3
-        },
-        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/ThumperTrophyGoldRecipe": {
-            "resultType": "/Lotus/Objects/Festivities/ThumperTrophyGold",
-            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/ShipyardsEventTrophyBronze.png",
-            "price": 1000000,
-            "time": 86400,
-            "skipTimePrice": 1500,
-            "ingredients": [
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/ThumperEventCrystal",
-                    "ItemCount": 100
-                }
-            ],
-            "capacityCost": 3
-        },
-        "/Lotus/Levels/ClanDojo/ComponentPropRecipes/ThumperTrophySilverRecipe": {
-            "resultType": "/Lotus/Objects/Festivities/ThumperTrophySilver",
-            "icon": "/Lotus/Interface/Graphics/Dojo/DojoDecorations/ShipyardsEventTrophyBronze.png",
-            "price": 1000000,
-            "time": 86400,
-            "skipTimePrice": 1500,
-            "ingredients": [
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/ThumperEventCrystal",
-                    "ItemCount": 50
                 }
             ],
             "capacityCost": 3

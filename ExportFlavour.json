@@ -6594,6 +6594,20 @@
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true
     },
+    "/Lotus/Types/StoreItems/AvatarImages/Primes/ImageYareliPrimeBright": {
+        "name": "/Lotus/Language/Primes/AvatarYareliPrimeBrightName",
+        "description": "/Lotus/Language/Primes/AvatarYareliPrimeBrightDesc",
+        "icon": "/Lotus/Interface/Icons/Player/YareliPrimeAvatarBright.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Primes/ImageYareliPrimeDark": {
+        "name": "/Lotus/Language/Primes/AvatarYareliPrimeDarkName",
+        "description": "/Lotus/Language/Primes/AvatarYareliPrimeDarkDesc",
+        "icon": "/Lotus/Interface/Icons/Player/YareliPrimeAvatarDark.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/ScarletSpear/ImageScarletSpearGroundI": {
         "name": "/Lotus/Language/Glyphs/ImageScarletSpearGroundIName",
         "description": "/Lotus/Language/Glyphs/ImageScarletSpearGroundIDesc",
@@ -7209,6 +7223,13 @@
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true
     },
+    "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageKullervoDeluxe": {
+        "name": "/Lotus/Language/Glyphs/AvatarImageKullervoDeluxeName",
+        "description": "/Lotus/Language/Glyphs/AvatarImageKullervoDeluxeDesc",
+        "icon": "/Lotus/Interface/Icons/Player/KullervoDeluxeAvatar.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageMesaDeluxeB": {
         "name": "/Lotus/Language/Glyphs/MesaDeluxeBGlyphName",
         "description": "/Lotus/Language/Glyphs/MesaDeluxeBGlyphDesc",
@@ -7504,10 +7525,24 @@
         "codexSecret": true,
         "excludeFromCodex": true
     },
+    "/Lotus/Types/StoreItems/AvatarImages/Warframes/KoumeiDiceGlyph": {
+        "name": "/Lotus/Language/Glyphs/KoumeiDiceGlyphName",
+        "description": "/Lotus/Language/Glyphs/KoumeiDiceGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/KoumeiDieGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/Warframes/KoumeiSupporterGlyph": {
         "name": "/Lotus/Language/Glyphs/KoumeiSupporterGlyphName",
         "description": "/Lotus/Language/Glyphs/KoumeiSupporterGlyphDesc",
         "icon": "/Lotus/Interface/Icons/Player/KoumeiGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Warframes/KullervoActionGlyph": {
+        "name": "/Lotus/Language/Glyphs/KullervoActionGlyphName",
+        "description": "/Lotus/Language/Glyphs/GenericGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/VEDKullervo.png",
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true
     },
@@ -7522,6 +7557,13 @@
         "name": "/Lotus/Language/Glyphs/VorunaActionGlyphName",
         "description": "/Lotus/Language/Glyphs/GenericGlyphDesc",
         "icon": "/Lotus/Interface/Icons/Player/VorunaInActionFinal.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImage2025GCX": {
+        "name": "/Lotus/Language/Glyphs/2025GCXGlyphName",
+        "description": "/Lotus/Language/Glyphs/GamingCommunityExpoGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/2025GCX.png",
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true
     },
@@ -9203,6 +9245,13 @@
         "name": "/Lotus/Language/Items/NekrosCalacaGlyphName",
         "description": "/Lotus/Language/Glyphs/GenericGlyphDesc",
         "icon": "/Lotus/Interface/Icons/Player/GlyphNekton.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageNightaveCosmos": {
+        "name": "/Lotus/Language/Glyphs/AvatarImageNightwaveCosmosName",
+        "description": "/Lotus/Language/Glyphs/AvatarImageNightwaveCosmosDesc",
+        "icon": "/Lotus/Interface/Icons/Player/XakuCosmos.png",
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true
     },
@@ -36306,6 +36355,13 @@
         "name": "/Lotus/Language/Zariman/ZarimanShipSkinCName",
         "description": "/Lotus/Language/Zariman/ZarimanShipSkinCDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Ships/ZarimanShipSkinC.png",
+        "base": "/Lotus/Types/Items/ShipExteriorSkinItem",
+        "codexSecret": false
+    },
+    "/Lotus/Upgrades/Skins/Liset/ZarimanShip/LisetZarimanShipSkinCosmos": {
+        "name": "/Lotus/Language/Zariman/ZarimanShipSkinCosmosName",
+        "description": "/Lotus/Language/Zariman/ZarimanShipSkinCosmosDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Skins/ZarimanShipSkinCosmos.png",
         "base": "/Lotus/Types/Items/ShipExteriorSkinItem",
         "codexSecret": false
     },

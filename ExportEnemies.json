@@ -6053,20 +6053,6 @@
                 }
             ]
         },
-        "/Lotus/Types/Enemies/Corrupted/CorruptedGrineerBaseAgent": {
-            "baseLevel": 1,
-            "avatarTypes": {
-                "STANDARD": "/Lotus/Types/Enemies/Corrupted/Avatars/CorruptedGrineerBaseAvatar"
-            },
-            "items": [
-                {
-                    "type": "/Lotus/Weapons/Tenno/Grenades/NpcOrokinThrowGrenadeWeapon"
-                },
-                {
-                    "type": "/Lotus/Weapons/Grineer/GrineerRifle/Rifle"
-                }
-            ]
-        },
         "/Lotus/Types/Enemies/Duviri/Dax/DuviriAshigaruAgent": {
             "baseLevel": 1,
             "avatarTypes": {
@@ -6747,21 +6733,6 @@
                 }
             ]
         },
-        "/Lotus/Types/Enemies/Grineer/AIWeek/AuraRifleLancer": {
-            "baseLevel": 1,
-            "avatarTypes": {
-                "STANDARD": "/Lotus/Types/Enemies/Grineer/AIWeek/Avatars/AuraRifleLancerAvatar",
-                "RARE": "/Lotus/Types/Enemies/Grineer/AIWeek/Avatars/EliteRifleLancerAvatarRare"
-            },
-            "items": [
-                {
-                    "type": "/Lotus/Weapons/Tenno/Grenades/EliteGrineerNpcThrowGrenadeWeapon"
-                },
-                {
-                    "type": "/Lotus/Weapons/Grineer/LongGuns/BurstRifle/AIGrnBurstRifle"
-                }
-            ]
-        },
         "/Lotus/Types/Enemies/Grineer/AIWeek/BeastMaster": {
             "baseLevel": 12,
             "avatarTypes": {
@@ -6966,10 +6937,10 @@
             },
             "items": [
                 {
-                    "type": "/Lotus/Weapons/Tenno/Grenades/NpcGrineerThrowGrenadeWeapon"
+                    "type": "/Lotus/Weapons/Tenno/Shotgun/EviseratorWeapon"
                 },
                 {
-                    "type": "/Lotus/Weapons/Tenno/Shotgun/EviseratorWeapon"
+                    "type": "/Lotus/Weapons/Grineer/LineGrenadeLauncher"
                 }
             ]
         },
@@ -7676,10 +7647,10 @@
             },
             "items": [
                 {
-                    "type": "/Lotus/Weapons/Tenno/Grenades/NpcGrineerThrowGrenadeWeapon"
+                    "type": "/Lotus/Weapons/Tenno/Shotgun/EviseratorWeapon"
                 },
                 {
-                    "type": "/Lotus/Weapons/Tenno/Shotgun/EviseratorWeapon"
+                    "type": "/Lotus/Weapons/Grineer/LineGrenadeLauncher"
                 }
             ]
         },
@@ -8000,13 +7971,13 @@
             },
             "items": [
                 {
-                    "type": "/Lotus/Weapons/Tenno/Grenades/NpcGrineerThrowGrenadeIceWeapon"
-                },
-                {
                     "type": "/Lotus/Weapons/Tenno/Shotgun/EidolonEviseratorWeapon"
                 },
                 {
                     "type": "/Lotus/Weapons/Grineer/Eidolon/EidolonAntiAWMissileLauncher"
+                },
+                {
+                    "type": "/Lotus/Weapons/Grineer/LineIceGrenadeLauncher"
                 }
             ]
         },
@@ -8447,17 +8418,17 @@
             ]
         },
         "/Lotus/Types/Enemies/Grineer/Forest/EvisceratorLancer": {
-            "baseLevel": 15,
+            "baseLevel": 1,
             "avatarTypes": {
                 "STANDARD": "/Lotus/Types/Enemies/Grineer/Forest/Avatars/EvisceratorLancerAvatar",
                 "EXIMUS": "/Lotus/Types/Enemies/Grineer/Forest/Avatars/EvisceratorLancerAvatarLeader"
             },
             "items": [
                 {
-                    "type": "/Lotus/Weapons/Tenno/Grenades/NpcGrineerThrowGrenadeWeapon"
+                    "type": "/Lotus/Weapons/Tenno/Shotgun/EviseratorWeapon"
                 },
                 {
-                    "type": "/Lotus/Weapons/Tenno/Shotgun/EviseratorWeapon"
+                    "type": "/Lotus/Weapons/Grineer/LineGrenadeLauncher"
                 }
             ]
         },
@@ -8473,7 +8444,7 @@
                     "type": "/Lotus/Weapons/Tenno/Melee/AIGrineerJatKittagForest"
                 },
                 {
-                    "type": "/Lotus/Powersuits/NpcPowersuits/GrineerChargerSuit"
+                    "type": "/Lotus/Powersuits/NpcPowersuits/ForestGrineerChargerSuit"
                 }
             ]
         },
@@ -8705,10 +8676,10 @@
             },
             "items": [
                 {
-                    "type": "/Lotus/Weapons/Tenno/Grenades/NpcGrineerThrowGrenadeIceWeapon"
+                    "type": "/Lotus/Weapons/Tenno/Shotgun/FortressEviseratorWeapon"
                 },
                 {
-                    "type": "/Lotus/Weapons/Tenno/Shotgun/FortressEviseratorWeapon"
+                    "type": "/Lotus/Weapons/Grineer/LineIceGrenadeLauncher"
                 }
             ]
         },
@@ -8732,10 +8703,10 @@
             },
             "items": [
                 {
-                    "type": "/Lotus/Weapons/Tenno/Melee/AIGrineerJatKittag"
+                    "type": "/Lotus/Weapons/Tenno/Melee/AIFortressGrineerChargerJatKittag"
                 },
                 {
-                    "type": "/Lotus/Powersuits/NpcPowersuits/GrineerChargerSuit"
+                    "type": "/Lotus/Powersuits/NpcPowersuits/FortressGrineerChargerSuit"
                 }
             ]
         },
@@ -10479,10 +10450,10 @@
             },
             "items": [
                 {
-                    "type": "/Lotus/Weapons/Tenno/Grenades/NpcGrineerThrowGrenadeWeapon"
+                    "type": "/Lotus/Weapons/Tenno/Shotgun/EviseratorWeapon"
                 },
                 {
-                    "type": "/Lotus/Weapons/Tenno/Shotgun/EviseratorWeapon"
+                    "type": "/Lotus/Weapons/Grineer/LineGrenadeLauncher"
                 }
             ]
         },
@@ -14313,17 +14284,6 @@
                 }
             ]
         },
-        "/Lotus/Types/Enemies/Sentients/Aerolyst/EidolonAerolystAgent": {
-            "baseLevel": 1,
-            "avatarTypes": {
-                "STANDARD": "/Lotus/Types/Enemies/Sentients/Aerolyst/EidolonAerolystAvatar"
-            },
-            "items": [
-                {
-                    "type": "/Lotus/Powersuits/NpcPowersuits/SentientAerolystSuit"
-                }
-            ]
-        },
         "/Lotus/Types/Enemies/Sentients/Aerolyst/PNWSentientAerolystAgent": {
             "baseLevel": 1,
             "avatarTypes": {
@@ -16568,7 +16528,7 @@
             },
             "items": [
                 {
-                    "type": "/Lotus/Types/Enemies/Stalker/StalkerSuit"
+                    "type": "/Lotus/Types/Enemies/Stalker/StalkerSpecterSuit"
                 },
                 {
                     "type": "/Lotus/Weapons/Tenno/Bows/StalkerBowAI"
@@ -17307,20 +17267,6 @@
             "baseLevel": 1,
             "avatarTypes": {
                 "STANDARD": "/Lotus/Types/Enemies/TennoReplicants/SyndicateAllies/RedVeilAllyAvatarC"
-            },
-            "items": [
-                {
-                    "type": "/Lotus/Weapons/Syndicates/RedVeil/Pistols/RVBallistica"
-                },
-                {
-                    "type": "/Lotus/Weapons/Syndicates/RedVeil/Melee/RVDarkDagger"
-                }
-            ]
-        },
-        "/Lotus/Types/Enemies/TennoReplicants/SyndicateAllies/RedVeilAllyAgentD": {
-            "baseLevel": 1,
-            "avatarTypes": {
-                "STANDARD": "/Lotus/Types/Enemies/TennoReplicants/SyndicateAllies/RedVeilAllyAvatarD"
             },
             "items": [
                 {
@@ -24426,17 +24372,6 @@
             "droptable": "/Lotus/Types/DropTables/KubrowFeralDropTable",
             "codexScansRequired": 5
         },
-        "/Lotus/Types/Enemies/Corrupted/Avatars/CorruptedGrineerBaseAvatar": {
-            "name": "/Lotus/Language/Game/CorruptedLancer",
-            "icon": "/Lotus/Interface/Icons/Npcs/OrokinRifleLancerAvatar.png",
-            "faction": "Orokin",
-            "health": 60,
-            "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/EliteLancerDamageController",
-            "factionResistanceKeyword": "RK_OROKIN_FACTION",
-            "killXPReward": 0,
-            "droptable": "/Lotus/Types/DropTables/OrokinRifleLancerDropTable",
-            "codexScansRequired": 5
-        },
         "/Lotus/Types/Enemies/Duviri/Avatars/DuviriMeleeAvatar": {
             "name": "/Lotus/Language/Zariman/DuviriMeleeAgent",
             "icon": "/Lotus/Interface/Icons/Npcs/DuviriWraithMelee.png",
@@ -24849,17 +24784,6 @@
             "codexScansRequired": 1,
             "excludeFromSimulacrum": true
         },
-        "/Lotus/Types/Enemies/Grineer/AIWeek/Avatars/AuraRifleLancerAvatar": {
-            "name": "/Lotus/Language/Game/AuraGrineerLancerRifle",
-            "icon": "/Lotus/Interface/Icons/Npcs/EliteRifleLancerAvatar.png",
-            "description": "/Lotus/Language/Game/AuraGrineerLancerRifleDesc",
-            "faction": "Grineer",
-            "health": 360,
-            "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/EliteLancerDamageController",
-            "factionResistanceKeyword": "RK_GRINEER_FACTION",
-            "killXPReward": 150,
-            "codexScansRequired": 5
-        },
         "/Lotus/Types/Enemies/Grineer/AIWeek/Avatars/BeastMasterAvatar": {
             "name": "/Lotus/Language/Game/GrineerBeastMasterName",
             "icon": "/Lotus/Interface/Icons/Npcs/GrnBeastMaster.png",
@@ -25178,11 +25102,11 @@
         },
         "/Lotus/Types/Enemies/Grineer/AIWeek/Avatars/GrineerChargerAvatar": {
             "name": "/Lotus/Language/Game/GrineerChargerName",
-            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/GrineerCrusher.png",
+            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/GrineerBailiff.png",
             "description": "/Lotus/Language/Game/GrineerChargerDesc",
             "faction": "Grineer",
-            "health": 700,
-            "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/HeavyArmorDamageController",
+            "health": 450,
+            "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/BailiffHeavyDamageController",
             "factionResistanceKeyword": "RK_GRINEER_FACTION",
             "killXPReward": 500,
             "droptable": "/Lotus/Types/DropTables/GrineerChargerDropTable",
@@ -25190,11 +25114,11 @@
         },
         "/Lotus/Types/Enemies/Grineer/AIWeek/Avatars/GrineerChargerAvatarLeader": {
             "name": "/Lotus/Language/Game/GrineerChargerName",
-            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/GrineerCrusher.png",
+            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/GrineerBailiff.png",
             "description": "/Lotus/Language/Game/GrineerChargerDesc",
             "faction": "Grineer",
-            "health": 700,
-            "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/HeavyArmorDamageController",
+            "health": 450,
+            "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/BailiffHeavyDamageController",
             "factionResistanceKeyword": "RK_GRINEER_FACTION",
             "killXPReward": 500,
             "droptable": "/Lotus/Types/DropTables/GrineerChargerDropTable",
@@ -25202,11 +25126,11 @@
         },
         "/Lotus/Types/Enemies/Grineer/AIWeek/Avatars/GrineerChargerAvatarRare": {
             "name": "/Lotus/Language/Game/GrineerChargerName",
-            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/GrineerCrusher.png",
+            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/GrineerBailiff.png",
             "description": "/Lotus/Language/Game/GrineerChargerDesc",
             "faction": "Grineer",
-            "health": 700,
-            "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/HeavyArmorDamageController",
+            "health": 450,
+            "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/BailiffHeavyDamageController",
             "factionResistanceKeyword": "RK_GRINEER_FACTION",
             "killXPReward": 500,
             "droptable": "/Lotus/Types/DropTables/GrineerChargerDropTable",
@@ -25560,11 +25484,11 @@
         },
         "/Lotus/Types/Enemies/Grineer/AIWeek/Avatars/NightwatchGrineerChargerAvatar": {
             "name": "/Lotus/Language/Enemies/NightwatchBailiffName",
-            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/Nightwatch/NightwatchCharger.png",
+            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/Nightwatch/NightwatchBailiff.png",
             "description": "/Lotus/Language/Enemies/NightwatchBailiffDesc",
             "faction": "Grineer",
-            "health": 700,
-            "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/HeavyArmorDamageController",
+            "health": 450,
+            "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/BailiffHeavyDamageController",
             "factionResistanceKeyword": "RK_GRINEER_FACTION",
             "killXPReward": 0,
             "codexSecret": true,
@@ -26889,11 +26813,11 @@
         },
         "/Lotus/Types/Enemies/Grineer/Forest/Avatars/GrineerChargerAvatar": {
             "name": "/Lotus/Language/Game/GrineerChargerFrontierName",
-            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/GrineerCrusher.png",
+            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/GrineerFrontierBailiff.png",
             "description": "/Lotus/Language/Game/GrineerChargerDesc",
             "faction": "Grineer",
-            "health": 700,
-            "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/HeavyArmorDamageController",
+            "health": 450,
+            "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/BailiffDamageController",
             "factionResistanceKeyword": "RK_GRINEER_FACTION",
             "killXPReward": 500,
             "droptable": "/Lotus/Types/DropTables/GrineerBladeSawmanDropTable",
@@ -26901,11 +26825,11 @@
         },
         "/Lotus/Types/Enemies/Grineer/Forest/Avatars/GrineerChargerAvatarLeader": {
             "name": "/Lotus/Language/Game/GrineerChargerFrontierName",
-            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/GrineerCrusher.png",
+            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/GrineerFrontierBailiff.png",
             "description": "/Lotus/Language/Game/GrineerChargerDesc",
             "faction": "Grineer",
-            "health": 700,
-            "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/HeavyArmorDamageController",
+            "health": 450,
+            "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/BailiffDamageController",
             "factionResistanceKeyword": "RK_GRINEER_FACTION",
             "killXPReward": 500,
             "droptable": "/Lotus/Types/DropTables/GrineerBladeSawmanDropTable",
@@ -26913,11 +26837,11 @@
         },
         "/Lotus/Types/Enemies/Grineer/Forest/Avatars/GrineerChargerAvatarRare": {
             "name": "/Lotus/Language/Game/GrineerChargerFrontierName",
-            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/GrineerCrusher.png",
+            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/GrineerFrontierBailiff.png",
             "description": "/Lotus/Language/Game/GrineerChargerDesc",
             "faction": "Grineer",
-            "health": 700,
-            "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/HeavyArmorDamageController",
+            "health": 450,
+            "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/BailiffDamageController",
             "factionResistanceKeyword": "RK_GRINEER_FACTION",
             "killXPReward": 500,
             "droptable": "/Lotus/Types/DropTables/GrineerBladeSawmanDropTable",
@@ -27246,24 +27170,24 @@
             "codexScansRequired": 5
         },
         "/Lotus/Types/Enemies/Grineer/Fortress/Avatars/FortressGrineerChargerAvatar": {
-            "name": "/Lotus/Language/Game/GrineerChargerName",
-            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/GrineerCrusher.png",
-            "description": "/Lotus/Language/Game/GrineerChargerDesc",
+            "name": "/Lotus/Language/Enemies/KuvaBailiff",
+            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/Fortress/KuvaBailiff.png",
+            "description": "/Lotus/Language/Enemies/KuvaBailiffDesc",
             "faction": "Grineer",
-            "health": 700,
-            "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/HeavyArmorDamageController",
+            "health": 450,
+            "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/BailiffHeavyDamageController",
             "factionResistanceKeyword": "RK_GRINEER_KUVA_FACTION",
             "killXPReward": 500,
             "droptable": "/Lotus/Types/DropTables/GrineerChargerDropTable",
             "codexScansRequired": 5
         },
         "/Lotus/Types/Enemies/Grineer/Fortress/Avatars/FortressGrineerChargerAvatarLeader": {
-            "name": "/Lotus/Language/Game/GrineerChargerName",
-            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/GrineerCrusher.png",
-            "description": "/Lotus/Language/Game/GrineerChargerDesc",
+            "name": "/Lotus/Language/Enemies/KuvaBailiff",
+            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/Fortress/KuvaBailiff.png",
+            "description": "/Lotus/Language/Enemies/KuvaBailiffDesc",
             "faction": "Grineer",
-            "health": 700,
-            "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/HeavyArmorDamageController",
+            "health": 450,
+            "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/BailiffHeavyDamageController",
             "factionResistanceKeyword": "RK_GRINEER_KUVA_FACTION",
             "killXPReward": 500,
             "droptable": "/Lotus/Types/DropTables/GrineerChargerDropTable",
@@ -29428,7 +29352,7 @@
             "name": "/Lotus/Language/Enemies/WolfGangsterName",
             "icon": "/Lotus/Interface/Icons/Npcs/Seasonal/WolfGangster.png",
             "description": "/Lotus/Language/Enemies/WolfGangsterDesc",
-            "faction": "Neutral",
+            "faction": "Special",
             "health": 800,
             "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/WolfGangsterDamageController",
             "factionResistanceKeyword": "RK_GRINEER_FACTION",
@@ -29463,7 +29387,7 @@
             "name": "/Lotus/Language/Enemies/WolfStalkerName",
             "icon": "/Lotus/Interface/Icons/Npcs/Seasonal/WolfStalker.png",
             "description": "/Lotus/Language/Enemies/WolfStalkerDesc",
-            "faction": "Neutral",
+            "faction": "Special",
             "health": 2750,
             "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/WolfSentientStalkerDamageController",
             "factionResistanceKeyword": "RK_GRINEER_FACTION",
@@ -29475,7 +29399,7 @@
             "name": "/Lotus/Language/Enemies/WolfStalkerName",
             "icon": "/Lotus/Interface/Icons/Npcs/Seasonal/WolfStalker.png",
             "description": "/Lotus/Language/Enemies/WolfStalkerDesc",
-            "faction": "Neutral",
+            "faction": "Special",
             "health": 1500,
             "damageController": "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/WolfStalkerDamageController",
             "factionResistanceKeyword": "RK_GRINEER_FACTION",
@@ -30761,13 +30685,12 @@
             "icon": "/Lotus/Interface/Icons/Npcs/Seasonal/MutalistWeaver.png",
             "description": "/Lotus/Language/Enemies/WeaveMutalistDesc",
             "faction": "Infestation",
-            "health": 11000,
+            "health": 7500,
             "damageController": "/Lotus/Types/Enemies/Infested/AiWeek/WeaveMutalist/MutalistBossScaledDamageController",
             "factionResistanceKeyword": "RK_INFESTED_FACTION",
             "killXPReward": 1500,
             "droptable": "/Lotus/Types/DropTables/WeaveMutalistDropTable",
-            "codexScansRequired": 5,
-            "excludeFromSimulacrum": true
+            "codexScansRequired": 5
         },
         "/Lotus/Types/Enemies/Infested/Disruption/Avatars/DisruptionAncientTankAvatar": {
             "name": "/Lotus/Language/Enemies/DisruptionInfestedTankName",
@@ -32961,7 +32884,7 @@
             "name": "/Lotus/Language/Game/HostileSandmanGiant",
             "icon": "/Lotus/Interface/Icons/Npcs/Quests/InarosGolem.png",
             "description": "/Lotus/Language/Game/HostileSandmanGiantDesc",
-            "faction": "Neutral",
+            "faction": "Special",
             "health": 5500,
             "damageController": "/Lotus/Types/Enemies/Quests/SandmanBoss/InarosGolemDamageController",
             "killXPReward": 750,
@@ -32973,7 +32896,7 @@
             "name": "/Lotus/Language/Game/HostileSandman",
             "icon": "/Lotus/Interface/Icons/Npcs/Quests/SandmanBoss.png",
             "description": "/Lotus/Language/Game/HostileSandmanDesc",
-            "faction": "Neutral",
+            "faction": "Special",
             "health": 8000,
             "damageController": "/Lotus/Types/Enemies/Quests/SandmanBoss/SandmanBossDamageController",
             "killXPReward": 750,
@@ -33010,18 +32933,6 @@
             "damageController": "/Lotus/Types/Enemies/CaptureTargets/CaptureTargetDamageControllerMostlyShield",
             "killXPReward": 0,
             "droptable": "/Lotus/Types/DropTables/CorpusMeleeSpacemanAgentDropTable",
-            "codexScansRequired": 5
-        },
-        "/Lotus/Types/Enemies/Sentients/Aerolyst/EidolonAerolystAvatar": {
-            "name": "/Lotus/Language/Enemies/SentientAerolystName",
-            "icon": "/Lotus/Interface/Icons/Npcs/Sentients/Aerolyst.png",
-            "description": "/Lotus/Language/Enemies/SentientAerolystDesc",
-            "faction": "Sentient",
-            "health": 2000,
-            "damageController": "/Lotus/Types/Enemies/Sentients/Aerolyst/SentientAerolystDamageControllerB",
-            "factionResistanceKeyword": "RK_SENTIENT_FACTION",
-            "killXPReward": 300,
-            "droptable": "/Lotus/Types/DropTables/SentientAerolystDropTable",
             "codexScansRequired": 5
         },
         "/Lotus/Types/Enemies/Sentients/Aerolyst/PNWSentientAerolystAvatar": {
@@ -35495,16 +35406,6 @@
             "codexSecret": true,
             "codexScansRequired": 5
         },
-        "/Lotus/Types/Enemies/TennoReplicants/SyndicateAllies/RedVeilAllyAvatarD": {
-            "name": "/Lotus/Language/Syndicates/OperativeRedVeil",
-            "icon": "/Lotus/Interface/Icons/Npcs/TennoReplicant.png",
-            "faction": "TENNO",
-            "health": 200,
-            "damageController": "/Lotus/Types/Enemies/TennoReplicants/TennoReplicantDamageController",
-            "killXPReward": 200,
-            "codexSecret": true,
-            "codexScansRequired": 5
-        },
         "/Lotus/Types/Enemies/TennoReplicants/SyndicateAllies/RedVeilEnemyAvatarA": {
             "name": "/Lotus/Language/Syndicates/OperativeRedVeil",
             "icon": "/Lotus/Interface/Icons/Npcs/Neutral/RedVeilMale.png",
@@ -35985,7 +35886,7 @@
             "icon": "/Lotus/Interface/Icons/Npcs/Lasrian/LasrianNox.png",
             "description": "/Lotus/Language/1999Demo/LasrianChemStrikeNoxDesc",
             "faction": "Scaldra",
-            "health": 2150,
+            "health": 1550,
             "damageController": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianChemStrikeNox/LasrianChemStrikeNoxScaledLotusDamageController",
             "factionResistanceKeyword": "RK_LASRIA_FACTION",
             "killXPReward": 250,
@@ -35997,7 +35898,7 @@
             "icon": "/Lotus/Interface/Icons/Npcs/Lasrian/LasrianNox.png",
             "description": "/Lotus/Language/1999Demo/LasrianChemStrikeNoxDesc",
             "faction": "Scaldra",
-            "health": 2150,
+            "health": 1550,
             "damageController": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianChemStrikeNox/LasrianChemStrikeNoxScaledLotusDamageController",
             "factionResistanceKeyword": "RK_LASRIA_FACTION",
             "killXPReward": 750,
@@ -52287,6 +52188,186 @@
             ],
             "unhandledProcTypes": [
                 "PT_RADIANT"
+            ]
+        },
+        "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/BailiffDamageController": {
+            "armor": 500,
+            "shield": 0,
+            "hitProxies": [
+                {
+                    "bone": "GAME_C1_HEAD1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerHead"
+                },
+                {
+                    "bone": "GAME_C1_HEAD1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerBailiffPadHead"
+                },
+                {
+                    "bone": "GAME_C1_SPINE2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerTorso"
+                },
+                {
+                    "bone": "GAME_C1_SPINE2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerBailiffPadTorso"
+                },
+                {
+                    "bone": "GAME_R1_ARM1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightUpperArm"
+                },
+                {
+                    "bone": "GAME_R1_ARM2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightLowerArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftUpperArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftLowerArm"
+                },
+                {
+                    "bone": "GAME_R1_LEG1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightUpperLeg"
+                },
+                {
+                    "bone": "GAME_R1_LEG2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightLowerLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftUpperLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftLowerLeg"
+                },
+                {
+                    "bone": "GAME_C1_SPINE3",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerBackPart"
+                },
+                {
+                    "bone": "GAME_R1_LEG1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerBailiffPadUpperLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerBailiffPadUpperLeg"
+                }
+            ],
+            "unhandledProcTypes": [
+                "PT_KNOCKBACK",
+                "PT_FRAILTY",
+                "PT_BLEEDING",
+                "PT_IMMOLATION",
+                "PT_CHILLED",
+                "PT_ELECTROCUTION",
+                "PT_POISONED",
+                "PT_FLASHBANG",
+                "PT_RAD_TOX",
+                "PT_ASPHYXIATION",
+                "PT_MAGNETIZED",
+                "PT_INFECTED",
+                "PT_CAUSTIC_BURN",
+                "PT_RADIANT",
+                "PT_BIG_STAGGER",
+                "PT_STUNNED",
+                "PT_KNOCKED_DOWN",
+                "PT_RAGDOLL"
+            ]
+        },
+        "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/BailiffHeavyDamageController": {
+            "armor": 500,
+            "shield": 0,
+            "hitProxies": [
+                {
+                    "bone": "GAME_C1_HEAD1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerHead"
+                },
+                {
+                    "bone": "GAME_C1_HEAD1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerBailiffPadHead"
+                },
+                {
+                    "bone": "GAME_C1_SPINE2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerTorso"
+                },
+                {
+                    "bone": "GAME_C1_SPINE2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerBailiffPadTorso"
+                },
+                {
+                    "bone": "GAME_C1_SPINE2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerBailiffPadAttachmentTorso"
+                },
+                {
+                    "bone": "GAME_R1_ARM1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightUpperArm"
+                },
+                {
+                    "bone": "GAME_R1_ARM1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerBailiffPadRightUpperArm"
+                },
+                {
+                    "bone": "GAME_R1_ARM2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightLowerArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftUpperArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftLowerArm"
+                },
+                {
+                    "bone": "GAME_R1_LEG1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightUpperLeg"
+                },
+                {
+                    "bone": "GAME_R1_LEG2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightLowerLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftUpperLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftLowerLeg"
+                },
+                {
+                    "bone": "GAME_C1_SPINE3",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerBackPart"
+                },
+                {
+                    "bone": "GAME_R1_LEG1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerBailiffPadUpperLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerBailiffPadUpperLeg"
+                }
+            ],
+            "unhandledProcTypes": [
+                "PT_KNOCKBACK",
+                "PT_FRAILTY",
+                "PT_BLEEDING",
+                "PT_IMMOLATION",
+                "PT_CHILLED",
+                "PT_ELECTROCUTION",
+                "PT_POISONED",
+                "PT_FLASHBANG",
+                "PT_RAD_TOX",
+                "PT_ASPHYXIATION",
+                "PT_MAGNETIZED",
+                "PT_INFECTED",
+                "PT_CAUSTIC_BURN",
+                "PT_RADIANT",
+                "PT_BIG_STAGGER",
+                "PT_STUNNED",
+                "PT_KNOCKED_DOWN",
+                "PT_RAGDOLL"
             ]
         },
         "/Lotus/Types/Enemies/Grineer/AIWeek/DamageControllers/BeastMasterDamageController": {
@@ -81583,34 +81664,30 @@
                 "items": [
                     {
                         "type": "/Lotus/Types/Game/Projections/T1VoidProjectionLavosPrimeDBronze",
-                        "probability": 0.1549
-                    },
-                    {
-                        "type": "/Lotus/Types/Game/Projections/T1VoidProjectionXakuPrimeCBronze",
-                        "probability": 0.1549
+                        "probability": 0.1936
                     },
                     {
                         "type": "/Lotus/Types/Game/Projections/T2VoidProjectionSevagothPrimeCBronze",
-                        "probability": 0.1549
+                        "probability": 0.1936
                     },
                     {
                         "type": "/Lotus/Types/Game/Projections/T2VoidProjectionXakuPrimeBBronze",
-                        "probability": 0.1549
+                        "probability": 0.1936
                     },
                     {
                         "type": "/Lotus/Types/Game/Projections/T2VoidProjectionXakuPrimeCBronze",
-                        "probability": 0.1549
+                        "probability": 0.1936
                     },
                     {
                         "type": "/Lotus/Types/Game/Projections/T3VoidProjectionLavosPrimeABronze",
                         "probability": 0.0376
                     },
                     {
-                        "type": "/Lotus/Types/Game/Projections/T3VoidProjectionXakuPrimeCBronze",
+                        "type": "/Lotus/Types/Game/Projections/T3VoidProjectionYareliPrimeBBronze",
                         "probability": 0.0376
                     },
                     {
-                        "type": "/Lotus/Types/Game/Projections/T3VoidProjectionXakuPrimeDBronze",
+                        "type": "/Lotus/Types/Game/Projections/T3VoidProjectionYareliPrimeCBronze",
                         "probability": 0.0376
                     },
                     {
@@ -82162,6 +82239,28 @@
                         "probability": 0.0201
                     }
                 ]
+            },
+            {
+                "type": "blueprint",
+                "chance": 0.05,
+                "items": [
+                    {
+                        "type": "/Lotus/Types/Recipes/Weapons/WeaponParts/MortiforShieldAndSwordBlade",
+                        "probability": 0.25
+                    },
+                    {
+                        "type": "/Lotus/Types/Recipes/Weapons/WeaponParts/MortiforShieldAndSwordGuard",
+                        "probability": 0.25
+                    },
+                    {
+                        "type": "/Lotus/Types/Recipes/Weapons/WeaponParts/MortiforShieldAndSwordHandle",
+                        "probability": 0.25
+                    },
+                    {
+                        "type": "/Lotus/Types/Recipes/Weapons/MortiforShieldAndSwordBlueprint",
+                        "probability": 0.25
+                    }
+                ]
             }
         ],
         "/Lotus/Types/DropTables/GhoulDrillDropTable": [
@@ -82198,6 +82297,28 @@
                         "probability": 0.0201
                     }
                 ]
+            },
+            {
+                "type": "blueprint",
+                "chance": 0.05,
+                "items": [
+                    {
+                        "type": "/Lotus/Types/Recipes/Weapons/WeaponParts/MortiforShieldAndSwordBlade",
+                        "probability": 0.25
+                    },
+                    {
+                        "type": "/Lotus/Types/Recipes/Weapons/WeaponParts/MortiforShieldAndSwordGuard",
+                        "probability": 0.25
+                    },
+                    {
+                        "type": "/Lotus/Types/Recipes/Weapons/WeaponParts/MortiforShieldAndSwordHandle",
+                        "probability": 0.25
+                    },
+                    {
+                        "type": "/Lotus/Types/Recipes/Weapons/MortiforShieldAndSwordBlueprint",
+                        "probability": 0.25
+                    }
+                ]
             }
         ],
         "/Lotus/Types/DropTables/GhoulExpiredDropTable": [
@@ -82232,6 +82353,24 @@
                     {
                         "type": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/WarfanCmbOneMeleeTree",
                         "probability": 0.0101
+                    }
+                ]
+            },
+            {
+                "type": "blueprint",
+                "chance": 0.05,
+                "items": [
+                    {
+                        "type": "/Lotus/Types/Recipes/Weapons/WeaponParts/GrnChainSawTonfaBlade",
+                        "probability": 0.3333
+                    },
+                    {
+                        "type": "/Lotus/Types/Recipes/Weapons/WeaponParts/GrnChainSawTonfaHandle",
+                        "probability": 0.3333
+                    },
+                    {
+                        "type": "/Lotus/Types/Recipes/Weapons/GrnChainSawTonfaBlueprint",
+                        "probability": 0.3333
                     }
                 ]
             }
@@ -82282,6 +82421,24 @@
                         "probability": 0.0101
                     }
                 ]
+            },
+            {
+                "type": "blueprint",
+                "chance": 0.05,
+                "items": [
+                    {
+                        "type": "/Lotus/Types/Recipes/Weapons/WeaponParts/GrnChainSawTonfaBlade",
+                        "probability": 0.3333
+                    },
+                    {
+                        "type": "/Lotus/Types/Recipes/Weapons/WeaponParts/GrnChainSawTonfaHandle",
+                        "probability": 0.3333
+                    },
+                    {
+                        "type": "/Lotus/Types/Recipes/Weapons/GrnChainSawTonfaBlueprint",
+                        "probability": 0.3333
+                    }
+                ]
             }
         ],
         "/Lotus/Types/DropTables/GhoulVipDrillDropTable": [
@@ -82316,6 +82473,28 @@
                         "probability": 1.0
                     }
                 ]
+            },
+            {
+                "type": "sigil",
+                "chance": 0.1,
+                "items": [
+                    {
+                        "type": "/Lotus/Types/Recipes/Weapons/WeaponParts/MortiforShieldAndSwordBlade",
+                        "probability": 0.25
+                    },
+                    {
+                        "type": "/Lotus/Types/Recipes/Weapons/WeaponParts/MortiforShieldAndSwordGuard",
+                        "probability": 0.25
+                    },
+                    {
+                        "type": "/Lotus/Types/Recipes/Weapons/WeaponParts/MortiforShieldAndSwordHandle",
+                        "probability": 0.25
+                    },
+                    {
+                        "type": "/Lotus/Types/Recipes/Weapons/MortiforShieldAndSwordBlueprint",
+                        "probability": 0.25
+                    }
+                ]
             }
         ],
         "/Lotus/Types/DropTables/GhoulVipSawmanDropTable": [
@@ -82348,6 +82527,24 @@
                     {
                         "type": "/Lotus/Weapons/ClanTech/Chemical/GrnUziBlueprint",
                         "probability": 1.0
+                    }
+                ]
+            },
+            {
+                "type": "sigil",
+                "chance": 0.1,
+                "items": [
+                    {
+                        "type": "/Lotus/Types/Recipes/Weapons/WeaponParts/GrnChainSawTonfaBlade",
+                        "probability": 0.3333
+                    },
+                    {
+                        "type": "/Lotus/Types/Recipes/Weapons/WeaponParts/GrnChainSawTonfaHandle",
+                        "probability": 0.3333
+                    },
+                    {
+                        "type": "/Lotus/Types/Recipes/Weapons/GrnChainSawTonfaBlueprint",
+                        "probability": 0.3333
                     }
                 ]
             }
@@ -93238,6 +93435,9 @@
         "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/FemaleJetpackHead": {
             "criticalMultiplier": 2
         },
+        "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerBailiffPadHead": {
+            "damageAtten": 0.66
+        },
         "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerHead": {
             "damageAtten": 2,
             "criticalMultiplier": 2
@@ -99917,6 +100117,9 @@
                         "DT_PUNCTURE": 15.0,
                         "DT_SLASH": 5.0
                     }
+                },
+                {
+                    "impact": {}
                 }
             ]
         },
@@ -100505,29 +100708,7 @@
                 }
             ]
         },
-        "/Lotus/Types/Enemies/Orokin/Weapons/LaserRifle": {
-            "name": "/Weapons/AK74",
-            "behaviours": [
-                {
-                    "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
-                    "projectile": {
-                        "attack": {
-                            "DT_IMPACT": 0.7,
-                            "DT_PUNCTURE": 4.9,
-                            "DT_SLASH": 1.4
-                        }
-                    },
-                    "impact": {
-                        "DT_IMPACT": 0.999999,
-                        "DT_PUNCTURE": 0.999999,
-                        "DT_SLASH": 1.000002
-                    }
-                },
-                {
-                    "impact": {}
-                }
-            ]
-        },
+        "/Lotus/Types/Enemies/Orokin/Weapons/LaserRifle": {},
         "/Lotus/Types/Enemies/Orokin/Weapons/LaserShotgun": {
             "name": "/Lotus/Language/Items/ShotgunName",
             "description": "/Lotus/Language/Items/ShotgunDesc",
@@ -104043,6 +104224,42 @@
                 }
             ]
         },
+        "/Lotus/Weapons/Grineer/LineGrenadeLauncher": {
+            "name": "/Lotus/Language/Menu/Loadout_AnyWeapon",
+            "behaviours": [
+                {
+                    "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
+                    "projectile": {
+                        "attack": {
+                            "DT_EXPLOSION": 15
+                        },
+                        "explosiveAttack": {},
+                        "embedDeathAttack": {
+                            "DT_EXPLOSION": 90
+                        }
+                    },
+                    "impact": {}
+                }
+            ]
+        },
+        "/Lotus/Weapons/Grineer/LineIceGrenadeLauncher": {
+            "name": "/Lotus/Language/Menu/Loadout_AnyWeapon",
+            "behaviours": [
+                {
+                    "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
+                    "projectile": {
+                        "attack": {
+                            "DT_EXPLOSION": 15
+                        },
+                        "explosiveAttack": {},
+                        "embedDeathAttack": {
+                            "DT_EXPLOSION": 90
+                        }
+                    },
+                    "impact": {}
+                }
+            ]
+        },
         "/Lotus/Weapons/Grineer/LongGuns/BurstRifle/AIGrnBurstRifle": {
             "name": "/Lotus/Language/Items/HindName",
             "description": "/Lotus/Language/Items/HindDesc",
@@ -104389,6 +104606,13 @@
                         "DT_PUNCTURE": 11.25,
                         "DT_SLASH": 3.75
                     }
+                },
+                {
+                    "impact": {
+                        "DT_IMPACT": 3.33333,
+                        "DT_PUNCTURE": 3.33333,
+                        "DT_SLASH": 3.33334
+                    }
                 }
             ]
         },
@@ -104404,6 +104628,9 @@
                         "DT_PUNCTURE": 15.0,
                         "DT_SLASH": 5.0
                     }
+                },
+                {
+                    "impact": {}
                 }
             ]
         },
@@ -104419,6 +104646,9 @@
                         "DT_PUNCTURE": 15.0,
                         "DT_SLASH": 5.0
                     }
+                },
+                {
+                    "impact": {}
                 }
             ]
         },
@@ -107214,6 +107444,14 @@
                         "DT_PUNCTURE": 14.4,
                         "DT_SLASH": 4.8
                     }
+                }
+            ]
+        },
+        "/Lotus/Weapons/Tenno/Melee/AIFortressGrineerChargerJatKittag": {
+            "name": "/Lotus/Language/Menu/Loadout_AnyWeapon",
+            "behaviours": [
+                {
+                    "impact": {}
                 }
             ]
         },

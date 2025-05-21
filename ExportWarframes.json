@@ -335,6 +335,61 @@
         ],
         "nemesisUpgradeTag": "InnateRadDamage"
     },
+    "/Lotus/Powersuits/Yareli/YareliPrime": {
+        "name": "/Lotus/Language/Primes/YareliPrimeSuitName",
+        "parentName": "/Lotus/Powersuits/Yareli/YareliBaseSuit",
+        "description": "/Lotus/Language/Primes/YareliPrimeSuitDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/YareliPrime.png",
+        "health": 270,
+        "shield": 550,
+        "armor": 105,
+        "stamina": 3,
+        "power": 215,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.1,
+        "passiveDescription": "/Lotus/Language/Suits/YareliPassiveAbilityDesc",
+        "abilities": [
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliBubbleAbility",
+                "name": "/Lotus/Language/Suits/YareliBubbleAbilityName",
+                "description": "/Lotus/Language/Suits/YareliBubbleAbilityDescription",
+                "icon": "/Lotus/Interface/Icons/Abilities/YareliWaterTomb.png",
+                "energyRequiredToActivate": 25
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliBoardAbility",
+                "name": "/Lotus/Language/Suits/YareliBoardAbilityName",
+                "description": "/Lotus/Language/Suits/YareliBoardAbilityDescription",
+                "icon": "/Lotus/Interface/Icons/Abilities/YareliAquaBoard.png",
+                "energyRequiredToActivate": 25
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliDisksAbility",
+                "name": "/Lotus/Language/Suits/YareliDisksAbilityName",
+                "description": "/Lotus/Language/Suits/YareliDisksAbilityDescription",
+                "icon": "/Lotus/Interface/Icons/Abilities/YareliAqueousDisks.png",
+                "energyRequiredToActivate": 75
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/YareliSpoutAbility",
+                "name": "/Lotus/Language/Suits/YareliSpoutAbilityName",
+                "description": "/Lotus/Language/Suits/YareliSpoutAbilityDescription",
+                "icon": "/Lotus/Interface/Icons/Abilities/YareliCrushingWaters.png",
+                "energyRequiredToActivate": 100
+            }
+        ],
+        "productCategory": "Suits",
+        "variantType": "VT_NORMAL",
+        "exalted": [
+            "/Lotus/Powersuits/Yareli/BoardPrimeSuit"
+        ],
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/Yareli/YareliPrimeHelmet",
+            "/Lotus/Powersuits/Yareli/BoardPrimeSuit"
+        ],
+        "nemesisUpgradeTag": "InnateMagDamage"
+    },
     "/Lotus/Powersuits/Yareli/Yareli": {
         "name": "/Lotus/Language/Suits/YareliFrameName",
         "parentName": "/Lotus/Powersuits/Yareli/YareliBaseSuit",

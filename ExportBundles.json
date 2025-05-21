@@ -2535,6 +2535,39 @@
             }
         ]
     },
+    "/Lotus/Types/StoreItems/Packages/2025Bundles/2025SupporterPack": {
+        "name": "/Lotus/Language/Bundles/2025SupporterPackName",
+        "description": "/Lotus/Language/Bundles/2025SupporterPackDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/Marketing/2025SupPackMarketTile.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/Melee/Gunblade/TnoGunblade",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/Melee/MeleeTrees/GunbladeCmbOneMeleeTree",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/Types/StoreItems/Boosters/AffinityBooster3DayStoreItem",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Scarves/FlameScarfRefresh",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/MeleeDangles/FireMeleeDangleRefresh",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ],
+        "premiumPrice": 1
+    },
     "/Lotus/Types/StoreItems/Packages/2025Bundles/EncoreCompSupPack": {
         "name": "/Lotus/Language/Bundles/EncoreCompSupPackName",
         "description": "/Lotus/Language/Bundles/EncoreCompSupPackDesc",
@@ -6186,6 +6219,29 @@
             }
         ],
         "premiumPrice": 225
+    },
+    "/Lotus/Types/StoreItems/Packages/DeluxeBundles/KullervoDeluxeSkinBundle": {
+        "name": "/Lotus/Language/Bundles/KullervoDeluxeBundleName",
+        "description": "/Lotus/Language/Bundles/KullervoDeluxeBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/WarframeBundles/KullervoDeluxeSkinBundle.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/PaxDuviricus/KulervoDeluxeSkin",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/PaxDuviricus/KullervoDeluxeSparringSkin",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Scarves/KulervoDeluxeSyandana",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ],
+        "premiumPrice": 280
     },
     "/Lotus/Types/StoreItems/Packages/DeluxeBundles/MesaVoltDeluxeSkinBundle": {
         "name": "/Lotus/Language/Bundles/MesaVoltDeluxeSkinBundleName",
@@ -15137,6 +15193,59 @@
             }
         ]
     },
+    "/Lotus/Types/StoreItems/Packages/MegaPrimeVault/MPVBaruukPrimeSinglePack": {
+        "name": "/Lotus/Language/PrimePacks/MPVBaruukSinglePackName",
+        "description": "/Lotus/Language/PrimePacks/MPVBaruukSinglePackDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Icon.png",
+        "excludeFromCodex": true,
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Powersuits/Pacifist/BaruukPrime",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Primes/ImageBaruukPrimeBright",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Primes/ImageBaruukPrimeDark",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/Melee/SwordsAndBoards/PrimeCobraAndCrane/PrimeCobraAndCraneWeapon",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/Pistols/PrimeAfuris/PrimeAFurisWeapon",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Scarves/PrimeAkrabuSyandana",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Effects/BaruukPrimeEphemera",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/ShipDecos/BaruukPrimePattern",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/MPVSinglePackFusionBundle",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ]
+    },
     "/Lotus/Types/StoreItems/Packages/MegaPrimeVault/MPVCarrierPrime": {
         "name": "/Lotus/Language/Items/PrimeCarrierSentinelName",
         "description": "/Lotus/Language/Items/PrimeCarrierSentinelDesc",
@@ -18861,6 +18970,162 @@
             }
         ]
     },
+    "/Lotus/Types/StoreItems/Packages/MegaPrimeVault/MPVRevenantBaruukPrimeDualPack": {
+        "name": "/Lotus/Language/PrimePacks/MPVRevenantBaruukDualPackName",
+        "description": "/Lotus/Language/PrimePacks/MPVRevenantBaruukDualPackDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/Icon.png",
+        "excludeFromCodex": true,
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Powersuits/Revenant/RevenantPrime",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Primes/ImageRevenantPrimeBright",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Primes/ImageRevenantPrimeDark",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/Melee/Swords/PrimeTatsu/PrimeTatsuWeapon",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/LongGuns/PrimePhantasma/PhantasmaPrimeShotgun",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Scarves/PrimeRevenantCape",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/PrimeRevenantArmour/PrimeRevenantArmourA",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/PrimeRevenantArmour/PrimeRevenantArmourC",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/PrimeRevenantArmour/PrimeRevenantArmourL",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Powersuits/Pacifist/BaruukPrime",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Primes/ImageBaruukPrimeBright",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Primes/ImageBaruukPrimeDark",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/Melee/SwordsAndBoards/PrimeCobraAndCrane/PrimeCobraAndCraneWeapon",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/Pistols/PrimeAfuris/PrimeAFurisWeapon",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Scarves/PrimeAkrabuSyandana",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Effects/BaruukPrimeEphemera",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/ShipDecos/BaruukPrimePattern",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/MPVDualPackFusionBundle",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/MegaPrimeVault/MPVRevenantPrimeSinglePack": {
+        "name": "/Lotus/Language/PrimePacks/MPVRevenantSinglePackName",
+        "description": "/Lotus/Language/PrimePacks/MPVRevenantSinglePackDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Icon.png",
+        "excludeFromCodex": true,
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Powersuits/Revenant/RevenantPrime",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Primes/ImageRevenantPrimeBright",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Primes/ImageRevenantPrimeDark",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/Melee/Swords/PrimeTatsu/PrimeTatsuWeapon",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/LongGuns/PrimePhantasma/PhantasmaPrimeShotgun",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Scarves/PrimeRevenantCape",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/PrimeRevenantArmour/PrimeRevenantArmourA",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/PrimeRevenantArmour/PrimeRevenantArmourC",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/PrimeRevenantArmour/PrimeRevenantArmourL",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/MPVSinglePackFusionBundle",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ]
+    },
     "/Lotus/Types/StoreItems/Packages/MegaPrimeVault/MPVRhinoNyxPrimeDualPack": {
         "name": "/Lotus/Language/PrimeStore/MPVRhinoNyxDualPrimeVaultName",
         "description": "/Lotus/Language/PrimeStore/MPVRhinoNyxDualPrimeVaultDesc",
@@ -19881,6 +20146,28 @@
             },
             {
                 "typeName": "/Lotus/StoreItems/Upgrades/Skins/Sentinels/Wings/TwitchSentWings",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/MegaPrimeVault/MPVVetalaPrimeArmorSet": {
+        "name": "/Lotus/Language/PrimePacks/MPVVetalaArmorSet",
+        "description": "/Lotus/Language/Primes/RevenantPrimeArmourDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Icon.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/PrimeRevenantArmour/PrimeRevenantArmourA",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/PrimeRevenantArmour/PrimeRevenantArmourC",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/PrimeRevenantArmour/PrimeRevenantArmourL",
                 "purchaseQuantity": 1,
                 "durability": "COMMON"
             }
@@ -21082,6 +21369,28 @@
             },
             {
                 "typeName": "/Lotus/StoreItems/Upgrades/Skins/Sentinels/NightwatchDirigaSkin",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/NightwaveOperatorCosmeticsBundleA": {
+        "name": "/Lotus/Language/Bundles/NightwaveOperatorCosmeticsBundleAName",
+        "description": "/Lotus/Language/Bundles/NightwaveOperatorCosmeticsBundleADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/CosmeticBundles/Operator/NightwaveOperatorCosmeticsBundleA.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Operator/Accessories/NightWaveEarPieceA",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Operator/Accessories/NightWaveEyePieceA",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Operator/Accessories/NightWaveMaskA",
                 "purchaseQuantity": 1,
                 "durability": "COMMON"
             }
