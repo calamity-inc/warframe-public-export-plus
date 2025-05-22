@@ -1,7 +1,10 @@
 {
 	"name": "warframe-public-export-plus",
 	"version": "0.5.64",
-	"repository": "github:calamity-inc/warframe-public-export-plus",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/calamity-inc/warframe-public-export-plus.git"
+	},
 	"devDependencies": {
 		"ts-node": "^10.9.2",
 		"ts-to-zod": "^3.15.0",
