@@ -48600,8 +48600,8 @@
             ]
         },
         "/Lotus/Types/Enemies/Corpus/Vip/Ambulas/AmbulasDamageController": {
-            "armor": 0,
-            "shield": 100,
+            "armor": 150,
+            "shield": 500,
             "hitProxies": [
                 {
                     "bone": "GAME_C1_SPINE2",
@@ -100708,7 +100708,29 @@
                 }
             ]
         },
-        "/Lotus/Types/Enemies/Orokin/Weapons/LaserRifle": {},
+        "/Lotus/Types/Enemies/Orokin/Weapons/LaserRifle": {
+            "name": "/Weapons/AK74",
+            "behaviours": [
+                {
+                    "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                    "projectile": {
+                        "attack": {
+                            "DT_IMPACT": 0.7,
+                            "DT_PUNCTURE": 4.9,
+                            "DT_SLASH": 1.4
+                        }
+                    },
+                    "impact": {
+                        "DT_IMPACT": 0.999999,
+                        "DT_PUNCTURE": 0.999999,
+                        "DT_SLASH": 1.000002
+                    }
+                },
+                {
+                    "impact": {}
+                }
+            ]
+        },
         "/Lotus/Types/Enemies/Orokin/Weapons/LaserShotgun": {
             "name": "/Lotus/Language/Items/ShotgunName",
             "description": "/Lotus/Language/Items/ShotgunDesc",
