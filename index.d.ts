@@ -653,6 +653,8 @@ export interface ISyndicate {
         minStanding: number;
         maxStanding: number;
         sacrifice?: ISyndicateSacrifice;
+        reward?: ICountedItem;
+        storeItemReward?: string;
     }[];
     medallions?: {
         itemType: string;
