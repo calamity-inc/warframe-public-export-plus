@@ -645,6 +645,8 @@ export interface ISyndicate {
     initiationSacrifice?: ISyndicateSacrifice;
     initiationReward?: string;
     alignments?: Record<string, number>;
+    dailyChallenges?: string[];
+    weeklyChallenges?: string[];
     titles?: {
         level: number;
         name: string;
