@@ -153,10 +153,11 @@ export interface IBundle {
 
 export interface IChallenge {
     name:          string;
-    description:   string;
-    flavour:       string;
+    description?:  string;
+    flavour?:      string;
     icon:          string;
     requiredCount: number;
+    standing?:     number;
 }
 
 export interface IExportCodex {
