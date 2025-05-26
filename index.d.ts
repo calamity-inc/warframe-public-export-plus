@@ -785,7 +785,7 @@ export interface IVendorOffer {
     platinum?: number | IRange;
     itemPrices?: ICountedItem[];
     numRandomItemPrices?: number;
-    durationHours: number | IRange;
+    durationHours?: number | IRange;
     syndicate?: {
         tag: string;
         minRank: number;
