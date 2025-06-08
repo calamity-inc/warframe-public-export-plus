@@ -1,4 +1,280 @@
 {
+    "/Lotus/Types/Challenges/Calendar1999/CalendarDestroyPropsBase": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarDestroyProps_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarDestroyProps_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Easy/RetroChallengeDestroyContainersEasy.png",
+        "requiredCount": 1
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarDestroyPropsEasy": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarDestroyProps_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarDestroyProps_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Easy/RetroChallengeDestroyContainersEasy.png",
+        "requiredCount": 75
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarDestroyPropsHard": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarDestroyProps_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarDestroyProps_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Hard/RetroChallengeDestroyContainersHard.png",
+        "requiredCount": 300
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarDestroyPropsMedium": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarDestroyProps_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarDestroyProps_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Medium/RetroChallengeDestroyContainersMedium.png",
+        "requiredCount": 150
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillEnemiesBase": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemies_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemies_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Easy/RetroChallengeKillEnemiesEasy.png",
+        "requiredCount": 1
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillEnemiesEasy": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemies_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemies_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Easy/RetroChallengeKillEnemiesEasy.png",
+        "requiredCount": 250
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillEnemiesHard": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemies_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemies_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Hard/RetroChallengeKillEnemiesHard.png",
+        "requiredCount": 1000
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillEnemiesMedium": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemies_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemies_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Medium/RetroChallengeKillEnemiesMedium.png",
+        "requiredCount": 500
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillEnemiesWithAbilitiesBase": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilities_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilities_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Easy/RetroChallengeKillEnemiesAbilitiesEasy.png",
+        "requiredCount": 1
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillEnemiesWithAbilitiesEasy": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilities_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilities_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Easy/RetroChallengeKillEnemiesAbilitiesEasy.png",
+        "requiredCount": 150
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillEnemiesWithAbilitiesHard": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilities_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilities_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Hard/RetroChallengeKillEnemiesAbilitiesHard.png",
+        "requiredCount": 500
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillEnemiesWithAbilitiesMedium": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilities_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilities_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Medium/RetroChallengeKillEnemiesAbilitiesMedium.png",
+        "requiredCount": 300
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillEnemiesWithMeleeBase": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMelee_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMelee_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Easy/RetroChallengeKillEnemiesMeleeEasy.png",
+        "requiredCount": 1
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillEnemiesWithMeleeEasy": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMelee_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMelee_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Easy/RetroChallengeKillEnemiesMeleeEasy.png",
+        "requiredCount": 150
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillEnemiesWithMeleeHard": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMelee_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMelee_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Hard/RetroChallengeKillEnemiesMeleeHard.png",
+        "requiredCount": 500
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillEnemiesWithMeleeMedium": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMelee_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMelee_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Medium/RetroChallengeKillEnemiesMeleeMedium.png",
+        "requiredCount": 300
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillEximusBase": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEximus_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEximus_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Easy/RetroChallengeKillEximusEasy.png",
+        "requiredCount": 1
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillEximusEasy": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEximus_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEximus_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Easy/RetroChallengeKillEximusEasy.png",
+        "requiredCount": 10
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillEximusHard": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEximus_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEximus_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Hard/RetroChallengeKillEximusHard.png",
+        "requiredCount": 30
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillEximusMedium": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEximus_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEximus_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Medium/RetroChallengeKillEximusMedium.png",
+        "requiredCount": 20
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillScaldraEnemiesBase": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesScaldra_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesScaldra_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Easy/RetroChallengeKillScaldraEasy.png",
+        "requiredCount": 1
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillScaldraEnemiesEasy": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesScaldra_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesScaldra_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Easy/RetroChallengeKillScaldraEasy.png",
+        "requiredCount": 150
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillScaldraEnemiesHard": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesScaldra_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesScaldra_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Hard/RetroChallengeKillScaldraHard.png",
+        "requiredCount": 500
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillScaldraEnemiesMedium": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesScaldra_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesScaldra_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Medium/RetroChallengeKillScaldraMedium.png",
+        "requiredCount": 350
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillScaldraEnemiesWithAbilitiesBase": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilitiesScaldra_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilitiesScaldra_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Easy/RetroChallengeKillScaldraAbilitiesEasy.png",
+        "requiredCount": 1
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillScaldraEnemiesWithAbilitiesEasy": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilitiesScaldra_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilitiesScaldra_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Easy/RetroChallengeKillScaldraAbilitiesEasy.png",
+        "requiredCount": 75
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillScaldraEnemiesWithAbilitiesHard": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilitiesScaldra_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilitiesScaldra_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Hard/RetroChallengeKillScaldraAbilitiesHard.png",
+        "requiredCount": 250
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillScaldraEnemiesWithAbilitiesMedium": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilitiesScaldra_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilitiesScaldra_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Medium/RetroChallengeKillScaldraAbilitiesMedium.png",
+        "requiredCount": 150
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillScaldraEnemiesWithMeleeBase": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMeleeScaldra_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMeleeScaldra_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Easy/RetroChallengeKillScaldraMeleeEasy.png",
+        "requiredCount": 1
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillScaldraEnemiesWithMeleeEasy": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMeleeScaldra_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMeleeScaldra_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Easy/RetroChallengeKillScaldraMeleeEasy.png",
+        "requiredCount": 75
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillScaldraEnemiesWithMeleeHard": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMeleeScaldra_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMeleeScaldra_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Hard/RetroChallengeKillScaldraMeleeHard.png",
+        "requiredCount": 250
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillScaldraEnemiesWithMeleeMedium": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMeleeScaldra_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMeleeScaldra_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Medium/RetroChallengeKillScaldraMeleeMedium.png",
+        "requiredCount": 150
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillTankBase": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillTank_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillTank_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Hard/RetroChallengeDestroyTankHard.png",
+        "requiredCount": 1
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillTankHard": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillTank_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillTank_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Hard/RetroChallengeDestroyTankHard.png",
+        "requiredCount": 1
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillTechrotEnemiesBase": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesTechrot_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesTechrot_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Easy/RetroChallengeKillTechrotEasy.png",
+        "requiredCount": 1
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillTechrotEnemiesEasy": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesTechrot_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesTechrot_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Easy/RetroChallengeKillTechrotEasy.png",
+        "requiredCount": 250
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillTechrotEnemiesHard": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesTechrot_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesTechrot_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Hard/RetroChallengeKillTechrotHard.png",
+        "requiredCount": 750
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillTechrotEnemiesMedium": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesTechrot_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesTechrot_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Medium/RetroChallengeKillTechrotMedium.png",
+        "requiredCount": 500
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillTechrotEnemiesWithAbilitiesBase": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilitiesTechrot_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilitiesTechrot_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Easy/RetroChallengeKillTechrotAbilitiesEasy.png",
+        "requiredCount": 1
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillTechrotEnemiesWithAbilitiesEasy": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilitiesTechrot_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilitiesTechrot_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Easy/RetroChallengeKillTechrotAbilitiesEasy.png",
+        "requiredCount": 100
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillTechrotEnemiesWithAbilitiesHard": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilitiesTechrot_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilitiesTechrot_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Hard/RetroChallengeKillTechrotAbilitiesHard.png",
+        "requiredCount": 300
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillTechrotEnemiesWithAbilitiesMedium": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilitiesTechrot_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithAbilitiesTechrot_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Medium/RetroChallengeKillTechrotAbilitiesMedium.png",
+        "requiredCount": 200
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillTechrotEnemiesWithMeleeBase": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMeleeTechrot_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMeleeTechrot_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Easy/RetroChallengeKillTechrotMeleeEasy.png",
+        "requiredCount": 1
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillTechrotEnemiesWithMeleeEasy": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMeleeTechrot_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMeleeTechrot_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Easy/RetroChallengeKillTechrotMeleeEasy.png",
+        "requiredCount": 100
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillTechrotEnemiesWithMeleeHard": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMeleeTechrot_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMeleeTechrot_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Hard/RetroChallengeKillTechrotMeleeHard.png",
+        "requiredCount": 300
+    },
+    "/Lotus/Types/Challenges/Calendar1999/CalendarKillTechrotEnemiesWithMeleeMedium": {
+        "name": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMeleeTechrot_Name",
+        "description": "/Lotus/Language/1999Challenges/Challenge_CalendarKillEnemiesWithMeleeTechrot_Description",
+        "icon": "/Lotus/Interface/Icons/Challenges/Retro/Medium/RetroChallengeKillTechrotMeleeMedium.png",
+        "requiredCount": 200
+    },
     "/Lotus/Types/Challenges/EntratiLab/EntratiLabActivateConduitsQuickChallenge": {
         "name": "/Lotus/Language/EntratiLab/EntratiGeneral/Challenge_EntratiLabActivateConduitsQuickChallenge_Name",
         "description": "/Lotus/Language/EntratiLab/EntratiGeneral/Challenge_EntratiLabActivateConduitsQuickChallenge_Desc",
