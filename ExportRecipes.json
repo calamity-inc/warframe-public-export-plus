@@ -47148,6 +47148,47 @@
         ],
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Game/KubrowPet/KubrowQuestPetRecipe": {
+        "resultType": "/Lotus/Types/Game/KubrowPet/AdventurerKubrowPetPowerSuit",
+        "buildPrice": 0,
+        "buildTime": 60,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Game/KubrowPet/Eggs/KubrowPetEggItem",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Game/KubrowPet/EggHatcher",
+                "ItemCount": 1
+            }
+        ],
+        "secretIngredientAction": "SIA_CREATE_KUBROW",
+        "secretIngredients": [
+            {
+                "ItemType": "/Lotus/Types/Game/KubrowPet/AdventurerKubrowPetPowerSuit",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Game/KubrowPet/FurtiveKubrowPetPowerSuit",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Game/KubrowPet/GuardKubrowPetPowerSuit",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Game/KubrowPet/HunterKubrowPetPowerSuit",
+                "ItemCount": 1
+            }
+        ],
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Vehicles/Hoverboard/LotusGildHoverboardBlueprint": {
         "resultType": "/Lotus/Types/Vehicles/Hoverboard/HoverboardSuit",
         "buildPrice": 4000,
