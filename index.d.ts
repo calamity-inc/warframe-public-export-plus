@@ -773,6 +773,7 @@ export interface IVendor {
 
 export interface IVendorOffer {
     storeItem: string;
+    quantity: number;
     alwaysOffered: boolean;
     bin: number;
     probability: number;
