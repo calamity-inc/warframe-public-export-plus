@@ -776,7 +776,7 @@ export interface IVendorOffer {
     quantity: number;
     alwaysOffered: boolean;
     bin: number;
-    probability: number;
+    probability?: number;
     rotatedWeekly?: boolean;
     duplicates: number;
     credits?: number | {
