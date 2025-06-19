@@ -47189,6 +47189,31 @@
         ],
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Game/KubrowPet/DistillPrintRecipe": {
+        "resultType": "/Lotus/Types/Game/KubrowPet/ImprintedTraitPrint",
+        "buildPrice": 0,
+        "buildTime": 5400,
+        "skipBuildTimePrice": 10,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": false,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Game/KubrowPet/BlankTraitPrint",
+                "ItemCount": 1
+            }
+        ],
+        "secretIngredientAction": "SIA_DISTILL_PRINT",
+        "secretIngredients": [
+            {
+                "ItemType": "/Lotus/Types/Game/KubrowPet/KubrowPetPowerSuit",
+                "ItemCount": 1
+            }
+        ],
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Vehicles/Hoverboard/LotusGildHoverboardBlueprint": {
         "resultType": "/Lotus/Types/Vehicles/Hoverboard/HoverboardSuit",
         "buildPrice": 4000,

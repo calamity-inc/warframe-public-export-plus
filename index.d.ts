@@ -514,7 +514,7 @@ export interface IRecipe {
     hidden?:                 boolean;
     primeSellingPrice?:      number;
     ingredients:             ICountedItem[];
-    secretIngredientAction?: "SIA_UNBRAND" | "SIA_SPECTRE_LOADOUT_COPY" | "SIA_GILD_WEAPON" | "SIA_CREATE_KUBROW" | "SIA_WARFRAME_ABILITY";
+    secretIngredientAction?: "SIA_UNBRAND" | "SIA_SPECTRE_LOADOUT_COPY" | "SIA_GILD_WEAPON" | "SIA_CREATE_KUBROW" | "SIA_DISTILL_PRINT" | "SIA_WARFRAME_ABILITY";
     secretIngredients?:      {
         ItemType:  string;
         ItemCount: number;
