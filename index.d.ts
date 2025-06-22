@@ -421,6 +421,7 @@ export interface IKey {
     parentName:        string;
     codexSecret:       boolean;
     excludeFromCodex?: boolean;
+    replayable?:       boolean;
     chainStages?:      {
         key?:                     string;
         itemsToGiveWhenTriggered: string[];
