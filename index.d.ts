@@ -547,6 +547,7 @@ export interface IRegion {
     masteryExp:             number;
     missionReward?:         IMissionReward;
     miscItemFee?:           ICountedItem;
+    challenges?:            string[];
     rewardManifests:        string[];
     cacheRewardManifest?:   string;
     darkSectorData?:        {
