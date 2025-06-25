@@ -116,6 +116,7 @@ export interface IBoosterPack {
     icon?:                string;
     components:           {
         Item: string;
+        Amount: number;
         Probability?: number;
         PityIncreaseRate?: number;
         Rarity: TRarity;
