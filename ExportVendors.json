@@ -4593,6 +4593,25 @@
                 "durationHours": 24
             },
             {
+                "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Warframes/CitrineActionGlyph",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 100,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal"
+                    },
+                    {
+                        "ItemCount": 100,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
                 "storeItem": "/Lotus/StoreItems/Types/Items/PhotoBooth/PhotoboothCitrinesLastWish",
                 "quantity": 1,
                 "alwaysOffered": false,
@@ -5324,6 +5343,36 @@
             },
             {
                 "storeItem": "/Lotus/StoreItems/Types/StoreItems/CreditBundles/100000Credits",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 15,
+                        "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriKullervoDropItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Warframes/KullervoActionGlyph",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriKullervoDropItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureDungeon",
                 "quantity": 1,
                 "alwaysOffered": false,
                 "bin": 0,
@@ -8498,6 +8547,803 @@
                     {
                         "ItemCount": 50,
                         "ItemType": "/Lotus/Types/Items/Deimos/EntratiFragmentUncommonB"
+                    }
+                ],
+                "durationHours": 24
+            }
+        ]
+    },
+    "/Lotus/Types/Game/VendorManifests/Events/DuviriMurmurInvasionVendorManifest": {
+        "isDynamic": true,
+        "isOneBinPerCycle": false,
+        "items": [
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "quantity": 5,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 18,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 20
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Parazon/DaxDuviriParazonSkin",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 56,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Crowns/Events/IsleweaverEventCrownA",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 23,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Crowns/Events/IsleweaverEventCrownB",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 23,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Crowns/Events/IsleweaverEventCrownC",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 23,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Clan/EightClawEventBadgeItem",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 25,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/EventSigilEightClaw",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 9,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/ClanSigilMaskedEffect",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 9,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/ClanSigilTwoTone",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 9,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/ClanSigilBasicAdd",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 9,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Crowns/LaurelHaloCrown",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 9,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ResourceDecoItemCetusWispTwitch",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 9,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Events/ArchRocketCrossbowGrineer",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 17,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/OperationsLaceraBlueprint",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 9,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/SentRifleNewWarGunBlueprint",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 9,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Components/FormaStanceBlueprint",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 9,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 2
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/DangerRoom/DangerRoomTileArena",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 9,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/HealthRegenOnHeadshot",
+                "quantity": 7,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 2,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 3
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/MeleeSpeedOnHit",
+                "quantity": 7,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 2,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 3
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Utility/PistolDamageOnReload",
+                "quantity": 7,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 2,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 3
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/ArmourOnDamage",
+                "quantity": 7,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 2,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 3
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/SpeedOnParry",
+                "quantity": 7,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 2,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 3
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Utility/RadialKnockdownOnEnergyPickup",
+                "quantity": 7,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 2,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 3
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/SpeedOnDamage",
+                "quantity": 7,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 2,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 3
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/LongGunSpeedOnCrit",
+                "quantity": 7,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 2,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 3
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/InvisibilityOnFinisher",
+                "quantity": 7,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 2,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 3
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/GolemArcanePistolSpeedOnCrit",
+                "quantity": 7,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 2,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 3
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/GolemArcanePistolDamageOnHeadshot",
+                "quantity": 7,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 4,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 3
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Utility/RadialHealOnHealthPickup",
+                "quantity": 7,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 4,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 3
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneArmorOnFinisher",
+                "quantity": 7,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 4,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 3
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/GolemArcaneShieldRegenOnDamage",
+                "quantity": 7,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 4,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 3
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Utility/GolemArcaneBonusDamageOnWallLatch",
+                "quantity": 7,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 4,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 3
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/LongGunDamageOnHeadshot",
+                "quantity": 7,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 4,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 3
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneMeleeDamageOnCrit",
+                "quantity": 7,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 4,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 3
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/CritChanceOnDamage",
+                "quantity": 7,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 4,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 3
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Utility/GolemArcaneRadialEnergyOnEnergyPickup",
+                "quantity": 3,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 22,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 7
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/HealthRegenOnDamage",
+                "quantity": 3,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 22,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 7
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/InstantShieldOnDamage",
+                "quantity": 3,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 22,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent"
+                    }
+                ],
+                "purchaseLimit": 7
+            }
+        ]
+    },
+    "/Lotus/Types/Game/VendorManifests/Events/DuviriMurmurPostEventVendorManifest": {
+        "isDynamic": false,
+        "items": [
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/OraxiaBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 60,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/OraxiaChassisBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 20,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/OraxiaHelmetBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 20,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/OraxiaSystemsBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 20,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/ScyotidBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 48,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/ScyotidBarrelBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 12,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/ScyotidGauntletBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 12,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/ZarimanHeavyScytheIncarnonBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 96,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/SpinnerexBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 48,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/SpinnerexBladeBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 16,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/SpinnerexHandleBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 16,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/SpinnerexStringBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 16,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileDuviriDragonArenaMITW",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 25,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapJ",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 25,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapK",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 25,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileDuviriScholarsLandingMITW",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 25,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileDuviriThroneRoom",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 25,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
                     }
                 ],
                 "durationHours": 24
@@ -54161,6 +55007,19 @@
                 ]
             },
             {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/1999FlareBandPoster",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 30,
+                        "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceDefense"
+                    }
+                ]
+            },
+            {
                 "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Hollvania/LASxStadiumDrumCoreKitA",
                 "quantity": 1,
                 "alwaysOffered": true,
@@ -54949,6 +55808,306 @@
             },
             {
                 "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/SicarusIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/BoltorIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/BratonIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/BurstonIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/DreadIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/LatronIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/MiterIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/ParisIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/SomaIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/StrunIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/ToridIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/AtomosIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/BroncoIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/DespairIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/DualToxocystIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/FurisIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/KunaiIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/LatoIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/LexIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/VastoIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/ZylokIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/AckAndBruntIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/BoIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/CeramicDaggerIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/DualIchorIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/FuraxIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/HateIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/MagistarIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/NamiSoloIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/SibearIncarnonBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "platinum": 120,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/IncarnonPackages/SkanaIncarnonBundle",
                 "quantity": 1,
                 "alwaysOffered": false,
                 "bin": 0,

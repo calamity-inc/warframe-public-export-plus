@@ -1941,8 +1941,8 @@
         "missionName": "/Lotus/Language/Missions/MissionName_Sabotage",
         "factionIndex": 1,
         "factionName": "/Lotus/Language/Game/Faction_CorpusUC",
-        "minEnemyLevel": 29,
-        "maxEnemyLevel": 31,
+        "minEnemyLevel": 30,
+        "maxEnemyLevel": 32,
         "masteryExp": 52,
         "rewardManifests": []
     },
@@ -4758,20 +4758,11 @@
         "maxEnemyLevel": 3,
         "masteryExp": 0,
         "missionReward": {
-            "credits": 10000,
+            "credits": 20000,
             "items": [
-                "/Lotus/StoreItems/Types/Keys/InfestedIntroQuest/InfestedIntroQuestKeyChain",
-                "/Lotus/StoreItems/Types/Keys/KubrowQuest/KubrowQuestKeyChain",
                 "/Lotus/StoreItems/Weapons/Tenno/Rifle/BoltoRifle",
-                "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarShieldRechargeRateMod",
-                "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarAbilityEfficiencyMod",
-                "/Lotus/StoreItems/Types/Game/KubrowPet/EggHatcher"
-            ],
-            "countedItems": [
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
-                    "ItemCount": 1000
-                }
+                "/Lotus/StoreItems/Types/Keys/InfestedIntroQuest/InfestedIntroQuestKeyChain",
+                "/Lotus/StoreItems/Types/Keys/KubrowQuest/KubrowQuestKeyChain"
             ]
         },
         "rewardManifests": []
@@ -4801,21 +4792,9 @@
         "maxEnemyLevel": 3,
         "masteryExp": 0,
         "missionReward": {
-            "credits": 5000,
+            "credits": 15000,
             "items": [
-                "/Lotus/StoreItems/Types/Recipes/Weapons/FurisBlueprint",
-                "/Lotus/StoreItems/Upgrades/Mods/Melee/WeaponFreezeDamageMod",
-                "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponElectricityDamageMod",
-                "/Lotus/StoreItems/Types/Recipes/SentinelRecipes/TnSentinelCrossBlueprint",
-                "/Lotus/StoreItems/Weapons/Tenno/Melee/MeleeTrees/StaffCmbOneMeleeTree",
-                "/Lotus/StoreItems/Types/Items/MiscItems/OrokinReactor",
-                "/Lotus/StoreItems/Upgrades/Mods/Aura/PlayerEnergyHealthRegenAuraMod"
-            ],
-            "countedItems": [
-                {
-                    "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
-                    "ItemCount": 500
-                }
+                "/Lotus/StoreItems/Weapons/Tenno/Pistol/AutoPistol"
             ]
         },
         "rewardManifests": []
@@ -4832,21 +4811,11 @@
         "maxEnemyLevel": 1,
         "masteryExp": 0,
         "missionReward": {
-            "credits": 15000,
+            "credits": 25000,
             "items": [
-                "/Lotus/StoreItems/Types/Keys/ArchwingQuest/ArchwingQuestKeyChain",
-                "/Lotus/StoreItems/Types/Game/KubrowPet/EggHatcher",
-                "/Lotus/StoreItems/Types/Items/ShipFeatureItems/VoidProjectionFeatureItem",
-                "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionRevenantPrimeABronze",
                 "/Lotus/StoreItems/Weapons/Tenno/Melee/Hammer/HammerWeapon",
-                "/Lotus/StoreItems/Weapons/Tenno/Melee/MeleeTrees/IronPhoenixMeleeTree",
+                "/Lotus/StoreItems/Types/Keys/ArchwingQuest/ArchwingQuestKeyChain",
                 "/Lotus/StoreItems/Types/Keys/InfestedMicroplanetQuest/InfestedMicroplanetQuestKeyChain"
-            ],
-            "countedStoreItems": [
-                {
-                    "StoreItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/Scanner",
-                    "ItemCount": 25
-                }
             ]
         },
         "rewardManifests": []
@@ -4891,9 +4860,7 @@
         "missionReward": {
             "credits": 20000,
             "items": [
-                "/Lotus/StoreItems/Types/Recipes/Weapons/GrnSniperRifleBlueprint",
-                "/Lotus/StoreItems/Upgrades/Mods/Melee/WeaponToxinDamageMod",
-                "/Lotus/StoreItems/Weapons/Tenno/Melee/MeleeTrees/DualSwordCmbOneMeleeTree"
+                "/Lotus/StoreItems/Types/Recipes/Weapons/GrnSniperRifleBlueprint"
             ]
         },
         "rewardManifests": []
@@ -4912,12 +4879,8 @@
         "missionReward": {
             "credits": 20000,
             "items": [
-                "/Lotus/StoreItems/Types/Keys/SpyQuestKeyChain/SpyQuestKeyChain",
                 "/Lotus/StoreItems/Types/Recipes/Weapons/GrnHeavyPistolBlueprint",
-                "/Lotus/StoreItems/Types/StoreItems/Consumables/CipherBlueprint",
-                "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponReloadSpeedMod",
-                "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarLootRadarMod",
-                "/Lotus/StoreItems/Types/Items/MiscItems/OrokinCatalyst"
+                "/Lotus/StoreItems/Types/Keys/SpyQuestKeyChain/SpyQuestKeyChain"
             ]
         },
         "rewardManifests": []
@@ -4978,10 +4941,7 @@
         "missionReward": {
             "credits": 30000,
             "items": [
-                "/Lotus/StoreItems/Types/Recipes/Weapons/GrnStaffBlueprint",
-                "/Lotus/StoreItems/Upgrades/Mods/Archwing/Suit/ArchwingSuitHealthMaxMod",
-                "/Lotus/StoreItems/Upgrades/Mods/Archwing/Rifle/ArchwingRifleDamageAmountMod",
-                "/Lotus/StoreItems/Upgrades/Mods/Archwing/Melee/ArchwingMeleeDamageMod"
+                "/Lotus/StoreItems/Types/Recipes/Weapons/GrnStaffBlueprint"
             ]
         },
         "rewardManifests": []
@@ -4998,12 +4958,11 @@
         "maxEnemyLevel": 3,
         "masteryExp": 0,
         "missionReward": {
-            "credits": 40000,
+            "credits": 30000,
             "items": [
-                "/Lotus/StoreItems/Types/Keys/LimboQuest/LimboQuestKeyChain",
-                "/Lotus/StoreItems/Types/Keys/DragonQuest/DragonQuestKeyChain",
                 "/Lotus/StoreItems/Types/Recipes/Weapons/CorpusMinigunBlueprint",
-                "/Lotus/StoreItems/Upgrades/Mods/Aura/PlayerHealthAuraMod"
+                "/Lotus/StoreItems/Types/Keys/LimboQuest/LimboQuestKeyChain",
+                "/Lotus/StoreItems/Types/Keys/DragonQuest/DragonQuestKeyChain"
             ]
         },
         "rewardManifests": []
@@ -5040,12 +4999,12 @@
         "maxEnemyLevel": 3,
         "masteryExp": 0,
         "missionReward": {
-            "credits": 60000,
+            "credits": 40000,
             "items": [
                 "/Lotus/StoreItems/Types/Recipes/Weapons/CorpusWhipBlueprint",
-                "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ChromaHelmetBlueprint",
                 "/Lotus/StoreItems/Types/Keys/DuviriQuest/DuviriQuestKeyChain",
-                "/Lotus/StoreItems/Types/NeutralCreatures/ErsatzHorse/ErsatzHorsePowerSuit"
+                "/Lotus/StoreItems/Types/NeutralCreatures/ErsatzHorse/ErsatzHorsePowerSuit",
+                "/Lotus/StoreItems/Types/Items/EmailItems/NatahEmailItem"
             ]
         },
         "rewardManifests": []
@@ -5096,9 +5055,8 @@
         "missionReward": {
             "credits": 80000,
             "items": [
-                "/Lotus/StoreItems/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyChain",
                 "/Lotus/StoreItems/Types/Recipes/Weapons/ReconnasorBlueprint",
-                "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ChromaChassisBlueprint"
+                "/Lotus/StoreItems/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyChain"
             ]
         },
         "rewardManifests": []
@@ -5189,7 +5147,7 @@
             "credits": 80000,
             "items": [
                 "/Lotus/StoreItems/Types/Recipes/Weapons/GrineerFlakCannonBlueprint",
-                "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ChromaSystemsBlueprint"
+                "/Lotus/StoreItems/Types/Keys/WarWithinQuest/WarWithinQuestKeyChain"
             ]
         },
         "rewardManifests": []
@@ -5208,8 +5166,8 @@
         "missionReward": {
             "credits": 100000,
             "items": [
-                "/Lotus/StoreItems/Types/Keys/InfestedAladVQuest/InfestedAladVQuestKeyChain",
-                "/Lotus/StoreItems/Types/Recipes/Weapons/MireSwordBlueprint"
+                "/Lotus/StoreItems/Types/Recipes/Weapons/MireSwordBlueprint",
+                "/Lotus/StoreItems/Types/Keys/InfestedAladVQuest/InfestedAladVQuestKeyChain"
             ]
         },
         "rewardManifests": []
@@ -5225,14 +5183,6 @@
         "minEnemyLevel": 1,
         "maxEnemyLevel": 1,
         "masteryExp": 0,
-        "missionReward": {
-            "credits": 100000,
-            "items": [
-                "/Lotus/StoreItems/Types/Keys/WarWithinQuest/WarWithinQuestKeyChain",
-                "/Lotus/StoreItems/Types/Keys/MirageQuest/MirageQuestKeyChain",
-                "/Lotus/StoreItems/Types/Recipes/Weapons/DualDaggerBlueprint"
-            ]
-        },
         "rewardManifests": []
     },
     "PlutoHUB": {

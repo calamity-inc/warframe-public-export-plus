@@ -59,7 +59,7 @@
             "body": "/Lotus/Language/1999/ArthurKissMessage",
             "attachments": [],
             "countedAttachments": [],
-            "icon": "/Lotus/Interface/Icons/Npcs/Hex/Arthur.png",
+            "icon": "/Lotus/Interface/Icons/Player/ArthurAccoladeGlyph.png",
             "highPriority": true,
             "customData": "Arthur"
         }
@@ -157,6 +157,43 @@
             "countedAttachments": [],
             "icon": "/Lotus/Interface/Icons/Npcs/Drusus.png",
             "transmission": "/Lotus/Sounds/Dialog/EntratiDisruption/DInboxMessage0890DruLev",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/DuviriMurmurCommunityMsgEndEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/Duviri/DominusThrax",
+            "title": "/Lotus/Language/Isleweaver/DuviriMurmurEventCompleteInboxMessageTitle",
+            "body": "/Lotus/Language/Isleweaver/DuviriMurmurEventCompleteInboxMessageBody",
+            "attachments": [],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/Thrax.png",
+            "transmission": "/Lotus/Sounds/Dialog/Isleweaver/Event/DEventEndInbox0020DomThrax"
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/DuviriMurmurCommunityMsgStartEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/Duviri/DominusThrax",
+            "title": "/Lotus/Language/Isleweaver/DuviriMurmurEventIntroInboxMessageTitle",
+            "body": "/Lotus/Language/Isleweaver/DuviriMurmurEventIntroInboxMessageBody",
+            "attachments": [],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/Thrax.png",
+            "transmission": "/Lotus/Sounds/Dialog/Isleweaver/Event/DEventStartInbox0010DomThrax"
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/DuviriMurmurPostEventEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/Duviri/DominusThrax",
+            "title": "/Lotus/Language/Isleweaver/IsleweaverQuestIntroInboxMessageTitle",
+            "body": "/Lotus/Language/Isleweaver/IsleweaverQuestIntroInboxMessageBody",
+            "attachments": [],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/Thrax.png",
+            "transmission": "/Lotus/Sounds/Dialog/Isleweaver/QuestInbox/DQuestStartInbox0030DomThrax",
             "highPriority": true
         }
     },

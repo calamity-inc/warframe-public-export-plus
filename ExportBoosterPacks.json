@@ -339,6 +339,119 @@
         ],
         "canGiveDuplicates": false
     },
+    "/Lotus/Types/BoosterPacks/BaroTreasureBox": {
+        "name": "/Lotus/Language/BaroTreasureBox/BaroTreasureBoxName",
+        "description": "/Lotus/Language/BaroTreasureBox/BaroTreasureBoxDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Objects/BaroTreasureBox.png",
+        "components": [
+            {
+                "Item": "/Lotus/Upgrades/Mods/FusionBundles/EndoJackpotBundle",
+                "Probability": 0.02,
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Items/SyndicateDogTags/UniversalSyndicateDogTag",
+                "Probability": 0.04,
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Items/MiscItems/Kuva",
+                "Probability": 0.02,
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Items/MiscItems/PrimeBucks",
+                "Probability": 0.02,
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Types/Items/MiscItems/SchismKey",
+                "Probability": 0.1,
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Boosters/AffinityBooster",
+                "Probability": 0.07,
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Boosters/CreditBooster",
+                "Probability": 0.07,
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Boosters/ResourceAmountBooster",
+                "Probability": 0.07,
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Boosters/ResourceDropChanceBooster",
+                "Probability": 0.07,
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Boosters/ModDropChanceBooster",
+                "Probability": 0.07,
+                "Rarity": "UNCOMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Items/MiscItems/Forma",
+                "Probability": 0.1,
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Recipes/Components/OrokinCatalystBlueprint",
+                "Probability": 0.08,
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Recipes/Components/OrokinReactorBlueprint",
+                "Probability": 0.08,
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Items/MiscItems/UtilityUnlocker",
+                "Probability": 0.08,
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Items/MiscItems/WeaponUtilityUnlocker",
+                "Probability": 0.08,
+                "Rarity": "COMMON"
+            },
+            {
+                "Item": "/Lotus/Types/Items/MiscItems/FormaAura",
+                "Probability": 0.025,
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Mods/Fusers/LegendaryModFuser",
+                "Probability": 0.005,
+                "Rarity": "LEGENDARY"
+            },
+            {
+                "Item": "/Lotus/Upgrades/Skins/Crowns/KiTeerSignaCrown",
+                "Probability": 0.05,
+                "PityIncreaseRate": 0.04,
+                "Rarity": "COMMON"
+            }
+        ],
+        "rarityWeightsPerRoll": [
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0,
+                "RARE": 0,
+                "LEGENDARY": 0
+            },
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0,
+                "RARE": 0,
+                "LEGENDARY": 0
+            }
+        ],
+        "canGiveDuplicates": true
+    },
     "/Lotus/Types/BoosterPacks/CalendarArtifactPack": {
         "name": "/Lotus/Language/1999/CalendarArtifactPackName",
         "description": "/Lotus/Language/1999/CalendarArtifactPackDesc",

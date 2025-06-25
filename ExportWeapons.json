@@ -705,6 +705,70 @@
             }
         ]
     },
+    "/Lotus/Weapons/Tenno/Zariman/Melee/HeavyScythe/ZarimanHeavyScythe/ZarimanHeavyScytheWeapon": {
+        "name": "/Lotus/Language/Weapons/VoidHeavyScytheName",
+        "parentName": "/Lotus/Weapons/Tenno/Melee/HeavyScytheWeapon",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/ZarimanHeavyScythe.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            90,
+            210,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 300,
+        "description": "/Lotus/Language/Weapons/VoidHeavyScytheDesc",
+        "criticalChance": 0.3,
+        "criticalMultiplier": 2.2,
+        "procChance": 0.24,
+        "fireRate": 0.916667,
+        "masteryReq": 12,
+        "productCategory": "Melee",
+        "holsterCategory": "STAFF",
+        "slot": 5,
+        "omegaAttenuation": 0.5,
+        "blockingAngle": 65,
+        "comboDuration": 5,
+        "followThrough": 0.4,
+        "range": 2.8,
+        "slamAttack": 900,
+        "slamRadialDamage": 600,
+        "slamRadius": 8,
+        "slideAttack": 600,
+        "heavyAttackDamage": 5400,
+        "heavySlamAttack": 1500,
+        "heavySlamRadialDamage": 900,
+        "heavySlamRadius": 9,
+        "windUp": 1,
+        "compatibilityTags": [
+            "HEAVY SCYTHE_STANCE"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "impact": {
+                    "DT_PUNCTURE": 90.0,
+                    "DT_SLASH": 210.0
+                }
+            }
+        ]
+    },
     "/Lotus/Weapons/Tenno/Zariman/Melee/Dagger/ZarimanDaggerWeapon": {
         "name": "/Lotus/Language/Weapons/ZarimanDaggerName",
         "parentName": "/Lotus/Weapons/Tenno/Melee/LotusDagger",
@@ -1234,6 +1298,81 @@
             },
             {
                 "impact": {}
+            }
+        ]
+    },
+    "/Lotus/Weapons/Tenno/ThrowingWeapons/TnOraxiaFlechette/TnOraxiaFlechette": {
+        "name": "/Lotus/Language/Weapons/TnOraxiaFlechetteName",
+        "parentName": "/Lotus/Weapons/Tenno/Akimbo/LotusAkimboOther",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Weapons/TnOraxiaFlechette.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            8,
+            0,
+            0,
+            0,
+            0,
+            32,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 40,
+        "description": "/Lotus/Language/Weapons/TnOraxiaFlechetteDesc",
+        "criticalChance": 0.24,
+        "criticalMultiplier": 2.4,
+        "procChance": 0.18,
+        "fireRate": 2.4,
+        "masteryReq": 12,
+        "productCategory": "Pistols",
+        "holsterCategory": "SMG",
+        "slot": 0,
+        "accuracy": 50,
+        "omegaAttenuation": 0.5,
+        "noise": "SILENT",
+        "trigger": "AUTO",
+        "magazineSize": 40,
+        "reloadTime": 1.6,
+        "multishot": 4,
+        "premiumPrice": 195,
+        "compatibilityTags": [
+            "PROJECTILE"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 8,
+                        "DT_POISON": 32
+                    }
+                },
+                "impact": {}
+            },
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_POISON": 40
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 3.33333,
+                    "DT_PUNCTURE": 3.33333,
+                    "DT_SLASH": 3.33334
+                }
             }
         ]
     },
@@ -6379,7 +6518,7 @@
         "criticalMultiplier": 2,
         "procChance": 0.12,
         "fireRate": 10.000001,
-        "masteryReq": 2,
+        "masteryReq": 1,
         "productCategory": "Pistols",
         "holsterCategory": "SMG",
         "slot": 0,
@@ -6401,6 +6540,68 @@
                     "DT_SLASH": 3.0
                 }
             },
+            {
+                "impact": {}
+            }
+        ]
+    },
+    "/Lotus/Weapons/Tenno/Melee/Whips/SpiderWhip/SpiderWhipWeapon": {
+        "name": "/Lotus/Language/Oraxia/SpiderWhipName",
+        "parentName": "/Lotus/Weapons/Tenno/Melee/LotusWhip",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/SpiderWhip.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            168,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 168,
+        "description": "/Lotus/Language/Oraxia/SpiderWhipDesc",
+        "criticalChance": 0.16,
+        "criticalMultiplier": 2.4,
+        "procChance": 0.4,
+        "fireRate": 1.36,
+        "masteryReq": 12,
+        "productCategory": "Melee",
+        "holsterCategory": "MELEE",
+        "slot": 5,
+        "omegaAttenuation": 0.5,
+        "blockingAngle": 45,
+        "comboDuration": 5,
+        "followThrough": 0.5,
+        "range": 2.996386,
+        "slamAttack": 504,
+        "slamRadialDamage": 336,
+        "slamRadius": 5,
+        "slideAttack": 336,
+        "heavyAttackDamage": 756,
+        "heavySlamAttack": 588,
+        "heavySlamRadialDamage": 504,
+        "heavySlamRadius": 6,
+        "windUp": 0.4,
+        "premiumPrice": 170,
+        "compatibilityTags": [
+            "WHIPS_STANCE"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
             {
                 "impact": {}
             }
@@ -22706,9 +22907,6 @@
                     "DT_PUNCTURE": 16.0,
                     "DT_SLASH": 48.0
                 }
-            },
-            {
-                "impact": {}
             }
         ]
     },
@@ -33467,9 +33665,6 @@
                     "DT_PUNCTURE": 6.125,
                     "DT_SLASH": 6.125
                 }
-            },
-            {
-                "impact": {}
             }
         ]
     },
@@ -36951,7 +37146,7 @@
             0,
             0,
             0,
-            24,
+            29,
             0,
             0,
             0,
@@ -36967,7 +37162,7 @@
             0,
             0
         ],
-        "totalDamage": 24,
+        "totalDamage": 29,
         "description": "/Lotus/Language/Weapons/CrpArSniperDesc",
         "criticalChance": 0.14,
         "criticalMultiplier": 2.8,
@@ -42581,9 +42776,9 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/ExaltedWeapons/BerskerMelee.png",
         "codexSecret": false,
         "damagePerShot": [
-            99.989998,
-            99.999893,
-            100.01009,
+            0,
+            75,
+            225,
             0,
             0,
             0,
@@ -42617,12 +42812,12 @@
         "blockingAngle": 60,
         "comboDuration": 5,
         "followThrough": 1,
-        "range": 1.7,
+        "range": 2.15,
         "slamAttack": 900,
         "slamRadialDamage": 600,
         "slamRadius": 6,
         "slideAttack": 900,
-        "heavyAttackDamage": 2500,
+        "heavyAttackDamage": 1500,
         "heavySlamAttack": 1200,
         "heavySlamRadialDamage": 900,
         "heavySlamRadius": 7,
@@ -42634,9 +42829,8 @@
         "behaviours": [
             {
                 "impact": {
-                    "DT_IMPACT": 99.99,
-                    "DT_PUNCTURE": 99.9999,
-                    "DT_SLASH": 100.0101
+                    "DT_PUNCTURE": 75.0,
+                    "DT_SLASH": 225.0
                 }
             }
         ]
@@ -42647,9 +42841,9 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/ExaltedWeapons/BerskerMelee.png",
         "codexSecret": false,
         "damagePerShot": [
-            99.989998,
-            99.999893,
-            100.01009,
+            0,
+            75,
+            225,
             0,
             0,
             0,
@@ -42683,12 +42877,12 @@
         "blockingAngle": 60,
         "comboDuration": 5,
         "followThrough": 1,
-        "range": 1.7,
+        "range": 2.15,
         "slamAttack": 900,
         "slamRadialDamage": 600,
         "slamRadius": 6,
         "slideAttack": 900,
-        "heavyAttackDamage": 2500,
+        "heavyAttackDamage": 1500,
         "heavySlamAttack": 1200,
         "heavySlamRadialDamage": 900,
         "heavySlamRadius": 7,
@@ -42700,9 +42894,8 @@
         "behaviours": [
             {
                 "impact": {
-                    "DT_IMPACT": 99.99,
-                    "DT_PUNCTURE": 99.9999,
-                    "DT_SLASH": 100.0101
+                    "DT_PUNCTURE": 75.0,
+                    "DT_SLASH": 225.0
                 }
             }
         ]

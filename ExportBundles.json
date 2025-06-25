@@ -2612,6 +2612,59 @@
         ],
         "premiumPrice": 1
     },
+    "/Lotus/Types/StoreItems/Packages/2025Bundles/OraxiaSupporterPack": {
+        "name": "/Lotus/Language/Bundles/OraxiaSupPackName",
+        "description": "/Lotus/Language/Bundles/OraxiaSupPackDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/Marketing/OraxiaSupporterPackMarketTile.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Powersuits/Oraxia/Oraxia",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Oraxia/OraxiaAltHelmet",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/ThrowingWeapons/TnOraxiaFlechette/TnOraxiaFlechette",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/Melee/Whips/SpiderWhip/SpiderWhipWeapon",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/TnOraxiaArmor/TnOraxiaArmorA",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/TnOraxiaArmor/TnOraxiaArmorC",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/TnOraxiaArmor/TnOraxiaArmorL",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Effects/OraxiaEphemera",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropCleaningDroneOraxiaSpider",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ],
+        "premiumPrice": 885
+    },
     "/Lotus/Types/StoreItems/Packages/2025Bundles/RhinoHeirloomPack": {
         "name": "/Lotus/Language/Bundles/RhinoHeirloomPackName",
         "description": "/Lotus/Language/Bundles/RhinoHeirloomPackDesc",
@@ -2693,6 +2746,45 @@
             }
         ],
         "premiumPrice": 1
+    },
+    "/Lotus/Types/StoreItems/Packages/2025Bundles/ValkyrHeirloomPack": {
+        "name": "/Lotus/Language/Bundles/ValkyrHeirloomPackName",
+        "description": "/Lotus/Language/Bundles/ValkyrHeirloomPackDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/Marketing/ValkyrHeirloomMarketTile.png",
+        "excludeFromCodex": true,
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Berserker/ValkyrHeirloomSkin",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Crowns/HeirloomValkyrCrown",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Sigils/HeirloomValkyrSigil",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/HeirloomValkyrGlyph",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/SuitCustomizations/ColourPickerValkyrHeirloom",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCardValkyrHeirloom",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ],
+        "premiumPrice": 400
     },
     "/Lotus/Types/StoreItems/Packages/AcolyteNoggleBundle": {
         "name": "/Lotus/Language/Items/AcolyteNoggleBundleName",
@@ -6117,6 +6209,39 @@
         ],
         "giftingBonus": "/Lotus/StoreItems/Types/Items/ShipDecos/JadeShadows/LisetPropCalibanDeluxeGhosts",
         "premiumPrice": 315
+    },
+    "/Lotus/Types/StoreItems/Packages/DeluxeBundles/CitrineDeluxeSkinBundle": {
+        "name": "/Lotus/Language/Bundles/CitrineDeluxeBundleName",
+        "description": "/Lotus/Language/Bundles/CitrineDeluxeBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/CosmeticBundles/Deluxe/CitrineDeluxeBundle.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Geode/CitrineDeluxeSkin",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Geode/CitrineDeluxeExaltedScytheSkin",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Crowns/CitrineDeluxeCrown",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Scarves/CitrineDeluxeSyandana",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Effects/CitrineDeluxeEphemera",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ],
+        "premiumPrice": 365
     },
     "/Lotus/Types/StoreItems/Packages/DeluxeBundles/EmberDeluxeIISkinBundle": {
         "name": "/Lotus/Language/Bundles/EmberDeluxeIISkinBundleName",
@@ -10362,6 +10487,45 @@
         ],
         "premiumPrice": 400
     },
+    "/Lotus/Types/StoreItems/Packages/HeirloomPackValkyr": {
+        "name": "/Lotus/Language/Bundles/ValkyrHeirloomPackName",
+        "description": "/Lotus/Language/Bundles/ValkyrHeirloomPackDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/CosmeticBundles/Skins/ValkyrHeirloomPack.png",
+        "excludeFromCodex": true,
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Berserker/ValkyrHeirloomSkin",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Crowns/HeirloomValkyrCrown",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/SuitCustomizations/ColourPickerValkyrHeirloom",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/HeirloomValkyrGlyph",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Sigils/HeirloomValkyrSigil",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCardValkyrHeirloom",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ],
+        "premiumPrice": 400
+    },
     "/Lotus/Types/StoreItems/Packages/HelminthBundle": {
         "name": "/Lotus/Language/Bundles/HelminthBundleName",
         "description": "/Lotus/Language/Bundles/HelminthBundleDesc",
@@ -10951,6 +11115,33 @@
         ],
         "premiumPrice": 105
     },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/AckAndBruntIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/AckAndBruntIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/AckAndBruntIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/AckBruntIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Melee/AckAndBruntIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemF",
+                "purchaseQuantity": 70,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartBItem",
+                "purchaseQuantity": 300,
+                "durability": "COMMON"
+            }
+        ]
+    },
     "/Lotus/Types/StoreItems/Packages/IncarnonPackages/AngstrumIncarnonBundle": {
         "name": "/Lotus/Language/Zariman/AngstrumIncarnonBundleName",
         "description": "/Lotus/Language/Zariman/AngstrumIncarnonBundleDesc",
@@ -11005,6 +11196,33 @@
             }
         ]
     },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/AtomosIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/AtomosIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/AtomosIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/AtomosIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Secondary/AtomosIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
+                "purchaseQuantity": 70,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriEnemyDropItem",
+                "purchaseQuantity": 80,
+                "durability": "COMMON"
+            }
+        ]
+    },
     "/Lotus/Types/StoreItems/Packages/IncarnonPackages/BoarIncarnonBundle": {
         "name": "/Lotus/Language/Zariman/BoarIncarnonBundleName",
         "description": "/Lotus/Language/Zariman/BoarIncarnonBundleDesc",
@@ -11028,6 +11246,168 @@
             {
                 "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriMushroomItem",
                 "purchaseQuantity": 60,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/BoIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/BoIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/BoIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/BoIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Melee/BoIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemF",
+                "purchaseQuantity": 70,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemA",
+                "purchaseQuantity": 80,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/BoltorIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/BoltorIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/BoltorIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/BoltorIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Primary/BoltorIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
+                "purchaseQuantity": 60,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemE",
+                "purchaseQuantity": 60,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/BratonIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/BratonIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/BratonIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/BratonIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Primary/BratonIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
+                "purchaseQuantity": 60,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemE",
+                "purchaseQuantity": 60,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/BroncoIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/BroncoIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/BroncoIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/BroncoIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Secondary/BroncoIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
+                "purchaseQuantity": 70,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartAItem",
+                "purchaseQuantity": 100,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/BurstonIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/BurstonIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/BurstonIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/BurstonIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Primary/BurstonIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
+                "purchaseQuantity": 60,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartCItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/CeramicDaggerIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/CeramicDaggerIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/CeramicDaggerIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/CeramicDaggerIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Melee/CeramicDaggerIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemF",
+                "purchaseQuantity": 70,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemC",
+                "purchaseQuantity": 80,
                 "durability": "COMMON"
             }
         ]
@@ -11086,6 +11466,168 @@
             }
         ]
     },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/DespairIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/DespairIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/DespairIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/DespairIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Secondary/DespairIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
+                "purchaseQuantity": 70,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemE",
+                "purchaseQuantity": 60,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/DreadIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/DreadIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/DreadIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/DreadIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Primary/DreadIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
+                "purchaseQuantity": 60,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriMushroomItem",
+                "purchaseQuantity": 60,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/DualIchorIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/DualIchorIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/DualIchorIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/DualIchorIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Melee/DualIchorIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
+                "purchaseQuantity": 60,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemA",
+                "purchaseQuantity": 80,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/DualToxocystIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/DualToxocystIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/DualToxocystIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/DualToxocystIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Secondary/DualToxocystIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
+                "purchaseQuantity": 70,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemB",
+                "purchaseQuantity": 80,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/FuraxIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/FuraxIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/FuraxIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/FuraxIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Melee/FuraxIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemF",
+                "purchaseQuantity": 70,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartBItem",
+                "purchaseQuantity": 300,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/FurisIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/FurisIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/FurisIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/FurisIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Secondary/FurisIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
+                "purchaseQuantity": 70,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriEnemyDropItem",
+                "purchaseQuantity": 80,
+                "durability": "COMMON"
+            }
+        ]
+    },
     "/Lotus/Types/StoreItems/Packages/IncarnonPackages/GammacorIncarnonBundle": {
         "name": "/Lotus/Language/Zariman/GammacorIncarnonBundleName",
         "description": "/Lotus/Language/Zariman/GammacorIncarnonBundleDesc",
@@ -11140,6 +11682,222 @@
             }
         ]
     },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/HateIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/HateIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/HateIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/HateIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Melee/HateIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemF",
+                "purchaseQuantity": 70,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartCItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/KunaiIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/KunaiIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/KunaiIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/KunaiIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Secondary/KunaiIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
+                "purchaseQuantity": 70,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemB",
+                "purchaseQuantity": 80,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/LatoIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/LatoIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/LatoIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/LatoIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Secondary/LatoIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
+                "purchaseQuantity": 70,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartAItem",
+                "purchaseQuantity": 100,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/LatronIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/LatronIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/LatronIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/LatronIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Primary/LatronIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
+                "purchaseQuantity": 60,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartCItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/LexIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/LexIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/LexIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/LexIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Secondary/LexIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
+                "purchaseQuantity": 70,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriProcessedItem",
+                "purchaseQuantity": 150,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/MagistarIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/MagistarIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/MagistarIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/MagistarIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Melee/MagistarIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemF",
+                "purchaseQuantity": 70,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriRockItem",
+                "purchaseQuantity": 150,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/MiterIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/MiterIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/MiterIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/MiterIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Primary/MiterIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
+                "purchaseQuantity": 60,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriMushroomItem",
+                "purchaseQuantity": 60,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/NamiSoloIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/NamiSoloIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/NamiSoloIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/NamiIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Melee/NamiSoloIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemF",
+                "purchaseQuantity": 70,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriRockItem",
+                "purchaseQuantity": 150,
+                "durability": "COMMON"
+            }
+        ]
+    },
     "/Lotus/Types/StoreItems/Packages/IncarnonPackages/OkinaIncarnonBundle": {
         "name": "/Lotus/Language/Zariman/OkinaIncarnonBundleName",
         "description": "/Lotus/Language/Zariman/OkinaIncarnonBundleDesc",
@@ -11162,6 +11920,60 @@
             },
             {
                 "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriEnemyDropItem",
+                "purchaseQuantity": 80,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/ParisIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/ParisIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/ParisIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/ParisIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Primary/ParisIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
+                "purchaseQuantity": 60,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemE",
+                "purchaseQuantity": 60,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/SibearIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/SibearIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/SibearIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/SibearIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Melee/SibearIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemF",
+                "purchaseQuantity": 70,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemC",
                 "purchaseQuantity": 80,
                 "durability": "COMMON"
             }
@@ -11194,6 +12006,87 @@
             }
         ]
     },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/SkanaIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/SkanaIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/SkanaIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/SkanaIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Melee/SkanaIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemF",
+                "purchaseQuantity": 70,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemC",
+                "purchaseQuantity": 80,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/SomaIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/SomaIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/SomaIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/SomaIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Primary/SomaIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
+                "purchaseQuantity": 60,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemE",
+                "purchaseQuantity": 60,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/StrunIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/StrunIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/StrunIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/StrunIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Primary/StrunIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
+                "purchaseQuantity": 60,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriMushroomItem",
+                "purchaseQuantity": 60,
+                "durability": "COMMON"
+            }
+        ]
+    },
     "/Lotus/Types/StoreItems/Packages/IncarnonPackages/SybarisIncarnonBundle": {
         "name": "/Lotus/Language/Zariman/SybarisIncarnonBundleName",
         "description": "/Lotus/Language/Zariman/SybarisIncarnonBundleDesc",
@@ -11217,6 +12110,87 @@
             {
                 "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriProcessedItem",
                 "purchaseQuantity": 150,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/ToridIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/ToridIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/ToridIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/ToridIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Primary/ToridIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
+                "purchaseQuantity": 60,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartCItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/VastoIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/VastoIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/VastoIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/VastoIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Secondary/VastoIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
+                "purchaseQuantity": 70,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriProcessedItem",
+                "purchaseQuantity": 150,
+                "durability": "COMMON"
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/ZylokIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/ZylokIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/ZylokIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/ZylokIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Secondary/ZylokIncarnonUnlocker",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemG",
+                "purchaseQuantity": 70,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriEnemyDropItem",
+                "purchaseQuantity": 80,
                 "durability": "COMMON"
             }
         ]
@@ -22039,6 +23013,34 @@
         ],
         "premiumPrice": 120
     },
+    "/Lotus/Types/StoreItems/Packages/OperatorHairIsleweaverBundle": {
+        "name": "/Lotus/Language/Bundles/OperatorHairIsleweaverBundleName",
+        "description": "/Lotus/Language/Bundles/OperatorHairIsleweaverBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/CosmeticBundles/Operator/OperatorHair1999IsleweaverBundle.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Operator/Hair/Hair1999Frost",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Operator/Hair/Hair1999Nova",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Operator/Hair/Hair1999Saryn",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Operator/Hair/Hair1999Temple",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ],
+        "premiumPrice": 80
+    },
     "/Lotus/Types/StoreItems/Packages/OperatorQuartersVignetteBundle": {
         "name": "/Lotus/Language/Bundles/OperatorQuartersVignetteBundleName",
         "description": "/Lotus/Language/Bundles/OperatorQuartersVignetteBundleDesc",
@@ -22316,6 +23318,29 @@
             }
         ],
         "premiumPrice": 200
+    },
+    "/Lotus/Types/StoreItems/Packages/OraxiaArmourBundle": {
+        "name": "/Lotus/Language/Bundles/OraxiaArmourBundleName",
+        "description": "/Lotus/Language/Bundles/OraxiaArmourBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/CosmeticBundles/Armour/OraxiaArmourBundle.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/TnOraxiaArmor/TnOraxiaArmorA",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/TnOraxiaArmor/TnOraxiaArmorC",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/TnOraxiaArmor/TnOraxiaArmorL",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ],
+        "premiumPrice": 100
     },
     "/Lotus/Types/StoreItems/Packages/OrbiterDisplayBundle": {
         "name": "/Lotus/Language/Items/OrbiterDisplayBundleName",
@@ -28374,6 +29399,47 @@
         ],
         "premiumPrice": 960
     },
+    "/Lotus/Types/StoreItems/Packages/TennoGenBundleIsleweaverA": {
+        "name": "/Lotus/Language/Bundles/TennoGenIsleweaverBundleAName",
+        "description": "/Lotus/Language/Bundles/TennoGenBundleGenericDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/TennoGen/TennoGenBundleIsleweaverA.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Bard/SWNetrahymnSkin",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/IronFrame/SWHildrynSarcostemaSkin",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ],
+        "premiumPrice": 270
+    },
+    "/Lotus/Types/StoreItems/Packages/TennoGenBundleIsleweaverB": {
+        "name": "/Lotus/Language/Bundles/TennoGenIsleweaverBundleBName",
+        "description": "/Lotus/Language/Bundles/TennoGenBundleGenericDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/TennoGen/TennoGenBundleIsleweaverB.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Operator/Accessories/SWEternaliaEyeAcc",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/SteamWorkshop/Primary/ArcaPlasmor/SWArcosoliumSkin",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Operator/Accessories/SWStygeanEyeAcc",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ],
+        "premiumPrice": 100
+    },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleJ": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleJName",
         "description": "/Lotus/Language/Bundles/TennoGenBundleSyandanasHelmetsDesc",
@@ -32853,6 +33919,60 @@
         ],
         "giftingBonus": "/Lotus/StoreItems/Types/Items/ShipDecos/KoumeiShrineDeco",
         "premiumPrice": 800
+    },
+    "/Lotus/Types/StoreItems/Packages/WarframeBundles/OraxiaItemsBundle": {
+        "name": "/Lotus/Language/Bundles/OraxiaItemsBundleName",
+        "description": "/Lotus/Language/Bundles/OraxiaSupPackDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/WarframeBundles/OraxiaBundle.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Powersuits/Oraxia/Oraxia",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Oraxia/OraxiaAltHelmet",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/ThrowingWeapons/TnOraxiaFlechette/TnOraxiaFlechette",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/Melee/Whips/SpiderWhip/SpiderWhipWeapon",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/TnOraxiaArmor/TnOraxiaArmorA",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/TnOraxiaArmor/TnOraxiaArmorC",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/TnOraxiaArmor/TnOraxiaArmorL",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Effects/OraxiaEphemera",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropCleaningDroneOraxiaSpider",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ],
+        "giftingBonus": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetPropCleaningDroneOraxiaSpider",
+        "premiumPrice": 885
     },
     "/Lotus/Types/StoreItems/Packages/WarframeBundles/PaxDuviricusItemsBundle": {
         "name": "/Lotus/Language/Bundles/PaxDuviricusItemsBundleName",

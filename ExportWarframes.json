@@ -2384,6 +2384,55 @@
         ],
         "nemesisUpgradeTag": "InnateImpactDamage"
     },
+    "/Lotus/Powersuits/Oraxia/Oraxia": {
+        "name": "/Lotus/Language/Oraxia/OraxiaName",
+        "parentName": "/Lotus/Powersuits/Oraxia/OraxiaBaseSuit",
+        "description": "/Lotus/Language/Oraxia/OraxiaDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Oraxia.png",
+        "health": 575,
+        "shield": 125,
+        "armor": 125,
+        "stamina": 3,
+        "power": 150,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Oraxia/OraxiaPassiveAbilityDesc",
+        "abilities": [
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaLungeAbility",
+                "name": "/Lotus/Language/Suits/OraxiaLungeAbilityName",
+                "description": "/Lotus/Language/Suits/OraxiaLungeAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/OraxiaStrikeLeap.png",
+                "energyRequiredToActivate": 25
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaEntangleAbility",
+                "name": "/Lotus/Language/Suits/OraxiaEntangleAbilityName",
+                "description": "/Lotus/Language/Suits/OraxiaEntangleAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/OraxiaWebTangle.png",
+                "energyRequiredToActivate": 50
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaSpidersAbility",
+                "name": "/Lotus/Language/Suits/OraxiaBroodAbilityName",
+                "description": "/Lotus/Language/Suits/OraxiaBroodAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/OraxiaSpiderlingBrood.png",
+                "energyRequiredToActivate": 50
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaClimbAbility",
+                "name": "/Lotus/Language/Oraxia/OraxiaClimbAbilityName",
+                "description": "/Lotus/Language/Oraxia/OraxiaClimbAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/OraxiaWallCling.png",
+                "energyRequiredToActivate": 25,
+                "energyConsumptionOverTime": 5
+            }
+        ],
+        "productCategory": "Suits",
+        "variantType": "VT_NORMAL",
+        "nemesisUpgradeTag": "InnateToxinDamage"
+    },
     "/Lotus/Powersuits/Odalisk/ProteaPrime": {
         "name": "/Lotus/Language/Primes/ProteaPrimeName",
         "parentName": "/Lotus/Powersuits/Odalisk/OdaliskBaseSuit",
@@ -5418,15 +5467,15 @@
         "parentName": "/Lotus/Powersuits/Berserker/BerserkerBaseSuit",
         "description": "/Lotus/Language/Primes/ValkyrPrimeDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/ValkyrPrime.png",
-        "health": 270,
+        "health": 650,
         "shield": 135,
-        "armor": 735,
+        "armor": 1000,
         "stamina": 3,
         "power": 175,
         "codexSecret": false,
         "masteryReq": 0,
         "sprintSpeed": 1.1,
-        "passiveDescription": "/Lotus/Language/Primes/ValkyrPrimePassiveAbility",
+        "passiveDescription": "/Lotus/Language/Suits/ValkyrPassiveAbility",
         "exalted": [
             "/Lotus/Powersuits/Berserker/BerserkerMeleePrime"
         ],
@@ -5450,7 +5499,7 @@
                 "name": "/Lotus/Language/Suits/ShieldBashAbilityName",
                 "description": "/Lotus/Language/Suits/ShieldBashAbilityDesc",
                 "icon": "/Lotus/Interface/Icons/Abilities/BerserkerShieldBash.png",
-                "energyRequiredToActivate": 5
+                "energyRequiredToActivate": 25
             },
             {
                 "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/LastStandAbility",
@@ -5474,9 +5523,9 @@
         "parentName": "/Lotus/Powersuits/Berserker/BerserkerBaseSuit",
         "description": "/Lotus/Language/Suits/ValkyrDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Valkyr.png",
-        "health": 270,
+        "health": 650,
         "shield": 135,
-        "armor": 630,
+        "armor": 855,
         "stamina": 3,
         "power": 100,
         "codexSecret": false,
@@ -5506,7 +5555,7 @@
                 "name": "/Lotus/Language/Suits/ShieldBashAbilityName",
                 "description": "/Lotus/Language/Suits/ShieldBashAbilityDesc",
                 "icon": "/Lotus/Interface/Icons/Abilities/BerserkerShieldBash.png",
-                "energyRequiredToActivate": 5
+                "energyRequiredToActivate": 25
             },
             {
                 "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/LastStandAbility",

@@ -1025,6 +1025,30 @@
         "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
         "productCategory": "MiscItems"
     },
+    "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemA": {
+        "name": "/Lotus/Language/Isleweaver/DuviriMurmurItemA",
+        "description": "/Lotus/Language/Isleweaver/DuviriMurmurItemADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Duviri/MITW/DuviriMurmurItemA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB": {
+        "name": "/Lotus/Language/Isleweaver/DuviriMurmurItemB",
+        "description": "/Lotus/Language/Isleweaver/DuviriMurmurItemBDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Duviri/MITW/DuviriMurmurItemB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemEvent": {
+        "name": "/Lotus/Language/Isleweaver/DuviriMurmurItemEvent",
+        "description": "/Lotus/Language/Isleweaver/DuviriMurmurItemEventDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Duviri/MITW/DuviriMurmurItemEvent.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
+        "productCategory": "MiscItems"
+    },
     "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/LephantisShardItem": {
         "name": "/Lotus/Language/EidolonPlains/LephantisShard",
         "description": "/Lotus/Language/EidolonPlains/LephantisShardDesc",
@@ -1236,7 +1260,7 @@
         "description": "/Lotus/Language/Entrati/EntratiLabMiscItemADesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/EntratiLabs/EntratiLabMiscItemA.png",
         "codexSecret": false,
-        "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
+        "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
         "productCategory": "MiscItems",
         "pickupQuantity": {
             "minValue": 9,
@@ -1248,7 +1272,7 @@
         "description": "/Lotus/Language/Entrati/EntratiLabMiscItemBDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/EntratiLabs/EntratiLabMiscItemB.png",
         "codexSecret": false,
-        "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
+        "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
         "productCategory": "MiscItems"
     },
     "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLanthornBundle": {
@@ -7857,6 +7881,14 @@
         "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri",
         "productCategory": "MiscItems"
     },
+    "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriDragonArenaMITW": {
+        "name": "/Lotus/Language/CapturaScenes/PhotoboothDuviriDragonArenaMITW",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/Duviri/DuviriDragonArenaMITW.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri",
+        "productCategory": "MiscItems"
+    },
     "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapA": {
         "name": "/Lotus/Language/CapturaScenes/PhotoboothDuviriIsleCapA",
         "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
@@ -7897,12 +7929,36 @@
         "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri",
         "productCategory": "MiscItems"
     },
+    "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapJ": {
+        "name": "/Lotus/Language/CapturaScenes/PhotoboothDuviriIsleCapJ",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/Duviri/DuviriIsleCapJ.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapK": {
+        "name": "/Lotus/Language/CapturaScenes/PhotoboothDuviriIsleCapK",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/Duviri/DuviriIsleCapK.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
+        "productCategory": "MiscItems"
+    },
     "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureAmphitheatre": {
         "name": "/Lotus/Language/CapturaScenes/PhotoboothDuviriIsleSignatureAmphitheatre",
         "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/Duviri/DuviriIsleSignatureAmphitheatre.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureDungeon": {
+        "name": "/Lotus/Language/CapturaScenes/PhotoboothDuviriIsleSignatureDungeon",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/Duviri/DuviriIsleSignatureDungeon.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
         "productCategory": "MiscItems"
     },
     "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriIsleSignatureLibrary": {
@@ -7945,10 +8001,26 @@
         "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri",
         "productCategory": "MiscItems"
     },
+    "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriScholarsLandingMITW": {
+        "name": "/Lotus/Language/CapturaScenes/PhotoboothDuviriScholarsLandingMITW",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/Duviri/DuviriScholarsLandingMITW.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri",
+        "productCategory": "MiscItems"
+    },
     "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriTeshinsCave": {
         "name": "/Lotus/Language/CapturaScenes/PhotoboothDuviriTeshinsCave",
         "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/Duviri/DuviriTeshinsCave.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Items/MiscItems/PhotoboothTileDuviriThroneRoom": {
+        "name": "/Lotus/Language/CapturaScenes/PhotoboothDuviriThroneRoom",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/Duviri/DuviriThroneRoom.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseDuviri",
         "productCategory": "MiscItems"
@@ -10405,9 +10477,33 @@
         "capacityCost": 5,
         "dojoCapacityCost": 5
     },
+    "/Lotus/Types/Items/ShipDecos/Duviri/Mitw/RusalkaHat": {
+        "name": "/Lotus/Language/Isleweaver/RusalkaHatName",
+        "description": "/Lotus/Language/Isleweaver/RusalkaHatDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Duviri/Mitw/RusalkaHat.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "excludeFromCodex": true,
+        "deco": "/Lotus/Objects/Tenno/Props/DuviriPlaceables/Mitw/RusalkaHatDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Duviri/Mitw/RusalkaMedals": {
+        "name": "/Lotus/Language/Isleweaver/RusalkaMedalsName",
+        "description": "/Lotus/Language/Isleweaver/RusalkaMedalsDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Duviri/Mitw/RusalkaMedals.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "excludeFromCodex": true,
+        "deco": "/Lotus/Objects/Tenno/Props/DuviriPlaceables/Mitw/RusalkaMedalsDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
     "/Lotus/Types/Items/ShipDecos/Duviri/DUVxBarrelLarge": {
-        "name": "/Lotus/Language/Dojo/DUVxBarrelLargeName",
-        "description": "/Lotus/Language/Dojo/DUVxBarrelLargeDesc",
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxBarrelLargeName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxBarrelLargeDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Duviri/BarrelLarge.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -10418,8 +10514,8 @@
         "dojoCapacityCost": 5
     },
     "/Lotus/Types/Items/ShipDecos/Duviri/DUVxBarrelSmall": {
-        "name": "/Lotus/Language/Dojo/DUVxBarrelSmallName",
-        "description": "/Lotus/Language/Dojo/DUVxBarrelSmallDesc",
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxBarrelSmallName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxBarrelSmallDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Duviri/BarrelSmall.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -10430,8 +10526,8 @@
         "dojoCapacityCost": 5
     },
     "/Lotus/Types/Items/ShipDecos/Duviri/DUVxContainerA": {
-        "name": "/Lotus/Language/Dojo/DUVxContainerAName",
-        "description": "/Lotus/Language/Dojo/DUVxContainerADesc",
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxContainerAName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxContainerADesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Duviri/ContainerA.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -10442,8 +10538,8 @@
         "dojoCapacityCost": 5
     },
     "/Lotus/Types/Items/ShipDecos/Duviri/DUVxContainerB": {
-        "name": "/Lotus/Language/Dojo/DUVxContainerBName",
-        "description": "/Lotus/Language/Dojo/DUVxContainerBDesc",
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxContainerBName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxContainerBDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Duviri/ContainerB.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -10454,8 +10550,8 @@
         "dojoCapacityCost": 5
     },
     "/Lotus/Types/Items/ShipDecos/Duviri/DUVxContainerC": {
-        "name": "/Lotus/Language/Dojo/DUVxContainerCName",
-        "description": "/Lotus/Language/Dojo/DUVxContainerCDesc",
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxContainerCName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxContainerCDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Duviri/ContainerC.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -10466,8 +10562,8 @@
         "dojoCapacityCost": 5
     },
     "/Lotus/Types/Items/ShipDecos/Duviri/DUVxPlanterHangingPot": {
-        "name": "/Lotus/Language/Dojo/DUVxPlanterHangingPotName",
-        "description": "/Lotus/Language/Dojo/DUVxPlanterHangingPotDesc",
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxPlanterHangingPotName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxPlanterHangingPotDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Duviri/PlanterHangingPot.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -10477,8 +10573,8 @@
         "dojoCapacityCost": 5
     },
     "/Lotus/Types/Items/ShipDecos/Duviri/DUVxPlanterHangingPotB": {
-        "name": "/Lotus/Language/Dojo/DUVxPlanterHangingPotBName",
-        "description": "/Lotus/Language/Dojo/DUVxPlanterHangingPotBDesc",
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxPlanterHangingPotBName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxPlanterHangingPotBDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Duviri/PlanterHangingPotB.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -10488,8 +10584,8 @@
         "dojoCapacityCost": 5
     },
     "/Lotus/Types/Items/ShipDecos/Duviri/DUVxPlanterHangingPotC": {
-        "name": "/Lotus/Language/Dojo/DUVxPlanterHangingPotCName",
-        "description": "/Lotus/Language/Dojo/DUVxPlanterHangingPotCDesc",
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxPlanterHangingPotCName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxPlanterHangingPotCDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Duviri/PlanterHangingPotC.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -10499,8 +10595,8 @@
         "dojoCapacityCost": 5
     },
     "/Lotus/Types/Items/ShipDecos/Duviri/DUVxPlanterPotA": {
-        "name": "/Lotus/Language/Dojo/DUVxPlanterPotAName",
-        "description": "/Lotus/Language/Dojo/DUVxPlanterPotADesc",
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxPlanterPotAName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxPlanterPotADesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Duviri/PlanterPotA.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -10510,8 +10606,8 @@
         "dojoCapacityCost": 5
     },
     "/Lotus/Types/Items/ShipDecos/Duviri/DUVxPlanterPotB": {
-        "name": "/Lotus/Language/Dojo/DUVxPlanterPotBName",
-        "description": "/Lotus/Language/Dojo/DUVxPlanterPotBDesc",
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxPlanterPotBName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxPlanterPotBDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Duviri/PlanterPotB.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -10521,8 +10617,8 @@
         "dojoCapacityCost": 5
     },
     "/Lotus/Types/Items/ShipDecos/Duviri/DUVxPlanterPotC": {
-        "name": "/Lotus/Language/Dojo/DUVxPlanterPotCName",
-        "description": "/Lotus/Language/Dojo/DUVxPlanterPotCDesc",
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxPlanterPotCName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxPlanterPotCDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Duviri/PlanterPotC.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -10532,8 +10628,8 @@
         "dojoCapacityCost": 5
     },
     "/Lotus/Types/Items/ShipDecos/Duviri/DUVxPlanterPotD": {
-        "name": "/Lotus/Language/Dojo/DUVxPlanterPotDName",
-        "description": "/Lotus/Language/Dojo/DUVxPlanterPotDDesc",
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxPlanterPotDName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxPlanterPotDDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Duviri/PlanterPotD.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -10543,8 +10639,8 @@
         "dojoCapacityCost": 5
     },
     "/Lotus/Types/Items/ShipDecos/Duviri/DUVxPlanterPotE": {
-        "name": "/Lotus/Language/Dojo/DUVxPlanterPotEName",
-        "description": "/Lotus/Language/Dojo/DUVxPlanterPotEDesc",
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxPlanterPotEName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxPlanterPotEDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Duviri/PlanterPotE.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -10554,8 +10650,8 @@
         "dojoCapacityCost": 5
     },
     "/Lotus/Types/Items/ShipDecos/Duviri/DominitiusThraxThrone": {
-        "name": "/Lotus/Language/Dojo/DominitiusThraxThroneName",
-        "description": "/Lotus/Language/Dojo/DominitiusThraxThroneDesc",
+        "name": "/Lotus/Language/DojoDecosDuviri/DominitiusThraxThroneName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DominitiusThraxThroneDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/Duviri/DominitiusThraxThrone.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -15877,7 +15973,7 @@
         "name": "/Lotus/Language/ShipDecorations/1999FlareBandPosterName",
         "description": "/Lotus/Language/ShipDecorations/1999FlareBandPosterDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Displays/1999FlareBandPoster.png",
-        "codexSecret": true,
+        "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations",
         "deco": "/Lotus/Interface/FragmentArtwork/1999FlareBandPosterDeco",
@@ -18876,6 +18972,17 @@
         "capacityCost": 5,
         "dojoCapacityCost": 5
     },
+    "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneBaroPink": {
+        "name": "/Lotus/Language/ShipDecorations/LisetPropCleaningDroneBaroPinkName",
+        "description": "/Lotus/Language/ShipDecorations/LisetPropCleaningDroneBaroPinkDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Drones/LisetPropCleaningDroneBaroPink.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/LisetPropCleaningDroneBaroPinkDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
     "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneBeachcomber": {
         "name": "/Lotus/Language/ShipDecorations/LisetPropCleaningDroneBeachcomberName",
         "description": "/Lotus/Language/ShipDecorations/LisetPropCleaningDroneBeachcomberDesc",
@@ -18972,6 +19079,17 @@
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations",
         "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/LisetPropCleaningDroneInfestedDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneOraxiaSpider": {
+        "name": "/Lotus/Language/ShipDecorations/OraxiaSpiderDroneName",
+        "description": "/Lotus/Language/ShipDecorations/OraxiaSpiderDroneDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Drones/LisetPropCleaningDroneOraxiaSpider.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/LisetPropCleaningDroneOraxiaSpiderDeco",
         "capacityCost": 5,
         "dojoCapacityCost": 5
     },
@@ -19350,8 +19468,8 @@
         "dojoCapacityCost": 5
     },
     "/Lotus/Types/Items/ShipDecos/LisetPropOroOperatorSwitch": {
-        "name": "/Lotus/Language/Dojo/UTxOperatorSwitchName",
-        "description": "/Lotus/Language/Dojo/UTxOperatorSwitchDesc",
+        "name": "/Lotus/Language/DojoDecosOrokin/UTxOperatorSwitchName",
+        "description": "/Lotus/Language/DojoDecosOrokin/UTxOperatorSwitchDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/OroOperatorSwitch.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -19373,8 +19491,8 @@
         "dojoCapacityCost": 5
     },
     "/Lotus/Types/Items/ShipDecos/LisetPropOroSpotlight": {
-        "name": "/Lotus/Language/Dojo/UTxSpotlightName",
-        "description": "/Lotus/Language/Dojo/UTxSpotlightDesc",
+        "name": "/Lotus/Language/DojoDecosOrokin/UTxSpotlightName",
+        "description": "/Lotus/Language/DojoDecosOrokin/UTxSpotlightDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/OroSpotlight.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -21251,6 +21369,17 @@
         "capacityCost": 5,
         "dojoCapacityCost": 5
     },
+    "/Lotus/Types/Items/ShipDecos/TarotCardOraxia": {
+        "name": "/Lotus/Language/Tarot/TarotCardOraxiaName",
+        "description": "/Lotus/Language/Tarot/TarotCardOraxiaDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Tarot/TarotCardOraxia.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Festivities/TarotCards/TarotCardOraxiaCardDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
     "/Lotus/Types/Items/ShipDecos/TarotCardProtea": {
         "name": "/Lotus/Language/Tarot/TarotCardProteaName",
         "description": "/Lotus/Language/Tarot/TarotCardProteaDesc",
@@ -21435,6 +21564,17 @@
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations",
         "deco": "/Lotus/Objects/Festivities/TarotCards/TarotCardTitaniaDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/TarotCardValkyrHeirloom": {
+        "name": "/Lotus/Language/Heirloom/TarotCardValkyrHeirloomName",
+        "description": "/Lotus/Language/Heirloom/TarotCardValkyrHeirloomDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Tarot/TarotCardValkyrHeirloom.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Festivities/TarotCards/TarotCardValkyrHeirloomDeco",
         "capacityCost": 5,
         "dojoCapacityCost": 5
     },
@@ -21753,6 +21893,94 @@
         "capacityCost": 5,
         "dojoCapacityCost": 5
     },
+    "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayBestWorkmanshipTrophy": {
+        "name": "/Lotus/Language/ShipDecorations/Tennocon2025CosplayBestWorkmanshipTrophyName",
+        "description": "/Lotus/Language/ShipDecorations/Tennocon2025CosplayBestWorkmanshipTrophyDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/MiscTrophy/TennoCon2025CosplayBestWorkmanshipTrophy.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/TennoCon2025CosplayBestWorkmanshipTrophy",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayBombasticTrophy": {
+        "name": "/Lotus/Language/ShipDecorations/Tennocon2025CosplayBombasticTrophyName",
+        "description": "/Lotus/Language/ShipDecorations/Tennocon2025CosplayBombasticTrophyDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/MiscTrophy/TennoCon2025CosplayBombasticTrophy.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/TennoCon2025CosplayBombasticTrophy",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayFirstPlaceTrophy": {
+        "name": "/Lotus/Language/ShipDecorations/Tennocon2025CosplayFirstPlaceTrophyName",
+        "description": "/Lotus/Language/ShipDecorations/Tennocon2025CosplayFirstPlaceTrophyDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/MiscTrophy/TennoCon2025CosplayFirstPlaceTrophy.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/TennoCon2025CosplayFirstPlaceTrophy",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayLotusChoiceTrophy": {
+        "name": "/Lotus/Language/ShipDecorations/Tennocon2025CosplayLotusChoiceTrophyName",
+        "description": "/Lotus/Language/ShipDecorations/Tennocon2025CosplayLotusChoiceTrophyDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/MiscTrophy/TennoCon2025CosplayLotusChoiceTrophy.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/TennoCon2025CosplayLotusChoiceTrophy",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayOrokinGoldTrophy": {
+        "name": "/Lotus/Language/ShipDecorations/Tennocon2025CosplayOrokinGoldTrophyName",
+        "description": "/Lotus/Language/ShipDecorations/Tennocon2025CosplayOrokinGoldTrophyDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/MiscTrophy/TennoCon2025CosplayOrokinGoldTrophy.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/TennoCon2025CosplayOrokinGoldTrophy",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayOstronIngenuityTrophy": {
+        "name": "/Lotus/Language/ShipDecorations/Tennocon2025CosplayOstronIngenuityTrophyName",
+        "description": "/Lotus/Language/ShipDecorations/Tennocon2025CosplayOstronIngenuityTrophyDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/MiscTrophy/TennoCon2025CosplayOrokinIngenuityTrophy.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/TennoCon2025CosplayOstronIngenuityTrophy",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplaySecondPlaceTrophy": {
+        "name": "/Lotus/Language/ShipDecorations/Tennocon2025CosplaySecondPlaceTrophyName",
+        "description": "/Lotus/Language/ShipDecorations/Tennocon2025CosplaySecondPlaceTrophyDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/MiscTrophy/TennoCon2025CosplaySecondPlaceTrophy.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/TennoCon2025CosplaySecondPlaceTrophy",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/TennoCon2025CosplayThirdPlaceTrophy": {
+        "name": "/Lotus/Language/ShipDecorations/Tennocon2025CosplayThirdPlaceTrophyName",
+        "description": "/Lotus/Language/ShipDecorations/Tennocon2025CosplayThirdPlaceTrophyDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/MiscTrophy/TennoCon2025CosplayThirdPlaceTrophy.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/TennoCon2025CosplayThirdPlaceTrophy",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
     "/Lotus/Types/Items/ShipDecos/TennoConDojoGhostTrophy": {
         "name": "/Lotus/Language/ShipDecorations/TennoconDojoGhostTrophyName",
         "description": "/Lotus/Language/ShipDecorations/TennoconDojoTrophyDesc",
@@ -22033,6 +22261,17 @@
         "capacityCost": 5,
         "dojoCapacityCost": 5
     },
+    "/Lotus/Types/Items/ShipDecos/Tennocon2025DigitalItemDisplay": {
+        "name": "/Lotus/Language/ShipDecorations/Tennoncon2025DigitalItemDisplayName",
+        "description": "/Lotus/Language/ShipDecorations/Tennoncon2025DigitalItemDisplayDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Displays/Tennocon2025DigitalItemDisplay.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Interface/FragmentArtwork/Tennocon2025DigitalItemDisplayDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
     "/Lotus/Types/Items/ShipDecos/Tennocon2025Display": {
         "name": "/Lotus/Language/ShipDecorations/Tennoncon2025DisplayName",
         "description": "/Lotus/Language/ShipDecorations/Tennoncon2025DisplayDesc",
@@ -22041,6 +22280,18 @@
         "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase",
         "productCategory": "ShipDecorations",
         "deco": "/Lotus/Interface/FragmentArtwork/Tennocon2025DisplayDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/TennoconConcert2025Display": {
+        "name": "/Lotus/Language/ShipDecorations/TennonconConcert2025DisplayName",
+        "description": "/Lotus/Language/ShipDecorations/TennonconConcert2025DisplayDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Displays/TennoconConcert2025Display.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase",
+        "productCategory": "ShipDecorations",
+        "excludeFromCodex": true,
+        "deco": "/Lotus/Interface/FragmentArtwork/TennoconConcert2025DisplayDeco",
         "capacityCost": 5,
         "dojoCapacityCost": 5
     },
@@ -22729,14 +22980,6 @@
         "productCategory": "MiscItems",
         "excludeFromCodex": true
     },
-    "/Lotus/Types/Items/ShipFeatureItems/EidolonArchwingFoundryUpgradeFeatureItem": {
-        "name": "/Lotus/Language/ShipFeatureItems/ShipFeatureEidolonArchwingFoundryUpgrade",
-        "description": "/Lotus/Language/ShipFeatureItems/ShipFeatureEidolonArchwingFoundryUpgradeDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/Companions/Pets/IncubationItems/NutrioIncubatorUpgradeSegment.png",
-        "codexSecret": false,
-        "parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem",
-        "productCategory": "MiscItems"
-    },
     "/Lotus/Types/Items/ShipFeatureItems/ErisNavigationFeatureItem": {
         "name": "/Lotus/Language/ShipFeatureItems/ShipNavEris",
         "description": "",
@@ -23046,7 +23289,7 @@
     },
     "/Lotus/Types/Items/ShipFeatureItems/VoidProjectionFeatureItem": {
         "name": "/Lotus/Language/ShipFeatureItems/ShipFeatureVoidProjection",
-        "description": "",
+        "description": "/Lotus/Language/ShipFeatureItems/ShipFeatureVoidProjectionDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/LisetCartridge.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem",
@@ -24162,6 +24405,16 @@
         "parentName": "/Lotus/Types/Items/ShipDecorationLayerItem",
         "productCategory": "MiscItems",
         "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/UnlockArbitrationKeyItem": {
+        "name": "/Lotus/Language/JunctionReworkChallenges/UnlockArbitrationKeyItemName",
+        "description": "/Lotus/Language/JunctionReworkChallenges/UnlockArbitrationKeyItemDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Objects/ArbitrationsUnlock.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "showInInventory": false
     },
     "/Lotus/Types/Keys/BardQuest/BardQuestSequencerItem": {
         "name": "/Lotus/Language/BardQuest/BardQuestSequencer",
@@ -26320,6 +26573,30 @@
     "/Lotus/Types/Recipes/WarframeRecipes/OctaviaSystemsComponent": {
         "name": "/Lotus/Language/Menu/CraftingComponent_OctaviaSystemsName",
         "description": "/Lotus/Language/Menu/CraftingComponent_OctaviaSystemsDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframeSystem.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/OraxiaChassisComponent": {
+        "name": "/Lotus/Language/WarframeCrafting/CraftingComponent_OraxiaChassisName",
+        "description": "/Lotus/Language/WarframeCrafting/CraftingComponent_OraxiaChassisDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframeChassis.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/OraxiaHelmetComponent": {
+        "name": "/Lotus/Language/WarframeCrafting/CraftingComponent_OraxiaHelmetName",
+        "description": "/Lotus/Language/WarframeCrafting/CraftingComponent_OraxiaHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframeHelmet.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/OraxiaSystemsComponent": {
+        "name": "/Lotus/Language/WarframeCrafting/CraftingComponent_OraxiaSystemsName",
+        "description": "/Lotus/Language/WarframeCrafting/CraftingComponent_OraxiaSystemsDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframeSystem.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
@@ -30164,6 +30441,24 @@
         "productCategory": "MiscItems",
         "primeSellingPrice": 45
     },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/ScyotidBarrel": {
+        "name": "/Lotus/Language/CraftingComponents/CraftingComponent_ScyotidBarrelName",
+        "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunBarrel.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/ScyotidGauntlet": {
+        "name": "/Lotus/Language/CraftingComponents/CraftingComponent_ScyotidGauntletName",
+        "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWeaponBlade.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
     "/Lotus/Types/Recipes/Weapons/WeaponParts/ShadePrimeCarapace": {
         "name": "/Lotus/Language/Primes/CraftingComponent_ShadePrimeCarapace",
         "description": "/Lotus/Language/CraftingComponents/PrimeSentinelCraftingComponentDesc",
@@ -30342,6 +30637,33 @@
         "codexSecret": true,
         "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
         "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/SpinnerexBlade": {
+        "name": "/Lotus/Language/CraftingComponents/CraftingComponent_SpinnerexBladeName",
+        "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWeaponBlade.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/SpinnerexHandle": {
+        "name": "/Lotus/Language/CraftingComponents/CraftingComponent_SpinnerexHandleName",
+        "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWeaponHilt.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/SpinnerexString": {
+        "name": "/Lotus/Language/CraftingComponents/CraftingComponent_SpinnerexStringName",
+        "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunStock.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
     },
     "/Lotus/Types/Recipes/Weapons/WeaponParts/StradavarPrimeBarrel": {
         "name": "/Lotus/Language/Primes/CraftingComponent_StradavarPrimeBarrel",

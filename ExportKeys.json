@@ -298,7 +298,7 @@
                     "title": "/Lotus/Language/Quests/ArchwingQuestSegmentInboxTitle",
                     "body": "/Lotus/Language/Quests/ArchwingQuestSegmentInboxBody",
                     "attachments": [
-                        "/Lotus/Types/Items/ShipFeatureItems/EidolonArchwingFoundryUpgradeFeatureItem"
+                        "/Lotus/Types/Restoratives/OpenArchwingSummon"
                     ],
                     "countedAttachments": [],
                     "icon": "/Lotus/Interface/Icons/Npcs/Ordis.png",
@@ -1166,16 +1166,7 @@
                 }
             },
             {
-                "itemsToGiveWhenTriggered": [],
-                "messageToSendWhenTriggered": {
-                    "sender": "/Lotus/Language/Npcs/TheBusiness",
-                    "title": "/Lotus/Language/SolarisQuest/SayasVigilFortunaTitle",
-                    "body": "/Lotus/Language/SolarisQuest/SayasVigilFortunaDesc",
-                    "attachments": [],
-                    "countedAttachments": [],
-                    "icon": "/Lotus/Interface/Icons/Npcs/Solaris/TheBusiness.png",
-                    "transmission": "/Lotus/Sounds/Dialog/FortunaIntroQuest/Business/DPreQuest0001TheBusiness"
-                }
+                "itemsToGiveWhenTriggered": []
             },
             {
                 "key": "/Lotus/Types/Keys/GlassQuest/GlassQuestM4Key",
@@ -1186,8 +1177,7 @@
                     "body": "/Lotus/Language/GlassQuest/QuillsVisitInboxBody",
                     "attachments": [],
                     "countedAttachments": [],
-                    "icon": "/Lotus/Interface/Icons/Npcs/MysteryPortraitA_d.png",
-                    "transmission": "/Lotus/Sounds/Dialog/GlassQuest/DGQFinishIdle0960Lotus"
+                    "icon": "/Lotus/Interface/Icons/Npcs/MysteryPortraitA_d.png"
                 }
             },
             {
@@ -4885,6 +4875,18 @@
     "/Lotus/Types/Keys/DuviriLandscapeStoryOnly": {
         "name": "DUVIRI LANDSCAPE NO QUEST",
         "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DuviriMITW/DuviriMITWEventKey": {
+        "name": "/Lotus/Language/Isleweaver/Isleweaver",
+        "parentName": "/Lotus/Types/Keys/DuviriMITW/DuviriMITWKey",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DuviriMITW/DuviriMITWKey": {
+        "name": "/Lotus/Language/Isleweaver/Isleweaver",
+        "parentName": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestBaseKey",
         "codexSecret": true,
         "rewards": []
     },

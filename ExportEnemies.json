@@ -6666,6 +6666,20 @@
                 }
             ]
         },
+        "/Lotus/Types/Enemies/Duviri/Shadows/DuviriShadowAgentMITW": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/Duviri/Shadows/Avatars/DuviriShadowAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Types/Enemies/Duviri/Shadows/Weapons/DuviriShadowMeleeWeaponMITW"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Duviri/Shadows/Weapons/DuviriShadowVampiricAura"
+                }
+            ]
+        },
         "/Lotus/Types/Enemies/Duviri/Shadows/DuviriShadowExplAgent": {
             "baseLevel": 1,
             "avatarTypes": {
@@ -11206,6 +11220,51 @@
                 }
             ]
         },
+        "/Lotus/Types/Enemies/Grineer/Vip/VorRework/CaptainVorBossReworkAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/Grineer/Vip/VorRework/CaptainVorBossReworkAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Types/Enemies/Grineer/Vip/VorRework/VorReworkPistol"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Grineer/Vip/VorRework/BossCaptainVorReworkSuit"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Grineer/Vip/VorRework/CaptainVorReworkCronusLongSword"
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/Grineer/Vip/VorRework/CaptainVorBossReworkHardModeAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/Grineer/Vip/VorRework/CaptainVorBossReworkHardModeAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Types/Enemies/Grineer/Vip/VorRework/VorReworkHardModePistol"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Grineer/Vip/VorRework/BossCaptainVorReworkHardModeSuit"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Grineer/Vip/VorRework/CaptainVorReworkCronusLongSword"
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/Grineer/Vip/VorRework/VorArenaTurret/VorArenaTurretAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/Grineer/Vip/VorRework/VorArenaTurret/VorArenaTurretAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Types/Enemies/Grineer/Vip/VorRework/VorArenaTurret/VorTurretGun"
+                }
+            ]
+        },
         "/Lotus/Types/Enemies/Grineer/Vip/VorTutorial/VorTutorialAgent": {
             "baseLevel": 1,
             "avatarTypes": {
@@ -12746,17 +12805,6 @@
                 }
             ]
         },
-        "/Lotus/Types/Enemies/Kingpins/Henchmen/CorpusHenchmenAAgent": {
-            "baseLevel": 1,
-            "avatarTypes": {
-                "STANDARD": "/Lotus/Types/Enemies/Kingpins/Henchmen/CorpusHenchmenAAvatar"
-            },
-            "items": [
-                {
-                    "type": "/Lotus/Types/Enemies/Kingpins/KingpinPowerSuit"
-                }
-            ]
-        },
         "/Lotus/Types/Enemies/KuvaLich/KuvaLarvlingAgent": {
             "baseLevel": 1,
             "avatarTypes": {
@@ -12810,6 +12858,18 @@
             "items": [
                 {
                     "type": "/Lotus/Weapons/Mitw/HandBomberGrenadeLauncher"
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/ManInTheWall/Murmur/MITWMurmurAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/ManInTheWall/Murmur/MITWMurmurAvatar",
+                "EXIMUS": "/Lotus/Types/Enemies/ManInTheWall/Murmur/MITWMurmurLeaderAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Powersuits/NpcPowersuits/MITWMurmurSuit"
                 }
             ]
         },
@@ -16637,6 +16697,73 @@
                 },
                 {
                     "type": "/Lotus/Weapons/Tenno/Melee/Warfan/WarfanWeapon"
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemyAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemyAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Powersuits/NpcPowersuits/OraxiaEnemySuit"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaRangedWebWeapon"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemyMeleeWeapon"
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemyCloneAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemyCloneAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Powersuits/NpcPowersuits/OraxiaEnemySuit"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaCloneRangedWebWeapon"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemyMeleeWeapon"
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingMeleeWeapon"
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingRangedAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingRangedAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingGun"
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingSuicideAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingSuicideAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Weapons/Infested/1999Infested/InfestedQuadMelee1999Weapon"
                 }
             ]
         },
@@ -29687,6 +29814,42 @@
             "droptable": "/Lotus/Types/DropTables/TylRegorDropTable",
             "codexScansRequired": 5
         },
+        "/Lotus/Types/Enemies/Grineer/Vip/VorRework/CaptainVorBossReworkAvatar": {
+            "name": "/Lotus/Language/Game/CaptainVor",
+            "icon": "/Lotus/Interface/Icons/Npcs/CaptainVorBossAvatar.png",
+            "faction": "Grineer",
+            "health": 900,
+            "damageController": "/Lotus/Types/Enemies/Grineer/Vip/VorRework/CaptainVorBossReworkDamageController",
+            "factionResistanceKeyword": "RK_GRINEER_FACTION",
+            "killXPReward": 1500,
+            "droptable": "/Lotus/Types/DropTables/GrineerCaptainVorBossAgentDropTable",
+            "codexScansRequired": 5
+        },
+        "/Lotus/Types/Enemies/Grineer/Vip/VorRework/CaptainVorBossReworkHardModeAvatar": {
+            "name": "/Lotus/Language/Isleweaver/VorHardModeName",
+            "icon": "/Lotus/Interface/Icons/Npcs/CaptainVorBossAvatar.png",
+            "description": "/Lotus/Language/Isleweaver/VorHardModeDesc",
+            "faction": "Grineer",
+            "health": 7500,
+            "damageController": "/Lotus/Types/Enemies/Grineer/Vip/VorRework/CaptainVorBossReworkHardModeDamageController",
+            "factionResistanceKeyword": "RK_GRINEER_FACTION",
+            "killXPReward": 1500,
+            "droptable": "/Lotus/Types/DropTables/GrineerCaptainVorBossAgentDropTable",
+            "codexScansRequired": 5
+        },
+        "/Lotus/Types/Enemies/Grineer/Vip/VorRework/VorArenaTurret/VorArenaTurretAvatar": {
+            "name": "/Lotus/Language/Game/GrineerSpaceTurretName",
+            "icon": "/Lotus/Interface/Icons/Npcs/GrnTurret.png",
+            "description": "/Lotus/Language/Game/GrineerSpaceTurretDesc",
+            "faction": "Grineer",
+            "health": 250,
+            "damageController": "/Lotus/Types/Enemies/Grineer/Vip/VorRework/VorArenaTurret/VorArenaTurretDamageController",
+            "factionResistanceKeyword": "RK_GRINEER_FACTION",
+            "killXPReward": 100,
+            "droptable": "/Lotus/Types/DropTables/SpaceDropTables/GrineerSpaceTurretDropTable",
+            "codexScansRequired": 5,
+            "excludeFromSimulacrum": true
+        },
         "/Lotus/Types/Enemies/Grineer/Vip/VorTutorial/VorTutorialAvatar": {
             "name": "/Lotus/Language/Game/CaptainVor",
             "icon": "/Lotus/Interface/Icons/Npcs/CaptainVorBossAvatar.png",
@@ -31374,17 +31537,6 @@
             "killXPReward": 200,
             "codexScansRequired": 5
         },
-        "/Lotus/Types/Enemies/Kingpins/Henchmen/CorpusHenchmenAAvatar": {
-            "name": "/Lotus/Language/Kingpins/CorpusHenchmanAName",
-            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/Clem.png",
-            "description": "/Lotus/Language/Kingpins/CorpusHenchmanADesc",
-            "faction": "Corpus",
-            "health": 100,
-            "damageController": "/Lotus/Types/Enemies/Kingpins/CorpusKingpinDamageController",
-            "killXPReward": 0,
-            "codexScansRequired": 5,
-            "excludeFromSimulacrum": true
-        },
         "/Lotus/Types/Enemies/KuvaLich/KuvaLarvlingAvatar": {
             "name": "/Lotus/Language/Enemies/KuvaLarvlingName",
             "icon": "/Lotus/Interface/Icons/Npcs/Nemesis/KuvaLarvling.png",
@@ -31448,6 +31600,30 @@
             "faction": "MITW",
             "health": 6000,
             "damageController": "/Lotus/Types/Enemies/ManInTheWall/HandBomber/HandBomberDamageController",
+            "factionResistanceKeyword": "RK_MITW_FACTION",
+            "killXPReward": 500,
+            "droptable": "/Lotus/Types/DropTables/ManInTheWall/HandBomberAgentDropTable",
+            "codexScansRequired": 3
+        },
+        "/Lotus/Types/Enemies/ManInTheWall/Murmur/MITWMurmurAvatar": {
+            "name": "/Lotus/Language/Isleweaver/DuviriMurmurName",
+            "icon": "/Lotus/Interface/Icons/Npcs/Murmur/MITWMurmur.png",
+            "description": "/Lotus/Language/Isleweaver/DuviriMurmurDesc",
+            "faction": "MITW",
+            "health": 2000,
+            "damageController": "/Lotus/Types/Enemies/ManInTheWall/Murmur/MITWMurmurDamageController",
+            "factionResistanceKeyword": "RK_MITW_FACTION",
+            "killXPReward": 250,
+            "droptable": "/Lotus/Types/DropTables/ManInTheWall/HandBomberAgentDropTable",
+            "codexScansRequired": 3
+        },
+        "/Lotus/Types/Enemies/ManInTheWall/Murmur/MITWMurmurLeaderAvatar": {
+            "name": "/Lotus/Language/Isleweaver/DuviriMurmurName",
+            "icon": "/Lotus/Interface/Icons/Npcs/Murmur/MITWMurmur.png",
+            "description": "/Lotus/Language/Isleweaver/DuviriMurmurDesc",
+            "faction": "MITW",
+            "health": 2000,
+            "damageController": "/Lotus/Types/Enemies/ManInTheWall/Murmur/MITWMurmurDamageController",
             "factionResistanceKeyword": "RK_MITW_FACTION",
             "killXPReward": 500,
             "droptable": "/Lotus/Types/DropTables/ManInTheWall/HandBomberAgentDropTable",
@@ -34978,9 +35154,65 @@
             "codexScansRequired": 1,
             "excludeFromSimulacrum": true
         },
+        "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemyAvatar": {
+            "name": "/Lotus/Language/Isleweaver/IsleweaverOraxiaBossName",
+            "icon": "/Lotus/Interface/Icons/Store/Berserker.png",
+            "description": "/Lotus/Language/Isleweaver/IsleweaverOraxiaBossDesc",
+            "faction": "Duviri",
+            "health": 35000,
+            "damageController": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemyDamageController",
+            "killXPReward": 1500,
+            "codexScansRequired": 1,
+            "excludeFromSimulacrum": true
+        },
+        "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemyCloneAvatar": {
+            "name": "/Lotus/Language/Isleweaver/IsleweaverOraxiaBossName",
+            "icon": "/Lotus/Interface/Icons/Store/Berserker.png",
+            "description": "/Lotus/Language/Isleweaver/IsleweaverOraxiaBossDesc",
+            "faction": "Duviri",
+            "health": 350,
+            "damageController": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemyCloneDamageController",
+            "killXPReward": 1500,
+            "codexScansRequired": 1,
+            "excludeFromSimulacrum": true
+        },
+        "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingAvatar": {
+            "name": "/Lotus/Language/Isleweaver/IsleweaverSpiderlingsName",
+            "icon": "/Lotus/Interface/Icons/Npcs/Infested/1999/InfestedMaggot.png",
+            "description": "/Lotus/Language/Isleweaver/IsleweaverSpiderlingsDesc",
+            "faction": "Duviri",
+            "health": 125,
+            "damageController": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingDamageController",
+            "factionResistanceKeyword": "RK_MITW_FACTION",
+            "killXPReward": 25,
+            "codexScansRequired": 5
+        },
+        "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingRangedAvatar": {
+            "name": "/Lotus/Language/Isleweaver/IsleweaverSpiderlingsName",
+            "icon": "/Lotus/Interface/Icons/Npcs/Infested/1999/InfestedMaggot.png",
+            "description": "/Lotus/Language/Isleweaver/IsleweaverSpiderlingsName",
+            "faction": "Duviri",
+            "health": 125,
+            "damageController": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingDamageController",
+            "factionResistanceKeyword": "RK_MITW_FACTION",
+            "killXPReward": 25,
+            "codexScansRequired": 5
+        },
+        "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingSuicideAvatar": {
+            "name": "/Lotus/Language/Isleweaver/IsleweaverSpiderlingSuicideName",
+            "icon": "/Lotus/Interface/Icons/Npcs/Infested/1999/InfestedMaggot.png",
+            "description": "/Lotus/Language/Isleweaver/IsleweaverSpiderlingSuicideDesc",
+            "faction": "Duviri",
+            "health": 1250,
+            "damageController": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingSuicideDamageControllerB",
+            "factionResistanceKeyword": "RK_MITW_FACTION",
+            "killXPReward": 25,
+            "codexScansRequired": 5,
+            "excludeFromSimulacrum": true
+        },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantBansheeAvatar": {
             "name": "/Lotus/Language/Enemies/ReplicantBanshee",
-            "icon": "/Lotus/Interface/Icons/Store/Banshee.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/BansheeHelmet.png",
             "faction": "Orokin",
             "health": 550,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantJunctionBossDamageController",
@@ -34990,7 +35222,7 @@
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantBardAvatar": {
             "name": "/Lotus/Language/Enemies/ReplicantBard",
-            "icon": "/Lotus/Interface/Icons/Store/Bard.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/BardHelmet.png",
             "faction": "Orokin",
             "health": 550,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantJunctionBossDamageController",
@@ -35000,7 +35232,7 @@
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantBerserkerAvatar": {
             "name": "/Lotus/Language/Enemies/ReplicantValkyr",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Valkyr.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/ValkyrHelmet.png",
             "faction": "Orokin",
             "health": 1800,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantJunctionBossDamageController",
@@ -35010,7 +35242,7 @@
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantBrawlerAvatar": {
             "name": "/Lotus/Language/Enemies/ReplicantBrawler",
-            "icon": "/Lotus/Interface/Icons/Store/Brawler.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/AtlasHelmet.png",
             "faction": "Orokin",
             "health": 550,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantJunctionBossDamageController",
@@ -35020,7 +35252,7 @@
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantEmberAvatar": {
             "name": "/Lotus/Language/Enemies/ReplicantEmber",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Ember.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/EmberHelmet.png",
             "faction": "Orokin",
             "health": 1800,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantJunctionBossDamageController",
@@ -35030,7 +35262,7 @@
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantExcaliburAvatar": {
             "name": "/Lotus/Language/Enemies/ReplicantExcalibur",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Excalibur.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/ExcaliburHelmet.png",
             "faction": "Orokin",
             "health": 1800,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantJunctionBossDamageController",
@@ -35040,7 +35272,7 @@
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantFairyAvatar": {
             "name": "/Lotus/Language/Enemies/ReplicantFairy",
-            "icon": "/Lotus/Interface/Icons/Store/Titania.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/TitaniaHelmet.png",
             "faction": "Orokin",
             "health": 1800,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantJunctionBossDamageController",
@@ -35050,7 +35282,7 @@
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantFrostAvatar": {
             "name": "/Lotus/Language/Enemies/ReplicantFrost",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Frost.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/FrostHelmet.png",
             "faction": "Orokin",
             "health": 1300,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantJunctionBossDamageController",
@@ -35060,7 +35292,7 @@
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantGunslingerAvatarRelayBoss": {
             "name": "/Lotus/Language/Enemies/ReplicantMesa",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Mesa.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/MesaHelmet.png",
             "faction": "Orokin",
             "health": 1800,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/TennoReplicantGunslingerDamageController",
@@ -35070,7 +35302,7 @@
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantLokiAvatar": {
             "name": "/Lotus/Language/Enemies/ReplicantLoki",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Loki.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/LokiHelmet.png",
             "faction": "Orokin",
             "health": 360,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantJunctionBossDamageController",
@@ -35080,7 +35312,7 @@
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantMagAvatar": {
             "name": "/Lotus/Language/Enemies/ReplicantMag",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Mag.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/MagHelmet.png",
             "faction": "Orokin",
             "health": 900,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantMagDamageController",
@@ -35090,7 +35322,7 @@
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantMagicianAvatar": {
             "name": "/Lotus/Language/Enemies/ReplicantMagician",
-            "icon": "/Lotus/Interface/Icons/Store/Magician.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/LimboHelmet.png",
             "faction": "Orokin",
             "health": 1800,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantJunctionBossDamageController",
@@ -35100,7 +35332,7 @@
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantNecroAvatar": {
             "name": "/Lotus/Language/Enemies/ReplicantNecro",
-            "icon": "/Lotus/Interface/Icons/Store/Nekros.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/NekrosHelmet.png",
             "faction": "Orokin",
             "health": 550,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantJunctionBossDamageController",
@@ -35110,7 +35342,7 @@
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantNidusAvatar": {
             "name": "/Lotus/Language/Enemies/ReplicantNidus",
-            "icon": "/Lotus/Interface/Icons/Store/Nidus.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/NidusHelmet.png",
             "faction": "Orokin",
             "health": 550,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantJunctionBossDamageController",
@@ -35120,7 +35352,7 @@
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantNovaAvatar": {
             "name": "/Lotus/Language/Enemies/ReplicantNova",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Nova.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/NovaHelmet.png",
             "faction": "Orokin",
             "health": 1800,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantJunctionBossDamageController",
@@ -35130,7 +35362,7 @@
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantNyxAvatar": {
             "name": "/Lotus/Language/Enemies/ReplicantNyx",
-            "icon": "/Lotus/Interface/Icons/Store/ExcaliburFemale.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/NyxHelmet.png",
             "faction": "Orokin",
             "health": 550,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantJunctionBossDamageController",
@@ -35140,7 +35372,7 @@
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantPaladinAvatar": {
             "name": "/Lotus/Language/Enemies/ReplicantPaladin",
-            "icon": "/Lotus/Interface/Icons/Store/Paladin.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/OberonHelmet.png",
             "faction": "Orokin",
             "health": 1800,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantJunctionBossDamageController",
@@ -35150,7 +35382,7 @@
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantPirateAvatar": {
             "name": "/Lotus/Language/Enemies/ReplicantHydroid",
-            "icon": "/Lotus/Interface/Icons/Store/Pirate.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/HydroidHelmet.png",
             "faction": "Orokin",
             "health": 1800,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantJunctionBossDamageController",
@@ -35160,7 +35392,7 @@
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantRhinoAvatar": {
             "name": "/Lotus/Language/Enemies/ReplicantRhino",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Rhino.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/RhinoHelmet.png",
             "faction": "Orokin",
             "health": 500,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantRhinoDamageController",
@@ -35170,7 +35402,7 @@
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantSarynAvatar": {
             "name": "/Lotus/Language/Enemies/ReplicantSaryn",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Saryn.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/SarynHelmet.png",
             "faction": "Orokin",
             "health": 1800,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantJunctionBossDamageController",
@@ -35180,7 +35412,7 @@
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantTrinityAvatar": {
             "name": "/Lotus/Language/Enemies/ReplicantTrinity",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Trinity.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/TrinityHelmet.png",
             "faction": "Orokin",
             "health": 1500,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantTrinityDamageController",
@@ -35190,7 +35422,7 @@
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantVoltAvatar": {
             "name": "/Lotus/Language/Enemies/ReplicantVolt",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Volt.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/VoltHelmet.png",
             "faction": "Orokin",
             "health": 1125,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantVoltDamageController",
@@ -35200,7 +35432,7 @@
         },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantYinYangAvatar": {
             "name": "/Lotus/Language/Enemies/ReplicantEquinox",
-            "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Equinox.png",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/EquinoxHelmet.png",
             "faction": "Orokin",
             "health": 1800,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantJunctionBossDamageController",
@@ -54887,6 +55119,10 @@
                 {
                     "bone": "GAME_R1_FLAP",
                     "type": "/Lotus/Types/Enemies/Grineer/Vip/Hek/HitProxies/PropDroneWingHitProxy"
+                },
+                {
+                    "bone": "GAME_C1_COG",
+                    "type": "/Lotus/Types/Enemies/Grineer/Vip/Hek/HitProxies/PropDroneBulbWeakpointProxy"
                 }
             ],
             "unhandledProcTypes": [
@@ -57825,7 +58061,15 @@
             "hitProxies": [
                 {
                     "bone": "GAME_C1_COG",
+                    "type": "/Lotus/Types/Enemies/Grineer/SpecialEvents/SurveillanceDroneWeakpointHitProxy"
+                },
+                {
+                    "bone": "GAME_C1_COG",
                     "type": "/Lotus/Types/Enemies/Grineer/SpecialEvents/SurveillanceDroneHitProxy"
+                },
+                {
+                    "bone": "GAME_C1_COG",
+                    "type": "/Lotus/Types/Enemies/Grineer/SpecialEvents/SurveillanceDroneDetailHitProxy"
                 }
             ],
             "unhandledProcTypes": [
@@ -58876,6 +59120,10 @@
                 {
                     "bone": "GAME_R1_FLAP",
                     "type": "/Lotus/Types/Enemies/Grineer/Vip/Hek/HitProxies/PropDroneWingHitProxy"
+                },
+                {
+                    "bone": "GAME_C1_COG",
+                    "type": "/Lotus/Types/Enemies/Grineer/Vip/Hek/HitProxies/PropDroneBulbWeakpointProxy"
                 }
             ],
             "unhandledProcTypes": [
@@ -59313,6 +59561,163 @@
                 "PT_RADIANT",
                 "PT_STAGGERED",
                 "PT_BIG_STAGGER",
+                "PT_KNOCKED_DOWN",
+                "PT_RAGDOLL"
+            ]
+        },
+        "/Lotus/Types/Enemies/Grineer/Vip/VorRework/CaptainVorBossReworkDamageController": {
+            "armor": 250,
+            "shield": 900,
+            "hitProxies": [
+                {
+                    "bone": "GAME_C1_HEAD1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerHead"
+                },
+                {
+                    "bone": "GAME_C1_SPINE2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerTorso"
+                },
+                {
+                    "bone": "GAME_R1_ARM1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightUpperArm"
+                },
+                {
+                    "bone": "GAME_R1_ARM2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightLowerArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftUpperArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftLowerArm"
+                },
+                {
+                    "bone": "GAME_R1_LEG1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightUpperLeg"
+                },
+                {
+                    "bone": "GAME_R1_LEG2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightLowerLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftUpperLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftLowerLeg"
+                }
+            ],
+            "unhandledProcTypes": [
+                "PT_KNOCKBACK",
+                "PT_CHILLED",
+                "PT_RADIANT",
+                "PT_STAGGERED",
+                "PT_BIG_STAGGER",
+                "PT_STUNNED",
+                "PT_KNOCKED_DOWN",
+                "PT_RAGDOLL"
+            ]
+        },
+        "/Lotus/Types/Enemies/Grineer/Vip/VorRework/CaptainVorBossReworkHardModeDamageController": {
+            "armor": 250,
+            "shield": 2750,
+            "hitProxies": [
+                {
+                    "bone": "GAME_C1_HEAD1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerHead"
+                },
+                {
+                    "bone": "GAME_C1_SPINE2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerTorso"
+                },
+                {
+                    "bone": "GAME_R1_ARM1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightUpperArm"
+                },
+                {
+                    "bone": "GAME_R1_ARM2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightLowerArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftUpperArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftLowerArm"
+                },
+                {
+                    "bone": "GAME_R1_LEG1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightUpperLeg"
+                },
+                {
+                    "bone": "GAME_R1_LEG2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightLowerLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftUpperLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftLowerLeg"
+                }
+            ],
+            "unhandledProcTypes": [
+                "PT_KNOCKBACK",
+                "PT_FRAILTY",
+                "PT_BLEEDING",
+                "PT_IMMOLATION",
+                "PT_ELECTROCUTION",
+                "PT_POISONED",
+                "PT_FLASHBANG",
+                "PT_RAD_TOX",
+                "PT_ASPHYXIATION",
+                "PT_MAGNETIZED",
+                "PT_INFECTED",
+                "PT_CAUSTIC_BURN",
+                "PT_RADIANT",
+                "PT_STAGGERED",
+                "PT_BIG_STAGGER",
+                "PT_STUNNED",
+                "PT_KNOCKED_DOWN",
+                "PT_RAGDOLL"
+            ]
+        },
+        "/Lotus/Types/Enemies/Grineer/Vip/VorRework/VorArenaTurret/VorArenaTurretDamageController": {
+            "armor": 200,
+            "shield": 0,
+            "hitProxies": [
+                {
+                    "bone": "GAME_C1_BARREL",
+                    "type": "/Lotus/Types/Enemies/SpaceBattles/Grineer/Proxies/TurretBody"
+                },
+                {
+                    "bone": "GAME_C1_BARREL",
+                    "type": "/Lotus/Types/Enemies/Grineer/Vip/VorRework/VorArenaTurret/BarrelWeakpoint"
+                }
+            ],
+            "unhandledProcTypes": [
+                "PT_KNOCKBACK",
+                "PT_FRAILTY",
+                "PT_BLEEDING",
+                "PT_IMMOLATION",
+                "PT_CHILLED",
+                "PT_ELECTROCUTION",
+                "PT_POISONED",
+                "PT_FLASHBANG",
+                "PT_RAD_TOX",
+                "PT_ASPHYXIATION",
+                "PT_MAGNETIZED",
+                "PT_INFECTED",
+                "PT_CAUSTIC_BURN",
+                "PT_RADIANT",
+                "PT_STAGGERED",
+                "PT_BIG_STAGGER",
+                "PT_STUNNED",
                 "PT_KNOCKED_DOWN",
                 "PT_RAGDOLL"
             ]
@@ -65938,6 +66343,49 @@
                 {
                     "bone": "GAME_C5_OUTERBLOCK1",
                     "type": "/Lotus/Types/Enemies/ManInTheWall/HandBomber/HitProxies/HandBomberOuterHandHitProxy"
+                }
+            ],
+            "unhandledProcTypes": []
+        },
+        "/Lotus/Types/Enemies/ManInTheWall/Murmur/MITWMurmurDamageController": {
+            "armor": 0,
+            "shield": 0,
+            "hitProxies": [
+                {
+                    "bone": "GAME_C1_BOTPART",
+                    "type": "/Lotus/Types/Enemies/ManInTheWall/Murmur/HitProxies/MITWMurmurProxyMouthWeakpoint"
+                },
+                {
+                    "bone": "GAME_C1_CAP",
+                    "type": "/Lotus/Types/Enemies/ManInTheWall/Murmur/HitProxies/MITWMurmurProxyTop"
+                },
+                {
+                    "bone": "GAME_C1_TOPPART",
+                    "type": "/Lotus/Types/Enemies/ManInTheWall/Murmur/HitProxies/MITWMurmurProxyBody"
+                },
+                {
+                    "bone": "GAME_C1_TOPBACKPART",
+                    "type": "/Lotus/Types/Enemies/ManInTheWall/Murmur/HitProxies/MITWMurmurProxyBodyBack"
+                },
+                {
+                    "bone": "GAME_C1_BOTBACKPART",
+                    "type": "/Lotus/Types/Enemies/ManInTheWall/Murmur/HitProxies/MITWMurmurProxyBodyBack"
+                },
+                {
+                    "bone": "GAME_C1_BOTPART",
+                    "type": "/Lotus/Types/Enemies/ManInTheWall/Murmur/HitProxies/MITWMurmurProxyLowerBody"
+                },
+                {
+                    "bone": "GAME_C1_TAIL",
+                    "type": "/Lotus/Types/Enemies/ManInTheWall/Murmur/HitProxies/MITWMurmurProxyTail"
+                },
+                {
+                    "bone": "GAME_L1_WING",
+                    "type": "/Lotus/Types/Enemies/ManInTheWall/Murmur/HitProxies/MITWMurmurProxyWing"
+                },
+                {
+                    "bone": "GAME_R1_WING",
+                    "type": "/Lotus/Types/Enemies/ManInTheWall/Murmur/HitProxies/MITWMurmurProxyWing"
                 }
             ],
             "unhandledProcTypes": []
@@ -75590,6 +76038,256 @@
                 "PT_CAUSTIC_BURN",
                 "PT_RADIANT",
                 "PT_BIG_STAGGER"
+            ]
+        },
+        "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemyCloneDamageController": {
+            "armor": 0,
+            "shield": 0,
+            "hitProxies": [
+                {
+                    "bone": "GAME_C1_NECK1",
+                    "type": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/Proxies/OraxiaHeadProxy"
+                },
+                {
+                    "bone": "GAME_C1_SPINE2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/Torso"
+                },
+                {
+                    "bone": "GAME_R1_ARM1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightUpperArm"
+                },
+                {
+                    "bone": "GAME_R1_ARM2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightLowerArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftUpperArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftLowerArm"
+                },
+                {
+                    "bone": "GAME_R1_LEG1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightUpperLeg"
+                },
+                {
+                    "bone": "GAME_R1_LEG2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightLowerLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftUpperLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftLowerLeg"
+                }
+            ],
+            "unhandledProcTypes": [
+                "PT_KNOCKBACK",
+                "PT_RADIANT",
+                "PT_STAGGERED",
+                "PT_BIG_STAGGER",
+                "PT_STUNNED",
+                "PT_KNOCKED_DOWN",
+                "PT_RAGDOLL"
+            ]
+        },
+        "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemyDamageController": {
+            "armor": 0,
+            "shield": 0,
+            "hitProxies": [
+                {
+                    "bone": "GAME_C1_NECK1",
+                    "type": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/Proxies/OraxiaHeadProxy"
+                },
+                {
+                    "bone": "GAME_C1_SPINE2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/Torso"
+                },
+                {
+                    "bone": "GAME_R1_ARM1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightUpperArm"
+                },
+                {
+                    "bone": "GAME_R1_ARM2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightLowerArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftUpperArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftLowerArm"
+                },
+                {
+                    "bone": "GAME_R1_LEG1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightUpperLeg"
+                },
+                {
+                    "bone": "GAME_R1_LEG2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightLowerLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftUpperLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftLowerLeg"
+                }
+            ],
+            "unhandledProcTypes": [
+                "PT_KNOCKBACK",
+                "PT_RADIANT",
+                "PT_STAGGERED",
+                "PT_BIG_STAGGER",
+                "PT_STUNNED",
+                "PT_KNOCKED_DOWN",
+                "PT_RAGDOLL"
+            ]
+        },
+        "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingDamageController": {
+            "armor": 0,
+            "shield": 0,
+            "hitProxies": [
+                {
+                    "bone": "GAME_C1_COG",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroTorso"
+                },
+                {
+                    "bone": "GAME_L1_FORELEG1",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                },
+                {
+                    "bone": "GAME_L1_FORELEG3",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                },
+                {
+                    "bone": "GAME_L1_FORELEG5",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                },
+                {
+                    "bone": "GAME_R1_FORELEG1",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                },
+                {
+                    "bone": "GAME_R1_FORELEG3",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                },
+                {
+                    "bone": "GAME_R1_FORELEG5",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                },
+                {
+                    "bone": "GAME_L1_HINDLEG1",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                },
+                {
+                    "bone": "GAME_L1_HINDLEG3",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                },
+                {
+                    "bone": "GAME_L1_HINDLEG5",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                },
+                {
+                    "bone": "GAME_R1_HINDLEG1",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                },
+                {
+                    "bone": "GAME_R1_HINDLEG3",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                },
+                {
+                    "bone": "GAME_R1_HINDLEG5",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                }
+            ],
+            "unhandledProcTypes": [
+                "PT_RADIANT"
+            ]
+        },
+        "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingSuicideDamageControllerB": {
+            "armor": 0,
+            "shield": 0,
+            "hitProxies": [
+                {
+                    "bone": "GAME_C1_COG",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroTorso"
+                },
+                {
+                    "bone": "GAME_L1_FORELEG1",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                },
+                {
+                    "bone": "GAME_L1_FORELEG3",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                },
+                {
+                    "bone": "GAME_L1_FORELEG5",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                },
+                {
+                    "bone": "GAME_R1_FORELEG1",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                },
+                {
+                    "bone": "GAME_R1_FORELEG3",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                },
+                {
+                    "bone": "GAME_R1_FORELEG5",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                },
+                {
+                    "bone": "GAME_L1_HINDLEG1",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                },
+                {
+                    "bone": "GAME_L1_HINDLEG3",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                },
+                {
+                    "bone": "GAME_L1_HINDLEG5",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                },
+                {
+                    "bone": "GAME_R1_HINDLEG1",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                },
+                {
+                    "bone": "GAME_R1_HINDLEG3",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                },
+                {
+                    "bone": "GAME_R1_HINDLEG5",
+                    "type": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/Proxies/MicroLeg"
+                }
+            ],
+            "unhandledProcTypes": [
+                "PT_KNOCKBACK",
+                "PT_FRAILTY",
+                "PT_BLEEDING",
+                "PT_IMMOLATION",
+                "PT_CHILLED",
+                "PT_ELECTROCUTION",
+                "PT_POISONED",
+                "PT_FLASHBANG",
+                "PT_RAD_TOX",
+                "PT_ASPHYXIATION",
+                "PT_MAGNETIZED",
+                "PT_INFECTED",
+                "PT_CAUSTIC_BURN",
+                "PT_RADIANT",
+                "PT_STAGGERED",
+                "PT_BIG_STAGGER",
+                "PT_STUNNED",
+                "PT_KNOCKED_DOWN",
+                "PT_RAGDOLL"
             ]
         },
         "/Lotus/Types/Enemies/TennoReplicants/RedVeilDeaconController": {
@@ -88849,6 +89547,34 @@
                 ]
             }
         ],
+        "/Lotus/Types/DropTables/SpaceDropTables/GrineerSpaceTurretDropTable": [
+            {
+                "type": "mod",
+                "chance": 0.03,
+                "items": [
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Archwing/Melee/ArchwingMeleeCritDamageMod",
+                        "probability": 0.2581
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Archwing/Suit/ArchwingSuitShieldMaxMod",
+                        "probability": 0.2581
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/FusionBundles/CommonFusionBundle",
+                        "probability": 0.2581
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingRifleStatusChanceMod",
+                        "probability": 0.1128
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
+                        "probability": 0.1128
+                    }
+                ]
+            }
+        ],
         "/Lotus/Types/DropTables/SpaceDropTables/GrineerStasisDroneDropTable": [
             {
                 "type": "mod",
@@ -93459,6 +94185,14 @@
         "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/InfestedQuadrupedHead": {
             "damageAtten": 0.666
         },
+        "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/RollerTurretHeadHitProxy": {
+            "damageAtten": 2,
+            "criticalMultiplier": 2
+        },
+        "/Lotus/Types/Enemies/Grineer/SpecialEvents/SurveillanceDroneWeakpointHitProxy": {
+            "damageAtten": 2,
+            "criticalMultiplier": 2
+        },
         "/Lotus/Types/Enemies/Grineer/SpecialEvents/WolfStalkerHead": {
             "damageAtten": 2,
             "criticalMultiplier": 1
@@ -93531,6 +94265,10 @@
         "/Lotus/Types/Enemies/Grineer/Vip/GrineerRoyalGuard/HitProxies/GuardHead": {
             "damageAtten": 2
         },
+        "/Lotus/Types/Enemies/Grineer/Vip/Hek/HitProxies/PropDroneBulbWeakpointProxy": {
+            "damageAtten": 2,
+            "criticalMultiplier": 2
+        },
         "/Lotus/Types/Enemies/Grineer/Vip/KelaDeThaym/HitProxies/KelaHead": {
             "damageAtten": 0.666
         },
@@ -93545,6 +94283,9 @@
         "/Lotus/Types/Enemies/Grineer/Vip/TylRegor/HitProxies/TylShield": {
             "damageAtten": 0,
             "criticalMultiplier": 0
+        },
+        "/Lotus/Types/Enemies/Grineer/Vip/VorRework/VorArenaTurret/BarrelWeakpoint": {
+            "criticalMultiplier": 2
         },
         "/Lotus/Types/Enemies/Grineer/Vip/VorTwo/HitProxies/VorTwoHead": {
             "damageAtten": 2,
@@ -94298,7 +95039,7 @@
             "damageAtten": 0.666
         },
         "/Lotus/Types/Enemies/Sentients/Brachiolyst/Proxy/BrachiolystHead": {
-            "damageAtten": 0.666
+            "damageAtten": 2
         },
         "/Lotus/Types/Enemies/Sentients/Carriers/SentientCarrierWeakPoint": {
             "damageAtten": 0.666,
@@ -94332,7 +95073,8 @@
             "damageAtten": 0
         },
         "/Lotus/Types/Enemies/Sentients/Dolicholyst/Proxies/SentientDolicholystHead": {
-            "damageAtten": 0.666
+            "damageAtten": 2,
+            "criticalMultiplier": 2
         },
         "/Lotus/Types/Enemies/Sentients/Eidolon/Proxies/RopalolystHead": {
             "damageAtten": 0.666,
@@ -94442,7 +95184,8 @@
             "criticalMultiplier": 2
         },
         "/Lotus/Types/Enemies/Sentients/Ortholyst/Proxy/OrtholystBaseHead": {
-            "damageAtten": 0.666
+            "damageAtten": 2,
+            "criticalMultiplier": 2
         },
         "/Lotus/Types/Enemies/Sentients/SentientBaseHead": {
             "damageAtten": 2,
@@ -94573,6 +95316,9 @@
         },
         "/Lotus/Types/Enemies/SpaceBattles/Grineer/Proxies/SkiffUpperBody": {
             "damageAtten": 0.666,
+            "criticalMultiplier": 1
+        },
+        "/Lotus/Types/Enemies/SpaceBattles/Grineer/Proxies/TurretBody": {
             "criticalMultiplier": 1
         },
         "/Lotus/Types/Enemies/WF1999Infested/InfestedAncient/HitProxies/InfestedAncient1999BackWeakpoint": {
@@ -94805,9 +95551,8 @@
             "behaviours": [
                 {
                     "impact": {
-                        "DT_IMPACT": 99.99,
-                        "DT_PUNCTURE": 99.9999,
-                        "DT_SLASH": 100.0101
+                        "DT_PUNCTURE": 75.0,
+                        "DT_SLASH": 225.0
                     }
                 }
             ]
@@ -98386,6 +99131,17 @@
                 }
             ]
         },
+        "/Lotus/Types/Enemies/Duviri/Shadows/Weapons/DuviriShadowMeleeWeaponMITW": {
+            "name": "/Lotus/Language/Menu/Loadout_AnyWeapon",
+            "behaviours": [
+                {
+                    "impact": {
+                        "DT_PUNCTURE": 2.5,
+                        "DT_SLASH": 7.5
+                    }
+                }
+            ]
+        },
         "/Lotus/Types/Enemies/Duviri/Shadows/Weapons/DuviriShadowVampiricAura": {
             "name": "/Lotus/Language/Items/EnemyShieldReductionBuffName",
             "description": "/Lotus/Language/Items/EnemyShieldReductionBuffDesc",
@@ -98958,6 +99714,82 @@
             "name": "/Lotus/Language/Items/MeleeCategoryName",
             "behaviours": [
                 {}
+            ]
+        },
+        "/Lotus/Types/Enemies/Grineer/Vip/VorRework/CaptainVorReworkCronusLongSword": {
+            "name": "/Lotus/Language/Items/CronusSwordName",
+            "description": "/Lotus/Language/Items/CronusSwordDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/Cronus.png",
+            "behaviours": [
+                {
+                    "impact": {
+                        "DT_IMPACT": 5.25,
+                        "DT_PUNCTURE": 5.25,
+                        "DT_SLASH": 24.5
+                    }
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/Grineer/Vip/VorRework/VorArenaTurret/VorTurretGun": {
+            "name": "/Lotus/Language/Items/AssaultRifleCategoryName",
+            "behaviours": [
+                {
+                    "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                    "projectile": {
+                        "attack": {
+                            "DT_IMPACT": 5.0,
+                            "DT_PUNCTURE": 35.0,
+                            "DT_SLASH": 10.0
+                        }
+                    },
+                    "impact": {
+                        "DT_IMPACT": 0.999999,
+                        "DT_PUNCTURE": 0.999999,
+                        "DT_SLASH": 1.000002
+                    }
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/Grineer/Vip/VorRework/VorReworkHardModePistol": {
+            "name": "/Lotus/Language/Items/GrineerHeavyPistolName",
+            "description": "/Lotus/Language/Items/GrineerHeavyPistolDesc",
+            "icon": "/Lotus/Interface/Icons/Store/GrineerHeavyPistol.png",
+            "behaviours": [
+                {
+                    "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                    "projectile": {
+                        "attack": {}
+                    },
+                    "impact": {
+                        "DT_IMPACT": 60.0,
+                        "DT_PUNCTURE": 7.5,
+                        "DT_SLASH": 7.5
+                    }
+                },
+                {
+                    "impact": {}
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/Grineer/Vip/VorRework/VorReworkPistol": {
+            "name": "/Lotus/Language/Items/GrineerHeavyPistolName",
+            "description": "/Lotus/Language/Items/GrineerHeavyPistolDesc",
+            "icon": "/Lotus/Interface/Icons/Store/GrineerHeavyPistol.png",
+            "behaviours": [
+                {
+                    "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                    "projectile": {
+                        "attack": {}
+                    },
+                    "impact": {
+                        "DT_IMPACT": 60.0,
+                        "DT_PUNCTURE": 7.5,
+                        "DT_SLASH": 7.5
+                    }
+                },
+                {
+                    "impact": {}
+                }
             ]
         },
         "/Lotus/Types/Enemies/Grineer/Zariman/Weapons/AIKuvaKarakTrokarian": {
@@ -102241,6 +103073,84 @@
                 }
             ]
         },
+        "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaCloneRangedWebWeapon": {
+            "name": "/Lotus/Language/Items/CrpAirPistolArrayName",
+            "description": "/Lotus/Language/Items/CrpAirPistolArrayDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Weapons/Sonicor.png",
+            "behaviours": [
+                {
+                    "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                    "projectile": {
+                        "attack": {
+                            "DT_CORROSIVE": 30
+                        },
+                        "explosiveAttack": {
+                            "DT_CORROSIVE": 20
+                        }
+                    },
+                    "impact": {}
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemyMeleeWeapon": {
+            "name": "/Lotus/Language/Items/MeleeCategoryName",
+            "behaviours": [
+                {
+                    "impact": {
+                        "DT_PUNCTURE": 12.0,
+                        "DT_SLASH": 18.0
+                    }
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingGun": {
+            "name": "/Lotus/Language/Items/AssaultRifleCategoryName",
+            "behaviours": [
+                {
+                    "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                    "projectile": {
+                        "attack": {
+                            "DT_CORROSIVE": 20
+                        }
+                    },
+                    "impact": {
+                        "DT_IMPACT": 0.999999,
+                        "DT_PUNCTURE": 0.999999,
+                        "DT_SLASH": 1.000002
+                    }
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingMeleeWeapon": {
+            "name": "/Lotus/Language/Menu/Loadout_AnyWeapon",
+            "behaviours": [
+                {
+                    "impact": {
+                        "DT_PUNCTURE": 6.25,
+                        "DT_SLASH": 18.75
+                    }
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaRangedWebWeapon": {
+            "name": "/Lotus/Language/Items/CrpAirPistolArrayName",
+            "description": "/Lotus/Language/Items/CrpAirPistolArrayDesc",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Weapons/Sonicor.png",
+            "behaviours": [
+                {
+                    "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                    "projectile": {
+                        "attack": {
+                            "DT_CORROSIVE": 30
+                        },
+                        "explosiveAttack": {
+                            "DT_CORROSIVE": 20
+                        }
+                    },
+                    "impact": {}
+                }
+            ]
+        },
         "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/FrostReplicantMK1Braton": {
             "name": "/Lotus/Language/Items/StartingRifleName",
             "description": "/Lotus/Language/Items/StartingRifleDesc",
@@ -103961,9 +104871,6 @@
                         "DT_PUNCTURE": 6.125,
                         "DT_SLASH": 6.125
                     }
-                },
-                {
-                    "impact": {}
                 }
             ]
         },
@@ -107064,9 +107971,6 @@
                         "DT_PUNCTURE": 16.0,
                         "DT_SLASH": 48.0
                     }
-                },
-                {
-                    "impact": {}
                 }
             ]
         },

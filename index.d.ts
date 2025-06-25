@@ -115,7 +115,9 @@ export interface IBoosterPack {
     description:          string;
     icon?:                string;
     components:           {
-        Item:   string;
+        Item: string;
+        Probability?: number;
+        PityIncreaseRate?: number;
         Rarity: TRarity;
     }[];
     rarityWeightsPerRoll: Record<TRarity, number>[];
