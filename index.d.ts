@@ -580,6 +580,8 @@ export interface IResource {
     longDescription?:   string;
     primeSellingPrice?: number;
     deco?:              string; // for ShipDecorations & FusionTreasures
+    capacityCost?:      number; // for ShipDecorations & FusionTreasures
+    dojoCapacityCost?:  number; // for ShipDecorations & FusionTreasures
     sockets?:           string[]; // for FusionTreasures
     syndicateTag?:      string; // for fish
     standingBonus?:     number; // for fish
