@@ -10498,6 +10498,19 @@
         "type": "MELEE",
         "canBeTransmutation": false
     },
+    "/Lotus/Upgrades/Mods/Melee/Expert/WeaponMeleeFactionDamageMurmursExpert": {
+        "name": "/Lotus/Language/Mods/PrimedMeleeModFactionDamageMurmurs",
+        "icon": "/Lotus/Interface/Cards/Images/Melee/WeaponMeleeFactionDamageMurmurs.png",
+        "polarity": "AP_ATTACK",
+        "rarity": "LEGENDARY",
+        "codexSecret": true,
+        "baseDrain": 4,
+        "fusionLimit": 10,
+        "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
+        "compatName": "Melee",
+        "type": "MELEE",
+        "canBeTransmutation": false
+    },
     "/Lotus/Upgrades/Mods/Melee/Expert/WeaponMeleeFactionDamageInfestedExpert": {
         "name": "/Lotus/Language/Mods/MeleeModFactionDamageInfestedExpert",
         "icon": "/Lotus/Interface/Cards/Images/Melee/MeleeDamageInfested.png",
@@ -18315,19 +18328,6 @@
         "type": "MELEE",
         "canBeTransmutation": false,
         "isFrivolous": true
-    },
-    "/Lotus/Upgrades/Mods/Melee/Expert/WeaponMeleeFactionDamageMurmursExpert": {
-        "name": "/Lotus/Language/Mods/PrimedMeleeModFactionDamageMurmurs",
-        "icon": "/Lotus/Interface/Cards/Images/Melee/WeaponMeleeFactionDamageMurmurs.png",
-        "polarity": "AP_ATTACK",
-        "rarity": "LEGENDARY",
-        "codexSecret": true,
-        "baseDrain": 4,
-        "fusionLimit": 10,
-        "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
-        "compatName": "Melee",
-        "type": "MELEE",
-        "canBeTransmutation": false
     },
     "/Lotus/Upgrades/Mods/Melee/Expert/WeaponMeleeFinisherDamageModExpert": {
         "name": "/Lotus/Language/Items/MeleeModFinisherDamage",
