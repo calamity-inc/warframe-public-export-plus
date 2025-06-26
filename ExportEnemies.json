@@ -17503,12 +17503,6 @@
                 "STANDARD": "/Lotus/Types/Enemies/TennoReplicants/TennoReplicantAllyAvatar"
             }
         },
-        "/Lotus/Types/Enemies/TennoReplicants/TennoReplicantAttackDefendAgent": {
-            "baseLevel": 1,
-            "avatarTypes": {
-                "STANDARD": "/Lotus/Types/Enemies/TennoReplicants/TennoReplicantAttackDefendAvatar"
-            }
-        },
         "/Lotus/Types/Enemies/TennoReplicants/TennoReplicantChromaAgent": {
             "baseLevel": 1,
             "avatarTypes": {
@@ -17542,12 +17536,6 @@
                     "type": "/Lotus/Powersuits/Dragon/DragonNpcPowerSuit"
                 }
             ]
-        },
-        "/Lotus/Types/Enemies/TennoReplicants/TennoReplicantDefenderArmyAgent": {
-            "baseLevel": 1,
-            "avatarTypes": {
-                "STANDARD": "/Lotus/Types/Enemies/TennoReplicants/TennoReplicantAvatar"
-            }
         },
         "/Lotus/Types/Enemies/TennoReplicants/TennoReplicantGunslingerAgent": {
             "baseLevel": 1,
@@ -35717,16 +35705,6 @@
             "health": 200,
             "damageController": "/Lotus/Types/Enemies/TennoReplicants/TennoReplicantDamageController",
             "killXPReward": 200,
-            "codexScansRequired": 5
-        },
-        "/Lotus/Types/Enemies/TennoReplicants/TennoReplicantAttackDefendAvatar": {
-            "name": "/Lotus/Language/Game/TennoRival",
-            "icon": "/Lotus/Interface/Icons/Npcs/TennoReplicant.png",
-            "faction": "Orokin",
-            "health": 100,
-            "damageController": "/Lotus/Types/Enemies/TennoReplicants/TennoReplicantAttackDefendDamageController",
-            "killXPReward": 200,
-            "droptable": "/Lotus/Types/DropTables/TennoSpecterDropTable",
             "codexScansRequired": 5
         },
         "/Lotus/Types/Enemies/TennoReplicants/TennoReplicantAvatar": {
@@ -76738,72 +76716,6 @@
                 "PT_BIG_STAGGER"
             ]
         },
-        "/Lotus/Types/Enemies/TennoReplicants/TennoReplicantAttackDefendDamageController": {
-            "armor": 105,
-            "shield": 270,
-            "hitProxies": [
-                {
-                    "bone": "GAME_C1_NECK1",
-                    "type": "/Lotus/Types/Player/PvpHeadProxy"
-                },
-                {
-                    "bone": "GAME_C1_SPINE2",
-                    "type": "/Lotus/Types/Player/SBTorso"
-                },
-                {
-                    "bone": "GAME_R1_ARM1",
-                    "type": "/Lotus/Types/Player/SBRightUpperArm"
-                },
-                {
-                    "bone": "GAME_R1_ARM2",
-                    "type": "/Lotus/Types/Player/SBRightLowerArm"
-                },
-                {
-                    "bone": "GAME_L1_ARM1",
-                    "type": "/Lotus/Types/Player/SBLeftUpperArm"
-                },
-                {
-                    "bone": "GAME_L1_ARM2",
-                    "type": "/Lotus/Types/Player/SBLeftLowerArm"
-                },
-                {
-                    "bone": "GAME_R1_LEG1",
-                    "type": "/Lotus/Types/Player/SBRightUpperLeg"
-                },
-                {
-                    "bone": "GAME_R1_LEG2",
-                    "type": "/Lotus/Types/Player/SBRightLowerLeg"
-                },
-                {
-                    "bone": "GAME_L1_LEG1",
-                    "type": "/Lotus/Types/Player/SBLeftUpperLeg"
-                },
-                {
-                    "bone": "GAME_L1_LEG2",
-                    "type": "/Lotus/Types/Player/SBLeftLowerLeg"
-                }
-            ],
-            "unhandledProcTypes": [
-                "PT_KNOCKBACK",
-                "PT_FRAILTY",
-                "PT_BLEEDING",
-                "PT_IMMOLATION",
-                "PT_CHILLED",
-                "PT_ELECTROCUTION",
-                "PT_POISONED",
-                "PT_FLASHBANG",
-                "PT_RAD_TOX",
-                "PT_ASPHYXIATION",
-                "PT_MAGNETIZED",
-                "PT_INFECTED",
-                "PT_CAUSTIC_BURN",
-                "PT_STAGGERED",
-                "PT_BIG_STAGGER",
-                "PT_STUNNED",
-                "PT_KNOCKED_DOWN",
-                "PT_RAGDOLL"
-            ]
-        },
         "/Lotus/Types/Enemies/TennoReplicants/TennoReplicantChromaDamageController": {
             "armor": 200,
             "shield": 1000,
@@ -95507,38 +95419,6 @@
             "damageAtten": 1.25,
             "criticalMultiplier": 2
         },
-        "/Lotus/Types/Player/PvpHeadProxy": {
-            "damageAtten": 0.666,
-            "criticalChance": 0,
-            "criticalMultiplier": 1
-        },
-        "/Lotus/Types/Player/SBLeftLowerArm": {
-            "criticalMultiplier": 1
-        },
-        "/Lotus/Types/Player/SBLeftLowerLeg": {
-            "criticalMultiplier": 1
-        },
-        "/Lotus/Types/Player/SBLeftUpperArm": {
-            "criticalMultiplier": 1
-        },
-        "/Lotus/Types/Player/SBLeftUpperLeg": {
-            "criticalMultiplier": 1
-        },
-        "/Lotus/Types/Player/SBRightLowerArm": {
-            "criticalMultiplier": 1
-        },
-        "/Lotus/Types/Player/SBRightLowerLeg": {
-            "criticalMultiplier": 1
-        },
-        "/Lotus/Types/Player/SBRightUpperArm": {
-            "criticalMultiplier": 1
-        },
-        "/Lotus/Types/Player/SBRightUpperLeg": {
-            "criticalMultiplier": 1
-        },
-        "/Lotus/Types/Player/SBTorso": {
-            "criticalMultiplier": 1
-        },
         "/Lotus/Types/Sentinels/SentinelHitProxy": {
             "criticalMultiplier": 1
         }
@@ -101544,29 +101424,7 @@
                 }
             ]
         },
-        "/Lotus/Types/Enemies/Orokin/Weapons/LaserRifle": {
-            "name": "/Weapons/AK74",
-            "behaviours": [
-                {
-                    "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
-                    "projectile": {
-                        "attack": {
-                            "DT_IMPACT": 0.7,
-                            "DT_PUNCTURE": 4.9,
-                            "DT_SLASH": 1.4
-                        }
-                    },
-                    "impact": {
-                        "DT_IMPACT": 0.999999,
-                        "DT_PUNCTURE": 0.999999,
-                        "DT_SLASH": 1.000002
-                    }
-                },
-                {
-                    "impact": {}
-                }
-            ]
-        },
+        "/Lotus/Types/Enemies/Orokin/Weapons/LaserRifle": {},
         "/Lotus/Types/Enemies/Orokin/Weapons/LaserShotgun": {
             "name": "/Lotus/Language/Items/ShotgunName",
             "description": "/Lotus/Language/Items/ShotgunDesc",
