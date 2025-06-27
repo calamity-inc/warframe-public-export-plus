@@ -112,6 +112,34 @@
             }
         ]
     },
+    "/Lotus/Types/Restoratives/Upgraded/DragonKeyRewardBundle": {
+        "name": "/Lotus/Language/Isleweaver/DragonKeyBundleName",
+        "description": "/Lotus/Language/Isleweaver/DragonKeyBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/GearAndResources/VaultKeyBundle.png",
+        "excludeFromCodex": true,
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Restoratives/Upgraded/DamageDebuffKey",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Restoratives/Upgraded/HealthDebuffKey",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Restoratives/Upgraded/ShieldDebuffKey",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Restoratives/Upgraded/SpeedDebuffKey",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ]
+    },
     "/Lotus/Types/StoreItems/AvatarImages/AvatarImagePack1": {
         "name": "/Lotus/Language/Items/AvatarImagePack1Name",
         "description": "/Lotus/Language/Items/AvatarImagePack1Description",
