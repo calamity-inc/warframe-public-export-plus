@@ -114,15 +114,17 @@ export interface IBoosterPack {
     name:                 string;
     description:          string;
     icon?:                string;
-    components:           {
-        Item: string;
-        Amount: number;
-        Probability?: number;
-        PityIncreaseRate?: number;
-        Rarity: TRarity;
-    }[];
+    components:           IBoosterPackComponent[];
     rarityWeightsPerRoll: Record<TRarity, number>[];
     canGiveDuplicates:    boolean;
+}
+
+export interface IBoosterPackComponent {
+    Item: string;
+    Amount: number;
+    Probability?: number;
+    PityIncreaseRate?: number;
+    Rarity: TRarity;
 }
 
 export interface IBooster {
