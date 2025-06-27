@@ -26175,6 +26175,29 @@
         ],
         "premiumPrice": 95
     },
+    "/Lotus/Types/StoreItems/Packages/SentNewWarArmourBundle": {
+        "name": "/Lotus/Language/Bundles/SentNewWarArmourBundleName",
+        "description": "/Lotus/Language/Bundles/SentNewWarArmourBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/CosmeticBundles/Armour/SentNewWarArmourBundle.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/SentNewWarArmor/SentNewWarArmorA",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/SentNewWarArmor/SentNewWarArmorC",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/SentNewWarArmor/SentNewWarArmorL",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ],
+        "premiumPrice": 100
+    },
     "/Lotus/Types/StoreItems/Packages/SetOneArmorPack": {
         "name": "/Lotus/Language/Items/EosArmorSetName",
         "description": "/Lotus/Language/Items/EosArmorSetDesc",
