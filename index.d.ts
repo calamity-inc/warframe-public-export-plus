@@ -399,6 +399,7 @@ export interface IInboxMessage {
     transmission?: string;
     highPriority?: boolean;
     customData?: string;
+    cinematic?: string;
 }
 
 export interface IMissionReward {
