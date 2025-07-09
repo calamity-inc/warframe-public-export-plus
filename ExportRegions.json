@@ -5247,7 +5247,7 @@
         ],
         "rewardManifests": []
     },
-    "PlutoToSednaJunction": {
+    "ErisToSednaJunction": {
         "name": "/Lotus/Language/Locations/SednaJunction",
         "systemIndex": 8,
         "systemName": "/Lotus/Language/Locations/Pluto",
@@ -5258,6 +5258,19 @@
         "minEnemyLevel": 1,
         "maxEnemyLevel": 1,
         "masteryExp": 0,
+        "missionReward": {
+            "credits": 100000,
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/Weapons/DualDaggerBlueprint",
+                "/Lotus/StoreItems/Types/Keys/MirageQuest/MirageQuestKeyChain"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESCompleteQuest",
+            "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESCompleteRailjackMission",
+            "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESGetKills",
+            "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESKillBossAmbulas"
+        ],
         "rewardManifests": []
     },
     "PlutoHUB": {
