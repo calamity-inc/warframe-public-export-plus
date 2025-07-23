@@ -9091,262 +9091,245 @@
         ]
     },
     "/Lotus/Types/Game/VendorManifests/Events/DuviriMurmurPostEventVendorManifest": {
-        "isDynamic": false,
+        "isDynamic": true,
+        "isOneBinPerCycle": false,
         "items": [
             {
                 "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/OraxiaBlueprint",
                 "quantity": 1,
-                "alwaysOffered": false,
+                "alwaysOffered": true,
                 "bin": 0,
-                "probability": 0.8,
                 "duplicates": 0,
                 "itemPrices": [
                     {
                         "ItemCount": 60,
                         "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
                     }
-                ],
-                "durationHours": 24
+                ]
             },
             {
                 "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/OraxiaChassisBlueprint",
                 "quantity": 1,
-                "alwaysOffered": false,
+                "alwaysOffered": true,
                 "bin": 0,
-                "probability": 0.8,
                 "duplicates": 0,
                 "itemPrices": [
                     {
                         "ItemCount": 20,
                         "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
                     }
-                ],
-                "durationHours": 24
+                ]
             },
             {
                 "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/OraxiaHelmetBlueprint",
                 "quantity": 1,
-                "alwaysOffered": false,
+                "alwaysOffered": true,
                 "bin": 0,
-                "probability": 0.8,
                 "duplicates": 0,
                 "itemPrices": [
                     {
                         "ItemCount": 20,
                         "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
                     }
-                ],
-                "durationHours": 24
+                ]
             },
             {
                 "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/OraxiaSystemsBlueprint",
                 "quantity": 1,
-                "alwaysOffered": false,
+                "alwaysOffered": true,
                 "bin": 0,
-                "probability": 0.8,
                 "duplicates": 0,
                 "itemPrices": [
                     {
                         "ItemCount": 20,
                         "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
                     }
-                ],
-                "durationHours": 24
+                ]
             },
             {
                 "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/ScyotidBlueprint",
                 "quantity": 1,
-                "alwaysOffered": false,
+                "alwaysOffered": true,
                 "bin": 0,
-                "probability": 0.8,
                 "duplicates": 0,
                 "itemPrices": [
                     {
                         "ItemCount": 48,
                         "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
                     }
-                ],
-                "durationHours": 24
+                ]
             },
             {
                 "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/ScyotidBarrelBlueprint",
                 "quantity": 1,
-                "alwaysOffered": false,
+                "alwaysOffered": true,
                 "bin": 0,
-                "probability": 0.8,
                 "duplicates": 0,
                 "itemPrices": [
                     {
                         "ItemCount": 12,
                         "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
                     }
-                ],
-                "durationHours": 24
+                ]
             },
             {
                 "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/ScyotidGauntletBlueprint",
                 "quantity": 1,
-                "alwaysOffered": false,
+                "alwaysOffered": true,
                 "bin": 0,
-                "probability": 0.8,
                 "duplicates": 0,
                 "itemPrices": [
                     {
                         "ItemCount": 12,
                         "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
                     }
-                ],
-                "durationHours": 24
+                ]
             },
             {
                 "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/ZarimanHeavyScytheIncarnonBlueprint",
                 "quantity": 1,
-                "alwaysOffered": false,
+                "alwaysOffered": true,
                 "bin": 0,
-                "probability": 0.8,
                 "duplicates": 0,
                 "itemPrices": [
                     {
                         "ItemCount": 96,
                         "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
                     }
-                ],
-                "durationHours": 24
+                ]
             },
             {
                 "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/SpinnerexBlueprint",
                 "quantity": 1,
-                "alwaysOffered": false,
+                "alwaysOffered": true,
                 "bin": 0,
-                "probability": 0.8,
                 "duplicates": 0,
                 "itemPrices": [
                     {
                         "ItemCount": 48,
                         "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
                     }
-                ],
-                "durationHours": 24
+                ]
             },
             {
                 "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/SpinnerexBladeBlueprint",
                 "quantity": 1,
-                "alwaysOffered": false,
+                "alwaysOffered": true,
                 "bin": 0,
-                "probability": 0.8,
                 "duplicates": 0,
                 "itemPrices": [
                     {
                         "ItemCount": 16,
                         "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
                     }
-                ],
-                "durationHours": 24
+                ]
             },
             {
                 "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/SpinnerexHandleBlueprint",
                 "quantity": 1,
-                "alwaysOffered": false,
+                "alwaysOffered": true,
                 "bin": 0,
-                "probability": 0.8,
                 "duplicates": 0,
                 "itemPrices": [
                     {
                         "ItemCount": 16,
                         "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
                     }
-                ],
-                "durationHours": 24
+                ]
             },
             {
                 "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/SpinnerexStringBlueprint",
                 "quantity": 1,
-                "alwaysOffered": false,
+                "alwaysOffered": true,
                 "bin": 0,
-                "probability": 0.8,
                 "duplicates": 0,
                 "itemPrices": [
                     {
                         "ItemCount": 16,
                         "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
                     }
-                ],
-                "durationHours": 24
+                ]
             },
             {
                 "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileDuviriDragonArenaMITW",
                 "quantity": 1,
-                "alwaysOffered": false,
+                "alwaysOffered": true,
                 "bin": 0,
-                "probability": 0.8,
                 "duplicates": 0,
                 "itemPrices": [
                     {
                         "ItemCount": 25,
                         "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
                     }
-                ],
-                "durationHours": 24
+                ]
             },
             {
                 "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapJ",
                 "quantity": 1,
-                "alwaysOffered": false,
+                "alwaysOffered": true,
                 "bin": 0,
-                "probability": 0.8,
                 "duplicates": 0,
                 "itemPrices": [
                     {
                         "ItemCount": 25,
                         "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
                     }
-                ],
-                "durationHours": 24
+                ]
             },
             {
                 "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileDuviriIsleCapK",
                 "quantity": 1,
-                "alwaysOffered": false,
+                "alwaysOffered": true,
                 "bin": 0,
-                "probability": 0.8,
                 "duplicates": 0,
                 "itemPrices": [
                     {
                         "ItemCount": 25,
                         "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
                     }
-                ],
-                "durationHours": 24
+                ]
             },
             {
                 "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileDuviriScholarsLandingMITW",
                 "quantity": 1,
-                "alwaysOffered": false,
+                "alwaysOffered": true,
                 "bin": 0,
-                "probability": 0.8,
                 "duplicates": 0,
                 "itemPrices": [
                     {
                         "ItemCount": 25,
                         "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
                     }
-                ],
-                "durationHours": 24
+                ]
             },
             {
                 "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileDuviriThroneRoom",
                 "quantity": 1,
-                "alwaysOffered": false,
+                "alwaysOffered": true,
                 "bin": 0,
-                "probability": 0.8,
                 "duplicates": 0,
                 "itemPrices": [
                     {
                         "ItemCount": 25,
                         "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
                     }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/Kuva",
+                "quantity": 6000,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 100,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
+                    }
                 ],
-                "durationHours": 24
+                "durationHours": 168,
+                "purchaseLimit": 7
             }
         ]
     },
@@ -44042,6 +44025,141 @@
                 "itemPrices": [
                     {
                         "ItemCount": 175,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/WaterFightBucks"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Hammer/NoodleHammerSkin",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 280,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/WaterFightBucks"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/DogDays2025Poster",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 175,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/WaterFightBucks"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/DogDays2025Sigil",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 175,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/WaterFightBucks"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Promo/Seasonal/DogDays2025BadgeItem",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 75,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/WaterFightBucks"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Emotes/DogDays2025Emote",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 250,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/WaterFightBucks"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/StoreItems/SuitCustomizations/ColourPickerMarshlandsItemA",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 50,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/WaterFightBucks"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Seasonal/AvatarImageDogDays2024Glyph",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 175,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/WaterFightBucks"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/DogDays2024Poster",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 175,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/WaterFightBucks"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Clan/DogDaysKubrowBadgeItem",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 75,
                         "ItemType": "/Lotus/Types/Items/MiscItems/WaterFightBucks"
                     }
                 ],
