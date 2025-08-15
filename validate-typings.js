@@ -32,7 +32,13 @@ try {
     console.log((e as Error).message);
 }`;
 fs.writeFileSync('tmp-test.ts', test);
-execSync("npx ts-node -O '{\"module\":\"commonjs\"}' tmp-test.ts", { stdio: 'inherit' });
+execSync('npx ts-node tmp-test.ts', {
+    stdio: 'inherit',
+    env: {
+        ...process.env,
+        TS_NODE_COMPILER_OPTIONS: JSON.stringify({ module: 'commonjs' }),
+    },
+});
 
 fs.unlinkSync('tmp-schemas.ts');
 fs.unlinkSync('tmp-types.ts');
