@@ -6,12 +6,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      # Install Pluto
-      - run: wget -qO- https://calamity-inc.github.io/deb-repo/key.gpg | sudo tee /usr/share/keyrings/calamity-inc.gpg > /dev/null
-      - run: echo "deb [arch=amd64 signed-by=/usr/share/keyrings/calamity-inc.gpg] https://calamity-inc.github.io/deb-repo/ buster main" | sudo tee /etc/apt/sources.list.d/calamity-inc.list > /dev/null
-      - run: sudo apt update
-      - run: sudo apt install pluto
-      # Install prerequisites for validate-typings.pluto
       - run: npm i
-      # Run validate-typings.pluto
-      - run: pluto validate-typings.pluto
+      - run: node validate-typings.js
