@@ -79677,6 +79677,60 @@
                 ]
             }
         ],
+        "/Lotus/Types/DropTables/ContainerDropTables/VoidVaultMissionRewardsDropTable": [
+            {
+                "type": "resource",
+                "chance": 1.0,
+                "items": [
+                    {
+                        "type": "/Lotus/Types/Gameplay/NarmerSorties/ArchonCrystalAmar",
+                        "probability": 0.175
+                    },
+                    {
+                        "type": "/Lotus/Types/Gameplay/NarmerSorties/ArchonCrystalBoreal",
+                        "probability": 0.175
+                    },
+                    {
+                        "type": "/Lotus/Types/Gameplay/NarmerSorties/ArchonCrystalNira",
+                        "probability": 0.175
+                    },
+                    {
+                        "type": "/Lotus/Types/Items/MiscItems/WeaponMeleeArcaneUnlocker",
+                        "probability": 0.15
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PermaComboOnFinisher",
+                        "probability": 0.1
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ReplayLightCritHits",
+                        "probability": 0.1
+                    },
+                    {
+                        "type": "/Lotus/Types/Gameplay/NarmerSorties/ArchonCrystalAmarMythic",
+                        "probability": 0.0417
+                    },
+                    {
+                        "type": "/Lotus/Types/Gameplay/NarmerSorties/ArchonCrystalBorealMythic",
+                        "probability": 0.0417
+                    },
+                    {
+                        "type": "/Lotus/Types/Gameplay/NarmerSorties/ArchonCrystalNiraMythic",
+                        "probability": 0.0417
+                    }
+                ]
+            },
+            {
+                "type": "additionalItem",
+                "chance": 1.0,
+                "items": [
+                    {
+                        "type": "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB",
+                        "probability": 1.0
+                    }
+                ]
+            }
+        ],
         "/Lotus/Types/DropTables/CorpusAladVBossAgentDropTable": [
             {
                 "type": "mod",
