@@ -3085,6 +3085,13 @@
         "codexSecret": false,
         "excludeFromCodex": true
     },
+    "/Lotus/Types/StoreItems/AvatarImages/Events/PlagueStarGlyph": {
+        "name": "/Lotus/Language/Glyphs/PlagueStarGlyphName",
+        "description": "/Lotus/Language/Glyphs/PlagueStarGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/PlagueStar.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/Factions/GlyphFactionAmalgam": {
         "name": "/Lotus/Language/Glyphs/GlyphFactionAmalgamName",
         "description": "/Lotus/Language/Glyphs/GlyphFactionAmalgamDesc",
@@ -4541,14 +4548,6 @@
         "icon": "/Lotus/Interface/Icons/Player/ContentCreators/Kaoiji.png",
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true
-    },
-    "/Lotus/Types/StoreItems/AvatarImages/FanChannel/AvatarImageKavatsSchroedinger": {
-        "name": "/Lotus/Language/Glyphs/KavatsSchroedingerGlyphName",
-        "description": "/Lotus/Language/Glyphs/GenericGlyphDesc",
-        "icon": "/Lotus/Interface/Icons/Player/LotusSymbol.png",
-        "base": "/Lotus/Types/Items/AvatarImageItem",
-        "codexSecret": true,
-        "excludeFromCodex": true
     },
     "/Lotus/Types/StoreItems/AvatarImages/FanChannel/AvatarImageKengineer": {
         "name": "/Lotus/Language/Glyphs/KengineerGlyphName",
@@ -6503,6 +6502,20 @@
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true
     },
+    "/Lotus/Types/StoreItems/AvatarImages/Primes/ImageCalibanPrimeBright": {
+        "name": "/Lotus/Language/Primes/AvatarCalibanPrimeBrightName",
+        "description": "/Lotus/Language/Primes/AvatarCalibanPrimeBrightDesc",
+        "icon": "/Lotus/Interface/Icons/Player/CalibanPrimeAvatarBright.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Primes/ImageCalibanPrimeDark": {
+        "name": "/Lotus/Language/Primes/AvatarCalibanPrimeDarkName",
+        "description": "/Lotus/Language/Primes/AvatarCalibanPrimeDarkDesc",
+        "icon": "/Lotus/Interface/Icons/Player/CalibanPrimeAvatarDark.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/Primes/ImageGaraPrimeBright": {
         "name": "/Lotus/Language/Primes/AvatarGaraPrimeBrightName",
         "description": "/Lotus/Language/Primes/AvatarGaraPrimeBrightDesc",
@@ -7686,6 +7699,13 @@
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true
     },
+    "/Lotus/Types/StoreItems/AvatarImages/Warframes/OraxiaActionGlyph": {
+        "name": "/Lotus/Language/Glyphs/OraxiaActionGlyphName",
+        "description": "/Lotus/Language/Glyphs/GenericGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/VEDOraxia.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/Warframes/TempleSupporterGlyph": {
         "name": "/Lotus/Language/Glyphs/TempleSupporterGlyphName",
         "description": "/Lotus/Language/Glyphs/TempleSupporterGlyphDesc",
@@ -8079,6 +8099,13 @@
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true
     },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageConqueraGlyphIX": {
+        "name": "/Lotus/Language/Glyphs/ConqueraGlyphIXName",
+        "description": "/Lotus/Language/Glyphs/ConqueraGlyphIXDesc",
+        "icon": "/Lotus/Interface/Icons/Player/QTCCProtectorStalker.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/AvatarImageConqueraGlyphUpdated": {
         "name": "/Lotus/Language/Glyphs/ConqueraGlyphUpdated",
         "description": "/Lotus/Language/Glyphs/ConqueraGlyphUpdatedDesc",
@@ -8097,6 +8124,13 @@
         "name": "/Lotus/Language/Glyphs/ConqueraGlyphVIIName",
         "description": "/Lotus/Language/Glyphs/ConqueraGlyphVIIDesc",
         "icon": "/Lotus/Interface/Icons/Player/ConqueraBaruukGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageConqueraGlyphVIII": {
+        "name": "/Lotus/Language/Glyphs/ConqueraGlyphVIIIName",
+        "description": "/Lotus/Language/Glyphs/ConqueraGlyphVIIIDesc",
+        "icon": "/Lotus/Interface/Icons/Player/QTCCBird3.png",
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true
     },

@@ -9175,6 +9175,19 @@
         "type": "SECONDARY",
         "canBeTransmutation": false
     },
+    "/Lotus/Upgrades/Mods/Pistol/DualStat/MagneticCritDamagePistolMod": {
+        "name": "/Lotus/Language/Upgrades/MagneticCritDamagePistolMod",
+        "icon": "/Lotus/Interface/Cards/Images/Pistol/MagneticCritDamagePistolMod.png",
+        "polarity": "AP_ATTACK",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 4,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
+        "compatName": "Pistol",
+        "type": "SECONDARY",
+        "canBeTransmutation": false
+    },
     "/Lotus/Upgrades/Mods/Pistol/DualStat/IceStormMod": {
         "name": "/Lotus/Language/Items/PistolModIceStorm",
         "icon": "/Lotus/Interface/Cards/Images/DoubleMods/PistolIceStormMod.png",
@@ -18794,19 +18807,6 @@
         "canBeTransmutation": false,
         "isStarter": true
     },
-    "/Lotus/Upgrades/Mods/Pistol/DualStat/MagneticCritDamagePistolMod": {
-        "name": "/Lotus/Language/Upgrades/MagneticCritDamagePistolMod",
-        "icon": "/Lotus/Interface/Cards/Images/Pistol/MagneticCritDamagePistolMod.png",
-        "polarity": "AP_ATTACK",
-        "rarity": "RARE",
-        "codexSecret": false,
-        "baseDrain": 4,
-        "fusionLimit": 3,
-        "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
-        "compatName": "Pistol",
-        "type": "SECONDARY",
-        "canBeTransmutation": false
-    },
     "/Lotus/Upgrades/Mods/Pistol/Expert/PrimedWeaponElectricityDamageMod": {
         "name": "/Lotus/Language/Mods/ExpertPistolModElectricityDamage",
         "icon": "/Lotus/Interface/Cards/Images/Pistol/PistolElectricityDamageMod.png",
@@ -26129,6 +26129,7 @@
             "/Lotus/Weapons/Tenno/LongGuns/GyreRifle/GyreRifleWeapon",
             "/Lotus/Weapons/Tenno/LongGuns/LoginPrimary/SundialRifle",
             "/Lotus/Weapons/Tenno/LongGuns/Miter/TnoMiter",
+            "/Lotus/Weapons/Tenno/LongGuns/PrimeLightningGun/PrimeLightningGun",
             "/Lotus/Weapons/Tenno/LongGuns/RepeatingCrossbow/RepeatingCrossbow",
             "/Lotus/Weapons/Tenno/LongGuns/SapientPrimary/SapientPrimaryWeapon",
             "/Lotus/Weapons/Tenno/LongGuns/TennoTommyGun/TennoTommyGunRifle",

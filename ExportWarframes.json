@@ -1229,6 +1229,54 @@
         ],
         "nemesisUpgradeTag": "InnateElectricityDamage"
     },
+    "/Lotus/Powersuits/Sentient/CalibanPrime": {
+        "name": "/Lotus/Language/Primes/CalibanPrimeSuitName",
+        "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
+        "description": "/Lotus/Language/Primes/CalibanPrimeSuitDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/CalibanPrime.png",
+        "health": 270,
+        "shield": 640,
+        "armor": 290,
+        "stamina": 3,
+        "power": 175,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.1,
+        "passiveDescription": "/Lotus/Language/Suits/SentientPassiveAbilityDesc",
+        "abilities": [
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientWhirlwindAbility",
+                "name": "/Lotus/Language/Suits/SentientWhirlwindAbilityName",
+                "description": "/Lotus/Language/Suits/SentientWhirlwindAbilityDescription",
+                "icon": "/Lotus/Interface/Icons/Abilities/CalibanWhirlwind.png",
+                "energyRequiredToActivate": 25
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientStompAbility",
+                "name": "/Lotus/Language/Suits/SentientStompAbilityName",
+                "description": "/Lotus/Language/Suits/SentientStompAbilityDescription",
+                "icon": "/Lotus/Interface/Icons/Abilities/CalibanShockwave.png",
+                "energyRequiredToActivate": 50
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientSummonAbility",
+                "name": "/Lotus/Language/Suits/SentientSummonAbilityName",
+                "description": "/Lotus/Language/Suits/SentientSummonAbilityDescription",
+                "icon": "/Lotus/Interface/Icons/Abilities/CalibanSummonSentients.png",
+                "energyRequiredToActivate": 0
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/SentientBlastAbility",
+                "name": "/Lotus/Language/Suits/SentientBlastAbilityName",
+                "description": "/Lotus/Language/Suits/SentientBlastAbilityDescription",
+                "icon": "/Lotus/Interface/Icons/Abilities/CalibanTriLaser.png",
+                "energyRequiredToActivate": 100
+            }
+        ],
+        "productCategory": "Suits",
+        "variantType": "VT_PRIME",
+        "nemesisUpgradeTag": "InnateElectricityDamage"
+    },
     "/Lotus/Powersuits/Saryn/SarynPrime": {
         "name": "/Lotus/Language/Primes/SarynPrimeName",
         "parentName": "/Lotus/Powersuits/Saryn/SarynBaseSuit",

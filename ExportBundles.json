@@ -31829,6 +31829,47 @@
         ],
         "premiumPrice": 675
     },
+    "/Lotus/Types/StoreItems/Packages/TennoGenFactionsBundleA": {
+        "name": "/Lotus/Language/Bundles/TennoGenFactionsBundle1",
+        "description": "/Lotus/Language/Bundles/TennoGenBundleGenericDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/TennoGen/TennogenFactionsBundleA.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Runner/SWProfitasSkin",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Scarves/SWXikonosSyandana",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ],
+        "premiumPrice": 220
+    },
+    "/Lotus/Types/StoreItems/Packages/TennoGenFactionsBundleB": {
+        "name": "/Lotus/Language/Bundles/TennoGenFactionsBundle2",
+        "description": "/Lotus/Language/Bundles/TennoGenBundleGenericDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/TennoGen/TennogenFactionsBundleB.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/SteamWorkshop/Melee/Whip/SWJotunheimWhipSkin",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/SWXairaksArmor/SWXairaksArmorL",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/SWXairaksArmor/SWXairaksArmorC",
+                "purchaseQuantity": 1,
+                "durability": "COMMON"
+            }
+        ],
+        "premiumPrice": 165
+    },
     "/Lotus/Types/StoreItems/Packages/TennoItemsBundleA": {
         "name": "/Lotus/Language/Bundles/TennoItemsBundleAName",
         "description": "/Lotus/Language/Bundles/TennoItemsBundleADesc",

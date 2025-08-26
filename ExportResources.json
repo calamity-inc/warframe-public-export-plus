@@ -12960,6 +12960,17 @@
         "capacityCost": 5,
         "dojoCapacityCost": 5
     },
+    "/Lotus/Types/Items/ShipDecos/Plushies/PlushyHemocyte": {
+        "name": "/Lotus/Language/ShipDecorations/PlushyHemocyteName",
+        "description": "/Lotus/Language/ShipDecorations/PlushyHemocyteDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/PlushyHemocyte.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Plushies/PlushyHemocyteDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
     "/Lotus/Types/Items/ShipDecos/Plushies/PlushyHorrasqueCommon": {
         "name": "/Lotus/Language/SolarisVenus/PlushyHorrasqueCommonName",
         "description": "/Lotus/Language/SolarisVenus/GenericPlushyDesc",
@@ -13299,6 +13310,17 @@
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations",
         "deco": "/Lotus/Objects/Tenno/Props/Plushies/PlushyPobbersUncommonDirtyDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plushies/PlushyProtectorStalker": {
+        "name": "/Lotus/Language/ShipDecorations/PlushyProtectorStalkerName",
+        "description": "/Lotus/Language/ShipDecorations/PlushyProtectorStalkerDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/PlushyProtectorStalker.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Plushies/PlushyProtectorStalkerDeco",
         "capacityCost": 5,
         "dojoCapacityCost": 5
     },
@@ -17037,6 +17059,17 @@
         "capacityCost": 5,
         "dojoCapacityCost": 5
     },
+    "/Lotus/Types/Items/ShipDecos/Conquera2025Display": {
+        "name": "/Lotus/Language/ShipDecorations/Conquera2025DisplayName",
+        "description": "/Lotus/Language/ShipDecorations/Conquera2025DisplayDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Displays/Conquera2025Display.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Conquera2025Display",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
     "/Lotus/Types/Items/ShipDecos/ContainerDecoItemAlloyDrum": {
         "name": "/Lotus/Language/ShipDecorations/DisplayResourceContainerAlloyPlate",
         "description": "/Lotus/Language/ShipDecorations/DisplayResourceContainerAlloyPlateDesc",
@@ -20353,6 +20386,17 @@
         "productCategory": "ShipDecorations",
         "excludeFromCodex": true,
         "deco": "/Lotus/Interface/FragmentArtwork/OlliesCrashCoursePosterDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/OraxiaDOTDPoster": {
+        "name": "/Lotus/Language/ShipDecorations/OraxiaDOTDPosterName",
+        "description": "/Lotus/Language/ShipDecorations/OraxiaDOTDPosterDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Posters/OraxiaLisetPoster.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Interface/FragmentArtwork/OraxiaDOTDPosterDeco",
         "capacityCost": 5,
         "dojoCapacityCost": 5
     },
@@ -25078,6 +25122,33 @@
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
         "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/CalibanPrimeChassisComponent": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_CalibanPrimeChassisName",
+        "description": "/Lotus/Language/Primes/CraftingComponent_CalibanPrimeChassisDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframePrimeChassis.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 15
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/CalibanPrimeHelmetComponent": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_CalibanPrimeHelmetName",
+        "description": "/Lotus/Language/Primes/CraftingComponent_CalibanPrimeHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframePrimeHelmet.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 100
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/CalibanPrimeSystemsComponent": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_CalibanPrimeSystemsName",
+        "description": "/Lotus/Language/Primes/CraftingComponent_CalibanPrimeSystemsDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframePrimeSystem.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 100
     },
     "/Lotus/Types/Recipes/WarframeRecipes/ChoirChassisComponent": {
         "name": "/Lotus/Language/CraftingComponents/ChoirChassisName",
@@ -30177,6 +30248,33 @@
         "productCategory": "MiscItems",
         "primeSellingPrice": 100
     },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeLightningGunBarrel": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_PrimeLightningGunBarrel",
+        "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunPrimeBarrel.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 45
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeLightningGunReceiver": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_PrimeLightningGunReceiver",
+        "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunPrimeReceiver.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 45
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeLightningGunStock": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_PrimeLightningGunStock",
+        "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunPrimeStock.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 15
+    },
     "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeNamiSkylaBlade": {
         "name": "/Lotus/Language/Menu/CraftingComponent_PrimeNamiSkylaBlade",
         "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
@@ -31263,6 +31361,24 @@
         "name": "/Lotus/Language/Primes/CraftingComponent_VeloxPrimeReceiver",
         "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunPrimeReceiver.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 15
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/VentoPrimeBlade": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_VentoPrimeBlade",
+        "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWeaponPrimeBlade.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 100
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/VentoPrimeHandle": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_VentoPrimeHandle",
+        "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWeaponPrimeHilt.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
         "productCategory": "MiscItems",
