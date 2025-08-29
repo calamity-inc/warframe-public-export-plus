@@ -562,6 +562,7 @@ export interface IRegion {
         weaponXpBonusVal: number;
     };
     questReq?:              string;
+    nextNodes:              string[];
     hidden?:                boolean;
 }
 

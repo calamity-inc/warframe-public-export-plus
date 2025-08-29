@@ -14,7 +14,8 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalLowLevelRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode130": {
         "name": "/Lotus/Language/Locations/Lares",
@@ -31,7 +32,8 @@
         "masteryExp": 3,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsEasy"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode119": {
         "name": "/Lotus/Language/Locations/Caloris",
@@ -48,6 +50,9 @@
         "masteryExp": 3,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsEasy"
+        ],
+        "nextNodes": [
+            "SolNode12"
         ]
     },
     "SolNode12": {
@@ -65,6 +70,9 @@
         "masteryExp": 3,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
+        ],
+        "nextNodes": [
+            "SolNode225"
         ]
     },
     "SolNode103": {
@@ -82,7 +90,11 @@
         "minEnemyLevel": 7,
         "maxEnemyLevel": 9,
         "masteryExp": 3,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode223",
+            "SolNode28"
+        ]
     },
     "SolNode28": {
         "name": "/Lotus/Language/Locations/Terminus",
@@ -100,7 +112,10 @@
         "maxEnemyLevel": 10,
         "masteryExp": 0,
         "rewardManifests": [],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsEasy"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsEasy",
+        "nextNodes": [
+            "SolNode130"
+        ]
     },
     "SolNode108": {
         "name": "/Lotus/Language/Locations/Tolstoj",
@@ -117,7 +132,8 @@
         "masteryExp": 25,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/SeerPistolRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode223": {
         "name": "/Lotus/Language/Locations/Boethius",
@@ -132,7 +148,10 @@
         "minEnemyLevel": 8,
         "maxEnemyLevel": 10,
         "masteryExp": 3,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode94"
+        ]
     },
     "SolNode224": {
         "name": "/Lotus/Language/Locations/Odin",
@@ -149,7 +168,8 @@
         "masteryExp": 3,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsEasy"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode225": {
         "name": "/Lotus/Language/Locations/Suisei",
@@ -166,6 +186,10 @@
         "masteryExp": 3,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyLowMissionRewards"
+        ],
+        "nextNodes": [
+            "SolNode224",
+            "SolNode108"
         ]
     },
     "SolNode226": {
@@ -181,7 +205,10 @@
         "minEnemyLevel": 6,
         "maxEnemyLevel": 8,
         "masteryExp": 3,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode119"
+        ]
     },
     "SolNode129": {
         "name": "/Lotus/Language/Locations/VenusLandscape",
@@ -196,7 +223,10 @@
         "minEnemyLevel": 10,
         "maxEnemyLevel": 30,
         "masteryExp": 24,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode104"
+        ]
     },
     "SolNode123": {
         "name": "/Lotus/Language/Locations/VPrime",
@@ -213,7 +243,8 @@
         "masteryExp": 18,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalLowLevelRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode61": {
         "name": "/Lotus/Language/Locations/Ishtar",
@@ -229,7 +260,11 @@
         "maxEnemyLevel": 8,
         "masteryExp": 24,
         "rewardManifests": [],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsEasy"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsEasy",
+        "nextNodes": [
+            "ClanNode1",
+            "SolNode902"
+        ]
     },
     "SolNode2": {
         "name": "/Lotus/Language/Locations/Aphrodite",
@@ -244,7 +279,11 @@
         "minEnemyLevel": 5,
         "maxEnemyLevel": 8,
         "masteryExp": 18,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode104",
+            "SolNode23"
+        ]
     },
     "SolNode23": {
         "name": "/Lotus/Language/Locations/Cytherean",
@@ -261,6 +300,10 @@
         "masteryExp": 18,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsEasy"
+        ],
+        "nextNodes": [
+            "ClanNode0",
+            "SolNode123"
         ]
     },
     "SolNode128": {
@@ -276,7 +319,12 @@
         "minEnemyLevel": 3,
         "maxEnemyLevel": 5,
         "masteryExp": 18,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode22",
+            "SolarisUnitedHub1",
+            "SolNode101"
+        ]
     },
     "SolNode109": {
         "name": "/Lotus/Language/Locations/Linea",
@@ -293,6 +341,9 @@
         "masteryExp": 18,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsEasy"
+        ],
+        "nextNodes": [
+            "SolNode61"
         ]
     },
     "SolNode104": {
@@ -310,6 +361,9 @@
         "masteryExp": 41,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/RhinoRewards"
+        ],
+        "nextNodes": [
+            "VenusToMercuryJunction"
         ]
     },
     "SolNode66": {
@@ -327,6 +381,9 @@
         "masteryExp": 18,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyLowMissionRewards"
+        ],
+        "nextNodes": [
+            "SolNode104"
         ]
     },
     "ClanNode1": {
@@ -353,7 +410,8 @@
             "xpBonus": 0.1,
             "weaponXpBonusFor": "Rifles",
             "weaponXpBonusVal": 0.05
-        }
+        },
+        "nextNodes": []
     },
     "SolNode107": {
         "name": "/Lotus/Language/Locations/Venera",
@@ -370,6 +428,9 @@
         "masteryExp": 18,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
+        ],
+        "nextNodes": [
+            "SolNode2"
         ]
     },
     "SolNode22": {
@@ -387,6 +448,10 @@
         "masteryExp": 18,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsEasy"
+        ],
+        "nextNodes": [
+            "SolNode109",
+            "SolNode107"
         ]
     },
     "SolNode101": {
@@ -404,6 +469,9 @@
         "masteryExp": 18,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionLowLevelRewards"
+        ],
+        "nextNodes": [
+            "SolNode2"
         ]
     },
     "ClanNode0": {
@@ -430,7 +498,8 @@
             "xpBonus": 0.1,
             "weaponXpBonusFor": "Rifles",
             "weaponXpBonusVal": 0.05
-        }
+        },
+        "nextNodes": []
     },
     "SolNode902": {
         "name": "/Lotus/Language/Locations/VenusArchwingNode1",
@@ -447,7 +516,8 @@
         "masteryExp": 18,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ArchwingExterminateRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode63": {
         "name": "/Lotus/Language/Locations/Mantle",
@@ -464,6 +534,10 @@
         "masteryExp": 24,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
+        ],
+        "nextNodes": [
+            "CetusHub4",
+            "SolNode85"
         ]
     },
     "SolNode27": {
@@ -479,7 +553,10 @@
         "minEnemyLevel": 1,
         "maxEnemyLevel": 3,
         "masteryExp": 24,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode89"
+        ]
     },
     "SolNode79": {
         "name": "/Lotus/Language/Locations/Cambria",
@@ -496,6 +573,9 @@
         "masteryExp": 24,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyLowMissionRewards"
+        ],
+        "nextNodes": [
+            "EarthToVenusJunction"
         ]
     },
     "SolNode39": {
@@ -513,6 +593,10 @@
         "masteryExp": 24,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionLowLevelRewards"
+        ],
+        "nextNodes": [
+            "SolNode75",
+            "ClanNode2"
         ]
     },
     "SolNode15": {
@@ -530,7 +614,8 @@
         "masteryExp": 24,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsEasy"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode26": {
         "name": "/Lotus/Language/Locations/Lith",
@@ -547,6 +632,9 @@
         "masteryExp": 24,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsEasy"
+        ],
+        "nextNodes": [
+            "SolNode79"
         ]
     },
     "SolNode89": {
@@ -562,7 +650,10 @@
         "minEnemyLevel": 1,
         "maxEnemyLevel": 3,
         "masteryExp": 24,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode63"
+        ]
     },
     "SolNode85": {
         "name": "/Lotus/Language/Locations/Gaia",
@@ -579,6 +670,10 @@
         "masteryExp": 20,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsEasy"
+        ],
+        "nextNodes": [
+            "SolNode79",
+            "SolNode15"
         ]
     },
     "SolNode59": {
@@ -594,7 +689,10 @@
         "minEnemyLevel": 3,
         "maxEnemyLevel": 6,
         "masteryExp": 24,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "EarthToMarsJunction"
+        ]
     },
     "SolNode75": {
         "name": "/Lotus/Language/Locations/Lua",
@@ -610,7 +708,11 @@
         "maxEnemyLevel": 6,
         "masteryExp": 24,
         "rewardManifests": [],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/ForestSabotageRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/ForestSabotageRewards",
+        "nextNodes": [
+            "SolNode903",
+            "SolNode300"
+        ]
     },
     "SolNode24": {
         "name": "/Lotus/Language/Locations/Oro",
@@ -627,6 +729,9 @@
         "masteryExp": 24,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/HydroidRewards"
+        ],
+        "nextNodes": [
+            "ClanNode3"
         ]
     },
     "ClanNode2": {
@@ -653,7 +758,8 @@
             "xpBonus": 0.12,
             "weaponXpBonusFor": "Melee",
             "weaponXpBonusVal": 0.08
-        }
+        },
+        "nextNodes": []
     },
     "SolNode903": {
         "name": "/Lotus/Language/Locations/EarthArchwingNode1",
@@ -670,6 +776,9 @@
         "masteryExp": 24,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ArchwingMobileDRewards"
+        ],
+        "nextNodes": [
+            "SolNode24"
         ]
     },
     "ClanNode3": {
@@ -697,7 +806,8 @@
             "weaponXpBonusFor": "Melee",
             "weaponXpBonusVal": 0.08
         },
-        "questReq": "/Lotus/Types/Keys/GlassQuest/GlassQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/GlassQuest/GlassQuestKeyChain",
+        "nextNodes": []
     },
     "SolNode228": {
         "name": "/Lotus/Language/Locations/EidolonPlains",
@@ -712,7 +822,10 @@
         "minEnemyLevel": 10,
         "maxEnemyLevel": 30,
         "masteryExp": 24,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode39"
+        ]
     },
     "SolNode451": {
         "name": "/Lotus/Language/Locations/CetusInvasion",
@@ -729,7 +842,8 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/FiveFatesRewards/FiveFatesRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode30": {
         "name": "/Lotus/Language/Locations/Olympus",
@@ -746,7 +860,8 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionSettlementRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode113": {
         "name": "/Lotus/Language/Locations/Ares",
@@ -761,7 +876,11 @@
         "minEnemyLevel": 8,
         "maxEnemyLevel": 10,
         "masteryExp": 51,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode11",
+            "SolNode16"
+        ]
     },
     "SolNode46": {
         "name": "/Lotus/Language/Locations/Spear",
@@ -778,6 +897,10 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsEasy"
+        ],
+        "nextNodes": [
+            "SolNode45",
+            "SolNode450"
         ]
     },
     "SolNode68": {
@@ -793,7 +916,8 @@
         "minEnemyLevel": 11,
         "maxEnemyLevel": 13,
         "masteryExp": 51,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": []
     },
     "SolNode58": {
         "name": "/Lotus/Language/Locations/Hellas",
@@ -808,7 +932,11 @@
         "minEnemyLevel": 8,
         "maxEnemyLevel": 12,
         "masteryExp": 51,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode65",
+            "SolNode30"
+        ]
     },
     "SolNode106": {
         "name": "/Lotus/Language/Locations/Alator",
@@ -825,6 +953,9 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsEasy"
+        ],
+        "nextNodes": [
+            "SolNode14"
         ]
     },
     "SolNode41": {
@@ -842,6 +973,10 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyLowMissionRewards"
+        ],
+        "nextNodes": [
+            "SolNode46",
+            "SolNode58"
         ]
     },
     "SolNode14": {
@@ -859,7 +994,10 @@
         "minEnemyLevel": 11,
         "maxEnemyLevel": 13,
         "masteryExp": 51,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "ClanNode9"
+        ]
     },
     "SolNode16": {
         "name": "/Lotus/Language/Locations/Augustus",
@@ -876,6 +1014,10 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionLowLevelRewards"
+        ],
+        "nextNodes": [
+            "SolNode41",
+            "SolNode99"
         ]
     },
     "SolNode45": {
@@ -893,6 +1035,10 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
+        ],
+        "nextNodes": [
+            "SolNode106",
+            "SolNode904"
         ]
     },
     "SolNode36": {
@@ -910,6 +1056,11 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsEasy"
+        ],
+        "nextNodes": [
+            "MarsToCeresJunction",
+            "SolNode68",
+            "SolNode45"
         ]
     },
     "ClanNode8": {
@@ -936,7 +1087,8 @@
             "xpBonus": 0.15,
             "weaponXpBonusFor": "Pistols",
             "weaponXpBonusVal": 0.1
-        }
+        },
+        "nextNodes": []
     },
     "SolNode99": {
         "name": "/Lotus/Language/Locations/War",
@@ -953,6 +1105,10 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/ExcaliburRewards"
+        ],
+        "nextNodes": [
+            "SolNode36",
+            "SolNode706"
         ]
     },
     "SolNode65": {
@@ -969,7 +1125,10 @@
         "maxEnemyLevel": 12,
         "masteryExp": 45,
         "rewardManifests": [],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsEasy"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsEasy",
+        "nextNodes": [
+            "MarsToPhobosJunction"
+        ]
     },
     "ClanNode9": {
         "name": "/Lotus/Language/Locations/Wahiba",
@@ -995,7 +1154,8 @@
             "xpBonus": 0.15,
             "weaponXpBonusFor": "Pistols",
             "weaponXpBonusVal": 0.1
-        }
+        },
+        "nextNodes": []
     },
     "SolNode11": {
         "name": "/Lotus/Language/Locations/Tharsis",
@@ -1010,7 +1170,11 @@
         "minEnemyLevel": 9,
         "maxEnemyLevel": 11,
         "masteryExp": 51,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode65",
+            "TradeHUB1"
+        ]
     },
     "SolNode904": {
         "name": "/Lotus/Language/Locations/MarsArchwingNode1",
@@ -1027,7 +1191,8 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ArchwingExterminateRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode450": {
         "name": "/Lotus/Language/Locations/MarsDualDefense",
@@ -1045,7 +1210,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/LastWishMissionRewards/LastWishRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/InfestedMicroplanetQuest/InfestedMicroplanetQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/InfestedMicroplanetQuest/InfestedMicroplanetQuestKeyChain",
+        "nextNodes": []
     },
     "SolNode87": {
         "name": "/Lotus/Language/Locations/Ganymede",
@@ -1063,7 +1229,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/SentientQuest/SentientQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/SentientQuest/SentientQuestKeyChain",
+        "nextNodes": [
+            "SolNode740"
+        ]
     },
     "SolNode88": {
         "name": "/Lotus/Language/Locations/Adrastea",
@@ -1079,7 +1248,10 @@
         "maxEnemyLevel": 20,
         "masteryExp": 51,
         "rewardManifests": [],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsMedium"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsMedium",
+        "nextNodes": [
+            "SolNode125"
+        ]
     },
     "SolNode97": {
         "name": "/Lotus/Language/Locations/Amalthea",
@@ -1096,6 +1268,10 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyMediumMissionRewards"
+        ],
+        "nextNodes": [
+            "ClanNode4",
+            "SolNode10"
         ]
     },
     "SolNode126": {
@@ -1113,6 +1289,10 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsMedium"
+        ],
+        "nextNodes": [
+            "SolNode73",
+            "SolNode74"
         ]
     },
     "SolNode125": {
@@ -1130,6 +1310,9 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsMedium"
+        ],
+        "nextNodes": [
+            "SolNode53"
         ]
     },
     "SolNode100": {
@@ -1147,6 +1330,9 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalMidLevelRewards"
+        ],
+        "nextNodes": [
+            "SolNode88"
         ]
     },
     "SolNode10": {
@@ -1162,7 +1348,11 @@
         "minEnemyLevel": 18,
         "maxEnemyLevel": 20,
         "masteryExp": 51,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode905",
+            "SolNode53"
+        ]
     },
     "SolNode25": {
         "name": "/Lotus/Language/Locations/Callisto",
@@ -1179,6 +1369,9 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsMedium"
+        ],
+        "nextNodes": [
+            "ClanNode5"
         ]
     },
     "SolNode121": {
@@ -1195,7 +1388,11 @@
         "maxEnemyLevel": 19,
         "masteryExp": 51,
         "rewardManifests": [],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsGasCity"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsGasCity",
+        "nextNodes": [
+            "JupiterToEuropaJunction",
+            "SolNode10"
+        ]
     },
     "SolNode53": {
         "name": "/Lotus/Language/Locations/Themisto",
@@ -1212,6 +1409,9 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/BerserkerRewards"
+        ],
+        "nextNodes": [
+            "JupiterToSaturnJunction"
         ]
     },
     "SolNode74": {
@@ -1227,7 +1427,10 @@
         "minEnemyLevel": 16,
         "maxEnemyLevel": 18,
         "masteryExp": 51,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode121"
+        ]
     },
     "SolNode740": {
         "name": "/Lotus/Language/Locations/Ropalolyst",
@@ -1245,7 +1448,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RopalolystModRewards",
             "/Lotus/Types/Game/MissionDecks/RopalolystBlueprintRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "ClanNode4": {
         "name": "/Lotus/Language/Locations/Sinai",
@@ -1271,7 +1475,8 @@
             "xpBonus": 0.15,
             "weaponXpBonusFor": "Melee",
             "weaponXpBonusVal": 0.1
-        }
+        },
+        "nextNodes": []
     },
     "SolNode73": {
         "name": "/Lotus/Language/Locations/Ananke",
@@ -1288,6 +1493,10 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
+        ],
+        "nextNodes": [
+            "SolNode97",
+            "SolNode25"
         ]
     },
     "SolNode905": {
@@ -1305,7 +1514,8 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ArchwingSabotageRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "ClanNode5": {
         "name": "/Lotus/Language/Locations/Cameria",
@@ -1331,7 +1541,8 @@
             "xpBonus": 0.15,
             "weaponXpBonusFor": "Shotguns",
             "weaponXpBonusVal": 0.1
-        }
+        },
+        "nextNodes": []
     },
     "SolNode42": {
         "name": "/Lotus/Language/Locations/Helene",
@@ -1348,6 +1559,9 @@
         "masteryExp": 55,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsMedium"
+        ],
+        "nextNodes": [
+            "SolNode32"
         ]
     },
     "SolNode19": {
@@ -1363,7 +1577,11 @@
         "minEnemyLevel": 23,
         "maxEnemyLevel": 25,
         "masteryExp": 49,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode42",
+            "SolNode96"
+        ]
     },
     "SolNode96": {
         "name": "/Lotus/Language/Locations/Titan",
@@ -1380,7 +1598,8 @@
         "masteryExp": 55,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalMidLevelRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode67": {
         "name": "/Lotus/Language/Locations/Dione",
@@ -1397,6 +1616,10 @@
         "masteryExp": 55,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyMediumMissionRewards"
+        ],
+        "nextNodes": [
+            "SolNode31",
+            "SolNode20"
         ]
     },
     "SolNode93": {
@@ -1412,7 +1635,10 @@
         "minEnemyLevel": 23,
         "maxEnemyLevel": 25,
         "masteryExp": 55,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode82"
+        ]
     },
     "SolNode32": {
         "name": "/Lotus/Language/Locations/Tethys",
@@ -1429,6 +1655,9 @@
         "masteryExp": 55,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/EmberRewards"
+        ],
+        "nextNodes": [
+            "SaturnToUranusJunction"
         ]
     },
     "SolNode18": {
@@ -1446,6 +1675,9 @@
         "masteryExp": 55,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsMedium"
+        ],
+        "nextNodes": [
+            "ClanNode13"
         ]
     },
     "SolNode20": {
@@ -1461,7 +1693,10 @@
         "minEnemyLevel": 22,
         "maxEnemyLevel": 24,
         "masteryExp": 55,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode32"
+        ]
     },
     "SolNode70": {
         "name": "/Lotus/Language/Locations/Cassini",
@@ -1478,6 +1713,9 @@
         "masteryExp": 55,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
+        ],
+        "nextNodes": [
+            "SolNode50"
         ]
     },
     "SolNode31": {
@@ -1495,6 +1733,9 @@
         "masteryExp": 55,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsHard"
+        ],
+        "nextNodes": [
+            "SolNode18"
         ]
     },
     "SolNode50": {
@@ -1512,6 +1753,10 @@
         "masteryExp": 55,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsMedium"
+        ],
+        "nextNodes": [
+            "SolNode19",
+            "SolNode906"
         ]
     },
     "SolNode82": {
@@ -1528,7 +1773,10 @@
         "maxEnemyLevel": 26,
         "masteryExp": 55,
         "rewardManifests": [],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsMedium"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsMedium",
+        "nextNodes": [
+            "SolNode93"
+        ]
     },
     "SolNode906": {
         "name": "/Lotus/Language/Locations/SaturnArchwingNode1",
@@ -1545,6 +1793,9 @@
         "masteryExp": 55,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ArchwingPursuitRewards"
+        ],
+        "nextNodes": [
+            "ClanNode12"
         ]
     },
     "ClanNode13": {
@@ -1571,7 +1822,10 @@
             "xpBonus": 0.15,
             "weaponXpBonusFor": "Shotguns",
             "weaponXpBonusVal": 0.1
-        }
+        },
+        "nextNodes": [
+            "SolNode82"
+        ]
     },
     "ClanNode12": {
         "name": "/Lotus/Language/Locations/Caracol",
@@ -1597,7 +1851,8 @@
             "xpBonus": 0.15,
             "weaponXpBonusFor": "Rifles",
             "weaponXpBonusVal": 0.1
-        }
+        },
+        "nextNodes": []
     },
     "SolNode33": {
         "name": "/Lotus/Language/Locations/Ariel",
@@ -1614,6 +1869,9 @@
         "masteryExp": 69,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
+        ],
+        "nextNodes": [
+            "SolNode83"
         ]
     },
     "SolNode105": {
@@ -1631,6 +1889,9 @@
         "masteryExp": 69,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/YinYangRewards"
+        ],
+        "nextNodes": [
+            "UranusToNeptuneJunction"
         ]
     },
     "SolNode64": {
@@ -1648,6 +1909,9 @@
         "masteryExp": 69,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsMedium"
+        ],
+        "nextNodes": [
+            "SolNode69"
         ]
     },
     "SolNode69": {
@@ -1665,6 +1929,9 @@
         "masteryExp": 69,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalHighLevelRewards"
+        ],
+        "nextNodes": [
+            "SolNode114"
         ]
     },
     "SolNode83": {
@@ -1680,7 +1947,12 @@
         "minEnemyLevel": 27,
         "maxEnemyLevel": 29,
         "masteryExp": 69,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode907",
+            "SolNode105",
+            "ClanNode16"
+        ]
     },
     "SolNode98": {
         "name": "/Lotus/Language/Locations/Desdemona",
@@ -1696,7 +1968,11 @@
         "maxEnemyLevel": 28,
         "masteryExp": 69,
         "rewardManifests": [],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/OceanSabotageRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/OceanSabotageRewards",
+        "nextNodes": [
+            "SolNode9",
+            "SolNode723"
+        ]
     },
     "SolNode9": {
         "name": "/Lotus/Language/Locations/Rosalind",
@@ -1713,6 +1989,9 @@
         "masteryExp": 69,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyHighMissionRewards"
+        ],
+        "nextNodes": [
+            "SolNode105"
         ]
     },
     "SolNode60": {
@@ -1730,6 +2009,10 @@
         "masteryExp": 69,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsHard"
+        ],
+        "nextNodes": [
+            "SolNode122",
+            "SolNode114"
         ]
     },
     "SolNode114": {
@@ -1745,7 +2028,11 @@
         "minEnemyLevel": 27,
         "maxEnemyLevel": 29,
         "masteryExp": 44,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "ClanNode17",
+            "SolNode105"
+        ]
     },
     "ClanNode16": {
         "name": "/Lotus/Language/Locations/Ur",
@@ -1771,7 +2058,8 @@
             "xpBonus": 0.18,
             "weaponXpBonusFor": "Pistols",
             "weaponXpBonusVal": 0.13
-        }
+        },
+        "nextNodes": []
     },
     "SolNode34": {
         "name": "/Lotus/Language/Locations/Sycorax",
@@ -1786,7 +2074,12 @@
         "minEnemyLevel": 24,
         "maxEnemyLevel": 26,
         "masteryExp": 69,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode33",
+            "SolNode60",
+            "SolNode98"
+        ]
     },
     "SolNode122": {
         "name": "/Lotus/Language/Locations/Stephano",
@@ -1803,6 +2096,9 @@
         "masteryExp": 69,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsHard"
+        ],
+        "nextNodes": [
+            "SolNode64"
         ]
     },
     "SolNode907": {
@@ -1820,7 +2116,8 @@
         "masteryExp": 69,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/ArchwingInterceptionMissionRewardsHard"
-        ]
+        ],
+        "nextNodes": []
     },
     "ClanNode17": {
         "name": "/Lotus/Language/Locations/Assur",
@@ -1846,7 +2143,8 @@
             "xpBonus": 0.18,
             "weaponXpBonusFor": "Melee",
             "weaponXpBonusVal": 0.13
-        }
+        },
+        "nextNodes": []
     },
     "SolNode49": {
         "name": "/Lotus/Language/Locations/Larissa",
@@ -1861,7 +2159,10 @@
         "minEnemyLevel": 29,
         "maxEnemyLevel": 31,
         "masteryExp": 52,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode406"
+        ]
     },
     "SolNode1": {
         "name": "/Lotus/Language/Locations/Galatea",
@@ -1878,6 +2179,10 @@
         "masteryExp": 52,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
+        ],
+        "nextNodes": [
+            "SolNode6",
+            "SolNode78"
         ]
     },
     "SolNode17": {
@@ -1895,6 +2200,9 @@
         "masteryExp": 52,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsHard"
+        ],
+        "nextNodes": [
+            "ClanNode21"
         ]
     },
     "SolNode78": {
@@ -1912,6 +2220,10 @@
         "masteryExp": 52,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsHard"
+        ],
+        "nextNodes": [
+            "SolNode62",
+            "SolNode49"
         ]
     },
     "SolNode6": {
@@ -1929,6 +2241,9 @@
         "masteryExp": 52,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionHighLevelRewards"
+        ],
+        "nextNodes": [
+            "SolNode57"
         ]
     },
     "SolNode57": {
@@ -1944,7 +2259,12 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 32,
         "masteryExp": 52,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode118",
+            "SolNode17",
+            "NeptuneToPlutoJunction"
+        ]
     },
     "SolNode62": {
         "name": "/Lotus/Language/Locations/Neso",
@@ -1959,7 +2279,11 @@
         "minEnemyLevel": 29,
         "maxEnemyLevel": 31,
         "masteryExp": 52,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode84",
+            "SolNode908"
+        ]
     },
     "SolNode908": {
         "name": "/Lotus/Language/Locations/NeptuneArchwingNode1",
@@ -1976,6 +2300,9 @@
         "masteryExp": 52,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ArchwingMobileDRewards"
+        ],
+        "nextNodes": [
+            "ClanNode20"
         ]
     },
     "SolNode127": {
@@ -1993,6 +2320,9 @@
         "masteryExp": 52,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/LokiRewards"
+        ],
+        "nextNodes": [
+            "NeptuneToPlutoJunction"
         ]
     },
     "SolNode118": {
@@ -2010,6 +2340,9 @@
         "masteryExp": 52,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionNeptuneRewards"
+        ],
+        "nextNodes": [
+            "SolNode127"
         ]
     },
     "SolNode84": {
@@ -2027,6 +2360,10 @@
         "masteryExp": 52,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyHighMissionRewards"
+        ],
+        "nextNodes": [
+            "SolNode127",
+            "EventNode763"
         ]
     },
     "ClanNode20": {
@@ -2053,7 +2390,8 @@
             "xpBonus": 0.23,
             "weaponXpBonusFor": "Shotguns",
             "weaponXpBonusVal": 0.18
-        }
+        },
+        "nextNodes": []
     },
     "ClanNode21": {
         "name": "/Lotus/Language/Locations/Kelashin",
@@ -2079,7 +2417,8 @@
             "xpBonus": 0.23,
             "weaponXpBonusFor": "Rifles",
             "weaponXpBonusVal": 0.18
-        }
+        },
+        "nextNodes": []
     },
     "SolNode4": {
         "name": "/Lotus/Language/Locations/Acheron",
@@ -2094,7 +2433,10 @@
         "minEnemyLevel": 34,
         "maxEnemyLevel": 38,
         "masteryExp": 51,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "PlutoToErisJunction"
+        ]
     },
     "SolNode72": {
         "name": "/Lotus/Language/Locations/OuterTerminus",
@@ -2111,6 +2453,9 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsHard"
+        ],
+        "nextNodes": [
+            "ClanNode24"
         ]
     },
     "SolNode48": {
@@ -2128,6 +2473,10 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsHard"
+        ],
+        "nextNodes": [
+            "ClanNode25",
+            "ErisToSednaJunction"
         ]
     },
     "SolNode21": {
@@ -2143,7 +2492,11 @@
         "minEnemyLevel": 32,
         "maxEnemyLevel": 36,
         "masteryExp": 51,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode56",
+            "SolNode72"
+        ]
     },
     "SolNode76": {
         "name": "/Lotus/Language/Locations/Hydra",
@@ -2160,6 +2513,9 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
+        ],
+        "nextNodes": [
+            "SolNode21"
         ]
     },
     "SolNode51": {
@@ -2189,7 +2545,8 @@
         },
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/TrinityRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode38": {
         "name": "/Lotus/Language/Locations/Minthe",
@@ -2204,7 +2561,10 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 34,
         "masteryExp": 51,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode102"
+        ]
     },
     "SolNode56": {
         "name": "/Lotus/Language/Locations/Cypress",
@@ -2220,7 +2580,10 @@
         "maxEnemyLevel": 38,
         "masteryExp": 51,
         "rewardManifests": [],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsHard"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsHard",
+        "nextNodes": [
+            "SolNode43"
+        ]
     },
     "SolNode43": {
         "name": "/Lotus/Language/Locations/Cerberus",
@@ -2237,6 +2600,9 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsHard"
+        ],
+        "nextNodes": [
+            "SolNode81"
         ]
     },
     "SolNode81": {
@@ -2254,6 +2620,9 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalHighLevelRewards"
+        ],
+        "nextNodes": [
+            "SolNode51"
         ]
     },
     "ClanNode24": {
@@ -2280,7 +2649,8 @@
             "xpBonus": 0.3,
             "weaponXpBonusFor": "Rifles",
             "weaponXpBonusVal": 0.25
-        }
+        },
+        "nextNodes": []
     },
     "SolNode102": {
         "name": "/Lotus/Language/Locations/Oceanum",
@@ -2297,6 +2667,11 @@
         "masteryExp": 51,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyHighMissionRewards"
+        ],
+        "nextNodes": [
+            "SolNode4",
+            "SolNode48",
+            "SolNode72"
         ]
     },
     "ClanNode25": {
@@ -2323,7 +2698,8 @@
             "xpBonus": 0.3,
             "weaponXpBonusFor": "Pistols",
             "weaponXpBonusVal": 0.25
-        }
+        },
+        "nextNodes": []
     },
     "SolNode131": {
         "name": "/Lotus/Language/Locations/Pallas",
@@ -2338,7 +2714,11 @@
         "minEnemyLevel": 12,
         "maxEnemyLevel": 14,
         "masteryExp": 163,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode132",
+            "SolNode147"
+        ]
     },
     "SolNode135": {
         "name": "/Lotus/Language/Locations/Thon",
@@ -2354,7 +2734,8 @@
         "maxEnemyLevel": 17,
         "masteryExp": 163,
         "rewardManifests": [],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsMedium"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsMedium",
+        "nextNodes": []
     },
     "SolNode132": {
         "name": "/Lotus/Language/Locations/Bode",
@@ -2371,6 +2752,10 @@
         "masteryExp": 163,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyMediumMissionRewards"
+        ],
+        "nextNodes": [
+            "SolNode149",
+            "SolNode137"
         ]
     },
     "SolNode139": {
@@ -2388,6 +2773,10 @@
         "masteryExp": 163,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
+        ],
+        "nextNodes": [
+            "ClanNode23",
+            "SolNode138"
         ]
     },
     "SolNode141": {
@@ -2404,7 +2793,11 @@
         "maxEnemyLevel": 16,
         "masteryExp": 163,
         "rewardManifests": [],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsMedium"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsMedium",
+        "nextNodes": [
+            "SolNode146",
+            "SolNode138"
+        ]
     },
     "SolNode137": {
         "name": "/Lotus/Language/Locations/Nuovo",
@@ -2421,6 +2814,9 @@
         "masteryExp": 163,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsEasy"
+        ],
+        "nextNodes": [
+            "SolNode144"
         ]
     },
     "SolNode140": {
@@ -2436,7 +2832,11 @@
         "minEnemyLevel": 13,
         "maxEnemyLevel": 15,
         "masteryExp": 163,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode141",
+            "SolNode135"
+        ]
     },
     "SolNode138": {
         "name": "/Lotus/Language/Locations/Ludi",
@@ -2451,7 +2851,8 @@
         "minEnemyLevel": 15,
         "maxEnemyLevel": 17,
         "masteryExp": 163,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": []
     },
     "SolNode144": {
         "name": "/Lotus/Language/Locations/Exta",
@@ -2469,6 +2870,9 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/MiterGremlinsRewards",
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/FrostRewards"
+        ],
+        "nextNodes": [
+            "SolNode138"
         ]
     },
     "SolNode149": {
@@ -2486,6 +2890,10 @@
         "masteryExp": 163,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsEasy"
+        ],
+        "nextNodes": [
+            "SolNode139",
+            "ClanNode22"
         ]
     },
     "SolNode147": {
@@ -2503,6 +2911,10 @@
         "masteryExp": 163,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsEasy"
+        ],
+        "nextNodes": [
+            "SolNode140",
+            "SolNode137"
         ]
     },
     "SolNode146": {
@@ -2520,7 +2932,8 @@
         "masteryExp": 163,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalMidLevelRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "ClanNode23": {
         "name": "/Lotus/Language/Locations/Gabii",
@@ -2546,7 +2959,8 @@
             "xpBonus": 0.26,
             "weaponXpBonusFor": "Melee",
             "weaponXpBonusVal": 0.21
-        }
+        },
+        "nextNodes": []
     },
     "ClanNode22": {
         "name": "/Lotus/Language/Locations/Seimeni",
@@ -2572,7 +2986,8 @@
             "xpBonus": 0.26,
             "weaponXpBonusFor": "Melee",
             "weaponXpBonusVal": 0.21
-        }
+        },
+        "nextNodes": []
     },
     "SolNode153": {
         "name": "/Lotus/Language/Locations/Brugia",
@@ -2589,6 +3004,10 @@
         "masteryExp": 279,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsHard"
+        ],
+        "nextNodes": [
+            "SolNode164",
+            "SolNode171"
         ]
     },
     "SolNode164": {
@@ -2606,6 +3025,9 @@
         "masteryExp": 279,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsHard"
+        ],
+        "nextNodes": [
+            "SolNode172"
         ]
     },
     "SolNode162": {
@@ -2623,6 +3045,10 @@
         "masteryExp": 279,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
+        ],
+        "nextNodes": [
+            "SolNode167",
+            "SolNode173"
         ]
     },
     "SolNode171": {
@@ -2638,7 +3064,8 @@
         "minEnemyLevel": 34,
         "maxEnemyLevel": 38,
         "masteryExp": 279,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": []
     },
     "SolNode167": {
         "name": "/Lotus/Language/Locations/Oestrus",
@@ -2655,7 +3082,8 @@
         "masteryExp": 279,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/PurifierDefenseMissionRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode166": {
         "name": "/Lotus/Language/Locations/Nimus",
@@ -2672,6 +3100,9 @@
         "masteryExp": 279,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalHighLevelRewards"
+        ],
+        "nextNodes": [
+            "ClanNode18"
         ]
     },
     "SolNode173": {
@@ -2687,7 +3118,10 @@
         "minEnemyLevel": 34,
         "maxEnemyLevel": 38,
         "masteryExp": 279,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode166"
+        ]
     },
     "ClanNode18": {
         "name": "/Lotus/Language/Locations/Akkad",
@@ -2713,7 +3147,8 @@
             "xpBonus": 0.23,
             "weaponXpBonusFor": "Melee",
             "weaponXpBonusVal": 0.18
-        }
+        },
+        "nextNodes": []
     },
     "SolNode172": {
         "name": "/Lotus/Language/Locations/Xini",
@@ -2730,6 +3165,9 @@
         "masteryExp": 279,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsHard"
+        ],
+        "nextNodes": [
+            "ClanNode19"
         ]
     },
     "ClanNode19": {
@@ -2756,7 +3194,8 @@
             "xpBonus": 0.23,
             "weaponXpBonusFor": "Pistols",
             "weaponXpBonusVal": 0.18
-        }
+        },
+        "nextNodes": []
     },
     "SolNode175": {
         "name": "/Lotus/Language/Locations/Naeglar",
@@ -2772,7 +3211,11 @@
         "maxEnemyLevel": 34,
         "masteryExp": 279,
         "rewardManifests": [],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CorpusInfestedSabotageRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CorpusInfestedSabotageRewards",
+        "nextNodes": [
+            "SolNode153",
+            "SolNode162"
+        ]
     },
     "SolNode177": {
         "name": "/Lotus/Language/Locations/Kappa",
@@ -2789,7 +3232,8 @@
         "masteryExp": 177,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionGalleonRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode184": {
         "name": "/Lotus/Language/Locations/Rusalka",
@@ -2805,7 +3249,11 @@
         "maxEnemyLevel": 36,
         "masteryExp": 177,
         "rewardManifests": [],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsHard"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsHard",
+        "nextNodes": [
+            "SolNode185",
+            "SolNode195"
+        ]
     },
     "SolNode181": {
         "name": "/Lotus/Language/Locations/Adaro",
@@ -2820,7 +3268,10 @@
         "minEnemyLevel": 32,
         "maxEnemyLevel": 36,
         "masteryExp": 177,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode187"
+        ]
     },
     "SolNode183": {
         "name": "/Lotus/Language/Locations/Vodyanoi",
@@ -2849,7 +3300,8 @@
         },
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/KelaEventRewardsHard"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode190": {
         "name": "/Lotus/Language/Locations/Nakki",
@@ -2874,6 +3326,10 @@
         },
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/KelaEventRewardsMedium"
+        ],
+        "nextNodes": [
+            "SolNode193",
+            "SolNode199"
         ]
     },
     "SolNode185": {
@@ -2891,6 +3347,9 @@
         "masteryExp": 50,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsHard"
+        ],
+        "nextNodes": [
+            "ClanNode15"
         ]
     },
     "SolNode187": {
@@ -2908,6 +3367,10 @@
         "masteryExp": 177,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalHighLevelRewards"
+        ],
+        "nextNodes": [
+            "SolNode196",
+            "SolNode191"
         ]
     },
     "SolNode191": {
@@ -2923,7 +3386,10 @@
         "minEnemyLevel": 34,
         "maxEnemyLevel": 38,
         "masteryExp": 177,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode190"
+        ]
     },
     "SolNode188": {
         "name": "/Lotus/Language/Locations/Kelpie",
@@ -2940,6 +3406,9 @@
         "masteryExp": 177,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyHighMissionRewards"
+        ],
+        "nextNodes": [
+            "SolNode410"
         ]
     },
     "SolNode189": {
@@ -2957,6 +3426,10 @@
         "masteryExp": 177,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsHard"
+        ],
+        "nextNodes": [
+            "SolNode181",
+            "SolNode184"
         ]
     },
     "SolNode199": {
@@ -2986,6 +3459,9 @@
         },
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/KelaEventRewardsHard"
+        ],
+        "nextNodes": [
+            "SolNode183"
         ]
     },
     "SolNode193": {
@@ -3007,7 +3483,8 @@
         },
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/SarynRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode196": {
         "name": "/Lotus/Language/Locations/Charybdis",
@@ -3022,7 +3499,10 @@
         "minEnemyLevel": 34,
         "maxEnemyLevel": 38,
         "masteryExp": 177,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode188"
+        ]
     },
     "SolNode195": {
         "name": "/Lotus/Language/Locations/Hydron",
@@ -3039,6 +3519,10 @@
         "masteryExp": 177,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsHard"
+        ],
+        "nextNodes": [
+            "ClanNode14",
+            "SolNode177"
         ]
     },
     "ClanNode14": {
@@ -3065,7 +3549,8 @@
             "xpBonus": 0.18,
             "weaponXpBonusFor": "Rifles",
             "weaponXpBonusVal": 0.13
-        }
+        },
+        "nextNodes": []
     },
     "ClanNode15": {
         "name": "/Lotus/Language/Locations/Sangeru",
@@ -3091,7 +3576,8 @@
             "xpBonus": 0.18,
             "weaponXpBonusFor": "Melee",
             "weaponXpBonusVal": 0.13
-        }
+        },
+        "nextNodes": []
     },
     "SolNode203": {
         "name": "/Lotus/Language/Locations/Abaddon",
@@ -3108,6 +3594,9 @@
         "masteryExp": 138,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
+        ],
+        "nextNodes": [
+            "ClanNode6"
         ]
     },
     "SolNode204": {
@@ -3125,7 +3614,8 @@
         "minEnemyLevel": 18,
         "maxEnemyLevel": 20,
         "masteryExp": 138,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": []
     },
     "SolNode209": {
         "name": "/Lotus/Language/Locations/Morax",
@@ -3140,7 +3630,12 @@
         "minEnemyLevel": 18,
         "maxEnemyLevel": 20,
         "masteryExp": 138,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode217",
+            "SolNode211",
+            "SolNode216"
+        ]
     },
     "SolNode210": {
         "name": "/Lotus/Language/Locations/Naamah",
@@ -3157,6 +3652,9 @@
         "masteryExp": 138,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/NovaRewards"
+        ],
+        "nextNodes": [
+            "SolNode204"
         ]
     },
     "SolNode205": {
@@ -3172,7 +3670,11 @@
         "minEnemyLevel": 21,
         "maxEnemyLevel": 23,
         "masteryExp": 138,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "ClanNode7",
+            "SolNode403"
+        ]
     },
     "SolNode216": {
         "name": "/Lotus/Language/Locations/Valefor",
@@ -3189,6 +3691,9 @@
         "masteryExp": 138,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionMidLevelRewards"
+        ],
+        "nextNodes": [
+            "SolNode220"
         ]
     },
     "SolNode214": {
@@ -3204,7 +3709,11 @@
         "minEnemyLevel": 19,
         "maxEnemyLevel": 21,
         "masteryExp": 138,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode205",
+            "SolNode212"
+        ]
     },
     "SolNode211": {
         "name": "/Lotus/Language/Locations/Ose",
@@ -3221,6 +3730,9 @@
         "masteryExp": 138,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsMedium"
+        ],
+        "nextNodes": [
+            "SolNode214"
         ]
     },
     "SolNode215": {
@@ -3240,7 +3752,8 @@
         "masteryExp": 138,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyMediumMissionRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode212": {
         "name": "/Lotus/Language/Locations/Paimon",
@@ -3257,7 +3770,8 @@
         "masteryExp": 138,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsMedium"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode217": {
         "name": "/Lotus/Language/Locations/Orias",
@@ -3274,6 +3788,9 @@
         "masteryExp": 138,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsMedium"
+        ],
+        "nextNodes": [
+            "SolNode215"
         ]
     },
     "ClanNode6": {
@@ -3300,7 +3817,8 @@
             "xpBonus": 0.18,
             "weaponXpBonusFor": "Pistols",
             "weaponXpBonusVal": 0.12
-        }
+        },
+        "nextNodes": []
     },
     "SolNode220": {
         "name": "/Lotus/Language/Locations/Kokabiel",
@@ -3315,7 +3833,11 @@
         "minEnemyLevel": 20,
         "maxEnemyLevel": 22,
         "masteryExp": 138,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode203",
+            "SolNode210"
+        ]
     },
     "ClanNode7": {
         "name": "/Lotus/Language/Locations/Cholistan",
@@ -3341,7 +3863,8 @@
             "xpBonus": 0.18,
             "weaponXpBonusFor": "Melee",
             "weaponXpBonusVal": 0.12
-        }
+        },
+        "nextNodes": []
     },
     "SolNode400": {
         "name": "/Lotus/Language/Locations/VoidNode1",
@@ -3358,6 +3881,9 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidLowLevelRewards"
+        ],
+        "nextNodes": [
+            "SolNode401"
         ]
     },
     "SolNode401": {
@@ -3375,6 +3901,9 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidLowLevelRewards"
+        ],
+        "nextNodes": [
+            "SolNode402"
         ]
     },
     "SolNode402": {
@@ -3392,7 +3921,8 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidEndlessLowLevelRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode403": {
         "name": "/Lotus/Language/Locations/VoidNode4",
@@ -3409,6 +3939,9 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidMedLevelRewards"
+        ],
+        "nextNodes": [
+            "SolNode404"
         ]
     },
     "SolNode404": {
@@ -3427,7 +3960,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidMedLevelRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsVoidMedium"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsVoidMedium",
+        "nextNodes": [
+            "SolNode405"
+        ]
     },
     "SolNode405": {
         "name": "/Lotus/Language/Locations/VoidNode6",
@@ -3444,7 +3980,8 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidEndlessMedLevelRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode406": {
         "name": "/Lotus/Language/Locations/VoidNode7",
@@ -3461,6 +3998,9 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidHighLevelRewards"
+        ],
+        "nextNodes": [
+            "SolNode407"
         ]
     },
     "SolNode407": {
@@ -3478,6 +4018,9 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidHighLevelRewards"
+        ],
+        "nextNodes": [
+            "SolNode408"
         ]
     },
     "SolNode408": {
@@ -3495,7 +4038,8 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidEndlessHighLevelRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode409": {
         "name": "/Lotus/Language/Locations/VoidNode10",
@@ -3512,7 +4056,8 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidEndlessUltraLevelRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode410": {
         "name": "/Lotus/Language/Locations/VoidNode11",
@@ -3529,6 +4074,9 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidUltraLevelRewards"
+        ],
+        "nextNodes": [
+            "SolNode411"
         ]
     },
     "SolNode411": {
@@ -3547,7 +4095,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidUltraLevelRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsVoidUltra"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsVoidUltra",
+        "nextNodes": [
+            "SolNode412"
+        ]
     },
     "SolNode412": {
         "name": "/Lotus/Language/Locations/VoidNode13",
@@ -3564,6 +4115,9 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidEndlessUltraLevelRewards"
+        ],
+        "nextNodes": [
+            "SolNode409"
         ]
     },
     "SettlementNode1": {
@@ -3579,7 +4133,11 @@
         "minEnemyLevel": 10,
         "maxEnemyLevel": 12,
         "masteryExp": 157,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SettlementNode15",
+            "SettlementNode14"
+        ]
     },
     "SettlementNode3": {
         "name": "/Lotus/Language/Locations/Stickney",
@@ -3596,6 +4154,9 @@
         "masteryExp": 157,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalLowLevelRewards"
+        ],
+        "nextNodes": [
+            "SolNode400"
         ]
     },
     "SettlementNode2": {
@@ -3613,6 +4174,10 @@
         "masteryExp": 157,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
+        ],
+        "nextNodes": [
+            "SettlementNode12",
+            "SettlementNode3"
         ]
     },
     "SettlementNode12": {
@@ -3630,6 +4195,9 @@
         "masteryExp": 157,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsEasy"
+        ],
+        "nextNodes": [
+            "SettlementNode20"
         ]
     },
     "SettlementNode10": {
@@ -3647,6 +4215,11 @@
         "masteryExp": 157,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/ArchwingDefenceMissionRewardsEasy"
+        ],
+        "nextNodes": [
+            "SettlementNode20",
+            "ClanNode10",
+            "ClanNode11"
         ]
     },
     "SettlementNode15": {
@@ -3662,7 +4235,11 @@
         "minEnemyLevel": 11,
         "maxEnemyLevel": 13,
         "masteryExp": 157,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SettlementNode11",
+            "SettlementNode10"
+        ]
     },
     "SettlementNode11": {
         "name": "/Lotus/Language/Locations/Gulliver",
@@ -3679,7 +4256,8 @@
         "masteryExp": 157,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsEasy"
-        ]
+        ],
+        "nextNodes": []
     },
     "SettlementNode14": {
         "name": "/Lotus/Language/Locations/Shklovsky",
@@ -3696,6 +4274,9 @@
         "masteryExp": 157,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyLowMissionRewards"
+        ],
+        "nextNodes": [
+            "SettlementNode2"
         ]
     },
     "ClanNode10": {
@@ -3722,7 +4303,8 @@
             "xpBonus": 0.18,
             "weaponXpBonusFor": "Melee",
             "weaponXpBonusVal": 0.13
-        }
+        },
+        "nextNodes": []
     },
     "SettlementNode20": {
         "name": "/Lotus/Language/Locations/Iliad",
@@ -3739,7 +4321,8 @@
         "masteryExp": 100,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/MagRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "ClanNode11": {
         "name": "/Lotus/Language/Locations/Zeugma",
@@ -3765,7 +4348,8 @@
             "xpBonus": 0.18,
             "weaponXpBonusFor": "Rifles",
             "weaponXpBonusVal": 0.13
-        }
+        },
+        "nextNodes": []
     },
     "SolNode706": {
         "name": "/Lotus/Language/InfestedMicroplanet/SolarMapDeimosNodeB",
@@ -3782,6 +4366,9 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
+        ],
+        "nextNodes": [
+            "SolNode708"
         ]
     },
     "SolNode707": {
@@ -3799,6 +4386,9 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DerelictDefenseRewards"
+        ],
+        "nextNodes": [
+            "SolNode712"
         ]
     },
     "SolNode708": {
@@ -3814,7 +4404,11 @@
         "minEnemyLevel": 13,
         "maxEnemyLevel": 15,
         "masteryExp": 0,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode229",
+            "SolNode710"
+        ]
     },
     "SolNode709": {
         "name": "/Lotus/Language/InfestedMicroplanet/SolarMapDeimosNodeD",
@@ -3829,7 +4423,10 @@
         "minEnemyLevel": 15,
         "maxEnemyLevel": 17,
         "masteryExp": 0,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode712"
+        ]
     },
     "SolNode710": {
         "name": "/Lotus/Language/InfestedMicroplanet/SolarMapDeimosNodeC",
@@ -3845,7 +4442,11 @@
         "maxEnemyLevel": 16,
         "masteryExp": 0,
         "rewardManifests": [],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/OrokinDerelictSabotageRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/OrokinDerelictSabotageRewards",
+        "nextNodes": [
+            "SolNode709",
+            "SolNode707"
+        ]
     },
     "SolNode711": {
         "name": "/Lotus/Language/InfestedMicroplanet/SolarMapDeimosNodeF",
@@ -3862,6 +4463,9 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DerelictSurvivalRewards"
+        ],
+        "nextNodes": [
+            "SolNode713"
         ]
     },
     "SolNode712": {
@@ -3882,6 +4486,9 @@
         },
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/GolemMissionRewards"
+        ],
+        "nextNodes": [
+            "SolNode711"
         ]
     },
     "SolNode713": {
@@ -3900,7 +4507,8 @@
         "missionReward": {
             "credits": 7500
         },
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": []
     },
     "SolNode229": {
         "name": "/Lotus/Language/InfestedMicroplanet/SolarMapDeimosLandscapeName",
@@ -3915,7 +4523,10 @@
         "minEnemyLevel": 15,
         "maxEnemyLevel": 30,
         "masteryExp": 0,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "DeimosHub"
+        ]
     },
     "SolNode715": {
         "name": "/Lotus/Language/Entrati/SolarMapEntratiNodeA",
@@ -3933,7 +4544,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/SwarmAssassinationRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain",
+        "nextNodes": []
     },
     "SolNode716": {
         "name": "/Lotus/Language/Entrati/SolarMapEntratiNodeB",
@@ -3951,7 +4563,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/EntratiExterminateRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain",
+        "nextNodes": []
     },
     "SolNode717": {
         "name": "/Lotus/Language/Entrati/SolarMapEntratiNodeC",
@@ -3969,7 +4582,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/EntratiSurvivalRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain",
+        "nextNodes": []
     },
     "SolNode718": {
         "name": "/Lotus/Language/Entrati/SolarMapEntratiNodeD",
@@ -3987,7 +4601,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/EntratiAlchemyRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain",
+        "nextNodes": []
     },
     "SolNode719": {
         "name": "/Lotus/Language/Entrati/SolarMapEntratiNodeE",
@@ -4005,7 +4620,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/EntratiLoopDefenseRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain",
+        "nextNodes": []
     },
     "SolNode721": {
         "name": "/Lotus/Language/Entrati/SolarMapEntratiNodeF",
@@ -4023,7 +4639,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/EntratiDisruptionRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain",
+        "nextNodes": []
     },
     "SolNode300": {
         "name": "/Lotus/Language/Locations/MoonNode1",
@@ -4042,7 +4659,11 @@
         "masteryExp": 0,
         "rewardManifests": [],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsMoon",
-        "questReq": "/Lotus/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyChain",
+        "nextNodes": [
+            "SolNode304",
+            "SolNode307"
+        ]
     },
     "SolNode306": {
         "name": "/Lotus/Language/Locations/MoonNode6",
@@ -4061,6 +4682,9 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyMoonMissionRewards"
+        ],
+        "nextNodes": [
+            "SolNode308"
         ]
     },
     "SolNode302": {
@@ -4078,6 +4702,9 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalHighLevelRewards"
+        ],
+        "nextNodes": [
+            "SolNode306"
         ]
     },
     "SolNode305": {
@@ -4095,6 +4722,9 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsHard"
+        ],
+        "nextNodes": [
+            "SolNode308"
         ]
     },
     "SolNode304": {
@@ -4112,6 +4742,9 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
+        ],
+        "nextNodes": [
+            "SolNode301"
         ]
     },
     "SolNode301": {
@@ -4127,7 +4760,11 @@
         "minEnemyLevel": 25,
         "maxEnemyLevel": 30,
         "masteryExp": 0,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode305",
+            "SolNode309"
+        ]
     },
     "SolNode307": {
         "name": "/Lotus/Language/Locations/MoonNode7",
@@ -4144,6 +4781,9 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsHard"
+        ],
+        "nextNodes": [
+            "SolNode302"
         ]
     },
     "SolNode308": {
@@ -4162,7 +4802,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionLuaRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyChain",
+        "nextNodes": []
     },
     "SolNode309": {
         "name": "/Lotus/Language/Locations/LowerCircle",
@@ -4180,6 +4821,9 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidEclipseRewards/VoidEclipseEasyRewards",
             "/Lotus/Types/Game/MissionDecks/VoidEclipseRewards/VoidEclipseEasyExtraRewards"
+        ],
+        "nextNodes": [
+            "SolNode310"
         ]
     },
     "SolNode310": {
@@ -4198,7 +4842,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidEclipseRewards/VoidEclipseHardRewards",
             "/Lotus/Types/Game/MissionDecks/VoidEclipseRewards/VoidEclipseHardExtraRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode741": {
         "name": "/Lotus/Language/Locations/FortressNodeA",
@@ -4213,7 +4858,11 @@
         "minEnemyLevel": 29,
         "maxEnemyLevel": 31,
         "masteryExp": 0,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode743",
+            "SolNode742"
+        ]
     },
     "SolNode742": {
         "name": "/Lotus/Language/Locations/FortressNodeB",
@@ -4230,6 +4879,9 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsHard"
+        ],
+        "nextNodes": [
+            "SolNode747"
         ]
     },
     "SolNode743": {
@@ -4245,7 +4897,10 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 32,
         "masteryExp": 0,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode748"
+        ]
     },
     "SolNode744": {
         "name": "/Lotus/Language/Locations/FortressNodeD",
@@ -4262,7 +4917,8 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/QueenHighLevelRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode745": {
         "name": "/Lotus/Language/Locations/FortressNodeE",
@@ -4279,7 +4935,8 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionFortressRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode746": {
         "name": "/Lotus/Language/Locations/FortressNodeF",
@@ -4296,7 +4953,10 @@
         "masteryExp": 0,
         "rewardManifests": [],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsFortress",
-        "questReq": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyChain",
+        "nextNodes": [
+            "SolNode741"
+        ]
     },
     "SolNode747": {
         "name": "/Lotus/Language/Locations/FortressNodeG",
@@ -4313,6 +4973,9 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/QueensSpyHighMissionRewards"
+        ],
+        "nextNodes": [
+            "SolNode744"
         ]
     },
     "SolNode748": {
@@ -4330,6 +4993,9 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsHard"
+        ],
+        "nextNodes": [
+            "SolNode745"
         ]
     },
     "SolNode230": {
@@ -4348,7 +5014,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/VoidFloodRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain",
+        "nextNodes": []
     },
     "SolNode231": {
         "name": "/Lotus/Language/Zariman/ZarimanNodeB",
@@ -4366,7 +5033,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/ZarimanExterminateRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain",
+        "nextNodes": []
     },
     "SolNode232": {
         "name": "/Lotus/Language/Zariman/ZarimanNodeC",
@@ -4384,7 +5052,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/VoidCascadeRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain",
+        "nextNodes": []
     },
     "SolNode233": {
         "name": "/Lotus/Language/Zariman/ZarimanNodeD",
@@ -4402,7 +5071,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/VoidArmageddonRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain",
+        "nextNodes": []
     },
     "SolNode235": {
         "name": "/Lotus/Language/Zariman/ZarimanNodeE",
@@ -4420,7 +5090,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/ZarimanMobileDefenseRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain",
+        "nextNodes": []
     },
     "SolNode236": {
         "name": "/Lotus/Language/Duviri/MapNodeFull",
@@ -4438,7 +5109,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DuviriEncounterRewards/DuviriResourceRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestKeyChain",
+        "nextNodes": []
     },
     "SolNode237": {
         "name": "/Lotus/Language/Duviri/MapNodeStory",
@@ -4456,7 +5128,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DuviriEncounterRewards/DuviriResourceRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestKeyChain",
+        "nextNodes": []
     },
     "SolNode238": {
         "name": "/Lotus/Language/Duviri/MapNodeEndless",
@@ -4474,7 +5147,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DuviriEncounterRewards/DuviriCircuitResourceRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestKeyChain",
+        "nextNodes": []
     },
     "SolNode850": {
         "name": "/Lotus/Language/1999/1999NodeA",
@@ -4492,7 +5166,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/EndlessCaptureRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain",
+        "nextNodes": []
     },
     "SolNode851": {
         "name": "/Lotus/Language/1999/1999NodeB",
@@ -4510,7 +5185,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/ScaldraSurvivalRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain",
+        "nextNodes": []
     },
     "SolNode852": {
         "name": "/Lotus/Language/1999/1999NodeC",
@@ -4528,7 +5204,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/InfestedSurvivalRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain",
+        "nextNodes": []
     },
     "SolNode853": {
         "name": "/Lotus/Language/1999/1999NodeD",
@@ -4547,7 +5224,8 @@
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/EscalatingExterminateRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/1999MissionRewards/PvPvEArcaneRewards",
-        "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain",
+        "nextNodes": []
     },
     "SolNode854": {
         "name": "/Lotus/Language/1999/1999NodeE",
@@ -4566,7 +5244,8 @@
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/EscalatingExterminateRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/1999MissionRewards/PvPvEArcaneRewards",
-        "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain",
+        "nextNodes": []
     },
     "SolNode855": {
         "name": "/Lotus/Language/1999/1999NodeF",
@@ -4584,7 +5263,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/PvPvEVsAiRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain",
+        "nextNodes": []
     },
     "SolNode856": {
         "name": "/Lotus/Language/1999/1999NodeG",
@@ -4602,7 +5282,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/TankAssassinateRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain",
+        "nextNodes": []
     },
     "SolNode857": {
         "name": "/Lotus/Language/1999/1999NodeH",
@@ -4620,7 +5301,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/PvPvEVsAiRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain",
+        "nextNodes": []
     },
     "SolNode858": {
         "name": "/Lotus/Language/1999Echoes/1999NodeI",
@@ -4638,7 +5320,8 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/DefenseRewards"
         ],
-        "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain",
+        "nextNodes": []
     },
     "SolNode801": {
         "name": "/Lotus/Language/Onslaught/SanctuaryOnslaught",
@@ -4655,6 +5338,7 @@
             "/Lotus/Types/Game/MissionDecks/EndlessExterminationRewards/EndlessExterminationRewardsEasy"
         ],
         "questReq": "/Lotus/Types/Keys/DragonQuest/DragonQuestKeyChain",
+        "nextNodes": [],
         "hidden": true
     },
     "SolNode802": {
@@ -4672,6 +5356,7 @@
             "/Lotus/Types/Game/MissionDecks/EndlessExterminationRewards/EndlessExterminationRewardsHard"
         ],
         "questReq": "/Lotus/Types/Keys/DragonQuest/DragonQuestKeyChain",
+        "nextNodes": [],
         "hidden": true
     },
     "PvpNode0": {
@@ -4688,6 +5373,7 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/PVPMissionRewards/CTFRewards"
         ],
+        "nextNodes": [],
         "hidden": true
     },
     "PvpNode9": {
@@ -4704,6 +5390,7 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/PVPMissionRewards/TDMRewards"
         ],
+        "nextNodes": [],
         "hidden": true
     },
     "PvpNode10": {
@@ -4718,6 +5405,7 @@
         "maxEnemyLevel": 0,
         "masteryExp": 0,
         "rewardManifests": [],
+        "nextNodes": [],
         "hidden": true
     },
     "MercuryHUB": {
@@ -4731,7 +5419,8 @@
         "minEnemyLevel": 0,
         "maxEnemyLevel": 0,
         "masteryExp": 0,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": []
     },
     "SolarisUnitedHub1": {
         "name": "/Lotus/Language/Locations/SolarisUnitedHub",
@@ -4744,7 +5433,10 @@
         "minEnemyLevel": 0,
         "maxEnemyLevel": 0,
         "masteryExp": 0,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode129"
+        ]
     },
     "VenusToMercuryJunction": {
         "name": "/Lotus/Language/Locations/MercuryJunction",
@@ -4771,7 +5463,12 @@
             "/Lotus/Types/Challenges/StarChart/VenusToMercury/VMKillBossJackal",
             "/Lotus/Types/Challenges/StarChart/VenusToMercury/VMStartCraftingRhino"
         ],
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode103",
+            "SolNode226",
+            "MercuryHUB"
+        ]
     },
     "CetusHub4": {
         "name": "/Lotus/Language/Locations/CetusHub",
@@ -4784,7 +5481,11 @@
         "minEnemyLevel": 0,
         "maxEnemyLevel": 0,
         "masteryExp": 0,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode228",
+            "SolNode451"
+        ]
     },
     "EarthToVenusJunction": {
         "name": "/Lotus/Language/Locations/VenusJunction",
@@ -4809,7 +5510,10 @@
             "/Lotus/Types/Challenges/StarChart/EarthToVenus/EVUpgradeDreamersBondMod",
             "/Lotus/Types/Challenges/StarChart/EarthToVenus/EVStartCraftingTaxon"
         ],
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode128"
+        ]
     },
     "EarthToMarsJunction": {
         "name": "/Lotus/Language/Locations/MarsJunction",
@@ -4836,7 +5540,8 @@
             "/Lotus/Types/Challenges/StarChart/EarthToMars/EMBoltorOnly",
             "/Lotus/Types/Challenges/StarChart/EarthToMars/EMPurchaseWeapon"
         ],
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": []
     },
     "EarthHUB": {
         "name": "/Lotus/Language/Locations/RelayStationEarth",
@@ -4849,7 +5554,8 @@
         "minEnemyLevel": 0,
         "maxEnemyLevel": 0,
         "masteryExp": 0,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": []
     },
     "TradeHUB1": {
         "name": "/Lotus/Language/Locations/RelayStationTrade",
@@ -4862,7 +5568,8 @@
         "minEnemyLevel": 0,
         "maxEnemyLevel": 0,
         "masteryExp": 0,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": []
     },
     "MarsToCeresJunction": {
         "name": "/Lotus/Language/Locations/CeresJunction",
@@ -4887,7 +5594,10 @@
             "/Lotus/Types/Challenges/StarChart/MarsToCeres/MCTradeTreasure",
             "/Lotus/Types/Challenges/StarChart/MarsToCeres/MCPledgeSyndicate"
         ],
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode131"
+        ]
     },
     "MarsToPhobosJunction": {
         "name": "/Lotus/Language/Locations/PhobosJunction",
@@ -4913,7 +5623,10 @@
             "/Lotus/Types/Challenges/StarChart/MarsToPhobos/MPHeadshotKills",
             "/Lotus/Types/Challenges/StarChart/MarsToPhobos/MPVisitMaroo"
         ],
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SettlementNode1"
+        ]
     },
     "DeimosHub": {
         "name": "/Lotus/Language/InfestedMicroplanet/SolarMapDeimosHubName",
@@ -4926,7 +5639,10 @@
         "minEnemyLevel": 0,
         "maxEnemyLevel": 0,
         "masteryExp": 0,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "EntratiLabHub"
+        ]
     },
     "EntratiLabHub": {
         "name": "/Lotus/Language/Entrati/SolarMapEntratiLabsShortcut",
@@ -4939,7 +5655,16 @@
         "minEnemyLevel": 0,
         "maxEnemyLevel": 0,
         "masteryExp": 0,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode715",
+            "SolNode716",
+            "SolNode717",
+            "SolNode718",
+            "SolNode719",
+            "SolNode720",
+            "SolNode721"
+        ]
     },
     "SolNode720": {
         "name": "/Lotus/Language/Entrati/SolarMapEntratiVaultsNode",
@@ -4953,6 +5678,7 @@
         "maxEnemyLevel": 240,
         "masteryExp": 0,
         "rewardManifests": [],
+        "nextNodes": [],
         "hidden": true
     },
     "CeresToJupiterJunction": {
@@ -4978,7 +5704,10 @@
             "/Lotus/Types/Challenges/StarChart/DeimosToJupiter/DJPlayedParkourTutorial",
             "/Lotus/Types/Challenges/StarChart/DeimosToJupiter/DJUpgradeRedirectionToRankFive"
         ],
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode100"
+        ]
     },
     "JupiterToEuropaJunction": {
         "name": "/Lotus/Language/Locations/EuropaJunction",
@@ -5005,7 +5734,10 @@
             "/Lotus/Types/Challenges/StarChart/JupiterToEuropa/JEStartCraftingForma",
             "/Lotus/Types/Challenges/StarChart/JupiterToEuropa/JECompleteNightmare"
         ],
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode209"
+        ]
     },
     "JupiterToSaturnJunction": {
         "name": "/Lotus/Language/Locations/SaturnJunction",
@@ -5031,7 +5763,12 @@
             "/Lotus/Types/Challenges/StarChart/JupiterToSaturn/JSCodexScan",
             "/Lotus/Types/Challenges/StarChart/JupiterToSaturn/JSDissolveFiveMods"
         ],
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode70",
+            "SolNode67",
+            "SaturnHUB"
+        ]
     },
     "SaturnToUranusJunction": {
         "name": "/Lotus/Language/Locations/UranusJunction",
@@ -5059,7 +5796,10 @@
             "/Lotus/Types/Challenges/StarChart/SaturnToUranus/SUTitanSurvival",
             "/Lotus/Types/Challenges/StarChart/SaturnToUranus/SUTransmuteMod"
         ],
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode34"
+        ]
     },
     "SaturnHUB": {
         "name": "/Lotus/Language/Locations/RelayStationSaturn",
@@ -5072,7 +5812,8 @@
         "minEnemyLevel": 0,
         "maxEnemyLevel": 0,
         "masteryExp": 0,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": []
     },
     "SolNode723": {
         "name": "/Lotus/Language/JadeShadows/SolarMapAscensionNodeA",
@@ -5091,6 +5832,7 @@
             "/Lotus/Types/Game/MissionDecks/AscensionMissionRewards/AscensionRewards"
         ],
         "questReq": "/Lotus/Types/Keys/JadeShadows/JadeShadowQuestKeyChain",
+        "nextNodes": [],
         "hidden": true
     },
     "UranusToNeptuneJunction": {
@@ -5117,7 +5859,10 @@
             "/Lotus/Types/Challenges/StarChart/UranusToNeptune/UNMeleeOnly",
             "/Lotus/Types/Challenges/StarChart/UranusToNeptune/UNCompleteCaliban"
         ],
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode1"
+        ]
     },
     "SolNode761": {
         "name": "/Lotus/Language/GameModes/IndexLowRisk",
@@ -5135,6 +5880,7 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CorpusArenaWagerRewardsHard"
         ],
+        "nextNodes": [],
         "hidden": true
     },
     "SolNode762": {
@@ -5153,6 +5899,7 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CorpusArenaWagerRewardsHard"
         ],
+        "nextNodes": [],
         "hidden": true
     },
     "SolNode763": {
@@ -5171,6 +5918,7 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CorpusArenaWagerRewardsHard"
         ],
+        "nextNodes": [],
         "hidden": true
     },
     "EventNode763": {
@@ -5188,7 +5936,8 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CorpusArenaWagerRewardsHard"
-        ]
+        ],
+        "nextNodes": []
     },
     "NeptuneToPlutoJunction": {
         "name": "/Lotus/Language/Locations/PlutoJunction",
@@ -5217,7 +5966,12 @@
             "/Lotus/Types/Challenges/StarChart/NeptuneToPluto/NPCompleteFactionInvasionMissionGrineer",
             "/Lotus/Types/Challenges/StarChart/NeptuneToPluto/NPCompleteFactionInvasionMissionInfested"
         ],
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode76",
+            "SolNode38",
+            "PlutoHUB"
+        ]
     },
     "PlutoToErisJunction": {
         "name": "/Lotus/Language/Locations/ErisJunction",
@@ -5243,7 +5997,10 @@
             "/Lotus/Types/Challenges/StarChart/PlutoToEris/PEFindOrokinVault",
             "/Lotus/Types/Challenges/StarChart/PlutoToEris/PETheWarWithin"
         ],
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode175"
+        ]
     },
     "ErisToSednaJunction": {
         "name": "/Lotus/Language/Locations/SednaJunction",
@@ -5269,7 +6026,10 @@
             "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESGetKills",
             "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESKillBossAmbulas"
         ],
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": [
+            "SolNode189"
+        ]
     },
     "PlutoHUB": {
         "name": "/Lotus/Language/Locations/RelayStationPluto",
@@ -5282,7 +6042,8 @@
         "minEnemyLevel": 0,
         "maxEnemyLevel": 0,
         "masteryExp": 0,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": []
     },
     "SolNode701": {
         "name": "/Lotus/Language/Items/GolemAssassinateKey",
@@ -5299,7 +6060,8 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/AtlasRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "SolNode705": {
         "name": "/Lotus/Language/Items/InfestedAladAssassinateKey",
@@ -5316,7 +6078,8 @@
         "masteryExp": 0,
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/CowgirlRewards"
-        ]
+        ],
+        "nextNodes": []
     },
     "ZarimanHub": {
         "name": "/Lotus/Language/Zariman/ZarimanHubName",
@@ -5330,7 +6093,14 @@
         "maxEnemyLevel": 0,
         "masteryExp": 0,
         "rewardManifests": [],
-        "questReq": "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain",
+        "nextNodes": [
+            "SolNode230",
+            "SolNode231",
+            "SolNode232",
+            "SolNode233",
+            "SolNode235"
+        ]
     },
     "SolNode234": {
         "name": "/Lotus/Language/Zariman/ZarimanApartment",
@@ -5343,7 +6113,8 @@
         "minEnemyLevel": 0,
         "maxEnemyLevel": 0,
         "masteryExp": 0,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": []
     },
     "1999Hub": {
         "name": "/Lotus/Language/1999/1999HubName",
@@ -5357,7 +6128,8 @@
         "maxEnemyLevel": 0,
         "masteryExp": 0,
         "rewardManifests": [],
-        "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain",
+        "nextNodes": []
     },
     "CrewBattleNode559": {
         "name": "/Lotus/Language/Locations/NemesisShowdownNodeInfested",
@@ -5371,6 +6143,7 @@
         "maxEnemyLevel": 100,
         "masteryExp": 0,
         "rewardManifests": [],
+        "nextNodes": [],
         "hidden": true
     },
     "CrewBattleNode556": {
@@ -5386,7 +6159,8 @@
         "minEnemyLevel": 1,
         "maxEnemyLevel": 1,
         "masteryExp": 0,
-        "rewardManifests": []
+        "rewardManifests": [],
+        "nextNodes": []
     },
     "CrewBattleNode502": {
         "name": "/Lotus/Language/Locations/EarthCrewBattleNode02",
@@ -5408,7 +6182,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/EarthRailjackRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackEarthCacheRewards",
-        "questReq": "/Lotus/Types/Keys/RailJackBuildQuest/RailjackBuildQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/RailJackBuildQuest/RailjackBuildQuestKeyChain",
+        "nextNodes": [
+            "CrewBattleNode509"
+        ]
     },
     "CrewBattleNode509": {
         "name": "/Lotus/Language/Locations/EarthCrewBattleNode09",
@@ -5429,7 +6206,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/EarthRailjackRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackEarthCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackEarthCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode518"
+        ]
     },
     "CrewBattleNode518": {
         "name": "/Lotus/Language/Locations/EarthCrewBattleNode18",
@@ -5450,7 +6230,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/EarthRailjackRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackEarthCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackEarthCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode519"
+        ]
     },
     "CrewBattleNode519": {
         "name": "/Lotus/Language/Locations/EarthCrewBattleNode19",
@@ -5471,7 +6254,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/EarthRailjackRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackEarthCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackEarthCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode522"
+        ]
     },
     "CrewBattleNode522": {
         "name": "/Lotus/Language/Locations/EarthCrewBattleNode22",
@@ -5492,7 +6278,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/EarthRailjackRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackEarthCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackEarthCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode533"
+        ]
     },
     "CrewBattleNode511": {
         "name": "/Lotus/Language/Locations/CrewBattleNode511",
@@ -5514,7 +6303,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusVolatileRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards",
-        "questReq": "/Lotus/Types/Keys/RailJackBuildQuest/RailjackBuildQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/RailJackBuildQuest/RailjackBuildQuestKeyChain",
+        "nextNodes": [
+            "CrewBattleNode512"
+        ]
     },
     "CrewBattleNode513": {
         "name": "/Lotus/Language/Locations/CrewBattleNode513",
@@ -5536,7 +6328,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusOrphixRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards",
-        "questReq": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyChain"
+        "questReq": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyChain",
+        "nextNodes": [
+            "CrewBattleNode515"
+        ]
     },
     "CrewBattleNode515": {
         "name": "/Lotus/Language/Locations/CrewBattleNode515",
@@ -5557,7 +6352,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusSurvivalRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode514"
+        ]
     },
     "CrewBattleNode514": {
         "name": "/Lotus/Language/Locations/CrewBattleNode514",
@@ -5578,7 +6376,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusDefenseRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode533"
+        ]
     },
     "CrewBattleNode503": {
         "name": "/Lotus/Language/Locations/CrewBattleNode503",
@@ -5599,7 +6400,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusExterminateRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode511"
+        ]
     },
     "CrewBattleNode512": {
         "name": "/Lotus/Language/Locations/CrewBattleNode512",
@@ -5620,7 +6424,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusSpyVaultsRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode513"
+        ]
     },
     "CrewBattleNode557": {
         "name": "/Lotus/Language/Locations/NemesisShowdownNodeGrineer",
@@ -5639,6 +6446,7 @@
             "credits": 70000
         },
         "rewardManifests": [],
+        "nextNodes": [],
         "hidden": true
     },
     "CrewBattleNode501": {
@@ -5660,7 +6468,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/SaturnRailjackRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackSaturnCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackSaturnCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode534"
+        ]
     },
     "CrewBattleNode534": {
         "name": "/Lotus/Language/Locations/SaturnCrewBattleNode34",
@@ -5681,7 +6492,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/SaturnRailjackRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackSaturnCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackSaturnCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode535"
+        ]
     },
     "CrewBattleNode533": {
         "name": "/Lotus/Language/Locations/SaturnCrewBattleNode33",
@@ -5702,7 +6516,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/SaturnRailjackRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackSaturnCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackSaturnCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode501"
+        ]
     },
     "CrewBattleNode535": {
         "name": "/Lotus/Language/Locations/SaturnCrewBattleNode35",
@@ -5723,7 +6540,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/SaturnRailjackRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackSaturnCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackSaturnCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode530"
+        ]
     },
     "CrewBattleNode530": {
         "name": "/Lotus/Language/Locations/SaturnCrewBattleNode30",
@@ -5744,7 +6564,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/SaturnRailjackRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackSaturnCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackSaturnCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode504"
+        ]
     },
     "CrewBattleNode558": {
         "name": "/Lotus/Language/Locations/NemesisShowdownNodeCorpus",
@@ -5760,6 +6583,7 @@
         "maxEnemyLevel": 70,
         "masteryExp": 0,
         "rewardManifests": [],
+        "nextNodes": [],
         "hidden": true
     },
     "CrewBattleNode504": {
@@ -5781,7 +6605,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneDefenseRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode516"
+        ]
     },
     "CrewBattleNode516": {
         "name": "/Lotus/Language/Locations/CrewBattleNode516",
@@ -5802,7 +6629,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneExterminateRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode521"
+        ]
     },
     "CrewBattleNode523": {
         "name": "/Lotus/Language/Locations/CrewBattleNode523",
@@ -5823,7 +6653,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneOrphixRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode525"
+        ]
     },
     "CrewBattleNode525": {
         "name": "/Lotus/Language/Locations/CrewBattleNode525",
@@ -5844,7 +6677,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneSpyVaultsRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode524"
+        ]
     },
     "CrewBattleNode521": {
         "name": "/Lotus/Language/Locations/CrewBattleNode521",
@@ -5865,7 +6701,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneSurvivalRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode523"
+        ]
     },
     "CrewBattleNode524": {
         "name": "/Lotus/Language/Locations/CrewBattleNode524",
@@ -5886,7 +6725,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneVolatileRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode526"
+        ]
     },
     "CrewBattleNode526": {
         "name": "/Lotus/Language/Locations/CrewBattleNode526",
@@ -5907,7 +6749,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoOrphixRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode527"
+        ]
     },
     "CrewBattleNode527": {
         "name": "/Lotus/Language/Locations/CrewBattleNode527",
@@ -5928,7 +6773,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoExterminateRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode528"
+        ]
     },
     "CrewBattleNode528": {
         "name": "/Lotus/Language/Locations/CrewBattleNode528",
@@ -5949,7 +6797,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoDefenseRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode531"
+        ]
     },
     "CrewBattleNode531": {
         "name": "/Lotus/Language/Locations/CrewBattleNode531",
@@ -5970,7 +6821,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoSurvivalRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode529"
+        ]
     },
     "CrewBattleNode529": {
         "name": "/Lotus/Language/Locations/CrewBattleNode529",
@@ -5991,7 +6845,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoVolatileRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode536"
+        ]
     },
     "CrewBattleNode536": {
         "name": "/Lotus/Language/Locations/CrewBattleNode536",
@@ -6012,7 +6869,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoSpyVaultsRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode550"
+        ]
     },
     "CrewBattleNode550": {
         "name": "/Lotus/Language/Locations/DeepSpaceCrewBattleNode50",
@@ -6033,7 +6893,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/DeepSpaceSentientRailjackRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackDeepSpaceCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackDeepSpaceCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode553"
+        ]
     },
     "CrewBattleNode555": {
         "name": "/Lotus/Language/Locations/DeepSpaceCrewBattleNode55",
@@ -6054,7 +6917,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/DeepSpaceSentientRailjackRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackDeepSpaceCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackDeepSpaceCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode538"
+        ]
     },
     "CrewBattleNode554": {
         "name": "/Lotus/Language/Locations/DeepSpaceCrewBattleNode54",
@@ -6075,7 +6941,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/DeepSpaceSentientRailjackRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackDeepSpaceCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackDeepSpaceCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode555"
+        ]
     },
     "CrewBattleNode553": {
         "name": "/Lotus/Language/Locations/DeepSpaceCrewBattleNode53",
@@ -6096,7 +6965,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/DeepSpaceSentientRailjackRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackDeepSpaceCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackDeepSpaceCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode554"
+        ]
     },
     "CrewBattleNode538": {
         "name": "/Lotus/Language/Locations/CrewBattleNode538",
@@ -6117,7 +6989,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceExterminateRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode539"
+        ]
     },
     "CrewBattleNode539": {
         "name": "/Lotus/Language/Locations/CrewBattleNode539",
@@ -6138,7 +7013,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceVolatileRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode540"
+        ]
     },
     "CrewBattleNode540": {
         "name": "/Lotus/Language/Locations/CrewBattleNode540",
@@ -6159,7 +7037,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceDefenseRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode541"
+        ]
     },
     "CrewBattleNode541": {
         "name": "/Lotus/Language/Locations/CrewBattleNode541",
@@ -6180,7 +7061,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceOrphixRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode542"
+        ]
     },
     "CrewBattleNode542": {
         "name": "/Lotus/Language/Locations/CrewBattleNode542",
@@ -6201,7 +7085,10 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceSurvivalRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards",
+        "nextNodes": [
+            "CrewBattleNode543"
+        ]
     },
     "CrewBattleNode543": {
         "name": "/Lotus/Language/Locations/CrewBattleNode543",
@@ -6222,6 +7109,7 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceSpyVaultRewards"
         ],
-        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards"
+        "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards",
+        "nextNodes": []
     }
 }
