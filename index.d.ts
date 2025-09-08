@@ -38,6 +38,7 @@ export declare const ExportImages: Record<string, IImage>;
 export declare const ExportIntrinsics: Record<string, IIntrinsic>;
 export declare const ExportKeys: Record<string, IKey>;
 export declare const ExportMisc: IExportMisc;
+export declare const ExportMissionTypes: Record<TMissionType, IMissionType>;
 export declare const ExportModSet: Record<string, IModSet>;
 export declare const ExportNightwave: IExportNightwave;
 export declare const ExportRailjackWeapons: Record<string, IRailjackWeapon>;
@@ -58,6 +59,7 @@ export declare const ExportWeapons: Record<string, IWeapon>;
 
 /** @deprecated use ExportFactions */
 export declare const eFaction: IEnumerator[];
+/** @deprecated use ExportMissionTypes */
 export declare const eMissionType: IEnumerator[];
 
 export type TRarity = "COMMON" | "UNCOMMON" | "RARE" | "LEGENDARY";
@@ -486,6 +488,57 @@ export interface IExportMisc {
     creditBundles: Record<string, number>;
 }
 
+export type TMissionType =
+    | "MT_ASSASSINATION"
+    | "MT_EXTERMINATION"
+    | "MT_SURVIVAL"
+    | "MT_RESCUE"
+    | "MT_SABOTAGE"
+    | "MT_CAPTURE"
+    | "MT_COUNTER_INTEL"
+    | "MT_INTEL"
+    | "MT_DEFENSE"
+    | "MT_MOBILE_DEFENSE"
+    | "MT_PVP"
+    | "MT_MASTERY"
+    | "MT_RECOVERY"
+    | "MT_TERRITORY"
+    | "MT_RETRIEVAL"
+    | "MT_HIVE"
+    | "MT_SALVAGE"
+    | "MT_EXCAVATE"
+    | "MT_RAID"
+    | "MT_PURGE"
+    | "MT_GENERIC"
+    | "MT_PURIFY"
+    | "MT_ARENA"
+    | "MT_JUNCTION"
+    | "MT_PURSUIT"
+    | "MT_RACE"
+    | "MT_ASSAULT"
+    | "MT_EVACUATION"
+    | "MT_LANDSCAPE"
+    | "MT_RESOURCE_THEFT"
+    | "MT_ENDLESS_EXTERMINATION"
+    | "MT_ENDLESS_DUVIRI"
+    | "MT_RAILJACK"
+    | "MT_ARTIFACT"
+    | "MT_CORRUPTION"
+    | "MT_VOID_CASCADE"
+    | "MT_ARMAGEDDON"
+    | "MT_VAULTS"
+    | "MT_ALCHEMY"
+    | "MT_ASCENSION"
+    | "MT_ENDLESS_CAPTURE"
+    | "MT_OFFERING"
+    | "MT_PVPVE"
+    ;
+
+export interface IMissionType {
+    index: number;
+    name?: string;
+}
+
 export interface IModSet {
     description:      string;
     icon:             string;
@@ -574,8 +627,10 @@ export interface IRegion {
     systemName:             string; // may differ from ExportSystems[systemIndex].name for railjack
     nodeType:               number;
     masteryReq:             number;
+    missionType:            TMissionType;
+    /** @deprecated use ExportMissionTypes[missionType].index */
     missionIndex:           number;
-    missionName:            string; // may differ from eMission[missionIndex].name for dual defense, conjunction survival
+    missionName:            string; // may differ from eMission[missionIndex].name for dual defense, conjunction survival, railjack
     faction?:               TFaction;
     /** @deprecated use ExportFactions[faction].index */
     factionIndex?:          number;

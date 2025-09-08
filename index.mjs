@@ -40,6 +40,7 @@ export const {
   ExportIntrinsics,
   ExportKeys,
   ExportMisc,
+  ExportMissionTypes,
   ExportModSet,
   ExportNightwave,
   ExportRailjackWeapons,
