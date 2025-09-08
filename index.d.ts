@@ -97,7 +97,8 @@ export interface IArcane {
     rarity:             TRarity;
     fusionLimit:        number;
     distillPointValue?: number;
-    isFrivolous?:       boolean; // deprecated: there's no longer any arcane that has this field
+    /** @deprecated use excludeFromCodex */
+    isFrivolous?:       boolean;
 }
 
 export interface IAvionic {
@@ -256,7 +257,8 @@ export interface IDrone {
     durability:           number;
     repairRate:           number;
     codexSecret:          boolean;
-    capacityMultiplier:   number[]; // deprecated
+    /** @deprecated use capacityMultipliers */
+    capacityMultiplier:   number[];
     capacityMultipliers:  Record<TRarity, number>;
     probabilities:        Record<TRarity, number>;
 }
