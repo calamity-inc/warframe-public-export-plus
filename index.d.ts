@@ -251,6 +251,7 @@ export interface IDojoRoom extends IDojoBuild {
 
 export interface IDojoDeco extends IDojoBuild {
     capacityCost?: number;
+    requiredInVault?: boolean;
 }
 
 export interface IDrone {
