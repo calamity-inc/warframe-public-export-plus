@@ -154,6 +154,8 @@ export interface IBundle {
     components:        {
         typeName:         string;
         purchaseQuantity: number;
+        durabilityDays:   number; // only relevant for boosters
+        /** @deprecated use durabilityDays */
         durability:       TRarity;
         giveMaxRank?:     boolean;
     }[];
@@ -482,6 +484,7 @@ export interface IHelminthSnack {
 
 export interface IExportMisc {
     uniqueLevelCaps: Record<string, number>;
+    /** @deprecated */
     boosterDurations: Record<TRarity, number>;
     /** @deprecated */
     npcKillRewardMultiplier: number;
