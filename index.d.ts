@@ -207,6 +207,10 @@ export interface IExportDojoRecipes {
         name: string;
         colour: IColour;
     }>;
+    backdrops: Record<string, {
+        name: string;
+        icon: string;
+    }>;
 }
 
 export interface IDojoRecipe {
