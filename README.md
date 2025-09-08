@@ -18,6 +18,9 @@ However, images shipped with the game are heavily compressed, so you should chec
 
 ## Notes
 
+### ExportArcanes
+- There's several entries with the name "Arcane Fury" and "Arcane Steadfast". These can be avoided by checking that `excludeFromCodex` is falsy.
+
 ### ExportDojoRecipes
 - This `price` (credits), `skipTimePrice` (platinum), and `ingredients` are for Moon clans. To convert these e.g. to Ghost clan values, simply divide them by 100 with a lower limit of 1.
 
