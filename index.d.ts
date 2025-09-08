@@ -556,8 +556,10 @@ export interface IRegion {
     missionIndex:           number;
     missionName:            string;
     factionIndex?:          number;
+    /** @deprecated use eFaction[factionIndex] */
     factionName?:           string;
     secondaryFactionIndex?: number;
+    /** @deprecated use eFaction[secondaryFactionIndex] */
     secondaryFactionName?:  string;
     minEnemyLevel:          number;
     maxEnemyLevel:          number;
