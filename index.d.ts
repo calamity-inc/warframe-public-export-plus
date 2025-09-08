@@ -29,6 +29,7 @@ export declare const ExportDojoRecipes: IExportDojoRecipes;
 export declare const ExportDrones: Record<string, IDrone>;
 export declare const ExportEmailItems: Record<string, IEmailItem>;
 export declare const ExportEnemies: IExportEnemies;
+export declare const ExportFactions: Record<TFaction, IFaction>;
 export declare const ExportFlavour: Record<string, IFlavourItem>;
 export declare const ExportFocusUpgrades: Record<string, IFocusUpgrade>;
 export declare const ExportFusionBundles: Record<string, IFusionBundle>;
@@ -55,6 +56,7 @@ export declare const ExportVirtuals: Record<string, IVirtual>;
 export declare const ExportWarframes: Record<string, IPowersuit>;
 export declare const ExportWeapons: Record<string, IWeapon>;
 
+/** @deprecated use ExportFactions */
 export declare const eFaction: IEnumerator[];
 export declare const eMissionType: IEnumerator[];
 
@@ -338,6 +340,25 @@ export interface IRewardPool {
     }[];
 }
 
+export type TFaction =
+    | "FC_GRINEER"
+    | "FC_CORPUS"
+    | "FC_INFESTATION"
+    | "FC_OROKIN"
+    | "FC_RED_VEIL"
+    | "FC_SENTIENT"
+    | "FC_NARMER"
+    | "FC_MITW"
+    | "FC_SCALDRA"
+    | "FC_TECHROT"
+    | "FC_DUVIRI"
+    ;
+
+export interface IFaction {
+    index: number;
+    name: string;
+}
+
 export interface IFlavourItem {
     name:              string;
     description:       string;
@@ -555,11 +576,15 @@ export interface IRegion {
     masteryReq:             number;
     missionIndex:           number;
     missionName:            string;
+    faction?:               TFaction;
+    /** @deprecated use ExportFactions[faction].index */
     factionIndex?:          number;
-    /** @deprecated use eFaction[factionIndex] */
+    /** @deprecated use ExportFactions[faction].name */
     factionName?:           string;
+    secondaryFaction?:      TFaction;
+    /** @deprecated use ExportFactions[secondaryFaction].index */
     secondaryFactionIndex?: number;
-    /** @deprecated use eFaction[secondaryFactionIndex] */
+    /** @deprecated use ExportFactions[secondaryFaction].name */
     secondaryFactionName?:  string;
     minEnemyLevel:          number;
     maxEnemyLevel:          number;
@@ -937,7 +962,7 @@ export interface IDamageTable {
 }
 
 export type TProcType =
-    "PT_KNOCKBACK" // DT_IMPACT
+    | "PT_KNOCKBACK" // DT_IMPACT
     | "PT_FRAILTY" // DT_PUNCTURE
     | "PT_BLEEDING" // DT_SLASH
     | "PT_IMMOLATION" // DT_FIRE

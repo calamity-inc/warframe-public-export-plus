@@ -31,6 +31,7 @@ export const {
   ExportDrones,
   ExportEmailItems,
   ExportEnemies,
+  ExportFactions,
   ExportFlavour,
   ExportFocusUpgrades,
   ExportFusionBundles,
