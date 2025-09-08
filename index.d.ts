@@ -483,6 +483,7 @@ export interface IHelminthSnack {
 export interface IExportMisc {
     uniqueLevelCaps: Record<string, number>;
     boosterDurations: Record<TRarity, number>;
+    /** @deprecated */
     npcKillRewardMultiplier: number;
     helminthSnacks: Record<string, IHelminthSnack>;
     creditBundles: Record<string, number>;
