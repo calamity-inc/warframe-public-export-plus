@@ -203,6 +203,10 @@ export interface IExportDojoRecipes {
     }>;
     rooms: Record<string, IDojoRoom>;
     decos: Record<string, IDojoDeco>;
+    colours: Record<string, {
+        name: string;
+        colour: IColour;
+    }>;
 }
 
 export interface IDojoRecipe {
