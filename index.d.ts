@@ -571,11 +571,11 @@ export interface IRecipe {
 export interface IRegion {
     name:                   string;
     systemIndex:            number;
-    systemName:             string;
+    systemName:             string; // may differ from ExportSystems[systemIndex].name for railjack
     nodeType:               number;
     masteryReq:             number;
     missionIndex:           number;
-    missionName:            string;
+    missionName:            string; // may differ from eMission[missionIndex].name for dual defense, conjunction survival
     faction?:               TFaction;
     /** @deprecated use ExportFactions[faction].index */
     factionIndex?:          number;
