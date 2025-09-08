@@ -221,6 +221,8 @@ export interface IDojoResearch extends IDojoRecipe {
 
 export interface IDojoBuild extends IDojoRecipe {
     resultType:    string;
+    name:          string;
+    description:   string;
     icon:          string;
 }
 
