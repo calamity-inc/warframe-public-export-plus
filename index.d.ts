@@ -154,9 +154,9 @@ export interface IBundle {
     components:        {
         typeName:         string;
         purchaseQuantity: number;
-        durabilityDays:   number; // only relevant for boosters
+        durabilityDays?:  number; // for boosters
         /** @deprecated use durabilityDays */
-        durability:       TRarity;
+        durability?:      TRarity; // for boosters
         giveMaxRank?:     boolean;
     }[];
     giftingBonus?:     string;
