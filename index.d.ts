@@ -484,6 +484,7 @@ export interface IHelminthSnack {
 }
 
 export interface IExportMisc {
+    /** @deprecated check ExportWarframes and ExportWeapons for maxLevelCap */
     uniqueLevelCaps: Record<string, number>;
     /** @deprecated */
     boosterDurations: Record<TRarity, number>;
@@ -935,6 +936,7 @@ export interface IPowersuit {
     variantType:         "VT_NORMAL" | "VT_PRIME" | "VT_VARIANT";
     additionalItems?:    string[];
     nemesisUpgradeTag?:  "InnateElectricityDamage" | "InnateHeatDamage" | "InnateFreezeDamage" | "InnateToxinDamage" | "InnateMagDamage" | "InnateRadDamage" | "InnateImpactDamage";
+    maxLevelCap?:        number;
 }
 
 export interface IWeapon {
