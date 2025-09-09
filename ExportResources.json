@@ -703,7 +703,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/1999Wf/1999ResourceCommonA.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 800,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceCommonB": {
         "name": "/Lotus/Language/1999/1999ResourceCommonB",
@@ -711,7 +716,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/1999Wf/1999ResourceCommonB.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 700,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceDefense": {
         "name": "/Lotus/Language/1999/1999ResourceDefenseName",
@@ -727,7 +737,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/1999Wf/1999ResourceRareA.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+            "count": 25,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceUncommonA": {
         "name": "/Lotus/Language/1999/1999ResourceUncommonA",
@@ -735,7 +750,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/1999Wf/1999ResourceUncommonA.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+            "count": 300,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceUncommonB": {
         "name": "/Lotus/Language/1999/1999ResourceUncommonB",
@@ -743,7 +763,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/1999Wf/1999ResourceUncommonB.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+            "count": 65,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/1999Wf/Resources/HexDogTagAmir": {
         "name": "/Lotus/Language/1999/HexDogTagAmirName",
@@ -869,7 +894,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Duviri/DuviriPebble.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+            "count": 80,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartBItem": {
         "name": "/Lotus/Language/Duviri/GenericDuviriFishPartBName",
@@ -877,7 +907,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Duviri/DuviriScale.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 250,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartCItem": {
         "name": "/Lotus/Language/Duviri/GenericDuviriFishPartCName",
@@ -885,7 +920,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Duviri/DuviriFang.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+            "count": 10,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem": {
         "name": "/Lotus/Language/Duviri/DuviriDragonDropItemName",
@@ -910,7 +950,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Duviri/DuviriAnima.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+            "count": 150,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Duviri/Resource/DuviriFractalItem": {
         "name": "/Lotus/Language/Duviri/DuviriFractalItemName",
@@ -918,7 +963,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Duviri/DuviriRunicMarrow.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 75,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Duviri/Resource/DuviriKullervoDropItem": {
         "name": "/Lotus/Language/Duviri/DuviriKullervoDropItemName",
@@ -926,7 +976,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Duviri/DuviriKullervoDropItem.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 20,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Duviri/Resource/DuviriMushroomItem": {
         "name": "/Lotus/Language/Duviri/DuviriMushroomItemName",
@@ -934,7 +989,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Duviri/DuviriPlantExtractMushroom.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 35,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Duviri/Resource/DuviriMushroomSeed": {
         "name": "/Lotus/Language/Duviri/DuviriMushroomSeedName",
@@ -951,7 +1011,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Duviri/DuviriPlantExtractA.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 150,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemB": {
         "name": "/Lotus/Language/Duviri/DuviriPlantBContainerName",
@@ -959,7 +1024,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Duviri/DuviriPlantExtractB.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 35,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemC": {
         "name": "/Lotus/Language/Duviri/DuviriPlantCContainerName",
@@ -967,7 +1037,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Duviri/DuviriPlantExtractC.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 35,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemD": {
         "name": "/Lotus/Language/Duviri/DuviriPlantDContainerName",
@@ -975,7 +1050,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Duviri/DuviriPlantExtractD.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 35,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemE": {
         "name": "/Lotus/Language/Duviri/DuviriPlantEItemName",
@@ -983,7 +1063,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Duviri/DuviriPlantExtractE.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 35,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemF": {
         "name": "/Lotus/Language/Duviri/DuviriPlantFContainerName",
@@ -991,7 +1076,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Duviri/DuviriPlantExtractF.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 75,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemG": {
         "name": "/Lotus/Language/Duviri/DuviriPlantGContainerName",
@@ -999,7 +1089,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Duviri/DuviriPlantExtractG.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 35,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Duviri/Resource/DuviriProcessedItem": {
         "name": "/Lotus/Language/Duviri/DuviriProcessedItemName",
@@ -1007,7 +1102,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Duviri/DuviriPearl.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+            "count": 200,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPuzzleItem": {
         "name": "/Lotus/Language/Duviri/DuviriPuzzleCurrency",
@@ -1015,7 +1115,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Duviri/DuviriKey.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 7,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Duviri/Resource/DuviriRockItem": {
         "name": "/Lotus/Language/Duviri/DuviriRockItemName",
@@ -1023,7 +1128,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Duviri/DuviriAggristone.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 350,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemA": {
         "name": "/Lotus/Language/Isleweaver/DuviriMurmurItemA",
@@ -1055,7 +1165,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/LephantisShard.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/SentientShardBaseItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 35,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/SentientShardBrilliantItem": {
         "name": "/Lotus/Language/EidolonPlains/SentientShardBrilliant",
@@ -1082,7 +1197,12 @@
         "codexSecret": false,
         "parentName": "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/SentientShardBaseItem",
         "productCategory": "MiscItems",
-        "longDescription": "/Lotus/Language/EidolonPlains/SentientShardCommonDesc"
+        "longDescription": "/Lotus/Language/EidolonPlains/SentientShardCommonDesc",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
+            "count": 10,
+            "gain": 0.5
+        }
     },
     "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/SentientShardSynthesizedItem": {
         "name": "/Lotus/Language/EidolonPlains/SentientShardSynthesized",
@@ -1107,7 +1227,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Objects/Eidolon/CetusWisp.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
+            "count": 5,
+            "gain": 0.5
+        }
     },
     "/Lotus/Types/Gameplay/Eidolon/Resources/EidolonFruitItem": {
         "name": "/Lotus/Language/EidolonPlains/EidolonFruit",
@@ -1115,7 +1240,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Objects/Eidolon/EidolonFruit.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 50,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Eidolon/Resources/ForestRodentPartItem": {
         "name": "/Lotus/Language/EidolonPlains/ForestRodentPartItem",
@@ -1131,7 +1261,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Objects/Eidolon/Grokdrul.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+            "count": 30,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Eidolon/Resources/IraditeItem": {
         "name": "/Lotus/Language/EidolonPlains/Iradite",
@@ -1139,7 +1274,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Objects/Eidolon/Iradite.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+            "count": 50,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Eidolon/Resources/NistlebrushItem": {
         "name": "/Lotus/Language/EidolonPlains/Nistlepod",
@@ -1147,7 +1287,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/NistlebrushItem.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 25,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Eidolon/Resources/QuillsDogTag": {
         "name": "/Lotus/Language/Syndicates/QuillsDogCommonTag",
@@ -1155,7 +1300,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Pickups/QuillsCommonPickup.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/SyndicateDogTags/DogTag",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
+            "count": 75,
+            "gain": 0.5
+        }
     },
     "/Lotus/Types/Gameplay/Eidolon/Resources/QuillsRareDogTag": {
         "name": "/Lotus/Language/Syndicates/QuillsDogRareTag",
@@ -1163,7 +1313,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Pickups/QuillsRarePickup.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/SyndicateDogTags/DogTag",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
+            "count": 5,
+            "gain": 0.5
+        }
     },
     "/Lotus/Types/Gameplay/Eidolon/Resources/QuillsUncommonDogTag": {
         "name": "/Lotus/Language/Syndicates/QuillsDogUncommonTag",
@@ -1171,7 +1326,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Pickups/QuillsUncommonPickup.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/SyndicateDogTags/DogTag",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
+            "count": 10,
+            "gain": 0.5
+        }
     },
     "/Lotus/Types/Gameplay/Eidolon/Resources/SentientSecretItem": {
         "name": "/Lotus/Language/EidolonPlains/SentientShardSecretItem",
@@ -1265,6 +1425,11 @@
         "pickupQuantity": {
             "minValue": 9,
             "maxValue": 16
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+            "count": 45000,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemB": {
@@ -1273,7 +1438,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/EntratiLabs/EntratiLabMiscItemB.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+            "count": 800,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLanthornBundle": {
         "name": "/Lotus/Language/Zariman/ZarimanMiscItemBName",
@@ -1290,7 +1460,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/EntratiLabs/MurmurItem.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+            "count": 180,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/EntratiLab/Resources/VesselCapillaries": {
         "name": "/Lotus/Language/Entrati/VesselCapillariesName",
@@ -1298,7 +1473,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/EntratiLabs/VesselCapillaries.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 55,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/DamagedMechPartChassisItem": {
         "name": "/Lotus/Language/Necromech/DamagedMechPartChassisName",
@@ -1509,7 +1689,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Deimos/InfGorgaricusSeedItem.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 25,
+            "gain": 0.6
+        }
     },
     "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfMapricoFruitItem": {
         "name": "/Lotus/Language/InfestedMicroplanet/ResourceInfMapricoFruit",
@@ -1521,6 +1706,11 @@
         "pickupQuantity": {
             "minValue": 1,
             "maxValue": 3
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 50,
+            "gain": 0.6
         }
     },
     "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/OrbStoneItem": {
@@ -1533,6 +1723,11 @@
         "pickupQuantity": {
             "minValue": 1,
             "maxValue": 3
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+            "count": 50,
+            "gain": 0.6
         }
     },
     "/Lotus/Types/Gameplay/JadeShadows/Resources/AscensionEventResourceItem": {
@@ -1741,7 +1936,12 @@
         "icon": "/Lotus/Interface/Icons/Objects/Venus/Coolant.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 50,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetAItem": {
         "name": "/Lotus/Language/SolarisVenus/CorpusWidgetA",
@@ -1749,7 +1949,12 @@
         "icon": "/Lotus/Interface/Icons/Objects/Venus/Theme/CorpusWidgetA.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+            "count": 12,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetBItem": {
         "name": "/Lotus/Language/SolarisVenus/CorpusWidgetB",
@@ -1757,7 +1962,12 @@
         "icon": "/Lotus/Interface/Icons/Objects/Venus/Theme/CorpusWidgetB.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+            "count": 6,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetCItem": {
         "name": "/Lotus/Language/SolarisVenus/CorpusWidgetC",
@@ -1765,7 +1975,12 @@
         "icon": "/Lotus/Interface/Icons/Objects/Venus/Theme/CorpusWidgetC.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+            "count": 3,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Venus/Resources/FungusHeartItem": {
         "name": "/Lotus/Language/SolarisVenus/FungusHeart",
@@ -1773,7 +1988,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Venus/FungusHeart.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 8,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Venus/Resources/OrokinSensorItem": {
         "name": "/Lotus/Language/SolarisVenus/OrokinSensor",
@@ -1789,7 +2009,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Venus/VenusCoconut.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 25,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Venus/Resources/VenusMushroomItem": {
         "name": "/Lotus/Language/SolarisVenus/VenusMushroom",
@@ -1805,7 +2030,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Venus/VenusTree.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 50,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Zariman/Resources/EclipseVoidWraithItem": {
         "name": "/Lotus/Language/VoidEclipse/EclipseVoidWraithItemName",
@@ -1813,7 +2043,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Zariman/EclipseVoidWraithItem.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Gameplay/Zariman/Resources/VoidWraithItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+            "count": 20,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Zariman/Resources/VoidAngelItem": {
         "name": "/Lotus/Language/Zariman/VoidAngelItemName",
@@ -1830,7 +2065,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Zariman/VoidWraithItem.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+            "count": 50,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanDogTag": {
         "name": "",
@@ -1878,7 +2118,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Zariman/ZarimanMiscItemA.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 10,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Gameplay/Zariman/Resources/ZarimanMiscItemB": {
         "name": "/Lotus/Language/Zariman/ZarimanMiscItemBName",
@@ -1887,7 +2132,12 @@
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
         "productCategory": "MiscItems",
-        "longDescription": "/Lotus/Language/EidolonPlains/SentientShardCommonDesc"
+        "longDescription": "/Lotus/Language/EidolonPlains/SentientShardCommonDesc",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+            "count": 5,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/DangerRoom/DangerRoomTile": {
         "name": "",
@@ -6801,6 +7051,11 @@
         "pickupQuantity": {
             "minValue": 15,
             "maxValue": 25
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+            "count": 250,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal": {
@@ -6813,6 +7068,11 @@
         "pickupQuantity": {
             "minValue": 15,
             "maxValue": 25
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+            "count": 250,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/MiscItems/1999ConquestBucks": {
@@ -6860,6 +7120,11 @@
         "pickupQuantity": {
             "minValue": 50,
             "maxValue": 150
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+            "count": 15000,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/MiscItems/AlphaCorruptorResource": {
@@ -6905,7 +7170,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/ArgonCrystal.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 3,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/MiscItems/Beacon": {
         "name": "/Lotus/Language/Items/BeaconName",
@@ -6934,6 +7204,11 @@
         "pickupQuantity": {
             "minValue": 35,
             "maxValue": 50
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+            "count": 7000,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/MiscItems/CodaWeaponBucks": {
@@ -6955,6 +7230,11 @@
         "pickupQuantity": {
             "minValue": 5,
             "maxValue": 10
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+            "count": 300,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/MiscItems/ControlModule": {
@@ -6967,6 +7247,11 @@
         "pickupQuantity": {
             "minValue": 1,
             "maxValue": 3
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+            "count": 75,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/MiscItems/Cryotic": {
@@ -6976,7 +7261,12 @@
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
         "productCategory": "MiscItems",
-        "purchaseQuantity": 3000
+        "purchaseQuantity": 3000,
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 3000,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/MiscItems/CustomizationSlotUnlocker": {
         "name": "/Lotus/Language/Items/CustomizationSlotUnlocker",
@@ -6998,6 +7288,11 @@
         "pickupQuantity": {
             "minValue": 15,
             "maxValue": 25
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 40,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/MiscItems/DangerRoomKey": {
@@ -7063,6 +7358,11 @@
         "pickupQuantity": {
             "minValue": 50,
             "maxValue": 100
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+            "count": 20000,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/MiscItems/Fissureum": {
@@ -7071,7 +7371,12 @@
         "icon": "/Lotus/Interface/Icons/Objects/Venus/Theme/Fissureum.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 5,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/MiscItems/FocusLensGreater": {
         "name": "/Lotus/Language/Focus/GreaterLens",
@@ -7148,6 +7453,11 @@
         "pickupQuantity": {
             "minValue": 1,
             "maxValue": 2
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+            "count": 25,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/MiscItems/GranumBucks": {
@@ -7164,7 +7474,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/JavlokCapacitor.png",
         "codexSecret": true,
         "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 7,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/MiscItems/HeavyWeaponCatalyst": {
         "name": "/Lotus/Language/Items/HeavyWeaponCatalyst",
@@ -7205,7 +7520,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/JuggernautTubercles.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+            "count": 3,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/MiscItems/JuggernautPartB": {
         "name": "/Lotus/Language/Items/JuggernautPartBName",
@@ -7213,7 +7533,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/JuggernautPalpators.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+            "count": 3,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/MiscItems/JuggernautPartC": {
         "name": "/Lotus/Language/Items/JuggernautPartCName",
@@ -7221,7 +7546,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/JuggernautChitinousHusk.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+            "count": 3,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/MiscItems/JuggernautPartD": {
         "name": "/Lotus/Language/Items/JuggernautPartDName",
@@ -7229,7 +7559,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/JuggernautBileSac.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+            "count": 3,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/MiscItems/KahlCreds": {
         "name": "/Lotus/Language/Veilbreaker/KahlCredsName",
@@ -7316,7 +7651,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Pickups/MemoryCryptoFragment.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 10,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/MiscItems/MirageCode": {
         "name": "/Lotus/Language/Items/OrokinCipherName",
@@ -7324,7 +7664,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Gear/OrokinCipher.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 5,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/MiscItems/ModSlotUnlocker": {
         "name": "/Lotus/Language/Items/ModSlotUnlocker",
@@ -7341,7 +7686,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/ComponentMorphic.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 40,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/MiscItems/Nanospores": {
         "name": "/Lotus/Language/Items/Nanospores",
@@ -7354,6 +7704,11 @@
         "pickupQuantity": {
             "minValue": 150,
             "maxValue": 200
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+            "count": 20000,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/MiscItems/NarmerBountyResource": {
@@ -7371,7 +7726,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Pickups/NavCodeIcon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 65,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/MiscItems/NeuralSensor": {
         "name": "/Lotus/Language/Items/NeuralSensor",
@@ -7383,6 +7743,11 @@
         "pickupQuantity": {
             "minValue": 1,
             "maxValue": 2
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+            "count": 25,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/MiscItems/Neurode": {
@@ -7391,7 +7756,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/ComponentNeurode.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+            "count": 15,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/MiscItems/NoraInfestedCreds": {
         "name": "/Lotus/Language/Items/NoraInfestedCreds",
@@ -7541,7 +7911,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Pickups/OmegaIsotope.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 30,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/MiscItems/OrokinCatalyst": {
         "name": "/Lotus/Language/Items/OrokinCatalyst",
@@ -7557,7 +7932,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/ComponentCell.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+            "count": 15,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/MiscItems/OrokinReactor": {
         "name": "/Lotus/Language/Items/OrokinReactor",
@@ -7578,6 +7958,11 @@
         "pickupQuantity": {
             "minValue": 7,
             "maxValue": 12
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+            "count": 750,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/MiscItems/PhotoboothTile": {
@@ -8526,6 +8911,11 @@
         "pickupQuantity": {
             "minValue": 15,
             "maxValue": 25
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+            "count": 4000,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/MiscItems/PolymerBundle": {
@@ -8539,6 +8929,11 @@
         "pickupQuantity": {
             "minValue": 40,
             "maxValue": 75
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+            "count": 12500,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/MiscItems/PolymerBundle240TutorialQuest": {
@@ -8584,7 +8979,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/RazorbackCipherPart.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+            "count": 30,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/MiscItems/RivenFragment": {
         "name": "/Lotus/Language/Resources/RivenFragmentName",
@@ -8614,6 +9014,11 @@
         "pickupQuantity": {
             "minValue": 15,
             "maxValue": 25
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+            "count": 6000,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/MiscItems/Salvage": {
@@ -8627,6 +9032,11 @@
         "pickupQuantity": {
             "minValue": 75,
             "maxValue": 150
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+            "count": 20000,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/MiscItems/Salvage1000JunctionReward": {
@@ -8699,7 +9109,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/AnomalyShard.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
+            "count": 2,
+            "gain": 0.5
+        }
     },
     "/Lotus/Types/Items/MiscItems/ShrineFragment": {
         "name": "/Lotus/Language/FiveFates/FiveFatesCreditsName",
@@ -8784,6 +9199,11 @@
         "pickupQuantity": {
             "minValue": 5,
             "maxValue": 15
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 900,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/MiscItems/TNWArchonItemAmar": {
@@ -8828,7 +9248,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/Tellurium.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+            "count": 10,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/MiscItems/UmbraEchoes": {
         "name": "/Lotus/Language/Equipment/UmbraEchoes",
@@ -9356,7 +9781,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Plants/ForestDayCommon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 8,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/Plants/MiscItems/CommonNightPlantItem": {
         "name": "/Lotus/Language/Game/NightCommonPlant",
@@ -9364,7 +9794,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Plants/ForestNightCommon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 8,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/Plants/MiscItems/GftPlantRuksClawMaturePlantItem": {
         "name": "/Lotus/Language/Scans/GftPlantRuksClawMatureName",
@@ -9372,7 +9807,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Plants/GftPlantRuksClawMature.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 8,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/Plants/MiscItems/IresPlantItem": {
         "name": "/Lotus/Language/Items/SkateweedExtract",
@@ -9389,7 +9829,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Plants/MossGroundCoverA.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 8,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/Plants/MiscItems/OroFungusAPlantItem": {
         "name": "/Lotus/Language/Items/CeruleanFungusExtract",
@@ -9422,7 +9867,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Plants/ForestDayRare.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 8,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/Plants/MiscItems/RareNightPlantItem": {
         "name": "/Lotus/Language/Game/NightRarePlant",
@@ -9430,7 +9880,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Plants/ForestNightRare.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 8,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/Plants/MiscItems/UnCommonDayPlantItem": {
         "name": "/Lotus/Language/Game/DayUnCommonPlant",
@@ -9438,7 +9893,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Plants/ForestDayUncommon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 8,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/Plants/MiscItems/UnCommonNightPlantItem": {
         "name": "/Lotus/Language/Game/NightUnCommonPlant",
@@ -9446,7 +9906,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Plants/ForestNightUncommon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 8,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/Plants/MiscItems/WildGingerBPlantItem": {
         "name": "/Lotus/Language/Scans/WildGingerName",
@@ -9454,7 +9919,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Plants/WildGingerB.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 8,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/Plants/MiscItems/ZenCobraLotusPlantItem": {
         "name": "/Lotus/Language/Scans/ZenCobraLotusName",
@@ -9462,7 +9932,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Plants/CobraLotus.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 8,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/Plants/MiscItems/ZenPitcherPlantItem": {
         "name": "/Lotus/Language/Scans/ZenPitcherPlantName",
@@ -9470,7 +9945,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Plants/ZenPitcher.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+            "count": 8,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/RailjackMiscItems/AsteriteRailjackItem": {
         "name": "/Lotus/Language/Railjack/Asterite",
@@ -9483,6 +9963,11 @@
         "pickupQuantity": {
             "minValue": 15,
             "maxValue": 30
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+            "count": 300,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/RailjackMiscItems/AucruxRailjackItem": {
@@ -9496,6 +9981,11 @@
         "pickupQuantity": {
             "minValue": 1,
             "maxValue": 2
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+            "count": 10,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/RailjackMiscItems/BracoidRailjackItem": {
@@ -9522,6 +10012,11 @@
         "pickupQuantity": {
             "minValue": 15,
             "maxValue": 25
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+            "count": 2500,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/RailjackMiscItems/CopernicsRailjackItem": {
@@ -9548,6 +10043,11 @@
         "pickupQuantity": {
             "minValue": 15,
             "maxValue": 25
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+            "count": 7000,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/RailjackMiscItems/FresnelsRailjackItem": {
@@ -9574,6 +10074,11 @@
         "pickupQuantity": {
             "minValue": 5,
             "maxValue": 10
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+            "count": 175,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem": {
@@ -9587,6 +10092,11 @@
         "pickupQuantity": {
             "minValue": 5,
             "maxValue": 10
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 200,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/RailjackMiscItems/KesslersRailjackItem": {
@@ -9613,6 +10123,11 @@
         "pickupQuantity": {
             "minValue": 1,
             "maxValue": 2
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+            "count": 15,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/RailjackMiscItems/NullstonesRailjackItem": {
@@ -9626,6 +10141,11 @@
         "pickupQuantity": {
             "minValue": 1,
             "maxValue": 2
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+            "count": 50,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/RailjackMiscItems/PustrelsRailjackItem": {
@@ -9653,6 +10173,11 @@
         "pickupQuantity": {
             "minValue": 15,
             "maxValue": 25
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+            "count": 5000,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem": {
@@ -9666,6 +10191,11 @@
         "pickupQuantity": {
             "minValue": 30,
             "maxValue": 60
+        },
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+            "count": 10000,
+            "gain": 0.3
         }
     },
     "/Lotus/Types/Items/RailjackMiscItems/TrachonsRailjackItem": {
@@ -9727,7 +10257,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/InfestedFragment.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/Research/SampleBase",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+            "count": 125,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/Research/ChemComponent": {
         "name": "/Lotus/Language/ClanTech/ChemComponent",
@@ -9743,7 +10278,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GrineerFragment.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/Research/SampleBase",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+            "count": 125,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/Research/CipherPlus": {
         "name": "/Lotus/Language/Items/CorpusVoidCipherName",
@@ -9775,7 +10315,12 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/CorpusFragment.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/Research/SampleBase",
-        "productCategory": "MiscItems"
+        "productCategory": "MiscItems",
+        "helminthSnack": {
+            "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+            "count": 125,
+            "gain": 0.3
+        }
     },
     "/Lotus/Types/Items/ShipDecos/AmazingEternals/TAExArmyManWinterTennoBaumToyDeco": {
         "name": "/Lotus/Language/ShipDecorations/LisetPropTAExArmyManWinterName",

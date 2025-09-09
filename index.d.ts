@@ -490,6 +490,7 @@ export interface IExportMisc {
     boosterDurations: Record<TRarity, number>;
     /** @deprecated */
     npcKillRewardMultiplier: number;
+    /** @deprecated check ExportResources for helminthSnack */
     helminthSnacks: Record<string, IHelminthSnack>;
     creditBundles: Record<string, number>;
 }
@@ -698,6 +699,7 @@ export interface IResource {
     dissectionParts?:   ICountedItem[]; // for fish
     purchaseQuantity?:  number;
     pickupQuantity?:    IRange;
+    helminthSnack?:     IHelminthSnack;
 }
 
 export type TMissionDeck = TRewardTier[];
