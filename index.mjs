@@ -26,6 +26,7 @@ export const {
   ExportBundles,
   ExportChallenges,
   ExportCodex,
+  ExportCreditBundles,
   ExportCustoms,
   ExportDojoRecipes,
   ExportDrones,

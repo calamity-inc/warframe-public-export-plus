@@ -24,6 +24,7 @@ export declare const ExportBounties: Record<string, IBounty>;
 export declare const ExportBundles: Record<string, IBundle>;
 export declare const ExportChallenges: Record<string, IChallenge>;
 export declare const ExportCodex: IExportCodex;
+export declare const ExportCreditBundles: Record<string, ICreditBundle>;
 export declare const ExportCustoms: Record<string, ICustom>;
 export declare const ExportDojoRecipes: IExportDojoRecipes;
 export declare const ExportDrones: Record<string, IDrone>;
@@ -37,6 +38,7 @@ export declare const ExportGear: Record<string, IGear>;
 export declare const ExportImages: Record<string, IImage>;
 export declare const ExportIntrinsics: Record<string, IIntrinsic>;
 export declare const ExportKeys: Record<string, IKey>;
+/** @deprecated */
 export declare const ExportMisc: IExportMisc;
 export declare const ExportMissionTypes: Record<TMissionType, IMissionType>;
 export declare const ExportModSet: Record<string, IModSet>;
@@ -184,6 +186,14 @@ export interface ICodexEntry {
     icon: string;
     reqScans: number;
     secret: boolean;
+}
+
+export interface ICreditBundle {
+    name: string;
+    description?: string;
+    icon: string;
+    credits: number;
+    premiumPrice?: number;
 }
 
 export interface ICustom {
@@ -397,6 +407,7 @@ export interface IFusionBundle {
     name:         string;
     description:  string;
     icon:         string;
+    /** @deprecated */
     codexSecret:  boolean;
     fusionPoints: number;
 }
@@ -492,6 +503,7 @@ export interface IExportMisc {
     npcKillRewardMultiplier: number;
     /** @deprecated check ExportResources for helminthSnack */
     helminthSnacks: Record<string, IHelminthSnack>;
+    /** @deprecated use ExportCreditBundles */
     creditBundles: Record<string, number>;
 }
 
