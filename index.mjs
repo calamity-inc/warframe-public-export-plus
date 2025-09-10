@@ -18,6 +18,7 @@ export const {
   dict_zh,
   ExportAbilities,
   ExportAchievements,
+  ExportAnimals,
   ExportArcanes,
   ExportAvionics,
   ExportBoosterPacks,

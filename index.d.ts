@@ -17,6 +17,7 @@ export declare const dict_zh: Record<string, string>;
 export declare const ExportAbilities: Record<string, IAbility>;
 export declare const ExportAchievements: Record<string, IAchievement>;
 export declare const ExportArcanes: Record<string, IArcane>;
+export declare const ExportAnimals: Record<string, IAnimal>;
 export declare const ExportAvionics: Record<string, IAvionic>;
 export declare const ExportBoosterPacks: Record<string, IBoosterPack>;
 export declare const ExportBoosters: Record<string, IBooster>;
@@ -93,6 +94,19 @@ export interface IAchievement {
     requiredCount?:         number;
     progressIndicatorFreq?: number;
     children?:              string[];
+}
+
+export interface IAnimal {
+    name: string;
+    description: string;
+    icon: string;
+    health: number;
+    killXPReward: number;
+    conservation: {
+        itemReward: string;
+        woundedAnimalReward?: string;
+        standingReward: number;
+    }
 }
 
 export interface IArcane {
