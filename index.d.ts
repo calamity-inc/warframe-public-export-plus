@@ -217,6 +217,7 @@ export interface ICustom {
     icon?:             string;
     excludeFromCodex?: boolean;
     productCategory:   "WeaponSkins" | "CrewShipWeaponSkins";
+    alwaysAvailable?:  boolean;
     additionalItems?:  string[];
     subroutines?:      string[];
     randomisedUpgrades?: {
@@ -395,6 +396,7 @@ export interface IFlavourItem {
     base:              string;
     codexSecret?:      boolean;
     excludeFromCodex?: boolean;
+    alwaysAvailable?:  boolean;
     hexColours?:       IColour[];
     legacyColours?:    IColour[];
 }
