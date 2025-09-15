@@ -90,7 +90,7 @@ export interface IAchievement {
     name?:                  string;
     description?:           string;
     icon?:                  string;
-    hidden?:                boolean;
+    hidden?:                true;
     requiredCount?:         number;
     progressIndicatorFreq?: number;
     children?:              string[];
@@ -113,7 +113,7 @@ export interface IArcane {
     name:               string;
     icon:               string;
     codexSecret:        boolean;
-    excludeFromCodex?:  boolean;
+    excludeFromCodex?:  true;
     rarity:             TRarity;
     fusionLimit:        number;
     distillPointValue?: number;
@@ -128,7 +128,7 @@ export interface IAvionic {
     codexSecret:       boolean;
     baseDrain:         number;
     fusionLimit:       number;
-    excludeFromCodex?: boolean;
+    excludeFromCodex?: true;
 }
 
 export interface IBoosterPack {
@@ -166,14 +166,14 @@ export interface IBundle {
     name?:             string;
     description?:      string;
     icon?:             string;
-    excludeFromCodex?: boolean;
+    excludeFromCodex?: true;
     components:        {
         typeName:         string;
         purchaseQuantity: number;
         durabilityDays?:  number; // for boosters
         /** @deprecated use durabilityDays */
         durability?:      TRarity; // for boosters
-        giveMaxRank?:     boolean;
+        giveMaxRank?:     true;
     }[];
     giftingBonus?:     string;
     premiumPrice?:     number;
@@ -215,9 +215,9 @@ export interface ICustom {
     codexSecret:       boolean;
     description?:      string;
     icon?:             string;
-    excludeFromCodex?: boolean;
+    excludeFromCodex?: true;
     productCategory:   "WeaponSkins" | "CrewShipWeaponSkins";
-    alwaysAvailable?:  boolean;
+    alwaysAvailable?:  true;
     additionalItems?:  string[];
     subroutines?:      string[];
     randomisedUpgrades?: {
@@ -271,7 +271,7 @@ export interface IDojoRoom extends IDojoBuild {
     capacity:        number;
     energy:          number;
     decoCapacity:    number;
-    hidden?:         boolean;
+    hidden?:         true;
 }
 
 export interface IDojoDeco extends IDojoBuild {
@@ -395,8 +395,8 @@ export interface IFlavourItem {
     icon:              string;
     base:              string;
     codexSecret?:      boolean;
-    excludeFromCodex?: boolean;
-    alwaysAvailable?:  boolean;
+    excludeFromCodex?: true;
+    alwaysAvailable?:  true;
     hexColours?:       IColour[];
     legacyColours?:    IColour[];
 }
@@ -413,7 +413,7 @@ export interface IFocusUpgrade {
     codexSecret:        boolean;
     baseDrain:          number;
     fusionLimit:        number;
-    excludeFromCodex:   boolean;
+    excludeFromCodex:   true;
     levelStats:         object[];
     description:        string;
     baseFocusPointCost: number;
@@ -493,7 +493,7 @@ export interface IKey {
     icon?:             string;
     parentName:        string;
     codexSecret:       boolean;
-    excludeFromCodex?: boolean;
+    excludeFromCodex?: true;
     replayable?:       boolean;
     chainStages?:      {
         key?:                     string;
@@ -616,7 +616,7 @@ export interface IRailjackWeapon {
     fireRate?:           number;
     masteryReq?:         number;
     productCategory:     "CrewShipWeapons";
-    excludeFromCodex?:   boolean;
+    excludeFromCodex?:   true;
     slot?:               number;
     accuracy?:           number;
     omegaAttenuation:    number;
@@ -639,9 +639,9 @@ export interface IRecipe {
     consumeOnUse:            boolean;
     num:                     number;
     codexSecret:             boolean;
-    excludeFromCodex?:       boolean;
-    alwaysAvailable?:        boolean;
-    hidden?:                 boolean;
+    excludeFromCodex?:       true;
+    alwaysAvailable?:        true;
+    hidden?:                 true;
     primeSellingPrice?:      number;
     ingredients:             ICountedItem[];
     secretIngredientAction?: "SIA_UNBRAND" | "SIA_SPECTRE_LOADOUT_COPY" | "SIA_GILD_WEAPON" | "SIA_CREATE_KUBROW" | "SIA_DISTILL_PRINT" | "SIA_WARFRAME_ABILITY";
@@ -692,7 +692,7 @@ export interface IRegion {
     };
     questReq?:              string;
     nextNodes:              string[];
-    hidden?:                boolean;
+    hidden?:                true;
 }
 
 export type TRelicQuality = "VPQ_BRONZE" | "VPQ_SILVER" | "VPQ_GOLD" | "VPQ_PLATINUM";
@@ -714,7 +714,7 @@ export interface IResource {
     codexSecret:        boolean;
     parentName:         string;
     productCategory:    "ShipDecorations" | "MiscItems" | "CrewShips" | "KubrowPetEggs" | "FusionTreasures" | "SupplyDrop" | "Ships";
-    excludeFromCodex?:  boolean;
+    excludeFromCodex?:  true;
     showInInventory?:   boolean;
     longDescription?:   string;
     primeSellingPrice?: number;
@@ -748,7 +748,7 @@ export interface ISentinel {
     stamina?:          number;
     power?:            number;
     codexSecret:       boolean;
-    excludeFromCodex?: boolean;
+    excludeFromCodex?: true;
     description:       string;
     productCategory:   "SpecialItems" | "KubrowPets" | "Sentinels" | "MoaPets";
     defaultWeapon?:    string;
@@ -868,7 +868,7 @@ export interface IUpgrade {
     modSet?:              string;
     modSetValues?:        number[];
     subtype?:             string;
-    excludeFromCodex?:    boolean;
+    excludeFromCodex?:    true;
     canBeTransmutation:   boolean;
     isStarter?:           boolean;
     isFrivolous?:         boolean;
@@ -1009,7 +1009,7 @@ export interface IWeapon {
     windUp?:                number;
     maxLevelCap?:           number;
     sentinel?:              boolean;
-    excludeFromCodex?:      boolean;
+    excludeFromCodex?:      true;
     primeOmegaAttenuation?: number;
     premiumPrice?:          number;
     variantType:            "VT_NORMAL" | "VT_STARTER" | "VT_VARIANT" | "VT_SYNDICATE" | "VT_PRIME" | "VT_KUVA";
