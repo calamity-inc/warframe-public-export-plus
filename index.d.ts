@@ -162,6 +162,16 @@ export interface IBounty {
     stages: string[][];
 }
 
+export type TPlatform = 
+    | "CP_WINDOWS"
+    | "CP_XBONE"
+    | "CP_PS4"
+    | "CP_SWITCH"
+    | "CP_PS5"
+    | "CP_XSX"
+    | "CP_IOS"
+    ;
+
 export interface IBundle {
     name?:             string;
     description?:      string;
@@ -177,6 +187,7 @@ export interface IBundle {
     }[];
     giftingBonus?:     string;
     premiumPrice?:     number;
+    excludedPlatforms?: TPlatform[];
 }
 
 export interface IChallenge {
@@ -224,6 +235,7 @@ export interface ICustom {
         tag: string;
         range: number[];
     }[];
+    excludedPlatforms?: TPlatform[];
 }
 
 export interface IExportDojoRecipes {

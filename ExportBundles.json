@@ -1116,7 +1116,10 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 75
+        "premiumPrice": 75,
+        "excludedPlatforms": [
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/AvatarImages/AvatarPackTrapper": {
         "name": "/Lotus/Language/Items/AvatarPackTrapperName",
@@ -2248,6 +2251,15 @@
                 "purchaseQuantity": 1,
                 "giveMaxRank": true
             }
+        ],
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_XBONE",
+            "CP_PS4",
+            "CP_SWITCH",
+            "CP_PS5",
+            "CP_XSX",
+            "CP_IOS"
         ]
     },
     "/Lotus/Types/StoreItems/Packages/2025Bundles/2025SupporterPack": {
@@ -4059,7 +4071,10 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 1
+        "premiumPrice": 1,
+        "excludedPlatforms": [
+            "CP_WINDOWS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/ConsolePlatPackE": {
         "name": "/Lotus/Language/Marketing/ConsolePlatPackE",
@@ -4075,7 +4090,10 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 1
+        "premiumPrice": 1,
+        "excludedPlatforms": [
+            "CP_WINDOWS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/ConsolePlatPackF": {
         "name": "/Lotus/Language/Marketing/ConsolePlatPackF",
@@ -4095,7 +4113,10 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 1
+        "premiumPrice": 1,
+        "excludedPlatforms": [
+            "CP_WINDOWS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/ConsolePlatPackFPlayStationEU": {
         "name": "/Lotus/Language/Marketing/ConsolePlatPackFPlayStationEU",
@@ -4115,7 +4136,14 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 1
+        "premiumPrice": 1,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_XBONE",
+            "CP_SWITCH",
+            "CP_XSX",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/ConsoleTennogenABundle": {
         "name": "/Lotus/Language/Items/ConsoleTennogenABundleName",
@@ -4143,7 +4171,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 455
+        "premiumPrice": 455,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/ConsumablesPack": {
         "name": "/Lotus/Language/Items/ConsumablesPackName",
@@ -5291,7 +5324,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 1
+        "premiumPrice": 1,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/DeimosSupporterPack2StoreItem": {
         "name": "/Lotus/Language/Marketing/DeimosPack2Name",
@@ -5323,7 +5360,10 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 1
+        "premiumPrice": 1,
+        "excludedPlatforms": [
+            "CP_WINDOWS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/DeimosSupporterPack3StoreItem": {
         "name": "/Lotus/Language/Marketing/DeimosPack3Name",
@@ -10823,7 +10863,15 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 1
+        "premiumPrice": 1,
+        "excludedPlatforms": [
+            "CP_XBONE",
+            "CP_PS4",
+            "CP_SWITCH",
+            "CP_PS5",
+            "CP_XSX",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/IvaraDeluxeSkinBundle": {
         "name": "/Lotus/Language/Bundles/IvaraDeluxeSkinBundleName",
@@ -20488,7 +20536,15 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 1
+        "premiumPrice": 1,
+        "excludedPlatforms": [
+            "CP_XBONE",
+            "CP_PS4",
+            "CP_SWITCH",
+            "CP_PS5",
+            "CP_XSX",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/PlatPackE": {
         "name": "/Lotus/Language/Marketing/PlatPackE",
@@ -20504,7 +20560,15 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 1
+        "premiumPrice": 1,
+        "excludedPlatforms": [
+            "CP_XBONE",
+            "CP_PS4",
+            "CP_SWITCH",
+            "CP_PS5",
+            "CP_XSX",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/PlatPackF": {
         "name": "/Lotus/Language/Marketing/PlatPackF",
@@ -20524,7 +20588,15 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 1
+        "premiumPrice": 1,
+        "excludedPlatforms": [
+            "CP_XBONE",
+            "CP_PS4",
+            "CP_SWITCH",
+            "CP_PS5",
+            "CP_XSX",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/PowerPack": {
         "name": "/Lotus/Language/Bundles/PowerPackName",
@@ -23148,7 +23220,15 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 700
+        "premiumPrice": 700,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_XBONE",
+            "CP_PS4",
+            "CP_PS5",
+            "CP_XSX",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/SwitchTennoGenBundleII": {
         "name": "/Lotus/Language/Bundles/SwitchTennoGenBundleIIName",
@@ -23180,7 +23260,15 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 775
+        "premiumPrice": 775,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_XBONE",
+            "CP_PS4",
+            "CP_PS5",
+            "CP_XSX",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/SwitchTennoGenBundleIII": {
         "name": "/Lotus/Language/Bundles/SwitchTennoGenBundleIIIName",
@@ -23220,7 +23308,15 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 635
+        "premiumPrice": 635,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_XBONE",
+            "CP_PS4",
+            "CP_PS5",
+            "CP_XSX",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/SwitchTennoGenBundleIV": {
         "name": "/Lotus/Language/Bundles/SwitchTennoGenBundleIVName",
@@ -23248,7 +23344,15 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 575
+        "premiumPrice": 575,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_XBONE",
+            "CP_PS4",
+            "CP_PS5",
+            "CP_XSX",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/SwitchTennoGenBundleIX": {
         "name": "/Lotus/Language/Bundles/SwitchTennoGenBundleIXName",
@@ -23272,7 +23376,15 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 490
+        "premiumPrice": 490,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_XBONE",
+            "CP_PS4",
+            "CP_PS5",
+            "CP_XSX",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/SwitchTennoGenBundleV": {
         "name": "/Lotus/Language/Bundles/SwitchTennoGenBundleVName",
@@ -23296,7 +23408,15 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 350
+        "premiumPrice": 350,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_XBONE",
+            "CP_PS4",
+            "CP_PS5",
+            "CP_XSX",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/SwitchTennoGenBundleVI": {
         "name": "/Lotus/Language/Bundles/SwitchTennoGenBundleVIName",
@@ -23316,7 +23436,15 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 310
+        "premiumPrice": 310,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_XBONE",
+            "CP_PS4",
+            "CP_PS5",
+            "CP_XSX",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/SwitchTennoGenBundleVII": {
         "name": "/Lotus/Language/Bundles/SwitchTennoGenBundleVIIName",
@@ -23336,7 +23464,15 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 310
+        "premiumPrice": 310,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_XBONE",
+            "CP_PS4",
+            "CP_PS5",
+            "CP_XSX",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/SwitchTennoGenBundleVIII": {
         "name": "/Lotus/Language/Bundles/SwitchTennoGenBundleVIIIName",
@@ -23356,7 +23492,15 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 280
+        "premiumPrice": 280,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_XBONE",
+            "CP_PS4",
+            "CP_PS5",
+            "CP_XSX",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/SwitchTennoGenBundleX": {
         "name": "/Lotus/Language/Bundles/SwitchTennoGenBundleXName",
@@ -23376,7 +23520,15 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 400
+        "premiumPrice": 400,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_XBONE",
+            "CP_PS4",
+            "CP_PS5",
+            "CP_XSX",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/SwitchTennoGenBundleXI": {
         "name": "/Lotus/Language/Bundles/SwitchTennoGenBundleXIName",
@@ -23404,7 +23556,15 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 475
+        "premiumPrice": 475,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_XBONE",
+            "CP_PS4",
+            "CP_PS5",
+            "CP_XSX",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/SwitchTennoGenBundleXII": {
         "name": "/Lotus/Language/Bundles/SwitchTennoGenBundleXIIName",
@@ -23432,7 +23592,15 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 535
+        "premiumPrice": 535,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_XBONE",
+            "CP_PS4",
+            "CP_PS5",
+            "CP_XSX",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/SwitchTennoGenBundleXIII": {
         "name": "/Lotus/Language/Bundles/SwitchTennoGenBundleXIIIName",
@@ -23456,7 +23624,15 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 540
+        "premiumPrice": 540,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_XBONE",
+            "CP_PS4",
+            "CP_PS5",
+            "CP_XSX",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/SwitchTennoGenBundleXIV": {
         "name": "/Lotus/Language/Bundles/SwitchTennoGenBundleXIVName",
@@ -23484,7 +23660,15 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 435
+        "premiumPrice": 435,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_XBONE",
+            "CP_PS4",
+            "CP_PS5",
+            "CP_XSX",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/SyndicateArmorPackAH": {
         "name": "/Lotus/Language/Bundles/SyndicateArmourPackAHName",
@@ -24810,7 +24994,10 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 55
+        "premiumPrice": 55,
+        "excludedPlatforms": [
+            "CP_WINDOWS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGen1999BundleB": {
         "name": "/Lotus/Language/Bundles/TennoGen1999Bundle2Name",
@@ -24830,7 +25017,10 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 85
+        "premiumPrice": 85,
+        "excludedPlatforms": [
+            "CP_WINDOWS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleA": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleAName",
@@ -24858,7 +25048,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 455
+        "premiumPrice": 455,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleB": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleBName",
@@ -24886,7 +25081,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 455
+        "premiumPrice": 455,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleC": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleCName",
@@ -24942,7 +25142,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 1200
+        "premiumPrice": 1200,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleD": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleDName",
@@ -24978,7 +25183,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 600
+        "premiumPrice": 600,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleE": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleEName",
@@ -25018,7 +25227,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 875
+        "premiumPrice": 875,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleEncoreA": {
         "name": "/Lotus/Language/Bundles/TennogenEncoreBundleAName",
@@ -25038,7 +25252,10 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 260
+        "premiumPrice": 260,
+        "excludedPlatforms": [
+            "CP_WINDOWS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleEncoreB": {
         "name": "/Lotus/Language/Bundles/TennogenEncoreBundleBName",
@@ -25054,7 +25271,10 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 220
+        "premiumPrice": 220,
+        "excludedPlatforms": [
+            "CP_WINDOWS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleF": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleFName",
@@ -25078,7 +25298,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 330
+        "premiumPrice": 330,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleFiveFatesA": {
         "name": "/Lotus/Language/Bundles/FiveFatesBundleAName",
@@ -25094,7 +25318,10 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 220
+        "premiumPrice": 220,
+        "excludedPlatforms": [
+            "CP_WINDOWS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleFiveFatesB": {
         "name": "/Lotus/Language/Bundles/FiveFatesBundleBName",
@@ -25114,7 +25341,10 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 200
+        "premiumPrice": 200,
+        "excludedPlatforms": [
+            "CP_WINDOWS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleG": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleGName",
@@ -25146,7 +25376,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 515
+        "premiumPrice": 515,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleH": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleHName",
@@ -25174,7 +25409,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 455
+        "premiumPrice": 455,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleI": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleIName",
@@ -25214,7 +25454,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 960
+        "premiumPrice": 960,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleIsleweaverA": {
         "name": "/Lotus/Language/Bundles/TennoGenIsleweaverBundleAName",
@@ -25230,7 +25475,10 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 270
+        "premiumPrice": 270,
+        "excludedPlatforms": [
+            "CP_WINDOWS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleIsleweaverB": {
         "name": "/Lotus/Language/Bundles/TennoGenIsleweaverBundleBName",
@@ -25250,7 +25498,10 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 100
+        "premiumPrice": 100,
+        "excludedPlatforms": [
+            "CP_WINDOWS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleJ": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleJName",
@@ -25294,7 +25545,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 775
+        "premiumPrice": 775,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleJadeShadowsA": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleJadeShadowsAName",
@@ -25314,7 +25570,10 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 100
+        "premiumPrice": 100,
+        "excludedPlatforms": [
+            "CP_WINDOWS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleJadeShadowsB": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleJadeShadowsBName",
@@ -25330,7 +25589,10 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 220
+        "premiumPrice": 220,
+        "excludedPlatforms": [
+            "CP_WINDOWS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleJadeShadowsC": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleJadeShadowsCName",
@@ -25354,7 +25616,10 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 395
+        "premiumPrice": 395,
+        "excludedPlatforms": [
+            "CP_WINDOWS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleK": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleKName",
@@ -25378,7 +25643,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 320
+        "premiumPrice": 320,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleL": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLName",
@@ -25418,7 +25688,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 245
+        "premiumPrice": 245,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLI": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLIName",
@@ -25446,7 +25720,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 430
+        "premiumPrice": 430,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLIIName",
@@ -25474,7 +25752,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 525
+        "premiumPrice": 525,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLIII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLIIIName",
@@ -25502,7 +25784,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 625
+        "premiumPrice": 625,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLIV": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLIVName",
@@ -25534,7 +25820,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 400
+        "premiumPrice": 400,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLIX": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLIXName",
@@ -25562,7 +25852,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 570
+        "premiumPrice": 570,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLV": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLVName",
@@ -25582,7 +25876,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 405
+        "premiumPrice": 405,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLVI": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLVIName",
@@ -25606,7 +25904,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 480
+        "premiumPrice": 480,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLVII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLVIIName",
@@ -25638,7 +25940,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 455
+        "premiumPrice": 455,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLVIII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLVIIIName",
@@ -25666,7 +25972,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 485
+        "premiumPrice": 485,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLX": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLXName",
@@ -25694,7 +26004,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 385
+        "premiumPrice": 385,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLXI": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLXIName",
@@ -25722,7 +26036,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 435
+        "premiumPrice": 435,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLXII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLXIIName",
@@ -25746,7 +26064,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 492
+        "premiumPrice": 492,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLXIII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLXIIIName",
@@ -25774,7 +26096,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 480
+        "premiumPrice": 480,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLXIV": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLXIVName",
@@ -25802,7 +26128,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 530
+        "premiumPrice": 530,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLXIX": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLXIXName",
@@ -25830,7 +26160,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 430
+        "premiumPrice": 430,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLXV": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLXVName",
@@ -25858,7 +26192,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 485
+        "premiumPrice": 485,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLXVI": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLXVIName",
@@ -25886,7 +26224,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 470
+        "premiumPrice": 470,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLXVII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLXVIIName",
@@ -25918,7 +26260,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 550
+        "premiumPrice": 550,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLXVIII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLXVIIIName",
@@ -25946,7 +26292,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 425
+        "premiumPrice": 425,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLXX": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLXXName",
@@ -25974,7 +26324,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 310
+        "premiumPrice": 310,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLXXI": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLXXIName",
@@ -26002,7 +26356,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 220
+        "premiumPrice": 220,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLXXII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLXXIIName",
@@ -26022,7 +26380,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 310
+        "premiumPrice": 310,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLXXIII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLXXIIIName",
@@ -26038,7 +26400,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 220
+        "premiumPrice": 220,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLXXIV": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLXXIVName",
@@ -26062,7 +26428,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 205
+        "premiumPrice": 205,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLXXV": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLXXVName",
@@ -26086,7 +26456,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 285
+        "premiumPrice": 285,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLXXVI": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLXXVIName",
@@ -26106,7 +26480,10 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 310
+        "premiumPrice": 310,
+        "excludedPlatforms": [
+            "CP_WINDOWS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleLXXVII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleLXXVIIName",
@@ -26126,7 +26503,10 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 295
+        "premiumPrice": 295,
+        "excludedPlatforms": [
+            "CP_WINDOWS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleUnboundThree": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleUnboundThreeName",
@@ -26150,7 +26530,10 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 490
+        "premiumPrice": 490,
+        "excludedPlatforms": [
+            "CP_WINDOWS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXIIName",
@@ -26178,7 +26561,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 675
+        "premiumPrice": 675,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXIII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXIIIName",
@@ -26202,7 +26590,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 480
+        "premiumPrice": 480,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXIV": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXIVName",
@@ -26218,7 +26611,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 170
+        "premiumPrice": 170,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXIX": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXIXName",
@@ -26250,7 +26647,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 760
+        "premiumPrice": 760,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXL": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXLName",
@@ -26278,7 +26679,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 480
+        "premiumPrice": 480,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXLI": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXLIName",
@@ -26306,7 +26711,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 470
+        "premiumPrice": 470,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXLII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXLIIName",
@@ -26334,7 +26743,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 225
+        "premiumPrice": 225,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXLIII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXLIIIName",
@@ -26362,7 +26775,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 575
+        "premiumPrice": 575,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXLIV": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXLIVName",
@@ -26394,7 +26811,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 655
+        "premiumPrice": 655,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXLIX": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXLIXName",
@@ -26426,7 +26847,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 515
+        "premiumPrice": 515,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXLV": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXLVName",
@@ -26446,7 +26871,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 405
+        "premiumPrice": 405,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXLVI": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXLVIName",
@@ -26470,7 +26899,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 345
+        "premiumPrice": 345,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXLVII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXLVIIName",
@@ -26502,7 +26935,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 715
+        "premiumPrice": 715,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXLVIII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXLVIIIName",
@@ -26534,7 +26971,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 715
+        "premiumPrice": 715,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXV": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXVName",
@@ -26554,7 +26995,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 405
+        "premiumPrice": 405,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXVI": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXVIName",
@@ -26574,7 +27020,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 405
+        "premiumPrice": 405,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXVII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXVIIName",
@@ -26598,7 +27049,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 345
+        "premiumPrice": 345,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXVIII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXVIIIName",
@@ -26626,7 +27082,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 480
+        "premiumPrice": 480,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXX": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXXName",
@@ -26650,7 +27111,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 345
+        "premiumPrice": 345,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXXI": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXXIName",
@@ -26686,7 +27152,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 895
+        "premiumPrice": 895,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXXII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXXIIName",
@@ -26714,7 +27185,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 430
+        "premiumPrice": 430,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXXIII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXXIIIName",
@@ -26750,7 +27226,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 790
+        "premiumPrice": 790,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXXIV": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXXIVName",
@@ -26778,7 +27259,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 350
+        "premiumPrice": 350,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXXIX": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXXIXName",
@@ -26806,7 +27292,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 675
+        "premiumPrice": 675,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXXV": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXXVName",
@@ -26834,7 +27324,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 440
+        "premiumPrice": 440,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXXVI": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXXVIName",
@@ -26866,7 +27361,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 515
+        "premiumPrice": 515,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXXVII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXXVIIName",
@@ -26894,7 +27394,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 575
+        "premiumPrice": 575,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXXVIII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXXVIIIName",
@@ -26922,7 +27426,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 675
+        "premiumPrice": 675,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXXX": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXXXName",
@@ -26950,7 +27459,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 675
+        "premiumPrice": 675,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXXXI": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXXXIName",
@@ -26982,7 +27495,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 515
+        "premiumPrice": 515,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXXXII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXXXIIName",
@@ -27010,7 +27527,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 415
+        "premiumPrice": 415,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXXXIII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXXXIIIName",
@@ -27034,7 +27556,12 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 330
+        "premiumPrice": 330,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_SWITCH",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXXXIV": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXXXIVName",
@@ -27062,7 +27589,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 625
+        "premiumPrice": 625,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXXXIX": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXXXIXName",
@@ -27090,7 +27621,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 575
+        "premiumPrice": 575,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXXXV": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXXXVName",
@@ -27122,7 +27657,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 170
+        "premiumPrice": 170,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXXXVI": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXXXVIName",
@@ -27150,7 +27689,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 575
+        "premiumPrice": 575,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXXXVII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXXXVIIName",
@@ -27178,7 +27721,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 480
+        "premiumPrice": 480,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenBundleXXXVIII": {
         "name": "/Lotus/Language/Bundles/TennoGenBundleXXXVIIIName",
@@ -27206,7 +27753,11 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 675
+        "premiumPrice": 675,
+        "excludedPlatforms": [
+            "CP_WINDOWS",
+            "CP_IOS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenFactionsBundleA": {
         "name": "/Lotus/Language/Bundles/TennoGenFactionsBundle1",
@@ -27222,7 +27773,10 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 220
+        "premiumPrice": 220,
+        "excludedPlatforms": [
+            "CP_WINDOWS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoGenFactionsBundleB": {
         "name": "/Lotus/Language/Bundles/TennoGenFactionsBundle2",
@@ -27242,7 +27796,10 @@
                 "purchaseQuantity": 1
             }
         ],
-        "premiumPrice": 165
+        "premiumPrice": 165,
+        "excludedPlatforms": [
+            "CP_WINDOWS"
+        ]
     },
     "/Lotus/Types/StoreItems/Packages/TennoItemsBundleA": {
         "name": "/Lotus/Language/Bundles/TennoItemsBundleAName",
@@ -29545,6 +30102,9 @@
                 "typeName": "/Lotus/StoreItems/Upgrades/Skins/Contests/Pistols/MagnusHiveLight",
                 "purchaseQuantity": 1
             }
+        ],
+        "excludedPlatforms": [
+            "CP_IOS"
         ]
     },
     "/Lotus/Types/StoreItems/Packages/Winter2016Bundle": {
