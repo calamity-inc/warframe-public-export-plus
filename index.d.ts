@@ -187,6 +187,8 @@ export interface IBundle {
     }[];
     giftingBonus?:     string;
     premiumPrice?:     number;
+    bundledPremiumCredits?: number;
+    platinumBundlePair?: string;
     excludedPlatforms?: TPlatform[];
 }
 
