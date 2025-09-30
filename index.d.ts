@@ -231,6 +231,7 @@ export interface ICustom {
     excludeFromCodex?: true;
     productCategory:   "WeaponSkins" | "CrewShipWeaponSkins";
     alwaysAvailable?:  true;
+    requirement?:      string;
     additionalItems?:  string[];
     subroutines?:      string[];
     randomisedUpgrades?: {
