@@ -233,6 +233,7 @@ export interface ICustom {
     alwaysAvailable?:  true;
     requirement?:      string;
     additionalItems?:  string[];
+    tradable:          boolean;
     subroutines?:      string[];
     randomisedUpgrades?: {
         tag: string;
