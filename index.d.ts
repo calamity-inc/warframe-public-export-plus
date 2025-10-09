@@ -118,7 +118,7 @@ export interface IArcane {
     fusionLimit:        number;
     distillPointValue?: number;
     /** @deprecated use excludeFromCodex */
-    isFrivolous?:       boolean;
+    isFrivolous?:       true;
 }
 
 export interface IAvionic {
@@ -349,7 +349,7 @@ export interface IEnemyAvatar {
     codexSecret?:              boolean;
     codexScansRequired:        number;
     excludeFromSimulacrum?:    boolean;
-    isFrivolous?:              boolean;
+    isFrivolous?:              true;
 }
 
 export interface IDamageController {
@@ -879,14 +879,14 @@ export interface IUpgrade {
     compatName?:          string;
     type?:                string;
     description?:         string;
-    isUtility?:           boolean;
+    isUtility?:           true;
     modSet?:              string;
     modSetValues?:        number[];
     subtype?:             string;
     excludeFromCodex?:    true;
     canBeTransmutation?:  true;
-    isStarter?:           boolean;
-    isFrivolous?:         boolean;
+    isStarter?:           true;
+    isFrivolous?:         true;
     upgradeEntries?:      {
         tag:           string;
         prefixTag:     string;
