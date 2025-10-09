@@ -668,6 +668,7 @@ export interface IRecipe {
         tag: string;
         value: number;
     };
+    tradable: boolean;
     excludeFromMarket?: boolean;
 }
 
