@@ -884,7 +884,7 @@ export interface IUpgrade {
     modSetValues?:        number[];
     subtype?:             string;
     excludeFromCodex?:    true;
-    canBeTransmutation:   boolean;
+    canBeTransmutation?:  true;
     isStarter?:           boolean;
     isFrivolous?:         boolean;
     upgradeEntries?:      {
