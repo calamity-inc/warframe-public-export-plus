@@ -1767,7 +1767,8 @@
         "fusionLimit": 10,
         "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
         "compatName": "WARFRAME",
-        "type": "WARFRAME"
+        "type": "WARFRAME",
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarShieldMaxModExpert": {
         "name": "/Lotus/Language/Mods/ExpertWarframeModShieldMax",
@@ -1804,7 +1805,8 @@
         "isUtility": true,
         "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
         "compatName": "WARFRAME",
-        "type": "WARFRAME"
+        "type": "WARFRAME",
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarAbilityDurationModExpert": {
         "name": "/Lotus/Language/Mods/ExpertWarframeModAbilityDuration",
@@ -3273,7 +3275,8 @@
         "modSetValues": [
             0.25,
             0.75
-        ]
+        ],
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Sets/Umbra/WarframeUmbraModB": {
         "name": "/Lotus/Language/Mods/WarframeUmbraModBName",
@@ -3290,7 +3293,8 @@
         "modSetValues": [
             0.3,
             0.8
-        ]
+        ],
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Sets/Umbra/WarframeUmbraModA": {
         "name": "/Lotus/Language/Mods/WarframeUmbraModAName",
@@ -3307,7 +3311,8 @@
         "modSetValues": [
             0.3,
             0.8
-        ]
+        ],
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Sets/Tek/WarframeTekCollateralMod": {
         "name": "/Lotus/Language/Mods/WarframeTekCollateralMod",
@@ -3522,7 +3527,8 @@
         "modSetValues": [
             0.25,
             0.5
-        ]
+        ],
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Sets/Sacrifice/MeleeSacrificeModA": {
         "name": "/Lotus/Language/Mods/MeleeSacrificeModAName",
@@ -3539,7 +3545,8 @@
         "modSetValues": [
             0.25,
             0.5
-        ]
+        ],
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Sets/Raptor/RaptorModC": {
         "name": "/Lotus/Language/Mods/RaptorModCName",
@@ -5940,7 +5947,8 @@
         "fusionLimit": 10,
         "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
         "compatName": "Rifle",
-        "type": "PRIMARY"
+        "type": "PRIMARY",
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Rifle/DualStat/PoisonEventRifleMod": {
         "name": "/Lotus/Language/Items/PoisonEventRifleMod",
@@ -8722,7 +8730,8 @@
         "fusionLimit": 3,
         "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
         "compatName": "Pistol",
-        "type": "SECONDARY"
+        "type": "SECONDARY",
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Pistol/DualStat/IceStormMod": {
         "name": "/Lotus/Language/Items/PistolModIceStorm",
@@ -10093,7 +10102,8 @@
         "fusionLimit": 10,
         "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
         "compatName": "Melee",
-        "type": "MELEE"
+        "type": "MELEE",
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Melee/Expert/WeaponCritChanceSPMod": {
         "name": "/Lotus/Language/Mods/WeaponCritChanceSPMod",
@@ -10921,7 +10931,8 @@
         "fusionLimit": 5,
         "compat": "/Lotus/Weapons/Tenno/Shotgun/LotusShotgun",
         "compatName": "Shotgun",
-        "type": "PRIMARY"
+        "type": "PRIMARY",
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/DualSource/Rifle/SerratedRushMod": {
         "name": "/Lotus/Language/Mods/SerratedRushMod",
@@ -10933,7 +10944,8 @@
         "fusionLimit": 10,
         "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
         "compatName": "Rifle",
-        "type": "PRIMARY"
+        "type": "PRIMARY",
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/DualSource/Rifle/JavlokSwordShieldMod": {
         "name": "/Lotus/Language/Mods/JavlokSwordShieldMod",
@@ -10945,7 +10957,8 @@
         "fusionLimit": 5,
         "compat": "/Lotus/Weapons/Grineer/LongGuns/GrnFlameSpear/GrnFlameSpear",
         "compatName": "Javlok",
-        "type": "PRIMARY"
+        "type": "PRIMARY",
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/DualSource/Rifle/DaikyuKatanaMod": {
         "name": "/Lotus/Language/Mods/DaikyuKatanaMod",
@@ -10957,7 +10970,8 @@
         "fusionLimit": 5,
         "compat": "/Lotus/Weapons/Tenno/Bows/AsymetricalBow/AsymetricalBow",
         "compatName": "Daikyu",
-        "type": "PRIMARY"
+        "type": "PRIMARY",
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/DualSource/Rifle/ArgonakDaggerMod": {
         "name": "/Lotus/Language/Mods/ArgonakDaggerMod",
@@ -10969,7 +10983,8 @@
         "fusionLimit": 5,
         "compat": "/Lotus/Weapons/Grineer/LongGuns/LaserAimRifle/LaserAimRifle",
         "compatName": "Argonak",
-        "type": "PRIMARY"
+        "type": "PRIMARY",
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/DualSource/Pistol/MultishotDodgeMod": {
         "name": "/Lotus/Language/Mods/TacticalDiffusionMod",
@@ -10981,7 +10996,8 @@
         "fusionLimit": 5,
         "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
         "compatName": "Pistol",
-        "type": "SECONDARY"
+        "type": "SECONDARY",
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/DualSource/Melee/RipkasShotgunMod": {
         "name": "/Lotus/Language/Mods/RipkasShotgunMod",
@@ -10993,7 +11009,8 @@
         "fusionLimit": 5,
         "compat": "/Lotus/Weapons/Grineer/Melee/GrineerClaws/GrnClaws",
         "compatName": "Ripkas",
-        "type": "MELEE"
+        "type": "MELEE",
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/DualSource/Melee/FuraxLauncherMod": {
         "name": "/Lotus/Language/Mods/FuraxLauncherMod",
@@ -11005,7 +11022,8 @@
         "fusionLimit": 5,
         "compat": "/Lotus/Weapons/Tenno/Melee/Fist/Fist",
         "compatName": "Furax",
-        "type": "MELEE"
+        "type": "MELEE",
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/DualSource/Melee/CritDamageChargeSpeedMod": {
         "name": "/Lotus/Language/Mods/SwiftShatterMod",
@@ -11017,7 +11035,8 @@
         "fusionLimit": 5,
         "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
         "compatName": "Melee",
-        "type": "MELEE"
+        "type": "MELEE",
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusSmallOnSingleUseMod": {
         "name": "/Lotus/Language/1999Coda/GainAntivirusSmallOnSingleUseModName",
@@ -16874,7 +16893,8 @@
         "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
         "compatName": "Melee",
         "type": "MELEE",
-        "description": "/Lotus/Language/Mods/TennokaiBaseModDesc"
+        "description": "/Lotus/Language/Mods/TennokaiBaseModDesc",
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Hoverboard/HBFireWorksMod": {
         "name": "/Lotus/Language/Hoverboards/HoverboardFireworksMod",
@@ -17149,7 +17169,8 @@
         "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
         "compatName": "Melee",
         "type": "MELEE",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Melee/Expert/WeaponCritChanceModExpert": {
         "name": "/Lotus/Language/Items/MeleeModCritChance",
@@ -17162,7 +17183,8 @@
         "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
         "compatName": "Melee",
         "type": "MELEE",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Melee/Expert/WeaponCritChanceSPSubMod": {
         "name": "/Lotus/Language/Mods/WeaponCritChanceSPMod",
@@ -17189,7 +17211,8 @@
         "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
         "compatName": "Melee",
         "type": "MELEE",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Melee/Expert/WeaponCritFireRateBonusModExpert": {
         "name": "/Lotus/Language/Items/MeleeModCritFireRateBonus",
@@ -17202,7 +17225,8 @@
         "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
         "compatName": "Melee",
         "type": "MELEE",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Melee/Expert/WeaponElectricityDamageModExpert": {
         "name": "/Lotus/Language/Items/MeleeModElectricityDamage",
@@ -17215,7 +17239,8 @@
         "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
         "compatName": "Melee",
         "type": "MELEE",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Melee/Expert/WeaponFireDamageModExpert": {
         "name": "/Lotus/Language/Items/MeleeModFireDamage",
@@ -17228,7 +17253,8 @@
         "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
         "compatName": "Melee",
         "type": "MELEE",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Melee/Expert/WeaponFreezeDamageModExpert": {
         "name": "/Lotus/Language/Items/MeleeModFreezeDamage",
@@ -17241,7 +17267,8 @@
         "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
         "compatName": "Melee",
         "type": "MELEE",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Melee/Expert/WeaponGlaivePowerthrowModExpert": {
         "name": "/Lotus/Language/Items/MeleeModGlaivePowerThrow",
@@ -17254,7 +17281,8 @@
         "compat": "/Lotus/Weapons/Tenno/Melee/LotusGlaiveWeaponBase",
         "compatName": "Thrown Melee",
         "type": "MELEE",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Melee/Expert/WeaponGlaiveSpeedModExpert": {
         "name": "/Lotus/Language/Items/MeleeModGlaiveSpeedMod",
@@ -17268,7 +17296,8 @@
         "compat": "/Lotus/Weapons/Tenno/Melee/LotusGlaiveWeaponBase",
         "compatName": "Thrown Melee",
         "type": "MELEE",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Melee/Expert/WeaponHeavyAttackEfficiencySPSubMod": {
         "name": "/Lotus/Language/Mods/WeaponHeavyAttackEfficiencySPMod",
@@ -17295,7 +17324,8 @@
         "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
         "compatName": "Melee",
         "type": "MELEE",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Melee/Expert/WeaponMeleeFinisherDamageModExpert": {
         "name": "/Lotus/Language/Items/MeleeModFinisherDamage",
@@ -17308,7 +17338,8 @@
         "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
         "compatName": "Melee",
         "type": "MELEE",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Melee/Expert/WeaponMeleeStatusChanceSPSubMod": {
         "name": "/Lotus/Language/Mods/WeaponMeleeStatusChanceSPMod",
@@ -17335,7 +17366,8 @@
         "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
         "compatName": "Melee",
         "type": "MELEE",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Melee/Expert/WeaponSlashDamageModExpert": {
         "name": "/Lotus/Language/Items/SlashDamageMeleeMod",
@@ -17348,7 +17380,8 @@
         "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
         "compatName": "Melee",
         "type": "MELEE",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Melee/Expert/WeaponStunChanceModExpert": {
         "name": "/Lotus/Language/Items/MeleeModStunChance",
@@ -17361,7 +17394,8 @@
         "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
         "compatName": "Melee",
         "type": "MELEE",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Melee/Intermediate/WeaponMeleeChannelingEfficiencyeModIntermediate": {
         "name": "/Lotus/Language/Items/MeleeModChargeRate",
@@ -17753,7 +17787,8 @@
         "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
         "compatName": "Pistol",
         "type": "SECONDARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponArmorPiercingDamageModExpert": {
         "name": "/Lotus/Language/Items/PistolModArmorPiercing",
@@ -17766,7 +17801,8 @@
         "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
         "compatName": "Pistol",
         "type": "SECONDARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponCritDamageModExpert": {
         "name": "/Lotus/Language/Items/PistolModCritDamage",
@@ -17779,7 +17815,8 @@
         "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
         "compatName": "Pistol",
         "type": "SECONDARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponElectricityDamageModExpert": {
         "name": "/Lotus/Language/Items/PistolModElectricityDamage",
@@ -17792,7 +17829,8 @@
         "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
         "compatName": "Pistol",
         "type": "SECONDARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponFireIterationsModExpert": {
         "name": "/Lotus/Language/Items/PistolModFireIterations",
@@ -17805,7 +17843,8 @@
         "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
         "compatName": "Pistol",
         "type": "SECONDARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponFireRateModExpert": {
         "name": "/Lotus/Language/Items/PistolModFireRate",
@@ -17818,7 +17857,8 @@
         "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
         "compatName": "Pistol",
         "type": "SECONDARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponFreezeDamageModExpert": {
         "name": "/Lotus/Language/Items/PistolModFreezeDamage",
@@ -17831,7 +17871,8 @@
         "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
         "compatName": "Pistol",
         "type": "SECONDARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponImpactDamageModExpert": {
         "name": "/Lotus/Language/Items/ImpactDamagePistolMod",
@@ -17844,7 +17885,8 @@
         "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
         "compatName": "Pistol",
         "type": "SECONDARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponPistolFactionDamageMurmursExpert": {
         "name": "/Lotus/Language/Mods/PrimedPistolModFactionDamageMurmurs",
@@ -17870,7 +17912,8 @@
         "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
         "compatName": "Pistol",
         "type": "SECONDARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponPunctureDepthModExpert": {
         "name": "/Lotus/Language/Items/PistolModPunctureDepth",
@@ -17883,7 +17926,8 @@
         "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
         "compatName": "Pistol",
         "type": "SECONDARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponRecoilReductionModExpert": {
         "name": "/Lotus/Language/Items/PrimedPistolModRecoilReduction",
@@ -17909,7 +17953,8 @@
         "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
         "compatName": "Pistol",
         "type": "SECONDARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponStatusChanceModExpert": {
         "name": "/Lotus/Language/Items/PistolModStunChance",
@@ -17922,7 +17967,8 @@
         "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
         "compatName": "Pistol",
         "type": "SECONDARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponToxinDamageModExpert": {
         "name": "/Lotus/Language/Items/PoisonDamagePistolMod",
@@ -17935,7 +17981,8 @@
         "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
         "compatName": "Pistol",
         "type": "SECONDARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Pistol/Intermediate/WeaponDamageAmountModIntermediate": {
         "name": "/Lotus/Language/Items/PistolModDamageAmount",
@@ -18020,7 +18067,8 @@
         "excludeFromCodex": true,
         "compatName": "Pistol",
         "type": "SECONDARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/PvPMods/Melee/AirborneMeleeAutoTargetBonus": {
         "name": "/Lotus/Language/Mods/AirborneMeleeAutoTargetBonus",
@@ -28677,7 +28725,8 @@
         "compat": "/Lotus/Weapons/Tenno/Bows/LotusBow",
         "compatName": "Bow",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Rifle/Expert/PrimedWeaponFactionDamageMurmurs": {
         "name": "/Lotus/Language/Mods/PrimedRifleModFactionDamageMurmurs",
@@ -28702,7 +28751,8 @@
         "compat": "/Lotus/Weapons/Tenno/Rifle/LotusSniperRifle",
         "compatName": "Sniper",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponAmmoMaxModExpert": {
         "name": "/Lotus/Language/Items/RifleModAmmoMax",
@@ -28716,7 +28766,8 @@
         "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
         "compatName": "Rifle",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponArmorPiercingDamageModExpert": {
         "name": "/Lotus/Language/Items/RifleModArmorPiercing",
@@ -28729,7 +28780,8 @@
         "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
         "compatName": "Rifle",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponBowConvertAmmoModExpert": {
         "name": "/Lotus/Language/Items/BowModConvertAmmo",
@@ -28743,7 +28795,8 @@
         "compat": "/Lotus/Weapons/Tenno/Bows/LotusBow",
         "compatName": "Bow",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponCritChanceModExpert": {
         "name": "/Lotus/Language/Items/RifleModCritChance",
@@ -28756,7 +28809,8 @@
         "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
         "compatName": "Rifle",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponCritDamageModExpert": {
         "name": "/Lotus/Language/Items/RifleModCritDamage",
@@ -28769,7 +28823,8 @@
         "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
         "compatName": "Rifle",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponElectricityDamageModExpert": {
         "name": "/Lotus/Language/Items/RifleModElectricityDamage",
@@ -28782,7 +28837,8 @@
         "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
         "compatName": "Rifle",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponFactionDamageCorpusExpert": {
         "name": "/Lotus/Language/Mods/RifleModFactionDamageCorpus",
@@ -28795,7 +28851,8 @@
         "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
         "compatName": "Rifle",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponFactionDamageGrineerExpert": {
         "name": "/Lotus/Language/Mods/RifleModFactionDamageGrineer",
@@ -28808,7 +28865,8 @@
         "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
         "compatName": "Rifle",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponFactionDamageInfestedExpert": {
         "name": "/Lotus/Language/Mods/RifleModFactionDamageInfested",
@@ -28821,7 +28879,8 @@
         "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
         "compatName": "Rifle",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponFireDamageModExpert": {
         "name": "/Lotus/Language/Items/RifleModFireDamage",
@@ -28834,7 +28893,8 @@
         "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
         "compatName": "Rifle",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponFireIterationsModExpert": {
         "name": "/Lotus/Language/Items/RifleModFireIterations",
@@ -28847,7 +28907,8 @@
         "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
         "compatName": "Rifle",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponFireRateModExpert": {
         "name": "/Lotus/Language/Items/RifleModFireRate",
@@ -28860,7 +28921,8 @@
         "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
         "compatName": "Rifle",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponImpactDamageModExpert": {
         "name": "/Lotus/Language/Items/ImpactDamageRifleMod",
@@ -28873,7 +28935,8 @@
         "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
         "compatName": "Rifle",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponPunctureDepthModExpert": {
         "name": "/Lotus/Language/Items/RifleModPunctureDepth",
@@ -28886,7 +28949,8 @@
         "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
         "compatName": "Rifle",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponSlashDamageModExpert": {
         "name": "/Lotus/Language/Items/SlashDamageRifleMod",
@@ -28899,7 +28963,8 @@
         "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
         "compatName": "Rifle",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponStatusChanceModExpert": {
         "name": "/Lotus/Language/Items/RifleModStunChance",
@@ -28912,7 +28977,8 @@
         "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
         "compatName": "Rifle",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponToxinDamageModExpert": {
         "name": "/Lotus/Language/Items/PoisonDamageRifleMod",
@@ -28925,7 +28991,8 @@
         "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
         "compatName": "Rifle",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponZoomFovModExpert": {
         "name": "/Lotus/Language/Items/RifleModZoomFov",
@@ -28939,7 +29006,8 @@
         "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
         "compatName": "Rifle",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Rifle/Intermediate/BowExplosionChanceModIntermediate": {
         "name": "/Lotus/Language/Items/ParisModExplosionChance",
@@ -29082,7 +29150,8 @@
         "compatName": "Helminth Charger",
         "type": "HELMINTH CHARGER",
         "description": "/Lotus/Language/Pets/KubrowHelminthFerocityModDesc",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Shotgun/Beginner/WeaponAmmoMaxModBeginner": {
         "name": "/Lotus/Language/Items/ShotgunModAmmoMax",
@@ -29357,7 +29426,8 @@
         "compat": "/Lotus/Weapons/Tenno/Shotgun/LotusShotgun",
         "compatName": "Shotgun",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponArmorPiercingDamageModExpert": {
         "name": "/Lotus/Language/Items/ShotgunModArmorPiercing",
@@ -29370,7 +29440,8 @@
         "compat": "/Lotus/Weapons/Tenno/Shotgun/LotusShotgun",
         "compatName": "Shotgun",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponCritChanceModExpert": {
         "name": "/Lotus/Language/Items/PrimedShotgunModCritChance",
@@ -29384,7 +29455,8 @@
         "excludeFromCodex": true,
         "compatName": "Shotgun",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponFireDamageModExpert": {
         "name": "/Lotus/Language/Items/ShotgunModFireDamage",
@@ -29397,7 +29469,8 @@
         "compat": "/Lotus/Weapons/Tenno/Shotgun/LotusShotgun",
         "compatName": "Shotgun",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponFireIterationsModExpert": {
         "name": "/Lotus/Language/Items/ShotgunModFireIterations",
@@ -29410,7 +29483,8 @@
         "compat": "/Lotus/Weapons/Tenno/Shotgun/LotusShotgun",
         "compatName": "Shotgun",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponFireRateModExpert": {
         "name": "/Lotus/Language/Items/ShotgunModFireRate",
@@ -29423,7 +29497,8 @@
         "compat": "/Lotus/Weapons/Tenno/Shotgun/LotusShotgun",
         "compatName": "Shotgun",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponImpactDamageModExpert": {
         "name": "/Lotus/Language/Items/ImpactDamageShotgunMod",
@@ -29436,7 +29511,8 @@
         "compat": "/Lotus/Weapons/Tenno/Shotgun/LotusShotgun",
         "compatName": "Shotgun",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponPunctureDepthModExpert": {
         "name": "/Lotus/Language/Items/ShotgunModPunctureDepth",
@@ -29449,7 +29525,8 @@
         "compat": "/Lotus/Weapons/Tenno/Shotgun/LotusShotgun",
         "compatName": "Shotgun",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponRecoilReductionModExpert": {
         "name": "/Lotus/Language/Mods/PrimedWeaponRecoilShotgunMod",
@@ -29487,7 +29564,8 @@
         "compat": "/Lotus/Weapons/Tenno/Shotgun/LotusShotgun",
         "compatName": "Shotgun",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponStunChanceModExpert": {
         "name": "/Lotus/Language/Items/ShotgunModStunChance",
@@ -29500,7 +29578,8 @@
         "compat": "/Lotus/Weapons/Tenno/Shotgun/LotusShotgun",
         "compatName": "Shotgun",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponToxinDamageModExpert": {
         "name": "/Lotus/Language/Items/PoisonDamageShotgunMod",
@@ -29513,7 +29592,8 @@
         "compat": "/Lotus/Weapons/Tenno/Shotgun/LotusShotgun",
         "compatName": "Shotgun",
         "type": "PRIMARY",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Shotgun/Intermediate/WeaponShotgunConvertAmmoModIntermediate": {
         "name": "/Lotus/Language/Items/ShotgunModConvertAmmo",
@@ -29897,7 +29977,8 @@
         "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
         "compatName": "WARFRAME",
         "type": "WARFRAME",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarAbilityRangeModExpert": {
         "name": "/Lotus/Language/Items/WarframeModAbilityRange",
@@ -29910,7 +29991,8 @@
         "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
         "compatName": "WARFRAME",
         "type": "WARFRAME",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarAbilityStrengthModExpert": {
         "name": "/Lotus/Language/Items/WarframeModAbilityStrength",
@@ -29923,7 +30005,8 @@
         "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
         "compatName": "WARFRAME",
         "type": "WARFRAME",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarChanceToLootExpert": {
         "name": "/Lotus/Language/Items/WarframeModChanceToLoot",
@@ -29937,7 +30020,8 @@
         "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
         "compatName": "WARFRAME",
         "type": "WARFRAME",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarDamageReductionInAirExpert": {
         "name": "/Lotus/Language/Items/WarframeModDmgReductionInAirName",
@@ -29951,7 +30035,8 @@
         "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
         "compatName": "WARFRAME",
         "type": "WARFRAME",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarDamageResistanceElectricityExpert": {
         "name": "/Lotus/Language/Items/WarframeModDmgResistanceElect",
@@ -29964,7 +30049,8 @@
         "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
         "compatName": "WARFRAME",
         "type": "WARFRAME",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarDamageResistanceFireExpert": {
         "name": "/Lotus/Language/Items/WarframeModDmgResistanceFire",
@@ -29977,7 +30063,8 @@
         "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
         "compatName": "WARFRAME",
         "type": "WARFRAME",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarDamageResistanceIceExpert": {
         "name": "/Lotus/Language/Items/WarframeModDmgResistanceIce",
@@ -29990,7 +30077,8 @@
         "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
         "compatName": "WARFRAME",
         "type": "WARFRAME",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarDamageResistanceLaserExpert": {
         "name": "/Lotus/Language/Items/WarframeModDmgResistanceLaser",
@@ -30003,7 +30091,8 @@
         "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
         "compatName": "WARFRAME",
         "type": "WARFRAME",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarDamageResistancePoisonExpert": {
         "name": "/Lotus/Language/Items/WarframeModDmgResistancePoison",
@@ -30016,7 +30105,8 @@
         "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
         "compatName": "WARFRAME",
         "type": "WARFRAME",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarDamageToEnergyModExpert": {
         "name": "/Lotus/Language/Items/WarframeModDmgToEnergy",
@@ -30029,7 +30119,8 @@
         "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
         "compatName": "WARFRAME",
         "type": "WARFRAME",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarEnemyRadarModExpert": {
         "name": "/Lotus/Language/Items/WarframeModEnemyRadar",
@@ -30043,7 +30134,8 @@
         "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
         "compatName": "WARFRAME",
         "type": "WARFRAME",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarFallingImpactModExpert": {
         "name": "/Lotus/Language/Items/WarframeModFallingImpact",
@@ -30057,7 +30149,8 @@
         "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
         "compatName": "WARFRAME",
         "type": "WARFRAME",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarKnockdownRecoveryModExpert": {
         "name": "/Lotus/Language/Items/WarframeModKnockdownRecovery",
@@ -30071,7 +30164,8 @@
         "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
         "compatName": "WARFRAME",
         "type": "WARFRAME",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarLootRadarModExpert": {
         "name": "/Lotus/Language/Items/WarframeModLootRadar",
@@ -30086,7 +30180,8 @@
         "compatName": "WARFRAME",
         "type": "WARFRAME",
         "description": "/Lotus/Language/Items/PlayerLootRadarBuffDesc",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarMissionSpecificResistanceIceExpert": {
         "name": "/Lotus/Language/Items/WarframeModMissionResistIce",
@@ -30100,7 +30195,8 @@
         "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
         "compatName": "WARFRAME",
         "type": "WARFRAME",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarParryMeleeModExpert": {
         "name": "/Lotus/Language/Items/WarframeModParryMelee",
@@ -30114,7 +30210,8 @@
         "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
         "compatName": "Melee",
         "type": "MELEE",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarParryReflectModExpert": {
         "name": "/Lotus/Language/Items/WarframeModParryReflect",
@@ -30127,7 +30224,8 @@
         "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
         "compatName": "WARFRAME",
         "type": "WARFRAME",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarRevengeDamageMeleeExpert": {
         "name": "/Lotus/Language/Items/WarframeModRevengeDamage",
@@ -30141,7 +30239,8 @@
         "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
         "compatName": "WARFRAME",
         "type": "WARFRAME",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarShieldRechargeRateModExpert": {
         "name": "/Lotus/Language/Items/WarframeModShieldRechargeRateExpert",
@@ -30154,7 +30253,8 @@
         "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
         "compatName": "WARFRAME",
         "type": "WARFRAME",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarSprintSpeedModExpert": {
         "name": "/Lotus/Language/Items/WarframeModSprintSpeed",
@@ -30168,7 +30268,8 @@
         "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
         "compatName": "WARFRAME",
         "type": "WARFRAME",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/Intermediate/AvatarArmourModIntermediate": {
         "name": "/Lotus/Language/Items/WarframeModArmor",
@@ -30402,7 +30503,8 @@
         "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
         "compatName": "WARFRAME",
         "type": "WARFRAME",
-        "isFrivolous": true
+        "isFrivolous": true,
+        "untradable": true
     },
     "/Lotus/Weapons/CrewShip/ElectricTether/ElectricTetherInnateDamageRandomMod": {
         "name": "/Lotus/Language/Items/EmptyArtifact",

@@ -887,6 +887,7 @@ export interface IUpgrade {
     canBeTransmutation?:  true;
     isStarter?:           true;
     isFrivolous?:         true;
+    untradable?:          true;
     upgradeEntries?:      {
         tag:           string;
         prefixTag:     string;
