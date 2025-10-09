@@ -1035,6 +1035,7 @@ export interface IWeapon {
     donationStandingBonus?: number;
     defaultUpgrades?:       IDefaultUpgrade[];
     additionalItems?:       string[];
+    tradable:               boolean;
 }
 
 export interface IWeaponBehaviour {
