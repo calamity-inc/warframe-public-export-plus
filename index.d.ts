@@ -696,6 +696,10 @@ export interface IRegion {
     minEnemyLevel:          number;
     maxEnemyLevel:          number;
     masteryExp:             number;
+    levelOverride?:         string;
+    enemySpec?:             string;
+    extraEnemySpec?:        string;
+    customAdvancedSpawners?: string[];
     missionReward?:         IMissionReward;
     miscItemFee?:           ICountedItem;
     challenges?:            string[];

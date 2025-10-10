@@ -14,6 +14,7 @@
         "minEnemyLevel": 6,
         "maxEnemyLevel": 11,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalLowLevelRewards"
         ],
@@ -34,6 +35,7 @@
         "minEnemyLevel": 6,
         "maxEnemyLevel": 11,
         "masteryExp": 3,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidDefense",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsEasy"
         ],
@@ -54,6 +56,7 @@
         "minEnemyLevel": 6,
         "maxEnemyLevel": 8,
         "masteryExp": 3,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidRescue",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsEasy"
         ],
@@ -76,6 +79,8 @@
         "minEnemyLevel": 7,
         "maxEnemyLevel": 9,
         "masteryExp": 3,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidCapture",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsEasy",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
         ],
@@ -101,6 +106,8 @@
         "minEnemyLevel": 7,
         "maxEnemyLevel": 9,
         "masteryExp": 3,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidExterminate",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateSimple",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode223",
@@ -125,6 +132,8 @@
         "minEnemyLevel": 8,
         "maxEnemyLevel": 10,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotageEasy",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersOne",
         "rewardManifests": [],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsEasy",
         "nextNodes": [
@@ -146,6 +155,7 @@
         "minEnemyLevel": 8,
         "maxEnemyLevel": 10,
         "masteryExp": 25,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidBossVor",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/SeerPistolRewards"
         ],
@@ -166,6 +176,7 @@
         "minEnemyLevel": 8,
         "maxEnemyLevel": 10,
         "masteryExp": 3,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidMobileDefense",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode94"
@@ -186,6 +197,7 @@
         "minEnemyLevel": 6,
         "maxEnemyLevel": 11,
         "masteryExp": 3,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonInterception",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsEasy"
         ],
@@ -206,6 +218,8 @@
         "minEnemyLevel": 8,
         "maxEnemyLevel": 10,
         "masteryExp": 3,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonIntel",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadOne",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyLowMissionRewards"
         ],
@@ -229,6 +243,7 @@
         "minEnemyLevel": 6,
         "maxEnemyLevel": 8,
         "masteryExp": 3,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonExterminate",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode119"
@@ -249,6 +264,7 @@
         "minEnemyLevel": 10,
         "maxEnemyLevel": 30,
         "masteryExp": 24,
+        "levelOverride": "/Lotus/Levels/Proc/CivilianHubs/VenusLandscape",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode104"
@@ -269,6 +285,7 @@
         "minEnemyLevel": 6,
         "maxEnemyLevel": 8,
         "masteryExp": 18,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalLowLevelRewards"
         ],
@@ -289,6 +306,8 @@
         "minEnemyLevel": 6,
         "maxEnemyLevel": 8,
         "masteryExp": 24,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotageEasy",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusSabotageTiersA",
         "rewardManifests": [],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsEasy",
         "nextNodes": [
@@ -311,6 +330,8 @@
         "minEnemyLevel": 5,
         "maxEnemyLevel": 8,
         "masteryExp": 18,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostMobileDefense",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode104",
@@ -332,6 +353,7 @@
         "minEnemyLevel": 6,
         "maxEnemyLevel": 8,
         "masteryExp": 18,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipInterception",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsEasy"
         ],
@@ -355,6 +377,8 @@
         "minEnemyLevel": 3,
         "maxEnemyLevel": 5,
         "masteryExp": 18,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExterminate",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode22",
@@ -377,6 +401,8 @@
         "minEnemyLevel": 5,
         "maxEnemyLevel": 7,
         "masteryExp": 18,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostRescue",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsEasy"
         ],
@@ -399,6 +425,7 @@
         "minEnemyLevel": 6,
         "maxEnemyLevel": 8,
         "masteryExp": 41,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipJackalBoss",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/RhinoRewards"
         ],
@@ -421,6 +448,8 @@
         "minEnemyLevel": 6,
         "maxEnemyLevel": 8,
         "masteryExp": 18,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostIntel",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersADropship",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyLowMissionRewards"
         ],
@@ -443,6 +472,8 @@
         "minEnemyLevel": 8,
         "maxEnemyLevel": 18,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipPurgatorySquad",
         "missionReward": {
             "credits": 10000
         },
@@ -472,6 +503,8 @@
         "minEnemyLevel": 5,
         "maxEnemyLevel": 7,
         "masteryExp": 18,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostCapture",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsEasyDropship",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
         ],
@@ -494,6 +527,8 @@
         "minEnemyLevel": 3,
         "maxEnemyLevel": 7,
         "masteryExp": 18,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostDefense",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsEasy"
         ],
@@ -517,6 +552,8 @@
         "minEnemyLevel": 3,
         "maxEnemyLevel": 7,
         "masteryExp": 18,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExcavation",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionLowLevelRewards"
         ],
@@ -539,6 +576,8 @@
         "minEnemyLevel": 8,
         "maxEnemyLevel": 18,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipDefense",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipPurgatorySquad",
         "missionReward": {
             "credits": 10000
         },
@@ -568,6 +607,7 @@
         "minEnemyLevel": 3,
         "maxEnemyLevel": 8,
         "masteryExp": 18,
+        "levelOverride": "/Lotus/Levels/SpaceBattles/TRExterminate",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ArchwingExterminateRewards"
         ],
@@ -588,6 +628,8 @@
         "minEnemyLevel": 2,
         "maxEnemyLevel": 4,
         "masteryExp": 24,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestCaptureCaves",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsEasy",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
         ],
@@ -611,6 +653,7 @@
         "minEnemyLevel": 1,
         "maxEnemyLevel": 3,
         "masteryExp": 24,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestExterminate",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode89"
@@ -631,6 +674,8 @@
         "minEnemyLevel": 3,
         "maxEnemyLevel": 6,
         "masteryExp": 24,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestIntel",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersForest",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyLowMissionRewards"
         ],
@@ -653,6 +698,7 @@
         "minEnemyLevel": 1,
         "maxEnemyLevel": 6,
         "masteryExp": 24,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestExcavation",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionLowLevelRewards"
         ],
@@ -676,6 +722,7 @@
         "minEnemyLevel": 3,
         "maxEnemyLevel": 6,
         "masteryExp": 24,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonRescue",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsEasy"
         ],
@@ -696,6 +743,7 @@
         "minEnemyLevel": 2,
         "maxEnemyLevel": 5,
         "masteryExp": 24,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestDefense",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsEasy"
         ],
@@ -718,6 +766,7 @@
         "minEnemyLevel": 1,
         "maxEnemyLevel": 3,
         "masteryExp": 24,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanExterminateAnywhere",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode63"
@@ -738,6 +787,7 @@
         "minEnemyLevel": 1,
         "maxEnemyLevel": 6,
         "masteryExp": 20,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestInterception",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsEasy"
         ],
@@ -761,6 +811,7 @@
         "minEnemyLevel": 3,
         "maxEnemyLevel": 6,
         "masteryExp": 24,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestMobileDefense",
         "rewardManifests": [],
         "nextNodes": [
             "EarthToMarsJunction"
@@ -781,6 +832,7 @@
         "minEnemyLevel": 4,
         "maxEnemyLevel": 6,
         "masteryExp": 24,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestSabotage",
         "rewardManifests": [],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/ForestSabotageRewards",
         "nextNodes": [
@@ -803,6 +855,7 @@
         "minEnemyLevel": 20,
         "maxEnemyLevel": 25,
         "masteryExp": 24,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestBoss",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/HydroidRewards"
         ],
@@ -825,6 +878,7 @@
         "minEnemyLevel": 6,
         "maxEnemyLevel": 16,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestDefense",
         "missionReward": {
             "credits": 12000
         },
@@ -854,6 +908,7 @@
         "minEnemyLevel": 1,
         "maxEnemyLevel": 6,
         "masteryExp": 24,
+        "levelOverride": "/Lotus/Levels/Proc/Space/SpaceGrineerMobileDefenseProcLevel",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ArchwingMobileDRewards"
         ],
@@ -876,6 +931,7 @@
         "minEnemyLevel": 6,
         "maxEnemyLevel": 16,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestExcavation",
         "missionReward": {
             "credits": 12000
         },
@@ -906,6 +962,7 @@
         "minEnemyLevel": 10,
         "maxEnemyLevel": 30,
         "masteryExp": 24,
+        "levelOverride": "/Lotus/Levels/Proc/CivilianHubs/EidolonLandscape",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode39"
@@ -926,6 +983,7 @@
         "minEnemyLevel": 5,
         "maxEnemyLevel": 15,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/FiveFates/CetusInvasion.level",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/FiveFatesRewards/FiveFatesRewards"
         ],
@@ -946,6 +1004,8 @@
         "minEnemyLevel": 15,
         "maxEnemyLevel": 20,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementDisruption",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionGrineerGhouls",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionSettlementRewards"
         ],
@@ -966,6 +1026,7 @@
         "minEnemyLevel": 8,
         "maxEnemyLevel": 10,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementSabotage",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode11",
@@ -987,6 +1048,7 @@
         "minEnemyLevel": 8,
         "maxEnemyLevel": 12,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementDefense",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsEasy"
         ],
@@ -1010,6 +1072,7 @@
         "minEnemyLevel": 11,
         "maxEnemyLevel": 13,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonMobileDefense",
         "rewardManifests": [],
         "nextNodes": []
     },
@@ -1028,6 +1091,7 @@
         "minEnemyLevel": 8,
         "maxEnemyLevel": 12,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementExterminate",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode65",
@@ -1049,6 +1113,7 @@
         "minEnemyLevel": 8,
         "maxEnemyLevel": 13,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementInterception",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsEasy"
         ],
@@ -1071,6 +1136,8 @@
         "minEnemyLevel": 9,
         "maxEnemyLevel": 11,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementIntel",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersDesert",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyLowMissionRewards"
         ],
@@ -1097,6 +1164,8 @@
         "minEnemyLevel": 11,
         "maxEnemyLevel": 13,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExterminateCaves",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerExterminate",
         "rewardManifests": [],
         "nextNodes": [
             "ClanNode9"
@@ -1117,6 +1186,7 @@
         "minEnemyLevel": 9,
         "maxEnemyLevel": 11,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementExcavation",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionLowLevelRewards"
         ],
@@ -1140,6 +1210,8 @@
         "minEnemyLevel": 10,
         "maxEnemyLevel": 12,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementCapture",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsMedium",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
         ],
@@ -1163,6 +1235,7 @@
         "minEnemyLevel": 10,
         "maxEnemyLevel": 12,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementRescue",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsEasy"
         ],
@@ -1187,6 +1260,7 @@
         "minEnemyLevel": 10,
         "maxEnemyLevel": 20,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementDefense",
         "missionReward": {
             "credits": 14000
         },
@@ -1216,6 +1290,7 @@
         "minEnemyLevel": 11,
         "maxEnemyLevel": 13,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementBoss",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/ExcaliburRewards"
         ],
@@ -1239,6 +1314,8 @@
         "minEnemyLevel": 9,
         "maxEnemyLevel": 12,
         "masteryExp": 45,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotageEasy",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusSabotageTiersA",
         "rewardManifests": [],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsEasy",
         "nextNodes": [
@@ -1260,6 +1337,8 @@
         "minEnemyLevel": 10,
         "maxEnemyLevel": 20,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipPurgatorySquad",
         "missionReward": {
             "credits": 14000
         },
@@ -1289,6 +1368,7 @@
         "minEnemyLevel": 9,
         "maxEnemyLevel": 11,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementMobileDefense",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode65",
@@ -1310,6 +1390,7 @@
         "minEnemyLevel": 8,
         "maxEnemyLevel": 13,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Space/SpaceGrineerExterminateProcLevel",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ArchwingExterminateRewards"
         ],
@@ -1330,6 +1411,7 @@
         "minEnemyLevel": 25,
         "maxEnemyLevel": 30,
         "masteryExp": 18,
+        "levelOverride": "/Lotus/Levels/Proc/LastWish/LastWishDefense",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/LastWishMissionRewards/LastWishRewards"
         ],
@@ -1351,6 +1433,8 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 35,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityDisruption",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionCorpusAmalgams",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionRewards"
         ],
@@ -1374,6 +1458,8 @@
         "minEnemyLevel": 18,
         "maxEnemyLevel": 20,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotage",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GasCorpusSabotageTiersBC",
         "rewardManifests": [],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsMedium",
         "nextNodes": [
@@ -1395,6 +1481,8 @@
         "minEnemyLevel": 17,
         "maxEnemyLevel": 19,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityIntel",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersD",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyMediumMissionRewards"
         ],
@@ -1418,6 +1506,8 @@
         "minEnemyLevel": 15,
         "maxEnemyLevel": 17,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityRescue",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/RescueGasCity",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsMedium"
         ],
@@ -1441,6 +1531,7 @@
         "minEnemyLevel": 15,
         "maxEnemyLevel": 20,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityDefense",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsMedium"
         ],
@@ -1463,6 +1554,7 @@
         "minEnemyLevel": 15,
         "maxEnemyLevel": 20,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCitySurvival",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalMidLevelRewards"
         ],
@@ -1485,6 +1577,8 @@
         "minEnemyLevel": 18,
         "maxEnemyLevel": 20,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCitySabotage",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusGasSabotageHeavyEnemies",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode905",
@@ -1506,6 +1600,7 @@
         "minEnemyLevel": 15,
         "maxEnemyLevel": 20,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityInterception",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsMedium"
         ],
@@ -1528,6 +1623,7 @@
         "minEnemyLevel": 17,
         "maxEnemyLevel": 19,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityExterminate",
         "rewardManifests": [],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsGasCity",
         "nextNodes": [
@@ -1550,6 +1646,7 @@
         "minEnemyLevel": 18,
         "maxEnemyLevel": 20,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasBoss",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/BerserkerRewards"
         ],
@@ -1572,6 +1669,7 @@
         "minEnemyLevel": 16,
         "maxEnemyLevel": 18,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityMobileDefense",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode121"
@@ -1592,6 +1690,7 @@
         "minEnemyLevel": 40,
         "maxEnemyLevel": 40,
         "masteryExp": 55,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityRopalolystBoss",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RopalolystModRewards",
             "/Lotus/Types/Game/MissionDecks/RopalolystBlueprintRewards"
@@ -1613,6 +1712,7 @@
         "minEnemyLevel": 20,
         "maxEnemyLevel": 30,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityDefense",
         "missionReward": {
             "credits": 14000
         },
@@ -1642,6 +1742,8 @@
         "minEnemyLevel": 16,
         "maxEnemyLevel": 18,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityCapture",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsMedium",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
         ],
@@ -1665,6 +1767,7 @@
         "minEnemyLevel": 15,
         "maxEnemyLevel": 20,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/SpaceBattles/TRSabotage",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ArchwingSabotageRewards"
         ],
@@ -1685,6 +1788,7 @@
         "minEnemyLevel": 20,
         "maxEnemyLevel": 30,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCitySurvival",
         "missionReward": {
             "credits": 14000
         },
@@ -1714,6 +1818,7 @@
         "minEnemyLevel": 21,
         "maxEnemyLevel": 26,
         "masteryExp": 55,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonDefense",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsMedium"
         ],
@@ -1736,6 +1841,8 @@
         "minEnemyLevel": 23,
         "maxEnemyLevel": 25,
         "masteryExp": 49,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroid",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadThree",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode42",
@@ -1757,6 +1864,7 @@
         "minEnemyLevel": 21,
         "maxEnemyLevel": 26,
         "masteryExp": 55,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalMidLevelRewards"
         ],
@@ -1777,6 +1885,8 @@
         "minEnemyLevel": 21,
         "maxEnemyLevel": 23,
         "masteryExp": 55,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidIntel",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadThree",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyMediumMissionRewards"
         ],
@@ -1800,6 +1910,7 @@
         "minEnemyLevel": 23,
         "maxEnemyLevel": 25,
         "masteryExp": 55,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidMobileDefense",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode82"
@@ -1820,6 +1931,7 @@
         "minEnemyLevel": 24,
         "maxEnemyLevel": 26,
         "masteryExp": 55,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonBoss",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/EmberRewards"
         ],
@@ -1842,6 +1954,7 @@
         "minEnemyLevel": 21,
         "maxEnemyLevel": 26,
         "masteryExp": 55,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidInterception",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsMedium"
         ],
@@ -1864,6 +1977,7 @@
         "minEnemyLevel": 22,
         "maxEnemyLevel": 24,
         "masteryExp": 55,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonExterminate",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode32"
@@ -1884,6 +1998,8 @@
         "minEnemyLevel": 21,
         "maxEnemyLevel": 23,
         "masteryExp": 55,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCapture",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsHard",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
         ],
@@ -1906,6 +2022,7 @@
         "minEnemyLevel": 22,
         "maxEnemyLevel": 24,
         "masteryExp": 55,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonRescue",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsHard"
         ],
@@ -1928,6 +2045,7 @@
         "minEnemyLevel": 22,
         "maxEnemyLevel": 24,
         "masteryExp": 55,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidRescue",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsMedium"
         ],
@@ -1951,6 +2069,8 @@
         "minEnemyLevel": 24,
         "maxEnemyLevel": 26,
         "masteryExp": 55,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersFive",
         "rewardManifests": [],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsMedium",
         "nextNodes": [
@@ -1972,6 +2092,7 @@
         "minEnemyLevel": 21,
         "maxEnemyLevel": 23,
         "masteryExp": 55,
+        "levelOverride": "/Lotus/Levels/Proc/Space/SpaceGrineerPursuitProcLevel",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ArchwingPursuitRewards"
         ],
@@ -1994,6 +2115,7 @@
         "minEnemyLevel": 26,
         "maxEnemyLevel": 36,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidSurvivalRaid",
         "missionReward": {
             "credits": 14000
         },
@@ -2025,6 +2147,8 @@
         "minEnemyLevel": 26,
         "maxEnemyLevel": 36,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonColonistRescue",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/ColonistRescueAgentsA",
         "missionReward": {
             "credits": 14000
         },
@@ -2054,6 +2178,12 @@
         "minEnemyLevel": 25,
         "maxEnemyLevel": 27,
         "masteryExp": 69,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanCapture",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsHard",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
         ],
@@ -2076,6 +2206,11 @@
         "minEnemyLevel": 27,
         "maxEnemyLevel": 29,
         "masteryExp": 69,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanAssassinate",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/YinYangRewards"
         ],
@@ -2098,6 +2233,10 @@
         "minEnemyLevel": 24,
         "maxEnemyLevel": 29,
         "masteryExp": 69,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanDefense",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsMedium"
         ],
@@ -2120,6 +2259,11 @@
         "minEnemyLevel": 24,
         "maxEnemyLevel": 29,
         "masteryExp": 69,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanSurvival",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalHighLevelRewards"
         ],
@@ -2142,6 +2286,11 @@
         "minEnemyLevel": 27,
         "maxEnemyLevel": 29,
         "masteryExp": 69,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanMobileDefense",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
         "rewardManifests": [],
         "nextNodes": [
             "SolNode907",
@@ -2164,6 +2313,12 @@
         "minEnemyLevel": 26,
         "maxEnemyLevel": 28,
         "masteryExp": 69,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanSabotage",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemies",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
         "rewardManifests": [],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/OceanSabotageRewards",
         "nextNodes": [
@@ -2186,6 +2341,12 @@
         "minEnemyLevel": 27,
         "maxEnemyLevel": 29,
         "masteryExp": 69,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanSpy",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersOcean",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer",
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyHighMissionRewards"
         ],
@@ -2208,6 +2369,11 @@
         "minEnemyLevel": 25,
         "maxEnemyLevel": 27,
         "masteryExp": 69,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanRescue",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsHard"
         ],
@@ -2231,6 +2397,11 @@
         "minEnemyLevel": 27,
         "maxEnemyLevel": 29,
         "masteryExp": 44,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanExterminateSharkwing",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
         "rewardManifests": [],
         "nextNodes": [
             "ClanNode17",
@@ -2252,6 +2423,8 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 35,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonDisruption",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionInfested",
         "missionReward": {
             "credits": 16000
         },
@@ -2281,6 +2454,11 @@
         "minEnemyLevel": 24,
         "maxEnemyLevel": 26,
         "masteryExp": 69,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanExterminate",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
         "rewardManifests": [],
         "nextNodes": [
             "SolNode33",
@@ -2303,6 +2481,10 @@
         "minEnemyLevel": 24,
         "maxEnemyLevel": 29,
         "masteryExp": 69,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanDefense",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsHard"
         ],
@@ -2325,6 +2507,7 @@
         "minEnemyLevel": 24,
         "maxEnemyLevel": 29,
         "masteryExp": 69,
+        "levelOverride": "/Lotus/Levels/Proc/Space/SpaceGrineerInterceptionProcLevel",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/ArchwingInterceptionMissionRewardsHard"
         ],
@@ -2345,6 +2528,7 @@
         "minEnemyLevel": 25,
         "maxEnemyLevel": 35,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
         "missionReward": {
             "credits": 16000
         },
@@ -2374,6 +2558,10 @@
         "minEnemyLevel": 29,
         "maxEnemyLevel": 31,
         "masteryExp": 52,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipMobileDefense",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [],
         "nextNodes": [
             "SolNode406"
@@ -2394,6 +2582,11 @@
         "minEnemyLevel": 27,
         "maxEnemyLevel": 29,
         "masteryExp": 52,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostCapture",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsHardDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
         ],
@@ -2417,6 +2610,7 @@
         "minEnemyLevel": 27,
         "maxEnemyLevel": 32,
         "masteryExp": 52,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipDefense",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsHard"
         ],
@@ -2439,6 +2633,10 @@
         "minEnemyLevel": 28,
         "maxEnemyLevel": 30,
         "masteryExp": 52,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipRescue",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsHard"
         ],
@@ -2462,6 +2660,11 @@
         "minEnemyLevel": 27,
         "maxEnemyLevel": 32,
         "masteryExp": 52,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExcavation",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionHighLevelRewards"
         ],
@@ -2484,6 +2687,11 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 32,
         "masteryExp": 52,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpost",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusHeavyEnemiesDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [],
         "nextNodes": [
             "SolNode118",
@@ -2506,6 +2714,8 @@
         "minEnemyLevel": 29,
         "maxEnemyLevel": 31,
         "masteryExp": 52,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExterminateCaves",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode84",
@@ -2527,6 +2737,7 @@
         "minEnemyLevel": 27,
         "maxEnemyLevel": 32,
         "masteryExp": 52,
+        "levelOverride": "/Lotus/Levels/SpaceBattles/TRMobileDefense",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ArchwingMobileDRewards"
         ],
@@ -2549,6 +2760,10 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 32,
         "masteryExp": 52,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipHyenaAssassinate",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/LokiRewards"
         ],
@@ -2571,6 +2786,11 @@
         "minEnemyLevel": 25,
         "maxEnemyLevel": 30,
         "masteryExp": 52,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipDisruption",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionCorpusShip",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/ErrantSpecterInvasion"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionNeptuneRewards"
         ],
@@ -2593,6 +2813,11 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 32,
         "masteryExp": 52,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetSpyCaves",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersBDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyHighMissionRewards"
         ],
@@ -2616,6 +2841,8 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 40,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipColonistRescue",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/ColonistRescueAgentsA",
         "missionReward": {
             "credits": 18000
         },
@@ -2645,6 +2872,7 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 40,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSurvival",
         "missionReward": {
             "credits": 18000
         },
@@ -2674,6 +2902,7 @@
         "minEnemyLevel": 34,
         "maxEnemyLevel": 38,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipExterminate",
         "rewardManifests": [],
         "nextNodes": [
             "PlutoToErisJunction"
@@ -2694,6 +2923,8 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 40,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostDefense",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropshipAmbulas",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsHard"
         ],
@@ -2716,6 +2947,11 @@
         "minEnemyLevel": 34,
         "maxEnemyLevel": 38,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostRescue",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropshipAmbulas",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsHard"
         ],
@@ -2739,6 +2975,8 @@
         "minEnemyLevel": 32,
         "maxEnemyLevel": 36,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExterminate",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropshipAmbulas",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode56",
@@ -2760,6 +2998,11 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 34,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCapture",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsHard",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
         ],
@@ -2782,6 +3025,10 @@
         "minEnemyLevel": 35,
         "maxEnemyLevel": 45,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostAmbulasBoss",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "missionReward": {
             "countedItems": [
                 {
@@ -2814,6 +3061,11 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 34,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostMobileDefense",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropshipAmbulas",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [],
         "nextNodes": [
             "SolNode102"
@@ -2834,6 +3086,10 @@
         "minEnemyLevel": 34,
         "maxEnemyLevel": 38,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotage",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsHard",
         "nextNodes": [
@@ -2855,6 +3111,11 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 40,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostInterception",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropshipAmbulas",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsHard"
         ],
@@ -2877,6 +3138,10 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 40,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalHighLevelRewards"
         ],
@@ -2899,6 +3164,7 @@
         "minEnemyLevel": 35,
         "maxEnemyLevel": 45,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostDefense",
         "missionReward": {
             "credits": 20000
         },
@@ -2928,6 +3194,11 @@
         "minEnemyLevel": 32,
         "maxEnemyLevel": 36,
         "masteryExp": 51,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipIntel",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSpyTiers",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyHighMissionRewards"
         ],
@@ -2952,6 +3223,7 @@
         "minEnemyLevel": 35,
         "maxEnemyLevel": 45,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExcavation",
         "missionReward": {
             "credits": 20000
         },
@@ -2981,6 +3253,10 @@
         "minEnemyLevel": 12,
         "maxEnemyLevel": 14,
         "masteryExp": 163,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsExterminate",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
         "rewardManifests": [],
         "nextNodes": [
             "SolNode132",
@@ -3002,6 +3278,8 @@
         "minEnemyLevel": 15,
         "maxEnemyLevel": 17,
         "masteryExp": 163,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersTwo",
         "rewardManifests": [],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsMedium",
         "nextNodes": []
@@ -3021,6 +3299,11 @@
         "minEnemyLevel": 12,
         "maxEnemyLevel": 14,
         "masteryExp": 163,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsSpy",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadThree",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyMediumMissionRewards"
         ],
@@ -3044,6 +3327,11 @@
         "minEnemyLevel": 14,
         "maxEnemyLevel": 16,
         "masteryExp": 163,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsCapture",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsMedium",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
         ],
@@ -3067,6 +3355,10 @@
         "minEnemyLevel": 14,
         "maxEnemyLevel": 16,
         "masteryExp": 163,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsSabotage",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
         "rewardManifests": [],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsMedium",
         "nextNodes": [
@@ -3089,6 +3381,11 @@
         "minEnemyLevel": 13,
         "maxEnemyLevel": 15,
         "masteryExp": 163,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsRescue",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/RescueShipyards",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsEasy"
         ],
@@ -3111,6 +3408,10 @@
         "minEnemyLevel": 13,
         "maxEnemyLevel": 15,
         "masteryExp": 163,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsMobileDefense",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
         "rewardManifests": [],
         "nextNodes": [
             "SolNode141",
@@ -3132,6 +3433,10 @@
         "minEnemyLevel": 15,
         "maxEnemyLevel": 17,
         "masteryExp": 163,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsRetrieval",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
         "rewardManifests": [],
         "nextNodes": []
     },
@@ -3150,6 +3455,10 @@
         "minEnemyLevel": 14,
         "maxEnemyLevel": 16,
         "masteryExp": 163,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsAssassinate",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/MiterGremlinsRewards",
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/FrostRewards"
@@ -3173,6 +3482,10 @@
         "minEnemyLevel": 12,
         "maxEnemyLevel": 17,
         "masteryExp": 163,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsDefense",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsEasy"
         ],
@@ -3196,6 +3509,10 @@
         "minEnemyLevel": 12,
         "maxEnemyLevel": 17,
         "masteryExp": 163,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsInterception",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsEasy"
         ],
@@ -3219,6 +3536,10 @@
         "minEnemyLevel": 12,
         "maxEnemyLevel": 17,
         "masteryExp": 163,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidSurvivalRaid",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalMidLevelRewards"
         ],
@@ -3239,6 +3560,7 @@
         "minEnemyLevel": 15,
         "maxEnemyLevel": 25,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
         "missionReward": {
             "credits": 20000
         },
@@ -3268,6 +3590,7 @@
         "minEnemyLevel": 15,
         "maxEnemyLevel": 25,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsDefense",
         "missionReward": {
             "credits": 20000
         },
@@ -3297,6 +3620,7 @@
         "minEnemyLevel": 32,
         "maxEnemyLevel": 36,
         "masteryExp": 279,
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipRescue",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsHard"
         ],
@@ -3320,6 +3644,7 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 40,
         "masteryExp": 279,
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipDefense",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsHard"
         ],
@@ -3342,6 +3667,8 @@
         "minEnemyLevel": 32,
         "maxEnemyLevel": 36,
         "masteryExp": 279,
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipCapture",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsHard",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
         ],
@@ -3365,6 +3692,7 @@
         "minEnemyLevel": 34,
         "maxEnemyLevel": 38,
         "masteryExp": 279,
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipExterminate",
         "rewardManifests": [],
         "nextNodes": []
     },
@@ -3383,6 +3711,7 @@
         "minEnemyLevel": 34,
         "maxEnemyLevel": 38,
         "masteryExp": 279,
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipPurify",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/PurifierDefenseMissionRewards"
         ],
@@ -3403,6 +3732,7 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 40,
         "masteryExp": 279,
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSurvival",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalHighLevelRewards"
         ],
@@ -3425,6 +3755,7 @@
         "minEnemyLevel": 34,
         "maxEnemyLevel": 38,
         "masteryExp": 279,
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipMobileDefense",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode166"
@@ -3445,6 +3776,7 @@
         "minEnemyLevel": 35,
         "maxEnemyLevel": 45,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipDefense",
         "missionReward": {
             "credits": 18000
         },
@@ -3474,6 +3806,8 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 40,
         "masteryExp": 279,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipInterception",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipPurgatorySquad",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsHard"
         ],
@@ -3496,6 +3830,7 @@
         "minEnemyLevel": 35,
         "maxEnemyLevel": 45,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSurvival",
         "missionReward": {
             "credits": 18000
         },
@@ -3525,6 +3860,7 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 34,
         "masteryExp": 279,
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSabotage",
         "rewardManifests": [],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CorpusInfestedSabotageRewards",
         "nextNodes": [
@@ -3547,6 +3883,8 @@
         "minEnemyLevel": 34,
         "maxEnemyLevel": 38,
         "masteryExp": 177,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonDisruption",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionGrineer",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionGalleonRewards"
         ],
@@ -3567,6 +3905,8 @@
         "minEnemyLevel": 32,
         "maxEnemyLevel": 36,
         "masteryExp": 177,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersFive",
         "rewardManifests": [],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsHard",
         "nextNodes": [
@@ -3589,6 +3929,7 @@
         "minEnemyLevel": 32,
         "maxEnemyLevel": 36,
         "masteryExp": 177,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidExterminate",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode187"
@@ -3609,6 +3950,7 @@
         "minEnemyLevel": 85,
         "maxEnemyLevel": 85,
         "masteryExp": 177,
+        "levelOverride": "/Lotus/Levels/KelaArenas/OceanArena.level",
         "missionReward": {
             "countedItems": [
                 {
@@ -3641,6 +3983,7 @@
         "minEnemyLevel": 40,
         "maxEnemyLevel": 40,
         "masteryExp": 177,
+        "levelOverride": "/Lotus/Levels/KelaArenas/ShipyardsArena.level",
         "missionReward": {
             "countedItems": [
                 {
@@ -3672,6 +4015,7 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 40,
         "masteryExp": 50,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsInterceptionTwo",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsHard"
         ],
@@ -3694,6 +4038,7 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 40,
         "masteryExp": 177,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidSurvivalRaid",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalHighLevelRewards"
         ],
@@ -3717,6 +4062,7 @@
         "minEnemyLevel": 34,
         "maxEnemyLevel": 38,
         "masteryExp": 177,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsRetrieval",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode190"
@@ -3737,6 +4083,8 @@
         "minEnemyLevel": 35,
         "maxEnemyLevel": 40,
         "masteryExp": 177,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonIntel",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadSix",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyHighMissionRewards"
         ],
@@ -3759,6 +4107,7 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 34,
         "masteryExp": 177,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonRescue",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsHard"
         ],
@@ -3782,6 +4131,7 @@
         "minEnemyLevel": 60,
         "maxEnemyLevel": 60,
         "masteryExp": 177,
+        "levelOverride": "/Lotus/Levels/KelaArenas/OceanArena.level",
         "missionReward": {
             "countedItems": [
                 {
@@ -3816,6 +4166,7 @@
         "minEnemyLevel": 35,
         "maxEnemyLevel": 40,
         "masteryExp": 100,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidBossKela",
         "miscItemFee": {
             "ItemType": "/Lotus/Types/Items/MiscItems/KelaArenaToken",
             "ItemCount": 25
@@ -3840,6 +4191,7 @@
         "minEnemyLevel": 34,
         "maxEnemyLevel": 38,
         "masteryExp": 177,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonMobileDefense",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode188"
@@ -3860,6 +4212,7 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 40,
         "masteryExp": 177,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonDefense",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsHard"
         ],
@@ -3883,6 +4236,7 @@
         "minEnemyLevel": 35,
         "maxEnemyLevel": 45,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
         "missionReward": {
             "credits": 16000
         },
@@ -3912,6 +4266,7 @@
         "minEnemyLevel": 35,
         "maxEnemyLevel": 45,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidDefense",
         "missionReward": {
             "credits": 16000
         },
@@ -3941,6 +4296,11 @@
         "minEnemyLevel": 21,
         "maxEnemyLevel": 23,
         "masteryExp": 138,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetCapture",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsMediumDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
         ],
@@ -3966,6 +4326,8 @@
         "minEnemyLevel": 18,
         "maxEnemyLevel": 20,
         "masteryExp": 138,
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipExterminate",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
         "rewardManifests": [],
         "nextNodes": []
     },
@@ -3984,6 +4346,11 @@
         "minEnemyLevel": 18,
         "maxEnemyLevel": 20,
         "masteryExp": 138,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetMobileDefense",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [],
         "nextNodes": [
             "SolNode217",
@@ -4006,6 +4373,8 @@
         "minEnemyLevel": 21,
         "maxEnemyLevel": 23,
         "masteryExp": 138,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetAssassinate",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/NovaRewards"
         ],
@@ -4028,6 +4397,8 @@
         "minEnemyLevel": 21,
         "maxEnemyLevel": 23,
         "masteryExp": 138,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExterminate",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "rewardManifests": [],
         "nextNodes": [
             "ClanNode7",
@@ -4049,6 +4420,11 @@
         "minEnemyLevel": 18,
         "maxEnemyLevel": 23,
         "masteryExp": 138,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExcavation",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionMidLevelRewards"
         ],
@@ -4071,6 +4447,11 @@
         "minEnemyLevel": 19,
         "maxEnemyLevel": 21,
         "masteryExp": 138,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetHijack",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [],
         "nextNodes": [
             "SolNode205",
@@ -4092,6 +4473,11 @@
         "minEnemyLevel": 18,
         "maxEnemyLevel": 23,
         "masteryExp": 138,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetInterception",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsMedium"
         ],
@@ -4117,6 +4503,11 @@
         "minEnemyLevel": 18,
         "maxEnemyLevel": 20,
         "masteryExp": 138,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipIntel",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSpyTiers",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyMediumMissionRewards"
         ],
@@ -4137,6 +4528,8 @@
         "minEnemyLevel": 18,
         "maxEnemyLevel": 23,
         "masteryExp": 138,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetDefense",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsMedium"
         ],
@@ -4157,6 +4550,11 @@
         "minEnemyLevel": 20,
         "maxEnemyLevel": 22,
         "masteryExp": 138,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetRescue",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsMedium"
         ],
@@ -4179,6 +4577,7 @@
         "minEnemyLevel": 23,
         "maxEnemyLevel": 33,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetDefense",
         "missionReward": {
             "credits": 16000
         },
@@ -4208,6 +4607,11 @@
         "minEnemyLevel": 20,
         "maxEnemyLevel": 22,
         "masteryExp": 138,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetSabotage",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusHeavyEnemiesDropship",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [],
         "nextNodes": [
             "SolNode203",
@@ -4229,6 +4633,7 @@
         "minEnemyLevel": 23,
         "maxEnemyLevel": 33,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExcavation",
         "missionReward": {
             "credits": 16000
         },
@@ -4258,6 +4663,7 @@
         "minEnemyLevel": 10,
         "maxEnemyLevel": 15,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerExterminate",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidLowLevelRewards"
         ],
@@ -4280,6 +4686,8 @@
         "minEnemyLevel": 10,
         "maxEnemyLevel": 15,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerCapture",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsMedium",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidLowLevelRewards"
         ],
@@ -4302,6 +4710,7 @@
         "minEnemyLevel": 10,
         "maxEnemyLevel": 15,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDefense",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidEndlessLowLevelRewards"
         ],
@@ -4322,6 +4731,7 @@
         "minEnemyLevel": 20,
         "maxEnemyLevel": 25,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerMobileDefense",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidMedLevelRewards"
         ],
@@ -4344,6 +4754,8 @@
         "minEnemyLevel": 20,
         "maxEnemyLevel": 25,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerSabotageForest",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSabotageGrineerForest",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidMedLevelRewards"
         ],
@@ -4367,6 +4779,7 @@
         "minEnemyLevel": 20,
         "maxEnemyLevel": 25,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerSurvivalRaid",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidEndlessMedLevelRewards"
         ],
@@ -4387,6 +4800,8 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 35,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerCapture",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsHard",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidHighLevelRewards"
         ],
@@ -4409,6 +4824,7 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 35,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerExterminate",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidHighLevelRewards"
         ],
@@ -4431,6 +4847,7 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 35,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDefense",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidEndlessHighLevelRewards"
         ],
@@ -4451,6 +4868,7 @@
         "minEnemyLevel": 40,
         "maxEnemyLevel": 45,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerSurvivalRaid",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidEndlessUltraLevelRewards"
         ],
@@ -4471,6 +4889,7 @@
         "minEnemyLevel": 40,
         "maxEnemyLevel": 45,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerMobileDefense",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidUltraLevelRewards"
         ],
@@ -4493,6 +4912,8 @@
         "minEnemyLevel": 40,
         "maxEnemyLevel": 45,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerSabotageIcePlanet",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSabotageCorpus",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidUltraLevelRewards"
         ],
@@ -4516,6 +4937,7 @@
         "minEnemyLevel": 40,
         "maxEnemyLevel": 45,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerInterception",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidEndlessUltraLevelRewards"
         ],
@@ -4538,6 +4960,7 @@
         "minEnemyLevel": 10,
         "maxEnemyLevel": 12,
         "masteryExp": 157,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipExterminate",
         "rewardManifests": [],
         "nextNodes": [
             "SettlementNode15",
@@ -4559,6 +4982,7 @@
         "minEnemyLevel": 10,
         "maxEnemyLevel": 15,
         "masteryExp": 157,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalLowLevelRewards"
         ],
@@ -4581,6 +5005,8 @@
         "minEnemyLevel": 12,
         "maxEnemyLevel": 14,
         "masteryExp": 157,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCapture",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsMedium",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
         ],
@@ -4604,6 +5030,7 @@
         "minEnemyLevel": 13,
         "maxEnemyLevel": 15,
         "masteryExp": 157,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipRescue",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsEasy"
         ],
@@ -4626,6 +5053,7 @@
         "minEnemyLevel": 12,
         "maxEnemyLevel": 14,
         "masteryExp": 157,
+        "levelOverride": "/Lotus/Levels/SpaceBattles/TRRace",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/ArchwingDefenceMissionRewardsEasy"
         ],
@@ -4650,6 +5078,7 @@
         "minEnemyLevel": 11,
         "maxEnemyLevel": 13,
         "masteryExp": 157,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipMobileDefense",
         "rewardManifests": [],
         "nextNodes": [
             "SettlementNode11",
@@ -4671,6 +5100,7 @@
         "minEnemyLevel": 10,
         "maxEnemyLevel": 15,
         "masteryExp": 157,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipDefense",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsEasy"
         ],
@@ -4691,6 +5121,8 @@
         "minEnemyLevel": 11,
         "maxEnemyLevel": 13,
         "masteryExp": 157,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipIntel",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSpyTiers",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyLowMissionRewards"
         ],
@@ -4713,6 +5145,8 @@
         "minEnemyLevel": 15,
         "maxEnemyLevel": 25,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidColonistRescue",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/ColonistRescueAgentsA",
         "missionReward": {
             "credits": 16000
         },
@@ -4742,6 +5176,7 @@
         "minEnemyLevel": 13,
         "maxEnemyLevel": 15,
         "masteryExp": 100,
+        "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShip",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/MagRewards"
         ],
@@ -4762,6 +5197,7 @@
         "minEnemyLevel": 15,
         "maxEnemyLevel": 25,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidSurvivalRaid",
         "missionReward": {
             "credits": 16000
         },
@@ -4791,6 +5227,11 @@
         "minEnemyLevel": 12,
         "maxEnemyLevel": 14,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictCapture",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
         ],
@@ -4813,6 +5254,7 @@
         "minEnemyLevel": 15,
         "maxEnemyLevel": 20,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictDefense",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DerelictDefenseRewards"
         ],
@@ -4835,6 +5277,11 @@
         "minEnemyLevel": 13,
         "maxEnemyLevel": 15,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictExterminate",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateBlades",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
         "rewardManifests": [],
         "nextNodes": [
             "SolNode229",
@@ -4856,6 +5303,10 @@
         "minEnemyLevel": 15,
         "maxEnemyLevel": 17,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictMobileDefense",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
         "rewardManifests": [],
         "nextNodes": [
             "SolNode712"
@@ -4876,6 +5327,11 @@
         "minEnemyLevel": 14,
         "maxEnemyLevel": 16,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictSabotageSettlement",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSabotageGrineerSettlement",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
         "rewardManifests": [],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/OrokinDerelictSabotageRewards",
         "nextNodes": [
@@ -4898,6 +5354,10 @@
         "minEnemyLevel": 25,
         "maxEnemyLevel": 35,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictSurvivalRaid",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DerelictSurvivalRewards"
         ],
@@ -4920,6 +5380,7 @@
         "minEnemyLevel": 20,
         "maxEnemyLevel": 25,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictBoss",
         "missionReward": {
             "credits": 7500
         },
@@ -4945,6 +5406,8 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 35,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictMutalistBoss",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistEnemies",
         "missionReward": {
             "credits": 7500
         },
@@ -4966,6 +5429,7 @@
         "minEnemyLevel": 15,
         "maxEnemyLevel": 30,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedMicroplanetLandscape",
         "rewardManifests": [],
         "nextNodes": [
             "DeimosHub"
@@ -4986,6 +5450,7 @@
         "minEnemyLevel": 55,
         "maxEnemyLevel": 60,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiLabSwarm",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/SwarmAssassinationRewards"
         ],
@@ -5007,6 +5472,7 @@
         "minEnemyLevel": 55,
         "maxEnemyLevel": 60,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiLabExterminate",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/EntratiExterminateRewards"
         ],
@@ -5028,6 +5494,7 @@
         "minEnemyLevel": 55,
         "maxEnemyLevel": 60,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiLabSurvival",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/EntratiSurvivalRewards"
         ],
@@ -5049,6 +5516,7 @@
         "minEnemyLevel": 55,
         "maxEnemyLevel": 60,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiLabAlchemy",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/EntratiAlchemyRewards"
         ],
@@ -5070,6 +5538,7 @@
         "minEnemyLevel": 55,
         "maxEnemyLevel": 60,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiLabMirrorDefense",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/EntratiLoopDefenseRewards"
         ],
@@ -5091,6 +5560,8 @@
         "minEnemyLevel": 55,
         "maxEnemyLevel": 60,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiLabDisruption",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionEntratiLab",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/EntratiDisruptionRewards"
         ],
@@ -5115,6 +5586,11 @@
         "minEnemyLevel": 25,
         "maxEnemyLevel": 30,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonExterminate",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientTrooperSpawner"
+        ],
         "rewardManifests": [],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsMoon",
         "questReq": "/Lotus/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyChain",
@@ -5141,6 +5617,8 @@
         "minEnemyLevel": 25,
         "maxEnemyLevel": 30,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonSpy",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusGrineerMixMoonIntelTiers",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyMoonMissionRewards"
         ],
@@ -5163,6 +5641,10 @@
         "minEnemyLevel": 25,
         "maxEnemyLevel": 30,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonSurvival",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientTrooperSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalHighLevelRewards"
         ],
@@ -5185,6 +5667,7 @@
         "minEnemyLevel": 25,
         "maxEnemyLevel": 30,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonDefense",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsHard"
         ],
@@ -5207,6 +5690,8 @@
         "minEnemyLevel": 25,
         "maxEnemyLevel": 30,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonCapture",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsHard",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
         ],
@@ -5229,6 +5714,10 @@
         "minEnemyLevel": 25,
         "maxEnemyLevel": 30,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonMobileDefense",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientTrooperSpawner"
+        ],
         "rewardManifests": [],
         "nextNodes": [
             "SolNode305",
@@ -5250,6 +5739,8 @@
         "minEnemyLevel": 25,
         "maxEnemyLevel": 30,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonRescue",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/RescueCorrupted",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsHard"
         ],
@@ -5272,6 +5763,11 @@
         "minEnemyLevel": 35,
         "maxEnemyLevel": 40,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonDisruption",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionCorpusLua",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientTrooperSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionLuaRewards"
         ],
@@ -5293,6 +5789,10 @@
         "minEnemyLevel": 25,
         "maxEnemyLevel": 30,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonSurvivalVoidEclipse",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientTrooperSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidEclipseRewards/VoidEclipseEasyRewards",
             "/Lotus/Types/Game/MissionDecks/VoidEclipseRewards/VoidEclipseEasyExtraRewards"
@@ -5316,6 +5816,10 @@
         "minEnemyLevel": 80,
         "maxEnemyLevel": 100,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonSurvivalVoidEclipse",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/SentientTrooperSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidEclipseRewards/VoidEclipseHardRewards",
             "/Lotus/Types/Game/MissionDecks/VoidEclipseRewards/VoidEclipseHardExtraRewards"
@@ -5337,6 +5841,8 @@
         "minEnemyLevel": 29,
         "maxEnemyLevel": 31,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressSabotage",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemiesFortress",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode743",
@@ -5358,6 +5864,7 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 32,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressDefense",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsHard"
         ],
@@ -5380,6 +5887,7 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 32,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressMobileDefense",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode748"
@@ -5400,6 +5908,7 @@
         "minEnemyLevel": 32,
         "maxEnemyLevel": 37,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressSurvival",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/QueenHighLevelRewards"
         ],
@@ -5420,6 +5929,8 @@
         "minEnemyLevel": 35,
         "maxEnemyLevel": 40,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressDisruption",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionGrineerFortress",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionFortressRewards"
         ],
@@ -5440,6 +5951,7 @@
         "minEnemyLevel": 28,
         "maxEnemyLevel": 30,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressExterminate",
         "rewardManifests": [],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsFortress",
         "questReq": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyChain",
@@ -5462,6 +5974,8 @@
         "minEnemyLevel": 31,
         "maxEnemyLevel": 33,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressSpy",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersFortress",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/QueensSpyHighMissionRewards"
         ],
@@ -5484,6 +5998,7 @@
         "minEnemyLevel": 31,
         "maxEnemyLevel": 33,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressRescue",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsHard"
         ],
@@ -5506,6 +6021,8 @@
         "minEnemyLevel": 50,
         "maxEnemyLevel": 55,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Zariman/ZarimanCorruption",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/Zariman/ZarimanCorruptedSquad",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/VoidFloodRewards"
         ],
@@ -5527,6 +6044,7 @@
         "minEnemyLevel": 50,
         "maxEnemyLevel": 55,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Zariman/ZarimanDirectionalExterminate",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/ZarimanExterminateRewards"
         ],
@@ -5548,6 +6066,7 @@
         "minEnemyLevel": 50,
         "maxEnemyLevel": 55,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Zariman/ZarimanDirectionalSurvival",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/VoidCascadeRewards"
         ],
@@ -5569,6 +6088,7 @@
         "minEnemyLevel": 50,
         "maxEnemyLevel": 55,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Zariman/ZarimanAssassinateEndless",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/VoidArmageddonRewards"
         ],
@@ -5590,6 +6110,7 @@
         "minEnemyLevel": 50,
         "maxEnemyLevel": 55,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Zariman/ZarimanMobileDefense",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/ZarimanMobileDefenseRewards"
         ],
@@ -5611,6 +6132,7 @@
         "minEnemyLevel": 20,
         "maxEnemyLevel": 20,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Duviri/DuviriLandscapeJealous",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DuviriEncounterRewards/DuviriResourceRewards"
         ],
@@ -5632,6 +6154,7 @@
         "minEnemyLevel": 20,
         "maxEnemyLevel": 20,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Duviri/DuviriLandscape",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DuviriEncounterRewards/DuviriResourceRewards"
         ],
@@ -5653,6 +6176,7 @@
         "minEnemyLevel": 35,
         "maxEnemyLevel": 55,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Duviri/DuviriLandscapeArenasOnly",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DuviriEncounterRewards/DuviriCircuitResourceRewards"
         ],
@@ -5674,6 +6198,7 @@
         "minEnemyLevel": 65,
         "maxEnemyLevel": 70,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaCaptureWinterWet",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/EndlessCaptureRewards"
         ],
@@ -5695,6 +6220,7 @@
         "minEnemyLevel": 65,
         "maxEnemyLevel": 70,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaSurvivalScaldraWinterWet",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/ScaldraSurvivalRewards"
         ],
@@ -5716,6 +6242,7 @@
         "minEnemyLevel": 65,
         "maxEnemyLevel": 70,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaSurvivalTechrotWinterWet",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/InfestedSurvivalRewards"
         ],
@@ -5737,6 +6264,7 @@
         "minEnemyLevel": 65,
         "maxEnemyLevel": 70,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaExterminateScaldraWinterWet",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/EscalatingExterminateRewards"
         ],
@@ -5759,6 +6287,7 @@
         "minEnemyLevel": 65,
         "maxEnemyLevel": 70,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaExterminateTechrotSummer",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/EscalatingExterminateRewards"
         ],
@@ -5781,6 +6310,7 @@
         "minEnemyLevel": 65,
         "maxEnemyLevel": 70,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaPvPvEWinterWet",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/PvPvEVsAiRewards"
         ],
@@ -5802,6 +6332,7 @@
         "minEnemyLevel": 65,
         "maxEnemyLevel": 70,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaAssassinationWinterWet",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/TankAssassinateRewards"
         ],
@@ -5823,6 +6354,7 @@
         "minEnemyLevel": 65,
         "maxEnemyLevel": 70,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaPvPvEWinterWet",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/PvPvEVsAiRewards"
         ],
@@ -5844,6 +6376,7 @@
         "minEnemyLevel": 65,
         "maxEnemyLevel": 70,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaEchoesDefenseWinterWet",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/DefenseRewards"
         ],
@@ -5865,6 +6398,7 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EndlessExterminationRewards/EndlessExterminationRewardsEasy"
         ],
+        "levelOverride": "/Lotus/Levels/DarkSectors/DarkSectorSpawn.level",
         "questReq": "/Lotus/Types/Keys/DragonQuest/DragonQuestKeyChain",
         "nextNodes": [],
         "hidden": true
@@ -5884,6 +6418,7 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EndlessExterminationRewards/EndlessExterminationRewardsHard"
         ],
+        "levelOverride": "/Lotus/Levels/DarkSectors/DarkSectorSpawn.level",
         "questReq": "/Lotus/Types/Keys/DragonQuest/DragonQuestKeyChain",
         "nextNodes": [],
         "hidden": true
@@ -5903,6 +6438,7 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/PVPMissionRewards/CTFRewards"
         ],
+        "levelOverride": "/Lotus/Levels/PVP/CTFOutpostCliffPort.level",
         "nextNodes": [],
         "hidden": true
     },
@@ -5921,6 +6457,7 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/PVPMissionRewards/TDMRewards"
         ],
+        "levelOverride": "/Lotus/Levels/PVP/DMCorpusShip.level",
         "nextNodes": [],
         "hidden": true
     },
@@ -5937,6 +6474,7 @@
         "maxEnemyLevel": 0,
         "masteryExp": 0,
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/PVP/DMCorpusShip.level",
         "nextNodes": [],
         "hidden": true
     },
@@ -5953,6 +6491,7 @@
         "maxEnemyLevel": 0,
         "masteryExp": 0,
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/Hub/RelayStationHubMain",
         "nextNodes": []
     },
     "SolarisUnitedHub1": {
@@ -5968,6 +6507,7 @@
         "maxEnemyLevel": 0,
         "masteryExp": 0,
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/CivilianHubs/SolarisUnitedTown",
         "nextNodes": [
             "SolNode129"
         ]
@@ -5999,6 +6539,21 @@
             "/Lotus/Types/Challenges/StarChart/VenusToMercury/VMStartCraftingRhino"
         ],
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "missionReward": {
+            "credits": 20000,
+            "items": [
+                "/Lotus/StoreItems/Weapons/Tenno/Rifle/BoltoRifle",
+                "/Lotus/StoreItems/Types/Keys/InfestedIntroQuest/InfestedIntroQuestKeyChain",
+                "/Lotus/StoreItems/Types/Keys/KubrowQuest/KubrowQuestKeyChain"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/VenusToMercury/VMCompleteQuestVox",
+            "/Lotus/Types/Challenges/StarChart/VenusToMercury/VMPurchaseRhinoBlueprint",
+            "/Lotus/Types/Challenges/StarChart/VenusToMercury/VMKillBossJackal",
+            "/Lotus/Types/Challenges/StarChart/VenusToMercury/VMStartCraftingRhino"
+        ],
         "nextNodes": [
             "SolNode103",
             "SolNode226",
@@ -6018,6 +6573,7 @@
         "maxEnemyLevel": 0,
         "masteryExp": 0,
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/CivilianHubs/OstronTown",
         "nextNodes": [
             "SolNode228",
             "SolNode451"
@@ -6048,6 +6604,19 @@
             "/Lotus/Types/Challenges/StarChart/EarthToVenus/EVStartCraftingTaxon"
         ],
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "missionReward": {
+            "credits": 15000,
+            "items": [
+                "/Lotus/StoreItems/Weapons/Tenno/Pistol/AutoPistol"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/EarthToVenus/EVCompleteQuest",
+            "/Lotus/Types/Challenges/StarChart/EarthToVenus/EVEquipDreamersBondMod",
+            "/Lotus/Types/Challenges/StarChart/EarthToVenus/EVUpgradeDreamersBondMod",
+            "/Lotus/Types/Challenges/StarChart/EarthToVenus/EVStartCraftingTaxon"
+        ],
         "nextNodes": [
             "SolNode128"
         ]
@@ -6079,6 +6648,21 @@
             "/Lotus/Types/Challenges/StarChart/EarthToMars/EMPurchaseWeapon"
         ],
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "missionReward": {
+            "credits": 25000,
+            "items": [
+                "/Lotus/StoreItems/Weapons/Tenno/Melee/Hammer/HammerWeapon",
+                "/Lotus/StoreItems/Types/Keys/ArchwingQuest/ArchwingQuestKeyChain",
+                "/Lotus/StoreItems/Types/Keys/InfestedMicroplanetQuest/InfestedMicroplanetQuestKeyChain"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/EarthToMars/EMCompleteQuest",
+            "/Lotus/Types/Challenges/StarChart/EarthToMars/EMVisitSideQuest",
+            "/Lotus/Types/Challenges/StarChart/EarthToMars/EMBoltorOnly",
+            "/Lotus/Types/Challenges/StarChart/EarthToMars/EMPurchaseWeapon"
+        ],
         "nextNodes": []
     },
     "EarthHUB": {
@@ -6094,6 +6678,7 @@
         "maxEnemyLevel": 0,
         "masteryExp": 0,
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/Hub/RelayStationHubMain",
         "nextNodes": []
     },
     "TradeHUB1": {
@@ -6109,6 +6694,7 @@
         "maxEnemyLevel": 0,
         "masteryExp": 0,
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/Hub/RelayStationHubTrading",
         "nextNodes": []
     },
     "MarsToCeresJunction": {
@@ -6136,6 +6722,19 @@
             "/Lotus/Types/Challenges/StarChart/MarsToCeres/MCPledgeSyndicate"
         ],
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "missionReward": {
+            "credits": 20000,
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/Weapons/GrnSniperRifleBlueprint"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/MarsToCeres/MCCompleteTreasureHunt",
+            "/Lotus/Types/Challenges/StarChart/MarsToCeres/MCFillTreasure",
+            "/Lotus/Types/Challenges/StarChart/MarsToCeres/MCTradeTreasure",
+            "/Lotus/Types/Challenges/StarChart/MarsToCeres/MCPledgeSyndicate"
+        ],
         "nextNodes": [
             "SolNode131"
         ]
@@ -6166,6 +6765,20 @@
             "/Lotus/Types/Challenges/StarChart/MarsToPhobos/MPVisitMaroo"
         ],
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "missionReward": {
+            "credits": 20000,
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/Weapons/GrnHeavyPistolBlueprint",
+                "/Lotus/StoreItems/Types/Keys/SpyQuestKeyChain/SpyQuestKeyChain"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/MarsToCeres/MCVoidProjectionUpgrade",
+            "/Lotus/Types/Challenges/StarChart/MarsToPhobos/MPVoidTears",
+            "/Lotus/Types/Challenges/StarChart/MarsToPhobos/MPHeadshotKills",
+            "/Lotus/Types/Challenges/StarChart/MarsToPhobos/MPVisitMaroo"
+        ],
         "nextNodes": [
             "SettlementNode1"
         ]
@@ -6183,6 +6796,7 @@
         "maxEnemyLevel": 0,
         "masteryExp": 0,
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiSecretLabNecralisk",
         "nextNodes": [
             "EntratiLabHub"
         ]
@@ -6200,6 +6814,7 @@
         "maxEnemyLevel": 0,
         "masteryExp": 0,
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiSecretLabNecralisk",
         "nextNodes": [
             "SolNode715",
             "SolNode716",
@@ -6223,6 +6838,7 @@
         "maxEnemyLevel": 240,
         "masteryExp": 0,
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiVoidVault",
         "nextNodes": [],
         "hidden": true
     },
@@ -6251,6 +6867,19 @@
             "/Lotus/Types/Challenges/StarChart/DeimosToJupiter/DJUpgradeRedirectionToRankFive"
         ],
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "missionReward": {
+            "credits": 30000,
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/Weapons/GrnStaffBlueprint"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/DeimosToJupiter/DJCompleteQuest",
+            "/Lotus/Types/Challenges/StarChart/DeimosToJupiter/DJRandomizedWallClingKillstreak",
+            "/Lotus/Types/Challenges/StarChart/DeimosToJupiter/DJPlayedParkourTutorial",
+            "/Lotus/Types/Challenges/StarChart/DeimosToJupiter/DJUpgradeRedirectionToRankFive"
+        ],
         "nextNodes": [
             "SolNode100"
         ]
@@ -6282,6 +6911,21 @@
             "/Lotus/Types/Challenges/StarChart/JupiterToEuropa/JECompleteNightmare"
         ],
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "missionReward": {
+            "credits": 30000,
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/Weapons/CorpusMinigunBlueprint",
+                "/Lotus/StoreItems/Types/Keys/LimboQuest/LimboQuestKeyChain",
+                "/Lotus/StoreItems/Types/Keys/DragonQuest/DragonQuestKeyChain"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/JupiterToEuropa/JELearnSynthesis",
+            "/Lotus/Types/Challenges/StarChart/JupiterToEuropa/JEVisitDojo",
+            "/Lotus/Types/Challenges/StarChart/JupiterToEuropa/JEStartCraftingForma",
+            "/Lotus/Types/Challenges/StarChart/JupiterToEuropa/JECompleteNightmare"
+        ],
         "nextNodes": [
             "SolNode209"
         ]
@@ -6312,6 +6956,20 @@
             "/Lotus/Types/Challenges/StarChart/JupiterToSaturn/JSDissolveFiveMods"
         ],
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "missionReward": {
+            "credits": 40000,
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/Weapons/GrenadeLauncherBlueprint",
+                "/Lotus/StoreItems/Types/Keys/ProteaQuest/ProteaQuestKeyChain"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/JupiterToSaturn/JSCompleteQuest",
+            "/Lotus/Types/Challenges/StarChart/JupiterToSaturn/JSEquipCodexScanner",
+            "/Lotus/Types/Challenges/StarChart/JupiterToSaturn/JSCodexScan",
+            "/Lotus/Types/Challenges/StarChart/JupiterToSaturn/JSDissolveFiveMods"
+        ],
         "nextNodes": [
             "SolNode70",
             "SolNode67",
@@ -6346,6 +7004,22 @@
             "/Lotus/Types/Challenges/StarChart/SaturnToUranus/SUTransmuteMod"
         ],
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "missionReward": {
+            "credits": 40000,
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/Weapons/CorpusWhipBlueprint",
+                "/Lotus/StoreItems/Types/Keys/DuviriQuest/DuviriQuestKeyChain",
+                "/Lotus/StoreItems/Types/NeutralCreatures/ErsatzHorse/ErsatzHorsePowerSuit",
+                "/Lotus/StoreItems/Types/Items/EmailItems/NatahEmailItem"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/SaturnToUranus/SUKillBossSargasRuk",
+            "/Lotus/Types/Challenges/StarChart/SaturnToUranus/SUHeavyMeleeKills",
+            "/Lotus/Types/Challenges/StarChart/SaturnToUranus/SUTitanSurvival",
+            "/Lotus/Types/Challenges/StarChart/SaturnToUranus/SUTransmuteMod"
+        ],
         "nextNodes": [
             "SolNode34"
         ]
@@ -6363,6 +7037,7 @@
         "maxEnemyLevel": 0,
         "masteryExp": 0,
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/Hub/RelayStationHubMain",
         "nextNodes": []
     },
     "SolNode723": {
@@ -6383,6 +7058,7 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/AscensionMissionRewards/AscensionRewards"
         ],
+        "levelOverride": "/Lotus/Levels/Proc/JadeShadows/JSStalkerCaveHubElevator",
         "questReq": "/Lotus/Types/Keys/JadeShadows/JadeShadowQuestKeyChain",
         "nextNodes": [],
         "hidden": true
@@ -6413,6 +7089,20 @@
             "/Lotus/Types/Challenges/StarChart/UranusToNeptune/UNCompleteCaliban"
         ],
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "missionReward": {
+            "credits": 80000,
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/Weapons/ReconnasorBlueprint",
+                "/Lotus/StoreItems/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyChain"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/UranusToNeptune/UNCompleteQuest",
+            "/Lotus/Types/Challenges/StarChart/UranusToNeptune/UNKillBossTylRegor",
+            "/Lotus/Types/Challenges/StarChart/UranusToNeptune/UNMeleeOnly",
+            "/Lotus/Types/Challenges/StarChart/UranusToNeptune/UNCompleteCaliban"
+        ],
         "nextNodes": [
             "SolNode1"
         ]
@@ -6432,6 +7122,12 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 30,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/CorpusArenas/OutpostArena.level",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusChampions/CorpusChampions",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveGreedAlliedSpecs",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CorpusArenaWagerRewardsHard"
         ],
@@ -6453,6 +7149,12 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 30,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/CorpusArenas/OutpostArena.level",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusChampions/CorpusChampions",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveGreedAlliedSpecs",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CorpusArenaWagerRewardsHard"
         ],
@@ -6474,6 +7176,12 @@
         "minEnemyLevel": 30,
         "maxEnemyLevel": 30,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/CorpusArenas/OutpostArena.level",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusChampions/CorpusChampions",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveGreedAlliedSpecs",
+        "customAdvancedSpawners": [
+            "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
+        ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CorpusArenaWagerRewardsHard"
         ],
@@ -6529,6 +7237,23 @@
             "/Lotus/Types/Challenges/StarChart/NeptuneToPluto/NPCompleteFactionInvasionMissionInfested"
         ],
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "missionReward": {
+            "credits": 80000,
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/Weapons/GrineerFlakCannonBlueprint",
+                "/Lotus/StoreItems/Types/Keys/WarWithinQuest/WarWithinQuestKeyChain"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/NeptuneToPluto/NPCompleteQuest",
+            "/Lotus/Types/Challenges/StarChart/NeptuneToPluto/NPKillBossHyena",
+            "/Lotus/Types/Challenges/StarChart/NeptuneToPluto/NPEquipArchwingLauncher",
+            "/Lotus/Types/Challenges/StarChart/NeptuneToPluto/NPCompleteFactionInvasionMission",
+            "/Lotus/Types/Challenges/StarChart/NeptuneToPluto/NPCompleteFactionInvasionMissionCorpus",
+            "/Lotus/Types/Challenges/StarChart/NeptuneToPluto/NPCompleteFactionInvasionMissionGrineer",
+            "/Lotus/Types/Challenges/StarChart/NeptuneToPluto/NPCompleteFactionInvasionMissionInfested"
+        ],
         "nextNodes": [
             "SolNode76",
             "SolNode38",
@@ -6561,6 +7286,20 @@
             "/Lotus/Types/Challenges/StarChart/PlutoToEris/PETheWarWithin"
         ],
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "missionReward": {
+            "credits": 100000,
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/Weapons/MireSwordBlueprint",
+                "/Lotus/StoreItems/Types/Keys/InfestedAladVQuest/InfestedAladVQuestKeyChain"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/PlutoToEris/PEDefenseWaves",
+            "/Lotus/Types/Challenges/StarChart/PlutoToEris/PEEquipFocusLens",
+            "/Lotus/Types/Challenges/StarChart/PlutoToEris/PEFindOrokinVault",
+            "/Lotus/Types/Challenges/StarChart/PlutoToEris/PETheWarWithin"
+        ],
         "nextNodes": [
             "SolNode175"
         ]
@@ -6591,6 +7330,20 @@
             "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESKillBossAmbulas"
         ],
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "missionReward": {
+            "credits": 100000,
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/Weapons/DualDaggerBlueprint",
+                "/Lotus/StoreItems/Types/Keys/MirageQuest/MirageQuestKeyChain"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESCompleteQuest",
+            "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESCompleteRailjackMission",
+            "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESGetKills",
+            "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESKillBossAmbulas"
+        ],
         "nextNodes": [
             "SolNode189"
         ]
@@ -6608,6 +7361,7 @@
         "maxEnemyLevel": 0,
         "masteryExp": 0,
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/Hub/RelayStationHubMain",
         "nextNodes": []
     },
     "SolNode701": {
@@ -6663,6 +7417,7 @@
         "maxEnemyLevel": 0,
         "masteryExp": 0,
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/Zariman/ZarimanHub",
         "questReq": "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain",
         "nextNodes": [
             "SolNode230",
@@ -6685,6 +7440,7 @@
         "maxEnemyLevel": 0,
         "masteryExp": 0,
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/Zariman/ZarimanHubApartment",
         "nextNodes": []
     },
     "1999Hub": {
@@ -6700,6 +7456,7 @@
         "maxEnemyLevel": 0,
         "masteryExp": 0,
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoProtoRelayHUBWinterSnow",
         "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain",
         "nextNodes": []
     },
@@ -6716,6 +7473,7 @@
         "maxEnemyLevel": 100,
         "masteryExp": 0,
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/1999/Railjack/RJLasXEarthCombined1Poi",
         "nextNodes": [],
         "hidden": true
     },
@@ -6735,6 +7493,7 @@
         "maxEnemyLevel": 1,
         "masteryExp": 0,
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackEarthCombinedNoXPProc",
         "nextNodes": []
     },
     "CrewBattleNode502": {
@@ -6759,6 +7518,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/EarthRailjackRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackEarthCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackEarthCombinedExterminateNoPoiProc",
+        "missionReward": {
+            "credits": 32000
+        },
         "questReq": "/Lotus/Types/Keys/RailJackBuildQuest/RailjackBuildQuestKeyChain",
         "nextNodes": [
             "CrewBattleNode509"
@@ -6786,6 +7549,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/EarthRailjackRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackEarthCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackEarthCombinedExterminate1PoiProc",
+        "missionReward": {
+            "credits": 38000
+        },
         "nextNodes": [
             "CrewBattleNode518"
         ]
@@ -6812,6 +7579,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/EarthRailjackRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackEarthCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackEarthCombinedExterminate1PoiProc",
+        "missionReward": {
+            "credits": 42500
+        },
         "nextNodes": [
             "CrewBattleNode519"
         ]
@@ -6838,6 +7609,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/EarthRailjackRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackEarthCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackEarthCombinedExterminate1Poi1GalleonProc",
+        "missionReward": {
+            "credits": 45000
+        },
         "nextNodes": [
             "CrewBattleNode522"
         ]
@@ -6864,6 +7639,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/EarthRailjackRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackEarthCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackEarthCombinedExterminate1PoiProc",
+        "missionReward": {
+            "credits": 45000
+        },
         "nextNodes": [
             "CrewBattleNode533"
         ]
@@ -6890,6 +7669,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusVolatileRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackVenusStanchionVolatile",
+        "missionReward": {
+            "credits": 33750
+        },
         "questReq": "/Lotus/Types/Keys/RailJackBuildQuest/RailjackBuildQuestKeyChain",
         "nextNodes": [
             "CrewBattleNode512"
@@ -6917,6 +7700,11 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusOrphixRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackVenusStanchionOrphix",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/MechEventExtraSpec",
+        "missionReward": {
+            "credits": 41250
+        },
         "questReq": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyChain",
         "nextNodes": [
             "CrewBattleNode515"
@@ -6944,6 +7732,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusSurvivalRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackVenusStanchionSurvival",
+        "missionReward": {
+            "credits": 41250
+        },
         "nextNodes": [
             "CrewBattleNode514"
         ]
@@ -6970,6 +7762,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusDefenseRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackVenusPillarDefense",
+        "missionReward": {
+            "credits": 45000
+        },
         "nextNodes": [
             "CrewBattleNode533"
         ]
@@ -6996,6 +7792,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusExterminateRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackVenusStanchionExterminate",
+        "missionReward": {
+            "credits": 30000
+        },
         "nextNodes": [
             "CrewBattleNode511"
         ]
@@ -7022,6 +7822,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusSpyVaultsRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackVenusStanchionSpy",
+        "missionReward": {
+            "credits": 37500
+        },
         "nextNodes": [
             "CrewBattleNode513"
         ]
@@ -7045,6 +7849,10 @@
             "credits": 70000
         },
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/Nemesis/RailJackSaturnNemesisAssassinateProc",
+        "missionReward": {
+            "credits": 70000
+        },
         "nextNodes": [],
         "hidden": true
     },
@@ -7070,6 +7878,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/SaturnRailjackRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackSaturnCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackSaturnExterminateCombined1PoiProc",
+        "missionReward": {
+            "credits": 50000
+        },
         "nextNodes": [
             "CrewBattleNode534"
         ]
@@ -7096,6 +7908,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/SaturnRailjackRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackSaturnCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackSaturnExterminateCombined1PoiProc",
+        "missionReward": {
+            "credits": 55000
+        },
         "nextNodes": [
             "CrewBattleNode535"
         ]
@@ -7122,6 +7938,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/SaturnRailjackRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackSaturnCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackSaturnExterminateCombined1PoiProc",
+        "missionReward": {
+            "credits": 50000
+        },
         "nextNodes": [
             "CrewBattleNode501"
         ]
@@ -7148,6 +7968,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/SaturnRailjackRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackSaturnCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackSaturnExterminateCombined1PoiProc",
+        "missionReward": {
+            "credits": 70000
+        },
         "nextNodes": [
             "CrewBattleNode530"
         ]
@@ -7174,6 +7998,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/SaturnRailjackRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackSaturnCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackSaturnExterminateCombined1Poi1AsteroidProc",
+        "missionReward": {
+            "credits": 75000
+        },
         "nextNodes": [
             "CrewBattleNode504"
         ]
@@ -7194,6 +8022,7 @@
         "maxEnemyLevel": 70,
         "masteryExp": 0,
         "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackNeptunePillarNemesisAssassinate",
         "nextNodes": [],
         "hidden": true
     },
@@ -7219,6 +8048,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneDefenseRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackNeptuneStanchionDefense",
+        "missionReward": {
+            "credits": 50000
+        },
         "nextNodes": [
             "CrewBattleNode516"
         ]
@@ -7245,6 +8078,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneExterminateRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackNeptuneStanchionExterminate",
+        "missionReward": {
+            "credits": 56250
+        },
         "nextNodes": [
             "CrewBattleNode521"
         ]
@@ -7271,6 +8108,11 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneOrphixRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackNeptunePillarOrphix",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/MechEventExtraSpec",
+        "missionReward": {
+            "credits": 68750
+        },
         "nextNodes": [
             "CrewBattleNode525"
         ]
@@ -7297,6 +8139,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneSpyVaultsRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackNeptunePillarSpy",
+        "missionReward": {
+            "credits": 75000
+        },
         "nextNodes": [
             "CrewBattleNode524"
         ]
@@ -7323,6 +8169,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneSurvivalRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackNeptunePillarSurvival",
+        "missionReward": {
+            "credits": 62500
+        },
         "nextNodes": [
             "CrewBattleNode523"
         ]
@@ -7349,6 +8199,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneVolatileRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackNeptuneObeliskVolatile",
+        "missionReward": {
+            "credits": 75000
+        },
         "nextNodes": [
             "CrewBattleNode526"
         ]
@@ -7375,6 +8229,11 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoOrphixRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackPlutoCharonStanchionOrphix",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/MechEventExtraSpec",
+        "missionReward": {
+            "credits": 80000
+        },
         "nextNodes": [
             "CrewBattleNode527"
         ]
@@ -7401,6 +8260,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoExterminateRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackPlutoCharonPillarExterminate",
+        "missionReward": {
+            "credits": 90000
+        },
         "nextNodes": [
             "CrewBattleNode528"
         ]
@@ -7427,6 +8290,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoDefenseRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackPlutoCharonPillarDefense",
+        "missionReward": {
+            "credits": 100000
+        },
         "nextNodes": [
             "CrewBattleNode531"
         ]
@@ -7453,6 +8320,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoSurvivalRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackPlutoCharonPillarSurvival",
+        "missionReward": {
+            "credits": 100000
+        },
         "nextNodes": [
             "CrewBattleNode529"
         ]
@@ -7479,6 +8350,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoVolatileRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackPlutoCharonObeliskVolatile",
+        "missionReward": {
+            "credits": 110000
+        },
         "nextNodes": [
             "CrewBattleNode536"
         ]
@@ -7505,6 +8380,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoSpyVaultsRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackPlutoCharonObeliskSpy",
+        "missionReward": {
+            "credits": 120000
+        },
         "nextNodes": [
             "CrewBattleNode550"
         ]
@@ -7531,6 +8410,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/DeepSpaceSentientRailjackRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackDeepSpaceCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace01ExterminateCombined1Poi1RadarProc",
+        "missionReward": {
+            "credits": 92500
+        },
         "nextNodes": [
             "CrewBattleNode553"
         ]
@@ -7557,6 +8440,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/DeepSpaceSentientRailjackRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackDeepSpaceCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace01ExterminateCombined1Poi1MissilePlatProc",
+        "missionReward": {
+            "credits": 115000
+        },
         "nextNodes": [
             "CrewBattleNode538"
         ]
@@ -7583,6 +8470,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/DeepSpaceSentientRailjackRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackDeepSpaceCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace01ExterminateCombined1Poi1HangarProc",
+        "missionReward": {
+            "credits": 135000
+        },
         "nextNodes": [
             "CrewBattleNode555"
         ]
@@ -7609,6 +8500,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/DeepSpaceSentientRailjackRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackDeepSpaceCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace02ExterminateCombined1Poi1GalleonProc",
+        "missionReward": {
+            "credits": 85000
+        },
         "nextNodes": [
             "CrewBattleNode554"
         ]
@@ -7635,6 +8530,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceExterminateRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace03StanchionExterminate",
+        "missionReward": {
+            "credits": 125000
+        },
         "nextNodes": [
             "CrewBattleNode539"
         ]
@@ -7661,6 +8560,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceVolatileRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace03PillarVolatile",
+        "missionReward": {
+            "credits": 131250
+        },
         "nextNodes": [
             "CrewBattleNode540"
         ]
@@ -7687,6 +8590,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceDefenseRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace03ObeliskDefense",
+        "missionReward": {
+            "credits": 137500
+        },
         "nextNodes": [
             "CrewBattleNode541"
         ]
@@ -7713,6 +8620,11 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceOrphixRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace03ObeliskOrphix",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/MechEventExtraSpec",
+        "missionReward": {
+            "credits": 143750
+        },
         "nextNodes": [
             "CrewBattleNode542"
         ]
@@ -7739,6 +8651,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceSurvivalRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace03ObeliskSurvival",
+        "missionReward": {
+            "credits": 150000
+        },
         "nextNodes": [
             "CrewBattleNode543"
         ]
@@ -7765,6 +8681,10 @@
             "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceSpyVaultRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards",
+        "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace03ObeliskSpy",
+        "missionReward": {
+            "credits": 150000
+        },
         "nextNodes": []
     }
 }
