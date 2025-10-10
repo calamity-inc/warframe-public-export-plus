@@ -54,6 +54,7 @@ export declare const ExportSentinels: Record<string, ISentinel>;
 export declare const ExportSyndicates: Record<string, ISyndicate>;
 export declare const ExportSystems: ISystem[];
 export declare const ExportTextIcons: Record<string, ITextIcon>;
+export declare const ExportTilesets: Record<string, ITileset>;
 export declare const ExportUpgrades: Record<string, IUpgrade>;
 export declare const ExportVendors: Record<string, IVendor>;
 export declare const ExportVirtuals: Record<string, IVirtual>;
@@ -870,6 +871,20 @@ export interface ITextIcon {
     DIT_PS5?:      string;
     DIT_IOS?:      string;
     DIT_AUTO?:     string;
+}
+
+export interface ITileset {
+    uniqueName: string;
+    faction?: TFaction;
+    missions: Record<TMissionType, ITilesetMission>;
+}
+
+export interface ITilesetMission {
+    procLevel: string;
+    enemySpecs?: string[];
+    extraEnemySpecs?: string[];
+    advancedSpawners?: string[];
+    vipAgent?: string;
 }
 
 export interface IUpgrade {

@@ -55,6 +55,7 @@ export const {
   ExportSyndicates,
   ExportSystems,
   ExportTextIcons,
+  ExportTilesets,
   ExportUpgrades,
   ExportVendors,
   ExportVirtuals,
