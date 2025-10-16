@@ -594,6 +594,35 @@
         "productCategory": "WeaponSkins",
         "tradable": false
     },
+    "/Lotus/Upgrades/Skins/Alchemist/AlchemistDeluxeAuxShoulder": {
+        "name": "/Lotus/Language/Deluxe/LavosDeluxeDefaultArmourName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Deluxe/LavosDeluxeDefaultArmourDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/LavosDeluxeSkin.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Alchemist/AlchemistDeluxeHelmet": {
+        "name": "/Lotus/Language/Deluxe/LavosDeluxeHelmetName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/LavosDeluxeHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/LavosDeluxeHelmet.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Alchemist/AlchemistDeluxeSuit": {
+        "name": "/Lotus/Language/Deluxe/LavosDeluxeSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/LavosDeluxeSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/LavosDeluxeSkin.png",
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/Alchemist/AlchemistDeluxeHelmet",
+            "/Lotus/Upgrades/Skins/Alchemist/AlchemistDeluxeAuxShoulder"
+        ],
+        "tradable": false
+    },
     "/Lotus/Upgrades/Skins/Alchemist/AlchemistHelmet": {
         "name": "/Lotus/Language/Cosmetics/LavosHelmetName",
         "codexSecret": false,
@@ -1992,6 +2021,30 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/Cosmetics/CrpHighArmorDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Armour/CrpHighArmorL.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Armor/CrpHighArmor/EvilBaroArcaArmorA": {
+        "name": "/Lotus/Language/Cosmetics/EvilBaroArcaArmorAName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Cosmetics/EvilBaroArcaArmorDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Armour/EvilBaroArcaArmourA.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Armor/CrpHighArmor/EvilBaroArcaArmorC": {
+        "name": "/Lotus/Language/Cosmetics/EvilBaroArcaArmorCName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Cosmetics/EvilBaroArcaArmorDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Armour/EvilBaroArcaArmourC.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Armor/CrpHighArmor/EvilBaroArcaArmorL": {
+        "name": "/Lotus/Language/Cosmetics/EvilBaroArcaArmorLName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Cosmetics/EvilBaroArcaArmorDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Armour/EvilBaroArcaArmourL.png",
         "productCategory": "WeaponSkins",
         "tradable": false
     },
@@ -5145,6 +5198,14 @@
             "CP_IOS"
         ]
     },
+    "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/SWKuvaelArmArmor": {
+        "name": "/Lotus/Language/SteamWorkshop/SWVorunaKuvaelDrahkaanisArmorName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/SteamWorkshop/SWVorunaKuvaelDrahkaanisArmorDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Armour/WarframeSpecific/SWVorunaKuvaelDrahkaanisArmor.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
     "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/SWLavosKuvaelArmArmor": {
         "name": "/Lotus/Language/SteamWorkshop/SWLavosKuvaelArmourName",
         "codexSecret": false,
@@ -5221,6 +5282,14 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/SteamWorkshop/SWVorunaDemionnaArmorDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Armour/WarframeSpecific/SWVorunaDemionnaArmor.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/SWYhavanDagathAArmor": {
+        "name": "/Lotus/Language/SteamWorkshop/SWDagathYhavanArmorName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/SteamWorkshop/SWDagathYhavanArmorDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Armour/WarframeSpecific/SWDagathYhavanArmArmour.png",
         "productCategory": "WeaponSkins",
         "tradable": false
     },
@@ -7570,6 +7639,15 @@
         "productCategory": "WeaponSkins",
         "tradable": false
     },
+    "/Lotus/Upgrades/Skins/Clan/NokkoBabySecretEmblemItem": {
+        "name": "/Lotus/Language/Cosmetics/NokkoBabySecretEmblemName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Cosmetics/NokkoBabySecretEmblemDesc",
+        "icon": "/Lotus/Materials/Emblems/NokkoBabySecretBadge_e.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
     "/Lotus/Upgrades/Skins/Clan/NoraSeasonTwoBadgeItem": {
         "name": "/Lotus/Language/Cosmetics/NoraSeasonTwoBadgeName",
         "codexSecret": false,
@@ -7786,6 +7864,14 @@
         "productCategory": "WeaponSkins",
         "tradable": false
     },
+    "/Lotus/Upgrades/Skins/Clan/Tennogen10YearBadgeItem": {
+        "name": "/Lotus/Language/Cosmetics/Tennogen10YearBadgeName",
+        "codexSecret": true,
+        "description": "/Lotus/Language/Cosmetics/Tennogen10YearBadgeDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Sigils/Tennogen10YearSigil.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
     "/Lotus/Upgrades/Skins/Clan/TranslatorBadgeItem": {
         "name": "/Lotus/Language/Items/TranslatorBadgeName",
         "codexSecret": false,
@@ -7940,6 +8026,14 @@
         "productCategory": "WeaponSkins",
         "alwaysAvailable": true,
         "requirement": "/Lotus/Upgrades/Skins/ConcreteFrame/UnlockConcreteNoble",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/ConcreteFrame/SWQorvexSarcophagoHelmet": {
+        "name": "/Lotus/Language/SteamWorkshop/SWQorvexSarcophagoAltHelmetName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/SteamWorkshop/SWQorvexSarcophagoAltHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/SWQorvexSarcophagoHelmet.png",
+        "productCategory": "WeaponSkins",
         "tradable": false
     },
     "/Lotus/Upgrades/Skins/Contests/LongGuns/VectisSharpshooter": {
@@ -8486,6 +8580,14 @@
         "productCategory": "WeaponSkins",
         "tradable": false
     },
+    "/Lotus/Upgrades/Skins/Crowns/LavosDeluxeCrown": {
+        "name": "/Lotus/Language/Deluxe/LavosDeluxeCrownName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/LavosDeluxeCrownDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Halo/LavosDeluxeCrown.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
     "/Lotus/Upgrades/Skins/Crowns/NovaDeluxeAoandonCrown": {
         "name": "/Lotus/Language/Cosmetics/NovaDeluxeAoandonSignaName",
         "codexSecret": false,
@@ -8573,6 +8675,34 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Dagath.png",
         "productCategory": "WeaponSkins",
         "alwaysAvailable": true,
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Dagath/SWVoiddaxHelmet": {
+        "name": "/Lotus/Language/SteamWorkshop/SWDagathVoiddaxHelmetName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/SteamWorkshop/SWDagathVoiddaxHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/SWDagathVoiddaxHelmet.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Dagath/SWYhavanDagathSkin": {
+        "name": "/Lotus/Language/SteamWorkshop/SWDagathYhavanSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/SteamWorkshop/SWDagathYhavanSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/SWDagathYhavanSkin.png",
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/Dagath/SWYhavanDagathSkinHelmet",
+            "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/SWYhavanDagathAArmor"
+        ],
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Dagath/SWYhavanDagathSkinHelmet": {
+        "name": "/Lotus/Language/SteamWorkshop/SWDagathYhavanHelmetName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/SteamWorkshop/SWDagathYhavanHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/SWDagathYhavanHelmet.png",
+        "productCategory": "WeaponSkins",
         "tradable": false
     },
     "/Lotus/Upgrades/Skins/Dazzle/BratonDazzleCamo": {
@@ -8963,6 +9093,14 @@
             "CP_IOS"
         ]
     },
+    "/Lotus/Upgrades/Skins/Deluxe/AlchemistDeluxeShotgunSkin": {
+        "name": "/Lotus/Language/Deluxe/LavosDeluxeShotgunSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/LavosDeluxeShotgunSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Skins/LavosDeluxeShotgunSkin.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
     "/Lotus/Upgrades/Skins/Deluxe/AshDeluxeIIBowSkin": {
         "name": "/Lotus/Language/Skins/AshDeluxeIIBowSkinName",
         "codexSecret": false,
@@ -9114,6 +9252,25 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Skins/WispDeluxeFulminSkinDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Skins/WispDeluxeFulminSkin.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Deluxe/WukongDeluxeBDualKatanaSkin": {
+        "name": "/Lotus/Language/Deluxe/WukongDeluxeBDualKatanaSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/WukongDeluxeBDualKatanaSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Skins/WukongDeluxeBDualKatanaSkin.png",
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/Deluxe/WukongDeluxeBKatanaSkin"
+        ],
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Deluxe/WukongDeluxeBKatanaSkin": {
+        "name": "/Lotus/Language/Deluxe/WukongDeluxeBKatanaSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/WukongDeluxeBKatanaSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Skins/WukongDeluxeBKatanaSkin.png",
         "productCategory": "WeaponSkins",
         "tradable": false
     },
@@ -9672,6 +9829,14 @@
         "productCategory": "WeaponSkins",
         "tradable": false
     },
+    "/Lotus/Upgrades/Skins/Effects/BaroEvilEphemera": {
+        "name": "/Lotus/Language/Ephemera/BaroEvilEphemeraName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Ephemera/BaroEvilEphemeraDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/BaroEvilEphemera.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
     "/Lotus/Upgrades/Skins/Effects/BaruukPrimeEphemera": {
         "name": "/Lotus/Language/Primes/BaruukPrimeEphemeraName",
         "codexSecret": false,
@@ -9681,6 +9846,15 @@
         "tradable": false
     },
     "/Lotus/Upgrades/Skins/Effects/BaseFootsteps": {
+        "name": "BaseFootsteps",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Items/GenericSuitCustomizationDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframeHelmet.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Effects/BaseFootstepsFullColor": {
         "name": "BaseFootsteps",
         "codexSecret": false,
         "excludeFromCodex": true,
@@ -10044,6 +10218,14 @@
         "productCategory": "WeaponSkins",
         "tradable": false
     },
+    "/Lotus/Upgrades/Skins/Effects/LavosDeluxeEphemera": {
+        "name": "/Lotus/Language/Deluxe/LavosDeluxeEphemeraName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/LavosDeluxeEphemeraDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/LavosDeluxeEphemera.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
     "/Lotus/Upgrades/Skins/Effects/LotusFlowers": {
         "name": "/Lotus/Language/Items/LotusFlowersName",
         "codexSecret": false,
@@ -10099,6 +10281,22 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/Cosmetics/NightwaveIntermissionEphemeraDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/NightwaveIntermissionEphemera.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Effects/NokkoEphemera": {
+        "name": "/Lotus/Language/Ephemera/NokkoEphemeraName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Ephemera/NokkoEphemeraDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/NokkoEphemera.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Effects/NokkoFootstepsEphemera": {
+        "name": "/Lotus/Language/Cosmetics/NokkoFootstepsEphemeraName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Cosmetics/NokkoFootstepsEphemeraDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/NokkoFootstepsEphemera.png",
         "productCategory": "WeaponSkins",
         "tradable": false
     },
@@ -11255,11 +11453,7 @@
         "description": "/Lotus/Language/SteamWorkshop/SWRFourExcaliburGraxxHelmetDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/SWGraxxExcaliburHelmetOriginal.png",
         "productCategory": "WeaponSkins",
-        "tradable": false,
-        "excludedPlatforms": [
-            "CP_SWITCH",
-            "CP_IOS"
-        ]
+        "tradable": false
     },
     "/Lotus/Upgrades/Skins/Excalibur/SWRFourExcaliburGraxxSkin": {
         "name": "/Lotus/Language/SteamWorkshop/SWRFourExcaliburGraxxSkinName",
@@ -11273,7 +11467,6 @@
         ],
         "tradable": false,
         "excludedPlatforms": [
-            "CP_SWITCH",
             "CP_IOS"
         ]
     },
@@ -11283,11 +11476,7 @@
         "description": "/Lotus/Language/SteamWorkshop/SWRFourGraxxAltHelmetDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/SWGraxxExcaliburHelmet.png",
         "productCategory": "WeaponSkins",
-        "tradable": false,
-        "excludedPlatforms": [
-            "CP_SWITCH",
-            "CP_IOS"
-        ]
+        "tradable": false
     },
     "/Lotus/Upgrades/Skins/Excalibur/SWROneExcaliburSkin": {
         "name": "/Lotus/Language/Items/SWROneExcaliburName",
@@ -11976,11 +12165,7 @@
         "description": "/Lotus/Language/SteamWorkshop/SWRSixFrostEmperorHelmetDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/SWRSixFrostEmperorHelmet.png",
         "productCategory": "WeaponSkins",
-        "tradable": false,
-        "excludedPlatforms": [
-            "CP_SWITCH",
-            "CP_IOS"
-        ]
+        "tradable": false
     },
     "/Lotus/Upgrades/Skins/Frost/SWRSixFrostEmperorSkin": {
         "name": "/Lotus/Language/SteamWorkshop/SWRSixFrostEmperorSkinName",
@@ -11994,7 +12179,6 @@
         ],
         "tradable": false,
         "excludedPlatforms": [
-            "CP_SWITCH",
             "CP_IOS"
         ]
     },
@@ -12476,6 +12660,25 @@
         "alwaysAvailable": true,
         "tradable": false
     },
+    "/Lotus/Upgrades/Skins/Geode/SWCitrineCelestisHelmet": {
+        "name": "/Lotus/Language/SteamWorkshop/SWCitrineCelestisHelmetName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/SteamWorkshop/SWCitrineCelestisHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/SWCitrineCelestisHelmet.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Geode/SWCitrineCelestisSkin": {
+        "name": "/Lotus/Language/SteamWorkshop/SWCitrineCelestisSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/SteamWorkshop/SWCitrineCelestisSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/SWCitrineCelestisSkin.png",
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/Geode/SWCitrineCelestisHelmet"
+        ],
+        "tradable": false
+    },
     "/Lotus/Upgrades/Skins/Glass/GaraAlternateSkin": {
         "name": "/Lotus/Language/Cosmetics/WarframeSkinGaraAlternateName",
         "codexSecret": false,
@@ -12924,6 +13127,70 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Gyre/SWGyreKuvealMonarchHelmet"
         ],
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Halloween/DOTD2025AtomosSkin": {
+        "name": "/Lotus/Language/Seasonal/DOTD2025AtomosName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Seasonal/DOTD2025AtomosDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Skins/DOTD2025AtomosSkin.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Halloween/DOTD2025OkinaSkin": {
+        "name": "/Lotus/Language/Seasonal/DOTD2025OkinaSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Seasonal/DOTD2025OkinaSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Skins/DOTD2025OkinaSkin.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Halloween/DOTD2025OperatorMask": {
+        "name": "/Lotus/Language/Seasonal/DOTD2025OperatorMaskName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Seasonal/DOTD2025OperatorMaskDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Face/DOTD2025OperatorMask.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Halloween/DOTD2025SentinelMask": {
+        "name": "/Lotus/Language/Seasonal/DOTD2025SentinelMaskName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Seasonal/DOTD2025SentinelMaskDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Companions/Sentinels/Cosmetics/Masks/DOTD2025SentinelMask.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Halloween/DOTD2025SentinelTail": {
+        "name": "/Lotus/Language/Seasonal/DOTD2025SentinelTailName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Seasonal/DOTD2025SentinelTailDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Companions/Sentinels/Cosmetics/Tails/DOTD2025SentinelTail.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Halloween/DOTD2025SentinelWings": {
+        "name": "/Lotus/Language/Seasonal/DOTD2025SentinelWingName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Seasonal/DOTD2025SentinelWingsDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Companions/Sentinels/Cosmetics/Wings/DOTD2025SentinelWings.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Halloween/DOTD2025SheduSkin": {
+        "name": "/Lotus/Language/Seasonal/DOTD2025SheduName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Seasonal/DOTD2025SheduDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Skins/DOTD2025SheduSkin.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Halloween/DOTD2025TaxonSkin": {
+        "name": "/Lotus/Language/Seasonal/DOTD2025TaxonName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Seasonal/DOTD2025TaxonDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Companions/Sentinels/Cosmetics/Skins/DOTD2025TaxonSkin.png",
+        "productCategory": "WeaponSkins",
         "tradable": false
     },
     "/Lotus/Upgrades/Skins/Halloween/Halloween2024DOTDHateSkin": {
@@ -14756,6 +15023,30 @@
         "productCategory": "WeaponSkins",
         "tradable": false
     },
+    "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerNokkoA": {
+        "name": "/Lotus/Language/Hoverboards/HoverboardStickerNokkoA",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Hoverboards/HoverboardGenericStickerDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Hoverboard/Scrawl/HoverboardStickerNokkoA.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerNokkoB": {
+        "name": "/Lotus/Language/Hoverboards/HoverboardStickerNokkoB",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Hoverboards/HoverboardGenericStickerDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Hoverboard/Scrawl/HoverboardStickerNokkoB.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerNokkoC": {
+        "name": "/Lotus/Language/Hoverboards/HoverboardStickerNokkoC",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Hoverboards/HoverboardGenericStickerDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Hoverboard/Scrawl/HoverboardStickerNokkoC.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
     "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerO": {
         "name": "/Lotus/Language/Hoverboards/HoverboardStickerO",
         "codexSecret": false,
@@ -15561,11 +15852,7 @@
         "description": "/Lotus/Language/SteamWorkshop/SWRFourNyxAthenaHelmetDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/SWRFourNyxAthenaHelmet.png",
         "productCategory": "WeaponSkins",
-        "tradable": false,
-        "excludedPlatforms": [
-            "CP_SWITCH",
-            "CP_IOS"
-        ]
+        "tradable": false
     },
     "/Lotus/Upgrades/Skins/Jade/SWRFourNyxAthenaSkin": {
         "name": "/Lotus/Language/SteamWorkshop/SWRFourNyxAthenaSkinName",
@@ -15578,7 +15865,6 @@
         ],
         "tradable": false,
         "excludedPlatforms": [
-            "CP_SWITCH",
             "CP_IOS"
         ]
     },
@@ -17527,11 +17813,7 @@
         "description": "/Lotus/Language/SteamWorkshop/MagAlataHelmetDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/MagAlataHelmet.png",
         "productCategory": "WeaponSkins",
-        "tradable": false,
-        "excludedPlatforms": [
-            "CP_SWITCH",
-            "CP_IOS"
-        ]
+        "tradable": false
     },
     "/Lotus/Upgrades/Skins/Mag/SWRThreeAlataSkin": {
         "name": "/Lotus/Language/SteamWorkshop/MagAlataSkinName",
@@ -17544,7 +17826,6 @@
         ],
         "tradable": false,
         "excludedPlatforms": [
-            "CP_SWITCH",
             "CP_IOS"
         ]
     },
@@ -18250,6 +18531,14 @@
         "productCategory": "WeaponSkins",
         "tradable": false
     },
+    "/Lotus/Upgrades/Skins/MeleeDangles/WukongDlxSugatra": {
+        "name": "/Lotus/Language/Deluxe/WukongDeluxeBSugatraName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/WukongDeluxeBSugatraDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Sugatras/WukongDeluxeBSugatra.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
     "/Lotus/Upgrades/Skins/MeleeDangles/XBoxSugatra2MeleeDangle": {
         "name": "/Lotus/Language/Cosmetics/JadeMeleeDangle2Name",
         "codexSecret": false,
@@ -18486,6 +18775,34 @@
             "CP_IOS"
         ]
     },
+    "/Lotus/Upgrades/Skins/MonkeyKing/WukongDeluxeBHelmet": {
+        "name": "/Lotus/Language/Deluxe/WukongDeluxeBHelmetName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/WukongDeluxeBHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/WukongDeluxeBHelmet.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/MonkeyKing/WukongDeluxeBSkin": {
+        "name": "/Lotus/Language/Deluxe/WukongDeluxeBSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/WukongDeluxeBSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/WukongDeluxeBSkin.png",
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/MonkeyKing/WukongDeluxeBHelmet",
+            "/Lotus/Upgrades/Skins/MonkeyKing/WukongDeluxeBStaffSkin"
+        ],
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/MonkeyKing/WukongDeluxeBStaffSkin": {
+        "name": "/Lotus/Language/Deluxe/WukongDeluxeBStaffSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/WukongDeluxeBStaffSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/ExaltedWeapons/WukongDeluxeBStaffSkin.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
     "/Lotus/Upgrades/Skins/MonkeyKing/WukongDeluxeHelmet": {
         "name": "/Lotus/Language/Skins/WukongDeluxeHelmetName",
         "codexSecret": false,
@@ -18613,6 +18930,14 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Skins/MotorcycleOllieSkinDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/MotorcycleSkins/MotorcycleOllieSkin.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Motorcycle/MotorcyclePrismaSkin": {
+        "name": "/Lotus/Language/Skins/MotorcyclePrismaSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Skins/MotorcyclePrismaSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/MotorcycleSkins/MotorcyclePrismaSkin.png",
         "productCategory": "WeaponSkins",
         "tradable": false
     },
@@ -19763,6 +20088,56 @@
         "excludedPlatforms": [
             "CP_IOS"
         ]
+    },
+    "/Lotus/Upgrades/Skins/Nokko/NokkoAgileAnims": {
+        "name": "/Lotus/Language/Cosmetics/NokkoAgileAnims",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Cosmetics/NokkoAgileAnimsDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/AnimationSets/NokkoAgile.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "requirement": "/Lotus/Upgrades/Skins/Nokko/UnlockNokkoAgile",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Nokko/NokkoAltHelmet": {
+        "name": "/Lotus/Language/Suits/NokkoAltHelmetName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Suits/NokkoAltHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/NokkoAltHelmet.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Nokko/NokkoHelmet": {
+        "name": "/Lotus/Language/Suits/NokkoHelmetName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Suits/NokkoHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/NokkoHelmet.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Nokko/NokkoNobleAnims": {
+        "name": "/Lotus/Language/Cosmetics/NokkoNobleAnims",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Cosmetics/NokkoNobleAnimsDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/AnimationSets/NokkoNoble.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "requirement": "/Lotus/Upgrades/Skins/Nokko/UnlockNokkoNoble",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Nokko/NokkoSkin": {
+        "name": "/Lotus/Language/Suits/NokkoDefaultSkinName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Suits/NokkoDefaultSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Nokko.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false
     },
     "/Lotus/Upgrades/Skins/Nvidia/NvidiaBratonSkin": {
         "name": "/Lotus/Language/Items/NvidiaBratonSkinName",
@@ -21717,28 +22092,8 @@
         ],
         "tradable": false
     },
-    "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingA": {
-        "name": "/Lotus/Language/Items/FacialMarkingsA",
-        "codexSecret": false,
-        "excludeFromCodex": true,
-        "description": "/Lotus/Language/Operator/GenericOperatorMarkingsDescription",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Markings/MarkingsA.png",
-        "productCategory": "WeaponSkins",
-        "alwaysAvailable": true,
-        "tradable": false
-    },
-    "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingB": {
-        "name": "/Lotus/Language/Items/FacialMarkingsB",
-        "codexSecret": false,
-        "excludeFromCodex": true,
-        "description": "/Lotus/Language/Operator/GenericOperatorMarkingsDescription",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Markings/MarkingsB.png",
-        "productCategory": "WeaponSkins",
-        "alwaysAvailable": true,
-        "tradable": false
-    },
     "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingC": {
-        "name": "/Lotus/Language/Items/FacialMarkingsC",
+        "name": "/Lotus/Language/Operator/FacialMarkingsC",
         "codexSecret": false,
         "excludeFromCodex": true,
         "description": "/Lotus/Language/Operator/GenericOperatorMarkingsDescription",
@@ -21748,7 +22103,7 @@
         "tradable": false
     },
     "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingD": {
-        "name": "/Lotus/Language/Items/FacialMarkingsD",
+        "name": "/Lotus/Language/Operator/FacialMarkingsD",
         "codexSecret": false,
         "excludeFromCodex": true,
         "description": "/Lotus/Language/Operator/GenericOperatorMarkingsDescription",
@@ -21758,7 +22113,7 @@
         "tradable": false
     },
     "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingE": {
-        "name": "/Lotus/Language/Items/FacialMarkingsE",
+        "name": "/Lotus/Language/Operator/FacialMarkingsE",
         "codexSecret": false,
         "excludeFromCodex": true,
         "description": "/Lotus/Language/Operator/GenericOperatorMarkingsDescription",
@@ -21768,7 +22123,7 @@
         "tradable": false
     },
     "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingF": {
-        "name": "/Lotus/Language/Items/FacialMarkingsF",
+        "name": "/Lotus/Language/Operator/FacialMarkingsF",
         "codexSecret": false,
         "excludeFromCodex": true,
         "description": "/Lotus/Language/Operator/GenericOperatorMarkingsDescription",
@@ -21778,7 +22133,7 @@
         "tradable": false
     },
     "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingG": {
-        "name": "/Lotus/Language/Items/FacialMarkingsG",
+        "name": "/Lotus/Language/Operator/FacialMarkingsG",
         "codexSecret": false,
         "excludeFromCodex": true,
         "description": "/Lotus/Language/Operator/GenericOperatorMarkingsDescription",
@@ -21788,7 +22143,7 @@
         "tradable": false
     },
     "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingH": {
-        "name": "/Lotus/Language/Items/FacialMarkingsH",
+        "name": "/Lotus/Language/Operator/FacialMarkingsH",
         "codexSecret": false,
         "excludeFromCodex": true,
         "description": "/Lotus/Language/Operator/GenericOperatorMarkingsDescription",
@@ -21798,7 +22153,7 @@
         "tradable": false
     },
     "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingI": {
-        "name": "/Lotus/Language/Items/FacialMarkingsI",
+        "name": "/Lotus/Language/Operator/FacialMarkingsI",
         "codexSecret": false,
         "excludeFromCodex": true,
         "description": "/Lotus/Language/Operator/GenericOperatorMarkingsDescription",
@@ -21808,7 +22163,7 @@
         "tradable": false
     },
     "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingJ": {
-        "name": "/Lotus/Language/Items/FacialMarkingsJ",
+        "name": "/Lotus/Language/Operator/FacialMarkingsJ",
         "codexSecret": false,
         "excludeFromCodex": true,
         "description": "/Lotus/Language/Operator/GenericOperatorMarkingsDescription",
@@ -29413,7 +29768,6 @@
         "productCategory": "WeaponSkins",
         "tradable": false,
         "excludedPlatforms": [
-            "CP_SWITCH",
             "CP_IOS"
         ]
     },
@@ -29890,6 +30244,14 @@
         "productCategory": "WeaponSkins",
         "tradable": false
     },
+    "/Lotus/Upgrades/Skins/Scarves/DOTD2025MonarchSyandana": {
+        "name": "/Lotus/Language/Seasonal/DOTD2025MonarchSyandanaName",
+        "codexSecret": true,
+        "description": "/Lotus/Language/Seasonal/DOTD2025MonarchSyandanaDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/DOTD2025OkinaSyandana.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
     "/Lotus/Upgrades/Skins/Scarves/DOTDWolfBackpack": {
         "name": "/Lotus/Language/Seasonal/DOTD2025WolfScarfName",
         "codexSecret": true,
@@ -30334,6 +30696,14 @@
         "productCategory": "WeaponSkins",
         "tradable": false
     },
+    "/Lotus/Upgrades/Skins/Scarves/LavosDeluxeSyandana": {
+        "name": "/Lotus/Language/Deluxe/LavosDeluxeSyandanaName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/LavosDeluxeSyandanaDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/LavosDeluxeSyandana.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
     "/Lotus/Upgrades/Skins/Scarves/LimboDeluxeCape": {
         "name": "/Lotus/Language/Cosmetics/LimboDeluxeCapeName",
         "codexSecret": false,
@@ -30459,6 +30829,14 @@
             "CP_PS4",
             "CP_PS5"
         ]
+    },
+    "/Lotus/Upgrades/Skins/Scarves/NokkoSyandana": {
+        "name": "/Lotus/Language/Cosmetics/NokkoSyandanaName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Cosmetics/NokkoSyandanaDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/NokkoSyandana.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
     },
     "/Lotus/Upgrades/Skins/Scarves/NoruPrimeScarf": {
         "name": "/Lotus/Language/Items/NoruPrimeSyandanaName",
@@ -30989,7 +31367,6 @@
         "productCategory": "WeaponSkins",
         "tradable": false,
         "excludedPlatforms": [
-            "CP_SWITCH",
             "CP_IOS"
         ]
     },
@@ -31112,6 +31489,14 @@
         "excludedPlatforms": [
             "CP_IOS"
         ]
+    },
+    "/Lotus/Upgrades/Skins/Scarves/SWGothicaSyandana": {
+        "name": "/Lotus/Language/SteamWorkshop/SWGothicaSyandanaName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/SteamWorkshop/SWGothicaSyandanaDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/SWGothicaSyandana.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
     },
     "/Lotus/Upgrades/Skins/Scarves/SWIcariusScarf": {
         "name": "/Lotus/Language/SteamWorkshop/SWIcariusScarfName",
@@ -31302,7 +31687,6 @@
         "productCategory": "WeaponSkins",
         "tradable": false,
         "excludedPlatforms": [
-            "CP_SWITCH",
             "CP_IOS"
         ]
     },
@@ -31314,7 +31698,6 @@
         "productCategory": "WeaponSkins",
         "tradable": false,
         "excludedPlatforms": [
-            "CP_SWITCH",
             "CP_IOS"
         ]
     },
@@ -32218,6 +32601,14 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Cosmetics/YareliCapeDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/YareliCape.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Scarves/ZephyrQTCCSyandana": {
+        "name": "/Lotus/Language/Deluxe/ZephyrQTCCDeluxeSyandanaName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/ZephyrQTCCDeluxeSyandanaDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/ZephyrQTCCSyandana.png",
         "productCategory": "WeaponSkins",
         "tradable": false
     },
@@ -34332,6 +34723,14 @@
         "productCategory": "WeaponSkins",
         "tradable": false
     },
+    "/Lotus/Upgrades/Skins/Sigils/EvilBaroNecraloidSigil": {
+        "name": "/Lotus/Language/Sigils/EvilBaroNecraloidSigilName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Sigils/EvilBaroNecraloidSigilDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Sigils/SpookyNecraloid.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
     "/Lotus/Upgrades/Skins/Sigils/FireSigil": {
         "name": "/Lotus/Language/Sigils/FireSigilName",
         "codexSecret": true,
@@ -34562,6 +34961,14 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Sigils/KuvaLichSigilDesc",
         "icon": "/Lotus/Interface/Icons/Sigils/KuvaLichSigil.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Sigils/LavosDeluxeSigil": {
+        "name": "/Lotus/Language/Deluxe/LavosDeluxeSigilName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/LavosDeluxeSigilDesc",
+        "icon": "/Lotus/Interface/Icons/Sigils/LavosDeluxeSigil.png",
         "productCategory": "WeaponSkins",
         "tradable": false
     },
@@ -35789,6 +36196,14 @@
         "productCategory": "WeaponSkins",
         "tradable": false
     },
+    "/Lotus/Upgrades/Skins/Sigils/Tennogen10YearSigil": {
+        "name": "/Lotus/Language/Sigils/Tennogen10YearSigilName",
+        "codexSecret": true,
+        "description": "/Lotus/Language/Sigils/Tennogen10YearSigilDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Sigils/Tennogen10YearSigil.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
     "/Lotus/Upgrades/Skins/Sigils/TeralystSigil": {
         "name": "/Lotus/Language/Sigils/TeralystSigilName",
         "codexSecret": false,
@@ -35931,6 +36346,14 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Sigils/WolfSigilDesc",
         "icon": "/Lotus/Interface/Icons/Sigils/WolfSigil.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Sigils/WukongDeluxeBSigil": {
+        "name": "/Lotus/Language/Deluxe/WukongDeluxeBSigilName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/WukongDeluxeBSigilDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Sigils/WukongDeluxeBSigil.png",
         "productCategory": "WeaponSkins",
         "tradable": false
     },
@@ -37752,6 +38175,25 @@
         "productCategory": "WeaponSkins",
         "tradable": false
     },
+    "/Lotus/Upgrades/Skins/Tengu/ZephyrQTCCBodySkin": {
+        "name": "/Lotus/Language/Deluxe/ZephyrQTCCDeluxeSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/ZephyrQTCCDeluxeSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/ZephyrQTCCSkin.png",
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/Tengu/ZephyrQTCCHelmet"
+        ],
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Tengu/ZephyrQTCCHelmet": {
+        "name": "/Lotus/Language/Deluxe/ZephyrQTCCDeluxeHelmetName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/ZephyrQTCCDeluxeHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/ZephyrQTCCHelmet.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
     "/Lotus/Upgrades/Skins/Tennocon2020Skins/DeimosSupporterPistolSkin": {
         "name": "/Lotus/Language/Skins/DeimosSupporterPistolSkinName",
         "codexSecret": false,
@@ -37792,7 +38234,6 @@
         "productCategory": "WeaponSkins",
         "tradable": false,
         "excludedPlatforms": [
-            "CP_SWITCH",
             "CP_IOS"
         ]
     },
@@ -38880,6 +39321,14 @@
         "productCategory": "WeaponSkins",
         "tradable": false
     },
+    "/Lotus/Upgrades/Skins/VoidTrader/EvilBaroSilvaAndAegis": {
+        "name": "/Lotus/Language/Skins/EvilBaroSilvaAegisSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Skins/EvilBaroSilvaAegisSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Skins/EvilBaroSilvaAegisSkin.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
     "/Lotus/Upgrades/Skins/VoidTrader/PrismaArrow": {
         "name": "/Lotus/Language/Items/PrismaArrowName",
         "codexSecret": false,
@@ -39105,11 +39554,7 @@
         "description": "/Lotus/Language/Items/SWROneVoltHelmetDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/SWROneVoltAMPHelmet.png",
         "productCategory": "WeaponSkins",
-        "tradable": false,
-        "excludedPlatforms": [
-            "CP_SWITCH",
-            "CP_IOS"
-        ]
+        "tradable": false
     },
     "/Lotus/Upgrades/Skins/Volt/SWROneVoltSkin": {
         "name": "/Lotus/Language/Items/SWROneVoltName",
@@ -39122,7 +39567,6 @@
         ],
         "tradable": false,
         "excludedPlatforms": [
-            "CP_SWITCH",
             "CP_IOS"
         ]
     },
@@ -39541,6 +39985,14 @@
             "CP_IOS"
         ]
     },
+    "/Lotus/Upgrades/Skins/Weapons/Grimoire/GrimoireEvilBaroSkin": {
+        "name": "/Lotus/Language/Skins/GrimoireEvilBaroSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Skins/GrimoireEvilBaroSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Skins/GrimoireEvilBaroSkin.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
     "/Lotus/Upgrades/Skins/Weapons/Grimoire/GrimoireFantasySkin": {
         "name": "/Lotus/Language/Skins/GrimoireFantasySkinName",
         "codexSecret": false,
@@ -39832,6 +40284,26 @@
         "excludeFromCodex": true,
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframeHelmet.png",
         "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Werewolf/SWVorunaKuvaelDrahkaanisHelmet": {
+        "name": "/Lotus/Language/SteamWorkshop/SWVorunaKuvaelDrahkaanisHelmetName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/SteamWorkshop/SWVorunaKuvaelDrahkaanisHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/SWVorunaKuvaelDrahkaanisHelmet.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false
+    },
+    "/Lotus/Upgrades/Skins/Werewolf/SWVorunaKuvaelDrahkaanislSkin": {
+        "name": "/Lotus/Language/SteamWorkshop/SWVorunaKuvaelDrahkaanisSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/SteamWorkshop/SWVorunaKuvaelDrahkaanisSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/SWVorunaKuvaelDrahkaanisSkin.png",
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/Werewolf/SWVorunaKuvaelDrahkaanisHelmet",
+            "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/SWKuvaelArmArmor"
+        ],
         "tradable": false
     },
     "/Lotus/Upgrades/Skins/Werewolf/VorunaDemionnaHelmet": {

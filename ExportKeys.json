@@ -479,6 +479,7 @@
         "icon": "/Lotus/Interface/Quests/ChimeraKeyChain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
         "codexSecret": true,
+        "replayable": true,
         "chainStages": [
             {
                 "key": "/Lotus/Types/Keys/ChimeraQuest/ChimeraKey",
@@ -1716,6 +1717,7 @@
         "icon": "/Lotus/Interface/Quests/HeartOfDeimosKeychain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
         "codexSecret": false,
+        "replayable": true,
         "chainStages": [
             {
                 "itemsToGiveWhenTriggered": []
@@ -2264,6 +2266,96 @@
             }
         ]
     },
+    "/Lotus/Types/Keys/ModQuest/ModQuestKeyChain": {
+        "name": "/Lotus/Language/ModQuest/ModQuestTitle",
+        "description": "/Lotus/Language/ModQuest/ModQuestDesc",
+        "icon": "/Lotus/Interface/Quests/ModQuestKeyChain.png",
+        "parentName": "/Lotus/Types/Game/KeyChainItem",
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/ModQuest/ModQuestStage2Key",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/ModQuest/ModQuestStage3Key",
+                "itemsToGiveWhenTriggered": [
+                    "/Lotus/StoreItems/Weapons/Tenno/LongGuns/TnModQuestRifle/TnModQuestRifleWeapon",
+                    "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponElectricityDamageMod",
+                    "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponFreezeDamageMod",
+                    "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarHealthMaxMod"
+                ]
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/ModQuest/ModQuestStage5Key",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/Teshin",
+                    "title": "/Lotus/Language/ModQuest/ModQuestPostQuestMessageTitle",
+                    "body": "/Lotus/Language/ModQuest/ModQuestPostQuestMessageBody",
+                    "attachments": [
+                        "/Lotus/Upgrades/Mods/Melee/WeaponMeleeDamageMod",
+                        "/Lotus/Upgrades/Mods/Melee/WeaponFireRateMod",
+                        "/Lotus/Upgrades/Mods/Rifle/WeaponDamageAmountMod",
+                        "/Lotus/Upgrades/Mods/Pistol/WeaponDamageAmountMod",
+                        "/Lotus/Upgrades/Mods/Pistol/WeaponFireDamageMod",
+                        "/Lotus/Upgrades/Mods/Warframe/AvatarAbilityDurationMod",
+                        "/Lotus/Upgrades/Mods/Warframe/AvatarPickupBonusMod",
+                        "/Lotus/Upgrades/Mods/Warframe/AvatarShieldMaxMod",
+                        "/Lotus/Upgrades/Mods/FusionBundles/CircuitSilverNormalFusionBundle",
+                        "/Lotus/Types/StoreItems/CreditBundles/Zariman/TableACreditsUncommon"
+                    ],
+                    "countedAttachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Teshin.png",
+                    "transmission": "/Lotus/Sounds/Dialog/ModQuest/DConclusionInbox0730Teshin",
+                    "highPriority": true
+                }
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/ModQuest/ModQuestStage2Key": {
+        "name": "/Lotus/Language/ModQuest/ModQuestStage2",
+        "description": "/Lotus/Language/ModQuest/ModQuestStage2",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/ModQuest/ModQuestStage3Key": {
+        "name": "/Lotus/Language/ModQuest/ModQuestStage3",
+        "description": "/Lotus/Language/ModQuest/ModQuestStage3",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "countedStoreItems": [
+                {
+                    "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponElectricityDamageMod",
+                    "ItemCount": 2
+                }
+            ]
+        },
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Items/ShipFeatureItems/ModsFeatureItem"
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/ModQuest/ModQuestStage5Key": {
+        "name": "/Lotus/Language/ModQuest/ModQuestStage5",
+        "description": "/Lotus/Language/ModQuest/ModQuestStage5",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
     "/Lotus/Types/Keys/MummyQuest/MummyQuestKeyChain": {
         "name": "/Lotus/Language/G1Quests/MummyQuestName",
         "description": "/Lotus/Language/G1Quests/MummyQuestDesc",
@@ -2411,6 +2503,7 @@
         "icon": "/Lotus/Interface/Quests/NewWarIntroQuestKeychain.png",
         "parentName": "/Lotus/Types/Game/KeyChainItem",
         "codexSecret": true,
+        "replayable": true,
         "chainStages": [
             {
                 "key": "/Lotus/Types/Keys/NewWarIntroQuest/NewWarIntroKey",
@@ -3898,6 +3991,12 @@
                     "highPriority": true
                 }
             }
+        ],
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Keys/ModQuest/ModQuestKeyChain"
+            }
         ]
     },
     "/Lotus/Types/Keys/VorsPrize/MissionOne": {
@@ -3910,18 +4009,6 @@
                 "itemType": "/Lotus/StoreItems/Types/Items/ShipFeatureItems/SocialMenuFeatureItem"
             },
             {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Melee/WeaponMeleeDamageMod"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponDamageAmountMod"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Pistol/WeaponDamageAmountMod"
-            },
-            {
                 "rewardType": "RT_CREDITS",
                 "amount": 2500
             }
@@ -3932,30 +4019,6 @@
         "parentName": "/Lotus/Types/Keys/TestKeyA",
         "codexSecret": true,
         "rewards": [
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Types/Items/ShipFeatureItems/ModsFeatureItem"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarHealthMaxMod"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarShieldMaxMod"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarAbilityRangeMod"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarAbilityStrengthMod"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarAbilityDurationMod"
-            },
             {
                 "rewardType": "RT_CREDITS",
                 "amount": 2500
@@ -3970,26 +4033,6 @@
             {
                 "rewardType": "RT_STORE_ITEM",
                 "itemType": "/Lotus/StoreItems/Types/Items/ShipFeatureItems/FoundryFeatureItem"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Melee/WeaponFireRateMod"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponFactionDamageCorpus"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponFactionDamageGrineer"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Pistol/WeaponFireDamageMod"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Pistol/WeaponElectricityDamageMod"
             },
             {
                 "rewardType": "RT_CREDITS",
@@ -4020,18 +4063,6 @@
         },
         "rewards": [
             {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarPickupBonusMod"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarPowerMaxMod"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarEnemyRadarMod"
-            },
-            {
                 "rewardType": "RT_CREDITS",
                 "amount": 2500
             }
@@ -4045,54 +4076,6 @@
             {
                 "rewardType": "RT_STORE_ITEM",
                 "itemType": "/Lotus/StoreItems/Types/Items/ShipFeatureItems/MercuryNavigationFeatureItem"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
-            },
-            {
-                "rewardType": "RT_STORE_ITEM",
-                "itemType": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CommonFusionBundle"
             },
             {
                 "rewardType": "RT_CREDITS",
@@ -5670,6 +5653,27 @@
         "missionReward": {
             "droptable": "/Lotus/Types/Game/MissionDecks/GlassMakerBossFight"
         },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NokkoColony/ThePrinceVision1Key": {
+        "name": "/Lotus/Language/NokkoColony/Vision1Label",
+        "description": "/Lotus/Language/NokkoColony/Vision1Desc",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NokkoColony/ThePrinceVision2Key": {
+        "name": "/Lotus/Language/NokkoColony/Vision2Label",
+        "description": "/Lotus/Language/NokkoColony/Vision2Desc",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/NokkoColony/ThePrinceVision3Key": {
+        "name": "/Lotus/Language/NokkoColony/Vision3Label",
+        "description": "/Lotus/Language/NokkoColony/Vision3Desc",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
         "rewards": []
     },
     "/Lotus/Types/Keys/OrokinCaptureKeyA": {
@@ -7678,6 +7682,12 @@
         "missionReward": {
             "droptable": "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/SurvivalLowLevelRewards"
         },
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TestKeys/TestKeyTauWarAllTiles": {
+        "name": "[HC] Tau All Tiles",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeySentientDevourerKahlTennoStart": {

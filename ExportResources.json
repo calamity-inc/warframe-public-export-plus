@@ -49,7 +49,7 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Companions/Pets/IncubationItems/KubrowEgg.png",
         "codexSecret": true,
         "parentName": "/Lotus/Types/Game/KubrowPet/Eggs/KubrowPetEggItem",
-        "productCategory": "KubrowPetEggs",
+        "productCategory": "MiscItems",
         "showInInventory": false
     },
     "/Lotus/Types/Game/KubrowPet/BlankTraitPrint": {
@@ -6042,6 +6042,22 @@
             "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA"
         ]
     },
+    "/Lotus/Types/Items/FusionTreasures/OroFusexI": {
+        "name": "/Lotus/Language/ShipDecorations/FusionTreasureIName",
+        "description": "/Lotus/Language/ShipDecorations/FusionTreasureIDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/FusionTreasures/OroFusexI.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/FusionTreasure",
+        "productCategory": "FusionTreasures",
+        "deco": "/Lotus/Objects/Gameplay/OroFusexIDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 20,
+        "sockets": [
+            "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA",
+            "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentB",
+            "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA"
+        ]
+    },
     "/Lotus/Types/Items/FusionTreasures/OroFusexJ": {
         "name": "/Lotus/Language/ShipDecorations/FusionTreasureJName",
         "description": "/Lotus/Language/ShipDecorations/FusionTreasureJDescription",
@@ -7693,6 +7709,14 @@
             "gain": 0.3
         }
     },
+    "/Lotus/Types/Items/MiscItems/MushroomFood": {
+        "name": "/Lotus/Language/NokkoColony/NokkoCurrencyName",
+        "description": "/Lotus/Language/NokkoColony/NokkoCurrencyDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Nokko/NokkoResourceFergolyte.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems"
+    },
     "/Lotus/Types/Items/MiscItems/Nanospores": {
         "name": "/Lotus/Language/Items/Nanospores",
         "description": "/Lotus/Language/Items/NanosporesDesc",
@@ -7802,6 +7826,15 @@
         "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionFourCreds",
         "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionFourCredsDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon4.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/MiscItems/NoraIntermissionFourteenCreds": {
+        "name": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionFourteenCreds",
+        "description": "/Lotus/Language/NightwaveSeasonThree/NoraIntermissionSevenCredsDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Currency/GenericCreditIcon14.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
         "productCategory": "MiscItems",
@@ -9353,6 +9386,15 @@
         "productCategory": "MiscItems",
         "excludeFromCodex": true
     },
+    "/Lotus/Types/Items/MiscItems/WeaponArchGunArcaneUnlocker": {
+        "name": "/Lotus/Language/Weapons/WeaponArchGunArcaneUnlockerName",
+        "description": "/Lotus/Language/Weapons/WeaponArchGunArcaneUnlockerDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/WeaponsArcaneArchgun.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
     "/Lotus/Types/Items/MiscItems/WeaponMeleeArcaneUnlocker": {
         "name": "/Lotus/Language/Weapons/WeaponMeleeArcaneUnlockerName",
         "description": "/Lotus/Language/Weapons/WeaponMeleeArcaneUnlockerDesc",
@@ -9386,6 +9428,238 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/UtilityWeaponModule.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Items/MushroomJournal/BlastMushroomJournalItem": {
+        "name": "/Lotus/Language/NokkoColony/BlastMushroomName",
+        "description": "/Lotus/Language/NokkoColony/BlastMushroomDesc",
+        "icon": "/Lotus/Interface/Icons/NokkoColony/MushroomIconBlast.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/MushroomJournal/ColdMushroomJournalItem": {
+        "name": "/Lotus/Language/NokkoColony/ColdMushroomName",
+        "description": "/Lotus/Language/NokkoColony/ColdMushroomDesc",
+        "icon": "/Lotus/Interface/Icons/NokkoColony/MushroomIconCold.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/MushroomJournal/CorrosiveMushroomJournalItem": {
+        "name": "/Lotus/Language/NokkoColony/CorrosiveMushroomName",
+        "description": "/Lotus/Language/NokkoColony/CorrosiveMushroomDesc",
+        "icon": "/Lotus/Interface/Icons/NokkoColony/MushroomIconCorrosive.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/MushroomJournal/ElectricMushroomJournalItem": {
+        "name": "/Lotus/Language/NokkoColony/ElectricMushroomName",
+        "description": "/Lotus/Language/NokkoColony/ElectricMushroomDesc",
+        "icon": "/Lotus/Interface/Icons/NokkoColony/MushroomIconElectricity.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/MushroomJournal/GasMushroomJournalItem": {
+        "name": "/Lotus/Language/NokkoColony/GasMushroomName",
+        "description": "/Lotus/Language/NokkoColony/GasMushroomDesc",
+        "icon": "/Lotus/Interface/Icons/NokkoColony/MushroomIconGas.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/MushroomJournal/HeatMushroomJournalItem": {
+        "name": "/Lotus/Language/NokkoColony/HeatMushroomName",
+        "description": "/Lotus/Language/NokkoColony/HeatMushroomDesc",
+        "icon": "/Lotus/Interface/Icons/NokkoColony/MushroomIconHeat.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/MushroomJournal/ImpactMushroomJournalItem": {
+        "name": "/Lotus/Language/NokkoColony/ImpactMushroomName",
+        "description": "/Lotus/Language/NokkoColony/ImpactMushroomDesc",
+        "icon": "/Lotus/Interface/Icons/NokkoColony/MushroomIconImpact.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/MushroomJournal/MagneticMushroomJournalItem": {
+        "name": "/Lotus/Language/NokkoColony/MagneticMushroomName",
+        "description": "/Lotus/Language/NokkoColony/MagneticMushroomDesc",
+        "icon": "/Lotus/Interface/Icons/NokkoColony/MushroomIconMagnetic.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/MushroomJournal/PlainMushroomJournalItem": {
+        "name": "/Lotus/Language/NokkoColony/PlainMushroomName",
+        "description": "/Lotus/Language/NokkoColony/PlainMushroomDesc",
+        "icon": "/Lotus/Interface/Icons/NokkoColony/MushroomIconPlain.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/MushroomJournal/PunctureMushroomJournalItem": {
+        "name": "/Lotus/Language/NokkoColony/PunctureMushroomName",
+        "description": "/Lotus/Language/NokkoColony/PunctureMushroomDesc",
+        "icon": "/Lotus/Interface/Icons/NokkoColony/MushroomIconPuncture.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/MushroomJournal/RadiationMushroomJournalItem": {
+        "name": "/Lotus/Language/NokkoColony/RadiationMushroomName",
+        "description": "/Lotus/Language/NokkoColony/RadiationMushroomDesc",
+        "icon": "/Lotus/Interface/Icons/NokkoColony/MushroomIconRadiation.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/MushroomJournal/SlashMushroomJournalItem": {
+        "name": "/Lotus/Language/NokkoColony/SlashMushroomName",
+        "description": "/Lotus/Language/NokkoColony/SlashMushroomDesc",
+        "icon": "/Lotus/Interface/Icons/NokkoColony/MushroomIconSlash.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/MushroomJournal/TauMushroomJournalItem": {
+        "name": "/Lotus/Language/NokkoColony/TauMushroomName",
+        "description": "/Lotus/Language/NokkoColony/TauMushroomDesc",
+        "icon": "/Lotus/Interface/Icons/NokkoColony/MushroomIconTau.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/MushroomJournal/ToxinMushroomJournalItem": {
+        "name": "/Lotus/Language/NokkoColony/ToxinMushroomName",
+        "description": "/Lotus/Language/NokkoColony/ToxinMushroomDesc",
+        "icon": "/Lotus/Interface/Icons/NokkoColony/MushroomIconToxin.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/MushroomJournal/ViralMushroomJournalItem": {
+        "name": "/Lotus/Language/NokkoColony/ViralMushroomName",
+        "description": "/Lotus/Language/NokkoColony/ViralMushroomDesc",
+        "icon": "/Lotus/Interface/Icons/NokkoColony/MushroomIconViral.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/MushroomJournal/VoidMushroomJournalItem": {
+        "name": "/Lotus/Language/NokkoColony/VoidMushroomName",
+        "description": "/Lotus/Language/NokkoColony/VoidMushroomDesc",
+        "icon": "/Lotus/Interface/Icons/NokkoColony/MushroomIconVoid.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MushroomJournal/MushroomJournalItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothFiveFates": {
+        "name": "/Lotus/Language/CapturaScenes/PhotoboothFiveFatesName",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/Fivefates.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothNokkoBase": {
+        "name": "/Lotus/Language/CapturaScenes/PhotoboothNokkoBaseName",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/ForwardBase.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothNokkoColony": {
+        "name": "/Lotus/Language/CapturaScenes/PhotoboothNokkoColonyName",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/DeepminesColony.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothNokkoColonyEntrance": {
+        "name": "/Lotus/Language/CapturaScenes/PhotoboothNokkoColonyEntName",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/DeepminesEntrance.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothNokkoLab": {
+        "name": "/Lotus/Language/CapturaScenes/PhotoboothNokkoLabName",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/DeepminesLab.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothNokkoPlant": {
+        "name": "/Lotus/Language/CapturaScenes/PhotoboothNokkoPlantName",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/NutrientProcessing.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothTheTeacherDojo": {
+        "name": "/Lotus/Language/CapturaScenes/PhotoboothTheTeacherDojoName",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/TeacherDojo.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothTheTeacherEarth": {
+        "name": "/Lotus/Language/CapturaScenes/PhotoboothTheTeacherEarthName",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/TeacherEarth.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothTheTeacherReactor": {
+        "name": "/Lotus/Language/CapturaScenes/PhotoboothTheTeacherReactorName",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/TeacherReactor.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Items/PhotoBooth/2025FallUpdate/PhotoboothTheTeacherShip": {
+        "name": "/Lotus/Language/CapturaScenes/PhotoboothTheTeacherShipName",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/TeacherCell.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
+        "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Items/PhotoBooth/CinematicTiles/YareliPrimeEndPose": {
+        "name": "/Lotus/Language/CapturaScenes/PhotoboothYareliPrimeEndPoseName",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/YareliPrimeEndPose.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTile",
         "productCategory": "MiscItems"
     },
     "/Lotus/Types/Items/PhotoBooth/Entrati/PhotoboothTileArchives": {
@@ -12966,6 +13240,831 @@
         "capacityCost": 5,
         "dojoCapacityCost": 5
     },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxBushA": {
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxBushAName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxBushADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DUVxBushA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDUVxBushADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFernA": {
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxFernAName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxFernADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DUVxFernA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDUVxFernADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFlowerGroupingB": {
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxFlowerGroupingBName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxFlowerGroupingBDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DUVxFlowerGroupingB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDUVxFlowerGroupingBDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFlowerGroupingD": {
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxFlowerGroupingDName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxFlowerGroupingDDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DUVxFlowerGroupingD.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDUVxFlowerGroupingDDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFlowerGroupingE": {
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxFlowerGroupingEName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxFlowerGroupingEDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DUVxFlowerGroupingE.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDUVxFlowerGroupingEDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFlowerGroupingF": {
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxFlowerGroupingFName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxFlowerGroupingFDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DUVxFlowerGroupingF.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDUVxFlowerGroupingFDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFlowerGroupingG": {
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxFlowerGroupingGName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxFlowerGroupingGDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DUVxFlowerGroupingG.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDUVxFlowerGroupingGDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFoliageShrub": {
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxFoliageShrubName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxFoliageShrubDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DUVxFoliageShrub.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDUVxFoliageShrubDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxFractalBushA": {
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxFractalBushAName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxFractalBushADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DUVxFractalBushA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDUVxFractalBushADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDUVxMushroomsB": {
+        "name": "/Lotus/Language/DojoDecosDuviri/DUVxMushroomsBName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DUVxMushroomsBDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DUVxMushroomsB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDUVxMushroomsBDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvArtichokesA": {
+        "name": "/Lotus/Language/DojoDecosDuviri/DuvArtichokesAName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DuvArtichokesADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DuvArtichokesA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDuvArtichokesADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvTreeFractalShrubA": {
+        "name": "/Lotus/Language/DojoDecosDuviri/DuvTreeFractalShrubAName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DuvTreeFractalShrubADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DuvTreeFractalShrubA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDuvTreeFractalShrubADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxDuviriPlantSeedE": {
+        "name": "/Lotus/Language/DojoDecosDuviri/DuvxDuviriPlantSeedEName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DuvxDuviriPlantSeedEDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DuvxDuviriPlantSeedE.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDuvxDuviriPlantSeedEDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxZarimanPlantA": {
+        "name": "/Lotus/Language/DojoDecosDuviri/DuvxZarimanPlantAName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DuvxZarimanPlantADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DuvxZarimanPlantA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDuvxZarimanPlantADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxZarimanPlantB": {
+        "name": "/Lotus/Language/DojoDecosDuviri/DuvxZarimanPlantBName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DuvxZarimanPlantBDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DuvxZarimanPlantB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDuvxZarimanPlantBDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxZarimanPlantC": {
+        "name": "/Lotus/Language/DojoDecosDuviri/DuvxZarimanPlantCName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DuvxZarimanPlantCDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DuvxZarimanPlantC.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDuvxZarimanPlantCDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxZarimanPlantD": {
+        "name": "/Lotus/Language/DojoDecosDuviri/DuvxZarimanPlantDName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DuvxZarimanPlantDDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DuvxZarimanPlantD.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDuvxZarimanPlantDDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropDuvxZarimanPlantE": {
+        "name": "/Lotus/Language/DojoDecosDuviri/DuvxZarimanPlantEName",
+        "description": "/Lotus/Language/DojoDecosDuviri/DuvxZarimanPlantEDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DuvxZarimanPlantE.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDuvxZarimanPlantEDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftAlienVibePlantAArrangement": {
+        "name": "/Lotus/Language/DojoDecosGrineer/GftAlienVibePlantAArrangementName",
+        "description": "/Lotus/Language/DojoDecosGrineer/GftAlienVibePlantAArrangementDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/GftAlienVibePlantAArrangement.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropGftAlienVibePlantAArrangementDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftFilterPlant": {
+        "name": "/Lotus/Language/DojoDecosGrineer/GftFilterPlantName",
+        "description": "/Lotus/Language/DojoDecosGrineer/GftFilterPlantDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/GftFilterPlant.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropGftFilterPlantDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantBirdsNestC": {
+        "name": "/Lotus/Language/DojoDecosGrineer/GftPlantBirdsNestCName",
+        "description": "/Lotus/Language/DojoDecosGrineer/GftPlantBirdsNestCDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/GftPlantBirdsNestC.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropGftPlantBirdsNestCDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantBirdsNestD": {
+        "name": "/Lotus/Language/DojoDecosGrineer/GftPlantBirdsNestDName",
+        "description": "/Lotus/Language/DojoDecosGrineer/GftPlantBirdsNestDDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/GftPlantBirdsNestD.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropGftPlantBirdsNestDDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantFernE": {
+        "name": "/Lotus/Language/DojoDecosGrineer/GftPlantFernEName",
+        "description": "/Lotus/Language/DojoDecosGrineer/GftPlantFernEDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/GftPlantFernE.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropGftPlantFernEDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantLilyDayGrpA": {
+        "name": "/Lotus/Language/DojoDecosGrineer/GftPlantLilyDayGrpAName",
+        "description": "/Lotus/Language/DojoDecosGrineer/GftPlantLilyDayGrpADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Plants/ForestDayUncommon.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropGftPlantLilyDayGrpADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantLilyNightGrpA": {
+        "name": "/Lotus/Language/DojoDecosGrineer/GftPlantLilyNightGrpAName",
+        "description": "/Lotus/Language/DojoDecosGrineer/GftPlantLilyNightGrpADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Plants/ForestNightUncommon.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropGftPlantLilyNightGrpADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantRuksClawMature": {
+        "name": "/Lotus/Language/DojoDecosGrineer/GftPlantRuksClawMatureName",
+        "description": "/Lotus/Language/DojoDecosGrineer/GftPlantRuksClawMatureDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Plants/GftPlantRuksClawMature.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropGftPlantRuksClawMatureDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantSequoiaConeMature": {
+        "name": "/Lotus/Language/DojoDecosGrineer/GftPlantSequoiaConeMatureName",
+        "description": "/Lotus/Language/DojoDecosGrineer/GftPlantSequoiaConeMatureDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Plants/ForestNightCommon.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropGftPlantSequoiaConeMatureDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantSequoiaConeYoung": {
+        "name": "/Lotus/Language/DojoDecosGrineer/GftPlantSequoiaConeYoungName",
+        "description": "/Lotus/Language/DojoDecosGrineer/GftPlantSequoiaConeYoungDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Plants/ForestDayCommon.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropGftPlantSequoiaConeYoungDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantSkunkCabbageMature": {
+        "name": "/Lotus/Language/DojoDecosGrineer/GftPlantSkunkCabbageMatureName",
+        "description": "/Lotus/Language/DojoDecosGrineer/GftPlantSkunkCabbageMatureDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Plants/ForestNightRare.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropGftPlantSkunkCabbageMatureDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftPlantSkunkCabbageYoung": {
+        "name": "/Lotus/Language/DojoDecosGrineer/GftPlantSkunkCabbageYoungName",
+        "description": "/Lotus/Language/DojoDecosGrineer/GftPlantSkunkCabbageYoungDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Plants/ForestDayRare.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropGftPlantSkunkCabbageYoungDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftSilverLadyFernA": {
+        "name": "/Lotus/Language/DojoDecosGrineer/GftSilverLadyFernAName",
+        "description": "/Lotus/Language/DojoDecosGrineer/GftSilverLadyFernADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/GftSilverLadyFernA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropGftSilverLadyFernADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftSilverLadyFernB": {
+        "name": "/Lotus/Language/DojoDecosGrineer/GftSilverLadyFernBName",
+        "description": "/Lotus/Language/DojoDecosGrineer/GftSilverLadyFernBDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/GftSilverLadyFernB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropGftSilverLadyFernBDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropGftSilverLadyFernC": {
+        "name": "/Lotus/Language/DojoDecosGrineer/GftSilverLadyFernCName",
+        "description": "/Lotus/Language/DojoDecosGrineer/GftSilverLadyFernCDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/GftSilverLadyFernC.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropGftSilverLadyFernCDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxBoxwoodHedgeA1x1m": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxBoxwoodHedgeA1x1mName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxBoxwoodHedgeA1x1mDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/LASxBoxwoodHedgeA1x1m.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropLASxBoxwoodHedgeA1x1mDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxInfFlowerE": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxInfFlowerEName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxInfFlowerEDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/LASxInfFlowerE.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropLASxInfFlowerEDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxInfFlowerF": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxInfFlowerFName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxInfFlowerFDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/LASxInfFlowerF.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropLASxInfFlowerFDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageCrotonA": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxIntFoliageCrotonAName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxIntFoliageCrotonADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/LASxIntFoliageCrotonA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropLASxIntFoliageCrotonADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageCrotonB": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxIntFoliageCrotonBName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxIntFoliageCrotonBDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/LASxIntFoliageCrotonB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropLASxIntFoliageCrotonBDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageCrotonC": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxIntFoliageCrotonCName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxIntFoliageCrotonCDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/LASxIntFoliageCrotonC.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropLASxIntFoliageCrotonCDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageCrotonD": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxIntFoliageCrotonDName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxIntFoliageCrotonDDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/LASxIntFoliageCrotonD.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropLASxIntFoliageCrotonDDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageFanPalmA": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxIntFoliageFanPalmAName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxIntFoliageFanPalmADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/LASxIntFoliageFanPalmA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropLASxIntFoliageFanPalmADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageFanPalmB": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxIntFoliageFanPalmBName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxIntFoliageFanPalmBDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/LASxIntFoliageFanPalmB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropLASxIntFoliageFanPalmBDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageFicusA": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxIntFoliageFicusAName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxIntFoliageFicusADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/LASxIntFoliageFicusA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropLASxIntFoliageFicusADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIntFoliageFicusB": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxIntFoliageFicusBName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxIntFoliageFicusBDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/LASxIntFoliageFicusB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropLASxIntFoliageFicusBDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIvyOvergrowthA": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxIvyOvergrowthAName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxIvyOvergrowthADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/LASxIvyOvergrowthA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropLASxIvyOvergrowthADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIvyOvergrowthE": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxIvyOvergrowthEName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxIvyOvergrowthEDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/LASxIvyOvergrowthE.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropLASxIvyOvergrowthEDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxIvyOvergrowthF": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxIvyOvergrowthFName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxIvyOvergrowthFDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/LASxIvyOvergrowthF.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropLASxIvyOvergrowthFDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxParkIvyC": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxParkIvyCName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxParkIvyCDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/LASxParkIvyC.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropLASxParkIvyCDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropLASxParkIvyD": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxParkIvyDName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxParkIvyDDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/LASxParkIvyD.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropLASxParkIvyDDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropMossGroundCoverA": {
+        "name": "/Lotus/Language/DojoDecosGrineer/MossGroundCoverAName",
+        "description": "/Lotus/Language/DojoDecosGrineer/MossGroundCoverADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Plants/MossGroundCoverA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropMossGroundCoverADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropOroBushA": {
+        "name": "/Lotus/Language/DojoDecosOrokin/OroBushAName",
+        "description": "/Lotus/Language/DojoDecosOrokin/OroBushADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/OroBushA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropOroBushADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropOroPorcelainBushA": {
+        "name": "/Lotus/Language/DojoDecosOrokin/OroPorcelainBushAName",
+        "description": "/Lotus/Language/DojoDecosOrokin/OroPorcelainBushADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/OroPorcelainBushA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropOroPorcelainBushADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropOstAlienFoliageA": {
+        "name": "/Lotus/Language/DojoDecosOstron/OstAlienFoliageAName",
+        "description": "/Lotus/Language/DojoDecosOstron/OstAlienFoliageADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/OstAlienFoliageA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropOstAlienFoliageADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropOstAlienFoliageC": {
+        "name": "/Lotus/Language/DojoDecosOstron/OstAlienFoliageCName",
+        "description": "/Lotus/Language/DojoDecosOstron/OstAlienFoliageCDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/OstAlienFoliageC.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropOstAlienFoliageCDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropOstAlienFoliageD": {
+        "name": "/Lotus/Language/DojoDecosOstron/OstAlienFoliageDName",
+        "description": "/Lotus/Language/DojoDecosOstron/OstAlienFoliageDDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/OstAlienFoliageD.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropOstAlienFoliageDDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropSVFoliagePurpleLarge": {
+        "name": "/Lotus/Language/DojoDecosSolaris/SVFoliagePurpleLargeName",
+        "description": "/Lotus/Language/DojoDecosSolaris/SVFoliagePurpleLargeDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/SVFoliagePurpleLarge.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropSVFoliagePurpleLargeDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropSvCaveMushroomE": {
+        "name": "/Lotus/Language/DojoDecosSolaris/SvCaveMushroomEName",
+        "description": "/Lotus/Language/DojoDecosSolaris/SvCaveMushroomEDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/SvCaveMushroomE.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropSvCaveMushroomEDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZARxBushA": {
+        "name": "/Lotus/Language/DojoDecosZariman/ZARxBushAName",
+        "description": "/Lotus/Language/DojoDecosZariman/ZARxBushADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/ZARxBushA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropZARxBushADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZARxFlowerBouquetC": {
+        "name": "/Lotus/Language/Plants/LisetPropZARxFlowerBouquetC",
+        "description": "/Lotus/Language/Plants/LisetPropZARxFlowerBouquetCDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/ZARxFlowerBouquetC.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropZARxFlowerBouquetCDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZARxTreeNaturalSapling": {
+        "name": "/Lotus/Language/DojoDecosZariman/ZARxTreeNaturalSaplingName",
+        "description": "/Lotus/Language/DojoDecosZariman/ZARxTreeNaturalSaplingDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/ZARxTreeNaturalSapling.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropZARxTreeNaturalSaplingDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZenCobraLotus": {
+        "name": "/Lotus/Language/DojoDecosTenno/ZenCobraLotusName",
+        "description": "/Lotus/Language/DojoDecosTenno/ZenCobraLotusDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Plants/CobraLotus.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropZenCobraLotusDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZenGardenWildGingerB": {
+        "name": "/Lotus/Language/DojoDecosTenno/ZenGardenWildGingerBName",
+        "description": "/Lotus/Language/DojoDecosTenno/ZenGardenWildGingerBDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Plants/WildGingerB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropZenGardenWildGingerBDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZenGrassA": {
+        "name": "/Lotus/Language/Plants/LisetPropZenGrassA",
+        "description": "/Lotus/Language/Plants/LisetPropZenGrassADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/ZenGrassA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropZenGrassADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZenPitcherPlant": {
+        "name": "/Lotus/Language/Plants/LisetPropZenPitcherPlant",
+        "description": "/Lotus/Language/Plants/LisetPropZenPitcherPlantDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Plants/ZenPitcher.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropZenPitcherPlantDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/Nokko/LisetPropZenTallGrass": {
+        "name": "/Lotus/Language/Plants/LisetPropZenTallGrass",
+        "description": "/Lotus/Language/Plants/LisetPropZenTallGrassDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/ZenTallGrass.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropZenTallGrassDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDUVxGardeningCactus": {
+        "name": "/Lotus/Language/Plants/LisetPropDUVxGardeningCactus",
+        "description": "/Lotus/Language/Plants/LisetPropDUVxGardeningCactusDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DUVxGardeningCactus.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDUVxGardeningCactusDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDUVxGardeningPlantAGrown": {
+        "name": "/Lotus/Language/Plants/LisetPropDUVxGardeningPlantAGrown",
+        "description": "/Lotus/Language/Plants/LisetPropDUVxGardeningPlantAGrownDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DUVxGardeningPlantAGrown.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDUVxGardeningPlantAGrownDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDUVxGardeningPlantBGrown": {
+        "name": "/Lotus/Language/Plants/LisetPropDUVxGardeningPlantBGrown",
+        "description": "/Lotus/Language/Plants/LisetPropDUVxGardeningPlantBGrownDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DUVxGardeningPlantBGrown.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDUVxGardeningPlantBGrownDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDUVxGardeningPlantCGrown": {
+        "name": "/Lotus/Language/Plants/LisetPropDUVxGardeningPlantCGrown",
+        "description": "/Lotus/Language/Plants/LisetPropDUVxGardeningPlantCGrownDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DUVxGardeningPlantCGrown.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDUVxGardeningPlantCGrownDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDUVxGardeningPlantDGrown": {
+        "name": "/Lotus/Language/Plants/LisetPropDUVxGardeningPlantDGrown",
+        "description": "/Lotus/Language/Plants/LisetPropDUVxGardeningPlantDGrownDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DUVxGardeningPlantDGrown.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDUVxGardeningPlantDGrownDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDUVxGardeningPlantEGrown": {
+        "name": "/Lotus/Language/Plants/LisetPropDUVxGardeningPlantEGrown",
+        "description": "/Lotus/Language/Plants/LisetPropDUVxGardeningPlantEGrownDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DUVxGardeningPlantEGrown.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDUVxGardeningPlantEGrownDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDUVxGardeningPlantFGrown": {
+        "name": "/Lotus/Language/Plants/LisetPropDUVxGardeningPlantFGrown",
+        "description": "/Lotus/Language/Plants/LisetPropDUVxGardeningPlantFGrownDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DUVxGardeningPlantFGrown.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDUVxGardeningPlantFGrownDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/LisetPropDuvxDuviriMushroomItem2m": {
+        "name": "/Lotus/Language/Plants/LisetPropDuvxDuviriMushroomItem2m",
+        "description": "/Lotus/Language/Plants/LisetPropDuvxDuviriMushroomItem2mDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Plants/DuvxDuviriMushroomItem2m.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropDuvxDuviriMushroomItem2mDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/LisetPropNistlebrush": {
+        "name": "/Lotus/Language/Plants/LisetPropNistlebrush",
+        "description": "/Lotus/Language/Plants/LisetPropNistlebrushDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Eidolon/NistlepodContainer.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropNistlebrushDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Plants/LisetPropVenusTreeFull": {
+        "name": "/Lotus/Language/Plants/LisetPropVenusTreeFull",
+        "description": "/Lotus/Language/Plants/LisetPropVenusTreeFullDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Venus/VenusTreeContainer.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Plants/LisetPropVenusTreeFullDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
     "/Lotus/Types/Items/ShipDecos/Plushies/Deimos/PlushyInfestedCritterCommon": {
         "name": "/Lotus/Language/InfestedMicroplanet/PlushyInfestedCritterCommon",
         "description": "/Lotus/Language/InfestedMicroplanet/GenericPlushyDesc",
@@ -13770,6 +14869,17 @@
         "capacityCost": 5,
         "dojoCapacityCost": 5
     },
+    "/Lotus/Types/Items/ShipDecos/Plushies/PlushyNokkoMushroom": {
+        "name": "/Lotus/Language/ShipDecorations/PlushyNokkoMushroomName",
+        "description": "/Lotus/Language/ShipDecorations/PlushyNokkoMushroomDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/PlushyNokkoMushroom.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Plushies/PlushyNokkoMushroomDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
     "/Lotus/Types/Items/ShipDecos/Plushies/PlushyOllie": {
         "name": "/Lotus/Language/ShipDecorations/PlushyOllieName",
         "description": "/Lotus/Language/ShipDecorations/PlushyOllieDesc",
@@ -14131,6 +15241,380 @@
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations",
         "deco": "/Lotus/Objects/Tenno/Props/Plushies/PlushyZekeInfestedDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxMallPlanterA": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxMallPlanterAName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxMallPlanterADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/1999Wf/LASxMallPlanterA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropLASxMallPlanterADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxMallPlanterB": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxMallPlanterBName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxMallPlanterBDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/1999Wf/LASxMallPlanterB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropLASxMallPlanterBDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterBox1mA": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxPlanterBox1mAName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxPlanterBox1mADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/1999Wf/LASxPlanterBox1mA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropLASxPlanterBox1mADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterBox1mAFoliageA": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxPlanterBox1mAFoliageAName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxPlanterBox1mAFoliageADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/1999Wf/LisetPropLASxPlanterBox1mAFoliageA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropLASxPlanterBox1mAFoliageADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterBox2mA": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxPlanterBox2mAName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxPlanterBox2mADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/1999Wf/LASxPlanterBox2mA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropLASxPlanterBox2mADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterCircle2mA": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxPlanterCircle2mAName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxPlanterCircle2mADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/1999Wf/LASxPlanterCircle2mA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropLASxPlanterCircle2mADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterHangingA": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxPlanterHangingAName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxPlanterHangingADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/1999Wf/LASxPlanterHangingA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropLASxPlanterHangingADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterHangingAFoliageA": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxPlanterHangingAFoliageAName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxPlanterHangingAFoliageADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/1999Wf/LASxPlanterHangingAFoliageA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropLASxPlanterHangingAFoliageADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterHangingAFoliageB": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxPlanterHangingAFoliageBName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxPlanterHangingAFoliageBDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/1999Wf/LisetPropLASxPlanterHangingAFoliageB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropLASxPlanterHangingAFoliageBDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterHangingB": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxPlanterHangingBName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxPlanterHangingBDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/1999Wf/LASxPlanterHangingB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropLASxPlanterHangingBDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxPlanterRoundA": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxPlanterRoundAName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxPlanterRoundADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/1999Wf/LASxPlanterRoundA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropLASxPlanterRoundADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxShopPlanterA": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxShopPlanterAName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxShopPlanterADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/1999Wf/LASxShopPlanterA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropLASxShopPlanterADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropLASxShopPlanterB": {
+        "name": "/Lotus/Language/DojoDecos1999/LASxShopPlanterBName",
+        "description": "/Lotus/Language/DojoDecos1999/LASxShopPlanterBDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/1999Wf/LASxShopPlanterB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropLASxShopPlanterBDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropOroPlanterSmallNoTree": {
+        "name": "/Lotus/Language/DojoDecosOrokin/OroPlanterSmallNoTreeName",
+        "description": "/Lotus/Language/DojoDecosOrokin/OroPlanterSmallNoTreeDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Props/OroPlanterSmallNoTree.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropOroPlanterSmallNoTreeDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropZARxPrpPlanterClipOnLargeA": {
+        "name": "/Lotus/Language/Dojo/ZARxPrpPlanterClipOnLargeAName",
+        "description": "/Lotus/Language/Dojo/ZARxPrpPlanterClipOnLargeADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Zariman/ZARxPrpPlanterClipOnLargeA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropZARxPrpPlanterClipOnLargeADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropZARxPrpPlanterMedC": {
+        "name": "/Lotus/Language/DojoDecosZariman/ZARxPrpPlanterMedCName",
+        "description": "/Lotus/Language/DojoDecosZariman/ZARxPrpPlanterMedCDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Zariman/ZARxPrpPlanterMedC.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropZARxPrpPlanterMedCDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropZARxPrpPlanterTroughStraight": {
+        "name": "/Lotus/Language/Dojo/ZARxPrpPlanterTroughStraightName",
+        "description": "/Lotus/Language/Dojo/ZARxPrpPlanterTroughStraightDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Zariman/ZARxPrpPlanterTroughStraight.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropZARxPrpPlanterTroughStraightDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/Nokko/LisetPropZARxPrpPlanterWallMountedA": {
+        "name": "/Lotus/Language/Dojo/ZARxPrpPlanterWallMountedAName",
+        "description": "/Lotus/Language/Dojo/ZARxPrpPlanterWallMountedADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Zariman/ZARxPrpPlanterWallMountedA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropZARxPrpPlanterWallMountedADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/EvilBaroFloatingCandlesShipDeco": {
+        "name": "/Lotus/Language/ShipDecorations/EvilBaroFloatingCandlesShipDecoName",
+        "description": "/Lotus/Language/ShipDecorations/EvilBaroFloatingCandlesShipDecoDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/EvilBaroFloatingCandlesShipDeco.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/EvilBaroFloatingCandlesDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/LisetPropCorpusCanister": {
+        "name": "/Lotus/Language/Props/LisetPropCorpusCanister",
+        "description": "/Lotus/Language/Props/LisetPropCorpusCanisterDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Venus/CoolantContainer.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropCorpusCanisterDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/LisetPropDUVxFractalItem": {
+        "name": "/Lotus/Language/Props/LisetPropDUVxFractalItem",
+        "description": "/Lotus/Language/Props/LisetPropDUVxFractalItemDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Props/DUVxFractalItem.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropDUVxFractalItemDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/LisetPropDUVxKitchenBowlA": {
+        "name": "/Lotus/Language/Props/LisetPropDUVxKitchenBowlA",
+        "description": "/Lotus/Language/Props/LisetPropDUVxKitchenBowlADesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Props/DUVxKitchenBowlA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropDUVxKitchenBowlADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/LisetPropDUVxLootCrateB": {
+        "name": "/Lotus/Language/Props/LisetPropDUVxLootCrateB",
+        "description": "/Lotus/Language/Props/LisetPropDUVxLootCrateBDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Props/DUVxLootCrateB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropDUVxLootCrateBDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/LisetPropDUVxRockContainerItem": {
+        "name": "/Lotus/Language/Props/LisetPropDUVxRockContainerItem",
+        "description": "/Lotus/Language/Props/LisetPropDUVxRockContainerItemDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Props/DUVxRockItemContainer.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropDUVxRockContainerItemDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/LisetPropDuviriProcessedItemContainer": {
+        "name": "/Lotus/Language/Props/LisetPropDuviriProcessedItemContainer",
+        "description": "/Lotus/Language/Props/LisetPropDuviriProcessedItemContainerDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Props/DuviriProcessedItemContainer.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropDuviriProcessedItemContainerDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/LisetPropGrnGrokdrul": {
+        "name": "/Lotus/Language/Props/LisetPropGrnGrokdrul",
+        "description": "/Lotus/Language/Props/LisetPropGrnGrokdrulDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Objects/Eidolon/GrokdrulContainer.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropGrnGrokdrulDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/LisetPropIradite": {
+        "name": "/Lotus/Language/Props/LisetPropIradite",
+        "description": "/Lotus/Language/Props/LisetPropIraditeDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Objects/Eidolon/IraditeContainer.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropIraditeDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/LisetPropLASxArcRelayStand": {
+        "name": "/Lotus/Language/Props/LisetPropLASxArcRelayStand",
+        "description": "/Lotus/Language/Props/LisetPropLASxArcRelayStandDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/1999Wf/1999ResourceUncommonBContainer.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropLASxArcRelayStandDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/LisetPropLASxEfervonSampleCluster": {
+        "name": "/Lotus/Language/Props/LisetPropLASxEfervonSampleCluster",
+        "description": "/Lotus/Language/Props/LisetPropLASxEfervonSampleClusterDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/1999Wf/1999ResourceCommonAContainer.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropLASxEfervonSampleClusterDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/LisetPropLASxPitchweaveFragmentCluster": {
+        "name": "/Lotus/Language/Props/LisetPropLASxPitchweaveFragmentCluster",
+        "description": "/Lotus/Language/Props/LisetPropLASxPitchweaveFragmentClusterDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/1999Wf/1999ResourceCommonBContainer.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropLASxPitchweaveFragmentClusterDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/LisetPropLASxProtoInfestedChitin": {
+        "name": "/Lotus/Language/Props/LisetPropLASxProtoInfestedChitin",
+        "description": "/Lotus/Language/Props/LisetPropLASxProtoInfestedChitinDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/1999Wf/1999ResourceUncommonAContainer.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropLASxProtoInfestedChitinDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/LisetPropLASxProtoInfestedMotherboard": {
+        "name": "/Lotus/Language/Props/LisetPropLASxProtoInfestedMotherboard",
+        "description": "/Lotus/Language/Props/LisetPropLASxProtoInfestedMotherboardDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/1999Wf/1999ResourceRareAContainer.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropLASxProtoInfestedStandDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/LisetPropMITWxLootCrateA": {
+        "name": "/Lotus/Language/Props/LisetPropMITWxLootCrateA",
+        "description": "/Lotus/Language/Props/LisetPropMITWxLootCrateADesc",
+        "icon": "/Lotus/Interface/Objects/EntratiLab/MITWLootCrate.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropMITWxLootCrateADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/LisetPropOrbStone": {
+        "name": "/Lotus/Language/Props/LisetPropOrbStone",
+        "description": "/Lotus/Language/Props/LisetPropOrbStoneDesc",
+        "icon": "/Lotus/Interface/Icons/Objects/Deimos/OrbStoneContainer.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropOrbStoneDeco",
         "capacityCost": 5,
         "dojoCapacityCost": 5
     },
@@ -14508,7 +15992,6 @@
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations",
-        "excludeFromCodex": true,
         "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/SolarisPosterA",
         "capacityCost": 5,
         "dojoCapacityCost": 5
@@ -14520,7 +16003,6 @@
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations",
-        "excludeFromCodex": true,
         "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/SolarisPosterB",
         "capacityCost": 5,
         "dojoCapacityCost": 5
@@ -14532,7 +16014,6 @@
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations",
-        "excludeFromCodex": true,
         "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/SolarisPosterC",
         "capacityCost": 5,
         "dojoCapacityCost": 5
@@ -14544,7 +16025,6 @@
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations",
-        "excludeFromCodex": true,
         "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/SolarisPosterD",
         "capacityCost": 5,
         "dojoCapacityCost": 5
@@ -14556,7 +16036,6 @@
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations",
-        "excludeFromCodex": true,
         "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/SolarisPosterE",
         "capacityCost": 5,
         "dojoCapacityCost": 5
@@ -14568,7 +16047,6 @@
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations",
-        "excludeFromCodex": true,
         "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/SolarisPosterF",
         "capacityCost": 5,
         "dojoCapacityCost": 5
@@ -14580,7 +16058,6 @@
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations",
-        "excludeFromCodex": true,
         "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/SolarisPosterG",
         "capacityCost": 5,
         "dojoCapacityCost": 5
@@ -17573,7 +19050,7 @@
     "/Lotus/Types/Items/ShipDecos/ConclaveOroSunOrnament": {
         "name": "/Lotus/Language/ShipDecorations/ConclaveOroSunOrnament",
         "description": "/Lotus/Language/ShipDecorations/ConclaveOroOrnamentDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/ConclaveSunMoonComboOrnaments.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/ConclaveoroSunOrnament.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations",
@@ -19997,6 +21474,17 @@
         "capacityCost": 5,
         "dojoCapacityCost": 5
     },
+    "/Lotus/Types/Items/ShipDecos/LisetPropNokkoBabyDrone": {
+        "name": "/Lotus/Language/ShipDecorations/NokkoMushroomDecoName",
+        "description": "/Lotus/Language/ShipDecorations/NokkoMushroomDecoDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/NokkoMushroomDeco.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/LisetPropNokkoBabyDroneDeco",
+        "capacityCost": 25,
+        "dojoCapacityCost": 25
+    },
     "/Lotus/Types/Items/ShipDecos/LisetPropNoraNightShip": {
         "name": "/Lotus/Language/ShipDecorations/LisetPropNoraNightShipName",
         "description": "/Lotus/Language/ShipDecorations/LisetPropNoraNightShipDesc",
@@ -20754,6 +22242,123 @@
         "capacityCost": 5,
         "dojoCapacityCost": 5
     },
+    "/Lotus/Types/Items/ShipDecos/NokkoAPoster": {
+        "name": "/Lotus/Language/ShipDecorations/NokkoAPosterName",
+        "description": "/Lotus/Language/ShipDecorations/NokkoAPosterDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Posters/NokkoPosterA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Interface/FragmentArtwork/NokkoAPosterDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/NokkoBPoster": {
+        "name": "/Lotus/Language/ShipDecorations/NokkoBPosterName",
+        "description": "/Lotus/Language/ShipDecorations/NokkoBPosterDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Posters/NokkoPosterB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Interface/FragmentArtwork/NokkoBPosterDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/NokkoCPoster": {
+        "name": "/Lotus/Language/ShipDecorations/NokkoCPosterName",
+        "description": "/Lotus/Language/ShipDecorations/NokkoCPosterDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Posters/NokkoPosterC.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Interface/FragmentArtwork/NokkoCPosterDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/NokkoMushroomScrawlPosterA": {
+        "name": "/Lotus/Language/NokkoColony/MushroomScrawlPosterA",
+        "description": "/Lotus/Language/NokkoColony/MushroomScrawlPosterADesc",
+        "icon": "/Lotus/Interface/FragmentArtwork/NokkoMushroomScrawlPosterA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "excludeFromCodex": true,
+        "deco": "/Lotus/Interface/FragmentArtwork/NokkoMushroomScrawlPosterADeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/NokkoMushroomScrawlPosterB": {
+        "name": "/Lotus/Language/NokkoColony/MushroomScrawlPosterB",
+        "description": "/Lotus/Language/NokkoColony/MushroomScrawlPosterBDesc",
+        "icon": "/Lotus/Interface/FragmentArtwork/NokkoMushroomScrawlPosterB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "excludeFromCodex": true,
+        "deco": "/Lotus/Interface/FragmentArtwork/NokkoMushroomScrawlPosterBDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/NokkoMushroomScrawlPosterC": {
+        "name": "/Lotus/Language/NokkoColony/MushroomScrawlPosterC",
+        "description": "/Lotus/Language/NokkoColony/MushroomScrawlPosterCDesc",
+        "icon": "/Lotus/Interface/FragmentArtwork/NokkoMushroomScrawlPosterC.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "excludeFromCodex": true,
+        "deco": "/Lotus/Interface/FragmentArtwork/NokkoMushroomScrawlPosterCDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/NokkoMushroomScrawlPosterD": {
+        "name": "/Lotus/Language/NokkoColony/MushroomScrawlPosterD",
+        "description": "/Lotus/Language/NokkoColony/MushroomScrawlPosterDDesc",
+        "icon": "/Lotus/Interface/FragmentArtwork/NokkoMushroomScrawlPosterD.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "excludeFromCodex": true,
+        "deco": "/Lotus/Interface/FragmentArtwork/NokkoMushroomScrawlPosterDDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/NokkoMushroomScrawlPosterE": {
+        "name": "/Lotus/Language/NokkoColony/MushroomScrawlPosterE",
+        "description": "/Lotus/Language/NokkoColony/MushroomScrawlPosterEDesc",
+        "icon": "/Lotus/Interface/FragmentArtwork/NokkoMushroomScrawlPosterE.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "excludeFromCodex": true,
+        "deco": "/Lotus/Interface/FragmentArtwork/NokkoMushroomScrawlPosterEDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/NokkoMushroomScrawlPosterF": {
+        "name": "/Lotus/Language/NokkoColony/MushroomScrawlPosterF",
+        "description": "/Lotus/Language/NokkoColony/MushroomScrawlPosterFDesc",
+        "icon": "/Lotus/Interface/FragmentArtwork/NokkoMushroomScrawlPosterF.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "excludeFromCodex": true,
+        "deco": "/Lotus/Interface/FragmentArtwork/NokkoMushroomScrawlPosterFDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/NokkoMushroomScrawlPosterG": {
+        "name": "/Lotus/Language/NokkoColony/MushroomScrawlPosterG",
+        "description": "/Lotus/Language/NokkoColony/MushroomScrawlPosterGDesc",
+        "icon": "/Lotus/Interface/FragmentArtwork/NokkoMushroomScrawlPosterG.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "excludeFromCodex": true,
+        "deco": "/Lotus/Interface/FragmentArtwork/NokkoMushroomScrawlPosterGDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
     "/Lotus/Types/Items/ShipDecos/NoraNightBobbleHead": {
         "name": "/Lotus/Language/ShipDecorations/BobbleheadNoraNightName",
         "description": "/Lotus/Language/ShipDecorations/BobbleheadNoraNightDesc",
@@ -21197,6 +22802,17 @@
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations",
         "deco": "/Lotus/Objects/Tenno/Props/Ships/BobbleheadProteaPrime",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/QTCC2in1Display": {
+        "name": "/Lotus/Language/ShipDecorations/QTCC2in1DisplayName",
+        "description": "/Lotus/Language/ShipDecorations/QTCC2in1DisplayDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Displays/QTCC2in1Display.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Interface/FragmentArtwork/Holographic/QTCC2in1DisplayDeco",
         "capacityCost": 5,
         "dojoCapacityCost": 5
     },
@@ -21760,6 +23376,18 @@
         "capacityCost": 5,
         "dojoCapacityCost": 5
     },
+    "/Lotus/Types/Items/ShipDecos/TarotCard2025Tennotober": {
+        "name": "/Lotus/Language/Tarot/TarotCardTennotober2025Name",
+        "description": "/Lotus/Language/Tarot/TarotCardTennotober2025Desc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Tarot/TarotCard2025Tennotober.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "excludeFromCodex": true,
+        "deco": "/Lotus/Objects/Festivities/TarotCards/TarotCardTennotober2025Deco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
     "/Lotus/Types/Items/ShipDecos/TarotCardAsh": {
         "name": "/Lotus/Language/Tarot/TarotCardAshName",
         "description": "/Lotus/Language/Tarot/TarotCardAshDesc",
@@ -21955,6 +23583,17 @@
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
         "productCategory": "ShipDecorations",
         "deco": "/Lotus/Objects/Festivities/TarotCards/TarotCardNezhaDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5
+    },
+    "/Lotus/Types/Items/ShipDecos/TarotCardNokko": {
+        "name": "/Lotus/Language/Tarot/TarotCardNokkoName",
+        "description": "/Lotus/Language/Tarot/TarotCardNokkoDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Tarot/TarotCardNokko.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Festivities/TarotCards/TarotCardNokkoCardDeco",
         "capacityCost": 5,
         "dojoCapacityCost": 5
     },
@@ -22212,8 +23851,8 @@
         "dojoCapacityCost": 5
     },
     "/Lotus/Types/Items/ShipDecos/TauGrineerLancerBobbleHead": {
-        "name": "/Lotus/Language/TauPrequel/TauPrequelTennocon/BobbleheadTauGrineerLancerName",
-        "description": "/Lotus/Language/TauPrequel/TauPrequelTennocon/BobbleheadTauGrineerLancerDesc",
+        "name": "/Lotus/Language/ShipDecorations/BobbleheadTauGrineerLancerName",
+        "description": "/Lotus/Language/ShipDecorations/BobbleheadTauGrineerLancerDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Bobbleheads/BobbleheadTauGrineerLancer.png",
         "codexSecret": true,
         "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
@@ -24716,6 +26355,16 @@
         "excludeFromCodex": true,
         "showInInventory": false
     },
+    "/Lotus/Types/Items/SongItems/WhatIsMyFateSongItem": {
+        "name": "/Lotus/Language/NokkoColony/WhatIsMyFateSongName",
+        "description": "/Lotus/Language/NokkoColony/WhatIsMyFateSongDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/WhatIsMyFateSongItemStoreIcon.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/SongItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "showInInventory": false
+    },
     "/Lotus/Types/Items/SongItems/WhispersInTheWallLoginSongItem": {
         "name": "/Lotus/Language/Fragments/WhispersInTheWallsLoginSongName",
         "description": "/Lotus/Language/Fragments/WhispersInTheWallsLoginSongDesc",
@@ -25166,7 +26815,7 @@
     "/Lotus/Types/Recipes/ArchwingRecipes/PrimeArchwing/PrimeArchwingChassisComponent": {
         "name": "/Lotus/Language/Menu/CraftingComponent_PrimeArchwingChassisName",
         "description": "/Lotus/Language/Menu/CraftingComponent_PrimeArchwingChassisDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericArchwingHarness.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericArchwingHarnessPrime.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ArchwingComponentItem",
         "productCategory": "MiscItems",
@@ -25175,7 +26824,7 @@
     "/Lotus/Types/Recipes/ArchwingRecipes/PrimeArchwing/PrimeArchwingSystemsComponent": {
         "name": "/Lotus/Language/Menu/CraftingComponent_PrimeArchwingSystemsName",
         "description": "/Lotus/Language/Menu/CraftingComponent_PrimeArchwingSystemsDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericArchwingSystems.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericArchwingSystemsPrime.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ArchwingComponentItem",
         "productCategory": "MiscItems",
@@ -25184,7 +26833,7 @@
     "/Lotus/Types/Recipes/ArchwingRecipes/PrimeArchwing/PrimeArchwingWingsComponent": {
         "name": "/Lotus/Language/Menu/CraftingComponent_PrimeArchwingWingsName",
         "description": "/Lotus/Language/Menu/CraftingComponent_PrimeArchwingWingsDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericArchwingWings.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericArchwingWingsPrime.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/ArchwingComponentItem",
         "productCategory": "MiscItems",
@@ -27035,6 +28684,33 @@
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
         "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/NokkoChassisComponent": {
+        "name": "/Lotus/Language/Suits/NokkoChassisComponentName",
+        "description": "/Lotus/Language/Suits/NokkoChassisComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframeChassis.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/NokkoHelmetComponent": {
+        "name": "/Lotus/Language/Suits/NokkoHelmetComponentName",
+        "description": "/Lotus/Language/Suits/NokkoHelmetComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframeHelmet.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/NokkoSystemsComponent": {
+        "name": "/Lotus/Language/Suits/NokkoSystemsComponentName",
+        "description": "/Lotus/Language/Suits/NokkoSystemsComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframeSystem.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
     },
     "/Lotus/Types/Recipes/WarframeRecipes/NovaChassisComponent": {
         "name": "/Lotus/Language/Menu/CraftingComponent_NovaChassisName",
@@ -30291,6 +31967,33 @@
         "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
         "productCategory": "MiscItems",
         "primeSellingPrice": 100
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/NokkoArchGunBarrelItem": {
+        "name": "/Lotus/Language/Weapons/CraftingComponent_NokkoArchgunBarrelName",
+        "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunBarrel.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/NokkoArchGunReceiverItem": {
+        "name": "/Lotus/Language/Weapons/CraftingComponent_NokkoArchgunReceiverName",
+        "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunReceiver.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/NokkoArchGunStockItem": {
+        "name": "/Lotus/Language/Weapons/CraftingComponent_NokkoArchgunStockName",
+        "description": "/Lotus/Language/CraftingComponents/NonPrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunStock.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
     },
     "/Lotus/Types/Recipes/Weapons/WeaponParts/OkinaPrimeBlade": {
         "name": "/Lotus/Language/Primes/CraftingComponent_OkinaPrimeBlade",

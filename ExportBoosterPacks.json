@@ -738,6 +738,31 @@
                 "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PullEnemiesOnMeleeKill",
                 "Amount": 1,
                 "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AbilityPowerOnFreeze",
+                "Amount": 1,
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MaxEnergyForArmor",
+                "Amount": 1,
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/BonusDamageNextShotForCurEnergy",
+                "Amount": 1,
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OverguardSteal",
+                "Amount": 1,
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/DuplicateStatusOnKnock",
+                "Amount": 1,
+                "Rarity": "RARE"
             }
         ],
         "rarityWeightsPerRoll": [
@@ -1092,6 +1117,74 @@
                 "UNCOMMON": 0.15,
                 "RARE": 0.7,
                 "LEGENDARY": 0
+            }
+        ],
+        "canGiveDuplicates": true
+    },
+    "/Lotus/Types/BoosterPacks/EntratiLabsArcanePackHollvania": {
+        "name": "/Lotus/Language/Entrati/EntratiLabsArcanePackHollvania",
+        "description": "/Lotus/Language/Entrati/EntratiLabsArcanePackContentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Arcanes/ArcaneDistillationPacks/NinetyNinePackIcon.png",
+        "components": [
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AbilityStrengthForMaxHealth",
+                "Amount": 1,
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AbilityStrengthOnSummonAttack",
+                "Amount": 1,
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/AbilityStrengthAndCritDamageWhenInvisible",
+                "Amount": 1,
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/AbilityStatusProcsGiveAbilityStrengthAndEfficiency",
+                "Amount": 1,
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/RadialViralAttackOnOverguardGain",
+                "Amount": 1,
+                "Rarity": "RARE"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AbilityHeatProcsGiveCritChance",
+                "Amount": 1,
+                "Rarity": "LEGENDARY"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Utility/AbilityRadiationProcsCreateUniversalOrbsOnKill",
+                "Amount": 1,
+                "Rarity": "LEGENDARY"
+            },
+            {
+                "Item": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/InvulnerabilityOnDeathOnMercyKill",
+                "Amount": 1,
+                "Rarity": "LEGENDARY"
+            }
+        ],
+        "rarityWeightsPerRoll": [
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0,
+                "RARE": 0.95,
+                "LEGENDARY": 0.05
+            },
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0,
+                "RARE": 0.95,
+                "LEGENDARY": 0.05
+            },
+            {
+                "COMMON": 0,
+                "UNCOMMON": 0,
+                "RARE": 0.95,
+                "LEGENDARY": 0.05
             }
         ],
         "canGiveDuplicates": true

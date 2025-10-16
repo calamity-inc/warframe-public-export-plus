@@ -224,6 +224,12 @@
         "icon": "/Lotus/Interface/Icons/Abilities/EmberOverHeat.png",
         "energyRequiredToActivate": 50
     },
+    "/Lotus/Powersuits/PowersuitAbilities/DrenchTwoAbilityBase": {
+        "name": "/Lotus/Language/Suits/OverheatAbilityName",
+        "description": "/Lotus/Language/Suits/OverheatAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/EmberOverHeat.png",
+        "energyRequiredToActivate": 50
+    },
     "/Lotus/Powersuits/PowersuitAbilities/EnergyFieldAbility": {
         "name": "/Lotus/Language/Focus/FocusPowerDashBubbleName",
         "description": "/Lotus/Language/Focus/FocusPowerDashBubbleDesc",
@@ -234,6 +240,12 @@
         "name": "/Lotus/Language/Necromech/EntratiMechShieldBashAbilityName",
         "icon": "/Lotus/Interface/Icons/Abilities/Power01.png",
         "energyRequiredToActivate": 15
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/ExplosiveDissolveAbilityBase": {
+        "name": "/Lotus/Language/Suits/ExplosiveDissolveAbilityName",
+        "description": "/Lotus/Language/Suits/ExplosiveDissolveAbilityReworkDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/SarynMiasma.png",
+        "energyRequiredToActivate": 75
     },
     "/Lotus/Powersuits/PowersuitAbilities/KingpinElementalProjectileAbility": {
         "name": "/Lotus/Language/Suits/FireBallAbilityName",
@@ -258,6 +270,14 @@
         "description": "/Lotus/Language/Suits/MonkeyPokeAbilityDesc",
         "icon": "/Lotus/Interface/Icons/Abilities/MonkeyPoke.png",
         "energyRequiredToActivate": 25
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/NokkoBabyAbility": {
+        "icon": "/Lotus/Interface/Icons/Abilities/NokkoShrink.png",
+        "energyRequiredToActivate": 0
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/NokkoDummyAbility": {
+        "icon": "/Lotus/Interface/Icons/Abilities/NokkoShrink.png",
+        "energyRequiredToActivate": 0
     },
     "/Lotus/Powersuits/PowersuitAbilities/OperatorDefenseShieldAbility": {
         "name": "/Lotus/Language/Focus/FocusDefenseActiveDefenseShieldName",
@@ -413,6 +433,13 @@
         "energyRequiredToActivate": 50
     },
     "/Lotus/Powersuits/PowersuitAbilities/WorldOnFireAbility": {
+        "name": "/Lotus/Language/Suits/WorldOnFireAbilityName",
+        "description": "/Lotus/Language/Suits/WorldOnFireAbilityDesc",
+        "icon": "/Lotus/Interface/Icons/Abilities/EmberWorldOnFire.png",
+        "energyRequiredToActivate": 50,
+        "energyConsumptionOverTime": 3
+    },
+    "/Lotus/Powersuits/PowersuitAbilities/WorldOnFireAbilityBase": {
         "name": "/Lotus/Language/Suits/WorldOnFireAbilityName",
         "description": "/Lotus/Language/Suits/WorldOnFireAbilityDesc",
         "icon": "/Lotus/Interface/Icons/Abilities/EmberWorldOnFire.png",

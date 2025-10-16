@@ -6133,6 +6133,19 @@
         "type": "PRIMARY",
         "tradable": true
     },
+    "/Lotus/Upgrades/Mods/Rifle/Event/Nightwave/NightwaveHemaAugmentMod": {
+        "name": "/Lotus/Language/Mods/NightwaveHemaAugmentModName",
+        "icon": "/Lotus/Interface/Cards/Images/Nightwave/NightwaveHemaAugmentMod.png",
+        "polarity": "AP_ATTACK",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Infested/LongGuns/InfWFAccompanyingPri/InfestedBurstRifle",
+        "compatName": "Hema",
+        "type": "PRIMARY",
+        "tradable": true
+    },
     "/Lotus/Upgrades/Mods/Rifle/Event/Nightwave/NightwaveGorgonAugmentMod": {
         "name": "/Lotus/Language/Mods/NightwaveGorgonAugmentMod",
         "icon": "/Lotus/Interface/Cards/Images/Nightwave/NightwaveGorgonAugmentMod.png",
@@ -6169,6 +6182,19 @@
         "fusionLimit": 5,
         "compat": "/Lotus/Weapons/Corpus/LongGuns/CrpSentExperimentRifle/CrpSentExperimentRifle",
         "compatName": "Battacor",
+        "type": "PRIMARY",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Rifle/Event/Nightwave/NightwaveBasmuAugmentMod": {
+        "name": "/Lotus/Language/Mods/NightwaveBasmuAugmentModName",
+        "icon": "/Lotus/Interface/Cards/Images/Nightwave/NightwaveBasmuAugmentMod.png",
+        "polarity": "AP_ATTACK",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Sentients/SentRifleNewWar/SentRifleNewWarGun",
+        "compatName": "Basmu",
         "type": "PRIMARY",
         "tradable": true
     },
@@ -9037,6 +9063,19 @@
         "type": "SECONDARY",
         "tradable": true
     },
+    "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponPistolFactionDamageMurmursExpert": {
+        "name": "/Lotus/Language/Mods/PrimedPistolModFactionDamageMurmurs",
+        "icon": "/Lotus/Interface/Cards/Images/Pistol/WeaponPistolFactionDamageMurmurs.png",
+        "polarity": "AP_ATTACK",
+        "rarity": "LEGENDARY",
+        "codexSecret": true,
+        "baseDrain": 4,
+        "fusionLimit": 10,
+        "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
+        "compatName": "Pistol",
+        "type": "SECONDARY",
+        "tradable": true
+    },
     "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponPistolFactionDamageInfestedExpert": {
         "name": "/Lotus/Language/Mods/PistolModFactionDamageInfestedExpert",
         "icon": "/Lotus/Interface/Cards/Images/Pistol/PistolDamageInfested.png",
@@ -9136,6 +9175,19 @@
         "rarity": "LEGENDARY",
         "codexSecret": true,
         "baseDrain": 4,
+        "fusionLimit": 10,
+        "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
+        "compatName": "Pistol",
+        "type": "SECONDARY",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Pistol/Expert/PrimedWeaponElectricityDamageMod": {
+        "name": "/Lotus/Language/Mods/ExpertPistolModElectricityDamage",
+        "icon": "/Lotus/Interface/Cards/Images/Pistol/PistolElectricityDamageMod.png",
+        "polarity": "AP_TACTIC",
+        "rarity": "LEGENDARY",
+        "codexSecret": true,
+        "baseDrain": 6,
         "fusionLimit": 10,
         "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
         "compatName": "Pistol",
@@ -13725,6 +13777,20 @@
         "type": "WARFRAME",
         "tradable": true
     },
+    "/Lotus/Upgrades/CosmeticEnhancers/Peculiars/DissolveEnemyMod": {
+        "name": "/Lotus/Language/Mods/PerculiarDissolveEnemyMod",
+        "icon": "/Lotus/Interface/Cards/Images/Perculiars/DissolveEnemyMod.png",
+        "polarity": "AP_TACTIC",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 5,
+        "isUtility": true,
+        "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
+        "compatName": "WARFRAME",
+        "type": "WARFRAME",
+        "tradable": true
+    },
     "/Lotus/Types/Sentinels/SentinelPrecepts/WeaknessScanPrecept": {
         "name": "/Lotus/Language/Mods/SentinelWeaknessScanPrecept",
         "icon": "/Lotus/Interface/Cards/Images/Pets/SentinelWeaknessScanPrecept.png",
@@ -16968,6 +17034,20 @@
         "subtype": "/Lotus/Powersuits/Hoplite/HopliteBaseSuit",
         "tradable": true
     },
+    "/Lotus/Powersuits/Hoplite/HopliteBashAugmentCard": {
+        "name": "/Lotus/Language/Suits/HopliteBash_AbilityAugment1Name",
+        "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/HopliteBashAugmentCard.png",
+        "polarity": "AP_POWER",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Powersuits/Hoplite/HopliteBaseSuit",
+        "compatName": "Styanax",
+        "type": "WARFRAME",
+        "subtype": "/Lotus/Powersuits/Hoplite/HopliteBaseSuit",
+        "tradable": true
+    },
     "/Lotus/Powersuits/Hoplite/HopliteArmyAugmentCard": {
         "name": "/Lotus/Language/Suits/HopliteArmyAbilityAugment1Name",
         "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/StyanaxArmyAugment.png",
@@ -17055,6 +17135,20 @@
     "/Lotus/Powersuits/Gyre/GyrePulseAugmentCard": {
         "name": "/Lotus/Language/Suits/GyrePulseAbilityAugment1Name",
         "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/GyrePulseAugmentCard.png",
+        "polarity": "AP_POWER",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Powersuits/Gyre/GyreBaseSuit",
+        "compatName": "Gyre",
+        "type": "WARFRAME",
+        "subtype": "/Lotus/Powersuits/Gyre/GyreBaseSuit",
+        "tradable": true
+    },
+    "/Lotus/Powersuits/Gyre/GyreOverchargedAugmentCard": {
+        "name": "/Lotus/Language/Suits/GyreOverchargedAugment1Name",
+        "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/GyreOverchargedAugmentCard.png",
         "polarity": "AP_POWER",
         "rarity": "RARE",
         "codexSecret": false,
@@ -17756,6 +17850,20 @@
         "subtype": "/Lotus/Powersuits/BrokenFrame/BrokenFrameBaseSuit",
         "tradable": true
     },
+    "/Lotus/Powersuits/BrokenFrame/BrokenDestructAugmentCard": {
+        "name": "/Lotus/Language/Suits/BrokenDestructAbilityAugment1Name",
+        "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/BrokenDestructAugmentCard.png",
+        "polarity": "AP_POWER",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Powersuits/BrokenFrame/BrokenFrameBaseSuit",
+        "compatName": "Xaku",
+        "type": "WARFRAME",
+        "subtype": "/Lotus/Powersuits/BrokenFrame/BrokenFrameBaseSuit",
+        "tradable": true
+    },
     "/Lotus/Powersuits/Brawler/BrawlerSummonPvPAugmentCard": {
         "name": "/Lotus/Language/Suits/BrawlerSummonAbilityAugment1PvPName",
         "icon": "/Lotus/Interface/Cards/Images/PvP/Augments/AtlasRumberAugment.png",
@@ -18125,6 +18233,20 @@
     "/Lotus/Powersuits/Alchemist/SerpentAugmentCard": {
         "name": "/Lotus/Language/Suits/AlchemistSerpent_AbilityAugment1Name",
         "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/LavosSerpentAugment.png",
+        "polarity": "AP_POWER",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Powersuits/Alchemist/AlchemistBaseSuit",
+        "compatName": "Lavos",
+        "type": "WARFRAME",
+        "subtype": "/Lotus/Powersuits/Alchemist/AlchemistBaseSuit",
+        "tradable": true
+    },
+    "/Lotus/Powersuits/Alchemist/AlchemistTransmuteAugmentCard": {
+        "name": "/Lotus/Language/Suits/AlchemistTransmute_AbilityAugment1Name",
+        "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/AlchemistTransmuteAugmentCard.png",
         "polarity": "AP_POWER",
         "rarity": "RARE",
         "codexSecret": false,
@@ -19099,19 +19221,6 @@
         "isStarter": true,
         "tradable": true
     },
-    "/Lotus/Upgrades/Mods/Pistol/Expert/PrimedWeaponElectricityDamageMod": {
-        "name": "/Lotus/Language/Mods/ExpertPistolModElectricityDamage",
-        "icon": "/Lotus/Interface/Cards/Images/Pistol/PistolElectricityDamageMod.png",
-        "polarity": "AP_TACTIC",
-        "rarity": "LEGENDARY",
-        "codexSecret": true,
-        "baseDrain": 6,
-        "fusionLimit": 10,
-        "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
-        "compatName": "Pistol",
-        "type": "SECONDARY",
-        "tradable": true
-    },
     "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponAmmoMaxModExpert": {
         "name": "/Lotus/Language/Items/PistolModAmmoMax",
         "icon": "/Lotus/Interface/Cards/Images/Pistol/PistolAmmoMaxMod.png",
@@ -19224,19 +19333,6 @@
         "type": "SECONDARY",
         "isFrivolous": true,
         "tradable": false
-    },
-    "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponPistolFactionDamageMurmursExpert": {
-        "name": "/Lotus/Language/Mods/PrimedPistolModFactionDamageMurmurs",
-        "icon": "/Lotus/Interface/Cards/Images/Pistol/WeaponPistolFactionDamageMurmurs.png",
-        "polarity": "AP_ATTACK",
-        "rarity": "LEGENDARY",
-        "codexSecret": true,
-        "baseDrain": 4,
-        "fusionLimit": 10,
-        "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
-        "compatName": "Pistol",
-        "type": "SECONDARY",
-        "tradable": true
     },
     "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponPistolZoomFovModExpert": {
         "name": "/Lotus/Language/Items/PistolModZoomFov",
@@ -19847,6 +19943,7 @@
             "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/ArchHeavyPistols",
             "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGun",
             "/Lotus/Weapons/Tenno/Archwing/Primary/LaunchGrenade/ArchCannon",
+            "/Lotus/Weapons/Tenno/Archwing/Primary/NokkoArchGun/NokkoArchGun",
             "/Lotus/Weapons/Tenno/Archwing/Primary/Railgun/ArchRailgun",
             "/Lotus/Weapons/Tenno/Archwing/Primary/RepurposedGrineerAntiAircraftGun/ArchGRNAAGun",
             "/Lotus/Weapons/Tenno/Archwing/Primary/RocketArtillery/ArchRocketCrossbow",
@@ -26428,6 +26525,7 @@
             "/Lotus/Weapons/Tenno/LongGuns/TnBardRifle/TnBardRifle",
             "/Lotus/Weapons/Tenno/LongGuns/TnBeltFedRifle/TnBeltFedRifleWeapon",
             "/Lotus/Weapons/Tenno/LongGuns/TnHopliteSpear/TnHopliteSpearGunWeapon",
+            "/Lotus/Weapons/Tenno/LongGuns/TnModQuestRifle/TnModQuestRifleWeapon",
             "/Lotus/Weapons/Tenno/LongGuns/TnPriestSpear/TnPriestSpearGun",
             "/Lotus/Weapons/Tenno/LongGuns/TnQuadSniper/TnQuadSniper",
             "/Lotus/Weapons/Tenno/LongGuns/TnRailjackRifle/RailjackRifleGun",

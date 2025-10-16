@@ -1910,7 +1910,7 @@
     },
     "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardKillEnemies": {
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyHardKillEnemies_Name",
-        "icon": "/Lotus/Interface/Icons/Episodes/Hardcore/KillEnemiesHardcore.png",
+        "icon": "/Lotus/Interface/Icons/Episodes/Daily/GetHeadshots.png",
         "requiredCount": 1500,
         "standing": 7000
     },
@@ -2321,7 +2321,7 @@
         "hint": "/Lotus/Language/Challenges/Challenge_MPHeadshotKills_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponReloadSpeedMod",
+                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarPowerMaxMod",
                 "ItemCount": 1
             }
         ]
@@ -2331,7 +2331,7 @@
         "hint": "/Lotus/Language/Challenges/Challenge_MPVisitMaroo_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarLootRadarMod",
+                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarAbilityStrengthMod",
                 "ItemCount": 1
             }
         ]
@@ -2552,7 +2552,7 @@
         "description": "/Lotus/Language/1999Bounties/Challenge_LichVaniaCaptureTargets_Desc",
         "flavour": "/Lotus/Language/1999Bounties/Challenge_LichVaniaCaptureTargets_Flavor",
         "icon": "/Lotus/Interface/Quests/Vania/VaniaCaptureTargets.png",
-        "requiredCount": 5
+        "requiredCount": 3
     },
     "/Lotus/Types/Challenges/Vania/Lich/LichVaniaDestroyProps": {
         "name": "/Lotus/Language/1999Bounties/Challenge_LichVaniaDestroyProps_Name",
@@ -2629,28 +2629,28 @@
         "description": "/Lotus/Language/1999Bounties/Challenge_VaniaCaptureTargetsChallenge_Desc",
         "flavour": "/Lotus/Language/1999Bounties/Challenge_VaniaCaptureTargetsChallenge_Flavor",
         "icon": "/Lotus/Interface/Quests/Vania/VaniaCaptureTargets.png",
-        "requiredCount": 2
+        "requiredCount": 1
     },
     "/Lotus/Types/Challenges/Vania/VaniaCaptureTargetsHard": {
         "name": "/Lotus/Language/1999Bounties/Challenge_VaniaCaptureTargetsChallenge_Name",
         "description": "/Lotus/Language/1999Bounties/Challenge_VaniaCaptureTargetsChallenge_Desc",
         "flavour": "/Lotus/Language/1999Bounties/Challenge_VaniaCaptureTargetsChallenge_Flavor",
         "icon": "/Lotus/Interface/Quests/Vania/VaniaCaptureTargets.png",
-        "requiredCount": 4
+        "requiredCount": 3
     },
     "/Lotus/Types/Challenges/Vania/VaniaCaptureTargetsNormal": {
         "name": "/Lotus/Language/1999Bounties/Challenge_VaniaCaptureTargetsChallenge_Name",
         "description": "/Lotus/Language/1999Bounties/Challenge_VaniaCaptureTargetsChallenge_Desc",
         "flavour": "/Lotus/Language/1999Bounties/Challenge_VaniaCaptureTargetsChallenge_Flavor",
         "icon": "/Lotus/Interface/Quests/Vania/VaniaCaptureTargets.png",
-        "requiredCount": 3
+        "requiredCount": 2
     },
     "/Lotus/Types/Challenges/Vania/VaniaCaptureTargetsVeryHard": {
         "name": "/Lotus/Language/1999Bounties/Challenge_VaniaCaptureTargetsChallenge_Name",
         "description": "/Lotus/Language/1999Bounties/Challenge_VaniaCaptureTargetsChallenge_Desc",
         "flavour": "/Lotus/Language/1999Bounties/Challenge_VaniaCaptureTargetsChallenge_Flavor",
         "icon": "/Lotus/Interface/Quests/Vania/VaniaCaptureTargets.png",
-        "requiredCount": 5
+        "requiredCount": 3
     },
     "/Lotus/Types/Challenges/Vania/VaniaDestroyBackpacksEasy": {
         "name": "/Lotus/Language/1999Bounties/Challenge_VaniaDestroyBackpacksChallenge_Name",

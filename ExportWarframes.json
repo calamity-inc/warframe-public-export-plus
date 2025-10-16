@@ -386,7 +386,8 @@
         ],
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Yareli/YareliPrimeHelmet",
-            "/Lotus/Powersuits/Yareli/BoardPrimeSuit"
+            "/Lotus/Powersuits/Yareli/BoardPrimeSuit",
+            "/Lotus/Types/Items/PhotoBooth/CinematicTiles/YareliPrimeEndPose"
         ],
         "nemesisUpgradeTag": "InnateMagDamage"
     },
@@ -2168,7 +2169,7 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/OberonPrime.png",
         "health": 365,
         "shield": 270,
-        "armor": 240,
+        "armor": 450,
         "stamina": 3,
         "power": 215,
         "codexSecret": false,
@@ -2196,7 +2197,7 @@
                 "description": "/Lotus/Language/Suits/RegenerationAbilityDesc",
                 "icon": "/Lotus/Interface/Icons/Abilities/PaladinRenewal.png",
                 "energyRequiredToActivate": 25,
-                "energyConsumptionOverTime": 2
+                "energyConsumptionOverTime": 3.5
             },
             {
                 "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReckoningAbility",
@@ -2220,7 +2221,7 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Oberon.png",
         "health": 365,
         "shield": 270,
-        "armor": 185,
+        "armor": 385,
         "stamina": 3,
         "power": 175,
         "codexSecret": false,
@@ -2248,7 +2249,7 @@
                 "description": "/Lotus/Language/Suits/RegenerationAbilityDesc",
                 "icon": "/Lotus/Interface/Icons/Abilities/PaladinRenewal.png",
                 "energyRequiredToActivate": 25,
-                "energyConsumptionOverTime": 2
+                "energyConsumptionOverTime": 3.5
             },
             {
                 "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/ReckoningAbility",
@@ -2582,6 +2583,57 @@
             "/Lotus/Upgrades/Skins/Odalisk/OdaliskHelmet"
         ],
         "nemesisUpgradeTag": "InnateHeatDamage"
+    },
+    "/Lotus/Powersuits/Nokko/Nokko": {
+        "name": "/Lotus/Language/Suits/NokkoSuitName",
+        "parentName": "/Lotus/Powersuits/Nokko/NokkoBaseSuit",
+        "description": "/Lotus/Language/Suits/NokkoSuitDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Nokko.png",
+        "health": 150,
+        "shield": 300,
+        "armor": 135,
+        "stamina": 3,
+        "power": 130,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.25,
+        "passiveDescription": "/Lotus/Language/Suits/NokkoPassiveDesc",
+        "abilities": [
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/NokkoToxicShroomAbility",
+                "name": "/Lotus/Language/Suits/NokkoToxicShroomAbilityName",
+                "description": "/Lotus/Language/Suits/NokkoToxicShroomAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/NokkoToxic.png",
+                "energyRequiredToActivate": 25
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/NokkoPowerShroomAbility",
+                "name": "/Lotus/Language/Suits/NokkoPowerShroomAbilityName",
+                "description": "/Lotus/Language/Suits/NokkoPowerShroomAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/NokkoPower.png",
+                "energyRequiredToActivate": 50
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/NokkoShrinkAbility",
+                "name": "/Lotus/Language/Suits/NokkoNetworkAbilityName",
+                "description": "/Lotus/Language/Suits/NokkoNetworkAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/NokkoShrink.png",
+                "energyRequiredToActivate": 50
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/NokkoLaunchAbility",
+                "name": "/Lotus/Language/Suits/NokkoLaunchAbilityName",
+                "description": "/Lotus/Language/Suits/NokkoLaunchAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/NokkoLaunch.png",
+                "energyRequiredToActivate": 75
+            }
+        ],
+        "productCategory": "Suits",
+        "variantType": "VT_NORMAL",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/Nokko/NokkoHelmet"
+        ],
+        "nemesisUpgradeTag": "InnateToxinDamage"
     },
     "/Lotus/Powersuits/Ninja/Ninja": {
         "name": "/Lotus/Language/Suits/AshName",

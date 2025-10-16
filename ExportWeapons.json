@@ -16612,6 +16612,67 @@
         ],
         "tradable": false
     },
+    "/Lotus/Weapons/Tenno/LongGuns/TnModQuestRifle/TnModQuestRifleWeapon": {
+        "name": "/Lotus/Language/ModQuest/ModQuestRifleName",
+        "parentName": "/Lotus/Weapons/Tenno/Rifle/LotusAssaultStandardRifle",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/ModQuestRifle.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            9.332399,
+            9.332399,
+            9.3352,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 28,
+        "description": "/Lotus/Language/ModQuest/ModQuestRifleDesc",
+        "criticalChance": 0.06,
+        "criticalMultiplier": 1.4,
+        "procChance": 0.36,
+        "fireRate": 9.287926,
+        "masteryReq": 0,
+        "productCategory": "LongGuns",
+        "holsterCategory": "RIFLE",
+        "slot": 1,
+        "accuracy": 25,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "BURST",
+        "magazineSize": 52,
+        "reloadTime": 1.8,
+        "multishot": 1,
+        "premiumPrice": 240,
+        "compatibilityTags": [
+            "ASSAULT_AMMO"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "impact": {
+                    "DT_IMPACT": 9.3324,
+                    "DT_PUNCTURE": 9.3324,
+                    "DT_SLASH": 9.3352
+                }
+            }
+        ],
+        "tradable": false
+    },
     "/Lotus/Weapons/Tenno/LongGuns/TnHopliteSpear/TnHopliteSpearGunWeapon": {
         "name": "/Lotus/Language/Weapons/TnHopliteSpearGunName",
         "parentName": "/Lotus/Weapons/ClanTech/LotusSpeargunRifle",
@@ -21542,6 +21603,62 @@
         ],
         "tradable": false
     },
+    "/Lotus/Weapons/Tenno/Archwing/Primary/NokkoArchGun/NokkoArchGun": {
+        "name": "/Lotus/Language/Weapons/NokkoArchGunName",
+        "parentName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchGun",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/HeavyWeapons/NokkoArchGun.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            130,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 130,
+        "description": "/Lotus/Language/Weapons/NokkoArchGunDesc",
+        "criticalChance": 0.1,
+        "criticalMultiplier": 2.9,
+        "procChance": 0.349,
+        "fireRate": 1.5,
+        "masteryReq": 0,
+        "productCategory": "SpaceGuns",
+        "holsterCategory": "RIFLE",
+        "slot": 1,
+        "accuracy": 12.5,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 6,
+        "reloadTime": 1.72,
+        "multishot": 6,
+        "premiumPrice": 270,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto"
+            }
+        ],
+        "tradable": false
+    },
     "/Lotus/Weapons/Tenno/Archwing/Primary/LaunchGrenade/ArchCannon": {
         "name": "/Lotus/Language/Items/ArchCannonName",
         "parentName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchGun",
@@ -24356,7 +24473,7 @@
             0,
             0,
             0,
-            216,
+            240,
             0,
             0,
             0,
@@ -24367,7 +24484,7 @@
             0,
             0
         ],
-        "totalDamage": 216,
+        "totalDamage": 240,
         "description": "/Lotus/Language/Items/CSSimulorDesc",
         "criticalChance": 0.14,
         "criticalMultiplier": 2,
@@ -32840,9 +32957,6 @@
                     "DT_PUNCTURE": 3.33333,
                     "DT_SLASH": 2.66667
                 }
-            },
-            {
-                "impact": {}
             }
         ],
         "tradable": false
@@ -40071,6 +40185,7 @@
         "heavySlamRadialDamage": 570,
         "heavySlamRadius": 9,
         "windUp": 1,
+        "premiumPrice": 275,
         "compatibilityTags": [
             "DUAL_KATANAS_STANCE"
         ],
@@ -51608,7 +51723,7 @@
     },
     "/Lotus/Types/Friendly/PlayerControllable/Weapons/DuviriDualSwords": {
         "name": "/Lotus/Language/Weapons/TeshinDualSwordsName",
-        "parentName": "/Lotus/Weapons/Tenno/Melee/LotusDualSword",
+        "parentName": "/Lotus/Weapons/Tenno/Melee/LotusDualKatana",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/TeshinDualSwords.png",
         "codexSecret": false,
         "description": "/Lotus/Language/Weapons/TeshinDualSwordsDrifterDesc",
