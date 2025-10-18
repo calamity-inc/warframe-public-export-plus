@@ -28,11 +28,11 @@ const test = `import { z } from "zod";
 import { iPublicExportPlusSchema } from "./tmp-schemas";
 import publicExportPlus from "./index";
 try {
-    iPublicExportPlusSchema.parse(publicExportPlus);
-    console.log("✅ Schemas validated successfully.");
+  iPublicExportPlusSchema.parse(publicExportPlus);
+  console.log("✅ Schemas validated successfully.");
 } catch (e) {
-    console.error((e as Error).message);
-    process.exit(1);
+  console.error((e as Error).message);
+  process.exit(1);
 }`;
 fs.writeFileSync("tmp-test.ts", test);
 
