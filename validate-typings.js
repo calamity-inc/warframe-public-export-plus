@@ -31,17 +31,30 @@ try {
     iPublicExportPlusSchema.parse(publicExportPlus);
     console.log("✅ Schemas validated successfully.");
 } catch (e) {
-    console.log((e as Error).message);
+    console.error((e as Error).message);
+    process.exit(1);
 }`;
 fs.writeFileSync("tmp-test.ts", test);
-execSync("npx ts-node tmp-test.ts", {
-  stdio: "inherit",
-  env: {
-    ...process.env,
-    TS_NODE_COMPILER_OPTIONS: JSON.stringify({ module: "commonjs" }),
-  },
-});
 
-fs.unlinkSync("tmp-schemas.ts");
-fs.unlinkSync("tmp-types.ts");
-fs.unlinkSync("tmp-test.ts");
+const tmpFiles = ["tmp-schemas.ts", "tmp-types.ts", "tmp-test.ts"];
+try {
+  execSync("npx ts-node tmp-test.ts", {
+    stdio: "inherit",
+    env: {
+      ...process.env,
+      TS_NODE_COMPILER_OPTIONS: JSON.stringify({ module: "commonjs" }),
+    },
+  });
+} catch (error) {
+  if (typeof error?.status === "number") {
+    process.exitCode = error.status;
+  } else {
+    process.exitCode = 1;
+  }
+} finally {
+  for (const file of tmpFiles) {
+    if (fs.existsSync(file)) {
+      fs.unlinkSync(file);
+    }
+  }
+}
