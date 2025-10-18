@@ -36,7 +36,6 @@ try {
 }`;
 fs.writeFileSync("tmp-test.ts", test);
 
-const tmpFiles = ["tmp-schemas.ts", "tmp-types.ts", "tmp-test.ts"];
 try {
   execSync("npx ts-node tmp-test.ts", {
     stdio: "inherit",
@@ -52,9 +51,7 @@ try {
     process.exitCode = 1;
   }
 } finally {
-  for (const file of tmpFiles) {
-    if (fs.existsSync(file)) {
-      fs.unlinkSync(file);
-    }
-  }
+  fs.unlinkSync("tmp-schemas.ts");
+  fs.unlinkSync("tmp-types.ts");
+  fs.unlinkSync("tmp-test.ts");
 }
