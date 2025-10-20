@@ -519,6 +519,7 @@ export interface IKey {
     }[];
     missionReward?: IMissionReward;
     rewards?:       TReward[];
+    cacheRewardManifest?: string;
 }
 
 export interface IHelminthSnack {
