@@ -14367,7 +14367,7 @@
     "/Lotus/Types/StoreItems/Packages/MegaPrimeVault/MPVClearvoyPrimeSuit": {
         "name": "/Lotus/Language/PrimePacks/MPVClearvoyPrimeSetName",
         "description": "/Lotus/Language/PrimePacks/MPVClearvoyPrimeSetDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/Gear/Icon.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/PrimeVault/ClearvoyPrimeOperatorBundle.png",
         "excludeFromCodex": true,
         "components": [
             {
@@ -15317,7 +15317,7 @@
     "/Lotus/Types/StoreItems/Packages/MegaPrimeVault/MPVHeimtPrimeSentAccessories": {
         "name": "/Lotus/Language/PrimePacks/MPVHeimtPrimeSentinelName",
         "description": "/Lotus/Language/PrimePacks/MPVHeimtPrimeSentinelDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/Gear/Icon.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/PrimeVault/HeimtPrimeSentinelAccessoryBundle.png",
         "excludeFromCodex": true,
         "components": [
             {
@@ -15337,7 +15337,7 @@
     "/Lotus/Types/StoreItems/Packages/MegaPrimeVault/MPVHildrynPrimeSinglePack": {
         "name": "/Lotus/Language/PrimePacks/MPVHildrynSinglePackName",
         "description": "/Lotus/Language/PrimePacks/MPVHildrynSinglePackDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Icon.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/MegaPrimeVault/Hildryn.png",
         "excludeFromCodex": true,
         "components": [
             {
@@ -15354,6 +15354,10 @@
             },
             {
                 "typeName": "/Lotus/StoreItems/Weapons/Tenno/Archwing/Primary/PrimeLarkspur/PrimeLarkspurWeapon",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/HeavyWeaponCatalyst",
                 "purchaseQuantity": 1
             },
             {
@@ -15858,6 +15862,22 @@
             },
             {
                 "typeName": "/Lotus/StoreItems/Upgrades/Skins/Armor/PrimeGarudaArmor/PrimeGarudaLArmor",
+                "purchaseQuantity": 1
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/MegaPrimeVault/MPVLarkspurGravimag": {
+        "name": "/Lotus/Language/Weapons/PrimeLarkspurName",
+        "description": "/Lotus/Language/Weapons/PrimeLarkspurDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/HeavyWeapons/LarkspurPrime.png",
+        "excludeFromCodex": true,
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/Archwing/Primary/PrimeLarkspur/PrimeLarkspurWeapon",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/HeavyWeaponCatalyst",
                 "purchaseQuantity": 1
             }
         ]
@@ -18580,7 +18600,7 @@
     "/Lotus/Types/StoreItems/Packages/MegaPrimeVault/MPVWispHildrynPrimeDualPack": {
         "name": "/Lotus/Language/PrimePacks/MPVWispHildrynDualPackName",
         "description": "/Lotus/Language/PrimePacks/MPVWispHildrynDualPackDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/Gear/Icon.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/MegaPrimeVault/WispHildrynDuoPack.png",
         "excludeFromCodex": true,
         "components": [
             {
@@ -18628,6 +18648,10 @@
                 "purchaseQuantity": 1
             },
             {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/HeavyWeaponCatalyst",
+                "purchaseQuantity": 1
+            },
+            {
                 "typeName": "/Lotus/StoreItems/Types/Sentinels/SentinelPowersuits/PrimeShadePowerSuit",
                 "purchaseQuantity": 1
             },
@@ -18648,7 +18672,7 @@
     "/Lotus/Types/StoreItems/Packages/MegaPrimeVault/MPVWispPrimeSinglePack": {
         "name": "/Lotus/Language/PrimePacks/MPVWispSinglePackName",
         "description": "/Lotus/Language/PrimePacks/MPVWispSinglePackDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Icon.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/MegaPrimeVault/Wisp.png",
         "excludeFromCodex": true,
         "components": [
             {
