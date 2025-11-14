@@ -1365,7 +1365,7 @@
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerActivated",
                 "projectile": {
                     "explosiveAttack": {
-                        "DT_IMPACT": 120
+                        "DT_EXPLOSION": 120
                     },
                     "embedDeathAttack": {
                         "DT_EXPLOSION": 250
@@ -3426,6 +3426,7 @@
                         "procChance": 0.5
                     },
                     "explosiveAttack": {
+                        "DT_EXPLOSION": 20,
                         "procChance": 0.5
                     },
                     "embedDeathAttack": {
@@ -4153,7 +4154,7 @@
                         "procChance": 0.28
                     },
                     "explosiveAttack": {
-                        "DT_IMPACT": 419
+                        "DT_EXPLOSION": 419
                     }
                 },
                 "impact": {
@@ -5267,6 +5268,7 @@
                         "procChance": 0.5
                     },
                     "explosiveAttack": {
+                        "DT_EXPLOSION": 30,
                         "procChance": 0.5
                     },
                     "embedDeathAttack": {
@@ -5680,7 +5682,7 @@
                         "procChance": 0.34
                     },
                     "explosiveAttack": {
-                        "DT_IMPACT": 509,
+                        "DT_EXPLOSION": 509,
                         "procChance": 0.34
                     }
                 },
@@ -6231,7 +6233,7 @@
                         "procChance": 0.26
                     },
                     "explosiveAttack": {
-                        "DT_PUNCTURE": 48,
+                        "DT_EXPLOSION": 48,
                         "procChance": 0.26
                     },
                     "embedDeathAttack": {
@@ -7741,7 +7743,9 @@
                         "DT_SLASH": 71.92,
                         "procChance": 0.16
                     },
-                    "explosiveAttack": {}
+                    "explosiveAttack": {
+                        "DT_EXPLOSION": 50
+                    }
                 },
                 "impact": {
                     "DT_IMPACT": 3.33333,
@@ -12960,6 +12964,7 @@
                         "procChance": 0.2
                     },
                     "embedDeathAttack": {
+                        "DT_EXPLOSION": 100,
                         "procChance": 0.2
                     }
                 },
@@ -13597,6 +13602,7 @@
                         "procChance": 0.35
                     },
                     "explosiveAttack": {
+                        "DT_EXPLOSION": 777,
                         "procChance": 0.5
                     }
                 },
@@ -14340,6 +14346,7 @@
                         "procChance": 0.32
                     },
                     "explosiveAttack": {
+                        "DT_EXPLOSION": 296,
                         "procChance": 0.32
                     }
                 },
@@ -14427,6 +14434,7 @@
                         "procChance": 0.14
                     },
                     "explosiveAttack": {
+                        "DT_EXPLOSION": 190,
                         "procChance": 0.14
                     }
                 },
@@ -14514,6 +14522,7 @@
                         "procChance": 0.12
                     },
                     "explosiveAttack": {
+                        "DT_EXPLOSION": 126,
                         "procChance": 0.12
                     }
                 },
@@ -16790,7 +16799,9 @@
                         "DT_RADIATION": 5,
                         "procChance": 0.33
                     },
-                    "explosiveAttack": {}
+                    "explosiveAttack": {
+                        "DT_EXPLOSION": 25
+                    }
                 },
                 "impact": {
                     "DT_IMPACT": 3.33333,
@@ -16809,6 +16820,7 @@
                         "procChance": 0.33
                     },
                     "explosiveAttack": {
+                        "DT_EXPLOSION": 789,
                         "procChance": 0.33
                     }
                 },
@@ -17261,6 +17273,7 @@
                         "procChance": 0.24
                     },
                     "embedDeathAttack": {
+                        "DT_EXPLOSION": 800,
                         "procChance": 0.24
                     }
                 },
@@ -17357,6 +17370,7 @@
                         "procChance": 0.28
                     },
                     "explosiveAttack": {
+                        "DT_EXPLOSION": 404,
                         "procChance": 0.28
                     }
                 },
@@ -17641,7 +17655,7 @@
                         "procChance": 0.5
                     },
                     "explosiveAttack": {
-                        "DT_SLASH": 10,
+                        "DT_EXPLOSION": 10,
                         "procChance": 0.5
                     },
                     "embedDeathAttack": {
@@ -19326,6 +19340,7 @@
                         "procChance": 0.5
                     },
                     "explosiveAttack": {
+                        "DT_EXPLOSION": 2200,
                         "procChance": 0.5
                     }
                 },
@@ -19404,7 +19419,7 @@
                         "procChance": 0.5
                     },
                     "explosiveAttack": {
-                        "DT_SLASH": 10,
+                        "DT_EXPLOSION": 10,
                         "procChance": 0.5
                     },
                     "embedDeathAttack": {
@@ -21826,11 +21841,11 @@
                         "procChance": 0.28
                     },
                     "explosiveAttack": {
-                        "DT_IMPACT": 164,
+                        "DT_EXPLOSION": 164,
                         "procChance": 0.28
                     },
                     "embedDeathAttack": {
-                        "DT_IMPACT": 175
+                        "DT_EXPLOSION": 175
                     }
                 },
                 "impact": {
@@ -21997,7 +22012,7 @@
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerActivated",
                 "projectile": {
                     "explosiveAttack": {
-                        "DT_IMPACT": 1000,
+                        "DT_EXPLOSION": 1000,
                         "procChance": 0.5
                     },
                     "embedDeathAttack": {
@@ -22145,6 +22160,7 @@
                         "procChance": 0.25
                     },
                     "explosiveAttack": {
+                        "DT_EXPLOSION": 310,
                         "procChance": 0.25
                     }
                 },
@@ -24890,7 +24906,7 @@
                         "procChance": 0.26
                     },
                     "explosiveAttack": {
-                        "DT_IMPACT": 300,
+                        "DT_EXPLOSION": 300,
                         "procChance": 0.26
                     },
                     "embedDeathAttack": {
@@ -29888,6 +29904,7 @@
                         "procChance": 0.19
                     },
                     "explosiveAttack": {
+                        "DT_EXPLOSION": 797,
                         "procChance": 0.19
                     },
                     "embedDeathAttack": {
@@ -30084,11 +30101,11 @@
                         "procChance": 0.41
                     },
                     "explosiveAttack": {
-                        "DT_IMPACT": 450,
+                        "DT_EXPLOSION": 450,
                         "procChance": 0.41
                     },
                     "embedDeathAttack": {
-                        "DT_IMPACT": 500
+                        "DT_EXPLOSION": 500
                     }
                 },
                 "impact": {
@@ -30217,7 +30234,7 @@
                         "procChance": 0.19
                     },
                     "explosiveAttack": {
-                        "DT_IMPACT": 300,
+                        "DT_EXPLOSION": 300,
                         "procChance": 0.19
                     }
                 },
@@ -31745,6 +31762,7 @@
                         "procChance": 0.39
                     },
                     "explosiveAttack": {
+                        "DT_EXPLOSION": 329,
                         "procChance": 0.39
                     }
                 },
@@ -31832,6 +31850,7 @@
                         "procChance": 0.31
                     },
                     "explosiveAttack": {
+                        "DT_EXPLOSION": 225,
                         "procChance": 0.31
                     }
                 },
@@ -33179,7 +33198,7 @@
                         "DT_PUNCTURE": 75
                     },
                     "explosiveAttack": {
-                        "DT_PUNCTURE": 650
+                        "DT_EXPLOSION": 650
                     },
                     "embedDeathAttack": {
                         "DT_EXPLOSION": 325
@@ -33253,7 +33272,9 @@
                         "DT_SLASH": 6.0,
                         "procChance": 0.21
                     },
-                    "explosiveAttack": {}
+                    "explosiveAttack": {
+                        "DT_EXPLOSION": 40
+                    }
                 },
                 "impact": {
                     "DT_IMPACT": 60.0,
@@ -33503,11 +33524,11 @@
                         "procChance": 0.29
                     },
                     "explosiveAttack": {
-                        "DT_IMPACT": 175,
+                        "DT_EXPLOSION": 175,
                         "procChance": 0.29
                     },
                     "embedDeathAttack": {
-                        "DT_IMPACT": 175
+                        "DT_EXPLOSION": 175
                     }
                 },
                 "impact": {
@@ -33727,6 +33748,7 @@
                         "procChance": 0.5
                     },
                     "explosiveAttack": {
+                        "DT_EXPLOSION": 700,
                         "procChance": 0.5
                     }
                 },
@@ -34684,11 +34706,11 @@
                         "procChance": 0.31
                     },
                     "explosiveAttack": {
-                        "DT_IMPACT": 673,
+                        "DT_EXPLOSION": 673,
                         "procChance": 0.31
                     },
                     "embedDeathAttack": {
-                        "DT_IMPACT": 175
+                        "DT_EXPLOSION": 175
                     }
                 },
                 "impact": {
@@ -34991,7 +35013,9 @@
                         "DT_EXPLOSION": 349,
                         "procChance": 0.47
                     },
-                    "embedDeathAttack": {}
+                    "embedDeathAttack": {
+                        "DT_EXPLOSION": 500
+                    }
                 },
                 "chargedProjectile": {
                     "attack": {
@@ -35005,7 +35029,9 @@
                         "DT_EXPLOSION": 349,
                         "procChance": 0.47
                     },
-                    "embedDeathAttack": {}
+                    "embedDeathAttack": {
+                        "DT_EXPLOSION": 500
+                    }
                 },
                 "impact": {
                     "DT_IMPACT": 10,
@@ -35432,6 +35458,7 @@
                         "procChance": 0.27
                     },
                     "explosiveAttack": {
+                        "DT_EXPLOSION": 155,
                         "procChance": 0.27
                     }
                 },
@@ -35504,6 +35531,7 @@
                         "procChance": 0.2
                     },
                     "explosiveAttack": {
+                        "DT_EXPLOSION": 187,
                         "procChance": 0.2
                     }
                 },
@@ -35841,11 +35869,11 @@
                         "procChance": 0.21
                     },
                     "explosiveAttack": {
-                        "DT_IMPACT": 839,
+                        "DT_EXPLOSION": 839,
                         "procChance": 0.21
                     },
                     "embedDeathAttack": {
-                        "DT_IMPACT": 175
+                        "DT_EXPLOSION": 175
                     }
                 },
                 "chargedProjectile": {
@@ -35854,11 +35882,11 @@
                         "procChance": 0.21
                     },
                     "explosiveAttack": {
-                        "DT_IMPACT": 839,
+                        "DT_EXPLOSION": 839,
                         "procChance": 0.21
                     },
                     "embedDeathAttack": {
-                        "DT_IMPACT": 175
+                        "DT_EXPLOSION": 175
                     }
                 },
                 "impact": {
@@ -38309,7 +38337,7 @@
                         "DT_IMPACT": 75
                     },
                     "explosiveAttack": {
-                        "DT_IMPACT": 350
+                        "DT_EXPLOSION": 350
                     },
                     "embedDeathAttack": {
                         "DT_EXPLOSION": 350
@@ -38383,7 +38411,7 @@
                         "DT_IMPACT": 75
                     },
                     "explosiveAttack": {
-                        "DT_IMPACT": 350
+                        "DT_EXPLOSION": 350
                     },
                     "embedDeathAttack": {
                         "DT_EXPLOSION": 350
@@ -39682,7 +39710,7 @@
                         "procChance": 0.05
                     },
                     "embedDeathAttack": {
-                        "DT_IMPACT": 660,
+                        "DT_EXPLOSION": 660,
                         "procChance": 0.05
                     }
                 },
@@ -39696,7 +39724,7 @@
                         "procChance": 0.05
                     },
                     "embedDeathAttack": {
-                        "DT_IMPACT": 660,
+                        "DT_EXPLOSION": 660,
                         "procChance": 0.05
                     }
                 },
@@ -39776,7 +39804,7 @@
                         "procChance": 0.16
                     },
                     "embedDeathAttack": {
-                        "DT_IMPACT": 740,
+                        "DT_EXPLOSION": 740,
                         "procChance": 0.16
                     }
                 },
@@ -39790,7 +39818,7 @@
                         "procChance": 0.16
                     },
                     "embedDeathAttack": {
-                        "DT_IMPACT": 740,
+                        "DT_EXPLOSION": 740,
                         "procChance": 0.16
                     }
                 },
@@ -40111,7 +40139,7 @@
                         "procChance": 0.3
                     },
                     "explosiveAttack": {
-                        "DT_IMPACT": 1000,
+                        "DT_EXPLOSION": 1000,
                         "procChance": 0.3
                     }
                 },
@@ -43076,7 +43104,7 @@
                         "procChance": 0.22
                     },
                     "embedDeathAttack": {
-                        "DT_PUNCTURE": 100,
+                        "DT_EXPLOSION": 100,
                         "procChance": 0.22
                     }
                 },
