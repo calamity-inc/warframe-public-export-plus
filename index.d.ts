@@ -1063,6 +1063,7 @@ export interface IWeapon {
 
 export interface IWeaponBehaviour {
     stateName?: string;
+    fireIterations?: number;
     projectile?: IProjectile;
     chargedProjectile?: IProjectile;
     impact?: IAttackData;
