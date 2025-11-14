@@ -1316,7 +1316,9 @@
             {
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerActivated",
                 "projectile": {
-                    "explosiveAttack": {},
+                    "explosiveAttack": {
+                        "DT_IMPACT": 120
+                    },
                     "embedDeathAttack": {
                         "DT_EXPLOSION": 250
                     }
@@ -4007,7 +4009,9 @@
                     "attack": {
                         "DT_IMPACT": 68
                     },
-                    "explosiveAttack": {}
+                    "explosiveAttack": {
+                        "DT_IMPACT": 419
+                    }
                 },
                 "impact": {
                     "DT_IMPACT": 15.0,
@@ -5475,7 +5479,9 @@
                     "attack": {
                         "DT_IMPACT": 68
                     },
-                    "explosiveAttack": {}
+                    "explosiveAttack": {
+                        "DT_IMPACT": 509
+                    }
                 },
                 "impact": {
                     "DT_IMPACT": 15.0,
@@ -6007,7 +6013,9 @@
                     "attack": {
                         "DT_PUNCTURE": 12
                     },
-                    "explosiveAttack": {},
+                    "explosiveAttack": {
+                        "DT_PUNCTURE": 48
+                    },
                     "embedDeathAttack": {
                         "DT_EXPLOSION": 48
                     }
@@ -17166,7 +17174,9 @@
                     "attack": {
                         "DT_SLASH": 20
                     },
-                    "explosiveAttack": {},
+                    "explosiveAttack": {
+                        "DT_SLASH": 10
+                    },
                     "embedDeathAttack": {
                         "DT_GAS": 100
                     }
@@ -18853,7 +18863,9 @@
                     "attack": {
                         "DT_SLASH": 20
                     },
-                    "explosiveAttack": {},
+                    "explosiveAttack": {
+                        "DT_SLASH": 10
+                    },
                     "embedDeathAttack": {
                         "DT_GAS": 100
                     }
@@ -21176,8 +21188,12 @@
                     "attack": {
                         "DT_IMPACT": 32
                     },
-                    "explosiveAttack": {},
-                    "embedDeathAttack": {}
+                    "explosiveAttack": {
+                        "DT_IMPACT": 164
+                    },
+                    "embedDeathAttack": {
+                        "DT_IMPACT": 175
+                    }
                 },
                 "impact": {
                     "DT_IMPACT": 3.33333,
@@ -21335,7 +21351,9 @@
             {
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerActivated",
                 "projectile": {
-                    "explosiveAttack": {},
+                    "explosiveAttack": {
+                        "DT_IMPACT": 1000
+                    },
                     "embedDeathAttack": {
                         "DT_FIRE": 1000
                     }
@@ -24147,7 +24165,9 @@
                     "attack": {
                         "DT_IMPACT": 75
                     },
-                    "explosiveAttack": {},
+                    "explosiveAttack": {
+                        "DT_IMPACT": 300
+                    },
                     "embedDeathAttack": {
                         "DT_EXPLOSION": 375
                     }
@@ -29184,8 +29204,12 @@
                     "attack": {
                         "DT_IMPACT": 100
                     },
-                    "explosiveAttack": {},
-                    "embedDeathAttack": {}
+                    "explosiveAttack": {
+                        "DT_IMPACT": 450
+                    },
+                    "embedDeathAttack": {
+                        "DT_IMPACT": 500
+                    }
                 },
                 "impact": {
                     "DT_IMPACT": 3.33333,
@@ -29309,7 +29333,9 @@
                     "attack": {
                         "DT_IMPACT": 200
                     },
-                    "explosiveAttack": {}
+                    "explosiveAttack": {
+                        "DT_IMPACT": 300
+                    }
                 },
                 "impact": {
                     "DT_IMPACT": 3.999996,
@@ -32199,7 +32225,9 @@
                     "attack": {
                         "DT_PUNCTURE": 75
                     },
-                    "explosiveAttack": {},
+                    "explosiveAttack": {
+                        "DT_PUNCTURE": 650
+                    },
                     "embedDeathAttack": {
                         "DT_EXPLOSION": 325
                     }
@@ -32507,8 +32535,12 @@
                     "attack": {
                         "DT_IMPACT": 25
                     },
-                    "explosiveAttack": {},
-                    "embedDeathAttack": {}
+                    "explosiveAttack": {
+                        "DT_IMPACT": 175
+                    },
+                    "embedDeathAttack": {
+                        "DT_IMPACT": 175
+                    }
                 },
                 "impact": {
                     "DT_IMPACT": 3.33333,
@@ -33648,8 +33680,12 @@
                     "attack": {
                         "DT_IMPACT": 50
                     },
-                    "explosiveAttack": {},
-                    "embedDeathAttack": {}
+                    "explosiveAttack": {
+                        "DT_IMPACT": 673
+                    },
+                    "embedDeathAttack": {
+                        "DT_IMPACT": 175
+                    }
                 },
                 "impact": {
                     "DT_IMPACT": 3.33333,
@@ -34758,15 +34794,23 @@
                     "attack": {
                         "DT_IMPACT": 187
                     },
-                    "explosiveAttack": {},
-                    "embedDeathAttack": {}
+                    "explosiveAttack": {
+                        "DT_IMPACT": 839
+                    },
+                    "embedDeathAttack": {
+                        "DT_IMPACT": 175
+                    }
                 },
                 "chargedProjectile": {
                     "attack": {
                         "DT_IMPACT": 187
                     },
-                    "explosiveAttack": {},
-                    "embedDeathAttack": {}
+                    "explosiveAttack": {
+                        "DT_IMPACT": 839
+                    },
+                    "embedDeathAttack": {
+                        "DT_IMPACT": 175
+                    }
                 },
                 "impact": {
                     "DT_IMPACT": 3.33333,
@@ -35168,7 +35212,9 @@
                     "attack": {
                         "DT_EXPLOSION": 200
                     },
-                    "explosiveAttack": {}
+                    "explosiveAttack": {
+                        "DT_EXPLOSION": 250
+                    }
                 },
                 "impact": {
                     "DT_IMPACT": 3.999996,
@@ -35247,7 +35293,9 @@
                     "attack": {
                         "DT_EXPLOSION": 200
                     },
-                    "explosiveAttack": {}
+                    "explosiveAttack": {
+                        "DT_EXPLOSION": 250
+                    }
                 },
                 "impact": {
                     "DT_IMPACT": 3.999996,
@@ -37134,7 +37182,9 @@
                     "attack": {
                         "DT_IMPACT": 75
                     },
-                    "explosiveAttack": {},
+                    "explosiveAttack": {
+                        "DT_IMPACT": 350
+                    },
                     "embedDeathAttack": {
                         "DT_EXPLOSION": 350
                     }
@@ -37205,7 +37255,9 @@
                     "attack": {
                         "DT_IMPACT": 75
                     },
-                    "explosiveAttack": {},
+                    "explosiveAttack": {
+                        "DT_IMPACT": 350
+                    },
                     "embedDeathAttack": {
                         "DT_EXPLOSION": 350
                     }
@@ -38459,7 +38511,9 @@
                     "explosiveAttack": {
                         "DT_FREEZE": 10
                     },
-                    "embedDeathAttack": {}
+                    "embedDeathAttack": {
+                        "DT_IMPACT": 660
+                    }
                 },
                 "chargedProjectile": {
                     "attack": {
@@ -38468,7 +38522,9 @@
                     "explosiveAttack": {
                         "DT_FREEZE": 10
                     },
-                    "embedDeathAttack": {}
+                    "embedDeathAttack": {
+                        "DT_IMPACT": 660
+                    }
                 },
                 "impact": {
                     "DT_IMPACT": 3.33333,
@@ -38542,7 +38598,9 @@
                     "explosiveAttack": {
                         "DT_FREEZE": 10
                     },
-                    "embedDeathAttack": {}
+                    "embedDeathAttack": {
+                        "DT_IMPACT": 740
+                    }
                 },
                 "chargedProjectile": {
                     "attack": {
@@ -38551,7 +38609,9 @@
                     "explosiveAttack": {
                         "DT_FREEZE": 10
                     },
-                    "embedDeathAttack": {}
+                    "embedDeathAttack": {
+                        "DT_IMPACT": 740
+                    }
                 },
                 "impact": {
                     "DT_IMPACT": 3.33333,
@@ -38855,7 +38915,9 @@
                     "attack": {
                         "DT_IMPACT": 200
                     },
-                    "explosiveAttack": {}
+                    "explosiveAttack": {
+                        "DT_IMPACT": 1000
+                    }
                 },
                 "impact": {
                     "DT_IMPACT": 3.33333,
@@ -39747,15 +39809,23 @@
                     "attack": {
                         "DT_EXPLOSION": 100
                     },
-                    "explosiveAttack": {},
-                    "embedDeathAttack": {}
+                    "explosiveAttack": {
+                        "DT_EXPLOSION": 600
+                    },
+                    "embedDeathAttack": {
+                        "DT_EXPLOSION": 500
+                    }
                 },
                 "chargedProjectile": {
                     "attack": {
                         "DT_EXPLOSION": 100
                     },
-                    "explosiveAttack": {},
-                    "embedDeathAttack": {}
+                    "explosiveAttack": {
+                        "DT_EXPLOSION": 600
+                    },
+                    "embedDeathAttack": {
+                        "DT_EXPLOSION": 500
+                    }
                 },
                 "impact": {
                     "DT_IMPACT": 10
@@ -41733,7 +41803,9 @@
                     "attack": {
                         "DT_PUNCTURE": 10
                     },
-                    "embedDeathAttack": {}
+                    "embedDeathAttack": {
+                        "DT_PUNCTURE": 100
+                    }
                 },
                 "impact": {
                     "DT_IMPACT": 3.33333,
