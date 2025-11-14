@@ -1065,16 +1065,16 @@ export interface IWeaponBehaviour {
     stateName?: string;
     projectile?: IProjectile;
     chargedProjectile?: IProjectile;
-    impact?: IDamageTable;
+    impact?: IAttackData;
 }
 
 export interface IProjectile {
-    attack?: IDamageTable;
-    explosiveAttack?: IDamageTable;
-    embedDeathAttack?: IDamageTable;
+    attack?: IAttackData;
+    explosiveAttack?: IAttackData;
+    embedDeathAttack?: IAttackData;
 }
 
-export interface IDamageTable {
+export interface IAttackData {
     DT_IMPACT?: number;
     DT_PUNCTURE?: number;
     DT_SLASH?: number;
@@ -1092,6 +1092,7 @@ export interface IDamageTable {
     DT_SENTIENT?: number;
     DT_FINISHER?: number;
     DT_SHIELD_DRAIN?: number;
+    procChance?: number;
 }
 
 export type TProcType =
