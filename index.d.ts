@@ -186,6 +186,7 @@ export interface IBundle {
         durability?:      TRarity; // for boosters
         giveMaxRank?:     true;
     }[];
+    packageDiscount?: number;
     giftingBonus?:     string;
     premiumPrice?:     number;
     bundledPremiumCredits?: number;
