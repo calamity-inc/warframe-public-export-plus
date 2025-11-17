@@ -13,7 +13,8 @@
         "productCategory": "SpecialItems",
         "exalted": [
             "/Lotus/Types/Friendly/Pets/BeastWeapons/VenariPrimePetWeapon"
-        ]
+        ],
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit": {
         "name": "/Lotus/Language/Suits/KhoraKavatName",
@@ -29,7 +30,8 @@
         "productCategory": "SpecialItems",
         "exalted": [
             "/Lotus/Types/Friendly/Pets/BeastWeapons/VenariPetWeapon"
-        ]
+        ],
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/WyrmPowerSuit": {
         "name": "/Lotus/Language/Items/WyrmPowerSuitStoreItemName",
@@ -56,7 +58,8 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
                 "Slot": 5
             }
-        ]
+        ],
+        "platinumCost": 75
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/TnSentinelCrossPowerSuit": {
         "name": "/Lotus/Language/Items/TnSentinelCrossName",
@@ -83,7 +86,9 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
                 "Slot": 5
             }
-        ]
+        ],
+        "platinumCost": 75,
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/ShadePowerSuit": {
         "name": "/Lotus/Language/Items/ShadePowerSuitStoreItemName",
@@ -110,7 +115,8 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
                 "Slot": 5
             }
-        ]
+        ],
+        "platinumCost": 75
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/RadarPowerSuit": {
         "name": "/Lotus/Language/SolarisVenus/RadarSentinelName",
@@ -141,7 +147,8 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
                 "Slot": 5
             }
-        ]
+        ],
+        "platinumCost": 75
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/PrismaShadePowerSuit": {
         "name": "/Lotus/Language/Items/PrismaSentinelName",
@@ -168,7 +175,9 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
                 "Slot": 5
             }
-        ]
+        ],
+        "platinumCost": 75,
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeWyrmPowerSuit": {
         "name": "/Lotus/Language/Items/WyrmPrimeName",
@@ -195,7 +204,9 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
                 "Slot": 5
             }
-        ]
+        ],
+        "platinumCost": 10000,
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeShadePowerSuit": {
         "name": "/Lotus/Language/Primes/PrimeShadeName",
@@ -222,7 +233,9 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
                 "Slot": 5
             }
-        ]
+        ],
+        "platinumCost": 75,
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeHeliosPowerSuit": {
         "name": "/Lotus/Language/Primes/PrimeHeliosName",
@@ -249,7 +262,9 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
                 "Slot": 5
             }
-        ]
+        ],
+        "platinumCost": 75,
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeDethCubePowerSuit": {
         "name": "/Lotus/Language/Primes/DethcubePrimeName",
@@ -276,7 +291,9 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
                 "Slot": 5
             }
-        ]
+        ],
+        "platinumCost": 75,
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeCarrierPowerSuit": {
         "name": "/Lotus/Language/Items/PrimeCarrierSentinelName",
@@ -303,7 +320,9 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
                 "Slot": 5
             }
-        ]
+        ],
+        "platinumCost": 75,
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/NautilusPrimeSentinelPowerSuit": {
         "name": "/Lotus/Language/Primes/NautilusPrimeSentinelName",
@@ -334,7 +353,9 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
                 "Slot": 5
             }
-        ]
+        ],
+        "platinumCost": 75,
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/MeleePetPowerSuit": {
         "name": "/Lotus/Language/Items/MeleePetName",
@@ -361,7 +382,8 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
                 "Slot": 5
             }
-        ]
+        ],
+        "platinumCost": 75
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/GubberPowerSuit": {
         "name": "/Lotus/Language/Items/DjinnSentinelName",
@@ -388,7 +410,9 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
                 "Slot": 5
             }
-        ]
+        ],
+        "platinumCost": 75,
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/EmpyreanSentinelPowerSuit": {
         "name": "/Lotus/Language/Pets/EmpyreanSentinelName",
@@ -419,7 +443,8 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
                 "Slot": 5
             }
-        ]
+        ],
+        "platinumCost": 75
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/DethCubePowerSuit": {
         "name": "/Lotus/Language/Items/DethCubePowerSuitStoreItemName",
@@ -446,7 +471,8 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
                 "Slot": 5
             }
-        ]
+        ],
+        "platinumCost": 75
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/CarrierPowerSuit": {
         "name": "/Lotus/Language/Items/CarrierSentinelName",
@@ -473,7 +499,8 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
                 "Slot": 5
             }
-        ]
+        ],
+        "platinumCost": 75
     },
     "/Lotus/Types/Sentinels/SentinelPowersuits/ArcDronePowerSuit": {
         "name": "/Lotus/Language/Items/ArcDroneName",
@@ -504,7 +531,8 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/UniversalVacuum",
                 "Slot": 5
             }
-        ]
+        ],
+        "platinumCost": 75
     },
     "/Lotus/Types/Game/KubrowPet/RetrieverKubrowPetPowerSuit": {
         "name": "/Lotus/Language/Items/RetrieverKubrowName",
@@ -533,7 +561,8 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/BeastUniversalVacuum",
                 "Slot": 0
             }
-        ]
+        ],
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Game/KubrowPet/HunterKubrowPetPowerSuit": {
         "name": "/Lotus/Language/Items/HunterKubrowName",
@@ -562,7 +591,8 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/BeastUniversalVacuum",
                 "Slot": 0
             }
-        ]
+        ],
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Game/KubrowPet/GuardKubrowPetPowerSuit": {
         "name": "/Lotus/Language/Items/GuardKubrowName",
@@ -591,7 +621,8 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/BeastUniversalVacuum",
                 "Slot": 0
             }
-        ]
+        ],
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Game/KubrowPet/FurtiveKubrowPetPowerSuit": {
         "name": "/Lotus/Language/Items/FurtiveKubrowName",
@@ -620,7 +651,8 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/BeastUniversalVacuum",
                 "Slot": 0
             }
-        ]
+        ],
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Game/KubrowPet/ChargerKubrowPetPowerSuit": {
         "name": "/Lotus/Language/Items/InfestedKubrowName",
@@ -649,7 +681,8 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/BeastUniversalVacuum",
                 "Slot": 0
             }
-        ]
+        ],
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Game/KubrowPet/AdventurerKubrowPetPowerSuit": {
         "name": "/Lotus/Language/Items/AdventurerKubrowName",
@@ -678,7 +711,8 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/BeastUniversalVacuum",
                 "Slot": 0
             }
-        ]
+        ],
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Game/CatbrowPet/VampireCatbrowPetPowerSuit": {
         "name": "/Lotus/Language/Pets/VampireKavatName",
@@ -707,7 +741,8 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/BeastUniversalVacuum",
                 "Slot": 0
             }
-        ]
+        ],
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Game/CatbrowPet/MirrorCatbrowPetPowerSuit": {
         "name": "/Lotus/Language/Items/MirrorCatbrowName",
@@ -736,7 +771,8 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/BeastUniversalVacuum",
                 "Slot": 0
             }
-        ]
+        ],
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Game/CatbrowPet/CheshireCatbrowPetPowerSuit": {
         "name": "/Lotus/Language/Items/CheshireCatbrowName",
@@ -765,7 +801,8 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/BeastUniversalVacuum",
                 "Slot": 0
             }
-        ]
+        ],
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Friendly/Pets/CreaturePets/VulpineInfestedCatbrowPetPowerSuit": {
         "name": "/Lotus/Language/InfestedMicroplanet/InfestedCritterCommonName",
@@ -794,7 +831,8 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/BeastUniversalVacuum",
                 "Slot": 0
             }
-        ]
+        ],
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Friendly/Pets/CreaturePets/VizierPredatorKubrowPetPowerSuit": {
         "name": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorCommonName",
@@ -823,7 +861,8 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/BeastUniversalVacuum",
                 "Slot": 0
             }
-        ]
+        ],
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Friendly/Pets/CreaturePets/PharaohPredatorKubrowPetPowerSuit": {
         "name": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorUncommonName",
@@ -852,7 +891,8 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/BeastUniversalVacuum",
                 "Slot": 0
             }
-        ]
+        ],
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Friendly/Pets/CreaturePets/MedjayPredatorKubrowPetPowerSuit": {
         "name": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorRareName",
@@ -881,7 +921,8 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/BeastUniversalVacuum",
                 "Slot": 0
             }
-        ]
+        ],
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Friendly/Pets/CreaturePets/HornedInfestedCatbrowPetPowerSuit": {
         "name": "/Lotus/Language/InfestedMicroplanet/InfestedCritterUncommonName",
@@ -910,7 +951,8 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/BeastUniversalVacuum",
                 "Slot": 0
             }
-        ]
+        ],
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Friendly/Pets/CreaturePets/ArmoredInfestedCatbrowPetPowerSuit": {
         "name": "/Lotus/Language/InfestedMicroplanet/InfestedCritterRareName",
@@ -939,14 +981,16 @@
                 "ItemType": "/Lotus/Types/Sentinels/SentinelPrecepts/BeastUniversalVacuum",
                 "Slot": 0
             }
-        ]
+        ],
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetPowerSuit": {
         "name": "/Lotus/Language/SolarisVenus/MoaPetItem",
         "icon": "/Lotus/Interface/Icons/Store/Pets/NewUI/MoaHeadA.png",
         "codexSecret": false,
         "description": "/Lotus/Language/SolarisVenus/MoaPetItemDesc",
-        "productCategory": "MoaPets"
+        "productCategory": "MoaPets",
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetAPowerSuit": {
         "name": "/Lotus/Language/Pets/ZanukaPetItemName",
@@ -954,7 +998,8 @@
         "codexSecret": false,
         "description": "/Lotus/Language/SolarisVenus/HoundPetItemDesc",
         "productCategory": "MoaPets",
-        "defaultWeapon": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetMeleeWeaponIP"
+        "defaultWeapon": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetMeleeWeaponIP",
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetBPowerSuit": {
         "name": "/Lotus/Language/Pets/ZanukaPetItemName",
@@ -962,7 +1007,8 @@
         "codexSecret": false,
         "description": "/Lotus/Language/SolarisVenus/HoundPetItemDesc",
         "productCategory": "MoaPets",
-        "defaultWeapon": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetMeleeWeaponIS"
+        "defaultWeapon": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetMeleeWeaponIS",
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetCPowerSuit": {
         "name": "/Lotus/Language/Pets/ZanukaPetItemName",
@@ -970,6 +1016,7 @@
         "codexSecret": false,
         "description": "/Lotus/Language/SolarisVenus/HoundPetItemDesc",
         "productCategory": "MoaPets",
-        "defaultWeapon": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetMeleeWeaponPS"
+        "defaultWeapon": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetMeleeWeaponPS",
+        "excludeFromMarket": true
     }
 }

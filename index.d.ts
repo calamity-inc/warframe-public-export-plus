@@ -801,6 +801,8 @@ export interface ISentinel {
     defaultWeapon?: string;
     exalted?: string[];
     defaultUpgrades?: IDefaultUpgrade[];
+    platinumCost?: number;
+    excludeFromMarket?: true;
 }
 
 export interface IDefaultUpgrade {
