@@ -683,7 +683,7 @@ export interface IRecipe {
     tradable: boolean;
     creditsCost?: number;
     platinumCost?: number;
-    excludeFromMarket?: boolean;
+    excludeFromMarket?: true;
 }
 
 export interface IRegion {
@@ -1017,7 +1017,7 @@ export interface IPowersuit {
     nemesisUpgradeTag?:  "InnateElectricityDamage" | "InnateHeatDamage" | "InnateFreezeDamage" | "InnateToxinDamage" | "InnateMagDamage" | "InnateRadDamage" | "InnateImpactDamage";
     maxLevelCap?:        number;
     platinumCost?: number;
-    excludeFromMarket?: boolean;
+    excludeFromMarket?: true;
 }
 
 export interface IWeapon {
