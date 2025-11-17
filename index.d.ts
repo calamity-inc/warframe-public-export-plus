@@ -186,11 +186,15 @@ export interface IBundle {
         durability?:      TRarity; // for boosters
         giveMaxRank?:     true;
     }[];
+    giftingBonus?: string;
     packageDiscount?: number;
-    giftingBonus?:     string;
-    premiumPrice?:     number;
-    bundledPremiumCredits?: number;
+    platinumCost?: number;
+    bundledPlatinum?: number;
     platinumBundlePair?: string;
+    /** @deprecated renamed to platinumCost */
+    premiumPrice?: number;
+    /** @deprecated renamed to bundledPlatinum */
+    bundledPremiumCredits?: number;
     excludedPlatforms?: TPlatform[];
 }
 
@@ -222,6 +226,8 @@ export interface ICreditBundle {
     description?: string;
     icon: string;
     credits: number;
+    platinumCost?: number;
+    /** @deprecated renamed to platinumCost */
     premiumPrice?: number;
 }
 
@@ -1056,6 +1062,8 @@ export interface IWeapon {
     sentinel?:              boolean;
     excludeFromCodex?:      true;
     primeOmegaAttenuation?: number;
+    platinumCost?:          number;
+    /** @deprecated renamed to platinumCost */
     premiumPrice?:          number;
     variantType:            "VT_NORMAL" | "VT_STARTER" | "VT_VARIANT" | "VT_SYNDICATE" | "VT_PRIME" | "VT_KUVA";
     partType?:              string;
