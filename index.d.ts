@@ -1010,6 +1010,8 @@ export interface IPowersuit {
     additionalItems?:    string[];
     nemesisUpgradeTag?:  "InnateElectricityDamage" | "InnateHeatDamage" | "InnateFreezeDamage" | "InnateToxinDamage" | "InnateMagDamage" | "InnateRadDamage" | "InnateImpactDamage";
     maxLevelCap?:        number;
+    platinumCost?: number;
+    excludeFromMarket?: boolean;
 }
 
 export interface IWeapon {

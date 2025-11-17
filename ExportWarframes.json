@@ -44,7 +44,8 @@
             }
         ],
         "productCategory": "SpaceSuits",
-        "variantType": "VT_NORMAL"
+        "variantType": "VT_NORMAL",
+        "platinumCost": 275
     },
     "/Lotus/Powersuits/Archwing/StealthJetPack/StealthJetPack": {
         "name": "/Lotus/Language/Items/StealthArchwingName",
@@ -91,7 +92,8 @@
             }
         ],
         "productCategory": "SpaceSuits",
-        "variantType": "VT_NORMAL"
+        "variantType": "VT_NORMAL",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/Archwing/StandardJetPack/StandardJetPack": {
         "name": "/Lotus/Language/Items/StandardArchwingName",
@@ -137,7 +139,8 @@
             }
         ],
         "productCategory": "SpaceSuits",
-        "variantType": "VT_NORMAL"
+        "variantType": "VT_NORMAL",
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Archwing/PrimeJetPack/PrimeJetPack": {
         "name": "/Lotus/Language/Items/OdonataPrimeName",
@@ -183,7 +186,8 @@
             }
         ],
         "productCategory": "SpaceSuits",
-        "variantType": "VT_NORMAL"
+        "variantType": "VT_NORMAL",
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Archwing/DemolitionJetPack/DemolitionJetPack": {
         "name": "/Lotus/Language/Items/DemolitionArchwingName",
@@ -229,7 +233,8 @@
             }
         ],
         "productCategory": "SpaceSuits",
-        "variantType": "VT_NORMAL"
+        "variantType": "VT_NORMAL",
+        "platinumCost": 275
     },
     "/Lotus/Powersuits/YinYang/YinYang": {
         "name": "/Lotus/Language/Suits/EquinoxName",
@@ -281,7 +286,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Anima/AnimaHelmet"
         ],
-        "nemesisUpgradeTag": "InnateRadDamage"
+        "nemesisUpgradeTag": "InnateRadDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/YinYang/EquinoxPrime": {
         "name": "/Lotus/Language/Primes/EquinoxPrimeName",
@@ -333,7 +339,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/YinYang/EquinoxPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateRadDamage"
+        "nemesisUpgradeTag": "InnateRadDamage",
+        "platinumCost": 325,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Yareli/YareliPrime": {
         "name": "/Lotus/Language/Primes/YareliPrimeSuitName",
@@ -389,7 +397,9 @@
             "/Lotus/Powersuits/Yareli/BoardPrimeSuit",
             "/Lotus/Types/Items/PhotoBooth/CinematicTiles/YareliPrimeEndPose"
         ],
-        "nemesisUpgradeTag": "InnateMagDamage"
+        "nemesisUpgradeTag": "InnateMagDamage",
+        "platinumCost": 325,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Yareli/Yareli": {
         "name": "/Lotus/Language/Suits/YareliFrameName",
@@ -444,7 +454,8 @@
             "/Lotus/Upgrades/Skins/Yareli/YareliHelmet",
             "/Lotus/Powersuits/Yareli/BoardSuit"
         ],
-        "nemesisUpgradeTag": "InnateMagDamage"
+        "nemesisUpgradeTag": "InnateMagDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/Wraith/Wraith": {
         "name": "/Lotus/Language/Suits/WraithName",
@@ -501,7 +512,8 @@
             "/Lotus/Powersuits/Wraith/Reaper",
             "/Lotus/Powersuits/Wraith/ReaperMeleeWeapon"
         ],
-        "nemesisUpgradeTag": "InnateImpactDamage"
+        "nemesisUpgradeTag": "InnateImpactDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/Wraith/SevagothPrime": {
         "name": "/Lotus/Language/Primes/SevagothPrimeName",
@@ -558,7 +570,9 @@
             "/Lotus/Powersuits/Wraith/SevagothShadowPrime",
             "/Lotus/Powersuits/Wraith/SevagothShadowPrimeClawsWeapon"
         ],
-        "nemesisUpgradeTag": "InnateImpactDamage"
+        "nemesisUpgradeTag": "InnateImpactDamage",
+        "platinumCost": 325,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Wisp/WispPrime": {
         "name": "/Lotus/Language/Primes/WispPrimeName",
@@ -611,7 +625,8 @@
             "/Lotus/Upgrades/Skins/Wisp/WispPrimeHelmet",
             "/Lotus/Upgrades/Skins/Wisp/WispPrimeDefaultCape"
         ],
-        "nemesisUpgradeTag": "InnateHeatDamage"
+        "nemesisUpgradeTag": "InnateHeatDamage",
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Wisp/Wisp": {
         "name": "/Lotus/Language/Suits/WispFrameName",
@@ -663,7 +678,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Wisp/WispHelmet"
         ],
-        "nemesisUpgradeTag": "InnateHeatDamage"
+        "nemesisUpgradeTag": "InnateHeatDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/Werewolf/Werewolf": {
         "name": "/Lotus/Language/Suits/WerewolfName",
@@ -714,7 +730,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Werewolf/WerewolfHelmet"
         ],
-        "nemesisUpgradeTag": "InnateRadDamage"
+        "nemesisUpgradeTag": "InnateRadDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/Volt/VoltPrime": {
         "name": "/Lotus/Language/Primes/VoltPrimeName",
@@ -765,7 +782,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Volt/VoltPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateElectricityDamage"
+        "nemesisUpgradeTag": "InnateElectricityDamage",
+        "platinumCost": 75,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Volt/Volt": {
         "name": "/Lotus/Language/Suits/VoltName",
@@ -816,7 +835,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Volt/VoltHelmet"
         ],
-        "nemesisUpgradeTag": "InnateElectricityDamage"
+        "nemesisUpgradeTag": "InnateElectricityDamage",
+        "platinumCost": 75
     },
     "/Lotus/Powersuits/Trinity/TrinityPrime": {
         "name": "/Lotus/Language/Primes/TrinityPrimeName",
@@ -867,7 +887,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Trinity/TrinityPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateFreezeDamage"
+        "nemesisUpgradeTag": "InnateFreezeDamage",
+        "platinumCost": 225,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Trinity/Trinity": {
         "name": "/Lotus/Language/Suits/TrinityName",
@@ -918,7 +940,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Trinity/TrinityHelmet"
         ],
-        "nemesisUpgradeTag": "InnateFreezeDamage"
+        "nemesisUpgradeTag": "InnateFreezeDamage",
+        "platinumCost": 225
     },
     "/Lotus/Powersuits/Trapper/TrapperPrime": {
         "name": "/Lotus/Language/Primes/VaubanPrimeName",
@@ -969,7 +992,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Trapper/VaubanPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateHeatDamage"
+        "nemesisUpgradeTag": "InnateHeatDamage",
+        "platinumCost": 300,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Trapper/Trapper": {
         "name": "/Lotus/Language/Suits/VaubanName",
@@ -1020,7 +1045,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Trapper/TrapperDefaultHelmet"
         ],
-        "nemesisUpgradeTag": "InnateHeatDamage"
+        "nemesisUpgradeTag": "InnateHeatDamage",
+        "platinumCost": 300
     },
     "/Lotus/Powersuits/Tengu/ZephyrPrime": {
         "name": "/Lotus/Language/Primes/ZephyrPrimeName",
@@ -1071,7 +1097,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Tengu/ZephyrPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateImpactDamage"
+        "nemesisUpgradeTag": "InnateImpactDamage",
+        "platinumCost": 275,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Tengu/Tengu": {
         "name": "/Lotus/Language/Suits/ZephyrName",
@@ -1122,7 +1150,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Tengu/TenguHelmet"
         ],
-        "nemesisUpgradeTag": "InnateImpactDamage"
+        "nemesisUpgradeTag": "InnateImpactDamage",
+        "platinumCost": 275
     },
     "/Lotus/Powersuits/Temple/Temple": {
         "name": "/Lotus/Language/Suits/TempleSuitName",
@@ -1177,7 +1206,8 @@
             "/Lotus/Powersuits/Temple/ExaltedGuitar",
             "/Lotus/Upgrades/Skins/Temple/TempleHelmet"
         ],
-        "nemesisUpgradeTag": "InnateHeatDamage"
+        "nemesisUpgradeTag": "InnateHeatDamage",
+        "platinumCost": 370
     },
     "/Lotus/Powersuits/Sentient/Sentient": {
         "name": "/Lotus/Language/Suits/SentientFrameName",
@@ -1228,7 +1258,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Sentient/SentientHelmet"
         ],
-        "nemesisUpgradeTag": "InnateElectricityDamage"
+        "nemesisUpgradeTag": "InnateElectricityDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/Sentient/CalibanPrime": {
         "name": "/Lotus/Language/Primes/CalibanPrimeSuitName",
@@ -1276,7 +1307,8 @@
         ],
         "productCategory": "Suits",
         "variantType": "VT_PRIME",
-        "nemesisUpgradeTag": "InnateElectricityDamage"
+        "nemesisUpgradeTag": "InnateElectricityDamage",
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Saryn/SarynPrime": {
         "name": "/Lotus/Language/Primes/SarynPrimeName",
@@ -1327,7 +1359,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Saryn/SarynPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateToxinDamage"
+        "nemesisUpgradeTag": "InnateToxinDamage",
+        "platinumCost": 225,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Saryn/Saryn": {
         "name": "/Lotus/Language/Suits/SarynName",
@@ -1378,7 +1412,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Asp/AspHelmet"
         ],
-        "nemesisUpgradeTag": "InnateToxinDamage"
+        "nemesisUpgradeTag": "InnateToxinDamage",
+        "platinumCost": 225
     },
     "/Lotus/Powersuits/Sandman/Sandman": {
         "name": "/Lotus/Language/Suits/InarosName",
@@ -1429,7 +1464,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Sandman/SandmanHelmet"
         ],
-        "nemesisUpgradeTag": "InnateHeatDamage"
+        "nemesisUpgradeTag": "InnateHeatDamage",
+        "platinumCost": 225
     },
     "/Lotus/Powersuits/Sandman/InarosPrime": {
         "name": "/Lotus/Language/Primes/InarosPrimeSuitName",
@@ -1480,7 +1516,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Sandman/InarosPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateHeatDamage"
+        "nemesisUpgradeTag": "InnateHeatDamage",
+        "platinumCost": 225,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Runner/Runner": {
         "name": "/Lotus/Language/Suits/RunnerName",
@@ -1531,7 +1569,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Runner/RunnerHelmet"
         ],
-        "nemesisUpgradeTag": "InnateImpactDamage"
+        "nemesisUpgradeTag": "InnateImpactDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/Runner/GaussPrime": {
         "name": "/Lotus/Language/Primes/GaussPrimeName",
@@ -1582,7 +1621,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Runner/GaussPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateImpactDamage"
+        "nemesisUpgradeTag": "InnateImpactDamage",
+        "platinumCost": 325,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Rhino/RhinoPrime": {
         "name": "/Lotus/Language/Primes/RhinoPrimeName",
@@ -1635,7 +1676,8 @@
             "/Lotus/Upgrades/Skins/Rhino/RhinoPrimeHelmet",
             "/Lotus/Upgrades/Skins/Rhino/RhinoIronSkinPrime"
         ],
-        "nemesisUpgradeTag": "InnateImpactDamage"
+        "nemesisUpgradeTag": "InnateImpactDamage",
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Rhino/Rhino": {
         "name": "/Lotus/Language/Suits/RhinoName",
@@ -1686,7 +1728,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Rhino/RhinoHelmet"
         ],
-        "nemesisUpgradeTag": "InnateImpactDamage"
+        "nemesisUpgradeTag": "InnateImpactDamage",
+        "platinumCost": 375
     },
     "/Lotus/Powersuits/Revenant/RevenantPrime": {
         "name": "/Lotus/Language/Primes/RevenantPrimeName",
@@ -1738,7 +1781,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Revenant/RevenantPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateFreezeDamage"
+        "nemesisUpgradeTag": "InnateFreezeDamage",
+        "platinumCost": 325,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Revenant/Revenant": {
         "name": "/Lotus/Language/Suits/RevenantName",
@@ -1790,7 +1835,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Revenant/RevenantHelmet"
         ],
-        "nemesisUpgradeTag": "InnateFreezeDamage"
+        "nemesisUpgradeTag": "InnateFreezeDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/Ranger/Ranger": {
         "name": "/Lotus/Language/Suits/IvaraName",
@@ -1847,7 +1893,8 @@
             "/Lotus/Upgrades/Skins/Ranger/RangerHelmet",
             "/Lotus/Powersuits/Ranger/ExaltedBow"
         ],
-        "nemesisUpgradeTag": "InnateToxinDamage"
+        "nemesisUpgradeTag": "InnateToxinDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/Ranger/IvaraPrime": {
         "name": "/Lotus/Language/Primes/IvaraPrimeName",
@@ -1904,7 +1951,9 @@
             "/Lotus/Upgrades/Skins/Archer/IvaraPrimeHelmet",
             "/Lotus/Powersuits/Ranger/PrimeExaltedBow"
         ],
-        "nemesisUpgradeTag": "InnateToxinDamage"
+        "nemesisUpgradeTag": "InnateToxinDamage",
+        "platinumCost": 325,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Priest/Priest": {
         "name": "/Lotus/Language/Suits/PriestName",
@@ -1955,7 +2004,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Priest/PriestHelmet"
         ],
-        "nemesisUpgradeTag": "InnateMagDamage"
+        "nemesisUpgradeTag": "InnateMagDamage",
+        "platinumCost": 225
     },
     "/Lotus/Powersuits/Priest/HarrowPrime": {
         "name": "/Lotus/Language/Primes/HarrowPrimeName",
@@ -2006,7 +2056,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Priest/HarrowPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateMagDamage"
+        "nemesisUpgradeTag": "InnateMagDamage",
+        "platinumCost": 225,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Pirate/Pirate": {
         "name": "/Lotus/Language/Suits/HydroidName",
@@ -2057,7 +2109,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Pirate/PirateDefaultHelmet"
         ],
-        "nemesisUpgradeTag": "InnateMagDamage"
+        "nemesisUpgradeTag": "InnateMagDamage",
+        "platinumCost": 300
     },
     "/Lotus/Powersuits/Pirate/HydroidPrime": {
         "name": "/Lotus/Language/Primes/HydroidPrimeName",
@@ -2108,7 +2161,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Pirate/HydroidPrimeDefaultHelmet"
         ],
-        "nemesisUpgradeTag": "InnateMagDamage"
+        "nemesisUpgradeTag": "InnateMagDamage",
+        "platinumCost": 300,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/PaxDuviricus/PaxDuviricus": {
         "name": "/Lotus/Language/Suits/PaxDuviricusFrameName",
@@ -2160,7 +2215,8 @@
             "/Lotus/Upgrades/Skins/PaxDuviricus/PaxDuviricusHelmet",
             "/Lotus/Upgrades/Skins/PaxDuviricus/PaxDuviricusBodyBlades"
         ],
-        "nemesisUpgradeTag": "InnateHeatDamage"
+        "nemesisUpgradeTag": "InnateHeatDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/Paladin/PaladinPrime": {
         "name": "/Lotus/Language/Primes/OberonPrimeName",
@@ -2212,7 +2268,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Paladin/PaladinPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateToxinDamage"
+        "nemesisUpgradeTag": "InnateToxinDamage",
+        "platinumCost": 0,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Paladin/Paladin": {
         "name": "/Lotus/Language/Suits/OberonName",
@@ -2264,7 +2322,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Paladin/PaladinHelmet"
         ],
-        "nemesisUpgradeTag": "InnateToxinDamage"
+        "nemesisUpgradeTag": "InnateToxinDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/Pagemaster/Pagemaster": {
         "name": "/Lotus/Language/Suits/PagemasterName",
@@ -2319,7 +2378,8 @@
             "/Lotus/Powersuits/Pagemaster/ExaltedBook",
             "/Lotus/Upgrades/Skins/Pagemaster/PagemasterHelmet"
         ],
-        "nemesisUpgradeTag": "InnateImpactDamage"
+        "nemesisUpgradeTag": "InnateImpactDamage",
+        "platinumCost": 350
     },
     "/Lotus/Powersuits/Pacifist/Pacifist": {
         "name": "/Lotus/Language/Suits/PacifistName",
@@ -2375,7 +2435,8 @@
             "/Lotus/Upgrades/Skins/Priest/PriestHelmet",
             "/Lotus/Powersuits/Pacifist/PacifistFist"
         ],
-        "nemesisUpgradeTag": "InnateImpactDamage"
+        "nemesisUpgradeTag": "InnateImpactDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/Pacifist/BaruukPrime": {
         "name": "/Lotus/Language/Primes/BaruukPrimeName",
@@ -2431,7 +2492,8 @@
             "/Lotus/Upgrades/Skins/Pacifist/BaruukPrimeHelmet",
             "/Lotus/Powersuits/Pacifist/PacifistFistPrime"
         ],
-        "nemesisUpgradeTag": "InnateImpactDamage"
+        "nemesisUpgradeTag": "InnateImpactDamage",
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Oraxia/Oraxia": {
         "name": "/Lotus/Language/Oraxia/OraxiaName",
@@ -2480,7 +2542,8 @@
         ],
         "productCategory": "Suits",
         "variantType": "VT_NORMAL",
-        "nemesisUpgradeTag": "InnateToxinDamage"
+        "nemesisUpgradeTag": "InnateToxinDamage",
+        "platinumCost": 370
     },
     "/Lotus/Powersuits/Odalisk/ProteaPrime": {
         "name": "/Lotus/Language/Primes/ProteaPrimeName",
@@ -2531,7 +2594,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Odalisk/ProteaPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateHeatDamage"
+        "nemesisUpgradeTag": "InnateHeatDamage",
+        "platinumCost": 325,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Odalisk/Odalisk": {
         "name": "/Lotus/Language/Suits/OdaliskName",
@@ -2582,7 +2647,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Odalisk/OdaliskHelmet"
         ],
-        "nemesisUpgradeTag": "InnateHeatDamage"
+        "nemesisUpgradeTag": "InnateHeatDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/Nokko/Nokko": {
         "name": "/Lotus/Language/Suits/NokkoSuitName",
@@ -2633,7 +2699,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Nokko/NokkoHelmet"
         ],
-        "nemesisUpgradeTag": "InnateToxinDamage"
+        "nemesisUpgradeTag": "InnateToxinDamage",
+        "platinumCost": 370
     },
     "/Lotus/Powersuits/Ninja/Ninja": {
         "name": "/Lotus/Language/Suits/AshName",
@@ -2688,7 +2755,8 @@
             "/Lotus/Upgrades/Skins/Ninja/NinjaHelmet",
             "/Lotus/Powersuits/Ninja/NinjaStormWeapon"
         ],
-        "nemesisUpgradeTag": "InnateRadDamage"
+        "nemesisUpgradeTag": "InnateRadDamage",
+        "platinumCost": 375
     },
     "/Lotus/Powersuits/Ninja/AshPrime": {
         "name": "/Lotus/Language/Primes/AshPrimeName",
@@ -2743,7 +2811,9 @@
             "/Lotus/Upgrades/Skins/Ninja/AshPrimeHelmet",
             "/Lotus/Powersuits/Ninja/NinjaStormWeaponPrime"
         ],
-        "nemesisUpgradeTag": "InnateRadDamage"
+        "nemesisUpgradeTag": "InnateRadDamage",
+        "platinumCost": 375,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Nezha/NezhaPrime": {
         "name": "/Lotus/Language/Primes/NezhaPrimeName",
@@ -2794,7 +2864,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Nezha/NezhaPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateHeatDamage"
+        "nemesisUpgradeTag": "InnateHeatDamage",
+        "platinumCost": 275,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Nezha/Nezha": {
         "name": "/Lotus/Language/Suits/NezhaName",
@@ -2845,7 +2917,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Nezha/NezhaHelmet"
         ],
-        "nemesisUpgradeTag": "InnateHeatDamage"
+        "nemesisUpgradeTag": "InnateHeatDamage",
+        "platinumCost": 275
     },
     "/Lotus/Powersuits/Necro/NekrosPrime": {
         "name": "/Lotus/Language/Primes/NekrosPrimeName",
@@ -2896,7 +2969,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Necro/NekrosPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateToxinDamage"
+        "nemesisUpgradeTag": "InnateToxinDamage",
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Necro/Necro": {
         "name": "/Lotus/Language/Suits/NekrosName",
@@ -2947,7 +3021,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Necro/NecroHelmet"
         ],
-        "nemesisUpgradeTag": "InnateToxinDamage"
+        "nemesisUpgradeTag": "InnateToxinDamage",
+        "platinumCost": 375
     },
     "/Lotus/Powersuits/MonkeyKing/WukongPrime": {
         "name": "/Lotus/Language/Primes/WukongPrimeName",
@@ -3003,7 +3078,9 @@
             "/Lotus/Upgrades/Skins/MonkeyKing/WukongPrimeHelmet",
             "/Lotus/Powersuits/MonkeyKing/WukongPrimeStaff"
         ],
-        "nemesisUpgradeTag": "InnateImpactDamage"
+        "nemesisUpgradeTag": "InnateImpactDamage",
+        "platinumCost": 275,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/MonkeyKing/MonkeyKing": {
         "name": "/Lotus/Language/Suits/WukongName",
@@ -3059,7 +3136,8 @@
             "/Lotus/Upgrades/Skins/MonkeyKing/MonkeyKingHelmet",
             "/Lotus/Powersuits/MonkeyKing/MonkeyKingStaff"
         ],
-        "nemesisUpgradeTag": "InnateImpactDamage"
+        "nemesisUpgradeTag": "InnateImpactDamage",
+        "platinumCost": 275
     },
     "/Lotus/Powersuits/Magician/Magician": {
         "name": "/Lotus/Language/Suits/LimboName",
@@ -3110,7 +3188,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Magician/MagicianHelmet"
         ],
-        "nemesisUpgradeTag": "InnateElectricityDamage"
+        "nemesisUpgradeTag": "InnateElectricityDamage",
+        "platinumCost": 200
     },
     "/Lotus/Powersuits/Magician/LimboPrime": {
         "name": "/Lotus/Language/Primes/LimboPrimeName",
@@ -3161,7 +3240,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Magician/LimboPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateElectricityDamage"
+        "nemesisUpgradeTag": "InnateElectricityDamage",
+        "platinumCost": 200,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Mag/MagPrime": {
         "name": "/Lotus/Language/Primes/MagPrimeName",
@@ -3213,7 +3294,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Mag/MagPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateMagDamage"
+        "nemesisUpgradeTag": "InnateMagDamage",
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Mag/Mag": {
         "name": "/Lotus/Language/Suits/MagName",
@@ -3264,7 +3346,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Mag/MagHelmet"
         ],
-        "nemesisUpgradeTag": "InnateMagDamage"
+        "nemesisUpgradeTag": "InnateMagDamage",
+        "platinumCost": 75
     },
     "/Lotus/Powersuits/Loki/LokiPrime": {
         "name": "/Lotus/Language/Primes/LokiPrimeName",
@@ -3315,7 +3398,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Loki/LokiPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateRadDamage"
+        "nemesisUpgradeTag": "InnateRadDamage",
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Loki/Loki": {
         "name": "/Lotus/Language/Suits/LokiName",
@@ -3366,7 +3450,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Loki/LokiHelmet"
         ],
-        "nemesisUpgradeTag": "InnateRadDamage"
+        "nemesisUpgradeTag": "InnateRadDamage",
+        "platinumCost": 175
     },
     "/Lotus/Powersuits/Koumei/Koumei": {
         "name": "/Lotus/Language/Suits/KoumeiName",
@@ -3417,7 +3502,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Koumei/KoumeiHelmet"
         ],
-        "nemesisUpgradeTag": "InnateFreezeDamage"
+        "nemesisUpgradeTag": "InnateFreezeDamage",
+        "platinumCost": 370
     },
     "/Lotus/Powersuits/Khora/KhoraPrime": {
         "name": "/Lotus/Language/Primes/KhoraPrimeName",
@@ -3475,7 +3561,9 @@
             "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit",
             "/Lotus/Powersuits/Khora/KhoraWhipclawWeaponPrime"
         ],
-        "nemesisUpgradeTag": "InnateToxinDamage"
+        "nemesisUpgradeTag": "InnateToxinDamage",
+        "platinumCost": 325,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Khora/Khora": {
         "name": "/Lotus/Language/Suits/KhoraName",
@@ -3533,7 +3621,8 @@
             "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit",
             "/Lotus/Powersuits/Khora/KhoraWhipclawWeapon"
         ],
-        "nemesisUpgradeTag": "InnateToxinDamage"
+        "nemesisUpgradeTag": "InnateToxinDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/Jade/NyxPrime": {
         "name": "/Lotus/Language/Primes/NyxPrimeName",
@@ -3584,7 +3673,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Jade/NyxPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateRadDamage"
+        "nemesisUpgradeTag": "InnateRadDamage",
+        "platinumCost": 225,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Jade/Jade": {
         "name": "/Lotus/Language/Suits/NyxName",
@@ -3635,7 +3726,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Jade/JadeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateRadDamage"
+        "nemesisUpgradeTag": "InnateRadDamage",
+        "platinumCost": 225
     },
     "/Lotus/Powersuits/IronFrame/IronFramePrime": {
         "name": "/Lotus/Language/Primes/HildrynPrimeName",
@@ -3691,7 +3783,9 @@
             "/Lotus/Powersuits/IronFrame/BlastWeaponPrime",
             "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/HildrynPrimeChestArmor"
         ],
-        "nemesisUpgradeTag": "InnateFreezeDamage"
+        "nemesisUpgradeTag": "InnateFreezeDamage",
+        "platinumCost": 325,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/IronFrame/IronFrame": {
         "name": "/Lotus/Language/Suits/IronFrameName",
@@ -3746,7 +3840,8 @@
             "/Lotus/Upgrades/Skins/IronFrame/IronFrameHelmet",
             "/Lotus/Powersuits/IronFrame/BlastWeapon"
         ],
-        "nemesisUpgradeTag": "InnateFreezeDamage"
+        "nemesisUpgradeTag": "InnateFreezeDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/Infestation/InfestationPrime": {
         "name": "/Lotus/Language/Primes/InfestationPrimeName",
@@ -3798,7 +3893,9 @@
             "/Lotus/Upgrades/Skins/Infestation/NidusPrimeHelmet",
             "/Lotus/Types/Items/ShipFeatureItems/AlchemyRoomFeatureItem"
         ],
-        "nemesisUpgradeTag": "InnateToxinDamage"
+        "nemesisUpgradeTag": "InnateToxinDamage",
+        "platinumCost": 225,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Infestation/Infestation": {
         "name": "/Lotus/Language/Suits/InfestationName",
@@ -3850,7 +3947,8 @@
             "/Lotus/Upgrades/Skins/Infestation/InfestationHelmet",
             "/Lotus/Types/Items/ShipFeatureItems/AlchemyRoomFeatureItem"
         ],
-        "nemesisUpgradeTag": "InnateToxinDamage"
+        "nemesisUpgradeTag": "InnateToxinDamage",
+        "platinumCost": 225
     },
     "/Lotus/Powersuits/Hoplite/Hoplite": {
         "name": "/Lotus/Language/Suits/HopliteFrameName",
@@ -3901,7 +3999,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Hoplite/HopliteHelmet"
         ],
-        "nemesisUpgradeTag": "InnateFreezeDamage"
+        "nemesisUpgradeTag": "InnateFreezeDamage",
+        "platinumCost": 175
     },
     "/Lotus/Powersuits/Harlequin/MiragePrime": {
         "name": "/Lotus/Language/Primes/MiragePrimeName",
@@ -3953,7 +4052,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Harlequin/MiragePrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateRadDamage"
+        "nemesisUpgradeTag": "InnateRadDamage",
+        "platinumCost": 275,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Harlequin/Harlequin": {
         "name": "/Lotus/Language/Suits/MirageName",
@@ -4005,7 +4106,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Harlequin/HarlequinHelmet"
         ],
-        "nemesisUpgradeTag": "InnateRadDamage"
+        "nemesisUpgradeTag": "InnateRadDamage",
+        "platinumCost": 275
     },
     "/Lotus/Powersuits/Gyre/Gyre": {
         "name": "/Lotus/Language/Suits/GyreFrameName",
@@ -4056,7 +4158,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Gyre/GyreHelmet"
         ],
-        "nemesisUpgradeTag": "InnateElectricityDamage"
+        "nemesisUpgradeTag": "InnateElectricityDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/Glass/Glass": {
         "name": "/Lotus/Language/Suits/GlassName",
@@ -4111,7 +4214,8 @@
             "/Lotus/Upgrades/Skins/Glass/GlassHelmet",
             "/Lotus/Powersuits/Glass/GaraShankWeapon"
         ],
-        "nemesisUpgradeTag": "InnateFreezeDamage"
+        "nemesisUpgradeTag": "InnateFreezeDamage",
+        "platinumCost": 225
     },
     "/Lotus/Powersuits/Glass/GaraPrime": {
         "name": "/Lotus/Language/Primes/GaraPrimeSuitName",
@@ -4166,7 +4270,9 @@
             "/Lotus/Upgrades/Skins/Glass/GaraPrimeHelmet",
             "/Lotus/Powersuits/Glass/GaraShankWeaponPrime"
         ],
-        "nemesisUpgradeTag": "InnateFreezeDamage"
+        "nemesisUpgradeTag": "InnateFreezeDamage",
+        "platinumCost": 225,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Geode/Geode": {
         "name": "/Lotus/Language/Suits/GeodeFrameName",
@@ -4217,7 +4323,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Geode/GeodeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateMagDamage"
+        "nemesisUpgradeTag": "InnateMagDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/Garuda/GarudaPrime": {
         "name": "/Lotus/Language/Primes/GarudaPrimeName",
@@ -4272,7 +4379,9 @@
             "/Lotus/Upgrades/Skins/Garuda/GarudaPrimeHelmet",
             "/Lotus/Powersuits/Garuda/GarudaPrimeClaws"
         ],
-        "nemesisUpgradeTag": "InnateRadDamage"
+        "nemesisUpgradeTag": "InnateRadDamage",
+        "platinumCost": 325,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Garuda/Garuda": {
         "name": "/Lotus/Language/Suits/GarudaName",
@@ -4327,7 +4436,8 @@
             "/Lotus/Upgrades/Skins/Garuda/GarudaHelmet",
             "/Lotus/Powersuits/Garuda/GarudaClaws"
         ],
-        "nemesisUpgradeTag": "InnateRadDamage"
+        "nemesisUpgradeTag": "InnateRadDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/Frumentarius/Frumentarius": {
         "name": "/Lotus/Language/Suits/FrumentariusSuitName",
@@ -4382,7 +4492,8 @@
             "/Lotus/Powersuits/Frumentarius/ExaltedSniper",
             "/Lotus/Upgrades/Skins/Frumentarius/FrumentariusHelmet"
         ],
-        "nemesisUpgradeTag": "InnateMagDamage"
+        "nemesisUpgradeTag": "InnateMagDamage",
+        "platinumCost": 370
     },
     "/Lotus/Powersuits/Frost/FrostPrime": {
         "name": "/Lotus/Language/Primes/FrostPrimeName",
@@ -4433,7 +4544,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Frost/FrostPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateFreezeDamage"
+        "nemesisUpgradeTag": "InnateFreezeDamage",
+        "platinumCost": 375,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Frost/Frost": {
         "name": "/Lotus/Language/Suits/FrostName",
@@ -4484,7 +4597,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Frost/FrostHelmet"
         ],
-        "nemesisUpgradeTag": "InnateFreezeDamage"
+        "nemesisUpgradeTag": "InnateFreezeDamage",
+        "platinumCost": 375
     },
     "/Lotus/Powersuits/Fairy/TitaniaPrime": {
         "name": "/Lotus/Language/Primes/TitaniaPrimeName",
@@ -4542,7 +4656,9 @@
             "/Lotus/Powersuits/Fairy/PrimeFlightPistols",
             "/Lotus/Powersuits/Fairy/PrimeFlightSword"
         ],
-        "nemesisUpgradeTag": "InnateFreezeDamage"
+        "nemesisUpgradeTag": "InnateFreezeDamage",
+        "platinumCost": 275,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Fairy/Fairy": {
         "name": "/Lotus/Language/Suits/TitaniaName",
@@ -4600,7 +4716,8 @@
             "/Lotus/Powersuits/Fairy/FlightPistols",
             "/Lotus/Powersuits/Fairy/FlightSword"
         ],
-        "nemesisUpgradeTag": "InnateFreezeDamage"
+        "nemesisUpgradeTag": "InnateFreezeDamage",
+        "platinumCost": 275
     },
     "/Lotus/Powersuits/Excalibur/ExcaliburUmbra": {
         "name": "/Lotus/Language/Suits/ExcaliburUmbraName",
@@ -4656,7 +4773,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Excalibur/ExcaliburUmbraHelmet",
             "/Lotus/Powersuits/Excalibur/DoomSwordUmbra"
-        ]
+        ],
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Excalibur/ExcaliburPrime": {
         "name": "/Lotus/Language/Primes/ExcaliburPrimeName",
@@ -4713,7 +4831,9 @@
             "/Lotus/Upgrades/Skins/Excalibur/ExcaliburPrimeHelmet",
             "/Lotus/Powersuits/Excalibur/DoomSwordPrime"
         ],
-        "nemesisUpgradeTag": "InnateElectricityDamage"
+        "nemesisUpgradeTag": "InnateElectricityDamage",
+        "platinumCost": 10000000,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Excalibur/Excalibur": {
         "name": "/Lotus/Language/Suits/ExcaliburName",
@@ -4770,7 +4890,8 @@
             "/Lotus/Upgrades/Skins/Excalibur/ExcaliburHelmet",
             "/Lotus/Powersuits/Excalibur/DoomSword"
         ],
-        "nemesisUpgradeTag": "InnateElectricityDamage"
+        "nemesisUpgradeTag": "InnateElectricityDamage",
+        "platinumCost": 75
     },
     "/Lotus/Powersuits/Ember/EmberPrime": {
         "name": "/Lotus/Language/Primes/EmberPrimeName",
@@ -4822,7 +4943,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Ember/EmberPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateHeatDamage"
+        "nemesisUpgradeTag": "InnateHeatDamage",
+        "platinumCost": 375,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Ember/Ember": {
         "name": "/Lotus/Language/Suits/EmberName",
@@ -4874,7 +4997,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Ember/EmberHelmet"
         ],
-        "nemesisUpgradeTag": "InnateHeatDamage"
+        "nemesisUpgradeTag": "InnateHeatDamage",
+        "platinumCost": 225
     },
     "/Lotus/Powersuits/Dragon/Dragon": {
         "name": "/Lotus/Language/Suits/ChromaName",
@@ -4927,7 +5051,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Dragon/DragonHelmet"
         ],
-        "nemesisUpgradeTag": "InnateHeatDamage"
+        "nemesisUpgradeTag": "InnateHeatDamage",
+        "platinumCost": 375
     },
     "/Lotus/Powersuits/Dragon/ChromaPrime": {
         "name": "/Lotus/Language/Primes/ChromaPrimeName",
@@ -4980,7 +5105,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Dragon/ChromaPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateHeatDamage"
+        "nemesisUpgradeTag": "InnateHeatDamage",
+        "platinumCost": 375,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Devourer/GrendelPrime": {
         "name": "/Lotus/Language/Primes/GrendelPrimeName",
@@ -5028,7 +5155,8 @@
         ],
         "productCategory": "Suits",
         "variantType": "VT_PRIME",
-        "nemesisUpgradeTag": "InnateImpactDamage"
+        "nemesisUpgradeTag": "InnateImpactDamage",
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Devourer/Devourer": {
         "name": "/Lotus/Language/Suits/DevourerName",
@@ -5079,7 +5207,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Devourer/DevourerHelmet"
         ],
-        "nemesisUpgradeTag": "InnateImpactDamage"
+        "nemesisUpgradeTag": "InnateImpactDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/Dagath/Dagath": {
         "name": "/Lotus/Language/Suits/DagathSuitName",
@@ -5131,7 +5260,8 @@
             "/Lotus/Upgrades/Skins/Dagath/DagathHelmet",
             "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/DagathArmArmor"
         ],
-        "nemesisUpgradeTag": "InnateToxinDamage"
+        "nemesisUpgradeTag": "InnateToxinDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/Cowgirl/MesaPrime": {
         "name": "/Lotus/Language/Primes/MesaPrimeName",
@@ -5186,7 +5316,8 @@
             "/Lotus/Upgrades/Skins/Cowgirl/MesaPrimeHelmet",
             "/Lotus/Powersuits/Cowgirl/PrimeSlingerPistols"
         ],
-        "nemesisUpgradeTag": "InnateMagDamage"
+        "nemesisUpgradeTag": "InnateMagDamage",
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Cowgirl/Cowgirl": {
         "name": "/Lotus/Language/Suits/MesaName",
@@ -5241,7 +5372,8 @@
             "/Lotus/Upgrades/Skins/Cowgirl/CowgirlHelmet",
             "/Lotus/Powersuits/Cowgirl/SlingerPistols"
         ],
-        "nemesisUpgradeTag": "InnateMagDamage"
+        "nemesisUpgradeTag": "InnateMagDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/ConcreteFrame/ConcreteFrame": {
         "name": "/Lotus/Language/Suits/QorvexSuitName",
@@ -5292,7 +5424,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/ConcreteFrame/ConcreteFrameHelmet"
         ],
-        "nemesisUpgradeTag": "InnateRadDamage"
+        "nemesisUpgradeTag": "InnateRadDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/Choir/Choir": {
         "name": "/Lotus/Language/Suits/ChoirName",
@@ -5348,7 +5481,8 @@
             "/Lotus/Upgrades/Skins/Choir/ChoirHelmet",
             "/Lotus/Powersuits/Choir/ChoirEruptWeapon"
         ],
-        "nemesisUpgradeTag": "InnateHeatDamage"
+        "nemesisUpgradeTag": "InnateHeatDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/BrokenFrame/XakuPrime": {
         "name": "/Lotus/Language/Primes/XakuPrimeSuitName",
@@ -5399,7 +5533,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/BrokenFrame/XakuPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateMagDamage"
+        "nemesisUpgradeTag": "InnateMagDamage",
+        "platinumCost": 325,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/BrokenFrame/BrokenFrame": {
         "name": "/Lotus/Language/Suits/BrokenFrameName",
@@ -5450,7 +5586,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/BrokenFrame/BrokenFrameHelmet"
         ],
-        "nemesisUpgradeTag": "InnateMagDamage"
+        "nemesisUpgradeTag": "InnateMagDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/Brawler/Brawler": {
         "name": "/Lotus/Language/Suits/AtlasName",
@@ -5505,7 +5642,8 @@
             "/Lotus/Upgrades/Skins/Brawler/BrawlerHelmet",
             "/Lotus/Powersuits/Brawler/AtlasPunchWeapon"
         ],
-        "nemesisUpgradeTag": "InnateToxinDamage"
+        "nemesisUpgradeTag": "InnateToxinDamage",
+        "platinumCost": 275
     },
     "/Lotus/Powersuits/Brawler/AtlasPrime": {
         "name": "/Lotus/Language/Primes/AtlasPrimeName",
@@ -5560,7 +5698,9 @@
             "/Lotus/Upgrades/Skins/Brawler/AtlasPrimeHelmet",
             "/Lotus/Powersuits/Brawler/AtlasPunchWeaponPrime"
         ],
-        "nemesisUpgradeTag": "InnateToxinDamage"
+        "nemesisUpgradeTag": "InnateToxinDamage",
+        "platinumCost": 275,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Berserker/ValkyrPrime": {
         "name": "/Lotus/Language/Primes/ValkyrPrimeName",
@@ -5616,7 +5756,9 @@
             "/Lotus/Upgrades/Skins/Berserker/ValkyrPrimeDangles",
             "/Lotus/Powersuits/Berserker/BerserkerMeleePrime"
         ],
-        "nemesisUpgradeTag": "InnateElectricityDamage"
+        "nemesisUpgradeTag": "InnateElectricityDamage",
+        "platinumCost": 300,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Berserker/Berserker": {
         "name": "/Lotus/Language/Suits/ValkyrName",
@@ -5671,7 +5813,8 @@
             "/Lotus/Upgrades/Skins/Berserker/BerserkerHelmet",
             "/Lotus/Powersuits/Berserker/BerserkerMelee"
         ],
-        "nemesisUpgradeTag": "InnateElectricityDamage"
+        "nemesisUpgradeTag": "InnateElectricityDamage",
+        "platinumCost": 300
     },
     "/Lotus/Powersuits/Bard/OctaviaPrime": {
         "name": "/Lotus/Language/Primes/OctaviaPrimeSuitName",
@@ -5723,7 +5866,9 @@
             "/Lotus/Upgrades/Skins/Bard/OctaviaPrimeHelmet",
             "/Lotus/Types/Game/NotePacks/BardHipHopPackA"
         ],
-        "nemesisUpgradeTag": "InnateRadDamage"
+        "nemesisUpgradeTag": "InnateRadDamage",
+        "platinumCost": 225,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Bard/Bard": {
         "name": "/Lotus/Language/Suits/BardName",
@@ -5774,7 +5919,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Bard/BardHelmet"
         ],
-        "nemesisUpgradeTag": "InnateRadDamage"
+        "nemesisUpgradeTag": "InnateRadDamage",
+        "platinumCost": 225
     },
     "/Lotus/Powersuits/Banshee/BansheePrime": {
         "name": "/Lotus/Language/Primes/BansheePrimeName",
@@ -5826,7 +5972,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Decree/BansheePrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateElectricityDamage"
+        "nemesisUpgradeTag": "InnateElectricityDamage",
+        "platinumCost": 225,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Banshee/Banshee": {
         "name": "/Lotus/Language/Suits/BansheeName",
@@ -5878,7 +6026,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Decree/DecreeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateElectricityDamage"
+        "nemesisUpgradeTag": "InnateElectricityDamage",
+        "platinumCost": 225
     },
     "/Lotus/Powersuits/AntiMatter/NovaPrime": {
         "name": "/Lotus/Language/Primes/NovaPrimeName",
@@ -5929,7 +6078,9 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/AntiMatter/NovaPrimeHelmet"
         ],
-        "nemesisUpgradeTag": "InnateElectricityDamage"
+        "nemesisUpgradeTag": "InnateElectricityDamage",
+        "platinumCost": 375,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/AntiMatter/Anti": {
         "name": "/Lotus/Language/Suits/NovaName",
@@ -5980,7 +6131,8 @@
         "additionalItems": [
             "/Lotus/Upgrades/Skins/AntiMatter/AntiHelmet"
         ],
-        "nemesisUpgradeTag": "InnateElectricityDamage"
+        "nemesisUpgradeTag": "InnateElectricityDamage",
+        "platinumCost": 375
     },
     "/Lotus/Powersuits/Alchemist/LavosPrime": {
         "name": "/Lotus/Language/Primes/LavosPrimeSuitName",
@@ -6032,7 +6184,9 @@
             "/Lotus/Upgrades/Skins/Alchemist/LavosPrimeHelmet",
             "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/LavosPrimeArmArmor"
         ],
-        "nemesisUpgradeTag": "InnateMagDamage"
+        "nemesisUpgradeTag": "InnateMagDamage",
+        "platinumCost": 325,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Alchemist/Alchemist": {
         "name": "/Lotus/Language/Suits/AlchemistName",
@@ -6084,7 +6238,8 @@
             "/Lotus/Upgrades/Skins/Alchemist/AlchemistHelmet",
             "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/LavosArmArmor"
         ],
-        "nemesisUpgradeTag": "InnateMagDamage"
+        "nemesisUpgradeTag": "InnateMagDamage",
+        "platinumCost": 325
     },
     "/Lotus/Powersuits/EntratiMech/NechroTech": {
         "name": "/Lotus/Language/Necromech/MechNecroTechName",
@@ -6140,7 +6295,8 @@
             "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun",
             "/Lotus/Upgrades/Skins/Necramech/NecramechVoidRigDefaultHelmet"
         ],
-        "maxLevelCap": 40
+        "maxLevelCap": 40,
+        "platinumCost": 375
     },
     "/Lotus/Powersuits/EntratiMech/ThanoTech": {
         "name": "/Lotus/Language/Necromech/ThanoTechMechName",
@@ -6197,6 +6353,7 @@
             "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun",
             "/Lotus/Upgrades/Skins/Necramech/ThanomechVoidRigDefaultHelmet"
         ],
-        "maxLevelCap": 40
+        "maxLevelCap": 40,
+        "platinumCost": 375
     }
 }
