@@ -674,6 +674,7 @@ export interface IRecipe {
         value: number;
     };
     tradable: boolean;
+    creditsCost?: number;
     excludeFromMarket?: boolean;
 }
 
