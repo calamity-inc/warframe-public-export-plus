@@ -188,7 +188,9 @@ export interface IBundle {
     }[];
     giftingBonus?: string;
     packageDiscount?: number;
+    creditsCost?: number;
     platinumCost?: number;
+    excludeFromMarket?: true;
     bundledPlatinum?: number;
     platinumBundlePair?: string;
     /** @deprecated renamed to platinumCost */
