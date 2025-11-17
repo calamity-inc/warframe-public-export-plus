@@ -465,6 +465,9 @@ export interface IGear {
     codexSecret: boolean;
     parentName: string;
     purchaseQuantity?: number;
+    creditsCost?: number;
+    platinumCost?: number;
+    excludeFromMarket?: true;
 }
 
 export interface IImage {
