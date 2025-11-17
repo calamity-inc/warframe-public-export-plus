@@ -660,6 +660,8 @@ export interface IRailjackWeapon {
     variantType: "VT_NORMAL";
     behaviours: IWeaponBehaviour[];
     defaultUpgrades?: IDefaultUpgrade[];
+    creditsCost?: number;
+    excludeFromMarket?: true;
 }
 
 export interface IRecipe {
@@ -1069,9 +1071,11 @@ export interface IWeapon {
     sentinel?: boolean;
     excludeFromCodex?: true;
     primeOmegaAttenuation?: number;
+    creditsCost?: number;
     platinumCost?: number;
     /** @deprecated renamed to platinumCost */
     premiumPrice?: number;
+    excludeFromMarket?: true;
     variantType: "VT_NORMAL" | "VT_STARTER" | "VT_VARIANT" | "VT_SYNDICATE" | "VT_PRIME" | "VT_KUVA";
     partType?: string;
     gunType?: "GT_RIFLE" | "GT_SHOTGUN" | "GT_BEAM";
