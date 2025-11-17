@@ -248,6 +248,8 @@ export interface ICustom {
         range: number[];
     }[];
     excludedPlatforms?: TPlatform[];
+    platinumCost?: number;
+    excludeFromMarket?: true;
 }
 
 export interface IExportDojoRecipes {
