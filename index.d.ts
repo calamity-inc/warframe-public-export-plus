@@ -139,6 +139,8 @@ export interface IBoosterPack {
     components: IBoosterPackComponent[];
     rarityWeightsPerRoll: Record<TRarity, number>[];
     canGiveDuplicates: boolean;
+    platinumCost?: number;
+    excludeFromMarket?: true;
 }
 
 export interface IBoosterPackComponent {
