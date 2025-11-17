@@ -421,6 +421,8 @@ export interface IFlavourItem {
     codexSecret?:      boolean;
     excludeFromCodex?: true;
     alwaysAvailable?:  true;
+    platinumCost?:     number;
+    excludeFromMarket?: true;
     hexColours?:       IColour[];
     legacyColours?:    IColour[];
 }
