@@ -79,22 +79,22 @@ export interface ICountedStoreItem {
 }
 
 export interface IAbility {
-    name?:                      string;
-    description?:               string;
-    icon:                       string;
-    energyRequiredToActivate:   number;
+    name?: string;
+    description?: string;
+    icon: string;
+    energyRequiredToActivate: number;
     energyConsumptionOverTime?: number;
 }
 
 export interface IAchievement {
-    uniqueName:             string;
-    name?:                  string;
-    description?:           string;
-    icon?:                  string;
-    hidden?:                true;
-    requiredCount?:         number;
+    uniqueName: string;
+    name?: string;
+    description?: string;
+    icon?: string;
+    hidden?: true;
+    requiredCount?: number;
     progressIndicatorFreq?: number;
-    children?:              string[];
+    children?: string[];
 }
 
 export interface IAnimal {
@@ -107,38 +107,38 @@ export interface IAnimal {
         itemReward: string;
         woundedAnimalReward?: string;
         standingReward: number;
-    }
+    };
 }
 
 export interface IArcane {
-    name:               string;
-    icon:               string;
-    codexSecret:        boolean;
-    excludeFromCodex?:  true;
-    rarity:             TRarity;
-    fusionLimit:        number;
+    name: string;
+    icon: string;
+    codexSecret: boolean;
+    excludeFromCodex?: true;
+    rarity: TRarity;
+    fusionLimit: number;
     distillPointValue?: number;
     /** @deprecated use excludeFromCodex */
-    isFrivolous?:       true;
+    isFrivolous?: true;
 }
 
 export interface IAvionic {
-    name:              string;
-    polarity:          "AP_UNIVERSAL" | "AP_TACTIC" | "AP_DEFENSE" | "AP_ATTACK";
-    rarity:            TRarity;
-    codexSecret:       boolean;
-    baseDrain:         number;
-    fusionLimit:       number;
+    name: string;
+    polarity: "AP_UNIVERSAL" | "AP_TACTIC" | "AP_DEFENSE" | "AP_ATTACK";
+    rarity: TRarity;
+    codexSecret: boolean;
+    baseDrain: number;
+    fusionLimit: number;
     excludeFromCodex?: true;
 }
 
 export interface IBoosterPack {
-    name:                 string;
-    description:          string;
-    icon?:                string;
-    components:           IBoosterPackComponent[];
+    name: string;
+    description: string;
+    icon?: string;
+    components: IBoosterPackComponent[];
     rarityWeightsPerRoll: Record<TRarity, number>[];
-    canGiveDuplicates:    boolean;
+    canGiveDuplicates: boolean;
 }
 
 export interface IBoosterPackComponent {
@@ -150,10 +150,10 @@ export interface IBoosterPackComponent {
 }
 
 export interface IBooster {
-    name:        string;
+    name: string;
     description: string;
-    icon:        string;
-    typeName:    string;
+    icon: string;
+    typeName: string;
 }
 
 export interface IBounty {
@@ -163,7 +163,7 @@ export interface IBounty {
     stages: string[][];
 }
 
-export type TPlatform = 
+export type TPlatform =
     | "CP_WINDOWS"
     | "CP_XBONE"
     | "CP_PS4"
@@ -174,17 +174,17 @@ export type TPlatform =
     ;
 
 export interface IBundle {
-    name?:             string;
-    description?:      string;
-    icon?:             string;
+    name?: string;
+    description?: string;
+    icon?: string;
     excludeFromCodex?: true;
-    components:        {
-        typeName:         string;
+    components: {
+        typeName: string;
         purchaseQuantity: number;
-        durabilityDays?:  number; // for boosters
+        durabilityDays?: number; // for boosters
         /** @deprecated use durabilityDays */
-        durability?:      TRarity; // for boosters
-        giveMaxRank?:     true;
+        durability?: TRarity; // for boosters
+        giveMaxRank?: true;
     }[];
     giftingBonus?: string;
     packageDiscount?: number;
@@ -199,13 +199,13 @@ export interface IBundle {
 }
 
 export interface IChallenge {
-    name:            string;
-    description?:    string;
-    flavour?:        string;
-    hint?:           string;
-    icon?:           string;
-    requiredCount?:  number;
-    standing?:       number;
+    name: string;
+    description?: string;
+    flavour?: string;
+    hint?: string;
+    icon?: string;
+    requiredCount?: number;
+    standing?: number;
     countedRewards?: ICountedStoreItem[];
 }
 
@@ -232,17 +232,17 @@ export interface ICreditBundle {
 }
 
 export interface ICustom {
-    name:              string;
-    codexSecret:       boolean;
-    description?:      string;
-    icon?:             string;
+    name: string;
+    codexSecret: boolean;
+    description?: string;
+    icon?: string;
     excludeFromCodex?: true;
-    productCategory:   "WeaponSkins" | "CrewShipWeaponSkins";
-    alwaysAvailable?:  true;
-    requirement?:      string;
-    additionalItems?:  string[];
-    tradable:          boolean;
-    subroutines?:      string[];
+    productCategory: "WeaponSkins" | "CrewShipWeaponSkins";
+    alwaysAvailable?: true;
+    requirement?: string;
+    additionalItems?: string[];
+    tradable: boolean;
+    subroutines?: string[];
     randomisedUpgrades?: {
         tag: string;
         range: number[];
@@ -270,32 +270,32 @@ export interface IExportDojoRecipes {
 }
 
 export interface IDojoRecipe {
-    price:         number;
-    time:          number;
+    price: number;
+    time: number;
     skipTimePrice: number;
-    ingredients:   ICountedItem[];
+    ingredients: ICountedItem[];
     guildXpValue?: number;
 }
 
 export interface IDojoResearch extends IDojoRecipe {
-    resultType?:    string;
+    resultType?: string;
     replicatePrice: number;
-    techPrereq?:    string;
+    techPrereq?: string;
 }
 
 export interface IDojoBuild extends IDojoRecipe {
-    resultType:    string;
-    name:          string;
-    description:   string;
-    icon:          string;
+    resultType: string;
+    name: string;
+    description: string;
+    icon: string;
 }
 
 export interface IDojoRoom extends IDojoBuild {
     destructionTime: number;
-    capacity:        number;
-    energy:          number;
-    decoCapacity:    number;
-    hidden?:         true;
+    capacity: number;
+    energy: number;
+    decoCapacity: number;
+    hidden?: true;
 }
 
 export interface IDojoDeco extends IDojoBuild {
@@ -304,19 +304,19 @@ export interface IDojoDeco extends IDojoBuild {
 }
 
 export interface IDrone {
-    name:                 string;
-    description:          string;
-    icon:                 string;
-    binCount:             number;
-    binCapacity:          number;
-    fillRate:             number;
-    durability:           number;
-    repairRate:           number;
-    codexSecret:          boolean;
+    name: string;
+    description: string;
+    icon: string;
+    binCount: number;
+    binCapacity: number;
+    fillRate: number;
+    durability: number;
+    repairRate: number;
+    codexSecret: boolean;
     /** @deprecated use capacityMultipliers */
-    capacityMultiplier:   number[];
-    capacityMultipliers:  Record<TRarity, number>;
-    probabilities:        Record<TRarity, number>;
+    capacityMultiplier: number[];
+    capacityMultipliers: Record<TRarity, number>;
+    probabilities: Record<TRarity, number>;
 }
 
 export interface IEmailItem {
@@ -334,11 +334,11 @@ export interface IExportEnemies {
 }
 
 export interface IEnemyAgent {
-    baseLevel:    number;
+    baseLevel: number;
     avatarTypes: {
         STANDARD?: string;
-        EXIMUS?:   string;
-        RARE?:     string;
+        EXIMUS?: string;
+        RARE?: string;
     };
     items?: {
         type: string;
@@ -346,24 +346,24 @@ export interface IEnemyAgent {
 }
 
 export interface IEnemyAvatar {
-    name:                      string;
-    icon?:                     string;
-    description?:              string;
-    faction:                   string;
-    health:                    number;
-    damageController:          string;
-    killXPReward:              number;
+    name: string;
+    icon?: string;
+    description?: string;
+    faction: string;
+    health: number;
+    damageController: string;
+    killXPReward: number;
     factionResistanceKeyword?: string;
-    droptable?:                string;
-    codexSecret?:              boolean;
-    codexScansRequired:        number;
-    excludeFromSimulacrum?:    boolean;
-    isFrivolous?:              true;
+    droptable?: string;
+    codexSecret?: boolean;
+    codexScansRequired: number;
+    excludeFromSimulacrum?: boolean;
+    isFrivolous?: true;
 }
 
 export interface IDamageController {
-    armor:              number;
-    shield:             number;
+    armor: number;
+    shield: number;
     unhandledProcTypes: TProcType[];
     hitProxies?: {
         bone: string;
@@ -372,24 +372,24 @@ export interface IDamageController {
 }
 
 export interface IHitProxy {
-    damageAtten?:        number;
-    criticalChance?:     number;
+    damageAtten?: number;
+    criticalChance?: number;
     criticalMultiplier?: number;
 }
 
 export interface IAiWeapon {
-    name?:        string;
+    name?: string;
     description?: string;
-    icon?:        string;
-    behaviours?:  IWeaponBehaviour[];
+    icon?: string;
+    behaviours?: IWeaponBehaviour[];
 }
 
 export type TDroptable = IRewardPool[];
 export interface IRewardPool {
-    type: "mod" | "blueprint"  | "resource" | "sigil" | "additionalItem" | "relic";
+    type: "mod" | "blueprint" | "resource" | "sigil" | "additionalItem" | "relic";
     chance: number;
-    items:  {
-        type:        string;
+    items: {
+        type: string;
         probability: number;
     }[];
 }
@@ -414,17 +414,17 @@ export interface IFaction {
 }
 
 export interface IFlavourItem {
-    name:              string;
-    description:       string;
-    icon:              string;
-    base:              string;
-    codexSecret?:      boolean;
+    name: string;
+    description: string;
+    icon: string;
+    base: string;
+    codexSecret?: boolean;
     excludeFromCodex?: true;
-    alwaysAvailable?:  true;
-    platinumCost?:     number;
+    alwaysAvailable?: true;
+    platinumCost?: number;
     excludeFromMarket?: true;
-    hexColours?:       IColour[];
-    legacyColours?:    IColour[];
+    hexColours?: IColour[];
+    legacyColours?: IColour[];
 }
 
 export interface IColour {
@@ -432,34 +432,34 @@ export interface IColour {
 }
 
 export interface IFocusUpgrade {
-    name:               string;
-    icon:               string;
-    polarity:           "AP_ATTACK" | "AP_DEFENSE" | "AP_POWER" | "AP_TACTIC" | "AP_WARD";
-    rarity:             TRarity;
-    codexSecret:        boolean;
-    baseDrain:          number;
-    fusionLimit:        number;
-    excludeFromCodex:   true;
-    levelStats:         object[];
-    description:        string;
+    name: string;
+    icon: string;
+    polarity: "AP_ATTACK" | "AP_DEFENSE" | "AP_POWER" | "AP_TACTIC" | "AP_WARD";
+    rarity: TRarity;
+    codexSecret: boolean;
+    baseDrain: number;
+    fusionLimit: number;
+    excludeFromCodex: true;
+    levelStats: object[];
+    description: string;
     baseFocusPointCost: number;
 }
 
 export interface IFusionBundle {
-    name:         string;
-    description:  string;
-    icon:         string;
+    name: string;
+    description: string;
+    icon: string;
     /** @deprecated */
-    codexSecret:  boolean;
+    codexSecret: boolean;
     fusionPoints: number;
 }
 
 export interface IGear {
-    name:              string;
-    description:       string;
-    icon:              string;
-    codexSecret:       boolean;
-    parentName:        string;
+    name: string;
+    description: string;
+    icon: string;
+    codexSecret: boolean;
+    parentName: string;
     purchaseQuantity?: number;
 }
 
@@ -469,21 +469,21 @@ export interface IImage {
 }
 
 export interface IIntrinsic {
-    name:        string;
+    name: string;
     description: string;
-    icon:        string;
-    ranks:       IIntrinsicRank[];
+    icon: string;
+    ranks: IIntrinsicRank[];
 }
 
 export interface IIntrinsicRank {
-    name:        string;
+    name: string;
     description: string;
 }
 
 export interface IInboxMessage {
     sender: string;
-    title:  string;
-    body:   string;
+    title: string;
+    body: string;
     attachments: string[];
     countedAttachments: ICountedItem[];
     icon?: string;
@@ -503,31 +503,31 @@ export interface IMissionReward {
 
 export type TReward = {
     rewardType: "RT_STORE_ITEM";
-    itemType:   string;
+    itemType: string;
 } | {
     rewardType: "RT_RESOURCE" | "RT_RECIPE";
-    itemType:   string;
-    amount:     number;
+    itemType: string;
+    amount: number;
 } | {
     rewardType: "RT_CREDITS";
-    amount:     number;
+    amount: number;
 };
 
 export interface IKey {
-    name?:             string;
-    description?:      string;
-    icon?:             string;
-    parentName:        string;
-    codexSecret:       boolean;
+    name?: string;
+    description?: string;
+    icon?: string;
+    parentName: string;
+    codexSecret: boolean;
     excludeFromCodex?: true;
-    replayable?:       boolean;
-    chainStages?:      {
-        key?:                     string;
+    replayable?: boolean;
+    chainStages?: {
+        key?: string;
         itemsToGiveWhenTriggered: string[];
         messageToSendWhenTriggered?: IInboxMessage;
     }[];
     missionReward?: IMissionReward;
-    rewards?:       TReward[];
+    rewards?: TReward[];
     cacheRewardManifest?: string;
 }
 
@@ -602,80 +602,80 @@ export interface IMissionType {
 }
 
 export interface IModSet {
-    description:      string;
-    icon:             string;
+    description: string;
+    icon: string;
     numUpgradesInSet: number;
-    levelStats:       object[];
-    buffSet?:         boolean;
+    levelStats: object[];
+    buffSet?: boolean;
 }
 
 export interface IExportNightwave {
     affiliationTag: string;
     /** @deprecated */
-    challenges:     Record<string, {
-        name:        string;
+    challenges: Record<string, {
+        name: string;
         description: string;
-        standing:    number;
-        required:    number;
-        icon:        string;
-        tip?:        string;
-        tipIcon?:    string;
+        standing: number;
+        required: number;
+        icon: string;
+        tip?: string;
+        tipIcon?: string;
     }>;
     /** @deprecated */
-    rewards:        {
-        uniqueName:   string;
-        name?:        string;
+    rewards: {
+        uniqueName: string;
+        name?: string;
         description?: string;
-        icon?:        string;
-        itemCount?:   number;
+        icon?: string;
+        itemCount?: number;
     }[];
 }
 
 export interface IRailjackWeapon {
-    name:                string;
-    parentName:          string;
-    icon:                string;
-    codexSecret:         boolean;
-    damagePerShot?:      number[];
-    totalDamage?:        number;
-    description:         string;
-    criticalChance?:     number;
+    name: string;
+    parentName: string;
+    icon: string;
+    codexSecret: boolean;
+    damagePerShot?: number[];
+    totalDamage?: number;
+    description: string;
+    criticalChance?: number;
     criticalMultiplier?: number;
-    procChance?:         number;
-    fireRate?:           number;
-    masteryReq?:         number;
-    productCategory:     "CrewShipWeapons";
-    excludeFromCodex?:   true;
-    slot?:               number;
-    accuracy?:           number;
-    omegaAttenuation:    number;
-    noise?:              "ALARMING";
-    trigger?:            "BURST" | "SEMI" | "AUTO" | "HELD";
-    magazineSize?:       number;
-    reloadTime?:         number;
-    multishot?:          number;
-    compatibilityTags?:  string[];
-    variantType:         "VT_NORMAL";
-    behaviours:          IWeaponBehaviour[];
-    defaultUpgrades?:    IDefaultUpgrade[];
+    procChance?: number;
+    fireRate?: number;
+    masteryReq?: number;
+    productCategory: "CrewShipWeapons";
+    excludeFromCodex?: true;
+    slot?: number;
+    accuracy?: number;
+    omegaAttenuation: number;
+    noise?: "ALARMING";
+    trigger?: "BURST" | "SEMI" | "AUTO" | "HELD";
+    magazineSize?: number;
+    reloadTime?: number;
+    multishot?: number;
+    compatibilityTags?: string[];
+    variantType: "VT_NORMAL";
+    behaviours: IWeaponBehaviour[];
+    defaultUpgrades?: IDefaultUpgrade[];
 }
 
 export interface IRecipe {
-    resultType:              string;
-    buildPrice:              number;
-    buildTime:               number;
-    skipBuildTimePrice:      number;
-    consumeOnUse:            boolean;
-    num:                     number;
-    codexSecret:             boolean;
-    excludeFromCodex?:       true;
-    alwaysAvailable?:        true;
-    hidden?:                 true;
-    primeSellingPrice?:      number;
-    ingredients:             ICountedItem[];
+    resultType: string;
+    buildPrice: number;
+    buildTime: number;
+    skipBuildTimePrice: number;
+    consumeOnUse: boolean;
+    num: number;
+    codexSecret: boolean;
+    excludeFromCodex?: true;
+    alwaysAvailable?: true;
+    hidden?: true;
+    primeSellingPrice?: number;
+    ingredients: ICountedItem[];
     secretIngredientAction?: "SIA_UNBRAND" | "SIA_SPECTRE_LOADOUT_COPY" | "SIA_GILD_WEAPON" | "SIA_CREATE_KUBROW" | "SIA_DISTILL_PRINT" | "SIA_WARFRAME_ABILITY";
-    secretIngredients?:      {
-        ItemType:  string;
+    secretIngredients?: {
+        ItemType: string;
         ItemCount: number;
     }[];
     syndicateStandingChange?: {
@@ -689,116 +689,116 @@ export interface IRecipe {
 }
 
 export interface IRegion {
-    name:                   string;
-    systemIndex:            number;
-    systemName:             string; // may differ from ExportSystems[systemIndex].name for railjack
-    nodeType:               number;
-    masteryReq:             number;
-    missionType:            TMissionType;
+    name: string;
+    systemIndex: number;
+    systemName: string; // may differ from ExportSystems[systemIndex].name for railjack
+    nodeType: number;
+    masteryReq: number;
+    missionType: TMissionType;
     /** @deprecated use ExportMissionTypes[missionType].index */
-    missionIndex:           number;
-    missionName:            string; // may differ from eMission[missionIndex].name for dual defense, conjunction survival, railjack
-    faction?:               TFaction;
+    missionIndex: number;
+    missionName: string; // may differ from eMission[missionIndex].name for dual defense, conjunction survival, railjack
+    faction?: TFaction;
     /** @deprecated use ExportFactions[faction].index */
-    factionIndex?:          number;
+    factionIndex?: number;
     /** @deprecated use ExportFactions[faction].name */
-    factionName?:           string;
-    secondaryFaction?:      TFaction;
+    factionName?: string;
+    secondaryFaction?: TFaction;
     /** @deprecated use ExportFactions[secondaryFaction].index */
     secondaryFactionIndex?: number;
     /** @deprecated use ExportFactions[secondaryFaction].name */
-    secondaryFactionName?:  string;
-    minEnemyLevel:          number;
-    maxEnemyLevel:          number;
-    masteryExp:             number;
-    levelOverride?:         string;
-    enemySpec?:             string;
-    extraEnemySpec?:        string;
+    secondaryFactionName?: string;
+    minEnemyLevel: number;
+    maxEnemyLevel: number;
+    masteryExp: number;
+    levelOverride?: string;
+    enemySpec?: string;
+    extraEnemySpec?: string;
     customAdvancedSpawners?: string[];
-    missionReward?:         IMissionReward;
-    miscItemFee?:           ICountedItem;
-    challenges?:            string[];
-    rewardManifests:        string[];
-    cacheRewardManifest?:   string;
-    darkSectorData?:        {
-        resourceBonus:    number;
-        xpBonus:          number;
+    missionReward?: IMissionReward;
+    miscItemFee?: ICountedItem;
+    challenges?: string[];
+    rewardManifests: string[];
+    cacheRewardManifest?: string;
+    darkSectorData?: {
+        resourceBonus: number;
+        xpBonus: number;
         weaponXpBonusFor: "Rifles" | "Melee" | "Shotguns" | "Pistols";
         weaponXpBonusVal: number;
     };
-    questReq?:              string;
-    nextNodes:              string[];
-    hidden?:                true;
+    questReq?: string;
+    nextNodes: string[];
+    hidden?: true;
 }
 
 export type TRelicQuality = "VPQ_BRONZE" | "VPQ_SILVER" | "VPQ_GOLD" | "VPQ_PLATINUM";
 
 export interface IRelic {
-    category:       string;
-    era:            "Requiem" | "Axi" | "Neo" | "Meso" | "Lith";
-    icon:           string;
-    codexSecret:    boolean;
-    description:    string;
-    quality:        TRelicQuality;
+    category: string;
+    era: "Requiem" | "Axi" | "Neo" | "Meso" | "Lith";
+    icon: string;
+    codexSecret: boolean;
+    description: string;
+    quality: TRelicQuality;
     rewardManifest: string;
 }
 
 export interface IResource {
-    name:               string;
-    description:        string;
-    icon:               string;
-    codexSecret:        boolean;
-    parentName:         string;
-    productCategory:    "ShipDecorations" | "MiscItems" | "CrewShips" | "KubrowPetEggs" | "FusionTreasures" | "SupplyDrop" | "Ships";
-    excludeFromCodex?:  true;
-    showInInventory?:   boolean;
-    longDescription?:   string;
+    name: string;
+    description: string;
+    icon: string;
+    codexSecret: boolean;
+    parentName: string;
+    productCategory: "ShipDecorations" | "MiscItems" | "CrewShips" | "KubrowPetEggs" | "FusionTreasures" | "SupplyDrop" | "Ships";
+    excludeFromCodex?: true;
+    showInInventory?: boolean;
+    longDescription?: string;
     primeSellingPrice?: number;
-    deco?:              string; // for ShipDecorations & FusionTreasures
-    capacityCost?:      number; // for ShipDecorations & FusionTreasures
-    dojoCapacityCost?:  number; // for ShipDecorations & FusionTreasures
-    sockets?:           string[]; // for FusionTreasures
-    syndicateTag?:      string; // for fish
-    standingBonus?:     number; // for fish
-    dissectionParts?:   ICountedItem[]; // for fish
-    purchaseQuantity?:  number;
-    pickupQuantity?:    IRange;
-    helminthSnack?:     IHelminthSnack;
+    deco?: string; // for ShipDecorations & FusionTreasures
+    capacityCost?: number; // for ShipDecorations & FusionTreasures
+    dojoCapacityCost?: number; // for ShipDecorations & FusionTreasures
+    sockets?: string[]; // for FusionTreasures
+    syndicateTag?: string; // for fish
+    standingBonus?: number; // for fish
+    dissectionParts?: ICountedItem[]; // for fish
+    purchaseQuantity?: number;
+    pickupQuantity?: IRange;
+    helminthSnack?: IHelminthSnack;
 }
 
 export type TMissionDeck = TRewardTier[];
 export type TRewardTier = IReward[];
 export interface IReward {
-    type:         string;
-    itemCount:    number;
+    type: string;
+    itemCount: number;
     probability?: number;
-    rarity?:      TRarity;
+    rarity?: TRarity;
 }
 
 export interface ISentinel {
-    name:              string;
-    icon:              string;
-    health?:           number;
-    shield?:           number;
-    armor?:            number;
-    stamina?:          number;
-    power?:            number;
-    codexSecret:       boolean;
+    name: string;
+    icon: string;
+    health?: number;
+    shield?: number;
+    armor?: number;
+    stamina?: number;
+    power?: number;
+    codexSecret: boolean;
     excludeFromCodex?: true;
-    description:       string;
-    productCategory:   "SpecialItems" | "KubrowPets" | "Sentinels" | "MoaPets";
-    defaultWeapon?:    string;
-    exalted?:          string[];
-    defaultUpgrades?:  IDefaultUpgrade[];
+    description: string;
+    productCategory: "SpecialItems" | "KubrowPets" | "Sentinels" | "MoaPets";
+    defaultWeapon?: string;
+    exalted?: string[];
+    defaultUpgrades?: IDefaultUpgrade[];
 }
 
 export interface IDefaultUpgrade {
     ItemType: string;
-    Slot:     number;    
+    Slot: number;
 }
 
 export type TStandingLimitBin =
-    "STANDING_LIMIT_BIN_NONE"
+    | "STANDING_LIMIT_BIN_NONE"
     | "STANDING_LIMIT_BIN_NORMAL"
     | "STANDING_LIMIT_BIN_PVP"
     | "STANDING_LIMIT_BIN_LIBRARY"
@@ -812,7 +812,8 @@ export type TStandingLimitBin =
     | "STANDING_LIMIT_BIN_ZARIMAN"
     | "STANDING_LIMIT_BIN_KAHL"
     | "STANDING_LIMIT_BIN_CAVIA"
-    | "STANDING_LIMIT_BIN_HEX";
+    | "STANDING_LIMIT_BIN_HEX"
+    ;
 
 export interface ISyndicate {
     uniqueName: string;
@@ -844,11 +845,11 @@ export interface ISyndicate {
     }[];
     medallionsCappedByDailyLimit?: boolean;
     favours: {
-        storeItem:     string;
-        standingCost:  number;
-        creditsCost:   number;
+        storeItem: string;
+        standingCost: number;
+        creditsCost: number;
         requiredLevel: number;
-        rankUpReward:  boolean;
+        rankUpReward: boolean;
     }[];
 }
 
@@ -876,15 +877,15 @@ export interface IPickUpTypeRarity {
 }
 
 export interface ITextIcon {
-    DIT_PS4?:      string;
-    DIT_XBONE?:    string;
-    DIT_STEAM?:    string;
+    DIT_PS4?: string;
+    DIT_XBONE?: string;
+    DIT_STEAM?: string;
     DIT_AGNOSTIC?: string;
-    DIT_SWITCH?:   string;
-    DIT_PC?:       string;
-    DIT_PS5?:      string;
-    DIT_IOS?:      string;
-    DIT_AUTO?:     string;
+    DIT_SWITCH?: string;
+    DIT_PC?: string;
+    DIT_PS5?: string;
+    DIT_IOS?: string;
+    DIT_AUTO?: string;
 }
 
 export interface ITileset {
@@ -902,48 +903,48 @@ export interface ITilesetMission {
 }
 
 export interface IUpgrade {
-    name:                 string;
-    icon:                 string;
-    polarity:             "AP_POWER" | "AP_DEFENSE" | "AP_TACTIC" | "AP_ATTACK" | "AP_WARD" | "AP_UNIVERSAL" | "AP_UMBRA" | "AP_PRECEPT" | "AP_ANY";
-    rarity:               TRarity;
-    codexSecret:          boolean;
-    baseDrain:            number;
-    fusionLimit:          number;
-    compat?:              string;
-    compatibilityTags?:   string[];
-    compatName?:          string;
-    type?:                string;
-    description?:         string;
-    isUtility?:           true;
-    modSet?:              string;
-    modSetValues?:        number[];
-    subtype?:             string;
-    excludeFromCodex?:    true;
-    canBeTransmutation?:  true;
-    isStarter?:           true;
-    isFrivolous?:         true;
-    tradable:             boolean;
-    upgradeEntries?:      {
-        tag:           string;
-        prefixTag:     string;
-        suffixTag:     string;
-        canBeBuff:     boolean;
-        canBeCurse:    boolean;
+    name: string;
+    icon: string;
+    polarity: "AP_POWER" | "AP_DEFENSE" | "AP_TACTIC" | "AP_ATTACK" | "AP_WARD" | "AP_UNIVERSAL" | "AP_UMBRA" | "AP_PRECEPT" | "AP_ANY";
+    rarity: TRarity;
+    codexSecret: boolean;
+    baseDrain: number;
+    fusionLimit: number;
+    compat?: string;
+    compatibilityTags?: string[];
+    compatName?: string;
+    type?: string;
+    description?: string;
+    isUtility?: true;
+    modSet?: string;
+    modSetValues?: number[];
+    subtype?: string;
+    excludeFromCodex?: true;
+    canBeTransmutation?: true;
+    isStarter?: true;
+    isFrivolous?: true;
+    tradable: boolean;
+    upgradeEntries?: {
+        tag: string;
+        prefixTag: string;
+        suffixTag: string;
+        canBeBuff: boolean;
+        canBeCurse: boolean;
         upgradeValues: {
-            value:               number;
-            locTag?:             string;
+            value: number;
+            locTag?: string;
             reverseValueSymbol?: boolean;
         }[];
     }[];
     availableChallenges?: { // for rivens
-        fullName:      string;
-        description:   string;
+        fullName: string;
+        description: string;
         singleDescription?: string;
-        countRange:    number[];
+        countRange: number[];
         complicationChance: number;
         complications: {
-            fullName:     string;
-            description:  string;
+            fullName: string;
+            description: string;
             overrideTag?: string;
             countMultiplier: number;
             weight: number;
@@ -988,7 +989,7 @@ export interface IVendorOffer {
         minRank: number;
         reductionPerPositiveRank: number;
         increasePerNegativeRank: number;
-    }
+    };
 }
 
 export interface IVirtual {
@@ -997,83 +998,83 @@ export interface IVirtual {
 }
 
 export interface IPowersuit {
-    name:                string;
-    parentName:          string;
-    description:         string;
-    icon:                string;
-    health:              number;
-    shield:              number;
-    armor:               number;
-    stamina:             number;
-    power:               number;
-    codexSecret:         boolean;
-    masteryReq:          number;
-    sprintSpeed:         number;
-    abilities:           ({ uniqueName: string } & IAbility)[];
+    name: string;
+    parentName: string;
+    description: string;
+    icon: string;
+    health: number;
+    shield: number;
+    armor: number;
+    stamina: number;
+    power: number;
+    codexSecret: boolean;
+    masteryReq: number;
+    sprintSpeed: number;
+    abilities: ({ uniqueName: string } & IAbility)[];
     passiveDescription?: string;
-    productCategory:     "Suits" | "SpaceSuits" | "MechSuits";
-    exalted?:            string[];
-    longDescription?:    string;
-    variantType:         "VT_NORMAL" | "VT_PRIME" | "VT_VARIANT";
-    additionalItems?:    string[];
-    nemesisUpgradeTag?:  "InnateElectricityDamage" | "InnateHeatDamage" | "InnateFreezeDamage" | "InnateToxinDamage" | "InnateMagDamage" | "InnateRadDamage" | "InnateImpactDamage";
-    maxLevelCap?:        number;
+    productCategory: "Suits" | "SpaceSuits" | "MechSuits";
+    exalted?: string[];
+    longDescription?: string;
+    variantType: "VT_NORMAL" | "VT_PRIME" | "VT_VARIANT";
+    additionalItems?: string[];
+    nemesisUpgradeTag?: "InnateElectricityDamage" | "InnateHeatDamage" | "InnateFreezeDamage" | "InnateToxinDamage" | "InnateMagDamage" | "InnateRadDamage" | "InnateImpactDamage";
+    maxLevelCap?: number;
     platinumCost?: number;
     excludeFromMarket?: true;
 }
 
 export interface IWeapon {
-    name:                   string;
-    parentName:             string;
-    icon:                   string;
-    codexSecret:            boolean;
-    damagePerShot?:         number[];
-    totalDamage?:           number;
-    description:            string;
-    criticalChance?:        number;
-    criticalMultiplier?:    number;
-    procChance?:            number;
-    fireRate?:              number;
-    masteryReq?:            number;
-    productCategory:        "Pistols" | "Melee" | "LongGuns" | "SpaceGuns" | "SpaceMelee" | "OperatorAmps" | "SentinelWeapons" | "SpecialItems" | "DrifterMelee";
-    holsterCategory?:       "MELEE" | "RIFLE" | "ARM_MOUNTED" | "STAFF" | "FIST" | "TONFA" | "SHORT_MELEE" | "SHOTGUN" | "SMG" | "SNIPER" | "DUAL_SHORT_MELEE" | "LEFT_FOREARM_MOUNTED" | "HIP_MELEE" | "DUAL_MELEE" | "CLAWS" | "PUNCH_SLASH_KICK" | "WIDE_RIFLE" | "BOW" | "PISTOL" | "DUAL_HIP_MELEE";
-    slot?:                  number;
-    accuracy?:              number;
-    omegaAttenuation:       number;
-    noise?:                 "ALARMING" | "SILENT";
-    trigger?:               "SEMI" | "AUTO" | "BURST" | "ACTIVE" | "CHARGE" | "DUPLEX" | "HELD" | "Auto Burst";
-    magazineSize?:          number;
-    reloadTime?:            number;
-    multishot?:             number;
-    compatibilityTags?:     string[];
-    behaviours?:            IWeaponBehaviour[];
-    blockingAngle?:         number;
-    comboDuration?:         number;
-    followThrough?:         number;
-    range?:                 number;
-    slamAttack?:            number;
-    slamRadialDamage?:      number;
-    slamRadius?:            number;
-    slideAttack?:           number;
-    heavyAttackDamage?:     number;
-    heavySlamAttack?:       number;
+    name: string;
+    parentName: string;
+    icon: string;
+    codexSecret: boolean;
+    damagePerShot?: number[];
+    totalDamage?: number;
+    description: string;
+    criticalChance?: number;
+    criticalMultiplier?: number;
+    procChance?: number;
+    fireRate?: number;
+    masteryReq?: number;
+    productCategory: "Pistols" | "Melee" | "LongGuns" | "SpaceGuns" | "SpaceMelee" | "OperatorAmps" | "SentinelWeapons" | "SpecialItems" | "DrifterMelee";
+    holsterCategory?: "MELEE" | "RIFLE" | "ARM_MOUNTED" | "STAFF" | "FIST" | "TONFA" | "SHORT_MELEE" | "SHOTGUN" | "SMG" | "SNIPER" | "DUAL_SHORT_MELEE" | "LEFT_FOREARM_MOUNTED" | "HIP_MELEE" | "DUAL_MELEE" | "CLAWS" | "PUNCH_SLASH_KICK" | "WIDE_RIFLE" | "BOW" | "PISTOL" | "DUAL_HIP_MELEE";
+    slot?: number;
+    accuracy?: number;
+    omegaAttenuation: number;
+    noise?: "ALARMING" | "SILENT";
+    trigger?: "SEMI" | "AUTO" | "BURST" | "ACTIVE" | "CHARGE" | "DUPLEX" | "HELD" | "Auto Burst";
+    magazineSize?: number;
+    reloadTime?: number;
+    multishot?: number;
+    compatibilityTags?: string[];
+    behaviours?: IWeaponBehaviour[];
+    blockingAngle?: number;
+    comboDuration?: number;
+    followThrough?: number;
+    range?: number;
+    slamAttack?: number;
+    slamRadialDamage?: number;
+    slamRadius?: number;
+    slideAttack?: number;
+    heavyAttackDamage?: number;
+    heavySlamAttack?: number;
     heavySlamRadialDamage?: number;
-    heavySlamRadius?:       number;
-    windUp?:                number;
-    maxLevelCap?:           number;
-    sentinel?:              boolean;
-    excludeFromCodex?:      true;
+    heavySlamRadius?: number;
+    windUp?: number;
+    maxLevelCap?: number;
+    sentinel?: boolean;
+    excludeFromCodex?: true;
     primeOmegaAttenuation?: number;
-    platinumCost?:          number;
+    platinumCost?: number;
     /** @deprecated renamed to platinumCost */
-    premiumPrice?:          number;
-    variantType:            "VT_NORMAL" | "VT_STARTER" | "VT_VARIANT" | "VT_SYNDICATE" | "VT_PRIME" | "VT_KUVA";
-    partType?:              string;
-    gunType?:               "GT_RIFLE" | "GT_SHOTGUN" | "GT_BEAM";
+    premiumPrice?: number;
+    variantType: "VT_NORMAL" | "VT_STARTER" | "VT_VARIANT" | "VT_SYNDICATE" | "VT_PRIME" | "VT_KUVA";
+    partType?: string;
+    gunType?: "GT_RIFLE" | "GT_SHOTGUN" | "GT_BEAM";
     donationStandingBonus?: number;
-    defaultUpgrades?:       IDefaultUpgrade[];
-    additionalItems?:       string[];
-    tradable:               boolean;
+    defaultUpgrades?: IDefaultUpgrade[];
+    additionalItems?: string[];
+    tradable: boolean;
 }
 
 export interface IWeaponBehaviour {
@@ -1082,7 +1083,7 @@ export interface IWeaponBehaviour {
     burst?: {
         count: number;
         delay: number;
-    }
+    };
     projectile?: IProjectile;
     chargedProjectile?: IProjectile;
     impact?: IAttackData;
