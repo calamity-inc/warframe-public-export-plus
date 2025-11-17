@@ -761,6 +761,8 @@ export interface IResource {
     syndicateTag?: string; // for fish
     standingBonus?: number; // for fish
     dissectionParts?: ICountedItem[]; // for fish
+    platinumCost?: number;
+    excludeFromMarket?: true;
     purchaseQuantity?: number;
     pickupQuantity?: IRange;
     helminthSnack?: IHelminthSnack;
