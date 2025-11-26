@@ -108282,7 +108282,13 @@
             "name": "/Weapons/AK74",
             "behaviours": [
                 {
-                    "fireIterations": 8
+                    "fireIterations": 8,
+                    "projectile": {
+                        "attack": {
+                            "DT_ELECTRICITY": 10,
+                            "procChance": 0
+                        }
+                    }
                 },
                 {
                     "fireIterations": 1
@@ -110248,6 +110254,16 @@
                         "count": 4,
                         "delay": 0.25
                     },
+                    "projectile": {
+                        "attack": {
+                            "DT_CORROSIVE": 10,
+                            "procChance": 0
+                        },
+                        "explosiveAttack": {
+                            "DT_CORROSIVE": 5,
+                            "procChance": 0
+                        }
+                    },
                     "impact": {
                         "DT_IMPACT": 6.66666,
                         "DT_PUNCTURE": 6.66666,
@@ -110265,6 +110281,16 @@
                     "burst": {
                         "count": 4,
                         "delay": 0.25
+                    },
+                    "projectile": {
+                        "attack": {
+                            "DT_CORROSIVE": 10,
+                            "procChance": 0
+                        },
+                        "explosiveAttack": {
+                            "DT_CORROSIVE": 5,
+                            "procChance": 0
+                        }
                     },
                     "impact": {
                         "DT_IMPACT": 6.66666,
@@ -110284,6 +110310,16 @@
                         "count": 3,
                         "delay": 0.2
                     },
+                    "projectile": {
+                        "attack": {
+                            "DT_CORROSIVE": 10,
+                            "procChance": 0
+                        },
+                        "explosiveAttack": {
+                            "DT_CORROSIVE": 5,
+                            "procChance": 0
+                        }
+                    },
                     "impact": {
                         "DT_IMPACT": 6.66666,
                         "DT_PUNCTURE": 6.66666,
@@ -110301,6 +110337,16 @@
                     "burst": {
                         "count": 3,
                         "delay": 0.2
+                    },
+                    "projectile": {
+                        "attack": {
+                            "DT_CORROSIVE": 10,
+                            "procChance": 0
+                        },
+                        "explosiveAttack": {
+                            "DT_CORROSIVE": 5,
+                            "procChance": 0
+                        }
                     },
                     "impact": {
                         "DT_IMPACT": 6.66666,
@@ -110360,6 +110406,16 @@
                     "burst": {
                         "count": 3,
                         "delay": 0
+                    },
+                    "projectile": {
+                        "attack": {
+                            "DT_PUNCTURE": 10,
+                            "procChance": 0.05
+                        },
+                        "explosiveAttack": {
+                            "DT_PUNCTURE": 10,
+                            "procChance": 0.05
+                        }
                     },
                     "impact": {
                         "DT_IMPACT": 0.6,
@@ -110806,6 +110862,16 @@
                         "count": 3,
                         "delay": 0
                     },
+                    "projectile": {
+                        "attack": {
+                            "DT_PUNCTURE": 10,
+                            "procChance": 0.05
+                        },
+                        "explosiveAttack": {
+                            "DT_PUNCTURE": 10,
+                            "procChance": 0.05
+                        }
+                    },
                     "impact": {
                         "DT_IMPACT": 0.6,
                         "DT_PUNCTURE": 2.1,
@@ -110926,6 +110992,16 @@
                     "burst": {
                         "count": 3,
                         "delay": 0
+                    },
+                    "projectile": {
+                        "attack": {
+                            "DT_VIRAL": 10,
+                            "procChance": 0
+                        },
+                        "explosiveAttack": {
+                            "DT_VIRAL": 30,
+                            "procChance": 0
+                        }
                     },
                     "impact": {
                         "DT_POISON": 10,
@@ -111113,6 +111189,26 @@
                 {
                     "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
                     "fireIterations": 1,
+                    "projectile": {
+                        "attack": {
+                            "DT_SENTIENT": 10,
+                            "procChance": 0
+                        },
+                        "explosiveAttack": {
+                            "DT_SENTIENT": 5,
+                            "procChance": 0
+                        }
+                    },
+                    "chargedProjectile": {
+                        "attack": {
+                            "DT_SENTIENT": 10,
+                            "procChance": 0
+                        },
+                        "explosiveAttack": {
+                            "DT_SENTIENT": 5,
+                            "procChance": 0
+                        }
+                    },
                     "impact": {
                         "DT_IMPACT": 15,
                         "procChance": 0
@@ -113571,6 +113667,10 @@
                         "delay": 0.1
                     },
                     "projectile": {
+                        "attack": {
+                            "DT_SENTIENT": 10,
+                            "procChance": 0
+                        },
                         "explosiveAttack": {
                             "DT_SENTIENT": 10,
                             "procChance": 0
@@ -122505,6 +122605,12 @@
                 {
                     "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
                     "fireIterations": 1,
+                    "projectile": {
+                        "attack": {
+                            "DT_ELECTRICITY": 10,
+                            "procChance": 0
+                        }
+                    },
                     "impact": {
                         "procChance": 0
                     }

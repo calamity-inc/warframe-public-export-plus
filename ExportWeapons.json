@@ -22983,6 +22983,10 @@
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerActivated",
                 "fireIterations": 3,
                 "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 10,
+                        "procChance": 0.5
+                    },
                     "explosiveAttack": {
                         "DT_EXPLOSION": 1000,
                         "procChance": 0.5
@@ -45018,6 +45022,11 @@
             {
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
                 "fireIterations": 1,
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 10
+                    }
+                },
                 "impact": {
                     "DT_IMPACT": 10,
                     "procChance": 0.1
@@ -47421,6 +47430,10 @@
                 "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
                 "fireIterations": 1,
                 "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 10,
+                        "procChance": 0.5
+                    },
                     "explosiveAttack": {
                         "DT_FIRE": 3000,
                         "DT_EXPLOSION": 9000,
