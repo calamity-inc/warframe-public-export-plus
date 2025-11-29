@@ -446,7 +446,7 @@ export interface IFocusUpgrade {
     baseDrain: number;
     fusionLimit: number;
     excludeFromCodex: true;
-    levelStats: object[];
+    levelStats: Record<string, string>[];
     description: string;
     baseFocusPointCost: number;
 }
@@ -614,7 +614,7 @@ export interface IModSet {
     description: string;
     icon: string;
     numUpgradesInSet: number;
-    levelStats: object[];
+    levelStats: Record<string, string>[];
     buffSet?: boolean;
 }
 
