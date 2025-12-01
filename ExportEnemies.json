@@ -33306,6 +33306,7 @@
             "damageController": "/Lotus/Types/Enemies/NokkoColony/DamageControllers/NokkoArachnoidHungerDamageController",
             "factionResistanceKeyword": "RK_CORPUS_FACTION",
             "killXPReward": 1000,
+            "droptable": "/Lotus/Types/DropTables/Nokko/NokkoRaknoidHungerDropTable",
             "codexScansRequired": 5
         },
         "/Lotus/Types/Enemies/NokkoColony/Avatars/NokkoArachnoidMicroAvatar": {
@@ -33317,6 +33318,7 @@
             "damageController": "/Lotus/Types/Enemies/NokkoColony/DamageControllers/NokkoArachnoidMicroDamageController",
             "factionResistanceKeyword": "RK_CORPUS_FACTION",
             "killXPReward": 0,
+            "droptable": "/Lotus/Types/DropTables/Nokko/NokkoArachnoidMicroDropTable",
             "codexScansRequired": 20
         },
         "/Lotus/Types/Enemies/NokkoColony/Avatars/NokkoBabyFortunaSignPostingAvatar": {
@@ -33441,6 +33443,7 @@
             "damageController": "/Lotus/Types/Enemies/NokkoColony/DamageControllers/NokkoFlyingNullifierDamageController",
             "factionResistanceKeyword": "RK_CORPUS_FACTION",
             "killXPReward": 250,
+            "droptable": "/Lotus/Types/DropTables/VenusCorpusRifleSpacemanAgentDropTable",
             "codexScansRequired": 5
         },
         "/Lotus/Types/Enemies/NokkoColony/Avatars/NokkoFlyingSpacemanAvatar": {
@@ -33608,6 +33611,7 @@
             "damageController": "/Lotus/Types/Enemies/NokkoColony/DamageControllers/NokkoInfMiniDamageController",
             "factionResistanceKeyword": "RK_CORPUS_FACTION",
             "killXPReward": 0,
+            "droptable": "/Lotus/Types/DropTables/Nokko/NokkoArachnoidMicroDropTable",
             "codexScansRequired": 20
         },
         "/Lotus/Types/Enemies/NokkoColony/Avatars/NokkoInfRangedLightAvatar": {
@@ -33785,6 +33789,7 @@
             "damageController": "/Lotus/Types/Enemies/NokkoColony/DamageControllers/NokkoFlyingNullifierDamageController",
             "factionResistanceKeyword": "RK_CORPUS_FACTION",
             "killXPReward": 250,
+            "droptable": "/Lotus/Types/DropTables/VenusCorpusRifleSpacemanAgentDropTable",
             "codexScansRequired": 5
         },
         "/Lotus/Types/Enemies/NokkoColony/Avatars/NokkoNullifySpacemanAvatarLeader": {
@@ -33796,6 +33801,7 @@
             "damageController": "/Lotus/Types/Enemies/NokkoColony/DamageControllers/NokkoFlyingSpacemanLeaderDamageController",
             "factionResistanceKeyword": "RK_CORPUS_FACTION",
             "killXPReward": 500,
+            "droptable": "/Lotus/Types/DropTables/VenusCorpusRifleSpacemanAgentDropTable",
             "codexScansRequired": 3
         },
         "/Lotus/Types/Enemies/NokkoColony/Avatars/NokkoRailgunBipedAvatar": {
@@ -33939,6 +33945,7 @@
             "damageController": "/Lotus/Types/Enemies/NokkoColony/Vip/NokkoCorpusVIPDamageController",
             "factionResistanceKeyword": "RK_CORPUS_FACTION",
             "killXPReward": 500,
+            "droptable": "/Lotus/Types/DropTables/VenusDropTables/Enemies/VenusCommanderDropTableViolet",
             "codexScansRequired": 5
         },
         "/Lotus/Types/Enemies/NokkoColony/Vip/NokkoBaseRaknoidVIPAvatar": {
@@ -33950,6 +33957,7 @@
             "damageController": "/Lotus/Types/Enemies/NokkoColony/Vip/NokkoBaseVIPArachnoidDamageController",
             "factionResistanceKeyword": "RK_CORPUS_FACTION",
             "killXPReward": 1500,
+            "droptable": "/Lotus/Types/Enemies/NokkoColony/Vip/NokkoBaseArachnoidDropTable",
             "codexScansRequired": 5
         },
         "/Lotus/Types/Enemies/NokkoColony/Vip/NokkoColonyVIPAvatarA": {
@@ -34033,6 +34041,7 @@
             "damageController": "/Lotus/Types/Enemies/NokkoColony/Vip/NokkoPlantVIPDamageController",
             "factionResistanceKeyword": "RK_CORPUS_FACTION",
             "killXPReward": 300,
+            "droptable": "/Lotus/Types/DropTables/Nokko/NokkoCoolantSpiderDropTable",
             "codexScansRequired": 5
         },
         "/Lotus/Types/Enemies/NokkoColony/Vip/TrappedChestVIPAvatar": {
@@ -90028,54 +90037,32 @@
         "/Lotus/Types/DropTables/GrineerRegularLeaderDropTable": [
             {
                 "type": "mod",
-                "chance": 1.0,
+                "chance": 0.03,
                 "items": [
                     {
-                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeDamageMod",
-                        "probability": 0.3794
+                        "type": "/Lotus/Upgrades/Mods/Pistol/WeaponClipMaxMod",
+                        "probability": 0.2581
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponStunChanceMod",
-                        "probability": 0.3794
+                        "type": "/Lotus/Upgrades/Mods/Rifle/WeaponClipMaxMod",
+                        "probability": 0.2581
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Shotgun/WeaponStunChanceMod",
-                        "probability": 0.1106
+                        "type": "/Lotus/Upgrades/Mods/Shotgun/WeaponCritChanceMod",
+                        "probability": 0.2581
                     },
                     {
-                        "type": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/HammerCmbOneMeleeTree",
-                        "probability": 0.1106
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Mods/Rifle/WeaponFireIterationsMod",
-                        "probability": 0.0101
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Mods/Warframe/AvatarAbilityDurationMod",
-                        "probability": 0.0101
+                        "type": "/Lotus/Upgrades/Mods/Shotgun/WeaponAmmoMaxMod",
+                        "probability": 0.2256
                     }
                 ]
             },
             {
                 "type": "resource",
-                "chance": 1.0,
+                "chance": 0.07,
                 "items": [
                     {
                         "type": "/Lotus/RESOLUTION_FAILURE/Region Resource",
-                        "probability": 0.9742
-                    },
-                    {
-                        "type": "/Lotus/Types/Items/MiscItems/OrokinCell",
-                        "probability": 0.0258
-                    }
-                ]
-            },
-            {
-                "type": "sigil",
-                "chance": 1.0,
-                "items": [
-                    {
-                        "type": "/Lotus/Upgrades/Skins/Sigils/BossSigilSargusRuk",
                         "probability": 1.0
                     }
                 ]
@@ -92657,6 +92644,146 @@
                     {
                         "type": "/Lotus/Types/Gameplay/Eidolon/Resources/QuillsDogTag",
                         "probability": 1.0
+                    }
+                ]
+            }
+        ],
+        "/Lotus/Types/DropTables/Nokko/NokkoArachnoidMicroDropTable": [
+            {
+                "type": "mod",
+                "chance": 0.1,
+                "items": [
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponCritDamageMod",
+                        "probability": 0.3794
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeRangeIncMod",
+                        "probability": 0.3794
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponElectricityDamageMod",
+                        "probability": 0.0369
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponFireDamageMod",
+                        "probability": 0.0369
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponFreezeDamageMod",
+                        "probability": 0.0369
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeChargeRateMod",
+                        "probability": 0.0369
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponToxinDamageMod",
+                        "probability": 0.0369
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Warframe/AvatarAbilityRangeMod",
+                        "probability": 0.0369
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/Channel/ChannelVampireMod",
+                        "probability": 0.0101
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Rifle/WeaponFireIterationsMod",
+                        "probability": 0.0101
+                    }
+                ]
+            }
+        ],
+        "/Lotus/Types/DropTables/Nokko/NokkoCoolantSpiderDropTable": [
+            {
+                "type": "mod",
+                "chance": 0.3,
+                "items": [
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponCritDamageMod",
+                        "probability": 0.3872
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeRangeIncMod",
+                        "probability": 0.3872
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponElectricityDamageMod",
+                        "probability": 0.0322
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponFireDamageMod",
+                        "probability": 0.0322
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponFreezeDamageMod",
+                        "probability": 0.0322
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeChargeRateMod",
+                        "probability": 0.0322
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponToxinDamageMod",
+                        "probability": 0.0322
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Warframe/AvatarAbilityRangeMod",
+                        "probability": 0.0322
+                    },
+                    {
+                        "type": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/LongKatanaCmbOneMeleeTree",
+                        "probability": 0.0322
+                    }
+                ]
+            }
+        ],
+        "/Lotus/Types/DropTables/Nokko/NokkoRaknoidHungerDropTable": [
+            {
+                "type": "mod",
+                "chance": 0.1,
+                "items": [
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponCritDamageMod",
+                        "probability": 0.3794
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeRangeIncMod",
+                        "probability": 0.3794
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponElectricityDamageMod",
+                        "probability": 0.0369
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponFireDamageMod",
+                        "probability": 0.0369
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponFreezeDamageMod",
+                        "probability": 0.0369
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeChargeRateMod",
+                        "probability": 0.0369
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponToxinDamageMod",
+                        "probability": 0.0369
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Warframe/AvatarAbilityRangeMod",
+                        "probability": 0.0369
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/Channel/ChannelVampireMod",
+                        "probability": 0.0101
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Rifle/WeaponFireIterationsMod",
+                        "probability": 0.0101
                     }
                 ]
             }
@@ -99627,6 +99754,42 @@
                 ]
             }
         ],
+        "/Lotus/Types/DropTables/VenusCorpusRifleSpacemanAgentDropTable": [
+            {
+                "type": "mod",
+                "chance": 0.03,
+                "items": [
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeRangeIncMod",
+                        "probability": 0.2529
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Rifle/WeaponAmmoMaxMod",
+                        "probability": 0.2529
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/FusionBundles/CommonFusionBundle",
+                        "probability": 0.2529
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponFireRateMod",
+                        "probability": 0.1106
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Pistol/WeaponArmorPiercingDamageMod",
+                        "probability": 0.1106
+                    },
+                    {
+                        "type": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/ScytheCmbOneMeleeTree",
+                        "probability": 0.0101
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/FusionBundles/RareFusionBundle",
+                        "probability": 0.0101
+                    }
+                ]
+            }
+        ],
         "/Lotus/Types/DropTables/VenusDropTables/Enemies/ArachnoidHungerDropTable": [
             {
                 "type": "mod",
@@ -100054,6 +100217,40 @@
             }
         ],
         "/Lotus/Types/DropTables/VenusDropTables/Enemies/VenusCommanderDropTableOrange": [
+            {
+                "type": "mod",
+                "chance": 0.05,
+                "items": [
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Sets/Strain/HelminthStrainEruptionMod",
+                        "probability": 0.25
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Sets/Strain/HelminthStrainFeverMod",
+                        "probability": 0.25
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Sets/Strain/MeleeStrainInfectionMod",
+                        "probability": 0.25
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Sets/Strain/WarframeStrainConsumeMod",
+                        "probability": 0.25
+                    }
+                ]
+            },
+            {
+                "type": "resource",
+                "chance": 0.15,
+                "items": [
+                    {
+                        "type": "/Lotus/RESOLUTION_FAILURE/Region Resource",
+                        "probability": 1.0
+                    }
+                ]
+            }
+        ],
+        "/Lotus/Types/DropTables/VenusDropTables/Enemies/VenusCommanderDropTableViolet": [
             {
                 "type": "mod",
                 "chance": 0.05,
@@ -102315,6 +102512,54 @@
                     {
                         "type": "/Lotus/RESOLUTION_FAILURE/Region Resource",
                         "probability": 1.0
+                    }
+                ]
+            }
+        ],
+        "/Lotus/Types/Enemies/NokkoColony/Vip/NokkoBaseArachnoidDropTable": [
+            {
+                "type": "mod",
+                "chance": 0.1,
+                "items": [
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponCritDamageMod",
+                        "probability": 0.3794
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeRangeIncMod",
+                        "probability": 0.3794
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponElectricityDamageMod",
+                        "probability": 0.0369
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponFireDamageMod",
+                        "probability": 0.0369
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponFreezeDamageMod",
+                        "probability": 0.0369
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeChargeRateMod",
+                        "probability": 0.0369
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponToxinDamageMod",
+                        "probability": 0.0369
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Warframe/AvatarAbilityRangeMod",
+                        "probability": 0.0369
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/Channel/ChannelVampireMod",
+                        "probability": 0.0101
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Rifle/WeaponFireIterationsMod",
+                        "probability": 0.0101
                     }
                 ]
             }
