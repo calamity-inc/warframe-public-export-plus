@@ -958,6 +958,23 @@
         "canBeTransmutation": true,
         "tradable": true
     },
+    "/Lotus/Weapons/Tenno/Melee/MeleeTrees/BayonetCmbOneMeleeTree": {
+        "name": "/Lotus/Language/Mods/BayonetCmbOneMeleeTreeName",
+        "icon": "/Lotus/Interface/Cards/Images/Stances/BayonetCmbOneMelee.png",
+        "polarity": "AP_ATTACK",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": -2,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
+        "compatibilityTags": [
+            "BAYONET"
+        ],
+        "compatName": "Bayonet",
+        "type": "STANCE",
+        "description": "/Lotus/Language/Mods/BayonetCmbOneMeleeTreeDesc",
+        "tradable": true
+    },
     "/Lotus/Weapons/Tenno/Melee/MeleeTrees/AxeCmbTwoMeleeTree": {
         "name": "/Lotus/Language/Items/AxeStanceB",
         "icon": "/Lotus/Interface/Cards/Images/Stances/AxeCombo2a.png",
@@ -4817,6 +4834,19 @@
     "/Lotus/Upgrades/Mods/Sentinel/Kubrow/DualStat/KubrowPoisonEventMeleeMod": {
         "name": "/Lotus/Language/Items/KubrowDualPoisonMod",
         "icon": "/Lotus/Interface/Cards/Images/Kubrow/KubrowDualPoison.png",
+        "polarity": "AP_ATTACK",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 4,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Types/Friendly/Pets/BeastPetMeleeWeaponBase",
+        "compatName": "Claws",
+        "type": "MELEE",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Sentinel/Kubrow/DualStat/KubrowMagneticEventMeleeMod": {
+        "name": "/Lotus/Language/Pets/KubrowMagneticEventMeleeModName",
+        "icon": "/Lotus/Interface/Cards/Images/Kubrow/KubrowMagneticEventMeleeMod.png",
         "polarity": "AP_ATTACK",
         "rarity": "RARE",
         "codexSecret": false,
@@ -11097,6 +11127,19 @@
         "type": "MELEE",
         "tradable": true
     },
+    "/Lotus/Upgrades/Mods/Melee/DualStat/MagneticAttackSpeedMeleeMod": {
+        "name": "/Lotus/Language/Upgrades/MagneticAttackSpeedMeleeMod",
+        "icon": "/Lotus/Interface/Cards/Images/Melee/MagneticAttackSpeedMeleeMod.png",
+        "polarity": "AP_ATTACK",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 4,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
+        "compatName": "Melee",
+        "type": "MELEE",
+        "tradable": true
+    },
     "/Lotus/Upgrades/Mods/Melee/DualStat/IceEventMeleeMod": {
         "name": "/Lotus/Language/Items/IceEventMeleeMod",
         "icon": "/Lotus/Interface/Cards/Images/Melee/IceEventMeleeMod.png",
@@ -13554,6 +13597,266 @@
         "compat": "/Lotus/Types/Game/FlightJetPackItems/PlayerFlightJetPackItem",
         "compatName": "Archwing",
         "type": "ARCHWING",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Antiques/WeaponDamageSchools": {
+        "name": "/Lotus/Language/Upgrades/AntiqueWeaponDamageSchools",
+        "icon": "/Lotus/Interface/Cards/Images/AntiqueMods/OrokinImageU.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Operator/Antiques/LotusAntique",
+        "compatName": "ANY",
+        "type": "---",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Antiques/VoidSlingEfficiency": {
+        "name": "/Lotus/Language/Upgrades/AntiqueVoidSlingEfficiency",
+        "icon": "/Lotus/Interface/Cards/Images/AntiqueMods/OrokinImageT.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Operator/Antiques/LotusAntique",
+        "compatName": "ANY",
+        "type": "---",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Antiques/VoidSlingCrateBreaker": {
+        "name": "/Lotus/Language/Upgrades/AntiqueVoidSlingCrateBreaker",
+        "icon": "/Lotus/Interface/Cards/Images/AntiqueMods/OrokinImageR.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Operator/Antiques/LotusAntique",
+        "compatName": "ANY",
+        "type": "---",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Antiques/UltimateInitialChargeSchools": {
+        "name": "/Lotus/Language/Upgrades/AntiqueUltimateInitialChargeSchools",
+        "icon": "/Lotus/Interface/Cards/Images/AntiqueMods/OrokinImageQ.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Operator/Antiques/LotusAntique",
+        "compatName": "ANY",
+        "type": "---",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Antiques/SuperSpeedSchools": {
+        "name": "/Lotus/Language/Upgrades/AntiqueSuperSpeedSchools",
+        "icon": "/Lotus/Interface/Cards/Images/AntiqueMods/OrokinImageP.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Operator/Antiques/LotusAntique",
+        "compatName": "ANY",
+        "type": "---",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Antiques/ShieldSchool": {
+        "name": "/Lotus/Language/Upgrades/AntiqueShieldSchool",
+        "icon": "/Lotus/Interface/Cards/Images/AntiqueMods/OrokinImageO.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Operator/Antiques/LotusAntique",
+        "compatName": "ANY",
+        "type": "---",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Antiques/ReduceDeathEffect": {
+        "name": "/Lotus/Language/Upgrades/AntiqueReduceDeathEffect",
+        "icon": "/Lotus/Interface/Cards/Images/AntiqueMods/OrokinImageN.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Weapons/Operator/Antiques/LotusAntique",
+        "compatName": "ANY",
+        "type": "---",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Antiques/ProcChanceSchool": {
+        "name": "/Lotus/Language/Upgrades/AntiqueProcChanceSchool",
+        "icon": "/Lotus/Interface/Cards/Images/AntiqueMods/OrokinImageM.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Operator/Antiques/LotusAntique",
+        "compatName": "ANY",
+        "type": "---",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Antiques/Multishot": {
+        "name": "/Lotus/Language/Upgrades/AntiqueMultishot",
+        "icon": "/Lotus/Interface/Cards/Images/AntiqueMods/OrokinImageL.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Operator/Antiques/LotusAntique",
+        "compatName": "ANY",
+        "type": "---",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Antiques/JumpHeight": {
+        "name": "/Lotus/Language/Upgrades/AntiqueJumpHeight",
+        "icon": "/Lotus/Interface/Cards/Images/AntiqueMods/OrokinImageK.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Weapons/Operator/Antiques/LotusAntique",
+        "compatName": "ANY",
+        "type": "---",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Antiques/HealthMax": {
+        "name": "/Lotus/Language/Upgrades/AntiqueHealthMax",
+        "icon": "/Lotus/Interface/Cards/Images/AntiqueMods/OrokinImageJ.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Operator/Antiques/LotusAntique",
+        "compatName": "ANY",
+        "type": "---",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Antiques/HealthAndShieldSchools": {
+        "name": "/Lotus/Language/Upgrades/AntiqueHealthAndShieldSchools",
+        "icon": "/Lotus/Interface/Cards/Images/AntiqueMods/OrokinImageI.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Operator/Antiques/LotusAntique",
+        "compatName": "ANY",
+        "type": "---",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Antiques/Ghostwalk": {
+        "name": "/Lotus/Language/Upgrades/AntiqueGhostwalk",
+        "icon": "/Lotus/Interface/Cards/Images/AntiqueMods/OrokinImageH.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Operator/Antiques/LotusAntique",
+        "compatName": "ANY",
+        "type": "---",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Antiques/FireRateAndEfficiency": {
+        "name": "/Lotus/Language/Upgrades/AntiqueFireRateAndEfficiency",
+        "icon": "/Lotus/Interface/Cards/Images/AntiqueMods/OrokinImageG.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Operator/Antiques/LotusAntique",
+        "compatName": "ANY",
+        "type": "---",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Antiques/EnterVoidModeOnKnockdown": {
+        "name": "/Lotus/Language/Upgrades/AntiqueEnterVoidModeOnKnockdown",
+        "icon": "/Lotus/Interface/Cards/Images/AntiqueMods/OrokinImageF.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Operator/Antiques/LotusAntique",
+        "compatName": "ANY",
+        "type": "---",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Antiques/DashDistanceSchools": {
+        "name": "/Lotus/Language/Upgrades/AntiqueDashDistanceSchools",
+        "icon": "/Lotus/Interface/Cards/Images/AntiqueMods/OrokinImageE.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Operator/Antiques/LotusAntique",
+        "compatName": "ANY",
+        "type": "---",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Antiques/DamageWhileInvisible": {
+        "name": "/Lotus/Language/Upgrades/AntiqueDamageWhileInvisible",
+        "icon": "/Lotus/Interface/Cards/Images/AntiqueMods/OrokinImageD.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Operator/Antiques/LotusAntique",
+        "compatName": "ANY",
+        "type": "---",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Antiques/CritChanceSchool": {
+        "name": "/Lotus/Language/Upgrades/AntiqueCritChanceSchool",
+        "icon": "/Lotus/Interface/Cards/Images/AntiqueMods/OrokinImageC.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Operator/Antiques/LotusAntique",
+        "compatName": "ANY",
+        "type": "---",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Antiques/AntiqueArmour": {
+        "name": "/Lotus/Language/Upgrades/AntiqueArmour",
+        "icon": "/Lotus/Interface/Cards/Images/AntiqueMods/OrokinImageB.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Weapons/Operator/Antiques/LotusAntique",
+        "compatName": "ANY",
+        "type": "---",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Antiques/AmmoSchool": {
+        "name": "/Lotus/Language/Upgrades/AntiqueAmmoSchool",
+        "icon": "/Lotus/Interface/Cards/Images/AntiqueMods/OrokinImageA.png",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Operator/Antiques/LotusAntique",
+        "compatName": "ANY",
+        "type": "---",
         "tradable": true
     },
     "/Lotus/Upgrades/Grimoire/XataStrikeMod": {
@@ -18302,6 +18605,49 @@
         "type": "MELEE",
         "description": "/Lotus/Language/Mods/TennokaiBaseModDesc",
         "tradable": false
+    },
+    "/Lotus/Upgrades/Mods/Antiques/SampleAntiqueUpgrade": {
+        "name": "",
+        "polarity": "AP_UNIVERSAL",
+        "rarity": "COMMON",
+        "codexSecret": false,
+        "baseDrain": 0,
+        "fusionLimit": 5,
+        "excludeFromCodex": true,
+        "compatName": "ANY",
+        "type": "---",
+        "levelStats": [
+            {
+                "stats": [
+                    "+5,000 HEAL RATE"
+                ]
+            },
+            {
+                "stats": [
+                    "+10,000 HEAL RATE"
+                ]
+            },
+            {
+                "stats": [
+                    "+15,000 HEAL RATE"
+                ]
+            },
+            {
+                "stats": [
+                    "+20,000 HEAL RATE"
+                ]
+            },
+            {
+                "stats": [
+                    "+25,000 HEAL RATE"
+                ]
+            },
+            {
+                "stats": [
+                    "+30,000 HEAL RATE"
+                ]
+            }
+        ]
     },
     "/Lotus/Upgrades/Mods/Hoverboard/HBFireWorksMod": {
         "name": "/Lotus/Language/Hoverboards/HoverboardFireworksMod",
@@ -24792,6 +25138,7 @@
             "/Lotus/Weapons/Grineer/Pistols/GrnAmphisPistol/GrnAmphisPistol",
             "/Lotus/Weapons/Grineer/Pistols/GrnDWUniques/GrnTwinKohmaks",
             "/Lotus/Weapons/Grineer/Pistols/GrnKohmPistol/GrnKohmPistol",
+            "/Lotus/Weapons/Grineer/Pistols/GrnOrokinPistol/GrnOrokinPistol",
             "/Lotus/Weapons/Grineer/Pistols/GrnQueenGuardDualPistol/GrnQueenGuardDualPistols",
             "/Lotus/Weapons/Grineer/Pistols/GrnTorpedoPistol/GrnTorpedoPistol",
             "/Lotus/Weapons/Grineer/Pistols/GrnUzi/GrnUziWeapon",
@@ -26503,6 +26850,7 @@
             "/Lotus/Weapons/Lasria/LasGrenadeLauncher/LasrianNoxPlayerWeapon",
             "/Lotus/Weapons/Sentients/SentRifleNewWar/SentRifleNewWarGun",
             "/Lotus/Weapons/Sentients/Shedu/SheduHeavyWeapon",
+            "/Lotus/Weapons/Tenno/Bayonet/TnBayonetRifleWeapon",
             "/Lotus/Weapons/Tenno/Bows/AntlerBow/AntlerBow",
             "/Lotus/Weapons/Tenno/Bows/AsymetricalBow/AsymetricalBow",
             "/Lotus/Weapons/Tenno/Bows/DaxDuviriAsymetricalBow/DaxDuviriAsymmetricalLongBowPlayerWeapon",
@@ -29778,6 +30126,7 @@
             "/Lotus/Weapons/Grineer/Melee/GrnSparring/GrnSpiderSparring/GrnSpiderSparring",
             "/Lotus/Weapons/Grineer/Melee/GrnTrident/GrnTridentWeapon",
             "/Lotus/Weapons/Grineer/Melee/GunBlade/GrnGunBlade/GrnGunblade",
+            "/Lotus/Weapons/Grineer/Melee/Scythe/GrnDrillScythe/GrnDrillScythe",
             "/Lotus/Weapons/Grineer/Melee/Tonfa/GrnChainSawTonfa/GrnChainSawTonfaWeapon",
             "/Lotus/Weapons/Infested/InfestedLich/Melee/InfestedHammer/InfLichHammerWeapon",
             "/Lotus/Weapons/Infested/Melee/Glaives/PunctureGlaive/PunctureGlaiveWeapon",
@@ -29797,6 +30146,7 @@
             "/Lotus/Weapons/Orokin/BallasSword/BallasSwordWeapon",
             "/Lotus/Weapons/Sentients/SentJointedScythe/SentJointedScytheWeapon",
             "/Lotus/Weapons/Tenno/Archwing/Melee/ExaltedArchScythe/ExaltedAWScytheWeapon",
+            "/Lotus/Weapons/Tenno/Bayonet/TnBayonetMeleeWeapon",
             "/Lotus/Weapons/Tenno/Melee/Axe/AxeWeapon",
             "/Lotus/Weapons/Tenno/Melee/Axe/DualAxeWeapon",
             "/Lotus/Weapons/Tenno/Melee/Axe/DualInfestedAxesWeapon",
@@ -32052,6 +32402,20 @@
         "type": "WARFRAME",
         "isFrivolous": true,
         "tradable": false
+    },
+    "/Lotus/Upgrades/Tau/HealthPickupGivesArmourMax": {
+        "name": "/Lotus/Language/Mods/HealthPickupGivesArmourMod",
+        "icon": "/Lotus/Interface/Cards/Images/Simaris/HealthPickupGivesArmourMod.png",
+        "polarity": "AP_WARD",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 10,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
+        "compatName": "WARFRAME",
+        "type": "WARFRAME",
+        "description": "/Lotus/Language/Mods/HealthPickupGivesArmourModDesc",
+        "tradable": true
     },
     "/Lotus/Weapons/CrewShip/ElectricTether/ElectricTetherInnateDamageRandomMod": {
         "name": "/Lotus/Language/Items/EmptyArtifact",

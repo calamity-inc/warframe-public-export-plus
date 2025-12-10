@@ -18943,6 +18943,130 @@
         "tradable": false,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Recipes/WarframeRecipes/GyrePrimeBlueprint": {
+        "resultType": "/Lotus/Powersuits/Gyre/GyrePrime",
+        "buildPrice": 25000,
+        "buildTime": 259200,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "primeSellingPrice": 45,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/GyrePrimeHelmetComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/GyrePrimeChassisComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/GyrePrimeSystemsComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 5
+            }
+        ],
+        "tradable": true,
+        "creditsCost": 35000,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/GyrePrimeChassisBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/WarframeRecipes/GyrePrimeChassisComponent",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "primeSellingPrice": 45,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Alertium",
+                "ItemCount": 2
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Tellurium",
+                "ItemCount": 2
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                "ItemCount": 3600
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+                "ItemCount": 300
+            }
+        ],
+        "tradable": true,
+        "creditsCost": 35000,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/GyrePrimeHelmetBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/WarframeRecipes/GyrePrimeHelmetComponent",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "primeSellingPrice": 100,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                "ItemCount": 3
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+                "ItemCount": 250
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                "ItemCount": 350
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                "ItemCount": 4250
+            }
+        ],
+        "tradable": true,
+        "creditsCost": 35000,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/GyrePrimeSystemsBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/WarframeRecipes/GyrePrimeSystemsComponent",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "primeSellingPrice": 15,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                "ItemCount": 2
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                "ItemCount": 3
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Cryotic",
+                "ItemCount": 550
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores",
+                "ItemCount": 3175
+            }
+        ],
+        "tradable": true,
+        "creditsCost": 35000,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Recipes/WarframeRecipes/GyreSystemsBlueprint": {
         "resultType": "/Lotus/Types/Recipes/WarframeRecipes/GyreSystemsComponent",
         "buildPrice": 15000,
@@ -26058,6 +26182,111 @@
         "tradable": false,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Recipes/WarframeRecipes/UrielBlueprint": {
+        "resultType": "/Lotus/Powersuits/DemonFrame/DemonFrame",
+        "buildPrice": 25000,
+        "buildTime": 259200,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/UrielHelmetComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/UrielChassisComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/UrielSystemsComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 1
+            }
+        ],
+        "tradable": false,
+        "creditsCost": 35000,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/UrielChassisBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/WarframeRecipes/UrielChassisComponent",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+                "ItemCount": 925
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+                "ItemCount": 130
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+                "ItemCount": 145
+            }
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/UrielHelmetBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/WarframeRecipes/UrielHelmetComponent",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+                "ItemCount": 625
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+                "ItemCount": 340
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+                "ItemCount": 135
+            }
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/UrielSystemsBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/WarframeRecipes/UrielSystemsComponent",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+                "ItemCount": 425
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+                "ItemCount": 410
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+                "ItemCount": 70
+            }
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Recipes/WarframeRecipes/VOLTBlueprint": {
         "resultType": "/Lotus/Powersuits/Volt/Volt",
         "buildPrice": 25000,
@@ -30514,6 +30743,58 @@
         "creditsCost": 15000,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/GalariakPrimeBladeBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/GalariakPrimeBlade",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+                "ItemCount": 650
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+                "ItemCount": 131
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+                "ItemCount": 70
+            }
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/GalariakPrimeHandleBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/GalariakPrimeHandle",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+                "ItemCount": 450
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+                "ItemCount": 229
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+                "ItemCount": 100
+            }
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Recipes/Weapons/WeaponParts/GrnGhoulSawBladeBlueprint": {
         "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/GrnGhoulSawBlade",
         "buildPrice": 30000,
@@ -31420,6 +31701,84 @@
         "tradable": false,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/SagekPrimeBarrelBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/SagekPrimeBarrel",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+                "ItemCount": 650
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+                "ItemCount": 160
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+                "ItemCount": 160
+            }
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/SagekPrimeReceiverBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/SagekPrimeReceiver",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+                "ItemCount": 750
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+                "ItemCount": 220
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+                "ItemCount": 110
+            }
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/SagekPrimeStockBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/SagekPrimeBarrel",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+                "ItemCount": 850
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+                "ItemCount": 460
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+                "ItemCount": 65
+            }
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Recipes/Weapons/WeaponParts/ScyotidBarrelBlueprint": {
         "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/ScyotidBarrel",
         "buildPrice": 15000,
@@ -32031,6 +32390,106 @@
         "creditsCost": 15000,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/VinquibusBarrelBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/VinquibusBarrel",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+                "ItemCount": 325
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+                "ItemCount": 350
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+                "ItemCount": 120
+            }
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/VinquibusBladeBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/VinquibusBlade",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+                "ItemCount": 825
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+                "ItemCount": 200
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+                "ItemCount": 130
+            }
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/VinquibusReceiverBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/VinquibusReceiver",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+                "ItemCount": 725
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+                "ItemCount": 250
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+                "ItemCount": 95
+            }
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/VinquibusStockBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/VinquibusStock",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+                "ItemCount": 625
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+                "ItemCount": 530
+            },
+            {
+                "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+                "ItemCount": 85
+            }
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Recipes/Weapons/1999EntHybridPistolBlueprint": {
         "resultType": "/Lotus/Weapons/Tenno/Pistols/1999EntHybridPistolWeapon/1999EntHybridPistolWeapon",
         "buildPrice": 25000,
@@ -32462,6 +32921,36 @@
         ],
         "tradable": true,
         "platinumCost": 1,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/Weapons/AlternoxPrimeBlueprint": {
+        "resultType": "/Lotus/Weapons/Tenno/LongGuns/PrimeAlternox/PrimeAlternoxWeapon",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "primeSellingPrice": 100,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/AlternoxPrimeBarrel",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/AlternoxPrimeReceiver",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/AlternoxPrimeStock",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 10
+            }
+        ],
+        "tradable": true,
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/Weapons/AnkyrosPrimeBlueprint": {
@@ -35807,6 +36296,32 @@
         "tradable": false,
         "creditsCost": 15000
     },
+    "/Lotus/Types/Recipes/Weapons/GalariakPrimeBlueprint": {
+        "resultType": "/Lotus/Weapons/Grineer/Melee/Scythe/GrnDrillScythe/GrnDrillScythe",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/GalariakPrimeBlade",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/GalariakPrimeHandle",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 10
+            }
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Recipes/Weapons/GarudaCrossbowBlueprint": {
         "resultType": "/Lotus/Weapons/Tenno/LongGuns/GarudaCrossbow/GarudaCrossbow",
         "buildPrice": 25000,
@@ -37871,6 +38386,32 @@
         ],
         "tradable": false,
         "creditsCost": 20000,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/Weapons/KestrelPrimeBlueprint": {
+        "resultType": "/Lotus/Weapons/Tenno/Melee/Glaives/PrimeKestrel/PrimeKestrel",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "primeSellingPrice": 45,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/KestrelPrimeGrip",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/KestrelPrimeBlade",
+                "ItemCount": 2
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 10
+            }
+        ],
+        "tradable": true,
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/Weapons/KickPunchWeaponBlueprint": {
@@ -39979,6 +40520,31 @@
             }
         ],
         "tradable": true,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/Weapons/SagekPrimeBlueprint": {
+        "resultType": "/Lotus/Weapons/Grineer/Pistols/GrnOrokinPistol/GrnOrokinPistol",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/SagekPrimeBarrel",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/SagekPrimeReceiver",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 5
+            }
+        ],
+        "tradable": false,
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/Weapons/SapientPistolBlueprint": {
@@ -50469,6 +51035,36 @@
         "tradable": false,
         "excludeFromMarket": true
     },
+    "/Lotus/Weapons/Tenno/Bayonet/TnBayonetRifleBlueprint": {
+        "resultType": "/Lotus/Weapons/Tenno/Bayonet/TnBayonetRifleWeapon",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/VinquibusBlade",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/VinquibusBarrel",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/VinquibusReceiver",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/VinquibusStock",
+                "ItemCount": 1
+            }
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Recipes/Railjack/RailjackCephalonBlueprint": {
         "resultType": "/Lotus/Types/Items/ShipFeatureItems/RailjackCephalonShipFeatureItem",
         "buildPrice": 0,
@@ -51303,6 +51899,52 @@
         "secretIngredients": [
             {
                 "ItemType": "/Lotus/Powersuits/Dagath/Dagath",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+                "ItemCount": 650
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+                "ItemCount": 825
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+                "ItemCount": 550
+            }
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/AbilityOverrides/DemonFrameHealBlueprint": {
+        "resultType": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameHealAbility",
+        "buildPrice": 0,
+        "buildTime": 82800,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+                "ItemCount": 190
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+                "ItemCount": 190
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+                "ItemCount": 600
+            }
+        ],
+        "secretIngredientAction": "SIA_WARFRAME_ABILITY",
+        "secretIngredients": [
+            {
+                "ItemType": "/Lotus/Powersuits/DemonFrame/DemonFrame",
                 "ItemCount": 1
             },
             {

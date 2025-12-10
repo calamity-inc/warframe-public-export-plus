@@ -3236,11 +3236,11 @@
                     "items": [
                         {
                             "ItemCount": 1,
-                            "ItemType": "/Lotus/Types/Friendly/Pets/CreaturePets/CreaturePetParts/Deimos/InfestedCritterMutagenC"
+                            "ItemType": "/Lotus/Types/Recipes/DeimosRecipes/Pets/InfestedCritterMutagenCBlueprint"
                         },
                         {
                             "ItemCount": 1,
-                            "ItemType": "/Lotus/Types/Friendly/Pets/CreaturePets/CreaturePetParts/Deimos/InfestedPredatorMutagenC"
+                            "ItemType": "/Lotus/Types/Recipes/DeimosRecipes/Pets/InfestedPredatorMutagenCBlueprint"
                         },
                         {
                             "ItemCount": 1,
@@ -3264,12 +3264,12 @@
                 "sacrifice": {
                     "items": [
                         {
-                            "ItemCount": 5,
-                            "ItemType": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMergooCommon"
+                            "ItemCount": 3,
+                            "ItemType": "/Lotus/Types/Items/Deimos/AnimalTagInfestedCritterCommon"
                         },
                         {
-                            "ItemCount": 1,
-                            "ItemType": "/Lotus/Types/Items/Deimos/AnimalTagInfestedPredatorRare"
+                            "ItemCount": 3,
+                            "ItemType": "/Lotus/Types/Items/Deimos/AnimalTagInfestedPredatorCommon"
                         },
                         {
                             "ItemCount": 1,
@@ -3294,11 +3294,7 @@
                     "items": [
                         {
                             "ItemCount": 1,
-                            "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/InfTransformClawsWeaponBladeBlueprint"
-                        },
-                        {
-                            "ItemCount": 1,
-                            "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/InfTransformClawsWeaponGloveBlueprint"
+                            "ItemType": "/Lotus/Types/Recipes/Weapons/InfTransformClawsBlueprint"
                         },
                         {
                             "ItemCount": 1,
@@ -3322,8 +3318,12 @@
                 "sacrifice": {
                     "items": [
                         {
-                            "ItemCount": 3,
-                            "ItemType": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosOrokinFishBPartItem"
+                            "ItemCount": 6,
+                            "ItemType": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosGenericSharedFishPartItem"
+                        },
+                        {
+                            "ItemCount": 6,
+                            "ItemType": "/Lotus/Types/Items/Fish/Deimos/FishParts/DeimosGenericInfestedFishPartItem"
                         }
                     ],
                     "credits": 0
@@ -3333,19 +3333,19 @@
         "medallions": [
             {
                 "itemType": "/Lotus/Types/Items/Deimos/EntratiFragmentCommonA",
-                "standing": 100
-            },
-            {
-                "itemType": "/Lotus/Types/Items/Deimos/EntratiFragmentCommonB",
                 "standing": 500
             },
             {
+                "itemType": "/Lotus/Types/Items/Deimos/EntratiFragmentCommonB",
+                "standing": 1000
+            },
+            {
                 "itemType": "/Lotus/Types/Items/Deimos/EntratiFragmentCommonC",
-                "standing": 100
+                "standing": 500
             },
             {
                 "itemType": "/Lotus/Types/Items/Deimos/EntratiFragmentUncommonA",
-                "standing": 100
+                "standing": 500
             },
             {
                 "itemType": "/Lotus/Types/Items/Deimos/EntratiFragmentUncommonB",
@@ -3353,7 +3353,7 @@
             },
             {
                 "itemType": "/Lotus/Types/Items/Deimos/EntratiFragmentRareA",
-                "standing": 1500
+                "standing": 3000
             },
             {
                 "itemType": "/Lotus/Types/Items/SyndicateDogTags/UniversalSyndicateDogTag",

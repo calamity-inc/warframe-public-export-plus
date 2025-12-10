@@ -295,6 +295,174 @@
             "highPriority": true
         }
     },
+    "/Lotus/Types/Items/EmailItems/LyonCapturaGlariosArenaEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/CircleOfHell/LyonName",
+            "title": "/Lotus/Language/OldPeace/LyonCapturaTitle",
+            "body": "/Lotus/Language/OldPeace/LyonCapturaMessage",
+            "attachments": [
+                "/Lotus/Types/Items/MiscItems/PhotoboothTileDateLyonWraithQuestVallaGlariosArena"
+            ],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/Lyon.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/LyonCapturaLuasPreyEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/CircleOfHell/LyonName",
+            "title": "/Lotus/Language/OldPeace/LyonCapturaTitle",
+            "body": "/Lotus/Language/OldPeace/LyonCapturaMessage",
+            "attachments": [
+                "/Lotus/Types/Items/MiscItems/PhotoboothTileDateLyonLuasPrey"
+            ],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/Lyon.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/LyonCapturaRedVeilTempleEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/CircleOfHell/LyonName",
+            "title": "/Lotus/Language/OldPeace/LyonCapturaTitle",
+            "body": "/Lotus/Language/OldPeace/LyonCapturaMessage",
+            "attachments": [
+                "/Lotus/Types/Items/MiscItems/PhotoboothTileDateLyonHarrowRedVeilTemple"
+            ],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/Lyon.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/LyonCapturaUmbraShrineEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/CircleOfHell/LyonName",
+            "title": "/Lotus/Language/OldPeace/LyonCapturaTitle",
+            "body": "/Lotus/Language/OldPeace/LyonCapturaMessage",
+            "attachments": [
+                "/Lotus/Types/Items/MiscItems/PhotoboothTileDateLyonUmbraShrine"
+            ],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/Lyon.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/LyonCapturaZarParkHubEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/CircleOfHell/LyonName",
+            "title": "/Lotus/Language/OldPeace/LyonCapturaTitle",
+            "body": "/Lotus/Language/OldPeace/LyonCapturaMessage",
+            "attachments": [
+                "/Lotus/Types/Items/MiscItems/PhotoboothTileDateLyonZarParkHub"
+            ],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/Lyon.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/LyonKissEmailItem": {
+        "sendOnlyOnce": false,
+        "message": {
+            "sender": "/Lotus/Language/1999/MessengerArthurName",
+            "title": "/Lotus/Language/1999/ArthurKissTitle",
+            "body": "/Lotus/Language/1999/ArthurKissMessage",
+            "attachments": [],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Player/WispAltAvatarBright.png",
+            "highPriority": true,
+            "customData": "Marie",
+            "cinematic": "/Lotus/Levels/EntratiLab/TriadRomanceCinematics.level"
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/MarieCapturaCapRoomEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/CircleOfHell/MarieName",
+            "title": "/Lotus/Language/OldPeace/MarieCapturaTitle",
+            "body": "/Lotus/Language/OldPeace/MarieCapturaMessage",
+            "attachments": [
+                "/Lotus/Types/Items/MiscItems/PhotoboothTileDateMarieCapRoomNarrow"
+            ],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/Marie.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/MarieCapturaCetusEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/CircleOfHell/MarieName",
+            "title": "/Lotus/Language/OldPeace/MarieCapturaTitle",
+            "body": "/Lotus/Language/OldPeace/MarieCapturaMessage",
+            "attachments": [
+                "/Lotus/Types/Items/MiscItems/PhotoboothTileDateMarieCetusTown"
+            ],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/Marie.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/MarieCapturaDrifterCampEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/CircleOfHell/MarieName",
+            "title": "/Lotus/Language/OldPeace/MarieCapturaTitle",
+            "body": "/Lotus/Language/OldPeace/MarieCapturaMessage",
+            "attachments": [
+                "/Lotus/Types/Items/MiscItems/PhotoboothTileDateMarieDrifterCamp"
+            ],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/Marie.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/MarieCapturaDuviriIsleEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/CircleOfHell/MarieName",
+            "title": "/Lotus/Language/OldPeace/MarieCapturaTitle",
+            "body": "/Lotus/Language/OldPeace/MarieCapturaMessage",
+            "attachments": [
+                "/Lotus/Types/Items/MiscItems/PhotoboothTileDateMarieDuviriIsleSignatureAmphitheatre"
+            ],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/Marie.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/MarieCapturaVentKidsEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/CircleOfHell/MarieName",
+            "title": "/Lotus/Language/OldPeace/MarieCapturaTitle",
+            "body": "/Lotus/Language/OldPeace/MarieCapturaMessage",
+            "attachments": [
+                "/Lotus/Types/Items/MiscItems/PhotoboothTileDateMarieVentKids"
+            ],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/Marie.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/MarieKissEmailItem": {
+        "sendOnlyOnce": false,
+        "message": {
+            "sender": "/Lotus/Language/1999/MessengerArthurName",
+            "title": "/Lotus/Language/1999/ArthurKissTitle",
+            "body": "/Lotus/Language/1999/ArthurKissMessage",
+            "attachments": [],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Player/WispAltAvatarBright.png",
+            "highPriority": true,
+            "customData": "Marie",
+            "cinematic": "/Lotus/Levels/EntratiLab/TriadRomanceCinematics.level"
+        }
+    },
     "/Lotus/Types/Items/EmailItems/MaxScoreConquestEmailItem": {
         "sendOnlyOnce": true,
         "message": {
@@ -376,6 +544,90 @@
             "highPriority": true,
             "customData": "Quincy",
             "cinematic": "/Lotus/Levels/1999/PlayerHomeBalconyCinematics.level"
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/RoatheCapturaDerelictHubEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/CircleOfHell/RoatheName",
+            "title": "/Lotus/Language/OldPeace/RoatheCapturaTitle",
+            "body": "/Lotus/Language/OldPeace/RoatheCapturaMessage",
+            "attachments": [
+                "/Lotus/Types/Items/MiscItems/PhotoboothTileDateRoatheDerelictHub"
+            ],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/Roathe.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/RoatheCapturaDuviriThroneEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/CircleOfHell/RoatheName",
+            "title": "/Lotus/Language/OldPeace/RoatheCapturaTitle",
+            "body": "/Lotus/Language/OldPeace/RoatheCapturaMessage",
+            "attachments": [
+                "/Lotus/Types/Items/MiscItems/PhotoboothTileDateRoatheDuviriThroneRoom"
+            ],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/Roathe.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/RoatheCapturaSentientConEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/CircleOfHell/RoatheName",
+            "title": "/Lotus/Language/OldPeace/RoatheCapturaTitle",
+            "body": "/Lotus/Language/OldPeace/RoatheCapturaMessage",
+            "attachments": [
+                "/Lotus/Types/Items/MiscItems/PhotoboothTileDateRoatheSentientConTallJunctionOne"
+            ],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/Roathe.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/RoatheCapturaUmbraChamberEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/CircleOfHell/RoatheName",
+            "title": "/Lotus/Language/OldPeace/RoatheCapturaTitle",
+            "body": "/Lotus/Language/OldPeace/RoatheCapturaMessage",
+            "attachments": [
+                "/Lotus/Types/Items/MiscItems/PhotoboothTileDateRoatheUmbraChamber"
+            ],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/Roathe.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/RoatheCapturaZarParkAEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/CircleOfHell/RoatheName",
+            "title": "/Lotus/Language/OldPeace/RoatheCapturaTitle",
+            "body": "/Lotus/Language/OldPeace/RoatheCapturaMessage",
+            "attachments": [
+                "/Lotus/Types/Items/MiscItems/PhotoboothTileDateRoatheZarParkA"
+            ],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/Roathe.png",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/RoatheKissEmailItem": {
+        "sendOnlyOnce": false,
+        "message": {
+            "sender": "/Lotus/Language/1999/MessengerArthurName",
+            "title": "/Lotus/Language/1999/ArthurKissTitle",
+            "body": "/Lotus/Language/1999/ArthurKissMessage",
+            "attachments": [],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Player/WispAltAvatarBright.png",
+            "highPriority": true,
+            "customData": "Marie",
+            "cinematic": "/Lotus/Levels/EntratiLab/TriadRomanceCinematics.level"
         }
     },
     "/Lotus/Types/Items/EmailItems/SentientQuestEmailItem": {

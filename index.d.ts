@@ -203,7 +203,7 @@ export interface IBundle {
 }
 
 export interface IChallenge {
-    name: string;
+    name?: string;
     description?: string;
     flavour?: string;
     hint?: string;
@@ -603,6 +603,8 @@ export type TMissionType =
     | "MT_ENDLESS_CAPTURE"
     | "MT_OFFERING"
     | "MT_PVPVE"
+    | "MT_DESCENT"
+    | "MT_TAU_WAR"
     ;
 
 export interface IMissionType {
@@ -746,7 +748,7 @@ export type TRelicQuality = "VPQ_BRONZE" | "VPQ_SILVER" | "VPQ_GOLD" | "VPQ_PLAT
 
 export interface IRelic {
     category: string;
-    era: "Requiem" | "Axi" | "Neo" | "Meso" | "Lith";
+    era: "Requiem" | "Axi" | "Neo" | "Meso" | "Lith" | "Vanguard";
     icon: string;
     codexSecret: boolean;
     description: string;
@@ -919,7 +921,7 @@ export interface ITilesetMission {
 
 export interface IUpgrade {
     name: string;
-    icon: string;
+    icon?: string;
     polarity: "AP_POWER" | "AP_DEFENSE" | "AP_TACTIC" | "AP_ATTACK" | "AP_WARD" | "AP_UNIVERSAL" | "AP_UMBRA" | "AP_PRECEPT" | "AP_ANY";
     rarity: TRarity;
     codexSecret: boolean;
@@ -938,7 +940,7 @@ export interface IUpgrade {
     canBeTransmutation?: true;
     isStarter?: true;
     isFrivolous?: true;
-    tradable: boolean;
+    tradable?: boolean;
     upgradeEntries?: {
         tag: string;
         prefixTag: string;
@@ -966,6 +968,9 @@ export interface IUpgrade {
         }[];
     }[];
     compatibleItems?: string[]; // for rivens
+    levelStats?: {
+        stats: string[];
+    }[];
 }
 
 export interface IVendor {
@@ -1130,6 +1135,7 @@ export interface IAttackData {
     DT_SENTIENT?: number;
     DT_FINISHER?: number;
     DT_SHIELD_DRAIN?: number;
+    DT_HEALTH_DRAIN?: number;
     procChance?: number;
 }
 

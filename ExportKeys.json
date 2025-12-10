@@ -14,7 +14,8 @@
                     "title": "/Lotus/Language/LotusEaters/PostQuestInboxTitle",
                     "body": "/Lotus/Language/LotusEaters/PostQuestInboxBody",
                     "attachments": [
-                        "/Lotus/Types/Items/ShipDecos/ArthurPagerShipDeco"
+                        "/Lotus/Types/Items/ShipDecos/ArthurPagerShipDeco",
+                        "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyChain"
                     ],
                     "countedAttachments": [],
                     "icon": "/Lotus/Interface/Icons/Npcs/EntratiLab/Loid.png",
@@ -3916,6 +3917,207 @@
             }
         ]
     },
+    "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyChain": {
+        "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/TauPrequelQuestName",
+        "description": "/Lotus/Language/TauPrequel/TauPrequelFinal/TauPrequelQuestDesc",
+        "icon": "/Lotus/Interface/Quests/TauPrequelQuestKeyChain.png",
+        "parentName": "/Lotus/Types/Game/KeyChainItem",
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/TauPrequel/OldPeaceStage01AdisVesselFightKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/TauPrequel/OldPeaceStage02TauronAcademyKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/TauPrequel/OldPeaceStage03BattleForBoroOverlookKey",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/TauPrequel/OldPeaceStage04TooFar",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/TauPrequel/OldPeaceStage05Interrogation",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/TauPrequel/OldPeaceStage06HubDeploy",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/TauPrequel/OldPeaceStage07FallenFromHeaven",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/TauPrequel/OldPeaceStage08PeaceInHisHands",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/TauPrequel/OldPeaceStage09EdensUltimatum",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/TauPrequel/OldPeaceStage010Margulis",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/TauPrequel/OldPeaceStage011WorldSeederDescent",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/TauPrequel/OldPeaceStage012ExterminateTheMurmur",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/TauPrequel/OldPeaceStage013InsideTheEgg",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/TauPrequel/OldPeaceStage014GiantKiller",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/TauPrequel/OldPeaceStage015FuneralForAFriend",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/TauPrequel/OldPeaceStage016Betrayer",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Menu/Mailbox_WarframeSender_PostWar",
+                    "title": "/Lotus/Language/TauPrequel/TauPrequelFinal/PostQuestInboxTitle",
+                    "body": "/Lotus/Language/TauPrequel/TauPrequelFinal/PostQuestInboxBody",
+                    "attachments": [
+                        "/Lotus/Types/Recipes/WarframeRecipes/UrielBlueprint",
+                        "/Lotus/Upgrades/Skins/Operator/Accessories/TauBreathingShell"
+                    ],
+                    "countedAttachments": [
+                        {
+                            "ItemCount": 75,
+                            "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceHunhullusItem"
+                        },
+                        {
+                            "ItemCount": 75,
+                            "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceDactolystItem"
+                        },
+                        {
+                            "ItemCount": 75,
+                            "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourcePrimesItem"
+                        }
+                    ],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Lotus_d.png",
+                    "transmission": "/Lotus/Sounds/Dialog/TauTCDemo/DTauQuest2730Lotus",
+                    "highPriority": true
+                }
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/TauPrequel/OldPeaceStage01AdisVesselFightKey": {
+        "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/QuestStage1KeyName",
+        "parentName": "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TauPrequel/OldPeaceStage02TauronAcademyKey": {
+        "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/QuestStage2KeyName",
+        "parentName": "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TauPrequel/OldPeaceStage03BattleForBoroOverlookKey": {
+        "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/QuestStage3KeyName",
+        "parentName": "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TauPrequel/OldPeaceStage04TooFar": {
+        "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/QuestStage4KeyName",
+        "parentName": "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TauPrequel/OldPeaceStage05Interrogation": {
+        "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/QuestStage5KeyName",
+        "parentName": "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TauPrequel/OldPeaceStage06HubDeploy": {
+        "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/QuestStage7KeyName",
+        "parentName": "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TauPrequel/OldPeaceStage07FallenFromHeaven": {
+        "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/QuestStage7KeyName",
+        "parentName": "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TauPrequel/OldPeaceStage08PeaceInHisHands": {
+        "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/QuestStage8KeyName",
+        "parentName": "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TauPrequel/OldPeaceStage09EdensUltimatum": {
+        "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/QuestStage9KeyName",
+        "parentName": "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TauPrequel/OldPeaceStage010Margulis": {
+        "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/QuestStage10KeyName",
+        "parentName": "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TauPrequel/OldPeaceStage011WorldSeederDescent": {
+        "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/QuestStage11KeyName",
+        "parentName": "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TauPrequel/OldPeaceStage012ExterminateTheMurmur": {
+        "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/QuestStage12KeyName",
+        "parentName": "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TauPrequel/OldPeaceStage013InsideTheEgg": {
+        "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/QuestStage11KeyName",
+        "parentName": "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TauPrequel/OldPeaceStage014GiantKiller": {
+        "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/QuestStage14KeyName",
+        "parentName": "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TauPrequel/OldPeaceStage015FuneralForAFriend": {
+        "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/QuestStage15KeyName",
+        "parentName": "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TauPrequel/OldPeaceStage016Betrayer": {
+        "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/QuestStage16KeyName",
+        "parentName": "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
     "/Lotus/Types/Keys/VorsPrize/VorsPrizeQuestKeyChain": {
         "name": "/Lotus/Language/G1Quests/VorsPrizeKeychain",
         "description": "/Lotus/Language/Archive/VorLore",
@@ -4753,6 +4955,21 @@
         "description": "/Lotus/Language/Items/CorpusVoidKeyDesc",
         "parentName": "/Lotus/Types/Game/KeyItem",
         "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/DevilTower/DevilTowerKey": {
+        "name": "/Lotus/Language/Items/VoidKeyName",
+        "description": "/Lotus/Language/Items/VoidKeyDesc",
+        "parentName": "/Lotus/Types/Game/KeyItems/VoidKeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemCount": 60,
+                    "ItemType": "/Lotus/Types/Items/MiscItems/Kuva"
+                }
+            ]
+        },
         "rewards": []
     },
     "/Lotus/Types/Keys/DisruptionFortressTestKey": {
@@ -6748,6 +6965,18 @@
         "codexSecret": true,
         "rewards": []
     },
+    "/Lotus/Types/Keys/TauPrequel/OldPeaceTauronAcademyDeployKey": {
+        "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/QuestStage2KeyName",
+        "parentName": "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyBase",
+        "codexSecret": true,
+        "rewards": []
+    },
+    "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyBase": {
+        "name": "[HC] TAU PREQUEL",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": []
+    },
     "/Lotus/Types/Keys/TenYearAnniversary/TacAlertKeyTenYearAnniversaryBonus": {
         "name": "TenYearBonus",
         "parentName": "/Lotus/Types/Keys/TacAlertKeyProjectPanaceaBonus",
@@ -7496,12 +7725,6 @@
         "missionReward": {
             "droptable": "/Lotus/Types/Game/MissionDecks/VoidKeyMissionRewards/OrokinSurvivalRewardsA"
         },
-        "rewards": []
-    },
-    "/Lotus/Types/Keys/TestKeyOutpostHijack": {
-        "name": "/Lotus/Language/Items/TestKeyShipyardsRetrieval",
-        "parentName": "/Lotus/Types/Keys/TestKeyA",
-        "codexSecret": true,
         "rewards": []
     },
     "/Lotus/Types/Keys/TestKeyRailJackPlutoCharonDevStreamDec": {

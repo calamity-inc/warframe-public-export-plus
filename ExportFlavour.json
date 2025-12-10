@@ -2984,7 +2984,7 @@
     "/Lotus/Types/Items/Emotes/FollowEmote": {
         "name": "/Lotus/Language/Emotes/FollowEmoteName",
         "description": "/Lotus/Language/Emotes/KataEmoteDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/Emotes/EmoteNod.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Emotes/FollowEmote.png",
         "base": "/Lotus/Types/Items/Emotes/Emote",
         "codexSecret": false,
         "alwaysAvailable": true,
@@ -3346,6 +3346,24 @@
         "codexSecret": false,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Items/Emotes/LegendaryLyonEmote": {
+        "name": "/Lotus/Language/Emotes/LegendaryLyonEmoteName",
+        "description": "/Lotus/Language/Emotes/LegendaryLyonEmoteDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Emotes/Gemini/HarrowGeminiEmote.png",
+        "base": "/Lotus/Types/Items/Emotes/Emote",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Emotes/LegendaryMarieEmote": {
+        "name": "/Lotus/Language/Emotes/LegendaryMarieEmoteName",
+        "description": "/Lotus/Language/Emotes/LegendaryMarieEmoteDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Emotes/Gemini/WispGeminiEmote.png",
+        "base": "/Lotus/Types/Items/Emotes/Emote",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Items/Emotes/LegendaryMinervaEmote": {
         "name": "/Lotus/Language/Emotes/LegendaryMinervaEmoteName",
         "description": "/Lotus/Language/Emotes/LegendaryMinervaEmoteDesc",
@@ -3360,6 +3378,15 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Emotes/Gemini/GeminiCyteEmote.png",
         "base": "/Lotus/Types/Items/Emotes/Emote",
         "codexSecret": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Emotes/LegendaryRoatheEmote": {
+        "name": "/Lotus/Language/Emotes/LegendaryRoatheEmoteName",
+        "description": "/Lotus/Language/Emotes/LegendaryRoatheEmoteDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Emotes/Gemini/UrielGeminiEmote.png",
+        "base": "/Lotus/Types/Items/Emotes/Emote",
+        "codexSecret": false,
+        "excludeFromCodex": true,
         "excludeFromMarket": true
     },
     "/Lotus/Types/Items/Emotes/LegendaryVelimirEmote": {
@@ -3574,6 +3601,1053 @@
         "codexSecret": false,
         "excludeFromCodex": true,
         "platinumCost": 26,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleArgon": {
+        "name": "/Lotus/Language/Titles/TitleArgonDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleAscarisPrime": {
+        "name": "/Lotus/Language/Titles/TitleAscarisPrimeDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleCitrine": {
+        "name": "/Lotus/Language/Titles/TitleCitrineDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleCoprun": {
+        "name": "/Lotus/Language/Titles/TitleCoprunDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleCreditsBig": {
+        "name": "/Lotus/Language/Titles/TitleCreditsBigDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleCreditsBigger": {
+        "name": "/Lotus/Language/Titles/TitleCreditsBiggerDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleCreditsBiggest": {
+        "name": "/Lotus/Language/Titles/TitleCreditsBiggestDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleDagath": {
+        "name": "/Lotus/Language/Titles/TitleDagathDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleDante": {
+        "name": "/Lotus/Language/Titles/TitleDanteDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleDebtBond": {
+        "name": "/Lotus/Language/Titles/TitleDebtBondDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleEchoVoca": {
+        "name": "/Lotus/Language/Titles/TitleEchoVocaDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleEntratiObols": {
+        "name": "/Lotus/Language/Titles/TitleEntratiObolsDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleFatherTokens": {
+        "name": "/Lotus/Language/Titles/TitleFatherTokensDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleFerrite": {
+        "name": "/Lotus/Language/Titles/TitleFerriteDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleGanglion": {
+        "name": "/Lotus/Language/Titles/TitleGanglionDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleHarrowChasisBlueprint": {
+        "name": "/Lotus/Language/Titles/TitleHarrowChasisBlueprintDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleHexenon": {
+        "name": "/Lotus/Language/Titles/TitleHexenonDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleIgnia": {
+        "name": "/Lotus/Language/Titles/TitleIgniaDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleJade": {
+        "name": "/Lotus/Language/Titles/TitleJadeDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleJuggernaut": {
+        "name": "/Lotus/Language/Titles/TitleJuggernautDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleKonzu": {
+        "name": "/Lotus/Language/Titles/TitleKonzuDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleKoumei": {
+        "name": "/Lotus/Language/Titles/TitleKoumeiDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleKullervo": {
+        "name": "/Lotus/Language/Titles/TitleKullervoDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleKuva": {
+        "name": "/Lotus/Language/Titles/TitleKuvaDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleLamentus": {
+        "name": "/Lotus/Language/Titles/TitleLamentusDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleLyoricBridge": {
+        "name": "/Lotus/Language/Titles/TitleLyoricBridgeDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleMaphica": {
+        "name": "/Lotus/Language/Titles/TitleMaphicaDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleMotherTokens": {
+        "name": "/Lotus/Language/Titles/TitleMotherTokensDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleNanoSpores": {
+        "name": "/Lotus/Language/Titles/TitleNanoSporesDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleNavCoordinates": {
+        "name": "/Lotus/Language/Titles/TitleNavCoordinatesDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleNokko": {
+        "name": "/Lotus/Language/Titles/TitleNokkoDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleOraxia": {
+        "name": "/Lotus/Language/Titles/TitleOraxiaDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleOrokinCell": {
+        "name": "/Lotus/Language/Titles/TitleOrokinCellDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleRailjack": {
+        "name": "/Lotus/Language/Titles/TitleRailjackDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleRivenSilvers": {
+        "name": "/Lotus/Language/Titles/TitleRivenSilversDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleSalvage": {
+        "name": "/Lotus/Language/Titles/TitleSalvageDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleSpectralDebris": {
+        "name": "/Lotus/Language/Titles/TitleSpectralDebrisDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleSteelEssence": {
+        "name": "/Lotus/Language/Titles/TitleSteelEssenceDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleTemple": {
+        "name": "/Lotus/Language/Titles/TitleTempleDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleThermalSludge": {
+        "name": "/Lotus/Language/Titles/TitleThermalSludgeDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleThraxPlasm": {
+        "name": "/Lotus/Language/Titles/TitleThraxPlasmDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleVoruna": {
+        "name": "/Lotus/Language/Titles/TitleVorunaDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleYaoShrub": {
+        "name": "/Lotus/Language/Titles/TitleYaoShrubDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RoatheTitles/TitleYareli": {
+        "name": "/Lotus/Language/Titles/TitleYareliDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/AirHunterTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/ArcaneCollectorTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/ClemTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/CodaKillerTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/CompleteDescendiaHardcoreTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/CompleteDescendiaHarrowTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/CompleteDescendiaUrielTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/CompleteDescendiaWispTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/DateAmirTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/DateAoiTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/DateArthurTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/DateEleanorTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/DateLettieTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/DateLyonTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/DateMarieTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/DateQuincyTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/DateRoatheTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/DefendLyonTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/DefendMarieTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/DeveloperTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/FounderLvl1Title": {
+        "name": "/Lotus/Language/Titles/Founder1_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/FounderLvl2Title": {
+        "name": "/Lotus/Language/Titles/Founder2_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/FounderLvl3Title": {
+        "name": "/Lotus/Language/Titles/Founder3_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/FounderLvl4Title": {
+        "name": "/Lotus/Language/Titles/Founder4_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/HardFragmentedTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/HardTankTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/HotwiredTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/HunhullsKillerTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/JadeShadowsTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/JammerTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/KalymosTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/LichKillerTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/LotusEatersTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/LoverTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/MaduraiBowTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/MaduraiFocusHoarderTitle": {
+        "name": "/Lotus/Language/Titles/MaduraiBigSpender_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/MaxedRailjackTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/MedalRank13Title": {
+        "name": "/Lotus/Language/Titles/MedalRank13_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/MedalRank17Title": {
+        "name": "/Lotus/Language/Titles/MedalRank17_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/MedalRank1Title": {
+        "name": "/Lotus/Language/Titles/MedalRank1_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/MedalRank20Title": {
+        "name": "/Lotus/Language/Titles/MedalRank20_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/MedalRank5Title": {
+        "name": "/Lotus/Language/Titles/MedalRank5_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/MedalRank9Title": {
+        "name": "/Lotus/Language/Titles/MedalRank9_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/MinVelTogetherTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/MinesweeperTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/NaramonBladeTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/NaramonFocusHoarderTitle": {
+        "name": "/Lotus/Language/Titles/NaramonBigSpender_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/OldPeaceTeaserTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/OldPeaceTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/OraxiaPreyTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/RememberTogetherTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/SecondDreamTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/SentientFriendTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/SisterKillerTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/StickerConquestTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/TheNewWarTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/UnairuFocusHoarderTitle": {
+        "name": "/Lotus/Language/Titles/UnairuBigSpender_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/UnairuHammerTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/UrielConfessionTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/UrielKillerTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/ValorEventTitle": {
+        "name": "/Lotus/Language/Titles/ValorEvent_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/VazarinFocusHoarderTitle": {
+        "name": "/Lotus/Language/Titles/VazarinBigSpender_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/VazarinStaffTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/ZenurikFocusHoarderTitle": {
+        "name": "/Lotus/Language/Titles/ZenurikBigSpender_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/ZenurikGrimoireTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
         "excludeFromMarket": true
     },
     "/Lotus/Types/Items/VideoWallBackdrops/ZarimanApartment/VideoWallBackDropE": {
@@ -4544,7 +5618,7 @@
     "/Lotus/Types/StoreItems/AvatarImages/FanChannel/AvatarImageCleoNaturin": {
         "name": "/Lotus/Language/Glyphs/CleoNaturinGlyphName",
         "description": "/Lotus/Language/Glyphs/GenericGlyphDesc",
-        "icon": "/Lotus/Interface/Icons/Player/ContentCreators/CleoNaturin.png",
+        "icon": "/Lotus/Interface/Icons/Player/ContentCreators/VikHayes.png",
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true,
         "excludeFromCodex": true,
@@ -8300,6 +9374,24 @@
         "platinumCost": 10,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/StoreItems/AvatarImages/Primes/ImageGyrePrimeBright": {
+        "name": "/Lotus/Language/Primes/AvatarGyrePrimeBrightName",
+        "description": "/Lotus/Language/Primes/AvatarGyrePrimeBrightDesc",
+        "icon": "/Lotus/Interface/Icons/Player/GyrePrimeAvatarBright.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 10,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Primes/ImageGyrePrimeDark": {
+        "name": "/Lotus/Language/Primes/AvatarGyrePrimeDarkName",
+        "description": "/Lotus/Language/Primes/AvatarGyrePrimeDarkDesc",
+        "icon": "/Lotus/Interface/Icons/Player/GyrePrimeAvatarDark.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 10,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/Primes/ImageHarrowPrimeBright": {
         "name": "/Lotus/Language/Primes/AvatarHarrowPrimeBrightName",
         "description": "/Lotus/Language/Primes/AvatarHarrowPrimeBrightDesc",
@@ -9585,6 +10677,38 @@
         "codexSecret": true,
         "platinumCost": 15
     },
+    "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageUrielAltBright": {
+        "name": "/Lotus/Language/Glyphs/AvatarUrielAltBrightName",
+        "description": "/Lotus/Language/Glyphs/AvatarUrielAltBrightDesc",
+        "icon": "/Lotus/Interface/Icons/Player/UrielAltAvatarBright.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 10
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageUrielAltDark": {
+        "name": "/Lotus/Language/Glyphs/AvatarUrielAltDarkName",
+        "description": "/Lotus/Language/Glyphs/AvatarUrielAltDarkDesc",
+        "icon": "/Lotus/Interface/Icons/Player/UrielAltAvatarDark.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 10
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageUrielBright": {
+        "name": "/Lotus/Language/Glyphs/AvatarUrielBrightName",
+        "description": "/Lotus/Language/Glyphs/AvatarUrielBrightDesc",
+        "icon": "/Lotus/Interface/Icons/Player/UrielAvatarBright.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 10
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageUrielDark": {
+        "name": "/Lotus/Language/Glyphs/AvatarUrielDarkName",
+        "description": "/Lotus/Language/Glyphs/AvatarUrielDarkDesc",
+        "icon": "/Lotus/Interface/Icons/Player/UrielAvatarDark.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 10
+    },
     "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageValkyrDeluxeB": {
         "name": "/Lotus/Language/Glyphs/ValkyrDeluxeGlyphName",
         "description": "/Lotus/Language/Glyphs/ValkyrDeluxeGlyphDesc",
@@ -9632,6 +10756,14 @@
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true,
         "platinumCost": 10
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageVorunaDeluxe": {
+        "name": "/Lotus/Language/Glyphs/AvatarVorunaDeluxeName",
+        "description": "/Lotus/Language/Glyphs/AvatarVorunaDeluxeDesc",
+        "icon": "/Lotus/Interface/Icons/Player/VorunaDeluxeAvatar.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 15
     },
     "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageWispDeluxe": {
         "name": "/Lotus/Language/Glyphs/AvatarWispDeluxeName",
@@ -11766,6 +12898,15 @@
         "platinumCost": 20,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageLyonAllardMistletoeGlyph": {
+        "name": "/Lotus/Language/Glyphs/LyonAllardMistletoeGlyphName",
+        "description": "/Lotus/Language/Glyphs/LyonAllardMistletoeGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/LyonAllardMistletoeGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/AvatarImageMagAction": {
         "name": "/Lotus/Language/Items/MagActionGlyphName",
         "description": "/Lotus/Language/Glyphs/GenericGlyphDesc",
@@ -11789,6 +12930,15 @@
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true,
         "platinumCost": 20
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageMarieLerouxMistletoeGlyph": {
+        "name": "/Lotus/Language/Glyphs/MarieLerouxMistletoeGlyphName",
+        "description": "/Lotus/Language/Glyphs/MarieLerouxMistletoeGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/MarieLerouxMistletoeGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
     },
     "/Lotus/Types/StoreItems/AvatarImages/AvatarImageMesaEnamel": {
         "name": "/Lotus/Language/Items/MesaEnamelGlyphName",
@@ -12226,6 +13376,15 @@
         "codexSecret": true,
         "platinumCost": 20
     },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageRoatheMistletoeGlyph": {
+        "name": "/Lotus/Language/Glyphs/RoatheMistletoeGlyphName",
+        "description": "/Lotus/Language/Glyphs/RoatheMistletoeGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/RoatheMistletoeGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/AvatarImageSarynAction": {
         "name": "/Lotus/Language/Items/SarynActionGlyphName",
         "description": "/Lotus/Language/Glyphs/GenericGlyphDesc",
@@ -12343,6 +13502,15 @@
         "platinumCost": 20,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageTennobaumAdisGlyph": {
+        "name": "/Lotus/Language/Glyphs/TennobaumAdisGlyphName",
+        "description": "/Lotus/Language/Glyphs/TennobaumAdisGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/TennobaumAdisGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/AvatarImageTennobaumAoi": {
         "name": "/Lotus/Language/Glyphs/TennobaumAoiGlyphName",
         "description": "/Lotus/Language/Glyphs/TennobaumAoiGlyphDesc",
@@ -12370,10 +13538,64 @@
         "platinumCost": 20,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageTennobaumLyonGlyph": {
+        "name": "/Lotus/Language/Glyphs/TennobaumLyonGlyphName",
+        "description": "/Lotus/Language/Glyphs/TennobaumLyonGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/TennobaumLyonGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/AvatarImageTennobaumManintheCookie": {
         "name": "/Lotus/Language/Glyphs/TennobaumManintheCookieGlyphName",
         "description": "/Lotus/Language/Glyphs/TennobaumManintheCookieGlyphDesc",
         "icon": "/Lotus/Interface/Icons/Player/CommunityTennobaumManintheCookie.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageTennobaumMarieGlyph": {
+        "name": "/Lotus/Language/Glyphs/TennobaumMarieGlyphName",
+        "description": "/Lotus/Language/Glyphs/TennobaumMarieGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/TennobaumMarieGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageTennobaumRoatheGlyph": {
+        "name": "/Lotus/Language/Glyphs/TennobaumRoatheGlyphName",
+        "description": "/Lotus/Language/Glyphs/TennobaumRoatheGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/TennobaumRoatheGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageTennobaumSpodlingGlyph": {
+        "name": "/Lotus/Language/Glyphs/TennobaumSpodlingGlyphName",
+        "description": "/Lotus/Language/Glyphs/TennobaumSpodlingGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/TennobaumSpodlingGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageTennobaumTeshinGlyph": {
+        "name": "/Lotus/Language/Glyphs/TennobaumTeshinGlyphName",
+        "description": "/Lotus/Language/Glyphs/TennobaumTeshinGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/TennobaumTeshinGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageTennobaumWorldSeederGlyph": {
+        "name": "/Lotus/Language/Glyphs/TennobaumWorldSeederGlyphName",
+        "description": "/Lotus/Language/Glyphs/TennobaumWorldSeederGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/TennobaumWorldSeederGlyph.png",
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true,
         "platinumCost": 20,
@@ -16906,6 +18128,15 @@
         "excludeFromCodex": true,
         "platinumCost": 20
     },
+    "/Lotus/Types/StoreItems/AvatarImages/OldPeaceTeaserGlyph": {
+        "name": "/Lotus/Language/Glyphs/TheOldPeaceTeaserGlyphName",
+        "description": "/Lotus/Language/Glyphs/TheOldPeaceTeaserGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/OldPeaceTeaserGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/RequiemFassGlyph": {
         "name": "/Lotus/Language/Glyphs/RequiemFassGlyphName",
         "description": "/Lotus/Language/Glyphs/GenericGlyphDesc",
@@ -19415,6 +20646,991 @@
             }
         ],
         "platinumCost": 75,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/SuitCustomizations/OperatorSkinTones/BaseTonesItem": {
+        "name": "/Lotus/Language/Operator/BaseSkinTonesName",
+        "description": "/Lotus/Language/Operator/BaseSkinTonesDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Palettes/ColorPickerRefaciaNatural.png",
+        "base": "/Lotus/Types/Items/ColorPickerItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hexColours": [
+            {
+                "value": "0x00636361"
+            },
+            {
+                "value": "0x0070706E"
+            },
+            {
+                "value": "0x0080807E"
+            },
+            {
+                "value": "0x00979796"
+            },
+            {
+                "value": "0x00B2B2B1"
+            },
+            {
+                "value": "0x00D1D1D0"
+            },
+            {
+                "value": "0x00716051"
+            },
+            {
+                "value": "0x007C6B5C"
+            },
+            {
+                "value": "0x008D7D6F"
+            },
+            {
+                "value": "0x00A29387"
+            },
+            {
+                "value": "0x00BAAFA4"
+            },
+            {
+                "value": "0x00D6CDC5"
+            },
+            {
+                "value": "0x007C6E5E"
+            },
+            {
+                "value": "0x00887B6D"
+            },
+            {
+                "value": "0x00978B7D"
+            },
+            {
+                "value": "0x00ACA297"
+            },
+            {
+                "value": "0x00C6BDB3"
+            },
+            {
+                "value": "0x00DEDAD3"
+            },
+            {
+                "value": "0x008E7D67"
+            },
+            {
+                "value": "0x00988873"
+            },
+            {
+                "value": "0x00A89A87"
+            },
+            {
+                "value": "0x00BCAF9F"
+            },
+            {
+                "value": "0x00D5CABD"
+            },
+            {
+                "value": "0x00E3E1D9"
+            },
+            {
+                "value": "0x00A98F76"
+            },
+            {
+                "value": "0x00B39B84"
+            },
+            {
+                "value": "0x00C2AC97"
+            },
+            {
+                "value": "0x00D7C3B1"
+            },
+            {
+                "value": "0x00E5DBCC"
+            },
+            {
+                "value": "0x00EBE9E6"
+            },
+            {
+                "value": "0x00998171"
+            },
+            {
+                "value": "0x00A48D7E"
+            },
+            {
+                "value": "0x00B4A092"
+            },
+            {
+                "value": "0x00C8B6AA"
+            },
+            {
+                "value": "0x00E1D2C8"
+            },
+            {
+                "value": "0x00E7E5E2"
+            },
+            {
+                "value": "0x008C7F6F"
+            },
+            {
+                "value": "0x00978C7C"
+            },
+            {
+                "value": "0x00A79C8E"
+            },
+            {
+                "value": "0x00BCB3A7"
+            },
+            {
+                "value": "0x00D5CDC3"
+            },
+            {
+                "value": "0x00E5E4E0"
+            },
+            {
+                "value": "0x00917759"
+            },
+            {
+                "value": "0x00998266"
+            },
+            {
+                "value": "0x00A99379"
+            },
+            {
+                "value": "0x00BCA993"
+            },
+            {
+                "value": "0x00D5C5B2"
+            },
+            {
+                "value": "0x00DFDDCE"
+            },
+            {
+                "value": "0x008B6D50"
+            },
+            {
+                "value": "0x0095795F"
+            },
+            {
+                "value": "0x00A48A71"
+            },
+            {
+                "value": "0x00B8A28D"
+            },
+            {
+                "value": "0x00CEBBA9"
+            },
+            {
+                "value": "0x00DCD6C9"
+            },
+            {
+                "value": "0x00967D57"
+            },
+            {
+                "value": "0x00A08965"
+            },
+            {
+                "value": "0x00AF9979"
+            },
+            {
+                "value": "0x00C2AF93"
+            },
+            {
+                "value": "0x00D8C9B1"
+            },
+            {
+                "value": "0x00E0DECE"
+            },
+            {
+                "value": "0x0089704F"
+            },
+            {
+                "value": "0x00937C5D"
+            },
+            {
+                "value": "0x00A18C6F"
+            },
+            {
+                "value": "0x00B6A38B"
+            },
+            {
+                "value": "0x00CCBDA8"
+            },
+            {
+                "value": "0x00DCD7C8"
+            },
+            {
+                "value": "0x009A7558"
+            },
+            {
+                "value": "0x00A48166"
+            },
+            {
+                "value": "0x00B2937A"
+            },
+            {
+                "value": "0x00C6AA95"
+            },
+            {
+                "value": "0x00DCC5B3"
+            },
+            {
+                "value": "0x00E1DCCF"
+            },
+            {
+                "value": "0x0079594B"
+            },
+            {
+                "value": "0x0084665A"
+            },
+            {
+                "value": "0x0092766A"
+            },
+            {
+                "value": "0x00A79086"
+            },
+            {
+                "value": "0x00BEAAA1"
+            },
+            {
+                "value": "0x00D9CAC4"
+            },
+            {
+                "value": "0x00734A39"
+            },
+            {
+                "value": "0x007D5747"
+            },
+            {
+                "value": "0x008C695A"
+            },
+            {
+                "value": "0x00A08175"
+            },
+            {
+                "value": "0x00B69D92"
+            },
+            {
+                "value": "0x00D0BDB5"
+            },
+            {
+                "value": "0x00563926"
+            },
+            {
+                "value": "0x00604534"
+            },
+            {
+                "value": "0x006F5646"
+            },
+            {
+                "value": "0x00846F60"
+            },
+            {
+                "value": "0x009A887C"
+            },
+            {
+                "value": "0x00B6A89F"
+            },
+            {
+                "value": "0x00432D23"
+            },
+            {
+                "value": "0x004D3930"
+            },
+            {
+                "value": "0x005D4B42"
+            },
+            {
+                "value": "0x0072635B"
+            },
+            {
+                "value": "0x008A7D77"
+            },
+            {
+                "value": "0x00A69C97"
+            },
+            {
+                "value": "0x005F472C"
+            },
+            {
+                "value": "0x006B5338"
+            },
+            {
+                "value": "0x007A6349"
+            },
+            {
+                "value": "0x008F7C64"
+            },
+            {
+                "value": "0x00A49481"
+            },
+            {
+                "value": "0x00BFB3A4"
+            },
+            {
+                "value": "0x0072583B"
+            },
+            {
+                "value": "0x007B6449"
+            },
+            {
+                "value": "0x008A755B"
+            },
+            {
+                "value": "0x009E8C76"
+            },
+            {
+                "value": "0x00B5A593"
+            },
+            {
+                "value": "0x00CFC3B6"
+            }
+        ],
+        "alwaysAvailable": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/SuitCustomizations/OperatorSkinTones/ExpandedLegacyTonesItem": {
+        "name": "/Lotus/Language/Operator/LegacyTonesItemName",
+        "description": "/Lotus/Language/Operator/LegacyTonesItemDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Palettes/ColorPickerRefaciaLegacy.png",
+        "base": "/Lotus/Types/Items/ColorPickerItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hexColours": [
+            {
+                "value": "0x00886C46"
+            },
+            {
+                "value": "0x00614D3F"
+            },
+            {
+                "value": "0x006E635A"
+            },
+            {
+                "value": "0x00857565"
+            },
+            {
+                "value": "0x00AB8C7E"
+            },
+            {
+                "value": "0x00987E7B"
+            },
+            {
+                "value": "0x00AF9C79"
+            },
+            {
+                "value": "0x0089817C"
+            },
+            {
+                "value": "0x00A08D7D"
+            },
+            {
+                "value": "0x00967D6C"
+            },
+            {
+                "value": "0x00BBA085"
+            },
+            {
+                "value": "0x00BEAB91"
+            },
+            {
+                "value": "0x00C7A07D"
+            },
+            {
+                "value": "0x00E6CAA8"
+            },
+            {
+                "value": "0x00BDAB98"
+            },
+            {
+                "value": "0x00D6B8A6"
+            },
+            {
+                "value": "0x00F6CEBE"
+            },
+            {
+                "value": "0x00CEBEAE"
+            },
+            {
+                "value": "0x00CDC3AE"
+            },
+            {
+                "value": "0x00E5D7D4"
+            },
+            {
+                "value": "0x00EACCA7"
+            },
+            {
+                "value": "0x00EFD1B8"
+            },
+            {
+                "value": "0x00F8DEC4"
+            },
+            {
+                "value": "0x00F8E3AB"
+            },
+            {
+                "value": "0x00F0C894"
+            },
+            {
+                "value": "0x00ECC185"
+            },
+            {
+                "value": "0x00E8BD91"
+            },
+            {
+                "value": "0x00EDC083"
+            },
+            {
+                "value": "0x00D19E7D"
+            },
+            {
+                "value": "0x00CC9662"
+            },
+            {
+                "value": "0x00AC8B64"
+            },
+            {
+                "value": "0x0094623D"
+            },
+            {
+                "value": "0x00885633"
+            },
+            {
+                "value": "0x0076441F"
+            },
+            {
+                "value": "0x00593A25"
+            },
+            {
+                "value": "0x007F4A2A"
+            },
+            {
+                "value": "0x00623A17"
+            },
+            {
+                "value": "0x00301E10"
+            },
+            {
+                "value": "0x002D2115"
+            },
+            {
+                "value": "0x003A2420"
+            },
+            {
+                "value": "0x00B0BBCC"
+            },
+            {
+                "value": "0x00AFC0C2"
+            },
+            {
+                "value": "0x00C2E4DC"
+            },
+            {
+                "value": "0x00D0D0E3"
+            },
+            {
+                "value": "0x00C2C2E9"
+            },
+            {
+                "value": "0x006B898F"
+            },
+            {
+                "value": "0x00A0C4E0"
+            },
+            {
+                "value": "0x002D516E"
+            },
+            {
+                "value": "0x00787B87"
+            },
+            {
+                "value": "0x00ADB9A9"
+            },
+            {
+                "value": "0x0071827F"
+            },
+            {
+                "value": "0x006197A3"
+            },
+            {
+                "value": "0x00738EA3"
+            },
+            {
+                "value": "0x00293F69"
+            },
+            {
+                "value": "0x00677DA3"
+            }
+        ],
+        "alwaysAvailable": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/SuitCustomizations/OperatorSkinTones/ExtraTonesItem": {
+        "name": "/Lotus/Language/Operator/ExtraSkinTonesName",
+        "description": "/Lotus/Language/Operator/ExtraSkinTonesDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Palettes/ColorPickerRefaciaCool.png",
+        "base": "/Lotus/Types/Items/ColorPickerItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hexColours": [
+            {
+                "value": "0x008996A9"
+            },
+            {
+                "value": "0x0097A3B5"
+            },
+            {
+                "value": "0x00A8B4C4"
+            },
+            {
+                "value": "0x00C1CBD9"
+            },
+            {
+                "value": "0x00DCE4E9"
+            },
+            {
+                "value": "0x00E9EBEC"
+            },
+            {
+                "value": "0x00649AA6"
+            },
+            {
+                "value": "0x006FA5B1"
+            },
+            {
+                "value": "0x0083B6C1"
+            },
+            {
+                "value": "0x009DCAD4"
+            },
+            {
+                "value": "0x00BBE1E4"
+            },
+            {
+                "value": "0x00D7E5E6"
+            },
+            {
+                "value": "0x003D7582"
+            },
+            {
+                "value": "0x004C818D"
+            },
+            {
+                "value": "0x005F8F9A"
+            },
+            {
+                "value": "0x007AA4AD"
+            },
+            {
+                "value": "0x0099BCC4"
+            },
+            {
+                "value": "0x00BBD5D7"
+            },
+            {
+                "value": "0x00478395"
+            },
+            {
+                "value": "0x00548D9C"
+            },
+            {
+                "value": "0x00699DAC"
+            },
+            {
+                "value": "0x0083B1BD"
+            },
+            {
+                "value": "0x00A4C9D5"
+            },
+            {
+                "value": "0x00C1D9DB"
+            },
+            {
+                "value": "0x004996A8"
+            },
+            {
+                "value": "0x0058A0B1"
+            },
+            {
+                "value": "0x006DAFBE"
+            },
+            {
+                "value": "0x0089C3D0"
+            },
+            {
+                "value": "0x00A8D7DD"
+            },
+            {
+                "value": "0x00C5DDDF"
+            },
+            {
+                "value": "0x004A7EA7"
+            },
+            {
+                "value": "0x00588AB1"
+            },
+            {
+                "value": "0x006E9BBF"
+            },
+            {
+                "value": "0x0089B1D0"
+            },
+            {
+                "value": "0x00A8C9DD"
+            },
+            {
+                "value": "0x00C5DBDF"
+            },
+            {
+                "value": "0x003C5A95"
+            },
+            {
+                "value": "0x004B679E"
+            },
+            {
+                "value": "0x006079AC"
+            },
+            {
+                "value": "0x007B92BE"
+            },
+            {
+                "value": "0x009BAED2"
+            },
+            {
+                "value": "0x00BAC9D9"
+            },
+            {
+                "value": "0x008C8CAE"
+            },
+            {
+                "value": "0x009898B8"
+            },
+            {
+                "value": "0x00ABABC8"
+            },
+            {
+                "value": "0x00C4C4DD"
+            },
+            {
+                "value": "0x00DEDEEB"
+            },
+            {
+                "value": "0x00E9E9EC"
+            },
+            {
+                "value": "0x00497CA8"
+            },
+            {
+                "value": "0x005888B1"
+            },
+            {
+                "value": "0x006D99BE"
+            },
+            {
+                "value": "0x0089AFD0"
+            },
+            {
+                "value": "0x00A8C7DD"
+            },
+            {
+                "value": "0x00C5DBDF"
+            },
+            {
+                "value": "0x0073938B"
+            },
+            {
+                "value": "0x00809E97"
+            },
+            {
+                "value": "0x0092AEA7"
+            },
+            {
+                "value": "0x00ABC3BD"
+            },
+            {
+                "value": "0x00C7DBD6"
+            },
+            {
+                "value": "0x00E2E7E6"
+            },
+            {
+                "value": "0x006C7B67"
+            },
+            {
+                "value": "0x00788674"
+            },
+            {
+                "value": "0x00899685"
+            },
+            {
+                "value": "0x00A2AD9E"
+            },
+            {
+                "value": "0x00BCC6B9"
+            },
+            {
+                "value": "0x00DBE0D9"
+            },
+            {
+                "value": "0x00738481"
+            },
+            {
+                "value": "0x00808F8D"
+            },
+            {
+                "value": "0x0091A09D"
+            },
+            {
+                "value": "0x00A9B6B4"
+            },
+            {
+                "value": "0x00C4CFCD"
+            },
+            {
+                "value": "0x00E1E4E4"
+            },
+            {
+                "value": "0x007590A5"
+            },
+            {
+                "value": "0x00839CAF"
+            },
+            {
+                "value": "0x0095ACBE"
+            },
+            {
+                "value": "0x00AFC3D3"
+            },
+            {
+                "value": "0x00CADBE5"
+            },
+            {
+                "value": "0x00E5E8EA"
+            },
+            {
+                "value": "0x00293B77"
+            },
+            {
+                "value": "0x00384880"
+            },
+            {
+                "value": "0x004C5B8E"
+            },
+            {
+                "value": "0x006775A1"
+            },
+            {
+                "value": "0x008691B7"
+            },
+            {
+                "value": "0x00AAB2CF"
+            },
+            {
+                "value": "0x004F6674"
+            },
+            {
+                "value": "0x005C727F"
+            },
+            {
+                "value": "0x006E818D"
+            },
+            {
+                "value": "0x008899A3"
+            },
+            {
+                "value": "0x00A3B1BA"
+            },
+            {
+                "value": "0x00C5D0D7"
+            },
+            {
+                "value": "0x00718885"
+            },
+            {
+                "value": "0x007E9390"
+            },
+            {
+                "value": "0x0090A3A1"
+            },
+            {
+                "value": "0x00A8B9B7"
+            },
+            {
+                "value": "0x00C4D2D0"
+            },
+            {
+                "value": "0x00E0E5E4"
+            },
+            {
+                "value": "0x00737188"
+            },
+            {
+                "value": "0x007F7D94"
+            },
+            {
+                "value": "0x008F8EA4"
+            },
+            {
+                "value": "0x00A9A7BA"
+            },
+            {
+                "value": "0x00C3C2D2"
+            },
+            {
+                "value": "0x00E1E0E5"
+            },
+            {
+                "value": "0x005C5C5C"
+            },
+            {
+                "value": "0x00686868"
+            },
+            {
+                "value": "0x00787878"
+            },
+            {
+                "value": "0x00909090"
+            },
+            {
+                "value": "0x00A9A9A9"
+            },
+            {
+                "value": "0x00C8C8C8"
+            }
+        ],
+        "alwaysAvailable": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/SuitCustomizations/OperatorSkinTones/LegacyTonesItem": {
+        "name": "/Lotus/Language/Operator/LegacyTonesItemName",
+        "description": "/Lotus/Language/Operator/LegacyTonesItemDesc",
+        "icon": "/Lotus/Interface/Icons/Store/GrenadeLauncher.png",
+        "base": "/Lotus/Types/Items/ColorPickerItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hexColours": [
+            {
+                "value": "0x00886C46"
+            },
+            {
+                "value": "0x00614D3F"
+            },
+            {
+                "value": "0x006E635A"
+            },
+            {
+                "value": "0x00857565"
+            },
+            {
+                "value": "0x00AB8C7E"
+            },
+            {
+                "value": "0x00987E7B"
+            },
+            {
+                "value": "0x00AF9C79"
+            },
+            {
+                "value": "0x0089817C"
+            },
+            {
+                "value": "0x00A08D7D"
+            },
+            {
+                "value": "0x00967D6C"
+            },
+            {
+                "value": "0x00BBA085"
+            },
+            {
+                "value": "0x00BEAB91"
+            },
+            {
+                "value": "0x00C7A07D"
+            },
+            {
+                "value": "0x00E6CAA8"
+            },
+            {
+                "value": "0x00BDAB98"
+            },
+            {
+                "value": "0x00D6B8A6"
+            },
+            {
+                "value": "0x00F6CEBE"
+            },
+            {
+                "value": "0x00CEBEAE"
+            },
+            {
+                "value": "0x00CDC3AE"
+            },
+            {
+                "value": "0x00E5D7D4"
+            },
+            {
+                "value": "0x00EACCA7"
+            },
+            {
+                "value": "0x00EFD1B8"
+            },
+            {
+                "value": "0x00F8DEC4"
+            },
+            {
+                "value": "0x00F8E3AB"
+            },
+            {
+                "value": "0x00F0C894"
+            },
+            {
+                "value": "0x00ECC185"
+            },
+            {
+                "value": "0x00E8BD91"
+            },
+            {
+                "value": "0x00EDC083"
+            },
+            {
+                "value": "0x00D19E7D"
+            },
+            {
+                "value": "0x00CC9662"
+            },
+            {
+                "value": "0x00AC8B64"
+            },
+            {
+                "value": "0x0094623D"
+            },
+            {
+                "value": "0x00885633"
+            },
+            {
+                "value": "0x0076441F"
+            },
+            {
+                "value": "0x00593A25"
+            },
+            {
+                "value": "0x007F4A2A"
+            },
+            {
+                "value": "0x00623A17"
+            },
+            {
+                "value": "0x00301E10"
+            },
+            {
+                "value": "0x002D2115"
+            },
+            {
+                "value": "0x003A2420"
+            }
+        ],
+        "alwaysAvailable": true,
+        "platinumCost": 0,
         "excludeFromMarket": true
     },
     "/Lotus/Types/StoreItems/SuitCustomizations/ColourPickerAccessibilityItemA": {
@@ -40045,6 +42261,24 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/AnimationSets/BansheeNoble.png",
         "base": "/EE/Types/Engine/UIFlavourItem",
         "codexSecret": true,
+        "platinumCost": 50
+    },
+    "/Lotus/Upgrades/Skins/DemonFrame/UnlockDemonFrameAgile": {
+        "name": "/Lotus/Language/Cosmetics/DemonFrameAgileAnims",
+        "description": "/Lotus/Language/Cosmetics/DemonFrameAgileAnimsDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/AnimationSets/UrielAgile.png",
+        "base": "/EE/Types/Engine/UIFlavourItem",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "platinumCost": 50
+    },
+    "/Lotus/Upgrades/Skins/DemonFrame/UnlockDemonFrameNoble": {
+        "name": "/Lotus/Language/Cosmetics/DemonFrameNobleAnims",
+        "description": "/Lotus/Language/Cosmetics/DemonFrameNobleAnimsDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/AnimationSets/UrielNoble.png",
+        "base": "/EE/Types/Engine/UIFlavourItem",
+        "codexSecret": true,
+        "excludeFromCodex": true,
         "platinumCost": 50
     },
     "/Lotus/Upgrades/Skins/Devourer/UnlockDevourerAgile": {

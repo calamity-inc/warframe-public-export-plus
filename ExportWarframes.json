@@ -4109,6 +4109,56 @@
         "nemesisUpgradeTag": "InnateRadDamage",
         "platinumCost": 275
     },
+    "/Lotus/Powersuits/Gyre/GyrePrime": {
+        "name": "/Lotus/Language/Primes/GyrePrimeSuitName",
+        "parentName": "/Lotus/Powersuits/Gyre/GyreBaseSuit",
+        "description": "/Lotus/Language/Primes/GyrePrimeSuitDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/GyrePrime.png",
+        "health": 345,
+        "shield": 640,
+        "armor": 105,
+        "stamina": 3,
+        "power": 190,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.05,
+        "passiveDescription": "/Lotus/Language/Suits/GyrePassiveDescription",
+        "abilities": [
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyrePulseAbility",
+                "name": "/Lotus/Language/Suits/GyrePulseAbilityName",
+                "description": "/Lotus/Language/Suits/GyrePulseAbilityDescription",
+                "icon": "/Lotus/Interface/Icons/Abilities/GyrePulse.png",
+                "energyRequiredToActivate": 25
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreSphereAbility",
+                "name": "/Lotus/Language/Suits/GyreSphereAbilityName",
+                "description": "/Lotus/Language/Suits/GyreSphereAbilityDescription",
+                "icon": "/Lotus/Interface/Icons/Abilities/GyreSphere.png",
+                "energyRequiredToActivate": 50
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreEnergizedAbility",
+                "name": "/Lotus/Language/Suits/GyreEnergizedAbilityName",
+                "description": "/Lotus/Language/Suits/GyreEnergizedAbilityDescription",
+                "icon": "/Lotus/Interface/Icons/Abilities/GyreEnergised.png",
+                "energyRequiredToActivate": 75
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/GyreOverchargedAbility",
+                "name": "/Lotus/Language/Suits/GyreOverchargedAbilityName",
+                "description": "/Lotus/Language/Suits/GyreOverchargedAbilityDescription",
+                "icon": "/Lotus/Interface/Icons/Abilities/GyreOvercharged.png",
+                "energyRequiredToActivate": 100
+            }
+        ],
+        "productCategory": "Suits",
+        "variantType": "VT_NORMAL",
+        "nemesisUpgradeTag": "InnateElectricityDamage",
+        "platinumCost": 325,
+        "excludeFromMarket": true
+    },
     "/Lotus/Powersuits/Gyre/Gyre": {
         "name": "/Lotus/Language/Suits/GyreFrameName",
         "parentName": "/Lotus/Powersuits/Gyre/GyreBaseSuit",
@@ -5209,6 +5259,58 @@
         ],
         "nemesisUpgradeTag": "InnateImpactDamage",
         "platinumCost": 325
+    },
+    "/Lotus/Powersuits/DemonFrame/DemonFrame": {
+        "name": "/Lotus/Language/Suits/DemonFrameName",
+        "parentName": "/Lotus/Powersuits/DemonFrame/DemonFrameBaseSuit",
+        "description": "/Lotus/Language/Suits/DemonFrameDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Demonframe.png",
+        "health": 566,
+        "shield": 566,
+        "armor": 105,
+        "stamina": 3,
+        "power": 100,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.1,
+        "passiveDescription": "/Lotus/Language/Suits/DemonFramePassiveDescAbility",
+        "abilities": [
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameFireBallAbility",
+                "name": "/Lotus/Language/Suits/DemonFrameInfernalisAbilityName",
+                "description": "/Lotus/Language/Suits/DemonFrameInfernalisAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/UrielInfernalis.png",
+                "energyRequiredToActivate": 25
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameHealAbility",
+                "name": "/Lotus/Language/Suits/DemonFrameRemediumAbilityName",
+                "description": "/Lotus/Language/Suits/DemonFrameRemediumAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/UrielRemedium.png",
+                "energyRequiredToActivate": 50
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameCloneAbility",
+                "name": "/Lotus/Language/Suits/DemonFrameDemoniumAbilityName",
+                "description": "/Lotus/Language/Suits/DemonFrameDemoniumAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/UrielDemonium.png",
+                "energyRequiredToActivate": 75
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameBrimstoneAbility",
+                "name": "/Lotus/Language/Suits/DemonFrameBrimstoneName",
+                "description": "/Lotus/Language/Suits/DemonFrameBrimstoneDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/UrielBrimstone.png",
+                "energyRequiredToActivate": 75
+            }
+        ],
+        "productCategory": "Suits",
+        "variantType": "VT_NORMAL",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/DemonFrame/DemonFrameHelmet"
+        ],
+        "nemesisUpgradeTag": "InnateHeatDamage",
+        "platinumCost": 370
     },
     "/Lotus/Powersuits/Dagath/Dagath": {
         "name": "/Lotus/Language/Suits/DagathSuitName",

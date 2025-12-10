@@ -605,7 +605,7 @@
                 "duplicates": 0,
                 "itemPrices": [
                     {
-                        "ItemCount": 20,
+                        "ItemCount": 10,
                         "ItemType": "/Lotus/Types/Items/Deimos/EntratiFragmentRareA"
                     }
                 ]
@@ -3455,8 +3455,8 @@
                 {
                     "type": "/Lotus/Types/Items/Deimos/EntratiFragmentCommonA",
                     "count": {
-                        "minValue": 10,
-                        "maxValue": 10
+                        "minValue": 4,
+                        "maxValue": 4
                     }
                 },
                 {
@@ -3469,22 +3469,22 @@
                 {
                     "type": "/Lotus/Types/Items/Deimos/EntratiFragmentCommonC",
                     "count": {
-                        "minValue": 10,
-                        "maxValue": 10
+                        "minValue": 4,
+                        "maxValue": 4
                     }
                 },
                 {
                     "type": "/Lotus/Types/Items/Deimos/EntratiFragmentUncommonA",
                     "count": {
-                        "minValue": 10,
-                        "maxValue": 10
+                        "minValue": 4,
+                        "maxValue": 4
                     }
                 },
                 {
                     "type": "/Lotus/Types/Items/Deimos/EntratiFragmentUncommonB",
                     "count": {
-                        "minValue": 10,
-                        "maxValue": 10
+                        "minValue": 20,
+                        "maxValue": 20
                     }
                 }
             ]
@@ -48162,6 +48162,33 @@
                 "probability": 0.8,
                 "duplicates": 0,
                 "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Operator/MakeupMasks/MaduraiMaskA",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Operator/MakeupMasks/MaduraiMaskB",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/MaduraiFocusHoarderTitle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "durationHours": 24
             }
         ]
     },
@@ -48224,6 +48251,33 @@
             },
             {
                 "storeItem": "/Lotus/StoreItems/Types/StoreItems/SuitCustomizations/ExtraOperatorSkinColors",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Operator/MakeupMasks/NaramonMaskA",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Operator/MakeupMasks/NaramonMaskB",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/NaramonFocusHoarderTitle",
                 "quantity": 1,
                 "alwaysOffered": false,
                 "bin": 0,
@@ -48298,6 +48352,33 @@
                 "probability": 0.8,
                 "duplicates": 0,
                 "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Operator/MakeupMasks/UnairuMaskA",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Operator/MakeupMasks/UnairuMaskB",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/UnairuFocusHoarderTitle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "durationHours": 24
             }
         ]
     },
@@ -48366,6 +48447,33 @@
                 "probability": 0.8,
                 "duplicates": 0,
                 "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Operator/MakeupMasks/VazarinMaskA",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Operator/MakeupMasks/VazarinMaskB",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/VazarinFocusHoarderTitle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "durationHours": 24
             }
         ]
     },
@@ -48428,6 +48536,33 @@
             },
             {
                 "storeItem": "/Lotus/StoreItems/Types/StoreItems/SuitCustomizations/ExtraOperatorSkinColors",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Operator/MakeupMasks/ZenurikMaskA",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Operator/MakeupMasks/ZenurikMaskB",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/ZenurikFocusHoarderTitle",
                 "quantity": 1,
                 "alwaysOffered": false,
                 "bin": 0,
@@ -51640,6 +51775,19 @@
                 "itemPrices": [
                     {
                         "ItemCount": 50,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/SteelEssence"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/TheTeacherSongItem",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 25,
                         "ItemType": "/Lotus/Types/Items/MiscItems/SteelEssence"
                     }
                 ]
@@ -60056,6 +60204,2774 @@
         "numItems": {
             "minValue": 6,
             "maxValue": 6
+        }
+    },
+    "/Lotus/Types/Game/VendorManifests/Tau/Prequel/RoatheHonoriaVendorManifest": {
+        "isDynamic": false,
+        "items": [
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleArgon",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 20,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/ArgonCrystal"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleAscarisPrime",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 20,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourcePrimesItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleCitrine",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 200,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/LastWishItems/BlueCrystal"
+                    },
+                    {
+                        "ItemCount": 200,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/LastWishItems/RedCrystal"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleCoprun",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 200,
+                        "ItemType": "/Lotus/Types/Items/Gems/Eidolon/CommonOreBItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleCreditsBig",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "credits": 100000,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleCreditsBigger",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "credits": 1000000,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleCreditsBiggest",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "credits": 2500000,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleDagath",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 75,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/DagathAbyssItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleDante",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 150,
+                        "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/VesselCapillaries"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleDebtBond",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 100,
+                        "ItemType": "/Lotus/Types/Items/Solaris/DebtTokenE"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleEchoVoca",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabDogTagRare"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleEntratiObols",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 100000,
+                        "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabMiscItemA"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleFatherTokens",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 75,
+                        "ItemType": "/Lotus/Types/Items/Deimos/EntratiFragmentUncommonA"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleFerrite",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 400000,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleGanglion",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 1000,
+                        "ItemType": "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfMapricoFruitItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleHarrowChasisBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 250,
+                        "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/PriestChassisBlueprint"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleHexenon",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 2000,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/ConcentratedGas"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleIgnia",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 1000,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceCommonItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleJade",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 200,
+                        "ItemType": "/Lotus/Types/Gameplay/JadeShadows/Resources/AscensionResourceItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleJuggernaut",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 50,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/JuggernautPartA"
+                    },
+                    {
+                        "ItemCount": 50,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/JuggernautPartB"
+                    },
+                    {
+                        "ItemCount": 50,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/JuggernautPartC"
+                    },
+                    {
+                        "ItemCount": 50,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/JuggernautPartD"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleKonzu",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 100,
+                        "ItemType": "/Lotus/Types/Items/Fish/Eidolon/FishParts/BothCommonFishBPartItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleKoumei",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 150,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/ShrineFragment"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleKuva",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 100000,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/Kuva"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleLamentus",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 200,
+                        "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriEnemyDropItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleLyoricBridge",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceHunhullusItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleMaphica",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 20,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleMotherTokens",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 500,
+                        "ItemType": "/Lotus/Types/Items/Deimos/EntratiFragmentUncommonB"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleNanoSpores",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 500000,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/Nanospores"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleNavCoordinates",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 1000,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/NavCode"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleNokko",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 150,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/MushroomFood"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleOraxia",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 100,
+                        "ItemType": "/Lotus/Types/Gameplay/DuviriMITW/Resources/DuviriMurmurItemB"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleOrokinCell",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 150,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleRailjack",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5000,
+                        "ItemType": "/Lotus/Types/Items/RailjackMiscItems/AsteriteRailjackItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleRivenSilvers",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 200,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleSalvage",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 600000,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/Salvage"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleSpectralDebris",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 50,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/SpecterParticleResidue"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleSteelEssence",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 200,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/SteelEssence"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleTemple",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 150,
+                        "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceDefense"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleThermalSludge",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 200,
+                        "ItemType": "/Lotus/Types/Gameplay/Venus/Resources/CoolantItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleThraxPlasm",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 1000,
+                        "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/VoidWraithItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleVoruna",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 150,
+                        "ItemType": "/Lotus/Types/Gameplay/Zariman/Resources/EclipseVoidWraithItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleYaoShrub",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 100,
+                        "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPlantItemD"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleYareli",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 100,
+                        "ItemType": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemBCutItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleKullervo",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 40,
+                        "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriKullervoDropItem"
+                    }
+                ],
+                "durationHours": 24
+            }
+        ],
+        "numItems": {
+            "minValue": 0,
+            "maxValue": 0
+        }
+    },
+    "/Lotus/Types/Game/VendorManifests/Tau/Prequel/TriadAntiqueVendorManifest": {
+        "isDynamic": false,
+        "items": [
+            {
+                "storeItem": "/Lotus/StoreItems/Weapons/Operator/Antiques/ZenurikGrimoire/ZanurikGrimoireAntique",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 150,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceHunhullusItem"
+                    },
+                    {
+                        "ItemCount": 150,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceDactolystItem"
+                    },
+                    {
+                        "ItemCount": 150,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourcePrimesItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Weapons/Operator/Antiques/NaramonBlade/NaramonBladeAntique",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 150,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceHunhullusItem"
+                    },
+                    {
+                        "ItemCount": 150,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceDactolystItem"
+                    },
+                    {
+                        "ItemCount": 150,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourcePrimesItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Weapons/Operator/Antiques/MaduraiBow/MaduraiBowAntique",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 150,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceHunhullusItem"
+                    },
+                    {
+                        "ItemCount": 150,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceDactolystItem"
+                    },
+                    {
+                        "ItemCount": 150,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourcePrimesItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Weapons/Operator/Antiques/UnairuHammer/UniaruHammerAntique",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 150,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceHunhullusItem"
+                    },
+                    {
+                        "ItemCount": 150,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceDactolystItem"
+                    },
+                    {
+                        "ItemCount": 150,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourcePrimesItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Weapons/Operator/Antiques/VazarinStaff/VazarinStaffAntique",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 150,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceHunhullusItem"
+                    },
+                    {
+                        "ItemCount": 150,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceDactolystItem"
+                    },
+                    {
+                        "ItemCount": 150,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourcePrimesItem"
+                    }
+                ],
+                "durationHours": 24
+            }
+        ],
+        "numItems": {
+            "minValue": 20,
+            "maxValue": 20
+        }
+    },
+    "/Lotus/Types/Game/VendorManifests/Tau/Prequel/TriadDecorationsVendorManifest": {
+        "isDynamic": true,
+        "isOneBinPerCycle": false,
+        "items": [
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/PhotoBooth/TauOldPeace/PhotoboothTileTauOldPeaceCathedral1799ProtoframeRoom",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/EntratiLabDogTagRare"
+                    },
+                    {
+                        "ItemCount": 20,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Tau/LisetPropSTMxSntTrooperEffigyB",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Tau/LisetPropSTMxSntTrooperEffigyA",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Tau/LisetPropSTMxOroQuillPenSet",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Tau/LisetPropSTMxOroPedestal",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Tau/LisetPropSTMxOroOrbStationCalRoomDeskB",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Tau/LisetPropSTMxOroOrbStationCalRoomDeskA",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Tau/LisetPropSTMxGrnTankTrapA",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Tau/LisetPropSTMxGrnStorageDrumAS",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Tau/LisetPropSTMxGrnStorageCrateC",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Tau/LisetPropSTMxGrnMedicalStretcherA",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Tau/LisetPropOrokinProbA",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Tau/LisetPropOroTechPieceG",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Tau/LisetPropOroTechPieceE",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Tau/LisetPropOroTechPieceB",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Tau/LisetPropORKxLabTableGenericPropI",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Tau/LisetPropORKxLabTableGenericPropG",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24
+            }
+        ],
+        "randomItemPricesPerBin": [
+            [
+                {
+                    "type": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+                    "count": {
+                        "minValue": 300,
+                        "maxValue": 450
+                    }
+                },
+                {
+                    "type": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+                    "count": {
+                        "minValue": 120,
+                        "maxValue": 360
+                    }
+                },
+                {
+                    "type": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+                    "count": {
+                        "minValue": 50,
+                        "maxValue": 150
+                    }
+                }
+            ]
+        ],
+        "numItems": {
+            "minValue": 5,
+            "maxValue": 5
+        }
+    },
+    "/Lotus/Types/Game/VendorManifests/Tau/Prequel/TriadEventVendorManifest": {
+        "isDynamic": true,
+        "isOneBinPerCycle": false,
+        "items": [
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/ValorEventTitle",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 80,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Armor/TauRankMedal/TauPurpleHeartMedalC",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 40,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Armor/DaxFlaredArmor/DaxFlaredAArmor",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 40,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Scarves/ValdurBackCape",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 40,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Scythes/JadelightHate",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 30,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Effects/JadeLightEphemeraA",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 15,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Effects/JadeLightEphemeraB",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 20,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Effects/JadeLightEphemeraC",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 30,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Armor/StalkerMedallion/StalkerMedallionArmorC",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 30,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Crowns/LaurelHaloCrown",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 15,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/ResourceDecoItemCetusWispTwitch",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 20,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/TeshinBust",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 20,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Events/ArchRocketCrossbowGrineer",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 30,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/OperationsLaceraBlueprint",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 20,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/SentRifleNewWarGunBlueprint",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 20,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Components/FormaStanceBlueprint",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 15,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/ClanSigilMaskedEffect",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 20,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/ClanSigilTwoTone",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 20,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/ClanSigilBasicAdd",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 20,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/DangerRoom/DangerRoomTileArena",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 15,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Operator/Accessories/UmbraTiara",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 30,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Necramech/MechWeapon/MechEventCortegeSkin",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 30,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Necramech/MechWeapon/MechEventMorghaSkin",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 30,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/Kuva",
+                "quantity": 6000,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "durationHours": 168,
+                "purchaseLimit": 7
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Focus/AttackLensGreater",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 30,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "durationHours": 168,
+                "purchaseLimit": 2
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Focus/DefenseLensGreater",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 30,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "durationHours": 168,
+                "purchaseLimit": 2
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Focus/PowerLensGreater",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 30,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "durationHours": 168,
+                "purchaseLimit": 2
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Focus/TacticLensGreater",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 30,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "durationHours": 168,
+                "purchaseLimit": 2
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Focus/WardLensGreater",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 30,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "durationHours": 168,
+                "purchaseLimit": 2
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/FreezeProcResist",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 2,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/MagneticProcResist",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 2,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/FireProcResist",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 2,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneSniperSpeedOnCrit",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 2,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneShotgunSpeedOnCrit",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 2,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/ElectricityProcResist",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 3,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/RadiationProcResist",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 3,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/SlashProcResist",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 3,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/HealthRegenOnHeadshot",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 3,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/MeleeSpeedOnHit",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 3,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Utility/PistolDamageOnReload",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 3,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/ArmourOnDamage",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 3,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/SpeedOnParry",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 3,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Utility/RadialKnockdownOnEnergyPickup",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 3,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/SpeedOnDamage",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 3,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/LongGunSpeedOnCrit",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 3,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/InvisibilityOnFinisher",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 3,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/GolemArcanePistolSpeedOnCrit",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 3,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/GolemArcanePistolDamageOnHeadshot",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 4,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Utility/RadialHealOnHealthPickup",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 4,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneArmorOnFinisher",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 4,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/GolemArcaneShieldRegenOnDamage",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 4,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Utility/GolemArcaneBonusDamageOnWallLatch",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 4,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/LongGunDamageOnHeadshot",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 4,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneMeleeDamageOnCrit",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 4,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/CritChanceOnDamage",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 4,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Utility/GolemArcaneRadialEnergyOnEnergyPickup",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 6,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/HealthRegenOnDamage",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 6,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/InstantShieldOnDamage",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 6,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCurrencyItem"
+                    }
+                ],
+                "purchaseLimit": 21
+            }
+        ],
+        "numItems": {
+            "minValue": 6,
+            "maxValue": 6
+        }
+    },
+    "/Lotus/Types/Game/VendorManifests/Tau/Prequel/TriadExchangeVendorManifest": {
+        "isDynamic": true,
+        "isOneBinPerCycle": false,
+        "items": [
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Gameplay/Tau/Resources/TwelveBossResourceHunhullusItem",
+                "quantity": 15,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Gameplay/Tau/Resources/TwelveBossResourceDactolystItem",
+                "quantity": 15,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Gameplay/Tau/Resources/TwelveBossResourcePrimesItem",
+                "quantity": 15,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Antiques/Ghostwalk",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Antiques/ReduceDeathEffect",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Antiques/EnterVoidModeOnKnockdown",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Antiques/VoidSlingCrateBreaker",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Antiques/UltimateInitialChargeSchools",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Antiques/DashDistanceSchools",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Antiques/AmmoSchool",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Antiques/VoidSlingEfficiency",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Antiques/SuperSpeedSchools",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Antiques/CritChanceSchool",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Antiques/DamageWhileInvisible",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Antiques/JumpHeight",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Antiques/HealthAndShieldSchools",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Antiques/ShieldSchool",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Antiques/AntiqueArmour",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Antiques/HealthMax",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Antiques/WeaponDamageSchools",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Antiques/ProcChanceSchool",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Antiques/Multishot",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Mods/Antiques/FireRateAndEfficiency",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Antiques/UltimateInvisibilty",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 2,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Antiques/VoidSlingsOverguardStrip",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 2,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Antiques/StatusChanceOnUltimateHit",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 2,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Antiques/HeatStatusProcOnUltimateKill",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 2,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Antiques/AmmoEfficencyDuringUltimate",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 2,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Gameplay/Tau/Resources/CoHResourceCommonItem",
+                "quantity": 100,
+                "alwaysOffered": false,
+                "bin": 3,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Gameplay/Tau/Resources/CoHResourceRareItem",
+                "quantity": 10,
+                "alwaysOffered": false,
+                "bin": 3,
+                "probability": 1,
+                "duplicates": 0,
+                "numRandomItemPrices": 2,
+                "durationHours": 24,
+                "purchaseLimit": 1
+            }
+        ],
+        "randomItemPricesPerBin": [
+            [
+                {
+                    "type": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+                    "count": {
+                        "minValue": 300,
+                        "maxValue": 375
+                    }
+                },
+                {
+                    "type": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+                    "count": {
+                        "minValue": 120,
+                        "maxValue": 150
+                    }
+                },
+                {
+                    "type": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+                    "count": {
+                        "minValue": 50,
+                        "maxValue": 60
+                    }
+                }
+            ],
+            [
+                {
+                    "type": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+                    "count": {
+                        "minValue": 250,
+                        "maxValue": 350
+                    }
+                },
+                {
+                    "type": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+                    "count": {
+                        "minValue": 100,
+                        "maxValue": 140
+                    }
+                },
+                {
+                    "type": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+                    "count": {
+                        "minValue": 40,
+                        "maxValue": 60
+                    }
+                }
+            ],
+            [
+                {
+                    "type": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+                    "count": {
+                        "minValue": 600,
+                        "maxValue": 750
+                    }
+                },
+                {
+                    "type": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+                    "count": {
+                        "minValue": 240,
+                        "maxValue": 300
+                    }
+                },
+                {
+                    "type": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+                    "count": {
+                        "minValue": 100,
+                        "maxValue": 125
+                    }
+                }
+            ],
+            [
+                {
+                    "type": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceCommonItem",
+                    "count": {
+                        "minValue": 600,
+                        "maxValue": 750
+                    }
+                },
+                {
+                    "type": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceUncommonItem",
+                    "count": {
+                        "minValue": 240,
+                        "maxValue": 300
+                    }
+                },
+                {
+                    "type": "/Lotus/Types/Gameplay/Tau/Resources/TwelveResourceRareItem",
+                    "count": {
+                        "minValue": 100,
+                        "maxValue": 125
+                    }
+                }
+            ]
+        ],
+        "numItems": {
+            "minValue": 7,
+            "maxValue": 7
+        },
+        "numItemsPerBin": [
+            1,
+            2,
+            3,
+            1
+        ]
+    },
+    "/Lotus/Types/Game/VendorManifests/Tau/Prequel/TriadPityVendorManifest": {
+        "isDynamic": false,
+        "items": [
+            {
+                "storeItem": "/Lotus/StoreItems/Types/BoosterPacks/TauArcanePackDescendia",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 200,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceCommonItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/UrielBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 75,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/UrielChassisBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 25,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/UrielHelmetBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 25,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/UrielSystemsBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 25,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Weapons/Tenno/Bayonet/TnBayonetRifleBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 35,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/VinquibusBarrelBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 25,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/VinquibusBladeBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 25,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/VinquibusReceiverBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 25,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/VinquibusStockBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 25,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/GalariakPrimeBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 35,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/GalariakPrimeBladeBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 25,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/GalariakPrimeHandleBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 25,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/SagekPrimeBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 35,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/SagekPrimeReceiverBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 25,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/SagekPrimeBarrelBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 25,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/SagekPrimeStockBlueprint",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 25,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/DamageForBonusArmour",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/MultishotForMaxEnergy",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/ShieldMaxForAbilityStrength",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/MaxDPSTakenForArmour",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Utility/FreezeEnemiesOnRoll",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Defensive/StealDefensiveStatsOnRoll",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/RadialDamageOnMaxRadiationStackHit",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Utility/AbilityDurationOnCast",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Offensive/SplitStatusProcsOnStackedStatusHit",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/PhotoBooth/TauOldPeace/PhotoboothTileTauOldPeaceIntMakvossCannon",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 100,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/PhotoBooth/TauOldPeace/PhotoboothTileTauOldPeaceIntBoroOverlook",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 100,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/PhotoBooth/TauOldPeace/PhotoboothTileTauOldPeaceIntTerraformerEgg",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 100,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/PhotoBooth/TauOldPeace/PhotoboothTileTauOldPeaceQuestFortTennadis",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 100,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/PhotoBooth/TauOldPeace/PhotoboothTileTauOldPeaceObjLiminalBossArena",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 100,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileProtoframeRoomHarrow",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 100,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileProtoframeRoomWisp",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 100,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/DangerRoom/DangerRoomTileDevilTowerUrielArena",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 150,
+                        "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/CoHResourceRareItem"
+                    }
+                ],
+                "durationHours": 24
+            }
+        ],
+        "numItems": {
+            "minValue": 20,
+            "maxValue": 20
         }
     },
     "/Lotus/Types/Game/VendorManifests/TheHex/HexFurnitureVendorManifest": {
