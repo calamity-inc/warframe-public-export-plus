@@ -38178,7 +38178,7 @@
             "damageController": "/Lotus/Types/Enemies/Tau/Dax/TauDaxHeavyLustratus/TauDaxHeavyDamageController",
             "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
             "killXPReward": 150,
-            "droptable": "/Lotus/Types/DropTables/Tau/TwelveMinuteWar/TMWUncommonEnemyDropTable",
+            "droptable": "/Lotus/Types/DropTables/Tau/TwelveMinuteWar/TMWTauArchgunnerEnemyDropTable",
             "codexScansRequired": 5
         },
         "/Lotus/Types/Enemies/Tau/Dax/TauDaxHeavyArch/AnarchTauDaxHeavyArchLeaderAvatar": {
@@ -38190,7 +38190,7 @@
             "damageController": "/Lotus/Types/Enemies/Tau/Dax/TauDaxHeavyLustratus/TauDaxHeavyDamageController",
             "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
             "killXPReward": 1500,
-            "droptable": "/Lotus/Types/DropTables/Tau/TwelveMinuteWar/TMWUncommonEnemyDropTable",
+            "droptable": "/Lotus/Types/DropTables/Tau/TwelveMinuteWar/TMWTauArchgunnerEnemyDropTable",
             "codexScansRequired": 3
         },
         "/Lotus/Types/Enemies/Tau/Dax/TauDaxHeavyArch/EmpireTauDaxHeavyArchAvatar": {
@@ -104275,7 +104275,7 @@
                 ]
             }
         ],
-        "/Lotus/Types/DropTables/Tau/TwelveMinuteWar/TMWUncommonEnemyDropTable": [
+        "/Lotus/Types/DropTables/Tau/TwelveMinuteWar/TMWTauArchgunnerEnemyDropTable": [
             {
                 "type": "mod",
                 "chance": 0.005,
@@ -117860,36 +117860,7 @@
                 }
             ]
         },
-        "/Lotus/Types/Enemies/Orokin/Weapons/LaserRifle": {
-            "name": "/Weapons/AK74",
-            "behaviours": [
-                {
-                    "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
-                    "fireIterations": 1,
-                    "projectile": {
-                        "attack": {
-                            "DT_IMPACT": 0.7,
-                            "DT_PUNCTURE": 4.9,
-                            "DT_SLASH": 1.4,
-                            "procChance": 0.02
-                        }
-                    },
-                    "impact": {
-                        "DT_IMPACT": 0.999999,
-                        "DT_PUNCTURE": 0.999999,
-                        "DT_SLASH": 1.000002,
-                        "procChance": 0.1
-                    }
-                },
-                {
-                    "fireIterations": 1,
-                    "impact": {
-                        "DT_IMPACT": 25,
-                        "procChance": 0.1
-                    }
-                }
-            ]
-        },
+        "/Lotus/Types/Enemies/Orokin/Weapons/LaserRifle": {},
         "/Lotus/Types/Enemies/Orokin/Weapons/LaserShotgun": {
             "name": "/Lotus/Language/Items/ShotgunName",
             "description": "/Lotus/Language/Items/ShotgunDesc",
