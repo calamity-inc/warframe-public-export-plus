@@ -18649,6 +18649,50 @@
             }
         ]
     },
+    "/Lotus/Upgrades/Mods/Archwing/Rifle/Expert/ArchwingRifleAmmoMaxModExpert": {
+        "name": "/Lotus/Language/Mods/ArchwingRifleAmmoMaxModExpert",
+        "icon": "/Lotus/Interface/Cards/Images/ArchwingMods/ArchwingRifle/ArchwingRifleAmmoMaxMod.png",
+        "polarity": "AP_TACTIC",
+        "rarity": "LEGENDARY",
+        "codexSecret": true,
+        "baseDrain": 0,
+        "fusionLimit": 10,
+        "compat": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchGun",
+        "excludeFromCodex": true,
+        "compatName": "Archgun",
+        "type": "ARCH-GUN",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Archwing/Rifle/Expert/ArchwingWeaponFireDamageModExpert": {
+        "name": "/Lotus/Language/Mods/ArchwingWeaponFireDamageModExpert",
+        "icon": "/Lotus/Interface/Cards/Images/ArchwingMods/ArchwingRifle/ArchwingWeaponFireDamageModRifle.png",
+        "polarity": "AP_ATTACK",
+        "rarity": "LEGENDARY",
+        "codexSecret": true,
+        "baseDrain": 4,
+        "fusionLimit": 10,
+        "compat": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchGun",
+        "excludeFromCodex": true,
+        "compatName": "Archgun",
+        "type": "ARCH-GUN",
+        "canBeTransmutation": true,
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Archwing/Rifle/Expert/ArchwingWeaponToxinDamageModExpert": {
+        "name": "/Lotus/Language/Mods/ArchwingWeaponToxinDamageModExpert",
+        "icon": "/Lotus/Interface/Cards/Images/ArchwingMods/ArchwingRifle/ArchwingWeaponToxinDamageModRifle.png",
+        "polarity": "AP_DEFENSE",
+        "rarity": "LEGENDARY",
+        "codexSecret": true,
+        "baseDrain": 4,
+        "fusionLimit": 10,
+        "compat": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchGun",
+        "excludeFromCodex": true,
+        "compatName": "Archgun",
+        "type": "ARCH-GUN",
+        "canBeTransmutation": true,
+        "tradable": true
+    },
     "/Lotus/Upgrades/Mods/Hoverboard/HBFireWorksMod": {
         "name": "/Lotus/Language/Hoverboards/HoverboardFireworksMod",
         "icon": "/Lotus/Interface/Cards/Images/Hoverboard/HoverboardModP.png",
