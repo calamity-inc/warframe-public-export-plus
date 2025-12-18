@@ -727,6 +727,7 @@ export interface IRegion {
     levelOverride?: string;
     enemySpec?: string;
     extraEnemySpec?: string;
+    vipAgent?: string;
     customAdvancedSpawners?: string[];
     missionReward?: IMissionReward;
     miscItemFee?: ICountedItem;

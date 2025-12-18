@@ -156,6 +156,7 @@
         "maxEnemyLevel": 10,
         "masteryExp": 25,
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidBossVor",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/VorRework/CaptainVorBossReworkAgent",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/SeerPistolRewards"
         ],
@@ -426,6 +427,7 @@
         "maxEnemyLevel": 8,
         "masteryExp": 41,
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipJackalBoss",
+        "vipAgent": "/Lotus/Types/Enemies/Corpus/QuadRobot/QuadRobotAgentNEW",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/RhinoRewards"
         ],
@@ -649,6 +651,7 @@
         "masteryExp": 24,
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestCaptureCaves",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsEasy",
+        "vipAgent": "/Lotus/Types/Enemies/CaptureTargets/CaptureTargetGrineerMercuryAgent",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
         ],
@@ -875,6 +878,7 @@
         "maxEnemyLevel": 25,
         "masteryExp": 24,
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestBoss",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/Hek/HekBipedAgent",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/HydroidRewards"
         ],
@@ -1003,6 +1007,7 @@
         "maxEnemyLevel": 15,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/FiveFates/CetusInvasion.level",
+        "vipAgent": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/Oni/InfestedOniAgent",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/FiveFatesRewards/FiveFatesRewards"
         ],
@@ -1310,6 +1315,7 @@
         "maxEnemyLevel": 13,
         "masteryExp": 51,
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementBoss",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/BossLechKrilAgent",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/ExcaliburRewards"
         ],
@@ -1666,6 +1672,7 @@
         "maxEnemyLevel": 20,
         "masteryExp": 51,
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasBoss",
+        "vipAgent": "/Lotus/Types/Enemies/Corpus/Vip/AladV/AladBossAgent",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/BerserkerRewards"
         ],
@@ -1710,6 +1717,7 @@
         "maxEnemyLevel": 40,
         "masteryExp": 55,
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityRopalolystBoss",
+        "vipAgent": "/Lotus/Types/Enemies/Sentients/Ropalolyst/SentientRopalolystAgent",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RopalolystModRewards",
             "/Lotus/Types/Game/MissionDecks/RopalolystBlueprintRewards"
@@ -1763,6 +1771,7 @@
         "masteryExp": 51,
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityCapture",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsMedium",
+        "vipAgent": "/Lotus/Types/Enemies/CaptureTargets/CaptureTargetCorpusFlyingAgent",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
         ],
@@ -1951,6 +1960,7 @@
         "maxEnemyLevel": 26,
         "masteryExp": 55,
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonBoss",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/SargasRuk/SargasRukBossAgent",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/EmberRewards"
         ],
@@ -2226,6 +2236,7 @@
         "maxEnemyLevel": 29,
         "masteryExp": 69,
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanAssassinate",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/TylRegor/TylRegorAgent",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
@@ -2334,6 +2345,7 @@
         "masteryExp": 69,
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanSabotage",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemies",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/AIWeek/ManicRocketBombard",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
@@ -2780,6 +2792,7 @@
         "maxEnemyLevel": 32,
         "masteryExp": 52,
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipHyenaAssassinate",
+        "vipAgent": "/Lotus/Types/Enemies/Corpus/Vip/Hyena/HyenaPack",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
@@ -3045,6 +3058,7 @@
         "maxEnemyLevel": 45,
         "masteryExp": 51,
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostAmbulasBoss",
+        "vipAgent": "/Lotus/Types/Enemies/Corpus/Vip/Ambulas/AmbulasPackAgent",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
@@ -3475,6 +3489,7 @@
         "maxEnemyLevel": 16,
         "masteryExp": 163,
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsAssassinate",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/KrillAndVorBossFight",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
@@ -4186,6 +4201,7 @@
         "maxEnemyLevel": 40,
         "masteryExp": 100,
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidBossKela",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/KelaDeThaym/KelaDeThaymAgent",
         "miscItemFee": {
             "ItemType": "/Lotus/Types/Items/MiscItems/KelaArenaToken",
             "ItemCount": 25
@@ -4394,6 +4410,7 @@
         "masteryExp": 138,
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetAssassinate",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
+        "vipAgent": "/Lotus/Types/Enemies/Corpus/Drones/Vip/RaptorPack",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/NovaRewards"
         ],
@@ -4775,6 +4792,7 @@
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerSabotageForest",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSabotageGrineerForest",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/JetpackSisters/JetpackSisters",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidMedLevelRewards"
         ],
@@ -4888,6 +4906,7 @@
         "maxEnemyLevel": 45,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerSurvivalRaid",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/VorTwo/VorTwoBossAgent",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidEndlessUltraLevelRewards"
         ],
@@ -4909,6 +4928,7 @@
         "maxEnemyLevel": 45,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerMobileDefense",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/VorTwo/VorTwoBossAgent",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidUltraLevelRewards"
         ],
@@ -4933,6 +4953,7 @@
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerSabotageIcePlanet",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSabotageCorpus",
+        "vipAgent": "/Lotus/Types/Enemies/Corpus/QuadRobot/MiniBoss/QuadRobotMiniBossAgent",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidUltraLevelRewards"
         ],
@@ -4957,6 +4978,7 @@
         "maxEnemyLevel": 45,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerInterception",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/VorTwo/VorTwoBossAgent",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidEndlessUltraLevelRewards"
         ],
@@ -5196,6 +5218,7 @@
         "maxEnemyLevel": 15,
         "masteryExp": 100,
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShip",
+        "vipAgent": "/Lotus/Types/Enemies/Corpus/Spaceman/Vip/SniperAgent",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/MagRewards"
         ],
@@ -5348,6 +5371,7 @@
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictSabotageSettlement",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSabotageGrineerSettlement",
+        "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/JetpackSisters/JetpackSisters",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
         ],
@@ -5400,6 +5424,7 @@
         "maxEnemyLevel": 25,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictBoss",
+        "vipAgent": "/Lotus/Types/Enemies/Infested/Vip/GolemFullAgent",
         "missionReward": {
             "credits": 7500
         },
@@ -6396,6 +6421,7 @@
         "maxEnemyLevel": 70,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaEchoesDefenseWinterWet",
+        "vipAgent": "/Lotus/Types/Friendly/Agents/TempleDefenseAgent",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/DefenseRewards"
         ],
@@ -6705,6 +6731,7 @@
         "masteryExp": 0,
         "rewardManifests": [],
         "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantRhinoAgent",
         "missionReward": {
             "credits": 20000,
             "items": [
@@ -6758,6 +6785,7 @@
         "masteryExp": 0,
         "rewardManifests": [],
         "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantVoltAgent",
         "missionReward": {
             "credits": 15000,
             "items": [
@@ -6788,6 +6816,7 @@
         "masteryExp": 0,
         "rewardManifests": [],
         "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantLokiAgent",
         "missionReward": {
             "credits": 25000,
             "items": [
@@ -6850,6 +6879,7 @@
         "masteryExp": 0,
         "rewardManifests": [],
         "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantTrinityAgent",
         "missionReward": {
             "credits": 20000,
             "items": [
@@ -6880,6 +6910,7 @@
         "masteryExp": 0,
         "rewardManifests": [],
         "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantMagAgent",
         "missionReward": {
             "credits": 20000,
             "items": [
@@ -6970,6 +7001,7 @@
         "masteryExp": 0,
         "rewardManifests": [],
         "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantBerserkerAgent",
         "missionReward": {
             "credits": 30000,
             "items": [
@@ -7000,6 +7032,7 @@
         "masteryExp": 0,
         "rewardManifests": [],
         "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantNovaAgent",
         "missionReward": {
             "credits": 30000,
             "items": [
@@ -7032,6 +7065,7 @@
         "masteryExp": 0,
         "rewardManifests": [],
         "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantEmberAgent",
         "missionReward": {
             "credits": 40000,
             "items": [
@@ -7065,6 +7099,7 @@
         "masteryExp": 0,
         "rewardManifests": [],
         "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantYinYangAgent",
         "missionReward": {
             "credits": 40000,
             "items": [
@@ -7138,6 +7173,7 @@
         "masteryExp": 0,
         "rewardManifests": [],
         "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantFrostAgent",
         "missionReward": {
             "credits": 80000,
             "items": [
@@ -7270,6 +7306,7 @@
         "masteryExp": 0,
         "rewardManifests": [],
         "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantExcaliburAgent",
         "missionReward": {
             "credits": 80000,
             "items": [
@@ -7306,6 +7343,7 @@
         "masteryExp": 0,
         "rewardManifests": [],
         "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantGunslingerAgentRelayBoss",
         "missionReward": {
             "credits": 100000,
             "items": [
@@ -7337,6 +7375,7 @@
         "masteryExp": 0,
         "rewardManifests": [],
         "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantSarynAgent",
         "missionReward": {
             "credits": 100000,
             "items": [
@@ -7687,6 +7726,7 @@
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackVenusStanchionOrphix",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/MechEventExtraSpec",
+        "vipAgent": "/Lotus/Types/Enemies/Sentients/Condrix/SentientCondrixAgentMechEvent",
         "missionReward": {
             "credits": 41250
         },
@@ -8056,6 +8096,7 @@
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackNeptunePillarOrphix",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/MechEventExtraSpec",
+        "vipAgent": "/Lotus/Types/Enemies/Sentients/Condrix/SentientCondrixAgentMechEvent",
         "missionReward": {
             "credits": 68750
         },
@@ -8165,6 +8206,7 @@
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackPlutoCharonStanchionOrphix",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/MechEventExtraSpec",
+        "vipAgent": "/Lotus/Types/Enemies/Sentients/Condrix/SentientCondrixAgentMechEvent",
         "missionReward": {
             "credits": 80000
         },
@@ -8517,6 +8559,7 @@
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace03ObeliskOrphix",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/MechEventExtraSpec",
+        "vipAgent": "/Lotus/Types/Enemies/Sentients/Condrix/SentientCondrixAgentMechEvent",
         "missionReward": {
             "credits": 143750
         },
