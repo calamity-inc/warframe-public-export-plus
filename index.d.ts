@@ -541,7 +541,7 @@ export interface IKey {
 }
 
 export interface IHelminthSnack {
-    type: string;
+    type: "/Lotus/Types/Items/InfestedFoundry/HelminthBile" | "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics" | "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones" | "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics" | "/Lotus/Types/Items/InfestedFoundry/HelminthCalx" | "/Lotus/Types/Items/InfestedFoundry/HelminthOxides" | "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer";
     count: number;
     gain: number;
 }
