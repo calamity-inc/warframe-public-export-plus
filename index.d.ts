@@ -724,6 +724,7 @@ export interface IRegion {
     minEnemyLevel: number;
     maxEnemyLevel: number;
     masteryExp: number;
+    tileset?: string;
     levelOverride?: string;
     enemySpec?: string;
     extraEnemySpec?: string;
