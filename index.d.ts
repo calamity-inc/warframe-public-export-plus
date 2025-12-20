@@ -769,6 +769,7 @@ export interface IResource {
     showInInventory?: boolean;
     longDescription?: string;
     primeSellingPrice?: number;
+    rarity?: TRarity;
     deco?: string; // for ShipDecorations & FusionTreasures
     capacityCost?: number; // for ShipDecorations & FusionTreasures
     dojoCapacityCost?: number; // for ShipDecorations & FusionTreasures
