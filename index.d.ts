@@ -211,6 +211,7 @@ export interface IChallenge {
     requiredCount?: number;
     standing?: number;
     countedRewards?: ICountedStoreItem[];
+    message?: IInboxMessage;
 }
 
 export interface IExportCodex {
