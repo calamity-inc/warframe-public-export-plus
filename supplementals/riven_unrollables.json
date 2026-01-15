@@ -1,6 +1,5 @@
 {
     "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/CryoxionWeapon": [
-        "WeaponImpactDamageMod",
         "WeaponArmorPiercingDamageMod",
         "WeaponSlashDamageMod"
     ],
@@ -332,7 +331,6 @@
     ],
     "/Lotus/Weapons/Grineer/LongGuns/GrnOrokinRifle/GrnOrokinRifleWeapon": [
         "WeaponImpactDamageMod",
-        "WeaponArmorPiercingDamageMod",
         "WeaponSlashDamageMod"
     ],
     "/Lotus/Weapons/Grineer/LongGuns/GrnSpark/GrnSparkRifle": [
@@ -406,6 +404,9 @@
         "WeaponArmorPiercingDamageMod",
         "WeaponSlashDamageMod"
     ],
+    "/Lotus/Weapons/Grineer/Melee/GrnSharbola/GrnSharbolaWeapon": [
+        "WeaponImpactDamageMod"
+    ],
     "/Lotus/Weapons/Grineer/Melee/GrnSparring/GrnSpiderSparring/GrnSpiderSparring": [
         "WeaponArmorPiercingDamageMod"
     ],
@@ -414,6 +415,10 @@
         "WeaponSlashDamageMod"
     ],
     "/Lotus/Weapons/Grineer/Melee/GunBlade/GrnGunBlade/GrnGunblade": [
+        "WeaponImpactDamageMod",
+        "WeaponArmorPiercingDamageMod"
+    ],
+    "/Lotus/Weapons/Grineer/Melee/Tonfa/GrnChainSawTonfa/GrnChainSawTonfaWeapon": [
         "WeaponImpactDamageMod",
         "WeaponArmorPiercingDamageMod"
     ],
@@ -459,6 +464,14 @@
     "/Lotus/Weapons/Infested/Bow/InfCernosBow/InfCernos": [
         "WeaponArmorPiercingDamageMod",
         "WeaponSlashDamageMod"
+    ],
+    "/Lotus/Weapons/Infested/InfestedLich/LongGuns/1999InfShotgun/1999InfShotgunWeapon": [
+        "WeaponImpactDamageMod",
+        "WeaponArmorPiercingDamageMod",
+        "WeaponSlashDamageMod"
+    ],
+    "/Lotus/Weapons/Infested/InfestedLich/Pistols/1999InfSporePistol/1999InfSporePistolWeapon": [
+        "WeaponImpactDamageMod"
     ],
     "/Lotus/Weapons/Infested/LongGuns/InfCrpShockSwarm/InfCrpShockSwarmRifle": [
         "WeaponImpactDamageMod",
@@ -507,25 +520,15 @@
         "WeaponArmorPiercingDamageMod",
         "WeaponSlashDamageMod"
     ],
-    "/Lotus/Weapons/Infested/Melee/Staff/InfStaff/InfStaff": [
-        "WeaponArmorPiercingDamageMod",
-        "WeaponSlashDamageMod"
-    ],
     "/Lotus/Weapons/Infested/Melee/TipedoStaff/InfTipedoStaff": [
         "WeaponImpactDamageMod",
-        "WeaponArmorPiercingDamageMod",
-        "WeaponSlashDamageMod"
+        "WeaponArmorPiercingDamageMod"
     ],
     "/Lotus/Weapons/Infested/Melee/Whip/InfestedWhip/InfestedWhipWeapon": [
         "WeaponImpactDamageMod",
         "WeaponArmorPiercingDamageMod"
     ],
     "/Lotus/Weapons/Infested/Pistols/InfBeamPistol/InfBeamPistol": [
-        "WeaponImpactDamageMod",
-        "WeaponArmorPiercingDamageMod",
-        "WeaponSlashDamageMod"
-    ],
-    "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelBeam/InfModularBarrelBeamPart": [
         "WeaponImpactDamageMod",
         "WeaponArmorPiercingDamageMod",
         "WeaponSlashDamageMod"
@@ -551,12 +554,25 @@
         "WeaponImpactDamageMod",
         "WeaponSlashDamageMod"
     ],
-    "/Lotus/Weapons/Lasria/LasSilencedPistol/LasSilencedPistolWeapon": [
+    "/Lotus/Weapons/Lasria/LasGooAK/LasGooAKPlayerWeapon": [
         "WeaponImpactDamageMod",
         "WeaponArmorPiercingDamageMod",
         "WeaponSlashDamageMod"
     ],
-    "/Lotus/Weapons/Operator/Melee/DrifterTazer/DrifterTazerPlayerWep": [
+    "/Lotus/Weapons/Lasria/LasGooPistol/LasGooPistolPlayerWeapon": [
+        "WeaponImpactDamageMod",
+        "WeaponArmorPiercingDamageMod",
+        "WeaponSlashDamageMod"
+    ],
+    "/Lotus/Weapons/Lasria/LasGooSickle/LasGooSicklePlayerWeapon": [
+        "WeaponImpactDamageMod",
+        "WeaponArmorPiercingDamageMod",
+        "WeaponSlashDamageMod"
+    ],
+    "/Lotus/Weapons/Lasria/LasGrenadeLauncher/LasrianNoxPlayerWeapon": [
+        "WeaponSlashDamageMod"
+    ],
+    "/Lotus/Weapons/Lasria/LasSilencedPistol/LasSilencedPistolWeapon": [
         "WeaponSlashDamageMod"
     ],
     "/Lotus/Weapons/Orokin/BallasSword/BallasSwordWeapon": [
@@ -644,6 +660,7 @@
     ],
     "/Lotus/Weapons/Tenno/Archwing/Primary/TnConcreteArchgun/TnConcreteArchgunWeapon": [
         "WeaponImpactDamageMod",
+        "WeaponArmorPiercingDamageMod",
         "WeaponSlashDamageMod"
     ],
     "/Lotus/Weapons/Tenno/Bows/AntlerBow/AntlerBow": [
@@ -670,6 +687,7 @@
         "WeaponArmorPiercingDamageMod"
     ],
     "/Lotus/Weapons/Tenno/Bows/TnChoirBow/TnChoirBow": [
+        "WeaponImpactDamageMod",
         "WeaponArmorPiercingDamageMod"
     ],
     "/Lotus/Weapons/Tenno/Grimoire/TnGrimoire": [
@@ -694,9 +712,7 @@
         "WeaponArmorPiercingDamageMod"
     ],
     "/Lotus/Weapons/Tenno/LongGuns/Gunbrella/ShrineMaidenGunbrellaWeapon": [
-        "WeaponImpactDamageMod",
-        "WeaponArmorPiercingDamageMod",
-        "WeaponSlashDamageMod"
+        "WeaponImpactDamageMod"
     ],
     "/Lotus/Weapons/Tenno/LongGuns/GyreRifle/GyreRifleWeapon": [
         "WeaponImpactDamageMod",
@@ -715,6 +731,11 @@
         "WeaponImpactDamageMod",
         "WeaponArmorPiercingDamageMod"
     ],
+    "/Lotus/Weapons/Tenno/LongGuns/PrimeLightningGun/PrimeLightningGun": [
+        "WeaponImpactDamageMod",
+        "WeaponArmorPiercingDamageMod",
+        "WeaponSlashDamageMod"
+    ],
     "/Lotus/Weapons/Tenno/LongGuns/RepeatingCrossbow/RepeatingCrossbow": [
         "WeaponImpactDamageMod",
         "WeaponSlashDamageMod"
@@ -724,11 +745,10 @@
         "WeaponSlashDamageMod"
     ],
     "/Lotus/Weapons/Tenno/LongGuns/TnAlchemistShotgun/TnAlchemistShotgun": [
-        "WeaponImpactDamageMod"
+        "WeaponImpactDamageMod",
+        "WeaponSlashDamageMod"
     ],
     "/Lotus/Weapons/Tenno/LongGuns/TnBeltFedRifle/TnBeltFedRifleWeapon": [
-        "WeaponImpactDamageMod",
-        "WeaponArmorPiercingDamageMod",
         "WeaponSlashDamageMod"
     ],
     "/Lotus/Weapons/Tenno/LongGuns/TnGlassShotgun/TnGlassShotgunGun": [
@@ -773,7 +793,6 @@
         "WeaponSlashDamageMod"
     ],
     "/Lotus/Weapons/Tenno/Melee/Axe/WolfFrameAxeWeapon": [
-        "WeaponImpactDamageMod",
         "WeaponArmorPiercingDamageMod"
     ],
     "/Lotus/Weapons/Tenno/Melee/BrassKnuckles/BrassKnuckles": [
@@ -793,9 +812,6 @@
     ],
     "/Lotus/Weapons/Tenno/Melee/Dagger/CeramicDagger": [
         "WeaponImpactDamageMod",
-        "WeaponSlashDamageMod"
-    ],
-    "/Lotus/Weapons/Tenno/Melee/Dagger/Dagger": [
         "WeaponSlashDamageMod"
     ],
     "/Lotus/Weapons/Tenno/Melee/Dagger/DarkDaggerBase": [
@@ -923,8 +939,7 @@
     ],
     "/Lotus/Weapons/Tenno/Melee/Polearms/Naginata/ShrineMaidenNaginataWeapon": [
         "WeaponImpactDamageMod",
-        "WeaponArmorPiercingDamageMod",
-        "WeaponSlashDamageMod"
+        "WeaponArmorPiercingDamageMod"
     ],
     "/Lotus/Weapons/Tenno/Melee/Polearms/PolearmWeapon": [
         "WeaponImpactDamageMod",
@@ -954,7 +969,8 @@
         "WeaponArmorPiercingDamageMod"
     ],
     "/Lotus/Weapons/Tenno/Melee/Scythe/TnChoirScythe/TnChoirScythe": [
-        "WeaponImpactDamageMod"
+        "WeaponImpactDamageMod",
+        "WeaponSlashDamageMod"
     ],
     "/Lotus/Weapons/Tenno/Melee/Soma/SomaDualKamas": [
         "WeaponImpactDamageMod",
@@ -998,11 +1014,6 @@
         "WeaponArmorPiercingDamageMod",
         "WeaponSlashDamageMod"
     ],
-    "/Lotus/Weapons/Tenno/Melee/Swords/DarkSword/DarkSwordDaggerHybridWeapon": [
-        "WeaponImpactDamageMod",
-        "WeaponArmorPiercingDamageMod",
-        "WeaponSlashDamageMod"
-    ],
     "/Lotus/Weapons/Tenno/Melee/Swords/DaxDuviriKatana/DaxDuviriKatanaWeapon": [
         "WeaponImpactDamageMod"
     ],
@@ -1019,7 +1030,7 @@
     ],
     "/Lotus/Weapons/Tenno/Melee/Swords/HeatSword/HeatLongSword": [
         "WeaponImpactDamageMod",
-        "WeaponSlashDamageMod"
+        "WeaponArmorPiercingDamageMod"
     ],
     "/Lotus/Weapons/Tenno/Melee/Swords/JawSword/JawLongSword": [
         "WeaponImpactDamageMod",
@@ -1048,8 +1059,7 @@
         "WeaponSlashDamageMod"
     ],
     "/Lotus/Weapons/Tenno/Melee/Swords/QuillSword/QuillDualSwords": [
-        "WeaponImpactDamageMod",
-        "WeaponSlashDamageMod"
+        "WeaponImpactDamageMod"
     ],
     "/Lotus/Weapons/Tenno/Melee/Swords/StalkerMios/StalkerMios": [
         "WeaponImpactDamageMod",
@@ -1098,14 +1108,17 @@
         "WeaponArmorPiercingDamageMod",
         "WeaponSlashDamageMod"
     ],
+    "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/MortiforShieldAndSword/MortiforShieldAndSword": [
+        "WeaponImpactDamageMod",
+        "WeaponArmorPiercingDamageMod"
+    ],
     "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/PacifistShieldAndSword/PacifistShieldSword": [
         "WeaponArmorPiercingDamageMod",
         "WeaponSlashDamageMod"
     ],
     "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/SundialSwordBoard/SundialBoardSword": [
         "WeaponImpactDamageMod",
-        "WeaponArmorPiercingDamageMod",
-        "WeaponSlashDamageMod"
+        "WeaponArmorPiercingDamageMod"
     ],
     "/Lotus/Weapons/Tenno/Melee/Tonfa/Boltonfa/Boltonfa": [
         "WeaponImpactDamageMod",
@@ -1126,6 +1139,11 @@
     "/Lotus/Weapons/Tenno/Melee/Warfan/WarfanWeapon": [
         "WeaponImpactDamageMod",
         "WeaponArmorPiercingDamageMod"
+    ],
+    "/Lotus/Weapons/Tenno/Melee/Whips/SpiderWhip/SpiderWhipWeapon": [
+        "WeaponImpactDamageMod",
+        "WeaponArmorPiercingDamageMod",
+        "WeaponSlashDamageMod"
     ],
     "/Lotus/Weapons/Tenno/Pistol/AutoPistol": [
         "WeaponImpactDamageMod",
@@ -1154,6 +1172,11 @@
     "/Lotus/Weapons/Tenno/Pistol/RevolverPistol": [
         "WeaponImpactDamageMod",
         "WeaponArmorPiercingDamageMod"
+    ],
+    "/Lotus/Weapons/Tenno/Pistols/1999EntHybridPistolWeapon/1999EntHybridPistolWeapon": [
+        "WeaponImpactDamageMod",
+        "WeaponArmorPiercingDamageMod",
+        "WeaponSlashDamageMod"
     ],
     "/Lotus/Weapons/Tenno/Pistols/AllNew1hSG/AllNew1hSG": [
         "WeaponArmorPiercingDamageMod",
@@ -1280,6 +1303,11 @@
         "WeaponImpactDamageMod",
         "WeaponArmorPiercingDamageMod"
     ],
+    "/Lotus/Weapons/Tenno/ThrowingWeapons/TnOraxiaFlechette/TnOraxiaFlechette": [
+        "WeaponImpactDamageMod",
+        "WeaponArmorPiercingDamageMod",
+        "WeaponSlashDamageMod"
+    ],
     "/Lotus/Weapons/Tenno/ThrowingWeapons/U18ThrowingKnives/U18throwingknives": [
         "WeaponArmorPiercingDamageMod",
         "WeaponSlashDamageMod"
@@ -1288,15 +1316,19 @@
         "WeaponImpactDamageMod"
     ],
     "/Lotus/Weapons/Tenno/Zariman/LongGuns/SemiAutoRifle/ZarimanSemiAutoRifle": [
+        "WeaponImpactDamageMod",
         "WeaponArmorPiercingDamageMod"
     ],
     "/Lotus/Weapons/Tenno/Zariman/Melee/Dagger/ZarimanDaggerWeapon": [
         "WeaponImpactDamageMod"
     ],
+    "/Lotus/Weapons/Tenno/Zariman/Melee/HeavyScythe/ZarimanHeavyScythe/ZarimanHeavyScytheWeapon": [
+        "WeaponImpactDamageMod",
+        "WeaponArmorPiercingDamageMod"
+    ],
     "/Lotus/Weapons/Tenno/Zariman/Melee/Tonfas/ZarimanTonfaWeapon": [
         "WeaponImpactDamageMod",
-        "WeaponArmorPiercingDamageMod",
-        "WeaponSlashDamageMod"
+        "WeaponArmorPiercingDamageMod"
     ],
     "/Lotus/Weapons/Tenno/Zariman/Pistols/HeavyPistol/ZarimanHeavyPistol": [
         "WeaponArmorPiercingDamageMod"
