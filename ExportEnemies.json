@@ -15546,6 +15546,9 @@
                 },
                 {
                     "type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/SentientBrachiolystMissileLauncher"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Sentients/Brachiolyst/SentientBrachiolystSuit"
                 }
             ]
         },
@@ -17395,6 +17398,17 @@
                 }
             ]
         },
+        "/Lotus/Types/Enemies/Tau/CoH/Bosses/CoHDuviriVorTwoBossAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/Tau/CoH/Bosses/CoHDuviriVorTwoBossAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Powersuits/NpcPowersuits/VorTwoPowerSuit"
+                }
+            ]
+        },
         "/Lotus/Types/Enemies/Tau/CoH/Bosses/CoHInfestedCaptureWeaveMutalist": {
             "baseLevel": 1,
             "avatarTypes": {
@@ -17468,6 +17482,20 @@
             "avatarTypes": {
                 "STANDARD": "/Lotus/Types/Enemies/Tau/CoH/Bosses/CoHPaxDuviricusPackAvatar"
             }
+        },
+        "/Lotus/Types/Enemies/Tau/CoH/Bosses/CoHQuadrupedVIP": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/Tau/CoH/Bosses/CoHQuadrupedVIPAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Weapons/Tenno/Melee/VIPQuadMeleeWeapon"
+                },
+                {
+                    "type": "/Lotus/Powersuits/NpcPowersuits/VipQuadSuit"
+                }
+            ]
         },
         "/Lotus/Types/Enemies/Tau/CoH/CoHDefenseAgent": {
             "baseLevel": 1,
@@ -37851,6 +37879,17 @@
             "codexScansRequired": 3,
             "excludeFromSimulacrum": true
         },
+        "/Lotus/Types/Enemies/Tau/CoH/Bosses/CoHDuviriVorTwoBossAvatar": {
+            "name": "/Lotus/Language/Game/VorTwo",
+            "icon": "/Lotus/Interface/Icons/Npcs/VorTwo.png",
+            "faction": "Orokin",
+            "health": 3400,
+            "damageController": "/Lotus/Types/Enemies/Grineer/Vip/VorTwo/DuviriVorTwoDamageController",
+            "factionResistanceKeyword": "RK_OROKIN_FACTION",
+            "killXPReward": 1500,
+            "droptable": "/Lotus/Types/DropTables/DuviriVorTwoAgentDropTable",
+            "codexScansRequired": 5
+        },
         "/Lotus/Types/Enemies/Tau/CoH/Bosses/CoHInfestedCaptureMutalistAvatar": {
             "name": "/Lotus/Language/1999/LegacyteName",
             "icon": "/Lotus/Interface/Icons/Npcs/Infested/1999/InfestedPrelate.png",
@@ -37925,6 +37964,18 @@
             "damageController": "/Lotus/Types/Enemies/Duviri/PaxDuviricus/PaxDuviricusPackDamageController",
             "factionResistanceKeyword": "RK_GRINEER_FACTION",
             "killXPReward": 1000,
+            "codexScansRequired": 5,
+            "excludeFromSimulacrum": true
+        },
+        "/Lotus/Types/Enemies/Tau/CoH/Bosses/CoHQuadrupedVIPAvatar": {
+            "name": "/Lotus/Language/Game/Phorid",
+            "icon": "/Lotus/Interface/Icons/Npcs/QuadrupedVIPAvatar.png",
+            "faction": "Infestation",
+            "health": 5000,
+            "damageController": "/Lotus/Types/Enemies/Infested/Vip/Avatars/VIPQuadrupedDamageController",
+            "factionResistanceKeyword": "RK_INFESTED_FACTION",
+            "killXPReward": 3500,
+            "droptable": "/Lotus/Types/DropTables/InfestationQuadrupedVIPDropTable",
             "codexScansRequired": 5,
             "excludeFromSimulacrum": true
         },
