@@ -432,6 +432,7 @@ export interface IFlavourItem {
     excludeFromMarket?: true;
     hexColours?: IColour[];
     legacyColours?: IColour[];
+    titleTag?: string;
 }
 
 export interface IColour {
