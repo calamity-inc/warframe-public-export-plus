@@ -628,7 +628,6 @@ export interface IModSet {
 
 export interface IExportNightwave {
     affiliationTag: string;
-    /** @deprecated */
     challenges: Record<string, {
         name: string;
         description: string;
@@ -638,7 +637,6 @@ export interface IExportNightwave {
         tip?: string;
         tipIcon?: string;
     }>;
-    /** @deprecated */
     rewards: {
         uniqueName: string;
         name?: string;
