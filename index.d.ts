@@ -1014,6 +1014,7 @@ export interface IVendorOffer {
     syndicate?: {
         tag: string;
         minRank: number;
+        standingCost: number;
         reductionPerPositiveRank: number;
         increasePerNegativeRank: number;
     };
