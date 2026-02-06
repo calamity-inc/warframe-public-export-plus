@@ -61,6 +61,8 @@ export declare const ExportVirtuals: Record<string, IVirtual>;
 export declare const ExportWarframes: Record<string, IPowersuit>;
 export declare const ExportWeapons: Record<string, IWeapon>;
 
+export declare const getScaledPowersuitValues: (uniqueName: string, rank: number) => Promise<IScaledPowersuitValues>;
+
 /** @deprecated use ExportFactions */
 export declare const eFaction: IEnumerator[];
 /** @deprecated use ExportMissionTypes */
@@ -1173,4 +1175,13 @@ export interface IEnumerator {
     id: number;
     tag: string;
     name?: string;
+}
+
+export interface IScaledPowersuitValues {
+    health: number;
+    shield: number;
+    power: number;
+    armor: number;
+    ability_strength: number;
+    heal_rate: number;
 }

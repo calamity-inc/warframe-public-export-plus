@@ -61,6 +61,7 @@ export const {
   ExportVirtuals,
   ExportWarframes,
   ExportWeapons,
+  getScaledPowersuitValues,
   eFaction,
   eMissionType,
 } = PublicExportPlus;

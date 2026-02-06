@@ -46,7 +46,7 @@ However, images shipped with the game are heavily compressed, so you should chec
 - Vendors can only sell StoreItems. If they start with `/Lotus/StoreItems/`, you can simply replace this with `/Lotus/` to get the normal counterpart. Otherwise, it's a bundle and you can find it in ExportBundles.
 
 ### ExportWarframes
-- The `health`, `shield`, `armor`, and `power` values represent the state at rank 0. [See here for an approach to level-scaling these stats.](https://github.com/Sainan/warframe-build-evaluator/blob/d05257f704e688ec387c697c6768b951cf3d5389/evaluator.pluto#L438-L500)
+- The `health`, `shield`, `armor`, and `power` values represent the state at rank 0. To level-scale these stats, you can use the exported `getScaledPowersuitValues` function or manually load the `supplementals/util.wasm` module into a WASM VM to call `get_powersuit_scaling_values`.
 
 ### ExportWeapons
 - Non-weapon items such as modular parts are in here as well. These can be filtered by checking if `behaviours` is absent.
