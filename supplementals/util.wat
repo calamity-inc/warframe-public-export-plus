@@ -1,10 +1,10 @@
 (module
-	(func (export "get_powersuit_scaling_values") (param $uniqueName_joaat i32) (param $rank i32) (result i32 i32 i32 i32 f32 i32)
+	(func (export "get_powersuit_scaling_values") (param $uniqueName_joaat i32) (param $rank i32) (result i32 i32 i32 i32 f64 i32)
 		(local $health_add i32)
 		(local $shield_add i32)
 		(local $power_add i32)
 		(local $armor_add i32)
-		(local $ability_strength f32)
+		(local $ability_strength f64)
 		(local $heal_rate i32)
 
 		;; Zero-initialisation of locals is implied by WASM
@@ -12,7 +12,7 @@
 		;;(local.set $shield_add (i32.const 0))
 		;;(local.set $power_add (i32.const 0))
 		;;(local.set $armor_add (i32.const 0))
-		(local.set $ability_strength (f32.const 1.0))
+		(local.set $ability_strength (f64.const 1.0))
 		;;(local.set $heal_rate (i32.const 0))
 
 		(local.set $health_add ;; (rank + 2) // 3 * 10
@@ -237,16 +237,16 @@
 					)
 				(local.set $shield_add (i32.const 0))
 				(local.set $ability_strength ;; 1 + (rank + 3) // 6 * 0.03
-					(f32.add
-						(f32.const 1.0)
-						(f32.mul
-							(f32.convert_i32_u
+					(f64.add
+						(f64.const 1.0)
+						(f64.mul
+							(f64.convert_i32_u
 								(i32.div_u
 									(i32.add (local.get $rank) (i32.const 3))
 									(i32.const 6)
 									)
 								)
-							(f32.const 0.03)
+							(f64.const 0.03)
 							)
 						)
 					)
