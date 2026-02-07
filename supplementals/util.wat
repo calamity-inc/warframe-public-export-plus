@@ -43,16 +43,10 @@
 		(if ;; Archwings
 			(i32.or
 				(i32.eq (local.get $uniqueName_joaat) (i32.const 3444679363)) ;; /Lotus/Powersuits/Archwing/SupportJetPack/SupportJetPack
-				(i32.or
-					(i32.eq (local.get $uniqueName_joaat) (i32.const 2320618526)) ;; /Lotus/Powersuits/Archwing/StealthJetPack/StealthJetPack
-					(i32.or
-						(i32.eq (local.get $uniqueName_joaat) (i32.const 3667577307)) ;; /Lotus/Powersuits/Archwing/StandardJetPack/StandardJetPack
-						(i32.or
-							(i32.eq (local.get $uniqueName_joaat) (i32.const 3158871569)) ;; /Lotus/Powersuits/Archwing/PrimeJetPack/PrimeJetPack
-							(i32.eq (local.get $uniqueName_joaat) (i32.const 1155332988)) ;; /Lotus/Powersuits/Archwing/DemolitionJetPack/DemolitionJetPack
-							)
-						)
-					)
+				(i32.eq (local.get $uniqueName_joaat) (i32.const 2320618526)) ;; /Lotus/Powersuits/Archwing/StealthJetPack/StealthJetPack
+				(i32.or (i32.eq (local.get $uniqueName_joaat) (i32.const 3667577307))) ;; /Lotus/Powersuits/Archwing/StandardJetPack/StandardJetPack
+				(i32.or (i32.eq (local.get $uniqueName_joaat) (i32.const 3158871569))) ;; /Lotus/Powersuits/Archwing/PrimeJetPack/PrimeJetPack
+				(i32.or (i32.eq (local.get $uniqueName_joaat) (i32.const 1155332988))) ;; /Lotus/Powersuits/Archwing/DemolitionJetPack/DemolitionJetPack
 				)
 			(then
 				(local.set $health_add ;; (rank + 2) // 3 * 25
@@ -71,34 +65,16 @@
 		(if
 			(i32.or
 				(i32.eq (local.get $uniqueName_joaat) (i32.const 1876774746)) ;; /Lotus/Powersuits/Yareli/YareliPrime
-				(i32.or
-					(i32.eq (local.get $uniqueName_joaat) (i32.const 2904123145)) ;; /Lotus/Powersuits/Yareli/Yareli
-					(i32.or
-						(i32.eq (local.get $uniqueName_joaat) (i32.const 2586630162)) ;; /Lotus/Powersuits/Wisp/WispPrime
-						(i32.or
-							(i32.eq (local.get $uniqueName_joaat) (i32.const 1869477687)) ;; /Lotus/Powersuits/Wisp/Wisp
-							(i32.or
-								(i32.eq (local.get $uniqueName_joaat) (i32.const 1029924323)) ;; /Lotus/Powersuits/Volt/VoltPrime
-								(i32.or
-									(i32.eq (local.get $uniqueName_joaat) (i32.const 1232457836)) ;; /Lotus/Powersuits/Saryn/SarynPrime
-									(i32.or
-										(i32.eq (local.get $uniqueName_joaat) (i32.const 1366859412)) ;; /Lotus/Powersuits/Pacifist/Pacifist
-										(i32.or
-											(i32.eq (local.get $uniqueName_joaat) (i32.const 3661086025)) ;; /Lotus/Powersuits/Pacifist/BaruukPrime
-											(i32.or
-												(i32.eq (local.get $uniqueName_joaat) (i32.const 1424385072)) ;; /Lotus/Powersuits/Garuda/GarudaPrime
-												(i32.eq (local.get $uniqueName_joaat) (i32.const 1166258623)) ;; /Lotus/Powersuits/Garuda/Garuda
-												(i32.or
-													(i32.eq (local.get $uniqueName_joaat) (i32.const 3427157693)) ;; /Lotus/Powersuits/Dragon/ChromaPrime
-													)
-												)
-											)
-										)
-									)
-								)
-							)
-						)
-					)
+				(i32.eq (local.get $uniqueName_joaat) (i32.const 2904123145)) ;; /Lotus/Powersuits/Yareli/Yareli
+				(i32.or (i32.eq (local.get $uniqueName_joaat) (i32.const 2586630162))) ;; /Lotus/Powersuits/Wisp/WispPrime
+				(i32.or (i32.eq (local.get $uniqueName_joaat) (i32.const 1869477687))) ;; /Lotus/Powersuits/Wisp/Wisp
+				(i32.or (i32.eq (local.get $uniqueName_joaat) (i32.const 1029924323))) ;; /Lotus/Powersuits/Volt/VoltPrime
+				(i32.or (i32.eq (local.get $uniqueName_joaat) (i32.const 1232457836))) ;; /Lotus/Powersuits/Saryn/SarynPrime
+				(i32.or (i32.eq (local.get $uniqueName_joaat) (i32.const 1366859412))) ;; /Lotus/Powersuits/Pacifist/Pacifist
+				(i32.or (i32.eq (local.get $uniqueName_joaat) (i32.const 3661086025))) ;; /Lotus/Powersuits/Pacifist/BaruukPrime
+				(i32.or (i32.eq (local.get $uniqueName_joaat) (i32.const 1424385072))) ;; /Lotus/Powersuits/Garuda/GarudaPrime
+				(i32.or (i32.eq (local.get $uniqueName_joaat) (i32.const 1166258623))) ;; /Lotus/Powersuits/Garuda/Garuda
+				(i32.or (i32.eq (local.get $uniqueName_joaat) (i32.const 3427157693))) ;; /Lotus/Powersuits/Dragon/ChromaPrime
 				)
 			(then
 				;; These frames get 10 power every 3 levels instead of 5
@@ -109,13 +85,9 @@
 		(if
 			(i32.or
 				(i32.eq (local.get $uniqueName_joaat) (i32.const 1825683843)) ;; /Lotus/Powersuits/Sandman/Sandman
-				(i32.or
-					(i32.eq (local.get $uniqueName_joaat) (i32.const 1025972283)) ;; /Lotus/Powersuits/Sandman/InarosPrime
-					(i32.or
-						(i32.eq (local.get $uniqueName_joaat) (i32.const 3990419848)) ;; /Lotus/Powersuits/Devourer/GrendelPrime
-						(i32.eq (local.get $uniqueName_joaat) (i32.const 2091939965)) ;; /Lotus/Powersuits/Devourer/Devourer
-						)
-					)
+				(i32.eq (local.get $uniqueName_joaat) (i32.const 1025972283)) ;; /Lotus/Powersuits/Sandman/InarosPrime
+				(i32.or (i32.eq (local.get $uniqueName_joaat) (i32.const 3990419848))) ;; /Lotus/Powersuits/Devourer/GrendelPrime
+				(i32.or (i32.eq (local.get $uniqueName_joaat) (i32.const 2091939965))) ;; /Lotus/Powersuits/Devourer/Devourer
 				)
 			(then
 				(local.set $health_add (i32.add (local.get $health_add) (local.get $shield_add)))
@@ -135,10 +107,8 @@
 		(if
 			(i32.or
 				(i32.eq (local.get $uniqueName_joaat) (i32.const 965830671)) ;; /Lotus/Powersuits/Pagemaster/Pagemaster (Dante)
-				(i32.or
-					(i32.eq (local.get $uniqueName_joaat) (i32.const 1642557977)) ;; /Lotus/Powersuits/BrokenFrame/XakuPrime
-					(i32.eq (local.get $uniqueName_joaat) (i32.const 3646107259)) ;; /Lotus/Powersuits/BrokenFrame/BrokenFrame
-					)
+				(i32.eq (local.get $uniqueName_joaat) (i32.const 1642557977)) ;; /Lotus/Powersuits/BrokenFrame/XakuPrime
+				(i32.or (i32.eq (local.get $uniqueName_joaat) (i32.const 3646107259))) ;; /Lotus/Powersuits/BrokenFrame/BrokenFrame
 				)
 			(then
 				(local.set $health_add ;; (rank + 2) // 3 * 9
@@ -171,13 +141,9 @@
 		(if
 			(i32.or
 				(i32.eq (local.get $uniqueName_joaat) (i32.const 2004528371)) ;; /Lotus/Powersuits/Nezha/NezhaPrime
-				(i32.or
-					(i32.eq (local.get $uniqueName_joaat) (i32.const 1982107702)) ;; /Lotus/Powersuits/Nezha/Nezha
-					(i32.or
-						(i32.eq (local.get $uniqueName_joaat) (i32.const 88197247)) ;; /Lotus/Powersuits/Berserker/ValkyrPrime
-						(i32.eq (local.get $uniqueName_joaat) (i32.const 3958444743)) ;; /Lotus/Powersuits/Berserker/Berserker
-						)
-					)
+				(i32.eq (local.get $uniqueName_joaat) (i32.const 1982107702)) ;; /Lotus/Powersuits/Nezha/Nezha
+				(i32.or (i32.eq (local.get $uniqueName_joaat) (i32.const 88197247))) ;; /Lotus/Powersuits/Berserker/ValkyrPrime
+				(i32.or (i32.eq (local.get $uniqueName_joaat) (i32.const 3958444743))) ;; /Lotus/Powersuits/Berserker/Berserker
 				)
 			(then
 				;; These frames get 5 shields every 3 levels instead of 10
