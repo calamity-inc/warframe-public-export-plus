@@ -62,43 +62,7 @@ PublicExportPlus.ExportVirtuals = require("./ExportVirtuals.json");
 PublicExportPlus.ExportWarframes = require("./ExportWarframes.json");
 PublicExportPlus.ExportWeapons = require("./ExportWeapons.json");
 
-const joaat = (str) => {
-	let hash = 0;
-	for (let i = 0; i != str.length; ++i) {
-		hash = (hash + str.charCodeAt(i)) >>> 0;
-		hash = (hash + (hash << 10)) >>> 0;
-		hash = (hash ^ (hash >>> 6)) >>> 0;
-	}
-	hash = (hash + (hash << 3)) >>> 0;
-	hash = (hash ^ (hash >>> 11)) >>> 0;
-	hash = (hash + (hash << 15)) >>> 0;
-	return hash;
-};
-
-let utilInstance;
-PublicExportPlus.getScaledPowersuitValues = async (uniqueName, rank) => {
-	if (!utilInstance) {
-		const bytes = await require("node:fs/promises").readFile(require("node:path").resolve(__dirname, "supplementals/util.wasm"));
-		utilInstance = (await WebAssembly.instantiate(bytes, {})).instance;
-	}
-	const [
-		health_add,
-		shield_add,
-		power_add,
-		armor_add,
-		ability_strength,
-		heal_rate,
-	] = utilInstance.exports.get_powersuit_scaling_values(joaat(uniqueName), rank);
-	const powersuit = PublicExportPlus.ExportWarframes[uniqueName];
-	return {
-		health: powersuit.health + health_add,
-		shield: powersuit.shield + shield_add,
-		power: powersuit.power + power_add,
-		armor: powersuit.armor + armor_add,
-		ability_strength,
-		heal_rate,
-	};
-};
+PublicExportPlus.getScaledPowersuitValues = require("./supplementals/getScaledPowersuitValues.js");
 
 PublicExportPlus.eFaction = require("./supplementals/eFaction.json");
 PublicExportPlus.eMissionType = require("./supplementals/eMissionType.json");
