@@ -7,14 +7,6 @@
 		(local $ability_strength f64)
 		(local $heal_rate i32)
 
-		;; Zero-initialisation of locals is implied by WASM
-		;;(local.set $health_add (i32.const 0))
-		;;(local.set $shield_add (i32.const 0))
-		;;(local.set $power_add (i32.const 0))
-		;;(local.set $armor_add (i32.const 0))
-		(local.set $ability_strength (f64.const 1.0))
-		;;(local.set $heal_rate (i32.const 0))
-
 		(local.set $health_add ;; (rank + 2) // 3 * 10
 			(i32.mul
 				(i32.div_u
@@ -240,6 +232,9 @@
 							)
 						)
 					)
+				)
+			(else
+				(local.set $ability_strength (f64.const 1.0))
 				)
 			)
 
