@@ -205,7 +205,8 @@
         "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftDpadSouth.png",
         "DIT_AGNOSTIC": "/Lotus/Interface/Graphics/OperatorHud/Empty.png",
         "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchCircleDPadDown_d.png",
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSEmotes_d.png"
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSEmotes_d.png",
+        "DIT_ANDROID": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSEmotes_d.png"
     },
     "GAMEPAD_LEFT": {
         "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PS4_D-PadLeft_d.png",
@@ -279,7 +280,8 @@
     "MOUSE_B0": {
         "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/MouseButton00_d.png",
         "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/MouseButton00_d.png",
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSTap1_d.png"
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSTap1_d.png",
+        "DIT_ANDROID": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSTap1_d.png"
     },
     "MOUSE_B1": {
         "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/MouseButton01_d.png",
@@ -312,7 +314,8 @@
     "RIGHT": {
         "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/RightArrow_d.png",
         "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/RightArrow_d.png",
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/RightArrow_d.png"
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/RightArrow_d.png",
+        "DIT_ANDROID": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/RightArrow_d.png"
     },
     "TAB": {
         "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/PCKeyLabels/Tab_d.png",
@@ -1524,205 +1527,206 @@
         "DIT_AUTO": "/Lotus/Interface/Graphics/Retro/Map/DuetIcon_d.png"
     },
     "IOS_ABILITIES": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSAbilities_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSAbilities_d.png"
     },
     "IOS_ADS": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSADS_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSADS_d.png"
     },
     "IOS_CHAT": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSChat_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSChat_d.png"
     },
     "IOS_CROUCH": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSCrouch_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSCrouch_d.png"
     },
     "IOS_BULLET_JUMPING": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSBulletJumping_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSBulletJumping_d.png"
     },
     "IOS_SHOOT": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSShoot_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSShoot_d.png"
     },
     "SCAN": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSScan_d.png"
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSScan_d.png",
+        "DIT_ANDROID": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSScan_d.png"
     },
     "IOS_KAITHE_JUMP": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSKaitheJump_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSKaitheJump_d.png"
     },
     "IOS_KAITHE_GALLOP": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSKaitheGallop_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSKaitheGallop_d.png"
     },
     "IOS_KAITHE_DESCEND": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSKaitheDescend_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSKaitheDescend_d.png"
     },
     "IOS_KAITHE_DASH": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSKaitheDash_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSKaitheDash_d.png"
     },
     "IOS_KAITHE_ASCEND": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSKaitheAscend_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSKaitheAscend_d.png"
     },
     "IOS_DRAGHORIZ": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSDragHoriz_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSDragHoriz_d.png"
     },
     "IOS_DRAGVERT": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSDragVert_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSDragVert_d.png"
     },
     "IOS_GEAR": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSEmotes_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSEmotes_d.png"
     },
     "IOS_ESCMENU": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSESC_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSESC_d.png"
     },
     "IOS_EXPANDMAP": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSExpandMap_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSExpandMap_d.png"
     },
     "IOS_MOVE": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSJoycon_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSJoycon_d.png"
     },
     "IOS_JUMP": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSJump_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSJump_d.png"
     },
     "IOS_MARKER": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSMarker_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSMarker_d.png"
     },
     "IOS_MELEE": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSMelee_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSMelee_d.png"
     },
     "IOS_MELEE_MODE": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSMeleeMode_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSMeleeMode_d.png"
     },
     "IOS_HEAVY_ATTACK": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSHeavyAttack_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSHeavyAttack_d.png"
     },
     "IOS_BLOCK": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSBlock_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSBlock_d.png"
     },
     "IOS_PRIMARYFIRE": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSShoot_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSShoot_d.png"
     },
     "IOS_RELOAD": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSReload_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSReload_d.png"
     },
     "IOS_SECONDARYFIRE": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSSecondaryFire_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSSecondaryFire_d.png"
     },
     "IOS_THROW": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSThrow_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSThrow_d.png"
     },
     "IOS_SLIDE": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSSlide_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSSlide_d.png"
     },
     "IOS_TAP": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSTap2_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSTap2_d.png"
     },
     "IOS_HOLD": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSTap1_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSTap1_d.png"
     },
     "IOS_USE": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSUse_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSUse_d.png"
     },
     "IOS_WAYPOINT": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSWaypoint_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSWaypoint_d.png"
     },
     "IOS_DECO_ADVANCED_MODE_TOGGLE": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/DecorationHudIcons/DecoAdvancedModeToggle.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/DecorationHudIcons/DecoAdvancedModeToggle.png"
     },
     "IOS_DECO_CANCEL": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/DecorationHudIcons/DecoCancel.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/DecorationHudIcons/DecoCancel.png"
     },
     "IOS_DECO_CAMERA_DOWN": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/DecorationHudIcons/DecoCameraDown.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/DecorationHudIcons/DecoCameraDown.png"
     },
     "IOS_DECO_CAMERA_UP": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/DecorationHudIcons/DecoCameraUp.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/DecorationHudIcons/DecoCameraUp.png"
     },
     "IOS_ABILITY_0": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/XboxOneDPadDown_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/XboxOneDPadDown_d.png"
     },
     "IOS_ABILITY_1": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/XboxOneDPadLeft_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/XboxOneDPadLeft_d.png"
     },
     "IOS_ABILITY_2": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/XboxOneDPadRight_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/XboxOneDPadRight_d.png"
     },
     "IOS_ABILITY_3": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/XboxOneDPadUp_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/XboxOneDPadUp_d.png"
     },
     "IOS_EXCALIBUR_ABILITY_1": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/Power04_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/Power04_d.png"
     },
     "IOS_EXCALIBUR_ABILITY_2": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/Power01_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/Power01_d.png"
     },
     "IOS_EXCALIBUR_ABILITY_3": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/Power03_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/Power03_d.png"
     },
     "IOS_EXCALIBUR_ABILITY_4": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/ExcaliburSwordOfDoom_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/ExcaliburSwordOfDoom_d.png"
     },
     "IOS_MAG_ABILITY_1": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/MagPull_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/MagPull_d.png"
     },
     "IOS_MAG_ABILITY_2": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/MagMagnetize_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/MagMagnetize_d.png"
     },
     "IOS_MAG_ABILITY_3": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/MagShieldRenew_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/MagShieldRenew_d.png"
     },
     "IOS_MAG_ABILITY_4": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/MagCrush_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/MagCrush_d.png"
     },
     "IOS_VOLT_ABILITY_1": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/VoltShock_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/VoltShock_d.png"
     },
     "IOS_VOLT_ABILITY_2": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/VoltSuperSpeed_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/VoltSuperSpeed_d.png"
     },
     "IOS_VOLT_ABILITY_3": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/VoltShield_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/VoltShield_d.png"
     },
     "IOS_VOLT_ABILITY_4": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/VoltOverLoad_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/VoltOverLoad_d.png"
     },
     "IOS_DUVIRI_ABILITY_1": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/DrifterAbilityIconHorseSummon_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/DrifterAbilityIconHorseSummon_d.png"
     },
     "IOS_DUVIRI_ABILITY_2": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/DrifterAbilityIconRadar_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/DrifterAbilityIconRadar_d.png"
     },
     "IOS_DUVIRI_ABILITY_3": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/DrifterAbilityIconHealth_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/DrifterAbilityIconHealth_d.png"
     },
     "IOS_DUVIRI_ABILITY_4": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/DrifterAbilityIconSmokescreen_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/DrifterAbilityIconSmokescreen_d.png"
     },
     "IOS_ARCHWING_UP": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSArchwingUp_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSArchwingUp_d.png"
     },
     "IOS_ARCHWING_DOWN": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSArchwingDown_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSArchwingDown_d.png"
     },
     "IOS_MOTORCYCLE_ABILITY_1": {
-        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/MotorcycleSpeedBoost.png"
+        "DIT_AUTO": "/Lotus/Interface/Icons/Abilities/Misc/MotorcycleSpeedBoost.png"
     },
     "IOS_MOTORCYCLE_ABILITY_2": {
-        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/MotorcycleDismountExplosion.png"
+        "DIT_AUTO": "/Lotus/Interface/Icons/Abilities/Misc/MotorcycleDismountExplosion.png"
     },
     "IOS_SUMMON_ATOMICYCLE": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSAtomicycleSpawn_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSAtomicycleSpawn_d.png"
     },
     "IOS_CALIBERCHICKS_DASH": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSMinigameCCDash_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSMinigameCCDash_d.png"
     },
     "IOS_CALIBERCHICKS_HOLDSHOOT": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSMinigameCCHoldShoot_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSMinigameCCHoldShoot_d.png"
     },
     "IOS_CALIBERCHICKS_JUMP": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSMinigameCCJump_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSMinigameCCJump_d.png"
     },
     "IOS_CALIBERCHICKS_SHOOT": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSMinigameCCShoot_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSMinigameCCShoot_d.png"
     },
     "IOS_CALIBERCHICKS_ULTIMATE": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSMinigameCCUltimate_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSMinigameCCUltimate_d.png"
     },
     "CARGO": {
         "DIT_AUTO": "/Lotus/Interface/Icons/RailjackResourceCompactorIcon.png"
@@ -1852,28 +1856,32 @@
         "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/AnalogStickLTiltUp_d.png",
         "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftDpadNorth.png",
         "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchLStickUp_d.png",
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSStickUp_d.png"
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSStickUp_d.png",
+        "DIT_ANDROID": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSStickUp_d.png"
     },
     "MOVE_Z_DOWN": {
         "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneJoystickLDown_d.png",
         "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/AnalogStickLTiltDown_d.png",
         "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftDpadSouth.png",
         "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchLStickDown_d.png",
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSStickDown_d.png"
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSStickDown_d.png",
+        "DIT_ANDROID": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSStickDown_d.png"
     },
     "MOVE_X_LEFT": {
         "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneJoystickLLeft_d.png",
         "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/AnalogStickLTiltLeft_d.png",
         "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftDpadWest.png",
         "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchLStickLeft_d.png",
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSStickLeft_d.png"
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSStickLeft_d.png",
+        "DIT_ANDROID": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSStickLeft_d.png"
     },
     "MOVE_X_RIGHT": {
         "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneJoystickLRight_d.png",
         "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/AnalogStickLTiltRight_d.png",
         "DIT_STEAM": "/EE/Interface/Graphics/PlatformKeys/SteamController/PadLeftDpadEast.png",
         "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/Switch/SwitchLStickRight_d.png",
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSStickRight_d.png"
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSStickRight_d.png",
+        "DIT_ANDROID": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSStickRight_d.png"
     },
     "MISSION_MARKER_GRN": {
         "DIT_AUTO": "/Lotus/Interface/HudGraphics/GrineerHud/ObjectiveMarker.png"
@@ -1907,35 +1915,48 @@
         "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
         "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/Windows_d.png",
         "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png"
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_ANDROID": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png"
     },
     "MMF_XBOX": {
         "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/XboxOneXboxGuide_d.png",
         "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
         "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
         "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png"
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_ANDROID": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png"
     },
     "MMF_PLAYSTATION": {
         "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
         "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/PlaystationIcon_d.png",
         "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
         "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png"
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_ANDROID": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png"
     },
     "MMF_SWITCH": {
         "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
         "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
         "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
         "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/NintendoSwitch_d.png",
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png"
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_ANDROID": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png"
     },
     "MMF_MOBILE": {
         "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
         "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
         "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
         "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/AppleLogo_d.png"
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/AppleLogo_d.png",
+        "DIT_ANDROID": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png"
+    },
+    "MMF_ANDROID": {
+        "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
+        "DIT_ANDROID": "/EE/Interface/Graphics/PlatformKeys/AndroidLogo_d.png"
     },
     "CROSS_PLAY": {
         "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png"
@@ -2088,55 +2109,66 @@
         "DIT_AUTO": "/Lotus/Interface/Icons/Categories/IconOperatorHead256.png"
     },
     "IOS_TOUCH_LEFT_SIDE": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSTouchLeftLow.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSTouchLeftLow.png"
     },
     "IOS_TOUCH_RIGHT_SIDE": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSTouchRightLow.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSTouchRightLow.png"
     },
     "GRENADE_ICON": {
-        "DIT_IOS": "/Lotus/Interface/HudGraphics/GrineerHud/GrenadeIcon.png"
+        "DIT_IOS": "/Lotus/Interface/HudGraphics/GrineerHud/GrenadeIcon.png",
+        "DIT_ANDROID": "/Lotus/Interface/HudGraphics/GrineerHud/GrenadeIcon.png"
     },
     "COVER_ICON": {
-        "DIT_IOS": "/Lotus/Interface/Graphics/GrineerHUD/GrineerHUDCoverIcon.png"
+        "DIT_IOS": "/Lotus/Interface/Graphics/GrineerHUD/GrineerHUDCoverIcon.png",
+        "DIT_ANDROID": "/Lotus/Interface/Graphics/GrineerHUD/GrineerHUDCoverIcon.png"
     },
     "MOA_BREACHER": {
-        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/CorpusDeployMoa.png"
+        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/CorpusDeployMoa.png",
+        "DIT_ANDROID": "/Lotus/Interface/Icons/Abilities/Misc/CorpusDeployMoa.png"
     },
     "MOA_DRONE": {
-        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/CorpusDeployMoaDrone.png"
+        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/CorpusDeployMoaDrone.png",
+        "DIT_ANDROID": "/Lotus/Interface/Icons/Abilities/Misc/CorpusDeployMoaDrone.png"
     },
     "MOA_GUN": {
-        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/CorpusDeployMoaGun.png"
+        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/CorpusDeployMoaGun.png",
+        "DIT_ANDROID": "/Lotus/Interface/Icons/Abilities/Misc/CorpusDeployMoaGun.png"
     },
     "IOS_SWITCH_WEAPON": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSWeaponSwitch.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSWeaponSwitch.png"
     },
     "IOS_WEAPON_WIDGET_RIFLE": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSTutorialWeaponWidgetRifle_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSTutorialWeaponWidgetRifle_d.png"
     },
     "IOS_WEAPON_WIDGET_BOW": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSTutorialWeaponWidgetBow_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSTutorialWeaponWidgetBow_d.png"
     },
     "TESHIN_COLD": {
-        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/TeshinAbilitiesCold.png"
+        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/TeshinAbilitiesCold.png",
+        "DIT_ANDROID": "/Lotus/Interface/Icons/Abilities/Misc/TeshinAbilitiesCold.png"
     },
     "TESHIN_ELECTRICITY": {
-        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/TeshinAbilitiesElectricity.png"
+        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/TeshinAbilitiesElectricity.png",
+        "DIT_ANDROID": "/Lotus/Interface/Icons/Abilities/Misc/TeshinAbilitiesElectricity.png"
     },
     "TESHIN_HEAT": {
-        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/TeshinAbilitiesHeat.png"
+        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/TeshinAbilitiesHeat.png",
+        "DIT_ANDROID": "/Lotus/Interface/Icons/Abilities/Misc/TeshinAbilitiesHeat.png"
     },
     "TESHIN_GLAIVE": {
-        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/TeshinAbilitiesGlaive.png"
+        "DIT_IOS": "/Lotus/Interface/Icons/Abilities/Misc/TeshinAbilitiesGlaive.png",
+        "DIT_ANDROID": "/Lotus/Interface/Icons/Abilities/Misc/TeshinAbilitiesGlaive.png"
     },
     "UNAIRU_ABILITY_2": {
-        "DIT_IOS": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon40.png"
+        "DIT_IOS": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon40.png",
+        "DIT_ANDROID": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon40.png"
     },
     "IOS_URIEL_ABILITY_3": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/UrielBrimstone_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/UrielBrimstone_d.png"
     },
     "VAZARIN_ABILITY_2": {
-        "DIT_IOS": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon43.png"
+        "DIT_IOS": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon43.png",
+        "DIT_ANDROID": "/Lotus/Interface/Icons/FocusNodeIcons/FocusIcon43.png"
     },
     "Eximus_Burden": {
         "DIT_AUTO": "/Lotus/Interface/Icons/EntratiBurdens/Hud/BurdenHudIcon01.png"
@@ -2191,25 +2223,25 @@
         "DIT_AUTO": "/Lotus/Interface/Icons/SubStatIndicatorIcon/NegativeDiamond.png"
     },
     "IOS_PVPVE_BOOSTER": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSBooster_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSBooster_d.png"
     },
     "IOS_NEW_INDICATOR": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/ExclaimPendingMobile_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/ExclaimPendingMobile_d.png"
     },
     "IOS_PVPVE_HINDRANCE": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSHindrance_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/IOSHindrance_d.png"
     },
     "ARROW_LIST": {
         "DIT_AUTO": "/Lotus/Interface/Icons/Railjack/OpenListArrow.png"
     },
     "IOS_WRAITH_ABILITY_0": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/WraithDeathsGrasp_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/WraithDeathsGrasp_d.png"
     },
     "IOS_WRAITH_ABILITY_1": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/WraithSoulHarvest_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/WraithSoulHarvest_d.png"
     },
     "IOS_WRAITH_ABILITY_2": {
-        "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/WraithDeadlyWall_d.png"
+        "DIT_AUTO": "/EE/Interface/Graphics/PlatformKeys/IOSController/AbilityIcons/WraithDeadlyWall_d.png"
     },
     "BOUNTY_FUNGI": {
         "DIT_AUTO": "/Lotus/Interface/Icons/NokkoColony/MysteryShroom256_d.png"

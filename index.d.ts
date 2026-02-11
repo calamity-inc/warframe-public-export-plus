@@ -911,6 +911,7 @@ export interface ITextIcon {
     DIT_PC?: string;
     DIT_PS5?: string;
     DIT_IOS?: string;
+    DIT_ANDROID?: string;
     DIT_AUTO?: string;
 }
 

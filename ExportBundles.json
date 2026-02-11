@@ -2684,6 +2684,55 @@
         "bundledPremiumCredits": 275,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/StoreItems/Packages/2026Bundles/2026Q1Battlekit": {
+        "name": "/Lotus/Language/Bundles/2026Q1BattlekitName",
+        "description": "/Lotus/Language/Bundles/2026Q1BattlekitDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/Marketing/2026Q1BattleKitMarketTile.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/LongGuns/TnWispRifle/TnWispRifle",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponFireIterationsMod",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Effects/OpulaEphemera",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/Types/StoreItems/Boosters/CreditBooster3DayStoreItem",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/Types/StoreItems/Boosters/ResourceAmount3DayStoreItem",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/Types/StoreItems/Boosters/AffinityBooster3DayStoreItem",
+                "purchaseQuantity": 1
+            }
+        ],
+        "platinumCost": 1,
+        "premiumPrice": 1,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/Packages/2026Bundles/VaubanHeirloomPack": {
+        "name": "/Lotus/Language/Bundles/VaubanHeirloomPackName",
+        "description": "/Lotus/Language/Bundles/VaubanHeirloomPackDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/Marketing/VaubanHeirloomMarketTile.png",
+        "components": [
+            {
+                "typeName": "/Lotus/Types/StoreItems/Packages/HeirloomPackVauban",
+                "purchaseQuantity": 1
+            }
+        ],
+        "bundledPlatinum": 425,
+        "platinumBundlePair": "/Lotus/Types/StoreItems/Packages/HeirloomPackVauban",
+        "bundledPremiumCredits": 425,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/StoreItems/Packages/AcolyteNoggleBundle": {
         "name": "/Lotus/Language/Items/AcolyteNoggleBundleName",
         "description": "/Lotus/Language/Items/AcolyteNoggleBundleDesc",
@@ -6559,6 +6608,27 @@
             }
         ]
     },
+    "/Lotus/Types/StoreItems/Packages/DevilsTriadFloofBundle": {
+        "name": "/Lotus/Language/Bundles/DevilsTriadFloofBundleName",
+        "description": "/Lotus/Language/Bundles/DevilsTriadFloofBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/ShipDecos/DevilsTriadFloofBundle.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/ShipDecos/Plushies/PlushyLyon",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/ShipDecos/Plushies/PlushyMarie",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/ShipDecos/Plushies/PlushyRoathe",
+                "purchaseQuantity": 1
+            }
+        ],
+        "platinumCost": 85,
+        "premiumPrice": 85
+    },
     "/Lotus/Types/StoreItems/Packages/DjinnDeluxeArmorPack": {
         "name": "/Lotus/Language/Cosmetics/DjinnDeluxeArmourBundleName",
         "description": "/Lotus/Language/Cosmetics/DjinnDeluxeArmourBundleDesc",
@@ -9830,6 +9900,41 @@
         ],
         "platinumCost": 400,
         "platinumBundlePair": "/Lotus/Types/StoreItems/Packages/2025Bundles/ValkyrHeirloomPack",
+        "premiumPrice": 400
+    },
+    "/Lotus/Types/StoreItems/Packages/HeirloomPackVauban": {
+        "name": "/Lotus/Language/Bundles/VaubanHeirloomPackName",
+        "description": "/Lotus/Language/Bundles/VaubanHeirloomPackDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/CosmeticBundles/Skins/HeirloomPackVauban.png",
+        "excludeFromCodex": true,
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Trapper/VaubanHeirloomSkin",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Crowns/HeirloomVaubanCrown",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/SuitCustomizations/ColourPickerVaubanHeirloom",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/HeirloomVaubanGlyph",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Sigils/HeirloomVaubanSigil",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCardVaubanHeirloom",
+                "purchaseQuantity": 1
+            }
+        ],
+        "platinumCost": 400,
+        "platinumBundlePair": "/Lotus/Types/StoreItems/Packages/2026Bundles/VaubanHeirloomPack",
         "premiumPrice": 400
     },
     "/Lotus/Types/StoreItems/Packages/HelminthBundle": {
@@ -13907,6 +14012,191 @@
         ],
         "platinumCost": 805,
         "premiumPrice": 805,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/Packages/LNY2026BundleA": {
+        "name": "/Lotus/Language/Bundles/LNY2026BundleAName",
+        "description": "/Lotus/Language/Bundles/LNY2026BundleADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/LNY2026BundleA.png",
+        "excludeFromCodex": true,
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Horse/DagathDeluxeLNYHorseBodySkin",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/MeleeDangles/LNYFireSugatra",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Sigils/WeGameNewYearHorseSigil",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Interface/Graphics/CustomUI/LunarNewYearStyle",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/Emotes/LNY2026HorseEmote",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/Types/StoreItems/Boosters/AffinityBoosterStoreItem",
+                "purchaseQuantity": 1,
+                "durabilityDays": 7,
+                "durability": "UNCOMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/Kuva",
+                "purchaseQuantity": 20000
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/CreditBundles/200000Credits",
+                "purchaseQuantity": 1
+            }
+        ],
+        "platinumCost": 295,
+        "premiumPrice": 295,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/Packages/LNY2026BundleB": {
+        "name": "/Lotus/Language/Bundles/LNY2026BundleBName",
+        "description": "/Lotus/Language/Bundles/LNY2026BundleBDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/LNY2026BundleB.png",
+        "excludeFromCodex": true,
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Dagath/DagathDeluxeLNYSkin",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Effects/LNYKaitheDagathEphemera",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/ShipDecos/Plushies/PlushyLNYKaithe",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/Types/StoreItems/Boosters/ResourceAmountBoosterStoreItem",
+                "purchaseQuantity": 1,
+                "durabilityDays": 7,
+                "durability": "UNCOMMON"
+            },
+            {
+                "typeName": "/Lotus/Types/StoreItems/Boosters/CreditBoosterStoreItem",
+                "purchaseQuantity": 1,
+                "durabilityDays": 7,
+                "durability": "UNCOMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/Kuva",
+                "purchaseQuantity": 30000
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/CreditBundles/300000Credits",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Mods/Randomized/RawModularMeleeRandomMod",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Mods/Randomized/RawModularPistolRandomMod",
+                "purchaseQuantity": 1
+            }
+        ],
+        "platinumCost": 480,
+        "premiumPrice": 480,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/Packages/LNY2026BundleC": {
+        "name": "/Lotus/Language/Bundles/LNY2026BundleCName",
+        "description": "/Lotus/Language/Bundles/LNY2026BundleCDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/LNY2026BundleC.png",
+        "excludeFromCodex": true,
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Dagath/DagathDeluxeLNYSkin",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Horse/DagathDeluxeLNYHorseBodySkin",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Effects/LNYKaitheDagathEphemera",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/ShipDecos/Plushies/PlushyLNYKaithe",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/Emotes/LNY2026HorseEmote",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/MeleeDangles/LNYFireSugatra",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Sigils/WeGameNewYearHorseSigil",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Interface/Graphics/CustomUI/LunarNewYearStyle",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/Types/StoreItems/Boosters/AffinityBoosterStoreItem",
+                "purchaseQuantity": 1,
+                "durabilityDays": 7,
+                "durability": "UNCOMMON"
+            },
+            {
+                "typeName": "/Lotus/Types/StoreItems/Boosters/CreditBoosterStoreItem",
+                "purchaseQuantity": 1,
+                "durabilityDays": 7,
+                "durability": "UNCOMMON"
+            },
+            {
+                "typeName": "/Lotus/Types/StoreItems/Boosters/ResourceAmountBoosterStoreItem",
+                "purchaseQuantity": 1,
+                "durabilityDays": 7,
+                "durability": "UNCOMMON"
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/Kuva",
+                "purchaseQuantity": 50000
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/StoreItems/CreditBundles/500000Credits",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Mods/Randomized/RawRifleRandomMod",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Mods/Randomized/RawMeleeRandomMod",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Mods/Randomized/RawPistolRandomMod",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Mods/Randomized/RawModularMeleeRandomMod",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Mods/Randomized/RawModularPistolRandomMod",
+                "purchaseQuantity": 1
+            }
+        ],
+        "platinumCost": 700,
+        "premiumPrice": 700,
         "excludeFromMarket": true
     },
     "/Lotus/Types/StoreItems/Packages/Login5Pack": {

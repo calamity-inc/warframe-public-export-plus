@@ -3282,6 +3282,15 @@
         "platinumCost": 15,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Items/Emotes/LNY2026HorseEmote": {
+        "name": "/Lotus/Language/Seasonal/LNY2026HorseEmoteName",
+        "description": "/Lotus/Language/Seasonal/LNY2026HorseEmoteDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Emotes/YearOftheHorseEmote.png",
+        "base": "/Lotus/Types/Items/Emotes/Emote",
+        "codexSecret": false,
+        "platinumCost": 15,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Items/Emotes/LeftHeartEmote": {
         "name": "/Lotus/Language/Emotes/LeftHeartEmoteName",
         "description": "/Lotus/Language/Emotes/LeftHeartEmoteDesc",
@@ -13611,6 +13620,15 @@
         "platinumCost": 0,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageSwitch2Glyph": {
+        "name": "/Lotus/Language/Glyphs/Switch2GlyphName",
+        "description": "/Lotus/Language/Glyphs/Switch2GlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/Switch2Glyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/AvatarImageTennoTranslator": {
         "name": "/Lotus/Language/Glyphs/TennoTranslatorGlyphName",
         "description": "/Lotus/Language/Glyphs/GenericGlyphDesc",
@@ -14465,6 +14483,24 @@
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true,
         "platinumCost": 25
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/HeirloomVaubanGlyph": {
+        "name": "/Lotus/Language/Heirloom/HeirloomVaubanGlyphName",
+        "description": "/Lotus/Language/Heirloom/HeirloomVaubanGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/VaubanHeirloomGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 25
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/HeirloomVaubanGlyphSumo": {
+        "name": "/Lotus/Language/Heirloom/HeirloomVaubanGlyphSumoName",
+        "description": "/Lotus/Language/Heirloom/HeirloomVaubanGlyphSumoDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Emblems/VaubanGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "platinumCost": 25,
+        "excludeFromMarket": true
     },
     "/Lotus/Types/StoreItems/AvatarImages/Image2019Twitter": {
         "name": "/Lotus/Language/Glyphs/Twitter2019GlyphName",
@@ -17525,6 +17561,16 @@
         "codexSecret": true,
         "platinumCost": 15
     },
+    "/Lotus/Types/StoreItems/AvatarImages/ImageThirteenYearAnniversary": {
+        "name": "/Lotus/Language/Glyphs/AvatarThirteenYearAnniversaryName",
+        "description": "/Lotus/Language/Glyphs/AvatarThirteenYearAnniversaryDesc",
+        "icon": "/Lotus/Interface/Icons/Player/GlyphLotus13Anniversary.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "platinumCost": 10,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/ImageTitaniaAltBright": {
         "name": "/Lotus/Language/Items/AvatarTitaniaAltBrightName",
         "description": "/Lotus/Language/Items/AvatarTitaniaAltBrightDesc",
@@ -18215,6 +18261,15 @@
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true,
         "platinumCost": 20,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/LNY2026HorseGlyph": {
+        "name": "/Lotus/Language/Seasonal/LNY2026HorseGlyphName",
+        "description": "/Lotus/Language/Seasonal/LNY2026HorseGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/YearOfTheHorseGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 0,
         "excludeFromMarket": true
     },
     "/Lotus/Types/StoreItems/AvatarImages/Login650Glyph": {
@@ -41855,6 +41910,286 @@
             },
             {
                 "value": "0x008A7462"
+            }
+        ],
+        "platinumCost": 80
+    },
+    "/Lotus/Types/StoreItems/SuitCustomizations/ColourPickerVaubanHeirloom": {
+        "name": "/Lotus/Language/Heirloom/ColourPickerVaubanHeirloomName",
+        "description": "/Lotus/Language/Heirloom/ColourPickerVaubanHeirloomDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Palettes/ColorPickerVaubanHeirloom.png",
+        "base": "/Lotus/Types/Items/ColorPickerItem",
+        "codexSecret": false,
+        "hexColours": [
+            {
+                "value": "0x005DA8CC"
+            },
+            {
+                "value": "0x0062AACC"
+            },
+            {
+                "value": "0x0066ACCC"
+            },
+            {
+                "value": "0x006AADCC"
+            },
+            {
+                "value": "0x006EAECC"
+            },
+            {
+                "value": "0x0072B0CC"
+            },
+            {
+                "value": "0x0076B1CC"
+            },
+            {
+                "value": "0x007AB2CC"
+            },
+            {
+                "value": "0x007EB3CC"
+            },
+            {
+                "value": "0x0083B5CC"
+            },
+            {
+                "value": "0x0087B6CC"
+            },
+            {
+                "value": "0x008BB7CC"
+            },
+            {
+                "value": "0x008FB9CC"
+            },
+            {
+                "value": "0x0093BACC"
+            },
+            {
+                "value": "0x0097BBCC"
+            },
+            {
+                "value": "0x002588DD"
+            },
+            {
+                "value": "0x002585D9"
+            },
+            {
+                "value": "0x002482D4"
+            },
+            {
+                "value": "0x00237FCF"
+            },
+            {
+                "value": "0x00227BC9"
+            },
+            {
+                "value": "0x002178C4"
+            },
+            {
+                "value": "0x002175BF"
+            },
+            {
+                "value": "0x002072BA"
+            },
+            {
+                "value": "0x001F6FB5"
+            },
+            {
+                "value": "0x001E6CB0"
+            },
+            {
+                "value": "0x001D69AB"
+            },
+            {
+                "value": "0x00206AAB"
+            },
+            {
+                "value": "0x001F67A6"
+            },
+            {
+                "value": "0x001F64A1"
+            },
+            {
+                "value": "0x001E619C"
+            },
+            {
+                "value": "0x004598B0"
+            },
+            {
+                "value": "0x00489FB8"
+            },
+            {
+                "value": "0x004BA6BF"
+            },
+            {
+                "value": "0x004EADC7"
+            },
+            {
+                "value": "0x0051B3CF"
+            },
+            {
+                "value": "0x0054BAD6"
+            },
+            {
+                "value": "0x0057C1DE"
+            },
+            {
+                "value": "0x005AC7E6"
+            },
+            {
+                "value": "0x005CCEED"
+            },
+            {
+                "value": "0x005FD4F5"
+            },
+            {
+                "value": "0x00232222"
+            },
+            {
+                "value": "0x002B2A2A"
+            },
+            {
+                "value": "0x00333232"
+            },
+            {
+                "value": "0x003B3939"
+            },
+            {
+                "value": "0x00424141"
+            },
+            {
+                "value": "0x004A4848"
+            },
+            {
+                "value": "0x00525050"
+            },
+            {
+                "value": "0x00595757"
+            },
+            {
+                "value": "0x00615F5F"
+            },
+            {
+                "value": "0x00696666"
+            },
+            {
+                "value": "0x00443930"
+            },
+            {
+                "value": "0x0045392F"
+            },
+            {
+                "value": "0x0045382D"
+            },
+            {
+                "value": "0x0045362B"
+            },
+            {
+                "value": "0x00453529"
+            },
+            {
+                "value": "0x00453427"
+            },
+            {
+                "value": "0x00453324"
+            },
+            {
+                "value": "0x00453222"
+            },
+            {
+                "value": "0x00453120"
+            },
+            {
+                "value": "0x0045301E"
+            },
+            {
+                "value": "0x00171211"
+            },
+            {
+                "value": "0x001F1817"
+            },
+            {
+                "value": "0x00261E1C"
+            },
+            {
+                "value": "0x002E2422"
+            },
+            {
+                "value": "0x00362A28"
+            },
+            {
+                "value": "0x003D302D"
+            },
+            {
+                "value": "0x00453633"
+            },
+            {
+                "value": "0x004D3C39"
+            },
+            {
+                "value": "0x0054423E"
+            },
+            {
+                "value": "0x005C4844"
+            },
+            {
+                "value": "0x004A2E26"
+            },
+            {
+                "value": "0x004A2C23"
+            },
+            {
+                "value": "0x004A2A21"
+            },
+            {
+                "value": "0x004A281F"
+            },
+            {
+                "value": "0x004A271D"
+            },
+            {
+                "value": "0x004A251B"
+            },
+            {
+                "value": "0x004A2318"
+            },
+            {
+                "value": "0x004A2116"
+            },
+            {
+                "value": "0x004A2014"
+            },
+            {
+                "value": "0x004A1E12"
+            },
+            {
+                "value": "0x00D68A6C"
+            },
+            {
+                "value": "0x00D68565"
+            },
+            {
+                "value": "0x00D6805E"
+            },
+            {
+                "value": "0x00D67C58"
+            },
+            {
+                "value": "0x00D67751"
+            },
+            {
+                "value": "0x00D6724B"
+            },
+            {
+                "value": "0x00D66E45"
+            },
+            {
+                "value": "0x00D6693E"
+            },
+            {
+                "value": "0x00D66538"
+            },
+            {
+                "value": "0x00D66031"
             }
         ],
         "platinumCost": 80
