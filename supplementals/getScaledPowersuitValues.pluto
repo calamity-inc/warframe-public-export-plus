@@ -1,0 +1,17 @@
+local { crypto, json, wasm } = require "pluto:*"
+
+local ExportWarframes = json.decode(io.contents("../ExportWarframes.json"))
+local utilInstance = wasm.instantiate(io.contents("util.wasm"))
+
+return function(uniqueName, rank)
+	local health_add, shield_add, power_add, armor_add, ability_strength, heal_rate = utilInstance:call("get_powersuit_scaling_values", crypto.joaat(uniqueName), rank)
+	local powersuit = ExportWarframes[uniqueName]
+	return {
+		health = powersuit.health + health_add,
+		shield = powersuit.shield + shield_add,
+		power = powersuit.power + power_add,
+		armor = powersuit.armor + armor_add,
+		ability_strength = ability_strength,
+		heal_rate = heal_rate,
+	}
+end
