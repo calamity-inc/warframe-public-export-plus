@@ -947,6 +947,7 @@ export interface IUpgrade {
     modSetValues?: number[];
     subtype?: string;
     excludeFromCodex?: true;
+    /** @deprecated check `ExportBoosterPacks["/Lotus/Types/BoosterPacks/ModFuserResult"].components`, instead */
     canBeTransmutation?: true;
     isStarter?: true;
     isFrivolous?: true;
