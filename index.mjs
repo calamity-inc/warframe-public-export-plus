@@ -62,6 +62,7 @@ export const {
   ExportWarframes,
   ExportWeapons,
   getScaledPowersuitValues,
+  riven_unrollables,
   eFaction,
   eMissionType,
 } = PublicExportPlus;

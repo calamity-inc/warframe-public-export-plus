@@ -62,8 +62,11 @@ PublicExportPlus.ExportVirtuals = require("./ExportVirtuals.json");
 PublicExportPlus.ExportWarframes = require("./ExportWarframes.json");
 PublicExportPlus.ExportWeapons = require("./ExportWeapons.json");
 
+// supplementals
 PublicExportPlus.getScaledPowersuitValues = require("./supplementals/getScaledPowersuitValues.js");
+PublicExportPlus.riven_unrollables = require("./supplementals/riven_unrollables.json");
 
+// deprecated supplementals
 PublicExportPlus.eFaction = require("./supplementals/eFaction.json");
 PublicExportPlus.eMissionType = require("./supplementals/eMissionType.json");
 

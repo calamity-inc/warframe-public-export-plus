@@ -62,6 +62,7 @@ export declare const ExportWarframes: Record<string, IPowersuit>;
 export declare const ExportWeapons: Record<string, IWeapon>;
 
 export declare const getScaledPowersuitValues: (uniqueName: string, rank: number) => Promise<IScaledPowersuitValues>;
+export declare const riven_unrollables: Record<string, ("WeaponArmorPiercingDamageMod" | "WeaponSlashDamageMod" | "WeaponImpactDamageMod")[]>;
 
 /** @deprecated use ExportFactions */
 export declare const eFaction: IEnumerator[];
