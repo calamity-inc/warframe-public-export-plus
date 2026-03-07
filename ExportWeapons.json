@@ -22840,6 +22840,7 @@
                 }
             }
         ],
+        "bayonetOtherWeaponType": "/Lotus/Weapons/Tenno/Bayonet/TnBayonetMeleeWeapon",
         "tradable": false
     },
     "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGun": {
@@ -56219,6 +56220,42 @@
                 }
             }
         ],
+        "tradable": false
+    },
+    "/Lotus/Weapons/Tenno/Bayonet/TnBayonetMeleeWeapon": {
+        "name": "/Lotus/Language/Weapons/TnBayonetMeleeWeaponName",
+        "parentName": "/Lotus/Weapons/Tenno/Melee/LotusBayonet",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/TnBayonetRifle.png",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Weapons/TnBayonetWeaponDesc",
+        "masteryReq": 14,
+        "productCategory": "Melee",
+        "holsterCategory": "MELEE",
+        "omegaAttenuation": 0.5,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BAYONET"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "fireIterations": 1,
+                "impact": {
+                    "DT_PUNCTURE": 182.0,
+                    "DT_SLASH": 78.0,
+                    "procChance": 0.2
+                }
+            },
+            {
+                "fireIterations": 1,
+                "impact": {
+                    "DT_PUNCTURE": 182.0,
+                    "DT_SLASH": 78.0,
+                    "procChance": 0.2
+                }
+            }
+        ],
+        "bayonetOtherWeaponType": "/Lotus/Weapons/Tenno/Bayonet/TnBayonetRifleWeapon",
         "tradable": false
     }
 }

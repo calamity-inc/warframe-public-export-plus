@@ -1109,6 +1109,7 @@ export interface IWeapon {
     donationStandingBonus?: number;
     defaultUpgrades?: IDefaultUpgrade[];
     additionalItems?: string[];
+    bayonetOtherWeaponType?: string;
     tradable: boolean;
 }
 
