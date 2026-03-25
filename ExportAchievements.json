@@ -1261,13 +1261,16 @@
         "icon": "/Lotus/Interface/Icons/Achievements/WarWithin.png"
     },
     "IndexQuestA": {
-        "uniqueName": "/Lotus/Types/Challenges/IndexQuestA"
+        "uniqueName": "/Lotus/Types/Challenges/IndexQuestA",
+        "hidden": true
     },
     "IndexQuestB": {
-        "uniqueName": "/Lotus/Types/Challenges/IndexQuestB"
+        "uniqueName": "/Lotus/Types/Challenges/IndexQuestB",
+        "hidden": true
     },
     "IndexQuestC": {
-        "uniqueName": "/Lotus/Types/Challenges/IndexQuestC"
+        "uniqueName": "/Lotus/Types/Challenges/IndexQuestC",
+        "hidden": true
     },
     "OctaviasAnthem": {
         "uniqueName": "/Lotus/Types/Challenges/OctaviasAnthem",
@@ -1847,150 +1850,314 @@
         "requiredCount": 20
     },
     "Titles/HardTankTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/HardTankTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/HardTankTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/StickerConquestTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/StickerConquestTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/StickerConquestTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/HardFragmentedTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/HardFragmentedTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/HardFragmentedTitleChallenge",
+        "progressIndicatorFreq": 0
+    },
+    "Titles/VorHardModeTitleChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/VorHardModeTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/LichKillerTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/LichKillerTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/LichKillerTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/SisterKillerTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/SisterKillerTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/SisterKillerTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/CodaKillerTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/CodaKillerTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/CodaKillerTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/LotusEatersTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/LotusEatersTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/LotusEatersTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/SecondDreamTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/SecondDreamTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/SecondDreamTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/TheNewWarTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/TheNewWarTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/TheNewWarTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/JadeShadowsTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/JadeShadowsTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/JadeShadowsTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/LoverTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/LoverTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/LoverTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/DateAmirTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/DateAmirTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/DateAmirTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/DateAoiTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/DateAoiTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/DateAoiTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/DateArthurTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/DateArthurTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/DateArthurTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/DateEleanorTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/DateEleanorTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/DateEleanorTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/DateLettieTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/DateLettieTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/DateLettieTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/DateLyonTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/DateLyonTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/DateLyonTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/DateMarieTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/DateMarieTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/DateMarieTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/DateQuincyTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/DateQuincyTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/DateQuincyTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/DateRoatheTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/DateRoatheTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/DateRoatheTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/MaxedRailjackTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/MaxedRailjackTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/MaxedRailjackTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/OraxiaPreyTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/OraxiaPreyTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/OraxiaPreyTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/KalymosTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/KalymosTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/KalymosTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/ArcaneCollectorTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/ArcaneCollectorTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/ArcaneCollectorTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/ClemTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/ClemTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/ClemTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/UnairuHammerTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/UnairuHammerTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/UnairuHammerTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/VazarinStaffTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/VazarinStaffTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/VazarinStaffTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/MaduraiBowTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/MaduraiBowTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/MaduraiBowTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/ZenurikGrimoireTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/ZenurikGrimoireTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/ZenurikGrimoireTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/NaramonBladeTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/NaramonBladeTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/NaramonBladeTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/OldPeaceTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/OldPeaceTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/OldPeaceTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/MinVelTogetherTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/MinVelTogetherTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/MinVelTogetherTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/UrielKillerTitleChallenge": {
         "uniqueName": "/Lotus/Types/Challenges/Titles/UrielKillerTitleChallenge",
-        "requiredCount": 21
+        "requiredCount": 21,
+        "progressIndicatorFreq": 0
     },
     "Titles/DefendMarieTitleChallenge": {
         "uniqueName": "/Lotus/Types/Challenges/Titles/DefendMarieTitleChallenge",
-        "requiredCount": 3
+        "requiredCount": 3,
+        "progressIndicatorFreq": 0
     },
     "Titles/DefendLyonTitleChallenge": {
         "uniqueName": "/Lotus/Types/Challenges/Titles/DefendLyonTitleChallenge",
-        "requiredCount": 3
+        "requiredCount": 3,
+        "progressIndicatorFreq": 0
     },
     "Titles/CompleteDescendiaWispTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/CompleteDescendiaWispTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/CompleteDescendiaWispTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/CompleteDescendiaUrielTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/CompleteDescendiaUrielTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/CompleteDescendiaUrielTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/CompleteDescendiaHarrowTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/CompleteDescendiaHarrowTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/CompleteDescendiaHarrowTitleChallenge",
+        "progressIndicatorFreq": 0
+    },
+    "Titles/DanteDescendiaTitleChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/DanteDescendiaTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/CompleteDescendiaHardcoreTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/CompleteDescendiaHardcoreTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/CompleteDescendiaHardcoreTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/UrielConfessionTitleChallenge": {
-        "uniqueName": "/Lotus/Types/Challenges/Titles/UrielConfessionTitleChallenge"
+        "uniqueName": "/Lotus/Types/Challenges/Titles/UrielConfessionTitleChallenge",
+        "progressIndicatorFreq": 0
     },
     "Titles/HunhullsKillerTitleChallenge": {
         "uniqueName": "/Lotus/Types/Challenges/Titles/HunhullsKillerTitleChallenge",
-        "requiredCount": 5
+        "requiredCount": 5,
+        "progressIndicatorFreq": 0
     },
     "Titles/MinesweeperTitleChallenge": {
         "uniqueName": "/Lotus/Types/Challenges/Titles/MinesweeperTitleChallenge",
-        "requiredCount": 81
+        "requiredCount": 81,
+        "progressIndicatorFreq": 0
     },
     "Titles/JammerTitleChallenge": {
         "uniqueName": "/Lotus/Types/Challenges/Titles/JammerTitleChallenge",
-        "requiredCount": 50
+        "requiredCount": 50,
+        "progressIndicatorFreq": 0
     },
     "Titles/SentientFriendTitleChallenge": {
         "uniqueName": "/Lotus/Types/Challenges/Titles/SentientFriendTitleChallenge",
-        "requiredCount": 50
+        "requiredCount": 50,
+        "progressIndicatorFreq": 0
     },
     "Titles/AirHunterTitleChallenge": {
         "uniqueName": "/Lotus/Types/Challenges/Titles/AirHunterTitleChallenge",
-        "requiredCount": 30
+        "requiredCount": 30,
+        "progressIndicatorFreq": 0
     },
     "Titles/HotwiredTitleChallenge": {
         "uniqueName": "/Lotus/Types/Challenges/Titles/HotwiredTitleChallenge",
-        "requiredCount": 20
+        "requiredCount": 20,
+        "progressIndicatorFreq": 0
+    },
+    "Titles/MR10TitleChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/MR10TitleChallenge",
+        "progressIndicatorFreq": 0
+    },
+    "Titles/MR13TitleChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/MR13TitleChallenge",
+        "progressIndicatorFreq": 0
+    },
+    "Titles/MR16TitleChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/MR16TitleChallenge",
+        "progressIndicatorFreq": 0
+    },
+    "Titles/MR19TitleChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/MR19TitleChallenge",
+        "progressIndicatorFreq": 0
+    },
+    "Titles/MR1TitleChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/MR1TitleChallenge",
+        "progressIndicatorFreq": 0
+    },
+    "Titles/MR22TitleChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/MR22TitleChallenge",
+        "progressIndicatorFreq": 0
+    },
+    "Titles/MR25TitleChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/MR25TitleChallenge",
+        "progressIndicatorFreq": 0
+    },
+    "Titles/MR28TitleChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/MR28TitleChallenge",
+        "progressIndicatorFreq": 0
+    },
+    "Titles/MR30TitleChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/MR30TitleChallenge",
+        "progressIndicatorFreq": 0
+    },
+    "Titles/MR4TitleChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/MR4TitleChallenge",
+        "progressIndicatorFreq": 0
+    },
+    "Titles/MR7TitleChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/MR7TitleChallenge",
+        "progressIndicatorFreq": 0
+    },
+    "Titles/CodaMasteryTitleChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/CodaMasteryTitleChallenge",
+        "progressIndicatorFreq": 0
+    },
+    "Titles/KuvaMasteryTitleChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/KuvaMasteryTitleChallenge",
+        "progressIndicatorFreq": 0
+    },
+    "Titles/TenetMasteryTitleChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/TenetMasteryTitleChallenge",
+        "progressIndicatorFreq": 0
+    },
+    "Titles/FollieHuntOneTitleChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/FollieHuntOneTitleChallenge",
+        "progressIndicatorFreq": 0
+    },
+    "Titles/FollieHuntTenTitleChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/FollieHuntTenTitleChallenge",
+        "requiredCount": 10,
+        "progressIndicatorFreq": 0
+    },
+    "Titles/PeritaHardModeTitleChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/PeritaHardModeTitleChallenge",
+        "progressIndicatorFreq": 0
+    },
+    "Titles/TitleGaussPrimeChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/TitleGaussPrimeChallenge",
+        "progressIndicatorFreq": 0
+    },
+    "Titles/TitleGrendelPrimeChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/TitleGrendelPrimeChallenge",
+        "progressIndicatorFreq": 0
+    },
+    "Titles/FollieHuntCompleteTitleChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/FollieHuntCompleteTitleChallenge",
+        "requiredCount": 5,
+        "progressIndicatorFreq": 0
+    },
+    "Shadowgrapher/ShadowgrapherLevelAChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Shadowgrapher/ShadowgrapherLevelAChallenge",
+        "requiredCount": 50
+    },
+    "Shadowgrapher/ShadowgrapherLevelBChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Shadowgrapher/ShadowgrapherLevelBChallenge",
+        "requiredCount": 150
+    },
+    "Shadowgrapher/ShadowgrapherLevelCChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Shadowgrapher/ShadowgrapherLevelCChallenge",
+        "requiredCount": 300
+    },
+    "Shadowgrapher/ShadowgrapherLevelDChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Shadowgrapher/ShadowgrapherLevelDChallenge",
+        "requiredCount": 600
+    },
+    "Shadowgrapher/ShadowgrapherLevelEChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Shadowgrapher/ShadowgrapherLevelEChallenge",
+        "requiredCount": 1200
+    },
+    "Titles/HardPeritaTitleChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/HardPeritaTitleChallenge",
+        "progressIndicatorFreq": 0
+    },
+    "Titles/PeritaHardModeSoloTitleChallenge": {
+        "uniqueName": "/Lotus/Types/Challenges/Titles/PeritaHardModeSoloTitleChallenge",
+        "progressIndicatorFreq": 0
     }
 }

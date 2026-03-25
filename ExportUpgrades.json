@@ -1,4 +1,18 @@
 {
+    "/Lotus/Weapons/Tenno/Melee/Polearms/Naginata/ShrineMaidenNaginataAugment": {
+        "name": "/Lotus/Language/Mods/ShrineMaidenNaginataAugmentModName",
+        "icon": "/Lotus/Interface/Cards/Images/Unique/ShrineMaidenNaginataAugment.png",
+        "polarity": "AP_ATTACK",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Tenno/Melee/Polearms/Naginata/ShrineMaidenNaginataWeapon",
+        "compatName": "Amanata",
+        "type": "MELEE",
+        "description": "/Lotus/Language/Mods/ShrineMaidenNaginataAugmentModDesc",
+        "tradable": true
+    },
     "/Lotus/Weapons/Tenno/Melee/MeleeTrees/WhipCmbTwoMeleeTree": {
         "name": "/Lotus/Language/Items/WhipStanceB",
         "icon": "/Lotus/Interface/Cards/Images/Stances/WhipCombo2b.png",
@@ -1026,6 +1040,20 @@
         "type": "STANCE",
         "description": "/Lotus/Language/Items/AxeStanceADesc",
         "canBeTransmutation": true,
+        "tradable": true
+    },
+    "/Lotus/Weapons/Tenno/LongGuns/Gunbrella/ShrineMaidenGunbrellaAugment": {
+        "name": "/Lotus/Language/Mods/ShrineMaidenGunbrellaAugmentModName",
+        "icon": "/Lotus/Interface/Cards/Images/Unique/ShrineMaidenGunbrellaAugment.png",
+        "polarity": "AP_ATTACK",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Tenno/LongGuns/Gunbrella/ShrineMaidenGunbrellaWeapon",
+        "compatName": "Higasa",
+        "type": "PRIMARY",
+        "description": "/Lotus/Language/Mods/ShrineMaidenGunbrellaAugmentModDesc",
         "tradable": true
     },
     "/Lotus/Upgrades/Mods/Warframe/WarframeMightyKickMod": {
@@ -2968,6 +2996,19 @@
         "description": "/Lotus/Language/Upgrades/SemiAutoFantasyModDesc",
         "tradable": true
     },
+    "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponShotgunFactionDamageMurmursExpert": {
+        "name": "/Lotus/Language/Mods/PrimedShotgunModFactionDamageMurmurs",
+        "icon": "/Lotus/Interface/Cards/Images/Shotgun/WeaponShotgunFactionDamageMurmurs.png",
+        "polarity": "AP_ATTACK",
+        "rarity": "LEGENDARY",
+        "codexSecret": true,
+        "baseDrain": 4,
+        "fusionLimit": 10,
+        "compat": "/Lotus/Weapons/Tenno/Shotgun/LotusShotgun",
+        "compatName": "Shotgun",
+        "type": "PRIMARY",
+        "tradable": true
+    },
     "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponShotgunFactionDamageInfestedExpert": {
         "name": "/Lotus/Language/Mods/ShotgunModFactionDamageInfestedExpert",
         "icon": "/Lotus/Interface/Cards/Images/Shotgun/ShotgunDamageInfested.png",
@@ -3042,6 +3083,20 @@
         "codexSecret": true,
         "baseDrain": 2,
         "fusionLimit": 10,
+        "compat": "/Lotus/Weapons/Tenno/Shotgun/LotusShotgun",
+        "compatName": "Shotgun",
+        "type": "PRIMARY",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponRecoilReductionModExpert": {
+        "name": "/Lotus/Language/Mods/PrimedWeaponRecoilShotgunMod",
+        "icon": "/Lotus/Interface/Cards/Images/Shotgun/WeaponRecoilShotgunMod.png",
+        "polarity": "AP_TACTIC",
+        "rarity": "LEGENDARY",
+        "codexSecret": true,
+        "baseDrain": 2,
+        "fusionLimit": 10,
+        "isUtility": true,
         "compat": "/Lotus/Weapons/Tenno/Shotgun/LotusShotgun",
         "compatName": "Shotgun",
         "type": "PRIMARY",
@@ -5920,6 +5975,19 @@
         "polarity": "AP_TACTIC",
         "rarity": "LEGENDARY",
         "codexSecret": false,
+        "baseDrain": 4,
+        "fusionLimit": 10,
+        "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
+        "compatName": "Rifle",
+        "type": "PRIMARY",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Rifle/Expert/PrimedWeaponFactionDamageMurmurs": {
+        "name": "/Lotus/Language/Mods/PrimedRifleModFactionDamageMurmurs",
+        "icon": "/Lotus/Interface/Cards/Images/Rifle/WeaponFactionDamageMurmurs.png",
+        "polarity": "AP_ATTACK",
+        "rarity": "LEGENDARY",
+        "codexSecret": true,
         "baseDrain": 4,
         "fusionLimit": 10,
         "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
@@ -9093,6 +9161,20 @@
         "type": "SECONDARY",
         "tradable": true
     },
+    "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponRecoilReductionModExpert": {
+        "name": "/Lotus/Language/Items/PrimedPistolModRecoilReduction",
+        "icon": "/Lotus/Interface/Cards/Images/Pistol/PistolRecoilReductionMod.png",
+        "polarity": "AP_TACTIC",
+        "rarity": "LEGENDARY",
+        "codexSecret": true,
+        "baseDrain": 2,
+        "fusionLimit": 10,
+        "isUtility": true,
+        "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
+        "compatName": "Pistol",
+        "type": "SECONDARY",
+        "tradable": true
+    },
     "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponPistolFactionDamageMurmursExpert": {
         "name": "/Lotus/Language/Mods/PrimedPistolModFactionDamageMurmurs",
         "icon": "/Lotus/Interface/Cards/Images/Pistol/WeaponPistolFactionDamageMurmurs.png",
@@ -9354,6 +9436,19 @@
         "isUtility": true,
         "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
         "compatName": "Pistol",
+        "type": "SECONDARY",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Pistol/Event/Nightwave/NightwaveVeloxAugmentMod": {
+        "name": "/Lotus/Language/Mods/NightwaveVeloxAugmentModName",
+        "icon": "/Lotus/Interface/Cards/Images/Nightwave/NightwaveVeloxAugmentMod.png",
+        "polarity": "AP_ATTACK",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Tenno/Pistols/TnOdaliskSmg/TnOdaliskSmgPistol",
+        "compatName": "Velox",
         "type": "SECONDARY",
         "tradable": true
     },
@@ -11059,6 +11154,19 @@
         "isUtility": true,
         "compat": "/Lotus/Weapons/Grineer/Melee/GrineerTylAxeAndBoar/RegorAxeShield",
         "compatName": "Ack & Brunt",
+        "type": "MELEE",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/Mods/Melee/Event/Nightwave/NightwaveVenatoAugmentMod": {
+        "name": "/Lotus/Language/Mods/NightwaveVenatoAugmentModName",
+        "icon": "/Lotus/Interface/Cards/Images/Nightwave/NightwaveVenatoAugmentMod.png",
+        "polarity": "AP_TACTIC",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Sentients/SentJointedScythe/SentJointedScytheWeapon",
+        "compatName": "Venato",
         "type": "MELEE",
         "tradable": true
     },
@@ -13302,6 +13410,20 @@
         "canBeTransmutation": true,
         "tradable": true
     },
+    "/Lotus/Upgrades/Mods/Archwing/Rifle/Expert/ArchwingWeaponToxinDamageModExpert": {
+        "name": "/Lotus/Language/Mods/ArchwingWeaponToxinDamageModExpert",
+        "icon": "/Lotus/Interface/Cards/Images/ArchwingMods/ArchwingRifle/ArchwingWeaponToxinDamageModRifle.png",
+        "polarity": "AP_DEFENSE",
+        "rarity": "LEGENDARY",
+        "codexSecret": true,
+        "baseDrain": 4,
+        "fusionLimit": 10,
+        "compat": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchGun",
+        "compatName": "Archgun",
+        "type": "ARCH-GUN",
+        "canBeTransmutation": true,
+        "tradable": true
+    },
     "/Lotus/Upgrades/Mods/Archwing/Rifle/Expert/ArchwingRifleDamageAmountModExpert": {
         "name": "/Lotus/Language/Mods/ArchwingRifleDamageAmountModExpert",
         "icon": "/Lotus/Interface/Cards/Images/ArchwingMods/ArchwingRifle/ArchwingRifleDamageAmountMod.png",
@@ -14012,6 +14134,20 @@
     "/Lotus/Upgrades/EmpoweredHeavyMelee/FocusedAttack": {
         "name": "/Lotus/Language/Mods/FocusedAttack",
         "icon": "/Lotus/Interface/Cards/Images/Melee/Tennokai/FocusedAttack.png",
+        "polarity": "AP_ATTACK",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 3,
+        "isUtility": true,
+        "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
+        "compatName": "Melee",
+        "type": "MELEE",
+        "tradable": true
+    },
+    "/Lotus/Upgrades/EmpoweredHeavyMelee/CursedSyndicateEmpoweredHeavyMeleeMod": {
+        "name": "/Lotus/Language/Shadowgrapher/CursedTennokaiModName",
+        "icon": "/Lotus/Interface/Cards/Images/Melee/Tennokai/CursedSyndicateEmpoweredHeavyMeleeMod.png",
         "polarity": "AP_ATTACK",
         "rarity": "RARE",
         "codexSecret": false,
@@ -18658,7 +18794,6 @@
         "baseDrain": 0,
         "fusionLimit": 10,
         "compat": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchGun",
-        "excludeFromCodex": true,
         "compatName": "Archgun",
         "type": "ARCH-GUN",
         "tradable": true
@@ -18675,20 +18810,6 @@
         "excludeFromCodex": true,
         "compatName": "Archgun",
         "type": "ARCH-GUN",
-        "tradable": true
-    },
-    "/Lotus/Upgrades/Mods/Archwing/Rifle/Expert/ArchwingWeaponToxinDamageModExpert": {
-        "name": "/Lotus/Language/Mods/ArchwingWeaponToxinDamageModExpert",
-        "icon": "/Lotus/Interface/Cards/Images/ArchwingMods/ArchwingRifle/ArchwingWeaponToxinDamageModRifle.png",
-        "polarity": "AP_DEFENSE",
-        "rarity": "LEGENDARY",
-        "codexSecret": true,
-        "baseDrain": 4,
-        "fusionLimit": 10,
-        "compat": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchGun",
-        "compatName": "Archgun",
-        "type": "ARCH-GUN",
-        "canBeTransmutation": true,
         "tradable": true
     },
     "/Lotus/Upgrades/Mods/Hoverboard/HBFireWorksMod": {
@@ -19001,21 +19122,6 @@
         "isFrivolous": true,
         "tradable": false
     },
-    "/Lotus/Upgrades/Mods/Melee/Expert/WeaponCritChanceSPSubMod": {
-        "name": "/Lotus/Language/Mods/WeaponCritChanceSPMod",
-        "icon": "/Lotus/Interface/Cards/Images/Shotgun/ShotgunFireIterationsMod.png",
-        "polarity": "AP_ATTACK",
-        "rarity": "RARE",
-        "codexSecret": false,
-        "baseDrain": 0,
-        "fusionLimit": 10,
-        "compat": "/Lotus/Weapons/Tenno/Shotgun/LotusShotgun",
-        "excludeFromCodex": true,
-        "compatName": "Shotgun",
-        "type": "PRIMARY",
-        "isFrivolous": true,
-        "tradable": true
-    },
     "/Lotus/Upgrades/Mods/Melee/Expert/WeaponCritDamageModExpert": {
         "name": "/Lotus/Language/Items/MeleeModCritDamage",
         "icon": "/Lotus/Interface/Cards/Images/Melee/MeleeCritDamageMod.png",
@@ -19115,21 +19221,6 @@
         "isFrivolous": true,
         "tradable": false
     },
-    "/Lotus/Upgrades/Mods/Melee/Expert/WeaponHeavyAttackEfficiencySPSubMod": {
-        "name": "/Lotus/Language/Mods/WeaponHeavyAttackEfficiencySPMod",
-        "icon": "/Lotus/Interface/Cards/Images/Melee/MeleeChargeRateMod.png",
-        "polarity": "AP_ATTACK",
-        "rarity": "RARE",
-        "codexSecret": false,
-        "baseDrain": 0,
-        "fusionLimit": 10,
-        "compat": "/Lotus/Weapons/Tenno/Shotgun/LotusShotgun",
-        "excludeFromCodex": true,
-        "compatName": "Shotgun",
-        "type": "PRIMARY",
-        "isFrivolous": true,
-        "tradable": true
-    },
     "/Lotus/Upgrades/Mods/Melee/Expert/WeaponMeleeChannelingEfficiencyModExpert": {
         "name": "/Lotus/Language/Items/MeleeModChargeRate",
         "icon": "/Lotus/Interface/Cards/Images/Melee/MeleeChargeRateMod.png",
@@ -19157,21 +19248,6 @@
         "type": "MELEE",
         "isFrivolous": true,
         "tradable": false
-    },
-    "/Lotus/Upgrades/Mods/Melee/Expert/WeaponMeleeStatusChanceSPSubMod": {
-        "name": "/Lotus/Language/Mods/WeaponMeleeStatusChanceSPMod",
-        "icon": "/Lotus/Interface/Cards/Images/Shotgun/ShotgunFireIterationsMod.png",
-        "polarity": "AP_ATTACK",
-        "rarity": "RARE",
-        "codexSecret": false,
-        "baseDrain": 0,
-        "fusionLimit": 10,
-        "compat": "/Lotus/Weapons/Tenno/Shotgun/LotusShotgun",
-        "excludeFromCodex": true,
-        "compatName": "Shotgun",
-        "type": "PRIMARY",
-        "isFrivolous": true,
-        "tradable": true
     },
     "/Lotus/Upgrades/Mods/Melee/Expert/WeaponPowerDamageModExpert": {
         "name": "/Lotus/Language/Items/MeleeModPowerDmgBonus",
@@ -19750,20 +19826,6 @@
         "type": "SECONDARY",
         "isFrivolous": true,
         "tradable": false
-    },
-    "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponRecoilReductionModExpert": {
-        "name": "/Lotus/Language/Items/PrimedPistolModRecoilReduction",
-        "icon": "/Lotus/Interface/Cards/Images/Pistol/PistolRecoilReductionMod.png",
-        "polarity": "AP_TACTIC",
-        "rarity": "LEGENDARY",
-        "codexSecret": true,
-        "baseDrain": 2,
-        "fusionLimit": 10,
-        "isUtility": true,
-        "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
-        "compatName": "Pistol",
-        "type": "SECONDARY",
-        "tradable": true
     },
     "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponSlashDamageModExpert": {
         "name": "/Lotus/Language/Items/SlashDamagePistolMod",
@@ -26915,6 +26977,7 @@
             "/Lotus/Weapons/Tenno/LongGuns/TnBardRifle/TnBardRifle",
             "/Lotus/Weapons/Tenno/LongGuns/TnBeltFedRifle/TnBeltFedRifleWeapon",
             "/Lotus/Weapons/Tenno/LongGuns/TnHopliteSpear/TnHopliteSpearGunWeapon",
+            "/Lotus/Weapons/Tenno/LongGuns/TnInkRifle/TnInkRifleWeapon",
             "/Lotus/Weapons/Tenno/LongGuns/TnModQuestRifle/TnModQuestRifleWeapon",
             "/Lotus/Weapons/Tenno/LongGuns/TnPriestSpear/TnPriestSpearGun",
             "/Lotus/Weapons/Tenno/LongGuns/TnQuadSniper/TnQuadSniper",
@@ -30591,19 +30654,6 @@
         "isFrivolous": true,
         "tradable": false
     },
-    "/Lotus/Upgrades/Mods/Rifle/Expert/PrimedWeaponFactionDamageMurmurs": {
-        "name": "/Lotus/Language/Mods/PrimedRifleModFactionDamageMurmurs",
-        "icon": "/Lotus/Interface/Cards/Images/Rifle/WeaponFactionDamageMurmurs.png",
-        "polarity": "AP_ATTACK",
-        "rarity": "LEGENDARY",
-        "codexSecret": true,
-        "baseDrain": 4,
-        "fusionLimit": 10,
-        "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
-        "compatName": "Rifle",
-        "type": "PRIMARY",
-        "tradable": true
-    },
     "/Lotus/Upgrades/Mods/Rifle/Expert/SniperReloadDamageModExpert": {
         "name": "/Lotus/Language/Mods/ExpertSniperModReloadDamage",
         "icon": "/Lotus/Interface/Cards/Images/Rifle/RifleChargedChamberMod.png",
@@ -31420,33 +31470,6 @@
         "type": "PRIMARY",
         "isFrivolous": true,
         "tradable": false
-    },
-    "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponRecoilReductionModExpert": {
-        "name": "/Lotus/Language/Mods/PrimedWeaponRecoilShotgunMod",
-        "icon": "/Lotus/Interface/Cards/Images/Shotgun/WeaponRecoilShotgunMod.png",
-        "polarity": "AP_TACTIC",
-        "rarity": "LEGENDARY",
-        "codexSecret": true,
-        "baseDrain": 2,
-        "fusionLimit": 10,
-        "isUtility": true,
-        "compat": "/Lotus/Weapons/Tenno/Shotgun/LotusShotgun",
-        "compatName": "Shotgun",
-        "type": "PRIMARY",
-        "tradable": true
-    },
-    "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponShotgunFactionDamageMurmursExpert": {
-        "name": "/Lotus/Language/Mods/PrimedShotgunModFactionDamageMurmurs",
-        "icon": "/Lotus/Interface/Cards/Images/Shotgun/WeaponShotgunFactionDamageMurmurs.png",
-        "polarity": "AP_ATTACK",
-        "rarity": "LEGENDARY",
-        "codexSecret": true,
-        "baseDrain": 4,
-        "fusionLimit": 10,
-        "compat": "/Lotus/Weapons/Tenno/Shotgun/LotusShotgun",
-        "compatName": "Shotgun",
-        "type": "PRIMARY",
-        "tradable": true
     },
     "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponSlashDamageModExpert": {
         "name": "/Lotus/Language/Items/SlashDamageShotgunMod",
@@ -32383,51 +32406,6 @@
         "isFrivolous": true,
         "tradable": true
     },
-    "/Lotus/Upgrades/Mods/Warframe/Kahl/KahlAvatarAbilityRangeSubMod": {
-        "name": "/Lotus/Language/Mods/KahlAvatarAbilityRange",
-        "icon": "/Lotus/Interface/Cards/Images/Kahl/KahlAvatarAbilityRangeMod.png",
-        "polarity": "AP_ATTACK",
-        "rarity": "RARE",
-        "codexSecret": false,
-        "baseDrain": 6,
-        "fusionLimit": 5,
-        "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
-        "excludeFromCodex": true,
-        "compatName": "WARFRAME",
-        "type": "WARFRAME",
-        "isFrivolous": true,
-        "tradable": true
-    },
-    "/Lotus/Upgrades/Mods/Warframe/Kahl/KahlAvatarAbilityStrengthSubMod": {
-        "name": "/Lotus/Language/Mods/KahlAvatarAbilityStrength",
-        "icon": "/Lotus/Interface/Cards/Images/AvatarMods/AbilityStrengthMod.png",
-        "polarity": "AP_ATTACK",
-        "rarity": "RARE",
-        "codexSecret": false,
-        "baseDrain": 6,
-        "fusionLimit": 5,
-        "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
-        "excludeFromCodex": true,
-        "compatName": "WARFRAME",
-        "type": "WARFRAME",
-        "isFrivolous": true,
-        "tradable": true
-    },
-    "/Lotus/Upgrades/Mods/Warframe/Kahl/KahlAvatarDropEnergySubMod": {
-        "name": "/Lotus/Language/Mods/KahlAvatarPowerMax",
-        "icon": "/Lotus/Interface/Cards/Images/AvatarMods/PowerMaxMod.png",
-        "polarity": "AP_TACTIC",
-        "rarity": "RARE",
-        "codexSecret": false,
-        "baseDrain": 4,
-        "fusionLimit": 5,
-        "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
-        "excludeFromCodex": true,
-        "compatName": "WARFRAME",
-        "type": "WARFRAME",
-        "isFrivolous": true,
-        "tradable": true
-    },
     "/Lotus/Upgrades/Mods/Warframe/AvatarDamageResistanceStun": {
         "name": "/Lotus/Language/Items/WarframeModDmgResistanceStun",
         "icon": "/Lotus/Interface/Cards/Images/AvatarMods/ArmourMod.png",
@@ -32783,34 +32761,6 @@
                 ]
             }
         ],
-        "tradable": true
-    },
-    "/Lotus/Weapons/Tenno/LongGuns/Gunbrella/ShrineMaidenGunbrellaAugment": {
-        "name": "/Lotus/Language/Mods/ShrineMaidenGunbrellaAugmentModName",
-        "icon": "/Lotus/Interface/Cards/Images/Unique/ShrineMaidenGunbrellaAugment.png",
-        "polarity": "AP_ATTACK",
-        "rarity": "RARE",
-        "codexSecret": false,
-        "baseDrain": 6,
-        "fusionLimit": 5,
-        "compat": "/Lotus/Weapons/Tenno/LongGuns/Gunbrella/ShrineMaidenGunbrellaWeapon",
-        "compatName": "Higasa",
-        "type": "PRIMARY",
-        "description": "/Lotus/Language/Mods/ShrineMaidenGunbrellaAugmentModDesc",
-        "tradable": true
-    },
-    "/Lotus/Weapons/Tenno/Melee/Polearms/Naginata/ShrineMaidenNaginataAugment": {
-        "name": "/Lotus/Language/Mods/ShrineMaidenNaginataAugmentModName",
-        "icon": "/Lotus/Interface/Cards/Images/Unique/ShrineMaidenNaginataAugment.png",
-        "polarity": "AP_ATTACK",
-        "rarity": "RARE",
-        "codexSecret": false,
-        "baseDrain": 6,
-        "fusionLimit": 5,
-        "compat": "/Lotus/Weapons/Tenno/Melee/Polearms/Naginata/ShrineMaidenNaginataWeapon",
-        "compatName": "Amanata",
-        "type": "MELEE",
-        "description": "/Lotus/Language/Mods/ShrineMaidenNaginataAugmentModDesc",
         "tradable": true
     },
     "/Lotus/Types/Sentinels/SentinelPrecepts/LocateCreatures": {

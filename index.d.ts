@@ -416,11 +416,12 @@ export type TFaction =
     | "FC_SCALDRA"
     | "FC_TECHROT"
     | "FC_DUVIRI"
+    | "FC_TENNO"
     ;
 
 export interface IFaction {
     index: number;
-    name: string;
+    name?: string;
 }
 
 export interface IFlavourItem {
@@ -614,6 +615,7 @@ export type TMissionType =
     | "MT_PVPVE"
     | "MT_DESCENT"
     | "MT_TAU_WAR"
+    | "MT_PAINT_FLOOD"
     ;
 
 export interface IMissionType {

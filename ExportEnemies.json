@@ -6979,6 +6979,12 @@
                 }
             ]
         },
+        "/Lotus/Types/Enemies/Grineer/AIWeek/GrineerBigDropshipAgentTutorial": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/Grineer/AIWeek/GrineerBigDropshipAvatarTutorial"
+            }
+        },
         "/Lotus/Types/Enemies/Grineer/AIWeek/GrineerCharger": {
             "baseLevel": 1,
             "avatarTypes": {
@@ -7507,7 +7513,7 @@
             },
             "items": [
                 {
-                    "type": "/Lotus/Weapons/Grineer/GrineerPistol/BurstPistol"
+                    "type": "/Lotus/Weapons/Grineer/GrineerPistol/BurstPistolAI"
                 },
                 {
                     "type": "/Lotus/Weapons/Grineer/Shield/ShieldElite"
@@ -14075,7 +14081,7 @@
                     "type": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/InfestedAttackDroneMicroplanetGun"
                 },
                 {
-                    "type": "/Lotus/Powersuits/NpcPowersuits/NokkoColony/NokkoFlyingAttackPowerSuit"
+                    "type": "/Lotus/Types/Enemies/NokkoColony/Weapons/NokkoInfFlyingAttackDroneGun"
                 }
             ]
         },
@@ -16010,6 +16016,28 @@
                 },
                 {
                     "type": "/Lotus/Types/Enemies/Sentients/Vip/Erra/ErraSentientFollowerSuit"
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/Shadowgrapher/InkframeCloneEnemyAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/Shadowgrapher/InkframeCloneEnemyAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/Shadowgrapher/NpcShadowgrapherCloneSuit"
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/Shadowgrapher/InkframeEnemyAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/Shadowgrapher/InkframeEnemyAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/Shadowgrapher/NpcShadowgrapherSuit"
                 }
             ]
         },
@@ -18038,6 +18066,20 @@
                 }
             ]
         },
+        "/Lotus/Types/Enemies/Tau/GuiltSentient/GroundPhase/DactolystGroundBossHardModeAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/Tau/GuiltSentient/GroundPhase/DactolystGroundBossHardModeAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/DactolystGroundHardModePowerSuit"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/DactolystWeapon"
+                }
+            ]
+        },
         "/Lotus/Types/Enemies/Tau/GuiltSentient/SentientGuiltBossAgent": {
             "baseLevel": 1,
             "avatarTypes": {
@@ -18052,10 +18094,52 @@
                 }
             ]
         },
+        "/Lotus/Types/Enemies/Tau/GuiltSentient/SentientGuiltBossHardModeAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/Tau/GuiltSentient/DactolystBossHardModeAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/SentientGuiltBossHardModePowerSuit"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/DactolystWeapon"
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/Tau/Monolyst/HardModeMonolystChoralystAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/Tau/Monolyst/HardModeMonolystChoralystAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/Monolyst/Choralyst/MonolystFightChoralystCannon"
+                }
+            ]
+        },
         "/Lotus/Types/Enemies/Tau/Primes/Ash/AshPrimeBossAgent": {
             "baseLevel": 1,
             "avatarTypes": {
                 "STANDARD": "/Lotus/Types/Enemies/Tau/Primes/Ash/AshPrimeBossAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/Primes/Ash/AshPrimeBossPrimeNikanaWeapon"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/Primes/Ash/AshPrimeNpc"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/Primes/Ash/AshPrimeBossPrimeHikouWeapon"
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/Tau/Primes/Ash/AshPrimeBossHardModeAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/Tau/Primes/Ash/AshPrimeBossHardModeAvatar"
             },
             "items": [
                 {
@@ -18090,6 +18174,23 @@
             "baseLevel": 1,
             "avatarTypes": {
                 "STANDARD": "/Lotus/Types/Enemies/Tau/Primes/Caliban/CalibanPrimeBossAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/Primes/Caliban/CalibanPrimeBossPrimeLightningGunWeapon"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/Primes/Caliban/CalibanPrimeNpc"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/Primes/Caliban/CalibanPrimeBossPrimeVentoScytheWeapon"
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/Tau/Primes/Caliban/CalibanPrimeBossHardModeAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/Tau/Primes/Caliban/CalibanPrimeBossHardModeAvatar"
             },
             "items": [
                 {
@@ -18236,6 +18337,23 @@
                 }
             ]
         },
+        "/Lotus/Types/Enemies/Tau/Primes/Ember/EmberPrimeBossHardModeAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/Tau/Primes/Ember/EmberPrimeBossHardModeAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/Primes/Ember/EmberPrimeNpc"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/Primes/Ember/EmberPrimeBossSicarusWeapon"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/Primes/Ember/EmberPrimeBossGlaiveWeapon"
+                }
+            ]
+        },
         "/Lotus/Types/Enemies/Tau/Primes/Ember/EmberPrimeTMWAgent": {
             "baseLevel": 1,
             "avatarTypes": {
@@ -18257,6 +18375,23 @@
             "baseLevel": 1,
             "avatarTypes": {
                 "STANDARD": "/Lotus/Types/Enemies/Tau/Primes/Mesa/MesaPrimeBossAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/Primes/Mesa/MesaPrimeBossRedeemerPrimeWeapon"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/Primes/Mesa/MesaPrimeNpc"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/Primes/Mesa/MesaPrimeBossAkJagaraPrimeWeapon"
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/Tau/Primes/Mesa/MesaPrimeBossHardModeAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/Tau/Primes/Mesa/MesaPrimeBossHardModeAvatar"
             },
             "items": [
                 {
@@ -18304,6 +18439,23 @@
                 }
             ]
         },
+        "/Lotus/Types/Enemies/Tau/Primes/Protea/ProteaPrimeBossHardModeAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/Tau/Primes/Protea/ProteaPrimeBossHardModeAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/Primes/Protea/ProteaPrimeBossPrimeVeloxWeapon"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/Primes/Protea/ProteaPrimeNpc"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/Primes/Protea/ProteaPrimeBossPrimeOkinaWeapon"
+                }
+            ]
+        },
         "/Lotus/Types/Enemies/Tau/Primes/Protea/ProteaPrimeBossQuestAgent": {
             "baseLevel": 1,
             "avatarTypes": {
@@ -18338,10 +18490,44 @@
                 }
             ]
         },
+        "/Lotus/Types/Enemies/Tau/Primes/Trinity/TrinityPrimeBossAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/Tau/Primes/Trinity/TrinityPrimeBossAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/Primes/Trinity/TrinityPrimeNpc"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/Primes/Trinity/TrinityPrimeBossPrimeLex"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/Primes/Trinity/TrinityPrimeBossPrimeDualKamas"
+                }
+            ]
+        },
         "/Lotus/Types/Enemies/Tau/Primes/Volt/VoltPrimeBossAgent": {
             "baseLevel": 1,
             "avatarTypes": {
                 "STANDARD": "/Lotus/Types/Enemies/Tau/Primes/Volt/VoltPrimeBossAvatar"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/Primes/Volt/VoltPrimeBossPrimeDualKeresWeapon"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/Primes/Volt/VoltPrimeCorvasWeapon"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/Tau/Primes/Volt/VoltPrimeNpc"
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/Tau/Primes/Volt/VoltPrimeBossHardModeAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/Tau/Primes/Volt/VoltPrimeBossHardModeAvatar"
             },
             "items": [
                 {
@@ -19584,21 +19770,6 @@
                 }
             ]
         },
-        "/Lotus/Types/Enemies/WF1999Infested/InfestedRunner/VaniaDefenseInfestedRunner1999Agent": {
-            "baseLevel": 1,
-            "avatarTypes": {
-                "STANDARD": "/Lotus/Types/Enemies/WF1999Infested/InfestedRunner/VaniaDefenseInfestedRunner1999Avatar",
-                "EXIMUS": "/Lotus/Types/Enemies/WF1999Infested/InfestedRunner/VaniaDefenseInfestedRunner1999AvatarLeader"
-            },
-            "items": [
-                {
-                    "type": "/Lotus/Weapons/Infested/1999Infested/InfestedRunner1999MeleeWeapon"
-                },
-                {
-                    "type": "/Lotus/Weapons/Infested/1999Infested/Infested1999VomitGun"
-                }
-            ]
-        },
         "/Lotus/Types/Enemies/WF1999Infested/InfestedUndazoa/InfestedUndazoa1999Agent": {
             "baseLevel": 1,
             "avatarTypes": {
@@ -19618,23 +19789,6 @@
             "baseLevel": 1,
             "avatarTypes": {
                 "STANDARD": "/Lotus/Types/Enemies/WF1999Infested/InfestedVolatileRunner/InfestedVolatileRunner1999Avatar"
-            },
-            "items": [
-                {
-                    "type": "/Lotus/Weapons/Infested/1999Infested/InfestedRunner1999MeleeWeapon"
-                },
-                {
-                    "type": "/Lotus/Weapons/Infested/1999Infested/Infested1999VomitGun"
-                },
-                {
-                    "type": "/Lotus/Powersuits/NpcPowersuits/Infested1999VolatileRunnerPowersuit"
-                }
-            ]
-        },
-        "/Lotus/Types/Enemies/WF1999Infested/InfestedVolatileRunner/VaniaDefenseInfestedVolatileRunner1999Agent": {
-            "baseLevel": 1,
-            "avatarTypes": {
-                "STANDARD": "/Lotus/Types/Enemies/WF1999Infested/InfestedVolatileRunner/VaniaDefenseInfestedVolatileRunner1999Avatar"
             },
             "items": [
                 {
@@ -27772,6 +27926,18 @@
             "droptable": "/Lotus/Types/DropTables/GrineerRollingDroneDropTable",
             "codexScansRequired": 5
         },
+        "/Lotus/Types/Enemies/Grineer/AIWeek/GrineerBigDropshipAvatarTutorial": {
+            "name": "/Lotus/Language/Enemies/GrineerBigDropshipName",
+            "icon": "/Lotus/Interface/Icons/Npcs/Grineer/Eidolon/BigDripShip.png",
+            "description": "/Lotus/Language/Enemies/GrineerBigDropshipDesc",
+            "faction": "Grineer",
+            "health": 10000,
+            "damageController": "/Lotus/Types/Enemies/Grineer/Eidolon/GrineerDropship/GrineerBigDropshipDamageController",
+            "factionResistanceKeyword": "RK_GRINEER_FACTION",
+            "killXPReward": 500,
+            "codexScansRequired": 5,
+            "excludeFromSimulacrum": true
+        },
         "/Lotus/Types/Enemies/Grineer/ChemStrike/ChemStrikeNoxAvatar": {
             "name": "/Lotus/Language/Game/ChemStrikeNox",
             "icon": "/Lotus/Interface/Icons/Npcs/Grineer/ChemStrikeNox.png",
@@ -28681,7 +28847,7 @@
             "icon": "/Lotus/Interface/Icons/Npcs/GrnSkiff.png",
             "description": "/Lotus/Language/Game/GrineerSkiffDesc",
             "faction": "Grineer",
-            "health": 300,
+            "health": 3500,
             "damageController": "/Lotus/Types/Enemies/Grineer/Eidolon/GrineerSkiff/UnmannedSkiff/UnmannedSkiffDamageController",
             "killXPReward": 200,
             "droptable": "/Lotus/Types/DropTables/SpaceDropTables/GrineerSpaceMarineDropTable",
@@ -28692,7 +28858,7 @@
             "icon": "/Lotus/Interface/Icons/Npcs/GrnSkiff.png",
             "description": "/Lotus/Language/Game/GrineerSkiffDesc",
             "faction": "Grineer",
-            "health": 300,
+            "health": 3500,
             "damageController": "/Lotus/Types/Enemies/Grineer/Eidolon/GrineerSkiff/UnmannedSkiff/UnmannedSkiffDamageController",
             "killXPReward": 200,
             "droptable": "/Lotus/Types/DropTables/SpaceDropTables/GrineerSpaceMarineDropTable",
@@ -31757,7 +31923,7 @@
             "name": "/Lotus/Language/Game/CaptainVor",
             "icon": "/Lotus/Interface/Icons/Npcs/CaptainVorBossAvatar.png",
             "faction": "Grineer",
-            "health": 3600,
+            "health": 15000,
             "damageController": "/Lotus/Types/Enemies/Grineer/Vip/VorTutorial/VorTutScaledLotusDamageController",
             "killXPReward": 1500,
             "codexScansRequired": 5
@@ -34440,7 +34606,7 @@
         },
         "/Lotus/Types/Enemies/Narmer/Ships/NarmerVenusDropshipAvatar": {
             "name": "/Lotus/Language/Narmer/NarmerVenusDropship",
-            "icon": "/Lotus/Interface/Icons/Npcs/Corpus/CorpusDropShip.png",
+            "icon": "/Lotus/Interface/Icons/Npcs/Narmer/NarmerVenusDropship.png",
             "description": "/Lotus/Language/Narmer/NarmerVehicleDescription",
             "faction": "Narmer",
             "health": 17500,
@@ -34452,7 +34618,7 @@
         },
         "/Lotus/Types/Enemies/Narmer/Ships/NarmerVenusSmallDropshipAvatar": {
             "name": "/Lotus/Language/Narmer/NarmerVenusSmallDropship",
-            "icon": "/Lotus/Interface/Icons/Npcs/Corpus/CorpusDropShip.png",
+            "icon": "/Lotus/Interface/Icons/Npcs/Narmer/NarmerVenusSmallDropship.png",
             "description": "/Lotus/Language/Narmer/NarmerVehicleDescription",
             "faction": "Narmer",
             "health": 15000,
@@ -36494,6 +36660,26 @@
             "killXPReward": 300,
             "droptable": "/Lotus/Types/DropTables/SentientTrooperDropTable",
             "codexScansRequired": 3
+        },
+        "/Lotus/Types/Enemies/Shadowgrapher/InkframeCloneEnemyAvatar": {
+            "name": "/Lotus/Language/Shadowgrapher/InkframeEnemyName",
+            "icon": "/Lotus/Interface/Icons/Npcs/InkFrameEnemy.png",
+            "description": "/Lotus/Language/Shadowgrapher/InkframeEnemyDesc",
+            "faction": "NEUTRAL",
+            "health": 400,
+            "damageController": "/Lotus/Types/Enemies/Shadowgrapher/ShadowgrapherCloneDamageController",
+            "killXPReward": 1500,
+            "codexScansRequired": 5
+        },
+        "/Lotus/Types/Enemies/Shadowgrapher/InkframeEnemyAvatar": {
+            "name": "/Lotus/Language/Shadowgrapher/InkframeEnemyName",
+            "icon": "/Lotus/Interface/Icons/Npcs/InkFrameEnemy.png",
+            "description": "/Lotus/Language/Shadowgrapher/InkframeEnemyDesc",
+            "faction": "NEUTRAL",
+            "health": 400,
+            "damageController": "/Lotus/Types/Enemies/Shadowgrapher/ShadowgrapherEnemyDamageController",
+            "killXPReward": 1500,
+            "codexScansRequired": 5
         },
         "/Lotus/Types/Enemies/SpaceBattles/Corpus/CrewMan/JetpackMarineAvatar": {
             "name": "/Lotus/Language/Game/CorpusJetSpaceManName",
@@ -38663,6 +38849,17 @@
             "killXPReward": 0,
             "codexScansRequired": 1
         },
+        "/Lotus/Types/Enemies/Tau/GuiltSentient/DactolystBossHardModeAvatar": {
+            "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/DactolystHardmodeFlyingBossName",
+            "icon": "/Lotus/Interface/Icons/Npcs/Sentients/Dactolyst.png",
+            "description": "/Lotus/Language/TauPrequel/TauPrequelFinal/DactolystBossDesc",
+            "faction": "Sentient",
+            "health": 100000,
+            "damageController": "/Lotus/Types/Enemies/Tau/GuiltSentient/DactolystHardmodeDamageController",
+            "factionResistanceKeyword": "RK_SENTIENT_FACTION",
+            "killXPReward": 0,
+            "codexScansRequired": 1
+        },
         "/Lotus/Types/Enemies/Tau/GuiltSentient/DactolystMeleeTrooperAvatar": {
             "name": "/Lotus/Language/Game/SentientMeleeTrooperName",
             "icon": "/Lotus/Interface/Icons/Npcs/Sentients/SentientMeleeTrooper.png",
@@ -38695,12 +38892,44 @@
             "killXPReward": 5000,
             "codexScansRequired": 5
         },
+        "/Lotus/Types/Enemies/Tau/GuiltSentient/GroundPhase/DactolystGroundBossHardModeAvatar": {
+            "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/DactolystHardmodeGroundBossName",
+            "description": "/Lotus/Language/TauPrequel/TauPrequelFinal/DactolystBossDesc",
+            "faction": "Sentient",
+            "health": 100000,
+            "damageController": "/Lotus/Types/Enemies/Tau/GuiltSentient/GroundPhase/DactolystGroundHardmodeDamageController",
+            "factionResistanceKeyword": "RK_SENTIENT_FACTION",
+            "killXPReward": 5000,
+            "codexScansRequired": 5
+        },
+        "/Lotus/Types/Enemies/Tau/Monolyst/HardModeMonolystChoralystAvatar": {
+            "name": "/Lotus/Language/Enemies/SentientEidolonGhostCasterName",
+            "icon": "/Lotus/Interface/Icons/Npcs/Sentients/SentientEidolonGhostCaster.png",
+            "description": "/Lotus/Language/Enemies/SentientEidolonGhostCasterDesc",
+            "faction": "Sentient",
+            "health": 750,
+            "damageController": "/Lotus/Types/Enemies/Tau/Monolyst/Choralyst/MonolystFightChoralystVoidOnlyDamageController",
+            "factionResistanceKeyword": "RK_SENTIENT_FACTION",
+            "killXPReward": 200,
+            "codexScansRequired": 5
+        },
         "/Lotus/Types/Enemies/Tau/Primes/Ash/AshPrimeBossAvatar": {
             "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/AshPrimeBossName",
             "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/AshPrime.png",
             "faction": "Anarch",
             "health": 15000,
             "damageController": "/Lotus/Types/Enemies/Tau/Primes/PrimeWarframesBossesDamageController",
+            "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
+            "killXPReward": 5000,
+            "codexScansRequired": 1,
+            "excludeFromSimulacrum": true
+        },
+        "/Lotus/Types/Enemies/Tau/Primes/Ash/AshPrimeBossHardModeAvatar": {
+            "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/AshPrimeBossName",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/AshPrime.png",
+            "faction": "Anarch",
+            "health": 15000,
+            "damageController": "/Lotus/Types/Enemies/Tau/Primes/PrimeWarframesBossesHardModeDamageController",
             "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
             "killXPReward": 5000,
             "codexScansRequired": 1,
@@ -38724,6 +38953,17 @@
             "faction": "Anarch",
             "health": 15000,
             "damageController": "/Lotus/Types/Enemies/Tau/Primes/PrimeWarframesBossesDamageController",
+            "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
+            "killXPReward": 5000,
+            "codexScansRequired": 1,
+            "excludeFromSimulacrum": true
+        },
+        "/Lotus/Types/Enemies/Tau/Primes/Caliban/CalibanPrimeBossHardModeAvatar": {
+            "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/CalibanPrimeBossName",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/CalibanPrime.png",
+            "faction": "Anarch",
+            "health": 15000,
+            "damageController": "/Lotus/Types/Enemies/Tau/Primes/PrimeWarframesBossesHardModeDamageController",
             "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
             "killXPReward": 5000,
             "codexScansRequired": 1,
@@ -38817,6 +39057,17 @@
             "codexScansRequired": 5,
             "excludeFromSimulacrum": true
         },
+        "/Lotus/Types/Enemies/Tau/Primes/Ember/EmberPrimeBossHardModeAvatar": {
+            "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/EmberPrimeBossName",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/EmberPrime.png",
+            "faction": "Anarch",
+            "health": 15000,
+            "damageController": "/Lotus/Types/Enemies/Tau/Primes/PrimeWarframesBossesHardModeDamageController",
+            "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
+            "killXPReward": 5000,
+            "codexScansRequired": 5,
+            "excludeFromSimulacrum": true
+        },
         "/Lotus/Types/Enemies/Tau/Primes/Ember/EmberPrimeTMWAvatar": {
             "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/EmberPrimeBossName",
             "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/EmberPrime.png",
@@ -38840,6 +39091,17 @@
             "codexScansRequired": 1,
             "excludeFromSimulacrum": true
         },
+        "/Lotus/Types/Enemies/Tau/Primes/Mesa/MesaPrimeBossHardModeAvatar": {
+            "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/MesaPrimeBossName",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/MesaPrime.png",
+            "faction": "Anarch",
+            "health": 15000,
+            "damageController": "/Lotus/Types/Enemies/Tau/Primes/PrimeWarframesBossesHardModeDamageController",
+            "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
+            "killXPReward": 5000,
+            "codexScansRequired": 1,
+            "excludeFromSimulacrum": true
+        },
         "/Lotus/Types/Enemies/Tau/Primes/Mesa/MesaPrimeTMWAvatar": {
             "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/MesaPrimeBossName",
             "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/MesaPrime.png",
@@ -38858,6 +39120,18 @@
             "faction": "Anarch",
             "health": 15000,
             "damageController": "/Lotus/Types/Enemies/Tau/Primes/PrimeWarframesBossesDamageController",
+            "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
+            "killXPReward": 5000,
+            "droptable": "/Lotus/Types/DropTables/TennoSpecterDropTable",
+            "codexScansRequired": 5,
+            "excludeFromSimulacrum": true
+        },
+        "/Lotus/Types/Enemies/Tau/Primes/Protea/ProteaPrimeBossHardModeAvatar": {
+            "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/ProteaPrimeBossName",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/ProteaPrime.png",
+            "faction": "Anarch",
+            "health": 15000,
+            "damageController": "/Lotus/Types/Enemies/Tau/Primes/PrimeWarframesBossesHardModeDamageController",
             "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
             "killXPReward": 5000,
             "droptable": "/Lotus/Types/DropTables/TennoSpecterDropTable",
@@ -38888,12 +39162,35 @@
             "codexScansRequired": 5,
             "excludeFromSimulacrum": true
         },
+        "/Lotus/Types/Enemies/Tau/Primes/Trinity/TrinityPrimeBossAvatar": {
+            "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/TrinityPrimeBossName",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/TrinityPrime.png",
+            "faction": "Anarch",
+            "health": 8500,
+            "damageController": "/Lotus/Types/Enemies/Tau/Primes/Trinity/TrinityPrimeHardModeDamageController",
+            "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
+            "killXPReward": 5000,
+            "droptable": "/Lotus/Types/DropTables/TennoSpecterDropTable",
+            "codexScansRequired": 5,
+            "excludeFromSimulacrum": true
+        },
         "/Lotus/Types/Enemies/Tau/Primes/Volt/VoltPrimeBossAvatar": {
             "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/VoltPrimeBossName",
             "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/VoltPrime.png",
             "faction": "Anarch",
             "health": 15000,
             "damageController": "/Lotus/Types/Enemies/Tau/Primes/PrimeWarframesBossesDamageController",
+            "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
+            "killXPReward": 5000,
+            "codexScansRequired": 1,
+            "excludeFromSimulacrum": true
+        },
+        "/Lotus/Types/Enemies/Tau/Primes/Volt/VoltPrimeBossHardModeAvatar": {
+            "name": "/Lotus/Language/TauPrequel/TauPrequelFinal/VoltPrimeBossName",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/VoltPrime.png",
+            "faction": "Anarch",
+            "health": 15000,
+            "damageController": "/Lotus/Types/Enemies/Tau/Primes/PrimeWarframesBossesHardModeDamageController",
             "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
             "killXPReward": 5000,
             "codexScansRequired": 1,
@@ -39873,29 +40170,6 @@
             "killXPReward": 35,
             "codexScansRequired": 5
         },
-        "/Lotus/Types/Enemies/WF1999Infested/InfestedRunner/VaniaDefenseInfestedRunner1999Avatar": {
-            "name": "/Lotus/Language/1999/ProtoInfestedRunnerName",
-            "icon": "/Lotus/Interface/Icons/Npcs/Infested/1999/InfestedRunner.png",
-            "description": "/Lotus/Language/1999/ProtoInfestedRunnerDesc",
-            "faction": "Techrot",
-            "health": 100,
-            "damageController": "/Lotus/Types/Enemies/WF1999Infested/InfestedRunner/InfestedRunner1999DamageController",
-            "factionResistanceKeyword": "RK_PROTOINFESTED_FACTION",
-            "killXPReward": 25,
-            "codexScansRequired": 5
-        },
-        "/Lotus/Types/Enemies/WF1999Infested/InfestedRunner/VaniaDefenseInfestedRunner1999AvatarLeader": {
-            "name": "/Lotus/Language/1999/ProtoInfestedRunnerName",
-            "icon": "/Lotus/Interface/Icons/Npcs/Infested/1999/InfestedRunner.png",
-            "description": "/Lotus/Language/1999/ProtoInfestedRunnerDesc",
-            "faction": "Techrot",
-            "health": 100,
-            "damageController": "/Lotus/Types/Enemies/WF1999Infested/InfestedRunner/InfestedRunner1999DamageController",
-            "factionResistanceKeyword": "RK_PROTOINFESTED_FACTION",
-            "killXPReward": 250,
-            "droptable": "/Lotus/Types/DropTables/WF1999DropTables/VaniaDefenseTechrotRunnerDropTable",
-            "codexScansRequired": 3
-        },
         "/Lotus/Types/Enemies/WF1999Infested/InfestedUndazoa/InfestedUndazoa1999Avatar": {
             "name": "/Lotus/Language/1999/ProtoInfestedZongroName",
             "icon": "/Lotus/Interface/Icons/Npcs/Infested/1999/InfestedUnadoza.png",
@@ -39930,17 +40204,6 @@
             "factionResistanceKeyword": "RK_PROTOINFESTED_FACTION",
             "killXPReward": 25,
             "droptable": "/Lotus/Types/DropTables/WF1999DropTables/TechrotVolatileRunnerDropTable",
-            "codexScansRequired": 5
-        },
-        "/Lotus/Types/Enemies/WF1999Infested/InfestedVolatileRunner/VaniaDefenseInfestedVolatileRunner1999Avatar": {
-            "name": "/Lotus/Language/1999/ProtoInfestedVolatileRunnerName",
-            "icon": "/Lotus/Interface/Icons/Npcs/Infested/1999/InfestedVolatileRunner.png",
-            "description": "/Lotus/Language/1999/ProtoInfestedVolatileRunnerDesc",
-            "faction": "Techrot",
-            "health": 80,
-            "damageController": "/Lotus/Types/Enemies/WF1999Infested/InfestedVolatileRunner/InfestedVolatileRunner1999DamageController",
-            "factionResistanceKeyword": "RK_PROTOINFESTED_FACTION",
-            "killXPReward": 25,
             "codexScansRequired": 5
         },
         "/Lotus/Types/Enemies/WF1999Infested/InfestedWarframeCapture/InfestedCaptureMutalistAvatar": {
@@ -63932,7 +64195,7 @@
         },
         "/Lotus/Types/Enemies/Grineer/Vip/VorTutorial/VorTutScaledLotusDamageController": {
             "armor": 250,
-            "shield": 225,
+            "shield": 2750,
             "hitProxies": [
                 {
                     "bone": "GAME_C1_HEAD1",
@@ -80965,6 +81228,123 @@
                 "PT_RAGDOLL"
             ]
         },
+        "/Lotus/Types/Enemies/Shadowgrapher/ShadowgrapherCloneDamageController": {
+            "armor": 0,
+            "shield": 0,
+            "hitProxies": [
+                {
+                    "bone": "GAME_C1_HEAD1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/DaxHeadSomeCrit"
+                },
+                {
+                    "bone": "GAME_C1_SPINE2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/Torso"
+                },
+                {
+                    "bone": "GAME_R1_ARM1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightUpperArm"
+                },
+                {
+                    "bone": "GAME_R1_ARM2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightLowerArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftUpperArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftLowerArm"
+                },
+                {
+                    "bone": "GAME_R1_LEG1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightUpperLeg"
+                },
+                {
+                    "bone": "GAME_R1_LEG2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightLowerLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftUpperLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftLowerLeg"
+                }
+            ],
+            "unhandledProcTypes": [
+                "PT_KNOCKBACK",
+                "PT_FRAILTY",
+                "PT_BLEEDING",
+                "PT_IMMOLATION",
+                "PT_CHILLED",
+                "PT_ELECTROCUTION",
+                "PT_POISONED",
+                "PT_FLASHBANG",
+                "PT_RAD_TOX",
+                "PT_ASPHYXIATION",
+                "PT_MAGNETIZED",
+                "PT_INFECTED",
+                "PT_CAUSTIC_BURN",
+                "PT_RADIANT",
+                "PT_STAGGERED",
+                "PT_BIG_STAGGER",
+                "PT_STUNNED",
+                "PT_KNOCKED_DOWN",
+                "PT_RAGDOLL"
+            ]
+        },
+        "/Lotus/Types/Enemies/Shadowgrapher/ShadowgrapherEnemyDamageController": {
+            "armor": 0,
+            "shield": 0,
+            "hitProxies": [
+                {
+                    "bone": "GAME_C1_HEAD1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/DaxHeadSomeCrit"
+                },
+                {
+                    "bone": "GAME_C1_SPINE2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/Torso"
+                },
+                {
+                    "bone": "GAME_R1_ARM1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightUpperArm"
+                },
+                {
+                    "bone": "GAME_R1_ARM2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightLowerArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftUpperArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftLowerArm"
+                },
+                {
+                    "bone": "GAME_R1_LEG1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightUpperLeg"
+                },
+                {
+                    "bone": "GAME_R1_LEG2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightLowerLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftUpperLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftLowerLeg"
+                }
+            ],
+            "unhandledProcTypes": [
+                "PT_RADIANT",
+                "PT_BIG_STAGGER"
+            ]
+        },
         "/Lotus/Types/Enemies/SpaceBattles/Corpus/CrewMan/CrewManSpaceDamageController": {
             "armor": 0,
             "shield": 100,
@@ -83822,6 +84202,114 @@
                 "PT_RAGDOLL"
             ]
         },
+        "/Lotus/Types/Enemies/Tau/GuiltSentient/DactolystHardmodeDamageController": {
+            "armor": 50,
+            "shield": 0,
+            "hitProxies": [
+                {
+                    "bone": "GAME_L1_LEG3",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystLegLeftLower"
+                },
+                {
+                    "bone": "GAME_L1_LEG2",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystLegLeftUpper"
+                },
+                {
+                    "bone": "GAME_R1_LEG3",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystLegRightLower"
+                },
+                {
+                    "bone": "GAME_R1_LEG2",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystLegRightUpper"
+                },
+                {
+                    "bone": "GAME_C1_SPINE1",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystTorso"
+                },
+                {
+                    "bone": "GAME_C1_HEAD1",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystHead"
+                },
+                {
+                    "bone": "GAME_C1_TAILNEW5",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystTailLower"
+                },
+                {
+                    "bone": "GAME_C1_TAILNEW9",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystTailMiddle"
+                },
+                {
+                    "bone": "GAME_L1_TAILGUNGRD1",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystTailUpper"
+                },
+                {
+                    "bone": "GAME_L1_WINGA1",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystWingLeftFrontUpper"
+                },
+                {
+                    "bone": "GAME_L1_WINGA2",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystWingLeftFrontMiddle"
+                },
+                {
+                    "bone": "GAME_L1_WINGA3",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystWingLeftFrontLower"
+                },
+                {
+                    "bone": "GAME_R1_WINGA1",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystWingRightFrontUpper"
+                },
+                {
+                    "bone": "GAME_R1_WINGA2",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystWingRightFrontMiddle"
+                },
+                {
+                    "bone": "GAME_R1_WINGA3",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystWingRightFrontLower"
+                },
+                {
+                    "bone": "GAME_L1_WINGB1",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystWingLeftBackUpper"
+                },
+                {
+                    "bone": "GAME_L1_WINGB2",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystWingLeftBackMiddle"
+                },
+                {
+                    "bone": "GAME_L1_WINGB3",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystWingLeftBackLower"
+                },
+                {
+                    "bone": "GAME_R1_WINGB1",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystWingRightBackUpper"
+                },
+                {
+                    "bone": "GAME_R1_WINGB2",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystWingRightBackMiddle"
+                },
+                {
+                    "bone": "GAME_R1_WINGB3",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystWingRightBackLower"
+                },
+                {
+                    "bone": "GAME_R1_WINGB1",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystSmallWingRightBack"
+                },
+                {
+                    "bone": "GAME_L1_WINGB1",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystSmallWingLeftBack"
+                }
+            ],
+            "unhandledProcTypes": [
+                "PT_CHILLED",
+                "PT_RAD_TOX",
+                "PT_RADIANT",
+                "PT_STAGGERED",
+                "PT_BIG_STAGGER",
+                "PT_STUNNED",
+                "PT_KNOCKED_DOWN",
+                "PT_RAGDOLL"
+            ]
+        },
         "/Lotus/Types/Enemies/Tau/GuiltSentient/DactolystScaledDamageController": {
             "armor": 0,
             "shield": 0,
@@ -84048,6 +84536,106 @@
                 "PT_RAGDOLL"
             ]
         },
+        "/Lotus/Types/Enemies/Tau/GuiltSentient/GroundPhase/DactolystGroundHardmodeDamageController": {
+            "armor": 50,
+            "shield": 0,
+            "hitProxies": [
+                {
+                    "bone": "GAME_L1_LEG3",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystLegLeftLower"
+                },
+                {
+                    "bone": "GAME_L1_LEG2",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystLegLeftUpper"
+                },
+                {
+                    "bone": "GAME_R1_LEG3",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystLegRightLower"
+                },
+                {
+                    "bone": "GAME_R1_LEG2",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystLegRightUpper"
+                },
+                {
+                    "bone": "GAME_C1_SPINE1",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystTorso"
+                },
+                {
+                    "bone": "GAME_C1_HEAD1",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystHead"
+                },
+                {
+                    "bone": "GAME_C1_TAILNEW5",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystTailLower"
+                },
+                {
+                    "bone": "GAME_C1_TAILNEW9",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystTailMiddle"
+                },
+                {
+                    "bone": "GAME_L1_TAILGUNGRD1",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystTailUpper"
+                },
+                {
+                    "bone": "GAME_L1_WINGA1",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystWingLeftFrontUpper"
+                },
+                {
+                    "bone": "GAME_R1_WINGA1",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystWingRightFrontUpper"
+                },
+                {
+                    "bone": "GAME_L1_WINGB1",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystWingLeftBackUpper"
+                },
+                {
+                    "bone": "GAME_L1_WINGB2",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystWingLeftBackMiddle"
+                },
+                {
+                    "bone": "GAME_L1_WINGB3",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystWingLeftBackLower"
+                },
+                {
+                    "bone": "GAME_R1_WINGB1",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystWingRightBackUpper"
+                },
+                {
+                    "bone": "GAME_R1_WINGB2",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystWingRightBackMiddle"
+                },
+                {
+                    "bone": "GAME_R1_WINGB3",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystWingRightBackLower"
+                },
+                {
+                    "bone": "GAME_R1_WINGB1",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystSmallWingRightBack"
+                },
+                {
+                    "bone": "GAME_L1_WINGB1",
+                    "type": "/Lotus/Types/Enemies/Tau/GuiltSentient/HitProxy/DactolystSmallWingLeftBack"
+                }
+            ],
+            "unhandledProcTypes": [
+                "PT_FRAILTY",
+                "PT_BLEEDING",
+                "PT_CHILLED",
+                "PT_ELECTROCUTION",
+                "PT_POISONED",
+                "PT_RAD_TOX",
+                "PT_ASPHYXIATION",
+                "PT_MAGNETIZED",
+                "PT_INFECTED",
+                "PT_CAUSTIC_BURN",
+                "PT_RADIANT",
+                "PT_STAGGERED",
+                "PT_BIG_STAGGER",
+                "PT_STUNNED",
+                "PT_KNOCKED_DOWN",
+                "PT_RAGDOLL"
+            ]
+        },
         "/Lotus/Types/Enemies/Tau/GuiltSentient/GroundPhase/DactolystGroundScaledDamageController": {
             "armor": 0,
             "shield": 0,
@@ -84148,6 +84736,79 @@
                 "PT_RAGDOLL"
             ]
         },
+        "/Lotus/Types/Enemies/Tau/Monolyst/Choralyst/MonolystFightChoralystVoidOnlyDamageController": {
+            "armor": 0,
+            "shield": 0,
+            "hitProxies": [
+                {
+                    "bone": "GAME_C1_JAW2",
+                    "type": "/Lotus/Types/Enemies/Sentients/SentientBaseHead"
+                },
+                {
+                    "bone": "GAME_C1_NECK1",
+                    "type": "/Lotus/Types/Enemies/Sentients/SentientBaseNeck"
+                },
+                {
+                    "bone": "GAME_C1_NECK1",
+                    "type": "/Lotus/Types/Enemies/Sentients/SentientBaseNeckRear"
+                },
+                {
+                    "bone": "GAME_C1_SPINE5",
+                    "type": "/Lotus/Types/Enemies/Sentients/SentientBaseShoulderblades"
+                },
+                {
+                    "bone": "GAME_C1_SPINE5",
+                    "type": "/Lotus/Types/Enemies/Sentients/SentientBaseUpperTorso"
+                },
+                {
+                    "bone": "GAME_C1_SPINE5",
+                    "type": "/Lotus/Types/Enemies/Sentients/SentientBaseUpperTorso"
+                },
+                {
+                    "bone": "GAME_C1_SPINE2",
+                    "type": "/Lotus/Types/Enemies/Sentients/SentientBaseTorsoLower"
+                },
+                {
+                    "bone": "GAME_C1_SPINE2",
+                    "type": "/Lotus/Types/Enemies/Sentients/SentientBaseTorsoLower"
+                },
+                {
+                    "bone": "GAME_L1_LEG1",
+                    "type": "/Lotus/Types/Enemies/Sentients/SentientBaseLegLeftUpper"
+                },
+                {
+                    "bone": "GAME_L1_LEG1",
+                    "type": "/Lotus/Types/Enemies/Sentients/SentientBaseLegLeftMid"
+                },
+                {
+                    "bone": "GAME_L1_LEG2",
+                    "type": "/Lotus/Types/Enemies/Sentients/SentientBaseLegLeftLower"
+                },
+                {
+                    "bone": "GAME_R1_LEG1",
+                    "type": "/Lotus/Types/Enemies/Sentients/SentientBaseLegRightUpper"
+                },
+                {
+                    "bone": "GAME_R1_LEG1",
+                    "type": "/Lotus/Types/Enemies/Sentients/SentientBaseLegRightMid"
+                },
+                {
+                    "bone": "GAME_R1_LEG2",
+                    "type": "/Lotus/Types/Enemies/Sentients/SentientBaseLegRightLower"
+                },
+                {
+                    "bone": "GAME_C1_HIP1",
+                    "type": "/Lotus/Types/Enemies/Sentients/SentientBaseTail"
+                },
+                {
+                    "bone": "GAME_C1_HIP1",
+                    "type": "/Lotus/Types/Enemies/Sentients/SentientBaseTail"
+                }
+            ],
+            "unhandledProcTypes": [
+                "PT_RADIANT"
+            ]
+        },
         "/Lotus/Types/Enemies/Tau/Primes/PrimeWarframesBossesDamageController": {
             "armor": 50,
             "shield": 1750,
@@ -84202,9 +84863,117 @@
                 "PT_RAGDOLL"
             ]
         },
+        "/Lotus/Types/Enemies/Tau/Primes/PrimeWarframesBossesHardModeDamageController": {
+            "armor": 50,
+            "shield": 10750,
+            "hitProxies": [
+                {
+                    "bone": "GAME_C1_NECK1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/HeadNoCrit"
+                },
+                {
+                    "bone": "GAME_C1_SPINE2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/Torso"
+                },
+                {
+                    "bone": "GAME_R1_ARM1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightUpperArm"
+                },
+                {
+                    "bone": "GAME_R1_ARM2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightLowerArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftUpperArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftLowerArm"
+                },
+                {
+                    "bone": "GAME_R1_LEG1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightUpperLeg"
+                },
+                {
+                    "bone": "GAME_R1_LEG2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightLowerLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftUpperLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftLowerLeg"
+                }
+            ],
+            "unhandledProcTypes": [
+                "PT_RADIANT",
+                "PT_STAGGERED",
+                "PT_BIG_STAGGER",
+                "PT_STUNNED",
+                "PT_KNOCKED_DOWN",
+                "PT_RAGDOLL"
+            ]
+        },
         "/Lotus/Types/Enemies/Tau/Primes/PrimeWarframesBossesQuestDamageController": {
             "armor": 50,
             "shield": 3500,
+            "hitProxies": [
+                {
+                    "bone": "GAME_C1_NECK1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/HeadNoCrit"
+                },
+                {
+                    "bone": "GAME_C1_SPINE2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/Torso"
+                },
+                {
+                    "bone": "GAME_R1_ARM1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightUpperArm"
+                },
+                {
+                    "bone": "GAME_R1_ARM2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightLowerArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftUpperArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftLowerArm"
+                },
+                {
+                    "bone": "GAME_R1_LEG1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightUpperLeg"
+                },
+                {
+                    "bone": "GAME_R1_LEG2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/RightLowerLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG1",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftUpperLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG2",
+                    "type": "/EE/Types/Npc/Avatars/HitProxies/LeftLowerLeg"
+                }
+            ],
+            "unhandledProcTypes": [
+                "PT_RADIANT",
+                "PT_STAGGERED",
+                "PT_BIG_STAGGER",
+                "PT_STUNNED",
+                "PT_KNOCKED_DOWN",
+                "PT_RAGDOLL"
+            ]
+        },
+        "/Lotus/Types/Enemies/Tau/Primes/Trinity/TrinityPrimeHardModeDamageController": {
+            "armor": 5,
+            "shield": 50,
             "hitProxies": [
                 {
                     "bone": "GAME_C1_NECK1",
@@ -106055,7 +106824,7 @@
                 "chance": 0.02,
                 "items": [
                     {
-                        "type": "/Lotus/Upgrades/Mods/Aura/PlayerCompanionSummonDamageAuraMod",
+                        "type": "/Lotus/RESOLUTION_FAILURE/Summoner’S Wrath",
                         "probability": 0.4556
                     },
                     {
@@ -106111,7 +106880,7 @@
                         "probability": 0.8039
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Aura/PlayerCompanionSummonDamageAuraMod",
+                        "type": "/Lotus/RESOLUTION_FAILURE/Summoner’S Wrath",
                         "probability": 0.0784
                     },
                     {
@@ -106535,56 +107304,6 @@
             {
                 "type": "sigil",
                 "chance": 0.07,
-                "items": [
-                    {
-                        "type": "/Lotus/Types/PickUps/InfestedLichChipItem",
-                        "probability": 1.0
-                    }
-                ]
-            }
-        ],
-        "/Lotus/Types/DropTables/WF1999DropTables/VaniaDefenseTechrotRunnerDropTable": [
-            {
-                "type": "mod",
-                "chance": 0.02,
-                "items": [
-                    {
-                        "type": "/Lotus/Upgrades/Mods/FusionBundles/CommonFusionBundle",
-                        "probability": 0.438
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
-                        "probability": 0.1251
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusLargeOnSingleUseMod",
-                        "probability": 0.1043
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusOnUseMod",
-                        "probability": 0.1043
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Mods/Melee/DualStat/MagneticAttackSpeedMeleeMod",
-                        "probability": 0.0626
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Mods/Rifle/DualStat/MagneticClipRifleMod",
-                        "probability": 0.0626
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Mods/Melee/DualStat/KubrowMagneticEventMeleeMod",
-                        "probability": 0.0626
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusSmallOnSingleUseMod",
-                        "probability": 0.0407
-                    }
-                ]
-            },
-            {
-                "type": "sigil",
-                "chance": 0.02,
                 "items": [
                     {
                         "type": "/Lotus/Types/PickUps/InfestedLichChipItem",
@@ -117034,7 +117753,7 @@
                     "fireIterations": 8,
                     "impact": {
                         "DT_IMPACT": 4,
-                        "procChance": 0.1
+                        "procChance": 0
                     }
                 }
             ]
@@ -117614,6 +118333,26 @@
                     "fireIterations": 1,
                     "impact": {
                         "DT_IMPACT": 40,
+                        "procChance": 0.1
+                    }
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/NokkoColony/Weapons/NokkoInfFlyingAttackDroneGun": {
+            "name": "[HC] NokkoInfFlyingAttackDroneGun",
+            "behaviours": [
+                {
+                    "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                    "fireIterations": 1,
+                    "projectile": {
+                        "attack": {
+                            "procChance": 0
+                        }
+                    },
+                    "impact": {
+                        "DT_IMPACT": 0.999999,
+                        "DT_PUNCTURE": 0.999999,
+                        "DT_SLASH": 1.000002,
                         "procChance": 0.1
                     }
                 }
@@ -119962,6 +120701,29 @@
                 }
             ]
         },
+        "/Lotus/Types/Enemies/Tau/Monolyst/Choralyst/MonolystFightChoralystCannon": {
+            "name": "[HC] MonolystFightChoralystCannon",
+            "description": "[HC] Give me a description",
+            "icon": "/Lotus/Interface/Icons/Store/CorpusHandCannon.png",
+            "behaviours": [
+                {
+                    "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                    "fireIterations": 2,
+                    "projectile": {
+                        "attack": {
+                            "DT_SENTIENT": 125,
+                            "procChance": 1
+                        }
+                    },
+                    "impact": {
+                        "DT_IMPACT": 1.999998,
+                        "DT_PUNCTURE": 1.999998,
+                        "DT_SLASH": 2.000004,
+                        "procChance": 0.1
+                    }
+                }
+            ]
+        },
         "/Lotus/Types/Enemies/Tau/Primes/Ash/AshPrimeBossPrimeHikouWeapon": {
             "name": "[HC] AshPrimeBossPrimeHikouWeapon",
             "description": "[HC] Give me a description",
@@ -120356,6 +121118,56 @@
                 },
                 {
                     "fireIterations": 1,
+                    "impact": {
+                        "DT_IMPACT": 3.33333,
+                        "DT_PUNCTURE": 3.33333,
+                        "DT_SLASH": 3.33334,
+                        "procChance": 0.1
+                    }
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/Tau/Primes/Trinity/TrinityPrimeBossPrimeDualKamas": {
+            "name": "[HC] TrinityPrimeBossPrimeDualKamas",
+            "description": "[HC] Give me a description",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/DualKamasPrime.png",
+            "behaviours": [
+                {
+                    "fireIterations": 1,
+                    "impact": {
+                        "DT_IMPACT": 8.0,
+                        "DT_PUNCTURE": 32.0,
+                        "DT_SLASH": 120.0,
+                        "procChance": 0
+                    }
+                }
+            ]
+        },
+        "/Lotus/Types/Enemies/Tau/Primes/Trinity/TrinityPrimeBossPrimeLex": {
+            "name": "[HC] TrinityPrimeBossPrimeLex",
+            "description": "[HC] Give me a description",
+            "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Weapons/LexPrime.png",
+            "behaviours": [
+                {
+                    "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                    "fireIterations": 1,
+                    "impact": {
+                        "DT_IMPACT": 18.0,
+                        "DT_PUNCTURE": 144.0,
+                        "DT_SLASH": 18.0,
+                        "procChance": 0
+                    }
+                },
+                {
+                    "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                    "fireIterations": 1,
+                    "projectile": {
+                        "attack": {
+                            "DT_IMPACT": 400,
+                            "DT_RADIATION": 800,
+                            "procChance": 0.44
+                        }
+                    },
                     "impact": {
                         "DT_IMPACT": 3.33333,
                         "DT_PUNCTURE": 3.33333,
@@ -122417,9 +123229,9 @@
                     "fireIterations": 1,
                     "projectile": {
                         "attack": {
-                            "DT_IMPACT": 270.0,
-                            "DT_PUNCTURE": 135.0,
-                            "DT_SLASH": 45.0
+                            "DT_IMPACT": 900.0,
+                            "DT_PUNCTURE": 450.0,
+                            "DT_SLASH": 150.0
                         }
                     },
                     "impact": {
@@ -122454,9 +123266,9 @@
                         }
                     },
                     "impact": {
-                        "DT_IMPACT": 2.0,
-                        "DT_PUNCTURE": 2.0,
-                        "DT_SLASH": 6.0,
+                        "DT_IMPACT": 20.0,
+                        "DT_PUNCTURE": 20.0,
+                        "DT_SLASH": 60.0,
                         "procChance": 0
                     }
                 },
@@ -122934,7 +123746,35 @@
                         "DT_IMPACT": 7.2,
                         "DT_PUNCTURE": 2.4,
                         "DT_SLASH": 2.4,
-                        "procChance": 0.06
+                        "procChance": 0
+                    }
+                },
+                {
+                    "fireIterations": 1,
+                    "impact": {
+                        "DT_IMPACT": 40,
+                        "procChance": 0.1
+                    }
+                }
+            ]
+        },
+        "/Lotus/Weapons/Grineer/GrineerPistol/BurstPistolAI": {
+            "name": "[HC] BurstPistolAI",
+            "description": "[HC] Give me a description",
+            "icon": "/Lotus/Interface/Icons/Store/TennoBurstPistol.png",
+            "behaviours": [
+                {
+                    "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                    "fireIterations": 1,
+                    "burst": {
+                        "count": 3,
+                        "delay": 0.1
+                    },
+                    "impact": {
+                        "DT_IMPACT": 7.2,
+                        "DT_PUNCTURE": 2.4,
+                        "DT_SLASH": 2.4,
+                        "procChance": 0
                     }
                 },
                 {
@@ -123052,13 +123892,15 @@
                     "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
                     "fireIterations": 1,
                     "projectile": {
-                        "attack": {}
+                        "attack": {
+                            "procChance": 0
+                        }
                     },
                     "impact": {
                         "DT_IMPACT": 60.0,
                         "DT_PUNCTURE": 7.5,
                         "DT_SLASH": 7.5,
-                        "procChance": 0.025
+                        "procChance": 0
                     }
                 },
                 {
@@ -123977,7 +124819,7 @@
                         "DT_IMPACT": 24.0,
                         "DT_PUNCTURE": 4.5,
                         "DT_SLASH": 1.5,
-                        "procChance": 0.1
+                        "procChance": 0
                     }
                 }
             ]
@@ -124984,7 +125826,7 @@
                     "fireIterations": 8,
                     "impact": {
                         "DT_IMPACT": 4,
-                        "procChance": 0.1
+                        "procChance": 0
                     }
                 }
             ]
@@ -124995,7 +125837,7 @@
                     "fireIterations": 8,
                     "impact": {
                         "DT_IMPACT": 4,
-                        "procChance": 0.1
+                        "procChance": 0
                     }
                 }
             ]
@@ -127827,7 +128669,7 @@
                         "DT_IMPACT": 5.25,
                         "DT_PUNCTURE": 5.25,
                         "DT_SLASH": 24.5,
-                        "procChance": 0.1
+                        "procChance": 0
                     }
                 }
             ]

@@ -2038,27 +2038,6 @@
         "creditsCost": 1500,
         "excludeFromMarket": true
     },
-    "/Lotus/Types/Keys/RetrievalKeyBlueprint": {
-        "resultType": "/Lotus/Types/Keys/TestKeyShipyardsRetrieval",
-        "buildPrice": 5000,
-        "buildTime": 60,
-        "skipBuildTimePrice": 5,
-        "consumeOnUse": false,
-        "num": 1,
-        "codexSecret": false,
-        "ingredients": [
-            {
-                "ItemType": "/Lotus/Types/Items/MiscItems/DataFragment",
-                "ItemCount": 3
-            },
-            {
-                "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
-                "ItemCount": 1000
-            }
-        ],
-        "tradable": false,
-        "excludeFromMarket": true
-    },
     "/Lotus/Types/Recipes/ArchwingRecipes/DemolitionArchwing/DemolitionArchwingBlueprint": {
         "resultType": "/Lotus/Powersuits/Archwing/DemolitionJetPack/DemolitionJetPack",
         "buildPrice": 25000,
@@ -15492,7 +15471,7 @@
         "consumeOnUse": true,
         "num": 1,
         "codexSecret": false,
-        "primeSellingPrice": 100,
+        "primeSellingPrice": 65,
         "ingredients": [
             {
                 "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
@@ -17183,7 +17162,7 @@
     "/Lotus/Types/Recipes/WarframeRecipes/ExcaliburBlueprint": {
         "resultType": "/Lotus/Powersuits/Excalibur/Excalibur",
         "buildPrice": 25000,
-        "buildTime": 259200,
+        "buildTime": 86400,
         "skipBuildTimePrice": 50,
         "consumeOnUse": true,
         "num": 1,
@@ -17434,6 +17413,122 @@
             {
                 "ItemType": "/Lotus/Types/Items/MiscItems/Tellurium",
                 "ItemCount": 1
+            }
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/FollieBlueprint": {
+        "resultType": "/Lotus/Powersuits/Inkblot/Inkblot",
+        "buildPrice": 25000,
+        "buildTime": 259200,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/FollieHelmetComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/FollieChassisComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/WarframeRecipes/FollieSystemsComponent",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OrokinCell",
+                "ItemCount": 3
+            }
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/FollieChassisBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/WarframeRecipes/FollieChassisComponent",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                "ItemCount": 800
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+                "ItemCount": 2
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                "ItemCount": 800
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                "ItemCount": 600
+            }
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/FollieHelmetBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/WarframeRecipes/FollieHelmetComponent",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Neurode",
+                "ItemCount": 2
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                "ItemCount": 3
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Cryotic",
+                "ItemCount": 150
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+                "ItemCount": 2
+            }
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/FollieSystemsBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/WarframeRecipes/FollieSystemsComponent",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                "ItemCount": 250
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                "ItemCount": 500
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                "ItemCount": 4
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+                "ItemCount": 50
             }
         ],
         "tradable": false,
@@ -17976,7 +18071,7 @@
         "consumeOnUse": true,
         "num": 1,
         "codexSecret": false,
-        "primeSellingPrice": 100,
+        "primeSellingPrice": 65,
         "ingredients": [
             {
                 "ItemType": "/Lotus/Types/Items/MiscItems/Alertium",
@@ -20083,8 +20178,7 @@
             }
         ],
         "tradable": false,
-        "creditsCost": 35000,
-        "excludeFromMarket": true
+        "creditsCost": 35000
     },
     "/Lotus/Types/Recipes/WarframeRecipes/KhoraChassisBlueprint": {
         "resultType": "/Lotus/Types/Recipes/WarframeRecipes/KhoraChassisComponent",
@@ -21008,7 +21102,7 @@
     "/Lotus/Types/Recipes/WarframeRecipes/MagBlueprint": {
         "resultType": "/Lotus/Powersuits/Mag/Mag",
         "buildPrice": 25000,
-        "buildTime": 259200,
+        "buildTime": 86400,
         "skipBuildTimePrice": 50,
         "consumeOnUse": true,
         "num": 1,
@@ -24333,8 +24427,7 @@
             }
         ],
         "tradable": false,
-        "creditsCost": 35000,
-        "excludeFromMarket": true
+        "creditsCost": 35000
     },
     "/Lotus/Types/Recipes/WarframeRecipes/RangerChassisBlueprint": {
         "resultType": "/Lotus/Types/Recipes/WarframeRecipes/RangerChassisComponent",
@@ -26290,7 +26383,7 @@
     "/Lotus/Types/Recipes/WarframeRecipes/VOLTBlueprint": {
         "resultType": "/Lotus/Powersuits/Volt/Volt",
         "buildPrice": 25000,
-        "buildTime": 259200,
+        "buildTime": 86400,
         "skipBuildTimePrice": 50,
         "consumeOnUse": true,
         "num": 1,
@@ -26889,7 +26982,7 @@
         "consumeOnUse": true,
         "num": 1,
         "codexSecret": false,
-        "primeSellingPrice": 100,
+        "primeSellingPrice": 65,
         "ingredients": [
             {
                 "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
@@ -28853,6 +28946,18 @@
         "tradable": false,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Recipes/Weapons/KuvaWeapons/KuvaGhoulSawBlueprint": {
+        "resultType": "/Lotus/Weapons/Grineer/KuvaLich/Melee/Ghoulsaw/KuvaGhoulSaw",
+        "buildPrice": 10000,
+        "buildTime": 60,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Recipes/Weapons/KuvaWeapons/KuvaGrattlerBlueprint": {
         "resultType": "/Lotus/Weapons/Grineer/KuvaLich/HeavyWeapons/Grattler/KuvaGrattler",
         "buildPrice": 10000,
@@ -29107,6 +29212,18 @@
     },
     "/Lotus/Types/Recipes/Weapons/LawyerWeapons/CrpBEPlinxBlueprint": {
         "resultType": "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBEPlinx/CrpBEPlinxWeapon",
+        "buildPrice": 10000,
+        "buildTime": 60,
+        "skipBuildTimePrice": 0,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "ingredients": [],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/Weapons/LawyerWeapons/CrpBEQuantaBlueprint": {
+        "resultType": "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEQuanta/CrpBEQuanta",
         "buildPrice": 10000,
         "buildTime": 60,
         "skipBuildTimePrice": 0,
@@ -30679,6 +30796,96 @@
         ],
         "tradable": true,
         "creditsCost": 15000,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/EnkausBarrelBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/EnkausBarrel",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                "ItemCount": 180
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                "ItemCount": 250
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Ferrite",
+                "ItemCount": 400
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+                "ItemCount": 20
+            }
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/EnkausReceiverBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/EnkausReceiver",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Circuits",
+                "ItemCount": 300
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Cryotic",
+                "ItemCount": 150
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Morphic",
+                "ItemCount": 2
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Plastids",
+                "ItemCount": 250
+            }
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/EnkausStockBlueprint": {
+        "resultType": "/Lotus/Types/Recipes/Weapons/WeaponParts/EnkausStock",
+        "buildPrice": 15000,
+        "buildTime": 43200,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+                "ItemCount": 400
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Gallium",
+                "ItemCount": 2
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+                "ItemCount": 200
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/MiscItems/Salvage",
+                "ItemCount": 400
+            }
+        ],
+        "tradable": false,
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/Weapons/WeaponParts/EntFistIncarnonBladeBlueprint": {
@@ -35907,6 +36114,33 @@
             }
         ],
         "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/Weapons/EnkausBlueprint": {
+        "resultType": "/Lotus/Weapons/Tenno/LongGuns/TnInkRifle/TnInkRifleWeapon",
+        "buildPrice": 30000,
+        "buildTime": 86400,
+        "skipBuildTimePrice": 25,
+        "consumeOnUse": true,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/EnkausBarrel",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/EnkausReceiver",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Recipes/Weapons/WeaponParts/EnkausStock",
+                "ItemCount": 1
+            }
+        ],
+        "tradable": false,
+        "creditsCost": 40000,
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/Weapons/EntFistIncarnonBlueprint": {
@@ -51504,7 +51738,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/AlchemistVialBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/AlchemistVialAbility",
+        "resultType": "/Lotus/Powersuits/Alchemist/Abilities/AlchemistVialAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -51550,7 +51784,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/AshShurikenBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/GlaiveAbility",
+        "resultType": "/Lotus/Powersuits/Ninja/Abilities/GlaiveAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -51596,7 +51830,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/AtlasPetrifyBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/BrawlerGazeAbility",
+        "resultType": "/Lotus/Powersuits/Brawler/Abilities/BrawlerGazeAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -51642,7 +51876,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/BansheeSilenceBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/SilenceAbility",
+        "resultType": "/Lotus/Powersuits/Banshee/Abilities/SilenceAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -51688,7 +51922,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/BaruukLullBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/PacifistWaveAbility",
+        "resultType": "/Lotus/Powersuits/Pacifist/Abilities/PacifistWaveAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -51734,7 +51968,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/ChoirEyesBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/ChoirEyesAbility",
+        "resultType": "/Lotus/Powersuits/Choir/Abilities/ChoirEyesAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -51780,7 +52014,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/ChromaElementalWardBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/DragonLuckAbility",
+        "resultType": "/Lotus/Powersuits/Dragon/Abilities/DragonLuckAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -51826,7 +52060,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/ConcretePillarBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/ConcretePillarAbility",
+        "resultType": "/Lotus/Powersuits/ConcreteFrame/Abilities/ConcretePillarAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -51872,7 +52106,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/DagathVolleyBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/DagathVolleyAbility",
+        "resultType": "/Lotus/Powersuits/Dagath/Abilities/DagathVolleyAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -51918,7 +52152,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/DemonFrameHealBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameHealAbility",
+        "resultType": "/Lotus/Powersuits/DemonFrame/Abilities/DemonFrameHealAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -51964,7 +52198,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/EmberFireBlastBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/FireBlastAbility",
+        "resultType": "/Lotus/Powersuits/Ember/Abilities/FireBlastAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -52010,7 +52244,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/EquinoxRestAndRageBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/YinYangTargetAbility",
+        "resultType": "/Lotus/Powersuits/YinYang/Abilities/YinYangTargetAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -52056,7 +52290,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/ExcaliburRadialBlindBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/RadialBlindAbility",
+        "resultType": "/Lotus/Powersuits/Excalibur/Abilities/RadialBlindAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -52102,7 +52336,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/FrostIceWaveBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/IceSpikeAbility",
+        "resultType": "/Lotus/Powersuits/Frost/Abilities/IceSpikeAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -52148,7 +52382,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/FrumentariusCloakBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/FrumentariusCloakAbility",
+        "resultType": "/Lotus/Powersuits/Frumentarius/Abilities/FrumentariusCloakAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -52194,7 +52428,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/GaraSpectrorageBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/GlassFragmentAbility",
+        "resultType": "/Lotus/Powersuits/Glass/Abilities/GlassFragmentAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -52240,7 +52474,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/GarudaBloodAltarBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/GarudaSiphonAbility",
+        "resultType": "/Lotus/Powersuits/Garuda/Abilities/GarudaSiphonAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -52286,7 +52520,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/GaussThermalSunderBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/RunnerTransferAbility",
+        "resultType": "/Lotus/Powersuits/Runner/Abilities/RunnerTransferAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -52332,7 +52566,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/GeodeShardsBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/GeodeShardsAbility",
+        "resultType": "/Lotus/Powersuits/Geode/Abilities/GeodeShardsAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -52378,7 +52612,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/GrendelNourishBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/DevourerConsumeAbility",
+        "resultType": "/Lotus/Powersuits/Devourer/Abilities/DevourerConsumeAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -52424,7 +52658,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/GyreSphereBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/GyreSphereAbility",
+        "resultType": "/Lotus/Powersuits/Gyre/Abilities/GyreSphereAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -52470,7 +52704,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/HarrowCondemnBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/PriestCondemnAbility",
+        "resultType": "/Lotus/Powersuits/Priest/Abilities/PriestCondemnAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -52867,7 +53101,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/HildrynPillageBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/IronFrameStripAbility",
+        "resultType": "/Lotus/Powersuits/IronFrame/Abilities/IronFrameStripAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -52913,7 +53147,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/HopliteBashBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/HopliteBashAbility",
+        "resultType": "/Lotus/Powersuits/Hoplite/Abilities/HopliteBashAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -52959,7 +53193,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/HydroidTempestBarrageBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/CannonBarrageAbility",
+        "resultType": "/Lotus/Powersuits/Pirate/Abilities/CannonBarrageAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -53005,7 +53239,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/InarosDesiccationBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/SandmanBlastAbility",
+        "resultType": "/Lotus/Powersuits/Sandman/Abilities/SandmanBlastAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -53050,8 +53284,54 @@
         "tradable": false,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Recipes/AbilityOverrides/InkCloneBlueprint": {
+        "resultType": "/Lotus/Powersuits/Inkblot/Abilities/InkCloneAbility",
+        "buildPrice": 0,
+        "buildTime": 82800,
+        "skipBuildTimePrice": 50,
+        "consumeOnUse": false,
+        "num": 1,
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "hidden": true,
+        "ingredients": [
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+                "ItemCount": 190
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+                "ItemCount": 190
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+                "ItemCount": 600
+            }
+        ],
+        "secretIngredientAction": "SIA_WARFRAME_ABILITY",
+        "secretIngredients": [
+            {
+                "ItemType": "/Lotus/Powersuits/Inkblot/Inkblot",
+                "ItemCount": 1
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+                "ItemCount": 650
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+                "ItemCount": 825
+            },
+            {
+                "ItemType": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+                "ItemCount": 550
+            }
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Recipes/AbilityOverrides/IvaraQuiverBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/RangerQuiverAbility",
+        "resultType": "/Lotus/Powersuits/Ranger/Abilities/RangerQuiverAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -53097,7 +53377,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/KhoraEnsnareBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/KhoraTwirlAbility",
+        "resultType": "/Lotus/Powersuits/Khora/Abilities/KhoraTwirlAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -53143,7 +53423,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/KoumeiBlockBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/KoumeiBlockAbility",
+        "resultType": "/Lotus/Powersuits/Koumei/Abilities/KoumeiBlockAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -53188,7 +53468,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/LimboBanishBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/BanishAbility",
+        "resultType": "/Lotus/Powersuits/Magician/Abilities/BanishAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -53234,7 +53514,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/LokiDecoyBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/DecoyAbility",
+        "resultType": "/Lotus/Powersuits/Loki/Abilities/DecoyAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -53280,7 +53560,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/MagPullBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/PullAbility",
+        "resultType": "/Lotus/Powersuits/Mag/Abilities/PullAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -53326,7 +53606,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/MesaShootingGalleryBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/RussianRouletteAbility",
+        "resultType": "/Lotus/Powersuits/Cowgirl/Abilities/RussianRouletteAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -53372,7 +53652,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/MirageEclipseBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/LightAbility",
+        "resultType": "/Lotus/Powersuits/Harlequin/Abilities/LightAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -53418,7 +53698,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/NekrosTerrifyBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/TerrorTotemAbility",
+        "resultType": "/Lotus/Powersuits/Necro/Abilities/TerrorTotemAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -53464,7 +53744,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/NezhaFireWalkerBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/NezhaTrailAbility",
+        "resultType": "/Lotus/Powersuits/Nezha/Abilities/NezhaTrailAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -53510,7 +53790,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/NidusLarvaBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/InfestTendrilsAbility",
+        "resultType": "/Lotus/Powersuits/Infestation/Abilities/InfestTendrilsAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -53556,7 +53836,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/NokkoPowerShroomBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/NokkoPowerShroomAbility",
+        "resultType": "/Lotus/Powersuits/Nokko/Abilities/NokkoPowerShroomAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -53602,7 +53882,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/NovaNullStarBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/NullStarAbility",
+        "resultType": "/Lotus/Powersuits/AntiMatter/Abilities/NullStarAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -53648,7 +53928,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/NyxMindControlBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/MindControlAbility",
+        "resultType": "/Lotus/Powersuits/Jade/Abilities/MindControlAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -53694,7 +53974,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/OberonSmiteBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/SmiteAbility",
+        "resultType": "/Lotus/Powersuits/Paladin/Abilities/SmiteAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -53740,7 +54020,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/OctaviaResonatorBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/BardCharmAbility",
+        "resultType": "/Lotus/Powersuits/Bard/Abilities/BardCharmAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -53786,7 +54066,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/OraxiaEntangleBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/OraxiaEntangleAbility",
+        "resultType": "/Lotus/Powersuits/Oraxia/Abilities/OraxiaEntangleAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -53832,7 +54112,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/PagemasterDeathBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/PagemasterDeathAbility",
+        "resultType": "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterDeathAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -53878,7 +54158,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/PaxTeleportBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/PaxTeleportAbility",
+        "resultType": "/Lotus/Powersuits/PaxDuviricus/Abilities/PaxTeleportAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -53924,7 +54204,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/ProteaDispenserBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/OdaliskDispensaryAbility",
+        "resultType": "/Lotus/Powersuits/Odalisk/Abilities/OdaliskDispensaryAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -53970,7 +54250,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/RevenantReaveBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/RevenantAfflictionAbility",
+        "resultType": "/Lotus/Powersuits/Revenant/Abilities/RevenantAfflictionAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -54016,7 +54296,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/RhinoRoarBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/RhinoRoarAbility",
+        "resultType": "/Lotus/Powersuits/Rhino/Abilities/RhinoRoarAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -54062,7 +54342,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/SarynMoltBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/ShedAbility",
+        "resultType": "/Lotus/Powersuits/Saryn/Abilities/ShedAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -54108,7 +54388,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/SentientStompBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/SentientStompAbility",
+        "resultType": "/Lotus/Powersuits/Sentient/Abilities/SentientStompAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -54154,7 +54434,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/TempleShredBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/TempleShredAbility",
+        "resultType": "/Lotus/Powersuits/Temple/Abilities/TempleShredAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -54200,7 +54480,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/TitaniaSpellbindBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/FairyDustAbility",
+        "resultType": "/Lotus/Powersuits/Fairy/Abilities/FairyDustAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -54246,7 +54526,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/TrinityWellOflifeBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/WellOfLifeAbility",
+        "resultType": "/Lotus/Powersuits/Trinity/Abilities/WellOfLifeAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -54292,7 +54572,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/ValkyrWarcryBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/BerserkerScreamAbility",
+        "resultType": "/Lotus/Powersuits/Berserker/Abilities/BerserkerScreamAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -54338,7 +54618,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/VaubanTeslaNervosBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/ZapTrapAbility",
+        "resultType": "/Lotus/Powersuits/Trapper/Abilities/ZapTrapAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -54384,7 +54664,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/VoltShockBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/ShockAbility",
+        "resultType": "/Lotus/Powersuits/Volt/Abilities/ShockAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -54430,7 +54710,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/WerewolfLeapBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/WerewolfLeapAbility",
+        "resultType": "/Lotus/Powersuits/Werewolf/Abilities/WerewolfLeapAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -54476,7 +54756,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/WispBreachSurgeBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/WispHarnessAbility",
+        "resultType": "/Lotus/Powersuits/Wisp/Abilities/WispHarnessAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -54522,7 +54802,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/WraithGloomBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/WraithGloomAbility",
+        "resultType": "/Lotus/Powersuits/Wraith/Abilities/WraithGloomAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -54568,7 +54848,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/WukongDefyBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/MonkeyDeathNewAbility",
+        "resultType": "/Lotus/Powersuits/MonkeyKing/Abilities/MonkeyDeathNewAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -54614,7 +54894,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/XakuVoidRotBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/BrokenRotAbility",
+        "resultType": "/Lotus/Powersuits/BrokenFrame/Abilities/BrokenRotAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -54660,7 +54940,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/YareliDisksBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/YareliDisksAbility",
+        "resultType": "/Lotus/Powersuits/Yareli/Abilities/YareliDisksAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,
@@ -54706,7 +54986,7 @@
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/AbilityOverrides/ZephyrAirburstBlueprint": {
-        "resultType": "/Lotus/Powersuits/PowersuitAbilities/TenguBurstAbility",
+        "resultType": "/Lotus/Powersuits/Tengu/Abilities/TenguBurstAbility",
         "buildPrice": 0,
         "buildTime": 82800,
         "skipBuildTimePrice": 50,

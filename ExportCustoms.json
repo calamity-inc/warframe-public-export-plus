@@ -844,7 +844,7 @@
         "codexSecret": false,
         "excludeFromCodex": true,
         "description": "/Lotus/Language/Items/EquinoxDayAgileAnimsDesc",
-        "icon": "/Lotus/Interface/Icons/AnimationSets/EquinoxAgile.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/AnimationSets/EquinoxAgile.png",
         "productCategory": "WeaponSkins",
         "alwaysAvailable": true,
         "requirement": "/Lotus/Upgrades/Skins/Anima/UnlockAnimaDayAgile",
@@ -856,7 +856,7 @@
         "codexSecret": false,
         "excludeFromCodex": true,
         "description": "/Lotus/Language/Items/EquinoxDayNobleAnimsDesc",
-        "icon": "/Lotus/Interface/Icons/AnimationSets/EquinoxNoble.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/AnimationSets/EquinoxNoble.png",
         "productCategory": "WeaponSkins",
         "alwaysAvailable": true,
         "requirement": "/Lotus/Upgrades/Skins/Anima/UnlockAnimaDayNoble",
@@ -878,7 +878,7 @@
         "codexSecret": false,
         "excludeFromCodex": true,
         "description": "/Lotus/Language/Items/EquinoxNightAgileAnimsDesc",
-        "icon": "/Lotus/Interface/Icons/AnimationSets/EquinoxAgile.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/AnimationSets/EquinoxAgile.png",
         "productCategory": "WeaponSkins",
         "alwaysAvailable": true,
         "requirement": "/Lotus/Upgrades/Skins/Anima/UnlockAnimaAgile",
@@ -890,7 +890,7 @@
         "codexSecret": false,
         "excludeFromCodex": true,
         "description": "/Lotus/Language/Items/EquinoxNightNobleAnimsDesc",
-        "icon": "/Lotus/Interface/Icons/AnimationSets/EquinoxNoble.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/AnimationSets/EquinoxNoble.png",
         "productCategory": "WeaponSkins",
         "alwaysAvailable": true,
         "requirement": "/Lotus/Upgrades/Skins/Anima/UnlockAnimaNoble",
@@ -1252,6 +1252,28 @@
             "CP_SWITCH",
             "CP_IOS"
         ],
+        "platinumCost": 165
+    },
+    "/Lotus/Upgrades/Skins/AntiMatter/SWNetraselleNovaHelmet": {
+        "name": "/Lotus/Language/SteamWorkshop/SWNovaNetraselleHelmetName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/SteamWorkshop/SWNovaNetraselleSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/SWNetraselleNovaHelmet.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 90,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/AntiMatter/SWNetraselleNovaSkin": {
+        "name": "/Lotus/Language/SteamWorkshop/SWNovaNetraselleSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/SteamWorkshop/SWNovaNetraselleSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/SWNetraselleNovaSkin.png",
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/AntiMatter/SWNetraselleNovaHelmet"
+        ],
+        "tradable": false,
         "platinumCost": 165
     },
     "/Lotus/Upgrades/Skins/AntiMatter/SWNovaMithraHelmet": {
@@ -2658,6 +2680,24 @@
         "tradable": false,
         "platinumCost": 35,
         "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Armor/GaussDeluxeIIArmour/GaussDeluxeIIArmourC": {
+        "name": "/Lotus/Language/Deluxe/GaussDeluxeIIArmourCName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/GaussDeluxeIIArmourCDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Armour/GaussDeluxeIIArmourC.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 50
+    },
+    "/Lotus/Upgrades/Skins/Armor/GrendelDeluxeIIArmour/GrendelDeluxeIIArmourC": {
+        "name": "/Lotus/Language/Deluxe/GrendelDeluxeIIArmourCName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/GrendelDeluxeIIArmourCDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Armour/GrendeDeluxeIIArmourC.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 50
     },
     "/Lotus/Upgrades/Skins/Armor/GrineerQueenArmour/GrineerQueenArmourA": {
         "name": "/Lotus/Language/Items/GrnQueensArmorArmsName",
@@ -6036,6 +6076,15 @@
         "platinumCost": 1000,
         "excludeFromMarket": true
     },
+    "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/DagathImmortalArmArmor": {
+        "name": "/Lotus/Language/Cosmetics/DagathImmortalArmArmorName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Cosmetics/DagathImmortalArmArmorDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Armour/WarframeSpecific/DagathImmortalArmArmour.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/EmberDeluxeIIArmArmor": {
         "name": "/Lotus/Language/Skins/EmberDeluxeIIDefaultArmArmourName",
         "codexSecret": false,
@@ -6151,7 +6200,7 @@
         "codexSecret": false,
         "excludeFromCodex": true,
         "description": "/Lotus/Language/Primes/GyrePrimeDefaultArmourDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/GyrePrime.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Armour/GyrePrimeArmourA.png",
         "productCategory": "WeaponSkins",
         "alwaysAvailable": true,
         "tradable": false,
@@ -8307,6 +8356,27 @@
         "tradable": false,
         "excludeFromMarket": true
     },
+    "/Lotus/Upgrades/Skins/Choir/JadeImmortalHelmet": {
+        "name": "/Lotus/Language/Skins/JadeImmortalHelmetName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Skins/JadeImmortalHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/JadeImmortalHelmet.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Choir/JadeImmortalSkin": {
+        "name": "/Lotus/Language/Skins/JadeImmortalSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Skins/JadeImmortalSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/JadeImmortalSkin.png",
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/Choir/JadeImmortalHelmet"
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/Clan/Focus/MaduraiBadgeItem": {
         "name": "/Lotus/Language/Cosmetics/MaduraiBadgeItemName",
         "codexSecret": false,
@@ -9352,6 +9422,16 @@
         "platinumCost": 10000,
         "excludeFromMarket": true
     },
+    "/Lotus/Upgrades/Skins/Clan/ShadowgrapherEventBadgeItem": {
+        "name": "/Lotus/Language/Cosmetics/ShadowgrapherEventBadgeName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Cosmetics/ShadowgrapherEventBadgeDesc",
+        "icon": "/Lotus/Interface/Icons/WorldStatePanel/OperationAntramentumIcon.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 10000,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/Clan/ShipyardsEventBadgeItem": {
         "name": "/Lotus/Language/Items/ShipyardsEventBadgeName",
         "codexSecret": false,
@@ -10232,6 +10312,24 @@
         "tradable": false,
         "platinumCost": 60
     },
+    "/Lotus/Upgrades/Skins/Crowns/GaussDeluxeIICrown": {
+        "name": "/Lotus/Language/Deluxe/GaussDeluxeIICrownName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/GaussDeluxeIICrownDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Halo/GaussDeluxeIICrown.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 70
+    },
+    "/Lotus/Upgrades/Skins/Crowns/GrendelDeluxeIICrown": {
+        "name": "/Lotus/Language/Deluxe/GrendelDeluxeIISignaName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/GrendelDeluxeIISignaDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Halo/GrendelDeluxeIICrown.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 70
+    },
     "/Lotus/Upgrades/Skins/Crowns/HeirloomEmberCrown": {
         "name": "/Lotus/Language/Heirloom/HeirloomEmberHaloName",
         "codexSecret": false,
@@ -10326,6 +10424,16 @@
         "tradable": false,
         "platinumCost": 60
     },
+    "/Lotus/Upgrades/Skins/Crowns/OrfeoSignaCrown": {
+        "name": "/Lotus/Language/Signa/OrfeoSignaCrownName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Signa/OrfeoSignaCrownDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Halo/OrfeoSignaCrown.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 65,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/Crowns/PrimeSevagothHaloCrown": {
         "name": "/Lotus/Language/Primes/SevagothPrimeSignaName",
         "codexSecret": false,
@@ -10335,6 +10443,24 @@
         "tradable": false,
         "platinumCost": 60,
         "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Crowns/SWSignaPragmaticaCrown": {
+        "name": "/Lotus/Language/SteamWorkshop/SWSignaPragmaticaName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/SteamWorkshop/SWSignaPragmaticaDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Halo/SWSignaPragmaticaCrown.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 60
+    },
+    "/Lotus/Upgrades/Skins/Crowns/SWZamariuSignaCrown": {
+        "name": "/Lotus/Language/SteamWorkshop/SWZamariuSignaName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/SteamWorkshop/SWZamariuSignaDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Halo/SWZamariuSignaCrown.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 60
     },
     "/Lotus/Upgrades/Skins/Crowns/TnTempleSignaCrown": {
         "name": "/Lotus/Language/Cosmetics/TnTempleSignaName",
@@ -10413,6 +10539,28 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/DagathHelmet.png",
         "productCategory": "WeaponSkins",
         "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Dagath/DagathImmortalHelmet": {
+        "name": "/Lotus/Language/Cosmetics/DagathImmortalHelmetName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Cosmetics/DagathImmortalHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/DagathImmortalHelmet.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Dagath/DagathImmortalSkin": {
+        "name": "/Lotus/Language/Cosmetics/DagathImmortalSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Cosmetics/DagathImmortalSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/DagathImmortalSkin.png",
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/DagathImmortalArmArmor",
+            "/Lotus/Upgrades/Skins/Dagath/DagathImmortalHelmet"
+        ],
         "tradable": false,
         "excludeFromMarket": true
     },
@@ -11006,6 +11154,16 @@
         "platinumCost": 75,
         "excludeFromMarket": true
     },
+    "/Lotus/Upgrades/Skins/Deluxe/CalibanDeluxeBowSkin": {
+        "name": "/Lotus/Language/Deluxe/CalibanDeluxeBowSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/CalibanDeluxeBowSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Skins/CalibanDeluxeBowSkin.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 75,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/Deluxe/ChromaDeluxeSword": {
         "name": "/Lotus/Language/Cosmetics/ChromaDeluxeSwordName",
         "codexSecret": false,
@@ -11068,6 +11226,15 @@
         "platinumCost": 75,
         "excludeFromMarket": true
     },
+    "/Lotus/Upgrades/Skins/Deluxe/MasseterDeluxeGreatswordSkin": {
+        "name": "/Lotus/Language/Deluxe/MasseterDeluxeGreatswordName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/MasseterDeluxeGreatswordDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Skins/MasseterDeluxeGreatswordSkin.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 110
+    },
     "/Lotus/Upgrades/Skins/Deluxe/NovaDeluxeIISniperSkin": {
         "name": "/Lotus/Language/Skins/NovaDeluxeIISniperSkinName",
         "codexSecret": false,
@@ -11126,6 +11293,16 @@
         "productCategory": "WeaponSkins",
         "tradable": false,
         "platinumCost": 20,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Deluxe/ProteaDeluxeGlaiveSkin": {
+        "name": "/Lotus/Language/Deluxe/ProteaDeluxeGlaiveSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/ProteaDeluxeGlaiveSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Skins/ProteaDeluxeGlaiveSkin.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 50,
         "excludeFromMarket": true
     },
     "/Lotus/Upgrades/Skins/Deluxe/ProteaDeluxeSkinTonkor": {
@@ -11339,6 +11516,27 @@
         "productCategory": "WeaponSkins",
         "tradable": false,
         "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Devourer/GrendelDeluxeIIHelmet": {
+        "name": "/Lotus/Language/Deluxe/GrendelDeluxeIIHelmetName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/GrendelDeluxeIIHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/GrendelDeluxeIIHelmet.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Devourer/GrendelDeluxeIISkin": {
+        "name": "/Lotus/Language/Deluxe/GrendelDeluxeIISkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/GrendelDeluxeIISkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/GrendelDeluxeIISkin.png",
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/Devourer/GrendelDeluxeIIHelmet"
+        ],
+        "tradable": false,
+        "platinumCost": 165
     },
     "/Lotus/Upgrades/Skins/Devourer/GrendelDeluxeSkin": {
         "name": "/Lotus/Language/Skins/DevourerDeluxeSkinName",
@@ -12200,6 +12398,15 @@
         "platinumCost": 165,
         "excludeFromMarket": true
     },
+    "/Lotus/Upgrades/Skins/Effects/GrendelDeluxeIIFootstepsEphemera": {
+        "name": "/Lotus/Language/Deluxe/GrendelDeluxeIIEphemeraName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/GrendelDeluxeIIEphemeraDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/GrendelDeluxeIIEphemera.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 70
+    },
     "/Lotus/Upgrades/Skins/Effects/GrendelPrimeEphemera": {
         "name": "/Lotus/Language/Primes/GrendelPrimeEphemeraName",
         "codexSecret": false,
@@ -12305,6 +12512,36 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Ephemera/InfestedLichEphemeraHDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/InfestedLichEphemeraH.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 165,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Effects/InkEphemeraA": {
+        "name": "/Lotus/Language/Ephemera/InkEphemeraAName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Ephemera/InkEphemeraADesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/InkEphemeraA.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 165,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Effects/InkEphemeraB": {
+        "name": "/Lotus/Language/Ephemera/InkEphemeraBName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Ephemera/InkEphemeraBDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/InkEphemeraB.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 165,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Effects/InkEphemeraC": {
+        "name": "/Lotus/Language/Ephemera/InkEphemeraCName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Ephemera/InkEphemeraCDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/InkEphemeraC.png",
         "productCategory": "WeaponSkins",
         "tradable": false,
         "platinumCost": 165,
@@ -12545,6 +12782,16 @@
         "productCategory": "WeaponSkins",
         "tradable": false,
         "platinumCost": 60,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Effects/ProteaDeluxeEphemera": {
+        "name": "/Lotus/Language/Ephemera/ProteaDeluxeEphemeraName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Ephemera/ProteaDeluxeEphemeraDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/ProteaDeluxeEphemera.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 90,
         "excludeFromMarket": true
     },
     "/Lotus/Upgrades/Skins/Effects/ProteaPrimeEphemera": {
@@ -16825,6 +17072,18 @@
         "tradable": false,
         "platinumCost": 20
     },
+    "/Lotus/Upgrades/Skins/HolsterCustomizations/DualKatanaHips": {
+        "name": "/Lotus/Language/HolsterCustomizations/DualKatanaHips",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/HolsterCustomizations/DualKatanaHipsDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/HolsterCustomizations/DualBladesHipLeft.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/HolsterCustomizations/DualSwordHighLow": {
         "name": "/Lotus/Language/HolsterCustomizations/DualSwordHighLow",
         "codexSecret": false,
@@ -17334,6 +17593,27 @@
         "alwaysAvailable": true,
         "tradable": false,
         "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Hoplite/SWRaevuzStyanaxHelmet": {
+        "name": "/Lotus/Language/SteamWorkshop/SWStyanaxRaevuzHelmetName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/SteamWorkshop/SWStyanaxRaevuzHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/SWRaevuzStyanaxHelmet.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Hoplite/SWRaevuzStyanaxSkin": {
+        "name": "/Lotus/Language/SteamWorkshop/SWStyanaxRaevuzSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/SteamWorkshop/SWStyanaxRaevuzSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/SWRaevuzStyanaxSkin.png",
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/Hoplite/SWRaevuzStyanaxHelmet"
+        ],
+        "tradable": false,
+        "platinumCost": 165
     },
     "/Lotus/Upgrades/Skins/Hoplite/SWStyanaxAresHelmet": {
         "name": "/Lotus/Language/Suits/SWStyanaxAresHelmetName",
@@ -18374,6 +18654,61 @@
             "CP_IOS"
         ],
         "platinumCost": 165
+    },
+    "/Lotus/Upgrades/Skins/Inkblot/InkblotAgileAnims": {
+        "name": "/Lotus/Language/Cosmetics/InkblotAgileAnims",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Cosmetics/InkblotAgileAnimsDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/AnimationSets/FollieAgile.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "requirement": "/Lotus/Upgrades/Skins/Inkblot/UnlockInkblotAgile",
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Inkblot/InkblotAltHelmet": {
+        "name": "/Lotus/Language/Suits/InkblotAltHelmetName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Suits/InkblotAltHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/InkblotAltHelmet.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 75
+    },
+    "/Lotus/Upgrades/Skins/Inkblot/InkblotHelmet": {
+        "name": "/Lotus/Language/Suits/InkblotHelmetName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Suits/InkblotHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/InkblotHelmet.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Inkblot/InkblotNobleAnims": {
+        "name": "/Lotus/Language/Cosmetics/InkblotNobleAnims",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Cosmetics/InkblotNobleAnimsDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/AnimationSets/FollieNoble.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "requirement": "/Lotus/Upgrades/Skins/Inkblot/UnlockInkblotNoble",
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Inkblot/InkblotSkin": {
+        "name": "/Lotus/Language/Suits/InkblotSkinName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Suits/InkblotSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Inkblot.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
     },
     "/Lotus/Upgrades/Skins/IronFrame/HildrynDeluxeAxeSkin": {
         "name": "/Lotus/Language/Cosmetics/HildrynDeluxeAxeSkinName",
@@ -19478,7 +19813,6 @@
     "/Lotus/Upgrades/Skins/Khora/KhoraPrimeAltHelmet": {
         "name": "/Lotus/Language/Primes/KhoraPrimeAltHelmetName",
         "codexSecret": false,
-        "excludeFromCodex": true,
         "description": "/Lotus/Language/Primes/KhoraPrimeAltHelmetDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/KhoraPrimeAltHelmet.png",
         "productCategory": "WeaponSkins",
@@ -23825,6 +24159,27 @@
         "tradable": false,
         "platinumCost": 165
     },
+    "/Lotus/Upgrades/Skins/Odalisk/ProteaImmortalHelmet": {
+        "name": "/Lotus/Language/Skins/ProteaImmortalHelmetName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Skins/ProteaImmortalHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/ProteaImmortalHelmet.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Odalisk/ProteaImmortalSkin": {
+        "name": "/Lotus/Language/Skins/ProteaImmortalSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Skins/ProteaImmortalSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/ProteaImmortalSkin.png",
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/Odalisk/ProteaImmortalHelmet"
+        ],
+        "tradable": false,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/Odalisk/ProteaPrimeAltHelmet": {
         "name": "/Lotus/Language/Primes/ProteaPrimeAltHelmetName",
         "codexSecret": false,
@@ -24809,6 +25164,16 @@
         "platinumCost": 75,
         "excludeFromMarket": true
     },
+    "/Lotus/Upgrades/Skins/Operator/Accessories/YontaCrownFacialAcc": {
+        "name": "/Lotus/Language/Operator/YontaCrownFacialAccName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Operator/YontaCrownFacialAccDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Face/YontaCrownFacialAcc.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/Operator/Amp/DrifterAmpSkin": {
         "name": "/Lotus/Language/Operator/DrifterAmpSkinName",
         "codexSecret": false,
@@ -24819,6 +25184,15 @@
         "tradable": false,
         "platinumCost": 115,
         "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Amp/InkSiroccoAmpSkin": {
+        "name": "/Lotus/Language/Operator/InkSiroccoAmpSkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Operator/InkSiroccoAmpSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Amps/Skins/InkSiroccoAmpSkin.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 35
     },
     "/Lotus/Upgrades/Skins/Operator/AnimationSets/AdultOperatorAgileAnims": {
         "name": "/Lotus/Language/Cosmetics/DrifterAgileAnims",
@@ -25501,6 +25875,15 @@
         "platinumCost": 0,
         "excludeFromMarket": true
     },
+    "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultCalDeluxe": {
+        "name": "/Lotus/Language/Operator/CalibanDeluxeAdultBodysuitName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Operator/CalibanDeluxeSuitDesc",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 25,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultChameleon": {
         "name": "/Lotus/Language/Operator/AdultChameleonArmourBodyName",
         "codexSecret": true,
@@ -26038,6 +26421,19 @@
         "tradable": false,
         "platinumCost": 25
     },
+    "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitOperatorCalDeluxe": {
+        "name": "/Lotus/Language/Operator/CalibanDeluxeBodysuitName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Operator/CalibanDeluxeSuitDesc",
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultCalDeluxe"
+        ],
+        "tradable": false,
+        "platinumCost": 25,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitOperatorDemonframe": {
         "name": "/Lotus/Language/Operator/BodySuitOperatorDemonframeName",
         "codexSecret": false,
@@ -26334,6 +26730,26 @@
         "codexSecret": false,
         "excludeFromCodex": true,
         "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Eyebrows/EyebrowCH.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/EyeBrows/EyeBrowDA": {
+        "name": "/Lotus/Language/Cosmetics/EyeBrowDAName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Eyebrows/EyebrowDA.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/EyeBrows/EyeBrowDC": {
+        "name": "/Lotus/Language/Cosmetics/EyeBrowDCName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Eyebrows/EyebrowDC.png",
         "productCategory": "WeaponSkins",
         "alwaysAvailable": true,
         "tradable": false,
@@ -26691,8 +27107,22 @@
         "description": "/Lotus/Language/Cosmetics/Hair1999SarynDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Hair/Hair1999Saryn.png",
         "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/Operator/Hair/Hair1999SarynNoGlasses"
+        ],
         "tradable": false,
         "platinumCost": 25
+    },
+    "/Lotus/Upgrades/Skins/Operator/Hair/Hair1999SarynNoGlasses": {
+        "name": "/Lotus/Language/Cosmetics/Hair1999SarynNoGlassesName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Cosmetics/Hair1999SarynDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Hair/Hair1999SarynNoGlasses.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
     },
     "/Lotus/Upgrades/Skins/Operator/Hair/Hair1999Temple": {
         "name": "/Lotus/Language/Cosmetics/Hair1999TempleName",
@@ -27113,6 +27543,76 @@
         "tradable": false,
         "excludeFromMarket": true
     },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AdultAlbedoK": {
+        "name": "/Lotus/Language/Operator/AlbedoKName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Complexions/K.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AdultAlbedoM": {
+        "name": "/Lotus/Language/Operator/AlbedoMName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Complexions/M.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AdultAlbedoN": {
+        "name": "/Lotus/Language/Operator/AlbedoNName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Complexions/N.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AdultAlbedoQ": {
+        "name": "/Lotus/Language/Operator/AlbedoQName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Complexions/Q.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AdultAlbedoR": {
+        "name": "/Lotus/Language/Operator/AlbedoRName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Complexions/R.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AdultAlbedoS": {
+        "name": "/Lotus/Language/Operator/AlbedoSName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Complexions/S.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AdultAlbedoT": {
+        "name": "/Lotus/Language/Operator/AlbedoTName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Complexions/T.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/Operator/Heads/AdultFemaleHeadA": {
         "name": "",
         "codexSecret": false,
@@ -27351,6 +27851,106 @@
         "codexSecret": false,
         "excludeFromCodex": true,
         "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Heads/Remastered/AdultHeadJRemastered.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AdultHeadKRemastered": {
+        "name": "/Lotus/Language/Cosmetics/NewHeadKName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Heads/Remastered/AdultHeadKRemastered.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AdultHeadLRemastered": {
+        "name": "/Lotus/Language/Cosmetics/NewHeadLName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Heads/Remastered/AdultHeadLRemastered.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AdultHeadMRemastered": {
+        "name": "/Lotus/Language/Cosmetics/NewHeadMName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Heads/Remastered/AdultHeadMRemastered.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AdultHeadNRemastered": {
+        "name": "/Lotus/Language/Cosmetics/NewHeadNName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Heads/Remastered/AdultHeadNRemastered.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AdultHeadORemastered": {
+        "name": "/Lotus/Language/Cosmetics/NewHeadOName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Heads/Remastered/AdultHeadORemastered.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AdultHeadPRemastered": {
+        "name": "/Lotus/Language/Cosmetics/NewHeadPName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Heads/Remastered/AdultHeadPRemastered.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AdultHeadQRemastered": {
+        "name": "/Lotus/Language/Cosmetics/NewHeadQName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Heads/Remastered/AdultHeadQRemastered.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AdultHeadRRemastered": {
+        "name": "/Lotus/Language/Cosmetics/NewHeadRName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Heads/Remastered/AdultHeadRRemastered.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AdultHeadSRemastered": {
+        "name": "/Lotus/Language/Cosmetics/NewHeadSName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Heads/Remastered/AdultHeadSRemastered.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AdultHeadTRemastered": {
+        "name": "/Lotus/Language/Cosmetics/NewHeadTName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Heads/Remastered/AdultHeadTRemastered.png",
         "productCategory": "WeaponSkins",
         "alwaysAvailable": true,
         "tradable": false,
@@ -27604,6 +28204,76 @@
         "codexSecret": false,
         "excludeFromCodex": true,
         "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Complexions/J.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AlbedoK": {
+        "name": "/Lotus/Language/Operator/AlbedoKName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Complexions/K.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AlbedoM": {
+        "name": "/Lotus/Language/Operator/AlbedoMName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Complexions/M.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AlbedoN": {
+        "name": "/Lotus/Language/Operator/AlbedoNName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Complexions/N.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AlbedoQ": {
+        "name": "/Lotus/Language/Operator/AlbedoQName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Complexions/Q.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AlbedoR": {
+        "name": "/Lotus/Language/Operator/AlbedoRName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Complexions/R.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AlbedoS": {
+        "name": "/Lotus/Language/Operator/AlbedoSName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Complexions/S.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/AlbedoT": {
+        "name": "/Lotus/Language/Operator/AlbedoTName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Complexions/T.png",
         "productCategory": "WeaponSkins",
         "alwaysAvailable": true,
         "tradable": false,
@@ -27894,6 +28564,106 @@
         "tradable": false,
         "excludeFromMarket": true
     },
+    "/Lotus/Upgrades/Skins/Operator/Heads/HeadKRemastered": {
+        "name": "/Lotus/Language/Cosmetics/NewHeadKName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Heads/Remastered/HeadKRemastered.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/HeadLRemastered": {
+        "name": "/Lotus/Language/Cosmetics/NewHeadLName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Heads/Remastered/HeadLRemastered.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/HeadMRemastered": {
+        "name": "/Lotus/Language/Cosmetics/NewHeadMName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Heads/Remastered/HeadMRemastered.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/HeadNRemastered": {
+        "name": "/Lotus/Language/Cosmetics/NewHeadNName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Heads/Remastered/HeadNRemastered.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/HeadORemastered": {
+        "name": "/Lotus/Language/Cosmetics/NewHeadOName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Heads/Remastered/HeadORemastered.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/HeadPRemastered": {
+        "name": "/Lotus/Language/Cosmetics/NewHeadPName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Heads/Remastered/HeadPRemastered.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/HeadQRemastered": {
+        "name": "/Lotus/Language/Cosmetics/NewHeadQName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Heads/Remastered/HeadQRemastered.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/HeadRRemastered": {
+        "name": "/Lotus/Language/Cosmetics/NewHeadRName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Heads/Remastered/HeadRRemastered.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/HeadSRemastered": {
+        "name": "/Lotus/Language/Cosmetics/NewHeadSName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Heads/Remastered/HeadSRemastered.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Heads/HeadTRemastered": {
+        "name": "/Lotus/Language/Cosmetics/NewHeadTName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Heads/Remastered/HeadTRemastered.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/Operator/Heads/LegacyAlbedo": {
         "name": "/Lotus/Language/Operator/LegacyAlbedoName",
         "codexSecret": false,
@@ -28101,6 +28871,16 @@
         "alwaysAvailable": true,
         "tradable": false,
         "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultCalDeluxe": {
+        "name": "/Lotus/Language/Operator/CalibanDeluxeAdultHoodName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Operator/CalibanDeluxeSuitDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Hoods/HoodA.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 40,
         "excludeFromMarket": true
     },
     "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultChameleon": {
@@ -28663,6 +29443,20 @@
         "tradable": false,
         "platinumCost": 30
     },
+    "/Lotus/Upgrades/Skins/Operator/Hoods/HoodOperatorCalDeluxe": {
+        "name": "/Lotus/Language/Operator/CalibanDeluxeHoodName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Operator/CalibanDeluxeSuitDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Hoods/HoodA.png",
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultCalDeluxe"
+        ],
+        "tradable": false,
+        "platinumCost": 40,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/Operator/Hoods/HoodOperatorDemonframe": {
         "name": "/Lotus/Language/Operator/HoodOperatorDemonframeName",
         "codexSecret": false,
@@ -28923,6 +29717,15 @@
         "alwaysAvailable": true,
         "tradable": false,
         "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultCalDeluxe": {
+        "name": "/Lotus/Language/Operator/CalibanDeluxeAdultLeggingsName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Operator/CalibanDeluxeSuitDesc",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 30,
         "excludeFromMarket": true
     },
     "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultChameleon": {
@@ -29462,6 +30265,19 @@
         "tradable": false,
         "platinumCost": 25
     },
+    "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsOperatorCalDeluxe": {
+        "name": "/Lotus/Language/Operator/CalibanDeluxeLeggingsName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Operator/CalibanDeluxeSuitDesc",
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultCalDeluxe"
+        ],
+        "tradable": false,
+        "platinumCost": 30,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsOperatorDemonframe": {
         "name": "/Lotus/Language/Operator/LeggingsOperatorDemonframeName",
         "codexSecret": false,
@@ -29856,6 +30672,15 @@
         "platinumCost": 0,
         "excludeFromMarket": true
     },
+    "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtAdultCalDeluxe": {
+        "name": "/Lotus/Language/Operator/CalibanDeluxeAdultSkirtName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Operator/CalibanDeluxeSuitDesc",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 25,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtAdultDaxB": {
         "name": "/Lotus/Language/Operator/DaxBSkirtDrifterName",
         "codexSecret": false,
@@ -30166,6 +30991,19 @@
         "tradable": false,
         "platinumCost": 25
     },
+    "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtOperatorCalDeluxe": {
+        "name": "/Lotus/Language/Operator/CalibanDeluxeSkirtName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Operator/CalibanDeluxeSuitDesc",
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtAdultCalDeluxe"
+        ],
+        "tradable": false,
+        "platinumCost": 25,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtOperatorDemonframe": {
         "name": "/Lotus/Language/Operator/HipOperatorDemonframeName",
         "codexSecret": false,
@@ -30270,6 +31108,15 @@
         "alwaysAvailable": true,
         "tradable": false,
         "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultCalDeluxe": {
+        "name": "/Lotus/Language/Operator/CalibanDeluxeAdultSleevesName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Operator/CalibanDeluxeSuitDesc",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 30,
         "excludeFromMarket": true
     },
     "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultChameleon": {
@@ -30808,6 +31655,19 @@
         ],
         "tradable": false,
         "platinumCost": 25
+    },
+    "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesOperatorCalDeluxe": {
+        "name": "/Lotus/Language/Operator/CalibanDeluxeSleevesName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Operator/CalibanDeluxeSuitDesc",
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultCalDeluxe"
+        ],
+        "tradable": false,
+        "platinumCost": 30,
+        "excludeFromMarket": true
     },
     "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesOperatorDemonframe": {
         "name": "/Lotus/Language/Operator/SleevesOperatorDemonframeName",
@@ -35825,6 +36685,15 @@
         ],
         "platinumCost": 105
     },
+    "/Lotus/Upgrades/Skins/Runner/AcceltraDeluxe2Skin": {
+        "name": "/Lotus/Language/Deluxe/AcceltraDeluxe2SkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/AcceltraDeluxe2SkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Skins/AcceltraDeluxeIISkin.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 45
+    },
     "/Lotus/Upgrades/Skins/Runner/DeluxeAcceltraSkin": {
         "name": "/Lotus/Language/Skins/DeluxeAcceltraSkinName",
         "codexSecret": false,
@@ -35843,6 +36712,27 @@
         "productCategory": "WeaponSkins",
         "tradable": false,
         "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Runner/GaussDeluxeIIHelmet": {
+        "name": "/Lotus/Language/Deluxe/GaussDeluxeIIHelmetName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/GaussDeluxeIIHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/GaussDeluxeIIHelmet.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Runner/GaussDeluxeIISkin": {
+        "name": "/Lotus/Language/Deluxe/GaussDeluxeIISkinName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/GaussDeluxeIISkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/GaussDeluxeIISkin.png",
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/Runner/GaussDeluxeIIHelmet"
+        ],
+        "tradable": false,
+        "platinumCost": 165
     },
     "/Lotus/Upgrades/Skins/Runner/GaussDeluxeSkin": {
         "name": "/Lotus/Language/Skins/GaussDeluxeSkinName",
@@ -36989,6 +37879,15 @@
         "platinumCost": 105,
         "excludeFromMarket": true
     },
+    "/Lotus/Upgrades/Skins/Scarves/GaussDeluxeIISyandana": {
+        "name": "/Lotus/Language/Deluxe/GaussDeluxeIISyandanaName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/GaussDeluxeIISyandanaDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/GaussDeluxeIISyandana.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 100
+    },
     "/Lotus/Upgrades/Skins/Scarves/GlassDeluxeSyandana": {
         "name": "/Lotus/Language/Cosmetics/GaraDeluxeSyandanaName",
         "codexSecret": false,
@@ -36998,6 +37897,15 @@
         "tradable": false,
         "platinumCost": 80,
         "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Scarves/GrendelDeluxeIISyandana": {
+        "name": "/Lotus/Language/Deluxe/GrendelDeluxeIISyandanaName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/GrendelDeluxeIISyandanaDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/GrendelDeluxeIISyandana.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 100
     },
     "/Lotus/Upgrades/Skins/Scarves/GrineerTurbinesScarf": {
         "name": "/Lotus/Language/Items/GrineerTurbineSyandanaName",
@@ -39038,6 +39946,15 @@
         "platinumCost": 50,
         "excludeFromMarket": true
     },
+    "/Lotus/Upgrades/Skins/Scarves/TC2025EvolvedOrokinScarf": {
+        "name": "/Lotus/Language/Syandanas/TC2025EvolvedOrokinCapeName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Syandanas/TC2025EvolvedOrokinCapeDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/TC2025EvolvedOrokinScarf.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/Scarves/TC2025EvolvedScarf": {
         "name": "/Lotus/Language/Cosmetics/TC2025ScarfEvolvedName",
         "codexSecret": false,
@@ -39046,6 +39963,19 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/TC2025ScarfEvolved.png",
         "productCategory": "WeaponSkins",
         "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Scarves/TC2025OrokinScarf": {
+        "name": "/Lotus/Language/Syandanas/TC2025OrokinCapeName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Syandanas/TC2025OrokinCapeDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/TC2025OrokinScarf.png",
+        "productCategory": "WeaponSkins",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/Scarves/TC2025EvolvedOrokinScarf"
+        ],
+        "tradable": false,
+        "platinumCost": 105,
         "excludeFromMarket": true
     },
     "/Lotus/Upgrades/Skins/Scarves/TC2025Scarf": {
@@ -42150,6 +43080,17 @@
         "platinumCost": 40,
         "excludeFromMarket": true
     },
+    "/Lotus/Upgrades/Skins/Sigils/EventSigilShadowgrapher": {
+        "name": "/Lotus/Language/Cosmetics/ShadowgrapherEventSigilName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Cosmetics/ShadowgrapherEventSigilDesc",
+        "icon": "/Lotus/Interface/Icons/WorldStatePanel/OperationAntramentumIcon.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/Sigils/EvilBaroNecraloidSigil": {
         "name": "/Lotus/Language/Sigils/EvilBaroNecraloidSigilName",
         "codexSecret": false,
@@ -42229,6 +43170,24 @@
         "tradable": false,
         "platinumCost": 75,
         "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Sigils/GaussDeluxeIIDamageSigil": {
+        "name": "/Lotus/Language/Deluxe/GaussDeluxeIISigilDamageName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/GaussDeluxeIISigilDamageDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Sigils/GaussDeluxeIIDamageSigil.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 20
+    },
+    "/Lotus/Upgrades/Skins/Sigils/GaussDeluxeIISigil": {
+        "name": "/Lotus/Language/Deluxe/GaussDeluxeIISigilName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Deluxe/GaussDeluxeIISigilDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Sigils/GaussDeluxeIISigil.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 25
     },
     "/Lotus/Upgrades/Skins/Sigils/GeodeSigil": {
         "name": "/Lotus/Language/Sigils/GeodeSigilName",
@@ -42651,6 +43610,16 @@
         "productCategory": "WeaponSkins",
         "tradable": false,
         "platinumCost": 20
+    },
+    "/Lotus/Upgrades/Skins/Sigils/NightwaveCalibanDeluxeSigil": {
+        "name": "/Lotus/Language/Sigils/NightwaveCalibanDeluxeSigilName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Sigils/NightwaveCalibanDeluxeSigilDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Sigils/NightwaveCalibanDeluxeSigil.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 75,
+        "excludeFromMarket": true
     },
     "/Lotus/Upgrades/Skins/Sigils/NightwavePizzaSigil": {
         "name": "/Lotus/Language/Sigils/NightwavePizzaSigilName",
@@ -43951,6 +44920,16 @@
         "platinumCost": 40,
         "excludeFromMarket": true
     },
+    "/Lotus/Upgrades/Skins/Sigils/TennoCon2026Sigil": {
+        "name": "/Lotus/Language/Sigils/Tennocon2026SigilName",
+        "codexSecret": true,
+        "description": "/Lotus/Language/Sigils/Tennocon2026SigilDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Sigils/TennoCon2026Sigil.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 40,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/Sigils/TennoGenSigil": {
         "name": "/Lotus/Language/Sigils/TennoGenSigilName",
         "codexSecret": false,
@@ -44216,7 +45195,7 @@
         "name": "/Lotus/Language/Deluxe/WukongDeluxeBSigilName",
         "codexSecret": false,
         "description": "/Lotus/Language/Deluxe/WukongDeluxeBSigilDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Sigils/WukongDeluxeBSigil.png",
+        "icon": "/Lotus/Interface/Icons/Sigils/WukongDeluxeBSigil.png",
         "productCategory": "WeaponSkins",
         "tradable": false,
         "platinumCost": 15
@@ -45201,6 +46180,15 @@
         "excludedPlatforms": [
             "CP_IOS"
         ],
+        "platinumCost": 105
+    },
+    "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Hammer/SWMaulleusHammerSkin": {
+        "name": "/Lotus/Language/SteamWorkshop/SWMaulleusName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/SteamWorkshop/SWMaulleusDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Skins/SWMaulleusHammerSkin.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
         "platinumCost": 105
     },
     "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Katana/SWKhatuunKatanaSkin": {
