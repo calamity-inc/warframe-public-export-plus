@@ -118683,7 +118683,36 @@
                 }
             ]
         },
-        "/Lotus/Types/Enemies/Orokin/Weapons/LaserRifle": {},
+        "/Lotus/Types/Enemies/Orokin/Weapons/LaserRifle": {
+            "name": "/Weapons/AK74",
+            "behaviours": [
+                {
+                    "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                    "fireIterations": 1,
+                    "projectile": {
+                        "attack": {
+                            "DT_IMPACT": 0.7,
+                            "DT_PUNCTURE": 4.9,
+                            "DT_SLASH": 1.4,
+                            "procChance": 0.02
+                        }
+                    },
+                    "impact": {
+                        "DT_IMPACT": 0.999999,
+                        "DT_PUNCTURE": 0.999999,
+                        "DT_SLASH": 1.000002,
+                        "procChance": 0.1
+                    }
+                },
+                {
+                    "fireIterations": 1,
+                    "impact": {
+                        "DT_IMPACT": 25,
+                        "procChance": 0.1
+                    }
+                }
+            ]
+        },
         "/Lotus/Types/Enemies/Orokin/Weapons/LaserShotgun": {
             "name": "/Lotus/Language/Items/ShotgunName",
             "description": "/Lotus/Language/Items/ShotgunDesc",

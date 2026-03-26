@@ -40526,6 +40526,17 @@
         "platinumCost": 105,
         "excludeFromMarket": true
     },
+    "/Lotus/Upgrades/Skins/Scarves/ZorbaScarf": {
+        "name": "/Lotus/Language/Cosmetics/ZorbaScarfName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Cosmetics/ZorbaScarfDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/ZorbaScarf.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 50,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/Scythes/CalibanDlxScytheSkin": {
         "name": "/Lotus/Language/Skins/CalibanDlxScytheSkinName",
         "codexSecret": false,
@@ -43083,9 +43094,19 @@
     "/Lotus/Upgrades/Skins/Sigils/EventSigilShadowgrapher": {
         "name": "/Lotus/Language/Cosmetics/ShadowgrapherEventSigilName",
         "codexSecret": false,
-        "excludeFromCodex": true,
         "description": "/Lotus/Language/Cosmetics/ShadowgrapherEventSigilDesc",
         "icon": "/Lotus/Interface/Icons/WorldStatePanel/OperationAntramentumIcon.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Sigils/EventSigilZorba": {
+        "name": "/Lotus/Language/Cosmetics/EventSigilZorbaName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Cosmetics/EventSigilZorbaDesc",
+        "icon": "/Lotus/Materials/Emblems/ZorbaSigil_e.png",
         "productCategory": "WeaponSkins",
         "tradable": false,
         "platinumCost": 0,
