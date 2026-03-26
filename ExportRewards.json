@@ -3109,44 +3109,46 @@
     "/Lotus/Types/Game/MissionDecks/BossMissionRewards/YinYangRewards": [
         [
             {
-                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/AnimaBlueprint",
-                "itemCount": 1,
-                "probability": 0.1128
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/AnimaChassisBlueprint",
-                "itemCount": 1,
-                "probability": 0.1291
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/AnimaHelmetBlueprint",
-                "itemCount": 1,
-                "probability": 0.1291
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/AnimaSystemsBlueprint",
-                "itemCount": 1,
-                "probability": 0.1291
-            },
-            {
                 "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/AnimusBlueprint",
                 "itemCount": 1,
-                "probability": 0.1128
+                "probability": 0.2256
             },
             {
                 "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/AnimusChassisBlueprint",
                 "itemCount": 1,
-                "probability": 0.1291
+                "probability": 0.2581
             },
             {
                 "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/AnimusHelmetBlueprint",
                 "itemCount": 1,
-                "probability": 0.1291
+                "probability": 0.2581
             },
             {
                 "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/AnimusSystemsBlueprint",
                 "itemCount": 1,
-                "probability": 0.1291
+                "probability": 0.2581
+            }
+        ],
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/AnimaBlueprint",
+                "itemCount": 1,
+                "probability": 0.2256
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/AnimaChassisBlueprint",
+                "itemCount": 1,
+                "probability": 0.2581
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/AnimaHelmetBlueprint",
+                "itemCount": 1,
+                "probability": 0.2581
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/AnimaSystemsBlueprint",
+                "itemCount": 1,
+                "probability": 0.2581
             }
         ]
     ],
@@ -4343,6 +4345,25 @@
             }
         ]
     ],
+    "/Lotus/Types/Game/MissionDecks/DagathMissionRewards/DagathHardRewards": [
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/Items/MiscItems/DagathAbyssItem",
+                "itemCount": 8,
+                "probability": 0.333
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Items/MiscItems/DagathAbyssItem",
+                "itemCount": 11,
+                "probability": 0.334
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Items/MiscItems/DagathAbyssItem",
+                "itemCount": 12,
+                "probability": 0.333
+            }
+        ]
+    ],
     "/Lotus/Types/Game/MissionDecks/DagathMissionRewards/DagathNormalRewards": [
         [
             {
@@ -4479,7 +4500,7 @@
                 "probability": 0.0968
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.0968
             },
@@ -4563,7 +4584,7 @@
                 "probability": 0.069
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.069
             },
@@ -4896,7 +4917,7 @@
                 "probability": 0.0909
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.0909
             },
@@ -5450,131 +5471,136 @@
     "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/PurifierDefenseMissionRewards": [
         [
             {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/NidusSystemsBlueprint",
+                "itemCount": 1,
+                "probability": 0.0769
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/NidusHelmetBlueprint",
+                "itemCount": 1,
+                "probability": 0.0769
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/NidusChassisBlueprint",
+                "itemCount": 1,
+                "probability": 0.0769
+            },
+            {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarHealthMaxMod",
                 "itemCount": 1,
-                "probability": 0.1
+                "probability": 0.0769
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponClipMaxMod",
                 "itemCount": 1,
-                "probability": 0.1
+                "probability": 0.0769
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Pistol/WeaponAmmoMaxMod",
                 "itemCount": 1,
-                "probability": 0.1
+                "probability": 0.0769
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionGyrePrimeCBronze",
                 "itemCount": 1,
-                "probability": 0.1
+                "probability": 0.0769
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
-                "probability": 0.1
+                "probability": 0.0769
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionLavosPrimeABronze",
                 "itemCount": 1,
-                "probability": 0.1
+                "probability": 0.0769
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionGyrePrimeDBronze",
                 "itemCount": 1,
-                "probability": 0.1
+                "probability": 0.0769
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionGyrePrimeABronze",
                 "itemCount": 1,
-                "probability": 0.1
+                "probability": 0.0769
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionLavosPrimeDBronze",
                 "itemCount": 1,
-                "probability": 0.1
+                "probability": 0.0769
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionGyrePrimeEBronze",
                 "itemCount": 1,
-                "probability": 0.1
+                "probability": 0.0769
             }
         ],
         [
             {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/NidusSystemsBlueprint",
+                "itemCount": 1,
+                "probability": 0.0769
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/NidusHelmetBlueprint",
+                "itemCount": 1,
+                "probability": 0.0769
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/NidusChassisBlueprint",
+                "itemCount": 1,
+                "probability": 0.0769
+            },
+            {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Pistol/WeaponDamageAmountMod",
                 "itemCount": 1,
-                "probability": 0.0667
-            },
-            {
-                "type": "/Lotus/StoreItems/Upgrades/Mods/Melee/WeaponMeleeChargeRateMod",
-                "itemCount": 1,
-                "probability": 0.0667
-            },
-            {
-                "type": "/Lotus/StoreItems/Upgrades/Mods/Pistol/WeaponFreezeDamageMod",
-                "itemCount": 1,
-                "probability": 0.0667
-            },
-            {
-                "type": "/Lotus/StoreItems/Upgrades/Mods/Melee/WeaponFreezeDamageMod",
-                "itemCount": 1,
-                "probability": 0.0667
+                "probability": 0.0769
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Shotgun/WeaponFireIterationsMod",
                 "itemCount": 1,
-                "probability": 0.0667
+                "probability": 0.0769
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarAbilityEfficiencyMod",
                 "itemCount": 1,
-                "probability": 0.0667
-            },
-            {
-                "type": "/Lotus/StoreItems/Upgrades/Mods/Melee/WeaponElectricityDamageMod",
-                "itemCount": 1,
-                "probability": 0.0667
-            },
-            {
-                "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
-                "itemCount": 3,
-                "probability": 0.0667
+                "probability": 0.0769
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T4VoidProjectionCalibanPrimeABronze",
                 "itemCount": 1,
-                "probability": 0.0667
+                "probability": 0.0769
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T4VoidProjectionLavosPrimeABronze",
                 "itemCount": 1,
-                "probability": 0.0667
+                "probability": 0.0769
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T4VoidProjectionCalibanPrimeCBronze",
                 "itemCount": 1,
-                "probability": 0.0667
+                "probability": 0.0769
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T4VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
-                "probability": 0.0667
+                "probability": 0.0769
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T4VoidProjectionYareliPrimeCBronze",
                 "itemCount": 1,
-                "probability": 0.0667
+                "probability": 0.0769
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T4VoidProjectionGyrePrimeABronze",
                 "itemCount": 1,
-                "probability": 0.0667
+                "probability": 0.0769
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T4VoidProjectionYareliPrimeBBronze",
                 "itemCount": 1,
-                "probability": 0.0667
+                "probability": 0.0769
             }
         ],
         [
@@ -9548,7 +9574,7 @@
                 "probability": 0.1111
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.1111
             },
@@ -9651,7 +9677,7 @@
                 "probability": 0.1111
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.1111
             },
@@ -10382,7 +10408,7 @@
                 "probability": 0.1429
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.1429
             },
@@ -10419,7 +10445,7 @@
                 "probability": 0.1429
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.1429
             },
@@ -10537,7 +10563,7 @@
                 "probability": 0.0769
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.0769
             },
@@ -10604,7 +10630,7 @@
                 "probability": 0.1106
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.1106
             },
@@ -17190,171 +17216,201 @@
             {
                 "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/KhoraChassisBlueprint",
                 "itemCount": 1,
-                "probability": 0.0833
-            },
-            {
-                "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
-                "itemCount": 6,
-                "probability": 0.0917
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileCorpusShipLargeCargo",
-                "itemCount": 1,
-                "probability": 0.0917
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileGrineerOceanCentrifuge",
-                "itemCount": 1,
-                "probability": 0.0917
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeABronze",
-                "itemCount": 1,
-                "probability": 0.0917
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionCalibanPrimeDBronze",
-                "itemCount": 1,
-                "probability": 0.0917
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionCalibanPrimeFBronze",
-                "itemCount": 1,
-                "probability": 0.0917
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeCBronze",
-                "itemCount": 1,
-                "probability": 0.0917
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeDBronze",
-                "itemCount": 1,
-                "probability": 0.0917
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
-                "itemCount": 1,
-                "probability": 0.0917
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionYareliPrimeDBronze",
-                "itemCount": 1,
-                "probability": 0.0917
-            }
-        ],
-        [
-            {
-                "type": "/Lotus/StoreItems/Types/Gameplay/Eidolon/Resources/SentientShards/SentientShardSynthesizedItem",
-                "itemCount": 1,
-                "probability": 0.0833
+                "probability": 0.0714
             },
             {
                 "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/KhoraHelmetBlueprint",
                 "itemCount": 1,
-                "probability": 0.0833
+                "probability": 0.0714
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/KhoraSystemsBlueprint",
+                "itemCount": 1,
+                "probability": 0.0714
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Gameplay/Eidolon/Resources/SentientShards/SentientShardSynthesizedItem",
+                "itemCount": 1,
+                "probability": 0.0714
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
                 "itemCount": 6,
-                "probability": 0.0833
+                "probability": 0.0714
             },
             {
-                "type": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileGrineerSettlementGunBattery",
+                "type": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileCorpusShipLargeCargo",
                 "itemCount": 1,
-                "probability": 0.0833
+                "probability": 0.0714
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeBBronze",
+                "type": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileGrineerOceanCentrifuge",
                 "itemCount": 1,
-                "probability": 0.0833
+                "probability": 0.0714
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionCalibanPrimeCBronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeABronze",
                 "itemCount": 1,
-                "probability": 0.0833
+                "probability": 0.0714
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeFBronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionCalibanPrimeDBronze",
                 "itemCount": 1,
-                "probability": 0.0833
+                "probability": 0.0714
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionCalibanPrimeBBronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionCalibanPrimeFBronze",
                 "itemCount": 1,
-                "probability": 0.0833
+                "probability": 0.0714
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeCBronze",
                 "itemCount": 1,
-                "probability": 0.0833
+                "probability": 0.0714
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeDBronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeDBronze",
                 "itemCount": 1,
-                "probability": 0.0833
+                "probability": 0.0714
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeEBronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
-                "probability": 0.0833
+                "probability": 0.0714
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeCBronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionYareliPrimeDBronze",
                 "itemCount": 1,
-                "probability": 0.0833
+                "probability": 0.0714
             }
         ],
         [
             {
-                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/KhoraSystemsBlueprint",
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/KhoraChassisBlueprint",
                 "itemCount": 1,
-                "probability": 0.1128
+                "probability": 0.0714
             },
             {
-                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/KhoraBlueprint",
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/KhoraHelmetBlueprint",
                 "itemCount": 1,
-                "probability": 0.1128
+                "probability": 0.0714
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/KhoraSystemsBlueprint",
+                "itemCount": 1,
+                "probability": 0.0714
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Gameplay/Eidolon/Resources/SentientShards/SentientShardSynthesizedItem",
+                "itemCount": 1,
+                "probability": 0.0714
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
+                "itemCount": 6,
+                "probability": 0.0714
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileGrineerSettlementGunBattery",
+                "itemCount": 1,
+                "probability": 0.0714
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeBBronze",
+                "itemCount": 1,
+                "probability": 0.0714
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionCalibanPrimeCBronze",
+                "itemCount": 1,
+                "probability": 0.0714
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeFBronze",
+                "itemCount": 1,
+                "probability": 0.0714
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionCalibanPrimeBBronze",
+                "itemCount": 1,
+                "probability": 0.0714
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeABronze",
+                "itemCount": 1,
+                "probability": 0.0714
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeDBronze",
+                "itemCount": 1,
+                "probability": 0.0714
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeEBronze",
+                "itemCount": 1,
+                "probability": 0.0714
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeCBronze",
+                "itemCount": 1,
+                "probability": 0.0714
+            }
+        ],
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/KhoraChassisBlueprint",
+                "itemCount": 1,
+                "probability": 0.0909
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/KhoraHelmetBlueprint",
+                "itemCount": 1,
+                "probability": 0.0909
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/KhoraSystemsBlueprint",
+                "itemCount": 1,
+                "probability": 0.0909
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
                 "itemCount": 12,
-                "probability": 0.0968
+                "probability": 0.0909
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionGyrePrimeCBronze",
                 "itemCount": 1,
-                "probability": 0.0968
+                "probability": 0.0909
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
-                "probability": 0.0968
+                "probability": 0.0909
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionLavosPrimeDBronze",
                 "itemCount": 1,
-                "probability": 0.0968
+                "probability": 0.0909
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionLavosPrimeABronze",
                 "itemCount": 1,
-                "probability": 0.0968
+                "probability": 0.0909
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionGyrePrimeDBronze",
                 "itemCount": 1,
-                "probability": 0.0968
+                "probability": 0.0909
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionGyrePrimeABronze",
                 "itemCount": 1,
-                "probability": 0.0968
+                "probability": 0.0909
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionGyrePrimeEBronze",
                 "itemCount": 1,
-                "probability": 0.0968
+                "probability": 0.0909
             }
         ]
     ],
@@ -17363,161 +17419,144 @@
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/RareFusionBundle",
                 "itemCount": 5,
-                "probability": 0.0948
+                "probability": 0.0704
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/LatoVandalBarrel",
+                "itemCount": 1,
+                "probability": 0.0251
             },
             {
                 "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/LatoVandalReceiver",
                 "itemCount": 1,
-                "probability": 0.0201
+                "probability": 0.0251
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/LatoVandalBlueprint",
+                "itemCount": 1,
+                "probability": 0.0251
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/BratonVandalReceiver",
+                "itemCount": 1,
+                "probability": 0.0251
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/BratonVandalStock",
+                "itemCount": 1,
+                "probability": 0.0251
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/BratonVandalBlueprint",
+                "itemCount": 1,
+                "probability": 0.0251
             },
             {
                 "type": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileGrineerFortressCrevice",
                 "itemCount": 1,
-                "probability": 0.0442
+                "probability": 0.0251
             },
             {
                 "type": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileOrokinMoonPiaza",
                 "itemCount": 1,
-                "probability": 0.0442
+                "probability": 0.0251
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeAPlatinum",
                 "itemCount": 1,
-                "probability": 0.0948
+                "probability": 0.0704
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionCalibanPrimeDPlatinum",
                 "itemCount": 1,
-                "probability": 0.0948
+                "probability": 0.0704
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionCalibanPrimeFPlatinum",
                 "itemCount": 1,
-                "probability": 0.0948
+                "probability": 0.0704
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeCPlatinum",
                 "itemCount": 1,
-                "probability": 0.0948
+                "probability": 0.0704
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeDPlatinum",
                 "itemCount": 1,
-                "probability": 0.0948
+                "probability": 0.0704
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultAPlatinum",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBPlatinum",
                 "itemCount": 1,
-                "probability": 0.0948
+                "probability": 0.0704
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionYareliPrimeDPlatinum",
                 "itemCount": 1,
-                "probability": 0.0948
+                "probability": 0.0704
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeBPlatinum",
                 "itemCount": 1,
-                "probability": 0.0442
+                "probability": 0.0704
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionCalibanPrimeCPlatinum",
                 "itemCount": 1,
-                "probability": 0.0442
+                "probability": 0.0704
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeFPlatinum",
                 "itemCount": 1,
-                "probability": 0.0442
+                "probability": 0.0704
             }
         ],
         [
             {
                 "type": "/Lotus/StoreItems/Types/Gameplay/Eidolon/Resources/SentientShards/SentientShardSynthesizedItem",
                 "itemCount": 1,
-                "probability": 0.1265
+                "probability": 0.0843
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/RareFusionBundle",
                 "itemCount": 5,
-                "probability": 0.1265
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionCalibanPrimeBPlatinum",
-                "itemCount": 1,
-                "probability": 0.1265
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/BratonVandalBarrel",
-                "itemCount": 1,
-                "probability": 0.0442
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/BratonVandalReceiver",
-                "itemCount": 1,
-                "probability": 0.0442
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/LatoVandalBlueprint",
-                "itemCount": 1,
-                "probability": 0.0201
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeAPlatinum",
-                "itemCount": 1,
-                "probability": 0.1265
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeDPlatinum",
-                "itemCount": 1,
-                "probability": 0.1265
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeEPlatinum",
-                "itemCount": 1,
-                "probability": 0.1265
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionGyrePrimeBPlatinum",
-                "itemCount": 1,
-                "probability": 0.0442
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionLavosPrimeAPlatinum",
-                "itemCount": 1,
-                "probability": 0.0442
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionLavosPrimeDPlatinum",
-                "itemCount": 1,
-                "probability": 0.0442
-            }
-        ],
-        [
-            {
-                "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
-                "itemCount": 15,
-                "probability": 0.1518
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/BratonVandalStock",
-                "itemCount": 1,
-                "probability": 0.0201
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/BratonVandalBlueprint",
-                "itemCount": 1,
-                "probability": 0.0201
+                "probability": 0.0843
             },
             {
                 "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/LatoVandalBarrel",
                 "itemCount": 1,
-                "probability": 0.0201
+                "probability": 0.0316
             },
             {
-                "type": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Peculiars/FlowerPowerMod",
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/LatoVandalReceiver",
                 "itemCount": 1,
-                "probability": 0.0201
+                "probability": 0.0316
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/LatoVandalBlueprint",
+                "itemCount": 1,
+                "probability": 0.0316
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/BratonVandalBarrel",
+                "itemCount": 1,
+                "probability": 0.0316
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/BratonVandalReceiver",
+                "itemCount": 1,
+                "probability": 0.0316
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/BratonVandalStock",
+                "itemCount": 1,
+                "probability": 0.0316
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/BratonVandalBlueprint",
+                "itemCount": 1,
+                "probability": 0.0316
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Peculiars/InflationMod",
@@ -17525,59 +17564,141 @@
                 "probability": 0.0201
             },
             {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionCalibanPrimeBPlatinum",
+                "itemCount": 1,
+                "probability": 0.0843
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeAPlatinum",
+                "itemCount": 1,
+                "probability": 0.0843
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeDPlatinum",
+                "itemCount": 1,
+                "probability": 0.0843
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeEPlatinum",
+                "itemCount": 1,
+                "probability": 0.0843
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionGyrePrimeBPlatinum",
+                "itemCount": 1,
+                "probability": 0.0843
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionLavosPrimeAPlatinum",
+                "itemCount": 1,
+                "probability": 0.0843
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionLavosPrimeDPlatinum",
+                "itemCount": 1,
+                "probability": 0.0843
+            }
+        ],
+        [
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
+                "itemCount": 15,
+                "probability": 0.0632
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/LatoVandalBarrel",
+                "itemCount": 1,
+                "probability": 0.0316
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/LatoVandalReceiver",
+                "itemCount": 1,
+                "probability": 0.0316
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/LatoVandalBlueprint",
+                "itemCount": 1,
+                "probability": 0.0316
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/BratonVandalBarrel",
+                "itemCount": 1,
+                "probability": 0.0316
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/BratonVandalReceiver",
+                "itemCount": 1,
+                "probability": 0.0316
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/BratonVandalStock",
+                "itemCount": 1,
+                "probability": 0.0316
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/BratonVandalBlueprint",
+                "itemCount": 1,
+                "probability": 0.0316
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/CosmeticEnhancers/Peculiars/FlowerPowerMod",
+                "itemCount": 1,
+                "probability": 0.0201
+            },
+            {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionGyrePrimeDPlatinum",
                 "itemCount": 1,
-                "probability": 0.1518
+                "probability": 0.0632
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionGyrePrimeCPlatinum",
                 "itemCount": 1,
-                "probability": 0.1518
+                "probability": 0.0632
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionGyrePrimeAPlatinum",
                 "itemCount": 1,
-                "probability": 0.1518
+                "probability": 0.0632
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T3VoidProjectionGyrePrimeEPlatinum",
                 "itemCount": 1,
-                "probability": 0.1518
+                "probability": 0.0632
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T4VoidProjectionCalibanPrimeAPlatinum",
                 "itemCount": 1,
-                "probability": 0.0201
+                "probability": 0.0632
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T4VoidProjectionLavosPrimeAPlatinum",
                 "itemCount": 1,
-                "probability": 0.0201
+                "probability": 0.0632
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T4VoidProjectionCalibanPrimeCPlatinum",
                 "itemCount": 1,
-                "probability": 0.0201
+                "probability": 0.0632
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T4VoidProjectionGyrePrimeBPlatinum",
                 "itemCount": 1,
-                "probability": 0.0201
+                "probability": 0.0632
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T4VoidProjectionYareliPrimeCPlatinum",
                 "itemCount": 1,
-                "probability": 0.0201
+                "probability": 0.0632
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T4VoidProjectionGyrePrimeAPlatinum",
                 "itemCount": 1,
-                "probability": 0.0201
+                "probability": 0.0632
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T4VoidProjectionYareliPrimeBPlatinum",
                 "itemCount": 1,
-                "probability": 0.0201
+                "probability": 0.0632
             }
         ]
     ],
@@ -18940,7 +19061,7 @@
                 "probability": 0.1
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.1
             },
@@ -18987,7 +19108,7 @@
                 "probability": 0.1
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.1
             },
@@ -19704,7 +19825,7 @@
                 "probability": 0.0769
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.0769
             },
@@ -19771,7 +19892,7 @@
                 "probability": 0.1106
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.1106
             },
@@ -20809,7 +20930,7 @@
                 "probability": 0.1
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.1
             },
@@ -21559,24 +21680,9 @@
     "/Lotus/Types/Game/MissionDecks/KuvaMissionRewards/KuvaSiphonFloodRewards": [
         [
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T5VoidProjectionImmortalABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T5VoidProjectionImmortalOmniA",
                 "itemCount": 1,
-                "probability": 0.25
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T5VoidProjectionImmortalBBronze",
-                "itemCount": 1,
-                "probability": 0.25
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T5VoidProjectionImmortalCBronze",
-                "itemCount": 1,
-                "probability": 0.25
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T5VoidProjectionImmortalDBronze",
-                "itemCount": 1,
-                "probability": 0.25
+                "probability": 1.0
             }
         ]
     ],
@@ -21588,24 +21694,9 @@
                 "probability": 0.5
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T5VoidProjectionImmortalABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T5VoidProjectionImmortalOmniA",
                 "itemCount": 1,
-                "probability": 0.125
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T5VoidProjectionImmortalBBronze",
-                "itemCount": 1,
-                "probability": 0.125
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T5VoidProjectionImmortalCBronze",
-                "itemCount": 1,
-                "probability": 0.125
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T5VoidProjectionImmortalDBronze",
-                "itemCount": 1,
-                "probability": 0.125
+                "probability": 0.5
             }
         ]
     ],
@@ -24819,12 +24910,7 @@
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
                 "itemCount": 12,
-                "probability": 0.24
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/RangerBlueprint",
-                "itemCount": 1,
-                "probability": 0.12
+                "probability": 0.36
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Skins/RailJack/EnginesVidarC",
@@ -25718,14 +25804,9 @@
         ],
         [
             {
-                "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
-                "itemCount": 12,
-                "probability": 0.24
-            },
-            {
                 "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/RangerChassisBlueprint",
                 "itemCount": 1,
-                "probability": 0.12
+                "probability": 0.36
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Skins/RailJack/EnginesLavanB",
@@ -26579,14 +26660,9 @@
         ],
         [
             {
-                "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
-                "itemCount": 12,
-                "probability": 0.24
-            },
-            {
                 "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/RangerHelmetBlueprint",
                 "itemCount": 1,
-                "probability": 0.12
+                "probability": 0.36
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Skins/RailJack/EnginesLavanC",
@@ -26929,7 +27005,7 @@
                 "probability": 0.0435
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.0435
             },
@@ -27084,7 +27160,7 @@
                 "probability": 0.1579
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.0526
             },
@@ -27178,7 +27254,7 @@
                 "probability": 0.0244
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.0244
             },
@@ -27269,7 +27345,7 @@
                 "probability": 0.0455
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.0455
             },
@@ -27422,7 +27498,7 @@
                 "probability": 0.1
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.1
             },
@@ -27434,14 +27510,9 @@
         ],
         [
             {
-                "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
-                "itemCount": 12,
-                "probability": 0.24
-            },
-            {
                 "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/RangerSystemsBlueprint",
                 "itemCount": 1,
-                "probability": 0.12
+                "probability": 0.36
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Skins/RailJack/EnginesLavanA",
@@ -27582,7 +27653,7 @@
                 "probability": 0.125
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.0625
             },
@@ -27676,7 +27747,7 @@
                 "probability": 0.0244
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.0244
             },
@@ -27874,7 +27945,7 @@
                 "probability": 0.03
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.03
             },
@@ -28074,7 +28145,7 @@
                 "probability": 0.05
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.05
             },
@@ -28955,6 +29026,25 @@
             }
         ]
     ],
+    "/Lotus/Types/Game/MissionDecks/ShadowgrapherMissionRewards/ShadowgrapherRewards": [
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/FollieChassisBlueprint",
+                "itemCount": 1,
+                "probability": 0.05
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/FollieHelmetBlueprint",
+                "itemCount": 1,
+                "probability": 0.05
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/FollieSystemsBlueprint",
+                "itemCount": 1,
+                "probability": 0.05
+            }
+        ]
+    ],
     "/Lotus/Types/Game/MissionDecks/SortieRewards": [
         [
             {
@@ -29344,72 +29434,52 @@
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/DataSpike/Cipher/AutoHackMod",
                 "itemCount": 1,
-                "probability": 0.0704
+                "probability": 0.086
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Melee/WeaponGlaivePowerthrowMod",
                 "itemCount": 1,
-                "probability": 0.0704
+                "probability": 0.086
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarAbilityRangeMod",
                 "itemCount": 1,
-                "probability": 0.0704
+                "probability": 0.086
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Shotgun/WeaponFireIterationsMod",
                 "itemCount": 1,
-                "probability": 0.0704
+                "probability": 0.08
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Pistol/DualStat/FireEventPistolMod",
                 "itemCount": 1,
-                "probability": 0.0704
+                "probability": 0.086
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Rifle/DualStat/FireEventRifleMod",
                 "itemCount": 1,
-                "probability": 0.0704
+                "probability": 0.086
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Pistol/DualStat/IceEventPistolMod",
                 "itemCount": 1,
-                "probability": 0.0752
+                "probability": 0.086
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Shotgun/DualStat/IceEventShotgunMod",
                 "itemCount": 1,
-                "probability": 0.0704
-            },
-            {
-                "type": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponBowConvertAmmoMod",
-                "itemCount": 1,
-                "probability": 0.0704
-            },
-            {
-                "type": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponSnipersConvertAmmoMod",
-                "itemCount": 1,
-                "probability": 0.0704
-            },
-            {
-                "type": "/Lotus/StoreItems/Upgrades/Mods/Shotgun/WeaponShotgunConvertAmmoMod",
-                "itemCount": 1,
-                "probability": 0.0704
+                "probability": 0.086
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Melee/WeaponMeleeStealthLethalMod",
                 "itemCount": 1,
-                "probability": 0.0704
+                "probability": 0.086
             },
             {
                 "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/RangerHelmetBlueprint",
                 "itemCount": 1,
-                "probability": 0.0752
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/RangerBlueprint",
-                "itemCount": 1,
-                "probability": 0.0752
+                "probability": 0.2256
             }
         ]
     ],
@@ -29468,7 +29538,7 @@
                 "probability": 0.1429
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.1429
             },
@@ -29482,52 +29552,52 @@
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/DataSpike/Cipher/OnHackLockersMod",
                 "itemCount": 1,
-                "probability": 0.1
+                "probability": 0.086
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarParryReflectMod",
                 "itemCount": 1,
-                "probability": 0.1
+                "probability": 0.086
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarParryMeleeMod",
                 "itemCount": 1,
-                "probability": 0.1
+                "probability": 0.086
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarFallingImpactMod",
                 "itemCount": 1,
-                "probability": 0.1
+                "probability": 0.086
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponDamageAmountMod",
                 "itemCount": 1,
-                "probability": 0.1
+                "probability": 0.086
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Pistol/WeaponDamageAmountMod",
                 "itemCount": 1,
-                "probability": 0.1
+                "probability": 0.086
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponPunctureDepthMod",
                 "itemCount": 1,
-                "probability": 0.1
+                "probability": 0.086
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Melee/DualStat/FireEventMeleeMod",
                 "itemCount": 1,
-                "probability": 0.1
+                "probability": 0.086
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Melee/DualStat/IceEventMeleeMod",
                 "itemCount": 1,
-                "probability": 0.1
+                "probability": 0.086
             },
             {
                 "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/RangerSystemsBlueprint",
                 "itemCount": 1,
-                "probability": 0.1
+                "probability": 0.2256
             }
         ]
     ],
@@ -29683,64 +29753,59 @@
         ],
         [
             {
-                "type": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponPunctureDepthMod",
-                "itemCount": 1,
-                "probability": 0.0564
-            },
-            {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Rifle/DualStat/IceEventRifleMod",
                 "itemCount": 1,
-                "probability": 0.0564
+                "probability": 0.0774
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Shotgun/DualStat/FireEventShotgunMod",
                 "itemCount": 1,
-                "probability": 0.0564
+                "probability": 0.0774
             },
             {
                 "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/RangerChassisBlueprint",
                 "itemCount": 1,
-                "probability": 0.0564
+                "probability": 0.2256
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
-                "probability": 0.0968
+                "probability": 0.0774
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionCalibanPrimeCBronze",
                 "itemCount": 1,
-                "probability": 0.0968
+                "probability": 0.0774
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeFBronze",
                 "itemCount": 1,
-                "probability": 0.0968
+                "probability": 0.0774
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionCalibanPrimeBBronze",
                 "itemCount": 1,
-                "probability": 0.0968
+                "probability": 0.0774
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeABronze",
                 "itemCount": 1,
-                "probability": 0.0968
+                "probability": 0.0774
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeDBronze",
                 "itemCount": 1,
-                "probability": 0.0968
+                "probability": 0.0774
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeEBronze",
                 "itemCount": 1,
-                "probability": 0.0968
+                "probability": 0.0774
             },
             {
                 "type": "/Lotus/StoreItems/Types/Game/Projections/T2VoidProjectionGyrePrimeCBronze",
                 "itemCount": 1,
-                "probability": 0.0968
+                "probability": 0.0774
             }
         ]
     ],
@@ -29878,12 +29943,12 @@
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Rifle/DualStat/IceEventRifleMod",
                 "itemCount": 1,
-                "probability": 0.0737
+                "probability": 0.1106
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/Shotgun/DualStat/FireEventShotgunMod",
                 "itemCount": 1,
-                "probability": 0.0737
+                "probability": 0.1106
             },
             {
                 "type": "/Lotus/StoreItems/Upgrades/Mods/DataSpike/Cipher/OnFailHackResetMod",
@@ -29899,11 +29964,6 @@
                 "type": "/Lotus/StoreItems/Weapons/Tenno/Melee/MeleeTrees/AxeCmbTwoMeleeTree",
                 "itemCount": 1,
                 "probability": 0.0201
-            },
-            {
-                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/RangerChassisBlueprint",
-                "itemCount": 1,
-                "probability": 0.0737
             }
         ]
     ],
@@ -30278,7 +30338,7 @@
                 "probability": 0.0769
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.0769
             },
@@ -30325,7 +30385,7 @@
                 "probability": 0.1106
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.1106
             },
@@ -30832,7 +30892,7 @@
                 "probability": 0.0769
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.0769
             },
@@ -30899,7 +30959,7 @@
                 "probability": 0.1106
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.1106
             },
@@ -58744,7 +58804,7 @@
                 "probability": 0.1334
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.1334
             },
@@ -58781,7 +58841,7 @@
                 "probability": 0.1106
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.1106
             },
@@ -58863,7 +58923,7 @@
                 "probability": 0.0625
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.0625
             },
@@ -58947,7 +59007,7 @@
                 "probability": 0.1106
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.1106
             },
@@ -59407,7 +59467,7 @@
                 "probability": 0.1334
             },
             {
-                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionWispHildrynVaultABronze",
+                "type": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionGyrePrimeBBronze",
                 "itemCount": 1,
                 "probability": 0.1334
             },
