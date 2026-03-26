@@ -6615,6 +6615,24 @@
                 "bin": 5,
                 "duplicates": 0,
                 "numRandomItemPrices": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/DuviriGuidingHandPuzzleUpgrade",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 5,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriPuzzleItem"
+                    },
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem"
+                    }
+                ],
+                "purchaseLimit": 1
             }
         ],
         "randomItemPricesPerBin": [
@@ -47360,6 +47378,464 @@
             "maxValue": 0
         }
     },
+    "/Lotus/Types/Game/VendorManifests/Events/ShadowgrapherEventVendorManifest": {
+        "isDynamic": true,
+        "isOneBinPerCycle": false,
+        "items": [
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Effects/InkEphemeraA",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 65,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Effects/InkEphemeraB",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 65,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Effects/InkEphemeraC",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 65,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/ShadowgrapherEventVendorTitle",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 200,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Emotes/CryForYouEmote",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 90,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/Events/StatueNitokh",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 40,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Operator/Accessories/YontaCrownFacialAcc",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 60,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Clan/ShadowgrapherEventBadgeItem",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 40,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/EventSigilShadowgrapher",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 40,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Crowns/Events/IsleweaverEventCrownA",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 15,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Crowns/Events/IsleweaverEventCrownB",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 25,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Crowns/Events/IsleweaverEventCrownC",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 40,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Parazon/DaxDuviriParazonSkin",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 15,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Clan/EightClawEventBadgeItem",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 15,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/EventSigilEightClaw",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 15,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Effects/JadeLightEphemeraA",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 15,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Effects/JadeLightEphemeraB",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 25,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Effects/JadeLightEphemeraC",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 40,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/EventSigilCaviaBirdThree",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 15,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/EventSigilCaviaFibonacci",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 15,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/EventSigilCaviaTagfer",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 15,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Events/EventGlyphCaviaBirdThree",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 15,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Events/EventGlyphCaviaFibonacci",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 15,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/StoreItems/AvatarImages/Events/EventGlyphCaviaTagfer",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 15,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/StoreItems/SuitCustomizations/ColourPickerCavia",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 30,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Clan/EntratiEventEmblemItem",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 15,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Weapons/Redeemer/TnSpikeGunbladeSkin",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 30,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/ClanSigilBasicAdd",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 15,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/ClanSigilTwoTone",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 15,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Sigils/ClanSigilMaskedEffect",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 15,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/SyndicateDogTags/UniversalSyndicateDogTag",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ],
+                "durationHours": 168,
+                "purchaseLimit": 75
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Crowns/LaurelHaloCrown",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 15,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/DangerRoom/DangerRoomTileArena",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 15,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/Types/StoreItems/Packages/SyndicateVosforPack",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 20,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource"
+                    }
+                ],
+                "durationHours": 168,
+                "purchaseLimit": 7
+            }
+        ],
+        "numItems": {
+            "minValue": 2,
+            "maxValue": 2
+        }
+    },
     "/Lotus/Types/Game/VendorManifests/Events/WaterFightVendorManifest": {
         "isDynamic": false,
         "items": [
@@ -48880,6 +49356,223 @@
             }
         ]
     },
+    "/Lotus/Types/Game/VendorManifests/Hubs/AspirantZorbaVendorManifest": {
+        "isDynamic": true,
+        "isOneBinPerCycle": false,
+        "items": [
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/FoilModUnlocker",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 360,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/EmpoweredHeavyMelee/CursedSyndicateEmpoweredHeavyMeleeMod",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 360,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/FollieBlueprint",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 1200,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/FollieChassisBlueprint",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 400,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/FollieHelmetBlueprint",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 400,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/FollieSystemsBlueprint",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 400,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/EnkausBlueprint",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 1200,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/EnkausBarrelBlueprint",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 400,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/EnkausReceiverBlueprint",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 400,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/EnkausStockBlueprint",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 400,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/DripSongItem",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 200,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/StainedVespersSongItem",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 200,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/SongItems/DreadnaughtSongItem",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 200,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCardFollie",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 600,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileMuseHub",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 0,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 600,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherResource"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/Kuva",
+                "quantity": 6000,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 500,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherResource"
+                    }
+                ],
+                "durationHours": 168,
+                "purchaseLimit": 7
+            }
+        ]
+    },
     "/Lotus/Types/Game/VendorManifests/Hubs/EliteAlertVendorManifest": {
         "isDynamic": false,
         "items": [
@@ -49883,12 +50576,25 @@
                 "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/HarrowQuestKeyOrnament",
                 "quantity": 1,
                 "alwaysOffered": true,
-                "bin": 0,
+                "bin": 2,
                 "duplicates": 0,
                 "itemPrices": [
                     {
                         "ItemCount": 25,
                         "ItemType": "/Lotus/Types/Items/MiscItems/PrimeBucks"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileIronwakeHub",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 1,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
                     }
                 ]
             },
@@ -49939,11 +50645,347 @@
                 ],
                 "durationHours": 168,
                 "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Game/Projections/T5VoidProjectionImmortalABronze",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ],
+                "durationHours": 168,
+                "purchaseLimit": 10
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Game/Projections/T5VoidProjectionImmortalBBronze",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ],
+                "durationHours": 168,
+                "purchaseLimit": 10
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Game/Projections/T5VoidProjectionImmortalCBronze",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ],
+                "durationHours": 168,
+                "purchaseLimit": 10
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Game/Projections/T5VoidProjectionImmortalDBronze",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ],
+                "durationHours": 168,
+                "purchaseLimit": 10
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CircuitSilverSteelPathFusionBundle",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ],
+                "durationHours": 168,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/NemesisBait",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ],
+                "durationHours": 168,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/MiscItems/RivenIdentifier",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ],
+                "durationHours": 168,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Gameplay/Eidolon/Resources/SentientSecretItem",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ],
+                "durationHours": 168,
+                "purchaseLimit": 3
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCard/Emotions/TarotCardAngry",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 3,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCard/Emotions/TarotCardBored",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 3,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCard/Emotions/TarotCardConfused",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 3,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCard/Emotions/TarotCardDisgusted",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 3,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCard/Emotions/TarotCardEmbarrassed",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 3,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCard/Emotions/TarotCardExcited",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 3,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCard/Emotions/TarotCardGrumpy",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 3,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCard/Emotions/TarotCardHappy",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 3,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCard/Emotions/TarotCardHungry",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 3,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCard/Emotions/TarotCardNervous",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 3,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCard/Emotions/TarotCardProud",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 3,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCard/Emotions/TarotCardSad",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 3,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCard/Emotions/TarotCardScared",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 3,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCard/Emotions/TarotCardShy",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 3,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCard/Emotions/TarotCardSurprised",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 3,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ]
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/ShipDecos/TarotCard/Emotions/TarotCardTired",
+                "quantity": 1,
+                "alwaysOffered": true,
+                "bin": 3,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 5,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/RivenFragment"
+                    }
+                ]
             }
         ],
         "numItems": {
-            "minValue": 4,
-            "maxValue": 4
+            "minValue": 12,
+            "maxValue": 12
         }
     },
     "/Lotus/Types/Game/VendorManifests/Hubs/IronwakeFlawedModVendorManifest": {
@@ -61066,6 +62108,156 @@
                     }
                 ],
                 "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleSaryn",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 250,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/KelaArenaToken"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleHydroid",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 310,
+                        "ItemType": "/Lotus/Types/Items/Fish/Eidolon/FishParts/EidolonFishMeatItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleGaruda",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 130,
+                        "ItemType": "/Lotus/Types/Items/Gems/Solaris/SolarisRareGemAItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleGauss",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 110,
+                        "ItemType": "/Lotus/Types/Items/Gems/Eidolon/EidolonGemAItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleGrendel",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 110,
+                        "ItemType": "/Lotus/Types/Items/Eidolon/AnimalTagCondrocCommon"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleLavos",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 110,
+                        "ItemType": "/Lotus/Types/Items/Gems/Deimos/DeimosEidolonGemAItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleCaliban",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 50,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/NarmerBountyResource"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleQorvex",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 470,
+                        "ItemType": "/Lotus/Types/Gameplay/EntratiLab/Resources/MurmurItem"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleCyteZeroNine",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 2600,
+                        "ItemType": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceCommonB"
+                    }
+                ],
+                "durationHours": 24
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Types/Items/Titles/RoatheTitles/TitleFollie",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 0.8,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 1000,
+                        "ItemType": "/Lotus/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherResource"
+                    }
+                ],
+                "durationHours": 24
             }
         ],
         "numItems": {
@@ -63655,122 +64847,10 @@
         "isOneBinPerCycle": true,
         "items": [
             {
-                "storeItem": "/Lotus/StoreItems/Weapons/Infested/InfestedLich/LongGuns/CodaHema",
-                "quantity": 1,
-                "alwaysOffered": false,
-                "bin": 0,
-                "probability": 1,
-                "duplicates": 0,
-                "itemPrices": [
-                    {
-                        "ItemCount": 10,
-                        "ItemType": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks"
-                    }
-                ],
-                "durationHours": 96,
-                "purchaseLimit": 1
-            },
-            {
-                "storeItem": "/Lotus/StoreItems/Weapons/Infested/InfestedLich/Pistols/1999InfSporePistol/1999InfSporePistolWeapon",
-                "quantity": 1,
-                "alwaysOffered": false,
-                "bin": 0,
-                "probability": 1,
-                "duplicates": 0,
-                "itemPrices": [
-                    {
-                        "ItemCount": 10,
-                        "ItemType": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks"
-                    }
-                ],
-                "durationHours": 96,
-                "purchaseLimit": 1
-            },
-            {
-                "storeItem": "/Lotus/StoreItems/Weapons/Infested/InfestedLich/Melee/InfestedHammer/InfLichHammerWeapon",
-                "quantity": 1,
-                "alwaysOffered": false,
-                "bin": 0,
-                "probability": 1,
-                "duplicates": 0,
-                "itemPrices": [
-                    {
-                        "ItemCount": 10,
-                        "ItemType": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks"
-                    }
-                ],
-                "durationHours": 96,
-                "purchaseLimit": 1
-            },
-            {
-                "storeItem": "/Lotus/StoreItems/Weapons/Infested/InfestedLich/LongGuns/CodaSporothrix",
-                "quantity": 1,
-                "alwaysOffered": false,
-                "bin": 0,
-                "probability": 1,
-                "duplicates": 0,
-                "itemPrices": [
-                    {
-                        "ItemCount": 10,
-                        "ItemType": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks"
-                    }
-                ],
-                "durationHours": 96,
-                "purchaseLimit": 1
-            },
-            {
-                "storeItem": "/Lotus/StoreItems/Weapons/Infested/InfestedLich/Pistols/CodaCatabolyst",
-                "quantity": 1,
-                "alwaysOffered": false,
-                "bin": 0,
-                "probability": 1,
-                "duplicates": 0,
-                "itemPrices": [
-                    {
-                        "ItemCount": 10,
-                        "ItemType": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks"
-                    }
-                ],
-                "durationHours": 96,
-                "purchaseLimit": 1
-            },
-            {
-                "storeItem": "/Lotus/StoreItems/Weapons/Infested/InfestedLich/Melee/CodaMire",
-                "quantity": 1,
-                "alwaysOffered": false,
-                "bin": 0,
-                "probability": 1,
-                "duplicates": 0,
-                "itemPrices": [
-                    {
-                        "ItemCount": 10,
-                        "ItemType": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks"
-                    }
-                ],
-                "durationHours": 96,
-                "purchaseLimit": 1
-            },
-            {
-                "storeItem": "/Lotus/StoreItems/Weapons/Infested/InfestedLich/Pistols/CodaPox",
-                "quantity": 1,
-                "alwaysOffered": false,
-                "bin": 0,
-                "probability": 1,
-                "duplicates": 0,
-                "itemPrices": [
-                    {
-                        "ItemCount": 10,
-                        "ItemType": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks"
-                    }
-                ],
-                "durationHours": 96,
-                "purchaseLimit": 1
-            },
-            {
                 "storeItem": "/Lotus/StoreItems/Weapons/Infested/InfestedLich/LongGuns/1999InfShotgun/1999InfShotgunWeapon",
                 "quantity": 1,
                 "alwaysOffered": false,
-                "bin": 1,
+                "bin": 0,
                 "probability": 1,
                 "duplicates": 0,
                 "itemPrices": [
@@ -63786,7 +64866,7 @@
                 "storeItem": "/Lotus/StoreItems/Weapons/Infested/InfestedLich/Pistols/CodaTysis",
                 "quantity": 1,
                 "alwaysOffered": false,
-                "bin": 1,
+                "bin": 0,
                 "probability": 1,
                 "duplicates": 0,
                 "itemPrices": [
@@ -63802,7 +64882,7 @@
                 "storeItem": "/Lotus/StoreItems/Weapons/Infested/InfestedLich/Melee/CodaCaustacyst/CodaCaustacyst",
                 "quantity": 1,
                 "alwaysOffered": false,
-                "bin": 1,
+                "bin": 0,
                 "probability": 1,
                 "duplicates": 0,
                 "itemPrices": [
@@ -63818,7 +64898,7 @@
                 "storeItem": "/Lotus/StoreItems/Weapons/Infested/InfestedLich/LongGuns/CodaSynapse",
                 "quantity": 1,
                 "alwaysOffered": false,
-                "bin": 1,
+                "bin": 0,
                 "probability": 1,
                 "duplicates": 0,
                 "itemPrices": [
@@ -63834,7 +64914,7 @@
                 "storeItem": "/Lotus/StoreItems/Weapons/Infested/InfestedLich/Melee/CodaHirudo",
                 "quantity": 1,
                 "alwaysOffered": false,
-                "bin": 1,
+                "bin": 0,
                 "probability": 1,
                 "duplicates": 0,
                 "itemPrices": [
@@ -63848,6 +64928,134 @@
             },
             {
                 "storeItem": "/Lotus/StoreItems/Weapons/Infested/InfestedLich/Melee/CodaPathocyst/CodaPathocyst",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks"
+                    }
+                ],
+                "durationHours": 96,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Weapons/Infested/InfestedLich/LongGuns/CodaBubonico/CodaBubonicoCannon",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 0,
+                "probability": 1,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks"
+                    }
+                ],
+                "durationHours": 96,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Weapons/Infested/InfestedLich/LongGuns/CodaHema",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks"
+                    }
+                ],
+                "durationHours": 96,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Weapons/Infested/InfestedLich/Pistols/1999InfSporePistol/1999InfSporePistolWeapon",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks"
+                    }
+                ],
+                "durationHours": 96,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Weapons/Infested/InfestedLich/Melee/InfestedHammer/InfLichHammerWeapon",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks"
+                    }
+                ],
+                "durationHours": 96,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Weapons/Infested/InfestedLich/LongGuns/CodaSporothrix",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks"
+                    }
+                ],
+                "durationHours": 96,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Weapons/Infested/InfestedLich/Pistols/CodaCatabolyst",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks"
+                    }
+                ],
+                "durationHours": 96,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Weapons/Infested/InfestedLich/Melee/CodaMire",
+                "quantity": 1,
+                "alwaysOffered": false,
+                "bin": 1,
+                "probability": 1,
+                "duplicates": 0,
+                "itemPrices": [
+                    {
+                        "ItemCount": 10,
+                        "ItemType": "/Lotus/Types/Items/MiscItems/CodaWeaponBucks"
+                    }
+                ],
+                "durationHours": 96,
+                "purchaseLimit": 1
+            },
+            {
+                "storeItem": "/Lotus/StoreItems/Weapons/Infested/InfestedLich/Pistols/CodaPox",
                 "quantity": 1,
                 "alwaysOffered": false,
                 "bin": 1,
@@ -63864,12 +65072,12 @@
             }
         ],
         "numItems": {
-            "minValue": 13,
-            "maxValue": 13
+            "minValue": 14,
+            "maxValue": 14
         },
         "numItemsPerBin": [
             7,
-            6
+            7
         ],
         "randomSeedType": "VRST_WEAPON"
     },
