@@ -630,6 +630,7 @@
         "minEnemyLevel": 35,
         "maxEnemyLevel": 45,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Muse/Proc/MuseHubRandomized",
         "rewardManifests": [],
         "nextNodes": []
     },
@@ -6852,6 +6853,16 @@
         "minEnemyLevel": 165,
         "maxEnemyLevel": 170,
         "masteryExp": 0,
+        "levelOverride": "/Lotus/Levels/Proc/TauPrequel/TauPrequel12MinWarNodeDHardMode",
+        "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/Tau/Tau12MinWarDaxSpec",
+        "missionReward": {
+            "countedItems": [
+                {
+                    "ItemType": "/Lotus/Types/Gameplay/Tau/Resources/TwelveBossResourceHunhullusItem",
+                    "ItemCount": 10
+                }
+            ]
+        },
         "rewardManifests": [],
         "nextNodes": []
     },
