@@ -1938,7 +1938,7 @@
         "DIT_XBONE": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
         "DIT_PS4": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
         "DIT_PC": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
-        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/NintendoSwitch_d.png",
+        "DIT_SWITCH": "/EE/Interface/Graphics/PlatformKeys/NintendoSwitchandSwitch2Logo_d.png",
         "DIT_IOS": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png",
         "DIT_ANDROID": "/EE/Interface/Graphics/PlatformKeys/GenericPlayerIcon_d.png"
     },
@@ -2200,7 +2200,9 @@
     "CURSOR_BLINK": {
         "DIT_AUTO": "/Lotus/Interface/Graphics/Retro/Texts/CursorBlinkFlip_d.png"
     },
-    "CURSOR_STATIC": {},
+    "CURSOR_STATIC": {
+        "DIT_AUTO": "/Lotus/Interface/Graphics/Retro/Texts/CursorBlinkFlip_d.png"
+    },
     "LOWER_IS_BETTER": {
         "DIT_AUTO": "/Lotus/Interface/Graphics/StatArrowUp_d.png"
     },
@@ -2260,5 +2262,11 @@
     },
     "ZENURIK_CLEAN": {
         "DIT_AUTO": "/Lotus/Interface/Icons/FocusSchool/FocusCleanZenurik_d.png"
+    },
+    "POWER_CELL": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/Markers/ExcavatorPowerCellMarker.png"
+    },
+    "FOIL_UNLOCKER": {
+        "DIT_AUTO": "/Lotus/Interface/Icons/StoreIcons/MiscItems/FoilModUnlocker.png"
     }
 }
