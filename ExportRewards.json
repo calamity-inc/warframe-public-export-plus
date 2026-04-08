@@ -17452,6 +17452,11 @@
                 "probability": 0.0251
             },
             {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/BratonVandalBarrel",
+                "itemCount": 1,
+                "probability": 0.0251
+            },
+            {
                 "type": "/Lotus/StoreItems/Types/Items/MiscItems/PhotoboothTileGrineerFortressCrevice",
                 "itemCount": 1,
                 "probability": 0.0251
@@ -29029,7 +29034,17 @@
     "/Lotus/Types/Game/MissionDecks/ShadowgrapherMissionRewards/ShadowgrapherRewards": [
         [
             {
-                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/FollieChassisBlueprint",
+                "type": "/Lotus/StoreItems/Types/PickUps/Credits/3000Credits",
+                "itemCount": 1,
+                "probability": 0.125
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
+                "itemCount": 20,
+                "probability": 0.175
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/FollieBlueprint",
                 "itemCount": 1,
                 "probability": 0.05
             },
@@ -29042,6 +29057,173 @@
                 "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/FollieSystemsBlueprint",
                 "itemCount": 1,
                 "probability": 0.05
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/FollieChassisBlueprint",
+                "itemCount": 1,
+                "probability": 0.05
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/EnkausBlueprint",
+                "itemCount": 1,
+                "probability": 0.05
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/EnkausBarrelBlueprint",
+                "itemCount": 1,
+                "probability": 0.05
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/EnkausReceiverBlueprint",
+                "itemCount": 1,
+                "probability": 0.05
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/EnkausStockBlueprint",
+                "itemCount": 1,
+                "probability": 0.05
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Items/SyndicateDogTags/ArbitersDogTag",
+                "itemCount": 1,
+                "probability": 0.05
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Items/SyndicateDogTags/CephalonDogTag",
+                "itemCount": 1,
+                "probability": 0.05
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Items/SyndicateDogTags/NewLokaDogTag",
+                "itemCount": 1,
+                "probability": 0.05
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Items/SyndicateDogTags/PerrinDogTag",
+                "itemCount": 1,
+                "probability": 0.05
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Items/SyndicateDogTags/RedVeilDogTag",
+                "itemCount": 1,
+                "probability": 0.05
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Items/SyndicateDogTags/SteelMeridianDogTag",
+                "itemCount": 1,
+                "probability": 0.05
+            }
+        ],
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherResource",
+                "itemCount": 15,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource",
+                "itemCount": 3,
+                "probability": 1.0
+            }
+        ]
+    ],
+    "/Lotus/Types/Game/MissionDecks/ShadowgrapherMissionRewards/ShadowgrapherSteelPathRewards": [
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/PickUps/Credits/10000Credits",
+                "itemCount": 1,
+                "probability": 0.09
+            },
+            {
+                "type": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
+                "itemCount": 60,
+                "probability": 0.15
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/FollieBlueprint",
+                "itemCount": 1,
+                "probability": 0.06
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/FollieHelmetBlueprint",
+                "itemCount": 1,
+                "probability": 0.06
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/FollieSystemsBlueprint",
+                "itemCount": 1,
+                "probability": 0.06
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/FollieChassisBlueprint",
+                "itemCount": 1,
+                "probability": 0.06
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/EnkausBlueprint",
+                "itemCount": 1,
+                "probability": 0.06
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/EnkausBarrelBlueprint",
+                "itemCount": 1,
+                "probability": 0.06
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/EnkausReceiverBlueprint",
+                "itemCount": 1,
+                "probability": 0.06
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Recipes/Weapons/WeaponParts/EnkausStockBlueprint",
+                "itemCount": 1,
+                "probability": 0.06
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Items/SyndicateDogTags/ArbitersUncommonDogTag",
+                "itemCount": 1,
+                "probability": 0.0467
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Items/SyndicateDogTags/CephalonUncommonDogTag",
+                "itemCount": 1,
+                "probability": 0.0467
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Items/SyndicateDogTags/NewLokaUncommonDogTag",
+                "itemCount": 1,
+                "probability": 0.0467
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Items/SyndicateDogTags/PerrinUncommonDogTag",
+                "itemCount": 1,
+                "probability": 0.0467
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Items/SyndicateDogTags/RedVeilUncommonDogTag",
+                "itemCount": 1,
+                "probability": 0.0467
+            },
+            {
+                "type": "/Lotus/StoreItems/Types/Items/SyndicateDogTags/SteelMeridianUncommonDogTag",
+                "itemCount": 1,
+                "probability": 0.0467
+            }
+        ],
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherResource",
+                "itemCount": 25,
+                "probability": 1.0
+            }
+        ],
+        [
+            {
+                "type": "/Lotus/StoreItems/Types/Gameplay/Shadowgrapher/Resources/ShadowgrapherEventResource",
+                "itemCount": 4,
+                "probability": 1.0
             }
         ]
     ],
