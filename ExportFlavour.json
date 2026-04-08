@@ -5176,6 +5176,17 @@
         "excludeFromMarket": true,
         "titleTag": "/Lotus/Language/Titles/TitleGrendelPrime"
     },
+    "/Lotus/Types/Items/Titles/TitleVorunaPrime": {
+        "name": "/Lotus/Language/Titles/TitleVorunaPrimeDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true,
+        "titleTag": "/Lotus/Language/Titles/TitleVorunaPrime"
+    },
     "/Lotus/Types/Items/Titles/UnairuFocusHoarderTitle": {
         "name": "/Lotus/Language/Titles/UnairuBigSpender_MarketTitle",
         "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
@@ -10392,6 +10403,24 @@
         "name": "/Lotus/Language/Primes/AvatarSevagothPrimeDarkName",
         "description": "/Lotus/Language/Primes/AvatarSevagothPrimeDarkDesc",
         "icon": "/Lotus/Interface/Icons/Player/SevagothPrimeAvatarDark.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 10,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Primes/ImageVorunaPrimeBright": {
+        "name": "/Lotus/Language/Glyphs/AvatarVorunaPrimeBrightName",
+        "description": "/Lotus/Language/Glyphs/AvatarVorunaPrimeBrightDesc",
+        "icon": "/Lotus/Interface/Icons/Player/VorunaPrimeAvatarBright.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 10,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Primes/ImageVorunaPrimeDark": {
+        "name": "/Lotus/Language/Glyphs/AvatarVorunaPrimeDarkName",
+        "description": "/Lotus/Language/Glyphs/AvatarVorunaPrimeDarkDesc",
+        "icon": "/Lotus/Interface/Icons/Player/VorunaPrimeAvatarDark.png",
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true,
         "platinumCost": 10,
@@ -44847,6 +44876,15 @@
         "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/HoodOrnament/VoidKeyHoodOrnament.png",
         "base": "/Lotus/Types/Items/ShipAttachmentItem",
         "codexSecret": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Liset/VorunaPrimeHoodOrnament": {
+        "name": "/Lotus/Language/Primes/VorunaPrimeHoodOrnamentName",
+        "description": "/Lotus/Language/Primes/VorunaPrimeHoodOrnamentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/HoodOrnament/VorunaPrimeHoodOrnament.png",
+        "base": "/Lotus/Types/Items/ShipAttachmentItem",
+        "codexSecret": false,
         "platinumCost": 0,
         "excludeFromMarket": true
     },

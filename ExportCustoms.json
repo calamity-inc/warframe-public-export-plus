@@ -6536,6 +6536,18 @@
         "platinumCost": 1000,
         "excludeFromMarket": true
     },
+    "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/VorunaPrimeArmArmor": {
+        "name": "/Lotus/Language/Primes/VorunaPrimeArmArmourName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Primes/VorunaPrimeArmArmourDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/VorunaPrime.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "platinumCost": 1000,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/WerewolfArmArmor": {
         "name": "/Lotus/Language/Suits/WerewolfDefaultArmourAName",
         "codexSecret": false,
@@ -12784,6 +12796,16 @@
         "platinumCost": 60,
         "excludeFromMarket": true
     },
+    "/Lotus/Upgrades/Skins/Effects/PrimeVorunaEphemera": {
+        "name": "/Lotus/Language/Primes/VorunaPrimeEphemeraName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Primes/VorunaPrimeEphemeraDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/VorunaPrimeEphemera.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 70,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/Effects/ProteaDeluxeEphemera": {
         "name": "/Lotus/Language/Ephemera/ProteaDeluxeEphemeraName",
         "codexSecret": false,
@@ -12861,6 +12883,16 @@
         "excludeFromCodex": true,
         "description": "/Lotus/Language/Cosmetics/Tennocon2021EphemeraDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/TennoCon2021Ephemera.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 165,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Effects/TennoCon2026Ephemera": {
+        "name": "/Lotus/Language/Ephemera/Tennocon2026EphemeraName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Ephemera/Tennocon2026EphemeraDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Ephemera/TennoCon2026Ephemera.png",
         "productCategory": "WeaponSkins",
         "tradable": false,
         "platinumCost": 165,
@@ -25879,6 +25911,7 @@
         "name": "/Lotus/Language/Operator/CalibanDeluxeAdultBodysuitName",
         "codexSecret": false,
         "description": "/Lotus/Language/Operator/CalibanDeluxeSuitDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/ArmourSets/Body/BodySuitAdultCalibanDeluxe.png",
         "productCategory": "WeaponSkins",
         "tradable": false,
         "platinumCost": 25,
@@ -26424,8 +26457,8 @@
     "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitOperatorCalDeluxe": {
         "name": "/Lotus/Language/Operator/CalibanDeluxeBodysuitName",
         "codexSecret": false,
-        "excludeFromCodex": true,
         "description": "/Lotus/Language/Operator/CalibanDeluxeSuitDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/ArmourSets/Body/BodySuitCalibanDeluxe.png",
         "productCategory": "WeaponSkins",
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultCalDeluxe"
@@ -28877,7 +28910,7 @@
         "name": "/Lotus/Language/Operator/CalibanDeluxeAdultHoodName",
         "codexSecret": false,
         "description": "/Lotus/Language/Operator/CalibanDeluxeSuitDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Hoods/HoodA.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Hoods/HoodAdultCalibanDeluxe.png",
         "productCategory": "WeaponSkins",
         "tradable": false,
         "platinumCost": 40,
@@ -29446,9 +29479,8 @@
     "/Lotus/Upgrades/Skins/Operator/Hoods/HoodOperatorCalDeluxe": {
         "name": "/Lotus/Language/Operator/CalibanDeluxeHoodName",
         "codexSecret": false,
-        "excludeFromCodex": true,
         "description": "/Lotus/Language/Operator/CalibanDeluxeSuitDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Hoods/HoodA.png",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Hoods/HoodCalibanDeluxe.png",
         "productCategory": "WeaponSkins",
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultCalDeluxe"
@@ -29723,6 +29755,7 @@
         "name": "/Lotus/Language/Operator/CalibanDeluxeAdultLeggingsName",
         "codexSecret": false,
         "description": "/Lotus/Language/Operator/CalibanDeluxeSuitDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/ArmourSets/Leggings/LeggingsAdultCalibanDeluxe.png",
         "productCategory": "WeaponSkins",
         "tradable": false,
         "platinumCost": 30,
@@ -30268,8 +30301,8 @@
     "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsOperatorCalDeluxe": {
         "name": "/Lotus/Language/Operator/CalibanDeluxeLeggingsName",
         "codexSecret": false,
-        "excludeFromCodex": true,
         "description": "/Lotus/Language/Operator/CalibanDeluxeSuitDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/ArmourSets/Leggings/LeggingsCalibanDeluxe.png",
         "productCategory": "WeaponSkins",
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultCalDeluxe"
@@ -30676,6 +30709,7 @@
         "name": "/Lotus/Language/Operator/CalibanDeluxeAdultSkirtName",
         "codexSecret": false,
         "description": "/Lotus/Language/Operator/CalibanDeluxeSuitDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/ArmourSets/Hips/SkirtAdultCalibanDeluxe.png",
         "productCategory": "WeaponSkins",
         "tradable": false,
         "platinumCost": 25,
@@ -30994,8 +31028,8 @@
     "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtOperatorCalDeluxe": {
         "name": "/Lotus/Language/Operator/CalibanDeluxeSkirtName",
         "codexSecret": false,
-        "excludeFromCodex": true,
         "description": "/Lotus/Language/Operator/CalibanDeluxeSuitDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/ArmourSets/Hips/SkirtCalibanDeluxe.png",
         "productCategory": "WeaponSkins",
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtAdultCalDeluxe"
@@ -31114,6 +31148,7 @@
         "name": "/Lotus/Language/Operator/CalibanDeluxeAdultSleevesName",
         "codexSecret": false,
         "description": "/Lotus/Language/Operator/CalibanDeluxeSuitDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/ArmourSets/Arms/SleevesAdultCalibanDeluxe.png",
         "productCategory": "WeaponSkins",
         "tradable": false,
         "platinumCost": 30,
@@ -31659,8 +31694,8 @@
     "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesOperatorCalDeluxe": {
         "name": "/Lotus/Language/Operator/CalibanDeluxeSleevesName",
         "codexSecret": false,
-        "excludeFromCodex": true,
         "description": "/Lotus/Language/Operator/CalibanDeluxeSuitDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/ArmourSets/Arms/SleevesCalibanDeluxe.png",
         "productCategory": "WeaponSkins",
         "additionalItems": [
             "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultCalDeluxe"
@@ -38845,6 +38880,16 @@
         "codexSecret": false,
         "description": "/Lotus/Language/Primes/PrimeTwitchScarfDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/VistapaPrime.png",
+        "productCategory": "WeaponSkins",
+        "tradable": false,
+        "platinumCost": 105,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Scarves/PrimeVorunaSyandana": {
+        "name": "/Lotus/Language/Primes/VorunaPrimeScarfName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Primes/VorunaPrimeScarfDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Syandanas/VorunaPrimeSyandana.png",
         "productCategory": "WeaponSkins",
         "tradable": false,
         "platinumCost": 105,
@@ -49821,6 +49866,28 @@
         ],
         "tradable": false,
         "platinumCost": 165
+    },
+    "/Lotus/Upgrades/Skins/Werewolf/VorunaPrimeHelmet": {
+        "name": "/Lotus/Language/Primes/VorunaPrimeHelmetName",
+        "codexSecret": false,
+        "description": "/Lotus/Language/Primes/VorunaPrimeHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Cosmetics/Helmets/VorunaPrimeHelmet.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Werewolf/VorunaPrimeSkin": {
+        "name": "/Lotus/Language/Primes/VorunaPrimeSkinName",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "description": "/Lotus/Language/Primes/VorunaPrimeSkinDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/VorunaPrime.png",
+        "productCategory": "WeaponSkins",
+        "alwaysAvailable": true,
+        "tradable": false,
+        "platinumCost": 165,
+        "excludeFromMarket": true
     },
     "/Lotus/Upgrades/Skins/Werewolf/VorunaVoidShellHelmet": {
         "name": "/Lotus/Language/Skins/VorunaVoidshellHelmetName",

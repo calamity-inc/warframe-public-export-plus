@@ -733,6 +733,59 @@
         "nemesisUpgradeTag": "InnateRadDamage",
         "platinumCost": 325
     },
+    "/Lotus/Powersuits/Werewolf/VorunaPrime": {
+        "name": "/Lotus/Language/Primes/VorunaPrimeName",
+        "parentName": "/Lotus/Powersuits/Werewolf/WerewolfBaseSuit",
+        "description": "/Lotus/Language/Primes/VorunaPrimeDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/VorunaPrime.png",
+        "health": 455,
+        "shield": 270,
+        "armor": 265,
+        "stamina": 3,
+        "power": 130,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.2,
+        "passiveDescription": "/Lotus/Language/Suits/WerewolfPassiveAbilityDesc",
+        "abilities": [
+            {
+                "uniqueName": "/Lotus/Powersuits/Werewolf/Abilities/WerewolfShroudAbility",
+                "name": "/Lotus/Language/Suits/WerewolfShroudAbilityName",
+                "description": "/Lotus/Language/Suits/WerewolfShroudAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/WerewolfShroud.png",
+                "energyRequiredToActivate": 25
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/Werewolf/Abilities/WerewolfBiteAbility",
+                "name": "/Lotus/Language/Suits/WerewolfBiteAbilityName",
+                "description": "/Lotus/Language/Suits/WerewolfBiteAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/WerewolfBite.png",
+                "energyRequiredToActivate": 50
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/Werewolf/Abilities/WerewolfLeapAbility",
+                "name": "/Lotus/Language/Suits/WerewolfLeapAbilityName",
+                "description": "/Lotus/Language/Suits/WerewolfLeapAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/WerewolfLeap.png",
+                "energyRequiredToActivate": 75
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/Werewolf/Abilities/WerewolfHowlAbility",
+                "name": "/Lotus/Language/Suits/WerewolfHowlAbilityName",
+                "description": "/Lotus/Language/Suits/WerewolfHowlAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/WerewolfHowl.png",
+                "energyRequiredToActivate": 100
+            }
+        ],
+        "productCategory": "Suits",
+        "variantType": "VT_PRIME",
+        "additionalItems": [
+            "/Lotus/Types/Items/Titles/TitleVorunaPrime"
+        ],
+        "nemesisUpgradeTag": "InnateRadDamage",
+        "platinumCost": 325,
+        "excludeFromMarket": true
+    },
     "/Lotus/Powersuits/Volt/VoltPrime": {
         "name": "/Lotus/Language/Primes/VoltPrimeName",
         "parentName": "/Lotus/Powersuits/Volt/VoltBaseSuit",
