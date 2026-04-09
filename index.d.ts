@@ -773,7 +773,7 @@ export interface IResource {
     icon: string;
     codexSecret: boolean;
     parentName: string;
-    productCategory: "ShipDecorations" | "MiscItems" | "CrewShips" | "KubrowPetEggs" | "FusionTreasures" | "SupplyDrop" | "Ships";
+    productCategory: "ShipDecorations" | "MiscItems" | "CrewShips" | "FusionTreasures" | "SupplyDrop" | "Ships";
     excludeFromCodex?: true;
     showInInventory?: boolean;
     longDescription?: string;
