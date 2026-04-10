@@ -303,6 +303,160 @@
             ]
         ]
     },
+    "/Lotus/Types/Gameplay/Eidolon/Jobs/Narmer/AssassinateBountyAss": {
+        "name": "/Lotus/Language/Narmer/NarmerBountyAssassinateTitle",
+        "description": "/Lotus/Language/Narmer/NarmerBountyAssassinateDesc",
+        "icon": "/Lotus/Interface/Quests/Narmer/NarmerBountyAssassinate.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicSabotage",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicDefend"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicSabotage",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicDefend"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicSabotage",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicHijack"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicSabotage",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicHijack"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicAssassinate"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Eidolon/Jobs/Narmer/AttritionBountyExt": {
+        "name": "/Lotus/Language/Narmer/NarmerBountyExterminateTitle",
+        "description": "/Lotus/Language/Narmer/NarmerBountyExterminateDesc",
+        "icon": "/Lotus/Interface/Quests/Narmer/NarmerBountyExterminate.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/NarmerHiddenResourceCaches"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/NarmerHiddenResourceCaches"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/NarmerHiddenResourceCaches"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/NarmerHiddenResourceCaches"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicCaveExterminate"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Eidolon/Jobs/Narmer/AttritionBountyLib": {
+        "name": "/Lotus/Language/Narmer/NarmerBountyLiberationTitle",
+        "description": "/Lotus/Language/Narmer/NarmerBountyLiberationDesc",
+        "icon": "/Lotus/Interface/Quests/Narmer/NarmerBountyLiberation.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/NarmerHiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/NarmerHiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/NarmerHiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicResourceTheft",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/NarmerHiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicCaveExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicDefend"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Eidolon/Jobs/Narmer/ReclamationBountyTheft": {
+        "name": "/Lotus/Language/Narmer/NarmerBountyReclamationTile",
+        "description": "/Lotus/Language/Narmer/NarmerBountyReclamationDesc",
+        "icon": "/Lotus/Interface/Quests/Narmer/NarmerBountyReclamation.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/NarmerHiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicCaveExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/NarmerHiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicCaveExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/NarmerHiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicCaveExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicAssassinate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicHijack",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicDefend",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/NarmerHiddenResourceCaches",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicExterminate",
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicCaveExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Eidolon/Encounters/Narmer/DynamicResourceTheft"
+            ]
+        ]
+    },
     "/Lotus/Types/Gameplay/Eidolon/Jobs/ReclamationBountyCache": {
         "name": "/Lotus/Language/OstronJobs/ReclamationBountyCacheTitle",
         "description": "/Lotus/Language/OstronJobs/ReclamationBountyCacheDesc",
@@ -791,6 +945,137 @@
             ],
             [
                 "/Lotus/Types/Gameplay/InfestedMicroplanet/EncounterTemplates/DynamicPurify"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/Narmer/NarmerVenusCullJobAssassinate": {
+        "name": "/Lotus/Language/Narmer/NarmerBountyVenusAssassinateTitle",
+        "description": "/Lotus/Language/Narmer/NarmerBountyVenusAssassinateDesc",
+        "icon": "/Lotus/Interface/Quests/Narmer/NarmerVenusBountyAssassinate.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicExterminate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicBaseSpy",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicDroneDefense"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicExterminate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicBaseSpy",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicDroneDefense"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicExterminate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicBaseSpy",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicAmbush"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicExterminate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicBaseSpy",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicDroneDefense",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicAmbush"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicAssassinate"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/Narmer/NarmerVenusCullJobExterminate": {
+        "name": "/Lotus/Language/Narmer/NarmerBountyVenusExterminateTitle",
+        "description": "/Lotus/Language/Narmer/NarmerBountyVenusExterminateDesc",
+        "icon": "/Lotus/Interface/Quests/Narmer/NarmerVenusBountyExterminate.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicBaseSpy"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicBaseSpy"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicBaseSpy"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicBaseSpy"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicExterminate"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/Narmer/NarmerVenusPreservationJobDefense": {
+        "name": "/Lotus/Language/Narmer/NarmerBountyVenusPreservationTitle",
+        "description": "/Lotus/Language/Narmer/NarmerBountyVenusPreservationDesc",
+        "icon": "/Lotus/Interface/Quests/Narmer/NarmerVenusBountyDroneDefense.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicBaseSpy",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicRecovery"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicRecovery",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicAssassinate",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicBaseSpy",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicExterminate"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicDroneDefense"
+            ]
+        ]
+    },
+    "/Lotus/Types/Gameplay/Venus/Jobs/Narmer/NarmerVenusTheftJobExcavation": {
+        "name": "/Lotus/Language/Narmer/NarmerBountyVenusTheftExcavationTitle",
+        "description": "/Lotus/Language/Narmer/NarmerBountyVenusTheftExcavationDesc",
+        "icon": "/Lotus/Interface/Quests/Narmer/NarmerVenusBountyExcavation.png",
+        "stages": [
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicRecovery",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicAmbush"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicRecovery",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicResourceCapture"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicRecovery",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicCachesAirDrop"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicAmbush",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicResourceCapture",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicRecovery",
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicCachesAirDrop"
+            ],
+            [
+                "/Lotus/Types/Gameplay/Venus/Encounters/Narmer/NarmerDynamicExcavation"
             ]
         ]
     },
