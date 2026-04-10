@@ -1056,6 +1056,7 @@ export interface IPowersuit {
     maxLevelCap?: number;
     platinumCost?: number;
     excludeFromMarket?: true;
+    introducedAt?: number;
 }
 
 export interface IWeapon {
@@ -1113,6 +1114,7 @@ export interface IWeapon {
     additionalItems?: string[];
     bayonetOtherWeaponType?: string;
     tradable: boolean;
+    introducedAt?: number;
 }
 
 export interface IWeaponBehaviour {
