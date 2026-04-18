@@ -1101,5 +1101,654 @@
             "reqScans": 0,
             "secret": false
         }
+    },
+    "songs": {
+        "/Lotus/Types/Lore/Fragments/MusicFragments/ArchwingSongFragment": {
+            "name": "/Lotus/Language/Fragments/ArchwingSongName",
+            "song": "/Lotus/Music/LisetJukebox/Archwing.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/ConsumeUsSongFragment": {
+            "name": "/Lotus/Language/Fragments/ConsumeUsSongName",
+            "song": "/Lotus/Music/LisetJukebox/ConsumeUs.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/CorpusGreedSongFragment": {
+            "name": "/Lotus/Language/Fragments/CorpusGreedSongName",
+            "song": "/Lotus/Music/LisetJukebox/CorpusGreed.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/CorruptedSongFragment": {
+            "name": "/Lotus/Language/Fragments/CorruptedSongName",
+            "song": "/Lotus/Music/LisetJukebox/Corrupted.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/DerelictsSongFragment": {
+            "name": "/Lotus/Language/Fragments/DerelictsSongName",
+            "song": "/Lotus/Music/LisetJukebox/Derelicts.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/GeneMoldsSongFragment": {
+            "name": "/Lotus/Language/Fragments/GeneMoldsSongName",
+            "song": "/Lotus/Music/LisetJukebox/GeneMolds.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/GhostsOfVoidSongFragment": {
+            "name": "/Lotus/Language/Fragments/GhostsOfVoidSongName",
+            "song": "/Lotus/Music/LisetJukebox/GhostsOfVoid.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/GrakataSongFragment": {
+            "name": "/Lotus/Language/Fragments/GrakataSongName",
+            "song": "/Lotus/Music/LisetJukebox/Grakata.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/GrineerOnslaughtSongFragment": {
+            "name": "/Lotus/Language/Fragments/GrineerOnslaughtSongName",
+            "song": "/Lotus/Music/LisetJukebox/GrineerOnslaught.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/HunhowSongFragment": {
+            "name": "/Lotus/Language/Fragments/HunhowSongName",
+            "song": "/Lotus/Music/LisetJukebox/Hunhow.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/MarchOfTheMoaSongFragment": {
+            "name": "/Lotus/Language/Fragments/MarchOfTheMoaSongName",
+            "song": "/Lotus/Music/LisetJukebox/MarchOfTheMoa.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/OriginSystemSongFragment": {
+            "name": "/Lotus/Language/Fragments/OriginSystemSongName",
+            "song": "/Lotus/Music/LisetJukebox/OriginSystem.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/OurDiseaseSongFragment": {
+            "name": "/Lotus/Language/Fragments/OurDiseaseSongName",
+            "song": "/Lotus/Music/LisetJukebox/OurDisease.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/RapidAdaptationSongFragment": {
+            "name": "/Lotus/Language/Fragments/RapidAdaptationSongName",
+            "song": "/Lotus/Music/LisetJukebox/RapidAdaptation.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/RedBrothSongFragment": {
+            "name": "/Lotus/Language/Fragments/RedBrothSongName",
+            "song": "/Lotus/Music/LisetJukebox/RedBroth.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/SentientTombsSongFragment": {
+            "name": "/Lotus/Language/Fragments/SentientTombsSongName",
+            "song": "/Lotus/Music/LisetJukebox/SentientTombs.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/TheCreepingDarkSongFragment": {
+            "name": "/Lotus/Language/Fragments/TheCreepingDarkSongName",
+            "song": "/Lotus/Music/LisetJukebox/TheCreepingDark.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/TheProfitSongFragment": {
+            "name": "/Lotus/Language/Fragments/TheProfitSongName",
+            "song": "/Lotus/Music/LisetJukebox/TheProfit.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/TheSecondDreamSongFragment": {
+            "name": "/Lotus/Language/Fragments/TheSecondDreamSongName",
+            "song": "/Lotus/Music/LisetJukebox/TheSecondDream.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/TheWitchesLairSongFragment": {
+            "name": "/Lotus/Language/Fragments/TheWitchesLairSongName",
+            "song": "/Lotus/Music/LisetJukebox/TheWitchesLair.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/ThisIsWhatYouAreSongFragment": {
+            "name": "/Lotus/Language/Fragments/ThisIsWhatYouAreSongName",
+            "song": "/Lotus/Music/LisetJukebox/ThisIsWhatYouAre.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/VorsPrizeSongFragment": {
+            "name": "/Lotus/Language/Fragments/VorsPrizeSongName",
+            "song": "/Lotus/Music/LisetJukebox/VorsPrize.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/WingsOfWarSongFragment": {
+            "name": "/Lotus/Language/Fragments/WingsOfWarSongName",
+            "song": "/Lotus/Music/LisetJukebox/WingsOfWar.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/WretchedThingsSongFragment": {
+            "name": "/Lotus/Language/Fragments/WretchedThingsSongName",
+            "song": "/Lotus/Music/LisetJukebox/WretchedThings.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/YourCreatorSongFragment": {
+            "name": "/Lotus/Language/Fragments/YourCreatorSongName",
+            "song": "/Lotus/Music/LisetJukebox/YourCreator.wav",
+            "reqScans": 2
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/ToTakeItsPainAwaySongFragment": {
+            "name": "/Lotus/Language/Fragments/ToTakeItsPainAwaySongName",
+            "song": "/Lotus/Music/LisetJukebox/ToTakeItsPainAway.wav",
+            "reqScans": 3
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/KlokkitSongFragment": {
+            "name": "/Lotus/Language/Fragments/KlokkitSongName",
+            "song": "/Lotus/Music/LisetJukebox/Klokkit.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/NullUnitSongFragment": {
+            "name": "/Lotus/Language/Fragments/NullUnitSongName",
+            "song": "/Lotus/Music/LisetJukebox/NullUnit.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/WeAllLiftTogetherSongFragment": {
+            "name": "/Lotus/Language/Fragments/WeAllLiftTogetherSongName",
+            "song": "/Lotus/Music/LisetJukebox/WeAllLiftTogether.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/ColdTundraSongFragment": {
+            "name": "/Lotus/Language/Fragments/ColdTundraSongName",
+            "song": "/Lotus/Music/LisetJukebox/ColdTundra.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/VaporTrailsSongFragment": {
+            "name": "/Lotus/Language/Fragments/VaporTrailsSongName",
+            "song": "/Lotus/Music/LisetJukebox/VaporTrails.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/ColdwaveSongFragment": {
+            "name": "/Lotus/Language/Fragments/ColdwaveSongName",
+            "song": "/Lotus/Music/LisetJukebox/Coldwave.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/FluidMechanicsSongFragment": {
+            "name": "/Lotus/Language/Fragments/FluidMechanicsSongName",
+            "song": "/Lotus/Music/LisetJukebox/FluidMechanics.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/SleepingInTheColdBelowSongFragment": {
+            "name": "/Lotus/Language/Fragments/SleepingInTheColdBelowSongName",
+            "song": "/Lotus/Music/LisetJukebox/SleepingInTheColdBelow.wav",
+            "reqScans": 2
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/ForNarmerSongFragment": {
+            "name": "/Lotus/Language/Fragments/ForNarmerSongFragment",
+            "song": "/Lotus/Music/LisetJukebox/ForNarmer.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/HybridAbominationsSongFragment": {
+            "name": "/Lotus/Language/Fragments/HybridAbominationsFragment",
+            "song": "/Lotus/Music/LisetJukebox/HybridAbominations.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/SunkillerSongFragment": {
+            "name": "/Lotus/Language/Fragments/SunkillerFragment",
+            "song": "/Lotus/Music/LisetJukebox/Sunkiller.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/CanticleSongFragment": {
+            "name": "/Lotus/Language/Fragments/CanticleSongFragment",
+            "song": "/Lotus/Music/LisetJukebox/Canticle.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/OnCorrodedWingsSongFragment": {
+            "name": "/Lotus/Language/Fragments/OnCorrodedWingsSongFragment",
+            "song": "/Lotus/Music/LisetJukebox/OnCorrodedWings.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/TheOfferingSongFragment": {
+            "name": "/Lotus/Language/Fragments/TheOfferingSongFragment",
+            "song": "/Lotus/Music/LisetJukebox/TheOffering.wav",
+            "reqScans": 4
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/VeilbreakerSongFragmentA": {
+            "name": "/Lotus/Language/Fragments/VeilbreakerSongFragmentA",
+            "song": "/Lotus/Music/LisetJukebox/SteelHorizon.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/VeilbreakerSongFragmentB": {
+            "name": "/Lotus/Language/Fragments/VeilbreakerSongFragmentB",
+            "song": "/Lotus/Music/LisetJukebox/Skybreak.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/VeilbreakerSongFragmentC": {
+            "name": "/Lotus/Language/Fragments/VeilbreakerSongFragmentC",
+            "song": "/Lotus/Music/LisetJukebox/HoldTheLine.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/VeilbreakerSongFragmentD": {
+            "name": "/Lotus/Language/Fragments/VeilbreakerSongFragmentD",
+            "song": "/Lotus/Music/LisetJukebox/FinalStand.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/DuviriBelowTheThunderSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragBelowTheThunder",
+            "song": "/Lotus/Music/LisetJukebox/BelowTheThunder.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/DuviriDriftersRespiteSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragDriftersRespite",
+            "song": "/Lotus/Music/LisetJukebox/DriftersRespite.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/DuviriDuviriParadoxSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragDuviriParadox",
+            "song": "/Lotus/Music/LisetJukebox/DuviriParadox.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/DuviriEyesThatBurnSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragEyesThatBurn",
+            "song": "/Lotus/Music/LisetJukebox/EyesThatBurn.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/DuviriHeWhoWaitsSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragHeWhoWaits",
+            "song": "/Lotus/Music/LisetJukebox/HeWhoWaits.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/DuviriIntoMadnessSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragIntoMadness",
+            "song": "/Lotus/Music/LisetJukebox/IntoMadness.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/DuviriParagrimmAscendingSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragParagrimmAscending",
+            "song": "/Lotus/Music/LisetJukebox/ParagrimmAscending.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/DuviriPerditionsCoilsSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragPerditionsCoils",
+            "song": "/Lotus/Music/LisetJukebox/PerditionsCoils.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/DuviriShadowsAndSummoningsSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragShadowsAndSummoning",
+            "song": "/Lotus/Music/LisetJukebox/ShadowsAndSummonings.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/DuviriUnboundSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragUnbound",
+            "song": "/Lotus/Music/LisetJukebox/Unbound.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/MurumVullSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragMurumVull",
+            "song": "/Lotus/Music/LisetJukebox/MurumVull.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/NoGodAboveKnowledgeSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragNoGodAboveKnowledge",
+            "song": "/Lotus/Music/LisetJukebox/NoGodAboveKnowledge.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/PlatformSevenSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragPlatformSeven",
+            "song": "/Lotus/Music/LisetJukebox/Platform7.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/SanctumAnatomicaSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragSanctumAnatomica",
+            "song": "/Lotus/Music/LisetJukebox/SanctumAnatomica.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/SeeItInTheFleshSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragSeeItInTheFlesh",
+            "song": "/Lotus/Music/LisetJukebox/SeeItInTheFlesh.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/TheFragmentedSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragTheFragmented",
+            "song": "/Lotus/Music/LisetJukebox/TheFragmented.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/VashtavSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragVashtav",
+            "song": "/Lotus/Music/LisetJukebox/Vashtav.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/YaraJeliiraSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragYaraJeliira",
+            "song": "/Lotus/Music/LisetJukebox/YaraJeliira.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/TheMasterReturnsSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragTheMasterReturns",
+            "song": "/Lotus/Music/LisetJukebox/TheMasterReturns.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/GranumVoidSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragGranumVoid",
+            "song": "/Lotus/Music/LisetJukebox/GranumVoid.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/EntwinedForeverSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragEntwinedForever",
+            "song": "/Lotus/Music/LisetJukebox/EntwinedForever.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/AngelsRequiemSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragmentAngelsRequiem",
+            "song": "/Lotus/Music/LisetJukebox/AngelsRequiem.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/FinalAscentSongFragment": {
+            "name": "/Lotus/Language/Fragments/SongFragmentFinalAscent",
+            "song": "/Lotus/Music/LisetJukebox/FinalAscent.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/BeneathHerEyesSongFragment": {
+            "name": "/Lotus/Language/Fragments/BeneathHerEyesSongName",
+            "song": "/Lotus/Music/LisetJukebox/BeneathHerEyes.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/DustsDominionSongFragment": {
+            "name": "/Lotus/Language/Fragments/DustsDominionSongName",
+            "song": "/Lotus/Music/LisetJukebox/DustsDominion.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/TethraJahrakSongFragment": {
+            "name": "/Lotus/Language/Fragments/TethraJahrakSongName",
+            "song": "/Lotus/Music/LisetJukebox/TethraJahrak.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/LifeInDecaySongFragment": {
+            "name": "/Lotus/Language/Fragments/LifeInDecaySongName",
+            "song": "/Lotus/Music/LisetJukebox/LifeInDecay.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/RootsAndFruitsSongFragment": {
+            "name": "/Lotus/Language/Fragments/RootsAndFruitsSongName",
+            "song": "/Lotus/Music/LisetJukebox/RootsAndFruits.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/TheCircleSongFragment": {
+            "name": "/Lotus/Language/Fragments/TheCircleSongName",
+            "song": "/Lotus/Music/LisetJukebox/TheCircle.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/TauOldPeaceDecryptedSongFragment": {
+            "name": "/Lotus/Language/Fragments/DecryptedSongName",
+            "song": "/Lotus/Music/LisetJukebox/Decrypted.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/TauOldPeaceDeepestDarkSongFragment": {
+            "name": "/Lotus/Language/Fragments/DeepestDarkSongName",
+            "song": "/Lotus/Music/LisetJukebox/DeepestDark.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/TauOldPeaceExecutorSongFragment": {
+            "name": "/Lotus/Language/Fragments/ExecutorSongName",
+            "song": "/Lotus/Music/LisetJukebox/Executor.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/TauOldPeaceFlowersFallSongFragment": {
+            "name": "/Lotus/Language/Fragments/FlowersFallSongName",
+            "song": "/Lotus/Music/LisetJukebox/FlowersFall.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/TauOldPeaceHisLightSongFragment": {
+            "name": "/Lotus/Language/Fragments/HisLightSongName",
+            "song": "/Lotus/Music/LisetJukebox/HisLight.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/TauOldPeaceIroncladSongFragment": {
+            "name": "/Lotus/Language/Fragments/IroncladSongName",
+            "song": "/Lotus/Music/LisetJukebox/Ironclad.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/TauOldPeaceLullabyOfTheManifoldAdissLamentSongFragment": {
+            "name": "/Lotus/Language/Fragments/LullabyOfTheManifoldAdissLamentSongName",
+            "song": "/Lotus/Music/LisetJukebox/LullabyOfTheManifoldAdissLament.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/TauOldPeaceLullabyOfTheManifoldDuskSongFragment": {
+            "name": "/Lotus/Language/Fragments/LullabyOfTheManifoldDuskSongName",
+            "song": "/Lotus/Music/LisetJukebox/LullabyOfTheManifoldDusk.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/TauOldPeaceLullabyOfTheManifoldSongFragment": {
+            "name": "/Lotus/Language/Fragments/LullabyOfTheManifoldSongName",
+            "song": "/Lotus/Music/LisetJukebox/LullabyOfTheManifold.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/TauOldPeaceRosesFromTheAbyssSongFragment": {
+            "name": "/Lotus/Language/Fragments/RosesFromTheAbyssSongName",
+            "song": "/Lotus/Music/LisetJukebox/RosesFromTheAbyss.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/TauOldPeaceTheCardinalCallsSongFragment": {
+            "name": "/Lotus/Language/Fragments/TheCardinalCallsSongName",
+            "song": "/Lotus/Music/LisetJukebox/TheCardinalCalls.wav",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/MusicFragments/TauOldPeaceTheUnrememberedSongFragment": {
+            "name": "/Lotus/Language/Fragments/TheUnrememberedSongName",
+            "song": "/Lotus/Music/LisetJukebox/TheUnremembered.wav",
+            "reqScans": 1
+        }
+    },
+    "fighterFrames": {
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/AshFighterFragment": {
+            "name": "/Lotus/Language/Fragments/AshFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Ninja/Ninja",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/AtlasFighterFragment": {
+            "name": "/Lotus/Language/Fragments/AtlasFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Brawler/Brawler",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/BansheeFighterFragment": {
+            "name": "/Lotus/Language/Fragments/BansheeFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Banshee/Banshee",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/BaruukFighterFragment": {
+            "name": "/Lotus/Language/Fragments/BaruukFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Pacifist/Pacifist",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/ChromaFighterFragment": {
+            "name": "/Lotus/Language/Fragments/ChromaFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Dragon/Dragon",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/EmberFighterFragment": {
+            "name": "/Lotus/Language/Fragments/EmberFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Ember/Ember",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/EquinoxFighterFragment": {
+            "name": "/Lotus/Language/Fragments/EquinoxFighterFragmentName",
+            "suit": "/Lotus/Powersuits/YinYang/YinYang",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/FrostFighterFragment": {
+            "name": "/Lotus/Language/Fragments/FrostFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Frost/Frost",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/GaraFighterFragment": {
+            "name": "/Lotus/Language/Fragments/GaraFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Glass/Glass",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/GarudaFighterFragment": {
+            "name": "/Lotus/Language/Fragments/GarudaFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Garuda/Garuda",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/GaussFighterFragment": {
+            "name": "/Lotus/Language/Fragments/GaussFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Runner/Runner",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/GrendelFighterFragment": {
+            "name": "/Lotus/Language/Fragments/GrendelFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Devourer/Devourer",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/HarrowFighterFragment": {
+            "name": "/Lotus/Language/Fragments/HarrowFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Priest/Priest",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/HildrynFighterFragment": {
+            "name": "/Lotus/Language/Fragments/HildrynFighterFragmentName",
+            "suit": "/Lotus/Powersuits/IronFrame/IronFrame",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/HydroidFighterFragment": {
+            "name": "/Lotus/Language/Fragments/HydroidFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Pirate/Pirate",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/InarosFighterFragment": {
+            "name": "/Lotus/Language/Fragments/InarosFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Sandman/Sandman",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/IvaraFighterFragment": {
+            "name": "/Lotus/Language/Fragments/IvaraFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Ranger/Ranger",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/KhoraFighterFragment": {
+            "name": "/Lotus/Language/Fragments/KhoraFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Khora/Khora",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/LavosFighterFragment": {
+            "name": "/Lotus/Language/Fragments/LavosFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Alchemist/Alchemist",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/LimboFighterFragment": {
+            "name": "/Lotus/Language/Fragments/LimboFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Magician/Magician",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/LokiFighterFragment": {
+            "name": "/Lotus/Language/Fragments/LokiFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Loki/Loki",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/MesaFighterFragment": {
+            "name": "/Lotus/Language/Fragments/MesaFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Cowgirl/Cowgirl",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/MirageFighterFragment": {
+            "name": "/Lotus/Language/Fragments/MirageFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Harlequin/Harlequin",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/NekrosFighterFragment": {
+            "name": "/Lotus/Language/Fragments/NekrosFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Necro/Necro",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/NezhaFighterFragment": {
+            "name": "/Lotus/Language/Fragments/NezhaFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Nezha/Nezha",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/NidusFighterFragment": {
+            "name": "/Lotus/Language/Fragments/NidusFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Infestation/Infestation",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/NovaFighterFragment": {
+            "name": "/Lotus/Language/Fragments/NovaFighterFragmentName",
+            "suit": "/Lotus/Powersuits/AntiMatter/Anti",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/NyxFighterFragment": {
+            "name": "/Lotus/Language/Fragments/NyxFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Jade/Jade",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/OberonFighterFragment": {
+            "name": "/Lotus/Language/Fragments/OberonFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Paladin/Paladin",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/OctaviaFighterFragment": {
+            "name": "/Lotus/Language/Fragments/OctaviaFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Bard/Bard",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/ProteaFighterFragment": {
+            "name": "/Lotus/Language/Fragments/ProteaFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Odalisk/Odalisk",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/RevenantFighterFragment": {
+            "name": "/Lotus/Language/Fragments/RevenantFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Revenant/Revenant",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/RhinoFighterFragment": {
+            "name": "/Lotus/Language/Fragments/RhinoFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Rhino/Rhino",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/SarynFighterFragment": {
+            "name": "/Lotus/Language/Fragments/SarynFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Saryn/Saryn",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/SevagothFighterFragment": {
+            "name": "/Lotus/Language/Fragments/SevagothFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Wraith/Wraith",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/TitaniaFighterFragment": {
+            "name": "/Lotus/Language/Fragments/TitaniaFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Fairy/Fairy",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/TrinityFighterFragment": {
+            "name": "/Lotus/Language/Fragments/TrinityFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Trinity/Trinity",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/ValkyrFighterFragment": {
+            "name": "/Lotus/Language/Fragments/ValkyrFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Berserker/Berserker",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/VaubanFighterFragment": {
+            "name": "/Lotus/Language/Fragments/VaubanFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Trapper/Trapper",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/WispFighterFragment": {
+            "name": "/Lotus/Language/Fragments/WispFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Wisp/Wisp",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/WukongFighterFragment": {
+            "name": "/Lotus/Language/Fragments/WukongFighterFragmentName",
+            "suit": "/Lotus/Powersuits/MonkeyKing/MonkeyKing",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/XakuFighterFragment": {
+            "name": "/Lotus/Language/Fragments/XakuFighterFragmentName",
+            "suit": "/Lotus/Powersuits/BrokenFrame/BrokenFrame",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/YareliFighterFragment": {
+            "name": "/Lotus/Language/Fragments/YareliFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Yareli/Yareli",
+            "reqScans": 1
+        },
+        "/Lotus/Types/Lore/Fragments/FrameFighterFragments/ZephyrFighterFragment": {
+            "name": "/Lotus/Language/Fragments/ZephyrFighterFragmentName",
+            "suit": "/Lotus/Powersuits/Tengu/Tengu",
+            "reqScans": 1
+        }
     }
 }
