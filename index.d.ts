@@ -219,6 +219,7 @@ export interface IChallenge {
 
 export interface IExportCodex {
     objects: Record<string, ICodexEntry>;
+    loreFragments: Record<string, ILoreFragment>;
     songs: Record<string, ISongFragment>;
     fighterFrames: Record<string, IFrameFighterFragment>;
 }
@@ -229,6 +230,17 @@ export interface ICodexEntry {
     icon: string;
     reqScans: number;
     secret: boolean;
+}
+
+export interface ILoreFragment {
+    name: string;
+    description?: string;
+    image?: string;
+    reqScans: number;
+    secretTransmission?: {
+        sound: string;
+        text: string;
+    };
 }
 
 export interface ISongFragment {
