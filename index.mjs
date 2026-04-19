@@ -41,7 +41,6 @@ export const {
   ExportImages,
   ExportIntrinsics,
   ExportKeys,
-  ExportMisc,
   ExportMissionTypes,
   ExportModSet,
   ExportNightwave,
@@ -63,8 +62,6 @@ export const {
   ExportWeapons,
   getScaledPowersuitValues,
   riven_unrollables,
-  eFaction,
-  eMissionType,
 } = PublicExportPlus;
 
 export default PublicExportPlus;

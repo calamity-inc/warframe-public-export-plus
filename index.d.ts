@@ -39,8 +39,6 @@ export declare const ExportGear: Record<string, IGear>;
 export declare const ExportImages: Record<string, IImage>;
 export declare const ExportIntrinsics: Record<string, IIntrinsic>;
 export declare const ExportKeys: Record<string, IKey>;
-/** @deprecated */
-export declare const ExportMisc: IExportMisc;
 export declare const ExportMissionTypes: Record<TMissionType, IMissionType>;
 export declare const ExportModSet: Record<string, IModSet>;
 export declare const ExportNightwave: IExportNightwave;
@@ -63,11 +61,6 @@ export declare const ExportWeapons: Record<string, IWeapon>;
 
 export declare const getScaledPowersuitValues: (uniqueName: string, rank: number) => Promise<IScaledPowersuitValues>;
 export declare const riven_unrollables: Record<string, ("WeaponArmorPiercingDamageMod" | "WeaponSlashDamageMod" | "WeaponImpactDamageMod")[]>;
-
-/** @deprecated use ExportFactions */
-export declare const eFaction: IEnumerator[];
-/** @deprecated use ExportMissionTypes */
-export declare const eMissionType: IEnumerator[];
 
 export type TRarity = "COMMON" | "UNCOMMON" | "RARE" | "LEGENDARY";
 
@@ -121,8 +114,6 @@ export interface IArcane {
     rarity: TRarity;
     fusionLimit: number;
     distillPointValue?: number;
-    /** @deprecated use excludeFromCodex */
-    isFrivolous?: true;
 }
 
 export interface IAvionic {
@@ -187,8 +178,6 @@ export interface IBundle {
         typeName: string;
         purchaseQuantity: number;
         durabilityDays?: number; // for boosters
-        /** @deprecated use durabilityDays */
-        durability?: TRarity; // for boosters
         giveMaxRank?: true;
     }[];
     giftingBonus?: string;
@@ -198,10 +187,6 @@ export interface IBundle {
     excludeFromMarket?: true;
     bundledPlatinum?: number;
     platinumBundlePair?: string;
-    /** @deprecated renamed to platinumCost */
-    premiumPrice?: number;
-    /** @deprecated renamed to bundledPlatinum */
-    bundledPremiumCredits?: number;
     excludedPlatforms?: TPlatform[];
 }
 
@@ -261,8 +246,6 @@ export interface ICreditBundle {
     icon: string;
     credits: number;
     platinumCost?: number;
-    /** @deprecated renamed to platinumCost */
-    premiumPrice?: number;
 }
 
 export interface ICustom {
@@ -349,8 +332,6 @@ export interface IDrone {
     durability: number;
     repairRate: number;
     codexSecret: boolean;
-    /** @deprecated use capacityMultipliers */
-    capacityMultiplier: number[];
     capacityMultipliers: Record<TRarity, number>;
     probabilities: Record<TRarity, number>;
 }
@@ -487,8 +468,6 @@ export interface IFusionBundle {
     name: string;
     description: string;
     icon: string;
-    /** @deprecated */
-    codexSecret: boolean;
     fusionPoints: number;
 }
 
@@ -583,16 +562,6 @@ export interface IHelminthSnack {
 }
 
 export interface IExportMisc {
-    /** @deprecated check ExportWarframes and ExportWeapons for maxLevelCap */
-    uniqueLevelCaps: Record<string, number>;
-    /** @deprecated */
-    boosterDurations: Record<TRarity, number>;
-    /** @deprecated */
-    npcKillRewardMultiplier: number;
-    /** @deprecated check ExportResources for helminthSnack */
-    helminthSnacks: Record<string, IHelminthSnack>;
-    /** @deprecated use ExportCreditBundles */
-    creditBundles: Record<string, number>;
 }
 
 export type TMissionType =
@@ -743,19 +712,9 @@ export interface IRegion {
     nodeType: number;
     masteryReq: number;
     missionType: TMissionType;
-    /** @deprecated use ExportMissionTypes[missionType].index */
-    missionIndex: number;
     missionName: string; // may differ from eMission[missionIndex].name for dual defense, conjunction survival, railjack
     faction?: TFaction;
-    /** @deprecated use ExportFactions[faction].index */
-    factionIndex?: number;
-    /** @deprecated use ExportFactions[faction].name */
-    factionName?: string;
     secondaryFaction?: TFaction;
-    /** @deprecated use ExportFactions[secondaryFaction].index */
-    secondaryFactionIndex?: number;
-    /** @deprecated use ExportFactions[secondaryFaction].name */
-    secondaryFactionName?: string;
     minEnemyLevel: number;
     maxEnemyLevel: number;
     masteryExp: number;
@@ -976,8 +935,6 @@ export interface IUpgrade {
     modSetValues?: number[];
     subtype?: string;
     excludeFromCodex?: true;
-    /** @deprecated check `ExportBoosterPacks["/Lotus/Types/BoosterPacks/ModFuserResult"].components`, instead */
-    canBeTransmutation?: true;
     isStarter?: true;
     isFrivolous?: true;
     tradable?: boolean;
@@ -1129,8 +1086,6 @@ export interface IWeapon {
     primeOmegaAttenuation?: number;
     creditsCost?: number;
     platinumCost?: number;
-    /** @deprecated renamed to platinumCost */
-    premiumPrice?: number;
     excludeFromMarket?: true;
     variantType: "VT_NORMAL" | "VT_STARTER" | "VT_VARIANT" | "VT_SYNDICATE" | "VT_PRIME" | "VT_KUVA";
     partType?: string;

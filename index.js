@@ -41,7 +41,6 @@ PublicExportPlus.ExportGear = require("./ExportGear.json");
 PublicExportPlus.ExportImages = require("./ExportImages.json");
 PublicExportPlus.ExportIntrinsics = require("./ExportIntrinsics.json");
 PublicExportPlus.ExportKeys = require("./ExportKeys.json");
-PublicExportPlus.ExportMisc = require("./ExportMisc.json");
 PublicExportPlus.ExportMissionTypes = require("./ExportMissionTypes.json");
 PublicExportPlus.ExportModSet = require("./ExportModSet.json");
 PublicExportPlus.ExportNightwave = require("./ExportNightwave.json");
@@ -65,9 +64,5 @@ PublicExportPlus.ExportWeapons = require("./ExportWeapons.json");
 // supplementals
 PublicExportPlus.getScaledPowersuitValues = require("./supplementals/getScaledPowersuitValues.js");
 PublicExportPlus.riven_unrollables = require("./supplementals/riven_unrollables.json");
-
-// deprecated supplementals
-PublicExportPlus.eFaction = require("./supplementals/eFaction.json");
-PublicExportPlus.eMissionType = require("./supplementals/eMissionType.json");
 
 module.exports = PublicExportPlus;
