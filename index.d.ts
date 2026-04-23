@@ -709,7 +709,7 @@ export interface IRegion {
     nodeType: number;
     masteryReq: number;
     missionType: TMissionType;
-    missionName: string; // may differ from eMission[missionIndex].name for dual defense, conjunction survival, railjack
+    missionName: string; // may differ from ExportMissions[missionType].name for dual defense, conjunction survival, railjack
     faction?: TFaction;
     secondaryFaction?: TFaction;
     minEnemyLevel: number;
