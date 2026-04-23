@@ -561,9 +561,6 @@ export interface IHelminthSnack {
     gain: number;
 }
 
-export interface IExportMisc {
-}
-
 export type TMissionType =
     | "MT_ASSASSINATION"
     | "MT_EXTERMINATION"
