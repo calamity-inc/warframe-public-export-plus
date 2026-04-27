@@ -13899,6 +13899,19 @@
         "dojoCapacityCost": 5,
         "platinumCost": 40
     },
+    "/Lotus/Types/Items/ShipDecos/JadeShadows/JadeMemorialShipDeco": {
+        "name": "/Lotus/Language/ShipDecorations/JadeMemorialShipDecoName",
+        "description": "/Lotus/Language/ShipDecorations/JadeMemorialShipDecoDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/JadeMemorialShipDeco.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/JadeMemorialPlaceableDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5,
+        "platinumCost": 40,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Items/ShipDecos/JadeShadows/LisetPropCalibanDeluxeGhosts": {
         "name": "/Lotus/Language/ShipDecorations/CalibanDeluxeGhostsName",
         "description": "/Lotus/Language/ShipDecorations/CalibanDeluxeGhostsDesc",
