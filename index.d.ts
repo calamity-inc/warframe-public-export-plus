@@ -923,8 +923,9 @@ export interface IUpgrade {
     baseDrain: number;
     fusionLimit: number;
     compat?: string;
-    compatibilityTags?: string[];
     compatName?: string;
+    compatibilityTags?: string[];
+    incompatibilityTags?: string[];
     type?: string;
     description?: string;
     isUtility?: true;
