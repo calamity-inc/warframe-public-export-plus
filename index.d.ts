@@ -870,6 +870,7 @@ export interface ISyndicateSacrifice {
 }
 
 export interface ISystem {
+    index: number;
     name: string;
     droneDamage: IRange;
     damageChance: number;
