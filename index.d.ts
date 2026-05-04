@@ -167,6 +167,7 @@ export type TPlatform =
     | "CP_PS5"
     | "CP_XSX"
     | "CP_IOS"
+    | "CP_ANDROID"
     ;
 
 export interface IBundle {
