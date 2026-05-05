@@ -973,6 +973,7 @@ export interface IUpgrade {
 export interface IVendor {
     isDynamic: boolean;
     isOneBinPerCycle?: boolean;
+    requiredGoalTag?: string;
     items: IVendorOffer[];
     randomItemPricesPerBin?: {
         type: string;

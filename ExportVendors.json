@@ -7992,6 +7992,7 @@
     },
     "/Lotus/Types/Game/VendorManifests/Events/AmbulasEventVendorManifest": {
         "isDynamic": false,
+        "requiredGoalTag": "AmbulasEvent",
         "items": [
             {
                 "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Clan/AmbulasEventBadgeItem",
@@ -8993,6 +8994,7 @@
     "/Lotus/Types/Game/VendorManifests/Events/DuviriMurmurInvasionVendorManifest": {
         "isDynamic": true,
         "isOneBinPerCycle": false,
+        "requiredGoalTag": "DuviriMurmurEvent",
         "items": [
             {
                 "storeItem": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
@@ -11313,6 +11315,7 @@
     "/Lotus/Types/Game/VendorManifests/Events/JadeShadowsEventClanManifest": {
         "isDynamic": true,
         "isOneBinPerCycle": false,
+        "requiredGoalTag": "JadeShadowsEvent",
         "items": [
             {
                 "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Scythes/JadelightHate",
@@ -11433,6 +11436,7 @@
     "/Lotus/Types/Game/VendorManifests/Events/JadeShadowsEventVendorManifest": {
         "isDynamic": true,
         "isOneBinPerCycle": false,
+        "requiredGoalTag": "JadeShadowsEvent",
         "items": [
             {
                 "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Effects/JadeLightEphemeraA",
@@ -51398,6 +51402,7 @@
     "/Lotus/Types/Game/VendorManifests/Events/ShadowgrapherEventVendorManifest": {
         "isDynamic": true,
         "isOneBinPerCycle": false,
+        "requiredGoalTag": "ShadowgrapherEvent",
         "items": [
             {
                 "storeItem": "/Lotus/StoreItems/Upgrades/Skins/Effects/InkEphemeraA",
