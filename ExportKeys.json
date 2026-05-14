@@ -8882,6 +8882,19 @@
             "maxEnemyLevel": 34
         }
     },
+    "/Lotus/Types/Keys/TestKeyFomorianAssault": {
+        "name": "FOMORIAN ASSAULT",
+        "parentName": "/Lotus/Types/Keys/TestKey",
+        "codexSecret": true,
+        "missionReward": {
+            "droptable": "/Lotus/Types/Game/MissionDecks/ExtractionMissionRewards/ExtractionLowLevelRewards"
+        },
+        "rewards": [],
+        "mission": {
+            "minEnemyLevel": 10,
+            "maxEnemyLevel": 20
+        }
+    },
     "/Lotus/Types/Keys/TestKeyRailjackSentientExterminate": {
         "name": "Sentient Devourer Railjack Exterminate Mode",
         "parentName": "/Lotus/Types/Keys/TestKey",

@@ -13840,6 +13840,42 @@
         "platinumCost": 20,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageLineOrion": {
+        "name": "/Lotus/Language/Glyphs/LineOrionGlyphName",
+        "description": "/Lotus/Language/Glyphs/LineOrionGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/LineOrionGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageLineRyoku": {
+        "name": "/Lotus/Language/Glyphs/LineRyokuGlyphName",
+        "description": "/Lotus/Language/Glyphs/LineRyokuGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/LineRyokuGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageLineSirius": {
+        "name": "/Lotus/Language/Glyphs/LineSiriusGlyphName",
+        "description": "/Lotus/Language/Glyphs/LineSiriusGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/LineSiriusGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageLineVena": {
+        "name": "/Lotus/Language/Glyphs/LineVenaGlyphName",
+        "description": "/Lotus/Language/Glyphs/LineVenaGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/LineVenaGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/AvatarImageLogoGlyph": {
         "name": "/Lotus/Language/Glyphs/LogoGlyphName",
         "description": "/Lotus/Language/Glyphs/LogoGlyphDesc",
@@ -35981,6 +36017,287 @@
         ],
         "platinumCost": 75
     },
+    "/Lotus/Types/StoreItems/SuitCustomizations/ColourPickerOrion": {
+        "name": "/Lotus/Language/Cosmetics/ColourPickerOrionName",
+        "description": "/Lotus/Language/Cosmetics/ColourPickerOrionDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Palettes/ColorPickerOrion.png",
+        "base": "/Lotus/Types/Items/ColorPickerItem",
+        "codexSecret": true,
+        "hexColours": [
+            {
+                "value": "0x00272727"
+            },
+            {
+                "value": "0x00262525"
+            },
+            {
+                "value": "0x00262525"
+            },
+            {
+                "value": "0x00262424"
+            },
+            {
+                "value": "0x00262323"
+            },
+            {
+                "value": "0x00262222"
+            },
+            {
+                "value": "0x00262222"
+            },
+            {
+                "value": "0x00262121"
+            },
+            {
+                "value": "0x00262020"
+            },
+            {
+                "value": "0x00261F1F"
+            },
+            {
+                "value": "0x00261F1F"
+            },
+            {
+                "value": "0x00261E1E"
+            },
+            {
+                "value": "0x00261D1D"
+            },
+            {
+                "value": "0x00261C1C"
+            },
+            {
+                "value": "0x00261C1C"
+            },
+            {
+                "value": "0x00191410"
+            },
+            {
+                "value": "0x001A1410"
+            },
+            {
+                "value": "0x001A140F"
+            },
+            {
+                "value": "0x001A140F"
+            },
+            {
+                "value": "0x001A130E"
+            },
+            {
+                "value": "0x001A130E"
+            },
+            {
+                "value": "0x001A130D"
+            },
+            {
+                "value": "0x001A120D"
+            },
+            {
+                "value": "0x001A120C"
+            },
+            {
+                "value": "0x001A120C"
+            },
+            {
+                "value": "0x001A120B"
+            },
+            {
+                "value": "0x001A110B"
+            },
+            {
+                "value": "0x001A110A"
+            },
+            {
+                "value": "0x001A110A"
+            },
+            {
+                "value": "0x001A1109"
+            },
+            {
+                "value": "0x008A0000"
+            },
+            {
+                "value": "0x008F0000"
+            },
+            {
+                "value": "0x00940000"
+            },
+            {
+                "value": "0x00990000"
+            },
+            {
+                "value": "0x009E0000"
+            },
+            {
+                "value": "0x00A30000"
+            },
+            {
+                "value": "0x00A80000"
+            },
+            {
+                "value": "0x00AD0000"
+            },
+            {
+                "value": "0x00B30000"
+            },
+            {
+                "value": "0x00B80000"
+            },
+            {
+                "value": "0x00BD0000"
+            },
+            {
+                "value": "0x00C20000"
+            },
+            {
+                "value": "0x00C70000"
+            },
+            {
+                "value": "0x00CC0000"
+            },
+            {
+                "value": "0x00D10000"
+            },
+            {
+                "value": "0x00835454"
+            },
+            {
+                "value": "0x00825151"
+            },
+            {
+                "value": "0x00824E4E"
+            },
+            {
+                "value": "0x00824B4B"
+            },
+            {
+                "value": "0x00824949"
+            },
+            {
+                "value": "0x00824646"
+            },
+            {
+                "value": "0x00824444"
+            },
+            {
+                "value": "0x00824141"
+            },
+            {
+                "value": "0x00823E3E"
+            },
+            {
+                "value": "0x00823C3C"
+            },
+            {
+                "value": "0x00823939"
+            },
+            {
+                "value": "0x00823737"
+            },
+            {
+                "value": "0x00823434"
+            },
+            {
+                "value": "0x00823131"
+            },
+            {
+                "value": "0x00822F2F"
+            },
+            {
+                "value": "0x00DC2D00"
+            },
+            {
+                "value": "0x00DB2F04"
+            },
+            {
+                "value": "0x00DB3309"
+            },
+            {
+                "value": "0x00DB360D"
+            },
+            {
+                "value": "0x00DB3A12"
+            },
+            {
+                "value": "0x00DB3D16"
+            },
+            {
+                "value": "0x00DB411A"
+            },
+            {
+                "value": "0x00DB441F"
+            },
+            {
+                "value": "0x00DB4823"
+            },
+            {
+                "value": "0x00DB4B27"
+            },
+            {
+                "value": "0x00DB4F2C"
+            },
+            {
+                "value": "0x00DB5230"
+            },
+            {
+                "value": "0x00DB5635"
+            },
+            {
+                "value": "0x00DB5939"
+            },
+            {
+                "value": "0x00DB5D3D"
+            },
+            {
+                "value": "0x00FFAE00"
+            },
+            {
+                "value": "0x00FAAB00"
+            },
+            {
+                "value": "0x00F5A700"
+            },
+            {
+                "value": "0x00F0A400"
+            },
+            {
+                "value": "0x00EBA000"
+            },
+            {
+                "value": "0x00E69D00"
+            },
+            {
+                "value": "0x00E09900"
+            },
+            {
+                "value": "0x00DB9600"
+            },
+            {
+                "value": "0x00D69200"
+            },
+            {
+                "value": "0x00D18F00"
+            },
+            {
+                "value": "0x00CC8B00"
+            },
+            {
+                "value": "0x00C78800"
+            },
+            {
+                "value": "0x00C28400"
+            },
+            {
+                "value": "0x00BD8100"
+            },
+            {
+                "value": "0x00B87D00"
+            }
+        ],
+        "platinumCost": 0,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/StoreItems/SuitCustomizations/ColourPickerOrokin": {
         "name": "/Lotus/Language/Items/ColourPickerOrokinName",
         "description": "/Lotus/Language/Items/ColourPickerOrokinDesc",
@@ -39613,6 +39930,287 @@
                 "value": "0x002240AA"
             }
         ]
+    },
+    "/Lotus/Types/StoreItems/SuitCustomizations/ColourPickerSirius": {
+        "name": "/Lotus/Language/Cosmetics/ColourPickerSiriusName",
+        "description": "/Lotus/Language/Cosmetics/ColourPickerSiriusDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Palettes/ColorPickerSirius.png",
+        "base": "/Lotus/Types/Items/ColorPickerItem",
+        "codexSecret": true,
+        "hexColours": [
+            {
+                "value": "0x00989898"
+            },
+            {
+                "value": "0x00949494"
+            },
+            {
+                "value": "0x008F8F8F"
+            },
+            {
+                "value": "0x008A8A8A"
+            },
+            {
+                "value": "0x00858585"
+            },
+            {
+                "value": "0x00808080"
+            },
+            {
+                "value": "0x007A7A7A"
+            },
+            {
+                "value": "0x00757575"
+            },
+            {
+                "value": "0x00707070"
+            },
+            {
+                "value": "0x006B6B6B"
+            },
+            {
+                "value": "0x00666666"
+            },
+            {
+                "value": "0x00616161"
+            },
+            {
+                "value": "0x005C5C5C"
+            },
+            {
+                "value": "0x00575757"
+            },
+            {
+                "value": "0x00525252"
+            },
+            {
+                "value": "0x0061D368"
+            },
+            {
+                "value": "0x005FCF66"
+            },
+            {
+                "value": "0x005DC964"
+            },
+            {
+                "value": "0x005AC461"
+            },
+            {
+                "value": "0x0058BF5F"
+            },
+            {
+                "value": "0x0056BA5C"
+            },
+            {
+                "value": "0x0053B55A"
+            },
+            {
+                "value": "0x0051B057"
+            },
+            {
+                "value": "0x004FAB55"
+            },
+            {
+                "value": "0x004CA652"
+            },
+            {
+                "value": "0x004AA150"
+            },
+            {
+                "value": "0x00489C4D"
+            },
+            {
+                "value": "0x0045964B"
+            },
+            {
+                "value": "0x00439148"
+            },
+            {
+                "value": "0x00418C46"
+            },
+            {
+                "value": "0x00FAFAFA"
+            },
+            {
+                "value": "0x00F5F5F5"
+            },
+            {
+                "value": "0x00F0F0F0"
+            },
+            {
+                "value": "0x00EBEBEB"
+            },
+            {
+                "value": "0x00E6E6E6"
+            },
+            {
+                "value": "0x00E0E0E0"
+            },
+            {
+                "value": "0x00DBDBDB"
+            },
+            {
+                "value": "0x00D6D6D6"
+            },
+            {
+                "value": "0x00D1D1D1"
+            },
+            {
+                "value": "0x00CCCCCC"
+            },
+            {
+                "value": "0x00C7C7C7"
+            },
+            {
+                "value": "0x00C2C2C2"
+            },
+            {
+                "value": "0x00BDBDBD"
+            },
+            {
+                "value": "0x00B8B8B8"
+            },
+            {
+                "value": "0x00B3B3B3"
+            },
+            {
+                "value": "0x0054835D"
+            },
+            {
+                "value": "0x00507D58"
+            },
+            {
+                "value": "0x004D7855"
+            },
+            {
+                "value": "0x00497351"
+            },
+            {
+                "value": "0x00466E4D"
+            },
+            {
+                "value": "0x0043694A"
+            },
+            {
+                "value": "0x00406346"
+            },
+            {
+                "value": "0x003C5E43"
+            },
+            {
+                "value": "0x0039593F"
+            },
+            {
+                "value": "0x0036543B"
+            },
+            {
+                "value": "0x00334F38"
+            },
+            {
+                "value": "0x002F4A34"
+            },
+            {
+                "value": "0x002C4531"
+            },
+            {
+                "value": "0x0029402D"
+            },
+            {
+                "value": "0x00263B29"
+            },
+            {
+                "value": "0x0010A283"
+            },
+            {
+                "value": "0x00109E7F"
+            },
+            {
+                "value": "0x000F997B"
+            },
+            {
+                "value": "0x000F9477"
+            },
+            {
+                "value": "0x000E8F73"
+            },
+            {
+                "value": "0x000E8A6F"
+            },
+            {
+                "value": "0x000D856B"
+            },
+            {
+                "value": "0x000D8067"
+            },
+            {
+                "value": "0x000C7A63"
+            },
+            {
+                "value": "0x000C755E"
+            },
+            {
+                "value": "0x000B705A"
+            },
+            {
+                "value": "0x000B6B56"
+            },
+            {
+                "value": "0x000A6652"
+            },
+            {
+                "value": "0x000A614E"
+            },
+            {
+                "value": "0x00095C4A"
+            },
+            {
+                "value": "0x00E5FF00"
+            },
+            {
+                "value": "0x00E1FA00"
+            },
+            {
+                "value": "0x00DCF500"
+            },
+            {
+                "value": "0x00D8F000"
+            },
+            {
+                "value": "0x00D3EB00"
+            },
+            {
+                "value": "0x00CFE600"
+            },
+            {
+                "value": "0x00CAE000"
+            },
+            {
+                "value": "0x00C5DB00"
+            },
+            {
+                "value": "0x00C1D600"
+            },
+            {
+                "value": "0x00BCD100"
+            },
+            {
+                "value": "0x00B8CC00"
+            },
+            {
+                "value": "0x00B3C700"
+            },
+            {
+                "value": "0x00AEC200"
+            },
+            {
+                "value": "0x00AABD00"
+            },
+            {
+                "value": "0x00A5B800"
+            }
+        ],
+        "platinumCost": 0,
+        "excludeFromMarket": true
     },
     "/Lotus/Types/StoreItems/SuitCustomizations/ColourPickerSwitchItemA": {
         "name": "/Lotus/Language/Cosmetics/ColourPickerSwitchAName",
