@@ -724,6 +724,7 @@ export interface IRegion {
     customAdvancedSpawners?: string[];
     missionReward?: IMissionReward;
     miscItemFee?: ICountedItem;
+    founders?: string[];
     challenges?: string[];
     rewardManifests: string[];
     cacheRewardManifest?: string;
