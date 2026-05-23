@@ -17,7 +17,7 @@ execSync("npx ts-to-zod tmp-types.ts tmp-schemas.js --skipValidation");
 
 const schemas = fs
   .readFileSync("tmp-schemas.js", "utf8")
-  .replace(/z\.object/g, "z.strictObject")
+  .replaceAll("z.object", "z.strictObject")
   .replace("iAbilitySchema = z.strictObject({", "iAbilitySchema = z.object({")
   .replace("z.record(tMissionTypeSchema, iTilesetMissionSchema).partial()", "z.partialRecord(tMissionTypeSchema, iTilesetMissionSchema)");
 fs.writeFileSync("tmp-schemas.mjs", schemas);
