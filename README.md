@@ -39,7 +39,7 @@ However, images shipped with the game are heavily compressed, so you should chec
 - Rewards are given as StoreItems. If they start with `/Lotus/StoreItems/`, you can simply replace this with `/Lotus/` to get the normal counterpart. Otherwise, it's a 3-day booster and you can find it in ExportBoosters.
 
 ### ExportUpgrades
-- Several mods share the same name, e.g. for "Vitality" and "Pressure Point" there's 3 mods each. Some of these might be [flawed variants](https://warframe.fandom.com/wiki/Flawed_Mods), but others might simply be forgotten development artefacts. These can be avoided by checking that `isStarter` and `isFrivilous` are both absent.
+- Several mods share the same name, e.g. for "Vitality" and "Pressure Point" there's 3 mods each. Some of these might be [flawed variants](https://wiki.warframe.com/w/Flawed_Mods), but others might simply be forgotten development artefacts. These can be avoided by checking that `isStarter` and `isFrivilous` are both absent.
 - Challenge complications are combined using `/Lotus/Language/Challenges/Challenge_Complication_Combiner`.
 
 ### ExportVendors
@@ -51,4 +51,4 @@ However, images shipped with the game are heavily compressed, so you should chec
 ### ExportWeapons
 - Non-weapon items such as modular parts are in here as well. These can be filtered by checking if `behaviours` is absent.
 - Kitgun Chambers also have a `primeOmegaAttenuation` \[sic\] field, this is the Riven Disposition for when the Kitgun is a primary instead of secondary weapon.
-- The `damagePerShot` array is documented [here](https://warframe.fandom.com/wiki/Public_Export#Guns), although the `behaviours` array should be preferred.
+- The `damagePerShot` array is documented [here](https://wiki.warframe.com/w/Public_Export#Guns), although the `behaviours` array should be preferred.
