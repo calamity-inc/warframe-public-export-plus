@@ -11,25 +11,24 @@ for (const line of indexTypes.split(/\r?\n/)) {
 }
 types += "\n}";
 
-console.log("🕐 Generating schemas...");
+console.log("Generating schemas...");
 fs.writeFileSync("tmp-types.ts", types);
-execSync("npx ts-to-zod tmp-types.ts tmp-schemas.js --skipValidation", {
-  stdio: "inherit",
-});
+execSync("npx ts-to-zod tmp-types.ts tmp-schemas.js --skipValidation");
 
 const schemas = fs
   .readFileSync("tmp-schemas.js", "utf8")
   .replace(/z\.object/g, "z.strictObject")
-  .replace("iAbilitySchema = z.strictObject({", "iAbilitySchema = z.object({");
+  .replace("iAbilitySchema = z.strictObject({", "iAbilitySchema = z.object({")
+  .replace("z.record(tMissionTypeSchema, iTilesetMissionSchema).partial()", "z.partialRecord(tMissionTypeSchema, iTilesetMissionSchema)");
 fs.writeFileSync("tmp-schemas.mjs", schemas);
 
-console.log("🕐 Validating schemas...");
+console.log("Validating schemas...");
 const test = `import { z } from "zod";
 import { iPublicExportPlusSchema } from "./tmp-schemas.mjs";
 import publicExportPlus from "./index.js";
 try {
   iPublicExportPlusSchema.parse(publicExportPlus);
-  console.log("✅ Schemas validated successfully.");
+  console.log("Schemas validated successfully.");
 } catch (e) {
   console.error(e.message);
   process.exit(1);
