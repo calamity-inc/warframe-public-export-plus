@@ -976,6 +976,7 @@ export interface IUpgrade {
     levelStats?: {
         stats: string[];
     }[];
+    introducedAt?: number;
 }
 
 export interface IVendor {
