@@ -112,6 +112,13 @@ export interface IArcane {
     codexSecret: boolean;
     excludeFromCodex?: true;
     rarity: TRarity;
+    levelStats?: {
+        tag: string;
+        sub: Record<string,
+            { tag: string; sub: Record<string, string> }
+            | string // note: substitute itself may be a loctag
+        >;
+    }[][];
     fusionLimit: number;
     distillPointValue?: number;
 }
