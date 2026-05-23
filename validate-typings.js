@@ -13,31 +13,31 @@ types += "\n}";
 
 console.log("🕐 Generating schemas...");
 fs.writeFileSync("tmp-types.ts", types);
-execSync("npx ts-to-zod tmp-types.ts tmp-schemas.ts --skipValidation", {
+execSync("npx ts-to-zod tmp-types.ts tmp-schemas.js --skipValidation", {
   stdio: "inherit",
 });
 
 const schemas = fs
-  .readFileSync("tmp-schemas.ts", "utf8")
+  .readFileSync("tmp-schemas.js", "utf8")
   .replace(/z\.object/g, "z.strictObject")
   .replace("iAbilitySchema = z.strictObject({", "iAbilitySchema = z.object({");
-fs.writeFileSync("tmp-schemas.ts", schemas);
+fs.writeFileSync("tmp-schemas.mjs", schemas);
 
 console.log("🕐 Validating schemas...");
 const test = `import { z } from "zod";
-import { iPublicExportPlusSchema } from "./tmp-schemas";
-import publicExportPlus from "./index";
+import { iPublicExportPlusSchema } from "./tmp-schemas.mjs";
+import publicExportPlus from "./index.js";
 try {
   iPublicExportPlusSchema.parse(publicExportPlus);
   console.log("✅ Schemas validated successfully.");
 } catch (e) {
-  console.error((e as Error).message);
+  console.error(e.message);
   process.exit(1);
 }`;
-fs.writeFileSync("tmp-test.ts", test);
+fs.writeFileSync("tmp-test.mjs", test);
 
 try {
-  execSync("npx ts-node tmp-test.ts", {
+  execSync("node tmp-test.mjs", {
     stdio: "inherit",
     env: {
       ...process.env,
@@ -51,7 +51,8 @@ try {
     process.exitCode = 1;
   }
 } finally {
-  fs.unlinkSync("tmp-schemas.ts");
   fs.unlinkSync("tmp-types.ts");
-  fs.unlinkSync("tmp-test.ts");
+  fs.unlinkSync("tmp-schemas.mjs");
+  fs.unlinkSync("tmp-schemas.js");
+  fs.unlinkSync("tmp-test.mjs");
 }
