@@ -912,7 +912,7 @@ export interface ITextIcon {
 
 export interface ITileset {
     uniqueName: string;
-    faction?: TFaction;
+    faction: TFaction;
     missions: Partial<Record<TMissionType, ITilesetMission>>; // Only contains mission types supported by the tileset.
 }
 
