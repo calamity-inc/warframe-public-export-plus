@@ -458,10 +458,12 @@ export interface IColour {
     value: string;
 }
 
+export type TFocusSchool = "AP_ATTACK" | "AP_DEFENSE" | "AP_POWER" | "AP_TACTIC" | "AP_WARD";
+
 export interface IFocusUpgrade {
     name: string;
     icon: string;
-    polarity: "AP_ATTACK" | "AP_DEFENSE" | "AP_POWER" | "AP_TACTIC" | "AP_WARD";
+    polarity: TFocusSchool;
     rarity: TRarity;
     codexSecret: boolean;
     baseDrain: number;
@@ -1017,6 +1019,10 @@ export interface IVendorOffer {
         standingCost: number;
         reductionPerPositiveRank: number;
         increasePerNegativeRank: number;
+    };
+    focusXpCost?: {
+        polarity: TFocusSchool;
+        cost: number;
     };
 }
 
