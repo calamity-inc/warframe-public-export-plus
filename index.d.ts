@@ -1043,10 +1043,11 @@ export interface IPowersuit {
     power: number;
     codexSecret: boolean;
     masteryReq: number;
+    excludeFromCodex?: true;
     sprintSpeed: number;
     abilities: ({ uniqueName: string } & IAbility)[];
     passiveDescription?: string;
-    productCategory: "Suits" | "SpaceSuits" | "MechSuits";
+    productCategory: "Suits" | "SpaceSuits" | "MechSuits" | "SpecialItems";
     exalted?: string[];
     longDescription?: string;
     variantType: "VT_NORMAL" | "VT_PRIME" | "VT_VARIANT";

@@ -2711,6 +2711,15 @@
         "codexSecret": false,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Items/Emotes/ClanCollaborativeEmote": {
+        "name": "/Lotus/Language/Emotes/ClanEmoteName",
+        "description": "/Lotus/Language/Emotes/ClanEmoteDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Emotes/ClanEmote.png",
+        "base": "/Lotus/Types/Items/Emotes/CollaborativeEmote",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Items/Emotes/ClapEmote": {
         "name": "/Lotus/Language/Emotes/ClapEmoteName",
         "description": "/Lotus/Language/Emotes/ClapEmoteDesc",
@@ -3045,6 +3054,14 @@
         "name": "/Lotus/Language/Emotes/HardmodeCeresEmoteName",
         "description": "/Lotus/Language/Emotes/HardmodeCeresEmoteDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Emotes/EmoteCeres.png",
+        "base": "/Lotus/Types/Items/Emotes/Emote",
+        "codexSecret": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Emotes/HardmodeDeepSpaceEmote": {
+        "name": "/Lotus/Language/Emotes/HardmodeDeepSpaceEmoteName",
+        "description": "/Lotus/Language/Emotes/HardmodeDeepSpaceEmoteDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Emotes/EmoteDeepSpace.png",
         "base": "/Lotus/Types/Items/Emotes/Emote",
         "codexSecret": false,
         "excludeFromMarket": true
@@ -3431,12 +3448,30 @@
         "excludeFromCodex": true,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Items/Emotes/LegendaryRyokuEmote": {
+        "name": "/Lotus/Language/Emotes/LegendaryRyokuEmoteName",
+        "description": "/Lotus/Language/Emotes/LegendaryRyokuEmoteDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Emotes/Gemini/GeminiAshEmote.png",
+        "base": "/Lotus/Types/Items/Emotes/Emote",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Items/Emotes/LegendaryVelimirEmote": {
         "name": "/Lotus/Language/Emotes/LegendaryVelimirEmoteName",
         "description": "/Lotus/Language/Emotes/LegendaryVelimirEmoteDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Emotes/Gemini/GeminiFrostEmote.png",
         "base": "/Lotus/Types/Items/Emotes/Emote",
         "codexSecret": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Emotes/LegendaryWytchEmote": {
+        "name": "/Lotus/Language/Emotes/LegendaryWytchEmoteName",
+        "description": "/Lotus/Language/Emotes/LegendaryWytchEmoteDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Emotes/Gemini/GeminiGarudaEmote.png",
+        "base": "/Lotus/Types/Items/Emotes/Emote",
+        "codexSecret": false,
+        "excludeFromCodex": true,
         "excludeFromMarket": true
     },
     "/Lotus/Types/Items/Emotes/LegionSaluteEmote": {
@@ -3678,6 +3713,86 @@
         "excludeFromCodex": true,
         "platinumCost": 26,
         "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/Titles/HunhowHonoria/TitleAsh": {
+        "name": "/Lotus/Language/Titles/TitleAshDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "titleTag": "/Lotus/Language/Titles/TitleAsh"
+    },
+    "/Lotus/Types/Items/Titles/HunhowHonoria/TitleDanteDeluxe": {
+        "name": "/Lotus/Language/Titles/TitleDanteDeluxeDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "titleTag": "/Lotus/Language/Titles/TitleDanteDeluxe"
+    },
+    "/Lotus/Types/Items/Titles/HunhowHonoria/TitleExcalibur": {
+        "name": "/Lotus/Language/Titles/TitleExcaliburDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "titleTag": "/Lotus/Language/Titles/TitleExcalibur"
+    },
+    "/Lotus/Types/Items/Titles/HunhowHonoria/TitleMag": {
+        "name": "/Lotus/Language/Titles/TitleMagDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "titleTag": "/Lotus/Language/Titles/TitleMag"
+    },
+    "/Lotus/Types/Items/Titles/HunhowHonoria/TitleMesa": {
+        "name": "/Lotus/Language/Titles/TitleMesaDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "titleTag": "/Lotus/Language/Titles/TitleMesa"
+    },
+    "/Lotus/Types/Items/Titles/HunhowHonoria/TitleNidus": {
+        "name": "/Lotus/Language/Titles/TitleNidusDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "titleTag": "/Lotus/Language/Titles/TitleNidus"
+    },
+    "/Lotus/Types/Items/Titles/HunhowHonoria/TitleSiriusOrion": {
+        "name": "/Lotus/Language/Titles/TitleSiriusOrionDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "titleTag": "/Lotus/Language/Titles/TitleSiriusOrion"
+    },
+    "/Lotus/Types/Items/Titles/HunhowHonoria/TitleVolt": {
+        "name": "/Lotus/Language/Titles/TitleVoltDesc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "titleTag": "/Lotus/Language/Titles/TitleVolt"
     },
     "/Lotus/Types/Items/Titles/RoatheTitles/TitleArgon": {
         "name": "/Lotus/Language/Titles/TitleArgonDesc",
@@ -4241,6 +4356,17 @@
         "excludeFromMarket": true,
         "titleTag": "/Lotus/Language/Titles/AirHunter"
     },
+    "/Lotus/Types/Items/Titles/AnimalLoverTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true,
+        "titleTag": "/Lotus/Language/Titles/AnimalLoverTitle"
+    },
     "/Lotus/Types/Items/Titles/ArbitersOfHexisTitle": {
         "name": "/Lotus/Language/Titles/TitleArbitersOfHexis_Desc",
         "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
@@ -4273,6 +4399,17 @@
         "platinumCost": 0,
         "excludeFromMarket": true,
         "titleTag": "/Lotus/Language/Titles/TitleBOTBEventVendor3"
+    },
+    "/Lotus/Types/Items/Titles/CaliburChicksHighScoreTitle": {
+        "name": "/Lotus/Language/Titles/CaliburChicksHighScoreTitle_Desc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true,
+        "titleTag": "/Lotus/Language/Titles/CaliburChicksHighScoreTitle"
     },
     "/Lotus/Types/Items/Titles/CephalonSudaTitle": {
         "name": "/Lotus/Language/Titles/TitleCephalonSuda_Desc",
@@ -4361,6 +4498,28 @@
         "platinumCost": 0,
         "excludeFromMarket": true,
         "titleTag": "/Lotus/Language/Titles/CompleteDescendiaWisp"
+    },
+    "/Lotus/Types/Items/Titles/CompleteEDAMaxTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true,
+        "titleTag": "/Lotus/Language/Titles/CompleteEDAMaxTitle"
+    },
+    "/Lotus/Types/Items/Titles/CompleteETAMaxTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true,
+        "titleTag": "/Lotus/Language/Titles/CompleteETAMaxTitle"
     },
     "/Lotus/Types/Items/Titles/DanteDescendiaTitle": {
         "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
@@ -4505,6 +4664,50 @@
         "excludeFromMarket": true,
         "titleTag": "/Lotus/Language/Titles/Developer"
     },
+    "/Lotus/Types/Items/Titles/DuviriKingQuestTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true,
+        "titleTag": "/Lotus/Language/Titles/DuviriKingQuestTitle"
+    },
+    "/Lotus/Types/Items/Titles/DuviriQueenQuestTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true,
+        "titleTag": "/Lotus/Language/Titles/DuviriQueenQuestTitle"
+    },
+    "/Lotus/Types/Items/Titles/EidolonHunterTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true,
+        "titleTag": "/Lotus/Language/Titles/EidolonHunterTitle"
+    },
+    "/Lotus/Types/Items/Titles/FisherTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true,
+        "titleTag": "/Lotus/Language/Titles/FisherTitle"
+    },
     "/Lotus/Types/Items/Titles/FollieHuntCompleteTitle": {
         "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
         "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
@@ -4582,6 +4785,17 @@
         "excludeFromMarket": true,
         "titleTag": "/Lotus/Language/Titles/Founder4"
     },
+    "/Lotus/Types/Items/Titles/GuardianTitle": {
+        "name": "/Lotus/Language/Titles/GuardianTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true,
+        "titleTag": "/Lotus/Language/Titles/GuardianTitle"
+    },
     "/Lotus/Types/Items/Titles/HardFragmentedTitle": {
         "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
         "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
@@ -4626,6 +4840,28 @@
         "excludeFromMarket": true,
         "titleTag": "/Lotus/Language/Titles/HunhullsKiller"
     },
+    "/Lotus/Types/Items/Titles/IncarnonMasteryTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true,
+        "titleTag": "/Lotus/Language/Titles/TitleIncarnonMastery"
+    },
+    "/Lotus/Types/Items/Titles/JadeShadows2Title": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true,
+        "titleTag": "/Lotus/Language/Titles/JadeShadows2"
+    },
     "/Lotus/Types/Items/Titles/JadeShadowsTitle": {
         "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
         "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
@@ -4647,6 +4883,17 @@
         "platinumCost": 0,
         "excludeFromMarket": true,
         "titleTag": "/Lotus/Language/Titles/Jammer"
+    },
+    "/Lotus/Types/Items/Titles/KRacerTitle": {
+        "name": "/Lotus/Language/Titles/KRacerTitle_Desc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true,
+        "titleTag": "/Lotus/Language/Titles/KRacerTitle"
     },
     "/Lotus/Types/Items/Titles/KalymosTitle": {
         "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
@@ -5000,6 +5247,17 @@
         "excludeFromMarket": true,
         "titleTag": "/Lotus/Language/Titles/OldPeace"
     },
+    "/Lotus/Types/Items/Titles/OllieRacerTitle": {
+        "name": "/Lotus/Language/Titles/OllieRacerTitle_Desc",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true,
+        "titleTag": "/Lotus/Language/Titles/OllieRacerTitle"
+    },
     "/Lotus/Types/Items/Titles/OraxiaPreyTitle": {
         "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
         "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
@@ -5010,6 +5268,17 @@
         "platinumCost": 0,
         "excludeFromMarket": true,
         "titleTag": "/Lotus/Language/Titles/OraxiaKiller"
+    },
+    "/Lotus/Types/Items/Titles/OrbHunterTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true,
+        "titleTag": "/Lotus/Language/Titles/OrbHunterTitle"
     },
     "/Lotus/Types/Items/Titles/PeritaHardModeSoloTitle": {
         "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
@@ -5044,6 +5313,28 @@
         "excludeFromMarket": true,
         "titleTag": "/Lotus/Language/Titles/TitlePerrinSequence"
     },
+    "/Lotus/Types/Items/Titles/RailjackAshTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true,
+        "titleTag": "/Lotus/Language/Titles/RailjackAshTitle"
+    },
+    "/Lotus/Types/Items/Titles/RailjackGarudaTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true,
+        "titleTag": "/Lotus/Language/Titles/RailjackGarudaTitle"
+    },
     "/Lotus/Types/Items/Titles/RedVeilTitle": {
         "name": "/Lotus/Language/Titles/TitleRedVeil_Desc",
         "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
@@ -5054,6 +5345,17 @@
         "platinumCost": 0,
         "excludeFromMarket": true,
         "titleTag": "/Lotus/Language/Titles/TitleRedVeil"
+    },
+    "/Lotus/Types/Items/Titles/ReferAFriendTitle": {
+        "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true,
+        "titleTag": "/Lotus/Language/Titles/ReferAFriendTitle"
     },
     "/Lotus/Types/Items/Titles/RememberTogetherTitle": {
         "name": "/Lotus/Language/Titles/GenericTitle_MarketTitle",
@@ -5186,6 +5488,17 @@
         "platinumCost": 0,
         "excludeFromMarket": true,
         "titleTag": "/Lotus/Language/Titles/TitleGrendelPrime"
+    },
+    "/Lotus/Types/Items/Titles/TitleStyanaxPrime": {
+        "name": "/Lotus/Language/Titles/TitleStyanaxPrime_MarketTitle",
+        "description": "/Lotus/Language/Titles/GenericTitle_MarketDescription",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/GenericHonoriaIcon.png",
+        "base": "/Lotus/Types/Items/TitleItem",
+        "codexSecret": false,
+        "excludeFromCodex": true,
+        "platinumCost": 0,
+        "excludeFromMarket": true,
+        "titleTag": "/Lotus/Language/Titles/TitleStyanaxPrime"
     },
     "/Lotus/Types/Items/Titles/TitleVorunaPrime": {
         "name": "/Lotus/Language/Titles/TitleVorunaPrimeDesc",
@@ -10419,6 +10732,24 @@
         "platinumCost": 10,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/StoreItems/AvatarImages/Primes/ImageStyanaxPrimeBright": {
+        "name": "/Lotus/Language/Glyphs/AvatarStyanaxPrimeBrightName",
+        "description": "/Lotus/Language/Glyphs/AvatarStyanaxPrimeBrightDesc",
+        "icon": "/Lotus/Interface/Icons/Player/StyanaxPrimeAvatarBright.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": false,
+        "platinumCost": 10,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Primes/ImageStyanaxPrimeDark": {
+        "name": "/Lotus/Language/Glyphs/AvatarStyanaxPrimeDarkName",
+        "description": "/Lotus/Language/Glyphs/AvatarStyanaxPrimeDarkDesc",
+        "icon": "/Lotus/Interface/Icons/Player/StyanaxPrimeAvatarDark.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": false,
+        "platinumCost": 10,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/Primes/ImageVorunaPrimeBright": {
         "name": "/Lotus/Language/Glyphs/AvatarVorunaPrimeBrightName",
         "description": "/Lotus/Language/Glyphs/AvatarVorunaPrimeBrightDesc",
@@ -11106,6 +11437,14 @@
         "codexSecret": true,
         "platinumCost": 10
     },
+    "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageDanteDeluxe": {
+        "name": "/Lotus/Language/Glyphs/AvatarDanteDeluxeName",
+        "description": "/Lotus/Language/Glyphs/AvatarDanteDeluxeDesc",
+        "icon": "/Lotus/Interface/Icons/Player/DanteDeluxeAvatar.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 15
+    },
     "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageFollieAltBright": {
         "name": "/Lotus/Language/Glyphs/AvatarFollieAltBrightName",
         "description": "/Lotus/Language/Glyphs/AvatarFollieAltBrightDesc",
@@ -11530,6 +11869,22 @@
         "codexSecret": true,
         "platinumCost": 15
     },
+    "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageSiriusOrionBright": {
+        "name": "/Lotus/Language/Glyphs/AvatarSiriusOrionBrightName",
+        "description": "/Lotus/Language/Glyphs/AvatarSiriusOrionBrightDesc",
+        "icon": "/Lotus/Interface/Icons/Player/SiriusOrionAvatarBright.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 10
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageSiriusOrionDark": {
+        "name": "/Lotus/Language/Glyphs/AvatarSiriusOrionDarkName",
+        "description": "/Lotus/Language/Glyphs/AvatarSiriusOrionDarkDesc",
+        "icon": "/Lotus/Interface/Icons/Player/SiriusOrionAvatarDark.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 10
+    },
     "/Lotus/Types/StoreItems/AvatarImages/Warframes/ImageStyanaxAltBBright": {
         "name": "/Lotus/Language/Glyphs/AvatarStyanaxAltBrightName",
         "description": "/Lotus/Language/Glyphs/AvatarStyanaxAltBrightDesc",
@@ -11866,6 +12221,15 @@
         "platinumCost": 20,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageAbsoluteCinemaGlyph": {
+        "name": "/Lotus/Language/Glyphs/AbsoluteCinemaGlyphName",
+        "description": "/Lotus/Language/Glyphs/AbsoluteCinemaGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/AbsoluteCinemaGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/AvatarImageAlbrechtHatCommunity": {
         "name": "/Lotus/Language/Glyphs/AlbrechtHatCommunityGlyphName",
         "description": "/Lotus/Language/Glyphs/AlbrechtHatCommunityGlyphDesc",
@@ -11910,10 +12274,28 @@
         "platinumCost": 20,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageArborealKeyGlyph": {
+        "name": "/Lotus/Language/Glyphs/ArborealKeyGlyphName",
+        "description": "/Lotus/Language/Glyphs/ArborealKeyGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/ArborealKeyGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/AvatarImageArthurAccoladeGlyph": {
         "name": "/Lotus/Language/Glyphs/ArthurAccoladeGlyphName",
         "description": "/Lotus/Language/Glyphs/1999BossFightGlyphsDesc",
         "icon": "/Lotus/Interface/Icons/Player/ArthurAccoladeGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageArthurInTheFridgeGlyph": {
+        "name": "/Lotus/Language/Glyphs/ArthurInTheFridgeGlyphName",
+        "description": "/Lotus/Language/Glyphs/ArthurInTheFridgeGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/ArthurInTheFridgeGlyph.png",
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true,
         "platinumCost": 20,
@@ -12061,6 +12443,15 @@
         "platinumCost": 20,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageBlinkGlyph": {
+        "name": "/Lotus/Language/Glyphs/BlinkGlyphName",
+        "description": "/Lotus/Language/Glyphs/BlinkGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/BlinkGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/AvatarImageBonewidowAction": {
         "name": "/Lotus/Language/Glyphs/BonewidowActionGlyphName",
         "description": "/Lotus/Language/Glyphs/GenericGlyphDesc",
@@ -12092,6 +12483,15 @@
         "name": "/Lotus/Language/Glyphs/CalibanAccoladeGlyphName",
         "description": "/Lotus/Language/Glyphs/PeritaAccoladeGlyphDesc",
         "icon": "/Lotus/Interface/Icons/Player/CalibanAccoladeGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageChassisGlyph": {
+        "name": "/Lotus/Language/Glyphs/ChassisGlyphName",
+        "description": "/Lotus/Language/Glyphs/ChassisGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/ChassisGlyph.png",
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true,
         "platinumCost": 20,
@@ -12721,6 +13121,15 @@
         "codexSecret": true,
         "excludeFromCodex": true,
         "platinumCost": 0,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageDumpItGlyph": {
+        "name": "/Lotus/Language/Glyphs/DumpItGlyphName",
+        "description": "/Lotus/Language/Glyphs/DumpItGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/DumpItGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
         "excludeFromMarket": true
     },
     "/Lotus/Types/StoreItems/AvatarImages/AvatarImageEleanorAccoladeGlyph": {
@@ -13773,6 +14182,15 @@
         "platinumCost": 20,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageKalymosConeGlyph": {
+        "name": "/Lotus/Language/Glyphs/KalymosConeGlyphName",
+        "description": "/Lotus/Language/Glyphs/KalymosConeGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/KalymosConeGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/StoreItems/AvatarImages/AvatarImageKavatEnamel": {
         "name": "/Lotus/Language/Items/KavatEnamelGlyphName",
         "description": "/Lotus/Language/Glyphs/GenericGlyphDesc",
@@ -13910,6 +14328,15 @@
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": true,
         "platinumCost": 20
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageLotusChangeOfPlansGlyph": {
+        "name": "/Lotus/Language/Glyphs/LotusChangeOfPlansGlyphName",
+        "description": "/Lotus/Language/Glyphs/LotusChangeOfPlansGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/LotusChangeOfPlansGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
     },
     "/Lotus/Types/StoreItems/AvatarImages/AvatarImageLotusGuide": {
         "name": "/Lotus/Language/Glyphs/LotusGuideGlyphName",
@@ -14512,6 +14939,15 @@
         "base": "/Lotus/Types/Items/AvatarImageItem",
         "codexSecret": false,
         "excludeFromCodex": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageSingingLotusGlyph": {
+        "name": "/Lotus/Language/Glyphs/SingingLotusGlyphName",
+        "description": "/Lotus/Language/Glyphs/SingingLotusGlyphDesc",
+        "icon": "/Lotus/Interface/Icons/Player/SingingLotusGlyph.png",
+        "base": "/Lotus/Types/Items/AvatarImageItem",
+        "codexSecret": true,
         "platinumCost": 20,
         "excludeFromMarket": true
     },
@@ -45165,6 +45601,15 @@
         "platinumCost": 50,
         "excludeFromMarket": true
     },
+    "/Lotus/Upgrades/Skins/Liset/LisetSkinAshGemini": {
+        "name": "/Lotus/Language/Skins/LisetSkinAshGeminiName",
+        "description": "/Lotus/Language/Skins/LisetSkinAshGeminiDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Skins/LisetAshGemini.png",
+        "base": "/Lotus/Types/Items/ShipExteriorSkinItem",
+        "codexSecret": false,
+        "platinumCost": 50,
+        "excludeFromMarket": true
+    },
     "/Lotus/Upgrades/Skins/Liset/LisetSkinFlavourItemB": {
         "name": "/Lotus/Language/Items/LisetSkinBName",
         "description": "/Lotus/Language/Items/LisetSkinBDesc",
@@ -45196,6 +45641,15 @@
         "base": "/Lotus/Types/Items/ShipExteriorSkinItem",
         "codexSecret": false,
         "alwaysAvailable": true,
+        "platinumCost": 50,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Upgrades/Skins/Liset/LisetSkinGarudaGemini": {
+        "name": "/Lotus/Language/Skins/LisetSkinGarudaGeminiName",
+        "description": "/Lotus/Language/Skins/LisetSkinGarudaGeminiDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Skins/LisetGarudaGemini.png",
+        "base": "/Lotus/Types/Items/ShipExteriorSkinItem",
+        "codexSecret": false,
         "platinumCost": 50,
         "excludeFromMarket": true
     },
@@ -45900,6 +46354,24 @@
         "name": "/Lotus/Language/Cosmetics/SentientNobleAnims",
         "description": "/Lotus/Language/Cosmetics/UnlockSentientNobleAnimsDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/AnimationSets/CalibanNoble.png",
+        "base": "/EE/Types/Engine/UIFlavourItem",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "platinumCost": 50
+    },
+    "/Lotus/Upgrades/Skins/SiriusOrion/UnlockSiriusOrionAgile": {
+        "name": "/Lotus/Language/Cosmetics/SiriusOrionAgileAnims",
+        "description": "/Lotus/Language/Cosmetics/UnlockSiriusOrionAgileAnimsDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/AnimationSets/OrionAgile.png",
+        "base": "/EE/Types/Engine/UIFlavourItem",
+        "codexSecret": true,
+        "excludeFromCodex": true,
+        "platinumCost": 50
+    },
+    "/Lotus/Upgrades/Skins/SiriusOrion/UnlockSiriusOrionNoble": {
+        "name": "/Lotus/Language/Cosmetics/SiriusOrionNobleAnims",
+        "description": "/Lotus/Language/Cosmetics/UnlockSiriusOrionNobleAnimsDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/AnimationSets/SiriusNoble.png",
         "base": "/EE/Types/Engine/UIFlavourItem",
         "codexSecret": true,
         "excludeFromCodex": true,

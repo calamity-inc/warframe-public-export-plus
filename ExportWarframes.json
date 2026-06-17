@@ -1286,6 +1286,61 @@
         "platinumCost": 370,
         "introducedAt": 1742364222
     },
+    "/Lotus/Powersuits/SiriusOrion/SiriusSuit": {
+        "name": "/Lotus/Language/Suits/SiriusOrionName",
+        "parentName": "/Lotus/Powersuits/SiriusOrion/SiriusBaseSuit",
+        "description": "/Lotus/Language/Suits/SiriusSuitDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/SiriusOrion.png",
+        "health": 475,
+        "shield": 355,
+        "armor": 160,
+        "stamina": 3,
+        "power": 200,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1.15,
+        "passiveDescription": "/Lotus/Language/Suits/SiriusConstellationPassiveDesc",
+        "abilities": [
+            {
+                "uniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusScytheAbility",
+                "name": "/Lotus/Language/Suits/SiriusScytheThrowName",
+                "description": "/Lotus/Language/Suits/SiriusScytheThrowDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/SiriusCoronalEjection.png",
+                "energyRequiredToActivate": 15
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusBuffAbility",
+                "name": "/Lotus/Language/Suits/SiriusStarShotName",
+                "description": "/Lotus/Language/Suits/SiriusStarShotDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/SiriusStarEater.png",
+                "energyRequiredToActivate": 50
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusFieldAbility",
+                "name": "/Lotus/Language/Suits/SiriusSanctuaryName",
+                "description": "/Lotus/Language/Suits/SiriusSanctuaryDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/SiriusAurora.png",
+                "energyRequiredToActivate": 50
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusOrionUltimateAbility",
+                "name": "/Lotus/Language/Suits/SiriusOrionUltimateName",
+                "description": "/Lotus/Language/Suits/SiriusOrionUltimateDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/SiriusOrionUltimate.png",
+                "energyRequiredToActivate": 100
+            }
+        ],
+        "productCategory": "Suits",
+        "variantType": "VT_NORMAL",
+        "exalted": [
+            "/Lotus/Powersuits/SiriusOrion/OrionSuit"
+        ],
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/SiriusOrion/SiriusHelmet",
+            "/Lotus/Powersuits/SiriusOrion/OrionSuit"
+        ],
+        "platinumCost": 370
+    },
     "/Lotus/Powersuits/Sentient/Sentient": {
         "name": "/Lotus/Language/Suits/SentientFrameName",
         "parentName": "/Lotus/Powersuits/Sentient/SentientBaseSuit",
@@ -4024,7 +4079,7 @@
         "parentName": "/Lotus/Powersuits/Infestation/InfestationBaseSuit",
         "description": "/Lotus/Language/Primes/InfestationPrimeDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/NidusPrime.png",
-        "health": 550,
+        "health": 825,
         "shield": 0,
         "armor": 425,
         "stamina": 3,
@@ -4079,7 +4134,7 @@
         "parentName": "/Lotus/Powersuits/Infestation/InfestationBaseSuit",
         "description": "/Lotus/Language/Suits/InfestationDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/Nidus.png",
-        "health": 455,
+        "health": 675,
         "shield": 0,
         "armor": 350,
         "stamina": 3,
@@ -4127,6 +4182,59 @@
         "nemesisUpgradeTag": "InnateToxinDamage",
         "platinumCost": 225,
         "introducedAt": 1482415989
+    },
+    "/Lotus/Powersuits/Hoplite/StyanaxPrime": {
+        "name": "/Lotus/Language/Primes/StyanaxPrimeSuitName",
+        "parentName": "/Lotus/Powersuits/Hoplite/HopliteBaseSuit",
+        "description": "/Lotus/Language/Primes/StyanaxPrimeSuitDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Primes/StyanaxPrime.png",
+        "health": 270,
+        "shield": 925,
+        "armor": 265,
+        "stamina": 3,
+        "power": 215,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "sprintSpeed": 1,
+        "passiveDescription": "/Lotus/Language/Suits/HoplitePassiveAbilityDesc",
+        "abilities": [
+            {
+                "uniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteImpaleAbility",
+                "name": "/Lotus/Language/Suits/HopliteImpaleAbilityName",
+                "description": "/Lotus/Language/Suits/HopliteImpaleAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/StyanaxImpale.png",
+                "energyRequiredToActivate": 15
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteBashAbility",
+                "name": "/Lotus/Language/Suits/HopliteBashAbilityName",
+                "description": "/Lotus/Language/Suits/HopliteBashAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/StyanaxShieldBash.png",
+                "energyRequiredToActivate": 25
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteRallyAbility",
+                "name": "/Lotus/Language/Suits/HopliteRallyAbilityName",
+                "description": "/Lotus/Language/Suits/HopliteRallyAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/StyanaxRallyTroops.png",
+                "energyRequiredToActivate": 75
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteArmyAbility",
+                "name": "/Lotus/Language/Suits/HopliteArmyAbilityName",
+                "description": "/Lotus/Language/Suits/HopliteArmyAbilityDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/StyanaxOneManArmy.png",
+                "energyRequiredToActivate": 100
+            }
+        ],
+        "productCategory": "Suits",
+        "variantType": "VT_PRIME",
+        "additionalItems": [
+            "/Lotus/Types/Items/Titles/TitleStyanaxPrime"
+        ],
+        "nemesisUpgradeTag": "InnateFreezeDamage",
+        "platinumCost": 175,
+        "excludeFromMarket": true
     },
     "/Lotus/Powersuits/Hoplite/Hoplite": {
         "name": "/Lotus/Language/Suits/HopliteFrameName",
@@ -6681,5 +6789,57 @@
         "maxLevelCap": 40,
         "platinumCost": 375,
         "introducedAt": 1605832026
+    },
+    "/Lotus/Powersuits/SiriusOrion/OrionSuit": {
+        "name": "/Lotus/Language/Suits/OrionSiriusName",
+        "parentName": "/Lotus/Powersuits/SiriusOrion/OrionBaseSuit",
+        "description": "/Lotus/Language/Suits/OrionSuitDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Warframes/OrionSirius.png",
+        "health": 350,
+        "shield": 270,
+        "armor": 300,
+        "stamina": 3,
+        "power": 200,
+        "codexSecret": false,
+        "masteryReq": 0,
+        "excludeFromCodex": true,
+        "sprintSpeed": 1.15,
+        "passiveDescription": "/Lotus/Language/Suits/SiriusConstellationPassiveDesc",
+        "abilities": [
+            {
+                "uniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionScytheAbility",
+                "name": "/Lotus/Language/Suits/OrionScytheSlashName",
+                "description": "/Lotus/Language/Suits/OrionScytheSlashDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/OrionGraviticSlash.png",
+                "energyRequiredToActivate": 15
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionBuffAbility",
+                "name": "/Lotus/Language/Suits/OrionEvasionName",
+                "description": "/Lotus/Language/Suits/OrionEvasionDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/OrionDarkestNight.png",
+                "energyRequiredToActivate": 50
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionVortexAbility",
+                "name": "/Lotus/Language/Suits/OrionBlackHoleName",
+                "description": "/Lotus/Language/Suits/OrionBlackHoleDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/OrionVortex.png",
+                "energyRequiredToActivate": 50
+            },
+            {
+                "uniqueName": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusOrionUltimateAbility",
+                "name": "/Lotus/Language/Suits/SiriusOrionUltimateName",
+                "description": "/Lotus/Language/Suits/SiriusOrionUltimateDesc",
+                "icon": "/Lotus/Interface/Icons/Abilities/SiriusOrionUltimate.png",
+                "energyRequiredToActivate": 100
+            }
+        ],
+        "productCategory": "SpecialItems",
+        "variantType": "VT_NORMAL",
+        "additionalItems": [
+            "/Lotus/Upgrades/Skins/SiriusOrion/OrionHelmet"
+        ],
+        "excludeFromMarket": true
     }
 }

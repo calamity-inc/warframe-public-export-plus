@@ -2159,13 +2159,20 @@
                         "/Lotus/Types/Items/PhotoBooth/JadeShadows/PhotoboothTileStalkerCave",
                         "/Lotus/Types/Items/ShipDecos/JadeShadowsAlonePoster",
                         "/Lotus/Types/Items/ShipDecos/JadeShadowsEmbracePoster",
-                        "/Lotus/Types/Items/ShipDecos/JadeShadowsFamilyPoster"
+                        "/Lotus/Types/Items/ShipDecos/JadeShadowsFamilyPoster",
+                        "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestKeyChain"
                     ],
                     "countedAttachments": [],
                     "icon": "/Lotus/Interface/Icons/Npcs/Sentients/Hunhow.png",
                     "transmission": "/Lotus/Sounds/Dialog/JadeShadowsQuest/DMissionSix0610Hunhow",
                     "highPriority": true
                 }
+            }
+        ],
+        "rewards": [
+            {
+                "rewardType": "RT_STORE_ITEM",
+                "itemType": "/Lotus/StoreItems/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestKeyChain"
             }
         ]
     },
@@ -2242,6 +2249,183 @@
     "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestStage8Epilogue": {
         "name": "/Lotus/Language/JadeShadows/StageEightName",
         "parentName": "/Lotus/Types/Keys/JadeShadows/JadeShadowsQuestBaseKey",
+        "codexSecret": true,
+        "rewards": [],
+        "mission": {
+            "minEnemyLevel": 95,
+            "maxEnemyLevel": 100
+        }
+    },
+    "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestKeyChain": {
+        "name": "/Lotus/Language/JadeShadowsPart2Constellations/JadeShadowsPart2QuestName",
+        "description": "/Lotus/Language/JadeShadowsPart2Constellations/JadeShadowsPart2QuestDesc",
+        "icon": "/Lotus/Interface/Quests/JadeShadowsPart2Quest/CodexSirius.png",
+        "parentName": "/Lotus/Types/Game/KeyChainItem",
+        "codexSecret": false,
+        "chainStages": [
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestStage1Headhunting",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestStage2Hunhow",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestStage3HideAndSeek",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestStage4StalkingTheUnknown",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestStage5FriendFromWork",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestStage7Interlude",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestStage9JobDone",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestStage10JadeMockery",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestStage11FinalConfrontation",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "key": "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestStage12FamilyUnited",
+                "itemsToGiveWhenTriggered": []
+            },
+            {
+                "itemsToGiveWhenTriggered": [],
+                "messageToSendWhenTriggered": {
+                    "sender": "/Lotus/Language/Bosses/Hunhow",
+                    "title": "/Lotus/Language/JadeShadowsPart2Constellations/Js2Stage13InboxTitle",
+                    "body": "/Lotus/Language/JadeShadowsPart2Constellations/Js2Stage13InboxBody",
+                    "attachments": [
+                        "/Lotus/Types/Recipes/WarframeRecipes/SiriusOrionBlueprint",
+                        "/Lotus/Upgrades/Skins/Scarves/SiriusOrionLeftSyandana",
+                        "/Lotus/Upgrades/Skins/Scarves/SiriusOrionRightSyandana",
+                        "/Lotus/Types/Items/ShipDecos/JadeShadows2FightPoster",
+                        "/Lotus/Types/Items/ShipDecos/JadeShadows2SiriusPoster",
+                        "/Lotus/Types/Items/ShipDecos/JadeShadows2OrionPoster"
+                    ],
+                    "countedAttachments": [],
+                    "icon": "/Lotus/Interface/Icons/Npcs/Sentients/Hunhow.png",
+                    "transmission": "/Lotus/Sounds/Dialog/JadeShadowsQuestPart2/Vendor/DPostJS2Inbox0010Hunhow"
+                }
+            }
+        ]
+    },
+    "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestStage1Headhunting": {
+        "name": "/Lotus/Language/JadeShadowsPart2Constellations/Js2Stage1Title",
+        "parentName": "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestBaseKey",
+        "codexSecret": true,
+        "rewards": [],
+        "mission": {
+            "minEnemyLevel": 95,
+            "maxEnemyLevel": 100
+        }
+    },
+    "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestStage2Hunhow": {
+        "name": "/Lotus/Language/JadeShadowsPart2Constellations/Js2Stage2Title",
+        "parentName": "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestBaseKey",
+        "codexSecret": true,
+        "rewards": [],
+        "mission": {
+            "minEnemyLevel": 95,
+            "maxEnemyLevel": 100
+        }
+    },
+    "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestStage3HideAndSeek": {
+        "name": "/Lotus/Language/JadeShadowsPart2Constellations/Js2Stage3Title",
+        "parentName": "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestBaseKey",
+        "codexSecret": true,
+        "rewards": [],
+        "mission": {
+            "minEnemyLevel": 95,
+            "maxEnemyLevel": 100
+        }
+    },
+    "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestStage4StalkingTheUnknown": {
+        "name": "/Lotus/Language/JadeShadowsPart2Constellations/Js2Stage4Title",
+        "parentName": "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestBaseKey",
+        "codexSecret": true,
+        "rewards": [],
+        "mission": {
+            "minEnemyLevel": 95,
+            "maxEnemyLevel": 100
+        }
+    },
+    "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestStage5FriendFromWork": {
+        "name": "/Lotus/Language/JadeShadowsPart2Constellations/Js2Stage5Title",
+        "parentName": "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestBaseKey",
+        "codexSecret": true,
+        "rewards": [],
+        "mission": {
+            "minEnemyLevel": 95,
+            "maxEnemyLevel": 100
+        }
+    },
+    "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestStage7Interlude": {
+        "name": "/Lotus/Language/JadeShadowsPart2Constellations/Js2Stage7Title",
+        "parentName": "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestBaseKey",
+        "codexSecret": true,
+        "rewards": [],
+        "mission": {
+            "minEnemyLevel": 95,
+            "maxEnemyLevel": 100
+        }
+    },
+    "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestStage9JobDone": {
+        "name": "/Lotus/Language/JadeShadowsPart2Constellations/Js2Stage9Title",
+        "parentName": "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestBaseKey",
+        "codexSecret": true,
+        "rewards": [],
+        "mission": {
+            "minEnemyLevel": 95,
+            "maxEnemyLevel": 100
+        }
+    },
+    "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestStage10JadeMockery": {
+        "name": "/Lotus/Language/JadeShadowsPart2Constellations/Js2Stage10Title",
+        "parentName": "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestBaseKey",
+        "codexSecret": true,
+        "rewards": [],
+        "mission": {
+            "minEnemyLevel": 95,
+            "maxEnemyLevel": 100
+        }
+    },
+    "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestStage11FinalConfrontation": {
+        "name": "/Lotus/Language/JadeShadowsPart2Constellations/Js2Stage11Title",
+        "parentName": "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestBaseKey",
+        "codexSecret": true,
+        "rewards": [],
+        "mission": {
+            "minEnemyLevel": 95,
+            "maxEnemyLevel": 100
+        }
+    },
+    "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestStage12FamilyUnited": {
+        "name": "/Lotus/Language/JadeShadowsPart2Constellations/Js2Stage12Title",
+        "parentName": "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestBaseKey",
         "codexSecret": true,
         "rewards": [],
         "mission": {
@@ -6314,6 +6498,36 @@
             "maxEnemyLevel": 50
         }
     },
+    "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestBaseKey": {
+        "name": "[HC] JS Part 2 Base",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "rewards": [],
+        "mission": {
+            "minEnemyLevel": 95,
+            "maxEnemyLevel": 100
+        }
+    },
+    "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestStage6or8AshCapture": {
+        "name": "/Lotus/Language/JadeShadowsPart2Constellations/Stage6or8AshCaptureStageLocTagName",
+        "parentName": "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestBaseKey",
+        "codexSecret": true,
+        "rewards": [],
+        "mission": {
+            "minEnemyLevel": 95,
+            "maxEnemyLevel": 100
+        }
+    },
+    "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestStage6or8GarudaSpy": {
+        "name": "/Lotus/Language/JadeShadowsPart2Constellations/Stage6or8GarudaSpyStageLocTagName",
+        "parentName": "/Lotus/Types/Keys/JadeShadowsPart2Constellations/JadeShadowsPart2QuestBaseKey",
+        "codexSecret": true,
+        "rewards": [],
+        "mission": {
+            "minEnemyLevel": 95,
+            "maxEnemyLevel": 100
+        }
+    },
     "/Lotus/Types/Keys/KahlMissions/KahlCrewshipEarthKey": {
         "name": "DEFENSE TEST KEY",
         "description": "/Lotus/Language/KahlQuest/Mission_Earth_Name",
@@ -7538,47 +7752,6 @@
         "codexSecret": true,
         "rewards": [],
         "mission": {}
-    },
-    "/Lotus/Types/Keys/RaidKeys/Raid01Stage02KeyItem": {
-        "name": "/Lotus/Language/Items/GrineerTrialsName",
-        "description": "/Lotus/Language/Items/GrineerTrialsDesc",
-        "parentName": "/Lotus/Types/Keys/RaidKeys/BaseRaidKey",
-        "codexSecret": true,
-        "rewards": [],
-        "mission": {
-            "minEnemyLevel": 80,
-            "maxEnemyLevel": 90
-        }
-    },
-    "/Lotus/Types/Keys/RaidKeys/Raid01Stage03KeyItem": {
-        "name": "/Lotus/Language/Items/GrineerTrialsName",
-        "description": "/Lotus/Language/Items/GrineerTrialsDesc",
-        "parentName": "/Lotus/Types/Keys/RaidKeys/BaseRaidKey",
-        "codexSecret": true,
-        "missionReward": {
-            "credits": 200000,
-            "droptable": "/Lotus/Types/Game/MissionDecks/RaidRewards/HekRaid"
-        },
-        "rewards": [],
-        "mission": {
-            "minEnemyLevel": 80,
-            "maxEnemyLevel": 100
-        }
-    },
-    "/Lotus/Types/Keys/RaidKeys/Raid01Stage03NightmareKeyItem": {
-        "name": "/Lotus/Language/Items/GrineerNightmareTrialsName",
-        "description": "/Lotus/Language/Items/GrineerTrialsDesc",
-        "parentName": "/Lotus/Types/Keys/RaidKeys/Raid01Stage03KeyItem",
-        "codexSecret": true,
-        "missionReward": {
-            "credits": 250000,
-            "droptable": "/Lotus/Types/Game/MissionDecks/RaidRewards/NightmareHekRaid"
-        },
-        "rewards": [],
-        "mission": {
-            "minEnemyLevel": 80,
-            "maxEnemyLevel": 100
-        }
     },
     "/Lotus/Types/Keys/RailjackKeyHuntMission": {
         "name": "/Lotus/Language/Quests/ReliquaryKeyHunt",
@@ -9019,6 +9192,18 @@
         "codexSecret": true,
         "rewards": [],
         "mission": {}
+    },
+    "/Lotus/Types/Keys/TestKeys/VoltEximusMissionTestKey": {
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 1
+        },
+        "rewards": [],
+        "mission": {
+            "minEnemyLevel": 65,
+            "maxEnemyLevel": 70
+        }
     },
     "/Lotus/Types/Keys/VeyHekKey": {
         "name": "/Lotus/Language/Items/HekNavCodeKeyName",

@@ -4677,6 +4677,142 @@
         "fusionLimit": 5,
         "distillPointValue": 21
     },
+    "/Lotus/Upgrades/CosmeticEnhancers/Offensive/HeavyAttackDamageAndShieldOnShieldBreak": {
+        "name": "/Lotus/Language/Upgrades/HeavyAttackKillRestoreShieldName",
+        "icon": "/Lotus/Interface/Icons/CosmeticEnhancers/Arcanes/Projections/MeleeArcaneShieldBreakMeleeUp.png",
+        "codexSecret": true,
+        "rarity": "RARE",
+        "levelStats": [
+            [
+                {
+                    "tag": "/Lotus/Language/Upgrades/CosmeticEnhancerDescriptionNoChanceTwoBonusesWithDuration",
+                    "sub": {
+                        "CONDITION": "/Lotus/Language/Upgrades/OnShieldBreakCondition",
+                        "BONUS1": {
+                            "tag": "/Lotus/Language/Upgrades/MeleeDamageBuffOnHeavyDesc",
+                            "sub": {
+                                "val": "+25"
+                            }
+                        },
+                        "BONUS2": {
+                            "tag": "/Lotus/Language/Upgrades/HeavyAttackKillRestoreShieldDesc",
+                            "sub": {
+                                "val": "+5"
+                            }
+                        },
+                        "DURATION": "20"
+                    }
+                }
+            ],
+            [
+                {
+                    "tag": "/Lotus/Language/Upgrades/CosmeticEnhancerDescriptionNoChanceTwoBonusesWithDuration",
+                    "sub": {
+                        "CONDITION": "/Lotus/Language/Upgrades/OnShieldBreakCondition",
+                        "BONUS1": {
+                            "tag": "/Lotus/Language/Upgrades/MeleeDamageBuffOnHeavyDesc",
+                            "sub": {
+                                "val": "+50"
+                            }
+                        },
+                        "BONUS2": {
+                            "tag": "/Lotus/Language/Upgrades/HeavyAttackKillRestoreShieldDesc",
+                            "sub": {
+                                "val": "+10"
+                            }
+                        },
+                        "DURATION": "20"
+                    }
+                }
+            ],
+            [
+                {
+                    "tag": "/Lotus/Language/Upgrades/CosmeticEnhancerDescriptionNoChanceTwoBonusesWithDuration",
+                    "sub": {
+                        "CONDITION": "/Lotus/Language/Upgrades/OnShieldBreakCondition",
+                        "BONUS1": {
+                            "tag": "/Lotus/Language/Upgrades/MeleeDamageBuffOnHeavyDesc",
+                            "sub": {
+                                "val": "+75"
+                            }
+                        },
+                        "BONUS2": {
+                            "tag": "/Lotus/Language/Upgrades/HeavyAttackKillRestoreShieldDesc",
+                            "sub": {
+                                "val": "+15"
+                            }
+                        },
+                        "DURATION": "20"
+                    }
+                }
+            ],
+            [
+                {
+                    "tag": "/Lotus/Language/Upgrades/CosmeticEnhancerDescriptionNoChanceTwoBonusesWithDuration",
+                    "sub": {
+                        "CONDITION": "/Lotus/Language/Upgrades/OnShieldBreakCondition",
+                        "BONUS1": {
+                            "tag": "/Lotus/Language/Upgrades/MeleeDamageBuffOnHeavyDesc",
+                            "sub": {
+                                "val": "+100"
+                            }
+                        },
+                        "BONUS2": {
+                            "tag": "/Lotus/Language/Upgrades/HeavyAttackKillRestoreShieldDesc",
+                            "sub": {
+                                "val": "+20"
+                            }
+                        },
+                        "DURATION": "20"
+                    }
+                }
+            ],
+            [
+                {
+                    "tag": "/Lotus/Language/Upgrades/CosmeticEnhancerDescriptionNoChanceTwoBonusesWithDuration",
+                    "sub": {
+                        "CONDITION": "/Lotus/Language/Upgrades/OnShieldBreakCondition",
+                        "BONUS1": {
+                            "tag": "/Lotus/Language/Upgrades/MeleeDamageBuffOnHeavyDesc",
+                            "sub": {
+                                "val": "+125"
+                            }
+                        },
+                        "BONUS2": {
+                            "tag": "/Lotus/Language/Upgrades/HeavyAttackKillRestoreShieldDesc",
+                            "sub": {
+                                "val": "+25"
+                            }
+                        },
+                        "DURATION": "20"
+                    }
+                }
+            ],
+            [
+                {
+                    "tag": "/Lotus/Language/Upgrades/CosmeticEnhancerDescriptionNoChanceTwoBonusesWithDuration",
+                    "sub": {
+                        "CONDITION": "/Lotus/Language/Upgrades/OnShieldBreakCondition",
+                        "BONUS1": {
+                            "tag": "/Lotus/Language/Upgrades/MeleeDamageBuffOnHeavyDesc",
+                            "sub": {
+                                "val": "+150"
+                            }
+                        },
+                        "BONUS2": {
+                            "tag": "/Lotus/Language/Upgrades/HeavyAttackKillRestoreShieldDesc",
+                            "sub": {
+                                "val": "+30"
+                            }
+                        },
+                        "DURATION": "20"
+                    }
+                }
+            ]
+        ],
+        "fusionLimit": 5,
+        "distillPointValue": 24
+    },
     "/Lotus/Upgrades/CosmeticEnhancers/Offensive/HeavyCritOnRegularMelee": {
         "name": "/Lotus/Language/Arcanes/HeavyCritOnRegularMeleeName",
         "icon": "/Lotus/Interface/Icons/CosmeticEnhancers/Arcanes/Projections/ArcaneProjectionCV.png",
@@ -7405,6 +7541,70 @@
         ],
         "fusionLimit": 5,
         "distillPointValue": 84
+    },
+    "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryColdOnPuncture": {
+        "name": "/Lotus/Language/Arcanes/SecondaryColdOnPunctureName",
+        "icon": "/Lotus/Interface/Icons/CosmeticEnhancers/Arcanes/Projections/SecondaryCritStrikeColdPunct.png",
+        "codexSecret": true,
+        "rarity": "RARE",
+        "levelStats": [
+            [
+                {
+                    "tag": "/Lotus/Language/Arcanes/SecondaryColdOnPunctureDesc",
+                    "sub": {
+                        "NUM_PROCS": "1",
+                        "RADIUS": "10"
+                    }
+                }
+            ],
+            [
+                {
+                    "tag": "/Lotus/Language/Arcanes/SecondaryColdOnPunctureDesc",
+                    "sub": {
+                        "NUM_PROCS": "1",
+                        "RADIUS": "11"
+                    }
+                }
+            ],
+            [
+                {
+                    "tag": "/Lotus/Language/Arcanes/SecondaryColdOnPunctureDesc",
+                    "sub": {
+                        "NUM_PROCS": "2",
+                        "RADIUS": "12"
+                    }
+                }
+            ],
+            [
+                {
+                    "tag": "/Lotus/Language/Arcanes/SecondaryColdOnPunctureDesc",
+                    "sub": {
+                        "NUM_PROCS": "2",
+                        "RADIUS": "13"
+                    }
+                }
+            ],
+            [
+                {
+                    "tag": "/Lotus/Language/Arcanes/SecondaryColdOnPunctureDesc",
+                    "sub": {
+                        "NUM_PROCS": "3",
+                        "RADIUS": "14"
+                    }
+                }
+            ],
+            [
+                {
+                    "tag": "/Lotus/Language/Arcanes/SecondaryColdOnPunctureDesc",
+                    "sub": {
+                        "NUM_PROCS": "3",
+                        "RADIUS": "15"
+                    }
+                }
+            ]
+        ],
+        "fusionLimit": 5,
+        "distillPointValue": 24
     },
     "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryCritChancePerBuff": {
         "name": "/Lotus/Language/Arcanes/CritChancePerAllyBuffName",
@@ -11468,6 +11668,82 @@
         "fusionLimit": 5,
         "distillPointValue": 24
     },
+    "/Lotus/Upgrades/CosmeticEnhancers/Utility/AbilityEfficiencyOnAbilityObjectCreation": {
+        "name": "/Lotus/Language/Arcanes/AbilityEfficiencyOnAbilityObjectCreationName",
+        "icon": "/Lotus/Interface/Icons/CosmeticEnhancers/Arcanes/Projections/WarframeObjectCreation.png",
+        "codexSecret": true,
+        "rarity": "RARE",
+        "levelStats": [
+            [
+                {
+                    "tag": "/Lotus/Language/Arcanes/AbilityEfficiencyOnAbilityObjectCreationDesc",
+                    "sub": {
+                        "STAT": "125",
+                        "DURATION": "12"
+                    }
+                }
+            ],
+            [
+                {
+                    "tag": "/Lotus/Language/Arcanes/AbilityEfficiencyOnAbilityObjectCreationDesc",
+                    "sub": {
+                        "STAT": "135",
+                        "DURATION": "12"
+                    }
+                }
+            ],
+            [
+                {
+                    "tag": "/Lotus/Language/Arcanes/AbilityEfficiencyOnAbilityObjectCreationDesc",
+                    "sub": {
+                        "STAT": "145",
+                        "DURATION": "12"
+                    }
+                }
+            ],
+            [
+                {
+                    "tag": "/Lotus/Language/Arcanes/AbilityEfficiencyOnAbilityObjectCreationDesc",
+                    "sub": {
+                        "STAT": "155",
+                        "DURATION": "12"
+                    }
+                },
+                {
+                    "tag": "/Lotus/Language/Upgrades/CosmeticEnhancerBonusRevive",
+                    "sub": {}
+                }
+            ],
+            [
+                {
+                    "tag": "/Lotus/Language/Arcanes/AbilityEfficiencyOnAbilityObjectCreationDesc",
+                    "sub": {
+                        "STAT": "165",
+                        "DURATION": "12"
+                    }
+                },
+                {
+                    "tag": "/Lotus/Language/Upgrades/CosmeticEnhancerBonusRevive",
+                    "sub": {}
+                }
+            ],
+            [
+                {
+                    "tag": "/Lotus/Language/Arcanes/AbilityEfficiencyOnAbilityObjectCreationDesc",
+                    "sub": {
+                        "STAT": "175",
+                        "DURATION": "12"
+                    }
+                },
+                {
+                    "tag": "/Lotus/Language/Upgrades/CosmeticEnhancerBonusRevive",
+                    "sub": {}
+                }
+            ]
+        ],
+        "fusionLimit": 5,
+        "distillPointValue": 24
+    },
     "/Lotus/Upgrades/CosmeticEnhancers/Utility/AbilityRadiationProcsCreateUniversalOrbsOnKill": {
         "name": "/Lotus/Language/Arcanes/AbilityRadiationProcsCreateUniversalOrbsOnKillName",
         "icon": "/Lotus/Interface/Icons/CosmeticEnhancers/Arcanes/Projections/ArcaneProjectionDT.png",
@@ -11814,6 +12090,76 @@
             ]
         ],
         "fusionLimit": 3,
+        "distillPointValue": 24
+    },
+    "/Lotus/Upgrades/CosmeticEnhancers/Utility/ConvergeRadialAttackOnAim": {
+        "name": "/Lotus/Language/Arcanes/ConvergeRadialAttackOnAimName",
+        "icon": "/Lotus/Interface/Icons/CosmeticEnhancers/Arcanes/Projections/PrimaryRadialAttack.png",
+        "codexSecret": true,
+        "rarity": "RARE",
+        "levelStats": [
+            [
+                {
+                    "tag": "/Lotus/Language/Arcanes/ConvergeRadialAttackOnAimDesc",
+                    "sub": {
+                        "RADIUS": "0.2",
+                        "STAT1": "50",
+                        "STAT2": "3.0"
+                    }
+                }
+            ],
+            [
+                {
+                    "tag": "/Lotus/Language/Arcanes/ConvergeRadialAttackOnAimDesc",
+                    "sub": {
+                        "RADIUS": "0.2",
+                        "STAT1": "60",
+                        "STAT2": "3.5"
+                    }
+                }
+            ],
+            [
+                {
+                    "tag": "/Lotus/Language/Arcanes/ConvergeRadialAttackOnAimDesc",
+                    "sub": {
+                        "RADIUS": "0.2",
+                        "STAT1": "70",
+                        "STAT2": "4.0"
+                    }
+                }
+            ],
+            [
+                {
+                    "tag": "/Lotus/Language/Arcanes/ConvergeRadialAttackOnAimDesc",
+                    "sub": {
+                        "RADIUS": "0.2",
+                        "STAT1": "80",
+                        "STAT2": "4.5"
+                    }
+                }
+            ],
+            [
+                {
+                    "tag": "/Lotus/Language/Arcanes/ConvergeRadialAttackOnAimDesc",
+                    "sub": {
+                        "RADIUS": "0.2",
+                        "STAT1": "90",
+                        "STAT2": "5.0"
+                    }
+                }
+            ],
+            [
+                {
+                    "tag": "/Lotus/Language/Arcanes/ConvergeRadialAttackOnAimDesc",
+                    "sub": {
+                        "RADIUS": "0.2",
+                        "STAT1": "100",
+                        "STAT2": "5.5"
+                    }
+                }
+            ]
+        ],
+        "fusionLimit": 5,
         "distillPointValue": 24
     },
     "/Lotus/Upgrades/CosmeticEnhancers/Utility/DamageReductionDuringRevive": {

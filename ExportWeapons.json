@@ -1491,7 +1491,7 @@
         "holsterCategory": "SMG",
         "slot": 0,
         "accuracy": 50,
-        "omegaAttenuation": 0.6,
+        "omegaAttenuation": 0.7,
         "noise": "SILENT",
         "trigger": "AUTO",
         "magazineSize": 40,
@@ -2663,6 +2663,26 @@
                     "DT_PUNCTURE": 78.75,
                     "DT_SLASH": 56.25,
                     "procChance": 0.3
+                }
+            },
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                "fireIterations": 1,
+                "projectile": {
+                    "attack": {
+                        "DT_FREEZE": 5,
+                        "procChance": 0.3
+                    },
+                    "explosiveAttack": {
+                        "DT_FREEZE": 5,
+                        "procChance": 0.3
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 3.33333,
+                    "DT_PUNCTURE": 3.33333,
+                    "DT_SLASH": 3.33334,
+                    "procChance": 0.1
                 }
             }
         ],
@@ -5633,10 +5653,95 @@
                     "DT_SLASH": 2.4,
                     "procChance": 0.6
                 }
+            },
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
+                "fireIterations": 1,
+                "chargedProjectile": {
+                    "attack": {
+                        "DT_SLASH": 830,
+                        "procChance": 0.3
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 3.33333,
+                    "DT_PUNCTURE": 3.33333,
+                    "DT_SLASH": 3.33334,
+                    "procChance": 0.1
+                }
             }
         ],
         "tradable": false,
         "introducedAt": 1504029346
+    },
+    "/Lotus/Weapons/Tenno/Pistols/PrimeAthodai/PrimeAthodaiPistolWeapon": {
+        "name": "/Lotus/Language/Primes/AthodaiPrimeName",
+        "parentName": "/Lotus/Weapons/Tenno/Pistols/TnJetTurbine/TnJetTurbinePistolWeapon",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/SecondaryWeapons/Weapons/AthodaiPrime.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            24,
+            0,
+            56,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 80,
+        "description": "/Lotus/Language/Primes/AthodaiPrimeDesc",
+        "criticalChance": 0.4,
+        "criticalMultiplier": 2,
+        "procChance": 0.1,
+        "fireRate": 5.0,
+        "masteryReq": 14,
+        "productCategory": "Pistols",
+        "slot": 0,
+        "accuracy": 50,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 24,
+        "reloadTime": 2,
+        "multishot": 1,
+        "platinumCost": 225,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "TNJETTURBINEPISTOL"
+        ],
+        "variantType": "VT_PRIME",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "impact": {
+                    "DT_PUNCTURE": 24,
+                    "DT_FIRE": 56,
+                    "procChance": 0.1
+                }
+            },
+            {
+                "fireIterations": 1,
+                "impact": {
+                    "DT_FIRE": 100,
+                    "procChance": 0.35
+                }
+            }
+        ],
+        "tradable": false
     },
     "/Lotus/Weapons/Tenno/Pistols/PrimeAkstiletto/PrimeAkstiletto": {
         "name": "/Lotus/Language/Primes/PrimeAkstilettoName",
@@ -6408,6 +6513,22 @@
                     "DT_SLASH": 4.000008,
                     "procChance": 0.1
                 }
+            },
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
+                "fireIterations": 1,
+                "chargedProjectile": {
+                    "attack": {
+                        "DT_SLASH": 640,
+                        "procChance": 0.2
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 3.33333,
+                    "DT_PUNCTURE": 3.33333,
+                    "DT_SLASH": 3.33334,
+                    "procChance": 0.1
+                }
             }
         ],
         "tradable": false,
@@ -6534,7 +6655,7 @@
         "productCategory": "Pistols",
         "slot": 0,
         "accuracy": 23.529411,
-        "omegaAttenuation": 0.95,
+        "omegaAttenuation": 1,
         "noise": "ALARMING",
         "trigger": "AUTO",
         "magazineSize": 16,
@@ -7348,7 +7469,7 @@
         "productCategory": "Melee",
         "holsterCategory": "MELEE",
         "slot": 5,
-        "omegaAttenuation": 0.6,
+        "omegaAttenuation": 0.75,
         "blockingAngle": 45,
         "comboDuration": 5,
         "followThrough": 0.5,
@@ -7643,7 +7764,7 @@
         "productCategory": "Melee",
         "holsterCategory": "DUAL_SHORT_MELEE",
         "slot": 5,
-        "omegaAttenuation": 0.85,
+        "omegaAttenuation": 0.9,
         "blockingAngle": 55,
         "comboDuration": 5,
         "followThrough": 0.7,
@@ -7800,7 +7921,7 @@
         "productCategory": "Melee",
         "holsterCategory": "TONFA",
         "slot": 5,
-        "omegaAttenuation": 0.65,
+        "omegaAttenuation": 0.7,
         "blockingAngle": 60,
         "comboDuration": 5,
         "followThrough": 0.6,
@@ -8356,7 +8477,7 @@
         "productCategory": "Melee",
         "holsterCategory": "LEFT_FOREARM_MOUNTED",
         "slot": 5,
-        "omegaAttenuation": 0.5,
+        "omegaAttenuation": 0.95,
         "blockingAngle": 70,
         "comboDuration": 5,
         "followThrough": 0.6,
@@ -9381,6 +9502,76 @@
         "tradable": false,
         "introducedAt": 1524234432
     },
+    "/Lotus/Weapons/Tenno/Melee/Swords/PrimeWar/PrimeWarWeapon": {
+        "name": "/Lotus/Language/Primes/WarPrimeWeaponName",
+        "parentName": "/Lotus/Weapons/Tenno/Melee/Swords/StalkerTwo/StalkerTwoGreatSword",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/WarPrime.png",
+        "codexSecret": true,
+        "damagePerShot": [
+            194.40001,
+            32.399998,
+            43.199989,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 270,
+        "description": "/Lotus/Language/Primes/WarPrimeWeaponDesc",
+        "criticalChance": 0.26,
+        "criticalMultiplier": 3.2,
+        "procChance": 0.32,
+        "fireRate": 0.916667,
+        "masteryReq": 15,
+        "productCategory": "Melee",
+        "holsterCategory": "MELEE",
+        "slot": 5,
+        "omegaAttenuation": 0.5,
+        "blockingAngle": 55,
+        "comboDuration": 5,
+        "followThrough": 0.6,
+        "range": 3.2,
+        "slamAttack": 810,
+        "slamRadialDamage": 540,
+        "slamRadius": 8,
+        "slideAttack": 540,
+        "heavyAttackDamage": 1620,
+        "heavySlamAttack": 1350,
+        "heavySlamRadialDamage": 810,
+        "heavySlamRadius": 9,
+        "windUp": 1.1,
+        "platinumCost": 175,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "HEAVY_BLADE_STANCE"
+        ],
+        "variantType": "VT_PRIME",
+        "behaviours": [
+            {
+                "fireIterations": 1,
+                "impact": {
+                    "DT_IMPACT": 194.4,
+                    "DT_PUNCTURE": 32.4,
+                    "DT_SLASH": 43.2,
+                    "procChance": 0.32
+                }
+            }
+        ],
+        "tradable": false
+    },
     "/Lotus/Weapons/Tenno/Melee/Swords/PrimeTatsu/PrimeTatsuWeapon": {
         "name": "/Lotus/Language/Weapons/PrimeTatsuName",
         "parentName": "/Lotus/Weapons/Tenno/Melee/Swords/TnTwoHandedKatana/TnTwoHandedKatana",
@@ -10342,7 +10533,7 @@
         "productCategory": "Melee",
         "holsterCategory": "MELEE",
         "slot": 5,
-        "omegaAttenuation": 1.05,
+        "omegaAttenuation": 1.1,
         "blockingAngle": 60,
         "comboDuration": 10,
         "followThrough": 0.6,
@@ -10978,7 +11169,7 @@
         "productCategory": "Melee",
         "holsterCategory": "MELEE",
         "slot": 5,
-        "omegaAttenuation": 1.05,
+        "omegaAttenuation": 1.1,
         "blockingAngle": 55,
         "comboDuration": 5,
         "followThrough": 0.7,
@@ -12324,7 +12515,7 @@
         "productCategory": "Melee",
         "holsterCategory": "MELEE",
         "slot": 5,
-        "omegaAttenuation": 0.5,
+        "omegaAttenuation": 0.6,
         "blockingAngle": 60,
         "comboDuration": 5,
         "followThrough": 0.6,
@@ -13521,7 +13712,7 @@
         "productCategory": "Melee",
         "holsterCategory": "STAFF",
         "slot": 5,
-        "omegaAttenuation": 1.1,
+        "omegaAttenuation": 1.15,
         "blockingAngle": 55,
         "comboDuration": 5,
         "followThrough": 0.6,
@@ -14073,6 +14264,142 @@
         "tradable": false,
         "introducedAt": 1369347222
     },
+    "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnSiriusScytheWeapon": {
+        "name": "/Lotus/Language/Weapons/TnSiriusScytheName",
+        "parentName": "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnOrionSiriusScytheBaseWeapon",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/TnSiriusScytheWeapon.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            125,
+            125,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 250,
+        "description": "/Lotus/Language/Weapons/TnSiriusScytheDesc",
+        "criticalChance": 0.15,
+        "criticalMultiplier": 2,
+        "procChance": 0.35,
+        "fireRate": 1.2,
+        "masteryReq": 14,
+        "productCategory": "Melee",
+        "holsterCategory": "STAFF",
+        "slot": 5,
+        "omegaAttenuation": 0.5,
+        "blockingAngle": 65,
+        "comboDuration": 5,
+        "followThrough": 0.4,
+        "range": 2.8,
+        "slamAttack": 750,
+        "slamRadialDamage": 500,
+        "slamRadius": 8,
+        "slideAttack": 500,
+        "heavyAttackDamage": 4500,
+        "heavySlamAttack": 1250,
+        "heavySlamRadialDamage": 750,
+        "heavySlamRadius": 9,
+        "windUp": 1,
+        "platinumCost": 250,
+        "compatibilityTags": [
+            "HEAVY SCYTHE_STANCE"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "fireIterations": 1,
+                "impact": {
+                    "DT_PUNCTURE": 125.0,
+                    "DT_SLASH": 125.0,
+                    "procChance": 0.35
+                }
+            }
+        ],
+        "tradable": false
+    },
+    "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnOrionScytheWeapon": {
+        "name": "/Lotus/Language/Weapons/TnOrionScytheName",
+        "parentName": "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnOrionSiriusScytheBaseWeapon",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/MeleeWeapons/Weapons/TnOrionScytheWeapon.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            44,
+            176,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 220,
+        "description": "/Lotus/Language/Weapons/TnOrionScytheDesc",
+        "criticalChance": 0.3,
+        "criticalMultiplier": 2,
+        "procChance": 0.15,
+        "fireRate": 1.2,
+        "masteryReq": 14,
+        "productCategory": "Melee",
+        "holsterCategory": "STAFF",
+        "slot": 5,
+        "omegaAttenuation": 0.5,
+        "blockingAngle": 65,
+        "comboDuration": 5,
+        "followThrough": 0.4,
+        "range": 2.8,
+        "slamAttack": 660,
+        "slamRadialDamage": 440,
+        "slamRadius": 8,
+        "slideAttack": 440,
+        "heavyAttackDamage": 3960,
+        "heavySlamAttack": 1100,
+        "heavySlamRadialDamage": 660,
+        "heavySlamRadius": 9,
+        "windUp": 1,
+        "platinumCost": 250,
+        "compatibilityTags": [
+            "HEAVY SCYTHE_STANCE"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "fireIterations": 1,
+                "impact": {
+                    "DT_PUNCTURE": 44.0,
+                    "DT_SLASH": 176.0,
+                    "procChance": 0.15
+                }
+            }
+        ],
+        "tradable": false
+    },
     "/Lotus/Weapons/Tenno/Melee/HeavyScythe/DuviriScythe/DuviriHeavyScytheWeapon": {
         "name": "/Lotus/Language/Weapons/DuviriHeavyScytheName",
         "parentName": "/Lotus/Weapons/Tenno/Melee/HeavyScytheWeapon",
@@ -14110,7 +14437,7 @@
         "productCategory": "Melee",
         "holsterCategory": "STAFF",
         "slot": 5,
-        "omegaAttenuation": 1,
+        "omegaAttenuation": 1.05,
         "blockingAngle": 65,
         "comboDuration": 5,
         "followThrough": 0.4,
@@ -14951,7 +15278,7 @@
         "productCategory": "Melee",
         "holsterCategory": "ARM_MOUNTED",
         "slot": 5,
-        "omegaAttenuation": 0.5,
+        "omegaAttenuation": 0.75,
         "blockingAngle": 55,
         "comboDuration": 5,
         "followThrough": 0.7,
@@ -16794,7 +17121,7 @@
         "productCategory": "Melee",
         "holsterCategory": "MELEE",
         "slot": 5,
-        "omegaAttenuation": 0.5,
+        "omegaAttenuation": 0.65,
         "blockingAngle": 55,
         "comboDuration": 5,
         "followThrough": 0.6,
@@ -18106,7 +18433,7 @@
         "holsterCategory": "RIFLE",
         "slot": 1,
         "accuracy": 25,
-        "omegaAttenuation": 1.1,
+        "omegaAttenuation": 1.15,
         "noise": "ALARMING",
         "trigger": "BURST",
         "magazineSize": 52,
@@ -18175,7 +18502,7 @@
         "holsterCategory": "RIFLE",
         "slot": 1,
         "accuracy": 100,
-        "omegaAttenuation": 0.5,
+        "omegaAttenuation": 0.7,
         "noise": "ALARMING",
         "trigger": "HELD",
         "magazineSize": 60,
@@ -18510,7 +18837,7 @@
         "holsterCategory": "RIFLE",
         "slot": 1,
         "accuracy": 33.333332,
-        "omegaAttenuation": 0.95,
+        "omegaAttenuation": 1,
         "noise": "ALARMING",
         "trigger": "AUTO",
         "magazineSize": 200,
@@ -19221,6 +19548,26 @@
                     "DT_PUNCTURE": 157.5,
                     "DT_SLASH": 52.5,
                     "procChance": 0.3
+                }
+            },
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                "fireIterations": 1,
+                "projectile": {
+                    "attack": {
+                        "DT_FREEZE": 150,
+                        "procChance": 0.3
+                    },
+                    "explosiveAttack": {
+                        "DT_FREEZE": 150,
+                        "procChance": 0.3
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 3.33333,
+                    "DT_PUNCTURE": 3.33333,
+                    "DT_SLASH": 3.33334,
+                    "procChance": 0.1
                 }
             }
         ],
@@ -20089,7 +20436,7 @@
         "holsterCategory": "SNIPER",
         "slot": 1,
         "accuracy": 833.33331,
-        "omegaAttenuation": 0.5,
+        "omegaAttenuation": 0.65,
         "noise": "ALARMING",
         "trigger": "BURST",
         "magazineSize": 16,
@@ -20350,7 +20697,7 @@
         "holsterCategory": "RIFLE",
         "slot": 1,
         "accuracy": 100,
-        "omegaAttenuation": 0.65,
+        "omegaAttenuation": 0.75,
         "noise": "ALARMING",
         "trigger": "CHARGE",
         "magazineSize": 16,
@@ -20974,7 +21321,7 @@
         "holsterCategory": "RIFLE",
         "slot": 1,
         "accuracy": 18.181818,
-        "omegaAttenuation": 0.65,
+        "omegaAttenuation": 0.8,
         "noise": "ALARMING",
         "trigger": "AUTO",
         "magazineSize": 42,
@@ -21034,6 +21381,100 @@
         ],
         "tradable": false,
         "introducedAt": 1765382829
+    },
+    "/Lotus/Weapons/Tenno/LongGuns/PrimeAfentis/PrimeAfentisWeapon": {
+        "name": "/Lotus/Language/Primes/AfentisPrimeName",
+        "parentName": "/Lotus/Weapons/Tenno/LongGuns/TnHopliteSpear/TnHopliteSpearGunWeapon",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/AfentisPrime.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            40,
+            120.00001,
+            39.999996,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 200,
+        "description": "/Lotus/Language/Primes/AfentisPrimeDesc",
+        "criticalChance": 0.26,
+        "criticalMultiplier": 2.6,
+        "procChance": 0.3,
+        "fireRate": 0.833333,
+        "masteryReq": 13,
+        "productCategory": "LongGuns",
+        "holsterCategory": "RIFLE",
+        "slot": 1,
+        "accuracy": 100,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "SEMI",
+        "magazineSize": 4,
+        "reloadTime": 1.8,
+        "multishot": 1,
+        "platinumCost": 240,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "PROJECTILE",
+            "IMPACTEXPLODE",
+            "SEMI_AUTO"
+        ],
+        "variantType": "VT_PRIME",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                "fireIterations": 1,
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 40.0,
+                        "DT_PUNCTURE": 120.0,
+                        "DT_SLASH": 40.0,
+                        "procChance": 0.3
+                    },
+                    "embedDeathAttack": {
+                        "DT_FIRE": 250,
+                        "DT_EXPLOSION": 800,
+                        "procChance": 0.3
+                    }
+                },
+                "impact": {
+                    "DT_CORROSIVE": 3,
+                    "procChance": 0.3
+                }
+            },
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 330.0,
+                        "DT_PUNCTURE": 165.0,
+                        "DT_SLASH": 55.0,
+                        "procChance": 0.3
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 3.33333,
+                    "DT_PUNCTURE": 3.33333,
+                    "DT_SLASH": 3.33334,
+                    "procChance": 0.1
+                }
+            }
+        ],
+        "tradable": false
     },
     "/Lotus/Weapons/Tenno/LongGuns/PrimeAcceltra/PrimeAcceltraWeapon": {
         "name": "/Lotus/Language/Primes/PrimeAcceltraName",
@@ -24665,7 +25106,7 @@
         "productCategory": "Melee",
         "holsterCategory": "MELEE",
         "slot": 5,
-        "omegaAttenuation": 1,
+        "omegaAttenuation": 1.05,
         "blockingAngle": 65,
         "comboDuration": 5,
         "followThrough": 0.4,
@@ -26133,6 +26574,22 @@
                     "DT_SLASH": 4.000008,
                     "procChance": 0.1
                 }
+            },
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
+                "fireIterations": 1,
+                "chargedProjectile": {
+                    "attack": {
+                        "DT_SLASH": 734,
+                        "procChance": 0.25
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 3.33333,
+                    "DT_PUNCTURE": 3.33333,
+                    "DT_SLASH": 3.33334,
+                    "procChance": 0.1
+                }
             }
         ],
         "tradable": true,
@@ -27533,7 +27990,7 @@
         "productCategory": "Melee",
         "holsterCategory": "MELEE",
         "slot": 5,
-        "omegaAttenuation": 0.6,
+        "omegaAttenuation": 0.65,
         "maxLevelCap": 40,
         "blockingAngle": 55,
         "comboDuration": 5,
@@ -28311,7 +28768,7 @@
         "holsterCategory": "RIFLE",
         "slot": 1,
         "accuracy": 100,
-        "omegaAttenuation": 1.1,
+        "omegaAttenuation": 1.15,
         "noise": "ALARMING",
         "trigger": "SEMI",
         "magazineSize": 9,
@@ -30572,7 +31029,7 @@
         "productCategory": "Pistols",
         "slot": 0,
         "accuracy": 100,
-        "omegaAttenuation": 0.9,
+        "omegaAttenuation": 1,
         "maxLevelCap": 40,
         "noise": "ALARMING",
         "trigger": "SEMI",
@@ -30867,7 +31324,7 @@
         "productCategory": "Melee",
         "holsterCategory": "MELEE",
         "slot": 5,
-        "omegaAttenuation": 0.7,
+        "omegaAttenuation": 0.75,
         "maxLevelCap": 40,
         "blockingAngle": 55,
         "comboDuration": 5,
@@ -31024,7 +31481,7 @@
         "productCategory": "Melee",
         "holsterCategory": "MELEE",
         "slot": 5,
-        "omegaAttenuation": 0.75,
+        "omegaAttenuation": 0.8,
         "maxLevelCap": 40,
         "blockingAngle": 50,
         "comboDuration": 5,
@@ -31522,7 +31979,7 @@
         "holsterCategory": "ARM_MOUNTED",
         "slot": 1,
         "accuracy": 25,
-        "omegaAttenuation": 0.5,
+        "omegaAttenuation": 0.55,
         "maxLevelCap": 40,
         "noise": "ALARMING",
         "trigger": "AUTO",
@@ -32275,7 +32732,7 @@
         "productCategory": "Pistols",
         "slot": 0,
         "accuracy": 15.384615,
-        "omegaAttenuation": 0.65,
+        "omegaAttenuation": 0.8,
         "noise": "ALARMING",
         "trigger": "AUTO",
         "magazineSize": 75,
@@ -32780,6 +33237,26 @@
                     "DT_SLASH": 3.33334,
                     "procChance": 0.1
                 }
+            },
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "projectile": {
+                    "explosiveAttack": {
+                        "DT_CORROSIVE": 200,
+                        "procChance": 0.2
+                    },
+                    "embedDeathAttack": {
+                        "DT_CORROSIVE": 450,
+                        "procChance": 0.2
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 3.33333,
+                    "DT_PUNCTURE": 3.33333,
+                    "DT_SLASH": 3.33334,
+                    "procChance": 0.1
+                }
             }
         ],
         "tradable": false,
@@ -32895,7 +33372,7 @@
         "productCategory": "Melee",
         "holsterCategory": "TONFA",
         "slot": 5,
-        "omegaAttenuation": 0.5,
+        "omegaAttenuation": 0.85,
         "blockingAngle": 60,
         "comboDuration": 5,
         "followThrough": 0.6,
@@ -32965,7 +33442,7 @@
         "productCategory": "Melee",
         "holsterCategory": "MELEE",
         "slot": 5,
-        "omegaAttenuation": 0.65,
+        "omegaAttenuation": 0.8,
         "blockingAngle": 60,
         "comboDuration": 5,
         "followThrough": 0.6,
@@ -36581,7 +37058,7 @@
         "holsterCategory": "SMG",
         "slot": 0,
         "accuracy": 36.363636,
-        "omegaAttenuation": 0.95,
+        "omegaAttenuation": 1,
         "maxLevelCap": 40,
         "noise": "ALARMING",
         "trigger": "AUTO",
@@ -36858,7 +37335,7 @@
         "productCategory": "Pistols",
         "slot": 0,
         "accuracy": 7.692308,
-        "omegaAttenuation": 0.9,
+        "omegaAttenuation": 0.95,
         "maxLevelCap": 40,
         "noise": "ALARMING",
         "trigger": "SEMI",
@@ -36923,7 +37400,7 @@
         "productCategory": "Melee",
         "holsterCategory": "MELEE",
         "slot": 5,
-        "omegaAttenuation": 0.5,
+        "omegaAttenuation": 0.7,
         "maxLevelCap": 40,
         "blockingAngle": 90,
         "comboDuration": 5,
@@ -40374,7 +40851,7 @@
         "productCategory": "Melee",
         "holsterCategory": "TONFA",
         "slot": 5,
-        "omegaAttenuation": 0.9,
+        "omegaAttenuation": 0.95,
         "blockingAngle": 60,
         "comboDuration": 5,
         "followThrough": 0.6,
@@ -42493,7 +42970,7 @@
         "productCategory": "Pistols",
         "slot": 0,
         "accuracy": 20,
-        "omegaAttenuation": 0.95,
+        "omegaAttenuation": 1,
         "maxLevelCap": 40,
         "noise": "ALARMING",
         "trigger": "SEMI",
@@ -42740,7 +43217,7 @@
         "holsterCategory": "RIFLE",
         "slot": 1,
         "accuracy": 100,
-        "omegaAttenuation": 0.5,
+        "omegaAttenuation": 0.75,
         "maxLevelCap": 40,
         "noise": "ALARMING",
         "trigger": "HELD",
@@ -43806,7 +44283,7 @@
         "holsterCategory": "RIFLE",
         "slot": 1,
         "accuracy": 100,
-        "omegaAttenuation": 0.6,
+        "omegaAttenuation": 0.65,
         "noise": "ALARMING",
         "trigger": "HELD",
         "magazineSize": 200,
@@ -43870,7 +44347,7 @@
         "holsterCategory": "RIFLE",
         "slot": 1,
         "accuracy": 100,
-        "omegaAttenuation": 0.65,
+        "omegaAttenuation": 0.7,
         "noise": "ALARMING",
         "trigger": "HELD",
         "magazineSize": 150,
@@ -54500,7 +54977,7 @@
         "fireRate": 0,
         "masteryReq": 0,
         "productCategory": "Pistols",
-        "omegaAttenuation": 0.6,
+        "omegaAttenuation": 0.65,
         "excludeFromMarket": true,
         "variantType": "VT_NORMAL",
         "tradable": false,
@@ -54585,7 +55062,7 @@
         "masteryReq": 0,
         "productCategory": "Pistols",
         "excludeFromCodex": true,
-        "omegaAttenuation": 0.6,
+        "omegaAttenuation": 0.65,
         "excludeFromMarket": true,
         "variantType": "VT_NORMAL",
         "tradable": false,
@@ -55477,7 +55954,7 @@
         "fireRate": 0,
         "masteryReq": 0,
         "productCategory": "Pistols",
-        "omegaAttenuation": 0.7,
+        "omegaAttenuation": 0.75,
         "primeOmegaAttenuation": 1.1,
         "platinumCost": 60,
         "excludeFromMarket": true,
@@ -56611,7 +57088,7 @@
         "description": "/Lotus/Language/Weapons/DaxTwoHandKatanaDrifterDesc",
         "productCategory": "DrifterMelee",
         "holsterCategory": "MELEE",
-        "omegaAttenuation": 1.05,
+        "omegaAttenuation": 1.1,
         "excludeFromMarket": true,
         "compatibilityTags": [
             "LONG_KATANA_STANCE"
@@ -56667,7 +57144,7 @@
         "masteryReq": 14,
         "productCategory": "Melee",
         "holsterCategory": "MELEE",
-        "omegaAttenuation": 0.6,
+        "omegaAttenuation": 0.7,
         "excludeFromMarket": true,
         "compatibilityTags": [
             "BAYONET"

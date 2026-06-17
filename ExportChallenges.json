@@ -2829,7 +2829,8 @@
             ],
             "countedAttachments": [],
             "icon": "/Lotus/Interface/Icons/Npcs/Roathe.png",
-            "highPriority": true
+            "highPriority": true,
+            "customData": "REWARD_IMMEDIATELY"
         }
     },
     "/Lotus/Types/Challenges/TauMedals/Rank2C": {
@@ -3462,6 +3463,14 @@
         "countedRewards": [
             {
                 "StoreItem": "/Lotus/StoreItems/Types/Items/Titles/TitleGrendelPrime",
+                "ItemCount": 1
+            }
+        ]
+    },
+    "/Lotus/Types/Challenges/Titles/TitleVorunaPrimeChallenge": {
+        "countedRewards": [
+            {
+                "StoreItem": "/Lotus/StoreItems/Types/Items/Titles/TitleVorunaPrime",
                 "ItemCount": 1
             }
         ]

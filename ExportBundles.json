@@ -11,90 +11,6 @@
         ],
         "excludeFromMarket": true
     },
-    "/Lotus/Types/Items/DiscordItems/DiscordNitroSarynBundle": {
-        "name": "/Lotus/Language/Bundles/DiscordNitroSarynBundle",
-        "description": "/Lotus/Language/Bundles/DiscordNitroSarynBundleDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/PartnerBundles/DiscordNitroSarynBundle.png",
-        "excludeFromCodex": true,
-        "components": [
-            {
-                "typeName": "/Lotus/StoreItems/Powersuits/Saryn/Saryn",
-                "purchaseQuantity": 1
-            },
-            {
-                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Saryn/SarynDeluxeSuit",
-                "purchaseQuantity": 1
-            },
-            {
-                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Axe/SarynDeluxeSickle",
-                "purchaseQuantity": 1
-            },
-            {
-                "typeName": "/Lotus/StoreItems/Upgrades/Skins/MeleeDangles/SarynDeluxeMeleeDangle",
-                "purchaseQuantity": 1
-            },
-            {
-                "typeName": "/Lotus/Types/StoreItems/Packages/InfEmbolistArmourBundle",
-                "purchaseQuantity": 1
-            },
-            {
-                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Scarves/TennoLeafDotCapeScarf",
-                "purchaseQuantity": 1
-            },
-            {
-                "typeName": "/Lotus/StoreItems/Types/Items/ShipDecos/SarynBobbleHead",
-                "purchaseQuantity": 1
-            },
-            {
-                "typeName": "/Lotus/Types/StoreItems/Boosters/ResourceDropChance7DayStoreItem",
-                "purchaseQuantity": 1
-            },
-            {
-                "typeName": "/Lotus/StoreItems/Types/Items/ShipDecos/LisetTickerSign",
-                "purchaseQuantity": 1
-            }
-        ]
-    },
-    "/Lotus/Types/Items/DiscordItems/DiscordStarterPack2019": {
-        "name": "/Lotus/Language/Marketing/StarterBundle2019ItemTitle",
-        "description": "/Lotus/Language/Marketing/StarterBundle2019ItemDesc",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/Marketing/StarterBundle2019.png",
-        "excludeFromCodex": true,
-        "components": [
-            {
-                "typeName": "/Lotus/Types/StoreItems/Boosters/AffinityBooster7DayStoreItem",
-                "purchaseQuantity": 1
-            },
-            {
-                "typeName": "/Lotus/Types/StoreItems/Boosters/CreditBooster7DayStoreItem",
-                "purchaseQuantity": 1
-            },
-            {
-                "typeName": "/Lotus/Types/StoreItems/Packages/EssentialDamageModPack",
-                "purchaseQuantity": 1
-            },
-            {
-                "typeName": "/Lotus/Types/StoreItems/AvatarImages/AvatarImageStarterPackLotusStoreItem",
-                "purchaseQuantity": 1
-            },
-            {
-                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Sigils/StarterPackLotusSigil",
-                "purchaseQuantity": 1
-            },
-            {
-                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/OrokinReactor",
-                "purchaseQuantity": 1
-            },
-            {
-                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/OrokinCatalyst",
-                "purchaseQuantity": 1
-            },
-            {
-                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Scarves/FlameScarf",
-                "purchaseQuantity": 1
-            }
-        ]
-    },
     "/Lotus/Types/Restoratives/Upgraded/DragonKeyRewardBundle": {
         "name": "/Lotus/Language/Isleweaver/DragonKeyBundleName",
         "description": "/Lotus/Language/Isleweaver/DragonKeyBundleDesc",
@@ -2636,6 +2552,51 @@
         ],
         "bundledPlatinum": 425,
         "platinumBundlePair": "/Lotus/Types/StoreItems/Packages/DeluxeBundles/GaussGrendelDeluxeIISkinBundle",
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/Packages/2026Bundles/JS2CompleteSupporterPack": {
+        "name": "/Lotus/Language/Bundles/JS2CompleteSupPackName",
+        "description": "/Lotus/Language/Bundles/JS2CompleteSupPackDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/Marketing/JS2CompletePackMarketTile.png",
+        "components": [
+            {
+                "typeName": "/Lotus/Types/StoreItems/Packages/JS2GeminiSkinBundle",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/Types/StoreItems/Packages/JS2SiriusOrionBundle",
+                "purchaseQuantity": 1
+            }
+        ],
+        "bundledPlatinum": 565,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/Packages/2026Bundles/JS2GeminiSkinsSupporterPack": {
+        "name": "/Lotus/Language/Bundles/JS2GeminiSkinsSupPackName",
+        "description": "/Lotus/Language/Bundles/JS2GeminiSkinsSupPackDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/Marketing/JS2GeminiSkinsPackMarketTile.png",
+        "components": [
+            {
+                "typeName": "/Lotus/Types/StoreItems/Packages/JS2GeminiSkinBundle",
+                "purchaseQuantity": 1
+            }
+        ],
+        "bundledPlatinum": 375,
+        "platinumBundlePair": "/Lotus/Types/StoreItems/Packages/JS2GeminiSkinBundle",
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/StoreItems/Packages/2026Bundles/JS2SiriusOrionSupporterPack": {
+        "name": "/Lotus/Language/Bundles/JS2SiriusOrionSupPackName",
+        "description": "/Lotus/Language/Bundles/JS2SiriusOrionSupPackDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/Marketing/JS2SiriusOrionWFPackMarketTile.png",
+        "components": [
+            {
+                "typeName": "/Lotus/Types/StoreItems/Packages/JS2SiriusOrionBundle",
+                "purchaseQuantity": 1
+            }
+        ],
+        "bundledPlatinum": 190,
+        "platinumBundlePair": "/Lotus/Types/StoreItems/Packages/JS2SiriusOrionBundle",
         "excludeFromMarket": true
     },
     "/Lotus/Types/StoreItems/Packages/2026Bundles/TC2026DigitalPack": {
@@ -6128,6 +6089,26 @@
             }
         ],
         "platinumCost": 125
+    },
+    "/Lotus/Types/StoreItems/Packages/DeluxeBundles/PagemasterDeluxeSkinBundle": {
+        "name": "/Lotus/Language/Bundles/PagemasterDeluxeSkinBundleName",
+        "description": "/Lotus/Language/Bundles/PagemasterDeluxeSkinBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/CosmeticBundles/Deluxe/DanteDeluxeSkinBundle.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Pagemaster/PagemasterDeluxeSkin",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Weapons/Grimoire/PagemasterDeluxeGrimoireSkin",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Pagemaster/PagemasterDeluxeWarfanSkin",
+                "purchaseQuantity": 1
+            }
+        ],
+        "platinumCost": 260
     },
     "/Lotus/Types/StoreItems/Packages/DeluxeBundles/ProteaDeluxeSkinBundle": {
         "name": "/Lotus/Language/Bundles/ProteaDeluxeSkinBundleName",
@@ -10460,6 +10441,29 @@
             }
         ]
     },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/BallisticaIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/BallisticaIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/BallisticaIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/BallisticaIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Secondary/BallisticaIncarnonUnlocker",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemA",
+                "purchaseQuantity": 80
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemE",
+                "purchaseQuantity": 60
+            }
+        ]
+    },
     "/Lotus/Types/StoreItems/Packages/IncarnonPackages/BoarIncarnonBundle": {
         "name": "/Lotus/Language/Zariman/BoarIncarnonBundleName",
         "description": "/Lotus/Language/Zariman/BoarIncarnonBundleDesc",
@@ -10686,6 +10690,29 @@
             },
             {
                 "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemE",
+                "purchaseQuantity": 60
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/DestrezaIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/DestrezaIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/DestrezaIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/DestrezaIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Melee/DestrezaIncarnonUnlocker",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemF",
+                "purchaseQuantity": 70
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriFractalItem",
                 "purchaseQuantity": 60
             }
         ]
@@ -11035,6 +11062,29 @@
             }
         ]
     },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/ObexIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/ObexIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/ObexIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/ObexIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Melee/ObexIncarnonUnlocker",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/Fish/GenericDuviriFishPartAItem",
+                "purchaseQuantity": 100
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriEnemyDropItem",
+                "purchaseQuantity": 80
+            }
+        ]
+    },
     "/Lotus/Types/StoreItems/Packages/IncarnonPackages/OkinaIncarnonBundle": {
         "name": "/Lotus/Language/Zariman/OkinaIncarnonBundleName",
         "description": "/Lotus/Language/Zariman/OkinaIncarnonBundleDesc",
@@ -11196,6 +11246,29 @@
             }
         ]
     },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/StugIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/StugIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/StugIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/StugIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Secondary/StugIncarnonUnlocker",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriMushroomItem",
+                "purchaseQuantity": 60
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriRockItem",
+                "purchaseQuantity": 150
+            }
+        ]
+    },
     "/Lotus/Types/StoreItems/Packages/IncarnonPackages/SybarisIncarnonBundle": {
         "name": "/Lotus/Language/Zariman/SybarisIncarnonBundleName",
         "description": "/Lotus/Language/Zariman/SybarisIncarnonBundleDesc",
@@ -11258,6 +11331,29 @@
             {
                 "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemD",
                 "purchaseQuantity": 70
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriProcessedItem",
+                "purchaseQuantity": 150
+            }
+        ]
+    },
+    "/Lotus/Types/StoreItems/Packages/IncarnonPackages/VectisIncarnonBundle": {
+        "name": "/Lotus/Language/Zariman/VectisIncarnonBundleName",
+        "description": "/Lotus/Language/Zariman/VectisIncarnonBundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/VectisIncarnonAdapter.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/MiscItems/IncarnonAdapters/Primary/VectisIncarnonUnlocker",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriDragonDropItem",
+                "purchaseQuantity": 20
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriPlantItemB",
+                "purchaseQuantity": 80
             },
             {
                 "typeName": "/Lotus/StoreItems/Types/Gameplay/Duviri/Resource/DuviriProcessedItem",
@@ -11670,6 +11766,52 @@
             }
         ],
         "platinumCost": 500
+    },
+    "/Lotus/Types/StoreItems/Packages/JS2GeminiSkinBundle": {
+        "name": "/Lotus/Language/Bundles/JS2GeminiSkinsSupPackName",
+        "description": "/Lotus/Language/Bundles/JS2GeminiSkinsSupPackDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/Marketing/JS2GeminiSkinsPackMarketTile.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Ninja/AshGeminiSkin",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Garuda/GarudaGeminiSkin",
+                "purchaseQuantity": 1
+            }
+        ],
+        "platinumCost": 440,
+        "platinumBundlePair": "/Lotus/Types/StoreItems/Packages/2026Bundles/JS2GeminiSkinsSupporterPack"
+    },
+    "/Lotus/Types/StoreItems/Packages/JS2SiriusOrionBundle": {
+        "name": "/Lotus/Language/Bundles/JS2SiriusOrionSupPackName",
+        "description": "/Lotus/Language/Bundles/JS2SiriusOrionSupPackDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/Marketing/JS2SiriusOrionWFPackMarketTile.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Powersuits/SiriusOrion/SiriusSuit",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnSiriusScytheWeapon",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnOrionScytheWeapon",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/ShipDecos/JS2HunhowStare2in1Display",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Types/Items/ShipDecos/Props/LisetPropJS2Crib",
+                "purchaseQuantity": 1
+            }
+        ],
+        "platinumCost": 560,
+        "platinumBundlePair": "/Lotus/Types/StoreItems/Packages/2026Bundles/JS2SiriusOrionSupporterPack"
     },
     "/Lotus/Types/StoreItems/Packages/KavatBaseColorPack": {
         "name": "/Lotus/Language/Items/KavatBaseColorPackName",
@@ -21056,6 +21198,22 @@
             }
         ],
         "platinumCost": 160
+    },
+    "/Lotus/Types/StoreItems/Packages/OperatorHairGeminiJS2Bundle": {
+        "name": "/Lotus/Language/Bundles/OperatorHairGeminiJS2BundleName",
+        "description": "/Lotus/Language/Bundles/OperatorHairGeminiJS2BundleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/MarketBundles/CosmeticBundles/Operator/OperatorHairGeminiJS2Bundle.png",
+        "components": [
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Operator/Hair/Hair1999Ash",
+                "purchaseQuantity": 1
+            },
+            {
+                "typeName": "/Lotus/StoreItems/Upgrades/Skins/Operator/Hair/Hair1999Garuda",
+                "purchaseQuantity": 1
+            }
+        ],
+        "platinumCost": 40
     },
     "/Lotus/Types/StoreItems/Packages/OperatorHairGeminiMegaBundle": {
         "name": "/Lotus/Language/Bundles/OperatorHairGeminiMegaBundleName",

@@ -7508,6 +7508,17 @@
         "platinumCost": 20,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/DestrezaIncarnonUnlocker": {
+        "name": "/Lotus/Language/Weapons/DestrezaIncarnonUnlockerName",
+        "description": "/Lotus/Language/Weapons/DestrezaIncarnonUnlockerDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/DestrezaIncarnonAdapter.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/DualIchorIncarnonUnlocker": {
         "name": "/Lotus/Language/Weapons/DualIchorIncarnonUnlockerName",
         "description": "/Lotus/Language/Weapons/DualIchorIncarnonUnlockerDesc",
@@ -7556,6 +7567,17 @@
         "name": "/Lotus/Language/Weapons/NamiSoloIncarnonUnlockerName",
         "description": "/Lotus/Language/Weapons/NamiSoloIncarnonUnlockerDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/NamiIncarnonAdapter.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Melee/ObexIncarnonUnlocker": {
+        "name": "/Lotus/Language/Weapons/ObexIncarnonUnlockerName",
+        "description": "/Lotus/Language/Weapons/ObexIncarnonUnlockerDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/ObexIncarnonAdapter.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
         "productCategory": "MiscItems",
@@ -7750,6 +7772,17 @@
         "platinumCost": 20,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Primary/VectisIncarnonUnlocker": {
+        "name": "/Lotus/Language/Weapons/VectisIncarnonUnlockerName",
+        "description": "/Lotus/Language/Weapons/VectisIncarnonUnlockerDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/VectisIncarnonAdapter.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/AngstrumIncarnonUnlocker": {
         "name": "/Lotus/Language/Weapons/AngstrumIncarnonUnlockerName",
         "description": "/Lotus/Language/Weapons/AngstrumIncarnonUnlockerDesc",
@@ -7765,6 +7798,17 @@
         "name": "/Lotus/Language/Weapons/AtomosIncarnonUnlockerName",
         "description": "/Lotus/Language/Weapons/AtomosIncarnonUnlockerDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/AtomosIncarnonAdapter.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/BallisticaIncarnonUnlocker": {
+        "name": "/Lotus/Language/Weapons/BallisticaIncarnonUnlockerName",
+        "description": "/Lotus/Language/Weapons/BallisticaIncarnonUnlockerDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/BallisticaIncarnonAdapter.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
         "productCategory": "MiscItems",
@@ -7875,6 +7919,17 @@
         "name": "/Lotus/Language/Weapons/SicarusIncarnonUnlockerName",
         "description": "/Lotus/Language/Weapons/SicarusIncarnonUnlockerDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/SicarusIncarnonAdapter.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "platinumCost": 20,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/MiscItems/IncarnonAdapters/Secondary/StugIncarnonUnlocker": {
+        "name": "/Lotus/Language/Weapons/StugIncarnonUnlockerName",
+        "description": "/Lotus/Language/Weapons/StugIncarnonUnlockerDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/IncarnonWeapons/StugIncarnonAdapter.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/IncarnonAdapters/BaseIncarnonUnlocker",
         "productCategory": "MiscItems",
@@ -10971,6 +11026,33 @@
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseEntrati",
         "productCategory": "MiscItems"
+    },
+    "/Lotus/Types/Items/PhotoBooth/JadeShadows/PhotoboothTileJS2AshShipInterior": {
+        "name": "/Lotus/Language/JadeShadowsPart2Constellations/CapturaScoriasAngelName",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/JS2AshShipInterior.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/PhotoBooth/JadeShadows/PhotoboothTileJS2GarShipInterior": {
+        "name": "/Lotus/Language/JadeShadowsPart2Constellations/CapturaKuvaWytchName",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/JS2GarShipInterior.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
+    },
+    "/Lotus/Types/Items/PhotoBooth/JadeShadows/PhotoboothTileJS2Hub": {
+        "name": "/Lotus/Language/JadeShadowsPart2Constellations/CapturaPontisTowerName",
+        "description": "/Lotus/Language/CapturaScenes/PhotoboothTileDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Captura/JS2Hub.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/PhotoboothTileBaseQuestReqQuest",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true
     },
     "/Lotus/Types/Items/PhotoBooth/JadeShadows/PhotoboothTileStalkerCave": {
         "name": "/Lotus/Language/CapturaScenes/PhotoboothStalkerCave",
@@ -14781,6 +14863,19 @@
         "platinumCost": 35,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Items/ShipDecos/PlanetTrophies/PlanetTrophyDeepSpaceBronze": {
+        "name": "/Lotus/Language/ShipDecorations/PlanetTrophyDeepSpaceBronzeName",
+        "description": "/Lotus/Language/ShipDecorations/PlanetTrophyDeepSpaceBronzeDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/PlanetTrophy/DeepSpaceTrophyBronze.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/DeepSpaceTrophyBronze",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5,
+        "platinumCost": 35,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Items/ShipDecos/PlanetTrophies/PlanetTrophyDeimosBronze": {
         "name": "/Lotus/Language/ShipDecorations/PlanetTrophyDeimosBronzeName",
         "description": "/Lotus/Language/ShipDecorations/PlanetTrophyDeimosBronzeDesc",
@@ -17776,6 +17871,18 @@
         "capacityCost": 5,
         "dojoCapacityCost": 5,
         "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/LisetPropJS2Crib": {
+        "name": "/Lotus/Language/ShipDecorations/LisetPropJS2CribName",
+        "description": "/Lotus/Language/ShipDecorations/LisetPropJS2CribDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/LisetPropJS2Crib.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/Props/LisetPropJS2CribDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5,
+        "platinumCost": 35
     },
     "/Lotus/Types/Items/ShipDecos/Props/LisetPropLASxArcRelayStand": {
         "name": "/Lotus/Language/Props/LisetPropLASxArcRelayStand",
@@ -22168,7 +22275,6 @@
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase",
         "productCategory": "ShipDecorations",
-        "showInInventory": false,
         "deco": "/Lotus/Interface/FragmentArtwork/CommunityRoatheDisplayDeco",
         "capacityCost": 5,
         "dojoCapacityCost": 5,
@@ -23902,6 +24008,46 @@
         "platinumCost": 35,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Items/ShipDecos/JS2HunhowStare2in1Display": {
+        "name": "/Lotus/Language/ShipDecorations/JS2HunhowStare2in1DisplayName",
+        "description": "/Lotus/Language/ShipDecorations/JS2HunhowStare2in1DisplayDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Displays/JS2HunhowStare2in1Display.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Interface/FragmentArtwork/Holographic/JS2HunhowStare2in1DisplayDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5,
+        "platinumCost": 40
+    },
+    "/Lotus/Types/Items/ShipDecos/JS2MAshPoster": {
+        "name": "/Lotus/Language/ShipDecorations/JS2MAshPosterName",
+        "description": "/Lotus/Language/ShipDecorations/JS2MAshPosterDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Posters/JS2MAshPoster.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "excludeFromCodex": true,
+        "deco": "/Lotus/Interface/FragmentArtwork/JS2MAshPosterDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5,
+        "platinumCost": 35,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/ShipDecos/JS2MGarudaPoster": {
+        "name": "/Lotus/Language/ShipDecorations/JS2MGarudaPosterName",
+        "description": "/Lotus/Language/ShipDecorations/JS2MGarudaPosterDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Posters/JS2MGarudaPoster.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "excludeFromCodex": true,
+        "deco": "/Lotus/Interface/FragmentArtwork/JS2MGarudaPosterDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5,
+        "platinumCost": 35,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Items/ShipDecos/JackONaughtBobbleHead": {
         "name": "/Lotus/Language/ShipDecorations/BobbleheadJackONautName",
         "description": "/Lotus/Language/ShipDecorations/BobbleheadJackONautDesc",
@@ -23926,6 +24072,46 @@
         "capacityCost": 5,
         "dojoCapacityCost": 5,
         "platinumCost": 35,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/ShipDecos/JadeShadows2FightPoster": {
+        "name": "/Lotus/Language/ShipDecorations/JadeShadows2FightPosterName",
+        "description": "/Lotus/Language/ShipDecorations/JadeShadows2FightPosterDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Posters/JadeShadows2FightPoster.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Interface/FragmentArtwork/JadeShadows2FightPosterDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5,
+        "platinumCost": 15,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/ShipDecos/JadeShadows2OrionPoster": {
+        "name": "/Lotus/Language/ShipDecorations/JadeShadows2OrionPosterName",
+        "description": "/Lotus/Language/ShipDecorations/JadeShadows2OrionPosterDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Posters/JadeShadows2OrionPoster.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Interface/FragmentArtwork/JadeShadows2OrionPosterDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5,
+        "platinumCost": 15,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/ShipDecos/JadeShadows2SiriusPoster": {
+        "name": "/Lotus/Language/ShipDecorations/JadeShadows2SiriusPosterName",
+        "description": "/Lotus/Language/ShipDecorations/JadeShadows2SiriusPosterDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Posters/JadeShadows2SiriusPoster.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "excludeFromCodex": true,
+        "deco": "/Lotus/Interface/FragmentArtwork/JadeShadows2SiriusPosterDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5,
+        "platinumCost": 15,
         "excludeFromMarket": true
     },
     "/Lotus/Types/Items/ShipDecos/JadeShadowsAlonePoster": {
@@ -24491,6 +24677,19 @@
         "dojoCapacityCost": 5,
         "platinumCost": 100
     },
+    "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneAshGemini": {
+        "name": "/Lotus/Language/ShipDecorations/LisetPropCleaningDroneAshGeminiName",
+        "description": "/Lotus/Language/ShipDecorations/LisetPropCleaningDroneAshGeminiDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Drones/LisetPropCleaningDroneAshGemini.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/LisetPropCleaningDroneAshGeminiDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5,
+        "platinumCost": 50,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneBaro": {
         "name": "/Lotus/Language/ShipDecorations/LisetPropCleaningDroneBaroName",
         "description": "/Lotus/Language/ShipDecorations/LisetPropCleaningDroneBaroDesc",
@@ -24611,6 +24810,32 @@
         "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/LisetPropDuviriCleaningDroneDeco",
         "capacityCost": 5,
         "dojoCapacityCost": 5,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneGarudaGemini": {
+        "name": "/Lotus/Language/ShipDecorations/LisetPropCleaningDroneGarudaGeminiName",
+        "description": "/Lotus/Language/ShipDecorations/LisetPropCleaningDroneGarudaGeminiDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Drones/LisetPropCleaningDroneGarudaGemini.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/LisetPropCleaningDroneGarudaGeminiDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5,
+        "platinumCost": 50,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneGrineer": {
+        "name": "/Lotus/Language/ShipDecorations/LisetPropCleaningDroneGrineerName",
+        "description": "/Lotus/Language/ShipDecorations/LisetPropCleaningDroneGrineerDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Drones/LisetPropCleaningDroneGrineer.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/LisetPropCleaningDroneGrineerDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5,
+        "platinumCost": 100,
         "excludeFromMarket": true
     },
     "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneInfested": {
@@ -25480,6 +25705,19 @@
         "capacityCost": 5,
         "dojoCapacityCost": 5,
         "platinumCost": 35
+    },
+    "/Lotus/Types/Items/ShipDecos/LisetPropStyanaxPrimeSpearShieldDeco": {
+        "name": "/Lotus/Language/ShipDecorations/LisetPropStyanaxPrimeSpearShieldName",
+        "description": "/Lotus/Language/ShipDecorations/LisetPropStyanaxPrimeSpearShieldDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Decorations/LisetPrimeStyanaxPrimeSpearShieldDeco.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Tenno/Props/Ships/LandCraftPlayerProps/LisetPropStyanaxPrimeSpearShieldDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5,
+        "platinumCost": 35,
+        "excludeFromMarket": true
     },
     "/Lotus/Types/Items/ShipDecos/LisetPropStyanaxSpearShieldDeco": {
         "name": "/Lotus/Language/ShipDecorations/LisetPropStyanaxSpearShieldName",
@@ -27517,6 +27755,19 @@
         "platinumCost": 15,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Items/ShipDecos/TarotCardSiriusOrion": {
+        "name": "/Lotus/Language/Tarot/TarotCardSiriusOrionName",
+        "description": "/Lotus/Language/Tarot/TarotCardSiriusOrionDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Tarot/TarotCardSiriusOrion.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Objects/Festivities/TarotCards/TarotCardSiriusOrionCardDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5,
+        "platinumCost": 15,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Items/ShipDecos/TarotCardStyanax": {
         "name": "/Lotus/Language/Tarot/TarotCardStyanaxName",
         "description": "/Lotus/Language/Tarot/TarotCardStyanaxDesc",
@@ -28689,6 +28940,33 @@
         "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase",
         "productCategory": "ShipDecorations",
         "deco": "/Lotus/Interface/FragmentArtwork/Tennocon2025DisplayDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5,
+        "platinumCost": 15,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/ShipDecos/Tennocon2026CosplayDisplay": {
+        "name": "/Lotus/Language/ShipDecorations/Tennocon2026CosplayDisplayName",
+        "description": "/Lotus/Language/ShipDecorations/Tennocon2026CosplayDisplayDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Posters/TennoCon2026CosplayDisplay.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase",
+        "productCategory": "ShipDecorations",
+        "excludeFromCodex": true,
+        "deco": "/Lotus/Interface/FragmentArtwork/Tennocon2026CosplayDisplayDeco",
+        "capacityCost": 5,
+        "dojoCapacityCost": 5,
+        "platinumCost": 15,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/ShipDecos/Tennocon2026DigitalItemDisplay": {
+        "name": "/Lotus/Language/ShipDecorations/Tennoncon2026DigitalItemDisplayName",
+        "description": "/Lotus/Language/ShipDecorations/Tennoncon2026DigitalItemDisplayDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/Posters/Tennocon2026DigitalItemDisplay.png",
+        "codexSecret": true,
+        "parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase",
+        "productCategory": "ShipDecorations",
+        "deco": "/Lotus/Interface/FragmentArtwork/Tennocon2026DigitalItemDisplayDeco",
         "capacityCost": 5,
         "dojoCapacityCost": 5,
         "platinumCost": 15,
@@ -30331,6 +30609,17 @@
         "showInInventory": false,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Items/SongItems/CelestialClashSongItem": {
+        "name": "/Lotus/Language/Fragments/CelestialClashSongName",
+        "description": "/Lotus/Language/Fragments/CelestialClashSongDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/CelestialClashSongItemStoreIcon.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/SongItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "showInInventory": false,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Items/SongItems/CorpusLichLoginSongItem": {
         "name": "/Lotus/Language/Fragments/CorpusLichLoginSongName",
         "description": "/Lotus/Language/Fragments/CorpusLichLoginSongDesc",
@@ -30736,6 +31025,17 @@
         "showInInventory": false,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Items/SongItems/SacredLightSongItem": {
+        "name": "/Lotus/Language/Fragments/SacredLightSongName",
+        "description": "/Lotus/Language/Fragments/CelestialClashSongDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/SacredLightSongItemStoreIcon.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/SongItem",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "showInInventory": false,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Items/SongItems/SevagothDeluxeSongItem": {
         "name": "/Lotus/Language/Fragments/SevagothDeluxeSongName",
         "description": "/Lotus/Language/Fragments/SevagothDeluxeSongDesc",
@@ -30761,17 +31061,6 @@
         "name": "/Lotus/Language/Fragments/TenthAnniversaryLoginSongName",
         "description": "/Lotus/Language/Fragments/TenthAnniversaryLoginSongDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/10YearAnniversaryLoginSongItemStoreIcon.png",
-        "codexSecret": false,
-        "parentName": "/Lotus/Types/Game/SongItem",
-        "productCategory": "MiscItems",
-        "excludeFromCodex": true,
-        "showInInventory": false,
-        "excludeFromMarket": true
-    },
-    "/Lotus/Types/Items/SongItems/TheAwakeningSongItem": {
-        "name": "/Lotus/Language/Fragments/TheAwakeningSongName",
-        "description": "",
-        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/AwakeningSongItemStoreIcon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Game/SongItem",
         "productCategory": "MiscItems",
@@ -30881,6 +31170,16 @@
         "name": "/Lotus/Language/Fragments/WispPrimeSongName",
         "description": "/Lotus/Language/Fragments/WispPrimeSongDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/WispPrimeSongItemStoreIcon.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/SongItem",
+        "productCategory": "MiscItems",
+        "showInInventory": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Items/SongItems/YareliPrimeSongItem": {
+        "name": "/Lotus/Language/Fragments/YareliPrimeSongName",
+        "description": "/Lotus/Language/Fragments/YareliPrimeSongName",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/SongItem/YareliPrimeSongItemStoreIcon.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Game/SongItem",
         "productCategory": "MiscItems",
@@ -31225,6 +31524,38 @@
         "productCategory": "MiscItems",
         "excludeFromCodex": true,
         "showInInventory": false,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/JadeShadowsPart2Mission/Gameplay/Resources/AshFavor": {
+        "name": "/Lotus/Language/JadeShadowsPart2Mission/JS2MAshFavorName",
+        "description": "/Lotus/Language/JadeShadowsPart2Mission/JS2MAshFavorDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/SiriusCoinResource.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "platinumCost": 30,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/JadeShadowsPart2Mission/Gameplay/Resources/GarudaFavor": {
+        "name": "/Lotus/Language/JadeShadowsPart2Mission/JS2MGarudaFavorName",
+        "description": "/Lotus/Language/JadeShadowsPart2Mission/JS2MGarudaFavorDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/OrionCoinResource.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "platinumCost": 30,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/JadeShadowsPart2Mission/Gameplay/Resources/HunhowTrinketMiscItem": {
+        "name": "/Lotus/Language/JadeShadowsPart2Constellations/HunhowTrinketBlueprintName",
+        "description": "/Lotus/Language/JadeShadowsPart2Constellations/HunhowTrinketBlueprintDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Quests/HunhowTrinket.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "SupplyDrop",
+        "excludeFromCodex": true,
         "excludeFromMarket": true
     },
     "/Lotus/Types/Keys/BardQuest/BardQuestSequencerItem": {
@@ -34237,6 +34568,33 @@
         "primeSellingPrice": 15,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Recipes/WarframeRecipes/SiriusOrionChassisComponent": {
+        "name": "/Lotus/Language/Suits/SiriusChassisComponentName",
+        "description": "/Lotus/Language/Suits/SiriusChassisComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframeChassis.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems",
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/SiriusOrionHelmetComponent": {
+        "name": "/Lotus/Language/Suits/SiriusHelmetComponentName",
+        "description": "/Lotus/Language/Suits/SiriusHelmetComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframeHelmet.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems",
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/SiriusOrionSystemsComponent": {
+        "name": "/Lotus/Language/Suits/SiriusSystemsComponentName",
+        "description": "/Lotus/Language/Suits/SiriusSystemsComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframeSystem.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems",
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Recipes/WarframeRecipes/StyanaxChassisComponent": {
         "name": "/Lotus/Language/Suits/StyanaxChassisComponentName",
         "description": "/Lotus/Language/Suits/StyanaxChassisComponentDesc",
@@ -34253,6 +34611,36 @@
         "codexSecret": false,
         "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
         "productCategory": "MiscItems",
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/StyanaxPrimeChassisComponent": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_StyanaxPrimeChassisName",
+        "description": "/Lotus/Language/Primes/CraftingComponent_StyanaxPrimeChassisDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframePrimeChassis.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 45,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/StyanaxPrimeHelmetComponent": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_StyanaxPrimeHelmetName",
+        "description": "/Lotus/Language/Primes/CraftingComponent_StyanaxPrimeHelmetDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframePrimeHelmet.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 100,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/WarframeRecipes/StyanaxPrimeSystemsComponent": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_StyanaxPrimeSystemsName",
+        "description": "/Lotus/Language/Primes/CraftingComponent_StyanaxPrimeSystemsDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWarframePrimeSystem.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 45,
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/WarframeRecipes/StyanaxSystemsComponent": {
@@ -34949,6 +35337,36 @@
         "primeSellingPrice": 65,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/AfentisPrimeBarrel": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_AfentisPrimeBarrel",
+        "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunPrimeBarrel.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 45,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/AfentisPrimeBlade": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_AfentisPrimeBlade",
+        "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWeaponPrimeBlade.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 100,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/AfentisPrimeHandle": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_AfentisPrimeHandle",
+        "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWeaponPrimeHilt.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 15,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Recipes/Weapons/WeaponParts/AfurisPrimeBarrel": {
         "name": "/Lotus/Language/Primes/CraftingComponent_AfurisPrimeBarrel",
         "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
@@ -35528,6 +35946,26 @@
         "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
         "productCategory": "MiscItems",
         "rarity": "UNCOMMON",
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/AthodaiPrimeBarrel": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_AthodaiPrimeBarrel",
+        "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunPrimeBarrel.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 100,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/AthodaiPrimeReceiver": {
+        "name": "/Lotus/Language/Primes/CraftingComponent_AthodaiPrimeReceiver",
+        "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericGunPrimeReceiver.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "primeSellingPrice": 45,
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/Weapons/WeaponParts/BazaPrimeBarrel": {
@@ -37432,6 +37870,24 @@
         "primeSellingPrice": 45,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/OrionScytheBlade": {
+        "name": "/Lotus/Language/CraftingComponents/OrionScytheBladeName",
+        "description": "/Lotus/Language/CraftingComponents/OrionScytheBladeDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWeaponBlade.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/OrionScytheHandle": {
+        "name": "/Lotus/Language/CraftingComponents/OrionScytheHandleName",
+        "description": "/Lotus/Language/CraftingComponents/OrionScytheHandleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWeaponHilt.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Recipes/Weapons/WeaponParts/PanderoPrimeBarrel": {
         "name": "/Lotus/Language/Primes/CraftingComponent_PanderoPrimeBarrel",
         "description": "/Lotus/Language/CraftingComponents/PrimeWeaponCraftingComponentDesc",
@@ -38528,6 +38984,24 @@
         "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
         "productCategory": "MiscItems",
         "primeSellingPrice": 15,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/SiriusScytheBlade": {
+        "name": "/Lotus/Language/CraftingComponents/SiriusScytheBladeName",
+        "description": "/Lotus/Language/CraftingComponents/SiriusScytheBladeDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWeaponBlade.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Recipes/Weapons/WeaponParts/SiriusScytheHandle": {
+        "name": "/Lotus/Language/CraftingComponents/SiriusScytheHandleName",
+        "description": "/Lotus/Language/CraftingComponents/SiriusScytheHandleDesc",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/CraftingComponents/GenericWeaponHilt.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "productCategory": "MiscItems",
         "excludeFromMarket": true
     },
     "/Lotus/Types/Recipes/Weapons/WeaponParts/SnipetronVandalBarrel": {

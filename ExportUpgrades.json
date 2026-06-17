@@ -212,24 +212,6 @@
         "tradable": true,
         "introducedAt": 1397107694
     },
-    "/Lotus/Weapons/Tenno/Melee/MeleeTrees/StaffCmbOneMeleeTree": {
-        "name": "/Lotus/Language/Items/StaffStanceA",
-        "icon": "/Lotus/Interface/Cards/Images/Stances/StaffCombo1a.png",
-        "polarity": "AP_ATTACK",
-        "rarity": "UNCOMMON",
-        "codexSecret": false,
-        "baseDrain": -2,
-        "fusionLimit": 3,
-        "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
-        "compatName": "Staves",
-        "compatibilityTags": [
-            "STAVES_STANCE"
-        ],
-        "type": "STANCE",
-        "description": "/Lotus/Language/Items/StaffStanceADesc",
-        "tradable": true,
-        "introducedAt": 1397107694
-    },
     "/Lotus/Weapons/Tenno/Melee/MeleeTrees/ScytheCmbTwoMeleeTree": {
         "name": "/Lotus/Language/Items/ScytheStanceB",
         "icon": "/Lotus/Interface/Cards/Images/Stances/ScytheCombo2a.png",
@@ -1309,21 +1291,6 @@
         "tradable": true,
         "introducedAt": 1585069387
     },
-    "/Lotus/Upgrades/Mods/Warframe/AvatarSlideBoostMod": {
-        "name": "/Lotus/Language/Items/WarframeModSlideBoost",
-        "icon": "/Lotus/Interface/Cards/Images/AvatarMods/SlideResistanceDecreaseMod.png",
-        "polarity": "AP_TACTIC",
-        "rarity": "UNCOMMON",
-        "codexSecret": false,
-        "baseDrain": 6,
-        "fusionLimit": 5,
-        "isUtility": true,
-        "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
-        "compatName": "WARFRAME",
-        "type": "WARFRAME",
-        "tradable": true,
-        "introducedAt": 1379122770
-    },
     "/Lotus/Upgrades/Mods/Warframe/AvatarShieldRechargeRateMod": {
         "name": "/Lotus/Language/Items/WarframeModShieldRechargeRate",
         "icon": "/Lotus/Interface/Cards/Images/AvatarMods/ShieldRechargeRate.png",
@@ -1394,20 +1361,6 @@
         "type": "WARFRAME",
         "tradable": true,
         "introducedAt": 1414155128
-    },
-    "/Lotus/Upgrades/Mods/Warframe/AvatarPowerToHealthOnDeathMod": {
-        "name": "/Lotus/Language/Items/WarframeModPowerToHealthOnDeath",
-        "icon": "/Lotus/Interface/Cards/Images/AvatarMods/AvatarQuickThinkingMod.png",
-        "polarity": "AP_DEFENSE",
-        "rarity": "RARE",
-        "codexSecret": false,
-        "baseDrain": 10,
-        "fusionLimit": 5,
-        "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
-        "compatName": "WARFRAME",
-        "type": "WARFRAME",
-        "tradable": true,
-        "introducedAt": 1379122770
     },
     "/Lotus/Upgrades/Mods/Warframe/AvatarPowerMaxMod": {
         "name": "/Lotus/Language/Items/WarframeModPowerMax",
@@ -17583,6 +17536,20 @@
         "tradable": true,
         "introducedAt": 1518219466
     },
+    "/Lotus/Powersuits/Temple/TemplePassiveAugment1Card": {
+        "name": "/Lotus/Language/Suits/TemplePassiveAugment1Name",
+        "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/TemplePassiveAugment1Card.png",
+        "polarity": "AP_POWER",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Powersuits/Temple/TempleBaseSuit",
+        "compatName": "Temple",
+        "type": "WARFRAME",
+        "subtype": "/Lotus/Powersuits/Temple/TempleBaseSuit",
+        "tradable": true
+    },
     "/Lotus/Powersuits/Sentient/SentientWhirlwindAugmentCard": {
         "name": "/Lotus/Language/Suits/SentientWhirlwindAugmentName",
         "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/SentientWhirlwindAugmentCard.png",
@@ -18124,6 +18091,20 @@
         "tradable": true,
         "introducedAt": 1433973789
     },
+    "/Lotus/Powersuits/Pagemaster/PagemasterBookAugment1Card": {
+        "name": "/Lotus/Language/Suits/PagemasterBookAbilityAugment1Name",
+        "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/PagemasterBookAugment1Card.png",
+        "polarity": "AP_POWER",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Powersuits/Pagemaster/PagemasterBaseSuit",
+        "compatName": "Dante",
+        "type": "WARFRAME",
+        "subtype": "/Lotus/Powersuits/Pagemaster/PagemasterBaseSuit",
+        "tradable": true
+    },
     "/Lotus/Powersuits/Pacifist/PacifistWaveAugmentCard": {
         "name": "/Lotus/Language/Suits/PacifistWaveAbilityAugment1Name",
         "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/BaruukLullAugment.png",
@@ -18214,6 +18195,20 @@
         "subtype": "/Lotus/Powersuits/Odalisk/OdaliskBaseSuit",
         "tradable": true,
         "introducedAt": 1690470109
+    },
+    "/Lotus/Powersuits/Nokko/NokkoRerootAugmentCard": {
+        "name": "/Lotus/Language/Suits/NokkoNetworkAbilityAugment1Name",
+        "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/NokkoRerootAugmentCard.png",
+        "polarity": "AP_POWER",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Powersuits/Nokko/NokkoBaseSuit",
+        "compatName": "Nokko",
+        "type": "WARFRAME",
+        "subtype": "/Lotus/Powersuits/Nokko/NokkoBaseSuit",
+        "tradable": true
     },
     "/Lotus/Powersuits/Ninja/TeleportToAugmentCard": {
         "name": "/Lotus/Language/Suits/TeleportToAbilityAugment1Name",
@@ -18726,6 +18721,20 @@
         "subtype": "/Lotus/Powersuits/Loki/LokiBaseSuit",
         "tradable": true,
         "introducedAt": 1480627328
+    },
+    "/Lotus/Powersuits/Koumei/KoumeiStringsAugmentCard": {
+        "name": "/Lotus/Language/Suits/KoumeiStringsAbilityAugment1Name",
+        "icon": "/Lotus/Interface/Cards/Images/AbilityAugments/KoumeiStringsAugmentCard.png",
+        "polarity": "AP_POWER",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Powersuits/Koumei/KoumeiBaseSuit",
+        "compatName": "Koumei",
+        "type": "WARFRAME",
+        "subtype": "/Lotus/Powersuits/Koumei/KoumeiBaseSuit",
+        "tradable": true
     },
     "/Lotus/Powersuits/Koumei/KoumeiFortuneAugmentCard": {
         "name": "/Lotus/Language/Suits/KoumeiFortuneAbilityAugment1Name",
@@ -20412,6 +20421,20 @@
         "type": "ARCH-GUN",
         "tradable": true,
         "introducedAt": 1771344192
+    },
+    "/Lotus/Upgrades/Mods/Archwing/Rifle/Expert/ArchwingWeaponElectricityDamageModExpert": {
+        "name": "/Lotus/Language/Mods/ArchwingWeaponElectricityDamageModExpert",
+        "icon": "/Lotus/Interface/Cards/Images/ArchwingMods/ArchwingRifle/ArchwingWeaponElectricityDamageModRifle.png",
+        "polarity": "AP_TACTIC",
+        "rarity": "LEGENDARY",
+        "codexSecret": false,
+        "baseDrain": 4,
+        "fusionLimit": 10,
+        "compat": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchGun",
+        "excludeFromCodex": true,
+        "compatName": "Archgun",
+        "type": "ARCH-GUN",
+        "tradable": true
     },
     "/Lotus/Upgrades/Mods/Archwing/Rifle/Expert/ArchwingWeaponFireDamageModExpert": {
         "name": "/Lotus/Language/Mods/ArchwingWeaponFireDamageModExpert",
@@ -31991,6 +32014,8 @@
             "/Lotus/Weapons/Tenno/Melee/Hammer/HammerWeapon",
             "/Lotus/Weapons/Tenno/Melee/Hammer/ThrowingHammer",
             "/Lotus/Weapons/Tenno/Melee/HeavyScythe/DuviriScythe/DuviriHeavyScytheWeapon",
+            "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnOrionScytheWeapon",
+            "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnSiriusScytheWeapon",
             "/Lotus/Weapons/Tenno/Melee/LongSword/EtherSword",
             "/Lotus/Weapons/Tenno/Melee/LongSword/LongSword",
             "/Lotus/Weapons/Tenno/Melee/Maces/PaladinMace/PaladinMaceWeapon",
