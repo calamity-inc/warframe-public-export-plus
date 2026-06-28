@@ -27883,6 +27883,79 @@
         "tradable": false,
         "introducedAt": 1585069387
     },
+    "/Lotus/Weapons/Sentients/SentOctaMiniGun/SentOctaMiniGun": {
+        "name": "/Lotus/Language/Weapons/TnoOctaMiniGunName",
+        "parentName": "/Lotus/Weapons/Tenno/Rifle/LotusAssaultRifle",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Weapons/PrimaryWeapons/Weapons/TnoOctaMiniGun.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            23.4,
+            23.4,
+            43.200001,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 90,
+        "description": "/Lotus/Language/Weapons/TnoOctaMiniGunDesc",
+        "criticalChance": 0.22,
+        "criticalMultiplier": 2.2,
+        "procChance": 0.22,
+        "fireRate": 15.000001,
+        "masteryReq": 8,
+        "productCategory": "LongGuns",
+        "holsterCategory": "RIFLE",
+        "slot": 1,
+        "accuracy": 100,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 200,
+        "reloadTime": 13.833333,
+        "multishot": 1,
+        "platinumCost": 240,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "PROJECTILE",
+            "ASSAULT_AMMO"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "impact": {
+                    "DT_IMPACT": 23.4,
+                    "DT_PUNCTURE": 23.4,
+                    "DT_SLASH": 43.2,
+                    "procChance": 0.22
+                }
+            },
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "impact": {
+                    "DT_SENTIENT": 20,
+                    "procChance": 0.2
+                }
+            }
+        ],
+        "tradable": false
+    },
     "/Lotus/Weapons/Sentients/SentJointedScythe/SentJointedScytheWeapon": {
         "name": "/Lotus/Language/Weapons/SentJointedScytheWeaponName",
         "parentName": "/Lotus/Weapons/Tenno/Melee/LotusScythe",
@@ -33247,7 +33320,7 @@
                         "procChance": 0.2
                     },
                     "embedDeathAttack": {
-                        "DT_CORROSIVE": 450,
+                        "DT_CORROSIVE": 200,
                         "procChance": 0.2
                     }
                 },

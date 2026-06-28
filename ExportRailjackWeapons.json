@@ -535,6 +535,79 @@
             }
         ]
     },
+    "/Lotus/Weapons/CrewShip/ElectricTether/LavanElectricTetherCannonTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_LavanElectricTetherTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/ElectricTether/LavanElectricTetherCannonTierB",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/ElectricTether.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1965,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 1965,
+        "description": "/Lotus/Language/CrewShip/Wpn_ElectricTetherDesc",
+        "criticalChance": 0.19,
+        "criticalMultiplier": 2,
+        "procChance": 0.32,
+        "fireRate": 5.0,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 16.666666,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 50,
+        "reloadTime": 2.3,
+        "multishot": 1,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "projectile": {
+                    "attack": {
+                        "DT_ELECTRICITY": 1965,
+                        "procChance": 0.32
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 300,
+                    "procChance": 0
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
     "/Lotus/Weapons/CrewShip/ElectricTether/VidarElectricTetherCannonTierA": {
         "name": "/Lotus/Language/CrewShip/Wpn_VidarElectricTetherTierA",
         "parentName": "/Lotus/Weapons/CrewShip/ElectricTether/ElectricTetherCannonTierA",
@@ -748,6 +821,79 @@
             }
         ]
     },
+    "/Lotus/Weapons/CrewShip/ElectricTether/VidarElectricTetherCannonTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_VidarElectricTetherTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/ElectricTether/VidarElectricTetherCannonTierB",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/ElectricTether.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1836,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 1836,
+        "description": "/Lotus/Language/CrewShip/Wpn_ElectricTetherDesc",
+        "criticalChance": 0.28,
+        "criticalMultiplier": 2,
+        "procChance": 0.22,
+        "fireRate": 5.0,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 16.666666,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 50,
+        "reloadTime": 2.3,
+        "multishot": 1,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "projectile": {
+                    "attack": {
+                        "DT_ELECTRICITY": 1836,
+                        "procChance": 0.22
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 300,
+                    "procChance": 0
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/ElectricTether/ElectricTetherInnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
     "/Lotus/Weapons/CrewShip/ElectricTether/ZektiElectricTetherCannonTierA": {
         "name": "/Lotus/Language/CrewShip/Wpn_ZektiElectricTetherTierA",
         "parentName": "/Lotus/Weapons/CrewShip/ElectricTether/ElectricTetherCannonTierA",
@@ -946,6 +1092,79 @@
                     "attack": {
                         "DT_ELECTRICITY": 1592,
                         "procChance": 0.1
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 300,
+                    "procChance": 0
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/ElectricTether/ZektiElectricTetherCannonTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_ZektiElectricTetherTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/ElectricTether/ZektiElectricTetherCannonTierB",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/ElectricTether.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2388,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 2388,
+        "description": "/Lotus/Language/CrewShip/Wpn_ElectricTetherDesc",
+        "criticalChance": 0.29,
+        "criticalMultiplier": 2,
+        "procChance": 0.13,
+        "fireRate": 5.0,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 16.666666,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 33,
+        "reloadTime": 2.3,
+        "multishot": 1,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "projectile": {
+                    "attack": {
+                        "DT_ELECTRICITY": 2388,
+                        "procChance": 0.13
                     }
                 },
                 "impact": {
@@ -1386,6 +1605,81 @@
             }
         ]
     },
+    "/Lotus/Weapons/CrewShip/IceSniper/LavanIceSniperCannonTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_LavanIceSniperTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/IceSniper/LavanIceSniperCannonTierC",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/IceSniper.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            810,
+            810,
+            0,
+            0,
+            1856,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 3476,
+        "description": "/Lotus/Language/CrewShip/Wpn_IceSniperDesc",
+        "criticalChance": 0.35,
+        "criticalMultiplier": 2.5,
+        "procChance": 0.32,
+        "fireRate": 1.5,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 16.666666,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 20,
+        "reloadTime": 2.928571,
+        "multishot": 1,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 810,
+                        "DT_PUNCTURE": 810,
+                        "DT_FREEZE": 1856,
+                        "procChance": 0.32
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 300,
+                    "procChance": 0
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
     "/Lotus/Weapons/CrewShip/IceSniper/VidarIceSniperCannonTierA": {
         "name": "/Lotus/Language/CrewShip/Wpn_VidarIceSniperTierA",
         "parentName": "/Lotus/Weapons/CrewShip/IceSniper/IceSniperCannonTierA",
@@ -1589,6 +1883,81 @@
                         "DT_PUNCTURE": 503,
                         "DT_FREEZE": 1100,
                         "procChance": 0.2
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 300,
+                    "procChance": 0
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/AutoCannonInnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/IceSniper/VidarIceSniperCannonTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_VidarIceSniperTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/IceSniper/VidarIceSniperCannonTierC",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/IceSniper.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            810,
+            810,
+            0,
+            0,
+            1856,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 3476,
+        "description": "/Lotus/Language/CrewShip/Wpn_IceSniperDesc",
+        "criticalChance": 0.51,
+        "criticalMultiplier": 2.5,
+        "procChance": 0.22,
+        "fireRate": 1.5,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 16.666666,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 20,
+        "reloadTime": 2.928571,
+        "multishot": 1,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 810,
+                        "DT_PUNCTURE": 810,
+                        "DT_FREEZE": 1856,
+                        "procChance": 0.22
                     }
                 },
                 "impact": {
@@ -1822,6 +2191,81 @@
             }
         ]
     },
+    "/Lotus/Weapons/CrewShip/IceSniper/ZektiIceSniperCannonTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_ZektiIceSniperTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/IceSniper/ZektiIceSniperCannonTierC",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/IceSniper.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            810,
+            810,
+            0,
+            0,
+            1856,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 3476,
+        "description": "/Lotus/Language/CrewShip/Wpn_IceSniperDesc",
+        "criticalChance": 0.53,
+        "criticalMultiplier": 2.5,
+        "procChance": 0.23,
+        "fireRate": 1.5,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 16.666666,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 12,
+        "reloadTime": 2.928571,
+        "multishot": 1,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 810,
+                        "DT_PUNCTURE": 810,
+                        "DT_FREEZE": 1856,
+                        "procChance": 0.23
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 300,
+                    "procChance": 0
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
     "/Lotus/Weapons/CrewShip/Laser/Beam/LavanRailJackBeamWeaponTierA": {
         "name": "/Lotus/Language/CrewShip/Wpn_LavanBeamWeaponTierA",
         "parentName": "/Lotus/Weapons/CrewShip/Laser/Beam/RailJackBeamWeapon",
@@ -2007,6 +2451,73 @@
                     "DT_PUNCTURE": 35,
                     "DT_FIRE": 110,
                     "procChance": 0.17
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/Laser/Beam/RailJackBeamInnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/Laser/Beam/LavanRailJackBeamWeaponTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_LavanBeamWeaponTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/Laser/Beam/LavanRailJackBeamWeaponTierC",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/RailjackTurretB.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            53,
+            0,
+            165,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 218,
+        "description": "/Lotus/Language/CrewShip/Wpn_BeamWeaponDesc",
+        "criticalChance": 0.14,
+        "criticalMultiplier": 2,
+        "procChance": 0.105,
+        "fireRate": 12.000001,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 100,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "HELD",
+        "magazineSize": 1000,
+        "reloadTime": 2.1,
+        "multishot": 2,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
+                "fireIterations": 2,
+                "impact": {
+                    "DT_PUNCTURE": 53,
+                    "DT_FIRE": 165,
+                    "procChance": 0.21
                 }
             }
         ],
@@ -2456,6 +2967,73 @@
             }
         ]
     },
+    "/Lotus/Weapons/CrewShip/Laser/Beam/VidarRailJackBeamWeaponTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_VidarBeamWeaponTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/Laser/Beam/VidarRailJackBeamWeaponTierB",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/RailjackTurretB.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            42,
+            0,
+            161,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 203,
+        "description": "/Lotus/Language/CrewShip/Wpn_BeamWeaponDesc",
+        "criticalChance": 0.21,
+        "criticalMultiplier": 2,
+        "procChance": 0.07,
+        "fireRate": 12.000001,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 100,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "HELD",
+        "magazineSize": 1000,
+        "reloadTime": 2.1,
+        "multishot": 2,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
+                "fireIterations": 2,
+                "impact": {
+                    "DT_PUNCTURE": 42,
+                    "DT_FIRE": 161,
+                    "procChance": 0.14
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/Laser/Beam/RailJackBeamInnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
     "/Lotus/Weapons/CrewShip/Laser/Beam/ZektiRailJackBeamWeaponTierA": {
         "name": "/Lotus/Language/CrewShip/Wpn_ZektiBeamWeaponTierA",
         "parentName": "/Lotus/Weapons/CrewShip/Laser/Beam/RailJackBeamWeaponTierA",
@@ -2641,6 +3219,73 @@
                     "DT_PUNCTURE": 52,
                     "DT_FIRE": 110,
                     "procChance": 0.18
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/Laser/Beam/RailJackBeamInnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/Laser/Beam/ZektiRailJackBeamWeaponTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_ZektiBeamWeaponTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/Laser/Beam/ZektiRailJackBeamWeaponTierC",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/RailjackTurretB.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            78,
+            0,
+            165,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 243,
+        "description": "/Lotus/Language/CrewShip/Wpn_BeamWeaponDesc",
+        "criticalChance": 0.21,
+        "criticalMultiplier": 2,
+        "procChance": 0.105,
+        "fireRate": 12.000001,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 100,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "HELD",
+        "magazineSize": 1000,
+        "reloadTime": 2.1,
+        "multishot": 2,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
+                "fireIterations": 2,
+                "impact": {
+                    "DT_PUNCTURE": 78,
+                    "DT_FIRE": 165,
+                    "procChance": 0.21
                 }
             }
         ],
@@ -3426,6 +4071,81 @@
             }
         ]
     },
+    "/Lotus/Weapons/CrewShip/Laser/Blaster/LavanBlasterShotgunTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_LavanBlasterShotgunTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/Laser/Blaster/LavanBlasterShotgunTierB",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/RailjackTurretBlasterShotgun.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            0,
+            0,
+            0,
+            7640,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 7640,
+        "description": "/Lotus/Language/CrewShip/Wpn_BlasterShotgunDesc",
+        "criticalChance": 0.22,
+        "criticalMultiplier": 1.5,
+        "procChance": 0.45,
+        "fireRate": 1,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 16.666666,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 6,
+        "reloadTime": 3.5,
+        "multishot": 1,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "projectile": {
+                    "attack": {
+                        "DT_FREEZE": 7640,
+                        "procChance": 0.45
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336,
+                    "procChance": 0.1
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/LavanBlasterTierA": {
         "name": "/Lotus/Language/CrewShip/Wpn_LavanBlasterTierA",
         "parentName": "/Lotus/Weapons/CrewShip/Laser/Blaster/Blaster",
@@ -3648,6 +4368,82 @@
             }
         ]
     },
+    "/Lotus/Weapons/CrewShip/Laser/Blaster/LavanBlasterTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_LavanBlasterTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/Laser/Blaster/LavanBlasterTierB",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/RailjackTurretBlaster.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            244,
+            0,
+            0,
+            0,
+            0,
+            386,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 630,
+        "description": "/Lotus/Language/CrewShip/Wpn_BlasterDesc",
+        "criticalChance": 0.15,
+        "criticalMultiplier": 2,
+        "procChance": 0.38,
+        "fireRate": 15.000001,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 16.666666,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 125,
+        "reloadTime": 2.1,
+        "multishot": 1,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 244,
+                        "DT_POISON": 386,
+                        "procChance": 0.38
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336,
+                    "procChance": 0.1
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/VidarBlasterShotgunTierA": {
         "name": "/Lotus/Language/CrewShip/Wpn_VidarBlasterShotgunTierA",
         "parentName": "/Lotus/Weapons/CrewShip/Laser/Blaster/BlasterShotgunTierA",
@@ -3850,6 +4646,81 @@
                     "attack": {
                         "DT_FREEZE": 4760,
                         "procChance": 0.3
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336,
+                    "procChance": 0.1
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/Laser/Blaster/BlasterShotgunInnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/Laser/Blaster/VidarBlasterShotgunTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_VidarBlasterShotgunTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/Laser/Blaster/VidarBlasterShotgunTierB",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/RailjackTurretBlasterShotgun.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            0,
+            0,
+            0,
+            7140,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 7140,
+        "description": "/Lotus/Language/CrewShip/Wpn_BlasterShotgunDesc",
+        "criticalChance": 0.32,
+        "criticalMultiplier": 1.5,
+        "procChance": 0.32,
+        "fireRate": 1,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 16.666666,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 6,
+        "reloadTime": 3.5,
+        "multishot": 1,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "projectile": {
+                    "attack": {
+                        "DT_FREEZE": 7140,
+                        "procChance": 0.32
                     }
                 },
                 "impact": {
@@ -4089,6 +4960,82 @@
             }
         ]
     },
+    "/Lotus/Weapons/CrewShip/Laser/Blaster/VidarBlasterTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_VidarBlasterTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/Laser/Blaster/VidarBlasterTierB",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/RailjackTurretBlaster.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            195,
+            0,
+            0,
+            0,
+            0,
+            393,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 588,
+        "description": "/Lotus/Language/CrewShip/Wpn_BlasterDesc",
+        "criticalChance": 0.23,
+        "criticalMultiplier": 2,
+        "procChance": 0.26,
+        "fireRate": 15.000001,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 16.666666,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 125,
+        "reloadTime": 2.1,
+        "multishot": 1,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 195,
+                        "DT_POISON": 393,
+                        "procChance": 0.26
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336,
+                    "procChance": 0.1
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/Laser/Blaster/BlasterInnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
     "/Lotus/Weapons/CrewShip/Laser/Blaster/ZektiBlasterShotgunTierA": {
         "name": "/Lotus/Language/CrewShip/Wpn_ZektiBlasterShotgunTierA",
         "parentName": "/Lotus/Weapons/CrewShip/Laser/Blaster/BlasterShotgunTierA",
@@ -4291,6 +5238,81 @@
                     "attack": {
                         "DT_FREEZE": 6188,
                         "procChance": 0.45
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336,
+                    "procChance": 0.1
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/Laser/Blaster/ZektiBlasterShotgunTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_ZektiBlasterShotgunTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/Laser/Blaster/ZektiBlasterShotgunTierB",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/RailjackTurretBlasterShotgun.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            0,
+            0,
+            0,
+            9282,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 9282,
+        "description": "/Lotus/Language/CrewShip/Wpn_BlasterShotgunDesc",
+        "criticalChance": 0.23,
+        "criticalMultiplier": 2,
+        "procChance": 0.48,
+        "fireRate": 1,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 16.666666,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 5,
+        "reloadTime": 3.5,
+        "multishot": 1,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "projectile": {
+                    "attack": {
+                        "DT_FREEZE": 9282,
+                        "procChance": 0.48
                     }
                 },
                 "impact": {
@@ -4513,6 +5535,82 @@
                         "DT_PUNCTURE": 217,
                         "DT_POISON": 293,
                         "procChance": 0.36
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336,
+                    "procChance": 0.1
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/Laser/Blaster/ZektiBlasterTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_ZektiBlasterTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/Laser/Blaster/ZektiBlasterTierB",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/RailjackTurretBlaster.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            325,
+            0,
+            0,
+            0,
+            0,
+            439,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 764,
+        "description": "/Lotus/Language/CrewShip/Wpn_BlasterDesc",
+        "criticalChance": 0.16,
+        "criticalMultiplier": 2,
+        "procChance": 0.39,
+        "fireRate": 15.000001,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 16.666666,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 90,
+        "reloadTime": 2.1,
+        "multishot": 1,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 325,
+                        "DT_POISON": 439,
+                        "procChance": 0.39
                     }
                 },
                 "impact": {
@@ -4908,6 +6006,73 @@
             }
         ]
     },
+    "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/LavanGatlingLaserTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_LavanGatlingLaserTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/LavanGatlingLaserTierB",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/GatlingLaser.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            0,
+            0,
+            474,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 474,
+        "description": "/Lotus/Language/CrewShip/Wpn_GatlingLaserDesc",
+        "criticalChance": 0.15,
+        "criticalMultiplier": 2,
+        "procChance": 0.32,
+        "fireRate": 16.666668,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 100,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 125,
+        "reloadTime": 2.3,
+        "multishot": 1,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "impact": {
+                    "DT_FIRE": 474,
+                    "procChance": 0.32
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
     "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/VidarGatlingLaserTierA": {
         "name": "/Lotus/Language/CrewShip/Wpn_VidarGatlingLaserTierA",
         "parentName": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/GatlingLaser",
@@ -5103,6 +6268,73 @@
             }
         ]
     },
+    "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/VidarGatlingLaserTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_VidarGatlingLaserTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/VidarGatlingLaserTierB",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/GatlingLaser.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            0,
+            0,
+            442,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 442,
+        "description": "/Lotus/Language/CrewShip/Wpn_GatlingLaserDesc",
+        "criticalChance": 0.22,
+        "criticalMultiplier": 2,
+        "procChance": 0.22,
+        "fireRate": 16.666668,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 100,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 125,
+        "reloadTime": 2.3,
+        "multishot": 1,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "impact": {
+                    "DT_FIRE": 442,
+                    "procChance": 0.22
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/Laser/Beam/RailJackBeamInnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
     "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/ZektiGatlingLaserTierA": {
         "name": "/Lotus/Language/CrewShip/Wpn_ZektiGatlingLaserTierA",
         "parentName": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/GatlingLaser",
@@ -5288,6 +6520,73 @@
                 "impact": {
                     "DT_FIRE": 384,
                     "procChance": 0.3
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/ZektiGatlingLaserTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_ZektiGatlingLaserTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/ZektiGatlingLaserTierB",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/GatlingLaser.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            0,
+            0,
+            576,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 576,
+        "description": "/Lotus/Language/CrewShip/Wpn_GatlingLaserDesc",
+        "criticalChance": 0.16,
+        "criticalMultiplier": 2,
+        "procChance": 0.33,
+        "fireRate": 16.666668,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 100,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 83,
+        "reloadTime": 2.3,
+        "multishot": 1,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "impact": {
+                    "DT_FIRE": 576,
+                    "procChance": 0.33
                 }
             }
         ],
@@ -5498,6 +6797,78 @@
                     "DT_PUNCTURE": 288,
                     "DT_ELECTRICITY": 343,
                     "procChance": 0.27
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/Laser/PulseLaser/LavanPulseLaserTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_LavanPulseLaserTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/Laser/PulseLaser/LavanPulseLaserTierB",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/RailjackTurretC.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            432,
+            0,
+            0,
+            0,
+            514,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 946,
+        "description": "/Lotus/Language/CrewShip/Wpn_PulseLaserDesc",
+        "criticalChance": 0.19,
+        "criticalMultiplier": 2,
+        "procChance": 0.31,
+        "fireRate": 7.407408,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 100,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "BURST",
+        "magazineSize": 100,
+        "reloadTime": 2.3,
+        "multishot": 1,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "fireIterations": 1,
+                "burst": {
+                    "count": 4,
+                    "delay": 0.06
+                },
+                "impact": {
+                    "DT_PUNCTURE": 432,
+                    "DT_ELECTRICITY": 514,
+                    "procChance": 0.31
                 }
             }
         ],
@@ -5982,6 +7353,78 @@
             }
         ]
     },
+    "/Lotus/Weapons/CrewShip/Laser/PulseLaser/VidarPulseLaserTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_VidarPulseLaserTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/Laser/PulseLaser/VidarPulseLaserTierB",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/RailjackTurretC.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            400,
+            0,
+            0,
+            0,
+            483,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 883,
+        "description": "/Lotus/Language/CrewShip/Wpn_PulseLaserDesc",
+        "criticalChance": 0.28,
+        "criticalMultiplier": 2,
+        "procChance": 0.21,
+        "fireRate": 7.407408,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 100,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "BURST",
+        "magazineSize": 100,
+        "reloadTime": 2.3,
+        "multishot": 1,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "fireIterations": 1,
+                "burst": {
+                    "count": 4,
+                    "delay": 0.06
+                },
+                "impact": {
+                    "DT_PUNCTURE": 400,
+                    "DT_ELECTRICITY": 483,
+                    "procChance": 0.21
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/Laser/PulseLaser/PulseLaserInnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
     "/Lotus/Weapons/CrewShip/Laser/PulseLaser/ZektiPulseLaserTierA": {
         "name": "/Lotus/Language/CrewShip/Wpn_ZektiPulseLaserTierA",
         "parentName": "/Lotus/Weapons/CrewShip/Laser/PulseLaser/PulseLaser",
@@ -6182,6 +7625,78 @@
                     "DT_PUNCTURE": 323,
                     "DT_ELECTRICITY": 443,
                     "procChance": 0.29
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/Laser/PulseLaser/ZektiPulseLaserTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_ZektiPulseLaserTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/Laser/PulseLaser/ZektiPulseLaserTierB",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/RailjackTurretC.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            484,
+            0,
+            0,
+            0,
+            665,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 1149,
+        "description": "/Lotus/Language/CrewShip/Wpn_PulseLaserDesc",
+        "criticalChance": 0.2,
+        "criticalMultiplier": 2,
+        "procChance": 0.32,
+        "fireRate": 7.407408,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 100,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "BURST",
+        "magazineSize": 50,
+        "reloadTime": 2.3,
+        "multishot": 1,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
+                "fireIterations": 1,
+                "burst": {
+                    "count": 4,
+                    "delay": 0.06
+                },
+                "impact": {
+                    "DT_PUNCTURE": 484,
+                    "DT_ELECTRICITY": 665,
+                    "procChance": 0.32
                 }
             }
         ],
@@ -6680,6 +8195,80 @@
             }
         ]
     },
+    "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/LavanAutoCannonTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_LavanAutoCannonTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/LavanAutoCannonTierA",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/RailjackTurretAutoCannon.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            695.09998,
+            297.90002,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 993,
+        "description": "/Lotus/Language/CrewShip/Wpn_AutoCannonDesc",
+        "criticalChance": 0.22,
+        "criticalMultiplier": 2,
+        "procChance": 0.18,
+        "fireRate": 8.333334,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 20,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 83,
+        "reloadTime": 2.1,
+        "multishot": 1,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 695.1,
+                        "DT_SLASH": 297.9,
+                        "procChance": 0.18
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 300,
+                    "procChance": 0
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
     "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/VidarAutoCannonTierA": {
         "name": "/Lotus/Language/CrewShip/Wpn_VidarAutoCannonTierA",
         "parentName": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/AutoCannon",
@@ -6881,6 +8470,80 @@
                         "DT_PUNCTURE": 432.6,
                         "DT_SLASH": 185.4,
                         "procChance": 0.1
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 300,
+                    "procChance": 0
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/AutoCannonInnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/VidarAutoCannonTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_VidarAutoCannonTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/VidarAutoCannonTierA",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/RailjackTurretAutoCannon.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            648.89996,
+            278.10001,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 927,
+        "description": "/Lotus/Language/CrewShip/Wpn_AutoCannonDesc",
+        "criticalChance": 0.32,
+        "criticalMultiplier": 2,
+        "procChance": 0.12,
+        "fireRate": 8.333334,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 14.285714,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 83,
+        "reloadTime": 2.1,
+        "multishot": 1,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 648.9,
+                        "DT_SLASH": 278.1,
+                        "procChance": 0.12
                     }
                 },
                 "impact": {
@@ -7112,6 +8775,80 @@
             }
         ]
     },
+    "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/ZektiAutoCannonTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_ZektiAutoCannonTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/ZektiAutoCannonTierA",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/RailjackTurretAutoCannon.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            0,
+            785.39996,
+            336.60001,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 1122,
+        "description": "/Lotus/Language/CrewShip/Wpn_AutoCannonDesc",
+        "criticalChance": 0.33,
+        "criticalMultiplier": 2,
+        "procChance": 0.13,
+        "fireRate": 8.333334,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 12.5,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 55,
+        "reloadTime": 2.1,
+        "multishot": 1,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "projectile": {
+                    "attack": {
+                        "DT_PUNCTURE": 785.4,
+                        "DT_SLASH": 336.6,
+                        "procChance": 0.13
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 300,
+                    "procChance": 0
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
     "/Lotus/Weapons/CrewShip/ShrapnelShotgun/LavanShrapnelShotgunTierA": {
         "name": "/Lotus/Language/CrewShip/Wpn_LavanShrapnelShotgunTierA",
         "parentName": "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ShrapnelShotgunTierA",
@@ -7320,6 +9057,83 @@
                         "DT_PUNCTURE": 156.0,
                         "DT_SLASH": 156.0,
                         "procChance": 1.01
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336,
+                    "procChance": 0.1
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/ShrapnelShotgun/LavanShrapnelShotgunTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_LavanShrapnelShotgunTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/ShrapnelShotgun/LavanShrapnelShotgunTierC",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/ShrapnelShotgun.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            104.6,
+            209.2,
+            209.19998,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 523,
+        "description": "/Lotus/Language/CrewShip/Wpn_ShrapnelShotgunDesc",
+        "criticalChance": 0.31,
+        "criticalMultiplier": 2,
+        "procChance": 0.16875,
+        "fireRate": 2.5,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 20,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 20,
+        "reloadTime": 3.5,
+        "multishot": 8,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 8,
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 104.6,
+                        "DT_PUNCTURE": 209.2,
+                        "DT_SLASH": 209.2,
+                        "procChance": 1.35
                     }
                 },
                 "impact": {
@@ -7846,6 +9660,83 @@
             }
         ]
     },
+    "/Lotus/Weapons/CrewShip/ShrapnelShotgun/VidarShrapnelShotgunTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_VidarShrapnelShotgunTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/ShrapnelShotgun/VidarShrapnelShotgunTierC",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/ShrapnelShotgun.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            96.599998,
+            193.2,
+            193.19998,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 482.99997,
+        "description": "/Lotus/Language/CrewShip/Wpn_ShrapnelShotgunDesc",
+        "criticalChance": 0.48,
+        "criticalMultiplier": 2,
+        "procChance": 0.10375,
+        "fireRate": 2.5,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 20,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 20,
+        "reloadTime": 3.5,
+        "multishot": 8,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 8,
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 96.6,
+                        "DT_PUNCTURE": 193.2,
+                        "DT_SLASH": 193.2,
+                        "procChance": 0.83
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336,
+                    "procChance": 0.1
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ShrapnelShotgunInnateDamageRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
     "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ZektiShrapnelShotgunTierA": {
         "name": "/Lotus/Language/CrewShip/Wpn_ZektiShrapnelShotgunTierA",
         "parentName": "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ShrapnelShotgunTierA",
@@ -8054,6 +9945,83 @@
                         "DT_PUNCTURE": 184.0,
                         "DT_SLASH": 184.0,
                         "procChance": 1.08
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 133.3332,
+                    "DT_PUNCTURE": 133.3332,
+                    "DT_SLASH": 133.3336,
+                    "procChance": 0.1
+                }
+            }
+        ],
+        "defaultUpgrades": [
+            {
+                "ItemType": "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod",
+                "Slot": -1
+            }
+        ]
+    },
+    "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ZektiShrapnelShotgunTierD": {
+        "name": "/Lotus/Language/CrewShip/Wpn_ZektiShrapnelShotgunTierD",
+        "parentName": "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ZektiShrapnelShotgunTierC",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/PlayerShip/Railjack/Turrets/ShrapnelShotgun.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            132,
+            264,
+            263.99997,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 660,
+        "description": "/Lotus/Language/CrewShip/Wpn_ShrapnelShotgunDesc",
+        "criticalChance": 0.24,
+        "criticalMultiplier": 2,
+        "procChance": 0.18875,
+        "fireRate": 2.5,
+        "masteryReq": 0,
+        "productCategory": "CrewShipWeapons",
+        "excludeFromCodex": true,
+        "slot": 14,
+        "accuracy": 20,
+        "omegaAttenuation": 0.5,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 16,
+        "reloadTime": 3.5,
+        "multishot": 8,
+        "creditsCost": 50000,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 8,
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 132.0,
+                        "DT_PUNCTURE": 264.0,
+                        "DT_SLASH": 264.0,
+                        "procChance": 1.51
                     }
                 },
                 "impact": {

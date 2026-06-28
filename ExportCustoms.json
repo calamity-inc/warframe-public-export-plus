@@ -27784,7 +27784,6 @@
     "/Lotus/Upgrades/Skins/Operator/Hair/Hair1999Volt": {
         "name": "/Lotus/Language/Cosmetics/Hair1999VoltName",
         "codexSecret": false,
-        "excludeFromCodex": true,
         "description": "/Lotus/Language/Cosmetics/Hair1999VoltDesc",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Operator/Cosmetics/Hair/Hair1999Volt.png",
         "productCategory": "WeaponSkins",
@@ -36312,8 +36311,8 @@
             {
                 "tag": "ShieldRegenDelay",
                 "range": [
-                    0.1,
-                    0.5
+                    0.2,
+                    1
                 ]
             }
         ],
@@ -36342,8 +36341,8 @@
             {
                 "tag": "ShieldRegenDelay",
                 "range": [
-                    0.1,
-                    1
+                    0.3,
+                    3
                 ]
             },
             {
@@ -36395,7 +36394,7 @@
                 "tag": "ShieldRegenDelay",
                 "range": [
                     0.5,
-                    1
+                    1.5
                 ]
             }
         ],
@@ -36425,8 +36424,8 @@
             {
                 "tag": "ShieldRegenDelay",
                 "range": [
-                    0.5,
-                    2
+                    0.7,
+                    3.5
                 ]
             },
             {
