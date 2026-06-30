@@ -44976,6 +44976,77 @@
         "tradable": false,
         "introducedAt": 1639578194
     },
+    "/Lotus/Types/JadeShadowsPart2Mission/Enemies/Ground/Elites/JS2MCorruptedBossMinigun": {
+        "name": "/Lotus/Language/Items/ImperatorVandalName",
+        "parentName": "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGun",
+        "icon": "/Lotus/Interface/Icons/StoreIcons/Archwing/Weapons/ImperatorVandal.png",
+        "codexSecret": false,
+        "damagePerShot": [
+            20,
+            17.5,
+            12.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "totalDamage": 50,
+        "description": "/Lotus/Language/Items/ImperatorVandalDesc",
+        "criticalChance": 0.28,
+        "criticalMultiplier": 2.4,
+        "procChance": 0.12,
+        "fireRate": 25.000002,
+        "masteryReq": 5,
+        "productCategory": "SpaceGuns",
+        "holsterCategory": "RIFLE",
+        "slot": 1,
+        "accuracy": 50,
+        "omegaAttenuation": 0.95,
+        "noise": "ALARMING",
+        "trigger": "AUTO",
+        "magazineSize": 300,
+        "reloadTime": 4.15,
+        "multishot": 1,
+        "excludeFromMarket": true,
+        "compatibilityTags": [
+            "BATTERY"
+        ],
+        "variantType": "VT_NORMAL",
+        "behaviours": [
+            {
+                "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
+                "fireIterations": 1,
+                "projectile": {
+                    "attack": {
+                        "DT_IMPACT": 20.0,
+                        "DT_PUNCTURE": 17.5,
+                        "DT_SLASH": 12.5,
+                        "procChance": 0.12
+                    }
+                },
+                "impact": {
+                    "DT_IMPACT": 0.4,
+                    "DT_PUNCTURE": 0.35,
+                    "DT_SLASH": 0.25,
+                    "procChance": 0.05
+                }
+            }
+        ],
+        "tradable": false
+    },
     "/Lotus/Types/Friendly/PlayerControllable/Weapons/DuviriDualSwordsWeapon": {
         "name": "/Lotus/Language/Weapons/TeshinDualSwordsName",
         "parentName": "/Lotus/Weapons/Tenno/Melee/LotusDualKatana",
