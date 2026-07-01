@@ -5186,7 +5186,8 @@
         "compat": "/Lotus/Types/Friendly/Pets/BeastPetMeleeWeaponBase",
         "compatName": "Claws",
         "type": "MELEE",
-        "tradable": true
+        "tradable": true,
+        "introducedAt": 1734098693
     },
     "/Lotus/Upgrades/Mods/Sentinel/Kubrow/DualStat/KubrowIceEventMeleeMod": {
         "name": "/Lotus/Language/Items/KubrowDualIceMod",
@@ -34587,32 +34588,6 @@
         "excludeFromCodex": true,
         "compatName": "Oxylus",
         "type": "SENTINEL",
-        "tradable": true
-    },
-    "/Lotus/Upgrades/Mods/Sentinel/Kubrow/DualStat/KubrowMagneticEventMeleeMod": {
-        "name": "/Lotus/Language/Pets/KubrowMagneticEventMeleeModName",
-        "icon": "/Lotus/Interface/Cards/Images/Kubrow/KubrowMagneticEventMeleeMod.png",
-        "polarity": "AP_ATTACK",
-        "rarity": "RARE",
-        "codexSecret": false,
-        "baseDrain": 4,
-        "fusionLimit": 3,
-        "compat": "/Lotus/Types/Friendly/Pets/BeastPetMeleeWeaponBase",
-        "compatName": "Claws",
-        "type": "MELEE",
-        "tradable": true
-    },
-    "/Lotus/Upgrades/Mods/Melee/DualStat/MagneticAttackSpeedMeleeMod": {
-        "name": "/Lotus/Language/Upgrades/MagneticAttackSpeedMeleeMod",
-        "icon": "/Lotus/Interface/Cards/Images/Melee/MagneticAttackSpeedMeleeMod.png",
-        "polarity": "AP_ATTACK",
-        "rarity": "RARE",
-        "codexSecret": false,
-        "baseDrain": 4,
-        "fusionLimit": 3,
-        "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
-        "compatName": "Melee",
-        "type": "MELEE",
         "tradable": true
     }
 }
