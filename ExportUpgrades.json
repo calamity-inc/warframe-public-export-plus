@@ -34576,6 +34576,53 @@
         ],
         "tradable": true
     },
+    "/Lotus/Weapons/Tenno/Melee/MeleeTrees/StaffCmbOneMeleeTree": {
+        "name": "/Lotus/Language/Items/StaffStanceA",
+        "icon": "/Lotus/Interface/Cards/Images/Stances/StaffCombo1a.png",
+        "polarity": "AP_ATTACK",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": -2,
+        "fusionLimit": 3,
+        "compat": "/Lotus/Weapons/Tenno/Melee/PlayerMeleeWeapon",
+        "compatName": "Staves",
+        "compatibilityTags": [
+            "STAVES_STANCE"
+        ],
+        "type": "STANCE",
+        "description": "/Lotus/Language/Items/StaffStanceADesc",
+        "tradable": true,
+        "introducedAt": 1397107694
+    },
+    "/Lotus/Upgrades/Mods/Warframe/AvatarSlideBoostMod": {
+        "name": "/Lotus/Language/Items/WarframeModSlideBoost",
+        "icon": "/Lotus/Interface/Cards/Images/AvatarMods/SlideResistanceDecreaseMod.png",
+        "polarity": "AP_TACTIC",
+        "rarity": "UNCOMMON",
+        "codexSecret": false,
+        "baseDrain": 6,
+        "fusionLimit": 5,
+        "isUtility": true,
+        "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
+        "compatName": "WARFRAME",
+        "type": "WARFRAME",
+        "tradable": true,
+        "introducedAt": 1379122770
+    },
+    "/Lotus/Upgrades/Mods/Warframe/AvatarPowerToHealthOnDeathMod": {
+        "name": "/Lotus/Language/Items/WarframeModPowerToHealthOnDeath",
+        "icon": "/Lotus/Interface/Cards/Images/AvatarMods/AvatarQuickThinkingMod.png",
+        "polarity": "AP_DEFENSE",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 10,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Types/Game/PowerSuits/PlayerPowerSuit",
+        "compatName": "WARFRAME",
+        "type": "WARFRAME",
+        "tradable": true,
+        "introducedAt": 1379122770
+    },
     "/Lotus/Types/Sentinels/SentinelPrecepts/LocateCreatures": {
         "name": "/Lotus/Language/Mods/LocateCreaturesMod",
         "icon": "/Lotus/Interface/Cards/Images/Pets/LocateCreatures.png",
