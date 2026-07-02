@@ -758,6 +758,8 @@ export interface IRelic {
     description: string;
     quality: TRelicQuality;
     rewardManifest: string;
+    introducedAt?: number;
+    vaultedAt?: number;
 }
 
 export interface IResource {
