@@ -194,6 +194,7 @@ export interface IBundle {
     creditsCost?: number;
     platinumCost?: number;
     excludeFromMarket?: true;
+    oneTimePurchasable?: true;
     bundledPlatinum?: number;
     platinumBundlePair?: string;
     excludedPlatforms?: TPlatform[];
@@ -711,6 +712,7 @@ export interface IRecipe {
     creditsCost?: number;
     platinumCost?: number;
     excludeFromMarket?: true;
+    oneTimePurchasable?: true;
 }
 
 export interface IRegion {
@@ -784,6 +786,7 @@ export interface IResource {
     dissectionParts?: ICountedItem[]; // for fish
     platinumCost?: number;
     excludeFromMarket?: true;
+    oneTimePurchasable?: true;
     purchaseQuantity?: number;
     pickupQuantity?: IRange;
     helminthSnack?: IHelminthSnack;
@@ -1107,6 +1110,7 @@ export interface IWeapon {
     creditsCost?: number;
     platinumCost?: number;
     excludeFromMarket?: true;
+    oneTimePurchasable?: true;
     variantType: "VT_NORMAL" | "VT_STARTER" | "VT_VARIANT" | "VT_SYNDICATE" | "VT_PRIME" | "VT_KUVA";
     partType?: string;
     gunType?: "GT_RIFLE" | "GT_SHOTGUN" | "GT_BEAM";
