@@ -125,6 +125,7 @@ export interface IArcane {
 
 export interface IAvionic {
     name: string;
+    icon: string;
     polarity: "AP_UNIVERSAL" | "AP_TACTIC" | "AP_DEFENSE" | "AP_ATTACK";
     rarity: TRarity;
     codexSecret: boolean;
