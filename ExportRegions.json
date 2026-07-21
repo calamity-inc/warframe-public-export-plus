@@ -12080,6 +12080,21 @@
         "levelOverride": "/Lotus/Levels/Proc/Hub/RelayStationHubMain",
         "nextNodes": []
     },
+    "IronwakeHUB3": {
+        "name": "/Lotus/Language/Locations/Ironwake",
+        "systemIndex": 2,
+        "systemName": "/Lotus/Language/Locations/Earth",
+        "nodeType": 3,
+        "masteryReq": 0,
+        "missionType": "MT_PVP",
+        "missionName": "/Lotus/Language/Missions/MissionName_PVP",
+        "minEnemyLevel": 0,
+        "maxEnemyLevel": 0,
+        "masteryExp": 0,
+        "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/HarrowQuest/ForestSteelMeridianQuestBase",
+        "nextNodes": []
+    },
     "TradeHUB1": {
         "name": "/Lotus/Language/Locations/RelayStationTrade",
         "systemIndex": 3,
@@ -12564,37 +12579,6 @@
             "SolNode175"
         ]
     },
-    "ErisToSednaJunction": {
-        "name": "/Lotus/Language/Locations/SednaJunction",
-        "systemIndex": 8,
-        "systemName": "/Lotus/Language/Locations/Pluto",
-        "nodeType": 7,
-        "masteryReq": 0,
-        "missionType": "MT_JUNCTION",
-        "missionName": "/Lotus/Language/Missions/MissionName_Junction",
-        "minEnemyLevel": 1,
-        "maxEnemyLevel": 1,
-        "masteryExp": 0,
-        "rewardManifests": [],
-        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
-        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantSarynAgent",
-        "missionReward": {
-            "credits": 100000,
-            "items": [
-                "/Lotus/StoreItems/Types/Recipes/Weapons/DualDaggerBlueprint",
-                "/Lotus/StoreItems/Types/Keys/MirageQuest/MirageQuestKeyChain"
-            ]
-        },
-        "challenges": [
-            "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESCompleteQuest",
-            "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESCompleteRailjackMission",
-            "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESGetKills",
-            "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESKillBossAmbulas"
-        ],
-        "nextNodes": [
-            "SolNode189"
-        ]
-    },
     "PlutoHUB": {
         "name": "/Lotus/Language/Locations/RelayStationPluto",
         "systemIndex": 8,
@@ -12643,6 +12627,37 @@
             "/Lotus/Types/Game/MissionDecks/BossMissionRewards/CowgirlRewards"
         ],
         "nextNodes": []
+    },
+    "ErisToSednaJunction": {
+        "name": "/Lotus/Language/Locations/SednaJunction",
+        "systemIndex": 10,
+        "systemName": "/Lotus/Language/Locations/Eris",
+        "nodeType": 7,
+        "masteryReq": 0,
+        "missionType": "MT_JUNCTION",
+        "missionName": "/Lotus/Language/Missions/MissionName_Junction",
+        "minEnemyLevel": 1,
+        "maxEnemyLevel": 1,
+        "masteryExp": 0,
+        "rewardManifests": [],
+        "levelOverride": "/Lotus/Levels/Proc/Hub/TennoJunctionProcLevel",
+        "vipAgent": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantSarynAgent",
+        "missionReward": {
+            "credits": 100000,
+            "items": [
+                "/Lotus/StoreItems/Types/Recipes/Weapons/DualDaggerBlueprint",
+                "/Lotus/StoreItems/Types/Keys/MirageQuest/MirageQuestKeyChain"
+            ]
+        },
+        "challenges": [
+            "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESCompleteQuest",
+            "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESCompleteRailjackMission",
+            "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESGetKills",
+            "/Lotus/Types/Challenges/StarChart/ErisToSedna/ESKillBossAmbulas"
+        ],
+        "nextNodes": [
+            "SolNode189"
+        ]
     },
     "ZarimanHub": {
         "name": "/Lotus/Language/Zariman/ZarimanHubName",
@@ -13691,6 +13706,52 @@
         "missionReward": {
             "credits": 150000
         },
+        "nextNodes": []
+    },
+    "JadeShadows2HUB": {
+        "name": "/Lotus/Language/JadeShadowsPart2Constellations/HunhowHubName",
+        "systemIndex": 6,
+        "systemName": "/Lotus/Language/Locations/Uranus_SPACE",
+        "nodeType": 3,
+        "masteryReq": 0,
+        "missionType": "MT_PVP",
+        "missionName": "/Lotus/Language/Missions/MissionName_PVP",
+        "minEnemyLevel": 0,
+        "maxEnemyLevel": 0,
+        "masteryExp": 0,
+        "rewardManifests": [],
+        "nextNodes": []
+    },
+    "CrewBattleNode561": {
+        "name": "/Lotus/Language/JadeShadowsPart2Constellations/GarudaRJMissionName",
+        "systemIndex": 6,
+        "systemName": "/Lotus/Language/Locations/Uranus_SPACE",
+        "nodeType": 0,
+        "masteryReq": 0,
+        "missionType": "MT_RAILJACK",
+        "faction": "FC_CORPUS",
+        "minEnemyLevel": 65,
+        "maxEnemyLevel": 70,
+        "masteryExp": 0,
+        "rewardManifests": [
+            "/Lotus/Types/Game/MissionDecks/JadeShadowsConstellationsRewards/JS2ScoriasAngelRewards"
+        ],
+        "nextNodes": []
+    },
+    "CrewBattleNode560": {
+        "name": "/Lotus/Language/JadeShadowsPart2Constellations/AshRJMissionName",
+        "systemIndex": 6,
+        "systemName": "/Lotus/Language/Locations/Uranus_SPACE",
+        "nodeType": 0,
+        "masteryReq": 0,
+        "missionType": "MT_RAILJACK",
+        "faction": "FC_CORPUS",
+        "minEnemyLevel": 65,
+        "maxEnemyLevel": 70,
+        "masteryExp": 0,
+        "rewardManifests": [
+            "/Lotus/Types/Game/MissionDecks/JadeShadowsConstellationsRewards/JS2KuvaWytchRewards"
+        ],
         "nextNodes": []
     }
 }
