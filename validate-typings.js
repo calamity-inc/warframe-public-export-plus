@@ -9,6 +9,7 @@ for (const line of indexTypes.split(/\r?\n/)) {
     types += "\n" + line.slice(21);
   }
 }
+types = types.replaceAll("readonly ", "");
 types += "\n}";
 
 console.log("Generating schemas...");

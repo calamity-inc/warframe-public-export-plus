@@ -50,7 +50,7 @@ export declare const ExportResources: Record<string, IResource>;
 export declare const ExportRewards: Record<string, TMissionDeck>;
 export declare const ExportSentinels: Record<string, ISentinel>;
 export declare const ExportSyndicates: Record<string, ISyndicate>;
-export declare const ExportSystems: ISystem[];
+export declare const ExportSystems: readonly ISystem[];
 export declare const ExportTextIcons: Record<string, ITextIcon>;
 export declare const ExportTilesets: Record<string, ITileset>;
 export declare const ExportUpgrades: Record<string, IUpgrade>;
@@ -90,7 +90,7 @@ export interface IAchievement {
     hidden?: true;
     requiredCount?: number;
     progressIndicatorFreq?: number;
-    children?: string[];
+    children?: readonly string[];
 }
 
 export interface IAnimal {
@@ -112,7 +112,7 @@ export interface IArcane {
     codexSecret: boolean;
     excludeFromCodex?: true;
     rarity: TRarity;
-    levelStats?: {
+    levelStats?: readonly {
         tag: string;
         sub: Record<string,
             { tag: string; sub: Record<string, string> }
@@ -138,8 +138,8 @@ export interface IBoosterPack {
     name: string;
     description: string;
     icon?: string;
-    components: IBoosterPackComponent[];
-    rarityWeightsPerRoll: Record<TRarity, number>[];
+    components: readonly IBoosterPackComponent[];
+    rarityWeightsPerRoll: readonly Record<TRarity, number>[];
     canGiveDuplicates: boolean;
     platinumCost?: number;
     excludeFromMarket?: true;
@@ -164,7 +164,7 @@ export interface IBounty {
     name: string;
     description: string;
     icon: string;
-    stages: string[][];
+    stages: readonly string[][];
 }
 
 export type TPlatform =
@@ -183,7 +183,7 @@ export interface IBundle {
     description?: string;
     icon?: string;
     excludeFromCodex?: true;
-    components: {
+    components: readonly {
         typeName: string;
         purchaseQuantity: number;
         durabilityDays?: number; // for boosters
@@ -197,7 +197,7 @@ export interface IBundle {
     oneTimePurchasable?: true;
     bundledPlatinum?: number;
     platinumBundlePair?: string;
-    excludedPlatforms?: TPlatform[];
+    excludedPlatforms?: readonly TPlatform[];
 }
 
 export interface IChallenge {
@@ -208,7 +208,7 @@ export interface IChallenge {
     icon?: string;
     requiredCount?: number;
     standing?: number;
-    countedRewards?: ICountedStoreItem[];
+    countedRewards?: readonly ICountedStoreItem[];
     message?: IInboxMessage;
 }
 
@@ -267,14 +267,14 @@ export interface ICustom {
     productCategory: "WeaponSkins" | "CrewShipWeaponSkins";
     alwaysAvailable?: true;
     requirement?: string;
-    additionalItems?: string[];
+    additionalItems?: readonly string[];
     tradable: boolean;
-    subroutines?: string[];
-    randomisedUpgrades?: {
+    subroutines?: readonly string[];
+    randomisedUpgrades?: readonly {
         tag: string;
-        range: number[];
+        range: readonly number[];
     }[];
-    excludedPlatforms?: TPlatform[];
+    excludedPlatforms?: readonly TPlatform[];
     platinumCost?: number;
     excludeFromMarket?: true;
 }
@@ -284,7 +284,7 @@ export interface IExportDojoRecipes {
     fabrications: Record<string, {
         resultType: string;
         price: number;
-        ingredients: ICountedItem[];
+        ingredients: readonly ICountedItem[];
     }>;
     rooms: Record<string, IDojoRoom>;
     decos: Record<string, IDojoDeco>;
@@ -302,7 +302,7 @@ export interface IDojoRecipe {
     price: number;
     time: number;
     skipTimePrice: number;
-    ingredients: ICountedItem[];
+    ingredients: readonly ICountedItem[];
     guildXpValue?: number;
 }
 
@@ -367,7 +367,7 @@ export interface IEnemyAgent {
         EXIMUS?: string;
         RARE?: string;
     };
-    items?: {
+    items?: readonly {
         type: string;
     }[];
 }
@@ -391,8 +391,8 @@ export interface IEnemyAvatar {
 export interface IDamageController {
     armor: number;
     shield: number;
-    unhandledProcTypes: TProcType[];
-    hitProxies?: {
+    unhandledProcTypes: readonly TProcType[];
+    hitProxies?: readonly {
         bone: string;
         type: string;
     }[];
@@ -408,14 +408,14 @@ export interface IAiWeapon {
     name?: string;
     description?: string;
     icon?: string;
-    behaviours?: IWeaponBehaviour[];
+    behaviours?: readonly IWeaponBehaviour[];
 }
 
-export type TDroptable = IRewardPool[];
+export type TDroptable = readonly IRewardPool[];
 export interface IRewardPool {
     type: "mod" | "blueprint" | "resource" | "sigil" | "additionalItem" | "relic";
     chance: number;
-    items: {
+    items: readonly {
         type: string;
         probability: number;
     }[];
@@ -451,8 +451,8 @@ export interface IFlavourItem {
     alwaysAvailable?: true;
     platinumCost?: number;
     excludeFromMarket?: true;
-    hexColours?: IColour[];
-    legacyColours?: IColour[];
+    hexColours?: readonly IColour[];
+    legacyColours?: readonly IColour[];
     titleTag?: string;
 }
 
@@ -471,7 +471,7 @@ export interface IFocusUpgrade {
     baseDrain: number;
     fusionLimit: number;
     excludeFromCodex: true;
-    levelStats: Record<string, string>[];
+    levelStats: readonly Record<string, string>[];
     description: string;
     baseFocusPointCost: number;
 }
@@ -504,7 +504,7 @@ export interface IIntrinsic {
     name: string;
     description: string;
     icon: string;
-    ranks: IIntrinsicRank[];
+    ranks: readonly IIntrinsicRank[];
 }
 
 export interface IIntrinsicRank {
@@ -516,8 +516,8 @@ export interface IInboxMessage {
     sender: string;
     title: string;
     body: string;
-    attachments: string[];
-    countedAttachments: ICountedItem[];
+    attachments: readonly string[];
+    countedAttachments: readonly ICountedItem[];
     icon?: string;
     transmission?: string;
     highPriority?: boolean;
@@ -527,9 +527,9 @@ export interface IInboxMessage {
 
 export interface IMissionReward {
     credits?: number;
-    items?: string[];
-    countedItems?: ICountedItem[];
-    countedStoreItems?: ICountedStoreItem[];
+    items?: readonly string[];
+    countedItems?: readonly ICountedItem[];
+    countedStoreItems?: readonly ICountedStoreItem[];
     droptable?: string;
 }
 
@@ -553,13 +553,13 @@ export interface IKey {
     codexSecret: boolean;
     excludeFromCodex?: true;
     replayable?: boolean;
-    chainStages?: {
+    chainStages?: readonly {
         key?: string;
-        itemsToGiveWhenTriggered: string[];
+        itemsToGiveWhenTriggered: readonly string[];
         messageToSendWhenTriggered?: IInboxMessage;
     }[];
     missionReward?: IMissionReward;
-    rewards?: TReward[];
+    rewards?: readonly TReward[];
     cacheRewardManifest?: string;
     mission?: {
         minEnemyLevel?: number;
@@ -631,7 +631,7 @@ export interface IModSet {
     description: string;
     icon: string;
     numUpgradesInSet: number;
-    levelStats: Record<string, string>[];
+    levelStats: readonly Record<string, string>[];
     buffSet?: boolean;
 }
 
@@ -646,7 +646,7 @@ export interface IExportNightwave {
         tip?: string;
         tipIcon?: string;
     }>;
-    rewards: {
+    rewards: readonly {
         uniqueName: string;
         name?: string;
         description?: string;
@@ -660,7 +660,7 @@ export interface IRailjackWeapon {
     parentName: string;
     icon: string;
     codexSecret: boolean;
-    damagePerShot?: number[];
+    damagePerShot?: readonly number[];
     totalDamage?: number;
     description: string;
     criticalChance?: number;
@@ -678,10 +678,10 @@ export interface IRailjackWeapon {
     magazineSize?: number;
     reloadTime?: number;
     multishot?: number;
-    compatibilityTags?: string[];
+    compatibilityTags?: readonly string[];
     variantType: "VT_NORMAL";
-    behaviours: IWeaponBehaviour[];
-    defaultUpgrades?: IDefaultUpgrade[];
+    behaviours: readonly IWeaponBehaviour[];
+    defaultUpgrades?: readonly IDefaultUpgrade[];
     creditsCost?: number;
     excludeFromMarket?: true;
 }
@@ -698,9 +698,9 @@ export interface IRecipe {
     alwaysAvailable?: true;
     hidden?: true;
     primeSellingPrice?: number;
-    ingredients: ICountedItem[];
+    ingredients: readonly ICountedItem[];
     secretIngredientAction?: "SIA_UNBRAND" | "SIA_SPECTRE_LOADOUT_COPY" | "SIA_GILD_WEAPON" | "SIA_CREATE_KUBROW" | "SIA_DISTILL_PRINT" | "SIA_WARFRAME_ABILITY";
-    secretIngredients?: {
+    secretIngredients?: readonly {
         ItemType: string;
         ItemCount: number;
     }[];
@@ -733,12 +733,12 @@ export interface IRegion {
     enemySpec?: string;
     extraEnemySpec?: string;
     vipAgent?: string;
-    customAdvancedSpawners?: string[];
+    customAdvancedSpawners?: readonly string[];
     missionReward?: IMissionReward;
     miscItemFee?: ICountedItem;
-    founders?: string[];
-    challenges?: string[];
-    rewardManifests: string[];
+    founders?: readonly string[];
+    challenges?: readonly string[];
+    rewardManifests: readonly string[];
     cacheRewardManifest?: string;
     darkSectorData?: {
         resourceBonus: number;
@@ -747,7 +747,7 @@ export interface IRegion {
         weaponXpBonusVal: number;
     };
     questReq?: string;
-    nextNodes: string[];
+    nextNodes: readonly string[];
     hidden?: true;
 }
 
@@ -780,10 +780,10 @@ export interface IResource {
     deco?: string; // for ShipDecorations & FusionTreasures
     capacityCost?: number; // for ShipDecorations & FusionTreasures
     dojoCapacityCost?: number; // for ShipDecorations & FusionTreasures
-    sockets?: string[]; // for FusionTreasures
+    sockets?: readonly string[]; // for FusionTreasures
     syndicateTag?: string; // for fish
     standingBonus?: number; // for fish
-    dissectionParts?: ICountedItem[]; // for fish
+    dissectionParts?: readonly ICountedItem[]; // for fish
     platinumCost?: number;
     excludeFromMarket?: true;
     oneTimePurchasable?: true;
@@ -792,8 +792,8 @@ export interface IResource {
     helminthSnack?: IHelminthSnack;
 }
 
-export type TMissionDeck = TRewardTier[];
-export type TRewardTier = IReward[];
+export type TMissionDeck = readonly TRewardTier[];
+export type TRewardTier = readonly IReward[];
 export interface IReward {
     type: string;
     itemCount: number;
@@ -814,8 +814,8 @@ export interface ISentinel {
     description: string;
     productCategory: "SpecialItems" | "KubrowPets" | "Sentinels" | "MoaPets";
     defaultWeapon?: string;
-    exalted?: string[];
-    defaultUpgrades?: IDefaultUpgrade[];
+    exalted?: readonly string[];
+    defaultUpgrades?: readonly IDefaultUpgrade[];
     platinumCost?: number;
     excludeFromMarket?: true;
 }
@@ -854,9 +854,9 @@ export interface ISyndicate {
     initiationSacrifice?: ISyndicateSacrifice;
     initiationReward?: string;
     alignments?: Record<string, number>;
-    dailyChallenges?: string[];
-    weeklyChallenges?: string[];
-    titles?: {
+    dailyChallenges?: readonly string[];
+    weeklyChallenges?: readonly string[];
+    titles?: readonly {
         level: number;
         name: string;
         icon?: string;
@@ -867,12 +867,12 @@ export interface ISyndicate {
         reward?: ICountedItem;
         storeItemReward?: string;
     }[];
-    medallions?: {
+    medallions?: readonly {
         itemType: string;
         standing: number;
     }[];
     medallionsCappedByDailyLimit?: boolean;
-    favours: {
+    favours: readonly {
         storeItem: string;
         standingCost: number;
         creditsCost: number;
@@ -882,7 +882,7 @@ export interface ISyndicate {
 }
 
 export interface ISyndicateSacrifice {
-    items: ICountedItem[];
+    items: readonly ICountedItem[];
     credits: number;
 }
 
@@ -891,7 +891,7 @@ export interface ISystem {
     name: string;
     droneDamage: IRange;
     damageChance: number;
-    resources: IPickUpTypeRarity[];
+    resources: readonly IPickUpTypeRarity[];
 }
 
 export interface IRange {
@@ -926,9 +926,9 @@ export interface ITileset {
 
 export interface ITilesetMission {
     procLevel: string;
-    enemySpecs?: string[];
-    extraEnemySpecs?: string[];
-    advancedSpawners?: string[];
+    enemySpecs?: readonly string[];
+    extraEnemySpecs?: readonly string[];
+    advancedSpawners?: readonly string[];
     vipAgent?: string;
 }
 
@@ -942,37 +942,37 @@ export interface IUpgrade {
     fusionLimit: number;
     compat?: string;
     compatName?: string;
-    compatibilityTags?: string[];
-    incompatibilityTags?: string[];
+    compatibilityTags?: readonly string[];
+    incompatibilityTags?: readonly string[];
     type?: string;
     description?: string;
     isUtility?: true;
     modSet?: string;
-    modSetValues?: number[];
+    modSetValues?: readonly number[];
     subtype?: string;
     excludeFromCodex?: true;
     isStarter?: true;
     isFrivolous?: true;
     tradable?: boolean;
-    upgradeEntries?: {
+    upgradeEntries?: readonly {
         tag: string;
         prefixTag: string;
         suffixTag: string;
         canBeBuff: boolean;
         canBeCurse: boolean;
-        upgradeValues: {
+        upgradeValues: readonly {
             value: number;
             locTag?: string;
             reverseValueSymbol?: boolean;
         }[];
     }[];
-    availableChallenges?: { // for rivens
+    availableChallenges?: readonly { // for rivens
         fullName: string;
         description: string;
         singleDescription?: string;
-        countRange: number[];
+        countRange: readonly number[];
         complicationChance: number;
-        complications: {
+        complications: readonly {
             fullName: string;
             description: string;
             overrideTag?: string;
@@ -980,9 +980,9 @@ export interface IUpgrade {
             weight: number;
         }[];
     }[];
-    compatibleItems?: string[]; // for rivens
-    levelStats?: {
-        stats: string[];
+    compatibleItems?: readonly string[]; // for rivens
+    levelStats?: readonly {
+        stats: readonly string[];
     }[];
     introducedAt?: number;
 }
@@ -991,13 +991,13 @@ export interface IVendor {
     isDynamic: boolean;
     isOneBinPerCycle?: boolean;
     requiredGoalTag?: string;
-    items: IVendorOffer[];
-    randomItemPricesPerBin?: {
+    items: readonly IVendorOffer[];
+    randomItemPricesPerBin?: readonly {
         type: string;
         count: IRange;
     }[][];
     numItems?: IRange;
-    numItemsPerBin?: number[];
+    numItemsPerBin?: readonly number[];
     randomSeedType?: "VRST_FLAVOUR_TEXT" | "VRST_WEAPON";
 }
 
@@ -1015,7 +1015,7 @@ export interface IVendorOffer {
         step: number;
     };
     platinum?: number | IRange;
-    itemPrices?: ICountedItem[];
+    itemPrices?: readonly ICountedItem[];
     numRandomItemPrices?: number;
     durationHours?: number | IRange;
     purchaseLimit?: number;
@@ -1051,13 +1051,13 @@ export interface IPowersuit {
     masteryReq: number;
     excludeFromCodex?: true;
     sprintSpeed: number;
-    abilities: ({ uniqueName: string } & IAbility)[];
+    abilities: readonly ({ uniqueName: string } & IAbility)[];
     passiveDescription?: string;
     productCategory: "Suits" | "SpaceSuits" | "MechSuits" | "SpecialItems";
-    exalted?: string[];
+    exalted?: readonly string[];
     longDescription?: string;
     variantType: "VT_NORMAL" | "VT_PRIME" | "VT_VARIANT";
-    additionalItems?: string[];
+    additionalItems?: readonly string[];
     nemesisUpgradeTag?: "InnateElectricityDamage" | "InnateHeatDamage" | "InnateFreezeDamage" | "InnateToxinDamage" | "InnateMagDamage" | "InnateRadDamage" | "InnateImpactDamage";
     maxLevelCap?: number;
     platinumCost?: number;
@@ -1070,7 +1070,7 @@ export interface IWeapon {
     parentName: string;
     icon: string;
     codexSecret: boolean;
-    damagePerShot?: number[];
+    damagePerShot?: readonly number[];
     totalDamage?: number;
     description: string;
     criticalChance?: number;
@@ -1088,8 +1088,8 @@ export interface IWeapon {
     magazineSize?: number;
     reloadTime?: number;
     multishot?: number;
-    compatibilityTags?: string[];
-    behaviours?: IWeaponBehaviour[];
+    compatibilityTags?: readonly string[];
+    behaviours?: readonly IWeaponBehaviour[];
     blockingAngle?: number;
     comboDuration?: number;
     followThrough?: number;
@@ -1115,8 +1115,8 @@ export interface IWeapon {
     partType?: string;
     gunType?: "GT_RIFLE" | "GT_SHOTGUN" | "GT_BEAM";
     donationStandingBonus?: number;
-    defaultUpgrades?: IDefaultUpgrade[];
-    additionalItems?: string[];
+    defaultUpgrades?: readonly IDefaultUpgrade[];
+    additionalItems?: readonly string[];
     bayonetOtherWeaponType?: string;
     tradable: boolean;
     introducedAt?: number;
