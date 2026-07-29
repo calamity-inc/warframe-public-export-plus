@@ -12,6 +12,7 @@
         "maxEnemyLevel": 11,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalA",
         "founders": [
             "InsideDreamer",
             "Fada",
@@ -66,6 +67,7 @@
         "masteryExp": 3,
         "tileset": "GrineerAsteroidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseA",
         "founders": [
             "MRTOOTZ",
             "Lunaticked",
@@ -123,6 +125,7 @@
         "masteryExp": 3,
         "tileset": "GrineerAsteroidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
         "founders": [
             "rehpycoren",
             "Cromaxion",
@@ -183,6 +186,7 @@
         "masteryExp": 3,
         "tileset": "GrineerAsteroidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsEasy",
         "founders": [
             "Ghost_Dragon",
@@ -242,6 +246,7 @@
         "masteryExp": 3,
         "tileset": "GrineerAsteroidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExterminateSimple",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateSimple",
         "founders": [
             "MAG4",
@@ -299,6 +304,7 @@
         "maxEnemyLevel": 10,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotageEasy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerInfestedMix",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersOne",
         "founders": [
             "Lasu",
@@ -359,6 +365,7 @@
         "maxEnemyLevel": 10,
         "masteryExp": 25,
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidBossVor",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
         "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/VorRework/CaptainVorBossReworkAgent",
         "founders": [
             "Laterite",
@@ -414,6 +421,7 @@
         "masteryExp": 3,
         "tileset": "GrineerAsteroidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExterminateSimple",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode94"
@@ -433,6 +441,7 @@
         "masteryExp": 3,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerDefenseA",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/InterceptionMissionRewardsEasy"
         ],
@@ -452,6 +461,7 @@
         "masteryExp": 3,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadOne",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyLowMissionRewards"
@@ -475,6 +485,7 @@
         "masteryExp": 3,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateFire",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode119"
@@ -494,6 +505,7 @@
         "masteryExp": 24,
         "tileset": "VenusLandscapeTileset",
         "levelOverride": "/Lotus/Levels/Proc/CivilianHubs/VenusLandscape",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusVenus",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode104"
@@ -513,6 +525,7 @@
         "masteryExp": 18,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSurvivalA",
         "founders": [
             "Ridentlor",
             "PrinceGumball",
@@ -569,6 +582,7 @@
         "masteryExp": 24,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotageEasy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusSabotageTiersA",
         "founders": [
             "Mastablasta",
@@ -629,6 +643,7 @@
         "masteryExp": 18,
         "tileset": "CorpusOutpostTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateSimple",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "founders": [
             "DarkHumorXIII",
@@ -686,6 +701,7 @@
         "masteryExp": 18,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadDefenseB",
         "founders": [
             "Bang_Doll",
             "NigJesus",
@@ -745,6 +761,7 @@
         "masteryExp": 18,
         "tileset": "CorpusOutpostTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateSimple",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "founders": [
             "rotrik",
@@ -801,6 +818,7 @@
         "masteryExp": 18,
         "tileset": "CorpusOutpostTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "founders": [
             "codi2325",
@@ -860,6 +878,7 @@
         "masteryExp": 41,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipJackalBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
         "vipAgent": "/Lotus/Types/Enemies/Corpus/QuadRobot/QuadRobotAgentNEW",
         "founders": [
             "hole",
@@ -917,6 +936,7 @@
         "masteryExp": 18,
         "tileset": "CorpusOutpostTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersADropship",
         "founders": [
             "Uong",
@@ -977,6 +997,7 @@
         "masteryExp": 0,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipPurgatorySquad",
         "missionReward": {
             "credits": 10000
@@ -1006,6 +1027,7 @@
         "masteryExp": 18,
         "tileset": "CorpusOutpostTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsEasyDropship",
         "founders": [
             "Elevorot",
@@ -1064,6 +1086,7 @@
         "masteryExp": 18,
         "tileset": "CorpusOutpostTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "founders": [
             "Habanero",
@@ -1125,6 +1148,7 @@
         "masteryExp": 18,
         "tileset": "CorpusOutpostTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExcavation",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExcavationA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "founders": [
             "Cassum",
@@ -1182,6 +1206,7 @@
         "masteryExp": 0,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipPurgatorySquad",
         "missionReward": {
             "credits": 10000
@@ -1210,6 +1235,7 @@
         "maxEnemyLevel": 45,
         "masteryExp": 50,
         "levelOverride": "/Lotus/Levels/Muse/Proc/MuseHubRandomized",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Shadowgrapher/ShadowGrapherSpec",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ShadowgrapherMissionRewards/ShadowgrapherRewards"
         ],
@@ -1229,6 +1255,7 @@
         "masteryExp": 18,
         "tileset": "ArchwingCorpusTrenchrunTileset",
         "levelOverride": "/Lotus/Levels/SpaceBattles/TRExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/TRExterminateTiered",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ArchwingExterminateRewards"
         ],
@@ -1248,6 +1275,7 @@
         "masteryExp": 24,
         "tileset": "GrineerForestTilesetCaves",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestCaptureCaves",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerSquadOne",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsEasy",
         "vipAgent": "/Lotus/Types/Enemies/CaptureTargets/CaptureTargetGrineerMercuryAgent",
         "founders": [
@@ -1309,6 +1337,7 @@
         "masteryExp": 24,
         "tileset": "GrineerForestTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerExterminate",
         "founders": [
             "philversprechend",
             "Ded_Sek",
@@ -1363,6 +1392,7 @@
         "masteryExp": 24,
         "tileset": "GrineerForestTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerSquadOne",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersForest",
         "founders": [
             "ZEDD",
@@ -1421,6 +1451,7 @@
         "masteryExp": 24,
         "tileset": "GrineerForestTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestExcavation",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerExcavationA",
         "founders": [
             "BlackScythe",
             "FaalKorum",
@@ -1479,6 +1510,7 @@
         "masteryExp": 24,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
         "founders": [
             "Mortarion",
             "Barael",
@@ -1536,6 +1568,7 @@
         "masteryExp": 24,
         "tileset": "GrineerForestTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerDefenseForest",
         "founders": [
             "Roujou",
             "RetroNights",
@@ -1590,6 +1623,7 @@
         "masteryExp": 24,
         "tileset": "GrineerOceanTilesetAnywhere",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanExterminateAnywhere",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFive",
         "founders": [
             "Wolf-of-Fenrir",
             "Detroid",
@@ -1643,6 +1677,7 @@
         "masteryExp": 20,
         "tileset": "GrineerForestTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerDefenseForest",
         "founders": [
             "PowerWagonKevin",
             "MA347612890GT4078579132R",
@@ -1699,6 +1734,7 @@
         "masteryExp": 24,
         "tileset": "GrineerForestTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerExterminate",
         "founders": [
             "Rynax",
             "Arlayn",
@@ -1752,6 +1788,7 @@
         "masteryExp": 24,
         "tileset": "GrineerForestTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestGrineerSquadOne",
         "founders": [
             "Tenoji",
             "AMadGenus",
@@ -1812,6 +1849,7 @@
         "masteryExp": 24,
         "tileset": "GrineerForestTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/ForestBossGrineerSquadOne",
         "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/Hek/HekBipedAgent",
         "founders": [
             "un4given",
@@ -1871,6 +1909,7 @@
         "masteryExp": 0,
         "tileset": "GrineerForestTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseA",
         "missionReward": {
             "credits": 12000
         },
@@ -1899,6 +1938,7 @@
         "masteryExp": 24,
         "tileset": "ArchwingGrineerSpaceTileset",
         "levelOverride": "/Lotus/Levels/Proc/Space/SpaceGrineerMobileDefenseProcLevel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpaceGrineerExt",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ArchwingMobileDRewards"
         ],
@@ -1920,6 +1960,7 @@
         "masteryExp": 0,
         "tileset": "GrineerForestTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerForestExcavation",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExcavationA",
         "missionReward": {
             "credits": 12000
         },
@@ -1949,6 +1990,7 @@
         "masteryExp": 24,
         "tileset": "EidolonTileset",
         "levelOverride": "/Lotus/Levels/Proc/CivilianHubs/EidolonLandscape",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerEidolon",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode39"
@@ -1967,6 +2009,7 @@
         "maxEnemyLevel": 15,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/FiveFates/CetusInvasion.level",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/FiveFatesDefense",
         "vipAgent": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/Oni/InfestedOniAgent",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/FiveFatesRewards/FiveFatesRewards"
@@ -1987,6 +2030,7 @@
         "masteryExp": 51,
         "tileset": "GrineerSettlementTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementDisruption",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSettlementSurvivalA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionGrineerGhouls",
         "founders": [
             "Dac2142",
@@ -2042,6 +2086,7 @@
         "masteryExp": 51,
         "tileset": "GrineerSettlementTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
         "founders": [
             "Ryladar",
             "Avenwing",
@@ -2098,6 +2143,7 @@
         "masteryExp": 51,
         "tileset": "GrineerSettlementTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerDefenseA",
         "founders": [
             "Fraggoth",
             "Hazzrak",
@@ -2157,6 +2203,7 @@
         "masteryExp": 51,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateTech",
         "founders": [
             "Lumbering_Troll",
             "savageFRAME2000",
@@ -2207,6 +2254,7 @@
         "masteryExp": 51,
         "tileset": "GrineerSettlementTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerExterminate",
         "founders": [
             "Grimhowl",
             "Fawk",
@@ -2263,6 +2311,7 @@
         "masteryExp": 51,
         "tileset": "GrineerSettlementTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerDefenseA",
         "founders": [
             "Mikhalio",
             "nexterts",
@@ -2318,6 +2367,7 @@
         "masteryExp": 51,
         "tileset": "GrineerSettlementTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersDesert",
         "founders": [
             "Thyrious",
@@ -2377,6 +2427,7 @@
         "masteryExp": 51,
         "tileset": "CorpusIcePlanetTilesetCaves",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExterminateCaves",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerExterminate",
         "founders": [
             "Dhekhanur",
@@ -2436,6 +2487,7 @@
         "masteryExp": 51,
         "tileset": "GrineerSettlementTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementExcavation",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSettlementExcavationA",
         "founders": [
             "Trive",
             "Zerroth",
@@ -2495,6 +2547,7 @@
         "masteryExp": 51,
         "tileset": "GrineerSettlementTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsMedium",
         "founders": [
             "FBC",
@@ -2555,6 +2608,7 @@
         "masteryExp": 51,
         "tileset": "GrineerSettlementTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne",
         "founders": [
             "Baitski",
             "PromethiousNathyra",
@@ -2617,6 +2671,7 @@
         "masteryExp": 0,
         "tileset": "GrineerSettlementTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseA",
         "missionReward": {
             "credits": 14000
         },
@@ -2645,6 +2700,7 @@
         "masteryExp": 51,
         "tileset": "GrineerSettlementTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOneNoManic",
         "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/BossLechKrilAgent",
         "founders": [
             "Crothurzix",
@@ -2702,6 +2758,7 @@
         "maxEnemyLevel": 12,
         "masteryExp": 45,
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotageEasy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusSabotageTiersA",
         "founders": [
             "filth",
@@ -2760,6 +2817,7 @@
         "masteryExp": 0,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipPurgatorySquad",
         "missionReward": {
             "credits": 14000
@@ -2789,6 +2847,7 @@
         "masteryExp": 51,
         "tileset": "GrineerSettlementTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerSettlementMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DesertGrineerExterminate",
         "founders": [
             "lordshogun",
             "Drachau",
@@ -2844,6 +2903,7 @@
         "masteryExp": 51,
         "tileset": "ArchwingGrineerSpaceTileset",
         "levelOverride": "/Lotus/Levels/Proc/Space/SpaceGrineerExterminateProcLevel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpaceGrineerExt",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ArchwingExterminateRewards"
         ],
@@ -2863,6 +2923,7 @@
         "masteryExp": 18,
         "tileset": "CorpusOutpostTileset",
         "levelOverride": "/Lotus/Levels/Proc/LastWish/LastWishDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGrineerDesertMix",
         "founders": [
             "Habanero",
             "Onryu",
@@ -2921,6 +2982,7 @@
         "masteryExp": 51,
         "tileset": "CorpusGasCityTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityDisruption",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusAmalgamEndless",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionCorpusAmalgams",
         "founders": [
             "Cybele",
@@ -2984,6 +3046,7 @@
         "masteryExp": 51,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GasCorpusSabotageTiersBC",
         "founders": [
             "Lithon",
@@ -3039,6 +3102,7 @@
         "masteryExp": 51,
         "tileset": "CorpusGasCityTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersD",
         "founders": [
             "Feather",
@@ -3099,6 +3163,7 @@
         "masteryExp": 51,
         "tileset": "CorpusGasCityTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/RescueGasCity",
         "founders": [
             "Hybrass",
@@ -3160,6 +3225,7 @@
         "masteryExp": 51,
         "tileset": "CorpusGasCityTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterDefenseSquad",
         "founders": [
             "Albatrosse",
             "Ahrtimmer",
@@ -3215,6 +3281,7 @@
         "masteryExp": 51,
         "tileset": "CorpusGasCityTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCitySurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasSurvival",
         "founders": [
             "Inequal",
             "Daeron",
@@ -3274,6 +3341,7 @@
         "masteryExp": 51,
         "tileset": "CorpusGasCityTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCitySabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusGasSabotageHeavyEnemies",
         "founders": [
             "TheVeteran",
@@ -3331,6 +3399,7 @@
         "masteryExp": 51,
         "tileset": "CorpusGasCityTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterDefenseSquad",
         "founders": [
             "SpaecCaeks",
             "Jyuubei",
@@ -3388,6 +3457,7 @@
         "masteryExp": 51,
         "tileset": "CorpusGasCityTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasExterminateMixed",
         "founders": [
             "Cademus",
             "Quexyz",
@@ -3447,6 +3517,7 @@
         "masteryExp": 51,
         "tileset": "CorpusGasCityTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad",
         "vipAgent": "/Lotus/Types/Enemies/Corpus/Vip/AladV/AladBossAgent",
         "founders": [
             "Cogrock",
@@ -3507,6 +3578,7 @@
         "masteryExp": 51,
         "tileset": "CorpusGasCityTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasExterminateMixed",
         "founders": [
             "Sexy.EXE",
             "StreetPreacher",
@@ -3563,6 +3635,7 @@
         "masteryExp": 55,
         "tileset": "CorpusGasCityTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityRopalolystBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquadRopalolyst",
         "vipAgent": "/Lotus/Types/Enemies/Sentients/Ropalolyst/SentientRopalolystAgent",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RopalolystModRewards",
@@ -3584,6 +3657,7 @@
         "masteryExp": 0,
         "tileset": "CorpusGasCityTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseA",
         "missionReward": {
             "credits": 14000
         },
@@ -3612,6 +3686,7 @@
         "masteryExp": 51,
         "tileset": "CorpusGasCityTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCityCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsMedium",
         "vipAgent": "/Lotus/Types/Enemies/CaptureTargets/CaptureTargetCorpusFlyingAgent",
         "founders": [
@@ -3671,6 +3746,7 @@
         "masteryExp": 51,
         "tileset": "ArchwingCorpusTrenchrunTileset",
         "levelOverride": "/Lotus/Levels/SpaceBattles/TRSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/TRExterminateB",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ArchwingSabotageRewards"
         ],
@@ -3690,6 +3766,7 @@
         "masteryExp": 0,
         "tileset": "CorpusGasCityTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusGasCitySurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalA",
         "missionReward": {
             "credits": 14000
         },
@@ -3718,6 +3795,7 @@
         "masteryExp": 55,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerDefenseA",
         "founders": [
             "SkyKit",
             "siriuslux",
@@ -3776,6 +3854,7 @@
         "masteryExp": 49,
         "tileset": "GrineerAsteroidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThreeAsteroid",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadThree",
         "founders": [
             "FanaticGamer",
@@ -3834,6 +3913,7 @@
         "masteryExp": 55,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalA",
         "founders": [
             "Plagueoffire",
             "Revhan",
@@ -3887,6 +3967,7 @@
         "masteryExp": 55,
         "tileset": "GrineerAsteroidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThreeAsteroid",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadThree",
         "founders": [
             "ACRONYNJA",
@@ -3945,6 +4026,7 @@
         "masteryExp": 55,
         "tileset": "GrineerAsteroidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateFire",
         "founders": [
             "Baitski",
             "LatencyRemix",
@@ -4000,6 +4082,7 @@
         "masteryExp": 55,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour",
         "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/SargasRuk/SargasRukBossAgent",
         "founders": [
             "Tom_Hamster",
@@ -4055,6 +4138,7 @@
         "masteryExp": 55,
         "tileset": "GrineerAsteroidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerDefenseAAsteroid",
         "founders": [
             "Bishuu",
             "Xitel",
@@ -4112,6 +4196,7 @@
         "masteryExp": 55,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateTech",
         "founders": [
             "Nanascow",
             "Masu.Buu",
@@ -4169,6 +4254,7 @@
         "masteryExp": 55,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsHard",
         "founders": [
             "Con5tantine",
@@ -4228,6 +4314,7 @@
         "masteryExp": 55,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour",
         "founders": [
             "Bharagha",
             "GabeRage",
@@ -4284,6 +4371,7 @@
         "masteryExp": 55,
         "tileset": "GrineerAsteroidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFiveAsteroid",
         "founders": [
             "thefirstrobo",
             "GlassRaven",
@@ -4341,6 +4429,7 @@
         "masteryExp": 55,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersFive",
         "founders": [
             "Dinkydan",
@@ -4400,6 +4489,7 @@
         "masteryExp": 55,
         "tileset": "ArchwingGrineerSpaceTileset",
         "levelOverride": "/Lotus/Levels/Proc/Space/SpaceGrineerPursuitProcLevel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpaceGrineerA",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ArchwingPursuitRewards"
         ],
@@ -4421,6 +4511,7 @@
         "masteryExp": 0,
         "tileset": "GrineerAsteroidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalA",
         "missionReward": {
             "credits": 14000
         },
@@ -4451,6 +4542,7 @@
         "masteryExp": 0,
         "tileset": "GrineerAsteroidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonColonistRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedColonistRescueA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/ColonistRescueAgentsA",
         "missionReward": {
             "credits": 14000
@@ -4480,6 +4572,7 @@
         "masteryExp": 69,
         "tileset": "GrineerOceanTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadTwo",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsHard",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
@@ -4544,6 +4637,7 @@
         "masteryExp": 69,
         "tileset": "GrineerOceanTilesetAnywhere",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanAssassinate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFour",
         "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/TylRegor/TylRegorAgent",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
@@ -4606,6 +4700,7 @@
         "masteryExp": 69,
         "tileset": "GrineerOceanTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerDefenseA",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
         ],
@@ -4666,6 +4761,7 @@
         "masteryExp": 69,
         "tileset": "GrineerOceanTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSurvivalA",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
@@ -4727,6 +4823,7 @@
         "masteryExp": 69,
         "tileset": "GrineerOceanTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerExterminate",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
@@ -4785,6 +4882,7 @@
         "masteryExp": 69,
         "tileset": "GrineerOceanTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadTwo",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemies",
         "vipAgent": "/Lotus/Types/Enemies/Grineer/AIWeek/ManicRocketBombard",
         "customAdvancedSpawners": [
@@ -4848,6 +4946,7 @@
         "masteryExp": 69,
         "tileset": "GrineerOceanTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanSpy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadThree",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersOcean",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer",
@@ -4909,6 +5008,7 @@
         "masteryExp": 69,
         "tileset": "GrineerOceanTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFive",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
@@ -4975,6 +5075,7 @@
         "masteryExp": 44,
         "tileset": "GrineerOceanTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanExterminateSharkwing",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerExterminate",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
@@ -5036,6 +5137,7 @@
         "masteryExp": 0,
         "tileset": "GrineerAsteroidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonDisruption",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionInfested",
         "missionReward": {
             "credits": 16000
@@ -5065,6 +5167,7 @@
         "masteryExp": 69,
         "tileset": "GrineerOceanTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerExterminate",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA",
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
@@ -5126,6 +5229,7 @@
         "masteryExp": 69,
         "tileset": "GrineerOceanTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerOceanDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerDefenseA",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientScoutScanEventSpawnerGrineer"
         ],
@@ -5187,6 +5291,7 @@
         "masteryExp": 69,
         "tileset": "ArchwingGrineerSpaceTileset",
         "levelOverride": "/Lotus/Levels/Proc/Space/SpaceGrineerInterceptionProcLevel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpaceGrineerDefenseC",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/InterceptionMissionRewards/ArchwingInterceptionMissionRewardsHard"
         ],
@@ -5206,6 +5311,7 @@
         "masteryExp": 0,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalB",
         "missionReward": {
             "credits": 16000
         },
@@ -5234,6 +5340,7 @@
         "masteryExp": 52,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipExterminateMixed",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
@@ -5295,6 +5402,7 @@
         "masteryExp": 52,
         "tileset": "CorpusOutpostTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadC",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsHardDropship",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
@@ -5356,6 +5464,7 @@
         "masteryExp": 52,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadDefenseB",
         "founders": [
             "Gotenks_Jr",
             "leadmax",
@@ -5413,6 +5522,7 @@
         "masteryExp": 52,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
@@ -5475,6 +5585,7 @@
         "masteryExp": 52,
         "tileset": "CorpusOutpostTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExcavation",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExcavationB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
@@ -5540,6 +5651,7 @@
         "masteryExp": 52,
         "tileset": "CorpusOutpostTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpost",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusHeavyEnemiesDropship",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
@@ -5602,6 +5714,7 @@
         "masteryExp": 52,
         "tileset": "CorpusIcePlanetTilesetCaves",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExterminateCaves",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateHumans",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "founders": [
             "Akairra",
@@ -5659,6 +5772,7 @@
         "masteryExp": 52,
         "tileset": "ArchwingCorpusTrenchrunTileset",
         "levelOverride": "/Lotus/Levels/SpaceBattles/TRMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/TRExterminateTiered",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ArchwingMobileDRewards"
         ],
@@ -5680,6 +5794,7 @@
         "masteryExp": 52,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipHyenaAssassinate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
         "vipAgent": "/Lotus/Types/Enemies/Corpus/Vip/Hyena/HyenaPack",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
@@ -5741,6 +5856,7 @@
         "masteryExp": 52,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipDisruption",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSurvivalA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionCorpusShip",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/ErrantSpecterInvasion"
@@ -5802,6 +5918,7 @@
         "masteryExp": 52,
         "tileset": "CorpusIcePlanetTilesetCaves",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetSpyCaves",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersBDropship",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
@@ -5864,6 +5981,7 @@
         "masteryExp": 0,
         "tileset": "InfestedCorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipColonistRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedColonistRescueA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/ColonistRescueAgentsA",
         "missionReward": {
             "credits": 18000
@@ -5893,6 +6011,7 @@
         "masteryExp": 0,
         "tileset": "InfestedCorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalB",
         "missionReward": {
             "credits": 18000
         },
@@ -5921,6 +6040,7 @@
         "masteryExp": 51,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipExterminateMixed",
         "founders": [
             "Kaiuku",
             "Fairchild",
@@ -5978,6 +6098,7 @@
         "masteryExp": 51,
         "tileset": "CorpusOutpostTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropshipAmbulas",
         "founders": [
             "Testickler",
@@ -6037,6 +6158,7 @@
         "masteryExp": 51,
         "tileset": "CorpusOutpostTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadC",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropshipAmbulas",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
@@ -6101,6 +6223,7 @@
         "masteryExp": 51,
         "tileset": "CorpusOutpostTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropshipAmbulas",
         "founders": [
             "Cythe69",
@@ -6157,6 +6280,7 @@
         "masteryExp": 51,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsHard",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
@@ -6219,6 +6343,7 @@
         "masteryExp": 51,
         "tileset": "CorpusOutpostTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostAmbulasBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadC",
         "vipAgent": "/Lotus/Types/Enemies/Corpus/Vip/Ambulas/AmbulasPackAgent",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
@@ -6291,6 +6416,7 @@
         "masteryExp": 51,
         "tileset": "CorpusOutpostTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateMixed",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropshipAmbulas",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
@@ -6351,6 +6477,7 @@
         "masteryExp": 51,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
@@ -6412,6 +6539,7 @@
         "masteryExp": 51,
         "tileset": "CorpusOutpostTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropshipAmbulas",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
@@ -6473,6 +6601,7 @@
         "masteryExp": 51,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSurvivalA",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
         ],
@@ -6535,6 +6664,7 @@
         "masteryExp": 0,
         "tileset": "CorpusOutpostTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
         "missionReward": {
             "credits": 20000
         },
@@ -6563,6 +6693,7 @@
         "masteryExp": 51,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSpyTiers",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
@@ -6626,6 +6757,7 @@
         "masteryExp": 0,
         "tileset": "CorpusOutpostTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExcavation",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExcavationB",
         "missionReward": {
             "credits": 20000
         },
@@ -6654,6 +6786,7 @@
         "masteryExp": 163,
         "tileset": "GrineerShipyardsTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateBlades",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
@@ -6713,6 +6846,7 @@
         "masteryExp": 163,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersTwo",
         "founders": [
             "Pairadix",
@@ -6769,6 +6903,7 @@
         "masteryExp": 163,
         "tileset": "GrineerShipyardsTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsSpy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadThree",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
@@ -6835,6 +6970,7 @@
         "masteryExp": 163,
         "tileset": "GrineerShipyardsTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsMedium",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
@@ -6897,6 +7033,7 @@
         "masteryExp": 163,
         "tileset": "GrineerShipyardsTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
@@ -6955,6 +7092,7 @@
         "masteryExp": 163,
         "tileset": "GrineerShipyardsTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/RescueShipyards",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
@@ -7015,6 +7153,7 @@
         "masteryExp": 163,
         "tileset": "GrineerShipyardsTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateBlades",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
@@ -7074,6 +7213,7 @@
         "masteryExp": 163,
         "tileset": "GrineerShipyardsTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsRetrieval",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
@@ -7130,6 +7270,7 @@
         "masteryExp": 163,
         "tileset": "GrineerShipyardsTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsAssassinate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA",
         "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/KrillAndVorBossFight",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
@@ -7192,6 +7333,7 @@
         "masteryExp": 163,
         "tileset": "GrineerShipyardsTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsDefenseA",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
@@ -7253,6 +7395,7 @@
         "masteryExp": 163,
         "tileset": "GrineerShipyardsTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsDefenseA",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
@@ -7316,6 +7459,7 @@
         "masteryExp": 163,
         "tileset": "GrineerAsteroidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalAAsteroid",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/GrineerWorkerSpawner"
         ],
@@ -7372,6 +7516,7 @@
         "masteryExp": 0,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalB",
         "missionReward": {
             "credits": 20000
         },
@@ -7400,6 +7545,7 @@
         "masteryExp": 0,
         "tileset": "GrineerShipyardsTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
         "missionReward": {
             "credits": 20000
         },
@@ -7428,6 +7574,7 @@
         "masteryExp": 279,
         "tileset": "InfestedCorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadA",
         "founders": [
             "Grimfall",
             "Betongrau",
@@ -7487,6 +7634,7 @@
         "masteryExp": 279,
         "tileset": "InfestedCorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
         "founders": [
             "NagaJones",
             "Zauberpudding",
@@ -7543,6 +7691,7 @@
         "masteryExp": 279,
         "tileset": "InfestedCorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadC",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsHard",
         "founders": [
             "Jillo",
@@ -7604,6 +7753,7 @@
         "masteryExp": 279,
         "tileset": "InfestedCorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExterminateMixed",
         "founders": [
             "Sfeed",
             "Sluggo",
@@ -7655,6 +7805,7 @@
         "masteryExp": 279,
         "tileset": "CorpusIcePlanetTilesetCaves",
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipPurify",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
         "founders": [
             "SortaNEET",
             "Dagnome",
@@ -7713,6 +7864,7 @@
         "masteryExp": 279,
         "tileset": "InfestedCorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalB",
         "founders": [
             "Meskalyyn",
             "FatBastrd",
@@ -7772,6 +7924,7 @@
         "masteryExp": 279,
         "tileset": "InfestedCorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExterminateSwarm",
         "founders": [
             "McGuffin",
             "Phosphorus",
@@ -7828,6 +7981,7 @@
         "masteryExp": 0,
         "tileset": "InfestedCorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
         "missionReward": {
             "credits": 18000
         },
@@ -7856,6 +8010,7 @@
         "masteryExp": 279,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipPurgatorySquad",
         "founders": [
             "Ryukerz",
@@ -7915,6 +8070,7 @@
         "masteryExp": 0,
         "tileset": "InfestedCorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalB",
         "missionReward": {
             "credits": 18000
         },
@@ -7943,6 +8099,7 @@
         "masteryExp": 279,
         "tileset": "InfestedCorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedHiveSquadA",
         "founders": [
             "Prexx",
             "Nassergamez",
@@ -8001,6 +8158,7 @@
         "masteryExp": 177,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonDisruption",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionGrineer",
         "founders": [
             "Vilrein",
@@ -8056,6 +8214,7 @@
         "masteryExp": 177,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersFive",
         "founders": [
             "Bluesnarf",
@@ -8114,6 +8273,7 @@
         "masteryExp": 177,
         "tileset": "GrineerAsteroidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSixAsteroid",
         "founders": [
             "Maeka",
             "Yorinar",
@@ -8171,6 +8331,7 @@
         "masteryExp": 177,
         "tileset": "GrineerOceanTileset",
         "levelOverride": "/Lotus/Levels/KelaArenas/OceanArena.level",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveTDMGrnChampionsNightmare",
         "missionReward": {
             "countedItems": [
                 {
@@ -8238,6 +8399,7 @@
         "masteryExp": 177,
         "tileset": "GrineerShipyardsTileset",
         "levelOverride": "/Lotus/Levels/KelaArenas/ShipyardsArena.level",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveTDMGrnChampionsMed",
         "missionReward": {
             "countedItems": [
                 {
@@ -8303,6 +8465,7 @@
         "masteryExp": 50,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsInterceptionTwo",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsDefenseA",
         "founders": [
             "cunhadutra",
             "Chasa2",
@@ -8361,6 +8524,7 @@
         "masteryExp": 177,
         "tileset": "GrineerAsteroidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalAAsteroid",
         "founders": [
             "SilverBones",
             "Teran",
@@ -8416,6 +8580,7 @@
         "masteryExp": 177,
         "tileset": "GrineerShipyardsTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsRetrieval",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
         "founders": [
             "MrSuperDuck",
             "Baelzebub",
@@ -8472,6 +8637,7 @@
         "masteryExp": 177,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadSix",
         "founders": [
             "Hilgrad",
@@ -8530,6 +8696,7 @@
         "masteryExp": 177,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
         "founders": [
             "Garuda1",
             "przibilla",
@@ -8589,6 +8756,7 @@
         "masteryExp": 177,
         "tileset": "GrineerOceanTileset",
         "levelOverride": "/Lotus/Levels/KelaArenas/OceanArena.level",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveTDMGrnChampionsHard",
         "missionReward": {
             "countedItems": [
                 {
@@ -8656,6 +8824,7 @@
         "masteryExp": 100,
         "tileset": "GrineerAsteroidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidBossKela",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
         "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/KelaDeThaym/KelaDeThaymAgent",
         "miscItemFee": {
             "ItemType": "/Lotus/Types/Items/MiscItems/KelaArenaToken",
@@ -8714,6 +8883,7 @@
         "masteryExp": 177,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateBlades",
         "founders": [
             "Siza",
             "fratous",
@@ -8770,6 +8940,7 @@
         "masteryExp": 177,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerDefenseA",
         "founders": [
             "MrFahrenheit",
             "bomboras",
@@ -8827,6 +8998,7 @@
         "masteryExp": 0,
         "tileset": "GrineerGalleonTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalA",
         "missionReward": {
             "credits": 16000
         },
@@ -8855,6 +9027,7 @@
         "masteryExp": 0,
         "tileset": "GrineerAsteroidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
         "missionReward": {
             "credits": 16000
         },
@@ -8883,6 +9056,7 @@
         "masteryExp": 138,
         "tileset": "CorpusIcePlanetTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsMediumDropship",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
@@ -8943,6 +9117,7 @@
         "masteryExp": 138,
         "tileset": "InfestedCorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExterminateToxic",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
         "founders": [
             "KaranVess",
@@ -9000,6 +9175,7 @@
         "masteryExp": 138,
         "tileset": "CorpusIcePlanetTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateHumans",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
@@ -9060,6 +9236,7 @@
         "masteryExp": 138,
         "tileset": "CorpusIcePlanetTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetAssassinate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadE",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "vipAgent": "/Lotus/Types/Enemies/Corpus/Drones/Vip/RaptorPack",
         "founders": [
@@ -9117,6 +9294,7 @@
         "masteryExp": 138,
         "tileset": "CorpusIcePlanetTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "founders": [
             "Enzeru",
@@ -9174,6 +9352,7 @@
         "masteryExp": 138,
         "tileset": "CorpusIcePlanetTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExcavation",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExcavationB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
@@ -9234,6 +9413,7 @@
         "masteryExp": 138,
         "tileset": "CorpusIcePlanetTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetHijack",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadD",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
@@ -9295,6 +9475,7 @@
         "masteryExp": 138,
         "tileset": "CorpusIcePlanetTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
@@ -9357,6 +9538,7 @@
         "masteryExp": 138,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipInfestedMix",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSpyTiers",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
@@ -9414,6 +9596,7 @@
         "masteryExp": 138,
         "tileset": "CorpusIcePlanetTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "founders": [
             "BlackDogCpt",
@@ -9470,6 +9653,7 @@
         "masteryExp": 138,
         "tileset": "CorpusIcePlanetTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusDropship",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
@@ -9533,6 +9717,7 @@
         "masteryExp": 0,
         "tileset": "CorpusIcePlanetTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
         "missionReward": {
             "credits": 16000
         },
@@ -9561,6 +9746,7 @@
         "masteryExp": 138,
         "tileset": "CorpusIcePlanetTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusHeavyEnemiesDropship",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/CorpusModularSpawner"
@@ -9622,6 +9808,7 @@
         "masteryExp": 0,
         "tileset": "CorpusIcePlanetTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExcavation",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExcavationB",
         "missionReward": {
             "credits": 16000
         },
@@ -9650,6 +9837,7 @@
         "masteryExp": 0,
         "tileset": "OrokinVoidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinExterminateA",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidLowLevelRewards"
         ],
@@ -9671,6 +9859,7 @@
         "masteryExp": 0,
         "tileset": "OrokinVoidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSquadOne",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargetsMedium",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidLowLevelRewards"
@@ -9693,6 +9882,7 @@
         "masteryExp": 0,
         "tileset": "OrokinVoidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinDefenseSquad",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidEndlessLowLevelRewards"
         ],
@@ -9712,6 +9902,7 @@
         "masteryExp": 0,
         "tileset": "OrokinVoidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinExterminateA",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidMedLevelRewards"
         ],
@@ -9733,6 +9924,7 @@
         "masteryExp": 0,
         "tileset": "OrokinVoidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerSabotageForest",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSquadOne",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSabotageGrineerForest",
         "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/JetpackSisters/JetpackSisters",
         "rewardManifests": [
@@ -9757,6 +9949,7 @@
         "masteryExp": 0,
         "tileset": "OrokinVoidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSurvivalA",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidEndlessMedLevelRewards"
         ],
@@ -9776,6 +9969,7 @@
         "masteryExp": 0,
         "tileset": "OrokinVoidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSquadOne",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsHard",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidHighLevelRewards"
@@ -9798,6 +9992,7 @@
         "masteryExp": 0,
         "tileset": "OrokinVoidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinExterminateB",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidHighLevelRewards"
         ],
@@ -9819,6 +10014,7 @@
         "masteryExp": 0,
         "tileset": "OrokinVoidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinDefenseSquadB",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidEndlessHighLevelRewards"
         ],
@@ -9838,6 +10034,7 @@
         "masteryExp": 0,
         "tileset": "OrokinVoidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSurvivalB",
         "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/VorTwo/VorTwoBossAgent",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidEndlessUltraLevelRewards"
@@ -9858,6 +10055,7 @@
         "masteryExp": 0,
         "tileset": "OrokinVoidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinExterminateB",
         "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/VorTwo/VorTwoBossAgent",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidUltraLevelRewards"
@@ -9879,6 +10077,7 @@
         "maxEnemyLevel": 45,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerSabotageIcePlanet",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSquadTwo",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSabotageCorpus",
         "vipAgent": "/Lotus/Types/Enemies/Corpus/QuadRobot/MiniBoss/QuadRobotMiniBossAgent",
         "rewardManifests": [
@@ -9903,6 +10102,7 @@
         "masteryExp": 0,
         "tileset": "OrokinVoidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerInterception",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinDefenseSquadB",
         "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/VorTwo/VorTwoBossAgent",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/VoidPrimeVault/VoidEndlessUltraLevelRewards"
@@ -9925,6 +10125,7 @@
         "masteryExp": 157,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipExterminateHumans",
         "founders": [
             "Uriel05",
             "GATORx",
@@ -9981,6 +10182,7 @@
         "masteryExp": 157,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSurvivalA",
         "founders": [
             "Rebul",
             "EtHoc",
@@ -10036,6 +10238,7 @@
         "masteryExp": 157,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsMedium",
         "founders": [
             "Meck900",
@@ -10095,6 +10298,7 @@
         "masteryExp": 157,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
         "founders": [
             "jhomini22",
             "TheWolfsLunch",
@@ -10150,6 +10354,7 @@
         "masteryExp": 157,
         "tileset": "ArchwingCorpusTrenchrunTileset",
         "levelOverride": "/Lotus/Levels/SpaceBattles/TRRace",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/TRRaceA",
         "founders": [
             "FurryHawk",
             "ChuTora58",
@@ -10207,6 +10412,7 @@
         "masteryExp": 157,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipExterminateMixed",
         "founders": [
             "LionCub",
             "EXrumia",
@@ -10264,6 +10470,7 @@
         "masteryExp": 157,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadDefenseB",
         "founders": [
             "Qu3er",
             "Deathstroke1985",
@@ -10319,6 +10526,7 @@
         "masteryExp": 157,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShipIntel",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSpyTiers",
         "founders": [
             "samok79",
@@ -10375,6 +10583,7 @@
         "masteryExp": 0,
         "tileset": "GrineerAsteroidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidColonistRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedColonistRescueA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/ColonistRescueAgentsA",
         "missionReward": {
             "credits": 16000
@@ -10404,6 +10613,7 @@
         "masteryExp": 100,
         "tileset": "CorpusShipTileset",
         "levelOverride": "/Lotus/Levels/Proc/Corpus/CorpusShip",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
         "vipAgent": "/Lotus/Types/Enemies/Corpus/Spaceman/Vip/SniperAgent",
         "founders": [
             "xNEOxThief",
@@ -10460,6 +10670,7 @@
         "masteryExp": 0,
         "tileset": "GrineerAsteroidTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalA",
         "missionReward": {
             "credits": 16000
         },
@@ -10488,6 +10699,7 @@
         "masteryExp": 0,
         "tileset": "OrokinDerelictTileset",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedCorpusMixSquadA",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
@@ -10513,6 +10725,7 @@
         "masteryExp": 0,
         "tileset": "OrokinDerelictTileset",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DerelictDefenseRewards"
         ],
@@ -10534,6 +10747,7 @@
         "masteryExp": 0,
         "tileset": "OrokinDerelictTileset",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExterminateMixed",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerExterminateBlades",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
@@ -10558,6 +10772,7 @@
         "masteryExp": 0,
         "tileset": "OrokinDerelictTileset",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedExterminateMixed",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
         ],
@@ -10580,6 +10795,7 @@
         "masteryExp": 0,
         "tileset": "OrokinDerelictTileset",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictSabotageSettlement",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadD",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/OrokinSabotageGrineerSettlement",
         "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/JetpackSisters/JetpackSisters",
         "customAdvancedSpawners": [
@@ -10606,6 +10822,7 @@
         "masteryExp": 0,
         "tileset": "OrokinDerelictTileset",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictSurvivalRaid",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalB",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/KavatSpawner"
         ],
@@ -10630,6 +10847,7 @@
         "masteryExp": 0,
         "tileset": "OrokinDerelictTileset",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/InfestedSquadD",
         "vipAgent": "/Lotus/Types/Enemies/Infested/Vip/GolemFullAgent",
         "missionReward": {
             "credits": 7500
@@ -10655,6 +10873,7 @@
         "masteryExp": 0,
         "tileset": "OrokinDerelictTileset",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictMutalistBoss",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistInfestedSquad",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/WeaveMutalistEnemies",
         "missionReward": {
             "credits": 7500
@@ -10675,6 +10894,7 @@
         "maxEnemyLevel": 30,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Infestation/InfestedMicroplanetLandscape",
+        "enemySpec": "/Lotus/Types/Gameplay/InfestedMicroplanet/MissionAiSpecs/InfestedMicroplanetTestSquad",
         "rewardManifests": [],
         "nextNodes": [
             "DeimosHub"
@@ -10694,6 +10914,7 @@
         "masteryExp": 0,
         "tileset": "EntratiTileset",
         "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiLabSwarm",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiSwarmSpec",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/SwarmAssassinationRewards"
         ],
@@ -10714,6 +10935,7 @@
         "masteryExp": 0,
         "tileset": "EntratiTileset",
         "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiLabExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiExterminateSpec",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/EntratiExterminateRewards"
         ],
@@ -10734,6 +10956,7 @@
         "masteryExp": 0,
         "tileset": "EntratiTileset",
         "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiLabSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiSurvivalSpec",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/EntratiSurvivalRewards"
         ],
@@ -10754,6 +10977,7 @@
         "masteryExp": 0,
         "tileset": "EntratiTileset",
         "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiLabAlchemy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiAlchemySpec",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/EntratiAlchemyRewards"
         ],
@@ -10774,6 +10998,7 @@
         "masteryExp": 0,
         "tileset": "EntratiTileset",
         "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiLabMirrorDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiMirrorDefenseSpec",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/EntratiLoopDefenseRewards"
         ],
@@ -10794,6 +11019,7 @@
         "masteryExp": 0,
         "tileset": "EntratiTileset",
         "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiLabDisruption",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiSurvivalSpec",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionEntratiLab",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/EntratiDisruptionRewards"
@@ -10816,6 +11042,7 @@
         "masteryExp": 0,
         "tileset": "OrokinMoonTilesetGrineer",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerMoonExterminate",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientTrooperSpawner"
@@ -10843,6 +11070,7 @@
         "masteryExp": 0,
         "tileset": "OrokinMoonTilesetCorpus",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonSpy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusGrineerMix",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusGrineerMixMoonIntelTiers",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/SpyMoonMissionRewards"
@@ -10865,6 +11093,7 @@
         "masteryExp": 0,
         "tileset": "OrokinMoonTilesetCorpus",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSurvivalB",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientTrooperSpawner"
         ],
@@ -10889,6 +11118,7 @@
         "masteryExp": 0,
         "tileset": "OrokinMoonTilesetGrineer",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerMoonDefense",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsHard"
         ],
@@ -10910,6 +11140,7 @@
         "masteryExp": 0,
         "tileset": "OrokinMoonTilesetCorpus",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonCapture",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadE",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargetsHard",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/CaptureMissionRewardsA"
@@ -10932,6 +11163,7 @@
         "masteryExp": 0,
         "tileset": "OrokinMoonTilesetGrineer",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerMoonExterminate",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientTrooperSpawner"
         ],
@@ -10955,6 +11187,7 @@
         "masteryExp": 0,
         "tileset": "OrokinMoonTilesetCorpus",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSquadD",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/RescueCorrupted",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsHard"
@@ -10977,6 +11210,7 @@
         "masteryExp": 0,
         "tileset": "OrokinMoonTilesetCorpus",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonDisruption",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/CorpusSurvivalB",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionCorpusLua",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientTrooperSpawner"
@@ -11001,6 +11235,7 @@
         "masteryExp": 0,
         "tileset": "OrokinMoonTilesetGrineer",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonSurvivalVoidEclipse",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/VoidEclipseSurvival",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientTrooperSpawner"
         ],
@@ -11026,6 +11261,7 @@
         "masteryExp": 0,
         "tileset": "OrokinMoonTilesetGrineer",
         "levelOverride": "/Lotus/Levels/Proc/Orokin/OrokinMoonSurvivalVoidEclipse",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/VoidEclipseSurvival",
         "customAdvancedSpawners": [
             "/Lotus/Types/Enemies/AdvancedSpawners/SentientTrooperSpawner"
         ],
@@ -11049,6 +11285,7 @@
         "masteryExp": 0,
         "tileset": "GrineerFortressTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressSabotage",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFortressThree",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemiesFortress",
         "rewardManifests": [],
         "nextNodes": [
@@ -11070,6 +11307,7 @@
         "masteryExp": 0,
         "tileset": "GrineerFortressTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerDefenseFortress",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DefenseMissionRewards/DefenseMissionRewardsHard"
         ],
@@ -11091,6 +11329,7 @@
         "masteryExp": 0,
         "tileset": "GrineerFortressTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerFortressExterminate",
         "rewardManifests": [],
         "nextNodes": [
             "SolNode748"
@@ -11110,6 +11349,7 @@
         "masteryExp": 0,
         "tileset": "GrineerFortressTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalFortress",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SurvivalMissionRewards/QueenHighLevelRewards"
         ],
@@ -11129,6 +11369,7 @@
         "masteryExp": 0,
         "tileset": "GrineerFortressTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressDisruption",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalFortress",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionGrineerFortress",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionFortressRewards"
@@ -11149,6 +11390,7 @@
         "masteryExp": 0,
         "tileset": "GrineerFortressTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerFortressExterminate",
         "rewardManifests": [],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsFortress",
         "questReq": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyChain",
@@ -11170,6 +11412,7 @@
         "masteryExp": 0,
         "tileset": "GrineerFortressTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressSpy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFortressOne",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersFortress",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/SpyMissionRewards/QueensSpyHighMissionRewards"
@@ -11192,6 +11435,7 @@
         "masteryExp": 0,
         "tileset": "GrineerFortressTileset",
         "levelOverride": "/Lotus/Levels/Proc/Grineer/GrineerFortressRescue",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerSquadFortressThree",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/RescueMissionRewards/RescueMissionRewardsHard"
         ],
@@ -11213,6 +11457,7 @@
         "masteryExp": 0,
         "tileset": "ZarimanTileset",
         "levelOverride": "/Lotus/Levels/Proc/Zariman/ZarimanCorruption",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Zariman/ZarimanCorruptedAISpec",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/Zariman/ZarimanCorruptedSquad",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/VoidFloodRewards"
@@ -11234,6 +11479,7 @@
         "masteryExp": 0,
         "tileset": "ZarimanTileset",
         "levelOverride": "/Lotus/Levels/Proc/Zariman/ZarimanDirectionalExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Zariman/GrineerZarimanExterminate",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/ZarimanExterminateRewards"
         ],
@@ -11254,6 +11500,7 @@
         "masteryExp": 0,
         "tileset": "ZarimanTileset",
         "levelOverride": "/Lotus/Levels/Proc/Zariman/ZarimanDirectionalSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Zariman/GrineerZarimanSurvival",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/VoidCascadeRewards"
         ],
@@ -11274,6 +11521,7 @@
         "masteryExp": 0,
         "tileset": "ZarimanTileset",
         "levelOverride": "/Lotus/Levels/Proc/Zariman/ZarimanAssassinateEndless",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Zariman/GrineerZarimanEndlessAssassinateSpec",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/VoidArmageddonRewards"
         ],
@@ -11294,6 +11542,7 @@
         "masteryExp": 0,
         "tileset": "ZarimanTileset",
         "levelOverride": "/Lotus/Levels/Proc/Zariman/ZarimanMobileDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Zariman/GrineerZarimanMobileDefenseSpec",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/ZarimanMobileDefenseRewards"
         ],
@@ -11313,6 +11562,7 @@
         "maxEnemyLevel": 20,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Duviri/DuviriLandscapeJealous",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DuviriLandscape",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DuviriEncounterRewards/DuviriResourceRewards"
         ],
@@ -11332,6 +11582,7 @@
         "maxEnemyLevel": 20,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Duviri/DuviriLandscape",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DuviriLandscape",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DuviriEncounterRewards/DuviriResourceRewards"
         ],
@@ -11351,6 +11602,7 @@
         "maxEnemyLevel": 55,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Duviri/DuviriLandscapeArenasOnly",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/DuviriLandscape",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DuviriEncounterRewards/DuviriCircuitResourceRewards"
         ],
@@ -11370,6 +11622,7 @@
         "maxEnemyLevel": 70,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaCaptureWinterWet",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/VaniaEndlessCaptureSpec",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/EndlessCaptureRewards"
         ],
@@ -11389,6 +11642,7 @@
         "maxEnemyLevel": 70,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaSurvivalScaldraWinterWet",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/VaniaExterminateScaldraSpec",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/ScaldraSurvivalRewards"
         ],
@@ -11408,6 +11662,7 @@
         "maxEnemyLevel": 70,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaSurvivalTechrotWinterWet",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/VaniaExterminateTechrotSpec",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/InfestedSurvivalRewards"
         ],
@@ -11427,6 +11682,7 @@
         "maxEnemyLevel": 70,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaExterminateScaldraWinterWet",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/VaniaExterminateScaldraSpec",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/EscalatingExterminateRewards"
         ],
@@ -11447,6 +11703,7 @@
         "maxEnemyLevel": 70,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaExterminateTechrotSummer",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/VaniaExterminateTechrotSpec",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/EscalatingExterminateRewards"
         ],
@@ -11467,6 +11724,7 @@
         "maxEnemyLevel": 70,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaPvPvEWinterWet",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/VaniaExterminateScaldraSpec",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/PvPvEVsAiRewards"
         ],
@@ -11486,6 +11744,7 @@
         "maxEnemyLevel": 70,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaAssassinationWinterWet",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/VaniaExterminateScaldraSpec",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/TankAssassinateRewards"
         ],
@@ -11505,6 +11764,7 @@
         "maxEnemyLevel": 70,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaPvPvEWinterWet",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/VaniaExterminateScaldraSpec",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/PvPvEVsAiRewards"
         ],
@@ -11524,6 +11784,7 @@
         "maxEnemyLevel": 70,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/Vania/VaniaEchoesDefenseWinterWet",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionScaldraSpec",
         "vipAgent": "/Lotus/Types/Friendly/Agents/TempleDefenseAgent",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/DefenseRewards"
@@ -11544,6 +11805,7 @@
         "maxEnemyLevel": 70,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/TauPrequel/TauPrequel12MinWarNodeA",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Tau/Tau12MinWarGrineerSpec",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/Tau/Tau12MinWarDaxSpec",
         "missionReward": {
             "countedItems": [
@@ -11572,6 +11834,7 @@
         "maxEnemyLevel": 70,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/TauPrequel/TauPrequel12MinWarNodeB",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Tau/Tau12MinWarGrineerSpec",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/Tau/Tau12MinWarDaxSpec",
         "missionReward": {
             "countedItems": [
@@ -11600,6 +11863,7 @@
         "maxEnemyLevel": 70,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/TauPrequel/TauPrequel12MinWarNodeC",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Tau/Tau12MinWarGrineerSpec",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/Tau/Tau12MinWarDaxSpec",
         "missionReward": {
             "countedItems": [
@@ -11693,6 +11957,7 @@
         "maxEnemyLevel": 170,
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/Proc/TauPrequel/TauPrequel12MinWarNodeDHardMode",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Tau/Tau12MinWarHardModeGrineerSpec",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/Tau/Tau12MinWarDaxSpec",
         "missionReward": {
             "countedItems": [
@@ -11951,6 +12216,7 @@
         "masteryExp": 0,
         "rewardManifests": [],
         "levelOverride": "/Lotus/Levels/NokkoColony/Proc/NokkoColony",
+        "enemySpec": "/Lotus/Types/Gameplay/NokkoColony/EnemySpecs/NokkoAllAI",
         "nextNodes": []
     },
     "VenusToMercuryJunction": {
@@ -12225,6 +12491,7 @@
         "rewardManifests": [],
         "tileset": "EntratiTileset",
         "levelOverride": "/Lotus/Levels/Proc/EntratiLab/EntratiVoidVault",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiVoidVaultsSpec",
         "nextNodes": [],
         "hidden": true
     },
@@ -12388,6 +12655,7 @@
             "/Lotus/Types/Game/MissionDecks/AscensionMissionRewards/AscensionRewards"
         ],
         "levelOverride": "/Lotus/Levels/Proc/JadeShadows/JSStalkerCaveHubElevator",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/AscensionSpec",
         "questReq": "/Lotus/Types/Keys/JadeShadows/JadeShadowQuestKeyChain",
         "nextNodes": [],
         "hidden": true
@@ -12725,6 +12993,7 @@
         "masteryExp": 0,
         "rewardManifests": [],
         "levelOverride": "/Lotus/Levels/1999/Railjack/RJLasXEarthCombined1Poi",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/LasXStadiumSpace",
         "nextNodes": [],
         "hidden": true
     },
@@ -12762,6 +13031,7 @@
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackEarthCacheRewards",
         "tileset": "GrineerRailjackEarthTileset",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackEarthCombinedExterminateNoPoiProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminate",
         "missionReward": {
             "credits": 32000
         },
@@ -12787,6 +13057,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackEarthCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackEarthCombinedExterminate1PoiProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminate",
         "missionReward": {
             "credits": 38000
         },
@@ -12811,6 +13082,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackEarthCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackEarthCombinedExterminate1PoiProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminate",
         "missionReward": {
             "credits": 42500
         },
@@ -12835,6 +13107,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackEarthCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackEarthCombinedExterminate1Poi1GalleonProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminate",
         "missionReward": {
             "credits": 45000
         },
@@ -12859,6 +13132,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackEarthCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackEarthCombinedExterminate1PoiProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminate",
         "missionReward": {
             "credits": 45000
         },
@@ -12883,6 +13157,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackVenusStanchionVolatile",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShip",
         "missionReward": {
             "credits": 33750
         },
@@ -12908,6 +13183,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackVenusStanchionOrphix",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShip",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/MechEventExtraSpec",
         "vipAgent": "/Lotus/Types/Enemies/Sentients/Condrix/SentientCondrixAgentMechEvent",
         "missionReward": {
@@ -12935,6 +13211,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackVenusStanchionSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShip",
         "missionReward": {
             "credits": 41250
         },
@@ -12959,6 +13236,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackVenusPillarDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipDefense",
         "missionReward": {
             "credits": 45000
         },
@@ -12983,6 +13261,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackVenusStanchionExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShip",
         "missionReward": {
             "credits": 30000
         },
@@ -13007,6 +13286,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackVenusCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackVenusStanchionSpy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShip",
         "missionReward": {
             "credits": 37500
         },
@@ -13029,6 +13309,7 @@
         "rewardManifests": [],
         "tileset": "GrineerRailjackSaturnTileset",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/Nemesis/RailJackSaturnNemesisAssassinateProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipNemesisAssassinate",
         "missionReward": {
             "credits": 70000
         },
@@ -13053,6 +13334,7 @@
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackSaturnCacheRewards",
         "tileset": "GrineerRailjackSaturnTileset",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackSaturnExterminateCombined1PoiProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminateSaturn",
         "missionReward": {
             "credits": 50000
         },
@@ -13078,6 +13360,7 @@
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackSaturnCacheRewards",
         "tileset": "GrineerRailjackSaturnTileset",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackSaturnExterminateCombined1PoiProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminateSaturn",
         "missionReward": {
             "credits": 55000
         },
@@ -13103,6 +13386,7 @@
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackSaturnCacheRewards",
         "tileset": "GrineerRailjackSaturnTileset",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackSaturnExterminateCombined1PoiProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminateSaturn",
         "missionReward": {
             "credits": 50000
         },
@@ -13128,6 +13412,7 @@
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackSaturnCacheRewards",
         "tileset": "GrineerRailjackSaturnTileset",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackSaturnExterminateCombined1PoiProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminateSaturn",
         "missionReward": {
             "credits": 70000
         },
@@ -13152,6 +13437,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackSaturnCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackSaturnExterminateCombined1Poi1AsteroidProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminateSaturn",
         "missionReward": {
             "credits": 75000
         },
@@ -13173,6 +13459,7 @@
         "masteryExp": 0,
         "rewardManifests": [],
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackNeptunePillarNemesisAssassinate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipNeptune",
         "nextNodes": [],
         "hidden": true
     },
@@ -13193,6 +13480,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackNeptuneStanchionDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipNeptuneDefense",
         "missionReward": {
             "credits": 50000
         },
@@ -13217,6 +13505,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackNeptuneStanchionExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipNeptune",
         "missionReward": {
             "credits": 56250
         },
@@ -13241,6 +13530,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackNeptunePillarOrphix",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipNeptune",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/MechEventExtraSpec",
         "vipAgent": "/Lotus/Types/Enemies/Sentients/Condrix/SentientCondrixAgentMechEvent",
         "missionReward": {
@@ -13267,6 +13557,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackNeptunePillarSpy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipNeptune",
         "missionReward": {
             "credits": 75000
         },
@@ -13291,6 +13582,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackNeptunePillarSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipNeptune",
         "missionReward": {
             "credits": 62500
         },
@@ -13315,6 +13607,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackNeptuneCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackNeptuneObeliskVolatile",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipNeptune",
         "missionReward": {
             "credits": 75000
         },
@@ -13339,6 +13632,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackPlutoCharonStanchionOrphix",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipPluto",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/MechEventExtraSpec",
         "vipAgent": "/Lotus/Types/Enemies/Sentients/Condrix/SentientCondrixAgentMechEvent",
         "missionReward": {
@@ -13365,6 +13659,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackPlutoCharonPillarExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipPluto",
         "missionReward": {
             "credits": 90000
         },
@@ -13389,6 +13684,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackPlutoCharonPillarDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipPlutoDefense",
         "missionReward": {
             "credits": 100000
         },
@@ -13413,6 +13709,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackPlutoCharonPillarSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipPluto",
         "missionReward": {
             "credits": 100000
         },
@@ -13437,6 +13734,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackPlutoCharonObeliskVolatile",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipPluto",
         "missionReward": {
             "credits": 110000
         },
@@ -13461,6 +13759,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackPlutoCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackPlutoCharonObeliskSpy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipPluto",
         "missionReward": {
             "credits": 120000
         },
@@ -13485,6 +13784,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackDeepSpaceCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace01ExterminateCombined1Poi1RadarProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminateDeepSpace",
         "missionReward": {
             "credits": 92500
         },
@@ -13509,6 +13809,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackDeepSpaceCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace01ExterminateCombined1Poi1MissilePlatProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminateDeepSpace",
         "missionReward": {
             "credits": 115000
         },
@@ -13533,6 +13834,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackDeepSpaceCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace01ExterminateCombined1Poi1HangarProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminateDeepSpace",
         "missionReward": {
             "credits": 135000
         },
@@ -13557,6 +13859,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/GrineerRailjackDeepSpaceCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace02ExterminateCombined1Poi1GalleonProc",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminateDeepSpace",
         "missionReward": {
             "credits": 85000
         },
@@ -13581,6 +13884,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace03StanchionExterminate",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipDS",
         "missionReward": {
             "credits": 125000
         },
@@ -13605,6 +13909,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace03PillarVolatile",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipDS",
         "missionReward": {
             "credits": 131250
         },
@@ -13629,6 +13934,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace03ObeliskDefense",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipDSDefense",
         "missionReward": {
             "credits": 137500
         },
@@ -13653,6 +13959,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace03ObeliskOrphix",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipDS",
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/MechEventExtraSpec",
         "vipAgent": "/Lotus/Types/Enemies/Sentients/Condrix/SentientCondrixAgentMechEvent",
         "missionReward": {
@@ -13679,6 +13986,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace03ObeliskSurvival",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipDS",
         "missionReward": {
             "credits": 150000
         },
@@ -13703,6 +14011,7 @@
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/RailjackMissionRewards/CorpusRailjackDeepSpaceCacheRewards",
         "levelOverride": "/Lotus/Levels/Railjack/Proc/RailJackDeepSpace03ObeliskSpy",
+        "enemySpec": "/Lotus/Types/Game/EnemySpecs/RJIntroCorpusCrewShipDS",
         "missionReward": {
             "credits": 150000
         },
