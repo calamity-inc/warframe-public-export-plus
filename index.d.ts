@@ -746,6 +746,8 @@ export interface IRegion {
         weaponXpBonusFor: "Rifles" | "Melee" | "Shotguns" | "Pistols";
         weaponXpBonusVal: number;
     };
+    questReqs?: string[];
+    /** @deprecated */
     questReq?: string;
     nextNodes: readonly string[];
     hidden?: true;

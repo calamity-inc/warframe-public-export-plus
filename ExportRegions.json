@@ -1973,6 +1973,9 @@
             "weaponXpBonusFor": "Melee",
             "weaponXpBonusVal": 0.08
         },
+        "questReqs": [
+            "/Lotus/Types/Keys/GlassQuest/GlassQuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/GlassQuest/GlassQuestKeyChain",
         "nextNodes": []
     },
@@ -2965,6 +2968,9 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/LastWishMissionRewards/LastWishRewards"
         ],
+        "questReqs": [
+            "/Lotus/Types/Keys/InfestedMicroplanetQuest/InfestedMicroplanetQuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/InfestedMicroplanetQuest/InfestedMicroplanetQuestKeyChain",
         "nextNodes": []
     },
@@ -3026,6 +3032,9 @@
         ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionRewards"
+        ],
+        "questReqs": [
+            "/Lotus/Types/Keys/SentientQuest/SentientQuestKeyChain"
         ],
         "questReq": "/Lotus/Types/Keys/SentientQuest/SentientQuestKeyChain",
         "nextNodes": [
@@ -10918,6 +10927,9 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/SwarmAssassinationRewards"
         ],
+        "questReqs": [
+            "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain",
         "nextNodes": []
     },
@@ -10938,6 +10950,9 @@
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiExterminateSpec",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/EntratiExterminateRewards"
+        ],
+        "questReqs": [
+            "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain"
         ],
         "questReq": "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain",
         "nextNodes": []
@@ -10960,6 +10975,9 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/EntratiSurvivalRewards"
         ],
+        "questReqs": [
+            "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain",
         "nextNodes": []
     },
@@ -10980,6 +10998,9 @@
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiAlchemySpec",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/EntratiAlchemyRewards"
+        ],
+        "questReqs": [
+            "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain"
         ],
         "questReq": "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain",
         "nextNodes": []
@@ -11002,6 +11023,9 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/EntratiLoopDefenseRewards"
         ],
+        "questReqs": [
+            "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain",
         "nextNodes": []
     },
@@ -11023,6 +11047,10 @@
         "extraEnemySpec": "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionEntratiLab",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/EntratiMissionRewards/EntratiDisruptionRewards"
+        ],
+        "questReqs": [
+            "/Lotus/Types/Keys/ProteaQuest/ProteaQuestKeyChain",
+            "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain"
         ],
         "questReq": "/Lotus/Types/Keys/EntratiLab/EntratiQuestKeyChain",
         "nextNodes": []
@@ -11049,6 +11077,9 @@
         ],
         "rewardManifests": [],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsMoon",
+        "questReqs": [
+            "/Lotus/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/OrokinMoonQuest/OrokinMoonQuestKeyChain",
         "nextNodes": [
             "SolNode304",
@@ -11217,6 +11248,9 @@
         ],
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DisruptionMissionRewards/DisruptionLuaRewards"
+        ],
+        "questReqs": [
+            "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyChain"
         ],
         "questReq": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyChain",
         "nextNodes": []
@@ -11393,6 +11427,9 @@
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/GrineerFortressExterminate",
         "rewardManifests": [],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/CacheRewardsFortress",
+        "questReqs": [
+            "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyChain",
         "nextNodes": [
             "SolNode741"
@@ -11462,6 +11499,9 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/VoidFloodRewards"
         ],
+        "questReqs": [
+            "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain",
         "nextNodes": []
     },
@@ -11482,6 +11522,9 @@
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/Zariman/GrineerZarimanExterminate",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/ZarimanExterminateRewards"
+        ],
+        "questReqs": [
+            "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain"
         ],
         "questReq": "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain",
         "nextNodes": []
@@ -11504,6 +11547,9 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/VoidCascadeRewards"
         ],
+        "questReqs": [
+            "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain",
         "nextNodes": []
     },
@@ -11524,6 +11570,9 @@
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/Zariman/GrineerZarimanEndlessAssassinateSpec",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/VoidArmageddonRewards"
+        ],
+        "questReqs": [
+            "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain"
         ],
         "questReq": "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain",
         "nextNodes": []
@@ -11546,6 +11595,9 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/ZarimanMobileDefenseRewards"
         ],
+        "questReqs": [
+            "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain",
         "nextNodes": []
     },
@@ -11565,6 +11617,9 @@
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/DuviriLandscape",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DuviriEncounterRewards/DuviriResourceRewards"
+        ],
+        "questReqs": [
+            "/Lotus/Types/Keys/DuviriQuest/DuviriQuestKeyChain"
         ],
         "questReq": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestKeyChain",
         "nextNodes": []
@@ -11586,6 +11641,9 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DuviriEncounterRewards/DuviriResourceRewards"
         ],
+        "questReqs": [
+            "/Lotus/Types/Keys/DuviriQuest/DuviriQuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestKeyChain",
         "nextNodes": []
     },
@@ -11605,6 +11663,9 @@
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/DuviriLandscape",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/DuviriEncounterRewards/DuviriCircuitResourceRewards"
+        ],
+        "questReqs": [
+            "/Lotus/Types/Keys/DuviriQuest/DuviriQuestKeyChain"
         ],
         "questReq": "/Lotus/Types/Keys/DuviriQuest/DuviriQuestKeyChain",
         "nextNodes": []
@@ -11626,6 +11687,9 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/EndlessCaptureRewards"
         ],
+        "questReqs": [
+            "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain",
         "nextNodes": []
     },
@@ -11646,6 +11710,9 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/ScaldraSurvivalRewards"
         ],
+        "questReqs": [
+            "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain",
         "nextNodes": []
     },
@@ -11665,6 +11732,9 @@
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/VaniaExterminateTechrotSpec",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/InfestedSurvivalRewards"
+        ],
+        "questReqs": [
+            "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
         ],
         "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain",
         "nextNodes": []
@@ -11687,6 +11757,9 @@
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/EscalatingExterminateRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/1999MissionRewards/PvPvEArcaneRewards",
+        "questReqs": [
+            "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain",
         "nextNodes": []
     },
@@ -11708,6 +11781,9 @@
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/EscalatingExterminateRewards"
         ],
         "cacheRewardManifest": "/Lotus/Types/Game/MissionDecks/1999MissionRewards/PvPvEArcaneRewards",
+        "questReqs": [
+            "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain",
         "nextNodes": []
     },
@@ -11727,6 +11803,9 @@
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/VaniaExterminateScaldraSpec",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/PvPvEVsAiRewards"
+        ],
+        "questReqs": [
+            "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
         ],
         "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain",
         "nextNodes": []
@@ -11748,6 +11827,9 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/TankAssassinateRewards"
         ],
+        "questReqs": [
+            "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain",
         "nextNodes": []
     },
@@ -11767,6 +11849,9 @@
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/VaniaExterminateScaldraSpec",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/PvPvEVsAiRewards"
+        ],
+        "questReqs": [
+            "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
         ],
         "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain",
         "nextNodes": []
@@ -11788,6 +11873,9 @@
         "vipAgent": "/Lotus/Types/Friendly/Agents/TempleDefenseAgent",
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/1999MissionRewards/DefenseRewards"
+        ],
+        "questReqs": [
+            "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
         ],
         "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain",
         "nextNodes": []
@@ -11818,6 +11906,9 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsHunhullus"
         ],
+        "questReqs": [
+            "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyChain",
         "nextNodes": []
     },
@@ -11846,6 +11937,9 @@
         },
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsDactolyst"
+        ],
+        "questReqs": [
+            "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyChain"
         ],
         "questReq": "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyChain",
         "nextNodes": []
@@ -11876,6 +11970,9 @@
         "rewardManifests": [
             "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsPrimes"
         ],
+        "questReqs": [
+            "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyChain",
         "nextNodes": []
     },
@@ -11893,6 +11990,9 @@
         "masteryExp": 0,
         "levelOverride": "/Lotus/Levels/DevilTower/SpawnLobby.level",
         "rewardManifests": [],
+        "questReqs": [
+            "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/TauPrequel/TauPrequelQuestKeyChain",
         "nextNodes": []
     },
@@ -11986,6 +12086,9 @@
         ],
         "tileset": "OrokinVoidTileset",
         "levelOverride": "/Lotus/Levels/DarkSectors/DarkSectorSpawn.level",
+        "questReqs": [
+            "/Lotus/Types/Keys/DragonQuest/DragonQuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/DragonQuest/DragonQuestKeyChain",
         "nextNodes": [],
         "hidden": true
@@ -12006,6 +12109,9 @@
         ],
         "tileset": "OrokinVoidTileset",
         "levelOverride": "/Lotus/Levels/DarkSectors/DarkSectorSpawn.level",
+        "questReqs": [
+            "/Lotus/Types/Keys/DragonQuest/DragonQuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/DragonQuest/DragonQuestKeyChain",
         "nextNodes": [],
         "hidden": true
@@ -12656,6 +12762,9 @@
         ],
         "levelOverride": "/Lotus/Levels/Proc/JadeShadows/JSStalkerCaveHubElevator",
         "enemySpec": "/Lotus/Types/Game/EnemySpecs/AscensionSpec",
+        "questReqs": [
+            "/Lotus/Types/Keys/JadeShadows/JadeShadowQuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/JadeShadows/JadeShadowQuestKeyChain",
         "nextNodes": [],
         "hidden": true
@@ -12940,6 +13049,9 @@
         "masteryExp": 0,
         "rewardManifests": [],
         "levelOverride": "/Lotus/Levels/Proc/Zariman/ZarimanHub",
+        "questReqs": [
+            "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/ZarimanQuest/ZarimanQuestKeyChain",
         "nextNodes": [
             "SolNode230",
@@ -12977,6 +13089,9 @@
         "masteryExp": 0,
         "rewardManifests": [],
         "levelOverride": "/Lotus/Levels/Proc/Hub/TennoProtoRelayHUBWinterSnow",
+        "questReqs": [
+            "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/1999Quest/1999QuestKeyChain",
         "nextNodes": []
     },
@@ -13035,6 +13150,9 @@
         "missionReward": {
             "credits": 32000
         },
+        "questReqs": [
+            "/Lotus/Types/Keys/RailJackBuildQuest/RailjackBuildQuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/RailJackBuildQuest/RailjackBuildQuestKeyChain",
         "nextNodes": [
             "CrewBattleNode509"
@@ -13161,6 +13279,9 @@
         "missionReward": {
             "credits": 33750
         },
+        "questReqs": [
+            "/Lotus/Types/Keys/RailJackBuildQuest/RailjackBuildQuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/RailJackBuildQuest/RailjackBuildQuestKeyChain",
         "nextNodes": [
             "CrewBattleNode512"
@@ -13189,6 +13310,9 @@
         "missionReward": {
             "credits": 41250
         },
+        "questReqs": [
+            "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyChain"
+        ],
         "questReq": "/Lotus/Types/Keys/WarWithinQuest/WarWithinQuestKeyChain",
         "nextNodes": [
             "CrewBattleNode515"
