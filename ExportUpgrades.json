@@ -6277,6 +6277,7 @@
         "compat": "/Lotus/Weapons/Tenno/Rifle/LotusRifle",
         "compatName": "Rifle",
         "type": "PRIMARY",
+        "isFrivolous": true,
         "tradable": true,
         "introducedAt": 1744902261
     },
@@ -6602,6 +6603,19 @@
         "type": "PRIMARY",
         "tradable": true,
         "introducedAt": 1699558377
+    },
+    "/Lotus/Upgrades/Mods/Rifle/Event/Nightwave/NightwaveLasGooAKAugmentMod": {
+        "name": "/Lotus/Language/Mods/NightwaveLasGooAKAugmentModName",
+        "icon": "/Lotus/Interface/Cards/Images/Nightwave/NightwaveLasGooAKAugmentMod.png",
+        "polarity": "AP_ATTACK",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Lasria/LasGooAK/LasGooAKPlayerWeapon",
+        "compatName": "EFV-5 Jupiter",
+        "type": "PRIMARY",
+        "tradable": true
     },
     "/Lotus/Upgrades/Mods/Rifle/Event/Nightwave/NightwaveHemaAugmentMod": {
         "name": "/Lotus/Language/Mods/NightwaveHemaAugmentModName",
@@ -9906,6 +9920,7 @@
         "compat": "/Lotus/Weapons/Tenno/Pistol/LotusPistol",
         "compatName": "Pistol",
         "type": "SECONDARY",
+        "isFrivolous": true,
         "tradable": true
     },
     "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponPistolFactionDamageMurmursExpert": {
@@ -10240,6 +10255,19 @@
         "type": "SECONDARY",
         "tradable": true,
         "introducedAt": 1684940694
+    },
+    "/Lotus/Upgrades/Mods/Pistol/Event/Nightwave/NightwaveLasGooPistolAugmentMod": {
+        "name": "/Lotus/Language/Mods/NightwaveLasGooPistolAugmentModName",
+        "icon": "/Lotus/Interface/Cards/Images/Nightwave/NightwaveLasGooPistolAugmentMod.png",
+        "polarity": "AP_ATTACK",
+        "rarity": "RARE",
+        "codexSecret": false,
+        "baseDrain": 2,
+        "fusionLimit": 5,
+        "compat": "/Lotus/Weapons/Lasria/LasGooPistol/LasGooPistolPlayerWeapon",
+        "compatName": "EFV-8 Mars",
+        "type": "SECONDARY",
+        "tradable": true
     },
     "/Lotus/Upgrades/Mods/Pistol/Event/Nightwave/NightwaveCatabolystAugmentMod": {
         "name": "/Lotus/Language/Mods/NightwaveCatabolystAugmentModName",
@@ -20457,6 +20485,20 @@
         "tradable": true,
         "introducedAt": 1778698740
     },
+    "/Lotus/Upgrades/Mods/Archwing/Rifle/Expert/ArchwingWeaponFreezeDamageModExpert": {
+        "name": "/Lotus/Language/Mods/ArchwingWeaponFreezeDamageModExpert",
+        "icon": "/Lotus/Interface/Cards/Images/ArchwingMods/ArchwingRifle/ArchwingWeaponFreezeDamageModRifle.png",
+        "polarity": "AP_DEFENSE",
+        "rarity": "LEGENDARY",
+        "codexSecret": false,
+        "baseDrain": 4,
+        "fusionLimit": 10,
+        "compat": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchGun",
+        "excludeFromCodex": true,
+        "compatName": "Archgun",
+        "type": "ARCH-GUN",
+        "tradable": true
+    },
     "/Lotus/Upgrades/Mods/Hoverboard/HBFireWorksMod": {
         "name": "/Lotus/Language/Hoverboards/HoverboardFireworksMod",
         "icon": "/Lotus/Interface/Cards/Images/Hoverboard/HoverboardModP.png",
@@ -28685,6 +28727,7 @@
             "/Lotus/Weapons/Lasria/AK47/TC2024AK47Weapon",
             "/Lotus/Weapons/Lasria/LasGooAK/LasGooAKPlayerWeapon",
             "/Lotus/Weapons/Lasria/LasGrenadeLauncher/LasrianNoxPlayerWeapon",
+            "/Lotus/Weapons/Sentients/SentOctaMiniGun/SentOctaMiniGun",
             "/Lotus/Weapons/Sentients/SentRifleNewWar/SentRifleNewWarGun",
             "/Lotus/Weapons/Sentients/Shedu/SheduHeavyWeapon",
             "/Lotus/Weapons/Tenno/Bayonet/TnBayonetRifleWeapon",

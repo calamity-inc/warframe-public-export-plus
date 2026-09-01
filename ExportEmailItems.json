@@ -13,6 +13,20 @@
             "highPriority": true
         }
     },
+    "/Lotus/Types/Items/EmailItems/AmirFFPosterEmailItem": {
+        "sendOnlyOnce": true,
+        "message": {
+            "sender": "/Lotus/Language/1999/MessengerJabirName",
+            "title": "/Lotus/Language/Inbox/AmirFFPosterInboxSubject",
+            "body": "/Lotus/Language/Inbox/AmirFFPosterInboxBody",
+            "attachments": [
+                "/Lotus/Types/Items/ShipDecos/Nightwave1999FFCoverPoster"
+            ],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/AmirPortrait.png",
+            "highPriority": true
+        }
+    },
     "/Lotus/Types/Items/EmailItems/AmirKissEmailItem": {
         "sendOnlyOnce": false,
         "message": {
@@ -226,6 +240,19 @@
             "countedAttachments": [],
             "icon": "/Lotus/Interface/Icons/Npcs/Ostron/Saya.png",
             "transmission": "/Lotus/Sounds/Dialog/KoumeiFatesVendor/DInboxTransmission0880Saya",
+            "highPriority": true
+        }
+    },
+    "/Lotus/Types/Items/EmailItems/FnFUnlockedEmailItem": {
+        "sendOnlyOnce": false,
+        "message": {
+            "sender": "/Lotus/Language/1999/MessengerJabirName",
+            "title": "/Lotus/Language/1999Texting/AmirFFDialogue/FFAmirInboxSubject",
+            "body": "/Lotus/Language/1999Texting/AmirFFDialogue/FFAmirInboxBody",
+            "attachments": [],
+            "countedAttachments": [],
+            "icon": "/Lotus/Interface/Icons/Npcs/AmirPortrait.png",
+            "transmission": "/Lotus/Sounds/Dialog/FablesAndFrontiers/OopsAllEximus/DFFAmirInbox0150Amir",
             "highPriority": true
         }
     },

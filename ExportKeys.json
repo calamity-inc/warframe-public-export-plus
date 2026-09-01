@@ -1050,8 +1050,8 @@
         "missionReward": {
             "countedStoreItems": [
                 {
-                    "StoreItem": "/Lotus/StoreItems/Types/Gameplay/EntratiLab/Resources/EntratiLabDogTagCommon",
-                    "ItemCount": 1
+                    "ItemCount": 1,
+                    "StoreItem": "/Lotus/StoreItems/Types/Gameplay/EntratiLab/Resources/EntratiLabDogTagCommon"
                 }
             ]
         },
@@ -2927,8 +2927,8 @@
         "missionReward": {
             "countedStoreItems": [
                 {
-                    "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponElectricityDamageMod",
-                    "ItemCount": 2
+                    "ItemCount": 2,
+                    "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Rifle/WeaponElectricityDamageMod"
                 }
             ]
         },
@@ -5822,6 +5822,76 @@
         "codexSecret": true,
         "rewards": [],
         "mission": {}
+    },
+    "/Lotus/Types/Keys/1999Missions/VaniaExterminateAllVoltEximusBaseKey": {
+        "name": "[HC] VaniaExterminateAllVoltEximusBaseKey",
+        "parentName": "/Lotus/Types/Game/KeyItem",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 15000,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoltEximusRewards"
+        },
+        "rewards": [],
+        "mission": {
+            "minEnemyLevel": 40,
+            "maxEnemyLevel": 45
+        }
+    },
+    "/Lotus/Types/Keys/1999Missions/VaniaExterminateAllVoltEximusFallTestKey": {
+        "name": "[HC] VaniaExterminateAllVoltEximusFallTestKey",
+        "parentName": "/Lotus/Types/Keys/1999Missions/VaniaExterminateAllVoltEximusBaseKey",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 15000,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoltEximusRewards"
+        },
+        "rewards": [],
+        "mission": {
+            "minEnemyLevel": 40,
+            "maxEnemyLevel": 45
+        }
+    },
+    "/Lotus/Types/Keys/1999Missions/VaniaExterminateAllVoltEximusSummerTestKey": {
+        "name": "[HC] VaniaExterminateAllVoltEximusSummerTestKey",
+        "parentName": "/Lotus/Types/Keys/1999Missions/VaniaExterminateAllVoltEximusBaseKey",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 15000,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoltEximusRewards"
+        },
+        "rewards": [],
+        "mission": {
+            "minEnemyLevel": 40,
+            "maxEnemyLevel": 45
+        }
+    },
+    "/Lotus/Types/Keys/1999Missions/VaniaExterminateAllVoltEximusWinterTestKey": {
+        "name": "[HC] VaniaExterminateAllVoltEximusWinterTestKey",
+        "parentName": "/Lotus/Types/Keys/1999Missions/VaniaExterminateAllVoltEximusBaseKey",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 15000,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoltEximusRewards"
+        },
+        "rewards": [],
+        "mission": {
+            "minEnemyLevel": 40,
+            "maxEnemyLevel": 45
+        }
+    },
+    "/Lotus/Types/Keys/1999Missions/VaniaExterminateAllVoltEximusWinterWetTestKey": {
+        "name": "[HC] VaniaExterminateAllVoltEximusWinterWetTestKey",
+        "parentName": "/Lotus/Types/Keys/1999Missions/VaniaExterminateAllVoltEximusBaseKey",
+        "codexSecret": true,
+        "missionReward": {
+            "credits": 15000,
+            "droptable": "/Lotus/Types/Game/MissionDecks/VoltEximusRewards"
+        },
+        "rewards": [],
+        "mission": {
+            "minEnemyLevel": 40,
+            "maxEnemyLevel": 45
+        }
     },
     "/Lotus/Types/Keys/1999PlayableDemo/1999PlayableDemoMallKey": {
         "name": "/Lotus/Language/1999Demo/1999DemoTitle",
@@ -9192,18 +9262,6 @@
         "codexSecret": true,
         "rewards": [],
         "mission": {}
-    },
-    "/Lotus/Types/Keys/TestKeys/VoltEximusMissionTestKey": {
-        "parentName": "/Lotus/Types/Game/KeyItem",
-        "codexSecret": true,
-        "missionReward": {
-            "credits": 1
-        },
-        "rewards": [],
-        "mission": {
-            "minEnemyLevel": 65,
-            "maxEnemyLevel": 70
-        }
     },
     "/Lotus/Types/Keys/VeyHekKey": {
         "name": "/Lotus/Language/Items/HekNavCodeKeyName",

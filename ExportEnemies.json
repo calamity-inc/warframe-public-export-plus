@@ -4547,7 +4547,8 @@
         "/Lotus/Types/Enemies/Corpus/Venus/Commanders/VenusCommanderAquaAgent": {
             "baseLevel": 1,
             "avatarTypes": {
-                "STANDARD": "/Lotus/Types/Enemies/Corpus/Venus/Commanders/Avatars/VenusCommanderAquaAvatar"
+                "STANDARD": "/Lotus/Types/Enemies/Corpus/Venus/Commanders/Avatars/VenusCommanderAquaAvatar",
+                "EXIMUS": "/Lotus/Types/Enemies/Corpus/Venus/Avatars/VenusRifleSpacemanAvatarLeader"
             },
             "items": [
                 {
@@ -4558,10 +4559,18 @@
                 }
             ]
         },
+        "/Lotus/Types/Enemies/Corpus/Venus/Commanders/VenusCommanderBaseAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/Corpus/Venus/Commanders/Avatars/VenusCommanderBaseAvatar",
+                "EXIMUS": "/Lotus/Types/Enemies/Corpus/Venus/Avatars/VenusRifleSpacemanAvatarLeader"
+            }
+        },
         "/Lotus/Types/Enemies/Corpus/Venus/Commanders/VenusCommanderGreenAgent": {
             "baseLevel": 1,
             "avatarTypes": {
-                "STANDARD": "/Lotus/Types/Enemies/Corpus/Venus/Commanders/Avatars/VenusCommanderGreenAvatar"
+                "STANDARD": "/Lotus/Types/Enemies/Corpus/Venus/Commanders/Avatars/VenusCommanderGreenAvatar",
+                "EXIMUS": "/Lotus/Types/Enemies/Corpus/Venus/Avatars/VenusRifleSpacemanAvatarLeader"
             },
             "items": [
                 {
@@ -4575,7 +4584,8 @@
         "/Lotus/Types/Enemies/Corpus/Venus/Commanders/VenusCommanderOrangeAgent": {
             "baseLevel": 1,
             "avatarTypes": {
-                "STANDARD": "/Lotus/Types/Enemies/Corpus/Venus/Commanders/Avatars/VenusCommanderOrangeAvatar"
+                "STANDARD": "/Lotus/Types/Enemies/Corpus/Venus/Commanders/Avatars/VenusCommanderOrangeAvatar",
+                "EXIMUS": "/Lotus/Types/Enemies/Corpus/Venus/Avatars/VenusRifleSpacemanAvatarLeader"
             },
             "items": [
                 {
@@ -5164,6 +5174,13 @@
                 }
             ]
         },
+        "/Lotus/Types/Enemies/Corpus/Venus/VenusRifleSpacemanAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/Corpus/Venus/Avatars/VenusRifleSpacemanAvatar",
+                "EXIMUS": "/Lotus/Types/Enemies/Corpus/Venus/Avatars/VenusRifleSpacemanAvatarLeader"
+            }
+        },
         "/Lotus/Types/Enemies/Corpus/Venus/VenusShieldDroneAgent": {
             "baseLevel": 1,
             "avatarTypes": {
@@ -5271,7 +5288,8 @@
         "/Lotus/Types/Enemies/Corpus/Venus/Vip/VenusVipDualPistolSpacemanAgent": {
             "baseLevel": 1,
             "avatarTypes": {
-                "STANDARD": "/Lotus/Types/Enemies/Corpus/Venus/Vip/Avatars/VenusVipRifleSpacemanAvatar"
+                "STANDARD": "/Lotus/Types/Enemies/Corpus/Venus/Vip/Avatars/VenusVipRifleSpacemanAvatar",
+                "EXIMUS": "/Lotus/Types/Enemies/Corpus/Venus/Avatars/VenusRifleSpacemanAvatarLeader"
             },
             "items": [
                 {
@@ -5288,7 +5306,8 @@
         "/Lotus/Types/Enemies/Corpus/Venus/Vip/VenusVipPowerSpacemanAgent": {
             "baseLevel": 15,
             "avatarTypes": {
-                "STANDARD": "/Lotus/Types/Enemies/Corpus/Venus/Vip/Avatars/VenusVipPowerSpacemanAvatar"
+                "STANDARD": "/Lotus/Types/Enemies/Corpus/Venus/Vip/Avatars/VenusVipPowerSpacemanAvatar",
+                "EXIMUS": "/Lotus/Types/Enemies/Corpus/Venus/Avatars/VenusRifleSpacemanAvatarLeader"
             },
             "items": [
                 {
@@ -5302,7 +5321,8 @@
         "/Lotus/Types/Enemies/Corpus/Venus/Vip/VenusVipShotgunSpacemanAgent": {
             "baseLevel": 1,
             "avatarTypes": {
-                "STANDARD": "/Lotus/Types/Enemies/Corpus/Venus/Vip/Avatars/VenusVipShotgunSpacemanAvatar"
+                "STANDARD": "/Lotus/Types/Enemies/Corpus/Venus/Vip/Avatars/VenusVipShotgunSpacemanAvatar",
+                "EXIMUS": "/Lotus/Types/Enemies/Corpus/Venus/Avatars/VenusRifleSpacemanAvatarLeader"
             },
             "items": [
                 {
@@ -5316,7 +5336,8 @@
         "/Lotus/Types/Enemies/Corpus/Venus/Vip/VenusVipSniperSpacemanAgent": {
             "baseLevel": 1,
             "avatarTypes": {
-                "STANDARD": "/Lotus/Types/Enemies/Corpus/Venus/Vip/Avatars/VenusVipSniperSpacemanAvatar"
+                "STANDARD": "/Lotus/Types/Enemies/Corpus/Venus/Vip/Avatars/VenusVipSniperSpacemanAvatar",
+                "EXIMUS": "/Lotus/Types/Enemies/Corpus/Venus/Avatars/VenusRifleSpacemanAvatarLeader"
             },
             "items": [
                 {
@@ -20111,6 +20132,24 @@
                 }
             ]
         },
+        "/Lotus/Types/Enemies/WF1999Lasrian/LasrianGoonadier/LasrianGoonadier1999FriendlyAgent": {
+            "baseLevel": 1,
+            "avatarTypes": {
+                "STANDARD": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianGoonadier/LasrianGoonadier1999Avatar",
+                "EXIMUS": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianGoonadier/LasrianGoonadier1999SurgeFriendlyAvatarLeader"
+            },
+            "items": [
+                {
+                    "type": "/Lotus/Weapons/Lasria/LasBaton/LasBatonWeapon"
+                },
+                {
+                    "type": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianGoonadier/GoonadierAccessories/LasrianGoonadierThrowGoonadeWeapon"
+                },
+                {
+                    "type": "/Lotus/Powersuits/NpcPowersuits/LasrianGoonadierPowersuit"
+                }
+            ]
+        },
         "/Lotus/Types/Enemies/WF1999Lasrian/LasrianRifleLancer/LasrianLancer1999Agent": {
             "baseLevel": 1,
             "avatarTypes": {
@@ -26353,6 +26392,17 @@
             "killXPReward": 0,
             "droptable": "/Lotus/Types/DropTables/VenusDropTables/Enemies/VenusCrewmenDropTable",
             "codexScansRequired": 20
+        },
+        "/Lotus/Types/Enemies/Corpus/Venus/Avatars/VenusRifleSpacemanAvatarLeader": {
+            "name": "/Lotus/Language/SolarisVenus/VenusRifleSpaceman",
+            "icon": "/Lotus/Interface/Icons/Npcs/Corpus/Venus/VenusRifleCrewman.png",
+            "faction": "Corpus",
+            "health": 120,
+            "damageController": "/Lotus/Types/Enemies/Corpus/Spaceman/Venus/VenusRifleSpacemanLeaderDamageController",
+            "factionResistanceKeyword": "RK_CORPUS_FACTION",
+            "killXPReward": 500,
+            "droptable": "/Lotus/Types/DropTables/VenusDropTables/Enemies/VenusCrewmenLeaderDropTable",
+            "codexScansRequired": 3
         },
         "/Lotus/Types/Enemies/Corpus/Venus/Avatars/VenusShieldDroneAvatar": {
             "name": "/Lotus/Language/SolarisVenus/VenusShieldDrone",
@@ -35158,7 +35208,7 @@
             "health": 80,
             "damageController": "/Lotus/Types/Enemies/ManInTheWall/NecramechMelee/NecramechMeleeDamageController",
             "factionResistanceKeyword": "RK_MITW_FACTION",
-            "killXPReward": 0,
+            "killXPReward": 500,
             "droptable": "/Lotus/Types/DropTables/ManInTheWall/NecramechMeleeAgentDropTable",
             "codexScansRequired": 3
         },
@@ -35587,7 +35637,7 @@
             "health": 5000,
             "damageController": "/Lotus/Types/Enemies/ManInTheWall/TreasureBox/TreasureBoxScaledDamageController",
             "factionResistanceKeyword": "RK_MITW_FACTION",
-            "killXPReward": 0,
+            "killXPReward": 500,
             "codexScansRequired": 3
         },
         "/Lotus/Types/Enemies/ManInTheWall/Triangle/MITWSupportTriangleAvatar": {
@@ -39870,7 +39920,7 @@
             "health": 325,
             "damageController": "/Lotus/Types/Enemies/Tau/Dax/TauDaxHeavyLustratus/TauDaxHeavyDamageController",
             "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
-            "killXPReward": 1500,
+            "killXPReward": 500,
             "droptable": "/Lotus/Types/DropTables/Tau/TwelveMinuteWar/TMWTauArchgunnerEnemyDropTable",
             "codexScansRequired": 3
         },
@@ -39894,7 +39944,7 @@
             "health": 325,
             "damageController": "/Lotus/Types/Enemies/Tau/Dax/TauDaxHeavyArch/TauDaxHeavyArchDamageController",
             "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
-            "killXPReward": 1500,
+            "killXPReward": 500,
             "droptable": "/Lotus/Types/DropTables/Tau/TauBaseDropTable",
             "codexScansRequired": 3
         },
@@ -39942,7 +39992,7 @@
             "health": 75,
             "damageController": "/Lotus/Types/Enemies/Tau/Dax/TauDaxMedic/TauDaxMedicDamageController",
             "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
-            "killXPReward": 750,
+            "killXPReward": 500,
             "droptable": "/Lotus/Types/DropTables/Tau/TwelveMinuteWar/TMWRareEnemyDropTable",
             "codexScansRequired": 3
         },
@@ -39966,7 +40016,7 @@
             "health": 75,
             "damageController": "/Lotus/Types/Enemies/Tau/Dax/TauDaxMedic/TauDaxMedicDamageController",
             "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
-            "killXPReward": 750,
+            "killXPReward": 500,
             "droptable": "/Lotus/Types/DropTables/Tau/TauBaseDropTable",
             "codexScansRequired": 3
         },
@@ -39990,7 +40040,7 @@
             "health": 100,
             "damageController": "/Lotus/Types/Enemies/Tau/Dax/TauDaxNinja/TauDaxNinjaDamageController",
             "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
-            "killXPReward": 750,
+            "killXPReward": 500,
             "droptable": "/Lotus/Types/DropTables/Tau/TwelveMinuteWar/TMWRareEnemyDropTable",
             "codexScansRequired": 3
         },
@@ -40014,7 +40064,7 @@
             "health": 100,
             "damageController": "/Lotus/Types/Enemies/Tau/Dax/TauDaxNinja/TauDaxNinjaDamageController",
             "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
-            "killXPReward": 750,
+            "killXPReward": 500,
             "droptable": "/Lotus/Types/DropTables/Tau/TauBaseDropTable",
             "codexScansRequired": 3
         },
@@ -40232,7 +40282,7 @@
             "health": 100,
             "damageController": "/Lotus/Types/Enemies/Tau/Grineer/TauGrineerTrapper/TauGrineerTrapperDamageController",
             "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
-            "killXPReward": 750,
+            "killXPReward": 500,
             "droptable": "/Lotus/Types/DropTables/Tau/TwelveMinuteWar/TMWRareEnemyDropTable",
             "codexScansRequired": 3
         },
@@ -40256,7 +40306,7 @@
             "health": 100,
             "damageController": "/Lotus/Types/Enemies/Tau/Grineer/TauGrineerTrapper/TauGrineerTrapperDamageController",
             "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
-            "killXPReward": 750,
+            "killXPReward": 500,
             "droptable": "/Lotus/Types/DropTables/Tau/TauBaseDropTable",
             "codexScansRequired": 3
         },
@@ -41611,7 +41661,7 @@
             "health": 100,
             "damageController": "/Lotus/Types/Enemies/WF1999Infested/InfestedRunner/InfestedRunner1999DamageController",
             "factionResistanceKeyword": "RK_PROTOINFESTED_FACTION",
-            "killXPReward": 250,
+            "killXPReward": 500,
             "droptable": "/Lotus/Types/DropTables/WF1999DropTables/TechrotRunnerDropTable",
             "codexScansRequired": 3
         },
@@ -41806,6 +41856,18 @@
             "codexScansRequired": 5
         },
         "/Lotus/Types/Enemies/WF1999Lasrian/LasrianGoonadier/LasrianGoonadier1999AvatarLeader": {
+            "name": "/Lotus/Language/1999Demo/LasrianGoonadierName",
+            "icon": "/Lotus/Interface/Icons/Npcs/Lasrian/LasrianGoonadier.png",
+            "description": "/Lotus/Language/1999/LasrianGoonadierDesc",
+            "faction": "Scaldra",
+            "health": 325,
+            "damageController": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianGoonadier/LasrianGoonadierDamageController",
+            "factionResistanceKeyword": "RK_LASRIA_FACTION",
+            "killXPReward": 500,
+            "droptable": "/Lotus/Types/DropTables/WF1999DropTables/LasrianGoonadierDropTable",
+            "codexScansRequired": 3
+        },
+        "/Lotus/Types/Enemies/WF1999Lasrian/LasrianGoonadier/LasrianGoonadier1999SurgeFriendlyAvatarLeader": {
             "name": "/Lotus/Language/1999Demo/LasrianGoonadierName",
             "icon": "/Lotus/Interface/Icons/Npcs/Lasrian/LasrianGoonadier.png",
             "description": "/Lotus/Language/1999/LasrianGoonadierDesc",
@@ -52538,6 +52600,55 @@
                 "PT_BIG_STAGGER"
             ]
         },
+        "/Lotus/Types/Enemies/Corpus/Spaceman/Venus/VenusRifleSpacemanLeaderDamageController": {
+            "armor": 0,
+            "shield": 180,
+            "hitProxies": [
+                {
+                    "bone": "GAME_C1_HEAD1",
+                    "type": "/Lotus/Types/Enemies/Corpus/Spaceman/Head"
+                },
+                {
+                    "bone": "GAME_C1_SPINE2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerTorso"
+                },
+                {
+                    "bone": "GAME_R1_ARM1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightUpperArm"
+                },
+                {
+                    "bone": "GAME_R1_ARM2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightLowerArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftUpperArm"
+                },
+                {
+                    "bone": "GAME_L1_ARM2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftLowerArm"
+                },
+                {
+                    "bone": "GAME_R1_LEG1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightUpperLeg"
+                },
+                {
+                    "bone": "GAME_R1_LEG2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerRightLowerLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG1",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftUpperLeg"
+                },
+                {
+                    "bone": "GAME_L1_LEG2",
+                    "type": "/Lotus/Types/Enemies/Grineer/GrineerAvatars/HitProxies/GrineerLeftLowerLeg"
+                }
+            ],
+            "unhandledProcTypes": [
+                "PT_BIG_STAGGER"
+            ]
+        },
         "/Lotus/Types/Enemies/Corpus/Spaceman/Venus/VenusShockwaveEliteSpacemanDamageController": {
             "armor": 0,
             "shield": 500,
@@ -53774,11 +53885,11 @@
                 },
                 {
                     "bone": "GAME_C1_BODY",
-                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneUpperBodyHitProxy"
+                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneUpperBodyHitProxy"
                 },
                 {
                     "bone": "GAME_C1_TAIL2",
-                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneMiddleBodyHitProxy"
+                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneMiddleBodyHitProxy"
                 },
                 {
                     "bone": "GAME_C1_TAIL4",
@@ -53786,11 +53897,11 @@
                 },
                 {
                     "bone": "GAME_L1_ARM4",
-                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneRightWingProxy"
+                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneWingProxy"
                 },
                 {
                     "bone": "GAME_R1_ARM4",
-                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneRightWingProxy"
+                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneWingProxy"
                 },
                 {
                     "bone": "GAME_L1_ARM4",
@@ -53819,11 +53930,11 @@
                 },
                 {
                     "bone": "GAME_C1_BODY",
-                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneUpperBodyHitProxy"
+                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneUpperBodyHitProxy"
                 },
                 {
                     "bone": "GAME_C1_TAIL2",
-                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneMiddleBodyHitProxy"
+                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneMiddleBodyHitProxy"
                 },
                 {
                     "bone": "GAME_C1_TAIL4",
@@ -53831,11 +53942,11 @@
                 },
                 {
                     "bone": "GAME_L1_ARM4",
-                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneRightWingProxy"
+                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneWingProxy"
                 },
                 {
                     "bone": "GAME_R1_ARM4",
-                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneRightWingProxy"
+                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneWingProxy"
                 },
                 {
                     "bone": "GAME_L1_ARM4",
@@ -75866,11 +75977,11 @@
                 },
                 {
                     "bone": "GAME_C1_BODY",
-                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneUpperBodyHitProxy"
+                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneUpperBodyHitProxy"
                 },
                 {
                     "bone": "GAME_C1_TAIL2",
-                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneMiddleBodyHitProxy"
+                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneMiddleBodyHitProxy"
                 },
                 {
                     "bone": "GAME_C1_TAIL4",
@@ -75878,11 +75989,11 @@
                 },
                 {
                     "bone": "GAME_L1_ARM4",
-                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneRightWingProxy"
+                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneWingProxy"
                 },
                 {
                     "bone": "GAME_R1_ARM4",
-                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneRightWingProxy"
+                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneWingProxy"
                 },
                 {
                     "bone": "GAME_L1_ARM4",
@@ -75911,11 +76022,11 @@
                 },
                 {
                     "bone": "GAME_C1_BODY",
-                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneUpperBodyHitProxy"
+                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneUpperBodyHitProxy"
                 },
                 {
                     "bone": "GAME_C1_TAIL2",
-                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneMiddleBodyHitProxy"
+                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneMiddleBodyHitProxy"
                 },
                 {
                     "bone": "GAME_C1_TAIL4",
@@ -75923,11 +76034,11 @@
                 },
                 {
                     "bone": "GAME_L1_ARM4",
-                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneRightWingProxy"
+                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneWingProxy"
                 },
                 {
                     "bone": "GAME_R1_ARM4",
-                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneRightWingProxy"
+                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneWingProxy"
                 },
                 {
                     "bone": "GAME_L1_ARM4",
@@ -76258,11 +76369,11 @@
                 },
                 {
                     "bone": "GAME_C1_BODY",
-                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneUpperBodyHitProxy"
+                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneUpperBodyHitProxy"
                 },
                 {
                     "bone": "GAME_C1_TAIL2",
-                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneMiddleBodyHitProxy"
+                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneMiddleBodyHitProxy"
                 },
                 {
                     "bone": "GAME_C1_TAIL4",
@@ -76270,11 +76381,11 @@
                 },
                 {
                     "bone": "GAME_L1_ARM4",
-                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneRightWingProxy"
+                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneWingProxy"
                 },
                 {
                     "bone": "GAME_R1_ARM4",
-                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/DroneRightWingProxy"
+                    "type": "/Lotus/Types/Enemies/Corpus/Drones/DroneAvatars/HitProxies/HeavyDroneWingProxy"
                 },
                 {
                     "bone": "GAME_L1_ARM4",
@@ -111602,8 +111713,8 @@
                     "fireIterations": 1,
                     "impact": {
                         "DT_IMPACT": 25.0,
-                        "DT_PUNCTURE": 212.5,
-                        "DT_SLASH": 12.5,
+                        "DT_PUNCTURE": 212.500005,
+                        "DT_SLASH": 12.499988,
                         "procChance": 0.35
                     }
                 },
@@ -111627,7 +111738,7 @@
                     "fireIterations": 1,
                     "impact": {
                         "DT_IMPACT": 0.875,
-                        "DT_PUNCTURE": 29.75,
+                        "DT_PUNCTURE": 29.750001,
                         "DT_SLASH": 4.375,
                         "procChance": 0.05
                     }
@@ -111659,9 +111770,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 24.0,
+                        "DT_IMPACT": 24.000001,
                         "DT_PUNCTURE": 20.0,
-                        "DT_SLASH": 36.0,
+                        "DT_SLASH": 35.999999,
                         "procChance": 0.25
                     }
                 }
@@ -111718,9 +111829,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 20.0,
+                        "DT_IMPACT": 20.000001,
                         "DT_PUNCTURE": 10.0,
-                        "DT_SLASH": 20.0,
+                        "DT_SLASH": 19.999999,
                         "procChance": 0.1
                     }
                 }
@@ -112277,9 +112388,9 @@
                     "fireIterations": 3,
                     "projectile": {
                         "attack": {
-                            "DT_IMPACT": 4.666662,
-                            "DT_PUNCTURE": 4.666662,
-                            "DT_SLASH": 4.666662,
+                            "DT_IMPACT": 4.666667,
+                            "DT_PUNCTURE": 4.666667,
+                            "DT_SLASH": 4.666666,
                             "DT_RADIATION": 1960,
                             "procChance": 0
                         }
@@ -112336,7 +112447,7 @@
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0.1
                     }
                 },
@@ -112486,7 +112597,7 @@
                     "impact": {
                         "DT_IMPACT": 6.66666,
                         "DT_PUNCTURE": 6.66666,
-                        "DT_SLASH": 6.66668,
+                        "DT_SLASH": 6.666681,
                         "procChance": 0.1
                     }
                 }
@@ -112839,7 +112950,7 @@
                     "impact": {
                         "DT_IMPACT": 6.66666,
                         "DT_PUNCTURE": 6.66666,
-                        "DT_SLASH": 6.66668,
+                        "DT_SLASH": 6.666681,
                         "procChance": 0.1
                     }
                 }
@@ -112878,7 +112989,7 @@
                     "impact": {
                         "DT_IMPACT": 9.333324,
                         "DT_PUNCTURE": 9.333324,
-                        "DT_SLASH": 9.333352,
+                        "DT_SLASH": 9.333353,
                         "procChance": 0.1
                     }
                 }
@@ -113054,7 +113165,7 @@
                     "impact": {
                         "DT_IMPACT": 2.5,
                         "DT_PUNCTURE": 21.25,
-                        "DT_SLASH": 1.25,
+                        "DT_SLASH": 1.249999,
                         "procChance": 0.15
                     }
                 }
@@ -113124,15 +113235,15 @@
                     "projectile": {
                         "attack": {
                             "DT_IMPACT": 3.75,
-                            "DT_PUNCTURE": 67.5,
-                            "DT_SLASH": 3.75,
+                            "DT_PUNCTURE": 67.499999,
+                            "DT_SLASH": 3.750001,
                             "procChance": 0.01
                         }
                     },
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0.1
                     }
                 },
@@ -113257,7 +113368,7 @@
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0.1
                     }
                 },
@@ -113515,7 +113626,7 @@
                         "attack": {
                             "DT_IMPACT": 12.0,
                             "DT_PUNCTURE": 1.5,
-                            "DT_SLASH": 1.5,
+                            "DT_SLASH": 1.499999,
                             "procChance": 0
                         }
                     },
@@ -113574,8 +113685,8 @@
                     "fireIterations": 1,
                     "impact": {
                         "DT_IMPACT": 11.25,
-                        "DT_PUNCTURE": 29.25,
-                        "DT_SLASH": 4.5,
+                        "DT_PUNCTURE": 29.249999,
+                        "DT_SLASH": 4.500001,
                         "procChance": 0
                     }
                 },
@@ -113600,9 +113711,9 @@
                     "fireIterations": 1,
                     "projectile": {
                         "attack": {
-                            "DT_IMPACT": 122.4,
+                            "DT_IMPACT": 122.400002,
                             "DT_PUNCTURE": 3.6,
-                            "DT_SLASH": 54.0,
+                            "DT_SLASH": 54.000002,
                             "procChance": 0.21
                         },
                         "explosiveAttack": {
@@ -113627,7 +113738,7 @@
                     "impact": {
                         "DT_IMPACT": 2.5,
                         "DT_PUNCTURE": 21.25,
-                        "DT_SLASH": 1.25,
+                        "DT_SLASH": 1.249999,
                         "procChance": 0.15
                     }
                 }
@@ -113702,7 +113813,7 @@
                     "impact": {
                         "DT_IMPACT": 6.66666,
                         "DT_PUNCTURE": 6.66666,
-                        "DT_SLASH": 6.66668,
+                        "DT_SLASH": 6.666681,
                         "procChance": 0.1
                     }
                 }
@@ -113776,7 +113887,7 @@
                     "impact": {
                         "DT_IMPACT": 21.0,
                         "DT_PUNCTURE": 4.5,
-                        "DT_SLASH": 4.5,
+                        "DT_SLASH": 4.499999,
                         "procChance": 0.1
                     }
                 }
@@ -113992,15 +114103,15 @@
                     "projectile": {
                         "attack": {
                             "DT_IMPACT": 3.75,
-                            "DT_PUNCTURE": 67.5,
-                            "DT_SLASH": 3.75,
+                            "DT_PUNCTURE": 67.499999,
+                            "DT_SLASH": 3.750001,
                             "procChance": 0.01
                         }
                     },
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0.1
                     }
                 },
@@ -114511,8 +114622,8 @@
                     "fireIterations": 1,
                     "impact": {
                         "DT_IMPACT": 4.5,
-                        "DT_PUNCTURE": 38.25,
-                        "DT_SLASH": 2.25,
+                        "DT_PUNCTURE": 38.250001,
+                        "DT_SLASH": 2.249998,
                         "procChance": 0.15
                     }
                 },
@@ -114693,9 +114804,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 20.0,
+                        "DT_IMPACT": 20.000001,
                         "DT_PUNCTURE": 10.0,
-                        "DT_SLASH": 20.0,
+                        "DT_SLASH": 19.999999,
                         "procChance": 0.1
                     }
                 }
@@ -114724,9 +114835,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 20.0,
+                        "DT_IMPACT": 20.000001,
                         "DT_PUNCTURE": 10.0,
-                        "DT_SLASH": 20.0,
+                        "DT_SLASH": 19.999999,
                         "procChance": 0.1
                     }
                 }
@@ -114755,9 +114866,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 20.0,
+                        "DT_IMPACT": 20.000001,
                         "DT_PUNCTURE": 10.0,
-                        "DT_SLASH": 20.0,
+                        "DT_SLASH": 19.999999,
                         "procChance": 0.1
                     }
                 }
@@ -114805,9 +114916,9 @@
                         }
                     },
                     "impact": {
-                        "DT_IMPACT": 60.0,
-                        "DT_PUNCTURE": 11.25,
-                        "DT_SLASH": 3.75,
+                        "DT_IMPACT": 60.000001,
+                        "DT_PUNCTURE": 11.250001,
+                        "DT_SLASH": 3.749996,
                         "procChance": 0.1
                     }
                 }
@@ -114844,7 +114955,7 @@
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0.1
                     }
                 },
@@ -115204,9 +115315,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 20.0,
+                        "DT_IMPACT": 20.000001,
                         "DT_PUNCTURE": 10.0,
-                        "DT_SLASH": 20.0,
+                        "DT_SLASH": 19.999999,
                         "procChance": 0.1
                     }
                 }
@@ -115233,9 +115344,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 20.0,
+                        "DT_IMPACT": 20.000001,
                         "DT_PUNCTURE": 10.0,
-                        "DT_SLASH": 20.0,
+                        "DT_SLASH": 19.999999,
                         "procChance": 0.1
                     }
                 }
@@ -115264,9 +115375,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 20.0,
+                        "DT_IMPACT": 20.000001,
                         "DT_PUNCTURE": 10.0,
-                        "DT_SLASH": 20.0,
+                        "DT_SLASH": 19.999999,
                         "procChance": 0.1
                     }
                 }
@@ -115293,9 +115404,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 20.0,
+                        "DT_IMPACT": 20.000001,
                         "DT_PUNCTURE": 10.0,
-                        "DT_SLASH": 20.0,
+                        "DT_SLASH": 19.999999,
                         "procChance": 0.1
                     }
                 }
@@ -115347,9 +115458,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 20.0,
+                        "DT_IMPACT": 20.000001,
                         "DT_PUNCTURE": 10.0,
-                        "DT_SLASH": 20.0,
+                        "DT_SLASH": 19.999999,
                         "procChance": 0.1
                     }
                 }
@@ -115374,9 +115485,9 @@
                         }
                     },
                     "impact": {
-                        "DT_IMPACT": 26.66664,
-                        "DT_PUNCTURE": 26.66664,
-                        "DT_SLASH": 26.66672,
+                        "DT_IMPACT": 26.666639,
+                        "DT_PUNCTURE": 26.666639,
+                        "DT_SLASH": 26.666722,
                         "procChance": 0.05
                     }
                 },
@@ -115437,9 +115548,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 6.66666,
-                        "DT_PUNCTURE": 6.66666,
-                        "DT_SLASH": 6.66666,
+                        "DT_IMPACT": 6.666667,
+                        "DT_PUNCTURE": 6.666667,
+                        "DT_SLASH": 6.666666,
                         "procChance": 0.1
                     }
                 }
@@ -115515,7 +115626,7 @@
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0.1
                     }
                 }
@@ -115571,7 +115682,7 @@
                     "impact": {
                         "DT_IMPACT": 17.5,
                         "DT_PUNCTURE": 3.75,
-                        "DT_SLASH": 3.75,
+                        "DT_SLASH": 3.749999,
                         "procChance": 0.1
                     }
                 }
@@ -115587,8 +115698,8 @@
                     "fireIterations": 1,
                     "impact": {
                         "DT_IMPACT": 6.0,
-                        "DT_PUNCTURE": 51.0,
-                        "DT_SLASH": 3.0,
+                        "DT_PUNCTURE": 51.000001,
+                        "DT_SLASH": 2.999997,
                         "procChance": 0.15
                     }
                 }
@@ -115632,9 +115743,9 @@
                         }
                     },
                     "impact": {
-                        "DT_IMPACT": 16.66665,
-                        "DT_PUNCTURE": 16.66665,
-                        "DT_SLASH": 16.6667,
+                        "DT_IMPACT": 16.666649,
+                        "DT_PUNCTURE": 16.666649,
+                        "DT_SLASH": 16.666701,
                         "procChance": 0.1
                     }
                 },
@@ -115643,24 +115754,24 @@
                     "fireIterations": 1,
                     "projectile": {
                         "attack": {
-                            "DT_IMPACT": 105.0,
-                            "DT_PUNCTURE": 22.5,
-                            "DT_SLASH": 22.5,
+                            "DT_IMPACT": 104.999999,
+                            "DT_PUNCTURE": 22.500001,
+                            "DT_SLASH": 22.499997,
                             "procChance": 0.33
                         }
                     },
                     "chargedProjectile": {
                         "attack": {
-                            "DT_IMPACT": 105.0,
-                            "DT_PUNCTURE": 22.5,
-                            "DT_SLASH": 22.5,
+                            "DT_IMPACT": 104.999999,
+                            "DT_PUNCTURE": 22.500001,
+                            "DT_SLASH": 22.499997,
                             "procChance": 0.33
                         }
                     },
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0.1
                     }
                 }
@@ -115684,7 +115795,7 @@
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0.1
                     }
                 },
@@ -115756,7 +115867,7 @@
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0.1
                     }
                 },
@@ -115801,7 +115912,7 @@
                     "impact": {
                         "DT_IMPACT": 6.66666,
                         "DT_PUNCTURE": 6.66666,
-                        "DT_SLASH": 6.66668,
+                        "DT_SLASH": 6.666681,
                         "procChance": 0.1
                     }
                 },
@@ -115856,7 +115967,7 @@
                     "impact": {
                         "DT_IMPACT": 18.0,
                         "DT_PUNCTURE": 9.0,
-                        "DT_SLASH": 18.0,
+                        "DT_SLASH": 17.999999,
                         "procChance": 0.1
                     }
                 }
@@ -115883,9 +115994,9 @@
                     "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 22.0,
-                        "DT_PUNCTURE": 22.0,
-                        "DT_SLASH": 11.0,
+                        "DT_IMPACT": 22.000001,
+                        "DT_PUNCTURE": 22.000001,
+                        "DT_SLASH": 10.999999,
                         "procChance": 0
                     }
                 },
@@ -115911,8 +116022,8 @@
                     "projectile": {
                         "attack": {
                             "DT_IMPACT": 27.5,
-                            "DT_PUNCTURE": 220.0,
-                            "DT_SLASH": 27.5
+                            "DT_PUNCTURE": 220.000003,
+                            "DT_SLASH": 27.49999
                         }
                     },
                     "impact": {
@@ -115939,9 +116050,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 45.0,
-                        "DT_PUNCTURE": 45.0,
-                        "DT_SLASH": 210.0,
+                        "DT_IMPACT": 45.000003,
+                        "DT_PUNCTURE": 45.000003,
+                        "DT_SLASH": 209.999997,
                         "procChance": 0.1
                     }
                 }
@@ -115956,18 +116067,18 @@
                     "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
                     "fireIterations": 12,
                     "impact": {
-                        "DT_IMPACT": 41.25,
-                        "DT_PUNCTURE": 11.25,
-                        "DT_SLASH": 22.5,
+                        "DT_IMPACT": 41.250001,
+                        "DT_PUNCTURE": 11.250001,
+                        "DT_SLASH": 22.499996,
                         "procChance": 0.2
                     }
                 },
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 24.999975,
-                        "DT_PUNCTURE": 24.999975,
-                        "DT_SLASH": 25.00005,
+                        "DT_IMPACT": 24.999974,
+                        "DT_PUNCTURE": 24.999974,
+                        "DT_SLASH": 25.000052,
                         "procChance": 0.1
                     }
                 }
@@ -115986,9 +116097,9 @@
                         "delay": 0.061
                     },
                     "impact": {
-                        "DT_IMPACT": 83.33325,
-                        "DT_PUNCTURE": 83.33325,
-                        "DT_SLASH": 83.3335,
+                        "DT_IMPACT": 83.333247,
+                        "DT_PUNCTURE": 83.333247,
+                        "DT_SLASH": 83.333507,
                         "procChance": 0.1
                     }
                 },
@@ -116175,7 +116286,7 @@
                     "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 90.0,
+                        "DT_IMPACT": 89.999998,
                         "DT_PUNCTURE": 10.0,
                         "procChance": 0
                     }
@@ -116553,7 +116664,7 @@
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0
                     }
                 },
@@ -116614,8 +116725,8 @@
                     "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 135.0,
-                        "DT_PUNCTURE": 90.0,
+                        "DT_IMPACT": 134.999997,
+                        "DT_PUNCTURE": 90.000003,
                         "DT_SLASH": 75.0,
                         "procChance": 0.5
                     }
@@ -116837,9 +116948,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 11.25,
-                        "DT_PUNCTURE": 11.25,
-                        "DT_SLASH": 52.5,
+                        "DT_IMPACT": 11.250001,
+                        "DT_PUNCTURE": 11.250001,
+                        "DT_SLASH": 52.499999,
                         "procChance": 0.15
                     }
                 }
@@ -116915,9 +117026,9 @@
                     "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 48.0,
-                        "DT_PUNCTURE": 9.0,
-                        "DT_SLASH": 3.0,
+                        "DT_IMPACT": 48.000001,
+                        "DT_PUNCTURE": 9.000001,
+                        "DT_SLASH": 2.999997,
                         "procChance": 0.1
                     }
                 }
@@ -116960,7 +117071,7 @@
                     "impact": {
                         "DT_IMPACT": 3.0,
                         "DT_PUNCTURE": 6.0,
-                        "DT_SLASH": 51.0,
+                        "DT_SLASH": 51.000001,
                         "procChance": 0
                     }
                 }
@@ -116977,8 +117088,8 @@
                     "projectile": {
                         "attack": {
                             "DT_IMPACT": 2.6,
-                            "DT_PUNCTURE": 15.6,
-                            "DT_SLASH": 7.8
+                            "DT_PUNCTURE": 15.600001,
+                            "DT_SLASH": 7.799999
                         }
                     },
                     "impact": {
@@ -116998,7 +117109,7 @@
                     "impact": {
                         "DT_IMPACT": 11.666655,
                         "DT_PUNCTURE": 11.666655,
-                        "DT_SLASH": 11.66669,
+                        "DT_SLASH": 11.666691,
                         "procChance": 0.05
                     }
                 }
@@ -117038,7 +117149,7 @@
                         "attack": {
                             "DT_IMPACT": 5.0,
                             "DT_PUNCTURE": 35.0,
-                            "DT_SLASH": 10.0,
+                            "DT_SLASH": 9.999999,
                             "procChance": 0.01
                         }
                     },
@@ -117063,9 +117174,9 @@
                         "attack": {}
                     },
                     "impact": {
-                        "DT_IMPACT": 60.0,
+                        "DT_IMPACT": 60.000001,
                         "DT_PUNCTURE": 7.5,
-                        "DT_SLASH": 7.5,
+                        "DT_SLASH": 7.499997,
                         "procChance": 0.025
                     }
                 },
@@ -117090,9 +117201,9 @@
                         "attack": {}
                     },
                     "impact": {
-                        "DT_IMPACT": 60.0,
+                        "DT_IMPACT": 60.000001,
                         "DT_PUNCTURE": 7.5,
-                        "DT_SLASH": 7.5,
+                        "DT_SLASH": 7.499997,
                         "procChance": 0.025
                     }
                 },
@@ -117291,9 +117402,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 105.0,
+                        "DT_IMPACT": 104.999999,
                         "DT_PUNCTURE": 37.5,
-                        "DT_SLASH": 7.5,
+                        "DT_SLASH": 7.500002,
                         "procChance": 0
                     }
                 }
@@ -117310,7 +117421,7 @@
                     "impact": {
                         "DT_IMPACT": 3.75,
                         "DT_PUNCTURE": 16.25,
-                        "DT_SLASH": 5.0,
+                        "DT_SLASH": 5.000001,
                         "procChance": 0.25
                     }
                 }
@@ -117367,7 +117478,7 @@
                     "impact": {
                         "DT_IMPACT": 28.0,
                         "DT_PUNCTURE": 6.0,
-                        "DT_SLASH": 6.0,
+                        "DT_SLASH": 5.999999,
                         "procChance": 0.15
                     }
                 }
@@ -117384,7 +117495,7 @@
                     "impact": {
                         "DT_IMPACT": 28.0,
                         "DT_PUNCTURE": 6.0,
-                        "DT_SLASH": 6.0,
+                        "DT_SLASH": 5.999999,
                         "procChance": 0.15
                     }
                 }
@@ -117400,7 +117511,7 @@
                     "impact": {
                         "DT_IMPACT": 7.5,
                         "DT_PUNCTURE": 7.5,
-                        "DT_SLASH": 135.0,
+                        "DT_SLASH": 134.999997,
                         "procChance": 0.25
                     }
                 }
@@ -117443,9 +117554,9 @@
                     "fireIterations": 1,
                     "projectile": {
                         "attack": {
-                            "DT_IMPACT": 120.0,
+                            "DT_IMPACT": 120.000001,
                             "DT_PUNCTURE": 15.0,
-                            "DT_SLASH": 15.0,
+                            "DT_SLASH": 14.999995,
                             "procChance": 0
                         }
                     },
@@ -117648,7 +117759,7 @@
                     "impact": {
                         "DT_IMPACT": 6.66666,
                         "DT_PUNCTURE": 6.66666,
-                        "DT_SLASH": 6.66668,
+                        "DT_SLASH": 6.666681,
                         "procChance": 0.1
                     }
                 }
@@ -117676,7 +117787,7 @@
                     "impact": {
                         "DT_IMPACT": 6.66666,
                         "DT_PUNCTURE": 6.66666,
-                        "DT_SLASH": 6.66668,
+                        "DT_SLASH": 6.666681,
                         "procChance": 0.1
                     }
                 }
@@ -117704,7 +117815,7 @@
                     "impact": {
                         "DT_IMPACT": 6.66666,
                         "DT_PUNCTURE": 6.66666,
-                        "DT_SLASH": 6.66668,
+                        "DT_SLASH": 6.666681,
                         "procChance": 0.1
                     }
                 }
@@ -117732,7 +117843,7 @@
                     "impact": {
                         "DT_IMPACT": 6.66666,
                         "DT_PUNCTURE": 6.66666,
-                        "DT_SLASH": 6.66668,
+                        "DT_SLASH": 6.666681,
                         "procChance": 0.1
                     }
                 }
@@ -117869,7 +117980,7 @@
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0.1
                     }
                 },
@@ -117897,7 +118008,7 @@
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0.1
                     }
                 }
@@ -117914,8 +118025,8 @@
                     "projectile": {
                         "attack": {
                             "DT_IMPACT": 7.5,
-                            "DT_PUNCTURE": 60.0,
-                            "DT_SLASH": 7.5,
+                            "DT_PUNCTURE": 60.000001,
+                            "DT_SLASH": 7.499997,
                             "procChance": 0.2
                         },
                         "explosiveAttack": {
@@ -117993,7 +118104,7 @@
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0.1
                     }
                 },
@@ -118007,7 +118118,7 @@
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0.1
                     }
                 }
@@ -118034,7 +118145,7 @@
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0.1
                     }
                 }
@@ -118198,7 +118309,7 @@
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0.1
                     }
                 }
@@ -118409,7 +118520,7 @@
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0.1
                     }
                 }
@@ -118421,8 +118532,8 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 60.0,
-                        "DT_PUNCTURE": 15.0,
+                        "DT_IMPACT": 60.000002,
+                        "DT_PUNCTURE": 15.000001,
                         "DT_SLASH": 25.0,
                         "procChance": 0.1
                     }
@@ -118443,7 +118554,7 @@
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0.1
                     }
                 }
@@ -118455,9 +118566,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 70.0,
-                        "DT_PUNCTURE": 15.0,
-                        "DT_SLASH": 15.0,
+                        "DT_IMPACT": 69.999999,
+                        "DT_PUNCTURE": 15.000001,
+                        "DT_SLASH": 14.999998,
                         "procChance": 0.1
                     }
                 }
@@ -118550,8 +118661,8 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 80.0,
-                        "DT_PUNCTURE": 20.0,
+                        "DT_IMPACT": 80.000001,
+                        "DT_PUNCTURE": 19.999999,
                         "procChance": 0.1
                     }
                 }
@@ -118727,9 +118838,9 @@
                     "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 80.0,
-                        "DT_PUNCTURE": 15.0,
-                        "DT_SLASH": 5.0,
+                        "DT_IMPACT": 80.000001,
+                        "DT_PUNCTURE": 15.000001,
+                        "DT_SLASH": 4.999995,
                         "procChance": 0.1
                     }
                 },
@@ -118897,7 +119008,7 @@
                     "impact": {
                         "DT_IMPACT": 6.66666,
                         "DT_PUNCTURE": 6.66666,
-                        "DT_SLASH": 6.66668,
+                        "DT_SLASH": 6.666681,
                         "procChance": 0.1
                     }
                 }
@@ -119058,15 +119169,15 @@
                     "projectile": {
                         "attack": {
                             "DT_IMPACT": 3.75,
-                            "DT_PUNCTURE": 67.5,
-                            "DT_SLASH": 3.75,
+                            "DT_PUNCTURE": 67.499999,
+                            "DT_SLASH": 3.750001,
                             "procChance": 0.01
                         }
                     },
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0.1
                     }
                 },
@@ -119275,7 +119386,7 @@
                     "impact": {
                         "DT_IMPACT": 9.99999,
                         "DT_PUNCTURE": 9.99999,
-                        "DT_SLASH": 10.00002,
+                        "DT_SLASH": 10.000021,
                         "procChance": 0.1
                     }
                 }
@@ -119312,7 +119423,7 @@
                     "impact": {
                         "DT_IMPACT": 9.99999,
                         "DT_PUNCTURE": 9.99999,
-                        "DT_SLASH": 10.00002,
+                        "DT_SLASH": 10.000021,
                         "procChance": 0.1
                     }
                 }
@@ -119481,9 +119592,9 @@
                     "fireIterations": 3,
                     "projectile": {
                         "attack": {
-                            "DT_IMPACT": 4.666662,
-                            "DT_PUNCTURE": 4.666662,
-                            "DT_SLASH": 4.666662,
+                            "DT_IMPACT": 4.666667,
+                            "DT_PUNCTURE": 4.666667,
+                            "DT_SLASH": 4.666666,
                             "DT_RADIATION": 1960,
                             "procChance": 0
                         }
@@ -119553,9 +119664,9 @@
                         }
                     },
                     "impact": {
-                        "DT_IMPACT": 60.0,
-                        "DT_PUNCTURE": 11.25,
-                        "DT_SLASH": 3.75,
+                        "DT_IMPACT": 60.000001,
+                        "DT_PUNCTURE": 11.250001,
+                        "DT_SLASH": 3.749996,
                         "procChance": 0.1
                     }
                 }
@@ -119571,8 +119682,8 @@
                     "fireIterations": 1,
                     "impact": {
                         "DT_IMPACT": 6.0,
-                        "DT_PUNCTURE": 51.0,
-                        "DT_SLASH": 3.0,
+                        "DT_PUNCTURE": 51.000001,
+                        "DT_SLASH": 2.999997,
                         "procChance": 0.15
                     }
                 }
@@ -119997,9 +120108,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 83.325,
-                        "DT_PUNCTURE": 83.33325,
-                        "DT_SLASH": 83.34175,
+                        "DT_IMPACT": 83.324997,
+                        "DT_PUNCTURE": 83.333247,
+                        "DT_SLASH": 83.341747,
                         "procChance": 0
                     }
                 }
@@ -120012,9 +120123,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 83.325,
-                        "DT_PUNCTURE": 83.33325,
-                        "DT_SLASH": 83.34175,
+                        "DT_IMPACT": 83.324997,
+                        "DT_PUNCTURE": 83.333247,
+                        "DT_SLASH": 83.341747,
                         "procChance": 0
                     }
                 }
@@ -120049,9 +120160,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 83.325,
-                        "DT_PUNCTURE": 83.33325,
-                        "DT_SLASH": 83.34175,
+                        "DT_IMPACT": 83.324997,
+                        "DT_PUNCTURE": 83.333247,
+                        "DT_SLASH": 83.341747,
                         "procChance": 0
                     }
                 }
@@ -120065,9 +120176,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 70.5,
-                        "DT_PUNCTURE": 70.5,
-                        "DT_SLASH": 329.0,
+                        "DT_IMPACT": 70.500005,
+                        "DT_PUNCTURE": 70.500005,
+                        "DT_SLASH": 328.999995,
                         "procChance": 1
                     }
                 },
@@ -120089,9 +120200,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 83.325,
-                        "DT_PUNCTURE": 83.33325,
-                        "DT_SLASH": 83.34175,
+                        "DT_IMPACT": 83.324997,
+                        "DT_PUNCTURE": 83.333247,
+                        "DT_SLASH": 83.341747,
                         "procChance": 0
                     }
                 }
@@ -120104,44 +120215,15 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 83.325,
-                        "DT_PUNCTURE": 83.33325,
-                        "DT_SLASH": 83.34175,
+                        "DT_IMPACT": 83.324997,
+                        "DT_PUNCTURE": 83.333247,
+                        "DT_SLASH": 83.341747,
                         "procChance": 0
                     }
                 }
             ]
         },
-        "/Lotus/Types/Enemies/Orokin/Weapons/LaserRifle": {
-            "name": "/Weapons/AK74",
-            "behaviours": [
-                {
-                    "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
-                    "fireIterations": 1,
-                    "projectile": {
-                        "attack": {
-                            "DT_IMPACT": 0.7,
-                            "DT_PUNCTURE": 4.9,
-                            "DT_SLASH": 1.4,
-                            "procChance": 0.02
-                        }
-                    },
-                    "impact": {
-                        "DT_IMPACT": 0.999999,
-                        "DT_PUNCTURE": 0.999999,
-                        "DT_SLASH": 1.000002,
-                        "procChance": 0.1
-                    }
-                },
-                {
-                    "fireIterations": 1,
-                    "impact": {
-                        "DT_IMPACT": 25,
-                        "procChance": 0.1
-                    }
-                }
-            ]
-        },
+        "/Lotus/Types/Enemies/Orokin/Weapons/LaserRifle": {},
         "/Lotus/Types/Enemies/Orokin/Weapons/LaserShotgun": {
             "name": "/Lotus/Language/Items/ShotgunName",
             "description": "/Lotus/Language/Items/ShotgunDesc",
@@ -120214,7 +120296,7 @@
                         "attack": {
                             "DT_IMPACT": 1.5,
                             "DT_PUNCTURE": 12.75,
-                            "DT_SLASH": 0.75,
+                            "DT_SLASH": 0.749999,
                             "procChance": 0
                         }
                     },
@@ -120379,7 +120461,7 @@
                     "impact": {
                         "DT_IMPACT": 24.5,
                         "DT_PUNCTURE": 5.25,
-                        "DT_SLASH": 5.25,
+                        "DT_SLASH": 5.249999,
                         "procChance": 0.1
                     }
                 }
@@ -120392,8 +120474,8 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 80.0,
-                        "DT_PUNCTURE": 20.0,
+                        "DT_IMPACT": 80.000001,
+                        "DT_PUNCTURE": 19.999999,
                         "procChance": 0.3
                     }
                 }
@@ -121359,7 +121441,7 @@
                     "impact": {
                         "DT_IMPACT": 11.999988,
                         "DT_PUNCTURE": 11.999988,
-                        "DT_SLASH": 12.000024,
+                        "DT_SLASH": 12.000025,
                         "procChance": 0.1
                     }
                 }
@@ -121374,7 +121456,7 @@
                     "impact": {
                         "DT_IMPACT": 5.999994,
                         "DT_PUNCTURE": 5.999994,
-                        "DT_SLASH": 6.000012,
+                        "DT_SLASH": 6.000013,
                         "procChance": 0.1
                     }
                 }
@@ -121479,7 +121561,7 @@
                     "impact": {
                         "DT_IMPACT": 11.999988,
                         "DT_PUNCTURE": 11.999988,
-                        "DT_SLASH": 12.000024,
+                        "DT_SLASH": 12.000025,
                         "procChance": 0.1
                     }
                 }
@@ -121494,7 +121576,7 @@
                     "impact": {
                         "DT_IMPACT": 5.999994,
                         "DT_PUNCTURE": 5.999994,
-                        "DT_SLASH": 6.000012,
+                        "DT_SLASH": 6.000013,
                         "procChance": 0.1
                     }
                 }
@@ -121578,7 +121660,7 @@
                     "impact": {
                         "DT_IMPACT": 11.999988,
                         "DT_PUNCTURE": 11.999988,
-                        "DT_SLASH": 12.000024,
+                        "DT_SLASH": 12.000025,
                         "procChance": 0.1
                     }
                 }
@@ -121593,7 +121675,7 @@
                     "impact": {
                         "DT_IMPACT": 5.999994,
                         "DT_PUNCTURE": 5.999994,
-                        "DT_SLASH": 6.000012,
+                        "DT_SLASH": 6.000013,
                         "procChance": 0.1
                     }
                 }
@@ -121707,7 +121789,7 @@
                     "impact": {
                         "DT_IMPACT": 11.999988,
                         "DT_PUNCTURE": 11.999988,
-                        "DT_SLASH": 12.000024,
+                        "DT_SLASH": 12.000025,
                         "procChance": 0.1
                     }
                 }
@@ -121722,7 +121804,7 @@
                     "impact": {
                         "DT_IMPACT": 5.999994,
                         "DT_PUNCTURE": 5.999994,
-                        "DT_SLASH": 6.000012,
+                        "DT_SLASH": 6.000013,
                         "procChance": 0.1
                     }
                 }
@@ -121852,7 +121934,7 @@
                     "impact": {
                         "DT_IMPACT": 6.66666,
                         "DT_PUNCTURE": 6.66666,
-                        "DT_SLASH": 6.66668,
+                        "DT_SLASH": 6.666681,
                         "procChance": 0.1
                     }
                 }
@@ -121881,7 +121963,7 @@
                     "impact": {
                         "DT_IMPACT": 6.66666,
                         "DT_PUNCTURE": 6.66666,
-                        "DT_SLASH": 6.66668,
+                        "DT_SLASH": 6.666681,
                         "procChance": 0.1
                     }
                 }
@@ -121927,7 +122009,7 @@
                     "impact": {
                         "DT_IMPACT": 6.66666,
                         "DT_PUNCTURE": 6.66666,
-                        "DT_SLASH": 6.66668,
+                        "DT_SLASH": 6.666681,
                         "procChance": 0.1
                     }
                 }
@@ -122012,7 +122094,7 @@
                     "impact": {
                         "DT_IMPACT": 6.66666,
                         "DT_PUNCTURE": 6.66666,
-                        "DT_SLASH": 6.66668,
+                        "DT_SLASH": 6.666681,
                         "procChance": 0.1
                     }
                 }
@@ -122041,7 +122123,7 @@
                     "impact": {
                         "DT_IMPACT": 6.66666,
                         "DT_PUNCTURE": 6.66666,
-                        "DT_SLASH": 6.66668,
+                        "DT_SLASH": 6.666681,
                         "procChance": 0.1
                     }
                 }
@@ -122072,7 +122154,7 @@
                     "impact": {
                         "DT_IMPACT": 6.66666,
                         "DT_PUNCTURE": 6.66666,
-                        "DT_SLASH": 6.66668,
+                        "DT_SLASH": 6.666681,
                         "procChance": 0.1
                     }
                 }
@@ -122283,7 +122365,7 @@
                         "attack": {
                             "DT_IMPACT": 1.5,
                             "DT_PUNCTURE": 12.75,
-                            "DT_SLASH": 0.75,
+                            "DT_SLASH": 0.749999,
                             "procChance": 0
                         }
                     },
@@ -122344,7 +122426,7 @@
                     "impact": {
                         "DT_IMPACT": 3.75,
                         "DT_PUNCTURE": 12.5,
-                        "DT_SLASH": 8.75,
+                        "DT_SLASH": 8.750001,
                         "procChance": 0
                     }
                 }
@@ -122530,9 +122612,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 24.6,
-                        "DT_PUNCTURE": 24.6,
-                        "DT_SLASH": 114.8,
+                        "DT_IMPACT": 24.600002,
+                        "DT_PUNCTURE": 24.600002,
+                        "DT_SLASH": 114.799998,
                         "procChance": 0.3
                     }
                 },
@@ -122584,9 +122666,9 @@
                         "delay": 0.04
                     },
                     "impact": {
-                        "DT_IMPACT": 24.0,
-                        "DT_PUNCTURE": 18.0,
-                        "DT_SLASH": 18.0,
+                        "DT_IMPACT": 24.000001,
+                        "DT_PUNCTURE": 18.000001,
+                        "DT_SLASH": 17.999997,
                         "procChance": 0.2
                     }
                 }
@@ -122700,8 +122782,8 @@
                     "fireIterations": 1,
                     "impact": {
                         "DT_IMPACT": 18.0,
-                        "DT_PUNCTURE": 144.0,
-                        "DT_SLASH": 18.0,
+                        "DT_PUNCTURE": 144.000002,
+                        "DT_SLASH": 17.999994,
                         "procChance": 0
                     }
                 },
@@ -122766,9 +122848,9 @@
                         }
                     },
                     "impact": {
-                        "DT_IMPACT": 43.2,
+                        "DT_IMPACT": 43.200001,
                         "DT_PUNCTURE": 5.4,
-                        "DT_SLASH": 5.4,
+                        "DT_SLASH": 5.399998,
                         "procChance": 0.2
                     }
                 }
@@ -122827,14 +122909,14 @@
                         "attack": {
                             "DT_IMPACT": 3.0,
                             "DT_PUNCTURE": 45.0,
-                            "DT_SLASH": 12.0
+                            "DT_SLASH": 11.999999
                         }
                     },
                     "chargedProjectile": {
                         "attack": {
                             "DT_IMPACT": 4.5,
-                            "DT_PUNCTURE": 72.0,
-                            "DT_SLASH": 13.5
+                            "DT_PUNCTURE": 72.000001,
+                            "DT_SLASH": 13.499998
                         }
                     },
                     "impact": {
@@ -122893,9 +122975,9 @@
                         }
                     },
                     "impact": {
-                        "DT_IMPACT": 8.25,
-                        "DT_PUNCTURE": 38.5,
-                        "DT_SLASH": 8.25,
+                        "DT_IMPACT": 8.250001,
+                        "DT_PUNCTURE": 38.499999,
+                        "DT_SLASH": 8.249999,
                         "procChance": 0.1
                     }
                 },
@@ -122941,9 +123023,9 @@
                     "fireIterations": 1,
                     "projectile": {
                         "attack": {
-                            "DT_IMPACT": 17.4,
-                            "DT_PUNCTURE": 17.4,
-                            "DT_SLASH": 81.2,
+                            "DT_IMPACT": 17.400001,
+                            "DT_PUNCTURE": 17.400001,
+                            "DT_SLASH": 81.199999,
                             "procChance": 0.14
                         },
                         "explosiveAttack": {
@@ -122989,7 +123071,7 @@
                     "impact": {
                         "DT_IMPACT": 28.0,
                         "DT_PUNCTURE": 6.0,
-                        "DT_SLASH": 6.0,
+                        "DT_SLASH": 5.999999,
                         "procChance": 0.2
                     }
                 }
@@ -123135,7 +123217,7 @@
                     "fireIterations": 1,
                     "impact": {
                         "DT_PUNCTURE": 12.0,
-                        "DT_SLASH": 18.0,
+                        "DT_SLASH": 18.000001,
                         "procChance": 0.1
                     }
                 }
@@ -123232,8 +123314,8 @@
                     "projectile": {
                         "attack": {
                             "DT_IMPACT": 2.6,
-                            "DT_PUNCTURE": 15.6,
-                            "DT_SLASH": 7.8
+                            "DT_PUNCTURE": 15.600001,
+                            "DT_SLASH": 7.799999
                         }
                     },
                     "impact": {
@@ -123304,14 +123386,14 @@
                         "attack": {
                             "DT_IMPACT": 8.0,
                             "DT_PUNCTURE": 120.0,
-                            "DT_SLASH": 32.0
+                            "DT_SLASH": 31.999998
                         }
                     },
                     "chargedProjectile": {
                         "attack": {
                             "DT_IMPACT": 16.0,
-                            "DT_PUNCTURE": 256.0,
-                            "DT_SLASH": 48.0
+                            "DT_PUNCTURE": 256.000003,
+                            "DT_SLASH": 47.999994
                         }
                     },
                     "impact": {
@@ -123355,7 +123437,7 @@
                     "impact": {
                         "DT_IMPACT": 6.66666,
                         "DT_PUNCTURE": 6.66666,
-                        "DT_SLASH": 6.66668,
+                        "DT_SLASH": 6.666681,
                         "procChance": 0.1
                     }
                 },
@@ -123507,8 +123589,8 @@
                     "fireIterations": 1,
                     "projectile": {
                         "attack": {
-                            "DT_IMPACT": 99.0,
-                            "DT_PUNCTURE": 11.0,
+                            "DT_IMPACT": 98.999998,
+                            "DT_PUNCTURE": 11.000002,
                             "procChance": 0
                         },
                         "explosiveAttack": {
@@ -123616,8 +123698,8 @@
                     "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 90.0,
-                        "DT_PUNCTURE": 78.75,
+                        "DT_IMPACT": 90.000002,
+                        "DT_PUNCTURE": 78.749998,
                         "DT_SLASH": 56.25,
                         "procChance": 0.3
                     }
@@ -123738,8 +123820,8 @@
                     "fireIterations": 1,
                     "projectile": {
                         "attack": {
-                            "DT_IMPACT": 52.5,
-                            "DT_PUNCTURE": 22.5,
+                            "DT_IMPACT": 52.499999,
+                            "DT_PUNCTURE": 22.500001,
                             "procChance": 0
                         },
                         "explosiveAttack": {
@@ -123753,8 +123835,8 @@
                     },
                     "chargedProjectile": {
                         "attack": {
-                            "DT_IMPACT": 52.5,
-                            "DT_PUNCTURE": 22.5,
+                            "DT_IMPACT": 52.499999,
+                            "DT_PUNCTURE": 22.500001,
                             "procChance": 0
                         },
                         "explosiveAttack": {
@@ -123951,7 +124033,7 @@
                         "attack": {
                             "DT_IMPACT": 2.5,
                             "DT_PUNCTURE": 2.5,
-                            "DT_SLASH": 45.0,
+                            "DT_SLASH": 44.999999,
                             "procChance": 0.25
                         }
                     },
@@ -123959,7 +124041,7 @@
                         "attack": {
                             "DT_IMPACT": 2.5,
                             "DT_PUNCTURE": 2.5,
-                            "DT_SLASH": 45.0,
+                            "DT_SLASH": 44.999999,
                             "procChance": 0.25
                         }
                     },
@@ -124084,8 +124166,8 @@
                     "fireIterations": 1,
                     "impact": {
                         "DT_IMPACT": 7.5,
-                        "DT_PUNCTURE": 60.0,
-                        "DT_SLASH": 7.5,
+                        "DT_PUNCTURE": 60.000001,
+                        "DT_SLASH": 7.499997,
                         "procChance": 0.1
                     }
                 },
@@ -124110,7 +124192,7 @@
                     "fireIterations": 1,
                     "impact": {
                         "DT_PUNCTURE": 7.56,
-                        "DT_SLASH": 10.44,
+                        "DT_SLASH": 10.440001,
                         "procChance": 0.22
                     }
                 }
@@ -124196,7 +124278,7 @@
                     "impact": {
                         "DT_IMPACT": 4.8,
                         "DT_PUNCTURE": 6.4,
-                        "DT_SLASH": 4.8,
+                        "DT_SLASH": 4.799999,
                         "procChance": 0.2
                     }
                 },
@@ -124206,7 +124288,7 @@
                     "impact": {
                         "DT_IMPACT": 4.8,
                         "DT_PUNCTURE": 6.4,
-                        "DT_SLASH": 4.8,
+                        "DT_SLASH": 4.799999,
                         "procChance": 0.18
                     }
                 },
@@ -124216,7 +124298,7 @@
                     "impact": {
                         "DT_IMPACT": 4.8,
                         "DT_PUNCTURE": 6.4,
-                        "DT_SLASH": 4.8,
+                        "DT_SLASH": 4.799999,
                         "procChance": 0.32
                     }
                 }
@@ -124526,7 +124608,7 @@
                         "attack": {
                             "DT_IMPACT": 12.0,
                             "DT_PUNCTURE": 6.0,
-                            "DT_SLASH": 42.0
+                            "DT_SLASH": 41.999999
                         }
                     },
                     "impact": {
@@ -124780,7 +124862,7 @@
                         "attack": {
                             "DT_IMPACT": 6.0,
                             "DT_PUNCTURE": 6.0,
-                            "DT_SLASH": 18.0
+                            "DT_SLASH": 18.000001
                         },
                         "embedDeathAttack": {
                             "DT_EXPLOSION": 100,
@@ -124790,7 +124872,7 @@
                     "impact": {
                         "DT_IMPACT": 3.75,
                         "DT_PUNCTURE": 16.25,
-                        "DT_SLASH": 5.0,
+                        "DT_SLASH": 5.000001,
                         "procChance": 0.25
                     }
                 }
@@ -125042,13 +125124,13 @@
                         "attack": {
                             "DT_IMPACT": 16.0,
                             "DT_PUNCTURE": 2.0,
-                            "DT_SLASH": 2.0
+                            "DT_SLASH": 1.999999
                         }
                     },
                     "impact": {
                         "DT_IMPACT": 20.0,
                         "DT_PUNCTURE": 20.0,
-                        "DT_SLASH": 60.0,
+                        "DT_SLASH": 60.000002,
                         "procChance": 0
                     }
                 },
@@ -125069,9 +125151,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 9.0,
-                        "DT_PUNCTURE": 9.0,
-                        "DT_SLASH": 42.0,
+                        "DT_IMPACT": 9.000001,
+                        "DT_PUNCTURE": 9.000001,
+                        "DT_SLASH": 41.999999,
                         "procChance": 0.25
                     }
                 },
@@ -125648,9 +125730,9 @@
                         "attack": {}
                     },
                     "impact": {
-                        "DT_IMPACT": 60.0,
+                        "DT_IMPACT": 60.000001,
                         "DT_PUNCTURE": 7.5,
-                        "DT_SLASH": 7.5,
+                        "DT_SLASH": 7.499997,
                         "procChance": 0.025
                     }
                 },
@@ -125677,9 +125759,9 @@
                         }
                     },
                     "impact": {
-                        "DT_IMPACT": 60.0,
+                        "DT_IMPACT": 60.000001,
                         "DT_PUNCTURE": 7.5,
-                        "DT_SLASH": 7.5,
+                        "DT_SLASH": 7.499997,
                         "procChance": 0
                     }
                 },
@@ -125921,9 +126003,9 @@
                     "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 100.0,
-                        "DT_PUNCTURE": 18.75,
-                        "DT_SLASH": 6.25,
+                        "DT_IMPACT": 100.000001,
+                        "DT_PUNCTURE": 18.750001,
+                        "DT_SLASH": 6.249994,
                         "procChance": 1
                     }
                 }
@@ -125939,7 +126021,7 @@
                     "impact": {
                         "DT_IMPACT": 35.0,
                         "DT_PUNCTURE": 7.5,
-                        "DT_SLASH": 7.5,
+                        "DT_SLASH": 7.499999,
                         "procChance": 0.1
                     }
                 },
@@ -126218,7 +126300,7 @@
                     "impact": {
                         "DT_IMPACT": 12.5,
                         "DT_PUNCTURE": 2.5,
-                        "DT_SLASH": 10.0,
+                        "DT_SLASH": 9.999999,
                         "procChance": 0.35
                     }
                 },
@@ -126242,7 +126324,7 @@
                     "impact": {
                         "DT_IMPACT": 12.5,
                         "DT_PUNCTURE": 2.5,
-                        "DT_SLASH": 10.0,
+                        "DT_SLASH": 9.999999,
                         "procChance": 0.35
                     }
                 },
@@ -126324,7 +126406,7 @@
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0
                     }
                 },
@@ -126522,9 +126604,9 @@
                     "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 60.0,
-                        "DT_PUNCTURE": 11.25,
-                        "DT_SLASH": 3.75,
+                        "DT_IMPACT": 60.000001,
+                        "DT_PUNCTURE": 11.250001,
+                        "DT_SLASH": 3.749996,
                         "procChance": 0.1
                     }
                 },
@@ -126548,9 +126630,9 @@
                     "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 80.0,
-                        "DT_PUNCTURE": 15.0,
-                        "DT_SLASH": 5.0,
+                        "DT_IMPACT": 80.000001,
+                        "DT_PUNCTURE": 15.000001,
+                        "DT_SLASH": 4.999995,
                         "procChance": 0.1
                     }
                 },
@@ -126572,9 +126654,9 @@
                     "stateName": "/Lotus/Language/Menu/Loadout_TriggerCharge",
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 80.0,
-                        "DT_PUNCTURE": 15.0,
-                        "DT_SLASH": 5.0,
+                        "DT_IMPACT": 80.000001,
+                        "DT_PUNCTURE": 15.000001,
+                        "DT_SLASH": 4.999995,
                         "procChance": 0.1
                     }
                 },
@@ -126598,7 +126680,7 @@
                     "impact": {
                         "DT_IMPACT": 24.0,
                         "DT_PUNCTURE": 4.5,
-                        "DT_SLASH": 1.5,
+                        "DT_SLASH": 1.499999,
                         "procChance": 0
                     }
                 }
@@ -126613,7 +126695,7 @@
                         "attack": {
                             "DT_IMPACT": 40.0,
                             "DT_PUNCTURE": 5.0,
-                            "DT_SLASH": 5.0
+                            "DT_SLASH": 4.999998
                         }
                     },
                     "impact": {
@@ -126634,7 +126716,7 @@
                         "attack": {
                             "DT_IMPACT": 40.0,
                             "DT_PUNCTURE": 5.0,
-                            "DT_SLASH": 5.0
+                            "DT_SLASH": 4.999998
                         }
                     },
                     "impact": {
@@ -126655,7 +126737,7 @@
                         "attack": {
                             "DT_IMPACT": 40.0,
                             "DT_PUNCTURE": 5.0,
-                            "DT_SLASH": 5.0
+                            "DT_SLASH": 4.999998
                         }
                     },
                     "impact": {
@@ -126676,7 +126758,7 @@
                         "attack": {
                             "DT_IMPACT": 40.0,
                             "DT_PUNCTURE": 5.0,
-                            "DT_SLASH": 5.0
+                            "DT_SLASH": 4.999998
                         }
                     },
                     "impact": {
@@ -126714,7 +126796,7 @@
                     "impact": {
                         "DT_IMPACT": 1.5,
                         "DT_PUNCTURE": 3.0,
-                        "DT_SLASH": 25.5,
+                        "DT_SLASH": 25.500001,
                         "procChance": 0.05
                     }
                 }
@@ -126770,7 +126852,7 @@
                     "impact": {
                         "DT_IMPACT": 21.0,
                         "DT_PUNCTURE": 4.5,
-                        "DT_SLASH": 4.5,
+                        "DT_SLASH": 4.499999,
                         "procChance": 0.1
                     }
                 }
@@ -126814,7 +126896,7 @@
                     "impact": {
                         "DT_IMPACT": 11.666655,
                         "DT_PUNCTURE": 11.666655,
-                        "DT_SLASH": 11.66669,
+                        "DT_SLASH": 11.666691,
                         "procChance": 0.5
                     }
                 }
@@ -126962,7 +127044,7 @@
                     "impact": {
                         "DT_IMPACT": 40.0,
                         "DT_PUNCTURE": 8.0,
-                        "DT_SLASH": 32.0,
+                        "DT_SLASH": 31.999998,
                         "procChance": 0.3
                     }
                 },
@@ -126986,7 +127068,7 @@
                     "impact": {
                         "DT_IMPACT": 40.0,
                         "DT_PUNCTURE": 8.0,
-                        "DT_SLASH": 32.0,
+                        "DT_SLASH": 31.999998,
                         "procChance": 0.3
                     }
                 },
@@ -127191,7 +127273,7 @@
                     "impact": {
                         "DT_IMPACT": 18.13,
                         "DT_PUNCTURE": 14.21,
-                        "DT_SLASH": 16.66,
+                        "DT_SLASH": 16.660001,
                         "procChance": 0.27
                     }
                 }
@@ -127240,7 +127322,7 @@
                     "impact": {
                         "DT_IMPACT": 14.19,
                         "DT_PUNCTURE": 3.3,
-                        "DT_SLASH": 15.51,
+                        "DT_SLASH": 15.509999,
                         "procChance": 0.13
                     }
                 }
@@ -127349,7 +127431,7 @@
                     "impact": {
                         "DT_IMPACT": 18.13,
                         "DT_PUNCTURE": 14.21,
-                        "DT_SLASH": 16.66,
+                        "DT_SLASH": 16.660001,
                         "procChance": 0.27
                     }
                 }
@@ -127383,7 +127465,7 @@
                     "impact": {
                         "DT_IMPACT": 14.19,
                         "DT_PUNCTURE": 3.3,
-                        "DT_SLASH": 15.51,
+                        "DT_SLASH": 15.509999,
                         "procChance": 0.13
                     }
                 }
@@ -127463,7 +127545,7 @@
                     "impact": {
                         "DT_IMPACT": 18.13,
                         "DT_PUNCTURE": 14.21,
-                        "DT_SLASH": 16.66,
+                        "DT_SLASH": 16.660001,
                         "procChance": 0.27
                     }
                 }
@@ -127512,7 +127594,7 @@
                     "impact": {
                         "DT_IMPACT": 14.19,
                         "DT_PUNCTURE": 3.3,
-                        "DT_SLASH": 15.51,
+                        "DT_SLASH": 15.509999,
                         "procChance": 0.13
                     }
                 }
@@ -127754,7 +127836,7 @@
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0.1
                     }
                 }
@@ -127845,17 +127927,17 @@
                     "fireIterations": 1,
                     "projectile": {
                         "attack": {
-                            "DT_IMPACT": 90.0,
+                            "DT_IMPACT": 89.999998,
                             "DT_PUNCTURE": 5.0,
-                            "DT_SLASH": 5.0,
+                            "DT_SLASH": 5.000001,
                             "procChance": 0.49
                         }
                     },
                     "chargedProjectile": {
                         "attack": {
-                            "DT_IMPACT": 180.0,
+                            "DT_IMPACT": 179.999996,
                             "DT_PUNCTURE": 10.0,
-                            "DT_SLASH": 10.0,
+                            "DT_SLASH": 10.000002,
                             "procChance": 0.49
                         }
                     },
@@ -127876,9 +127958,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 53.1,
+                        "DT_IMPACT": 53.100002,
                         "DT_PUNCTURE": 44.25,
-                        "DT_SLASH": 79.65,
+                        "DT_SLASH": 79.649998,
                         "procChance": 0.25
                     }
                 }
@@ -127989,8 +128071,8 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 80.0,
-                        "DT_PUNCTURE": 20.0,
+                        "DT_IMPACT": 80.000001,
+                        "DT_PUNCTURE": 19.999999,
                         "procChance": 0.1
                     }
                 }
@@ -128019,9 +128101,9 @@
                         "delay": 0.25
                     },
                     "impact": {
-                        "DT_IMPACT": 60.0,
-                        "DT_PUNCTURE": 11.25,
-                        "DT_SLASH": 3.75,
+                        "DT_IMPACT": 60.000001,
+                        "DT_PUNCTURE": 11.250001,
+                        "DT_SLASH": 3.749996,
                         "procChance": 0.1
                     }
                 }
@@ -128039,7 +128121,7 @@
                         "attack": {
                             "DT_IMPACT": 4.0,
                             "DT_PUNCTURE": 30.0,
-                            "DT_SLASH": 6.0,
+                            "DT_SLASH": 5.999999,
                             "procChance": 0.025
                         }
                     },
@@ -128182,8 +128264,8 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 80.0,
-                        "DT_PUNCTURE": 20.0,
+                        "DT_IMPACT": 80.000001,
+                        "DT_PUNCTURE": 19.999999,
                         "procChance": 0.1
                     }
                 }
@@ -128904,9 +128986,9 @@
                         }
                     },
                     "impact": {
-                        "DT_IMPACT": 33.3333,
-                        "DT_PUNCTURE": 33.3333,
-                        "DT_SLASH": 33.3334,
+                        "DT_IMPACT": 33.333299,
+                        "DT_PUNCTURE": 33.333299,
+                        "DT_SLASH": 33.333403,
                         "procChance": 0
                     }
                 }
@@ -129109,7 +129191,7 @@
                         "attack": {
                             "DT_IMPACT": 5.0,
                             "DT_PUNCTURE": 35.0,
-                            "DT_SLASH": 10.0,
+                            "DT_SLASH": 9.999999,
                             "procChance": 0.01
                         }
                     },
@@ -129176,7 +129258,7 @@
                     "impact": {
                         "DT_IMPACT": 6.66666,
                         "DT_PUNCTURE": 6.66666,
-                        "DT_SLASH": 6.66668,
+                        "DT_SLASH": 6.666681,
                         "procChance": 0.1
                     }
                 }
@@ -129401,14 +129483,14 @@
                     "projectile": {
                         "attack": {
                             "DT_IMPACT": 7.0,
-                            "DT_PUNCTURE": 63.0,
+                            "DT_PUNCTURE": 62.999999,
                             "procChance": 0.29
                         }
                     },
                     "impact": {
                         "DT_IMPACT": 6.66666,
                         "DT_PUNCTURE": 6.66666,
-                        "DT_SLASH": 6.66668,
+                        "DT_SLASH": 6.666681,
                         "procChance": 0.1
                     }
                 }
@@ -129516,7 +129598,7 @@
                     "fireIterations": 1,
                     "projectile": {
                         "attack": {
-                            "DT_IMPACT": 27.0,
+                            "DT_IMPACT": 26.999999,
                             "DT_PUNCTURE": 1.5,
                             "DT_SLASH": 1.5,
                             "procChance": 0.15
@@ -129524,9 +129606,9 @@
                     },
                     "chargedProjectile": {
                         "attack": {
-                            "DT_IMPACT": 45.0,
+                            "DT_IMPACT": 44.999999,
                             "DT_PUNCTURE": 2.5,
-                            "DT_SLASH": 2.5,
+                            "DT_SLASH": 2.500001,
                             "procChance": 0.15
                         }
                     },
@@ -129566,7 +129648,7 @@
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0.1
                     }
                 }
@@ -129621,8 +129703,8 @@
                     "chargedProjectile": {
                         "attack": {
                             "DT_IMPACT": 2.25,
-                            "DT_PUNCTURE": 40.5,
-                            "DT_SLASH": 2.25
+                            "DT_PUNCTURE": 40.499999,
+                            "DT_SLASH": 2.250001
                         }
                     },
                     "impact": {
@@ -129675,8 +129757,8 @@
                     "chargedProjectile": {
                         "attack": {
                             "DT_IMPACT": 15.0,
-                            "DT_PUNCTURE": 270.0,
-                            "DT_SLASH": 15.0
+                            "DT_PUNCTURE": 269.999994,
+                            "DT_SLASH": 15.000004
                         }
                     },
                     "impact": {
@@ -129735,9 +129817,9 @@
                     "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 96.0,
+                        "DT_IMPACT": 96.000003,
                         "DT_PUNCTURE": 16.0,
-                        "DT_SLASH": 48.0,
+                        "DT_SLASH": 47.999992,
                         "procChance": 0.35
                     }
                 }
@@ -129771,7 +129853,7 @@
                         "attack": {
                             "DT_IMPACT": 5.0,
                             "DT_PUNCTURE": 40.0,
-                            "DT_SLASH": 5.0,
+                            "DT_SLASH": 4.999998,
                             "procChance": 0.27
                         },
                         "explosiveAttack": {
@@ -129796,7 +129878,7 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 27.0,
+                        "DT_IMPACT": 26.999999,
                         "DT_PUNCTURE": 3.0,
                         "procChance": 0
                     }
@@ -129969,8 +130051,8 @@
                     "fireIterations": 1,
                     "impact": {
                         "DT_IMPACT": 13.0,
-                        "DT_PUNCTURE": 104.0,
-                        "DT_SLASH": 13.0,
+                        "DT_PUNCTURE": 104.000001,
+                        "DT_SLASH": 12.999995,
                         "procChance": 0.1
                     }
                 }
@@ -130076,17 +130158,17 @@
                     "fireIterations": 1,
                     "projectile": {
                         "attack": {
-                            "DT_IMPACT": 171.0,
+                            "DT_IMPACT": 170.999996,
                             "DT_PUNCTURE": 9.5,
-                            "DT_SLASH": 9.5,
+                            "DT_SLASH": 9.500002,
                             "procChance": 0.18
                         }
                     },
                     "chargedProjectile": {
                         "attack": {
-                            "DT_IMPACT": 342.0,
+                            "DT_IMPACT": 341.999992,
                             "DT_PUNCTURE": 19.0,
-                            "DT_SLASH": 19.0,
+                            "DT_SLASH": 19.000005,
                             "procChance": 0.18
                         }
                     },
@@ -130127,7 +130209,7 @@
                         "attack": {
                             "DT_IMPACT": 6.0,
                             "DT_PUNCTURE": 6.0,
-                            "DT_SLASH": 108.0,
+                            "DT_SLASH": 107.999998,
                             "procChance": 0.2
                         }
                     },
@@ -130135,7 +130217,7 @@
                         "attack": {
                             "DT_IMPACT": 16.8,
                             "DT_PUNCTURE": 16.8,
-                            "DT_SLASH": 302.4,
+                            "DT_SLASH": 302.399993,
                             "procChance": 0.2
                         }
                     },
@@ -130418,7 +130500,7 @@
                     "impact": {
                         "DT_IMPACT": 7.2,
                         "DT_PUNCTURE": 9.6,
-                        "DT_SLASH": 7.2,
+                        "DT_SLASH": 7.199999,
                         "procChance": 0.16
                     }
                 },
@@ -130535,9 +130617,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 33.6,
-                        "DT_PUNCTURE": 33.6,
-                        "DT_SLASH": 156.8,
+                        "DT_IMPACT": 33.600002,
+                        "DT_PUNCTURE": 33.600002,
+                        "DT_SLASH": 156.799998,
                         "procChance": 0.3
                     }
                 }
@@ -130551,9 +130633,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 18.0,
-                        "DT_PUNCTURE": 18.0,
-                        "DT_SLASH": 84.0,
+                        "DT_IMPACT": 18.000001,
+                        "DT_PUNCTURE": 18.000001,
+                        "DT_SLASH": 83.999999,
                         "procChance": 0.16
                     }
                 }
@@ -130593,7 +130675,7 @@
                     "impact": {
                         "DT_IMPACT": 32.0,
                         "DT_PUNCTURE": 16.0,
-                        "DT_SLASH": 112.0,
+                        "DT_SLASH": 111.999998,
                         "procChance": 0.1
                     }
                 }
@@ -130643,9 +130725,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 140.0,
-                        "DT_PUNCTURE": 30.0,
-                        "DT_SLASH": 30.0,
+                        "DT_IMPACT": 139.999998,
+                        "DT_PUNCTURE": 30.000002,
+                        "DT_SLASH": 29.999996,
                         "procChance": 0.1
                     }
                 }
@@ -130846,9 +130928,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 27.0,
-                        "DT_PUNCTURE": 27.0,
-                        "DT_SLASH": 126.0,
+                        "DT_IMPACT": 27.000002,
+                        "DT_PUNCTURE": 27.000002,
+                        "DT_SLASH": 125.999998,
                         "procChance": 0.2
                     }
                 }
@@ -130862,9 +130944,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 10.5,
-                        "DT_PUNCTURE": 56.0,
-                        "DT_SLASH": 3.5,
+                        "DT_IMPACT": 10.500001,
+                        "DT_PUNCTURE": 56.000001,
+                        "DT_SLASH": 3.499997,
                         "procChance": 0.1
                     }
                 }
@@ -130878,9 +130960,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 25.5,
-                        "DT_PUNCTURE": 136.0,
-                        "DT_SLASH": 8.5,
+                        "DT_IMPACT": 25.500002,
+                        "DT_PUNCTURE": 136.000002,
+                        "DT_SLASH": 8.499992,
                         "procChance": 0.1
                     }
                 }
@@ -130894,9 +130976,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 34.5,
-                        "DT_PUNCTURE": 34.5,
-                        "DT_SLASH": 161.0,
+                        "DT_IMPACT": 34.500002,
+                        "DT_PUNCTURE": 34.500002,
+                        "DT_SLASH": 160.999998,
                         "procChance": 0.2
                     }
                 }
@@ -130924,7 +131006,7 @@
                     "impact": {
                         "DT_IMPACT": 12.4,
                         "DT_PUNCTURE": 12.4,
-                        "DT_SLASH": 99.2,
+                        "DT_SLASH": 99.200001,
                         "procChance": 0.2
                     }
                 }
@@ -130938,9 +131020,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 18.75,
-                        "DT_PUNCTURE": 18.75,
-                        "DT_SLASH": 87.5,
+                        "DT_IMPACT": 18.750001,
+                        "DT_PUNCTURE": 18.750001,
+                        "DT_SLASH": 87.499999,
                         "procChance": 0.15
                     }
                 }
@@ -131033,7 +131115,7 @@
                     "impact": {
                         "DT_IMPACT": 14.7,
                         "DT_PUNCTURE": 14.7,
-                        "DT_SLASH": 117.6,
+                        "DT_SLASH": 117.600001,
                         "procChance": 0.2
                     }
                 }
@@ -131083,7 +131165,7 @@
                     "impact": {
                         "DT_IMPACT": 3.125,
                         "DT_PUNCTURE": 3.125,
-                        "DT_SLASH": 118.75,
+                        "DT_SLASH": 118.749999,
                         "procChance": 0.2
                     }
                 }
@@ -131097,9 +131179,9 @@
                 {
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 120.0,
-                        "DT_PUNCTURE": 60.0,
-                        "DT_SLASH": 70.0,
+                        "DT_IMPACT": 119.999997,
+                        "DT_PUNCTURE": 59.999997,
+                        "DT_SLASH": 70.000008,
                         "procChance": 0.26
                     }
                 }
@@ -131114,7 +131196,7 @@
                     "fireIterations": 1,
                     "impact": {
                         "DT_IMPACT": 7.0,
-                        "DT_PUNCTURE": 63.0,
+                        "DT_PUNCTURE": 62.999999,
                         "DT_SLASH": 70.0,
                         "procChance": 0.2
                     }
@@ -131147,8 +131229,8 @@
                     "fireIterations": 1,
                     "impact": {
                         "DT_IMPACT": 17.6,
-                        "DT_PUNCTURE": 140.8,
-                        "DT_SLASH": 17.6,
+                        "DT_PUNCTURE": 140.800002,
+                        "DT_SLASH": 17.599994,
                         "procChance": 0.28
                     }
                 }
@@ -131176,7 +131258,7 @@
                     "impact": {
                         "DT_IMPACT": 12.8,
                         "DT_PUNCTURE": 19.2,
-                        "DT_SLASH": 128.0,
+                        "DT_SLASH": 128.000002,
                         "procChance": 0.28
                     }
                 }
@@ -131197,7 +131279,7 @@
                     "impact": {
                         "DT_IMPACT": 21.0,
                         "DT_PUNCTURE": 4.5,
-                        "DT_SLASH": 4.5,
+                        "DT_SLASH": 4.499999,
                         "procChance": 0.06
                     }
                 },
@@ -131211,7 +131293,7 @@
                     "impact": {
                         "DT_IMPACT": 28.0,
                         "DT_PUNCTURE": 6.0,
-                        "DT_SLASH": 6.0,
+                        "DT_SLASH": 5.999999,
                         "procChance": 0.2
                     }
                 }
@@ -131275,16 +131357,16 @@
                     "fireIterations": 1,
                     "projectile": {
                         "attack": {
-                            "DT_IMPACT": 292.5,
+                            "DT_IMPACT": 292.499994,
                             "DT_PUNCTURE": 16.25,
-                            "DT_SLASH": 16.25,
+                            "DT_SLASH": 16.250004,
                             "procChance": 0.02
                         }
                     },
                     "impact": {
                         "DT_IMPACT": 15.0,
-                        "DT_PUNCTURE": 120.0,
-                        "DT_SLASH": 15.0,
+                        "DT_PUNCTURE": 120.000001,
+                        "DT_SLASH": 14.999995,
                         "procChance": 0.1
                     }
                 },
@@ -131365,7 +131447,7 @@
                     "impact": {
                         "DT_IMPACT": 8.333325,
                         "DT_PUNCTURE": 8.333325,
-                        "DT_SLASH": 8.33335,
+                        "DT_SLASH": 8.333351,
                         "procChance": 0.1
                     }
                 },
@@ -131390,7 +131472,7 @@
                         "attack": {
                             "DT_IMPACT": 2.5,
                             "DT_PUNCTURE": 20.0,
-                            "DT_SLASH": 2.5,
+                            "DT_SLASH": 2.499999,
                             "procChance": 0.14
                         }
                     },
@@ -131436,7 +131518,7 @@
                     "impact": {
                         "DT_IMPACT": 9.99999,
                         "DT_PUNCTURE": 9.99999,
-                        "DT_SLASH": 10.00002,
+                        "DT_SLASH": 10.000021,
                         "procChance": 0.18
                     }
                 },
@@ -131538,14 +131620,14 @@
                         "attack": {
                             "DT_IMPACT": 15.0,
                             "DT_PUNCTURE": 15.0,
-                            "DT_SLASH": 120.0,
+                            "DT_SLASH": 120.000001,
                             "procChance": 0.01
                         }
                     },
                     "impact": {
                         "DT_IMPACT": 16.665,
-                        "DT_PUNCTURE": 16.66665,
-                        "DT_SLASH": 16.66835,
+                        "DT_PUNCTURE": 16.666649,
+                        "DT_SLASH": 16.668349,
                         "procChance": 0.1
                     }
                 },
@@ -131565,7 +131647,7 @@
                     "impact": {
                         "DT_IMPACT": 18.75,
                         "DT_PUNCTURE": 3.75,
-                        "DT_SLASH": 2.5,
+                        "DT_SLASH": 2.500001,
                         "procChance": 0.09
                     }
                 },
@@ -131575,8 +131657,8 @@
                     "projectile": {
                         "attack": {
                             "DT_IMPACT": 20.0,
-                            "DT_PUNCTURE": 60.0,
-                            "DT_SLASH": 20.0,
+                            "DT_PUNCTURE": 60.000002,
+                            "DT_SLASH": 19.999999,
                             "procChance": 0.19
                         },
                         "embedDeathAttack": {
@@ -131644,9 +131726,9 @@
                     "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 8.25,
-                        "DT_PUNCTURE": 38.5,
-                        "DT_SLASH": 8.25,
+                        "DT_IMPACT": 8.250001,
+                        "DT_PUNCTURE": 38.499999,
+                        "DT_SLASH": 8.249999,
                         "procChance": 0.12
                     }
                 },
@@ -131742,7 +131824,7 @@
                     "impact": {
                         "DT_IMPACT": 12.25,
                         "DT_PUNCTURE": 1.75,
-                        "DT_SLASH": 21.0,
+                        "DT_SLASH": 21.000001,
                         "procChance": 0.16
                     }
                 },
@@ -131750,7 +131832,7 @@
                     "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
                     "fireIterations": 1,
                     "impact": {
-                        "DT_IMPACT": 26.0,
+                        "DT_IMPACT": 26.000001,
                         "DT_PUNCTURE": 2.6,
                         "DT_SLASH": 36.4,
                         "procChance": 0.22
@@ -131887,7 +131969,7 @@
                     "impact": {
                         "DT_IMPACT": 12.1,
                         "DT_PUNCTURE": 3.3,
-                        "DT_SLASH": 6.6,
+                        "DT_SLASH": 6.599999,
                         "procChance": 0.6
                     }
                 },
@@ -131927,7 +132009,7 @@
                     "impact": {
                         "DT_IMPACT": 13.75,
                         "DT_PUNCTURE": 3.75,
-                        "DT_SLASH": 7.5,
+                        "DT_SLASH": 7.499999,
                         "procChance": 0.6
                     }
                 },
@@ -131967,7 +132049,7 @@
                         "attack": {
                             "DT_IMPACT": 4.6,
                             "DT_PUNCTURE": 34.5,
-                            "DT_SLASH": 6.9,
+                            "DT_SLASH": 6.899999,
                             "procChance": 0.08
                         }
                     },
@@ -131998,8 +132080,8 @@
                     "projectile": {
                         "attack": {
                             "DT_IMPACT": 2.6,
-                            "DT_PUNCTURE": 15.6,
-                            "DT_SLASH": 7.8
+                            "DT_PUNCTURE": 15.600001,
+                            "DT_SLASH": 7.799999
                         }
                     },
                     "impact": {

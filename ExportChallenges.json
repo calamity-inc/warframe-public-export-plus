@@ -588,6 +588,12 @@
         "requiredCount": 15,
         "standing": 1000
     },
+    "/Lotus/Types/Challenges/Seasons/Daily/SeasonDailyArtist": {
+        "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonDailyArtist_Name",
+        "icon": "/Lotus/Interface/Icons/Episodes/Daily/Artist.png",
+        "requiredCount": 1,
+        "standing": 1000
+    },
     "/Lotus/Types/Challenges/Seasons/Daily/SeasonDailyAugmentation": {
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonDailyAugmentation_Name",
         "icon": "/Lotus/Interface/Icons/Episodes/Daily/Augmentation.png",
@@ -966,6 +972,12 @@
         "requiredCount": 1,
         "standing": 1000
     },
+    "/Lotus/Types/Challenges/Seasons/Daily/SeasonDailyWholeArsenal": {
+        "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonDailyWholeArsenal_Name",
+        "icon": "/Lotus/Interface/Icons/Episodes/Daily/WholeArsenal.png",
+        "requiredCount": 1,
+        "standing": 1000
+    },
     "/Lotus/Types/Challenges/Seasons/Daily/SeasonDailyYourMove": {
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonDailyYourMove_Name",
         "icon": "/Lotus/Interface/Icons/Episodes/Daily/YourMove.png",
@@ -990,6 +1002,12 @@
         "requiredCount": 1,
         "standing": 4500
     },
+    "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyBowOffense": {
+        "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyBowOffense_Name",
+        "icon": "/Lotus/Interface/Icons/Episodes/Weekly/BowOffense.png",
+        "requiredCount": 150,
+        "standing": 4500
+    },
     "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyCatchRarePlainsFish": {
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyCatchRarePlainsFish_Name",
         "icon": "/Lotus/Interface/Icons/Episodes/Weekly/RareFishPoE.png",
@@ -1004,7 +1022,7 @@
     },
     "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyCollectHundredResources": {
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyCollectHundredResources_Name",
-        "icon": "/Lotus/Interface/Icons/Episodes/Daily/Resources.png",
+        "icon": "/Lotus/Interface/Icons/Episodes/Weekly/Resources.png",
         "requiredCount": 4000,
         "standing": 4500
     },
@@ -1113,7 +1131,7 @@
     "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyCompleteVenusRace": {
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyCompleteVenusRace_Name",
         "icon": "/Lotus/Interface/Icons/Episodes/Weekly/CompleteDifferentKDriveRacesInOrbVallis.png",
-        "requiredCount": 3,
+        "requiredCount": 1,
         "standing": 4500
     },
     "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyDestroyCrewshipArtillery": {
@@ -1137,7 +1155,7 @@
     "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyFinelyTuned": {
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyFinelyTuned_Name",
         "icon": "/Lotus/Interface/Icons/Episodes/Weekly/FinelyTuned.png",
-        "requiredCount": 3,
+        "requiredCount": 1,
         "standing": 4500
     },
     "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyGildModular": {
@@ -1698,6 +1716,18 @@
         "requiredCount": 30,
         "standing": 4500
     },
+    "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyPerplexed": {
+        "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyPerplexed_Name",
+        "icon": "/Lotus/Interface/Icons/Episodes/Weekly/Perplexed.png",
+        "requiredCount": 1,
+        "standing": 4500
+    },
+    "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyPickUpMedallion": {
+        "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyPickUpMedallion_Name",
+        "icon": "/Lotus/Interface/Icons/Episodes/Weekly/FindSyndicateMedallions.png",
+        "requiredCount": 10,
+        "standing": 4500
+    },
     "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyPickUpRareMods": {
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyPickUpRareMods_Name",
         "icon": "/Lotus/Interface/Icons/Episodes/Weekly/AcquireRareMods.png",
@@ -1724,8 +1754,14 @@
     },
     "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyRequiemTotem": {
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyRequiemTotem_Name",
-        "icon": "/Lotus/Interface/Icons/Episodes/Daily/ActivateDeimosRequiemTotem.png",
+        "icon": "/Lotus/Interface/Icons/Episodes/Weekly/ActivateDeimosRequiemTotem.png",
         "requiredCount": 3,
+        "standing": 4500
+    },
+    "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyRifleOffense": {
+        "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyRifleOffense_Name",
+        "icon": "/Lotus/Interface/Icons/Episodes/Weekly/RifleOffense.png",
+        "requiredCount": 150,
         "standing": 4500
     },
     "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklySabotageCaches": {
@@ -1740,6 +1776,12 @@
         "requiredCount": 8,
         "standing": 4500
     },
+    "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyShotgunOffense": {
+        "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyShotgunOffense_Name",
+        "icon": "/Lotus/Interface/Icons/Episodes/Weekly/ShotgunOffense.png",
+        "requiredCount": 150,
+        "standing": 4500
+    },
     "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklySimarisScan": {
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklySimarisScan_Name",
         "icon": "/Lotus/Interface/Icons/Episodes/Weekly/SynthesizeSimarisTargets.png",
@@ -1752,6 +1794,12 @@
         "requiredCount": 50,
         "standing": 4500
     },
+    "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklySniperOffense": {
+        "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklySniperOffense_Name",
+        "icon": "/Lotus/Interface/Icons/Episodes/Weekly/SniperOffense.png",
+        "requiredCount": 150,
+        "standing": 4500
+    },
     "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklySolveCiphers": {
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklySolveCiphers_Name",
         "icon": "/Lotus/Interface/Icons/Episodes/Daily/SolveCipher.png",
@@ -1761,6 +1809,12 @@
     "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyTheOldWays": {
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyTheOldWays_Name",
         "icon": "/Lotus/Interface/Icons/Episodes/Weekly/TheOldWays.png",
+        "requiredCount": 1,
+        "standing": 4500
+    },
+    "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyToAshes": {
+        "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyToAshes_Name",
+        "icon": "/Lotus/Interface/Icons/Episodes/Weekly/ToAshes.png",
         "requiredCount": 1,
         "standing": 4500
     },
@@ -1788,6 +1842,12 @@
         "requiredCount": 3,
         "standing": 4500
     },
+    "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyVoidNet": {
+        "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyVoidNet_Name",
+        "icon": "/Lotus/Interface/Icons/Episodes/Weekly/Collector.png",
+        "requiredCount": 30,
+        "standing": 4500
+    },
     "/Lotus/Types/Challenges/Seasons/Weekly/SeasonWeeklyZarimanBountyHunter": {
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyZarimanBountyHunter_Name",
         "icon": "/Lotus/Interface/Icons/Episodes/Weekly/ZarimanBountyHunter.png",
@@ -1798,6 +1858,12 @@
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyHardAntiquarian_Name",
         "icon": "/Lotus/Interface/Icons/Episodes/Hardcore/Antiquarian.png",
         "requiredCount": 4,
+        "standing": 7000
+    },
+    "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardBattleHardened": {
+        "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyHardBattleHardened_Name",
+        "icon": "/Lotus/Interface/Icons/Episodes/Hardcore/BattleHardened.png",
+        "requiredCount": 6,
         "standing": 7000
     },
     "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardCeremonialEvolution": {
@@ -1842,6 +1908,12 @@
         "requiredCount": 5,
         "standing": 7000
     },
+    "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardElementaryMyDear": {
+        "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyHardElementaryMyDear_Name",
+        "icon": "/Lotus/Interface/Icons/Episodes/Hardcore/ElementaryMyDear.png",
+        "requiredCount": 3,
+        "standing": 7000
+    },
     "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardEliteBeastSlayer": {
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyHardEliteBeastSlayer_Name",
         "icon": "/Lotus/Interface/Icons/Episodes/Hardcore/EliteBeastSlayer.png",
@@ -1854,6 +1926,12 @@
         "requiredCount": 8,
         "standing": 7000
     },
+    "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardEternalGuardian": {
+        "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyHardEternalGuardian_Name",
+        "icon": "/Lotus/Interface/Icons/Episodes/Hardcore/EternalGuardian.png",
+        "requiredCount": 2,
+        "standing": 7000
+    },
     "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardExterminateNoAlarm": {
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyHardExterminateNoAlarm_Name",
         "icon": "/Lotus/Interface/Icons/Episodes/Hardcore/ExterminationWithoutAlarms.png",
@@ -1863,7 +1941,7 @@
     "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardFallenAngel": {
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyHardFallenAngel_Name",
         "icon": "/Lotus/Interface/Icons/Episodes/Hardcore/FallenAngel.png",
-        "requiredCount": 5,
+        "requiredCount": 3,
         "standing": 7000
     },
     "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardFastCapture": {
@@ -1892,7 +1970,7 @@
     },
     "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardFriendsProfitTaker": {
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyHardFriendsProfitTaker_Name",
-        "icon": "/Lotus/Interface/Icons/Episodes/Weekly/OrbHeistFullParty.png",
+        "icon": "/Lotus/Interface/Icons/Episodes/Hardcore/OrbHeistFullParty.png",
         "requiredCount": 1,
         "standing": 7000
     },
@@ -1900,6 +1978,24 @@
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyHardFriendsSurvival_Name",
         "icon": "/Lotus/Interface/Icons/Episodes/Hardcore/HighLevelSurvivalWithFriendsClan.png",
         "requiredCount": 1,
+        "standing": 7000
+    },
+    "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardGoingDown": {
+        "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyHardGoingDown_Name",
+        "icon": "/Lotus/Interface/Icons/Episodes/Hardcore/GoingDown.png",
+        "requiredCount": 1,
+        "standing": 7000
+    },
+    "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardHighGround": {
+        "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyHardHighGround_Name",
+        "icon": "/Lotus/Interface/Icons/Episodes/Hardcore/HighGround.png",
+        "requiredCount": 12,
+        "standing": 7000
+    },
+    "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardHoldTheMushrooms": {
+        "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyHardHoldTheMushrooms_Name",
+        "icon": "/Lotus/Interface/Icons/Episodes/Hardcore/HoldTheMushrooms.png",
+        "requiredCount": 6,
         "standing": 7000
     },
     "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardIndexWinStreak": {
@@ -1910,7 +2006,7 @@
     },
     "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardKillEnemies": {
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyHardKillEnemies_Name",
-        "icon": "/Lotus/Interface/Icons/Episodes/Daily/GetHeadshots.png",
+        "icon": "/Lotus/Interface/Icons/Episodes/Hardcore/KillEnemiesHardcore.png",
         "requiredCount": 1500,
         "standing": 7000
     },
@@ -1983,13 +2079,19 @@
     "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardRailjackMissions": {
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyHardRailjackMissions_Name",
         "icon": "/Lotus/Interface/Icons/Episodes/Hardcore/Complete8RailjackMissions.png",
-        "requiredCount": 8,
+        "requiredCount": 6,
         "standing": 7000
     },
     "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardRiseOfTheMachine": {
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyHardRiseOfTheMachine_Name",
         "icon": "/Lotus/Interface/Icons/Episodes/Hardcore/RiseOfTheMachine.png",
         "requiredCount": 300,
+        "standing": 7000
+    },
+    "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardSpiderHunt": {
+        "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyHardSpiderHunt_Name",
+        "icon": "/Lotus/Interface/Icons/Episodes/Hardcore/SpiderHunt.png",
+        "requiredCount": 1,
         "standing": 7000
     },
     "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardSpyManualNoAlarms": {
@@ -2016,6 +2118,12 @@
         "requiredCount": 1,
         "standing": 7000
     },
+    "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardTreasureFromThePast": {
+        "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyHardTreasureFromThePast_Name",
+        "icon": "/Lotus/Interface/Icons/Episodes/Hardcore/TreasureFromThePast.png",
+        "requiredCount": 1,
+        "standing": 7000
+    },
     "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardUnlockRelics": {
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyHardUnlockRelics_Name",
         "icon": "/Lotus/Interface/Icons/Episodes/Hardcore/UnlockRelicsHardcore.png",
@@ -2026,6 +2134,12 @@
         "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyHardVitalArbiter_Name",
         "icon": "/Lotus/Interface/Icons/Episodes/Hardcore/VitalArbiter.png",
         "requiredCount": 1,
+        "standing": 7000
+    },
+    "/Lotus/Types/Challenges/Seasons/WeeklyHard/SeasonWeeklyHardZarimanBountyHunter": {
+        "name": "/Lotus/Language/NightwaveChallenges/Challenge_SeasonWeeklyHardZarimanBountyHunter_Name",
+        "icon": "/Lotus/Interface/Icons/Episodes/Hardcore/ZarimanBountyHunter.png",
+        "requiredCount": 4,
         "standing": 7000
     },
     "/Lotus/Types/Challenges/SentEvoArmorRankOne": {
@@ -2156,8 +2270,8 @@
         "name": "/Lotus/Language/Challenges/Challenge_DJCompleteQuest_Name",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Archwing/Rifle/ArchwingRifleDamageAmountMod",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Archwing/Rifle/ArchwingRifleDamageAmountMod"
             }
         ]
     },
@@ -2166,8 +2280,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_DJPlayedParkourTutorial_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CircuitSilverNormalFusionBundle",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CircuitSilverNormalFusionBundle"
             }
         ]
     },
@@ -2176,8 +2290,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_DJRandomizedWallClingKillstreak_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Weapons/Tenno/Melee/MeleeTrees/StaffCmbOneMeleeTree",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Weapons/Tenno/Melee/MeleeTrees/StaffCmbOneMeleeTree"
             }
         ]
     },
@@ -2186,8 +2300,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_DJUpgradeRedirectionToRankFive_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Weapons/Tenno/Melee/MeleeTrees/HammerCmbTwoMeleeTree",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Weapons/Tenno/Melee/MeleeTrees/HammerCmbTwoMeleeTree"
             }
         ]
     },
@@ -2196,8 +2310,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_EMBoltorOnly_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionNyxValkyrRailjackABronze",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Types/Game/Projections/T1VoidProjectionNyxValkyrRailjackABronze"
             }
         ]
     },
@@ -2206,8 +2320,8 @@
         "hint": "/Lotus/Language/Challenges/Challenge_EMCompleteQuest_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/Items/ShipFeatureItems/VoidProjectionFeatureItem",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Types/Items/ShipFeatureItems/VoidProjectionFeatureItem"
             }
         ]
     },
@@ -2216,8 +2330,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_EMPurchaseWeapon_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarAbilityEfficiencyMod",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarAbilityEfficiencyMod"
             }
         ]
     },
@@ -2226,8 +2340,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_EMVisitSideQuest_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/Scanner",
-                "ItemCount": 25
+                "ItemCount": 25,
+                "StoreItem": "/Lotus/StoreItems/Types/Restoratives/Consumable/Scanner"
             }
         ]
     },
@@ -2235,8 +2349,8 @@
         "name": "/Lotus/Language/Challenges/Challenge_EVCompleteQuest_Name",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Aura/PlayerEnergyHealthRegenAuraMod",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Aura/PlayerEnergyHealthRegenAuraMod"
             }
         ]
     },
@@ -2245,8 +2359,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_EVEquipDreamersBondMod_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Pistol/WeaponFreezeDamageMod",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Pistol/WeaponFreezeDamageMod"
             }
         ]
     },
@@ -2255,8 +2369,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_EVStartCraftingTaxon_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/OrokinReactor",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/OrokinReactor"
             }
         ]
     },
@@ -2265,8 +2379,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_EVUpgradeDreamersBondMod_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/Recipes/SentinelRecipes/TnSentinelCrossBlueprint",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Types/Recipes/SentinelRecipes/TnSentinelCrossBlueprint"
             }
         ]
     },
@@ -2275,8 +2389,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_ESCompleteQuest_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Weapons/CrewShip/MassDriver/AutoCannon/ZektiAutoCannonTierA",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Weapons/CrewShip/MassDriver/AutoCannon/ZektiAutoCannonTierA"
             }
         ]
     },
@@ -2285,8 +2399,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_ESCompleteRailjackMission_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Upgrades/Skins/RailJack/HullMaterialsVidarA",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Upgrades/Skins/RailJack/HullMaterialsVidarA"
             }
         ]
     },
@@ -2295,8 +2409,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_ESGetKills_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/Gameplay/Eidolon/Resources/QuillsDogTag",
-                "ItemCount": 25
+                "ItemCount": 25,
+                "StoreItem": "/Lotus/StoreItems/Types/Gameplay/Eidolon/Resources/QuillsDogTag"
             }
         ]
     },
@@ -2305,8 +2419,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_ESKillBossAmbulas_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Cryotic",
-                "ItemCount": 1500
+                "ItemCount": 1500,
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Cryotic"
             }
         ]
     },
@@ -2315,8 +2429,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_JECompleteNightmare_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Sentinel/SentinelLootRadarEnemyRadarMod",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Sentinel/SentinelLootRadarEnemyRadarMod"
             }
         ]
     },
@@ -2325,8 +2439,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_JELearnSynthesis_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Aura/PlayerHealthAuraMod",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Aura/PlayerHealthAuraMod"
             }
         ]
     },
@@ -2335,8 +2449,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_JEStartCraftingForma_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/PickUps/Credits/10000Credits",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Types/PickUps/Credits/10000Credits"
             }
         ]
     },
@@ -2345,8 +2459,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_JEVisitDojo_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/StoreItems/CreditBundles/15000Credits",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Types/StoreItems/CreditBundles/15000Credits"
             }
         ]
     },
@@ -2355,8 +2469,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_JSCodexScan_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/NeuralSensor",
-                "ItemCount": 3
+                "ItemCount": 3,
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/NeuralSensor"
             }
         ]
     },
@@ -2365,8 +2479,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_JSCompleteQuest_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Archwing/Suit/ArchwingSuitHealthMaxMod",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Archwing/Suit/ArchwingSuitHealthMaxMod"
             }
         ]
     },
@@ -2375,8 +2489,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_JSDissolveFiveMods_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CircuitSilverNormalFusionBundle",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CircuitSilverNormalFusionBundle"
             }
         ]
     },
@@ -2385,8 +2499,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_JSEquipCodexScanner_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Archwing/Melee/ArchwingMeleeDamageMod",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Archwing/Melee/ArchwingMeleeDamageMod"
             }
         ]
     },
@@ -2395,8 +2509,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_MCCompleteTreasureHunt_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/Items/FusionTreasures/OroFusexOrnamentB",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Types/Items/FusionTreasures/OroFusexOrnamentB"
             }
         ]
     },
@@ -2405,8 +2519,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_MCFillTreasure_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Melee/WeaponToxinDamageMod",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Melee/WeaponToxinDamageMod"
             }
         ]
     },
@@ -2415,8 +2529,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_MCPledgeSyndicate_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/Items/SyndicateDogTags/UniversalSyndicateDogTag",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Types/Items/SyndicateDogTags/UniversalSyndicateDogTag"
             }
         ]
     },
@@ -2425,8 +2539,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_MCTradeTreasure_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Weapons/Tenno/Melee/MeleeTrees/DualSwordCmbOneMeleeTree",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Weapons/Tenno/Melee/MeleeTrees/DualSwordCmbOneMeleeTree"
             }
         ]
     },
@@ -2435,8 +2549,8 @@
         "hint": "/Lotus/Language/Challenges/Challenge_MCVoidProjectionUpgrade_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Salvage",
-                "ItemCount": 1000
+                "ItemCount": 1000,
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Salvage"
             }
         ]
     },
@@ -2445,8 +2559,8 @@
         "hint": "/Lotus/Language/Challenges/Challenge_MPHeadshotKills_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarPowerMaxMod",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarPowerMaxMod"
             }
         ]
     },
@@ -2455,8 +2569,8 @@
         "hint": "/Lotus/Language/Challenges/Challenge_MPVisitMaroo_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarAbilityStrengthMod",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarAbilityStrengthMod"
             }
         ]
     },
@@ -2465,8 +2579,8 @@
         "hint": "/Lotus/Language/Challenges/Challenge_MPVoidTears_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/StoreItems/Consumables/CipherBlueprint",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Types/StoreItems/Consumables/CipherBlueprint"
             }
         ]
     },
@@ -2475,8 +2589,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_NPCompleteFactionInvasionMission_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/Items/Research/EnergyComponent",
-                "ItemCount": 10
+                "ItemCount": 10,
+                "StoreItem": "/Lotus/StoreItems/Types/Items/Research/EnergyComponent"
             }
         ]
     },
@@ -2485,8 +2599,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_NPCompleteQuest_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/JunctionRewardNPFusionBundleA",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/JunctionRewardNPFusionBundleA"
             }
         ]
     },
@@ -2495,8 +2609,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_NPEquipArchwingLauncher_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/JunctionRewardNPFusionBundleB",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/JunctionRewardNPFusionBundleB"
             }
         ]
     },
@@ -2504,8 +2618,8 @@
         "name": "/Lotus/Language/JunctionReworkChallenges/Challenge_NPKillBossHyena_Name",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ChromaSystemsBlueprint",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ChromaSystemsBlueprint"
             }
         ]
     },
@@ -2513,8 +2627,8 @@
         "name": "/Lotus/Language/Challenges/Challenge_PEDefenseWaves_Name",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/OrokinCatalyst",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/OrokinCatalyst"
             }
         ]
     },
@@ -2523,8 +2637,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_PEEquipFocusLens_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/Items/UnlockArbitrationKeyItem",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Types/Items/UnlockArbitrationKeyItem"
             }
         ]
     },
@@ -2533,8 +2647,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_PEFindOrokinVault_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/Types/Restoratives/Upgraded/DragonKeyRewardBundle",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/Types/Restoratives/Upgraded/DragonKeyRewardBundle"
             }
         ]
     },
@@ -2543,8 +2657,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_PETheWarWithin_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
-                "ItemCount": 15
+                "ItemCount": 15,
+                "StoreItem": "/Lotus/StoreItems/Types/Items/RailjackMiscItems/CarbidesRailjackItem"
             }
         ]
     },
@@ -2553,8 +2667,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_SUHeavyMeleeKills_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Melee/DualStat/FocusEnergyMod",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Melee/DualStat/FocusEnergyMod"
             }
         ]
     },
@@ -2562,8 +2676,8 @@
         "name": "/Lotus/Language/Challenges/Challenge_SUKillBossSargasRuk_Name",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ChromaHelmetBlueprint",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ChromaHelmetBlueprint"
             }
         ]
     },
@@ -2572,8 +2686,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_SUTitanSurvival_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/OrokinCell",
-                "ItemCount": 10
+                "ItemCount": 10,
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/OrokinCell"
             }
         ]
     },
@@ -2582,8 +2696,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_SUTransmuteMod_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/StoreItems/CreditBundles/20000Credits",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Types/StoreItems/CreditBundles/20000Credits"
             }
         ]
     },
@@ -2592,8 +2706,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_UNCompleteCaliban_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/Items/Research/ChemComponent",
-                "ItemCount": 5
+                "ItemCount": 5,
+                "StoreItem": "/Lotus/StoreItems/Types/Items/Research/ChemComponent"
             }
         ]
     },
@@ -2602,8 +2716,8 @@
         "hint": "/Lotus/Language/Challenges/Challenge_UNCompleteQuest_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CircuitRepeatableSteelPathFusionBundle",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/FusionBundles/CircuitRepeatableSteelPathFusionBundle"
             }
         ]
     },
@@ -2611,8 +2725,8 @@
         "name": "/Lotus/Language/Challenges/Challenge_UNKillBossTylRegor_Name",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ChromaChassisBlueprint",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Types/Recipes/WarframeRecipes/ChromaChassisBlueprint"
             }
         ]
     },
@@ -2620,8 +2734,8 @@
         "name": "/Lotus/Language/Challenges/Challenge_UNMeleeOnly_Name",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Tellurium",
-                "ItemCount": 3
+                "ItemCount": 3,
+                "StoreItem": "/Lotus/StoreItems/Types/Items/MiscItems/Tellurium"
             }
         ]
     },
@@ -2630,8 +2744,8 @@
         "hint": "/Lotus/Language/Challenges/Challenge_VMCompleteQuestVox_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/Game/KubrowPet/EggHatcher",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Types/Game/KubrowPet/EggHatcher"
             }
         ]
     },
@@ -2639,8 +2753,8 @@
         "name": "/Lotus/Language/Challenges/Challenge_VMKillBossJackal_Name",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Melee/WeaponFreezeDamageMod",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Melee/WeaponFreezeDamageMod"
             }
         ]
     },
@@ -2649,8 +2763,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_VMPurchaseRhinoBlueprint_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarShieldRechargeRateMod",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Upgrades/Mods/Warframe/AvatarShieldRechargeRateMod"
             }
         ]
     },
@@ -2659,8 +2773,8 @@
         "hint": "/Lotus/Language/JunctionReworkChallenges/Challenge_VMStartCraftingRhino_Hint",
         "countedRewards": [
             {
-                "StoreItem": "/Lotus/StoreItems/Types/StoreItems/SlotItems/SuitSlotItem",
-                "ItemCount": 1
+                "ItemCount": 1,
+                "StoreItem": "/Lotus/StoreItems/Types/StoreItems/SlotItems/SuitSlotItem"
             }
         ]
     },
