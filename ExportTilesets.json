@@ -4,30 +4,30 @@
         "faction": "FC_CORPUS",
         "missions": {
             "MT_EXTERMINATION": {
+                "procLevel": "/Lotus/Levels/SpaceBattles/TRExterminate",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/TRExterminateTiered"
-                ],
-                "procLevel": "/Lotus/Levels/SpaceBattles/TRExterminate"
-            },
-            "MT_MOBILE_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/TRExterminateTiered"
-                ],
-                "procLevel": "/Lotus/Levels/SpaceBattles/TRMobileDefense"
-            },
-            "MT_RACE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/TRDefenseA"
-                ],
-                "procLevel": "/Lotus/Levels/SpaceBattles/TRRace"
+                ]
             },
             "MT_SABOTAGE": {
+                "procLevel": "/Lotus/Levels/SpaceBattles/TRSabotage",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/TRExterminateA",
                     "/Lotus/Types/Game/EnemySpecs/TRExterminateB",
                     "/Lotus/Types/Game/EnemySpecs/TRExterminateC"
-                ],
-                "procLevel": "/Lotus/Levels/SpaceBattles/TRSabotage"
+                ]
+            },
+            "MT_MOBILE_DEFENSE": {
+                "procLevel": "/Lotus/Levels/SpaceBattles/TRMobileDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/TRExterminateTiered"
+                ]
+            },
+            "MT_RACE": {
+                "procLevel": "/Lotus/Levels/SpaceBattles/TRRace",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/TRDefenseA"
+                ]
             }
         }
     },
@@ -36,30 +36,30 @@
         "faction": "FC_GRINEER",
         "missions": {
             "MT_EXTERMINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Space/SpaceGrineerExterminateProcLevel",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/SpaceGrineerExt"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Space/SpaceGrineerExterminateProcLevel"
+                ]
             },
             "MT_MOBILE_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Space/SpaceGrineerMobileDefenseProcLevel",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/SpaceGrineerExt"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Space/SpaceGrineerMobileDefenseProcLevel"
-            },
-            "MT_PURSUIT": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/SpaceGrineerA"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Space/SpaceGrineerPursuitProcLevel"
+                ]
             },
             "MT_TERRITORY": {
+                "procLevel": "/Lotus/Levels/Proc/Space/SpaceGrineerInterceptionProcLevel",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/SpaceGrineerDefenseA",
                     "/Lotus/Types/Game/EnemySpecs/SpaceGrineerDefenseB",
                     "/Lotus/Types/Game/EnemySpecs/SpaceGrineerDefenseC"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Space/SpaceGrineerInterceptionProcLevel"
+                ]
+            },
+            "MT_PURSUIT": {
+                "procLevel": "/Lotus/Levels/Proc/Space/SpaceGrineerPursuitProcLevel",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/SpaceGrineerA"
+                ]
             }
         }
     },
@@ -67,42 +67,52 @@
         "uniqueName": "/Lotus/Types/Game/RegionTilesets/CorpusGasCityTileset",
         "faction": "FC_CORPUS",
         "missions": {
-            "MT_ARTIFACT": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusAmalgamEndless"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionCorpusAmalgams"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusGasCityDisruption"
-            },
             "MT_ASSASSINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusGasBoss",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusGasBoss",
                 "vipAgent": "/Lotus/Types/Enemies/Corpus/Vip/AladV/AladBossAgent"
             },
-            "MT_CAPTURE": {
+            "MT_EXTERMINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusGasCityExterminate",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusGasExterminateMixed"
+                ]
+            },
+            "MT_SURVIVAL": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusGasCitySurvival",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusGasSurvival"
+                ]
+            },
+            "MT_RESCUE": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusGasCityRescue",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad"
                 ],
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/RescueGasCity"
+                ]
+            },
+            "MT_SABOTAGE": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusGasCitySabotage",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad"
+                ],
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusGasSabotageHeavyEnemies"
+                ]
+            },
+            "MT_CAPTURE": {
                 "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusGasCityCapture",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad"
+                ],
                 "vipAgent": "/Lotus/Types/Enemies/CaptureTargets/CaptureTargetCorpusFlyingAgent"
             },
-            "MT_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterDefenseSquad"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusGasCityDefense"
-            },
-            "MT_EXTERMINATION": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusGasExterminateMixed"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusGasCityExterminate"
-            },
             "MT_INTEL": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusGasCityIntel",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad"
                 ],
@@ -111,47 +121,37 @@
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersB",
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersC",
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersD"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusGasCityIntel"
+                ]
+            },
+            "MT_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusGasCityDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterDefenseSquad"
+                ]
             },
             "MT_MOBILE_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusGasCityMobileDefense",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad"
                 ],
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusMobDefTiersD"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusGasCityMobileDefense"
-            },
-            "MT_RESCUE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/RescueGasCity"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusGasCityRescue"
-            },
-            "MT_SABOTAGE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterSquad"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusGasSabotageHeavyEnemies"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusGasCitySabotage"
-            },
-            "MT_SURVIVAL": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusGasSurvival"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusGasCitySurvival"
+                ]
             },
             "MT_TERRITORY": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusGasCityInterception",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusGasRemasterDefenseSquad"
+                ]
+            },
+            "MT_ARTIFACT": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusGasCityDisruption",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusAmalgamEndless"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusGasCityInterception"
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionCorpusAmalgams"
+                ]
             }
         }
     },
@@ -160,16 +160,44 @@
         "faction": "FC_CORPUS",
         "missions": {
             "MT_ASSASSINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetAssassinate",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadC",
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadD"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetAssassinate",
                 "vipAgent": "/Lotus/Types/Enemies/Corpus/Drones/Vip/DroneAttackAgent"
             },
+            "MT_EXTERMINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExterminate",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusExterminateHumans",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusExterminateMixed",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusExterminateSimple"
+                ]
+            },
+            "MT_RESCUE": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetRescue",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadC",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadD"
+                ]
+            },
+            "MT_SABOTAGE": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetSabotage",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadC",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadD"
+                ]
+            },
             "MT_CAPTURE": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetCapture",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
@@ -178,31 +206,16 @@
                 ],
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetCapture"
+                ]
             },
             "MT_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetDefense",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetDefense"
-            },
-            "MT_EXCAVATE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusExcavationA"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExcavation"
-            },
-            "MT_EXTERMINATION": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusExterminateHumans",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusExterminateMixed",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusExterminateSimple"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExterminate"
+                ]
             },
             "MT_MOBILE_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetMobileDefense",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
@@ -214,41 +227,28 @@
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusMobDefTiersB",
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusMobDefTiersC",
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusMobDefTiersD"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetMobileDefense"
-            },
-            "MT_RESCUE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadC",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadD"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetRescue"
-            },
-            "MT_RETRIEVAL": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadC",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadD"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetHijack"
-            },
-            "MT_SABOTAGE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadC",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadD"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetSabotage"
+                ]
             },
             "MT_TERRITORY": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetInterception",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetInterception"
+                ]
+            },
+            "MT_RETRIEVAL": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetHijack",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadC",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadD"
+                ]
+            },
+            "MT_EXCAVATE": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExcavation",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusExcavationA"
+                ]
             }
         }
     },
@@ -257,15 +257,16 @@
         "faction": "FC_CORPUS",
         "missions": {
             "MT_EXTERMINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExterminateCaves",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusExterminateHumans",
                     "/Lotus/Types/Game/EnemySpecs/CorpusExterminateMixed",
                     "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
                     "/Lotus/Types/Game/EnemySpecs/CorpusExterminateSimple"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetExterminateCaves"
+                ]
             },
             "MT_INTEL": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetSpyCaves",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
@@ -277,8 +278,7 @@
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersB",
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersC",
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersD"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusIcePlanetSpyCaves"
+                ]
             }
         }
     },
@@ -286,24 +286,41 @@
         "uniqueName": "/Lotus/Types/Game/RegionTilesets/CorpusOutpostTileset",
         "faction": "FC_CORPUS",
         "missions": {
-            "MT_ARENA": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusChampions/CorpusChampions"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveGreedAlliedSpecs"
-                ],
-                "procLevel": "/Lotus/Levels/CorpusArenas/OutpostArena.level"
-            },
             "MT_ASSASSINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusOutpost",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadC"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusOutpost"
+                ]
+            },
+            "MT_EXTERMINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExterminate",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusExterminateHumans",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusExterminateMixed",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusExterminateSimple"
+                ]
+            },
+            "MT_RESCUE": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusOutpostRescue",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadC"
+                ]
+            },
+            "MT_SABOTAGE": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusOutpost",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadC"
+                ]
             },
             "MT_CAPTURE": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusOutpostCapture",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
@@ -311,31 +328,10 @@
                 ],
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusOutpostCapture"
-            },
-            "MT_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusOutpostDefense"
-            },
-            "MT_EXCAVATE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusExcavationA"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExcavation"
-            },
-            "MT_EXTERMINATION": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusExterminateHumans",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusExterminateMixed",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusExterminateSimple"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExterminate"
+                ]
             },
             "MT_INTEL": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusOutpostIntel",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
@@ -345,10 +341,16 @@
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersA",
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersB",
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersC"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusOutpostIntel"
+                ]
+            },
+            "MT_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusOutpostDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB"
+                ]
             },
             "MT_MOBILE_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusOutpostMobileDefense",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
@@ -358,30 +360,28 @@
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusMobDefTiersA",
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusMobDefTiersB",
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusMobDefTiersC"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusOutpostMobileDefense"
-            },
-            "MT_RESCUE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadC"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusOutpostRescue"
-            },
-            "MT_SABOTAGE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadC"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusOutpost"
+                ]
             },
             "MT_TERRITORY": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusOutpostInterception",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB"
+                ]
+            },
+            "MT_EXCAVATE": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusOutpostExcavation",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusExcavationA"
+                ]
+            },
+            "MT_ARENA": {
+                "procLevel": "/Lotus/Levels/CorpusArenas/OutpostArena.level",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusChampions/CorpusChampions"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusOutpostInterception"
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveGreedAlliedSpecs"
+                ]
             }
         }
     },
@@ -389,50 +389,57 @@
         "uniqueName": "/Lotus/Types/Game/RegionTilesets/CorpusShipTileset",
         "faction": "FC_CORPUS",
         "missions": {
-            "MT_ARTIFACT": {
-                "advancedSpawners": [
-                    "/Lotus/Types/Enemies/AdvancedSpawners/ErrantSpecterInvasion"
-                ],
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSurvivalA"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionCorpusShip"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusShipDisruption"
-            },
             "MT_ASSASSINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusShipHyenaAssassinate",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
                     "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusShipHyenaAssassinate",
                 "vipAgent": "/Lotus/Types/Enemies/Corpus/Vip/Hyena/HyenaPack"
             },
+            "MT_EXTERMINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusShipExterminate",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipExterminateHumans",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipExterminateMixed"
+                ]
+            },
+            "MT_SURVIVAL": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSurvivalA"
+                ]
+            },
+            "MT_RESCUE": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusShipRescue",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB"
+                ]
+            },
+            "MT_SABOTAGE": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotage",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB"
+                ],
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusSabotageTiersA",
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusSabotageTiersBC"
+                ]
+            },
             "MT_CAPTURE": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusShipCapture",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
                     "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB"
                 ],
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusShipCapture"
-            },
-            "MT_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadDefenseB"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusShipDefense"
-            },
-            "MT_EXTERMINATION": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipExterminateHumans",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipExterminateMixed"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusShipExterminate"
+                ]
             },
             "MT_INTEL": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusShipIntel",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
                     "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB"
@@ -441,10 +448,16 @@
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersA",
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersB",
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusIntelTiersC"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusShipIntel"
+                ]
+            },
+            "MT_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusShipDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadDefenseB"
+                ]
             },
             "MT_MOBILE_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusShipMobileDefense",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
                     "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB",
@@ -454,38 +467,25 @@
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusMobDefTiersA",
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusMobDefTiersB",
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusMobDefTiersC"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusShipMobileDefense"
+                ]
             },
-            "MT_RESCUE": {
+            "MT_TERRITORY": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusShipInterception",
                 "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusShipRescue"
+                    "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadDefenseB"
+                ]
             },
-            "MT_SABOTAGE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadA",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadB"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusSabotageTiersA",
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusSabotageTiersBC"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusShipCoreSabotage"
-            },
-            "MT_SURVIVAL": {
+            "MT_ARTIFACT": {
+                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusShipDisruption",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSurvivalA"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusShipSurvivalRaid"
-            },
-            "MT_TERRITORY": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusShipEnemySpecs/CorpusShipSquadDefenseB"
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionCorpusShip"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Corpus/CorpusShipInterception"
+                "advancedSpawners": [
+                    "/Lotus/Types/Enemies/AdvancedSpawners/ErrantSpecterInvasion"
+                ]
             }
         }
     },
@@ -494,10 +494,10 @@
         "faction": "FC_GRINEER",
         "missions": {
             "MT_LANDSCAPE": {
+                "procLevel": "/Lotus/Levels/Proc/CivilianHubs/EidolonLandscape",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GrineerEidolon"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/CivilianHubs/EidolonLandscape"
+                ]
             }
         }
     },
@@ -505,50 +505,50 @@
         "uniqueName": "/Lotus/Types/Game/RegionTilesets/EntratiTileset",
         "faction": "FC_MITW",
         "missions": {
-            "MT_ALCHEMY": {
+            "MT_ASSASSINATION": {
+                "procLevel": "/Lotus/Levels/Proc/EntratiLab/EntratiLabSwarm",
                 "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiAlchemySpec"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/EntratiLab/EntratiLabAlchemy"
+                    "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiSwarmSpec"
+                ]
+            },
+            "MT_EXTERMINATION": {
+                "procLevel": "/Lotus/Levels/Proc/EntratiLab/EntratiLabExterminate",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiExterminateSpec"
+                ]
+            },
+            "MT_SURVIVAL": {
+                "procLevel": "/Lotus/Levels/Proc/EntratiLab/EntratiLabSurvival",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiSurvivalSpec"
+                ]
+            },
+            "MT_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/EntratiLab/EntratiLabMirrorDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiMirrorDefenseSpec"
+                ]
             },
             "MT_ARTIFACT": {
+                "procLevel": "/Lotus/Levels/Proc/EntratiLab/EntratiLabDisruption",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiSurvivalSpec"
                 ],
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionEntratiLab"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/EntratiLab/EntratiLabDisruption"
-            },
-            "MT_ASSASSINATION": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiSwarmSpec"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/EntratiLab/EntratiLabSwarm"
-            },
-            "MT_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiMirrorDefenseSpec"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/EntratiLab/EntratiLabMirrorDefense"
-            },
-            "MT_EXTERMINATION": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiExterminateSpec"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/EntratiLab/EntratiLabExterminate"
-            },
-            "MT_SURVIVAL": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiSurvivalSpec"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/EntratiLab/EntratiLabSurvival"
+                ]
             },
             "MT_VAULTS": {
+                "procLevel": "/Lotus/Levels/Proc/EntratiLab/EntratiVoidVault",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiVoidVaultsSpec"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/EntratiLab/EntratiVoidVault"
+                ]
+            },
+            "MT_ALCHEMY": {
+                "procLevel": "/Lotus/Levels/Proc/EntratiLab/EntratiLabAlchemy",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/EntratiLab/EntratiAlchemySpec"
+                ]
             }
         }
     },
@@ -556,7 +556,32 @@
         "uniqueName": "/Lotus/Types/Game/RegionTilesets/GrineerAsteroidTileset",
         "faction": "FC_GRINEER",
         "missions": {
+            "MT_EXTERMINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidExterminate",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerExterminateSimple",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerExterminateFire",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerExterminateBlades",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerExterminateTech"
+                ]
+            },
+            "MT_SURVIVAL": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidSurvivalRaid",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalA",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalB"
+                ]
+            },
+            "MT_RESCUE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidRescue",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadTwo",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree"
+                ]
+            },
             "MT_CAPTURE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidCapture",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadTwo",
@@ -564,69 +589,44 @@
                 ],
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargets"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidCapture"
+                ]
+            },
+            "MT_INTEL": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidIntel",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadTwo",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree"
+                ]
             },
             "MT_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidDefense",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GrineerDefenseA"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidDefense"
+                ]
+            },
+            "MT_MOBILE_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidMobileDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadTwo",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree"
+                ]
+            },
+            "MT_TERRITORY": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidInterception",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerDefenseA"
+                ]
             },
             "MT_EVACUATION": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidColonistRescue",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/InfestedColonistRescueA"
                 ],
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/ColonistRescueAgentsA"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidColonistRescue"
-            },
-            "MT_EXTERMINATION": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerExterminateSimple",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerExterminateFire",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerExterminateBlades",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerExterminateTech"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidExterminate"
-            },
-            "MT_INTEL": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadTwo",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidIntel"
-            },
-            "MT_MOBILE_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadTwo",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidMobileDefense"
-            },
-            "MT_RESCUE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadTwo",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidRescue"
-            },
-            "MT_SURVIVAL": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalA",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalB"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidSurvivalRaid"
-            },
-            "MT_TERRITORY": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerDefenseA"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerAsteroidInterception"
+                ]
             }
         }
     },
@@ -635,56 +635,56 @@
         "faction": "FC_GRINEER",
         "missions": {
             "MT_ASSASSINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerForestBoss",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/ForestBossGrineerSquadOne"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerForestBoss",
                 "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/Hek/HekBipedAgent"
             },
-            "MT_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerDefenseForest"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerForestDefense"
-            },
-            "MT_EXCAVATE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/ForestGrineerExcavationA"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerForestExcavation"
-            },
             "MT_EXTERMINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerForestExterminate",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/ForestGrineerExterminate"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerForestExterminate"
+                ]
+            },
+            "MT_SABOTAGE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerForestSabotage",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/ForestGrineerSquadOne"
+                ]
             },
             "MT_INTEL": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerForestIntel",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/ForestGrineerSquadOne"
                 ],
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersForest"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerForestIntel"
+                ]
             },
-            "MT_MOBILE_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/ForestGrineerSquadOne"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerForestMobileDefense"
-            },
-            "MT_SABOTAGE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/ForestGrineerSquadOne"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerForestSabotage"
-            },
-            "MT_TERRITORY": {
+            "MT_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerForestDefense",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GrineerDefenseForest"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerForestInterception"
+                ]
+            },
+            "MT_MOBILE_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerForestMobileDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/ForestGrineerSquadOne"
+                ]
+            },
+            "MT_TERRITORY": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerForestInterception",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerDefenseForest"
+                ]
+            },
+            "MT_EXCAVATE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerForestExcavation",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/ForestGrineerExcavationA"
+                ]
             }
         }
     },
@@ -693,13 +693,13 @@
         "faction": "FC_GRINEER",
         "missions": {
             "MT_CAPTURE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerForestCaptureCaves",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/ForestGrineerSquadOne"
                 ],
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargets"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerForestCaptureCaves"
+                ]
             }
         }
     },
@@ -707,39 +707,28 @@
         "uniqueName": "/Lotus/Types/Game/RegionTilesets/GrineerFortressTileset",
         "faction": "FC_GRINEER",
         "missions": {
-            "MT_ARTIFACT": {
+            "MT_EXTERMINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerFortressExterminate",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerFortressExterminate"
+                ]
+            },
+            "MT_SURVIVAL": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerFortressSurvival",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalFortress"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionGrineerFortress"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerFortressDisruption"
+                ]
             },
-            "MT_ASSAULT": {
+            "MT_RESCUE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerFortressRescue",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadFortressOne",
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadFortressTwo",
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadFortressThree"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemiesFortress"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerFortressSabotage"
-            },
-            "MT_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerDefenseFortress"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerFortressDefense"
-            },
-            "MT_EXTERMINATION": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerFortressExterminate"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerFortressExterminate"
+                ]
             },
             "MT_INTEL": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerFortressSpy",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadFortressOne",
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadFortressTwo",
@@ -747,10 +736,16 @@
                 ],
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersFortress"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerFortressSpy"
+                ]
+            },
+            "MT_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerFortressDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerDefenseFortress"
+                ]
             },
             "MT_MOBILE_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerFortressMobileDefense",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadFortressOne",
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadFortressTwo",
@@ -758,22 +753,27 @@
                 ],
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerFortressMobileDefenseTiers"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerFortressMobileDefense"
+                ]
             },
-            "MT_RESCUE": {
+            "MT_ASSAULT": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerFortressSabotage",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadFortressOne",
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadFortressTwo",
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadFortressThree"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerFortressRescue"
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemiesFortress"
+                ]
             },
-            "MT_SURVIVAL": {
+            "MT_ARTIFACT": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerFortressDisruption",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalFortress"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerFortressSurvival"
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionGrineerFortress"
+                ]
             }
         }
     },
@@ -781,26 +781,8 @@
         "uniqueName": "/Lotus/Types/Game/RegionTilesets/GrineerGalleonTileset",
         "faction": "FC_GRINEER",
         "missions": {
-            "MT_ARENA": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveTDMGrnChampionsEasy"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersTwo"
-                ],
-                "procLevel": "/Lotus/Levels/KelaArenas/GalleonArena.level"
-            },
-            "MT_ARTIFACT": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalA",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalB"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionGrineer"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonDisruption"
-            },
             "MT_ASSASSINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonBoss",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadTwo",
@@ -811,77 +793,25 @@
                 ],
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargets"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonBoss"
-            },
-            "MT_CAPTURE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadTwo",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargets"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCapture"
-            },
-            "MT_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerDefenseA"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonDefense"
-            },
-            "MT_EVACUATION": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/InfestedColonistRescueA"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/ColonistRescueAgentsA"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonColonistRescue"
+                ]
             },
             "MT_EXTERMINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonExterminate",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GrineerExterminateSimple",
                     "/Lotus/Types/Game/EnemySpecs/GrineerExterminateFire",
                     "/Lotus/Types/Game/EnemySpecs/GrineerExterminateTech"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonExterminate"
+                ]
             },
-            "MT_INTEL": {
+            "MT_SURVIVAL": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid",
                 "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadTwo",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadOne",
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadTwo",
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadThree",
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadFour",
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadFive",
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadSix"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonIntel"
-            },
-            "MT_MOBILE_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadTwo",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonMobileDefense"
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalA",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalB"
+                ]
             },
             "MT_RESCUE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonRescue",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadTwo",
@@ -889,10 +819,10 @@
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour",
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonRescue"
+                ]
             },
             "MT_SABOTAGE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadTwo",
@@ -908,21 +838,91 @@
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersFour",
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersFive",
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersSix"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCoreSabotage"
+                ]
             },
-            "MT_SURVIVAL": {
+            "MT_CAPTURE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonCapture",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadTwo",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix"
+                ],
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargets"
+                ]
+            },
+            "MT_INTEL": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonIntel",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadTwo",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix"
+                ],
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadOne",
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadTwo",
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadThree",
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadFour",
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadFive",
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadSix"
+                ]
+            },
+            "MT_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerDefenseA"
+                ]
+            },
+            "MT_MOBILE_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonMobileDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadOne",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadTwo",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadThree",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix"
+                ]
+            },
+            "MT_TERRITORY": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonInterception",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerDefenseA"
+                ]
+            },
+            "MT_ARENA": {
+                "procLevel": "/Lotus/Levels/KelaArenas/GalleonArena.level",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveTDMGrnChampionsEasy"
+                ],
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersTwo"
+                ]
+            },
+            "MT_EVACUATION": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonColonistRescue",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/InfestedColonistRescueA"
+                ],
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/ColonistRescueAgentsA"
+                ]
+            },
+            "MT_ARTIFACT": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonDisruption",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalA",
                     "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalB"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonSurvivalRaid"
-            },
-            "MT_TERRITORY": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerDefenseA"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerGalleonInterception"
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionGrineer"
+                ]
             }
         }
     },
@@ -930,33 +930,8 @@
         "uniqueName": "/Lotus/Types/Game/RegionTilesets/GrineerOceanTileset",
         "faction": "FC_GRINEER",
         "missions": {
-            "MT_ARENA": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveTDMGrnChampionsHard"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersTwo"
-                ],
-                "procLevel": "/Lotus/Levels/KelaArenas/OceanArena.level"
-            },
             "MT_ASSASSINATION": {
-                "advancedSpawners": [
-                    "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA"
-                ],
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadOne",
-                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadTwo",
-                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadThree",
-                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFour",
-                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFive"
-                ],
                 "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanAssassinate",
-                "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/TylRegor/TylRegorAgent"
-            },
-            "MT_CAPTURE": {
-                "advancedSpawners": [
-                    "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA"
-                ],
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadOne",
                     "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadTwo",
@@ -964,59 +939,31 @@
                     "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFour",
                     "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFive"
                 ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargets"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanCapture"
-            },
-            "MT_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerDefenseA"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanDefense"
+                "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/TylRegor/TylRegorAgent",
+                "advancedSpawners": [
+                    "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA"
+                ]
             },
             "MT_EXTERMINATION": {
-                "advancedSpawners": [
-                    "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA"
-                ],
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanExterminate",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerExterminate"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanExterminate"
-            },
-            "MT_INTEL": {
                 "advancedSpawners": [
                     "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA"
-                ],
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadOne",
-                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadTwo",
-                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadThree",
-                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFour",
-                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFive"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersOcean"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanSpy"
+                ]
             },
-            "MT_MOBILE_DEFENSE": {
+            "MT_SURVIVAL": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanSurvival",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSurvivalA"
+                ],
                 "advancedSpawners": [
                     "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA"
-                ],
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadOne",
-                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadTwo",
-                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadThree",
-                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFour",
-                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFive"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanMobileDefense"
+                ]
             },
             "MT_RESCUE": {
-                "advancedSpawners": [
-                    "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA"
-                ],
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanRescue",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadOne",
                     "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadTwo",
@@ -1024,12 +971,12 @@
                     "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFour",
                     "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFive"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanRescue"
-            },
-            "MT_SABOTAGE": {
                 "advancedSpawners": [
                     "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA"
-                ],
+                ]
+            },
+            "MT_SABOTAGE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanSabotage",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadOne",
                     "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadTwo",
@@ -1040,23 +987,76 @@
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerHeavyEnemies"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanSabotage",
-                "vipAgent": "/Lotus/Types/Enemies/Grineer/AIWeek/ManicRocketBombard"
-            },
-            "MT_SURVIVAL": {
+                "vipAgent": "/Lotus/Types/Enemies/Grineer/AIWeek/ManicRocketBombard",
                 "advancedSpawners": [
                     "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA"
-                ],
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSurvivalA"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanSurvival"
+                ]
             },
-            "MT_TERRITORY": {
+            "MT_CAPTURE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanCapture",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadOne",
+                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadTwo",
+                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadThree",
+                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFour",
+                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFive"
+                ],
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargets"
+                ],
+                "advancedSpawners": [
+                    "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA"
+                ]
+            },
+            "MT_INTEL": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanSpy",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadOne",
+                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadTwo",
+                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadThree",
+                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFour",
+                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFive"
+                ],
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersOcean"
+                ],
+                "advancedSpawners": [
+                    "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA"
+                ]
+            },
+            "MT_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanDefense",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerDefenseA"
+                ]
+            },
+            "MT_MOBILE_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanMobileDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadOne",
+                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadTwo",
+                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadThree",
+                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFour",
+                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFive"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanDefense"
+                "advancedSpawners": [
+                    "/Lotus/Types/Enemies/AdvancedSpawners/WaterSpawnerA"
+                ]
+            },
+            "MT_TERRITORY": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerDefenseA"
+                ]
+            },
+            "MT_ARENA": {
+                "procLevel": "/Lotus/Levels/KelaArenas/OceanArena.level",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveTDMGrnChampionsHard"
+                ],
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerSabotageTiersTwo"
+                ]
             }
         }
     },
@@ -1065,6 +1065,7 @@
         "faction": "FC_GRINEER",
         "missions": {
             "MT_ASSASSINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanAssassinate",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadOne",
                     "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadTwo",
@@ -1072,14 +1073,13 @@
                     "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFour",
                     "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerSquadFive"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanAssassinate",
                 "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/TylRegor/TylRegorAgent"
             },
             "MT_EXTERMINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanExterminateAnywhere",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/SeaLabGrineerExterminate"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerOceanExterminateAnywhere"
+                ]
             }
         }
     },
@@ -1088,10 +1088,10 @@
         "faction": "FC_GRINEER",
         "missions": {
             "MT_RAILJACK": {
+                "procLevel": "/Lotus/Levels/Railjack/Proc/RailJackEarthCombinedExterminateNoPoiProc",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminate"
-                ],
-                "procLevel": "/Lotus/Levels/Railjack/Proc/RailJackEarthCombinedExterminateNoPoiProc"
+                ]
             }
         }
     },
@@ -1100,10 +1100,10 @@
         "faction": "FC_GRINEER",
         "missions": {
             "MT_RAILJACK": {
+                "procLevel": "/Lotus/Levels/Railjack/Proc/RailJackSaturnExterminateCombined1PoiProc",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/Railjack/GrineerCrewShipExterminateSaturn"
-                ],
-                "procLevel": "/Lotus/Levels/Railjack/Proc/RailJackSaturnExterminateCombined1PoiProc"
+                ]
             }
         }
     },
@@ -1111,80 +1111,80 @@
         "uniqueName": "/Lotus/Types/Game/RegionTilesets/GrineerSettlementTileset",
         "faction": "FC_GRINEER",
         "missions": {
-            "MT_ARTIFACT": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSettlementSurvivalA"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionGrineerGhouls"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerSettlementDisruption"
-            },
             "MT_ASSASSINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerSettlementBoss",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerSettlementBoss"
+                ]
+            },
+            "MT_EXTERMINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerSettlementExterminate",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/DesertGrineerExterminate"
+                ]
+            },
+            "MT_RESCUE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerSettlementRescue",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne"
+                ]
+            },
+            "MT_SABOTAGE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerSettlement",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne"
+                ]
             },
             "MT_CAPTURE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerSettlementCapture",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne"
                 ],
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargets"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerSettlementCapture"
-            },
-            "MT_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/DesertGrineerDefenseA"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerSettlementDefense"
-            },
-            "MT_EXCAVATE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSettlementExcavationA"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerSettlementExcavation"
-            },
-            "MT_EXTERMINATION": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/DesertGrineerExterminate"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerSettlementExterminate"
+                ]
             },
             "MT_INTEL": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerSettlementIntel",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne"
                 ],
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersDesert"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerSettlementIntel"
+                ]
+            },
+            "MT_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerSettlementDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/DesertGrineerDefenseA"
+                ]
             },
             "MT_MOBILE_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerSettlementMobileDefense",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerSettlementMobileDefense"
-            },
-            "MT_RESCUE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerSettlementRescue"
-            },
-            "MT_SABOTAGE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerSettlement"
+                ]
             },
             "MT_TERRITORY": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerSettlementInterception",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/DesertGrineerSquadOne"
+                ]
+            },
+            "MT_EXCAVATE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerSettlementExcavation",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSettlementExcavationA"
+                ]
+            },
+            "MT_ARTIFACT": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerSettlementDisruption",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSettlementSurvivalA"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerSettlementInterception"
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionGrineerGhouls"
+                ]
             }
         }
     },
@@ -1192,78 +1192,78 @@
         "uniqueName": "/Lotus/Types/Game/RegionTilesets/GrineerShipyardsTileset",
         "faction": "FC_GRINEER",
         "missions": {
-            "MT_ARENA": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveTDMGrnChampionsMed"
-                ],
-                "procLevel": "/Lotus/Levels/KelaArenas/ShipyardsArena.level"
-            },
             "MT_ASSASSINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsAssassinate",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsAssassinate",
                 "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/BossLechKrilAgent"
             },
+            "MT_EXTERMINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsExterminate",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerExterminateBlades"
+                ]
+            },
+            "MT_RESCUE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsRescue",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA"
+                ]
+            },
+            "MT_SABOTAGE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsSabotage",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA"
+                ]
+            },
             "MT_CAPTURE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsCapture",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA"
                 ],
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargets"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsCapture"
-            },
-            "MT_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsDefenseA"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsDefense"
-            },
-            "MT_EXTERMINATION": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerExterminateBlades"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsExterminate"
+                ]
             },
             "MT_INTEL": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsSpy",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA"
                 ],
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerIntelTiersSquadSix"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsSpy"
+                ]
             },
-            "MT_MOBILE_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsMobileDefense"
-            },
-            "MT_RESCUE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsRescue"
-            },
-            "MT_RETRIEVAL": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsRetrieval"
-            },
-            "MT_SABOTAGE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsSabotage"
-            },
-            "MT_TERRITORY": {
+            "MT_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsDefense",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsDefenseA"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsInterception"
+                ]
+            },
+            "MT_MOBILE_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsMobileDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA"
+                ]
+            },
+            "MT_TERRITORY": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsInterception",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsDefenseA"
+                ]
+            },
+            "MT_RETRIEVAL": {
+                "procLevel": "/Lotus/Levels/Proc/Grineer/GrineerShipyardsRetrieval",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerShipyardsA"
+                ]
+            },
+            "MT_ARENA": {
+                "procLevel": "/Lotus/Levels/KelaArenas/ShipyardsArena.level",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/PveTDMGrnChampionsMed"
+                ]
             }
         }
     },
@@ -1271,7 +1271,33 @@
         "uniqueName": "/Lotus/Types/Game/RegionTilesets/InfestedCorpusShipTileset",
         "faction": "FC_INFESTATION",
         "missions": {
+            "MT_EXTERMINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipExterminate",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/InfestedExterminateMixed",
+                    "/Lotus/Types/Game/EnemySpecs/InfestedExterminateSimple",
+                    "/Lotus/Types/Game/EnemySpecs/InfestedExterminateSwarm",
+                    "/Lotus/Types/Game/EnemySpecs/InfestedExterminateToxic"
+                ]
+            },
+            "MT_SURVIVAL": {
+                "procLevel": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSurvival",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalA",
+                    "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalB"
+                ]
+            },
+            "MT_RESCUE": {
+                "procLevel": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipRescue",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/InfestedSquadA",
+                    "/Lotus/Types/Game/EnemySpecs/InfestedSquadB",
+                    "/Lotus/Types/Game/EnemySpecs/InfestedSquadC",
+                    "/Lotus/Types/Game/EnemySpecs/InfestedSquadD"
+                ]
+            },
             "MT_CAPTURE": {
+                "procLevel": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipCapture",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/InfestedSquadA",
                     "/Lotus/Types/Game/EnemySpecs/InfestedSquadB",
@@ -1280,66 +1306,40 @@
                 ],
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipCapture"
+                ]
             },
             "MT_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipDefense",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/InfestedDefenseA",
                     "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipDefense"
+                ]
+            },
+            "MT_MOBILE_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipMobileDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/InfestedSquadA",
+                    "/Lotus/Types/Game/EnemySpecs/InfestedSquadB",
+                    "/Lotus/Types/Game/EnemySpecs/InfestedSquadC",
+                    "/Lotus/Types/Game/EnemySpecs/InfestedSquadD"
+                ]
+            },
+            "MT_HIVE": {
+                "procLevel": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSabotage",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/InfestedHiveSquadA",
+                    "/Lotus/Types/Game/EnemySpecs/InfestedHiveSquadB",
+                    "/Lotus/Types/Game/EnemySpecs/InfestedHiveSquadC"
+                ]
             },
             "MT_EVACUATION": {
+                "procLevel": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipColonistRescue",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/InfestedColonistRescueA"
                 ],
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/ColonistRescueAgentsA"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipColonistRescue"
-            },
-            "MT_EXTERMINATION": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/InfestedExterminateMixed",
-                    "/Lotus/Types/Game/EnemySpecs/InfestedExterminateSimple",
-                    "/Lotus/Types/Game/EnemySpecs/InfestedExterminateSwarm",
-                    "/Lotus/Types/Game/EnemySpecs/InfestedExterminateToxic"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipExterminate"
-            },
-            "MT_HIVE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/InfestedHiveSquadA",
-                    "/Lotus/Types/Game/EnemySpecs/InfestedHiveSquadB",
-                    "/Lotus/Types/Game/EnemySpecs/InfestedHiveSquadC"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSabotage"
-            },
-            "MT_MOBILE_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/InfestedSquadA",
-                    "/Lotus/Types/Game/EnemySpecs/InfestedSquadB",
-                    "/Lotus/Types/Game/EnemySpecs/InfestedSquadC",
-                    "/Lotus/Types/Game/EnemySpecs/InfestedSquadD"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipMobileDefense"
-            },
-            "MT_RESCUE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/InfestedSquadA",
-                    "/Lotus/Types/Game/EnemySpecs/InfestedSquadB",
-                    "/Lotus/Types/Game/EnemySpecs/InfestedSquadC",
-                    "/Lotus/Types/Game/EnemySpecs/InfestedSquadD"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipRescue"
-            },
-            "MT_SURVIVAL": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalA",
-                    "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalB"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Infestation/InfestedCorpusShipSurvival"
+                ]
             }
         }
     },
@@ -1348,29 +1348,14 @@
         "faction": "FC_INFESTATION",
         "missions": {
             "MT_ASSASSINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictBoss",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/InfestedSquadD"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictBoss",
                 "vipAgent": "/Lotus/Types/Enemies/Infested/Vip/GolemFullAgent"
             },
-            "MT_CAPTURE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/InfestedSquadD"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargets",
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictCapture"
-            },
-            "MT_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictDefense"
-            },
             "MT_EXTERMINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictExterminate",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/InfestedExterminateMixed",
                     "/Lotus/Types/Game/EnemySpecs/InfestedExterminateSwarm",
@@ -1382,30 +1367,45 @@
                     "/Lotus/Types/Game/EnemySpecs/GrineerExterminateSimple",
                     "/Lotus/Types/Game/EnemySpecs/GrineerExterminateTech",
                     "/Lotus/Types/Game/EnemySpecs/CorpusExterminateSimple"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictExterminate"
+                ]
             },
-            "MT_MOBILE_DEFENSE": {
+            "MT_SURVIVAL": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictSurvivalRaid",
                 "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/InfestedSquadD"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictMobileDefense"
+                    "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalB"
+                ]
             },
             "MT_SABOTAGE": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictSabotageSettlement",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/InfestedSquadD"
                 ],
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/OrokinSabotageGrineerSettlement"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictSabotageSettlement",
                 "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/JetpackSisters/JetpackSisters"
             },
-            "MT_SURVIVAL": {
+            "MT_CAPTURE": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictCapture",
                 "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/InfestedSurvivalB"
+                    "/Lotus/Types/Game/EnemySpecs/InfestedSquadD"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictSurvivalRaid"
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargets",
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets"
+                ]
+            },
+            "MT_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/InfestedDefenseB"
+                ]
+            },
+            "MT_MOBILE_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerDerelictMobileDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/InfestedSquadD"
+                ]
             }
         }
     },
@@ -1413,38 +1413,8 @@
         "uniqueName": "/Lotus/Types/Game/RegionTilesets/OrokinMoonTilesetCorpus",
         "faction": "FC_CORPUS",
         "missions": {
-            "MT_ARTIFACT": {
-                "advancedSpawners": [
-                    "/Lotus/Types/Enemies/AdvancedSpawners/SentientTrooperSpawner"
-                ],
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSurvivalA",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSurvivalB"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionCorpusLua"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonDisruption"
-            },
-            "MT_CAPTURE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadC",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadD"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonCapture"
-            },
-            "MT_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonDefense"
-            },
             "MT_EXTERMINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonExterminate",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusExterminateSimple",
                     "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
@@ -1455,10 +1425,41 @@
                     "/Lotus/Types/Game/EnemySpecs/GrineerExterminateBlades",
                     "/Lotus/Types/Game/EnemySpecs/GrineerExterminateFire",
                     "/Lotus/Types/Game/EnemySpecs/GrineerExterminateTech"
+                ]
+            },
+            "MT_SURVIVAL": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonSurvival",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSurvivalA",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSurvivalB"
+                ]
+            },
+            "MT_RESCUE": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonRescue",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadC",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadD"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonExterminate"
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/RescueCorrupted"
+                ]
+            },
+            "MT_CAPTURE": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonCapture",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadC",
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadD"
+                ],
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets"
+                ]
             },
             "MT_INTEL": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonSpy",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusGrineerMix",
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadC",
@@ -1466,36 +1467,35 @@
                 ],
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusGrineerMixMoonIntelTiers"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonSpy"
+                ]
+            },
+            "MT_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadDefenseB"
+                ]
             },
             "MT_MOBILE_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonMobileDefense",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadC",
                     "/Lotus/Types/Game/EnemySpecs/CorpusSquadD"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonMobileDefense"
+                ]
             },
-            "MT_RESCUE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadA",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadB",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadC",
-                    "/Lotus/Types/Game/EnemySpecs/CorpusSquadD"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/RescueCorrupted"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonRescue"
-            },
-            "MT_SURVIVAL": {
+            "MT_ARTIFACT": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonDisruption",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusSurvivalA",
                     "/Lotus/Types/Game/EnemySpecs/CorpusSurvivalB"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonSurvival"
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/SpecialMissionSpecs/DisruptionCorpusLua"
+                ],
+                "advancedSpawners": [
+                    "/Lotus/Types/Enemies/AdvancedSpawners/SentientTrooperSpawner"
+                ]
             }
         }
     },
@@ -1503,52 +1503,52 @@
         "uniqueName": "/Lotus/Types/Game/RegionTilesets/OrokinMoonTilesetCorrupted",
         "faction": "FC_OROKIN",
         "missions": {
-            "MT_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/OrokinDefenseSquad",
-                    "/Lotus/Types/Game/EnemySpecs/OrokinDefenseSquadB"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonDefense"
-            },
             "MT_EXTERMINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonExterminate",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/OrokinExterminateB"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonExterminate"
+                ]
             },
-            "MT_INTEL": {
+            "MT_SURVIVAL": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonSurvival",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/OrokinSquadOne",
                     "/Lotus/Types/Game/EnemySpecs/OrokinSquadTwo"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusGrineerMixMoonIntelTiers"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonSpy"
-            },
-            "MT_MOBILE_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/OrokinSquadOne",
-                    "/Lotus/Types/Game/EnemySpecs/OrokinSquadTwo"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonMobileDefense"
+                ]
             },
             "MT_RESCUE": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonRescue",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/OrokinSquadOne",
                     "/Lotus/Types/Game/EnemySpecs/OrokinSquadTwo"
                 ],
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/RescueCorrupted"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonRescue"
+                ]
             },
-            "MT_SURVIVAL": {
+            "MT_INTEL": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonSpy",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/OrokinSquadOne",
                     "/Lotus/Types/Game/EnemySpecs/OrokinSquadTwo"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonSurvival"
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusGrineerMixMoonIntelTiers"
+                ]
+            },
+            "MT_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/OrokinDefenseSquad",
+                    "/Lotus/Types/Game/EnemySpecs/OrokinDefenseSquadB"
+                ]
+            },
+            "MT_MOBILE_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonMobileDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/OrokinSquadOne",
+                    "/Lotus/Types/Game/EnemySpecs/OrokinSquadTwo"
+                ]
             }
         }
     },
@@ -1556,24 +1556,8 @@
         "uniqueName": "/Lotus/Types/Game/RegionTilesets/OrokinMoonTilesetGrineer",
         "faction": "FC_GRINEER",
         "missions": {
-            "MT_CAPTURE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargets"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonCapture"
-            },
-            "MT_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerMoonDefense"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonDefense"
-            },
             "MT_EXTERMINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonExterminate",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GrineerExterminateSimple",
                     "/Lotus/Types/Game/EnemySpecs/GrineerExterminateBlades",
@@ -1584,29 +1568,17 @@
                     "/Lotus/Types/Game/EnemySpecs/CorpusExterminateSimple",
                     "/Lotus/Types/Game/EnemySpecs/CorpusExterminateRobots",
                     "/Lotus/Types/Game/EnemySpecs/CorpusExterminateHumans"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonExterminate"
+                ]
             },
-            "MT_INTEL": {
+            "MT_SURVIVAL": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonSurvival",
                 "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusGrineerMixMoonIntelTiers"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonSpy"
-            },
-            "MT_MOBILE_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonMobileDefense"
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalA",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalB"
+                ]
             },
             "MT_RESCUE": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonRescue",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
                     "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
@@ -1614,15 +1586,43 @@
                 ],
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/RescueCorrupted"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonRescue"
+                ]
             },
-            "MT_SURVIVAL": {
+            "MT_CAPTURE": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonCapture",
                 "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalA",
-                    "/Lotus/Types/Game/EnemySpecs/GrineerSurvivalB"
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonSurvival"
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/GrineerCaptureTargets"
+                ]
+            },
+            "MT_INTEL": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonSpy",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour"
+                ],
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusGrineerMixMoonIntelTiers"
+                ]
+            },
+            "MT_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerMoonDefense"
+                ]
+            },
+            "MT_MOBILE_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinMoonMobileDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadSix",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFive",
+                    "/Lotus/Types/Game/EnemySpecs/GrineerSquadFour"
+                ]
             }
         }
     },
@@ -1630,38 +1630,22 @@
         "uniqueName": "/Lotus/Types/Game/RegionTilesets/OrokinVoidTileset",
         "faction": "FC_OROKIN",
         "missions": {
-            "MT_CAPTURE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/OrokinSquadOne",
-                    "/Lotus/Types/Game/EnemySpecs/OrokinSquadTwo"
-                ],
-                "extraEnemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerCapture"
-            },
-            "MT_DEFENSE": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/OrokinDefenseSquad",
-                    "/Lotus/Types/Game/EnemySpecs/OrokinDefenseSquadB"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerDefense"
-            },
             "MT_EXTERMINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerExterminate",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/OrokinExterminateA",
                     "/Lotus/Types/Game/EnemySpecs/OrokinExterminateB"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerExterminate"
+                ]
             },
-            "MT_MOBILE_DEFENSE": {
+            "MT_SURVIVAL": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerSurvivalRaid",
                 "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/OrokinSquadOne",
-                    "/Lotus/Types/Game/EnemySpecs/OrokinSquadTwo"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerMobileDefense"
+                    "/Lotus/Types/Game/EnemySpecs/OrokinSurvivalA",
+                    "/Lotus/Types/Game/EnemySpecs/OrokinSurvivalB"
+                ]
             },
             "MT_SABOTAGE": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerSabotageForest",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/OrokinSquadOne",
                     "/Lotus/Types/Game/EnemySpecs/OrokinSquadTwo"
@@ -1669,22 +1653,38 @@
                 "extraEnemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/OrokinSabotageGrineerForest"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerSabotageForest",
                 "vipAgent": "/Lotus/Types/Enemies/Grineer/Vip/JetpackSisters/JetpackSisters"
             },
-            "MT_SURVIVAL": {
+            "MT_CAPTURE": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerCapture",
                 "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/OrokinSurvivalA",
-                    "/Lotus/Types/Game/EnemySpecs/OrokinSurvivalB"
+                    "/Lotus/Types/Game/EnemySpecs/OrokinSquadOne",
+                    "/Lotus/Types/Game/EnemySpecs/OrokinSquadTwo"
                 ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerSurvivalRaid"
+                "extraEnemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/GamemodeExtraEnemySpecs/CorpusCaptureTargets"
+                ]
             },
-            "MT_TERRITORY": {
+            "MT_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerDefense",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/OrokinDefenseSquad",
                     "/Lotus/Types/Game/EnemySpecs/OrokinDefenseSquadB"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerInterception"
+                ]
+            },
+            "MT_MOBILE_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerMobileDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/OrokinSquadOne",
+                    "/Lotus/Types/Game/EnemySpecs/OrokinSquadTwo"
+                ]
+            },
+            "MT_TERRITORY": {
+                "procLevel": "/Lotus/Levels/Proc/Orokin/OrokinTowerInterception",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/OrokinDefenseSquad",
+                    "/Lotus/Types/Game/EnemySpecs/OrokinDefenseSquadB"
+                ]
             }
         }
     },
@@ -1693,10 +1693,10 @@
         "faction": "FC_CORPUS",
         "missions": {
             "MT_LANDSCAPE": {
+                "procLevel": "/Lotus/Levels/Proc/CivilianHubs/VenusLandscape",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/CorpusVenus"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/CivilianHubs/VenusLandscape"
+                ]
             }
         }
     },
@@ -1704,38 +1704,38 @@
         "uniqueName": "/Lotus/Types/Game/RegionTilesets/ZarimanTileset",
         "faction": "FC_GRINEER",
         "missions": {
-            "MT_ARMAGEDDON": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/Zariman/GrineerZarimanEndlessAssassinateSpec"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Zariman/ZarimanAssassinateEndless"
-            },
-            "MT_CORRUPTION": {
-                "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/Zariman/ZarimanCorruptedAISpec"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Zariman/ZarimanCorruption"
-            },
             "MT_EXTERMINATION": {
+                "procLevel": "/Lotus/Levels/Proc/Zariman/ZarimanDirectionalExterminate",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/Zariman/GrineerZarimanExterminate"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Zariman/ZarimanDirectionalExterminate"
+                ]
+            },
+            "MT_MOBILE_DEFENSE": {
+                "procLevel": "/Lotus/Levels/Proc/Zariman/ZarimanMobileDefense",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/Zariman/GrineerZarimanMobileDefenseSpec"
+                ]
             },
             "MT_LANDSCAPE": {
                 "procLevel": "/Lotus/Levels/Proc/Zariman/ZarimanHubApartment"
             },
-            "MT_MOBILE_DEFENSE": {
+            "MT_CORRUPTION": {
+                "procLevel": "/Lotus/Levels/Proc/Zariman/ZarimanCorruption",
                 "enemySpecs": [
-                    "/Lotus/Types/Game/EnemySpecs/Zariman/GrineerZarimanMobileDefenseSpec"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Zariman/ZarimanMobileDefense"
+                    "/Lotus/Types/Game/EnemySpecs/Zariman/ZarimanCorruptedAISpec"
+                ]
             },
             "MT_VOID_CASCADE": {
+                "procLevel": "/Lotus/Levels/Proc/Zariman/ZarimanDirectionalSurvival",
                 "enemySpecs": [
                     "/Lotus/Types/Game/EnemySpecs/Zariman/GrineerZarimanSurvival"
-                ],
-                "procLevel": "/Lotus/Levels/Proc/Zariman/ZarimanDirectionalSurvival"
+                ]
+            },
+            "MT_ARMAGEDDON": {
+                "procLevel": "/Lotus/Levels/Proc/Zariman/ZarimanAssassinateEndless",
+                "enemySpecs": [
+                    "/Lotus/Types/Game/EnemySpecs/Zariman/GrineerZarimanEndlessAssassinateSpec"
+                ]
             }
         }
     }

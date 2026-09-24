@@ -200,12 +200,132 @@
         "excludeFromCodex": true,
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Game/Projections/T1VoidProjectionProteaIvaraVaultABronze": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicLithD.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T1VoidProjection",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Game/Projections/T1VoidProjectionProteaIvaraVaultAGold": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicLithB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T1VoidProjectionProteaIvaraVaultABronze",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Game/Projections/T1VoidProjectionProteaIvaraVaultAPlatinum": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicLithC.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T1VoidProjectionProteaIvaraVaultABronze",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Game/Projections/T1VoidProjectionProteaIvaraVaultASilver": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicLithA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T1VoidProjectionProteaIvaraVaultABronze",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Game/Projections/T2VoidProjection": {
         "name": "/Lotus/Language/Items/TierTwoProjection",
         "description": "/Lotus/Language/Items/ProjectionDescription",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Pickups/OmegaIsotope.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultABronze": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicMesoD.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T2VoidProjection",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultAGold": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicMesoB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultABronze",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultAPlatinum": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicMesoC.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultABronze",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultASilver": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicMesoA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultABronze",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultBBronze": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicMesoD.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T2VoidProjection",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultBGold": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicMesoB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultBBronze",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultBPlatinum": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicMesoC.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultBBronze",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultBSilver": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicMesoA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultBBronze",
         "productCategory": "MiscItems",
         "excludeFromCodex": true,
         "excludeFromMarket": true
@@ -221,12 +341,144 @@
         "rarity": "UNCOMMON",
         "excludeFromMarket": true
     },
+    "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultABronze": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicNeoD.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T3VoidProjection",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "rarity": "UNCOMMON",
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultAGold": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicNeoB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultABronze",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "rarity": "UNCOMMON",
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultAPlatinum": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicNeoC.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultABronze",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "rarity": "UNCOMMON",
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultASilver": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicNeoA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultABronze",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "rarity": "UNCOMMON",
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultBBronze": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicNeoD.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T3VoidProjection",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "rarity": "UNCOMMON",
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultBGold": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicNeoB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultBBronze",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "rarity": "UNCOMMON",
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultBPlatinum": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicNeoC.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultBBronze",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "rarity": "UNCOMMON",
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultBSilver": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicNeoA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultBBronze",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "rarity": "UNCOMMON",
+        "excludeFromMarket": true
+    },
     "/Lotus/Types/Game/Projections/T4VoidProjection": {
         "name": "/Lotus/Language/Items/TierFourProjection",
         "description": "/Lotus/Language/Items/ProjectionDescription",
         "icon": "/Lotus/Interface/Icons/StoreIcons/Pickups/OmegaIsotope.png",
         "codexSecret": false,
         "parentName": "/Lotus/Types/Game/Projections/T0VoidProjection",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "rarity": "UNCOMMON",
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Game/Projections/T4VoidProjectionProteaIvaraVaultABronze": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicAxiD.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T4VoidProjection",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "rarity": "UNCOMMON",
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Game/Projections/T4VoidProjectionProteaIvaraVaultAGold": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicAxiB.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T4VoidProjectionProteaIvaraVaultABronze",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "rarity": "UNCOMMON",
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Game/Projections/T4VoidProjectionProteaIvaraVaultAPlatinum": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicAxiC.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T4VoidProjectionProteaIvaraVaultABronze",
+        "productCategory": "MiscItems",
+        "excludeFromCodex": true,
+        "rarity": "UNCOMMON",
+        "excludeFromMarket": true
+    },
+    "/Lotus/Types/Game/Projections/T4VoidProjectionProteaIvaraVaultASilver": {
+        "name": "/Lotus/Language/Relics/VoidProjectionName",
+        "description": "/Lotus/Language/Items/ProjectionDescription",
+        "icon": "/Lotus/Interface/Icons/Relics/RelicAxiA.png",
+        "codexSecret": false,
+        "parentName": "/Lotus/Types/Game/Projections/T4VoidProjectionProteaIvaraVaultABronze",
         "productCategory": "MiscItems",
         "excludeFromCodex": true,
         "rarity": "UNCOMMON",

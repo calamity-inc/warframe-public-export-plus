@@ -37317,6 +37317,7 @@
             "health": 16500,
             "damageController": "/Lotus/Types/Enemies/Quests/JadeShadowsPart2Quest/JS2QAshBossDamageController",
             "killXPReward": 5000,
+            "droptable": "/Lotus/Types/JadeShadowsPart2Mission/Enemies/DropTables/JS2MAshGroundBossDropTable",
             "codexScansRequired": 1,
             "excludeFromSimulacrum": true
         },
@@ -37327,6 +37328,7 @@
             "damageController": "/Lotus/Types/Enemies/Quests/JadeShadowsPart2Quest/JadeMockeryDamageController",
             "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
             "killXPReward": 5000,
+            "droptable": "/Lotus/Types/DropTables/TennoSpecterDropTable",
             "codexScansRequired": 5,
             "excludeFromSimulacrum": true
         },
@@ -39200,6 +39202,7 @@
             "health": 250,
             "damageController": "/Lotus/Types/Enemies/SpaceBattles/Grineer/Ships/GrnRamsledDamageController",
             "killXPReward": 400,
+            "droptable": "/Lotus/Types/DropTables/SpaceDropTables/GrineerRamsledEarthDropTable",
             "codexScansRequired": 5,
             "excludeFromSimulacrum": true
         },
@@ -40548,6 +40551,7 @@
             "damageController": "/Lotus/Types/Enemies/Tau/Primes/PrimeWarframesBossesDamageController",
             "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
             "killXPReward": 5000,
+            "droptable": "/Lotus/Types/DropTables/TennoSpecterDropTable",
             "codexScansRequired": 5,
             "excludeFromSimulacrum": true
         },
@@ -40559,6 +40563,7 @@
             "damageController": "/Lotus/Types/Enemies/Tau/Primes/PrimeWarframesBossesHardModeDamageController",
             "factionResistanceKeyword": "RK_OROKIN_EMPIRE_FACTION",
             "killXPReward": 5000,
+            "droptable": "/Lotus/Types/DropTables/TennoSpecterDropTable",
             "codexScansRequired": 5,
             "excludeFromSimulacrum": true
         },
@@ -90563,44 +90568,6 @@
                 ]
             }
         ],
-        "/Lotus/Types/DropTables/AscensionWrinkleHardDropTable": [
-            {
-                "type": "mod",
-                "chance": 1.0,
-                "items": [
-                    {
-                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AbilityPowerOnFreeze",
-                        "probability": 0.2
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/BonusDamageNextShotForCurEnergy",
-                        "probability": 0.2
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/DuplicateStatusOnKnock",
-                        "probability": 0.2
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MaxEnergyForArmor",
-                        "probability": 0.2
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OverguardSteal",
-                        "probability": 0.2
-                    }
-                ]
-            },
-            {
-                "type": "resource",
-                "chance": 1.0,
-                "items": [
-                    {
-                        "type": "/Lotus/Types/Items/MiscItems/SteelEssence20Pack",
-                        "probability": 1.0
-                    }
-                ]
-            }
-        ],
         "/Lotus/Types/DropTables/AscensionWrinkleNormalDropTable": [
             {
                 "type": "mod",
@@ -94381,11 +94348,11 @@
                 "chance": 0.2,
                 "items": [
                     {
-                        "type": "/Lotus/Types/Game/Projections/T1VoidProjectionCalibanPrimeDBronze",
+                        "type": "/Lotus/Types/Game/Projections/T1VoidProjectionCalibanPrimeFBronze",
                         "probability": 0.1291
                     },
                     {
-                        "type": "/Lotus/Types/Game/Projections/T1VoidProjectionCalibanPrimeFBronze",
+                        "type": "/Lotus/Types/Game/Projections/T1VoidProjectionStyanaxPrimeBBronze",
                         "probability": 0.1291
                     },
                     {
@@ -94393,7 +94360,11 @@
                         "probability": 0.1291
                     },
                     {
-                        "type": "/Lotus/Types/Game/Projections/T2VoidProjectionVorunaPrimeBBronze",
+                        "type": "/Lotus/Types/Game/Projections/T2VoidProjectionStyanaxPrimeCBronze",
+                        "probability": 0.1291
+                    },
+                    {
+                        "type": "/Lotus/Types/Game/Projections/T2VoidProjectionStyanaxPrimeDBronze",
                         "probability": 0.1291
                     },
                     {
@@ -94401,15 +94372,11 @@
                         "probability": 0.1291
                     },
                     {
-                        "type": "/Lotus/Types/Game/Projections/T2VoidProjectionVorunaPrimeEBronze",
-                        "probability": 0.1291
-                    },
-                    {
                         "type": "/Lotus/Types/Game/Projections/T3VoidProjectionGyrePrimeCBronze",
                         "probability": 0.0451
                     },
                     {
-                        "type": "/Lotus/Types/Game/Projections/T3VoidProjectionVorunaPrimeABronze",
+                        "type": "/Lotus/Types/Game/Projections/T3VoidProjectionStyanaxPrimeCBronze",
                         "probability": 0.0451
                     },
                     {
@@ -102018,31 +101985,31 @@
                 "items": [
                     {
                         "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard",
-                        "probability": 0.3455
+                        "probability": 0.2529
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/BreachRepair",
-                        "probability": 0.1625
+                        "probability": 0.2529
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/FireExtinguish",
-                        "probability": 0.1625
+                        "probability": 0.2529
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix",
-                        "probability": 0.151
+                        "probability": 0.1106
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard",
-                        "probability": 0.151
+                        "probability": 0.1106
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard",
-                        "probability": 0.0137
+                        "probability": 0.0101
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo",
-                        "probability": 0.0137
+                        "probability": 0.0101
                     }
                 ]
             },
@@ -102095,7 +102062,7 @@
                         "probability": 0.1106
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanMaxShieldOnKill",
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard",
                         "probability": 0.0101
                     },
                     {
@@ -102109,7 +102076,7 @@
                 "chance": 0.75,
                 "items": [
                     {
-                        "type": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                        "type": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
                         "probability": 0.3794
                     },
                     {
@@ -102117,11 +102084,11 @@
                         "probability": 0.3794
                     },
                     {
-                        "type": "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem",
+                        "type": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
                         "probability": 0.2211
                     },
                     {
-                        "type": "/Lotus/Types/Items/RailjackMiscItems/AucruxRailjackItem",
+                        "type": "/Lotus/Types/Items/RailjackMiscItems/KommsRailjackItem",
                         "probability": 0.0201
                     }
                 ]
@@ -102245,28 +102212,32 @@
                 "chance": 0.15,
                 "items": [
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttractorAbilityCard",
-                        "probability": 0.3697
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFastOrdnanceLock",
-                        "probability": 0.2983
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/BreachRepair",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/VoidCloak",
-                        "probability": 0.2983
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/FireExtinguish",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipEMPAbilityCard",
-                        "probability": 0.0112
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix",
+                        "probability": 0.1106
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarSentientKiller",
-                        "probability": 0.0112
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard",
+                        "probability": 0.1106
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipDeathBlossomAbilityCard",
-                        "probability": 0.0112
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard",
+                        "probability": 0.0101
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo",
+                        "probability": 0.0101
                     }
                 ]
             },
@@ -102411,28 +102382,32 @@
                 "chance": 0.15,
                 "items": [
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFastOrdnanceLock",
-                        "probability": 0.3794
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/VoidCloak",
-                        "probability": 0.3794
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/BreachRepair",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttractorAbilityCard",
-                        "probability": 0.0737
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/FireExtinguish",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritDamage",
-                        "probability": 0.0737
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix",
+                        "probability": 0.1106
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarOffensiveMatrix",
-                        "probability": 0.0737
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard",
+                        "probability": 0.1106
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanShieldOnCrit",
-                        "probability": 0.0201
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard",
+                        "probability": 0.0101
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo",
+                        "probability": 0.0101
                     }
                 ]
             },
@@ -102441,7 +102416,7 @@
                 "chance": 0.75,
                 "items": [
                     {
-                        "type": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                        "type": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
                         "probability": 0.3794
                     },
                     {
@@ -102449,11 +102424,11 @@
                         "probability": 0.3794
                     },
                     {
-                        "type": "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem",
+                        "type": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
                         "probability": 0.2211
                     },
                     {
-                        "type": "/Lotus/Types/Items/RailjackMiscItems/AucruxRailjackItem",
+                        "type": "/Lotus/Types/Items/RailjackMiscItems/KommsRailjackItem",
                         "probability": 0.0201
                     }
                 ]
@@ -102465,28 +102440,32 @@
                 "chance": 0.15,
                 "items": [
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanFastOrdnanceLock",
-                        "probability": 0.2983
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/VoidCloak",
-                        "probability": 0.2983
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/BreachRepair",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttractorAbilityCard",
-                        "probability": 0.1232
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/FireExtinguish",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGunnerWeaponCritDamage",
-                        "probability": 0.1232
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix",
+                        "probability": 0.1106
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarOffensiveMatrix",
-                        "probability": 0.1232
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard",
+                        "probability": 0.1106
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanShieldOnCrit",
-                        "probability": 0.0336
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard",
+                        "probability": 0.0101
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo",
+                        "probability": 0.0101
                     }
                 ]
             },
@@ -102495,7 +102474,7 @@
                 "chance": 0.75,
                 "items": [
                     {
-                        "type": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                        "type": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
                         "probability": 0.3794
                     },
                     {
@@ -102503,11 +102482,11 @@
                         "probability": 0.3794
                     },
                     {
-                        "type": "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem",
+                        "type": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
                         "probability": 0.2211
                     },
                     {
-                        "type": "/Lotus/Types/Items/RailjackMiscItems/AucruxRailjackItem",
+                        "type": "/Lotus/Types/Items/RailjackMiscItems/KommsRailjackItem",
                         "probability": 0.0201
                     }
                 ]
@@ -102519,48 +102498,32 @@
                 "chance": 0.15,
                 "items": [
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipFlaresAbilityCard",
-                        "probability": 0.5152
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipTetherAbilityCard",
-                        "probability": 0.0635
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/BreachRepair",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Engineering/VidarDefensiveMatrix",
-                        "probability": 0.0635
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/FireExtinguish",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSiegeMatrixAura",
-                        "probability": 0.0635
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix",
+                        "probability": 0.1106
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipBattleCraftingAbilityCard",
-                        "probability": 0.0635
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard",
+                        "probability": 0.1106
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipMassRecallAbilityCard",
-                        "probability": 0.0635
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard",
+                        "probability": 0.0101
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipQuadDamageAbilityCard",
-                        "probability": 0.0635
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipStasisAbilityCard",
-                        "probability": 0.0635
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanOrdnanceSpeed",
-                        "probability": 0.0135
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarCorpusKiller",
-                        "probability": 0.0135
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed",
-                        "probability": 0.0135
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo",
+                        "probability": 0.0101
                     }
                 ]
             },
@@ -102593,28 +102556,32 @@
                 "chance": 0.15,
                 "items": [
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttackAbilityCard",
-                        "probability": 0.4583
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSiegeMatrixAura",
-                        "probability": 0.4583
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/BreachRepair",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanMaxShieldOnKill",
-                        "probability": 0.0208
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/FireExtinguish",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanShieldOnCrit",
-                        "probability": 0.0208
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix",
+                        "probability": 0.1106
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard",
+                        "probability": 0.1106
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard",
+                        "probability": 0.0101
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo",
-                        "probability": 0.0208
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanMultiToolPower",
-                        "probability": 0.0208
+                        "probability": 0.0101
                     }
                 ]
             },
@@ -102623,7 +102590,7 @@
                 "chance": 0.75,
                 "items": [
                     {
-                        "type": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                        "type": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
                         "probability": 0.3794
                     },
                     {
@@ -102631,11 +102598,11 @@
                         "probability": 0.3794
                     },
                     {
-                        "type": "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem",
+                        "type": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
                         "probability": 0.2211
                     },
                     {
-                        "type": "/Lotus/Types/Items/RailjackMiscItems/AucruxRailjackItem",
+                        "type": "/Lotus/Types/Items/RailjackMiscItems/KommsRailjackItem",
                         "probability": 0.0201
                     }
                 ]
@@ -102647,66 +102614,32 @@
                 "chance": 0.15,
                 "items": [
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSiegeMatrixAura",
-                        "probability": 0.7857
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttackAbilityCard",
-                        "probability": 0.0714
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/BreachRepair",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanMaxShieldOnKill",
-                        "probability": 0.0357
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/FireExtinguish",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanShieldOnCrit",
-                        "probability": 0.0357
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix",
+                        "probability": 0.1106
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard",
+                        "probability": 0.1106
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard",
+                        "probability": 0.0101
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo",
-                        "probability": 0.0357
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanMultiToolPower",
-                        "probability": 0.0357
-                    }
-                ]
-            },
-            {
-                "type": "blueprint",
-                "chance": 0.2,
-                "items": [
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/EnginesZektiC",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/HullMaterialsZektiC",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/ReactorZektiC",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/ShieldArrayZektiC",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/ElectricTether/ZektiElectricTetherCannonTierC",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/IceSniper/ZektiIceSniperCannonTierC",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/ZektiGatlingLaserTierC",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ZektiShrapnelShotgunTierC",
-                        "probability": 0.125
+                        "probability": 0.0101
                     }
                 ]
             },
@@ -102715,7 +102648,7 @@
                 "chance": 0.75,
                 "items": [
                     {
-                        "type": "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+                        "type": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
                         "probability": 0.3794
                     },
                     {
@@ -102723,11 +102656,11 @@
                         "probability": 0.3794
                     },
                     {
-                        "type": "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem",
+                        "type": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
                         "probability": 0.2211
                     },
                     {
-                        "type": "/Lotus/Types/Items/RailjackMiscItems/AucruxRailjackItem",
+                        "type": "/Lotus/Types/Items/RailjackMiscItems/KommsRailjackItem",
                         "probability": 0.0201
                     }
                 ]
@@ -102739,32 +102672,32 @@
                 "chance": 0.15,
                 "items": [
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttackAbilityCard",
-                        "probability": 0.9167
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipBlackHoleAbilityCard",
-                        "probability": 0.0139
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/BreachRepair",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarCorpusKiller",
-                        "probability": 0.0139
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/FireExtinguish",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGrineerKiller",
-                        "probability": 0.0139
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix",
+                        "probability": 0.1106
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarSentientKiller",
-                        "probability": 0.0139
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard",
+                        "probability": 0.1106
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanMultiToolPower",
-                        "probability": 0.0139
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard",
+                        "probability": 0.0101
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSpeed",
-                        "probability": 0.0139
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo",
+                        "probability": 0.0101
                     }
                 ]
             },
@@ -102797,32 +102730,32 @@
                 "chance": 0.15,
                 "items": [
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipBlackHoleAbilityCard",
-                        "probability": 0.2
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarCorpusKiller",
-                        "probability": 0.2
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/BreachRepair",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGrineerKiller",
-                        "probability": 0.2
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/FireExtinguish",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarSentientKiller",
-                        "probability": 0.2
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix",
+                        "probability": 0.1106
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Piloting/LavanMultiToolPower",
-                        "probability": 0.2
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard",
+                        "probability": 0.1106
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttackAbilityCard",
-                        "probability": 0
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard",
+                        "probability": 0.0101
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Railjack/Piloting/ZektiSpeed",
-                        "probability": 0
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo",
+                        "probability": 0.0101
                     }
                 ]
             },
@@ -103749,48 +103682,6 @@
                         "probability": 0.0135
                     }
                 ]
-            },
-            {
-                "type": "blueprint",
-                "chance": 1.0,
-                "items": [
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/EnginesZektiC",
-                        "probability": 0.1111
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/HullMaterialsZektiC",
-                        "probability": 0.1111
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/ReactorZektiC",
-                        "probability": 0.1111
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/ShieldArrayZektiC",
-                        "probability": 0.1111
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/Laser/Beam/ZektiRailJackBeamWeaponTierC",
-                        "probability": 0.1111
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/Laser/Blaster/ZektiBlasterShotgunTierC",
-                        "probability": 0.1111
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/Laser/Blaster/ZektiBlasterTierC",
-                        "probability": 0.1111
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/Laser/PulseLaser/ZektiPulseLaserTierC",
-                        "probability": 0.1111
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/ZektiAutoCannonTierC",
-                        "probability": 0.1111
-                    }
-                ]
             }
         ],
         "/Lotus/Types/DropTables/SpaceDropTables/GrineerOutriderEliteEarthDropTable": [
@@ -103837,48 +103728,6 @@
                     {
                         "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarTurretRangeAndSpeed",
                         "probability": 0.0101
-                    }
-                ]
-            },
-            {
-                "type": "blueprint",
-                "chance": 1.0,
-                "items": [
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/EnginesZektiA",
-                        "probability": 0.1111
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/HullMaterialsZektiA",
-                        "probability": 0.1111
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/ReactorZektiA",
-                        "probability": 0.1111
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/ShieldArrayZektiA",
-                        "probability": 0.1111
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/Laser/Beam/ZektiRailJackBeamWeaponTierA",
-                        "probability": 0.1111
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/Laser/Blaster/ZektiBlasterShotgunTierA",
-                        "probability": 0.1111
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/Laser/Blaster/ZektiBlasterTierA",
-                        "probability": 0.1111
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/Laser/PulseLaser/ZektiPulseLaserTierA",
-                        "probability": 0.1111
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/ZektiAutoCannonTierA",
-                        "probability": 0.1111
                     }
                 ]
             }
@@ -103933,46 +103782,62 @@
                         "probability": 0.0037
                     }
                 ]
-            },
+            }
+        ],
+        "/Lotus/Types/DropTables/SpaceDropTables/GrineerRamsledEarthDropTable": [
             {
-                "type": "blueprint",
-                "chance": 1.0,
+                "type": "mod",
+                "chance": 0.15,
                 "items": [
                     {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/EnginesZektiB",
-                        "probability": 0.1111
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/HullMaterialsZektiB",
-                        "probability": 0.1111
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/BreachRepair",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/ReactorZektiB",
-                        "probability": 0.1111
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/FireExtinguish",
+                        "probability": 0.2529
                     },
                     {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/ShieldArrayZektiB",
-                        "probability": 0.1111
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Engineering/LavanEngineerMatrix",
+                        "probability": 0.1106
                     },
                     {
-                        "type": "/Lotus/Weapons/CrewShip/Laser/Beam/ZektiRailJackBeamWeaponTierB",
-                        "probability": 0.1111
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Tactical/CrewShipAfterBurnersAbilityCard",
+                        "probability": 0.1106
                     },
                     {
-                        "type": "/Lotus/Weapons/CrewShip/Laser/Blaster/ZektiBlasterShotgunTierB",
-                        "probability": 0.1111
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard",
+                        "probability": 0.0101
                     },
                     {
-                        "type": "/Lotus/Weapons/CrewShip/Laser/Blaster/ZektiBlasterTierB",
-                        "probability": 0.1111
+                        "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo",
+                        "probability": 0.0101
+                    }
+                ]
+            },
+            {
+                "type": "resource",
+                "chance": 0.75,
+                "items": [
+                    {
+                        "type": "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+                        "probability": 0.3794
                     },
                     {
-                        "type": "/Lotus/Weapons/CrewShip/Laser/PulseLaser/ZektiPulseLaserTierB",
-                        "probability": 0.1111
+                        "type": "/Lotus/Types/Items/RailjackMiscItems/ScrapRailjackItem",
+                        "probability": 0.3794
                     },
                     {
-                        "type": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/ZektiAutoCannonTierB",
-                        "probability": 0.1111
+                        "type": "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+                        "probability": 0.2211
+                    },
+                    {
+                        "type": "/Lotus/Types/Items/RailjackMiscItems/KommsRailjackItem",
+                        "probability": 0.0201
                     }
                 ]
             }
@@ -104383,44 +104248,6 @@
                 ]
             },
             {
-                "type": "blueprint",
-                "chance": 0.2,
-                "items": [
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/EnginesLavanB",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/EnginesVidarB",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/HullMaterialsLavanB",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/HullMaterialsVidarB",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/ReactorLavanB",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/ReactorVidarB",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/ShieldArrayLavanB",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/ShieldArrayVidarB",
-                        "probability": 0.125
-                    }
-                ]
-            },
-            {
                 "type": "resource",
                 "chance": 0.75,
                 "items": [
@@ -104649,44 +104476,6 @@
                     {
                         "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarCorpusKiller",
                         "probability": 0.0217
-                    }
-                ]
-            },
-            {
-                "type": "blueprint",
-                "chance": 0.2,
-                "items": [
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/EnginesZektiB",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/HullMaterialsZektiB",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/ReactorZektiB",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/ShieldArrayZektiB",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/ElectricTether/ZektiElectricTetherCannonTierB",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/IceSniper/ZektiIceSniperCannonTierB",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/ZektiGatlingLaserTierB",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ZektiShrapnelShotgunTierB",
-                        "probability": 0.125
                     }
                 ]
             },
@@ -105143,44 +104932,6 @@
                     {
                         "type": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGrineerKiller",
                         "probability": 0.0212
-                    }
-                ]
-            },
-            {
-                "type": "blueprint",
-                "chance": 0.2,
-                "items": [
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/EnginesZektiC",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/HullMaterialsZektiC",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/ReactorZektiC",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/ShieldArrayZektiC",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/ElectricTether/ZektiElectricTetherCannonTierC",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/IceSniper/ZektiIceSniperCannonTierC",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/ZektiGatlingLaserTierC",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ZektiShrapnelShotgunTierC",
-                        "probability": 0.125
                     }
                 ]
             },
@@ -106253,44 +106004,6 @@
                 ]
             },
             {
-                "type": "blueprint",
-                "chance": 0.2,
-                "items": [
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/EnginesZektiA",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/HullMaterialsZektiA",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/ReactorZektiA",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Skins/RailJack/ShieldArrayZektiA",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/ElectricTether/ZektiElectricTetherCannonTierA",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/IceSniper/ZektiIceSniperCannonTierA",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/ZektiGatlingLaserTierA",
-                        "probability": 0.125
-                    },
-                    {
-                        "type": "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ZektiShrapnelShotgunTierA",
-                        "probability": 0.125
-                    }
-                ]
-            },
-            {
                 "type": "resource",
                 "chance": 0.75,
                 "items": [
@@ -106447,38 +106160,50 @@
                 "chance": 0.03,
                 "items": [
                     {
-                        "type": "/Lotus/Upgrades/Mods/Warframe/AvatarDamageResistanceElectricity",
-                        "probability": 0.2529
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Mods/Warframe/AvatarDamageResistanceFire",
-                        "probability": 0.2529
-                    },
-                    {
                         "type": "/Lotus/Upgrades/Mods/FusionBundles/CommonFusionBundle",
-                        "probability": 0.2529
+                        "probability": 0.7588
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponFireRateMod",
+                        "probability": 0.0553
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Pistol/WeaponArmorPiercingDamageMod",
+                        "probability": 0.0553
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Rifle/WeaponToxinDamageMod",
+                        "probability": 0.0553
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
-                        "probability": 0.2211
+                        "probability": 0.0553
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Pistol/WeaponPunctureDepthMod",
-                        "probability": 0.0101
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponSlashDamageMod",
+                        "probability": 0.0067
+                    },
+                    {
+                        "type": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/DualDaggerCmbTwoMeleeTree",
+                        "probability": 0.0067
                     },
                     {
                         "type": "/Lotus/Upgrades/Mods/FusionBundles/RareFusionBundle",
-                        "probability": 0.0101
+                        "probability": 0.0067
                     }
                 ]
             },
             {
                 "type": "resource",
-                "chance": 0.07,
+                "chance": 0.01,
                 "items": [
                     {
                         "type": "/Lotus/RESOLUTION_FAILURE/Region Resource",
-                        "probability": 1.0
+                        "probability": 0.9742
+                    },
+                    {
+                        "type": "/Lotus/Types/Items/MiscItems/Tellurium",
+                        "probability": 0.0258
                     }
                 ]
             }
@@ -106489,42 +106214,50 @@
                 "chance": 0.03,
                 "items": [
                     {
-                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponProcTimeMod",
-                        "probability": 0.2529
+                        "type": "/Lotus/Upgrades/Mods/FusionBundles/CommonFusionBundle",
+                        "probability": 0.7588
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Shotgun/WeaponArmorPiercingDamageMod",
-                        "probability": 0.2529
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponFireRateMod",
+                        "probability": 0.0553
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Warframe/AvatarShieldMaxMod",
-                        "probability": 0.2529
+                        "type": "/Lotus/Upgrades/Mods/Pistol/WeaponArmorPiercingDamageMod",
+                        "probability": 0.0553
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponMeleeComboChanceFromDot",
-                        "probability": 0.1106
+                        "type": "/Lotus/Upgrades/Mods/Rifle/WeaponToxinDamageMod",
+                        "probability": 0.0553
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Pistol/WeaponPistolFactionDamageInfested",
-                        "probability": 0.1106
+                        "type": "/Lotus/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
+                        "probability": 0.0553
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Rifle/WeaponGrenadeStickyMod",
-                        "probability": 0.0101
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponSlashDamageMod",
+                        "probability": 0.0067
                     },
                     {
-                        "type": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/AxeCmbTwoMeleeTree",
-                        "probability": 0.0101
+                        "type": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/DualDaggerCmbTwoMeleeTree",
+                        "probability": 0.0067
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/FusionBundles/RareFusionBundle",
+                        "probability": 0.0067
                     }
                 ]
             },
             {
                 "type": "resource",
-                "chance": 0.07,
+                "chance": 0.01,
                 "items": [
                     {
                         "type": "/Lotus/RESOLUTION_FAILURE/Region Resource",
-                        "probability": 1.0
+                        "probability": 0.9742
+                    },
+                    {
+                        "type": "/Lotus/Types/Items/MiscItems/Tellurium",
+                        "probability": 0.0258
                     }
                 ]
             }
@@ -106726,31 +106459,27 @@
         "/Lotus/Types/DropTables/TennoSpecterDropTable": [
             {
                 "type": "mod",
-                "chance": 0.15,
+                "chance": 0.03,
                 "items": [
                     {
-                        "type": "/Lotus/Upgrades/Mods/Antiques/DashDistanceSchools",
-                        "probability": 0.1667
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponCritFireRateBonusMod",
+                        "probability": 0.2
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Antiques/HealthAndShieldSchools",
-                        "probability": 0.1667
+                        "type": "/Lotus/Upgrades/Mods/Warframe/AvatarChanceToLoot",
+                        "probability": 0.2
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Antiques/SuperSpeedSchools",
-                        "probability": 0.1667
+                        "type": "/Lotus/Upgrades/Mods/Warframe/AvatarDamageToEnergyMod",
+                        "probability": 0.2
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Antiques/UltimateInitialChargeSchools",
-                        "probability": 0.1667
+                        "type": "/Lotus/Upgrades/Mods/Warframe/AvatarPowerMaxMod",
+                        "probability": 0.2
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Antiques/VoidSlingCrateBreaker",
-                        "probability": 0.1667
-                    },
-                    {
-                        "type": "/Lotus/Upgrades/Mods/Antiques/WeaponDamageSchools",
-                        "probability": 0.1667
+                        "type": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/KatanaCmbTwoMeleeTree",
+                        "probability": 0.2
                     }
                 ]
             },
@@ -106885,30 +106614,50 @@
                 "chance": 0.03,
                 "items": [
                     {
-                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponCritChanceMod",
-                        "probability": 0.3872
+                        "type": "/Lotus/Upgrades/Mods/FusionBundles/CommonFusionBundle",
+                        "probability": 0.7588
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Warframe/AvatarShieldMaxMod",
-                        "probability": 0.3872
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponFireRateMod",
+                        "probability": 0.0553
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Pistol/WeaponFireRateMod",
-                        "probability": 0.1128
+                        "type": "/Lotus/Upgrades/Mods/Pistol/WeaponArmorPiercingDamageMod",
+                        "probability": 0.0553
                     },
                     {
-                        "type": "/Lotus/Upgrades/Mods/Shotgun/WeaponToxinDamageMod",
-                        "probability": 0.1128
+                        "type": "/Lotus/Upgrades/Mods/Rifle/WeaponToxinDamageMod",
+                        "probability": 0.0553
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/FusionBundles/UncommonFusionBundle",
+                        "probability": 0.0553
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Melee/WeaponSlashDamageMod",
+                        "probability": 0.0067
+                    },
+                    {
+                        "type": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/DualDaggerCmbTwoMeleeTree",
+                        "probability": 0.0067
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/FusionBundles/RareFusionBundle",
+                        "probability": 0.0067
                     }
                 ]
             },
             {
                 "type": "resource",
-                "chance": 0.07,
+                "chance": 0.01,
                 "items": [
                     {
                         "type": "/Lotus/RESOLUTION_FAILURE/Region Resource",
-                        "probability": 1.0
+                        "probability": 0.9742
+                    },
+                    {
+                        "type": "/Lotus/Types/Items/MiscItems/Tellurium",
+                        "probability": 0.0258
                     }
                 ]
             }
@@ -109809,6 +109558,44 @@
                     {
                         "type": "/Lotus/Types/Gameplay/1999Wf/PvPvE/Objectives/ExcavatorCellItem",
                         "probability": 1.0
+                    }
+                ]
+            }
+        ],
+        "/Lotus/Types/JadeShadowsPart2Mission/Enemies/DropTables/JS2MAshGroundBossDropTable": [
+            {
+                "type": "mod",
+                "chance": 0.04,
+                "items": [
+                    {
+                        "type": "/Lotus/Upgrades/Mods/Rifle/WeaponBeamExplodeOnDeath",
+                        "probability": 0.25
+                    },
+                    {
+                        "type": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/FistCmbThreeMeleeTree",
+                        "probability": 0.25
+                    },
+                    {
+                        "type": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/RapierCmbOneMeleeTree",
+                        "probability": 0.25
+                    },
+                    {
+                        "type": "/Lotus/Upgrades/Mods/FusionBundles/RareFusionBundle",
+                        "probability": 0.25
+                    }
+                ]
+            },
+            {
+                "type": "resource",
+                "chance": 0.07,
+                "items": [
+                    {
+                        "type": "/Lotus/RESOLUTION_FAILURE/Region Resource",
+                        "probability": 0.9742
+                    },
+                    {
+                        "type": "/Lotus/Types/Items/MiscItems/Tellurium",
+                        "probability": 0.0258
                     }
                 ]
             }
