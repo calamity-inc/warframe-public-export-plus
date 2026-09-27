@@ -1,0 +1,1 @@
+All the data in this project is auto-generated via [this script](https://github.com/calamity-inc/warframe-public-export-plus-gen/blob/senpai/index.pluto). As such, PRs to the data are useless. The generator (or its dependencies) would need to be PR'd. Thanks for your understanding.
