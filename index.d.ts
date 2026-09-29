@@ -962,6 +962,8 @@ export interface IUpgrade {
         suffixTag: string;
         canBeBuff: boolean;
         canBeCurse: boolean;
+        buffRestrictions?: readonly string[];
+        curseRestrictions?: readonly string[];
         upgradeValues: readonly {
             value: number;
             locTag?: string;
