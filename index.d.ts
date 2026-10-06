@@ -962,6 +962,7 @@ export interface IUpgrade {
         suffixTag: string;
         canBeBuff: boolean;
         canBeCurse: boolean;
+        isAdvancedTrait?: boolean;
         buffRestrictions?: readonly string[];
         curseRestrictions?: readonly string[];
         upgradeValues: readonly {
@@ -969,6 +970,11 @@ export interface IUpgrade {
             locTag?: string;
             reverseValueSymbol?: boolean;
         }[];
+    }[];
+    mergeOptions?: readonly { // for rivens
+        resultTag: string;
+        primaryIngredient: string;
+        secondaryIngredient: string;
     }[];
     availableChallenges?: readonly { // for rivens
         fullName: string;
